@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+# collect-options: Interactive trip options collector
+# Usage: ./tools/collect-options [trip-id]
+# Example: ./tools/collect-options summer-2026
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PROFILE="$REPO_ROOT/profile/family.json"
+TRIPS_DIR="$REPO_ROOT/trips"
+
+# Trip ID from arg or prompt
+TRIP_ID="${1:-}"
+if [ -z "$TRIP_ID" ]; then
+  read -rp "Trip ID (e.g. summer-2026): " TRIP_ID
+fi
+
+TRIP_FILE="$TRIPS_DIR/${TRIP_ID}.json"
+
+# Initialize trip file if it doesn't exist
+if [ ! -f "$TRIP_FILE" ]; then
+  cat > "$TRIP_FILE" <<INIT
+{
+  "trip_id": "$TRIP_ID",
+  "status": "collecting",
+  "time_window": { "earliest": "", "latest": "" },
+  "duration_days": null,
+  "constraints": {
+    "hard": {},
+    "soft": {}
+  },
+  "preferences": {},
+  "options": [],
+  "notes": [],
+  "last_updated": "$(date -Iseconds)"
+}
+INIT
+  echo "Created new trip file: $TRIP_FILE"
+else
+  echo "Resuming trip: $TRIP_FILE"
+fi
+
+# Build context for Claude
+PROFILE_DATA=$(cat "$PROFILE")
+TRIP_DATA=$(cat "$TRIP_FILE")
+
+SYSTEM_PROMPT=$(cat <<'SYSPROMPT'
+You are the TravelOptimizer Options Collector — an interactive travel planning assistant for a family.
+
+## Your Role
+Help the family brainstorm and narrow down trip options. You collect constraints, preferences, and generate destination suggestions. You are conversational, warm, and efficient.
+
+## How You Work
+1. Review the family profile and any existing trip data
+2. Ask focused questions to fill in gaps (don't ask everything at once — 1-2 questions at a time)
+3. When you have enough info, suggest 3-5 destination options with reasoning
+4. Use web search when helpful (flight deals, seasonal events, visa info, weather)
+5. After each meaningful exchange, update the trip JSON file
+
+## Rules
+- Always read the current trip file before updating it (it may have changed)
+- When updating the trip file, preserve existing data and merge new info
+- Keep the conversation natural — don't dump all questions at once
+- For the first interaction, focus on: when, how long, and any must-haves
+- Score options 0-1 based on how well they match constraints/preferences
+- Update the family profile if you learn persistent info (names, home airport, etc.)
+- Be opinionated — recommend what you think is best, not just a neutral list
+
+## Files You Manage
+- Family profile: profile/family.json (persistent across trips)
+- Trip file: trips/<trip-id>.json (this specific trip)
+
+## Conversation Flow
+1. Greet, acknowledge what you already know from profile/trip data
+2. Gather time window and duration
+3. Gather hard constraints (budget, dates, must-dos)
+4. Gather soft preferences (climate, vibe, interests)
+5. Research and suggest options
+6. Refine based on feedback
+7. Lock in top choices for the next planning phase
+SYSPROMPT
+)
+
+INITIAL_CONTEXT="## Family Profile
+\`\`\`json
+$PROFILE_DATA
+\`\`\`
+
+## Current Trip Data
+\`\`\`json
+$TRIP_DATA
+\`\`\`
+
+Start the conversation. Review what you know and begin collecting options for this trip."
+
+# Launch interactive Claude session
+echo "---"
+echo "Starting options collector for trip: $TRIP_ID"
+echo "Trip file: $TRIP_FILE"
+echo "---"
+echo ""
+
+claude --allowedTools "Edit,Write,Read,WebSearch,WebFetch,Bash" \
+  --system-prompt "$SYSTEM_PROMPT" \
+  --prompt "$INITIAL_CONTEXT"
