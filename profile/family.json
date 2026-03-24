@@ -1,29 +1,88 @@
 {
   "family": {
     "members": [
-      { "role": "self", "name": "", "notes": "" },
-      { "role": "wife", "name": "", "notes": "" },
-      { "role": "daughter", "name": "", "notes": "" }
+      {
+        "role": "self",
+        "name": "",
+        "age": 49,
+        "notes": "Loves clear blue water, coasts. Doesn't like yoghurt."
+      },
+      {
+        "role": "wife",
+        "name": "",
+        "age": 47,
+        "notes": "Loves mountains, lakes, vintage bars with wood paneling, supper clubs. Fried rice for breakfast. No cheese."
+      },
+      {
+        "role": "daughter",
+        "name": "",
+        "age": 14,
+        "notes": "Loves cities, shopping (Brandy Melville etc), steak, potatoes, fish, green beans, oysters, sushi. Likes Starbucks and boba. No sandwiches, eggs, cheese, not much dairy."
+      }
     ],
-    "home_airport": "",
-    "home_city": ""
+    "home_airport": "PIT",
+    "home_city": "Pittsburgh, PA"
   },
   "defaults": {
     "travelers": 3,
-    "accommodation": "mid-range",
+    "accommodation": "mid-range-to-nice",
     "pace": "moderate"
   },
-  "recurring_preferences": {
-    "interests": [],
-    "cuisine": [],
-    "climate": "",
-    "avoid": []
+  "philosophy": {
+    "core": "Optimize everything — feel like we made above-average choices across the board",
+    "spending": "Love fancy places but not spending a ton. Think optimized value, not cheapest.",
+    "discovery": "Hidden gems over tourist traps. Elevated everyday experiences."
+  },
+  "food": {
+    "identity": "Foodies — love both cheap and expensive food but it must be really good",
+    "loves": [
+      "Sushi — especially cheap omakase under $100/pp",
+      "Japanese food on vacation",
+      "Really good restaurants in general",
+      "Great seafood",
+      "Very good dim sum",
+      "Tapas",
+      "Great steak (daughter especially)"
+    ],
+    "conditional": [
+      "Tacos only occasionally — must be street tacos with insanely good tortillas",
+      "Chinese only if insanely good — we have good Chinese in Pittsburgh already"
+    ],
+    "avoid": [
+      "Too rich, buttery, or creamy food",
+      "Cheese (wife and daughter)",
+      "Yoghurt (dad)",
+      "Sandwiches (daughter)",
+      "Eggs (daughter)"
+    ],
+    "drinks": [
+      "Great coffee — Blue Bottle tier, cute aesthetic coffee shops",
+      "Starbucks and boba (daughter)",
+      "Drinks with a view"
+    ]
+  },
+  "vibes": {
+    "love": [
+      "Elevated greenery in cities — NYC High Line, SF Salesforce Park, GG Park, Central Park, Millennium Park",
+      "Very aesthetic places — SF Ferry Building tier",
+      "Water, coasts, clear blue water (dad especially)",
+      "Mountains, lakes (wife especially)",
+      "Cities with great shopping for teens (daughter)",
+      "Vintage/atmospheric bars with character — wood paneling, supper club feel (wife)",
+      "Fancy but optimized — elevated experiences without overpaying",
+      "Hidden gems"
+    ]
   },
   "recurring_constraints": {
-    "max_flight_hours": null,
-    "prefer_direct_flights": false,
+    "dietary": {
+      "family": "No overly rich/buttery/creamy",
+      "wife": "No cheese",
+      "daughter": "No cheese, no sandwiches, no eggs, limited dairy",
+      "dad": "No yoghurt"
+    },
     "passport_countries": [],
-    "dietary": [],
+    "prefer_direct_flights": false,
+    "max_flight_hours": null,
     "accessibility": []
   }
 }
