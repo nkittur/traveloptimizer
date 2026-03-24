@@ -1,250 +1,169 @@
 {
   "trip_id": "summer-2026",
   "status": "collecting",
-  "time_window": { "earliest": "2026-07-20", "latest": "2026-08-12" },
-  "duration_days": "~2 weeks total across legs",
-  "anchor_plans": {
-    "door_county": {
-      "dates": "~August 7",
-      "status": "tentative",
-      "notes": "Already considering this. Supper clubs are perfect for Carissa."
-    },
-    "santa_cruz": {
-      "reason": "Friend James is there until August — window to visit",
-      "status": "exploring"
-    },
-    "irvine_parents": {
-      "frequency_goal": "3-4x per year",
-      "notes": "Could combine with California leg"
-    }
+  "concept": "One continuous trip: PIT → California → Wisconsin → PIT. No backtracking.",
+  "time_window": {
+    "tentative": "Late July through ~Aug 10-12",
+    "anchor": "Door County around Aug 7"
   },
-  "constraints": {
-    "hard": {
-      "season": "summer 2026, likely late July → early August",
-      "travelers": "Niki, Carissa, Ashi (family of 3)",
-      "home_airport": "PIT",
-      "direct_flight_preference": "Very important to Carissa, flexible for Niki",
-      "climate": "Not too hot — mild summer temps preferred (60-78°F)",
-      "driving": "Max 4 hours/day, prefer minimal",
-      "flight_times": "No red eyes, no very early departures, no very late arrivals",
-      "budget": "Prefer cheaper than average flights"
-    },
-    "soft": {
-      "visit_friends": "Love combining trips with friend/family visits",
-      "recently_visited": "Seattle, London, SF, Chicago, Madison, Nashville, Minneapolis, San Diego, Irvine — avoid repeats unless there's a reason (like parents)"
-    }
-  },
+  "routing_philosophy": "Three one-way tickets, west then east. Never retrace steps.",
   "options": [
     {
       "id": "A",
-      "name": "California Coastal → Door County (The Grand Summer)",
-      "score": 0.93,
-      "structure": "Two-leg trip with break at home",
-      "itinerary": {
-        "leg1_california": {
-          "duration": "6-7 days, late July",
-          "flow": [
-            "PIT → SJC (connection via ORD or DEN, ~$300 RT or open-jaw with SNA)",
-            "Stay in Santa Cruz 3 nights — visit James, Boardwalk, beach, redwood hiking at Henry Cowell",
-            "Day trip to Monterey/Carmel (45 min drive) — Monterey Bay Aquarium, Crystal Fish or Akaoni sushi, Carmel-by-the-Sea shops and galleries",
-            "Optional: Capitola Village (10 min from Santa Cruz) — colorful beachfront, boutiques, great restaurants",
-            "Fly SJC → SNA (Southwest nonstop, 1hr 20min, ~$77-100 one-way) — avoids 6-hour drive",
-            "Irvine 2-3 nights with parents",
-            "Fly SNA → PIT (connection, various airlines)"
-          ],
-          "summer_temp_F": "Santa Cruz 60-72, Irvine 70-80",
-          "flights": {
-            "pit_to_sjc": "No direct — connect through ORD, DEN, or DFW. ~$150-200 one-way. Look at Southwest.",
-            "sjc_to_sna": "Southwest nonstop, 1hr 20min, $77-100 one-way",
-            "sna_to_pit": "No direct — connect through ORD, CLT, or DFW. ~$150-200 one-way.",
-            "open_jaw_tip": "Book PIT→SJC + SNA→PIT as an open-jaw — often same price as round trip"
-          }
-        },
-        "leg2_door_county": {
-          "duration": "4-5 days, around August 7",
-          "flow": [
-            "PIT → ORD nonstop (many options, ~$100-150 one-way, 1.5hrs)",
-            "Optional: quick dinner/overnight in Chicago with the Roos",
-            "Drive ORD → Door County (4 hours — right at max, but scenic through Wisconsin)",
-            "Door County 3-4 nights — fish boils, supper clubs, lighthouses, kayaking",
-            "Drive Door County → ORD or GRB, fly home"
-          ],
-          "flights": {
-            "pit_to_ord": "Nonstop via American, United, or Southwest. Many daily options. ~$100-150 one-way. Carissa-approved direct flight.",
-            "return": "GRB → PIT (connect through ORD) or drive back to ORD and fly nonstop"
-          }
-        }
-      },
-      "why": [
-        "Hits three priorities in one summer: see James, see parents, Door County",
-        "Santa Cruz summer weather is PERFECT — 60-72°F, coastal fog burns off by noon",
-        "Monterey/Carmel day trip adds sushi (Crystal Fish, Akaoni), aquarium, aesthetic Carmel village",
-        "Capitola Village is a hidden gem — colorful cottages on the beach, very aesthetic",
-        "Santa Cruz Boardwalk is classic summer fun for Ashi, and FREE entry",
-        "SJC → SNA hop is genius — avoids brutal 6-hour drive, cheap on Southwest",
-        "Door County supper clubs are EXACTLY Carissa's vibe — Nightingale (since 1913), The Mill (since 1930), wood-paneled, atmospheric, old-fashioned cocktails",
-        "Fish boils are a unique spectator event — great family experience",
-        "Chicago nonstop from PIT satisfies Carissa's direct flight preference for Door County leg"
+      "name": "The Allegiant Unicorn",
+      "score": 0.95,
+      "tagline": "The parents visit isn't a detour — it's the routing logic that unlocks a hidden nonstop to Door County",
+      "routing": [
+        "ONE-WAY #1: PIT → SJC (connect through ORD/DEN, ~$150)",
+        "Santa Cruz 3-4 nights with James — Boardwalk, beach, redwoods, Monterey/Carmel day trip (45 min)",
+        "ONE-WAY #2: SJC → SNA (Southwest nonstop, 1hr 20min, ~$77)",
+        "Irvine 1-2 nights with parents — not a detour, it's how you get to SNA",
+        "ONE-WAY #3: SNA → ATW nonstop (Allegiant, NEW route launched May 2026, ~$79, departs 10:55am, 3hr 49min)",
+        "Drive ATW → Door County (1.5 hours)",
+        "Door County 3-4 nights — supper clubs, fish boils, lighthouses",
+        "ONE-WAY #4: Drive Door County → GRB (45 min), fly GRB → PIT (connect through ORD, ~$100-160)"
       ],
-      "watch_out": [
-        "Two separate trips = more logistics and flight bookings",
-        "SJC requires a connection from PIT (no direct)",
-        "ORD → Door County drive is exactly 4 hours (Carissa's max)",
-        "Two weeks of travel total — could be tiring"
+      "total_one_way_flights": 4,
+      "estimated_flight_cost": "$400-550 total for 3 people's worth of one-ways (not per person — these are cheap legs)",
+      "actual_per_person_estimate": "$400-550 per person for all 4 flight legs combined",
+      "why_this_is_clever": [
+        "SNA → ATW is a brand new Allegiant nonstop (launched May 2026) that almost nobody knows about yet",
+        "Introductory fares around $79 one-way",
+        "The parents visit in Irvine goes from 'nice-to-have' to 'the routing move that unlocks a nonstop to Door County's backyard'",
+        "ATW is only 1.5 hours from Door County vs. 3 hours from MKE or 4 from ORD",
+        "10:55am departure from SNA is a perfect flight time — not early, not late",
+        "You never fly back to PIT until you're done with everything",
+        "Southwest SJC→SNA has free bags, no change fees, and tons of schedule options"
       ],
+      "critical_constraint": "Allegiant SNA→ATW is ONCE PER WEEK. Must check which day and align Door County dates to it. If it doesn't align, fall back to Option B.",
       "family_match": {
-        "niki": "Santa Cruz beach + Monterey seafood + parents visit. Coastal vibes everywhere.",
-        "carissa": "Door County supper clubs are literally her dream. Carmel is charming. Mountains in Santa Cruz (redwoods). Direct PIT→ORD for Door County leg.",
-        "ashi": "Santa Cruz Boardwalk, Capitola shopping, Carmel boutiques, boba in Santa Cruz downtown. Fish boils are a fun experience."
+        "niki": "See James (rare chance), see parents (efficient), Monterey sushi, coastal vibes all week",
+        "carissa": "Carmel charm, Door County supper clubs are her dream. The SNA→ATW leg is nonstop! Only PIT→SJC requires a connection.",
+        "ashi": "Boardwalk, Capitola boutiques, Carmel galleries, then fish boils — a summer highlight reel"
       }
     },
     {
       "id": "B",
-      "name": "LA Friends + Santa Cruz (Open-Jaw California)",
+      "name": "The United Express (Reliable Fallback)",
+      "score": 0.88,
+      "tagline": "8 daily nonstops SFO→ORD means you pick the perfect flight time",
+      "routing": [
+        "ONE-WAY #1: PIT → SJC (connect, ~$150)",
+        "Santa Cruz 3-4 nights with James + Monterey/Carmel day trip",
+        "ONE-WAY #2: SFO → ORD nonstop (United, 8 daily flights, ~$157, pick a 10am-2pm departure, 4hr 35min)",
+        "Drive ORD → Door County (4 hours — exactly your max, but it's a straight shot up I-94/I-43 through pretty Wisconsin)",
+        "Door County 3-4 nights",
+        "ONE-WAY #3: Drive Door County → GRB (45 min), fly GRB → PIT (connect through ORD, ~$100-160). OR drive back to ORD (4hrs) and fly ORD → PIT nonstop (~$100, Carissa gets her direct flight home)"
+      ],
+      "total_one_way_flights": 3,
+      "estimated_per_person": "$350-470 per person for all flight legs",
+      "why_this_is_good": [
+        "SFO→ORD is one of the most competitive routes in the US — 8+ United nonstops daily, great prices",
+        "Maximum schedule flexibility — any day, many times",
+        "Only 3 flight bookings instead of 4",
+        "The ORD→PIT nonstop home is Carissa's preferred direct flight ending",
+        "No dependency on a once-per-week Allegiant schedule"
+      ],
+      "tradeoff": [
+        "Skips Irvine parents (save for another trip)",
+        "ORD → Door County is 4 hours driving (at the max)",
+        "Need to get from Santa Cruz area to SFO (30 min drive or Caltrain/bus)"
+      ]
+    },
+    {
+      "id": "B2",
+      "name": "The United Express + Chicago Roos",
       "score": 0.87,
-      "structure": "Single California trip, open-jaw flights",
-      "itinerary": {
-        "flow": [
-          "PIT → LAX nonstop (American, Spirit, or Breeze — ~$180 RT level, 5hr 20min)",
-          "LA 2-3 nights — see Janet, Beth & Abdullah, Sarah",
-          "Visit parents in Irvine (40 min drive from LA)",
-          "Fly LAX → SJC (Southwest, ~$60-80, 1hr 15min nonstop)",
-          "Santa Cruz 3 nights — visit James, Boardwalk, redwoods",
-          "Monterey/Carmel day trip",
-          "Fly SJC → PIT (connection)"
-        ],
-        "duration": "7-8 days",
-        "summer_temp_F": "LA 75-85 (can be hot), Santa Cruz 60-72"
-      },
-      "why": [
-        "PIT → LAX is nonstop (Carissa happy!) — American flies it daily, Spirit and Breeze offer cheaper options",
-        "See LA friends you haven't combined into a trip before",
-        "Parents in Irvine is a quick drive from LA — knocks out a visit",
-        "Then hop up to Santa Cruz to see James — cheap short flight",
-        "Monterey/Carmel sushi + seafood makes up for LA not being a sushi priority"
+      "tagline": "Same as B but add a night in Chicago to see the Roos and break up the drive",
+      "routing": [
+        "ONE-WAY #1: PIT → SJC (connect, ~$150)",
+        "Santa Cruz 3-4 nights with James + Monterey/Carmel day trip",
+        "ONE-WAY #2: SFO → ORD nonstop (United, ~$157)",
+        "Chicago 1 night — dinner with the Roos, sleep",
+        "Drive ORD area → Door County next morning (4 hours, but fresh and with coffee stops)",
+        "Door County 3-4 nights",
+        "Drive Door County → GRB (45 min), fly GRB → PIT (connect through ORD)"
       ],
-      "watch_out": [
-        "LA in late July can be 80-85°F — on the edge of too hot",
-        "LA requires driving/Uber everywhere — not walkable",
-        "SJC → PIT return requires a connection (not direct)",
-        "Doesn't include Door County — would need a separate trip"
-      ],
-      "family_match": {
-        "niki": "See friends, see parents, Santa Cruz coast",
-        "carissa": "Nonstop to LAX! But LA heat could be an issue. Santa Cruz leg is her temp sweet spot.",
-        "ashi": "LA shopping is incredible (The Grove, Santa Monica). Santa Cruz Boardwalk. Carmel boutiques."
-      }
+      "why_variant": "The Roos visit becomes natural — you're literally passing through Chicago. No detour.",
+      "tradeoff": "Adds a night and you've been to Chicago recently — only do this if the Roos are genuinely a priority"
     },
     {
       "id": "C",
-      "name": "Santa Cruz/Monterey Only → Door County (Focused & Simple)",
-      "score": 0.85,
-      "structure": "Two clean trips, minimal complexity",
-      "itinerary": {
-        "leg1": {
-          "flow": [
-            "PIT → SJC (connection, ~$300 open-jaw or RT)",
-            "Santa Cruz 3-4 nights with James",
-            "Monterey/Carmel 1-2 nights — sushi, aquarium, Carmel beach sunset",
-            "Fly SJC → PIT"
-          ],
-          "duration": "5-6 days"
-        },
-        "leg2": {
-          "flow": [
-            "PIT → ORD nonstop → drive to Door County",
-            "Door County 3-4 nights",
-            "Drive to ORD or GRB → PIT"
-          ],
-          "duration": "4-5 days"
-        }
-      },
+      "name": "The Southwest Double-Nonstop",
+      "score": 0.82,
+      "tagline": "Southwest nonstop SJC→MDW, then MDW area to Door County",
+      "routing": [
+        "ONE-WAY #1: PIT → SJC (connect, ~$150)",
+        "Santa Cruz 3-4 nights with James + Monterey/Carmel day trip",
+        "ONE-WAY #2: SJC → MDW nonstop (Southwest, ~$134, 4hr 8min)",
+        "Drive MDW → Door County (4 hours) or overnight in Chicago area first",
+        "Door County 3-4 nights",
+        "Drive to GRB or MKE, fly home to PIT"
+      ],
       "why": [
-        "Simplest version — no extra cities, no LA heat, pure coastal + supper clubs",
-        "Santa Cruz + Monterey/Carmel is a tight, walkable, foodie corridor",
-        "Less travel fatigue than Options A or B",
-        "Still hits James visit + Door County"
+        "Southwest = free bags, no change fees, good for families",
+        "SJC departure means no need to get to SFO"
       ],
       "watch_out": [
-        "Doesn't include Irvine parents — need to find another time for that",
-        "SJC still requires a connection from PIT"
-      ]
-    },
-    {
-      "id": "D",
-      "name": "Chicago Roos + Door County (Midwest Run)",
-      "score": 0.75,
-      "structure": "Single trip from PIT",
-      "itinerary": {
-        "flow": [
-          "PIT → ORD nonstop (tons of cheap options)",
-          "Chicago 2 nights — see the Roos, eat at great restaurants (Chicago has incredible omakase, dim sum, and deep food scene)",
-          "Drive ORD → Door County (4 hours)",
-          "Door County 3-4 nights — supper clubs, fish boils, lighthouses",
-          "Drive back to ORD or GRB → PIT"
-        ],
-        "duration": "6-7 days"
-      },
-      "why": [
-        "All nonstop flights (PIT ↔ ORD) — Carissa's dream",
-        "Chicago food scene is world-class if you haven't been in a while",
-        "Very budget-friendly flights — PIT→ORD often under $100 one-way",
-        "Logical geographic flow, minimal flights",
-        "See friends (Roos) + supper clubs (Carissa) in one trip"
-      ],
-      "watch_out": [
-        "You've been to Chicago recently — may not excite",
-        "Doesn't include California or James visit",
-        "Chicago in late July/August can be hot (80-90°F) — though Door County is milder (70-80°F)"
-      ]
-    },
-    {
-      "id": "E",
-      "name": "Hamptons + DC (East Coast Friends, Haven't Been)",
-      "score": 0.70,
-      "structure": "Separate trip idea — not California/Door County",
-      "itinerary": {
-        "flow": [
-          "PIT → JFK or EWR nonstop (many options, ~$100-150)",
-          "Hamptons 3 nights — visit cousin Gaurav, beach, seafood, wine",
-          "Train/drive to DC (4 hours or Amtrak)",
-          "DC 2-3 nights — visit cousin Kiki, museums, Georgetown food",
-          "DCA → PIT nonstop"
-        ],
-        "duration": "6-7 days"
-      },
-      "why": [
-        "Haven't been to either recently — fresh destinations",
-        "Hamptons in summer is peak season — beautiful beaches, seafood, wine",
-        "Both are nonstop from PIT (JFK via JetBlue, DCA via multiple)",
-        "Could do as a separate summer trip from the California/Door County plan"
-      ],
-      "watch_out": [
-        "Hamptons can be very expensive in summer",
-        "DC in August is brutally hot and humid — potentially a dealbreaker",
-        "East Coast beaches don't have clear blue water (Niki's preference)",
-        "Could save DC for fall/spring when weather is better"
+        "SJC→MDW flight times may be bad — earliest is 6:10am (too early), latest is 11pm (red eye). Need to check if there's a midday option.",
+        "If only early/late times available, this option breaks the 'no bad flight times' constraint"
       ]
     }
   ],
-  "recommendation": {
-    "top_pick": "Option A — California Coastal → Door County",
-    "reasoning": "This is the optimizer play. You hit three priorities (James in Santa Cruz, parents in Irvine, Door County supper clubs for Carissa) across two legs with smart flight routing. The SJC→SNA Southwest hop is the clever move that avoids a 6-hour drive. Door County via ORD nonstop keeps Carissa happy on flights. Total cost for flights could be very reasonable if you book the open-jaw and Southwest legs separately.",
-    "alternative": "If two trips feel like too much, Option C (Santa Cruz/Monterey + Door County) is the clean version — drops Irvine but stays simple.",
-    "wildcard": "Option E (Hamptons + DC) could be a great separate long weekend since you haven't been — but save DC for fall to avoid the heat."
+  "california_leg_details": {
+    "santa_cruz": {
+      "days": "3-4 nights",
+      "highlights": [
+        "Visit James (rare opportunity — he's only there until August)",
+        "Santa Cruz Beach Boardwalk — free entry, rides, Friday night movies on the beach",
+        "Henry Cowell Redwoods — easy redwood hiking 15 min from town",
+        "Downtown Santa Cruz — good boba scene for Ashi, indie coffee shops",
+        "Capitola Village (10 min south) — colorful beachfront cottages, boutiques, very aesthetic",
+        "Natural Bridges State Beach — tide pools, iconic rock arch"
+      ],
+      "temp_F": "60-72 — perfect, never hot, foggy mornings burn off"
+    },
+    "monterey_carmel_day_trip": {
+      "drive_from_santa_cruz": "45 minutes on Highway 1 (scenic coast road)",
+      "highlights": [
+        "Monterey Bay Aquarium — world-class, Ashi would love it",
+        "Crystal Fish sushi — possibly the best sushi on the Monterey Peninsula",
+        "Akaoni — locals say best sushi in town",
+        "Carmel-by-the-Sea — fairy-tale downtown, boutique shops, galleries, white sand beach",
+        "Point Lobos — stunning coastal nature reserve, easy walks",
+        "Cannery Row — historic waterfront, restaurants"
+      ],
+      "food_note": "Not SF/Seattle level for Japanese food, but Crystal Fish and Akaoni are genuinely good. The seafood is excellent — fresh from Monterey Bay."
+    }
   },
-  "eliminated": {
+  "door_county_leg_details": {
+    "days": "3-4 nights around Aug 7",
+    "supper_clubs_for_carissa": [
+      "Nightingale Supper Club (Sturgeon Bay, since 1913) — steaks, prime rib, old-fashioneds, wood and tradition",
+      "The Mill Supper Club (Sturgeon Bay, since 1930) — German + American, schnitzel to steaks",
+      "Sister Bay Bowl and Supper Club (since 1958) — 'Best Fish Fry' and 'Best Old Fashioned' in Door County",
+      "The English Inn — beef wellington, pistachio-encrusted halibut, garden patio",
+      "The Log Den (Egg Harbor) — hand-carved log building, five generations of family"
+    ],
+    "must_do": [
+      "Fish boil — dramatic spectator cooking event unique to Door County, whitefish + potatoes",
+      "Cana Island Lighthouse",
+      "Washington Island ferry → Rock Island",
+      "Kayaking along the coast",
+      "Cherry everything (Door County's signature)"
+    ],
+    "food_note": "Not a sushi/omakase destination — this leg is about supper clubs, fish boils, and Wisconsin comfort. That's the point: the California leg covers the foodie hits, Door County covers the vibe."
+  },
+  "recommendation": {
+    "top_pick": "Option A (Allegiant Unicorn) IF the once-per-week schedule aligns with ~Aug 7 Door County dates",
+    "reliable_pick": "Option B (United Express) if Allegiant doesn't align — you can't beat 8 daily SFO→ORD nonstops for flexibility",
+    "next_step": "Check Allegiant.com for the specific day of week SNA→ATW operates, and whether it lands you in Door County around Aug 7. If yes, book it. If no, go with Option B."
+  },
+  "eliminated_from_previous_round": {
+    "fly_back_to_pit_between_legs": "Wasteful backtracking — eliminated",
     "seattle": "Recently visited",
     "london": "Recently visited",
-    "austin": "Too hot in summer (95-100°F) — save for spring/fall to see James",
-    "hot_destinations": "Phoenix, Fort Lauderdale, Cancún, Punta Cana, Charleston — all eliminated for summer heat"
+    "irvine_as_primary_destination": "Not a destination trip — but works brilliantly as routing logic in Option A"
   },
-  "open_questions": [
-    "How many total days can you take off this summer?",
-    "Is two separate trips (CA + Door County) appealing or too much?",
-    "Have you been to Monterey/Carmel before? It's a hidden gem corridor.",
-    "For Door County: would you want to stop in Chicago to see the Roos, or head straight there?",
-    "Budget ceiling for flights across the whole summer?"
-  ],
   "last_updated": "2026-03-24T00:00:00-04:00"
 }
