@@ -88,6 +88,36 @@
     "passport_countries": [],
     "prefer_direct_flights": "strong preference (Carissa), flexible (Niki)",
     "max_flight_hours": null,
-    "accessibility": []
+    "accessibility": [],
+    "flight_preferences": {
+      "avoid_red_eyes": true,
+      "avoid_very_early_departures": true,
+      "avoid_very_late_arrivals": true,
+      "prefer_cheaper_than_average": true
+    },
+    "driving": {
+      "max_hours_per_day": 4,
+      "prefer_minimal": true,
+      "notes": "A few hours is ok but ideally not more than 4 hours a day"
+    }
+  },
+  "friends_and_family": {
+    "LA": ["Janet", "Beth and Abdullah", "Sarah"],
+    "SF": ["Prathers", "cousin Amy"],
+    "DC": ["cousin Kiki"],
+    "Hamptons": ["cousin Gaurav"],
+    "Irvine": ["parents — try to visit 3-4x/year"],
+    "San_Diego": ["cousin Stefi"],
+    "Madison_WI": ["lots of family and friends"],
+    "Chicago": ["Roos"],
+    "Austin": ["James"],
+    "Nashville": ["aunt Kim"],
+    "Minneapolis": ["sister Alvina"],
+    "Santa_Cruz": ["James (temporarily, until ~Aug 2026)"]
+  },
+  "recently_visited": {
+    "visited": ["Seattle", "London", "SF", "Irvine", "Madison", "Chicago", "Nashville", "Minneapolis", "San Diego"],
+    "not_recent": ["Austin", "Hamptons", "DC"],
+    "notes": "Seattle and London are out for summer 2026 — been recently"
   }
 }

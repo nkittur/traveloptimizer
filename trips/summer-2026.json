@@ -1,167 +1,250 @@
 {
   "trip_id": "summer-2026",
   "status": "collecting",
-  "time_window": { "earliest": "2026-06-01", "latest": "2026-08-31" },
-  "duration_days": null,
+  "time_window": { "earliest": "2026-07-20", "latest": "2026-08-12" },
+  "duration_days": "~2 weeks total across legs",
+  "anchor_plans": {
+    "door_county": {
+      "dates": "~August 7",
+      "status": "tentative",
+      "notes": "Already considering this. Supper clubs are perfect for Carissa."
+    },
+    "santa_cruz": {
+      "reason": "Friend James is there until August — window to visit",
+      "status": "exploring"
+    },
+    "irvine_parents": {
+      "frequency_goal": "3-4x per year",
+      "notes": "Could combine with California leg"
+    }
+  },
   "constraints": {
     "hard": {
-      "season": "summer 2026",
+      "season": "summer 2026, likely late July → early August",
       "travelers": "Niki, Carissa, Ashi (family of 3)",
       "home_airport": "PIT",
       "direct_flight_preference": "Very important to Carissa, flexible for Niki",
-      "climate": "Not too hot — mild summer temps preferred (60-78°F)"
+      "climate": "Not too hot — mild summer temps preferred (60-78°F)",
+      "driving": "Max 4 hours/day, prefer minimal",
+      "flight_times": "No red eyes, no very early departures, no very late arrivals",
+      "budget": "Prefer cheaper than average flights"
     },
-    "soft": {}
-  },
-  "preferences": {
-    "food_priorities": "Sushi/omakase, seafood, dim sum, great restaurants — the usual family standards",
-    "vibe_priorities": "Elevated greenery, aesthetic spots, water/coasts, teen shopping, vintage bars"
+    "soft": {
+      "visit_friends": "Love combining trips with friend/family visits",
+      "recently_visited": "Seattle, London, SF, Chicago, Madison, Nashville, Minneapolis, San Diego, Irvine — avoid repeats unless there's a reason (like parents)"
+    }
   },
   "options": [
     {
-      "destination": "Seattle, WA",
-      "score": 0.92,
-      "direct_from_pit": true,
-      "airline": "Alaska Airlines",
-      "summer_temp_F": "65-75",
+      "id": "A",
+      "name": "California Coastal → Door County (The Grand Summer)",
+      "score": 0.93,
+      "structure": "Two-leg trip with break at home",
+      "itinerary": {
+        "leg1_california": {
+          "duration": "6-7 days, late July",
+          "flow": [
+            "PIT → SJC (connection via ORD or DEN, ~$300 RT or open-jaw with SNA)",
+            "Stay in Santa Cruz 3 nights — visit James, Boardwalk, beach, redwood hiking at Henry Cowell",
+            "Day trip to Monterey/Carmel (45 min drive) — Monterey Bay Aquarium, Crystal Fish or Akaoni sushi, Carmel-by-the-Sea shops and galleries",
+            "Optional: Capitola Village (10 min from Santa Cruz) — colorful beachfront, boutiques, great restaurants",
+            "Fly SJC → SNA (Southwest nonstop, 1hr 20min, ~$77-100 one-way) — avoids 6-hour drive",
+            "Irvine 2-3 nights with parents",
+            "Fly SNA → PIT (connection, various airlines)"
+          ],
+          "summer_temp_F": "Santa Cruz 60-72, Irvine 70-80",
+          "flights": {
+            "pit_to_sjc": "No direct — connect through ORD, DEN, or DFW. ~$150-200 one-way. Look at Southwest.",
+            "sjc_to_sna": "Southwest nonstop, 1hr 20min, $77-100 one-way",
+            "sna_to_pit": "No direct — connect through ORD, CLT, or DFW. ~$150-200 one-way.",
+            "open_jaw_tip": "Book PIT→SJC + SNA→PIT as an open-jaw — often same price as round trip"
+          }
+        },
+        "leg2_door_county": {
+          "duration": "4-5 days, around August 7",
+          "flow": [
+            "PIT → ORD nonstop (many options, ~$100-150 one-way, 1.5hrs)",
+            "Optional: quick dinner/overnight in Chicago with the Roos",
+            "Drive ORD → Door County (4 hours — right at max, but scenic through Wisconsin)",
+            "Door County 3-4 nights — fish boils, supper clubs, lighthouses, kayaking",
+            "Drive Door County → ORD or GRB, fly home"
+          ],
+          "flights": {
+            "pit_to_ord": "Nonstop via American, United, or Southwest. Many daily options. ~$100-150 one-way. Carissa-approved direct flight.",
+            "return": "GRB → PIT (connect through ORD) or drive back to ORD and fly nonstop"
+          }
+        }
+      },
       "why": [
-        "Best foodie match: world-class omakase (Sushi Kashiba, Taneda — $65-250/pp), excellent dim sum scene in International District (Jade Garden, Dim Sum King), incredible seafood (The Walrus and the Carpenter for oysters, Ray's Boathouse with mountain views)",
-        "Mild summer temps — Seattle summers are perfect, rarely above 78°F",
-        "Mountains AND water — Puget Sound, Olympic Mountains visible, Mt. Rainier day trips (Carissa's mountains + Niki's water)",
-        "Pike Place Market is the aesthetic-foodie dream. Chihuly Garden is elevated art-greenery.",
-        "Downtown shopping for Ashi (University Village, Pacific Place, Bellevue Square has Brandy Melville)",
-        "Great coffee culture — original Starbucks, tons of Blue Bottle-tier indie shops",
-        "Boba scene is strong (Ashi)",
-        "Drinks with views — many waterfront spots with mountain backdrops"
+        "Hits three priorities in one summer: see James, see parents, Door County",
+        "Santa Cruz summer weather is PERFECT — 60-72°F, coastal fog burns off by noon",
+        "Monterey/Carmel day trip adds sushi (Crystal Fish, Akaoni), aquarium, aesthetic Carmel village",
+        "Capitola Village is a hidden gem — colorful cottages on the beach, very aesthetic",
+        "Santa Cruz Boardwalk is classic summer fun for Ashi, and FREE entry",
+        "SJC → SNA hop is genius — avoids brutal 6-hour drive, cheap on Southwest",
+        "Door County supper clubs are EXACTLY Carissa's vibe — Nightingale (since 1913), The Mill (since 1930), wood-paneled, atmospheric, old-fashioned cocktails",
+        "Fish boils are a unique spectator event — great family experience",
+        "Chicago nonstop from PIT satisfies Carissa's direct flight preference for Door County leg"
       ],
       "watch_out": [
-        "Direct flight is ~5 hours — longer than East Coast options",
-        "Omakase spots book out fast — need to reserve early",
-        "Can feel gray some days even in summer (but mostly sunny July-Aug)"
+        "Two separate trips = more logistics and flight bookings",
+        "SJC requires a connection from PIT (no direct)",
+        "ORD → Door County drive is exactly 4 hours (Carissa's max)",
+        "Two weeks of travel total — could be tiring"
       ],
       "family_match": {
-        "niki": "Clear water at San Juan Islands day trip, incredible seafood, great coffee",
-        "carissa": "Mountains everywhere, vintage bars in Capitol Hill and Ballard, fried rice at dim sum",
-        "ashi": "Great shopping, boba everywhere, oysters at Walrus & Carpenter, city vibe"
+        "niki": "Santa Cruz beach + Monterey seafood + parents visit. Coastal vibes everywhere.",
+        "carissa": "Door County supper clubs are literally her dream. Carmel is charming. Mountains in Santa Cruz (redwoods). Direct PIT→ORD for Door County leg.",
+        "ashi": "Santa Cruz Boardwalk, Capitola shopping, Carmel boutiques, boba in Santa Cruz downtown. Fish boils are a fun experience."
       }
     },
     {
-      "destination": "London, UK",
-      "score": 0.88,
-      "direct_from_pit": true,
-      "airline": "British Airways (daily, expanding to 7x/week for summer)",
-      "summer_temp_F": "60-75",
+      "id": "B",
+      "name": "LA Friends + Santa Cruz (Open-Jaw California)",
+      "score": 0.87,
+      "structure": "Single California trip, open-jaw flights",
+      "itinerary": {
+        "flow": [
+          "PIT → LAX nonstop (American, Spirit, or Breeze — ~$180 RT level, 5hr 20min)",
+          "LA 2-3 nights — see Janet, Beth & Abdullah, Sarah",
+          "Visit parents in Irvine (40 min drive from LA)",
+          "Fly LAX → SJC (Southwest, ~$60-80, 1hr 15min nonstop)",
+          "Santa Cruz 3 nights — visit James, Boardwalk, redwoods",
+          "Monterey/Carmel day trip",
+          "Fly SJC → PIT (connection)"
+        ],
+        "duration": "7-8 days",
+        "summer_temp_F": "LA 75-85 (can be hot), Santa Cruz 60-72"
+      },
       "why": [
-        "Incredible affordable omakase scene: Namaiki (£45 lunch), Sushi Kyu (£52 lunch, 10-seat counter), Iné (£70 lunch), plus high-end Sushi Tetsu",
-        "Perfect mild summer weather — never too hot",
-        "World-class parks: Hyde Park, Regent's Park, Hampstead Heath, South Bank — elevated greenery everywhere",
-        "Shopping paradise for Ashi — Oxford Street, Carnaby Street, Brandy Melville on Regent Street, vintage stores in Brick Lane",
-        "Borough Market = SF Ferry Building energy but bigger. Aesthetic food halls.",
-        "Vintage/atmospheric bars everywhere for Carissa — speakeasies, wood-paneled pubs",
-        "Great seafood (oyster bars, fish markets), amazing steak spots for Ashi",
-        "Blue Bottle has London locations; tons of specialty coffee"
+        "PIT → LAX is nonstop (Carissa happy!) — American flies it daily, Spirit and Breeze offer cheaper options",
+        "See LA friends you haven't combined into a trip before",
+        "Parents in Irvine is a quick drive from LA — knocks out a visit",
+        "Then hop up to Santa Cruz to see James — cheap short flight",
+        "Monterey/Carmel sushi + seafood makes up for LA not being a sushi priority"
       ],
       "watch_out": [
-        "London is expensive — need to optimize hard on dining to stay in budget sweet spot",
-        "7+ hour flight (but direct, overnight both ways)",
-        "No beach/clear blue water for Niki (could day-trip to Brighton or Cornwall)"
+        "LA in late July can be 80-85°F — on the edge of too hot",
+        "LA requires driving/Uber everywhere — not walkable",
+        "SJC → PIT return requires a connection (not direct)",
+        "Doesn't include Door County — would need a separate trip"
       ],
       "family_match": {
-        "niki": "Affordable omakase paradise, South Bank waterfront, Borough Market",
-        "carissa": "Hampstead Heath, atmospheric pubs, supper clubs, Portobello Road vintage",
-        "ashi": "Shopping heaven, boba in Chinatown, steak at Flat Iron, city exploration"
+        "niki": "See friends, see parents, Santa Cruz coast",
+        "carissa": "Nonstop to LAX! But LA heat could be an issue. Santa Cruz leg is her temp sweet spot.",
+        "ashi": "LA shopping is incredible (The Grove, Santa Monica). Santa Cruz Boardwalk. Carmel boutiques."
       }
     },
     {
-      "destination": "Dublin, Ireland + Coastal Day Trips",
-      "score": 0.78,
-      "direct_from_pit": true,
-      "airline": "Aer Lingus (NEW — launching May 25, 2026, 4x/week, from $519 RT)",
-      "summer_temp_F": "55-65",
-      "why": [
-        "Brand new direct route — likely deals for inaugural summer",
-        "Excellent seafood: SOLE, The Seafood Café by Niall Sabongi, Rosa Madre, oysters at multiple spots",
-        "Howth fishing village day trip — coastal walk + fresh seafood with harbor views",
-        "Very cool temps — zero chance of being too hot",
-        "Phoenix Park is massive elevated greenery, St. Stephen's Green is charming",
-        "Temple Bar vintage pub atmosphere (Carissa would love)",
-        "Could combo with a quick Ryanair hop to London, Edinburgh, or even San Sebastián"
-      ],
-      "watch_out": [
-        "Japanese/sushi scene is limited compared to Seattle or London",
-        "Teen shopping is weaker — Grafton Street is nice but no Brandy Melville",
-        "Only 4 flights per week — less schedule flexibility",
-        "Can be rainy even in summer",
-        "Food scene is growing but not at Seattle/London level yet"
-      ],
-      "family_match": {
-        "niki": "Coastal cliffs, Howth harbor, great seafood, cool weather",
-        "carissa": "Vintage pubs galore, lakes in Wicklow Mountains day trip",
-        "ashi": "Fun city vibe but weaker on shopping and boba"
-      }
-    },
-    {
-      "destination": "Reykjavik, Iceland",
-      "score": 0.65,
-      "direct_from_pit": true,
-      "airline": "Icelandair (seasonal, resumes May 8)",
-      "summer_temp_F": "50-60",
-      "why": [
-        "Dramatic landscapes unlike anything else — waterfalls, glaciers, geothermal pools",
-        "24-hour daylight in summer — unique experience",
-        "Blue Lagoon, Golden Circle, black sand beaches",
-        "Good seafood — langoustine, fresh fish",
-        "Cool temps guaranteed"
-      ],
-      "watch_out": [
-        "Very limited Japanese food/sushi scene",
-        "Extremely expensive for food and everything else",
-        "No dim sum, limited restaurant variety",
-        "Minimal shopping for teens",
-        "More nature-focused than city-focused — may not match Ashi's vibe",
-        "No clear blue water (more dramatic/dark water)"
-      ],
-      "family_match": {
-        "niki": "Dramatic coasts but not the clear blue water he loves",
-        "carissa": "Mountains and dramatic nature — she'd love it",
-        "ashi": "Could feel limited after 3-4 days — not her usual vibe"
-      }
-    },
-    {
-      "destination": "London + San Sebastián, Spain (combo)",
+      "id": "C",
+      "name": "Santa Cruz/Monterey Only → Door County (Focused & Simple)",
       "score": 0.85,
-      "direct_from_pit": false,
-      "airline": "BA direct PIT→London, then Vueling/easyJet to Bilbao (1hr drive to San Sebastián)",
-      "summer_temp_F": "London 60-75, San Sebastián 68-77",
+      "structure": "Two clean trips, minimal complexity",
+      "itinerary": {
+        "leg1": {
+          "flow": [
+            "PIT → SJC (connection, ~$300 open-jaw or RT)",
+            "Santa Cruz 3-4 nights with James",
+            "Monterey/Carmel 1-2 nights — sushi, aquarium, Carmel beach sunset",
+            "Fly SJC → PIT"
+          ],
+          "duration": "5-6 days"
+        },
+        "leg2": {
+          "flow": [
+            "PIT → ORD nonstop → drive to Door County",
+            "Door County 3-4 nights",
+            "Drive to ORD or GRB → PIT"
+          ],
+          "duration": "4-5 days"
+        }
+      },
       "why": [
-        "Best-of-both-worlds trip: London's parks/shopping/omakase + world's best pintxos city",
-        "San Sebastián is THE foodie destination — pintxos bar-hopping in Old Town is exactly the optimized hidden-gem-hunting this family loves",
-        "La Concha beach — gorgeous crescent bay, clear-ish water, mountains behind (everyone wins)",
-        "Mild summer weather in both cities",
-        "Could split 4 days London + 3 days San Sebastián",
-        "San Sebastián is compact, walkable, beautiful — very aesthetic"
+        "Simplest version — no extra cities, no LA heat, pure coastal + supper clubs",
+        "Santa Cruz + Monterey/Carmel is a tight, walkable, foodie corridor",
+        "Less travel fatigue than Options A or B",
+        "Still hits James visit + Door County"
       ],
       "watch_out": [
-        "Requires a connection/second flight (but it's a short 2hr hop from London)",
-        "More complex logistics than a single-city trip",
-        "San Sebastián teen shopping is limited (but London covers that)",
-        "Two currencies, two languages"
+        "Doesn't include Irvine parents — need to find another time for that",
+        "SJC still requires a connection from PIT"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Chicago Roos + Door County (Midwest Run)",
+      "score": 0.75,
+      "structure": "Single trip from PIT",
+      "itinerary": {
+        "flow": [
+          "PIT → ORD nonstop (tons of cheap options)",
+          "Chicago 2 nights — see the Roos, eat at great restaurants (Chicago has incredible omakase, dim sum, and deep food scene)",
+          "Drive ORD → Door County (4 hours)",
+          "Door County 3-4 nights — supper clubs, fish boils, lighthouses",
+          "Drive back to ORD or GRB → PIT"
+        ],
+        "duration": "6-7 days"
+      },
+      "why": [
+        "All nonstop flights (PIT ↔ ORD) — Carissa's dream",
+        "Chicago food scene is world-class if you haven't been in a while",
+        "Very budget-friendly flights — PIT→ORD often under $100 one-way",
+        "Logical geographic flow, minimal flights",
+        "See friends (Roos) + supper clubs (Carissa) in one trip"
       ],
-      "family_match": {
-        "niki": "La Concha beach + clear water, pintxos optimization paradise",
-        "carissa": "Mountains visible from beach, wine bars, not a direct flight but via London direct",
-        "ashi": "London shopping + San Sebastián beach + amazing food"
-      }
+      "watch_out": [
+        "You've been to Chicago recently — may not excite",
+        "Doesn't include California or James visit",
+        "Chicago in late July/August can be hot (80-90°F) — though Door County is milder (70-80°F)"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Hamptons + DC (East Coast Friends, Haven't Been)",
+      "score": 0.70,
+      "structure": "Separate trip idea — not California/Door County",
+      "itinerary": {
+        "flow": [
+          "PIT → JFK or EWR nonstop (many options, ~$100-150)",
+          "Hamptons 3 nights — visit cousin Gaurav, beach, seafood, wine",
+          "Train/drive to DC (4 hours or Amtrak)",
+          "DC 2-3 nights — visit cousin Kiki, museums, Georgetown food",
+          "DCA → PIT nonstop"
+        ],
+        "duration": "6-7 days"
+      },
+      "why": [
+        "Haven't been to either recently — fresh destinations",
+        "Hamptons in summer is peak season — beautiful beaches, seafood, wine",
+        "Both are nonstop from PIT (JFK via JetBlue, DCA via multiple)",
+        "Could do as a separate summer trip from the California/Door County plan"
+      ],
+      "watch_out": [
+        "Hamptons can be very expensive in summer",
+        "DC in August is brutally hot and humid — potentially a dealbreaker",
+        "East Coast beaches don't have clear blue water (Niki's preference)",
+        "Could save DC for fall/spring when weather is better"
+      ]
     }
   ],
-  "notes": [
-    "Direct flights from PIT that are too hot for summer: Austin, Phoenix, Fort Lauderdale, Cancún, Punta Cana, Charleston — all eliminated",
-    "Boston considered but deprioritized: can hit 85°F+ in summer, and food scene doesn't match Seattle/London for this family's specific tastes",
-    "Seattle is the clear domestic winner — checks almost every box",
-    "London is the clear international winner for a single-destination trip",
-    "London+San Sebastián is the ambitious optimizer play",
-    "Dublin is interesting because of the brand-new direct route but weaker on Japanese food and teen appeal",
-    "Key open questions: duration? budget range? dates flexibility? international or domestic preference?"
+  "recommendation": {
+    "top_pick": "Option A — California Coastal → Door County",
+    "reasoning": "This is the optimizer play. You hit three priorities (James in Santa Cruz, parents in Irvine, Door County supper clubs for Carissa) across two legs with smart flight routing. The SJC→SNA Southwest hop is the clever move that avoids a 6-hour drive. Door County via ORD nonstop keeps Carissa happy on flights. Total cost for flights could be very reasonable if you book the open-jaw and Southwest legs separately.",
+    "alternative": "If two trips feel like too much, Option C (Santa Cruz/Monterey + Door County) is the clean version — drops Irvine but stays simple.",
+    "wildcard": "Option E (Hamptons + DC) could be a great separate long weekend since you haven't been — but save DC for fall to avoid the heat."
+  },
+  "eliminated": {
+    "seattle": "Recently visited",
+    "london": "Recently visited",
+    "austin": "Too hot in summer (95-100°F) — save for spring/fall to see James",
+    "hot_destinations": "Phoenix, Fort Lauderdale, Cancún, Punta Cana, Charleston — all eliminated for summer heat"
+  },
+  "open_questions": [
+    "How many total days can you take off this summer?",
+    "Is two separate trips (CA + Door County) appealing or too much?",
+    "Have you been to Monterey/Carmel before? It's a hidden gem corridor.",
+    "For Door County: would you want to stop in Chicago to see the Roos, or head straight there?",
+    "Budget ceiling for flights across the whole summer?"
   ],
   "last_updated": "2026-03-24T00:00:00-04:00"
 }
