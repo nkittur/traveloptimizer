@@ -1,0 +1,167 @@
+{
+  "trip_id": "summer-2026",
+  "status": "collecting",
+  "time_window": { "earliest": "2026-06-01", "latest": "2026-08-31" },
+  "duration_days": null,
+  "constraints": {
+    "hard": {
+      "season": "summer 2026",
+      "travelers": "Niki, Carissa, Ashi (family of 3)",
+      "home_airport": "PIT",
+      "direct_flight_preference": "Very important to Carissa, flexible for Niki",
+      "climate": "Not too hot — mild summer temps preferred (60-78°F)"
+    },
+    "soft": {}
+  },
+  "preferences": {
+    "food_priorities": "Sushi/omakase, seafood, dim sum, great restaurants — the usual family standards",
+    "vibe_priorities": "Elevated greenery, aesthetic spots, water/coasts, teen shopping, vintage bars"
+  },
+  "options": [
+    {
+      "destination": "Seattle, WA",
+      "score": 0.92,
+      "direct_from_pit": true,
+      "airline": "Alaska Airlines",
+      "summer_temp_F": "65-75",
+      "why": [
+        "Best foodie match: world-class omakase (Sushi Kashiba, Taneda — $65-250/pp), excellent dim sum scene in International District (Jade Garden, Dim Sum King), incredible seafood (The Walrus and the Carpenter for oysters, Ray's Boathouse with mountain views)",
+        "Mild summer temps — Seattle summers are perfect, rarely above 78°F",
+        "Mountains AND water — Puget Sound, Olympic Mountains visible, Mt. Rainier day trips (Carissa's mountains + Niki's water)",
+        "Pike Place Market is the aesthetic-foodie dream. Chihuly Garden is elevated art-greenery.",
+        "Downtown shopping for Ashi (University Village, Pacific Place, Bellevue Square has Brandy Melville)",
+        "Great coffee culture — original Starbucks, tons of Blue Bottle-tier indie shops",
+        "Boba scene is strong (Ashi)",
+        "Drinks with views — many waterfront spots with mountain backdrops"
+      ],
+      "watch_out": [
+        "Direct flight is ~5 hours — longer than East Coast options",
+        "Omakase spots book out fast — need to reserve early",
+        "Can feel gray some days even in summer (but mostly sunny July-Aug)"
+      ],
+      "family_match": {
+        "niki": "Clear water at San Juan Islands day trip, incredible seafood, great coffee",
+        "carissa": "Mountains everywhere, vintage bars in Capitol Hill and Ballard, fried rice at dim sum",
+        "ashi": "Great shopping, boba everywhere, oysters at Walrus & Carpenter, city vibe"
+      }
+    },
+    {
+      "destination": "London, UK",
+      "score": 0.88,
+      "direct_from_pit": true,
+      "airline": "British Airways (daily, expanding to 7x/week for summer)",
+      "summer_temp_F": "60-75",
+      "why": [
+        "Incredible affordable omakase scene: Namaiki (£45 lunch), Sushi Kyu (£52 lunch, 10-seat counter), Iné (£70 lunch), plus high-end Sushi Tetsu",
+        "Perfect mild summer weather — never too hot",
+        "World-class parks: Hyde Park, Regent's Park, Hampstead Heath, South Bank — elevated greenery everywhere",
+        "Shopping paradise for Ashi — Oxford Street, Carnaby Street, Brandy Melville on Regent Street, vintage stores in Brick Lane",
+        "Borough Market = SF Ferry Building energy but bigger. Aesthetic food halls.",
+        "Vintage/atmospheric bars everywhere for Carissa — speakeasies, wood-paneled pubs",
+        "Great seafood (oyster bars, fish markets), amazing steak spots for Ashi",
+        "Blue Bottle has London locations; tons of specialty coffee"
+      ],
+      "watch_out": [
+        "London is expensive — need to optimize hard on dining to stay in budget sweet spot",
+        "7+ hour flight (but direct, overnight both ways)",
+        "No beach/clear blue water for Niki (could day-trip to Brighton or Cornwall)"
+      ],
+      "family_match": {
+        "niki": "Affordable omakase paradise, South Bank waterfront, Borough Market",
+        "carissa": "Hampstead Heath, atmospheric pubs, supper clubs, Portobello Road vintage",
+        "ashi": "Shopping heaven, boba in Chinatown, steak at Flat Iron, city exploration"
+      }
+    },
+    {
+      "destination": "Dublin, Ireland + Coastal Day Trips",
+      "score": 0.78,
+      "direct_from_pit": true,
+      "airline": "Aer Lingus (NEW — launching May 25, 2026, 4x/week, from $519 RT)",
+      "summer_temp_F": "55-65",
+      "why": [
+        "Brand new direct route — likely deals for inaugural summer",
+        "Excellent seafood: SOLE, The Seafood Café by Niall Sabongi, Rosa Madre, oysters at multiple spots",
+        "Howth fishing village day trip — coastal walk + fresh seafood with harbor views",
+        "Very cool temps — zero chance of being too hot",
+        "Phoenix Park is massive elevated greenery, St. Stephen's Green is charming",
+        "Temple Bar vintage pub atmosphere (Carissa would love)",
+        "Could combo with a quick Ryanair hop to London, Edinburgh, or even San Sebastián"
+      ],
+      "watch_out": [
+        "Japanese/sushi scene is limited compared to Seattle or London",
+        "Teen shopping is weaker — Grafton Street is nice but no Brandy Melville",
+        "Only 4 flights per week — less schedule flexibility",
+        "Can be rainy even in summer",
+        "Food scene is growing but not at Seattle/London level yet"
+      ],
+      "family_match": {
+        "niki": "Coastal cliffs, Howth harbor, great seafood, cool weather",
+        "carissa": "Vintage pubs galore, lakes in Wicklow Mountains day trip",
+        "ashi": "Fun city vibe but weaker on shopping and boba"
+      }
+    },
+    {
+      "destination": "Reykjavik, Iceland",
+      "score": 0.65,
+      "direct_from_pit": true,
+      "airline": "Icelandair (seasonal, resumes May 8)",
+      "summer_temp_F": "50-60",
+      "why": [
+        "Dramatic landscapes unlike anything else — waterfalls, glaciers, geothermal pools",
+        "24-hour daylight in summer — unique experience",
+        "Blue Lagoon, Golden Circle, black sand beaches",
+        "Good seafood — langoustine, fresh fish",
+        "Cool temps guaranteed"
+      ],
+      "watch_out": [
+        "Very limited Japanese food/sushi scene",
+        "Extremely expensive for food and everything else",
+        "No dim sum, limited restaurant variety",
+        "Minimal shopping for teens",
+        "More nature-focused than city-focused — may not match Ashi's vibe",
+        "No clear blue water (more dramatic/dark water)"
+      ],
+      "family_match": {
+        "niki": "Dramatic coasts but not the clear blue water he loves",
+        "carissa": "Mountains and dramatic nature — she'd love it",
+        "ashi": "Could feel limited after 3-4 days — not her usual vibe"
+      }
+    },
+    {
+      "destination": "London + San Sebastián, Spain (combo)",
+      "score": 0.85,
+      "direct_from_pit": false,
+      "airline": "BA direct PIT→London, then Vueling/easyJet to Bilbao (1hr drive to San Sebastián)",
+      "summer_temp_F": "London 60-75, San Sebastián 68-77",
+      "why": [
+        "Best-of-both-worlds trip: London's parks/shopping/omakase + world's best pintxos city",
+        "San Sebastián is THE foodie destination — pintxos bar-hopping in Old Town is exactly the optimized hidden-gem-hunting this family loves",
+        "La Concha beach — gorgeous crescent bay, clear-ish water, mountains behind (everyone wins)",
+        "Mild summer weather in both cities",
+        "Could split 4 days London + 3 days San Sebastián",
+        "San Sebastián is compact, walkable, beautiful — very aesthetic"
+      ],
+      "watch_out": [
+        "Requires a connection/second flight (but it's a short 2hr hop from London)",
+        "More complex logistics than a single-city trip",
+        "San Sebastián teen shopping is limited (but London covers that)",
+        "Two currencies, two languages"
+      ],
+      "family_match": {
+        "niki": "La Concha beach + clear water, pintxos optimization paradise",
+        "carissa": "Mountains visible from beach, wine bars, not a direct flight but via London direct",
+        "ashi": "London shopping + San Sebastián beach + amazing food"
+      }
+    }
+  ],
+  "notes": [
+    "Direct flights from PIT that are too hot for summer: Austin, Phoenix, Fort Lauderdale, Cancún, Punta Cana, Charleston — all eliminated",
+    "Boston considered but deprioritized: can hit 85°F+ in summer, and food scene doesn't match Seattle/London for this family's specific tastes",
+    "Seattle is the clear domestic winner — checks almost every box",
+    "London is the clear international winner for a single-destination trip",
+    "London+San Sebastián is the ambitious optimizer play",
+    "Dublin is interesting because of the brand-new direct route but weaker on Japanese food and teen appeal",
+    "Key open questions: duration? budget range? dates flexibility? international or domestic preference?"
+  ],
+  "last_updated": "2026-03-24T00:00:00-04:00"
+}
