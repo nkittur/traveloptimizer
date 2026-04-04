@@ -749,7 +749,7 @@ function generateHomePage(placeIndex) {
       ).join(' ');
       return '<a href="trips/places/' + e.slug + '.html" class="card">' +
         '<div class="card-top">' +
-          '<div class="card-title">' + (e.query || e.slug).replace(/near\s+/i, '<span class="card-loc">near </span>').replace(/</g, '&lt;') + '</div>' +
+          '<div class="card-title">' + (e.query || e.slug).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/near\s+/i, '<span class="card-loc">near </span>') + '</div>' +
           '<div class="card-arrow">&#8250;</div>' +
         '</div>' +
         '<div class="card-meta">' +
