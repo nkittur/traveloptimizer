@@ -517,11 +517,31 @@ index.push({
 writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
 console.error(`Index updated: ${index.length} entries`);
 
+// --- Build member profiles for the UI ---
+const memberProfiles = {};
+// From family.json members
+for (const m of (profile.family?.members || [])) {
+  memberProfiles[m.name] = { role: m.role, notes: m.notes };
+}
+// From friend_profiles in family.json
+for (const [name, fp] of Object.entries(profile.friend_profiles || {})) {
+  memberProfiles[name] = { role: 'friend', notes: fp.notes, drinks: fp.drinks, vibe: fp.vibe };
+}
+// Override/merge from group context friend_profiles (may have shorter descriptions)
+if (data.group?.friend_profiles) {
+  for (const [name, desc] of Object.entries(data.group.friend_profiles)) {
+    if (!memberProfiles[name]) memberProfiles[name] = {};
+    memberProfiles[name].role = memberProfiles[name].role || 'friend';
+    // Don't overwrite richer family.json data with shorter group context
+  }
+}
+
 // --- Build embedded data ---
 const embeddedData = {
   scored,
   query: data.query,
   group: data.group || null,
+  memberProfiles,
   locationBias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
   apiKey: API_KEY,
@@ -582,7 +602,19 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .summary{max-width:600px;margin:12px auto;padding:0 12px}
 .ctx-card{background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);font-size:13px;line-height:2}
 .ctx-label{font-weight:700;color:#1a3a5c;margin-right:4px}
-.ctx-person{display:inline-block;font-weight:600;color:#1a2332;background:#f0f4f8;padding:1px 8px;border-radius:6px;margin-right:2px}
+.ctx-person{display:inline-block;font-weight:600;color:#1a2332;background:#f0f4f8;padding:1px 8px;border-radius:6px;margin-right:2px;cursor:pointer;border:1px solid #e5e7eb;-webkit-tap-highlight-color:rgba(42,100,150,0.2)}
+.ctx-person:active{background:#e0ecf5}
+
+.person-popup-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.35);z-index:300;display:none;opacity:0;transition:opacity 0.15s}
+.person-popup-overlay.show{display:block;opacity:1}
+.person-popup{position:fixed;bottom:0;left:0;right:0;background:#fff;border-radius:20px 20px 0 0;padding:20px 16px 32px;z-index:301;transform:translateY(100%);transition:transform 0.25s ease;max-height:60vh;overflow-y:auto}
+.person-popup.show{transform:translateY(0)}
+.person-popup .drag-handle{width:40px;height:4px;background:#d1d5db;border-radius:2px;margin:0 auto 14px}
+.person-popup h3{font-size:18px;font-weight:700;color:#1a2332}
+.person-popup .pp-role{font-size:12px;color:#5a6b7d;text-transform:uppercase;letter-spacing:0.5px;margin-top:2px}
+.person-popup .pp-notes{font-size:14px;color:#374151;margin-top:12px;line-height:1.6}
+.person-popup .pp-detail{margin-top:10px;font-size:13px;color:#5a6b7d}
+.person-popup .pp-detail span{font-weight:600;color:#1a3a5c}
 .ctx-chip{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:6px;background:#eff6ff;color:#1e40af;margin-right:2px}
 .ctx-text{color:#5a6b7d}
 
@@ -604,6 +636,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 <div id="map"></div>
 <div id="summaryWrap" class="summary"></div>
 <div id="content"></div>
+<div class="person-popup-overlay" id="ppOverlay" onclick="closePersonPopup()"></div>
+<div class="person-popup" id="ppPanel">
+  <div class="drag-handle"></div>
+  <div id="ppContent"></div>
+</div>
 <div class="footer">TravelOptimizer &middot; Scored via Google Places API</div>
 
 <script>
@@ -624,16 +661,15 @@ DATA.intents.forEach(function(intent) {
 (function() {
   var wrap = document.getElementById('summaryWrap');
   var parts = [];
-  // Who's going
   var group = DATA.group;
   if (group && group.members) {
-    parts.push('<span class="ctx-label">Who:</span> ' + group.members.map(function(m) { return '<span class="ctx-person">' + m + '</span>'; }).join(' '));
+    parts.push('<span class="ctx-label">Who:</span> ' + group.members.map(function(m) {
+      return '<span class="ctx-person" onclick="showPerson(&#39;' + m + '&#39;)">' + m + '</span>';
+    }).join(' '));
   }
-  // Constraints from query
   if (DATA.intents && DATA.intents.length) {
     parts.push('<span class="ctx-label">Looking for:</span> ' + DATA.intents.map(function(i) { return '<span class="ctx-chip">' + i.label + '</span>'; }).join(' '));
   }
-  // Context
   if (group && group.context) {
     parts.push('<span class="ctx-label">Context:</span> <span class="ctx-text">' + group.context.replace(/</g,'&lt;') + '</span>');
   }
@@ -641,6 +677,27 @@ DATA.intents.forEach(function(intent) {
     wrap.innerHTML = '<div class="ctx-card">' + parts.join('<br>') + '</div>';
   }
 })();
+
+// === PERSON POPUP ===
+function showPerson(name) {
+  var p = (DATA.memberProfiles || {})[name];
+  var html = '<h3>' + name + '</h3>';
+  if (p) {
+    if (p.role) html += '<div class="pp-role">' + p.role + '</div>';
+    if (p.notes) html += '<div class="pp-notes">' + p.notes.replace(/</g,'&lt;') + '</div>';
+    if (p.drinks && p.drinks.length) html += '<div class="pp-detail"><span>Drinks:</span> ' + p.drinks.join(', ') + '</div>';
+    if (p.vibe) html += '<div class="pp-detail"><span>Vibe:</span> ' + p.vibe + '</div>';
+  } else {
+    html += '<div class="pp-notes">No profile info available.</div>';
+  }
+  document.getElementById('ppContent').innerHTML = html;
+  document.getElementById('ppOverlay').classList.add('show');
+  document.getElementById('ppPanel').classList.add('show');
+}
+function closePersonPopup() {
+  document.getElementById('ppOverlay').classList.remove('show');
+  document.getElementById('ppPanel').classList.remove('show');
+}
 
 // === HELPERS ===
 function esc(s) { if (!s) return ''; var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
