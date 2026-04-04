@@ -168,12 +168,60 @@ function scorePlaces(places, locationBias, intents) {
     }
 
     // Open/closed
+    let closingTime = null;
     if (p.open_now === false) cons.push('Currently closed');
     if (p.open_now === true && p.today_hours) {
-      // Extract closing time
       const closeMatch = p.today_hours.match(/(\d+:\d+\s*(?:AM|PM))\s*$/i);
-      if (closeMatch) pros.push('Open until ' + closeMatch[1]);
+      if (closeMatch) {
+        closingTime = closeMatch[1];
+        pros.push('Open until ' + closingTime);
+      }
     }
+
+    // --- Build narrative ---
+    // A cohesive 1-3 sentence summary of why this place does or doesn't fit
+    const narParts = [];
+
+    // Opening: what is this place + distance
+    const typeStr = p.type ? p.type : 'spot';
+    if (p.description) {
+      // Use the editorial summary as the lead
+      narParts.push(p.description.replace(/\.$/, ''));
+    } else {
+      narParts.push(p.name + ' is a ' + typeStr.toLowerCase());
+    }
+
+    // Distance context
+    if (driveMin != null && driveMin <= 2) {
+      narParts[0] += ', just ' + (driveMin <= 1 ? 'steps' : driveMin + ' min') + ' from your location';
+    } else if (driveMin != null && driveMin <= 10) {
+      narParts[0] += ', about ' + driveMin + ' min away';
+    } else if (driveMin != null) {
+      narParts[0] += ', but ' + driveMin + ' min away';
+    }
+    narParts[0] += '.';
+
+    // What matches the query
+    const hits = intentResults.filter(r => r.hit).map(r => r.label.toLowerCase());
+    const misses = intentResults.filter(r => r.miss).map(r => r.label.toLowerCase());
+
+    if (hits.length > 0) {
+      narParts.push('Has ' + hits.join(', ') + '.');
+    }
+    if (misses.length > 0) {
+      narParts.push('Missing: ' + misses.join(', ') + '.');
+    }
+
+    // Quality + hours context
+    const qualParts = [];
+    if (p.rating) qualParts.push('rated ' + p.rating + (p.review_count ? ' (' + p.review_count.toLocaleString() + ' reviews)' : ''));
+    if (closingTime) qualParts.push('open until ' + closingTime + ' today');
+    else if (p.open_now === false) qualParts.push('currently closed');
+    if (qualParts.length) {
+      narParts.push(qualParts.map((s, i) => i === 0 ? s.charAt(0).toUpperCase() + s.slice(1) : s).join(', ') + '.');
+    }
+
+    const narrative = narParts.join(' ');
 
     return {
       ...p,
@@ -184,6 +232,7 @@ function scorePlaces(places, locationBias, intents) {
       _matchLabel: matchLabel,
       _pros: pros,
       _cons: cons,
+      _narrative: narrative,
       _intentResults: intentResults,
     };
   }).sort((a, b) => b._overall - a._overall);
@@ -248,7 +297,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .con{color:#b45309}
 .con::before{content:'-';font-weight:700;margin-right:4px}
 
-.card-addr{font-size:11px;color:#94a3b8;margin-top:6px}
+.card-narrative{font-size:13px;color:#374151;margin-top:8px;line-height:1.55}
+.card-addr{font-size:11px;color:#94a3b8;margin-top:6px;display:flex;justify-content:space-between;align-items:center}
+.maps-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 0;flex-shrink:0}
+.maps-link:hover{text-decoration:underline}
 
 .footer{text-align:center;padding:24px;font-size:11px;color:#94a3b8}
 
@@ -339,9 +391,7 @@ function render() {
         distStr = p._distKm < 1 ? Math.round(p._distKm * 1000) + 'm' : p._distKm + 'km';
       }
 
-      var insightsHtml = '';
-      p._pros.forEach(function(pro) { insightsHtml += '<div class="pro">' + esc(pro) + '</div>'; });
-      p._cons.forEach(function(con) { insightsHtml += '<div class="con">' + esc(con) + '</div>'; });
+      var mapsUrl = p.google_maps_url || ('https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.name + ' ' + (p.address || '')));
 
       card.innerHTML =
         '<div class="card-top">' +
@@ -358,8 +408,11 @@ function render() {
           '</div>' +
           '<div class="card-score" style="background:' + scoreColor(p._overall) + '">' + Math.round(p._overall * 100) + '</div>' +
         '</div>' +
-        '<div class="insights">' + insightsHtml + '</div>' +
-        (p.address ? '<div class="card-addr">' + esc(p.address) + '</div>' : '');
+        '<div class="card-narrative">' + esc(p._narrative) + '</div>' +
+        '<div class="card-addr">' +
+          '<span>' + esc(p.address || '') + '</span>' +
+          '<a class="maps-link" href="' + esc(mapsUrl) + '" target="_blank" onclick="event.stopPropagation()">Open in Maps \\u2197</a>' +
+        '</div>';
 
       content.appendChild(card);
     });
