@@ -282,7 +282,7 @@ function loadPriorNarratives(locationBias) {
   return priorByName;
 }
 
-async function generateNarratives(scored, profile, query, locationBias) {
+async function generateNarratives(scored, profile, query, locationBias, groupContext) {
   const priorNarratives = loadPriorNarratives(locationBias);
 
   const placeSummaries = scored.map((p, i) => {
@@ -309,6 +309,9 @@ async function generateNarratives(scored, profile, query, locationBias) {
       _overall: Math.round(p._overall * 100),
     };
 
+    // Attach web research if available
+    if (p.web_research) entry.web_research = p.web_research;
+
     // Attach prior narrative if we have one
     const key = (p.name || '').toLowerCase().trim();
     if (priorNarratives[key]) {
@@ -321,11 +324,22 @@ async function generateNarratives(scored, profile, query, locationBias) {
 
   const hasPriors = placeSummaries.some(p => p._prior_narrative);
 
-  const prompt = `You are writing personalized place recommendations for a specific family.
+  // Determine who is in this group
+  let groupSection = '';
+  if (groupContext) {
+    groupSection = `\n## Who's Going
+Members: ${groupContext.members.join(', ')}${groupContext.not_included ? '\nNOT included: ' + groupContext.not_included.join(', ') : ''}
+${groupContext.context || ''}
+${groupContext.friend_profiles ? '\n### Friend Profiles\n' + Object.entries(groupContext.friend_profiles).map(([k,v]) => k + ': ' + v).join('\n') : ''}
+
+IMPORTANT: Write narratives ONLY for the people going (${groupContext.members.join(', ')}). Do NOT reference ${(groupContext.not_included || []).join(', ')} in narratives.\n`;
+  }
+
+  const prompt = `You are writing personalized place recommendations.
 
 ## Family Profile
 ${JSON.stringify(profile, null, 2)}
-
+${groupSection}
 ## Their Query (what they're looking for RIGHT NOW)
 "${query}"
 
@@ -333,9 +347,9 @@ ${JSON.stringify(profile, null, 2)}
 ${JSON.stringify(placeSummaries, null, 2)}
 ${hasPriors ? `
 ## Prior Context
-Some places have a _prior_narrative from a previous search (noted with _prior_query). Use these as context — they contain things we already learned about this place and family. Build on them but REWRITE for the current query. The current query may have different priorities than the prior one.` : ''}
+Some places have a _prior_narrative from a previous search. Use these as context but REWRITE for the current query and current group.` : ''}
 
-For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS FAMILY would or wouldn't enjoy it for THIS SPECIFIC QUERY. Reference family members by name when relevant.
+For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS GROUP would or wouldn't enjoy it for THIS SPECIFIC QUERY. Reference people by name when relevant.
 
 Rules:
 - Be specific to why this place fits or doesn't fit THEIR CURRENT QUERY: "${query}"
@@ -376,7 +390,7 @@ No markdown, no backticks, just the JSON array.`;
 }
 
 // Run narrative generation
-const narratives = await generateNarratives(scored, profile, data.query, data.location_bias);
+const narratives = await generateNarratives(scored, profile, data.query, data.location_bias, data.group || null);
 if (narratives) {
   for (const n of narratives) {
     if (n.index != null && scored[n.index]) {
