@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Scored: outdoor seating patio beer coffee near Ross Park Mall Pittsburgh PA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;line-height:1.5;overflow-x:hidden}
+
+/* Header */
+.header{background:linear-gradient(135deg,#1a3a5c 0%,#2a6496 50%,#3a85c4 100%);color:#fff;padding:16px 16px 12px;position:sticky;top:0;z-index:100}
+.header h1{font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.header .sub{font-size:12px;color:#a8cce8;margin-top:2px}
+
+/* Map */
+#map{width:100%;height:38vh;min-height:200px;background:#dde6ed}
+
+/* Table area */
+.table-wrap{padding:8px}
+
+/* Sort bar */
+.sort-bar{display:flex;align-items:center;gap:8px;padding:8px 4px;font-size:12px;color:#5a6b7d;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.sort-bar button{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:6px 12px;font-family:inherit;font-size:12px;font-weight:600;color:#374151;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.sort-bar button.active{background:#2a6496;color:#fff;border-color:#2a6496}
+.sort-bar button.score-btn{background:linear-gradient(135deg,#1a3a5c,#2a6496);color:#fff;border-color:#1a3a5c;position:relative}
+.sort-bar button.score-btn::after{content:'⚙';margin-left:4px;font-size:10px}
+
+/* Place cards */
+.place-card{background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);border:2px solid transparent;transition:border-color 0.2s,transform 0.1s;cursor:pointer}
+.place-card.selected{border-color:#2a6496;transform:scale(1.01)}
+.place-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.place-name{font-size:15px;font-weight:700;color:#1a2332;flex:1}
+.place-score{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff;flex-shrink:0}
+.place-meta{font-size:12px;color:#5a6b7d;margin-top:3px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.place-meta .rating{color:#1a2332;font-weight:600}
+.place-meta .dot{color:#d1d5db}
+.place-desc{font-size:12px;color:#374151;margin-top:6px;font-style:italic}
+
+/* Criteria pills */
+.criteria-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.crit-pill{font-size:11px;font-weight:600;padding:3px 8px;border-radius:8px;display:inline-flex;align-items:center;gap:3px}
+.crit-pill.good{background:#ecfdf5;color:#059669}
+.crit-pill.mid{background:#fef9ee;color:#b45309}
+.crit-pill.bad{background:#fef2f2;color:#991b1b}
+.crit-pill.na{background:#f3f4f6;color:#9ca3af}
+
+/* Bottom sheet for weights */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:200;display:none;opacity:0;transition:opacity 0.2s}
+.overlay.show{display:block;opacity:1}
+.weight-panel{position:fixed;bottom:0;left:0;right:0;background:#fff;border-radius:20px 20px 0 0;padding:20px 16px 32px;z-index:201;transform:translateY(100%);transition:transform 0.3s ease;max-height:70vh;overflow-y:auto}
+.weight-panel.show{transform:translateY(0)}
+.weight-panel h2{font-size:16px;font-weight:700;margin-bottom:4px}
+.weight-panel .wp-sub{font-size:12px;color:#5a6b7d;margin-bottom:16px}
+.weight-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0}
+.weight-row:last-child{border-bottom:none}
+.weight-label{font-size:13px;font-weight:600;min-width:90px;display:flex;align-items:center;gap:4px}
+.weight-slider{flex:1;-webkit-appearance:none;appearance:none;height:6px;background:#e5e7eb;border-radius:3px;outline:none}
+.weight-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:#2a6496;cursor:pointer;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.2)}
+.weight-val{font-size:12px;font-weight:700;color:#2a6496;min-width:28px;text-align:right}
+.weight-panel .close-btn{display:block;margin:16px auto 0;background:#2a6496;color:#fff;border:none;border-radius:10px;padding:10px 32px;font-family:inherit;font-size:14px;font-weight:600;cursor:pointer}
+
+/* Handle */
+.drag-handle{width:40px;height:4px;background:#d1d5db;border-radius:2px;margin:0 auto 12px}
+
+@media(min-width:641px){
+  .table-wrap{max-width:700px;margin:0 auto}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 id="queryTitle"></h1>
+  <div class="sub" id="resultCount"></div>
+</div>
+
+<div id="map"></div>
+
+<div class="table-wrap">
+  <div class="sort-bar" id="sortBar"></div>
+  <div id="placesList"></div>
+</div>
+
+<div class="overlay" id="overlay" onclick="closeWeights()"></div>
+<div class="weight-panel" id="weightPanel">
+  <div class="drag-handle"></div>
+  <h2>Adjust Weights</h2>
+  <div class="wp-sub">Higher weight = more influence on the score</div>
+  <div id="weightSliders"></div>
+  <button class="close-btn" onclick="closeWeights()">Done</button>
+</div>
+
+<script>
+// === EMBEDDED DATA ===
+const DATA = {"places":[{"name":"The Abbey on Butler Street","address":"4635 Butler St, Pittsburgh","full_address":"4635 Butler St, Pittsburgh, PA 15201, USA","rating":4.3,"review_count":2303,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":"Trendy, spacious cafe serving espresso, craft beer & cocktails, plus New American cuisine.","open_now":true,"today_hours":"Saturday: 11:00 AM – 2:00 AM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":true,"google_maps_url":"https://maps.google.com/?cid=9076449519431564711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://theabbeyonbutlerstreet.com/","location":{"lat":40.473827199999995,"lng":-79.9584053}},{"name":"OTB at the North Park Boathouse","address":"10301 Pearce Mill Rd, Allison Park","full_address":"10301 Pearce Mill Rd, Allison Park, PA 15101, USA","rating":4.4,"review_count":1223,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":"Lakeside eatery serving specialty burgers & draft brews in a bike-themed space with patio seating.","open_now":true,"today_hours":"Saturday: 11:00 AM – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=3519563684817039325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://www.otbbicyclecafe.com/","location":{"lat":40.604816799999995,"lng":-80.0072532}},{"name":"Coughlin's Law Kitchen and Brew Pub at Nebo Pointe","address":"138 Green Valley Rd, Pittsburgh","full_address":"138 Green Valley Rd, Pittsburgh, PA 15237, USA","rating":4.1,"review_count":368,"price_level":"PRICE_LEVEL_MODERATE","type":"American restaurant","description":null,"open_now":true,"today_hours":"Saturday: 11:30 AM – 9:45 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=3997122422295765789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://www.eatatcoughlinslaw.com/mount-nebo-pointe-menu","location":{"lat":40.532163,"lng":-80.069244}},{"name":"North Park Lounge McCandless","address":"8701 Babcock Blvd, Pittsburgh","full_address":"8701 Babcock Blvd, Pittsburgh, PA 15237, USA","rating":4.4,"review_count":2010,"price_level":"PRICE_LEVEL_MODERATE","type":"American restaurant","description":"This casual bar & grill serves a menu of hearty American fare, with lots of screens for TV sports.","open_now":true,"today_hours":"Saturday: 7:00 AM – 1:00 AM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=6447929695983182851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://mccandless.northparklounge.com/","location":{"lat":40.5660829,"lng":-80.0168073}},{"name":"The Porch","address":"221 Schenley Dr, Pittsburgh","full_address":"221 Schenley Dr, Pittsburgh, PA 15213, USA","rating":4.1,"review_count":2130,"price_level":"PRICE_LEVEL_MODERATE","type":"American restaurant","description":"Laid-back gathering place for seasonal menus crafted using ingredients from local producers.","open_now":true,"today_hours":"Saturday: 10:00 AM – 11:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=3857339642419922746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://www.dineattheporch.com/","location":{"lat":40.4427046,"lng":-79.95306360000001}},{"name":"Southern Tier Brewery Pittsburgh","address":"316 North Shore Drive, Pittsburgh","full_address":"316 North Shore Drive, Pittsburgh, PA 15212, USA","rating":4.6,"review_count":2636,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 11:00 AM – 12:00 AM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=7994939358014206331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://pittsburgh.stbcbeer.com/","location":{"lat":40.4462007,"lng":-80.01032219999999}},{"name":"Wheelfish","address":"635 Sangree Rd, Pittsburgh","full_address":"635 Sangree Rd, Pittsburgh, PA 15237, USA","rating":4.5,"review_count":758,"price_level":"PRICE_LEVEL_MODERATE","type":"Bar & grill","description":"Classic & modern BBQ fare plus bourbon & live blues in a hip setting with distressed-wood decor.","open_now":true,"today_hours":"Saturday: 12:00 PM – 12:00 AM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=2299150635891967764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://www.wheelfish.com/","location":{"lat":40.539285,"lng":-79.9914316}},{"name":"Modern Cafe","address":"862 Western Ave, Pittsburgh","full_address":"862 Western Ave, Pittsburgh, PA 15233, USA","rating":4.5,"review_count":541,"price_level":"PRICE_LEVEL_INEXPENSIVE","type":"Bar","description":"Simple, long-running bar & cafe with many beers & a menu of internationally inspired sandwiches.","open_now":true,"today_hours":"Saturday: 11:00 AM – 1:00 AM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=2091062832816132702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://themoderncafe.com/","location":{"lat":40.452150599999996,"lng":-80.0164403}},{"name":"Federal Galley","address":"Allegheny Center Garage, 200 Children's Way, Pittsburgh","full_address":"200 Children's Way, Pittsburgh, PA 15212, USA","rating":4.5,"review_count":2578,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":"Sleek, sprawling food hall with a mix of modern fare, plus a full bar and beer garden.","open_now":true,"today_hours":"Saturday: 10:00 AM – 11:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=1155841762089758282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://www.federalgalley.org/","location":{"lat":40.4515068,"lng":-80.00603389999999}},{"name":"Cadence Clubhouse","address":"9999 Kummer Rd Suite 1, Allison Park","full_address":"9999 Kummer Rd Suite 1, Allison Park, PA 15101, USA","rating":3.8,"review_count":403,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 9:00 AM – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=1414048164000190650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://cadenceclubhouse.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp","location":{"lat":40.592685599999996,"lng":-80.0156555}},{"name":"Four Points Brewing Taproom","address":"919 Western Ave, Pittsburgh","full_address":"919 Western Ave, Pittsburgh, PA 15233, USA","rating":4.7,"review_count":108,"price_level":null,"type":"Brewery","description":null,"open_now":true,"today_hours":"Saturday: 12:00 – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":null,"serves_cocktails":null,"serves_coffee":null,"dine_in":true,"live_music":null,"good_for_groups":null,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=2499117106538402386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://www.fourpointsbrewing.com/","location":{"lat":40.451741899999995,"lng":-80.0172844}},{"name":"Trace Brewing","address":"4312 Main St, Pittsburgh","full_address":"4312 Main St, Pittsburgh, PA 15224, USA","rating":4.5,"review_count":395,"price_level":null,"type":"Brewery","description":null,"open_now":true,"today_hours":"Saturday: 8:00 AM – 11:00 PM","outdoor_seating":null,"serves_beer":true,"serves_wine":null,"serves_cocktails":null,"serves_coffee":null,"dine_in":null,"live_music":null,"good_for_groups":null,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=8719725429755085074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://www.tracebloomfield.com/","location":{"lat":40.464085,"lng":-79.953357}},{"name":"De Fer Coffee & Tea","address":"2002 Smallman St, Pittsburgh","full_address":"2002 Smallman St, Pittsburgh, PA 15222, USA","rating":4.8,"review_count":854,"price_level":"PRICE_LEVEL_MODERATE","type":"Coffee shop","description":"Chill, industrial-style cafe with outdoor seats serving light fare, baked goods, coffee, and cocktails.","open_now":true,"today_hours":"Saturday: 8:00 AM – 5:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=1886594633515547677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://www.defer.coffee/strip-district?utm_source=gbp_profile&utm_medium=organic&utm_campaign=gbp","location":{"lat":40.4516915,"lng":-79.9844237}},{"name":"Rear End | Gastropub & Garage","address":"399 Butler St, Pittsburgh","full_address":"399 Butler St, Pittsburgh, PA 15223, USA","rating":4.4,"review_count":518,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 11:00 AM – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":true,"allows_dogs":true,"google_maps_url":"https://maps.google.com/?cid=9056214872470157621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://rearendetna.com/","location":{"lat":40.4976218,"lng":-79.9441501}},{"name":"Brick and Barrel Cross Keys","address":"599 Dorseyville Rd, Pittsburgh","full_address":"599 Dorseyville Rd, Pittsburgh, PA 15238, USA","rating":4.5,"review_count":556,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 11:00 AM – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=16278223597340856026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://thebricknbarrel.com/?y_source=1_MzkwNTQ5NTEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D","location":{"lat":40.5377057,"lng":-79.9114627}},{"name":"The Wine Cave","address":"3141 Harts Run Rd, Allison Park","full_address":"3141 Harts Run Rd, Allison Park, PA 15101, USA","rating":4.4,"review_count":135,"price_level":null,"type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 11:00 AM – 10:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=18361204335969577051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://thewinecave.squarespace.com/winecavewine","location":{"lat":40.5609322,"lng":-79.9287538}},{"name":"Sidecar Coffee and Bake Shop","address":"King Edward Apartments, 200 N Craig St, Pittsburgh","full_address":"200 N Craig St, Pittsburgh, PA 15213, USA","rating":4.5,"review_count":146,"price_level":null,"type":"Coffee shop","description":null,"open_now":true,"today_hours":"Saturday: 7:00 AM – 7:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":false,"serves_cocktails":false,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":null,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=94031925121984565&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://sidecar412.com/","location":{"lat":40.4499418,"lng":-79.9506486}},{"name":"Cinderlands Warehouse","address":"2601 Smallman St, Pittsburgh","full_address":"2601 Smallman St, Pittsburgh, PA 15222, USA","rating":4.3,"review_count":561,"price_level":"PRICE_LEVEL_MODERATE","type":"Brewpub","description":"Elevated bar bites & house beers are served in a rustic-meets-industrial setting with a warm vibe.","open_now":true,"today_hours":"Saturday: 11:30 AM – 11:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":null,"dine_in":true,"live_music":null,"good_for_groups":null,"allows_dogs":null,"google_maps_url":"https://maps.google.com/?cid=399346881054018224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://www.cinderlands.com/","location":{"lat":40.4559512,"lng":-79.9792792}},{"name":"Happenstance Cafe","address":"3832 Penn Ave, Pittsburgh","full_address":"3832 Penn Ave, Pittsburgh, PA 15201, USA","rating":4.9,"review_count":183,"price_level":"PRICE_LEVEL_MODERATE","type":"Restaurant","description":null,"open_now":true,"today_hours":"Saturday: 7:00 AM – 4:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":true,"good_for_groups":null,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=15842834703646552845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"http://happenstancecafe.com/","location":{"lat":40.4646337,"lng":-79.96027149999999}},{"name":"Margaux","address":"5947 Penn Ave, Pittsburgh","full_address":"5947 Penn Ave, Pittsburgh, PA 15206, USA","rating":4.4,"review_count":386,"price_level":"PRICE_LEVEL_MODERATE","type":"Coffee shop","description":null,"open_now":true,"today_hours":"Saturday: 9:00 AM – 11:00 PM","outdoor_seating":true,"serves_beer":true,"serves_wine":true,"serves_cocktails":true,"serves_coffee":true,"dine_in":true,"live_music":false,"good_for_groups":true,"allows_dogs":false,"google_maps_url":"https://maps.google.com/?cid=14870246282174893796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA","website":"https://margauxpgh.com/","location":{"lat":40.461658799999995,"lng":-79.9249802}}],"query":"outdoor seating patio beer coffee near Ross Park Mall Pittsburgh PA","locationBias":{"lat":40.5434421,"lng":-80.0080526},"criteria":{"outdoor_seating":{"type":"boolean","label":"Outdoor","icon":"☀","category":"amenity","weight":0.9,"key":"outdoor_seating"},"serves_beer":{"type":"boolean","label":"Beer","icon":"🍺","category":"amenity","weight":0.9,"key":"serves_beer"},"serves_wine":{"type":"boolean","label":"Wine","icon":"🍷","category":"amenity","weight":0.3,"key":"serves_wine"},"serves_cocktails":{"type":"boolean","label":"Cocktails","icon":"🍸","category":"amenity","weight":0.3,"key":"serves_cocktails"},"serves_coffee":{"type":"boolean","label":"Coffee","icon":"☕","category":"amenity","weight":0.9,"key":"serves_coffee"},"live_music":{"type":"boolean","label":"Live Music","icon":"🎵","category":"amenity","weight":0.3,"key":"live_music"},"good_for_groups":{"type":"boolean","label":"Groups","icon":"👥","category":"amenity","weight":0.3,"key":"good_for_groups"},"allows_dogs":{"type":"boolean","label":"Dogs OK","icon":"🐕","category":"amenity","weight":0.3,"key":"allows_dogs"},"rating":{"type":"numeric","label":"Rating","icon":"⭐","category":"quality","weight":0.6,"key":"rating"},"review_count":{"type":"numeric_log","label":"Popularity","icon":"📊","category":"quality","weight":0.6,"key":"review_count"},"distance":{"type":"distance","label":"Proximity","icon":"📍","category":"location","weight":0.9,"key":"distance"},"open_now":{"type":"boolean","label":"Open Now","icon":"🕐","category":"convenience","weight":0.7,"key":"open_now"},"food_match":{"type":"keyword","label":"Food Match","icon":"🍽","category":"family","positive":["sushi","especially cheap omakase under $100/pp","japanese food on vacation","really good restaurants in general","great seafood","very good dim sum","tapas","great steak (daughter especially)","great coffee","blue bottle tier","cute aesthetic coffee shops","starbucks and boba (daughter)","drinks with a view"],"negative":["too rich","buttery","or creamy food","cheese (wife and daughter)","yoghurt (dad)","sandwiches (daughter)","eggs (daughter)"],"partial":["tacos only occasionally","must be street tacos with insanely good tortillas","chinese only if insanely good","we have good chinese in pittsburgh already"],"weight":0.4,"key":"food_match"},"vibe_match":{"type":"keyword","label":"Vibe Match","icon":"✨","category":"family","positive":["elevated greenery in cities","nyc high line","sf salesforce park","gg park","central park","millennium park","very aesthetic places","sf ferry building tier","water","coasts","clear blue water (dad especially)","mountains","lakes (wife especially)","cities with great shopping for teens (daughter)","vintage/atmospheric bars with character","wood paneling","supper club feel (wife)","fancy but optimized","elevated experiences without overpaying","hidden gems"],"negative":[],"weight":0.4,"key":"vibe_match"}},"profile":{"food_match":{"type":"keyword","label":"Food Match","icon":"🍽","category":"family","positive":["sushi","especially cheap omakase under $100/pp","japanese food on vacation","really good restaurants in general","great seafood","very good dim sum","tapas","great steak (daughter especially)","great coffee","blue bottle tier","cute aesthetic coffee shops","starbucks and boba (daughter)","drinks with a view"],"negative":["too rich","buttery","or creamy food","cheese (wife and daughter)","yoghurt (dad)","sandwiches (daughter)","eggs (daughter)"],"partial":["tacos only occasionally","must be street tacos with insanely good tortillas","chinese only if insanely good","we have good chinese in pittsburgh already"]},"vibe_match":{"type":"keyword","label":"Vibe Match","icon":"✨","category":"family","positive":["elevated greenery in cities","nyc high line","sf salesforce park","gg park","central park","millennium park","very aesthetic places","sf ferry building tier","water","coasts","clear blue water (dad especially)","mountains","lakes (wife especially)","cities with great shopping for teens (daughter)","vintage/atmospheric bars with character","wood paneling","supper club feel (wife)","fancy but optimized","elevated experiences without overpaying","hidden gems"],"negative":[]},"members":[{"role":"self","name":"Niki","age":49,"notes":"Loves clear blue water, coasts. Doesn't like yoghurt. Direct flights less important — open to connections."},{"role":"wife","name":"Carissa","age":47,"notes":"Loves mountains, lakes, vintage bars with wood paneling, supper clubs. Fried rice for breakfast. No cheese. Direct flights from PIT very important to her."},{"role":"daughter","name":"Ashi","age":14,"notes":"Loves cities, shopping (Brandy Melville etc), steak, potatoes, fish, green beans, oysters, sushi. Likes Starbucks and boba. No sandwiches, eggs, cheese, not much dairy."}]},"apiKey":"AIzaSyDf_FPBjN8MJUFpKZyWx_c84foxR8Zl2KE"};
+
+// === STATE ===
+const state = {
+  places: DATA.places,
+  criteria: DATA.criteria,
+  weights: {},
+  scores: [],       // [placeIndex][criterionKey] = 0-1
+  overall: [],      // [placeIndex] = 0-1
+  sortedIndices: [],
+  selectedIndex: -1,
+  map: null,
+  markers: [],
+};
+
+// Init weights from criteria defaults
+for (const [k, c] of Object.entries(state.criteria)) {
+  state.weights[k] = c.weight;
+}
+
+// === SCORING ENGINE ===
+
+function haversine(a, b) {
+  if (!a || !b) return Infinity;
+  const R = 6371;
+  const dLat = (b.lat - a.lat) * Math.PI / 180;
+  const dLng = (b.lng - a.lng) * Math.PI / 180;
+  const x = Math.sin(dLat/2)**2 + Math.cos(a.lat*Math.PI/180)*Math.cos(b.lat*Math.PI/180)*Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1-x));
+}
+
+function keywordScore(text, positive, negative, partial) {
+  if (!text) return 0.5;
+  const t = text.toLowerCase();
+  let score = 0.5;
+  for (const kw of (positive || [])) { if (t.includes(kw)) score = Math.min(1, score + 0.15); }
+  for (const kw of (negative || [])) { if (t.includes(kw)) score = Math.max(0, score - 0.25); }
+  for (const kw of (partial  || [])) { if (t.includes(kw)) score = Math.min(1, score + 0.05); }
+  return score;
+}
+
+function computeScores() {
+  const places = state.places;
+  const n = places.length;
+
+  // Precompute distances
+  const distances = places.map(p => haversine(DATA.locationBias, p.location));
+  const maxDist = Math.max(...distances.filter(d => d < Infinity)) || 1;
+
+  // Precompute numeric ranges
+  const ratings = places.map(p => p.rating).filter(r => r != null);
+  const minRating = Math.min(...ratings) || 0;
+  const maxRating = Math.max(...ratings) || 5;
+  const reviews = places.map(p => p.review_count).filter(r => r != null && r > 0);
+  const maxLogReviews = Math.log(Math.max(...reviews) || 1);
+
+  state.scores = [];
+  state.overall = [];
+
+  for (let i = 0; i < n; i++) {
+    const p = places[i];
+    const s = {};
+
+    for (const [key, config] of Object.entries(state.criteria)) {
+      if (config.type === 'boolean') {
+        s[key] = p[key] === true ? 1 : p[key] === false ? 0 : 0.5;
+      } else if (config.type === 'numeric') {
+        if (p[key] == null) { s[key] = 0.3; }
+        else {
+          const range = maxRating - minRating || 1;
+          s[key] = 0.3 + 0.7 * ((p[key] - minRating) / range);
+        }
+      } else if (config.type === 'numeric_log') {
+        if (!p.review_count || p.review_count <= 0) { s[key] = 0.1; }
+        else { s[key] = maxLogReviews > 0 ? Math.log(p.review_count) / maxLogReviews : 0.5; }
+      } else if (config.type === 'distance') {
+        const d = distances[i];
+        s[key] = d < Infinity ? Math.max(0, 1 - d / maxDist) : 0;
+      } else if (config.type === 'keyword') {
+        const searchText = [p.name, p.type, p.description, p.address].filter(Boolean).join(' ');
+        const kc = DATA.profile[key] || config;
+        s[key] = keywordScore(searchText, kc.positive, kc.negative, kc.partial);
+      } else {
+        s[key] = 0.5;
+      }
+    }
+
+    state.scores[i] = s;
+
+    // Weighted average
+    let sumWeighted = 0, sumWeights = 0;
+    for (const [key] of Object.entries(state.criteria)) {
+      const w = state.weights[key] || 0;
+      sumWeighted += s[key] * w;
+      sumWeights += w;
+    }
+    state.overall[i] = sumWeights > 0 ? sumWeighted / sumWeights : 0;
+  }
+
+  // Sort
+  state.sortedIndices = places.map((_, i) => i).sort((a, b) => state.overall[b] - state.overall[a]);
+}
+
+// === COLORS ===
+function scoreColor(score) {
+  // red(0) -> yellow(0.5) -> green(1)
+  const h = score * 120;
+  return 'hsl(' + h + ',75%,42%)';
+}
+function scoreColorLight(score) {
+  const h = score * 120;
+  return 'hsl(' + h + ',60%,92%)';
+}
+
+// === MAP ===
+function initMap() {
+  if (!DATA.apiKey || !DATA.locationBias) return;
+
+  state.map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: DATA.locationBias.lat, lng: DATA.locationBias.lng },
+    zoom: 13,
+    disableDefaultUI: true,
+    zoomControl: true,
+    mapId: 'scored_places_map',
+    gestureHandling: 'greedy',
+  });
+
+  const bounds = new google.maps.LatLngBounds();
+
+  state.places.forEach((p, i) => {
+    if (!p.location) return;
+    const pos = { lat: p.location.lat, lng: p.location.lng };
+    bounds.extend(pos);
+
+    const score = state.overall[i];
+    const color = scoreColor(score);
+
+    const marker = new google.maps.Marker({
+      position: pos,
+      map: state.map,
+      title: p.name,
+      icon: {
+        path: google.maps.SymbolPath.CIRCLE,
+        fillColor: color,
+        fillOpacity: 1,
+        strokeColor: '#fff',
+        strokeWeight: 2,
+        scale: 10,
+      },
+      label: {
+        text: String(state.sortedIndices.indexOf(i) + 1),
+        color: '#fff',
+        fontSize: '11px',
+        fontWeight: '700',
+      },
+      zIndex: Math.round(score * 100),
+    });
+
+    marker.addListener('click', () => selectPlace(i));
+    state.markers[i] = marker;
+  });
+
+  if (state.places.length > 1) state.map.fitBounds(bounds, 40);
+}
+
+function updateMarkers() {
+  state.markers.forEach((marker, i) => {
+    if (!marker) return;
+    const score = state.overall[i];
+    marker.setIcon({
+      path: google.maps.SymbolPath.CIRCLE,
+      fillColor: scoreColor(score),
+      fillOpacity: 1,
+      strokeColor: state.selectedIndex === i ? '#1a3a5c' : '#fff',
+      strokeWeight: state.selectedIndex === i ? 3 : 2,
+      scale: state.selectedIndex === i ? 14 : 10,
+    });
+    marker.setLabel({
+      text: String(state.sortedIndices.indexOf(i) + 1),
+      color: '#fff',
+      fontSize: state.selectedIndex === i ? '13px' : '11px',
+      fontWeight: '700',
+    });
+    marker.setZIndex(state.selectedIndex === i ? 999 : Math.round(score * 100));
+  });
+}
+
+// === TABLE ===
+function renderTable() {
+  const list = document.getElementById('placesList');
+  list.innerHTML = '';
+
+  state.sortedIndices.forEach((i, rank) => {
+    const p = state.places[i];
+    const score = state.overall[i];
+    const scores = state.scores[i];
+
+    const card = document.createElement('div');
+    card.className = 'place-card' + (state.selectedIndex === i ? ' selected' : '');
+    card.onclick = () => selectPlace(i);
+    card.id = 'place-' + i;
+
+    // Distance
+    let distStr = '';
+    if (DATA.locationBias && p.location) {
+      const d = haversine(DATA.locationBias, p.location);
+      distStr = d < 1 ? Math.round(d * 1000) + 'm' : d.toFixed(1) + 'km';
+    }
+
+    // Criteria pills
+    let pills = '';
+    for (const [key, config] of Object.entries(state.criteria)) {
+      const s = scores[key];
+      if (s === undefined) continue;
+      const cls = s >= 0.7 ? 'good' : s >= 0.4 ? 'mid' : s > 0 ? 'bad' : 'na';
+      // For booleans, only show if true or explicitly false
+      if (config.type === 'boolean' && p[key] === null) continue;
+      pills += '<span class="crit-pill ' + cls + '">' + config.icon + ' ' + config.label + '</span>';
+    }
+
+    card.innerHTML =
+      '<div class="place-card-head">' +
+        '<div>' +
+          '<div class="place-name">' + (rank + 1) + '. ' + esc(p.name) + '</div>' +
+          '<div class="place-meta">' +
+            (p.rating ? '<span class="rating">★ ' + p.rating + '</span><span class="dot">·</span>' : '') +
+            (p.review_count ? '<span>' + p.review_count.toLocaleString() + ' reviews</span><span class="dot">·</span>' : '') +
+            (distStr ? '<span>' + distStr + '</span><span class="dot">·</span>' : '') +
+            (p.type ? '<span>' + esc(p.type) + '</span>' : '') +
+            (p.open_now === true ? '<span class="dot">·</span><span style="color:#059669;font-weight:600">Open</span>' : '') +
+            (p.open_now === false ? '<span class="dot">·</span><span style="color:#991b1b;font-weight:600">Closed</span>' : '') +
+          '</div>' +
+        '</div>' +
+        '<div class="place-score" style="background:' + scoreColor(score) + '">' + Math.round(score * 100) + '</div>' +
+      '</div>' +
+      (p.description ? '<div class="place-desc">' + esc(p.description) + '</div>' : '') +
+      (p.today_hours ? '<div style="font-size:11px;color:#5a6b7d;margin-top:4px">' + esc(p.today_hours) + '</div>' : '') +
+      '<div class="criteria-row">' + pills + '</div>' +
+      (p.address ? '<div style="font-size:11px;color:#94a3b8;margin-top:6px">' + esc(p.address) + '</div>' : '');
+
+    list.appendChild(card);
+  });
+}
+
+function esc(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+// === SORT BAR ===
+function renderSortBar() {
+  const bar = document.getElementById('sortBar');
+  bar.innerHTML =
+    '<button class="score-btn active" onclick="openWeights()">Score</button>' +
+    '<button onclick="sortBy('rating')">Rating</button>' +
+    '<button onclick="sortBy('distance')">Distance</button>' +
+    '<button onclick="sortBy('review_count')">Popular</button>';
+}
+
+function sortBy(field) {
+  if (field === 'distance') {
+    state.sortedIndices = state.places.map((_, i) => i).sort((a, b) => {
+      const da = haversine(DATA.locationBias, state.places[a].location);
+      const db = haversine(DATA.locationBias, state.places[b].location);
+      return da - db;
+    });
+  } else if (field === 'rating') {
+    state.sortedIndices = state.places.map((_, i) => i).sort((a, b) =>
+      (state.places[b].rating || 0) - (state.places[a].rating || 0));
+  } else if (field === 'review_count') {
+    state.sortedIndices = state.places.map((_, i) => i).sort((a, b) =>
+      (state.places[b].review_count || 0) - (state.places[a].review_count || 0));
+  }
+  // Update active button
+  document.querySelectorAll('.sort-bar button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  renderTable();
+  updateMarkers();
+}
+
+// === SELECTION ===
+function selectPlace(i) {
+  state.selectedIndex = i;
+  const p = state.places[i];
+  if (state.map && p.location) {
+    state.map.panTo({ lat: p.location.lat, lng: p.location.lng });
+    state.map.setZoom(15);
+  }
+  updateMarkers();
+  renderTable();
+  const el = document.getElementById('place-' + i);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// === WEIGHTS PANEL ===
+function openWeights() {
+  const container = document.getElementById('weightSliders');
+  container.innerHTML = '';
+  for (const [key, config] of Object.entries(state.criteria)) {
+    const w = state.weights[key];
+    const row = document.createElement('div');
+    row.className = 'weight-row';
+    row.innerHTML =
+      '<div class="weight-label">' + config.icon + ' ' + config.label + '</div>' +
+      '<input type="range" class="weight-slider" min="0" max="100" value="' + Math.round(w * 100) + '" ' +
+        'oninput="updateWeight(&#39;'+key+'&#39;,this.value)">' +
+      '<div class="weight-val" id="wv-' + key + '">' + Math.round(w * 100) + '</div>';
+    container.appendChild(row);
+  }
+  document.getElementById('overlay').classList.add('show');
+  document.getElementById('weightPanel').classList.add('show');
+}
+
+function closeWeights() {
+  document.getElementById('overlay').classList.remove('show');
+  document.getElementById('weightPanel').classList.remove('show');
+  // Re-sort by score
+  state.sortedIndices = state.places.map((_, i) => i).sort((a, b) => state.overall[b] - state.overall[a]);
+  renderTable();
+  updateMarkers();
+  // Mark score button active
+  document.querySelectorAll('.sort-bar button').forEach(b => b.classList.remove('active'));
+  document.querySelector('.score-btn').classList.add('active');
+}
+
+function updateWeight(key, val) {
+  state.weights[key] = val / 100;
+  document.getElementById('wv-' + key).textContent = val;
+  computeScores();
+  // Don't re-render table while sliding (laggy), just update scores display
+}
+
+// === INIT ===
+document.getElementById('queryTitle').textContent = DATA.query || 'Scored Places';
+document.getElementById('resultCount').textContent = DATA.places.length + ' places found';
+
+computeScores();
+renderSortBar();
+renderTable();
+
+// Select first place by default
+if (state.sortedIndices.length > 0) {
+  state.selectedIndex = state.sortedIndices[0];
+}
+</script>
+
+<script>
+function onMapsLoaded() { initMap(); if (state.selectedIndex >= 0) updateMarkers(); }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf_FPBjN8MJUFpKZyWx_c84foxR8Zl2KE&callback=onMapsLoaded" async defer></script>
+
+</body>
+</html>
