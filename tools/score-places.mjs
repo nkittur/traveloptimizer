@@ -712,29 +712,52 @@ console.error(`Written: ${htmlOutFile}`);
 const latestFile = resolve(REPO_ROOT, 'trips', 'scored-places.html');
 writeFileSync(latestFile, html);
 
-// --- Generate index page ---
-function generateIndexPage(index) {
-  const rows = index
+// --- Generate root index page (home) ---
+function generateHomePage(placeIndex) {
+  // Scan for trip HTML pages
+  const tripsDir = resolve(REPO_ROOT, 'trips');
+  let tripFiles = [];
+  try {
+    const fs = require('fs');
+    tripFiles = fs.readdirSync(tripsDir)
+      .filter(f => f.endsWith('.html') && f !== 'scored-places.html')
+      .map(f => {
+        const content = fs.readFileSync(resolve(tripsDir, f), 'utf-8');
+        const titleMatch = content.match(/<title>(.*?)<\/title>/);
+        return { file: f, title: titleMatch ? titleMatch[1] : f.replace('.html', '') };
+      });
+  } catch {}
+
+  const tripRows = tripFiles.map(t =>
+    '<a href="trips/' + t.file + '" class="card">' +
+      '<div class="card-top">' +
+        '<div class="card-title">' + t.title.replace(/</g, '&lt;') + '</div>' +
+        '<div class="card-arrow">&#8250;</div>' +
+      '</div>' +
+      '<div class="card-meta">Trip plan</div>' +
+    '</a>'
+  ).join('');
+
+  const searchRows = placeIndex
     .sort((a, b) => new Date(b.generated_at) - new Date(a.generated_at))
     .map(e => {
       const date = new Date(e.generated_at);
-      const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       const timeStr = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
       const intentChips = (e.intents || []).map(i =>
-        '<span style="font-size:10px;font-weight:600;padding:2px 7px;border-radius:6px;background:#eff6ff;color:#1e40af">' + i + '</span>'
+        '<span class="chip">' + i + '</span>'
       ).join(' ');
-      return '<a href="places/' + e.slug + '.html" class="q-card">' +
-        '<div class="q-top">' +
-          '<div class="q-title">' + (e.query || e.slug).replace(/</g, '&lt;') + '</div>' +
-          '<div class="q-arrow">&#8250;</div>' +
+      return '<a href="trips/places/' + e.slug + '.html" class="card">' +
+        '<div class="card-top">' +
+          '<div class="card-title">' + (e.query || e.slug).replace(/near\s+/i, '<span class="card-loc">near </span>').replace(/</g, '&lt;') + '</div>' +
+          '<div class="card-arrow">&#8250;</div>' +
         '</div>' +
-        '<div class="q-meta">' +
-          '<span>' + dateStr + ' ' + timeStr + '</span>' +
-          '<span class="dot">·</span>' +
-          '<span>' + e.place_count + ' places</span>' +
-          (e.top_place ? '<span class="dot">·</span><span>Top: ' + e.top_place.replace(/</g, '&lt;') + '</span>' : '') +
+        '<div class="card-meta">' +
+          dateStr + ' ' + timeStr +
+          ' · ' + e.place_count + ' places' +
+          (e.top_place ? ' · #1 ' + e.top_place.replace(/</g, '&lt;') : '') +
         '</div>' +
-        '<div class="q-chips">' + intentChips + '</div>' +
+        '<div class="card-chips">' + intentChips + '</div>' +
       '</a>';
     }).join('');
 
@@ -743,32 +766,38 @@ function generateIndexPage(index) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TravelOptimizer — Place Searches</title>
+<title>TravelOptimizer</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;line-height:1.5}
-.header{background:linear-gradient(135deg,#1a3a5c 0%,#2a6496 50%,#3a85c4 100%);color:#fff;padding:32px 16px 24px}
-.header h1{font-size:22px;font-weight:700}
+.header{background:linear-gradient(135deg,#1a3a5c 0%,#2a6496 50%,#3a85c4 100%);color:#fff;padding:36px 16px 28px}
+.header h1{font-size:24px;font-weight:700}
 .header .sub{font-size:13px;color:#a8cce8;margin-top:4px}
-.list{max-width:600px;margin:16px auto;padding:0 12px}
-.q-card{display:block;background:#fff;border-radius:14px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);transition:transform 0.1s}
-.q-card:active{transform:scale(0.98)}
-.q-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.q-title{font-size:14px;font-weight:600;color:#1a2332;flex:1}
-.q-arrow{font-size:20px;color:#94a3b8;font-weight:300}
-.q-meta{font-size:11px;color:#5a6b7d;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
-.q-meta .dot{color:#d1d5db}
-.q-chips{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
-.footer{text-align:center;padding:24px;font-size:11px;color:#94a3b8}
+.section{max-width:600px;margin:0 auto;padding:0 12px}
+.section-title{font-size:13px;font-weight:700;color:#1a3a5c;text-transform:uppercase;letter-spacing:0.5px;padding:20px 4px 8px}
+.card{display:block;background:#fff;border-radius:14px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);transition:transform 0.1s}
+.card:active{transform:scale(0.98)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.card-title{font-size:14px;font-weight:600;color:#1a2332;flex:1}
+.card-loc{color:#5a6b7d;font-weight:400}
+.card-arrow{font-size:20px;color:#94a3b8;font-weight:300}
+.card-meta{font-size:11px;color:#5a6b7d;margin-top:4px}
+.card-chips{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:10px;font-weight:600;padding:2px 7px;border-radius:6px;background:#eff6ff;color:#1e40af}
+.footer{text-align:center;padding:32px;font-size:11px;color:#94a3b8}
 </style>
 </head>
 <body>
 <div class="header">
-  <h1>Place Searches</h1>
-  <div class="sub">${index.length} search${index.length !== 1 ? 'es' : ''} saved</div>
+  <h1>TravelOptimizer</h1>
+  <div class="sub">Niki, Carissa &amp; Ashi</div>
 </div>
-<div class="list">${rows}</div>
+<div class="section">
+${tripRows ? '<div class="section-title">Trip Plans</div>' + tripRows : ''}
+<div class="section-title">Place Searches</div>
+${searchRows || '<div style="padding:12px;font-size:13px;color:#94a3b8">No searches yet</div>'}
+</div>
 <div class="footer">TravelOptimizer</div>
 </body>
 </html>`;
@@ -777,10 +806,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 // Re-read the index (it was just updated above)
 let currentIndex = [];
 try { currentIndex = JSON.parse(readFileSync(INDEX_FILE, 'utf-8')); } catch {}
-const indexHtml = generateIndexPage(currentIndex);
-const indexHtmlFile = resolve(REPO_ROOT, 'trips', 'places', 'index.html');
-writeFileSync(indexHtmlFile, indexHtml);
-console.error(`Index page: ${indexHtmlFile}`);
+const homeHtml = generateHomePage(currentIndex);
+const homeFile = resolve(REPO_ROOT, 'index.html');
+writeFileSync(homeFile, homeHtml);
+console.error(`Home page: ${homeFile}`);
 
 try {
   if (process.platform === 'darwin') execSync(`open "${htmlOutFile}"`);
