@@ -406,12 +406,8 @@ Rules:
 - If you have a prior narrative, use the knowledge from it but reframe for the current query
 - If a place has no description and no prior, say so honestly
 
-Return ONLY a JSON object with this shape:
-{
-  "summary": "A 2-4 sentence overview of the results for this query. What are the standout options? What's the overall landscape? What should they know before scrolling? Be opinionated — name your top 1-2 picks and why, and flag any surprises or caveats. Address the group by name.",
-  "narratives": [{"index": 0, "narrative": "..."}, {"index": 1, "narrative": "..."}, ...]
-}
-No markdown, no backticks, just the JSON object.`;
+Return ONLY a JSON array: [{"index": 0, "narrative": "..."}, {"index": 1, "narrative": "..."}, ...]
+No markdown, no backticks, just the JSON array.`;
 
   try {
     console.error('Generating personalized narratives via Claude...');
@@ -420,24 +416,17 @@ No markdown, no backticks, just the JSON object.`;
       { maxBuffer: 1024 * 1024, timeout: 90000 }
     ).toString().trim();
 
-    // Parse — Claude returns a JSON object with summary + narratives
-    let parsed;
-    // Try object first, fall back to array
-    const objMatch = result.match(/\{[\s\S]*\}/);
-    if (objMatch) {
-      parsed = JSON.parse(objMatch[0]);
+    let narratives;
+    const jsonMatch = result.match(/\[[\s\S]*\]/);
+    if (jsonMatch) {
+      narratives = JSON.parse(jsonMatch[0]);
     } else {
-      const arrMatch = result.match(/\[[\s\S]*\]/);
-      if (arrMatch) {
-        parsed = { summary: null, narratives: JSON.parse(arrMatch[0]) };
-      } else {
-        console.error('Could not parse narrative response');
-        console.error('Raw output (first 500 chars):', result.substring(0, 500));
-        return null;
-      }
+      console.error('Could not parse narrative response');
+      console.error('Raw output (first 500 chars):', result.substring(0, 500));
+      return null;
     }
 
-    return parsed;
+    return narratives;
   } catch (err) {
     console.error('Narrative generation failed:', err.message);
     return null;
@@ -445,17 +434,14 @@ No markdown, no backticks, just the JSON object.`;
 }
 
 // Run narrative generation
-let querySummary = null;
-const narrativeResult = await generateNarratives(scored, profile, data.query, data.location_bias, data.group || null);
-if (narrativeResult) {
-  const narratives = narrativeResult.narratives || narrativeResult;
-  querySummary = narrativeResult.summary || null;
-  for (const n of (Array.isArray(narratives) ? narratives : [])) {
+const narratives = await generateNarratives(scored, profile, data.query, data.location_bias, data.group || null);
+if (narratives) {
+  for (const n of narratives) {
     if (n.index != null && scored[n.index]) {
       scored[n.index]._narrative = n.narrative;
     }
   }
-  console.error(`Generated ${Array.isArray(narratives) ? narratives.length : 0} personalized narratives` + (querySummary ? ' + summary' : ''));
+  console.error(`Generated ${narratives.length} personalized narratives`);
 }
 
 // --- Save enriched JSON to indexed places store ---
@@ -492,7 +478,6 @@ const placeRecord = {
   slug,
   location_bias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
-  summary: querySummary,
   generated_at: new Date().toISOString(),
   places: scored.map(p => ({
     name: p.name, type: p.type, description: p.description, address: p.address,
@@ -536,7 +521,7 @@ console.error(`Index updated: ${index.length} entries`);
 const embeddedData = {
   scored,
   query: data.query,
-  summary: querySummary,
+  group: data.group || null,
   locationBias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
   apiKey: API_KEY,
@@ -595,8 +580,11 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .maps-link:hover{text-decoration:underline}
 
 .summary{max-width:600px;margin:12px auto;padding:0 12px}
-.summary-card{background:#fff;border-radius:14px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);border-left:4px solid #2a6496}
-.summary-card p{font-size:13px;color:#374151;line-height:1.6}
+.ctx-card{background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);font-size:13px;line-height:2}
+.ctx-label{font-weight:700;color:#1a3a5c;margin-right:4px}
+.ctx-person{display:inline-block;font-weight:600;color:#1a2332;background:#f0f4f8;padding:1px 8px;border-radius:6px;margin-right:2px}
+.ctx-chip{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:6px;background:#eff6ff;color:#1e40af;margin-right:2px}
+.ctx-text{color:#5a6b7d}
 
 .footer{text-align:center;padding:24px;font-size:11px;color:#94a3b8}
 
@@ -632,10 +620,27 @@ DATA.intents.forEach(function(intent) {
   chips.appendChild(c);
 });
 
-// === SUMMARY ===
-if (DATA.summary) {
-  document.getElementById('summaryWrap').innerHTML = '<div class="summary-card"><p>' + DATA.summary.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\\n/g,'<br>') + '</p></div>';
-}
+// === QUERY CONTEXT ===
+(function() {
+  var wrap = document.getElementById('summaryWrap');
+  var parts = [];
+  // Who's going
+  var group = DATA.group;
+  if (group && group.members) {
+    parts.push('<span class="ctx-label">Who:</span> ' + group.members.map(function(m) { return '<span class="ctx-person">' + m + '</span>'; }).join(' '));
+  }
+  // Constraints from query
+  if (DATA.intents && DATA.intents.length) {
+    parts.push('<span class="ctx-label">Looking for:</span> ' + DATA.intents.map(function(i) { return '<span class="ctx-chip">' + i.label + '</span>'; }).join(' '));
+  }
+  // Context
+  if (group && group.context) {
+    parts.push('<span class="ctx-label">Context:</span> <span class="ctx-text">' + group.context.replace(/</g,'&lt;') + '</span>');
+  }
+  if (parts.length) {
+    wrap.innerHTML = '<div class="ctx-card">' + parts.join('<br>') + '</div>';
+  }
+})();
 
 // === HELPERS ===
 function esc(s) { if (!s) return ''; var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
