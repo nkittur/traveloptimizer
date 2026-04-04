@@ -242,53 +242,112 @@ const intents = parseQueryIntent(data.query);
 const scored = scorePlaces(data.places, data.location_bias, intents);
 
 // --- Generate personalized narratives via Claude ---
-async function generateNarratives(scored, profile, query) {
-  const placeSummaries = scored.map((p, i) => ({
-    index: i,
-    name: p.name,
-    type: p.type,
-    description: p.description,
-    rating: p.rating,
-    review_count: p.review_count,
-    address: p.address,
-    outdoor_seating: p.outdoor_seating,
-    serves_beer: p.serves_beer,
-    serves_coffee: p.serves_coffee,
-    serves_cocktails: p.serves_cocktails,
-    serves_wine: p.serves_wine,
-    live_music: p.live_music,
-    allows_dogs: p.allows_dogs,
-    today_hours: p.today_hours,
-    open_now: p.open_now,
-    _distKm: p._distKm,
-    _driveMin: p._driveMin,
-    _matchType: p._matchType,
-    _overall: Math.round(p._overall * 100),
-  }));
+// --- Load prior narratives from indexed store ---
+function loadPriorNarratives(locationBias) {
+  const PLACES_DIR = resolve(REPO_ROOT, 'trips', 'places');
+  const INDEX_FILE = resolve(PLACES_DIR, 'index.json');
+  const priorByName = {}; // { normalized_name: { narrative, query, ... } }
+
+  let index = [];
+  try { index = JSON.parse(readFileSync(INDEX_FILE, 'utf-8')); } catch { return priorByName; }
+
+  for (const entry of index) {
+    // Check if this entry is geographically close (within ~5km)
+    if (entry.location_bias && locationBias) {
+      const dlat = Math.abs(entry.location_bias.lat - locationBias.lat);
+      const dlng = Math.abs(entry.location_bias.lng - locationBias.lng);
+      if (dlat > 0.05 || dlng > 0.06) continue; // ~5km threshold
+    }
+
+    try {
+      const filePath = resolve(PLACES_DIR, entry.file);
+      const data = JSON.parse(readFileSync(filePath, 'utf-8'));
+      for (const place of (data.places || [])) {
+        if (place.narrative && place.name) {
+          const key = place.name.toLowerCase().trim();
+          // Keep the most recent narrative for each place
+          if (!priorByName[key] || new Date(data.generated_at) > new Date(priorByName[key].generated_at)) {
+            priorByName[key] = {
+              narrative: place.narrative,
+              query: data.query,
+              generated_at: data.generated_at,
+            };
+          }
+        }
+      }
+    } catch {}
+  }
+
+  console.error(`Loaded ${Object.keys(priorByName).length} prior narratives from nearby searches`);
+  return priorByName;
+}
+
+async function generateNarratives(scored, profile, query, locationBias) {
+  const priorNarratives = loadPriorNarratives(locationBias);
+
+  const placeSummaries = scored.map((p, i) => {
+    const entry = {
+      index: i,
+      name: p.name,
+      type: p.type,
+      description: p.description,
+      rating: p.rating,
+      review_count: p.review_count,
+      address: p.address,
+      outdoor_seating: p.outdoor_seating,
+      serves_beer: p.serves_beer,
+      serves_coffee: p.serves_coffee,
+      serves_cocktails: p.serves_cocktails,
+      serves_wine: p.serves_wine,
+      live_music: p.live_music,
+      allows_dogs: p.allows_dogs,
+      today_hours: p.today_hours,
+      open_now: p.open_now,
+      _distKm: p._distKm,
+      _driveMin: p._driveMin,
+      _matchType: p._matchType,
+      _overall: Math.round(p._overall * 100),
+    };
+
+    // Attach prior narrative if we have one
+    const key = (p.name || '').toLowerCase().trim();
+    if (priorNarratives[key]) {
+      entry._prior_narrative = priorNarratives[key].narrative;
+      entry._prior_query = priorNarratives[key].query;
+    }
+
+    return entry;
+  });
+
+  const hasPriors = placeSummaries.some(p => p._prior_narrative);
 
   const prompt = `You are writing personalized place recommendations for a specific family.
 
 ## Family Profile
 ${JSON.stringify(profile, null, 2)}
 
-## Their Query
+## Their Query (what they're looking for RIGHT NOW)
 "${query}"
 
 ## Places to Write About
 ${JSON.stringify(placeSummaries, null, 2)}
+${hasPriors ? `
+## Prior Context
+Some places have a _prior_narrative from a previous search (noted with _prior_query). Use these as context — they contain things we already learned about this place and family. Build on them but REWRITE for the current query. The current query may have different priorities than the prior one.` : ''}
 
-For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS FAMILY would or wouldn't enjoy it, given their specific preferences and the query they made. Reference family members by name when relevant.
+For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS FAMILY would or wouldn't enjoy it for THIS SPECIFIC QUERY. Reference family members by name when relevant.
 
 Rules:
-- Be specific: "Carissa would love the distressed-wood bourbon bar vibe" not "nice atmosphere"
-- Reference actual family preferences from the profile (Carissa's love of vintage bars, Ashi's love of steak, Niki's love of coasts, etc.)
-- Mention what DOESN'T match too: "sandwiches are a focus here which doesn't work for Ashi"
+- Be specific to why this place fits or doesn't fit THEIR CURRENT QUERY: "${query}"
+- Reference actual family member preferences by name (Carissa's love of vintage bars, Ashi's steak/no-cheese, Niki's coasts, etc.)
+- Mention what DOESN'T match too — be honest about tradeoffs
 - Include practical context: distance, hours, what makes it good or bad for RIGHT NOW
 - Don't repeat the place name at the start — the UI already shows it
-- Keep it conversational and opinionated, like a friend giving advice
-- If a place has no description and you can't infer much, say so honestly: "Not much to go on from the listing, but the ratings suggest..."
+- Keep it conversational and opinionated, like a knowledgeable friend
+- If you have a prior narrative, use the knowledge from it but reframe for the current query
+- If a place has no description and no prior, say so honestly
 
-Return ONLY a JSON array like: [{"index": 0, "narrative": "..."}, {"index": 1, "narrative": "..."}, ...]
+Return ONLY a JSON array: [{"index": 0, "narrative": "..."}, ...]
 No markdown, no backticks, just the JSON array.`;
 
   try {
@@ -317,7 +376,7 @@ No markdown, no backticks, just the JSON array.`;
 }
 
 // Run narrative generation
-const narratives = await generateNarratives(scored, profile, data.query);
+const narratives = await generateNarratives(scored, profile, data.query, data.location_bias);
 if (narratives) {
   for (const n of narratives) {
     if (n.index != null && scored[n.index]) {
@@ -643,14 +702,88 @@ function onMapsLoaded() { try { initMap(); updateMarkers(); } catch(e) { console
 </html>`;
 }
 
-// --- Output ---
+// --- Output per-query HTML ---
 const html = generateHTML(embeddedData);
-const outFile = resolve(REPO_ROOT, 'trips', 'scored-places.html');
-writeFileSync(outFile, html);
-console.error(`Written: ${outFile}`);
+const htmlOutFile = resolve(PLACES_DIR, slug + '.html');
+writeFileSync(htmlOutFile, html);
+console.error(`Written: ${htmlOutFile}`);
+
+// Also write to the standard location for quick access
+const latestFile = resolve(REPO_ROOT, 'trips', 'scored-places.html');
+writeFileSync(latestFile, html);
+
+// --- Generate index page ---
+function generateIndexPage(index) {
+  const rows = index
+    .sort((a, b) => new Date(b.generated_at) - new Date(a.generated_at))
+    .map(e => {
+      const date = new Date(e.generated_at);
+      const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      const timeStr = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      const intentChips = (e.intents || []).map(i =>
+        '<span style="font-size:10px;font-weight:600;padding:2px 7px;border-radius:6px;background:#eff6ff;color:#1e40af">' + i + '</span>'
+      ).join(' ');
+      return '<a href="places/' + e.slug + '.html" class="q-card">' +
+        '<div class="q-top">' +
+          '<div class="q-title">' + (e.query || e.slug).replace(/</g, '&lt;') + '</div>' +
+          '<div class="q-arrow">&#8250;</div>' +
+        '</div>' +
+        '<div class="q-meta">' +
+          '<span>' + dateStr + ' ' + timeStr + '</span>' +
+          '<span class="dot">·</span>' +
+          '<span>' + e.place_count + ' places</span>' +
+          (e.top_place ? '<span class="dot">·</span><span>Top: ' + e.top_place.replace(/</g, '&lt;') + '</span>' : '') +
+        '</div>' +
+        '<div class="q-chips">' + intentChips + '</div>' +
+      '</a>';
+    }).join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TravelOptimizer — Place Searches</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;line-height:1.5}
+.header{background:linear-gradient(135deg,#1a3a5c 0%,#2a6496 50%,#3a85c4 100%);color:#fff;padding:32px 16px 24px}
+.header h1{font-size:22px;font-weight:700}
+.header .sub{font-size:13px;color:#a8cce8;margin-top:4px}
+.list{max-width:600px;margin:16px auto;padding:0 12px}
+.q-card{display:block;background:#fff;border-radius:14px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);transition:transform 0.1s}
+.q-card:active{transform:scale(0.98)}
+.q-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.q-title{font-size:14px;font-weight:600;color:#1a2332;flex:1}
+.q-arrow{font-size:20px;color:#94a3b8;font-weight:300}
+.q-meta{font-size:11px;color:#5a6b7d;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.q-meta .dot{color:#d1d5db}
+.q-chips{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
+.footer{text-align:center;padding:24px;font-size:11px;color:#94a3b8}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Place Searches</h1>
+  <div class="sub">${index.length} search${index.length !== 1 ? 'es' : ''} saved</div>
+</div>
+<div class="list">${rows}</div>
+<div class="footer">TravelOptimizer</div>
+</body>
+</html>`;
+}
+
+// Re-read the index (it was just updated above)
+let currentIndex = [];
+try { currentIndex = JSON.parse(readFileSync(INDEX_FILE, 'utf-8')); } catch {}
+const indexHtml = generateIndexPage(currentIndex);
+const indexHtmlFile = resolve(REPO_ROOT, 'trips', 'places', 'index.html');
+writeFileSync(indexHtmlFile, indexHtml);
+console.error(`Index page: ${indexHtmlFile}`);
 
 try {
-  if (process.platform === 'darwin') execSync(`open "${outFile}"`);
-  else execSync(`xdg-open "${outFile}"`);
+  if (process.platform === 'darwin') execSync(`open "${htmlOutFile}"`);
+  else execSync(`xdg-open "${htmlOutFile}"`);
   console.error('Opened in browser.');
 } catch {}
