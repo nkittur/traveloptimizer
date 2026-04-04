@@ -327,10 +327,38 @@ if (narratives) {
   console.error(`Generated ${narratives.length} personalized narratives`);
 }
 
-// --- Save enriched JSON for reuse ---
-const jsonOutFile = resolve(REPO_ROOT, 'trips', 'scored-places.json');
-writeFileSync(jsonOutFile, JSON.stringify({
+// --- Save enriched JSON to indexed places store ---
+const PLACES_DIR = resolve(REPO_ROOT, 'trips', 'places');
+const INDEX_FILE = resolve(PLACES_DIR, 'index.json');
+
+// Generate a slug from location + query keywords
+function makeSlug(query, locationBias) {
+  const q = (query || '').toLowerCase();
+  // Extract location name (before "near" keyword or from the end)
+  const locMatch = q.match(/near\s+(.+?)(?:\s+\d{5})?$/i);
+  const locStr = locMatch ? locMatch[1] : '';
+  // Extract intent keywords (not location words)
+  const stopWords = new Set(['near', 'in', 'at', 'the', 'a', 'an', 'with', 'and', 'or', 'for', 'pa', 'oh', 'ca', 'ny']);
+  const locWords = new Set(locStr.split(/\s+/));
+  const intentWords = q.replace(/near\s+.+$/i, '').split(/\s+/)
+    .filter(w => w.length > 2 && !stopWords.has(w) && !locWords.has(w))
+    .slice(0, 4);
+  // Build slug: location-keywords-zip
+  const locSlug = locStr.replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 30);
+  const intentSlug = intentWords.join('-').replace(/[^a-z0-9-]+/g, '');
+  // Try to extract zip from query or reverse-geocode from lat/lng
+  const zipMatch = q.match(/\b(\d{5})\b/);
+  const zip = zipMatch ? zipMatch[1] : '';
+  const parts = [locSlug, intentSlug, zip].filter(Boolean);
+  return parts.join('-') || 'unknown';
+}
+
+const slug = makeSlug(data.query, data.location_bias);
+const jsonOutFile = resolve(PLACES_DIR, slug + '.json');
+
+const placeRecord = {
   query: data.query,
+  slug,
   location_bias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
   generated_at: new Date().toISOString(),
@@ -348,8 +376,29 @@ writeFileSync(jsonOutFile, JSON.stringify({
     distance_km: p._distKm,
     drive_min: p._driveMin,
   }))
-}, null, 2));
+};
+
+writeFileSync(jsonOutFile, JSON.stringify(placeRecord, null, 2));
 console.error(`Saved: ${jsonOutFile}`);
+
+// Update index
+let index = [];
+try { index = JSON.parse(readFileSync(INDEX_FILE, 'utf-8')); } catch {}
+// Remove existing entry for same slug
+index = index.filter(e => e.slug !== slug);
+// Add new entry
+index.push({
+  slug,
+  file: slug + '.json',
+  query: data.query,
+  location_bias: data.location_bias,
+  intents: intents.map(i => i.intent),
+  place_count: scored.length,
+  top_place: scored[0]?.name || null,
+  generated_at: new Date().toISOString(),
+});
+writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
+console.error(`Index updated: ${index.length} entries`);
 
 // --- Build embedded data ---
 const embeddedData = {
