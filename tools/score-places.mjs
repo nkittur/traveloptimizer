@@ -241,6 +241,116 @@ function scorePlaces(places, locationBias, intents) {
 const intents = parseQueryIntent(data.query);
 const scored = scorePlaces(data.places, data.location_bias, intents);
 
+// --- Generate personalized narratives via Claude ---
+async function generateNarratives(scored, profile, query) {
+  const placeSummaries = scored.map((p, i) => ({
+    index: i,
+    name: p.name,
+    type: p.type,
+    description: p.description,
+    rating: p.rating,
+    review_count: p.review_count,
+    address: p.address,
+    outdoor_seating: p.outdoor_seating,
+    serves_beer: p.serves_beer,
+    serves_coffee: p.serves_coffee,
+    serves_cocktails: p.serves_cocktails,
+    serves_wine: p.serves_wine,
+    live_music: p.live_music,
+    allows_dogs: p.allows_dogs,
+    today_hours: p.today_hours,
+    open_now: p.open_now,
+    _distKm: p._distKm,
+    _driveMin: p._driveMin,
+    _matchType: p._matchType,
+    _overall: Math.round(p._overall * 100),
+  }));
+
+  const prompt = `You are writing personalized place recommendations for a specific family.
+
+## Family Profile
+${JSON.stringify(profile, null, 2)}
+
+## Their Query
+"${query}"
+
+## Places to Write About
+${JSON.stringify(placeSummaries, null, 2)}
+
+For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS FAMILY would or wouldn't enjoy it, given their specific preferences and the query they made. Reference family members by name when relevant.
+
+Rules:
+- Be specific: "Carissa would love the distressed-wood bourbon bar vibe" not "nice atmosphere"
+- Reference actual family preferences from the profile (Carissa's love of vintage bars, Ashi's love of steak, Niki's love of coasts, etc.)
+- Mention what DOESN'T match too: "sandwiches are a focus here which doesn't work for Ashi"
+- Include practical context: distance, hours, what makes it good or bad for RIGHT NOW
+- Don't repeat the place name at the start — the UI already shows it
+- Keep it conversational and opinionated, like a friend giving advice
+- If a place has no description and you can't infer much, say so honestly: "Not much to go on from the listing, but the ratings suggest..."
+
+Return ONLY a JSON array like: [{"index": 0, "narrative": "..."}, {"index": 1, "narrative": "..."}, ...]
+No markdown, no backticks, just the JSON array.`;
+
+  try {
+    console.error('Generating personalized narratives via Claude...');
+    const result = execSync(
+      `claude -p ${JSON.stringify(prompt)} 2>/dev/null`,
+      { maxBuffer: 1024 * 1024, timeout: 90000 }
+    ).toString().trim();
+
+    // Parse — Claude may return JSON directly, wrap in markdown, or include explanation
+    let narratives;
+    const jsonMatch = result.match(/\[[\s\S]*\]/);
+    if (jsonMatch) {
+      narratives = JSON.parse(jsonMatch[0]);
+    } else {
+      console.error('Could not parse narrative response');
+      console.error('Raw output (first 500 chars):', result.substring(0, 500));
+      return null;
+    }
+
+    return narratives;
+  } catch (err) {
+    console.error('Narrative generation failed:', err.message);
+    return null;
+  }
+}
+
+// Run narrative generation
+const narratives = await generateNarratives(scored, profile, data.query);
+if (narratives) {
+  for (const n of narratives) {
+    if (n.index != null && scored[n.index]) {
+      scored[n.index]._narrative = n.narrative;
+    }
+  }
+  console.error(`Generated ${narratives.length} personalized narratives`);
+}
+
+// --- Save enriched JSON for reuse ---
+const jsonOutFile = resolve(REPO_ROOT, 'trips', 'scored-places.json');
+writeFileSync(jsonOutFile, JSON.stringify({
+  query: data.query,
+  location_bias: data.location_bias,
+  intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
+  generated_at: new Date().toISOString(),
+  places: scored.map(p => ({
+    name: p.name, type: p.type, description: p.description, address: p.address,
+    full_address: p.full_address, rating: p.rating, review_count: p.review_count,
+    outdoor_seating: p.outdoor_seating, serves_beer: p.serves_beer,
+    serves_coffee: p.serves_coffee, serves_cocktails: p.serves_cocktails,
+    live_music: p.live_music, allows_dogs: p.allows_dogs, open_now: p.open_now,
+    today_hours: p.today_hours, google_maps_url: p.google_maps_url, website: p.website,
+    location: p.location,
+    score: Math.round(p._overall * 100),
+    match_type: p._matchType,
+    narrative: p._narrative,
+    distance_km: p._distKm,
+    drive_min: p._driveMin,
+  }))
+}, null, 2));
+console.error(`Saved: ${jsonOutFile}`);
+
 // --- Build embedded data ---
 const embeddedData = {
   scored,
