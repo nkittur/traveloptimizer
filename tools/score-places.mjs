@@ -86,18 +86,19 @@ function haversine(a, b) {
 
 function scorePlaces(places, locationBias, intents) {
   const distances = places.map(p => haversine(locationBias, p.location));
-  const maxDist = Math.max(...distances.filter(d => d < Infinity)) || 1;
 
-  const ratings = places.map(p => p.rating).filter(r => r != null);
-  const minRating = Math.min(...ratings) || 0;
-  const maxRating = Math.max(...ratings) || 5;
+  // Determine a reasonable "threshold" distance — within this, proximity barely matters
+  // Use the 75th percentile distance as the threshold (~15-20 min for most urban searches)
+  const sortedDists = distances.filter(d => d < Infinity).sort((a, b) => a - b);
+  const thresholdDist = sortedDists[Math.floor(sortedDists.length * 0.75)] || 10;
+  const maxDist = Math.max(...sortedDists) || 1;
 
   return places.map((p, i) => {
     const dist = distances[i];
     const distKm = dist < Infinity ? Math.round(dist * 10) / 10 : null;
     const driveMin = distKm != null ? Math.round(distKm * 1.5) : null;
 
-    // Score each intent (what the user asked for)
+    // --- Intent match (does it have what you asked for?) ---
     const intentResults = [];
     let intentScore = 0;
     let intentCount = 0;
@@ -116,14 +117,58 @@ function scorePlaces(places, locationBias, intents) {
 
     const intentMatch = intentCount > 0 ? intentScore / intentCount : 0.5;
 
-    // Quality score (rating normalized)
-    const ratingNorm = p.rating != null ? (p.rating - minRating) / ((maxRating - minRating) || 1) : 0.3;
+    // --- Quality: combines rating credibility + destination-worthiness ---
+    //
+    // Three insights:
+    // 1. A 4.6 with 600 reviews >> 5.0 with 29 reviews (Bayesian credibility)
+    // 2. Above ~4.3, rating differences are mostly noise — compress them
+    // 3. High review volume signals "destination-worthy" — people go out of their
+    //    way to visit. This is a separate signal from rating.
+    //
+    // Bayesian rating: pulls low-review places toward the mean
+    const C = 4.5;  // prior
+    const m = 100;   // credibility threshold
+    const R = p.rating || C;
+    const v = p.review_count || 0;
+    const bayesianRating = (R * v + C * m) / (v + m);
 
-    // Proximity score (inverse distance)
-    const proxScore = dist < Infinity ? Math.max(0, 1 - dist / maxDist) : 0;
+    // Compress the rating scale: above 4.3 is "good", differences are small
+    // Map 3.5-5.0 → 0-1 but with diminishing returns above 4.3
+    let ratingScore;
+    if (bayesianRating < 4.0) ratingScore = 0.2;
+    else if (bayesianRating < 4.3) ratingScore = 0.2 + 0.3 * ((bayesianRating - 4.0) / 0.3);
+    else ratingScore = 0.5 + 0.5 * Math.min(1, (bayesianRating - 4.3) / 0.5); // 4.3→0.5, 4.8→1.0, compressed
 
-    // Overall weighted: intent match matters most (50%), proximity (30%), rating (20%)
-    const overall = intentMatch * 0.5 + proxScore * 0.3 + ratingNorm * 0.2;
+    // Destination signal: how many people bother to review this place?
+    // Log scale, normed against the set. 600 reviews >> 29 reviews.
+    const maxReviews = Math.max(...places.map(p => p.review_count || 0));
+    const destScore = v > 0 ? Math.log(v + 1) / Math.log(maxReviews + 1) : 0;
+
+    // Combined quality = 60% rating credibility + 40% destination signal
+    const qualityScore = ratingScore * 0.6 + destScore * 0.4;
+
+    // --- Proximity: plateau within threshold, then gentle decay ---
+    // Everything within ~75th percentile distance scores 0.9-1.0
+    // Beyond that, gentle linear decay
+    let proxScore;
+    if (dist >= Infinity) {
+      proxScore = 0;
+    } else if (dist <= thresholdDist * 0.5) {
+      // Very close: score 1.0
+      proxScore = 1.0;
+    } else if (dist <= thresholdDist) {
+      // Within threshold: score 0.85-1.0 (barely differentiated)
+      proxScore = 1.0 - 0.15 * ((dist - thresholdDist * 0.5) / (thresholdDist * 0.5));
+    } else {
+      // Beyond threshold: 0.85 decaying to 0 at 2x threshold
+      proxScore = Math.max(0, 0.85 * (1 - (dist - thresholdDist) / thresholdDist));
+    }
+
+    // --- Overall: quality matters most, intent is pass/fail, proximity is tiebreaker ---
+    // When intent match is uniform (all 1.0), quality should dominate.
+    // When intent match varies, it should be decisive.
+    const intentVariance = intentMatch < 0.9 ? 0.4 : 0.1; // dynamic weight
+    const overall = intentMatch * intentVariance + qualityScore * 0.6 + proxScore * (0.4 - intentVariance);
 
     // Categorize match type
     const hitCount = intentResults.filter(r => r.hit).length;
