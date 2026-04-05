@@ -493,7 +493,7 @@ const placeRecord = {
     distance_km: p._distKm,
     drive_min: p._driveMin,
     evidence: p.evidence || [],
-    photo_refs: p.photo_refs || [],
+    photos: p.photos || [],
     social_links: p.social_links || null,
   }))
 };
@@ -611,9 +611,21 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .action-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 10px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;display:inline-flex;align-items:center;gap:3px}
 .action-link:active{background:#dbeafe}
 
-.card-addr{font-size:11px;color:#94a3b8;margin-top:6px;display:flex;justify-content:space-between;align-items:center}
-.maps-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 0;flex-shrink:0}
-.maps-link:hover{text-decoration:underline}
+.card-addr{font-size:11px;color:#94a3b8;margin-top:6px}
+
+/* Lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:400;display:none;flex-direction:column;align-items:center;justify-content:center}
+.lightbox.show{display:flex}
+.lightbox-close{position:absolute;top:12px;right:16px;color:#fff;font-size:28px;cursor:pointer;z-index:401;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.1);border-radius:50%;border:none;font-family:inherit}
+.lightbox-counter{position:absolute;top:16px;left:16px;color:rgba(255,255,255,0.6);font-size:13px;font-weight:600}
+.lightbox-img-wrap{flex:1;display:flex;align-items:center;justify-content:center;width:100%;overflow:hidden;touch-action:pan-y}
+.lightbox-img-wrap img{max-width:100%;max-height:85vh;object-fit:contain;border-radius:4px}
+.lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:32px;cursor:pointer;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.1);border-radius:50%;border:none;font-family:inherit}
+.lightbox-nav.prev{left:8px}
+.lightbox-nav.next{right:8px}
+.lightbox-dots{display:flex;gap:6px;padding:12px;justify-content:center}
+.lightbox-dots span{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.3)}
+.lightbox-dots span.active{background:#fff}
 
 .summary{max-width:600px;margin:12px auto;padding:0 12px}
 .ctx-card{background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);font-size:13px;line-height:2}
@@ -656,6 +668,14 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 <div class="person-popup" id="ppPanel">
   <div class="drag-handle"></div>
   <div id="ppContent"></div>
+</div>
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()">\\u00d7</button>
+  <div class="lightbox-counter" id="lbCounter"></div>
+  <button class="lightbox-nav prev" onclick="lbNav(-1)">\\u2039</button>
+  <div class="lightbox-img-wrap" id="lbImgWrap"></div>
+  <button class="lightbox-nav next" onclick="lbNav(1)">\\u203a</button>
+  <div class="lightbox-dots" id="lbDots"></div>
 </div>
 <div class="footer">TravelOptimizer &middot; Scored via Google Places API</div>
 
@@ -714,6 +734,54 @@ function closePersonPopup() {
   document.getElementById('ppOverlay').classList.remove('show');
   document.getElementById('ppPanel').classList.remove('show');
 }
+
+// === LIGHTBOX ===
+var lbPhotos = [];
+var lbIndex = 0;
+
+function openLightbox(photos, index) {
+  lbPhotos = photos;
+  lbIndex = index || 0;
+  renderLightbox();
+  document.getElementById('lightbox').classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+function lbNav(dir) {
+  lbIndex = (lbIndex + dir + lbPhotos.length) % lbPhotos.length;
+  renderLightbox();
+}
+
+function renderLightbox() {
+  document.getElementById('lbImgWrap').innerHTML = '<img src="' + lbPhotos[lbIndex] + '" alt="">';
+  document.getElementById('lbCounter').textContent = (lbIndex + 1) + ' / ' + lbPhotos.length;
+  var dots = lbPhotos.map(function(_, i) {
+    return '<span' + (i === lbIndex ? ' class="active"' : '') + '></span>';
+  }).join('');
+  document.getElementById('lbDots').innerHTML = dots;
+}
+
+// Swipe support for lightbox
+(function() {
+  var wrap = document.getElementById('lbImgWrap');
+  var startX = 0;
+  wrap.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; });
+  wrap.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 50) lbNav(dx < 0 ? 1 : -1);
+  });
+  // Close on escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') lbNav(-1);
+    if (e.key === 'ArrowRight') lbNav(1);
+  });
+})();
 
 // === HELPERS ===
 function esc(s) { if (!s) return ''; var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -791,11 +859,14 @@ function render() {
         '<div class="card-narrative">' + esc(p._narrative) + '</div>';
 
       // Photo strip
-      if (p.photo_refs && p.photo_refs.length && DATA.apiKey) {
-        var photos = p.photo_refs.slice(0, 3).map(function(ref) {
-          return '<img src="https://places.googleapis.com/v1/' + ref + '/media?maxHeightPx=300&maxWidthPx=400&key=' + DATA.apiKey + '" loading="lazy" alt="">';
+      if (p.photos && p.photos.length && DATA.apiKey) {
+        var photoUrls = p.photos.map(function(ph) {
+          return 'https://places.googleapis.com/v1/' + ph.ref + '/media?maxHeightPx=800&maxWidthPx=1200&key=' + DATA.apiKey;
+        });
+        var thumbs = photoUrls.slice(0, 4).map(function(url, pi) {
+          return '<img src="' + url.replace('800','300').replace('1200','400') + '" loading="lazy" alt="" onclick="event.stopPropagation();openLightbox(' + JSON.stringify(photoUrls).replace(/"/g,'&quot;') + ',' + pi + ')">';
         }).join('');
-        card.innerHTML += '<div class="photo-strip">' + photos + '</div>';
+        card.innerHTML += '<div class="photo-strip">' + thumbs + '</div>';
       }
 
       // Evidence excerpts from reviews

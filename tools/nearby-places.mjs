@@ -164,7 +164,11 @@ async function searchPlacesAPI(textQuery, locationBias) {
         rating: r.rating || null,
         time: r.relativePublishTimeDescription || null,
       })).filter(r => r.text),
-      photo_refs: (p.photos || []).slice(0, 4).map(ph => ph.name).filter(Boolean),
+      photos: (p.photos || []).slice(0, 6).map(ph => ({
+        ref: ph.name,
+        width: ph.widthPx || null,
+        height: ph.heightPx || null,
+      })).filter(ph => ph.ref),
     };
   });
 }
@@ -220,6 +224,45 @@ function extractEvidence(places, query) {
     }
     // Keep top 3 most relevant excerpts
     place.evidence = place.evidence.slice(0, 3);
+  }
+}
+
+// Rank photos by likely relevance to query criteria using metadata heuristics
+// Landscape/wide photos → spaces/outdoor. Portrait/tall → food/products.
+// Google's default order is already somewhat good (first = most representative).
+function rankPhotos(places, query) {
+  const q = (query || '').toLowerCase();
+  const wantOutdoor = !!q.match(/outdoor|patio|outside|terrace|garden|space|seating/);
+  const wantFood = !!q.match(/food|truck|eat|kitchen|menu|pizza/);
+
+  for (const place of places) {
+    if (!place.photos || !place.photos.length) continue;
+
+    place.photos.forEach((ph, idx) => {
+      let score = 0;
+      const ratio = (ph.width && ph.height) ? ph.width / ph.height : 1;
+
+      // Google puts most representative photos first — slight bonus for position
+      score += Math.max(0, (6 - idx) * 0.1);
+
+      if (wantOutdoor) {
+        // Wide/landscape photos more likely to show spaces, patios, outdoor areas
+        if (ratio > 1.3) score += 0.5;
+        if (ratio > 1.6) score += 0.3;
+        // Very tall photos are likely close-up food/drink shots — deprioritize
+        if (ratio < 0.8) score -= 0.3;
+      }
+
+      if (wantFood) {
+        // Squarish or slightly tall photos often show food
+        if (ratio >= 0.7 && ratio <= 1.3) score += 0.3;
+      }
+
+      ph._relevance = score;
+    });
+
+    // Sort by relevance (stable sort preserves Google's original order for ties)
+    place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
   }
 }
 
@@ -397,6 +440,9 @@ async function main() {
       }
     }
   }
+
+  // Rank photos by relevance to query criteria
+  rankPhotos(places, searchTerm);
 
   // Extract evidence from reviews for key differentiator criteria
   extractEvidence(places, searchTerm);
