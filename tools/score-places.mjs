@@ -582,6 +582,8 @@ const embeddedData = {
   locationBias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
   reviewFilters: data.review_filters || {},
+  reviewSearchLog: data._reviewSearchLog || [],
+  reviewStats: data._reviewStats || null,
   apiKey: API_KEY,
 };
 
@@ -1235,6 +1237,44 @@ function showReviews(placeIdx) {
   });
 
   if (!p.reviews || !p.reviews.length) html += '<div style="color:#94a3b8;padding:20px 0">No reviews available</div>';
+
+  // Show search process log if available
+  if (DATA.reviewSearchLog && DATA.reviewSearchLog.length) {
+    var relevantLogs = DATA.reviewSearchLog.filter(function(log) {
+      return (log.places || []).some(function(name) {
+        return name.toLowerCase().includes(p.name.toLowerCase().substring(0, 15)) ||
+          p.name.toLowerCase().includes(name.toLowerCase().substring(0, 15));
+      });
+    });
+    if (relevantLogs.length > 0 || DATA.reviewStats) {
+      html += '<div style="margin-top:12px;padding-top:10px;border-top:1px solid #f0f4f8">';
+      html += '<div style="font-size:11px;font-weight:600;color:#94a3b8;margin-bottom:6px">SEARCH PROCESS</div>';
+      if (DATA.reviewStats) {
+        html += '<div style="font-size:11px;color:#94a3b8">' +
+          'Total: ' + DATA.reviewStats.totalReviews + ' reviews (' +
+          DATA.reviewStats.apiReviews + ' Google API + ' +
+          DATA.reviewStats.webReviews + ' web search) across ' +
+          DATA.reviewStats.placesSearched + ' places</div>';
+      }
+      relevantLogs.forEach(function(log) {
+        var icon = log.found > 0 ? '\\u2705' : (log.error ? '\\u274c' : '\\u2796');
+        html += '<div style="font-size:11px;color:#94a3b8;margin-top:2px">' +
+          icon + ' ' + (log.type === 'criteria' ? 'Criteria search (' + (log.criteria||[]).join(', ') + ')' : 'Top/recent search') +
+          ': ' + (log.found || 0) + ' found' +
+          (log.error ? ' — ' + esc(log.error.substring(0, 60)) : '') + '</div>';
+      });
+      html += '</div>';
+    }
+  }
+
+  // Show review source breakdown
+  var sources = {};
+  (p.reviews || []).forEach(function(r) { var s = r.source || 'google api'; sources[s] = (sources[s]||0) + 1; });
+  var sourceKeys = Object.keys(sources);
+  if (sourceKeys.length > 0) {
+    html += '<div style="font-size:10px;color:#94a3b8;margin-top:6px">Sources: ' +
+      sourceKeys.map(function(s) { return s + ' (' + sources[s] + ')'; }).join(', ') + '</div>';
+  }
 
   document.getElementById('detailContent').innerHTML = html;
   document.getElementById('detailModal').classList.add('show');
