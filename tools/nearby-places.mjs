@@ -345,7 +345,7 @@ async function rankPhotos(places, query, apiKey) {
     };
   });
 
-  const MAX_OPUS_CALLS = 10;
+  const MAX_OPUS_CALLS = 20;
   const PHOTOS_PER_GRID = 16; // fewer photos per grid at higher resolution
   const EV_THRESHOLD = 0.08;  // drop out below this
   const MISS_DECAY = 0.12;    // EV penalty per non-outdoor photo
