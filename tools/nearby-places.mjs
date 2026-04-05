@@ -764,43 +764,89 @@ Score ALL photos.`;
       });
     }
 
-    // Aggregate per-place outdoor quality assessment from photo-level data
-    for (const place of places) {
-      const outdoorPhotos = (place.photos || []).filter(ph => (ph._visionScore ?? 0) >= 5);
-      if (outdoorPhotos.length === 0) continue;
+    // Aggregate per-place photo insights keyed by criterion.
+    // Classify each scored photo into the criterion it best matches,
+    // then aggregate per criterion per place.
+    const outdoorTypes = new Set(['patio', 'rooftop', 'beer garden', 'deck', 'courtyard',
+      'sidewalk', 'covered patio', 'terrace', 'garden', 'outdoor', 'balcony']);
+    const foodTypes = new Set(['food', 'food truck', 'kitchen', 'menu', 'restaurant']);
 
-      const types = [...new Set(outdoorPhotos.map(ph => ph._visionType).filter(Boolean))];
-      const descs = outdoorPhotos.map(ph => ph._visionDesc).filter(Boolean);
-
-      // Extract highlights from descriptions
-      const highlightKeywords = [
-        'string lights', 'fire pit', 'firepit', 'views', 'view', 'rooftop',
-        'covered', 'heated', 'large', 'spacious', 'greenery', 'garden',
-        'dog-friendly', 'dogs', 'pet-friendly', 'umbrella', 'shade',
-        'picnic', 'waterfront', 'river', 'scenic', 'courtyard',
-        'live music', 'stage', 'games', 'bocce', 'cornhole',
-      ];
-      const descText = descs.join(' ').toLowerCase();
-      const highlights = highlightKeywords.filter(kw => descText.includes(kw));
-
-      // Build summary from best photo descriptions
-      const bestDescs = descs.slice(0, 2);
-      const summary = bestDescs.length > 1
-        ? bestDescs[0].replace(/[.!]$/, '') + '; also ' + bestDescs[1].charAt(0).toLowerCase() + bestDescs[1].slice(1)
-        : bestDescs[0] || types.join(', ');
-
-      place._outdoorQuality = {
-        score: outdoorPhotos[0]._visionScore, // photos are sorted, first is best
-        types,
-        highlights,
-        summary,
-        photoCount: outdoorPhotos.length,
-      };
+    // Build criteria-to-classifier map based on what this query cares about
+    const criteriaClassifiers = [];
+    if (wantOutdoor) {
+      criteriaClassifiers.push({
+        key: 'outdoor',
+        match: (ph) => {
+          const t = (ph._visionType || '').toLowerCase();
+          return outdoorTypes.has(t) || t.includes('patio') || t.includes('outdoor')
+            || t.includes('deck') || t.includes('garden') || t.includes('roof');
+        },
+        highlightKeywords: [
+          'string lights', 'fire pit', 'firepit', 'views', 'view', 'rooftop',
+          'covered', 'heated', 'large', 'spacious', 'greenery', 'garden',
+          'dog-friendly', 'dogs', 'pet-friendly', 'umbrella', 'shade',
+          'picnic', 'waterfront', 'river', 'scenic', 'courtyard',
+          'live music', 'stage', 'games', 'bocce', 'cornhole',
+        ],
+      });
+    }
+    if (wantFood) {
+      criteriaClassifiers.push({
+        key: 'food',
+        match: (ph) => {
+          const t = (ph._visionType || '').toLowerCase();
+          return foodTypes.has(t) || t.includes('food') || t.includes('menu')
+            || t.includes('kitchen') || t.includes('truck');
+        },
+        highlightKeywords: [
+          'pizza', 'burger', 'nachos', 'wings', 'tacos', 'bbq', 'smoker',
+          'food truck', 'kitchen', 'menu', 'chef', 'plated', 'fresh',
+        ],
+      });
     }
 
-    const qualityCount = places.filter(p => p._outdoorQuality).length;
-    if (qualityCount > 0) {
-      console.error(`  Outdoor quality assessed for ${qualityCount} places`);
+    for (const place of places) {
+      const scoredPhotos = (place.photos || []).filter(ph => (ph._visionScore ?? 0) >= 5);
+      if (scoredPhotos.length === 0) continue;
+
+      const insights = {};
+      for (const cc of criteriaClassifiers) {
+        const matching = scoredPhotos.filter(cc.match);
+        if (matching.length === 0) continue;
+
+        const types = [...new Set(matching.map(ph => ph._visionType).filter(Boolean))];
+        const descs = matching.map(ph => ph._visionDesc).filter(Boolean);
+        const descText = descs.join(' ').toLowerCase();
+        const highlights = cc.highlightKeywords.filter(kw => descText.includes(kw));
+
+        const bestDescs = descs.slice(0, 2);
+        const summary = bestDescs.length > 1
+          ? bestDescs[0].replace(/[.!]$/, '') + '; also ' + bestDescs[1].charAt(0).toLowerCase() + bestDescs[1].slice(1)
+          : bestDescs[0] || types.join(', ');
+
+        insights[cc.key] = {
+          score: matching[0]._visionScore,
+          types,
+          highlights,
+          summary,
+          photoCount: matching.length,
+        };
+      }
+
+      if (Object.keys(insights).length > 0) {
+        place._photoInsights = insights;
+      }
+
+      // Keep _outdoorQuality as alias for backward compatibility
+      if (insights.outdoor) {
+        place._outdoorQuality = insights.outdoor;
+      }
+    }
+
+    const insightCount = places.filter(p => p._photoInsights).length;
+    if (insightCount > 0) {
+      const criteriaFound = [...new Set(places.flatMap(p => Object.keys(p._photoInsights || {})))];
+      console.error(`  Photo insights for ${insightCount} places across criteria: ${criteriaFound.join(', ')}`);
     }
 
     try { rmSync(tmpDir, { recursive: true }); } catch {}

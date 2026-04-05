@@ -357,6 +357,31 @@ async function generateNarratives(scored, profile, query, locationBias, groupCon
     // Attach web research if available
     if (p.web_research) entry.web_research = p.web_research;
 
+    // Attach review evidence (top 2 quotes, compact)
+    if (p.evidence && p.evidence.length) {
+      entry.review_evidence = p.evidence.slice(0, 2).map(e => ({
+        quote: e.text.substring(0, 150),
+        category: e.category,
+      }));
+    }
+
+    // Attach photo insights per criterion — summary only, not full detail
+    if (p._photoInsights) {
+      const compact = {};
+      for (const [k, v] of Object.entries(p._photoInsights)) {
+        compact[k] = { score: v.score, types: v.types, highlights: v.highlights.slice(0, 4), summary: v.summary, photos: v.photoCount };
+      }
+      entry.photo_insights = compact;
+    }
+
+    // Attach top 2 photo descriptions (what Opus actually saw)
+    const describedPhotos = (p.photos || [])
+      .filter(ph => ph._visionDesc && (ph._visionScore ?? 0) >= 5)
+      .slice(0, 2);
+    if (describedPhotos.length) {
+      entry.top_photos = describedPhotos.map(ph => ph._visionType + ': ' + ph._visionDesc);
+    }
+
     // Attach prior narrative if we have one
     const key = (p.name || '').toLowerCase().trim();
     if (priorNarratives[key]) {
@@ -380,7 +405,7 @@ ${groupContext.friend_profiles ? '\n### Friend Profiles\n' + Object.entries(grou
 IMPORTANT: Write narratives ONLY for the people going (${groupContext.members.join(', ')}). Do NOT reference ${(groupContext.not_included || []).join(', ')} in narratives.\n`;
   }
 
-  const prompt = `You are writing personalized place recommendations.
+  const prompt = `You are writing Zagat-style mini-reviews that synthesize ALL available evidence about each place.
 
 ## Family Profile
 ${JSON.stringify(profile, null, 2)}
@@ -394,17 +419,24 @@ ${hasPriors ? `
 ## Prior Context
 Some places have a _prior_narrative from a previous search. Use these as context but REWRITE for the current query and current group.` : ''}
 
-For each place (by index), write a 1-3 sentence personalized narrative explaining why THIS GROUP would or wouldn't enjoy it for THIS SPECIFIC QUERY. Reference people by name when relevant.
+For each place, write a 2-4 sentence Zagat-style blurb that WEAVES TOGETHER all evidence sources into one cohesive mini-review.
 
-Rules:
-- Be specific to why this place fits or doesn't fit THEIR CURRENT QUERY: "${query}"
-- Reference actual family member preferences by name (Carissa's love of vintage bars, Ashi's steak/no-cheese, Niki's coasts, etc.)
-- Mention what DOESN'T match too — be honest about tradeoffs
+## Evidence sources to integrate (when available):
+- **review_evidence**: Actual reviewer quotes — paraphrase or quote these (e.g. "reviewers rave about the 'spacious beer garden'")
+- **photo_insights**: What we saw in their photos — describe this as visual evidence (e.g. "photos show a covered patio with string lights and ~20 tables")
+- **top_photo_descriptions**: Specific photo observations from visual analysis
+- **Place attributes**: outdoor_seating, serves_beer, live_music, etc.
+
+## Rules:
+- GROUND your narrative in the evidence provided. Do NOT invent details not supported by review_evidence, photo_insights, or attributes.
+- Cover EACH key criterion from the query "${query}" — don't just focus on one. If the query asks about outdoor seating AND food, address both.
+- When photo evidence and review evidence agree, combine them: "Photos confirm what reviewers describe as a 'massive outdoor beer garden' — we can see string lights, picnic tables, and a fire pit area."
+- When evidence conflicts or is missing, say so: "outdoor_seating is listed but no outdoor photos were found" or "reviewers mention a patio but photos only show interior"
+- Reference group members by name when their preferences are relevant (Robbie's IPA preference, Carissa's no-cheese, Jess's low-key vibe, etc.)
+- Be honest about tradeoffs and what doesn't match
 - Include practical context: distance, hours, what makes it good or bad for RIGHT NOW
 - Don't repeat the place name at the start — the UI already shows it
-- Keep it conversational and opinionated, like a knowledgeable friend
-- If you have a prior narrative, use the knowledge from it but reframe for the current query
-- If a place has no description and no prior, say so honestly
+- Keep it conversational and opinionated, like a knowledgeable friend who has actually been there
 
 Return ONLY a JSON array: [{"index": 0, "narrative": "..."}, {"index": 1, "narrative": "..."}, ...]
 No markdown, no backticks, just the JSON array.`;
@@ -413,7 +445,7 @@ No markdown, no backticks, just the JSON array.`;
     console.error('Generating personalized narratives via Claude...');
     const result = execSync(
       `claude -p ${JSON.stringify(prompt)} 2>/dev/null`,
-      { maxBuffer: 1024 * 1024, timeout: 90000 }
+      { maxBuffer: 2 * 1024 * 1024, timeout: 180000 }
     ).toString().trim();
 
     let narratives;
@@ -606,6 +638,12 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .evidence-quote{font-size:12px;color:#374151;border-left:3px solid #2a6496;padding:4px 0 4px 10px;margin:6px 0;line-height:1.5;font-style:italic}
 .evidence-quote .ev-tag{font-size:10px;font-weight:600;color:#2a6496;font-style:normal;margin-left:4px;background:#eff6ff;padding:1px 5px;border-radius:4px}
 .evidence-attr{font-size:10px;color:#94a3b8;font-style:normal}
+
+.criteria-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.criteria-chip{font-size:10px;font-weight:600;padding:2px 8px;border-radius:8px;display:inline-flex;align-items:center;gap:3px}
+.criteria-chip.outdoor{background:#ecfdf5;color:#059669;border:1px solid #a7f3d0}
+.criteria-chip.food{background:#fef9ee;color:#b45309;border:1px solid #fde68a}
+.criteria-chip.highlight{background:#f0f4f8;color:#475569;border:1px solid #e2e8f0}
 
 .action-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .action-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 10px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;display:inline-flex;align-items:center;gap:3px}
@@ -858,23 +896,35 @@ function render() {
         '</div>' +
         '<div class="card-narrative">' + esc(p._narrative) + '</div>';
 
-      // Photo strip
+      // Criteria chips from photo insights
+      if (p._photoInsights) {
+        var chips = [];
+        Object.keys(p._photoInsights).forEach(function(criterion) {
+          var insight = p._photoInsights[criterion];
+          // Type chips (e.g. "beer garden", "covered patio")
+          (insight.types || []).forEach(function(t) {
+            chips.push('<span class="criteria-chip ' + criterion + '">' + esc(t) + '</span>');
+          });
+          // Highlight chips (e.g. "string lights", "fire pit")
+          (insight.highlights || []).slice(0, 4).forEach(function(h) {
+            chips.push('<span class="criteria-chip highlight">' + esc(h) + '</span>');
+          });
+        });
+        if (chips.length) {
+          card.innerHTML += '<div class="criteria-chips">' + chips.join('') + '</div>';
+        }
+      }
+
+      // Photo strip with description tooltips
       if (p.photos && p.photos.length && DATA.apiKey) {
         var photoUrls = p.photos.map(function(ph) {
           return 'https://places.googleapis.com/v1/' + ph.ref + '/media?maxHeightPx=800&maxWidthPx=1200&key=' + DATA.apiKey;
         });
         var thumbs = photoUrls.slice(0, 4).map(function(url, pi) {
-          return '<img src="' + url.replace('800','300').replace('1200','400') + '" loading="lazy" alt="" onclick="event.stopPropagation();openLightbox(' + JSON.stringify(photoUrls).replace(/"/g,'&quot;') + ',' + pi + ')">';
+          var tooltip = (p.photos[pi] && p.photos[pi]._visionDesc) ? ' title="' + esc(p.photos[pi]._visionDesc) + '"' : '';
+          return '<img src="' + url.replace('800','300').replace('1200','400') + '" loading="lazy" alt=""' + tooltip + ' onclick="event.stopPropagation();openLightbox(' + JSON.stringify(photoUrls).replace(/"/g,'&quot;') + ',' + pi + ')">';
         }).join('');
         card.innerHTML += '<div class="photo-strip">' + thumbs + '</div>';
-      }
-
-      // Evidence excerpts from reviews
-      if (p.evidence && p.evidence.length) {
-        var evHtml = p.evidence.map(function(ev) {
-          return '<div class="evidence-quote">"' + esc(ev.text) + '" <span class="ev-tag">' + ev.category + '</span></div>';
-        }).join('');
-        card.innerHTML += '<div class="evidence">' + evHtml + '</div>';
       }
 
       // Action links (website, social, food-specific)
