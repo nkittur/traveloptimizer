@@ -9,7 +9,9 @@
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
+import { execSync, exec as execCb } from 'child_process';
+import { promisify } from 'util';
+const execAsync = promisify(execCb);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
@@ -190,7 +192,7 @@ async function searchPlacesAPI(textQuery, locationBias, targetCount = 25) {
         rating: r.rating || null,
         time: r.relativePublishTimeDescription || null,
       })).filter(r => r.text),
-      photos: (p.photos || []).slice(0, 10).map(ph => ({
+      photos: (p.photos || []).map(ph => ({
         ref: ph.name,
         width: ph.widthPx || null,
         height: ph.heightPx || null,
@@ -253,22 +255,22 @@ function extractEvidence(places, query) {
   }
 }
 
-// Rank photos by relevance to query criteria.
-// Pass 1: metadata heuristics (aspect ratio). Free, instant.
-// Pass 2: multimodal AI evaluation via Claude Haiku. Parallel, for top places only.
+// Rank photos by relevance to query criteria using Claude Opus vision.
+// Smart budget: top-ranked places get more photos evaluated, interleaved
+// so every place gets at least one photo seen early in the grid.
 async function rankPhotos(places, query, apiKey) {
   const q = (query || '').toLowerCase();
   const wantOutdoor = !!q.match(/outdoor|patio|outside|terrace|garden|space|seating/);
   const wantFood = !!q.match(/food|truck|eat|kitchen|menu|pizza/);
 
-  if (!wantOutdoor && !wantFood) return; // nothing specific to rank for
+  if (!wantOutdoor && !wantFood) return;
 
   const criteria = [];
   if (wantOutdoor) criteria.push('outdoor seating area, patio, beer garden, outdoor space');
   if (wantFood) criteria.push('food, food truck, kitchen, menu items');
   const criteriaStr = criteria.join('; ');
 
-  // Pass 1: metadata heuristics (instant)
+  // Pass 1: metadata heuristics (instant, free)
   for (const place of places) {
     if (!place.photos || !place.photos.length) continue;
     place.photos.forEach((ph, idx) => {
@@ -288,159 +290,500 @@ async function rankPhotos(places, query, apiKey) {
     place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
   }
 
-  // Pass 2: vision evaluation using a thumbnail grid
-  // Download all photos as small thumbnails, composite into a numbered grid,
-  // send ONE image to Claude Haiku to identify which show the key criteria.
+  // Pass 2: Adaptive Opus vision evaluation with dynamic EV-based budgets.
+  //
+  // Each place starts with an "expected value" based on choosability rank.
+  // Photos are evaluated in iterative rounds (up to 10 Opus calls, 2 parallel).
+  // After each round, EVs update: misses (non-outdoor) decay EV, hits maintain it.
+  // Places drop out when EV falls below threshold or all photos are exhausted.
+  // Top-ranked places naturally get more photos evaluated because they start
+  // with higher EV and tolerate more misses before dropping out.
   if (!apiKey) return;
 
-  const allPhotos = []; // { placeIdx, photoIdx, ref, place_name }
-  places.forEach((place, pi) => {
-    if (!place.photos) return;
-    place.photos.forEach((ph, phi) => {
-      allPhotos.push({ placeIdx: pi, photoIdx: phi, ref: ph.ref, place_name: place.name });
-    });
+  // Compute choosability score per place
+  const outdoorReviewWords = /outdoor|patio|outside|beer garden|terrace|rooftop|deck|fire pit|courtyard|al fresco/i;
+  const placeScores = places.map((p, idx) => {
+    let score = 0;
+    if (p.rating && p.review_count) {
+      const bayesian = (p.rating * p.review_count + 3.5 * 10) / (p.review_count + 10);
+      score += bayesian * 2;
+    }
+    if (wantOutdoor && p.outdoor_seating === true) score += 3;
+    if (wantFood && (p.serves_beer === true || p._has_food === true)) score += 2;
+    if (p.good_for_groups === true) score += 1;
+    if (p.allows_dogs === true) score += 0.5;
+    score += Math.min((p.evidence?.length || 0) * 1.5, 4);
+    score += Math.max(0, (places.length - idx) / places.length * 2);
+
+    // Scan review text for outdoor mentions — strong signal that outdoor photos exist
+    if (wantOutdoor && p.reviews?.length) {
+      const outdoorMentions = p.reviews.filter(r => outdoorReviewWords.test(r.text || '')).length;
+      score += Math.min(outdoorMentions * 2, 6); // up to +6 for 3+ reviews mentioning outdoor
+    }
+
+    return { idx, score };
   });
 
-  if (allPhotos.length === 0) return;
+  const sorted = [...placeScores].sort((a, b) => b.score - a.score);
+  const maxScore = sorted[0]?.score || 1;
+  const minScore = sorted[sorted.length - 1]?.score || 0;
+  const scoreRange = Math.max(maxScore - minScore, 1);
 
-  console.error(`Building photo grids: ${allPhotos.length} photos from ${places.filter(p=>p.photos?.length).length} places...`);
+  // Initialize per-place EV state.
+  // EV starts proportional to rank: top = 1.0, bottom = 0.2
+  // nextPhoto tracks which photo index to evaluate next for each place.
+  // outdoorFound counts how many outdoor photos we've already found.
+  const placeState = places.map((p, idx) => {
+    const rankInfo = placeScores[idx];
+    const normalizedScore = (rankInfo.score - minScore) / scoreRange; // 0-1
+    return {
+      ev: 0.2 + normalizedScore * 0.8, // range [0.2, 1.0]
+      nextPhoto: 0,
+      outdoorFound: 0,
+      photosEvaluated: 0,
+      totalPhotos: p.photos?.length || 0,
+    };
+  });
+
+  const MAX_OPUS_CALLS = 10;
+  const PHOTOS_PER_GRID = 50;
+  const EV_THRESHOLD = 0.08; // drop out below this
+  const MISS_DECAY = 0.12;   // EV penalty per non-outdoor photo
+  const HIT_BOOST = 0.05;    // small EV boost per outdoor photo found
+  const COLS = 5;
+  const THUMB_W = 150, THUMB_H = 110;
+  const PADDING = 4, LABEL_H = 16;
+  const cellW = THUMB_W + PADDING;
+  const cellH = THUMB_H + LABEL_H + PADDING;
+
+  console.error(`Adaptive vision eval: ${places.length} places, up to ${MAX_OPUS_CALLS} Opus calls`);
+  console.error(`  EV range: ${places[sorted[0]?.idx]?.name} = ${placeState[sorted[0]?.idx]?.ev.toFixed(2)}, ` +
+    `${places[sorted[sorted.length-1]?.idx]?.name} = ${placeState[sorted[sorted.length-1]?.idx]?.ev.toFixed(2)}`);
 
   try {
     const sharp = (await import('sharp')).default;
-    const { mkdtempSync, writeFileSync: writeFS, rmSync } = await import('fs');
+    const { mkdtempSync, rmSync } = await import('fs');
     const { tmpdir } = await import('os');
     const tmpDir = mkdtempSync(resolve(tmpdir(), 'photogrid-'));
 
-    // Download thumbnails in parallel (batches of 15)
-    const THUMB_W = 120, THUMB_H = 90;
-    const thumbBuffers = new Array(allPhotos.length).fill(null);
+    // Download ALL thumbnails upfront (cheap, ~3s) so adaptive rounds are fast.
+    // Only download for places with photos and EV above a minimum.
+    const thumbCache = new Map(); // "placeIdx:photoIdx" → Buffer
 
-    for (let batch = 0; batch < allPhotos.length; batch += 15) {
-      const batchPromises = allPhotos.slice(batch, batch + 15).map(async (photo, bi) => {
-        const idx = batch + bi;
+    const allDownloads = [];
+    places.forEach((place, pi) => {
+      if (!place.photos) return;
+      place.photos.forEach((ph, phi) => {
+        allDownloads.push({ placeIdx: pi, photoIdx: phi, ref: ph.ref });
+      });
+    });
+
+    console.error(`  Downloading ${allDownloads.length} thumbnails...`);
+    for (let batch = 0; batch < allDownloads.length; batch += 20) {
+      const promises = allDownloads.slice(batch, batch + 20).map(async (dl) => {
         try {
-          const url = `https://places.googleapis.com/v1/${photo.ref}/media?maxHeightPx=${THUMB_H}&maxWidthPx=${THUMB_W}&key=${apiKey}`;
+          const url = `https://places.googleapis.com/v1/${dl.ref}/media?maxHeightPx=${THUMB_H}&maxWidthPx=${THUMB_W}&key=${apiKey}`;
           const res = await fetch(url);
           if (!res.ok) return;
           const buf = Buffer.from(await res.arrayBuffer());
           const thumb = await sharp(buf)
             .resize(THUMB_W, THUMB_H, { fit: 'cover' })
-            .jpeg({ quality: 65 })
+            .jpeg({ quality: 70 })
             .toBuffer();
-          thumbBuffers[idx] = thumb;
+          thumbCache.set(`${dl.placeIdx}:${dl.photoIdx}`, thumb);
         } catch {}
       });
-      await Promise.all(batchPromises);
+      await Promise.all(promises);
     }
+    console.error(`  Cached ${thumbCache.size}/${allDownloads.length} thumbnails`);
 
-    const validThumbs = thumbBuffers.map((buf, i) => buf ? { buf, idx: i } : null).filter(Boolean);
-    if (validThumbs.length === 0) { console.error('  No photos downloaded'); return; }
-
-    console.error(`  Downloaded ${validThumbs.length} thumbnails`);
-
-    // Split into grid pages (~60 thumbs per page for readable grids)
-    const PER_PAGE = 60;
-    const COLS = 6;
-    const PADDING = 3;
-    const LABEL_H = 14;
-    const cellW = THUMB_W + PADDING;
-    const cellH = THUMB_H + LABEL_H + PADDING;
-
-    const pages = [];
-    for (let start = 0; start < validThumbs.length; start += PER_PAGE) {
-      pages.push(validThumbs.slice(start, start + PER_PAGE));
-    }
-
-    console.error(`  Creating ${pages.length} grid page(s)...`);
-
-    // Build all grid images
-    const gridPaths = [];
-    for (let pg = 0; pg < pages.length; pg++) {
-      const pageThumbs = pages[pg];
-      const rows = Math.ceil(pageThumbs.length / COLS);
+    // Helper: build a grid image from a list of photo entries
+    async function buildGrid(photoEntries, gridPath) {
+      const rows = Math.ceil(photoEntries.length / COLS);
       const gridW = COLS * cellW + PADDING;
       const gridH = rows * cellH + PADDING;
 
       const composites = [];
-      for (let i = 0; i < pageThumbs.length; i++) {
+      for (let i = 0; i < photoEntries.length; i++) {
         const col = i % COLS;
         const row = Math.floor(i / COLS);
         const x = PADDING + col * cellW;
         const y = PADDING + LABEL_H + row * cellH;
+        const entry = photoEntries[i];
 
-        composites.push({ input: pageThumbs[i].buf, left: x, top: y });
+        composites.push({ input: entry.thumb, left: x, top: y });
 
-        const globalIdx = pageThumbs[i].idx;
+        const label = `${i + 1}. ${entry.place_name.substring(0, 18)}`;
+        const escapedLabel = label.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         const labelSvg = Buffer.from(
           `<svg width="${THUMB_W}" height="${LABEL_H}">
             <rect width="${THUMB_W}" height="${LABEL_H}" fill="#1a3a5c"/>
-            <text x="3" y="11" font-family="Arial" font-size="9" fill="white" font-weight="bold">${globalIdx + 1}. ${allPhotos[globalIdx].place_name.substring(0, 16)}</text>
+            <text x="3" y="12" font-family="Arial" font-size="10" fill="white" font-weight="bold">${escapedLabel}</text>
           </svg>`
         );
         composites.push({ input: labelSvg, left: x, top: y - LABEL_H });
       }
 
-      const gridPath = resolve(tmpDir, `grid-${pg}.jpg`);
       await sharp({
         create: { width: gridW, height: gridH, channels: 3, background: { r: 240, g: 244, b: 248 } }
-      }).composite(composites).jpeg({ quality: 75 }).toFile(gridPath);
-
-      gridPaths.push({ path: gridPath, thumbs: pageThumbs, w: gridW, h: gridH });
+      }).composite(composites).jpeg({ quality: 80 }).toFile(gridPath);
     }
 
-    // Send all grid pages to Claude Haiku in PARALLEL
-    console.error(`  Sending ${gridPaths.length} grid(s) to Claude Haiku in parallel...`);
+    // Helper: send a grid to Opus and parse scores
+    async function evaluateGrid(gridPath, photoCount) {
+      const promptText = `This is a grid of ${photoCount} numbered photos from various restaurants/breweries. I'm searching for: ${criteriaStr}.
 
-    const allVisionResults = [];
-    const visionPromises = gridPaths.map(async (grid, pg) => {
-      try {
-        const promptText = `This is a grid of ${grid.thumbs.length} numbered photos from various places. I'm searching for: ${criteriaStr}.
+Score each photo 0-10:
+- 10: Clear outdoor patio with seating, beer garden, outdoor dining area
+- 7-9: Partially outdoor, covered patio, visible outdoor space
+- 4-6: Ambiguous or food-related photo
+- 1-3: Interior with some relevant element
+- 0: Interior shot, logo, beer taps, close-up of drinks, building exterior without seating
 
-Score each photo 0-10: outdoor patio/beer garden/food truck = high, interior/logos/beer taps = 0.
+Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number, s=score. Score ALL photos.`;
 
-Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":1},...] where n=photo number, s=score. ALL photos.`;
+      const { stdout: result } = await execAsync(
+        `claude -p ${JSON.stringify(promptText)} --model opus --allowedTools Read <<< "Read the image at ${gridPath}"`,
+        { timeout: 180000, maxBuffer: 4 * 1024 * 1024, shell: '/bin/bash' }
+      );
 
-        const result = execSync(
-          `claude -p ${JSON.stringify(promptText)} --model haiku --allowedTools Read <<< "Read the image at ${grid.path}"`,
-          { timeout: 60000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
-        ).toString().trim();
+      const scoresMatch = result.trim().match(/\[[\s\S]*?\]/);
+      if (!scoresMatch) return null;
+      return JSON.parse(scoresMatch[0]);
+    }
 
-        const scoresMatch = result.match(/\[[\s\S]*?\]/);
-        if (scoresMatch) {
-          const scores = JSON.parse(scoresMatch[0]);
-          allVisionResults.push(...scores);
-          console.error(`  Grid ${pg + 1}: scored ${scores.length} photos`);
-        } else {
-          console.error(`  Grid ${pg + 1}: could not parse response`);
-        }
-      } catch (err) {
-        console.error(`  Grid ${pg + 1}: failed (${err.message})`);
+    // ---- Adaptive evaluation loop ----
+    let opusCallsUsed = 0;
+    let totalScored = 0;
+
+    while (opusCallsUsed < MAX_OPUS_CALLS) {
+      // Select photos for next batch: pick from places with highest EV,
+      // taking their next unevaluated photo. Fill up to 2 grids (run in parallel).
+      const batch = []; // { placeIdx, photoIdx, thumb, place_name }
+
+      // Sort places by current EV (descending) for selection
+      const evOrder = sorted
+        .map(s => s.idx)
+        .filter(pi => {
+          const st = placeState[pi];
+          return st.ev >= EV_THRESHOLD && st.nextPhoto < st.totalPhotos;
+        })
+        .sort((a, b) => placeState[b].ev - placeState[a].ev);
+
+      if (evOrder.length === 0) {
+        console.error(`  All places below EV threshold or exhausted — stopping`);
+        break;
       }
-    });
 
-    await Promise.all(visionPromises);
+      // Fill grids: round-robin by EV rank, up to 2 * PHOTOS_PER_GRID
+      const maxPhotos = Math.min(2, MAX_OPUS_CALLS - opusCallsUsed) * PHOTOS_PER_GRID;
+      let filled = true;
+      while (batch.length < maxPhotos && filled) {
+        filled = false;
+        for (const pi of evOrder) {
+          if (batch.length >= maxPhotos) break;
+          const st = placeState[pi];
+          if (st.ev < EV_THRESHOLD || st.nextPhoto >= st.totalPhotos) continue;
 
-    // Apply vision scores
-    let applied = 0;
-    for (const vs of allVisionResults) {
-      const photoNum = (vs.n || vs.num || vs.number) - 1;
-      const score = vs.s || vs.score || 0;
-      const validThumb = validThumbs.find(vt => vt.idx === photoNum);
-      if (validThumb) {
-        const photo = allPhotos[photoNum];
-        const place = places[photo.placeIdx];
-        if (place.photos?.[photo.photoIdx]) {
-          place.photos[photo.photoIdx]._visionScore = score;
-          place.photos[photo.photoIdx]._relevance = (place.photos[photo.photoIdx]._relevance || 0) + score * 0.15;
-          applied++;
+          const thumb = thumbCache.get(`${pi}:${st.nextPhoto}`);
+          if (!thumb) { st.nextPhoto++; continue; }
+
+          batch.push({
+            placeIdx: pi,
+            photoIdx: st.nextPhoto,
+            thumb,
+            place_name: places[pi].name,
+          });
+          st.nextPhoto++;
+          filled = true;
+        }
+      }
+
+      if (batch.length === 0) break;
+
+      // Split into grids of PHOTOS_PER_GRID
+      const grids = [];
+      for (let i = 0; i < batch.length; i += PHOTOS_PER_GRID) {
+        grids.push(batch.slice(i, i + PHOTOS_PER_GRID));
+      }
+
+      const activePlaces = evOrder.filter(pi => placeState[pi].ev >= EV_THRESHOLD).length;
+      console.error(`  Round ${Math.floor(opusCallsUsed / 2) + 1}: ${batch.length} photos in ${grids.length} grid(s), ${activePlaces} active places`);
+
+      // Build and evaluate grids in parallel
+      const gridResults = await Promise.all(grids.map(async (gridBatch, gi) => {
+        const gridPath = resolve(tmpDir, `grid-${opusCallsUsed + gi}.jpg`);
+        await buildGrid(gridBatch, gridPath);
+
+        try {
+          const scores = await evaluateGrid(gridPath, gridBatch.length);
+          if (scores) {
+            console.error(`    Grid ${opusCallsUsed + gi + 1}: Opus scored ${scores.length} photos`);
+            return { gridBatch, scores };
+          } else {
+            console.error(`    Grid ${opusCallsUsed + gi + 1}: could not parse response`);
+            return { gridBatch, scores: [] };
+          }
+        } catch (err) {
+          console.error(`    Grid ${opusCallsUsed + gi + 1}: failed (${err.message.substring(0, 80)})`);
+          return { gridBatch, scores: [] };
+        }
+      }));
+
+      opusCallsUsed += grids.length;
+
+      // Apply scores and update EVs
+      for (const { gridBatch, scores } of gridResults) {
+        for (const vs of (scores || [])) {
+          const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
+          const score = vs.s || vs.score || 0;
+          if (localIdx < 0 || localIdx >= gridBatch.length) continue;
+
+          const entry = gridBatch[localIdx];
+          const place = places[entry.placeIdx];
+          const st = placeState[entry.placeIdx];
+
+          // Apply vision score to the photo
+          if (place.photos?.[entry.photoIdx]) {
+            place.photos[entry.photoIdx]._visionScore = score;
+            place.photos[entry.photoIdx]._relevance =
+              (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
+            totalScored++;
+          }
+
+          st.photosEvaluated++;
+
+          // Update EV based on result
+          if (score >= 5) {
+            // Hit: outdoor/relevant photo found
+            st.outdoorFound++;
+            st.ev = Math.min(1.0, st.ev + HIT_BOOST);
+          } else {
+            // Miss: decay EV
+            st.ev -= MISS_DECAY;
+          }
+        }
+      }
+
+      // Log EV state after this round
+      const stillActive = evOrder.filter(pi => placeState[pi].ev >= EV_THRESHOLD && placeState[pi].nextPhoto < placeState[pi].totalPhotos);
+      const droppedThisRound = evOrder.length - stillActive.length;
+      const totalOutdoor = placeState.reduce((n, st) => n + st.outdoorFound, 0);
+      console.error(`    Scored: ${totalScored} total, ${totalOutdoor} outdoor found, ${droppedThisRound} places dropped, ${stillActive.length} still active`);
+
+      // Early exit: if no places remain active
+      if (stillActive.length === 0) {
+        console.error(`  All places resolved — stopping early`);
+        break;
+      }
+    }
+
+    // ---- "Last call" pass ----
+    // Places with no outdoor photo found that still have unevaluated photos
+    // AND have reason to believe outdoor space exists (outdoor_seating=true,
+    // review mentions, evidence). Give them one final batch with remaining photos.
+    if (opusCallsUsed < MAX_OPUS_CALLS) {
+      const unresolved = [];
+      places.forEach((p, pi) => {
+        const st = placeState[pi];
+        if (st.outdoorFound > 0) return; // already found outdoor
+        if (st.nextPhoto >= st.totalPhotos) return; // no photos left
+
+        // Only bother if there's reason to believe outdoor exists
+        const hasOutdoorSignal = p.outdoor_seating === true
+          || (p.evidence || []).some(e => e.category === 'outdoor')
+          || (p.reviews || []).some(r => outdoorReviewWords.test(r.text || ''));
+        if (!hasOutdoorSignal) return;
+
+        unresolved.push(pi);
+      });
+
+      if (unresolved.length > 0) {
+        // Gather ALL remaining unevaluated photos from these places
+        const lastCallBatch = [];
+        for (const pi of unresolved) {
+          const st = placeState[pi];
+          while (st.nextPhoto < st.totalPhotos) {
+            const thumb = thumbCache.get(`${pi}:${st.nextPhoto}`);
+            if (thumb) {
+              lastCallBatch.push({
+                placeIdx: pi,
+                photoIdx: st.nextPhoto,
+                thumb,
+                place_name: places[pi].name,
+              });
+            }
+            st.nextPhoto++;
+          }
+        }
+
+        if (lastCallBatch.length > 0) {
+          const callsRemaining = MAX_OPUS_CALLS - opusCallsUsed;
+          const maxPhotos = callsRemaining * PHOTOS_PER_GRID;
+          const finalBatch = lastCallBatch.slice(0, maxPhotos);
+
+          const grids = [];
+          for (let i = 0; i < finalBatch.length; i += PHOTOS_PER_GRID) {
+            grids.push(finalBatch.slice(i, i + PHOTOS_PER_GRID));
+          }
+
+          console.error(`  Last call: ${finalBatch.length} remaining photos from ${unresolved.length} unresolved places (${grids.length} grid(s))`);
+
+          const lastResults = await Promise.all(grids.map(async (gridBatch, gi) => {
+            const gridPath = resolve(tmpDir, `grid-lastcall-${gi}.jpg`);
+            await buildGrid(gridBatch, gridPath);
+            try {
+              const scores = await evaluateGrid(gridPath, gridBatch.length);
+              if (scores) {
+                console.error(`    Last-call grid ${gi + 1}: Opus scored ${scores.length} photos`);
+                return { gridBatch, scores };
+              }
+              return { gridBatch, scores: [] };
+            } catch (err) {
+              console.error(`    Last-call grid ${gi + 1}: failed (${err.message.substring(0, 80)})`);
+              return { gridBatch, scores: [] };
+            }
+          }));
+
+          opusCallsUsed += grids.length;
+
+          for (const { gridBatch, scores } of lastResults) {
+            for (const vs of (scores || [])) {
+              const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
+              const score = vs.s || vs.score || 0;
+              if (localIdx < 0 || localIdx >= gridBatch.length) continue;
+
+              const entry = gridBatch[localIdx];
+              const place = places[entry.placeIdx];
+              const st = placeState[entry.placeIdx];
+
+              if (place.photos?.[entry.photoIdx]) {
+                place.photos[entry.photoIdx]._visionScore = score;
+                place.photos[entry.photoIdx]._relevance =
+                  (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
+                totalScored++;
+              }
+              st.photosEvaluated++;
+              if (score >= 5) st.outdoorFound++;
+            }
+          }
+
+          const resolved = unresolved.filter(pi => placeState[pi].outdoorFound > 0).map(pi => places[pi].name);
+          const stillMissing = unresolved.filter(pi => placeState[pi].outdoorFound === 0).map(pi => places[pi].name);
+          if (resolved.length) console.error(`    Last call found outdoor for: ${resolved.join(', ')}`);
+          if (stillMissing.length) console.error(`    Truly no outdoor photos: ${stillMissing.join(', ')}`);
         }
       }
     }
-    console.error(`  Vision total: ${allVisionResults.length} scored, ${applied} applied`);
 
-    // Re-sort photos per place by relevance
+    // ---- "Top-up" pass ----
+    // Top-ranked places with only 1 outdoor photo and unevaluated photos remaining
+    // deserve another look — 1 photo isn't great for display variety.
+    if (opusCallsUsed < MAX_OPUS_CALLS) {
+      const needsMore = [];
+      // Use choosability rank to prioritize
+      for (const { idx: pi } of sorted) {
+        const st = placeState[pi];
+        if (st.outdoorFound !== 1) continue; // only places with exactly 1
+        if (st.nextPhoto >= st.totalPhotos) continue; // no photos left
+        needsMore.push(pi);
+      }
+
+      if (needsMore.length > 0) {
+        const topupBatch = [];
+        for (const pi of needsMore) {
+          const st = placeState[pi];
+          while (st.nextPhoto < st.totalPhotos) {
+            const thumb = thumbCache.get(`${pi}:${st.nextPhoto}`);
+            if (thumb) {
+              topupBatch.push({
+                placeIdx: pi,
+                photoIdx: st.nextPhoto,
+                thumb,
+                place_name: places[pi].name,
+              });
+            }
+            st.nextPhoto++;
+          }
+        }
+
+        if (topupBatch.length > 0) {
+          const callsRemaining = MAX_OPUS_CALLS - opusCallsUsed;
+          const maxPhotos = callsRemaining * PHOTOS_PER_GRID;
+          const finalBatch = topupBatch.slice(0, maxPhotos);
+
+          const grids = [];
+          for (let i = 0; i < finalBatch.length; i += PHOTOS_PER_GRID) {
+            grids.push(finalBatch.slice(i, i + PHOTOS_PER_GRID));
+          }
+
+          console.error(`  Top-up: ${finalBatch.length} photos from ${needsMore.length} places with only 1 outdoor photo (${grids.length} grid(s))`);
+
+          const topupResults = await Promise.all(grids.map(async (gridBatch, gi) => {
+            const gridPath = resolve(tmpDir, `grid-topup-${gi}.jpg`);
+            await buildGrid(gridBatch, gridPath);
+            try {
+              const scores = await evaluateGrid(gridPath, gridBatch.length);
+              if (scores) {
+                console.error(`    Top-up grid ${gi + 1}: Opus scored ${scores.length} photos`);
+                return { gridBatch, scores };
+              }
+              return { gridBatch, scores: [] };
+            } catch (err) {
+              console.error(`    Top-up grid ${gi + 1}: failed (${err.message.substring(0, 80)})`);
+              return { gridBatch, scores: [] };
+            }
+          }));
+
+          opusCallsUsed += grids.length;
+
+          let topupFound = 0;
+          for (const { gridBatch, scores } of topupResults) {
+            for (const vs of (scores || [])) {
+              const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
+              const score = vs.s || vs.score || 0;
+              if (localIdx < 0 || localIdx >= gridBatch.length) continue;
+
+              const entry = gridBatch[localIdx];
+              const place = places[entry.placeIdx];
+              const st = placeState[entry.placeIdx];
+
+              if (place.photos?.[entry.photoIdx]) {
+                place.photos[entry.photoIdx]._visionScore = score;
+                place.photos[entry.photoIdx]._relevance =
+                  (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
+                totalScored++;
+              }
+              st.photosEvaluated++;
+              if (score >= 5) { st.outdoorFound++; topupFound++; }
+            }
+          }
+
+          const improved = needsMore.filter(pi => placeState[pi].outdoorFound > 1).map(pi =>
+            `${places[pi].name} (${placeState[pi].outdoorFound})`);
+          console.error(`    Top-up found ${topupFound} more outdoor photos` +
+            (improved.length ? `: ${improved.join(', ')}` : ''));
+        }
+      }
+    }
+
+    console.error(`  Opus vision complete: ${opusCallsUsed} calls, ${totalScored} photos scored`);
+    const outdoorSummary = places.map((p, pi) => {
+      const st = placeState[pi];
+      return st.outdoorFound > 0 ? p.name : null;
+    }).filter(Boolean);
+    if (outdoorSummary.length > 0) {
+      console.error(`  Outdoor photos found for: ${outdoorSummary.join(', ')}`);
+    }
+
+    // Sort photos: vision score is primary key, metadata relevance as tiebreaker.
+    // Photos with outdoor vision scores (>=5) always come first.
     for (const place of places) {
-      if (place.photos) place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
+      if (place.photos) place.photos.sort((a, b) => {
+        const av = a._visionScore ?? -1, bv = b._visionScore ?? -1;
+        if (av !== bv) return bv - av; // highest vision score first
+        return (b._relevance || 0) - (a._relevance || 0); // tiebreak on metadata
+      });
     }
 
     try { rmSync(tmpDir, { recursive: true }); } catch {}
