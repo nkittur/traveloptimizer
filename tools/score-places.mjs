@@ -1223,7 +1223,8 @@ function showPhotos(placeIdx) {
       html += '<div class="pg-info">';
       if (ph._visionType) html += '<span class="pg-type">' + esc(ph._visionType) + '</span> ';
       if (ph._visionDesc) html += esc(ph._visionDesc);
-      else html += '<span style="color:#94a3b8">Not evaluated</span>';
+      else if (score != null) html += '<span style="color:#94a3b8">Evaluated &mdash; no description</span>';
+      else html += '<span style="color:#d1d5db">Not evaluated</span>';
       html += '</div></div>';
     });
     html += '</div>';

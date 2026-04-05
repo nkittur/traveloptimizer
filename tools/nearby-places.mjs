@@ -440,12 +440,12 @@ Score each photo 0-10:
 - 1-3: Interior with some relevant element
 - 0: Interior shot, logo, beer taps, close-up of drinks, building exterior without seating
 
-For photos scoring >= 4, also include:
-- "t": type of space (e.g. "patio", "rooftop", "beer garden", "deck", "courtyard", "sidewalk", "covered patio")
-- "d": brief description of what you see (10-20 words, mention notable features like string lights, fire pit, views, size, seating count, greenery, etc.)
+For EVERY photo include:
+- "t": type (e.g. "patio", "beer garden", "deck", "food", "interior", "bar", "logo", "exterior", "drinks")
+- "d": brief description (5-15 words describing what you actually see)
 
 Return ONLY a JSON array. Examples:
-[{"n":1,"s":9,"t":"beer garden","d":"large open-air beer garden with picnic tables, string lights, and fire pit"},{"n":2,"s":0},{"n":3,"s":5,"t":"food","d":"pizza and loaded nachos on outdoor table"}]
+[{"n":1,"s":9,"t":"beer garden","d":"large open-air beer garden with picnic tables and string lights"},{"n":2,"s":0,"t":"interior","d":"indoor bar with beer taps and chalkboard menu"},{"n":3,"s":5,"t":"food","d":"pizza and loaded nachos on outdoor table"}]
 Score ALL photos.`;
 
       const { stdout: result } = await execAsync(
@@ -1127,6 +1127,28 @@ async function main() {
         console.error(`Playwright not available for verification: ${err.message}`);
       }
     }
+  }
+
+  // Sort reviews per place: prioritize those mentioning query-relevant criteria
+  const reviewKeywords = [];
+  if (searchTerm.match(/outdoor|patio|outside|terrace|garden|seating/i))
+    reviewKeywords.push('outdoor', 'patio', 'outside', 'beer garden', 'terrace', 'deck');
+  if (searchTerm.match(/food|truck|eat|kitchen|menu/i))
+    reviewKeywords.push('food', 'food truck', 'kitchen', 'menu', 'pizza');
+  if (reviewKeywords.length > 0) {
+    for (const place of places) {
+      if (!place.reviews || place.reviews.length <= 1) continue;
+      place.reviews.sort((a, b) => {
+        const aRelevant = reviewKeywords.some(kw => (a.text || '').toLowerCase().includes(kw));
+        const bRelevant = reviewKeywords.some(kw => (b.text || '').toLowerCase().includes(kw));
+        if (aRelevant && !bRelevant) return -1;
+        if (!aRelevant && bRelevant) return 1;
+        return (b.rating || 0) - (a.rating || 0);
+      });
+    }
+    const relevantCount = places.reduce((n, p) =>
+      n + (p.reviews || []).filter(r => reviewKeywords.some(kw => (r.text || '').toLowerCase().includes(kw))).length, 0);
+    console.error(`Sorted reviews by criteria relevance (${relevantCount} criteria-relevant reviews found)`);
   }
 
   // Rank photos by relevance to query criteria (metadata + vision)
