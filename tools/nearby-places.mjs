@@ -429,7 +429,7 @@ async function rankPhotos(places, query, apiKey) {
       }).composite(composites).jpeg({ quality: 80 }).toFile(gridPath);
     }
 
-    // Helper: send a grid to Opus and parse scores
+    // Helper: send a grid to Opus and parse scores with descriptions
     async function evaluateGrid(gridPath, photoCount) {
       const promptText = `This is a grid of ${photoCount} numbered photos from various restaurants/breweries. I'm searching for: ${criteriaStr}.
 
@@ -440,7 +440,13 @@ Score each photo 0-10:
 - 1-3: Interior with some relevant element
 - 0: Interior shot, logo, beer taps, close-up of drinks, building exterior without seating
 
-Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number, s=score. Score ALL photos.`;
+For photos scoring >= 4, also include:
+- "t": type of space (e.g. "patio", "rooftop", "beer garden", "deck", "courtyard", "sidewalk", "covered patio")
+- "d": brief description of what you see (10-20 words, mention notable features like string lights, fire pit, views, size, seating count, greenery, etc.)
+
+Return ONLY a JSON array. Examples:
+[{"n":1,"s":9,"t":"beer garden","d":"large open-air beer garden with picnic tables, string lights, and fire pit"},{"n":2,"s":0},{"n":3,"s":5,"t":"food","d":"pizza and loaded nachos on outdoor table"}]
+Score ALL photos.`;
 
       const { stdout: result } = await execAsync(
         `claude -p ${JSON.stringify(promptText)} --model opus --allowedTools Read <<< "Read the image at ${gridPath}"`,
@@ -450,6 +456,39 @@ Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number
       const scoresMatch = result.trim().match(/\[[\s\S]*?\]/);
       if (!scoresMatch) return null;
       return JSON.parse(scoresMatch[0]);
+    }
+
+    // Helper: apply vision scores from a grid evaluation to place photos
+    function applyGridScores(gridBatch, scores) {
+      let scored = 0;
+      for (const vs of (scores || [])) {
+        const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
+        const score = vs.s || vs.score || 0;
+        if (localIdx < 0 || localIdx >= gridBatch.length) continue;
+
+        const entry = gridBatch[localIdx];
+        const place = places[entry.placeIdx];
+        const st = placeState[entry.placeIdx];
+
+        if (place.photos?.[entry.photoIdx]) {
+          place.photos[entry.photoIdx]._visionScore = score;
+          place.photos[entry.photoIdx]._relevance =
+            (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
+          if (vs.t) place.photos[entry.photoIdx]._visionType = vs.t;
+          if (vs.d) place.photos[entry.photoIdx]._visionDesc = vs.d;
+          scored++;
+        }
+
+        st.photosEvaluated++;
+        if (score >= 5) {
+          st.outdoorFound++;
+          st.ev = Math.min(1.0, st.ev + HIT_BOOST);
+        } else {
+          st.ev -= MISS_DECAY;
+        }
+      }
+      totalScored += scored;
+      return scored;
     }
 
     // ---- Adaptive evaluation loop ----
@@ -534,35 +573,7 @@ Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number
 
       // Apply scores and update EVs
       for (const { gridBatch, scores } of gridResults) {
-        for (const vs of (scores || [])) {
-          const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
-          const score = vs.s || vs.score || 0;
-          if (localIdx < 0 || localIdx >= gridBatch.length) continue;
-
-          const entry = gridBatch[localIdx];
-          const place = places[entry.placeIdx];
-          const st = placeState[entry.placeIdx];
-
-          // Apply vision score to the photo
-          if (place.photos?.[entry.photoIdx]) {
-            place.photos[entry.photoIdx]._visionScore = score;
-            place.photos[entry.photoIdx]._relevance =
-              (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
-            totalScored++;
-          }
-
-          st.photosEvaluated++;
-
-          // Update EV based on result
-          if (score >= 5) {
-            // Hit: outdoor/relevant photo found
-            st.outdoorFound++;
-            st.ev = Math.min(1.0, st.ev + HIT_BOOST);
-          } else {
-            // Miss: decay EV
-            st.ev -= MISS_DECAY;
-          }
-        }
+        applyGridScores(gridBatch, scores);
       }
 
       // Log EV state after this round
@@ -648,24 +659,7 @@ Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number
           opusCallsUsed += grids.length;
 
           for (const { gridBatch, scores } of lastResults) {
-            for (const vs of (scores || [])) {
-              const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
-              const score = vs.s || vs.score || 0;
-              if (localIdx < 0 || localIdx >= gridBatch.length) continue;
-
-              const entry = gridBatch[localIdx];
-              const place = places[entry.placeIdx];
-              const st = placeState[entry.placeIdx];
-
-              if (place.photos?.[entry.photoIdx]) {
-                place.photos[entry.photoIdx]._visionScore = score;
-                place.photos[entry.photoIdx]._relevance =
-                  (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
-                totalScored++;
-              }
-              st.photosEvaluated++;
-              if (score >= 5) st.outdoorFound++;
-            }
+            applyGridScores(gridBatch, scores);
           }
 
           const resolved = unresolved.filter(pi => placeState[pi].outdoorFound > 0).map(pi => places[pi].name);
@@ -737,27 +731,11 @@ Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number
 
           opusCallsUsed += grids.length;
 
-          let topupFound = 0;
+          const prevOutdoor = needsMore.map(pi => placeState[pi].outdoorFound);
           for (const { gridBatch, scores } of topupResults) {
-            for (const vs of (scores || [])) {
-              const localIdx = (vs.n || vs.num || vs.number || 1) - 1;
-              const score = vs.s || vs.score || 0;
-              if (localIdx < 0 || localIdx >= gridBatch.length) continue;
-
-              const entry = gridBatch[localIdx];
-              const place = places[entry.placeIdx];
-              const st = placeState[entry.placeIdx];
-
-              if (place.photos?.[entry.photoIdx]) {
-                place.photos[entry.photoIdx]._visionScore = score;
-                place.photos[entry.photoIdx]._relevance =
-                  (place.photos[entry.photoIdx]._relevance || 0) + score * 0.15;
-                totalScored++;
-              }
-              st.photosEvaluated++;
-              if (score >= 5) { st.outdoorFound++; topupFound++; }
-            }
+            applyGridScores(gridBatch, scores);
           }
+          const topupFound = needsMore.reduce((n, pi, i) => n + (placeState[pi].outdoorFound - prevOutdoor[i]), 0);
 
           const improved = needsMore.filter(pi => placeState[pi].outdoorFound > 1).map(pi =>
             `${places[pi].name} (${placeState[pi].outdoorFound})`);
@@ -784,6 +762,45 @@ Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":0},...] where n=photo number
         if (av !== bv) return bv - av; // highest vision score first
         return (b._relevance || 0) - (a._relevance || 0); // tiebreak on metadata
       });
+    }
+
+    // Aggregate per-place outdoor quality assessment from photo-level data
+    for (const place of places) {
+      const outdoorPhotos = (place.photos || []).filter(ph => (ph._visionScore ?? 0) >= 5);
+      if (outdoorPhotos.length === 0) continue;
+
+      const types = [...new Set(outdoorPhotos.map(ph => ph._visionType).filter(Boolean))];
+      const descs = outdoorPhotos.map(ph => ph._visionDesc).filter(Boolean);
+
+      // Extract highlights from descriptions
+      const highlightKeywords = [
+        'string lights', 'fire pit', 'firepit', 'views', 'view', 'rooftop',
+        'covered', 'heated', 'large', 'spacious', 'greenery', 'garden',
+        'dog-friendly', 'dogs', 'pet-friendly', 'umbrella', 'shade',
+        'picnic', 'waterfront', 'river', 'scenic', 'courtyard',
+        'live music', 'stage', 'games', 'bocce', 'cornhole',
+      ];
+      const descText = descs.join(' ').toLowerCase();
+      const highlights = highlightKeywords.filter(kw => descText.includes(kw));
+
+      // Build summary from best photo descriptions
+      const bestDescs = descs.slice(0, 2);
+      const summary = bestDescs.length > 1
+        ? bestDescs[0].replace(/[.!]$/, '') + '; also ' + bestDescs[1].charAt(0).toLowerCase() + bestDescs[1].slice(1)
+        : bestDescs[0] || types.join(', ');
+
+      place._outdoorQuality = {
+        score: outdoorPhotos[0]._visionScore, // photos are sorted, first is best
+        types,
+        highlights,
+        summary,
+        photoCount: outdoorPhotos.length,
+      };
+    }
+
+    const qualityCount = places.filter(p => p._outdoorQuality).length;
+    if (qualityCount > 0) {
+      console.error(`  Outdoor quality assessed for ${qualityCount} places`);
     }
 
     try { rmSync(tmpDir, { recursive: true }); } catch {}
