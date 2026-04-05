@@ -14,9 +14,7 @@
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { exec as execCb } from 'child_process';
-import { promisify } from 'util';
-const execAsync = promisify(execCb);
+import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const inputFile = process.argv[2];
@@ -47,14 +45,14 @@ if (query.match(/music|live|band/i))
 if (query.match(/dog|pet/i))
   criteriaTerms.push('dog-friendly');
 
-const BATCH_SIZE = 3;
+const BATCH_SIZE = 1; // 1 place per Claude call — web search is slow
 // Sort by review count descending — popular places have more web reviews
 const sortedPlaces = [...places]
   .map((p, i) => ({ ...p, _origIdx: i }))
   .sort((a, b) => (b.review_count || 0) - (a.review_count || 0));
 
-// Only fetch for top 25 places (most likely to be chosen)
-const targetPlaces = sortedPlaces.slice(0, 25);
+// Only fetch for top 10 places (most likely to be chosen — web search is slow)
+const targetPlaces = sortedPlaces.slice(0, 10);
 
 console.error(`Fetching additional Yelp/Google reviews for ${targetPlaces.length} places...`);
 console.error(`Criteria: ${criteriaTerms.join(', ') || 'general'}`);
@@ -94,10 +92,10 @@ Rules:
   }
 
   try {
-    const { stdout: result } = await execAsync(
-      `claude -p ${JSON.stringify(prompt)} --model sonnet --allowedTools WebSearch,WebFetch < /dev/null`,
-      { timeout: 120000, maxBuffer: 4 * 1024 * 1024, shell: '/bin/bash' }
-    );
+    const result = execSync(
+      `claude -p ${JSON.stringify(prompt)} --allowedTools WebSearch,WebFetch < /dev/null`,
+      { timeout: 180000, maxBuffer: 4 * 1024 * 1024, shell: '/bin/bash' }
+    ).toString().trim();
 
     const jsonMatch = result.match(/\[[\s\S]*\]/);
     if (!jsonMatch) return { reviews: [], error: 'no JSON in response' };
