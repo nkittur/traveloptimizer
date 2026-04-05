@@ -1199,8 +1199,8 @@ Only include REAL reviews you find on the web. If you can't find reviews for a p
 
     try {
       const { stdout: result } = await execAsync(
-        `claude -p ${JSON.stringify(prompt)} --model sonnet --allowedTools WebSearch,WebFetch 2>/dev/null`,
-        { timeout: 90000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
+        `claude -p ${JSON.stringify(prompt)} --allowedTools WebSearch,WebFetch 2>/dev/null`,
+        { timeout: 120000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
       );
 
       const jsonMatch = result.trim().match(/\[[\s\S]*\]/);
