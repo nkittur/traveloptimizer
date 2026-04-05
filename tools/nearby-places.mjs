@@ -48,18 +48,18 @@ async function geocode(address) {
   return null;
 }
 
-async function searchPlacesAPI(textQuery, locationBias) {
-  // Use the Places API (New) Text Search
+async function searchPlacesAPI(textQuery, locationBias, targetCount = 25) {
   const url = 'https://places.googleapis.com/v1/places:searchText';
+  const PAGE_SIZE = 20; // API max per request
 
-  const body = {
+  const baseBody = {
     textQuery: textQuery,
-    maxResultCount: 20,
+    maxResultCount: PAGE_SIZE,
     languageCode: 'en',
   };
 
   if (locationBias) {
-    body.locationBias = {
+    baseBody.locationBias = {
       circle: {
         center: {
           latitude: locationBias.lat,
@@ -104,29 +104,54 @@ async function searchPlacesAPI(textQuery, locationBias) {
     'places.shortFormattedAddress',
     'places.reviews',
     'places.photos',
+    'nextPageToken',
   ].join(',');
 
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Goog-Api-Key': API_KEY,
-      'X-Goog-FieldMask': fieldMask
-    },
-    body: JSON.stringify(body)
-  });
+  let allPlaces = [];
+  let pageToken = null;
+  let page = 0;
 
-  const data = await res.json();
+  while (allPlaces.length < targetCount) {
+    const body = { ...baseBody };
+    if (pageToken) body.pageToken = pageToken;
 
-  if (data.error) {
-    console.error('API Error:', JSON.stringify(data.error, null, 2));
-    return null;
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Goog-Api-Key': API_KEY,
+        'X-Goog-FieldMask': fieldMask
+      },
+      body: JSON.stringify(body)
+    });
+
+    const data = await res.json();
+
+    if (data.error) {
+      if (page === 0) {
+        console.error('API Error:', JSON.stringify(data.error, null, 2));
+        return null;
+      }
+      break; // Got some results, stop paginating
+    }
+
+    if (data.places) allPlaces.push(...data.places);
+    page++;
+
+    if (data.nextPageToken && allPlaces.length < targetCount) {
+      pageToken = data.nextPageToken;
+      console.error(`  Page ${page}: ${allPlaces.length} results, fetching more...`);
+    } else {
+      break;
+    }
   }
 
-  if (!data.places) return [];
+  console.error(`  Total: ${allPlaces.length} results from ${page} page(s)`);
+
+  if (!allPlaces.length) return [];
 
   // Transform to clean output
-  return data.places.map(p => {
+  return allPlaces.map(p => {
     const isOpenNow = p.currentOpeningHours?.openNow ?? null;
 
     // Get today's hours
@@ -165,7 +190,7 @@ async function searchPlacesAPI(textQuery, locationBias) {
         rating: r.rating || null,
         time: r.relativePublishTimeDescription || null,
       })).filter(r => r.text),
-      photos: (p.photos || []).slice(0, 6).map(ph => ({
+      photos: (p.photos || []).slice(0, 10).map(ph => ({
         ref: ph.name,
         width: ph.widthPx || null,
         height: ph.heightPx || null,
@@ -278,7 +303,7 @@ async function rankPhotos(places, query, apiKey) {
 
   if (allPhotos.length === 0) return;
 
-  console.error(`Building photo grid: ${allPhotos.length} photos from ${places.filter(p=>p.photos?.length).length} places...`);
+  console.error(`Building photo grids: ${allPhotos.length} photos from ${places.filter(p=>p.photos?.length).length} places...`);
 
   try {
     const sharp = (await import('sharp')).default;
@@ -286,22 +311,21 @@ async function rankPhotos(places, query, apiKey) {
     const { tmpdir } = await import('os');
     const tmpDir = mkdtempSync(resolve(tmpdir(), 'photogrid-'));
 
-    // Download thumbnails in parallel (batches of 10)
-    const THUMB_W = 150, THUMB_H = 110;
+    // Download thumbnails in parallel (batches of 15)
+    const THUMB_W = 120, THUMB_H = 90;
     const thumbBuffers = new Array(allPhotos.length).fill(null);
 
-    for (let batch = 0; batch < allPhotos.length; batch += 10) {
-      const batchPromises = allPhotos.slice(batch, batch + 10).map(async (photo, bi) => {
+    for (let batch = 0; batch < allPhotos.length; batch += 15) {
+      const batchPromises = allPhotos.slice(batch, batch + 15).map(async (photo, bi) => {
         const idx = batch + bi;
         try {
           const url = `https://places.googleapis.com/v1/${photo.ref}/media?maxHeightPx=${THUMB_H}&maxWidthPx=${THUMB_W}&key=${apiKey}`;
           const res = await fetch(url);
           if (!res.ok) return;
           const buf = Buffer.from(await res.arrayBuffer());
-          // Resize to exact thumbnail size and add number overlay
           const thumb = await sharp(buf)
             .resize(THUMB_W, THUMB_H, { fit: 'cover' })
-            .jpeg({ quality: 70 })
+            .jpeg({ quality: 65 })
             .toBuffer();
           thumbBuffers[idx] = thumb;
         } catch {}
@@ -310,103 +334,115 @@ async function rankPhotos(places, query, apiKey) {
     }
 
     const validThumbs = thumbBuffers.map((buf, i) => buf ? { buf, idx: i } : null).filter(Boolean);
-    if (validThumbs.length === 0) {
-      console.error('  No photos downloaded successfully');
-      return;
-    }
+    if (validThumbs.length === 0) { console.error('  No photos downloaded'); return; }
 
-    // Create numbered grid using sharp composite
-    const COLS = 5;
-    const PADDING = 4;
-    const LABEL_H = 16;
+    console.error(`  Downloaded ${validThumbs.length} thumbnails`);
+
+    // Split into grid pages (~60 thumbs per page for readable grids)
+    const PER_PAGE = 60;
+    const COLS = 6;
+    const PADDING = 3;
+    const LABEL_H = 14;
     const cellW = THUMB_W + PADDING;
     const cellH = THUMB_H + LABEL_H + PADDING;
-    const rows = Math.ceil(validThumbs.length / COLS);
-    const gridW = COLS * cellW + PADDING;
-    const gridH = rows * cellH + PADDING;
 
-    // Build composite operations
-    const composites = [];
-    for (let i = 0; i < validThumbs.length; i++) {
-      const col = i % COLS;
-      const row = Math.floor(i / COLS);
-      const x = PADDING + col * cellW;
-      const y = PADDING + LABEL_H + row * cellH;
-
-      composites.push({
-        input: validThumbs[i].buf,
-        left: x,
-        top: y,
-      });
-
-      // Add number label
-      const labelSvg = Buffer.from(
-        `<svg width="${THUMB_W}" height="${LABEL_H}">
-          <rect width="${THUMB_W}" height="${LABEL_H}" fill="#1a3a5c"/>
-          <text x="4" y="12" font-family="Arial" font-size="10" fill="white" font-weight="bold">${validThumbs[i].idx + 1}. ${allPhotos[validThumbs[i].idx].place_name.substring(0, 18)}</text>
-        </svg>`
-      );
-      composites.push({
-        input: labelSvg,
-        left: x,
-        top: y - LABEL_H,
-      });
+    const pages = [];
+    for (let start = 0; start < validThumbs.length; start += PER_PAGE) {
+      pages.push(validThumbs.slice(start, start + PER_PAGE));
     }
 
-    const gridPath = resolve(tmpDir, 'grid.jpg');
-    await sharp({
-      create: { width: gridW, height: gridH, channels: 3, background: { r: 240, g: 244, b: 248 } }
-    })
-      .composite(composites)
-      .jpeg({ quality: 80 })
-      .toFile(gridPath);
+    console.error(`  Creating ${pages.length} grid page(s)...`);
 
-    console.error(`  Grid created: ${gridW}x${gridH}, ${validThumbs.length} thumbnails`);
+    // Build all grid images
+    const gridPaths = [];
+    for (let pg = 0; pg < pages.length; pg++) {
+      const pageThumbs = pages[pg];
+      const rows = Math.ceil(pageThumbs.length / COLS);
+      const gridW = COLS * cellW + PADDING;
+      const gridH = rows * cellH + PADDING;
 
-    // Send grid to Claude Haiku via CLI
-    const promptText = `This is a grid of ${validThumbs.length} numbered photos from various places. I'm searching for: ${criteriaStr}.
+      const composites = [];
+      for (let i = 0; i < pageThumbs.length; i++) {
+        const col = i % COLS;
+        const row = Math.floor(i / COLS);
+        const x = PADDING + col * cellW;
+        const y = PADDING + LABEL_H + row * cellH;
 
-For each photo, score 0-10 how well it shows these criteria. A photo of an outdoor patio/beer garden scores high for outdoor. A photo of food/food truck scores high for food. Interior beer taps or logos score 0.
+        composites.push({ input: pageThumbs[i].buf, left: x, top: y });
 
-Return ONLY a JSON array of objects: [{"n":1,"s":8},{"n":2,"s":1},...] where n=photo number, s=score. Include ALL photos.`;
-
-    const result = execSync(
-      `claude -p ${JSON.stringify(promptText)} --model haiku --allowedTools Read <<< "Read the image at ${gridPath}"`,
-      { timeout: 45000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
-    ).toString().trim();
-
-    const scoresMatch = result.match(/\[[\s\S]*?\]/);
-    if (scoresMatch) {
-      const visionResults = JSON.parse(scoresMatch[0]);
-      let applied = 0;
-      for (const vs of visionResults) {
-        const photoNum = (vs.n || vs.num || vs.number) - 1; // 0-indexed
-        const score = vs.s || vs.score || 0;
-        const validThumb = validThumbs.find(vt => vt.idx === photoNum);
-        if (validThumb) {
-          const photo = allPhotos[photoNum];
-          const place = places[photo.placeIdx];
-          if (place.photos[photo.photoIdx]) {
-            place.photos[photo.photoIdx]._visionScore = score;
-            place.photos[photo.photoIdx]._relevance = (place.photos[photo.photoIdx]._relevance || 0) + score * 0.15;
-            applied++;
-          }
-        }
+        const globalIdx = pageThumbs[i].idx;
+        const labelSvg = Buffer.from(
+          `<svg width="${THUMB_W}" height="${LABEL_H}">
+            <rect width="${THUMB_W}" height="${LABEL_H}" fill="#1a3a5c"/>
+            <text x="3" y="11" font-family="Arial" font-size="9" fill="white" font-weight="bold">${globalIdx + 1}. ${allPhotos[globalIdx].place_name.substring(0, 16)}</text>
+          </svg>`
+        );
+        composites.push({ input: labelSvg, left: x, top: y - LABEL_H });
       }
-      console.error(`  Vision: scored ${visionResults.length} photos, applied ${applied}`);
 
-      // Re-sort photos per place
-      for (const place of places) {
-        if (place.photos) {
-          place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
-        }
-      }
-    } else {
-      console.error('  Could not parse vision response');
-      console.error('  Response preview:', result.substring(0, 200));
+      const gridPath = resolve(tmpDir, `grid-${pg}.jpg`);
+      await sharp({
+        create: { width: gridW, height: gridH, channels: 3, background: { r: 240, g: 244, b: 248 } }
+      }).composite(composites).jpeg({ quality: 75 }).toFile(gridPath);
+
+      gridPaths.push({ path: gridPath, thumbs: pageThumbs, w: gridW, h: gridH });
     }
 
-    // Cleanup
+    // Send all grid pages to Claude Haiku in PARALLEL
+    console.error(`  Sending ${gridPaths.length} grid(s) to Claude Haiku in parallel...`);
+
+    const allVisionResults = [];
+    const visionPromises = gridPaths.map(async (grid, pg) => {
+      try {
+        const promptText = `This is a grid of ${grid.thumbs.length} numbered photos from various places. I'm searching for: ${criteriaStr}.
+
+Score each photo 0-10: outdoor patio/beer garden/food truck = high, interior/logos/beer taps = 0.
+
+Return ONLY a JSON array: [{"n":1,"s":8},{"n":2,"s":1},...] where n=photo number, s=score. ALL photos.`;
+
+        const result = execSync(
+          `claude -p ${JSON.stringify(promptText)} --model haiku --allowedTools Read <<< "Read the image at ${grid.path}"`,
+          { timeout: 60000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
+        ).toString().trim();
+
+        const scoresMatch = result.match(/\[[\s\S]*?\]/);
+        if (scoresMatch) {
+          const scores = JSON.parse(scoresMatch[0]);
+          allVisionResults.push(...scores);
+          console.error(`  Grid ${pg + 1}: scored ${scores.length} photos`);
+        } else {
+          console.error(`  Grid ${pg + 1}: could not parse response`);
+        }
+      } catch (err) {
+        console.error(`  Grid ${pg + 1}: failed (${err.message})`);
+      }
+    });
+
+    await Promise.all(visionPromises);
+
+    // Apply vision scores
+    let applied = 0;
+    for (const vs of allVisionResults) {
+      const photoNum = (vs.n || vs.num || vs.number) - 1;
+      const score = vs.s || vs.score || 0;
+      const validThumb = validThumbs.find(vt => vt.idx === photoNum);
+      if (validThumb) {
+        const photo = allPhotos[photoNum];
+        const place = places[photo.placeIdx];
+        if (place.photos?.[photo.photoIdx]) {
+          place.photos[photo.photoIdx]._visionScore = score;
+          place.photos[photo.photoIdx]._relevance = (place.photos[photo.photoIdx]._relevance || 0) + score * 0.15;
+          applied++;
+        }
+      }
+    }
+    console.error(`  Vision total: ${allVisionResults.length} scored, ${applied} applied`);
+
+    // Re-sort photos per place by relevance
+    for (const place of places) {
+      if (place.photos) place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
+    }
+
     try { rmSync(tmpDir, { recursive: true }); } catch {}
   } catch (err) {
     console.error(`  Vision grid evaluation failed: ${err.message}`);
