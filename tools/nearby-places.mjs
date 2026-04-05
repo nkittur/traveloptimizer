@@ -9,6 +9,7 @@
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
@@ -227,42 +228,188 @@ function extractEvidence(places, query) {
   }
 }
 
-// Rank photos by likely relevance to query criteria using metadata heuristics
-// Landscape/wide photos → spaces/outdoor. Portrait/tall → food/products.
-// Google's default order is already somewhat good (first = most representative).
-function rankPhotos(places, query) {
+// Rank photos by relevance to query criteria.
+// Pass 1: metadata heuristics (aspect ratio). Free, instant.
+// Pass 2: multimodal AI evaluation via Claude Haiku. Parallel, for top places only.
+async function rankPhotos(places, query, apiKey) {
   const q = (query || '').toLowerCase();
   const wantOutdoor = !!q.match(/outdoor|patio|outside|terrace|garden|space|seating/);
   const wantFood = !!q.match(/food|truck|eat|kitchen|menu|pizza/);
 
+  if (!wantOutdoor && !wantFood) return; // nothing specific to rank for
+
+  const criteria = [];
+  if (wantOutdoor) criteria.push('outdoor seating area, patio, beer garden, outdoor space');
+  if (wantFood) criteria.push('food, food truck, kitchen, menu items');
+  const criteriaStr = criteria.join('; ');
+
+  // Pass 1: metadata heuristics (instant)
   for (const place of places) {
     if (!place.photos || !place.photos.length) continue;
-
     place.photos.forEach((ph, idx) => {
       let score = 0;
       const ratio = (ph.width && ph.height) ? ph.width / ph.height : 1;
-
-      // Google puts most representative photos first — slight bonus for position
       score += Math.max(0, (6 - idx) * 0.1);
-
       if (wantOutdoor) {
-        // Wide/landscape photos more likely to show spaces, patios, outdoor areas
         if (ratio > 1.3) score += 0.5;
         if (ratio > 1.6) score += 0.3;
-        // Very tall photos are likely close-up food/drink shots — deprioritize
         if (ratio < 0.8) score -= 0.3;
       }
-
       if (wantFood) {
-        // Squarish or slightly tall photos often show food
         if (ratio >= 0.7 && ratio <= 1.3) score += 0.3;
       }
-
       ph._relevance = score;
     });
-
-    // Sort by relevance (stable sort preserves Google's original order for ties)
     place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
+  }
+
+  // Pass 2: vision evaluation using a thumbnail grid
+  // Download all photos as small thumbnails, composite into a numbered grid,
+  // send ONE image to Claude Haiku to identify which show the key criteria.
+  if (!apiKey) return;
+
+  const allPhotos = []; // { placeIdx, photoIdx, ref, place_name }
+  places.forEach((place, pi) => {
+    if (!place.photos) return;
+    place.photos.forEach((ph, phi) => {
+      allPhotos.push({ placeIdx: pi, photoIdx: phi, ref: ph.ref, place_name: place.name });
+    });
+  });
+
+  if (allPhotos.length === 0) return;
+
+  console.error(`Building photo grid: ${allPhotos.length} photos from ${places.filter(p=>p.photos?.length).length} places...`);
+
+  try {
+    const sharp = (await import('sharp')).default;
+    const { mkdtempSync, writeFileSync: writeFS, rmSync } = await import('fs');
+    const { tmpdir } = await import('os');
+    const tmpDir = mkdtempSync(resolve(tmpdir(), 'photogrid-'));
+
+    // Download thumbnails in parallel (batches of 10)
+    const THUMB_W = 150, THUMB_H = 110;
+    const thumbBuffers = new Array(allPhotos.length).fill(null);
+
+    for (let batch = 0; batch < allPhotos.length; batch += 10) {
+      const batchPromises = allPhotos.slice(batch, batch + 10).map(async (photo, bi) => {
+        const idx = batch + bi;
+        try {
+          const url = `https://places.googleapis.com/v1/${photo.ref}/media?maxHeightPx=${THUMB_H}&maxWidthPx=${THUMB_W}&key=${apiKey}`;
+          const res = await fetch(url);
+          if (!res.ok) return;
+          const buf = Buffer.from(await res.arrayBuffer());
+          // Resize to exact thumbnail size and add number overlay
+          const thumb = await sharp(buf)
+            .resize(THUMB_W, THUMB_H, { fit: 'cover' })
+            .jpeg({ quality: 70 })
+            .toBuffer();
+          thumbBuffers[idx] = thumb;
+        } catch {}
+      });
+      await Promise.all(batchPromises);
+    }
+
+    const validThumbs = thumbBuffers.map((buf, i) => buf ? { buf, idx: i } : null).filter(Boolean);
+    if (validThumbs.length === 0) {
+      console.error('  No photos downloaded successfully');
+      return;
+    }
+
+    // Create numbered grid using sharp composite
+    const COLS = 5;
+    const PADDING = 4;
+    const LABEL_H = 16;
+    const cellW = THUMB_W + PADDING;
+    const cellH = THUMB_H + LABEL_H + PADDING;
+    const rows = Math.ceil(validThumbs.length / COLS);
+    const gridW = COLS * cellW + PADDING;
+    const gridH = rows * cellH + PADDING;
+
+    // Build composite operations
+    const composites = [];
+    for (let i = 0; i < validThumbs.length; i++) {
+      const col = i % COLS;
+      const row = Math.floor(i / COLS);
+      const x = PADDING + col * cellW;
+      const y = PADDING + LABEL_H + row * cellH;
+
+      composites.push({
+        input: validThumbs[i].buf,
+        left: x,
+        top: y,
+      });
+
+      // Add number label
+      const labelSvg = Buffer.from(
+        `<svg width="${THUMB_W}" height="${LABEL_H}">
+          <rect width="${THUMB_W}" height="${LABEL_H}" fill="#1a3a5c"/>
+          <text x="4" y="12" font-family="Arial" font-size="10" fill="white" font-weight="bold">${validThumbs[i].idx + 1}. ${allPhotos[validThumbs[i].idx].place_name.substring(0, 18)}</text>
+        </svg>`
+      );
+      composites.push({
+        input: labelSvg,
+        left: x,
+        top: y - LABEL_H,
+      });
+    }
+
+    const gridPath = resolve(tmpDir, 'grid.jpg');
+    await sharp({
+      create: { width: gridW, height: gridH, channels: 3, background: { r: 240, g: 244, b: 248 } }
+    })
+      .composite(composites)
+      .jpeg({ quality: 80 })
+      .toFile(gridPath);
+
+    console.error(`  Grid created: ${gridW}x${gridH}, ${validThumbs.length} thumbnails`);
+
+    // Send grid to Claude Haiku via CLI
+    const promptText = `This is a grid of ${validThumbs.length} numbered photos from various places. I'm searching for: ${criteriaStr}.
+
+For each photo, score 0-10 how well it shows these criteria. A photo of an outdoor patio/beer garden scores high for outdoor. A photo of food/food truck scores high for food. Interior beer taps or logos score 0.
+
+Return ONLY a JSON array of objects: [{"n":1,"s":8},{"n":2,"s":1},...] where n=photo number, s=score. Include ALL photos.`;
+
+    const result = execSync(
+      `claude -p ${JSON.stringify(promptText)} --model haiku --allowedTools Read <<< "Read the image at ${gridPath}"`,
+      { timeout: 45000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
+    ).toString().trim();
+
+    const scoresMatch = result.match(/\[[\s\S]*?\]/);
+    if (scoresMatch) {
+      const visionResults = JSON.parse(scoresMatch[0]);
+      let applied = 0;
+      for (const vs of visionResults) {
+        const photoNum = (vs.n || vs.num || vs.number) - 1; // 0-indexed
+        const score = vs.s || vs.score || 0;
+        const validThumb = validThumbs.find(vt => vt.idx === photoNum);
+        if (validThumb) {
+          const photo = allPhotos[photoNum];
+          const place = places[photo.placeIdx];
+          if (place.photos[photo.photoIdx]) {
+            place.photos[photo.photoIdx]._visionScore = score;
+            place.photos[photo.photoIdx]._relevance = (place.photos[photo.photoIdx]._relevance || 0) + score * 0.15;
+            applied++;
+          }
+        }
+      }
+      console.error(`  Vision: scored ${visionResults.length} photos, applied ${applied}`);
+
+      // Re-sort photos per place
+      for (const place of places) {
+        if (place.photos) {
+          place.photos.sort((a, b) => (b._relevance || 0) - (a._relevance || 0));
+        }
+      }
+    } else {
+      console.error('  Could not parse vision response');
+      console.error('  Response preview:', result.substring(0, 200));
+    }
+
+    // Cleanup
+    try { rmSync(tmpDir, { recursive: true }); } catch {}
+  } catch (err) {
+    console.error(`  Vision grid evaluation failed: ${err.message}`);
   }
 }
 
@@ -441,8 +588,8 @@ async function main() {
     }
   }
 
-  // Rank photos by relevance to query criteria
-  rankPhotos(places, searchTerm);
+  // Rank photos by relevance to query criteria (metadata + vision)
+  await rankPhotos(places, searchTerm, API_KEY);
 
   // Extract evidence from reviews for key differentiator criteria
   extractEvidence(places, searchTerm);
