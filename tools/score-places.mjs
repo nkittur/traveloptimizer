@@ -492,6 +492,9 @@ const placeRecord = {
     narrative: p._narrative,
     distance_km: p._distKm,
     drive_min: p._driveMin,
+    evidence: p.evidence || [],
+    photo_refs: p.photo_refs || [],
+    social_links: p.social_links || null,
   }))
 };
 
@@ -595,6 +598,19 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .con::before{content:'-';font-weight:700;margin-right:4px}
 
 .card-narrative{font-size:13px;color:#374151;margin-top:8px;line-height:1.55}
+
+.photo-strip{display:flex;gap:6px;margin-top:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px;scroll-snap-type:x mandatory}
+.photo-strip img{height:110px;border-radius:8px;object-fit:cover;flex-shrink:0;scroll-snap-align:start}
+
+.evidence{margin-top:8px}
+.evidence-quote{font-size:12px;color:#374151;border-left:3px solid #2a6496;padding:4px 0 4px 10px;margin:6px 0;line-height:1.5;font-style:italic}
+.evidence-quote .ev-tag{font-size:10px;font-weight:600;color:#2a6496;font-style:normal;margin-left:4px;background:#eff6ff;padding:1px 5px;border-radius:4px}
+.evidence-attr{font-size:10px;color:#94a3b8;font-style:normal}
+
+.action-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.action-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 10px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;display:inline-flex;align-items:center;gap:3px}
+.action-link:active{background:#dbeafe}
+
 .card-addr{font-size:11px;color:#94a3b8;margin-top:6px;display:flex;justify-content:space-between;align-items:center}
 .maps-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 0;flex-shrink:0}
 .maps-link:hover{text-decoration:underline}
@@ -772,11 +788,33 @@ function render() {
           '</div>' +
           '<div class="card-score" style="background:' + scoreColor(p._overall) + '">' + Math.round(p._overall * 100) + '</div>' +
         '</div>' +
-        '<div class="card-narrative">' + esc(p._narrative) + '</div>' +
-        '<div class="card-addr">' +
-          '<span>' + esc(p.address || '') + '</span>' +
-          '<a class="maps-link" href="' + esc(mapsUrl) + '" target="_blank" onclick="event.stopPropagation()">Open in Maps \\u2197</a>' +
-        '</div>';
+        '<div class="card-narrative">' + esc(p._narrative) + '</div>';
+
+      // Photo strip
+      if (p.photo_refs && p.photo_refs.length && DATA.apiKey) {
+        var photos = p.photo_refs.slice(0, 3).map(function(ref) {
+          return '<img src="https://places.googleapis.com/v1/' + ref + '/media?maxHeightPx=300&maxWidthPx=400&key=' + DATA.apiKey + '" loading="lazy" alt="">';
+        }).join('');
+        card.innerHTML += '<div class="photo-strip">' + photos + '</div>';
+      }
+
+      // Evidence excerpts from reviews
+      if (p.evidence && p.evidence.length) {
+        var evHtml = p.evidence.map(function(ev) {
+          return '<div class="evidence-quote">"' + esc(ev.text) + '" <span class="ev-tag">' + ev.category + '</span></div>';
+        }).join('');
+        card.innerHTML += '<div class="evidence">' + evHtml + '</div>';
+      }
+
+      // Action links (website, social, food-specific)
+      var links = [];
+      if (p.website) links.push('<a class="action-link" href="' + esc(p.website) + '" target="_blank" onclick="event.stopPropagation()">Website \\u2197</a>');
+      if (p.social_links && p.social_links.instagram) links.push('<a class="action-link" href="' + esc(p.social_links.instagram) + '" target="_blank" onclick="event.stopPropagation()">Instagram \\u2197</a>');
+      if (p.social_links && p.social_links.facebook) links.push('<a class="action-link" href="' + esc(p.social_links.facebook) + '" target="_blank" onclick="event.stopPropagation()">Facebook \\u2197</a>');
+      links.push('<a class="action-link" href="' + esc(mapsUrl) + '" target="_blank" onclick="event.stopPropagation()">Maps \\u2197</a>');
+
+      card.innerHTML += '<div class="action-links">' + links.join('') + '</div>';
+      card.innerHTML += '<div class="card-addr"><span>' + esc(p.address || '') + '</span></div>';
 
       content.appendChild(card);
     });

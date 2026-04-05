@@ -101,6 +101,8 @@ async function searchPlacesAPI(textQuery, locationBias) {
     'places.websiteUri',
     'places.location',
     'places.shortFormattedAddress',
+    'places.reviews',
+    'places.photos',
   ].join(',');
 
   const res = await fetch(url, {
@@ -156,9 +158,69 @@ async function searchPlacesAPI(textQuery, locationBias) {
       allows_dogs: p.allowsDogs ?? null,
       google_maps_url: p.googleMapsUri || null,
       website: p.websiteUri || null,
-      location: p.location ? { lat: p.location.latitude, lng: p.location.longitude } : null
+      location: p.location ? { lat: p.location.latitude, lng: p.location.longitude } : null,
+      reviews: (p.reviews || []).map(r => ({
+        text: r.text?.text || null,
+        rating: r.rating || null,
+        time: r.relativePublishTimeDescription || null,
+      })).filter(r => r.text),
+      photo_refs: (p.photos || []).slice(0, 4).map(ph => ph.name).filter(Boolean),
     };
   });
+}
+
+// Extract evidence sentences from reviews that match query-relevant keywords
+function extractEvidence(places, query) {
+  const q = (query || '').toLowerCase();
+
+  // Build keyword groups for differentiator criteria
+  const evidenceKeywords = {};
+  if (q.match(/outdoor|patio|outside|terrace|garden|deck/)) {
+    evidenceKeywords.outdoor = ['outdoor', 'patio', 'outside', 'terrace', 'beer garden', 'garden', 'deck', 'fire pit', 'picnic', 'courtyard', 'al fresco', 'open air'];
+  }
+  if (q.match(/food|truck|eat|kitchen|menu/)) {
+    evidenceKeywords.food = ['food', 'food truck', 'kitchen', 'pizza', 'menu', 'eat', 'bites', 'snack', 'chef', 'smoker', 'grill', 'taco'];
+  }
+  if (q.match(/music|live|band|entertainment/)) {
+    evidenceKeywords.music = ['music', 'live', 'band', 'concert', 'dj', 'entertainment', 'acoustic'];
+  }
+  if (q.match(/dog|pet/)) {
+    evidenceKeywords.dogs = ['dog', 'pet', 'pup', 'fur', 'four-legged'];
+  }
+
+  if (Object.keys(evidenceKeywords).length === 0) return;
+
+  for (const place of places) {
+    place.evidence = [];
+    if (!place.reviews || !place.reviews.length) continue;
+
+    for (const review of place.reviews) {
+      if (!review.text) continue;
+      // Split into sentences
+      const sentences = review.text.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 15);
+
+      for (const sentence of sentences) {
+        const sLower = sentence.toLowerCase();
+        for (const [category, keywords] of Object.entries(evidenceKeywords)) {
+          const matched = keywords.find(kw => sLower.includes(kw));
+          if (matched) {
+            // Avoid duplicates
+            if (!place.evidence.some(e => e.text === sentence)) {
+              place.evidence.push({
+                text: sentence,
+                category,
+                keyword: matched,
+                source: 'review',
+                review_rating: review.rating,
+              });
+            }
+          }
+        }
+      }
+    }
+    // Keep top 3 most relevant excerpts
+    place.evidence = place.evidence.slice(0, 3);
+  }
 }
 
 // ==========================================
@@ -288,8 +350,17 @@ async function main() {
             });
             await page.waitForTimeout(2000);
 
-            const text = await page.evaluate(() => document.body.innerText.toLowerCase());
+            const pageData = await page.evaluate(() => {
+              const text = document.body.innerText.toLowerCase();
+              // Also extract social links from the page
+              const html = document.body.innerHTML;
+              const igMatch = html.match(/https?:\/\/(?:www\.)?instagram\.com\/[a-zA-Z0-9_.]+/);
+              const fbMatch = html.match(/https?:\/\/(?:www\.)?facebook\.com\/[a-zA-Z0-9_.]+/);
+              return { text, instagram: igMatch?.[0] || null, facebook: fbMatch?.[0] || null };
+            });
             await page.close();
+
+            const text = pageData.text;
 
             if (nullFields.includes('outdoor_seating') && (
               text.includes('outdoor seating') || text.includes('patio') ||
@@ -307,6 +378,14 @@ async function main() {
               place._has_food = true;
               console.error(`  ${place.name}: has food (playwright)`);
             }
+
+            // Store social links
+            if (pageData.instagram || pageData.facebook) {
+              place.social_links = {};
+              if (pageData.instagram) place.social_links.instagram = pageData.instagram;
+              if (pageData.facebook) place.social_links.facebook = pageData.facebook;
+              console.error(`  ${place.name}: found social links`);
+            }
           } catch (err) {
             console.error(`  ${place.name}: playwright verify failed`);
           }
@@ -318,6 +397,11 @@ async function main() {
       }
     }
   }
+
+  // Extract evidence from reviews for key differentiator criteria
+  extractEvidence(places, searchTerm);
+  const evidenceCount = places.reduce((n, p) => n + (p.evidence?.length || 0), 0);
+  if (evidenceCount > 0) console.error(`Extracted ${evidenceCount} evidence excerpts from reviews`);
 
   const output = {
     query: searchTerm,
