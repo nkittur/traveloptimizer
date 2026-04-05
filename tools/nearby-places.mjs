@@ -1193,15 +1193,15 @@ async function main() {
     const batchPlaces = placesForReviews.slice(batch, batch + REVIEW_BATCH_SIZE);
     const placeList = batchPlaces.map((p, i) => `${i + 1}. "${p.name}" ${p.address || ''}`).join('\n');
 
-    const prompt = `Find 3-5 customer reviews each for these places. Focus on ${criteriaSearchStr || 'atmosphere'}. Search Yelp and TripAdvisor.
+    const prompt = `Find 3-5 customer reviews each for these places. Focus on reviews mentioning ${criteriaSearchStr || 'atmosphere, quality'}. Search Wanderlog, BeerAdvocate, or Google reviews.
 
 ${placeList}
 
-Return ONLY JSON: [{"place":"name","text":"review","source":"yelp","rating":5}]`;
+Return ONLY JSON: [{"place":"name","text":"review text","source":"wanderlog/beeradvocate/google","rating":5}]`;
 
     try {
       const { stdout: result } = await execAsync(
-        `claude -p ${JSON.stringify(prompt)} --allowedTools WebSearch,WebFetch 2>/dev/null`,
+        `claude -p ${JSON.stringify(prompt)} --model sonnet --allowedTools WebSearch,WebFetch < /dev/null`,
         { timeout: 90000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
       );
 
@@ -1229,7 +1229,7 @@ Return ONLY JSON: [{"place":"name","text":"review","source":"yelp","rating":5}]`
         if (added > 0) console.error(`  Batch ${Math.floor(batch / REVIEW_BATCH_SIZE) + 1}: +${added} web reviews`);
       }
     } catch (err) {
-      console.error(`  Batch ${Math.floor(batch / REVIEW_BATCH_SIZE) + 1}: web review fetch failed`);
+      console.error(`  Batch ${Math.floor(batch / REVIEW_BATCH_SIZE) + 1}: web review fetch failed — ${err.message.substring(0, 100)}`);
     }
   }
 
