@@ -346,13 +346,13 @@ async function rankPhotos(places, query, apiKey) {
   });
 
   const MAX_OPUS_CALLS = 10;
-  const PHOTOS_PER_GRID = 50;
-  const EV_THRESHOLD = 0.08; // drop out below this
-  const MISS_DECAY = 0.12;   // EV penalty per non-outdoor photo
-  const HIT_BOOST = 0.05;    // small EV boost per outdoor photo found
-  const COLS = 5;
-  const THUMB_W = 150, THUMB_H = 110;
-  const PADDING = 4, LABEL_H = 16;
+  const PHOTOS_PER_GRID = 16; // fewer photos per grid at higher resolution
+  const EV_THRESHOLD = 0.08;  // drop out below this
+  const MISS_DECAY = 0.12;    // EV penalty per non-outdoor photo
+  const HIT_BOOST = 0.05;     // small EV boost per outdoor photo found
+  const COLS = 4;
+  const THUMB_W = 400, THUMB_H = 300;
+  const PADDING = 4, LABEL_H = 20;
   const cellW = THUMB_W + PADDING;
   const cellH = THUMB_H + LABEL_H + PADDING;
 
@@ -379,8 +379,8 @@ async function rankPhotos(places, query, apiKey) {
     });
 
     console.error(`  Downloading ${allDownloads.length} thumbnails...`);
-    for (let batch = 0; batch < allDownloads.length; batch += 20) {
-      const promises = allDownloads.slice(batch, batch + 20).map(async (dl) => {
+    for (let batch = 0; batch < allDownloads.length; batch += 10) {
+      const promises = allDownloads.slice(batch, batch + 10).map(async (dl) => {
         try {
           const url = `https://places.googleapis.com/v1/${dl.ref}/media?maxHeightPx=${THUMB_H}&maxWidthPx=${THUMB_W}&key=${apiKey}`;
           const res = await fetch(url);
@@ -418,7 +418,7 @@ async function rankPhotos(places, query, apiKey) {
         const labelSvg = Buffer.from(
           `<svg width="${THUMB_W}" height="${LABEL_H}">
             <rect width="${THUMB_W}" height="${LABEL_H}" fill="#1a3a5c"/>
-            <text x="3" y="12" font-family="Arial" font-size="10" fill="white" font-weight="bold">${escapedLabel}</text>
+            <text x="4" y="15" font-family="Arial" font-size="13" fill="white" font-weight="bold">${escapedLabel}</text>
           </svg>`
         );
         composites.push({ input: labelSvg, left: x, top: y - LABEL_H });
@@ -515,7 +515,9 @@ Score ALL photos.`;
       }
 
       // Fill grids: round-robin by EV rank, up to 2 * PHOTOS_PER_GRID
-      const maxPhotos = Math.min(2, MAX_OPUS_CALLS - opusCallsUsed) * PHOTOS_PER_GRID;
+      // Allow up to 4 parallel grids per round (16 photos each = 64 photos/round)
+      const maxGridsPerRound = Math.min(4, MAX_OPUS_CALLS - opusCallsUsed);
+      const maxPhotos = maxGridsPerRound * PHOTOS_PER_GRID;
       let filled = true;
       while (batch.length < maxPhotos && filled) {
         filled = false;
@@ -547,7 +549,7 @@ Score ALL photos.`;
       }
 
       const activePlaces = evOrder.filter(pi => placeState[pi].ev >= EV_THRESHOLD).length;
-      console.error(`  Round ${Math.floor(opusCallsUsed / 2) + 1}: ${batch.length} photos in ${grids.length} grid(s), ${activePlaces} active places`);
+      console.error(`  Round ${opusCallsUsed + 1}: ${batch.length} photos in ${grids.length} grid(s), ${activePlaces} active places`);
 
       // Build and evaluate grids in parallel
       const gridResults = await Promise.all(grids.map(async (gridBatch, gi) => {
