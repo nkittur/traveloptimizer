@@ -526,6 +526,7 @@ const placeRecord = {
     drive_min: p._driveMin,
     evidence: p.evidence || [],
     photos: p.photos || [],
+    _photoInsights: p._photoInsights || null,
     social_links: p.social_links || null,
   }))
 };

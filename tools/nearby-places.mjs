@@ -764,6 +764,103 @@ Score ALL photos.`;
       });
     }
 
+    // ---- Verification pass ----
+    // Grid thumbnails (150x110) are too small for reliable classification.
+    // Verify each place's top-ranked photos at full resolution to catch
+    // misidentifications (e.g. beer taps scored as "patio").
+    // Download at 600px and send individually to Opus for confirmation.
+    const toVerify = [];
+    for (let pi = 0; pi < places.length; pi++) {
+      const photos = places[pi].photos || [];
+      // Verify top 2 photos that claim to be outdoor (score >= 5, outdoor type)
+      let verified = 0;
+      for (let phi = 0; phi < photos.length && verified < 2; phi++) {
+        const ph = photos[phi];
+        if ((ph._visionScore ?? 0) < 5) break; // sorted, so no more high scores
+        const t = (ph._visionType || '').toLowerCase();
+        const isOutdoorClaim = t.includes('patio') || t.includes('outdoor') || t.includes('deck')
+          || t.includes('garden') || t.includes('roof') || t.includes('courtyard')
+          || t.includes('sidewalk') || t.includes('terrace') || t.includes('balcony');
+        if (!isOutdoorClaim) continue;
+        toVerify.push({ placeIdx: pi, photoIdx: phi, ref: ph.ref, place_name: places[pi].name,
+          claimedScore: ph._visionScore, claimedType: ph._visionType, claimedDesc: ph._visionDesc });
+        verified++;
+      }
+    }
+
+    if (toVerify.length > 0) {
+      console.error(`  Verifying ${toVerify.length} top outdoor photos at full resolution...`);
+
+      // Download full-res versions and verify in parallel (batches of 10)
+      const verifyPrompt = (type, desc) =>
+        `Look at this photo carefully. It was identified at thumbnail resolution as: "${type}" — "${desc}".
+
+Is this ACTUALLY an outdoor seating area, patio, beer garden, deck, or outdoor dining space? Look for: sky/open air, outdoor furniture, plants/trees, natural light indicating outdoors.
+
+Reply with ONLY a JSON object: {"outdoor": true/false, "actual": "brief description of what this actually shows", "confidence": "high/medium/low"}`;
+
+      for (let batch = 0; batch < toVerify.length; batch += 10) {
+        const batchItems = toVerify.slice(batch, batch + 10);
+        await Promise.all(batchItems.map(async (item) => {
+          try {
+            // Download at larger size for verification
+            const url = `https://places.googleapis.com/v1/${item.ref}/media?maxHeightPx=600&maxWidthPx=800&key=${apiKey}`;
+            const res = await fetch(url);
+            if (!res.ok) return;
+            const buf = Buffer.from(await res.arrayBuffer());
+            const imgPath = resolve(tmpDir, `verify-${item.placeIdx}-${item.photoIdx}.jpg`);
+            const { writeFileSync: wfs } = await import('fs');
+            wfs(imgPath, buf);
+
+            const prompt = verifyPrompt(item.claimedType, item.claimedDesc || '');
+            const { stdout: result } = await execAsync(
+              `claude -p ${JSON.stringify(prompt)} --model sonnet --allowedTools Read <<< "Read the image at ${imgPath}"`,
+              { timeout: 60000, maxBuffer: 1024 * 1024, shell: '/bin/bash' }
+            );
+
+            const jsonMatch = result.trim().match(/\{[\s\S]*?\}/);
+            if (jsonMatch) {
+              const verdict = JSON.parse(jsonMatch[0]);
+              const place = places[item.placeIdx];
+              const ph = place.photos[item.photoIdx];
+
+              if (!verdict.outdoor) {
+                // Misidentified! Demote this photo.
+                console.error(`    DEMOTED: ${item.place_name} photo #${item.photoIdx + 1} — was "${item.claimedType}" (${item.claimedScore}), actually: ${verdict.actual}`);
+                ph._visionScore = 0;
+                ph._visionType = verdict.actual || 'interior';
+                ph._visionDesc = verdict.actual || 'misidentified at thumbnail resolution';
+                ph._verified = false;
+              } else {
+                // Confirmed outdoor — update description with full-res assessment
+                ph._visionDesc = verdict.actual || ph._visionDesc;
+                ph._verified = true;
+                console.error(`    Confirmed: ${item.place_name} photo #${item.photoIdx + 1} — ${verdict.actual || item.claimedType}`);
+              }
+            }
+          } catch (err) {
+            // Verification failed — keep original score but mark unverified
+            console.error(`    Verify failed for ${item.place_name}: ${err.message.substring(0, 60)}`);
+          }
+        }));
+      }
+
+      // Re-sort after verification demotions
+      let demoted = 0;
+      for (const place of places) {
+        if (place.photos) {
+          const hadTop = place.photos[0]?._visionScore ?? 0;
+          place.photos.sort((a, b) => {
+            const av = a._visionScore ?? -1, bv = b._visionScore ?? -1;
+            if (av !== bv) return bv - av;
+            return (b._relevance || 0) - (a._relevance || 0);
+          });
+          if ((place.photos[0]?._visionScore ?? 0) < hadTop) demoted++;
+        }
+      }
+      console.error(`  Verification complete: ${demoted} places had top photo demoted`);
+    }
+
     // Aggregate per-place photo insights keyed by criterion.
     // Classify each scored photo into the criterion it best matches,
     // then aggregate per criterion per place.
