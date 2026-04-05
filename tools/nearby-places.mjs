@@ -1181,26 +1181,28 @@ async function main() {
     criteriaTerms.push('food', 'menu');
   const criteriaSearchStr = criteriaTerms.length ? criteriaTerms.join(', ') : '';
 
-  const REVIEW_BATCH_SIZE = 5;
-  const placesForReviews = places.filter(p => p.name && p.address);
-  console.error(`Fetching additional reviews for ${placesForReviews.length} places via web search...`);
+  const REVIEW_BATCH_SIZE = 2;
+  // Only fetch web reviews for top ~20 places (sorted by review count / relevance)
+  const placesForReviews = places
+    .filter(p => p.name && p.address)
+    .sort((a, b) => (b.review_count || 0) - (a.review_count || 0))
+    .slice(0, 20);
+  console.error(`Fetching additional reviews for top ${placesForReviews.length} places via web search...`);
 
   for (let batch = 0; batch < placesForReviews.length; batch += REVIEW_BATCH_SIZE) {
     const batchPlaces = placesForReviews.slice(batch, batch + REVIEW_BATCH_SIZE);
-    const placeList = batchPlaces.map((p, i) => `${i + 1}. "${p.name}" at ${p.address}`).join('\n');
+    const placeList = batchPlaces.map((p, i) => `${i + 1}. "${p.name}" ${p.address || ''}`).join('\n');
 
-    const prompt = `Find real customer reviews for these places near ${location || 'Pittsburgh PA'}. Focus on reviews mentioning: ${criteriaSearchStr || 'atmosphere, quality'}.
+    const prompt = `Find 3-5 customer reviews each for these places. Focus on ${criteriaSearchStr || 'atmosphere'}. Search Yelp and TripAdvisor.
 
 ${placeList}
 
-For each place, find 3-5 reviews from Yelp, TripAdvisor, Google, or blogs. Return ONLY a JSON array:
-[{"place":"exact place name","text":"review text","source":"yelp/google/tripadvisor/blog","rating":5}]
-Only include REAL reviews you find on the web. If you can't find reviews for a place, skip it.`;
+Return ONLY JSON: [{"place":"name","text":"review","source":"yelp","rating":5}]`;
 
     try {
       const { stdout: result } = await execAsync(
         `claude -p ${JSON.stringify(prompt)} --allowedTools WebSearch,WebFetch 2>/dev/null`,
-        { timeout: 120000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
+        { timeout: 90000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
       );
 
       const jsonMatch = result.trim().match(/\[[\s\S]*\]/);
