@@ -525,6 +525,7 @@ const placeRecord = {
     distance_km: p._distKm,
     drive_min: p._driveMin,
     evidence: p.evidence || [],
+    reviews: p.reviews || [],
     photos: p.photos || [],
     _photoInsights: p._photoInsights || null,
     social_links: p.social_links || null,
@@ -647,10 +648,54 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .criteria-chip.highlight{background:#f0f4f8;color:#475569;border:1px solid #e2e8f0}
 
 .action-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.action-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 10px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;display:inline-flex;align-items:center;gap:3px}
+.action-link{font-size:11px;font-weight:600;color:#2a6496;text-decoration:none;padding:4px 10px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;display:inline-flex;align-items:center;gap:3px;cursor:pointer}
 .action-link:active{background:#dbeafe}
+.action-link.debug{background:#f0f4f8;color:#475569;border-color:#e2e8f0}
 
 .card-addr{font-size:11px;color:#94a3b8;margin-top:6px}
+
+/* Evidence links in narrative */
+.ev-ref{color:#2a6496;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;cursor:pointer}
+.ev-ref:hover{background:#eff6ff;border-radius:2px}
+
+/* Evidence popover */
+.ev-popover{position:fixed;z-index:500;background:#fff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.18);padding:12px;max-width:340px;max-height:60vh;overflow-y:auto;display:none;font-size:13px;line-height:1.5}
+.ev-popover.show{display:block}
+.ev-popover .ev-pop-img{width:100%;max-height:200px;object-fit:cover;border-radius:8px;margin-bottom:8px}
+.ev-popover .ev-pop-badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;margin-right:4px}
+.ev-popover .ev-pop-desc{color:#374151;margin-top:4px}
+.ev-popover .ev-pop-quote{color:#374151;font-style:italic;border-left:3px solid #2a6496;padding-left:10px;margin:6px 0}
+.ev-popover .ev-pop-close{position:absolute;top:6px;right:8px;cursor:pointer;color:#94a3b8;font-size:18px;line-height:1}
+
+/* Detail modal (reviews + images) */
+.detail-modal{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:350;display:none;justify-content:center;align-items:flex-end}
+.detail-modal.show{display:flex}
+.detail-sheet{background:#fff;border-radius:20px 20px 0 0;width:100%;max-width:600px;max-height:85vh;overflow-y:auto;padding:20px 16px 32px;transform:translateY(100%);transition:transform 0.25s ease}
+.detail-modal.show .detail-sheet{transform:translateY(0)}
+.detail-sheet .drag-handle{width:40px;height:4px;background:#d1d5db;border-radius:2px;margin:0 auto 14px}
+.detail-sheet h3{font-size:16px;font-weight:700;color:#1a2332;margin-bottom:12px}
+
+/* Reviews modal */
+.review-item{border-bottom:1px solid #f0f4f8;padding:12px 0}
+.review-item:last-child{border-bottom:none}
+.review-stars{color:#f59e0b;font-size:13px;font-weight:600}
+.review-time{color:#94a3b8;font-size:11px;margin-left:6px}
+.review-text{font-size:13px;color:#374151;margin-top:4px;line-height:1.6}
+.review-text .ev-highlight{background:#dbeafe;border-radius:2px;padding:0 2px}
+.review-text .ev-highlight .ev-cat{font-size:9px;font-weight:700;color:#2a6496;margin-left:2px;text-transform:uppercase}
+
+/* Images modal */
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.photo-grid-item{position:relative;border-radius:8px;overflow:hidden;cursor:pointer}
+.photo-grid-item img{width:100%;height:120px;object-fit:cover;display:block}
+.photo-grid-item .pg-badge{position:absolute;top:4px;right:4px;font-size:10px;font-weight:700;color:#fff;padding:2px 6px;border-radius:4px}
+.photo-grid-item .pg-badge.high{background:rgba(5,150,105,0.85)}
+.photo-grid-item .pg-badge.mid{background:rgba(180,83,9,0.85)}
+.photo-grid-item .pg-badge.low{background:rgba(100,100,100,0.7)}
+.photo-grid-item .pg-badge.none{background:rgba(100,100,100,0.4)}
+.photo-grid-item .pg-verified{position:absolute;top:4px;left:4px;font-size:14px}
+.photo-grid-item .pg-info{font-size:11px;color:#374151;padding:4px;line-height:1.3}
+.photo-grid-item .pg-type{font-weight:600;color:#1a3a5c}
 
 /* Lightbox */
 .lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:400;display:none;flex-direction:column;align-items:center;justify-content:center}
@@ -716,6 +761,13 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
   <button class="lightbox-nav next" onclick="lbNav(1)">\\u203a</button>
   <div class="lightbox-dots" id="lbDots"></div>
 </div>
+<div class="detail-modal" id="detailModal" onclick="if(event.target===this)closeDetailModal()">
+  <div class="detail-sheet" id="detailSheet">
+    <div class="drag-handle"></div>
+    <div id="detailContent"></div>
+  </div>
+</div>
+<div class="ev-popover" id="evPopover"><span class="ev-pop-close" onclick="closeEvPopover()">&times;</span><div id="evPopContent"></div></div>
 <div class="footer">TravelOptimizer &middot; Scored via Google Places API</div>
 
 <script>
@@ -895,7 +947,7 @@ function render() {
           '</div>' +
           '<div class="card-score" style="background:' + scoreColor(p._overall) + '">' + Math.round(p._overall * 100) + '</div>' +
         '</div>' +
-        '<div class="card-narrative">' + esc(p._narrative) + '</div>';
+        '<div class="card-narrative">' + annotateNarrative(p, i) + '</div>';
 
       // Criteria chips from photo insights
       if (p._photoInsights) {
@@ -928,12 +980,14 @@ function render() {
         card.innerHTML += '<div class="photo-strip">' + thumbs + '</div>';
       }
 
-      // Action links (website, social, food-specific)
+      // Action links (website, social, debug)
       var links = [];
       if (p.website) links.push('<a class="action-link" href="' + esc(p.website) + '" target="_blank" onclick="event.stopPropagation()">Website \\u2197</a>');
       if (p.social_links && p.social_links.instagram) links.push('<a class="action-link" href="' + esc(p.social_links.instagram) + '" target="_blank" onclick="event.stopPropagation()">Instagram \\u2197</a>');
       if (p.social_links && p.social_links.facebook) links.push('<a class="action-link" href="' + esc(p.social_links.facebook) + '" target="_blank" onclick="event.stopPropagation()">Facebook \\u2197</a>');
       links.push('<a class="action-link" href="' + esc(mapsUrl) + '" target="_blank" onclick="event.stopPropagation()">Maps \\u2197</a>');
+      if (p.reviews && p.reviews.length) links.push('<a class="action-link debug" onclick="event.stopPropagation();showReviews(' + i + ')">Reviews (' + p.reviews.length + ')</a>');
+      if (p.photos && p.photos.length) links.push('<a class="action-link debug" onclick="event.stopPropagation();showPhotos(' + i + ')">Photos (' + p.photos.length + ')</a>');
 
       card.innerHTML += '<div class="action-links">' + links.join('') + '</div>';
       card.innerHTML += '<div class="card-addr"><span>' + esc(p.address || '') + '</span></div>';
@@ -993,6 +1047,192 @@ function updateMarkers() {
     });
     marker.setZIndex(selectedIndex === i ? 999 : Math.round(p._overall * 100));
   });
+}
+
+// === EVIDENCE LINKING ===
+// Build evidence index per place: keywords → source (photo or review)
+function buildEvidenceIndex(p) {
+  var items = [];
+  var stopwords = new Set(['with','the','and','for','that','this','from','are','was','has','have','been','also','they','their','what','which','when','where','who','how','its','not','but','all','can','had','her','one','our','out','day','get','than','them','then','some','could','other','into','very','just','about','over','such','after','most','made','like','many','each','back','only','come','these','will','much','make','more','well','here','does']);
+  function extractKeywords(text) {
+    if (!text) return [];
+    return text.toLowerCase().replace(/[^a-z0-9\s-]/g, ' ').split(/\s+/)
+      .filter(function(w) { return w.length >= 4 && !stopwords.has(w); });
+  }
+  // Photo evidence
+  (p.photos || []).forEach(function(ph, pi) {
+    if (!ph._visionDesc || (ph._visionScore || 0) < 4) return;
+    var kws = extractKeywords(ph._visionDesc);
+    if (kws.length) items.push({ type: 'photo', keywords: kws, photoIdx: pi, score: ph._visionScore, vtype: ph._visionType, desc: ph._visionDesc, verified: ph._verified, ref: ph.ref });
+  });
+  // Review evidence
+  (p.evidence || []).forEach(function(ev) {
+    var kws = extractKeywords(ev.text);
+    if (kws.length) items.push({ type: 'review', keywords: kws, quote: ev.text, category: ev.category, rating: ev.review_rating });
+  });
+  return items;
+}
+
+function annotateNarrative(p, placeIdx) {
+  var text = esc(p._narrative || '');
+  if (!text) return '';
+  var items = buildEvidenceIndex(p);
+  if (!items.length) return text;
+
+  // For each evidence item, find the best matching keyword in the narrative
+  var used = {}; // track which character positions are already linked
+  var replacements = []; // {start, end, evIdx}
+
+  items.forEach(function(item, evIdx) {
+    var bestMatch = null;
+    item.keywords.forEach(function(kw) {
+      // Find keyword in narrative (case-insensitive, word boundary)
+      var regex = new RegExp('\\\\b(' + kw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\\\$&') + '[a-z]*)\\\\b', 'gi');
+      var m;
+      while ((m = regex.exec(text)) !== null) {
+        var start = m.index, end = m.index + m[0].length;
+        // Check not already used
+        var overlap = false;
+        for (var pos = start; pos < end; pos++) { if (used[pos]) { overlap = true; break; } }
+        if (!overlap && (!bestMatch || m[0].length > bestMatch.len)) {
+          bestMatch = { start: start, end: end, word: m[0], len: m[0].length };
+        }
+      }
+    });
+    if (bestMatch) {
+      for (var pos = bestMatch.start; pos < bestMatch.end; pos++) used[pos] = true;
+      replacements.push({ start: bestMatch.start, end: bestMatch.end, word: bestMatch.word, evIdx: evIdx, placeIdx: placeIdx });
+    }
+  });
+
+  // Apply replacements in reverse order (so indices don't shift)
+  replacements.sort(function(a, b) { return b.start - a.start; });
+  replacements.forEach(function(r) {
+    text = text.substring(0, r.start) +
+      '<span class="ev-ref" onclick="event.stopPropagation();showEvidence(' + r.placeIdx + ',' + r.evIdx + ',this)">' + r.word + '</span>' +
+      text.substring(r.end);
+  });
+  return text;
+}
+
+// === EVIDENCE POPOVER ===
+function showEvidence(placeIdx, evIdx, el) {
+  var p = DATA.scored[placeIdx];
+  var items = buildEvidenceIndex(p);
+  if (evIdx >= items.length) return;
+  var item = items[evIdx];
+  var pop = document.getElementById('evPopover');
+  var content = document.getElementById('evPopContent');
+  var html = '';
+
+  if (item.type === 'photo') {
+    if (DATA.apiKey && item.ref) {
+      html += '<img class="ev-pop-img" src="https://places.googleapis.com/v1/' + item.ref + '/media?maxHeightPx=400&maxWidthPx=500&key=' + DATA.apiKey + '">';
+    }
+    var badgeColor = item.score >= 5 ? '#059669' : item.score >= 3 ? '#b45309' : '#6b7280';
+    html += '<span class="ev-pop-badge" style="background:' + badgeColor + ';color:#fff">Score ' + item.score + '</span>';
+    if (item.vtype) html += '<span class="ev-pop-badge" style="background:#eff6ff;color:#1e40af">' + esc(item.vtype) + '</span>';
+    if (item.verified === true) html += ' <span style="color:#059669">\\u2713 Verified</span>';
+    if (item.verified === false) html += ' <span style="color:#991b1b">\\u2717 Demoted</span>';
+    html += '<div class="ev-pop-desc">' + esc(item.desc) + '</div>';
+  } else {
+    html += '<div class="ev-pop-quote">"' + esc(item.quote) + '"</div>';
+    if (item.rating) html += '<span style="color:#f59e0b">\\u2605 ' + item.rating + '</span> ';
+    html += '<span class="ev-pop-badge" style="background:#eff6ff;color:#1e40af">' + esc(item.category) + '</span>';
+  }
+  content.innerHTML = html;
+
+  // Position near the clicked element
+  var rect = el.getBoundingClientRect();
+  pop.style.left = Math.min(rect.left, window.innerWidth - 360) + 'px';
+  pop.style.top = (rect.bottom + 8) + 'px';
+  if (rect.bottom + 300 > window.innerHeight) {
+    pop.style.top = Math.max(8, rect.top - 300) + 'px';
+  }
+  pop.classList.add('show');
+  // Close on outside click
+  setTimeout(function() {
+    document.addEventListener('click', closeEvPopoverOnOutside, { once: true });
+  }, 50);
+}
+function closeEvPopover() { document.getElementById('evPopover').classList.remove('show'); }
+function closeEvPopoverOnOutside(e) {
+  var pop = document.getElementById('evPopover');
+  if (!pop.contains(e.target)) closeEvPopover();
+  else document.addEventListener('click', closeEvPopoverOnOutside, { once: true });
+}
+
+// === DETAIL MODALS ===
+function closeDetailModal() {
+  var modal = document.getElementById('detailModal');
+  modal.querySelector('.detail-sheet').style.transform = '';
+  modal.classList.remove('show');
+}
+
+function showReviews(placeIdx) {
+  var p = DATA.scored[placeIdx];
+  var html = '<h3>\\u2605 ' + (p.rating || '?') + ' &middot; ' + esc(p.name) + ' &middot; ' + (p.reviews ? p.reviews.length : 0) + ' reviews</h3>';
+
+  // Build evidence lookup: map sentence text → category
+  var evMap = {};
+  (p.evidence || []).forEach(function(ev) { evMap[ev.text.trim()] = ev.category; });
+
+  (p.reviews || []).forEach(function(r) {
+    html += '<div class="review-item">';
+    html += '<span class="review-stars">' + '\\u2605'.repeat(r.rating || 0) + '\\u2606'.repeat(5 - (r.rating || 0)) + '</span>';
+    if (r.time) html += '<span class="review-time">' + esc(r.time) + '</span>';
+    // Highlight evidence sentences in the review text
+    var text = esc(r.text || '');
+    Object.keys(evMap).forEach(function(sentence) {
+      var escaped = esc(sentence);
+      var idx = text.indexOf(escaped);
+      if (idx >= 0) {
+        text = text.substring(0, idx) + '<span class="ev-highlight">' + escaped +
+          '<span class="ev-cat">' + evMap[sentence] + '</span></span>' + text.substring(idx + escaped.length);
+      }
+    });
+    html += '<div class="review-text">' + text + '</div>';
+    html += '</div>';
+  });
+
+  if (!p.reviews || !p.reviews.length) html += '<div style="color:#94a3b8;padding:20px 0">No reviews available</div>';
+
+  document.getElementById('detailContent').innerHTML = html;
+  document.getElementById('detailModal').classList.add('show');
+}
+
+function showPhotos(placeIdx) {
+  var p = DATA.scored[placeIdx];
+  var html = '<h3>' + esc(p.name) + ' &middot; ' + (p.photos ? p.photos.length : 0) + ' photos</h3>';
+
+  if (DATA.apiKey && p.photos && p.photos.length) {
+    var photoUrls = p.photos.map(function(ph) {
+      return 'https://places.googleapis.com/v1/' + ph.ref + '/media?maxHeightPx=800&maxWidthPx=1200&key=' + DATA.apiKey;
+    });
+    html += '<div class="photo-grid">';
+    p.photos.forEach(function(ph, pi) {
+      var score = ph._visionScore;
+      var badgeClass = score >= 5 ? 'high' : score >= 3 ? 'mid' : score != null ? 'low' : 'none';
+      var thumbUrl = 'https://places.googleapis.com/v1/' + ph.ref + '/media?maxHeightPx=300&maxWidthPx=400&key=' + DATA.apiKey;
+
+      html += '<div class="photo-grid-item" onclick="event.stopPropagation();closeDetailModal();openLightbox(' + JSON.stringify(photoUrls).replace(/"/g,'&quot;') + ',' + pi + ')">';
+      html += '<img src="' + thumbUrl + '" loading="lazy" alt="">';
+      if (score != null) html += '<span class="pg-badge ' + badgeClass + '">' + score + '</span>';
+      if (ph._verified === true) html += '<span class="pg-verified">\\u2705</span>';
+      if (ph._verified === false) html += '<span class="pg-verified">\\u274c</span>';
+      html += '<div class="pg-info">';
+      if (ph._visionType) html += '<span class="pg-type">' + esc(ph._visionType) + '</span> ';
+      if (ph._visionDesc) html += esc(ph._visionDesc);
+      else html += '<span style="color:#94a3b8">Not evaluated</span>';
+      html += '</div></div>';
+    });
+    html += '</div>';
+  } else {
+    html += '<div style="color:#94a3b8;padding:20px 0">No photos available</div>';
+  }
+
+  document.getElementById('detailContent').innerHTML = html;
+  document.getElementById('detailModal').classList.add('show');
 }
 
 // === GO ===
