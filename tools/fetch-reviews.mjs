@@ -97,10 +97,12 @@ Rules:
       { timeout: 180000, maxBuffer: 4 * 1024 * 1024, shell: '/bin/bash' }
     ).toString().trim();
 
-    const jsonMatch = result.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) return { reviews: [], error: 'no JSON in response' };
+    // Extract JSON array — Claude may include text before/after the array
+    const start = result.indexOf('[');
+    const end = result.lastIndexOf(']');
+    if (start < 0 || end <= start) return { reviews: [], error: 'no JSON array in response' };
 
-    const reviews = JSON.parse(jsonMatch[0]);
+    const reviews = JSON.parse(result.substring(start, end + 1));
     return { reviews, error: null };
   } catch (err) {
     return { reviews: [], error: err.message.substring(0, 80) };
