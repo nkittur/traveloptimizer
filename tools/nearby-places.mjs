@@ -201,7 +201,35 @@ async function searchPlacesAPI(textQuery, locationBias, targetCount = 25) {
   });
 }
 
-// Extract evidence sentences from reviews that match query-relevant keywords
+// Review filter definitions — reviews matching these patterns are tagged for potential exclusion
+const REVIEW_FILTERS = {
+  service_complaints: {
+    label: 'Service complaints',
+    patterns: ['rude', 'slow service', 'bad service', 'terrible service', 'worst service', 'waited forever',
+      'ignored', 'unfriendly', 'unprofessional', 'never came back', 'manager', 'complained'],
+  },
+  tipping: {
+    label: 'Tipping complaints',
+    patterns: ['tip', 'tipping', 'gratuity', 'auto-grat', 'service charge', '18%', '20%'],
+  },
+  price_complaints: {
+    label: 'Price complaints',
+    patterns: ['overpriced', 'too expensive', 'not worth the price', 'rip off', 'ripoff', 'pricey for what',
+      'highway robbery', 'way too much', 'ridiculous price'],
+  },
+  cheesy_rich: {
+    label: 'Likes cheesy/rich food',
+    patterns: ['extra cheese', 'so cheesy', 'loaded with cheese', 'mac and cheese was amazing',
+      'cheese was perfect', 'creamy', 'rich and decadent', 'butter', 'double bacon'],
+  },
+  low_quality: {
+    label: 'Low quality review',
+    patterns: [], // detected by length/content heuristics
+    heuristic: (text) => text.length < 30 || /^(great|good|nice|ok|meh|bad|terrible|awesome|love it|cool)\s*$/i.test(text.trim()),
+  },
+};
+
+// Extract evidence sentences from reviews + tag reviews with filter flags
 function extractEvidence(places, query) {
   const q = (query || '').toLowerCase();
 
@@ -220,15 +248,27 @@ function extractEvidence(places, query) {
     evidenceKeywords.dogs = ['dog', 'pet', 'pup', 'fur', 'four-legged'];
   }
 
-  if (Object.keys(evidenceKeywords).length === 0) return;
-
   for (const place of places) {
     place.evidence = [];
-    if (!place.reviews || !place.reviews.length) continue;
+
+    // Tag each review with filter flags
+    for (const review of (place.reviews || [])) {
+      if (!review.text) continue;
+      const textLower = review.text.toLowerCase();
+      review._filters = [];
+      for (const [filterId, filter] of Object.entries(REVIEW_FILTERS)) {
+        if (filter.heuristic && filter.heuristic(review.text)) {
+          review._filters.push(filterId);
+        } else if (filter.patterns.some(p => textLower.includes(p))) {
+          review._filters.push(filterId);
+        }
+      }
+    }
+
+    if (!place.reviews || !place.reviews.length || Object.keys(evidenceKeywords).length === 0) continue;
 
     for (const review of place.reviews) {
       if (!review.text) continue;
-      // Split into sentences
       const sentences = review.text.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 15);
 
       for (const sentence of sentences) {
@@ -236,23 +276,25 @@ function extractEvidence(places, query) {
         for (const [category, keywords] of Object.entries(evidenceKeywords)) {
           const matched = keywords.find(kw => sLower.includes(kw));
           if (matched) {
-            // Avoid duplicates
             if (!place.evidence.some(e => e.text === sentence)) {
               place.evidence.push({
                 text: sentence,
                 category,
                 keyword: matched,
-                source: 'review',
+                source: review.source || 'review',
                 review_rating: review.rating,
+                _filters: review._filters || [],
               });
             }
           }
         }
       }
     }
-    // Keep top 3 most relevant excerpts
-    place.evidence = place.evidence.slice(0, 3);
+    // Keep top 5 most relevant excerpts (increased from 3 since we have more reviews)
+    place.evidence = place.evidence.slice(0, 5);
   }
+
+  return REVIEW_FILTERS; // return so score-places can embed filter definitions
 }
 
 // Rank photos by relevance to query criteria using Claude Opus vision.
@@ -1129,6 +1171,70 @@ async function main() {
     }
   }
 
+  // --- Fetch additional reviews via Claude web search ---
+  // Google Places API caps at 5 reviews. Use Claude to find more from Yelp/TripAdvisor/etc.
+  // Process in batches of 5 places per Claude call for efficiency.
+  const criteriaTerms = [];
+  if (searchTerm.match(/outdoor|patio|outside|terrace|garden|seating/i))
+    criteriaTerms.push('outdoor seating', 'patio', 'beer garden');
+  if (searchTerm.match(/food|truck|eat|kitchen|menu/i))
+    criteriaTerms.push('food', 'menu');
+  const criteriaSearchStr = criteriaTerms.length ? criteriaTerms.join(', ') : '';
+
+  const REVIEW_BATCH_SIZE = 5;
+  const placesForReviews = places.filter(p => p.name && p.address);
+  console.error(`Fetching additional reviews for ${placesForReviews.length} places via web search...`);
+
+  for (let batch = 0; batch < placesForReviews.length; batch += REVIEW_BATCH_SIZE) {
+    const batchPlaces = placesForReviews.slice(batch, batch + REVIEW_BATCH_SIZE);
+    const placeList = batchPlaces.map((p, i) => `${i + 1}. "${p.name}" at ${p.address}`).join('\n');
+
+    const prompt = `Find real customer reviews for these places near ${location || 'Pittsburgh PA'}. Focus on reviews mentioning: ${criteriaSearchStr || 'atmosphere, quality'}.
+
+${placeList}
+
+For each place, find 3-5 reviews from Yelp, TripAdvisor, Google, or blogs. Return ONLY a JSON array:
+[{"place":"exact place name","text":"review text","source":"yelp/google/tripadvisor/blog","rating":5}]
+Only include REAL reviews you find on the web. If you can't find reviews for a place, skip it.`;
+
+    try {
+      const { stdout: result } = await execAsync(
+        `claude -p ${JSON.stringify(prompt)} --model sonnet --allowedTools WebSearch,WebFetch 2>/dev/null`,
+        { timeout: 90000, maxBuffer: 2 * 1024 * 1024, shell: '/bin/bash' }
+      );
+
+      const jsonMatch = result.trim().match(/\[[\s\S]*\]/);
+      if (jsonMatch) {
+        const webReviews = JSON.parse(jsonMatch[0]);
+        let added = 0;
+        for (const wr of webReviews) {
+          const place = batchPlaces.find(p => p.name.toLowerCase().includes((wr.place || '').toLowerCase().substring(0, 15))
+            || (wr.place || '').toLowerCase().includes(p.name.toLowerCase().substring(0, 15)));
+          if (!place || !wr.text || wr.text.length < 20) continue;
+
+          // Deduplicate against existing reviews
+          const existing = (place.reviews || []).map(r => (r.text || '').substring(0, 40).toLowerCase());
+          if (existing.some(e => wr.text.toLowerCase().includes(e) || e.includes(wr.text.substring(0, 40).toLowerCase()))) continue;
+
+          place.reviews.push({
+            text: wr.text.substring(0, 500),
+            rating: wr.rating || null,
+            time: null,
+            source: wr.source || 'web',
+          });
+          added++;
+        }
+        if (added > 0) console.error(`  Batch ${Math.floor(batch / REVIEW_BATCH_SIZE) + 1}: +${added} web reviews`);
+      }
+    } catch (err) {
+      console.error(`  Batch ${Math.floor(batch / REVIEW_BATCH_SIZE) + 1}: web review fetch failed`);
+    }
+  }
+
+  const totalReviews = places.reduce((n, p) => n + (p.reviews || []).length, 0);
+  const webReviews = places.reduce((n, p) => n + (p.reviews || []).filter(r => r.source === 'web' || r.source === 'yelp' || r.source === 'tripadvisor' || r.source === 'blog').length, 0);
+  console.error(`Total reviews: ${totalReviews} (${webReviews} from web, ${totalReviews - webReviews} from API)`);
+
   // Sort reviews per place: prioritize those mentioning query-relevant criteria
   const reviewKeywords = [];
   if (searchTerm.match(/outdoor|patio|outside|terrace|garden|seating/i))
@@ -1146,18 +1252,18 @@ async function main() {
         return (b.rating || 0) - (a.rating || 0);
       });
     }
-    const relevantCount = places.reduce((n, p) =>
-      n + (p.reviews || []).filter(r => reviewKeywords.some(kw => (r.text || '').toLowerCase().includes(kw))).length, 0);
-    console.error(`Sorted reviews by criteria relevance (${relevantCount} criteria-relevant reviews found)`);
   }
 
   // Rank photos by relevance to query criteria (metadata + vision)
   await rankPhotos(places, searchTerm, API_KEY);
 
   // Extract evidence from reviews for key differentiator criteria
-  extractEvidence(places, searchTerm);
+  const reviewFilters = extractEvidence(places, searchTerm);
   const evidenceCount = places.reduce((n, p) => n + (p.evidence?.length || 0), 0);
+  const filteredReviewCount = places.reduce((n, p) =>
+    n + (p.reviews || []).filter(r => (r._filters || []).length > 0).length, 0);
   if (evidenceCount > 0) console.error(`Extracted ${evidenceCount} evidence excerpts from reviews`);
+  if (filteredReviewCount > 0) console.error(`Tagged ${filteredReviewCount} reviews with filter flags`);
 
   const output = {
     query: searchTerm,
@@ -1166,6 +1272,7 @@ async function main() {
     result_count: places.length,
     scraped_at: new Date().toISOString(),
     source: 'google_places_api',
+    review_filters: Object.fromEntries(Object.entries(reviewFilters).map(([k, v]) => [k, v.label])),
     places
   };
 

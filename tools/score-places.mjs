@@ -581,6 +581,7 @@ const embeddedData = {
   memberProfiles,
   locationBias: data.location_bias,
   intents: intents.map(i => ({ intent: i.intent, label: i.label, field: i.field })),
+  reviewFilters: data.review_filters || {},
   apiKey: API_KEY,
 };
 
@@ -730,6 +731,13 @@ body{font-family:'Inter',system-ui,sans-serif;background:#f0f4f8;color:#1a2332;l
 .ctx-chip{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:6px;background:#eff6ff;color:#1e40af;margin-right:2px}
 .ctx-text{color:#5a6b7d}
 
+.ctx-filter{display:inline-block;font-size:10px;font-weight:600;padding:2px 8px;border-radius:6px;margin-right:2px;cursor:pointer;border:1px solid;transition:opacity 0.15s}
+.ctx-filter.active{background:#fef2f2;color:#991b1b;border-color:#fca5a5;opacity:1}
+.ctx-filter.inactive{background:#f9fafb;color:#9ca3af;border-color:#e5e7eb;opacity:0.6;text-decoration:line-through}
+.review-item.filtered{opacity:0.3}
+.review-item .filter-tag{font-size:9px;font-weight:700;color:#991b1b;background:#fef2f2;padding:1px 5px;border-radius:3px;margin-left:4px}
+.review-source{font-size:10px;color:#94a3b8;margin-left:4px;font-style:italic}
+
 .footer{text-align:center;padding:24px;font-size:11px;color:#94a3b8}
 
 @media(min-width:641px){
@@ -800,10 +808,30 @@ DATA.intents.forEach(function(intent) {
   if (group && group.context) {
     parts.push('<span class="ctx-label">Context:</span> <span class="ctx-text">' + group.context.replace(/</g,'&lt;') + '</span>');
   }
+  // Review filter chips
+  if (DATA.reviewFilters && Object.keys(DATA.reviewFilters).length) {
+    var filterHtml = Object.keys(DATA.reviewFilters).map(function(fid) {
+      return '<span class="ctx-filter active" id="filter-' + fid + '" data-filter="' + fid + '" onclick="toggleFilter(&#39;' + fid + '&#39;)">' + DATA.reviewFilters[fid] + '</span>';
+    }).join(' ');
+    parts.push('<span class="ctx-label">Ignore:</span> ' + filterHtml);
+  }
   if (parts.length) {
     wrap.innerHTML = '<div class="ctx-card">' + parts.join('<br>') + '</div>';
   }
 })();
+
+// === REVIEW FILTERS ===
+var activeFilters = {};
+if (DATA.reviewFilters) {
+  Object.keys(DATA.reviewFilters).forEach(function(f) { activeFilters[f] = true; });
+}
+function toggleFilter(filterId) {
+  activeFilters[filterId] = !activeFilters[filterId];
+  var el = document.getElementById('filter-' + filterId);
+  if (el) {
+    el.className = 'ctx-filter ' + (activeFilters[filterId] ? 'active' : 'inactive');
+  }
+}
 
 // === PERSON POPUP ===
 function showPerson(name) {
@@ -1171,16 +1199,27 @@ function closeDetailModal() {
 
 function showReviews(placeIdx) {
   var p = DATA.scored[placeIdx];
-  var html = '<h3>\\u2605 ' + (p.rating || '?') + ' &middot; ' + esc(p.name) + ' &middot; ' + (p.reviews ? p.reviews.length : 0) + ' reviews</h3>';
+  var total = (p.reviews || []).length;
+  var filtered = (p.reviews || []).filter(function(r) {
+    return (r._filters || []).some(function(f) { return activeFilters[f]; });
+  }).length;
+  var html = '<h3>\\u2605 ' + (p.rating || '?') + ' &middot; ' + esc(p.name) + ' &middot; ' + total + ' reviews' +
+    (filtered ? ' <span style="color:#94a3b8;font-size:12px;font-weight:400">(' + filtered + ' filtered)</span>' : '') + '</h3>';
 
   // Build evidence lookup: map sentence text → category
   var evMap = {};
   (p.evidence || []).forEach(function(ev) { evMap[ev.text.trim()] = ev.category; });
 
   (p.reviews || []).forEach(function(r) {
-    html += '<div class="review-item">';
+    var isFiltered = (r._filters || []).some(function(f) { return activeFilters[f]; });
+    html += '<div class="review-item' + (isFiltered ? ' filtered' : '') + '">';
     html += '<span class="review-stars">' + '\\u2605'.repeat(r.rating || 0) + '\\u2606'.repeat(5 - (r.rating || 0)) + '</span>';
     if (r.time) html += '<span class="review-time">' + esc(r.time) + '</span>';
+    if (r.source && r.source !== 'review') html += '<span class="review-source">' + esc(r.source) + '</span>';
+    // Show filter tags
+    (r._filters || []).forEach(function(f) {
+      if (DATA.reviewFilters[f]) html += '<span class="filter-tag">' + DATA.reviewFilters[f] + '</span>';
+    });
     // Highlight evidence sentences in the review text
     var text = esc(r.text || '');
     Object.keys(evMap).forEach(function(sentence) {
