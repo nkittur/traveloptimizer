@@ -4,12 +4,14 @@ import * as local from './storage.js';
 import * as db from './supabase.js';
 import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT } from './components.js';
 import { initSortable, destroySortable } from './drag.js';
+import { initMap } from './map.js';
 
 const useDB = db.isConfigured();
 
 const state = {
   view: 'all',
   userName: null,
+  mapFilter: null, // null = no filter, Set<string> = filtered restaurant IDs
   // allState[restaurantId][userName] = { vote, status, shortlistPosition }
   allState: {},
   // allComments[restaurantId] = [{ id, text, author, timestamp, parentId }]
@@ -85,7 +87,11 @@ function getFilteredListFromState(view) {
   if (view === 'trash') {
     return all.filter(r => myState(r.id).status === 'trashed');
   }
-  const visible = all.filter(r => myState(r.id).status !== 'trashed');
+  let visible = all.filter(r => myState(r.id).status !== 'trashed');
+  // Apply map filter if active
+  if (state.mapFilter) {
+    visible = visible.filter(r => state.mapFilter.has(r.id));
+  }
   // Sort by vote: double thumbs up first, then thumbs up, then unvoted, then thumbs down, then double thumbs down
   visible.sort((a, b) => {
     const va = myState(a.id).vote || 0;
@@ -522,6 +528,31 @@ async function init() {
   document.getElementById('header-title').textContent = `SD Restaurants · ${state.userName}`;
   const sourcesBtn = document.querySelector('[data-action="show-sources"]');
   if (sourcesBtn) sourcesBtn.textContent = `${TOTAL_SOURCE_COUNT} Sources`;
+
+  // Init map
+  initMap(getAllRestaurants(), onMapFilterChange);
+
+  // Map filter banner clear button
+  document.getElementById('clear-map-filter').addEventListener('click', () => {
+    state.mapFilter = null;
+    updateMapFilterBanner();
+    render();
+  });
+}
+
+function onMapFilterChange(ids) {
+  state.mapFilter = ids ? new Set(ids) : null;
+  updateMapFilterBanner();
+  render();
+}
+
+function updateMapFilterBanner() {
+  const banner = document.getElementById('map-filter-banner');
+  banner.hidden = !state.mapFilter;
+  if (state.mapFilter) {
+    document.getElementById('map-filter-text').textContent =
+      `Showing ${state.mapFilter.size} of ${getAllRestaurants().length} restaurants (map filter)`;
+  }
 }
 
 init();

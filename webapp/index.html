@@ -6,10 +6,11 @@
   <meta name="mobile-web-app-capable" content="yes">
   <title>San Diego Restaurants</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script>
-    // Supabase config — replace with your project's values
     window.__SUPABASE_URL = 'https://iavqgmvjaawerbbrckjx.supabase.co';
     window.__SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhdnFnbXZqYWF3ZXJiYnJja2p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU0MjkwMTQsImV4cCI6MjA5MTAwNTAxNH0.MyTMPUutH6fpyrPb3skb16CW5K6Ofq4c_oQUHjHcS6M';
   </script>
@@ -23,10 +24,31 @@
     </div>
   </header>
 
+  <div class="map-filter-banner" id="map-filter-banner" hidden>
+    <span id="map-filter-text"></span>
+    <button id="clear-map-filter">&times; Clear</button>
+  </div>
+
   <main class="content" id="content"></main>
 
   <div class="detail-overlay" id="detail-container"></div>
   <div id="modal-container" hidden></div>
+
+  <div class="map-drawer" id="map-drawer">
+    <button class="map-drawer-tab" id="map-drawer-tab">🗺</button>
+    <div class="map-drawer-content">
+      <div class="map-toolbar">
+        <button class="map-btn" id="map-close">&larr; Back</button>
+        <div class="map-toolbar-spacer"></div>
+        <button class="map-btn map-paint-btn" id="map-paint-toggle">🖌 Paint</button>
+        <button class="map-btn" id="map-reset">Reset</button>
+      </div>
+      <div class="map-area">
+        <div id="map-container"></div>
+        <canvas id="paint-canvas"></canvas>
+      </div>
+    </div>
+  </div>
 
   <nav class="tab-bar">
     <button class="tab-btn active" data-view="all">
