@@ -185,10 +185,8 @@ function renderPhotoCarousel(r) {
 
 export function renderVoteButtons(id, vote) {
   const btns = [
-    { val: -2, icon: '👎👎', label: 'strong no' },
     { val: -1, icon: '👎', label: 'no' },
     { val: 1, icon: '👍', label: 'yes' },
-    { val: 2, icon: '👍👍', label: 'strong yes' },
   ];
   return `<div class="vote-row">${btns.map(b =>
     `<button class="vote-btn ${vote === b.val ? 'active vote-' + (b.val > 0 ? 'up' : 'down') : ''}"
@@ -199,7 +197,7 @@ export function renderVoteButtons(id, vote) {
 
 function renderOtherVotes(allVotes) {
   if (!allVotes || !allVotes.length) return '';
-  const icons = { '-2': '👎👎', '-1': '👎', '1': '👍', '2': '👍👍' };
+  const icons = { '-2': '👎', '-1': '👎', '1': '👍', '2': '👍' };
   const items = allVotes.map(v =>
     `<span class="other-vote ${v.vote > 0 ? 'pos' : 'neg'}">${esc(v.user)} ${icons[v.vote] || ''}</span>`
   ).join('');
@@ -223,7 +221,10 @@ export function renderCard(r, us) {
     <div class="card-header" data-action="toggle-detail" data-id="${r.id}">
       <div class="card-title-row">
         <h3 class="card-name">${esc(r.name)}</h3>
-        ${r.price ? `<span class="card-price">${esc(r.price)}</span>` : ''}
+        <span class="card-title-right">
+          ${r.googleRating ? `<span class="card-rating">${r.googleRating}★${r.googleReviewCount ? `<span class="card-review-count">(${r.googleReviewCount.toLocaleString()})</span>` : ''}</span>` : ''}
+          ${r.price ? `<span class="card-price">${esc(r.price)}</span>` : ''}
+        </span>
       </div>
       <div class="card-meta">
         ${r.neighborhood ? `<span class="card-neighborhood">${esc(r.neighborhood)}</span>` : ''}
@@ -232,7 +233,6 @@ export function renderCard(r, us) {
       <div class="card-badges">${renderSourceBadges(r.sources)}</div>
       ${r.highlights ? `<p class="card-highlights">${esc(r.highlights)}</p>` : ''}
       ${r.insiderTip ? `<p class="card-tip"><strong>Tip:</strong> ${esc(r.insiderTip)}</p>` : ''}
-      ${renderSourceInline(r.sources)}
       ${lastComment ? `<div class="card-last-comment" data-action="toggle-detail" data-id="${r.id}">
         <span class="last-comment-author">${esc(lastComment.author || 'You')}:</span>
         <span class="last-comment-text">${esc(lastComment.text)}</span>
@@ -240,18 +240,16 @@ export function renderCard(r, us) {
       </div>` : ''}
     </div>
     <div class="card-actions">
-      ${renderVoteButtons(r.id, vote)}
-      <div class="action-row">
-        <button class="action-btn ${isShortlisted ? 'active' : ''}" data-action="shortlist" data-id="${r.id}" aria-label="Shortlist">
-          ${isShortlisted ? '★' : '☆'}
-        </button>
-        <button class="action-btn" data-action="trash" data-id="${r.id}" aria-label="Trash">🗑</button>
-        <button class="action-btn comment-btn" data-action="toggle-detail" data-id="${r.id}" aria-label="Comments">
+      <div class="card-links-row">
+        <a class="action-btn link-btn" href="${yelpUrl(r.name, r.neighborhood)}" target="_blank" rel="noopener">Yelp</a>
+        ${r.website ? `<a class="action-btn link-btn" href="${esc(r.website)}" target="_blank" rel="noopener">Web</a>` : ''}
+        <a class="action-btn link-btn" href="${mapsUrl(r.name, r.address)}" target="_blank" rel="noopener">Map</a>
+      </div>
+      <div class="card-interact-row">
+        ${renderVoteButtons(r.id, vote)}
+        <button class="interact-btn comment-btn" data-action="toggle-detail" data-id="${r.id}">
           💬${commentCount > 0 ? `<span class="comment-count">${commentCount}</span>` : ''}
         </button>
-        <a class="action-btn link-btn" href="${yelpUrl(r.name, r.neighborhood)}" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
-        ${r.website ? `<a class="action-btn link-btn" href="${esc(r.website)}" target="_blank" rel="noopener" aria-label="Website">Web</a>` : ''}
-        <a class="action-btn link-btn" href="${mapsUrl(r.name, r.address)}" target="_blank" rel="noopener" aria-label="Map">Map</a>
       </div>
     </div>
   </div>`;
@@ -382,6 +380,93 @@ export function renderAddForm() {
       </form>
     </div>
   </div>`;
+}
+
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+export function renderFilterPane(activeFilters, totalCount, filteredCount, hasMapFilter) {
+  const now = new Date();
+  const today = now.getDay();
+  const currentHour = now.getHours();
+  const currentMin = now.getMinutes();
+  const nowTime = `${String(currentHour).padStart(2,'0')}:${String(currentMin).padStart(2,'0')}`;
+
+  const dayChips = DAYS.map((d, i) => {
+    const short = d.substring(0, 3);
+    const isToday = i === today;
+    const active = activeFilters.day === i;
+    return `<button class="fp-chip ${active ? 'active' : ''} ${isToday ? 'today' : ''}" data-action="filter-day" data-day="${i}">${short}${isToday ? ' ·today' : ''}</button>`;
+  }).join('');
+
+  const openNow = activeFilters.openNow;
+  const minRating = activeFilters.minRating || 0;
+  const filterTime = activeFilters.time || '';
+  const hasFilters = openNow || minRating || activeFilters.day !== null || filterTime;
+
+  // Rating slider label
+  const ratingLabel = minRating ? `${minRating}+ ★` : 'Any';
+
+  // Time quick-pick buttons
+  const timeSlots = [
+    { label: 'Breakfast', time: '08:00' },
+    { label: 'Lunch', time: '12:00' },
+    { label: 'Happy hr', time: '16:30' },
+    { label: 'Dinner', time: '19:00' },
+    { label: 'Late', time: '21:30' },
+  ];
+  const timeChips = timeSlots.map(s => {
+    const active = filterTime === s.time;
+    return `<button class="fp-chip fp-chip-sm ${active ? 'active' : ''}" data-action="filter-time-quick" data-time="${s.time}">${s.label}</button>`;
+  }).join('');
+
+  return `<div class="filter-pane">
+    <div class="fp-count">${filteredCount} of ${totalCount} showing</div>
+
+    <div class="fp-section">
+      <h4>Location</h4>
+      <button class="fp-chip fp-map-btn ${hasMapFilter ? 'active' : ''}" data-action="open-map">
+        🗺 ${hasMapFilter ? 'Map area active' : 'Filter by map area'}
+      </button>
+    </div>
+
+    <div class="fp-section">
+      <h4>Rating</h4>
+      <div class="fp-slider-row">
+        <input type="range" class="fp-slider" min="0" max="5" step="0.5" value="${minRating}" data-action="filter-rating-slider">
+        <span class="fp-slider-value">${ratingLabel}</span>
+      </div>
+      <div class="fp-slider-labels">
+        <span>Any</span><span>3</span><span>3.5</span><span>4</span><span>4.5</span><span>5</span>
+      </div>
+    </div>
+
+    <div class="fp-section">
+      <h4>Hours</h4>
+      <button class="fp-chip ${openNow ? 'active' : ''}" data-action="filter-open-now" style="margin-bottom:10px">
+        Open now <span class="fp-chip-sub">${DAYS[today].substring(0,3)} ${nowTime}</span>
+      </button>
+      <div class="fp-subsection">
+        <div class="fp-label">Or pick a day & time</div>
+        <div class="fp-row fp-days">${dayChips}</div>
+        <div class="fp-row" style="margin-top:8px">
+          ${timeChips}
+          <div class="fp-time-custom">
+            <input type="time" class="fp-time-input" value="${filterTime}" data-action="filter-time-input">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>`;
+}
+
+export function activeFilterCount(filters) {
+  let n = 0;
+  if (filters.openNow) n++;
+  if (filters.minRating) n++;
+  if (filters.day !== null && filters.day !== undefined) n++;
+  if (filters.time) n++;
+  return n;
 }
 
 export function renderEmptyState(view) {

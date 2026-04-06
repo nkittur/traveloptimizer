@@ -22,10 +22,8 @@ export function initMap(restaurants, onFilterChange) {
   _restaurants = restaurants.filter(r => r.lat != null && r.lng != null);
   _onFilterChange = onFilterChange;
 
-  document.getElementById('map-drawer-tab').addEventListener('click', openDrawer);
-  document.getElementById('map-close').addEventListener('click', closeDrawer);
-  document.getElementById('map-paint-toggle').addEventListener('click', togglePaint);
-  document.getElementById('map-reset').addEventListener('click', resetFilter);
+  document.getElementById('map-paint-toggle')?.addEventListener('click', togglePaint);
+  document.getElementById('map-reset')?.addEventListener('click', resetFilter);
 }
 
 export function clearFilterExternal() {
@@ -35,20 +33,46 @@ export function clearFilterExternal() {
   setPaintMode(false);
 }
 
-export function openDrawer() {
+export function openDrawer(enablePaint = false) {
   const drawer = $drawer();
   drawer.classList.add('open');
   if (!map) {
     createMap();
-    setTimeout(() => setPaintMode(true), 450);
+    setTimeout(() => { if (enablePaint) setPaintMode(true); applyHighlight(); }, 450);
   } else {
-    setTimeout(() => { map.invalidateSize(); setPaintMode(true); }, 350);
+    setTimeout(() => { map.invalidateSize(); if (enablePaint) setPaintMode(true); applyHighlight(); }, 350);
   }
 }
 
 export function closeDrawer() {
   $drawer().classList.remove('open');
   setPaintMode(false);
+}
+
+let _highlightedId = null;
+export function highlightMarker(id) {
+  // Close tooltip on previous
+  if (_highlightedId && markers.has(_highlightedId)) {
+    const prev = markers.get(_highlightedId);
+    prev.setStyle({ fillColor: '#0071e3', radius: 5, weight: 1.5 });
+    prev.closeTooltip();
+  }
+  _highlightedId = id;
+  if (id && markers.has(id)) {
+    const m = markers.get(id);
+    m.setStyle({ fillColor: '#dc2626', radius: 9, weight: 2.5 });
+    m.bringToFront();
+    m.openTooltip(); // always show label for highlighted item
+  }
+}
+
+function applyHighlight() {
+  if (_highlightedId && markers.has(_highlightedId)) {
+    const m = markers.get(_highlightedId);
+    m.setStyle({ fillColor: '#dc2626', radius: 9, weight: 2.5 });
+    m.bringToFront();
+    m.openTooltip();
+  }
 }
 
 function createMap() {
@@ -72,11 +96,11 @@ function createMap() {
     bounds.push(latlng);
 
     const marker = L.circleMarker(latlng, {
-      radius: 7,
+      radius: 5,
       fillColor: '#0071e3',
       fillOpacity: 0.9,
       color: '#fff',
-      weight: 2,
+      weight: 1.5,
     }).addTo(map);
 
     marker.bindTooltip(r.name, {
@@ -106,14 +130,17 @@ function createMap() {
   });
 
   setupCanvas();
-  setTimeout(() => map.invalidateSize(), 400);
+  setTimeout(() => { map.invalidateSize(); applyHighlight(); }, 400);
 }
 
 function updateLabels() {
   const zoom = map.getZoom();
-  for (const [, marker] of markers) {
-    if (zoom >= LABEL_ZOOM) marker.openTooltip();
-    else marker.closeTooltip();
+  for (const [id, marker] of markers) {
+    if (zoom >= LABEL_ZOOM || id === _highlightedId) {
+      marker.openTooltip();
+    } else {
+      marker.closeTooltip();
+    }
   }
 }
 

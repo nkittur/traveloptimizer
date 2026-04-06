@@ -1,10 +1,10 @@
 // app.js — Main controller with Supabase backend for shared state
-import { loadRestaurants, getAllRestaurants, generateId } from './data.js?v=1775441067';
-import * as local from './storage.js?v=1775441067';
-import * as db from './supabase.js?v=1775441067';
-import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT } from './components.js?v=1775441067';
-import { initSortable, destroySortable } from './drag.js?v=1775441067';
-import { initMap, clearFilterExternal } from './map.js?v=1775441067';
+import { loadRestaurants, getAllRestaurants, generateId } from './data.js?v=1775459000';
+import * as local from './storage.js?v=1775459000';
+import * as db from './supabase.js?v=1775459000';
+import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT, renderFilterPane, activeFilterCount } from './components.js?v=1775459000';
+import { initSortable, destroySortable } from './drag.js?v=1775459000';
+import { initMap, clearFilterExternal, openDrawer as openMapDrawer, closeDrawer as closeMapDrawer, highlightMarker } from './map.js?v=1775459000';
 
 const useDB = db.isConfigured();
 
@@ -12,6 +12,7 @@ const state = {
   view: 'all',
   userName: null,
   mapFilter: null, // null = no filter, Set<string> = filtered restaurant IDs
+  filters: { day: null, openNow: false, minRating: 0, time: '' },
   // allState[restaurantId][userName] = { vote, status, shortlistPosition }
   allState: {},
   // allComments[restaurantId] = [{ id, text, author, timestamp, parentId }]
@@ -21,7 +22,6 @@ const state = {
 };
 
 const $content = document.getElementById('content');
-const $tabs = document.querySelectorAll('.tab-btn');
 const $addBtn = document.getElementById('add-btn');
 const $modalContainer = document.getElementById('modal-container');
 const $detailContainer = document.getElementById('detail-container');
@@ -73,6 +73,34 @@ function myShortlistOrder() {
   return ids.map(x => x.id);
 }
 
+function isOpenAtDayTime(r, day, time) {
+  if (!r.openingHours?.periods?.length) return true; // unknown = don't filter out
+  return r.openingHours.periods.some(p => {
+    if (p.day !== day) return false;
+    if (!time || !p.open || !p.close) return true; // day matches, no time constraint
+    if (p.close < p.open) {
+      return time >= p.open || time <= p.close;
+    }
+    return time >= p.open && time <= p.close;
+  });
+}
+
+function isOpenNow(r) {
+  if (!r.openingHours?.periods?.length) return true; // unknown = don't filter out
+  const now = new Date();
+  const day = now.getDay();
+  const time = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+  return r.openingHours.periods.some(p => {
+    if (p.day !== day) return false;
+    if (!p.open || !p.close) return true; // open period exists for this day
+    // Handle overnight (close < open means past midnight)
+    if (p.close < p.open) {
+      return time >= p.open || time <= p.close;
+    }
+    return time >= p.open && time <= p.close;
+  });
+}
+
 function getFilteredListFromState(view) {
   const all = getAllRestaurants();
   const shortlistOrder = myShortlistOrder();
@@ -92,6 +120,19 @@ function getFilteredListFromState(view) {
   if (state.mapFilter) {
     visible = visible.filter(r => state.mapFilter.has(r.id));
   }
+  // Apply rating filter
+  if (state.filters.minRating) {
+    visible = visible.filter(r => (r.googleRating || 0) >= state.filters.minRating);
+  }
+  // Apply day+time filter
+  if (state.filters.day !== null && state.filters.day !== undefined) {
+    const time = state.filters.time || null;
+    visible = visible.filter(r => isOpenAtDayTime(r, state.filters.day, time));
+  }
+  // Apply open-now filter
+  if (state.filters.openNow) {
+    visible = visible.filter(r => isOpenNow(r));
+  }
   // Sort by vote: double thumbs up first, then thumbs up, then unvoted, then thumbs down, then double thumbs down
   visible.sort((a, b) => {
     const va = myState(a.id).vote || 0;
@@ -104,6 +145,7 @@ function getFilteredListFromState(view) {
 }
 
 function updateShortlistBadge() {
+  if (!$shortlistCount) return;
   const count = Object.entries(state.allState)
     .filter(([, perUser]) => perUser[state.userName]?.status === 'shortlisted').length;
   $shortlistCount.textContent = count > 0 ? count : '';
@@ -161,32 +203,21 @@ async function addNewRestaurant(restaurant) {
 // ── Rendering ──
 
 function render() {
-  const list = getFilteredListFromState(state.view);
-  destroySortable();
+  const list = getFilteredListFromState('all');
 
   if (!list.length) {
-    $content.innerHTML = renderEmptyState(state.view);
+    $content.innerHTML = renderEmptyState('all');
     return;
   }
 
-  if (state.view === 'shortlist') {
-    $content.innerHTML = list.map((r, i) =>
-      renderShortlistCard(r, viewState(r.id), i + 1)
-    ).join('');
-    initSortable($content, async (newOrder) => {
-      await reorderShortlist(newOrder);
-      render();
-    });
-  } else if (state.view === 'trash') {
-    $content.innerHTML = list.map(r => renderTrashCard(r)).join('');
-  } else {
-    $content.innerHTML = list.map(r =>
-      renderCard(r, viewState(r.id))
-    ).join('');
-  }
+  $content.innerHTML = list.map(r =>
+    renderCard(r, viewState(r.id))
+  ).join('');
 
   updateShortlistBadge();
+  updateFilterBadge();
   setupCarousels();
+  setupScrollHighlight();
 }
 
 function openDetail(id) {
@@ -297,6 +328,49 @@ async function handleAction(action, id, el) {
 
 // ── Carousel ──
 
+// ── Scroll Highlight ──
+
+let _scrollObserver = null;
+let _highlightedCardId = null;
+
+function setupScrollHighlight() {
+  if (_scrollObserver) _scrollObserver.disconnect();
+
+  const cards = $content.querySelectorAll('.card[data-id]');
+  if (!cards.length) return;
+
+  _scrollObserver = new IntersectionObserver((entries) => {
+    // Find the topmost visible card
+    let topCard = null;
+    let topY = Infinity;
+    for (const entry of entries) {
+      if (entry.isIntersecting && entry.boundingClientRect.top < topY) {
+        topY = entry.boundingClientRect.top;
+        topCard = entry.target;
+      }
+    }
+    if (topCard) {
+      const id = topCard.dataset.id;
+      if (id !== _highlightedCardId) {
+        // Remove old highlight
+        if (_highlightedCardId) {
+          const old = $content.querySelector(`.card[data-id="${_highlightedCardId}"]`);
+          if (old) old.classList.remove('card-highlighted');
+        }
+        _highlightedCardId = id;
+        topCard.classList.add('card-highlighted');
+        highlightMarker(id);
+      }
+    }
+  }, {
+    root: null,
+    rootMargin: '-56px 0px -70% 0px', // top = header height, bottom = ignore lower 70%
+    threshold: 0,
+  });
+
+  cards.forEach(card => _scrollObserver.observe(card));
+}
+
 function setupCarousels() {
   document.querySelectorAll('.carousel').forEach(carousel => {
     const track = carousel.querySelector('.carousel-track');
@@ -349,6 +423,7 @@ function setupEvents() {
     if (!btn) return;
     const action = btn.dataset.action;
     const id = btn.dataset.id;
+
     if (action && id) {
       e.preventDefault();
       handleAction(action, id, btn);
@@ -384,14 +459,30 @@ function setupEvents() {
     openDetail(id);
   });
 
-  $tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const view = tab.dataset.view;
-      state.view = view;
-      $tabs.forEach(t => t.classList.toggle('active', t.dataset.view === view));
-      closeDetail();
-      render();
-    });
+  // Filter button in header
+  document.getElementById('filter-btn').addEventListener('click', () => showFilterModal());
+  document.getElementById('filter-modal-close').addEventListener('click', () => closeFilterModal());
+  document.getElementById('filter-modal').addEventListener('click', (e) => {
+    if (e.target.id === 'filter-modal') closeFilterModal();
+  });
+
+  // Floating map toggle
+  const $fab = document.getElementById('map-fab');
+  let mapOpen = false;
+  $fab.addEventListener('click', () => {
+    if (mapOpen) {
+      closeMapDrawer();
+      $fab.querySelector('#map-fab-icon').textContent = '🗺';
+      $fab.querySelector('#map-fab-label').textContent = 'Map';
+      $fab.classList.remove('fab-active');
+      mapOpen = false;
+    } else {
+      openMapDrawer();
+      $fab.querySelector('#map-fab-icon').textContent = '📋';
+      $fab.querySelector('#map-fab-label').textContent = 'List';
+      $fab.classList.add('fab-active');
+      mapOpen = true;
+    }
   });
 
   $addBtn.addEventListener('click', () => {
@@ -489,6 +580,100 @@ function promptUserName() {
   });
 }
 
+// ── Filter Modal ──
+
+const $filterModal = document.getElementById('filter-modal');
+const $filterBody = document.getElementById('filter-modal-body');
+
+function showFilterModal() {
+  const total = getAllRestaurants().length;
+  const filtered = getFilteredListFromState('all').length;
+  $filterBody.innerHTML = renderFilterPane(state.filters, total, filtered, !!state.mapFilter);
+  $filterModal.hidden = false;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeFilterModal() {
+  $filterModal.hidden = true;
+  $filterBody.innerHTML = '';
+  document.body.style.overflow = '';
+  render(); // re-render main list with updated filters
+}
+
+function updateFilterBadge() {
+  const n = activeFilterCount(state.filters) + (state.mapFilter ? 1 : 0);
+  const badge = document.getElementById('filter-badge');
+  if (badge) {
+    badge.textContent = n > 0 ? n : '';
+    badge.hidden = n === 0;
+  }
+}
+
+// Filter modal click delegation
+$filterBody.addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-action]');
+  if (!btn) return;
+  const action = btn.dataset.action;
+
+  if (action === 'filter-day') {
+    const day = parseInt(btn.dataset.day);
+    state.filters.day = state.filters.day === day ? null : day;
+    if (state.filters.day !== null) state.filters.openNow = false; // day+time overrides open-now
+  } else if (action === 'filter-open-now') {
+    state.filters.openNow = !state.filters.openNow;
+    if (state.filters.openNow) { state.filters.day = null; state.filters.time = ''; } // open-now overrides day+time
+  } else if (action === 'filter-time-quick') {
+    const t = btn.dataset.time;
+    state.filters.time = state.filters.time === t ? '' : t;
+    if (state.filters.time && state.filters.day === null) state.filters.day = new Date().getDay(); // auto-select today
+    state.filters.openNow = false;
+  } else if (action === 'filter-clear') {
+    state.filters = { day: null, openNow: false, minRating: 0, time: '' };
+  } else if (action === 'open-map') {
+    closeFilterModal();
+    setTimeout(() => openMapDrawer(true), 100);
+    return;
+  }
+
+  updateFilterBadge();
+  updateMapFilterBanner();
+  showFilterModal();
+});
+
+// Rating slider + time input (use input events, not click)
+$filterBody.addEventListener('input', (e) => {
+  if (e.target.dataset.action === 'filter-rating-slider') {
+    state.filters.minRating = parseFloat(e.target.value) || 0;
+    const label = e.target.nextElementSibling;
+    if (label) label.textContent = state.filters.minRating ? `${state.filters.minRating}+ ★` : 'Any';
+    updateFilterBadge();
+    updateMapFilterBanner();
+    // Update count without full re-render (avoid losing slider focus)
+    const count = getFilteredListFromState('all').length;
+    const total = getAllRestaurants().length;
+    const countEl = $filterBody.querySelector('.fp-count');
+    if (countEl) countEl.textContent = `${count} of ${total} showing`;
+  }
+  if (e.target.dataset.action === 'filter-time-input') {
+    state.filters.time = e.target.value;
+    if (state.filters.time && state.filters.day === null) state.filters.day = new Date().getDay();
+    state.filters.openNow = false;
+    updateFilterBadge();
+    updateMapFilterBanner();
+    const count = getFilteredListFromState('all').length;
+    const total = getAllRestaurants().length;
+    const countEl = $filterBody.querySelector('.fp-count');
+    if (countEl) countEl.textContent = `${count} of ${total} showing`;
+  }
+});
+
+// Re-render pane on slider change end
+$filterBody.addEventListener('change', (e) => {
+  if (e.target.dataset.action === 'filter-rating-slider' || e.target.dataset.action === 'filter-time-input') {
+    showFilterModal();
+  }
+});
+
 // ── Init ──
 
 async function init() {
@@ -543,10 +728,9 @@ async function init() {
   updateMapFilterBanner();
   render();
 
-  // Show user indicator and source count
-  document.getElementById('header-title').textContent = `SD Restaurants · ${state.userName}`;
-  const sourcesBtn = document.querySelector('[data-action="show-sources"]');
-  if (sourcesBtn) sourcesBtn.textContent = `${TOTAL_SOURCE_COUNT} Sources`;
+  // Set source count
+  const sourcesLink = document.getElementById('sources-link');
+  if (sourcesLink) sourcesLink.textContent = `${TOTAL_SOURCE_COUNT} sources`;
 
   // Init map
   initMap(getAllRestaurants(), onMapFilterChange);
@@ -557,9 +741,11 @@ async function init() {
     e.stopPropagation();
     clearFilterExternal();
     state.mapFilter = null;
+    state.filters = { day: null, openNow: false, minRating: 0, time: '' };
     if (useDB) db.deleteSharedState('map-filter');
     else localStorage.removeItem('sd-map-filter');
     updateMapFilterBanner();
+    updateFilterBadge();
     render();
   });
 }
@@ -583,10 +769,24 @@ function onMapFilterChange(ids) {
 
 function updateMapFilterBanner() {
   const banner = document.getElementById('map-filter-banner');
-  banner.hidden = !state.mapFilter;
-  if (state.mapFilter) {
+  const tags = [];
+  if (state.mapFilter) tags.push('Map area');
+  if (state.filters.openNow) tags.push('Open now');
+  if (state.filters.minRating) tags.push(`${state.filters.minRating}+★`);
+  if (state.filters.day !== null && state.filters.day !== undefined) {
+    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    let dayTag = days[state.filters.day];
+    if (state.filters.time) dayTag += ` ${state.filters.time}`;
+    tags.push(dayTag);
+  }
+
+  const hasFilters = tags.length > 0;
+  banner.hidden = !hasFilters;
+  if (hasFilters) {
+    const filtered = getFilteredListFromState('all').length;
+    const total = getAllRestaurants().length;
     document.getElementById('map-filter-text').textContent =
-      `Showing ${state.mapFilter.size} of ${getAllRestaurants().length} restaurants (map filter)`;
+      `${filtered}/${total} · ${tags.join(' · ')}`;
   }
 }
 

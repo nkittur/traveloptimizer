@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>San Diego Restaurants</title>
-  <link rel="stylesheet" href="css/style.css?v=1775441067">
+  <link rel="stylesheet" href="css/style.css?v=1775459000">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
@@ -17,28 +17,46 @@
 </head>
 <body>
   <header class="header">
-    <h1 id="header-title">San Diego Restaurants</h1>
-    <div class="header-actions">
-      <button class="header-sources" data-action="show-sources">5 Sources</button>
-      <button class="header-add" id="add-btn">+ Add</button>
+    <div class="header-left">
+      <h1 id="header-title">San Diego Restaurants</h1>
+      <a class="header-sources-link" id="sources-link" data-action="show-sources">15 sources</a>
     </div>
+    <button class="header-pill header-pill-accent" id="filter-btn">
+      ⚙ Filters
+      <span class="filter-badge" id="filter-badge" hidden></span>
+    </button>
   </header>
 
   <div class="map-filter-banner" id="map-filter-banner" hidden>
     <span id="map-filter-text"></span>
-    <button id="clear-map-filter">&times; Clear</button>
+    <button id="clear-map-filter">&times;</button>
   </div>
 
   <main class="content" id="content"></main>
 
+  <!-- Floating map toggle -->
+  <button class="map-fab" id="map-fab">
+    <span class="map-fab-icon" id="map-fab-icon">🗺</span>
+    <span class="map-fab-label" id="map-fab-label">Map</span>
+  </button>
+
   <div class="detail-overlay" id="detail-container"></div>
   <div id="modal-container" hidden></div>
+  <button id="add-btn" hidden></button>
+
+  <div class="filter-modal-overlay" id="filter-modal" hidden>
+    <div class="filter-modal">
+      <div class="filter-modal-header">
+        <h3>Filters</h3>
+        <button class="modal-close" id="filter-modal-close">&times;</button>
+      </div>
+      <div class="filter-modal-body" id="filter-modal-body"></div>
+    </div>
+  </div>
 
   <div class="map-drawer" id="map-drawer">
-    <button class="map-drawer-tab" id="map-drawer-tab">🗺</button>
     <div class="map-drawer-content">
       <div class="map-toolbar">
-        <button class="map-btn" id="map-close">&larr; Back</button>
         <div class="map-toolbar-spacer"></div>
         <button class="map-btn map-paint-btn" id="map-paint-toggle">🖌 Paint</button>
         <button class="map-btn" id="map-reset">Reset</button>
@@ -51,22 +69,6 @@
     </div>
   </div>
 
-  <nav class="tab-bar">
-    <button class="tab-btn active" data-view="all">
-      <span class="tab-icon">🍽</span>
-      All
-    </button>
-    <button class="tab-btn" data-view="shortlist">
-      <span class="tab-icon">⭐</span>
-      Shortlist
-      <span class="shortlist-badge" id="shortlist-count" hidden></span>
-    </button>
-    <button class="tab-btn" data-view="trash">
-      <span class="tab-icon">🗑</span>
-      Trash
-    </button>
-  </nav>
-
-  <script type="module" src="js/app.js?v=1775441067"></script>
+  <script type="module" src="js/app.js?v=1775459000"></script>
 </body>
 </html>
