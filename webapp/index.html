@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>San Diego Restaurants</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script>
+    // Supabase config — replace with your project's values
+    window.__SUPABASE_URL = 'https://iavqgmvjaawerbbrckjx.supabase.co';
+    window.__SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhdnFnbXZqYWF3ZXJiYnJja2p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU0MjkwMTQsImV4cCI6MjA5MTAwNTAxNH0.MyTMPUutH6fpyrPb3skb16CW5K6Ofq4c_oQUHjHcS6M';
+  </script>
+</head>
+<body>
+  <header class="header">
+    <h1 id="header-title">San Diego Restaurants</h1>
+    <div class="header-actions">
+      <button class="header-sources" data-action="show-sources">5 Sources</button>
+      <button class="header-add" id="add-btn">+ Add</button>
+    </div>
+  </header>
+
+  <main class="content" id="content"></main>
+
+  <div class="detail-overlay" id="detail-container"></div>
+  <div id="modal-container" hidden></div>
+
+  <nav class="tab-bar">
+    <button class="tab-btn active" data-view="all">
+      <span class="tab-icon">🍽</span>
+      All
+    </button>
+    <button class="tab-btn" data-view="shortlist">
+      <span class="tab-icon">⭐</span>
+      Shortlist
+      <span class="shortlist-badge" id="shortlist-count" hidden></span>
+    </button>
+    <button class="tab-btn" data-view="trash">
+      <span class="tab-icon">🗑</span>
+      Trash
+    </button>
+  </nav>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
