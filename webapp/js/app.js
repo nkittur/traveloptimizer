@@ -1,10 +1,10 @@
 // app.js — Main controller with Supabase backend for shared state
-import { loadRestaurants, getAllRestaurants, generateId } from './data.js';
-import * as local from './storage.js';
-import * as db from './supabase.js';
-import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT } from './components.js';
-import { initSortable, destroySortable } from './drag.js';
-import { initMap } from './map.js';
+import { loadRestaurants, getAllRestaurants, generateId } from './data.js?v=1775441067';
+import * as local from './storage.js?v=1775441067';
+import * as db from './supabase.js?v=1775441067';
+import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT } from './components.js?v=1775441067';
+import { initSortable, destroySortable } from './drag.js?v=1775441067';
+import { initMap, clearFilterExternal } from './map.js?v=1775441067';
 
 const useDB = db.isConfigured();
 
@@ -521,7 +521,26 @@ async function init() {
     }
   }
 
+  // Restore shared map filter from Supabase (or localStorage fallback)
+  if (useDB) {
+    try {
+      const shared = await db.loadSharedState('map-filter');
+      if (shared?.ids?.length) {
+        state.mapFilter = new Set(shared.ids);
+      }
+    } catch {}
+  } else {
+    try {
+      const saved = localStorage.getItem('sd-map-filter');
+      if (saved) {
+        const ids = JSON.parse(saved);
+        if (Array.isArray(ids) && ids.length) state.mapFilter = new Set(ids);
+      }
+    } catch {}
+  }
+
   setupEvents();
+  updateMapFilterBanner();
   render();
 
   // Show user indicator and source count
@@ -533,8 +552,13 @@ async function init() {
   initMap(getAllRestaurants(), onMapFilterChange);
 
   // Map filter banner clear button
-  document.getElementById('clear-map-filter').addEventListener('click', () => {
+  document.getElementById('clear-map-filter').addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    clearFilterExternal();
     state.mapFilter = null;
+    if (useDB) db.deleteSharedState('map-filter');
+    else localStorage.removeItem('sd-map-filter');
     updateMapFilterBanner();
     render();
   });
@@ -542,6 +566,17 @@ async function init() {
 
 function onMapFilterChange(ids) {
   state.mapFilter = ids ? new Set(ids) : null;
+  // Persist to Supabase (shared) or localStorage (fallback)
+  if (useDB) {
+    if (ids) {
+      db.saveSharedState('map-filter', { ids }, state.userName);
+    } else {
+      db.deleteSharedState('map-filter');
+    }
+  } else {
+    if (ids) localStorage.setItem('sd-map-filter', JSON.stringify(ids));
+    else localStorage.removeItem('sd-map-filter');
+  }
   updateMapFilterBanner();
   render();
 }

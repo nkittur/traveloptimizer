@@ -130,6 +130,38 @@ export async function loadCustomRestaurants() {
   return data.map(row => ({ ...row.data, id: row.id, _createdBy: row.created_by }));
 }
 
+// ── Shared State (map filter, etc.) ──
+
+export async function loadSharedState(key) {
+  const { data, error } = await sb()
+    .from('shared_state')
+    .select('value')
+    .eq('key', key)
+    .single();
+  if (error) return null;
+  return data?.value;
+}
+
+export async function saveSharedState(key, value, userName) {
+  const { error } = await sb()
+    .from('shared_state')
+    .upsert({
+      key,
+      value,
+      updated_by: userName,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'key' });
+  if (error) console.error('saveSharedState:', error);
+}
+
+export async function deleteSharedState(key) {
+  const { error } = await sb()
+    .from('shared_state')
+    .delete()
+    .eq('key', key);
+  if (error) console.error('deleteSharedState:', error);
+}
+
 export async function addCustomRestaurant(restaurant, userName) {
   const { id, ...rest } = restaurant;
   const { error } = await sb()
