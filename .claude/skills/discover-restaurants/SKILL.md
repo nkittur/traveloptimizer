@@ -100,23 +100,23 @@ For each source:
 4. **Pagination fallback**: if click-through fails (SPA that doesn't update the URL, broken handlers, rate-limited clicks), use `browser_evaluate` to read `window.__PRELOADED_STATE__`, `window.__NEXT_DATA__`, or `window.__INITIAL_STATE__` and extract the list array from there. Treat this as a fallback, not a first resort — state blobs can miss fields the rendered DOM has.
 5. Extract entries into the canonical shape (see Step 4)
 
-### Reddit workflow (mandatory, proven working)
+### Reddit workflow (mandatory)
 
-Reddit is the highest-signal crowd-wisdom source and you MUST hit it for every city. It surfaces hidden gems, local favorites, authentic ethnic spots, and off-the-beaten-path places that editorial critics miss. A Barcelona run that skipped Reddit missed Xerta (a Michelin-starred restaurant the Michelin scrape itself also missed), Yakumanka (Gastón Acurio's Peruvian flagship), and El Pachuco (a beloved cheap Mexican spot) — all of which belong on any serious "best of Barcelona" list.
+Reddit is the highest-signal crowd-wisdom source and you MUST hit it for every city. It surfaces hidden gems, local favorites, and authentic ethnic spots that editorial critics miss. On the Barcelona run, Reddit caught Xerta (a Michelin-starred restaurant the Michelin scrape itself had missed), Yakumanka (Gastón Acurio's Peruvian flagship), and El Pachuco (a beloved cheap Mexican spot) — none of which appeared on any editorial list.
 
-The working recipe:
+Playwright MCP handles Reddit fine on `old.reddit.com`. Don't over-think it.
 
-1. **Google search for threads** (not direct `reddit.com` navigation — `www.reddit.com` often blocks headless browsers and login-walls search results):
+1. Find threads via Google search:
    ```
    https://www.google.com/search?q=site%3Areddit.com%2Fr%2F<City>+best+restaurants
    ```
-   Extract thread URLs from the results (`a[href*="reddit.com/r/"]` filtered to paths containing `/comments/`).
-2. **Pick 2–3 threads** with the best titles ("Top favorite restaurants", "can't miss", "best for <price range>", "underrated", "where do locals eat"). Ignore threads with <10 comments or obviously meta ones ("anti-tourism", "is Barcelona expensive", etc.).
-3. **Use `old.reddit.com`** for each thread, not `www.reddit.com`:
+   Extract result URLs matching `reddit.com/r/<City>/comments/`.
+2. Pick 2–3 threads with strong titles — "Top favorite restaurants", "can't miss", "best for <price range>", "underrated", "where do locals eat". Skip meta threads and anything with <10 comments.
+3. Navigate each via `old.reddit.com` (the old site renders comments server-side and is straightforward to extract from):
    ```
    https://old.reddit.com/r/<City>/comments/<thread-id>/
    ```
-   The old site renders comments server-side without a login wall. Extract via:
+   Extract comments with scores via `browser_evaluate`:
    ```js
    document.querySelectorAll('div.comment').forEach(c => {
      const score = parseInt(c.querySelector('.tagline .score.unvoted')?.textContent.match(/-?\d+/)?.[0] || '0');
@@ -124,21 +124,16 @@ The working recipe:
      if (body && body.length > 3) comments.push({ score, body });
    });
    ```
-4. **Save each thread to a raw JSON file** (`reddit-thread-N.json`) so you can re-read them offline when building the merge.
-5. **Read the top-scored comments yourself** and pick the restaurants to add. **Do not regex this** — you need judgment to filter noise, troll replies, contested mentions, and sarcasm. Rules:
+4. Save each thread to a raw JSON file (`reddit-thread-N.json`) so you can read it offline while composing picks.
+5. Read the top-scored comments yourself and pick restaurants by judgment. **No regex — judgment**. Rules:
    - A restaurant named in a comment scored ≥5 with positive sentiment is a strong signal.
    - The same restaurant named across 2+ threads is stronger still.
-   - Ignore restaurants with mixed reception (e.g. one [15pt] rec but also an [8pt] "that place is terrible" reply).
-   - Ignore chains and hotel-restaurants unless context says they're notable.
-6. **Bucket your picks into two groups** in the per-city normalizer:
-   - **Matches for existing editorial entries** — just add a `reddit` source with a `mentions` count to the existing entry
-   - **New finds not in any editorial list** — add as fresh entries with a short `highlights` sourced from the Reddit commentary. Enrichment fills the rest (rating, price, photos).
-7. **Prove Reddit added signal**. After the merge, check that at least some Reddit entries either (a) overlap with editorial picks (validation that multiple sources agree) or (b) surface places editorial missed. If Reddit only produces overlaps AND no new finds, you probably picked the wrong threads — try more.
-
-**Fallbacks** if `old.reddit.com` itself breaks:
-- Search for "<thread title> site:reddit.com" on Google and read the result snippets — they contain the top comments
-- Try `old.reddit.com/r/<City>/search?q=restaurants&restrict_sr=on&sort=top`
-- Worst case: use Google's cached copy (click the three dots next to a result → "About this result" → "Cached")
+   - Skip restaurants with mixed reception (one high-score rec AND a high-score "that place is terrible" reply).
+   - Skip chains and hotel-restaurants unless context makes them notable.
+6. In the per-city normalizer, split picks into:
+   - **Matches for existing editorial entries** — add a `reddit` source with a `mentions` count (and a short `quote` if a comment had memorable framing)
+   - **New finds** — add as fresh rows with a short `highlights` synthesized from the Reddit commentary. Enrichment fills the rest.
+7. After merging, confirm Reddit contributed real signal — either cross-validation of editorial picks or new finds. If you only got overlaps, try more threads.
 
 **CRITICAL — feedback_verify_locations**: never claim a restaurant is in a specific neighborhood unless the source explicitly says so. Past incident: a prior run hallucinated "Burgatory at Ross Park Mall" — Burgatory isn't there. If you're not sure, leave `neighborhood` null and let the enrichment pipeline's geocode result speak for itself. Never guess.
 
@@ -159,10 +154,20 @@ The `highlights` field on each restaurant is a Zagat-style composite built from 
 - Eater rank (only if no Michelin or 50 Best already mentioned): `"Eater 38 Best #7"`
 - Joined with `; ` and a trailing period.
 
-**2. Narrative** (prose from the richest available source):
-Pick in preference order `['cnt', 'eater', 'timeout', 'reddit']` — take the first one with text length ≥40 chars. Run through **sentence-boundary truncation** (see below). Budget ~600 chars when credentials exist, ~750 when they don't. NEVER mid-sentence truncate.
+**2. Primary narrative** (prose from the richest available source):
+Pick in preference order `['cnt', 'eater', 'timeout', 'reddit']` — take the first one with text length ≥40 chars. Run through **sentence-boundary truncation** (see below). Budget ~420 chars when credentials exist, ~520 when they don't. NEVER mid-sentence truncate.
 
-**3. Reddit coda** (only if Reddit is a source AND the narrative didn't already come from Reddit):
+**3. Secondary narrative** (distinctive sentences from other prose sources):
+For **multi-source entries**, don't stop at the primary — pull 1–3 distinctive sentences from each additional prose source that add new info. A similarity filter drops redundant sentences (content-word unigram overlap ≥ 0.4 against already-included content is dropped). Per-source budget ~220 chars.
+
+This is the difference between:
+> *❌ "Besta is the brainchild of Carles Ramón from Catalonia and Manu Núñez from Galicia…"* (single source, Eater's dish-level detail ignored)
+
+and
+
+> *✅ "Besta is the brainchild of Carles Ramón from Catalonia and Manu Núñez from Galicia. Together they have invented a gastronomic style like none other…  They precisely plate vibrant dishes with a focus on seafood, like skate wing with bone marrow and mustard, and scallop with bright orange roe emulsion and smoked paprika."* (CNT prose + Eater's distinctive dish detail stitched in)
+
+**4. Reddit coda** (only if Reddit is a source AND neither primary nor secondary narrative came from Reddit):
 `"r/<City> <N> mentions."` — appending this when Reddit already provided the narrative is redundant, so skip it.
 
 Example output for Disfrutar (3 sources — CNT + Michelin + 50 Best):
@@ -220,7 +225,9 @@ Every entry becomes this shape. **Leave operational fields null** — the enrich
 
 **Scrape-owned** (you fill from the source): `id`, `name`, `highlights`, `insiderTip`, `cuisine` (only if source names it), `notes`, `sources`, `inTargetArea`.
 
-**Enrichment-owned** (leave null, the pipeline writes them): `address`, `neighborhood`, `price`, `openFor`, `website`, plus `lat`, `lng`, `googleRating`, `googleReviewCount`, `openingHours`, `photos`, `photoUrl`.
+**Enrichment-owned** (leave null, the pipeline writes them): `address`, `neighborhood`, `price`, `openFor`, `website`, plus `lat`, `lng`, `googleRating`, `googleReviewCount`, `googleReviews`, `openingHours`, `photos`, `photoUrl`.
+
+**`googleReviews`** is the top ~5 user reviews fetched from Google Places API by `enrich-group-details.mjs` — shape `[{author, rating, text, time}, ...]`. The webapp renders them as pull-quote blocks on the card. This is a separate layer from the editorial `highlights`: editorial is curated critic prose, `googleReviews` is raw user voice. Both surface in the UI and serve different purposes.
 
 Neighborhood is a gray area — if the source names it unambiguously ("Bar Canyí in Sant Antoni"), capture it. If not, leave null; the Places API lookup will often recover it from the formatted address or locality.
 

@@ -44,7 +44,7 @@ async function searchPlace(name, address) {
     headers: {
       'Content-Type': 'application/json',
       'X-Goog-Api-Key': API_KEY,
-      'X-Goog-FieldMask': 'places.rating,places.userRatingCount,places.currentOpeningHours,places.regularOpeningHours,places.priceLevel,places.priceRange',
+      'X-Goog-FieldMask': 'places.rating,places.userRatingCount,places.currentOpeningHours,places.regularOpeningHours,places.priceLevel,places.priceRange,places.reviews',
     },
     body: JSON.stringify({ textQuery: query, maxResultCount: 1, languageCode: 'en' }),
   });
@@ -128,6 +128,22 @@ function parsePrice(place) {
   return PRICE_LEVEL_MAP[raw] || null;
 }
 
+// Google Places reviews — up to 5 user reviews with text + star rating.
+// Stored as a compact shape the webapp can render without extra lookup.
+function parseReviews(place) {
+  const list = place.reviews;
+  if (!Array.isArray(list) || !list.length) return null;
+  return list
+    .filter(r => r?.text?.text?.trim().length > 20)
+    .map(r => ({
+      author: r.authorAttribution?.displayName || 'Anonymous',
+      rating: r.rating || null,
+      text: r.text.text.trim(),
+      time: r.relativePublishTimeDescription || null,
+    }))
+    .slice(0, 5);
+}
+
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const BATCH = 5;
 let enriched = 0, skipped = 0, failed = 0;
@@ -137,21 +153,25 @@ for (let i = 0; i < rows.length; i += BATCH) {
   const batch = rows.slice(i, i + BATCH);
   await Promise.all(batch.map(async (row) => {
     const r = row.data || {};
-    // Skip already-enriched rows unless --force OR price is missing (pipeline update)
-    if (!force && r.googleRating != null && r.price != null) { skipped++; return; }
+    // Skip already-enriched rows unless --force OR a new field is missing (pipeline update).
+    // googleReviews was added after initial enrichment — treat its absence as "needs refetch".
+    const hasAll = r.googleRating != null && r.price != null && r.googleReviews !== undefined;
+    if (!force && hasAll) { skipped++; return; }
     try {
       const place = await searchPlace(r.name, r.address);
       if (place) {
         r.googleRating = place.rating || null;
         r.googleReviewCount = place.userRatingCount || null;
         r.openingHours = parseHours(place);
+        r.googleReviews = parseReviews(place); // null if none
         // Google Places is authoritative for price — overwrite whatever was there
         const p = parsePrice(place);
         if (p) r.price = p;
         updates.push({ ...row, data: r });
         enriched++;
         const hrs = r.openingHours?.weekdayText?.length || 0;
-        process.stderr.write(`✓ ${r.name} — ${r.googleRating}★ (${r.googleReviewCount}) ${r.price || '?'} ${hrs ? hrs + 'd' : ''}\n`);
+        const revs = r.googleReviews?.length || 0;
+        process.stderr.write(`✓ ${r.name} — ${r.googleRating}★ (${r.googleReviewCount}) ${r.price || '?'} ${hrs ? hrs + 'd' : ''}${revs ? ` ${revs}rev` : ''}\n`);
       } else {
         failed++;
         process.stderr.write(`✗ ${r.name}\n`);

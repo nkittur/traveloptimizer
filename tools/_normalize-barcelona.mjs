@@ -330,13 +330,62 @@ function buildCredentialsLine(sources) {
   return bits.length ? bits.join('; ') + '.' : '';
 }
 
-function pickNarrative(raws, maxChars = 700) {
-  for (const type of NARRATIVE_PREFERENCE) {
-    const text = raws[type];
-    if (!text || text.length < 40) continue; // skip short filler
-    return { text: sentenceTruncate(text, maxChars), type };
+// ── Multi-source narrative stitching ──
+//
+// For restaurants with prose from multiple sources (e.g. Besta on both CNT and
+// Eater), the composed description should pull DISTINCTIVE content from each —
+// not just pick one source and throw the rest away. A bigram-overlap similarity
+// check filters out sentences that are redundant with content we've already
+// included.
+
+// Content-word set — strips common stopwords and short tokens. Better at
+// catching named-entity overlap than bigrams (e.g. "Carles Ramón" appearing
+// in two differently-phrased sentences.)
+const STOP_WORDS = new Set([
+  'the','and','for','from','that','this','with','have','their','they','them',
+  'here','there','than','then','these','those','just','also','only','some',
+  'very','which','when','what','where','while','into','over','more','other',
+  'been','into','your','will','would','about','still','even','most','like',
+  'such','well','said','each','both','after','one','two','three','four','five',
+  'any','our','all','has','had','not','but','can','its','per','out','off','any',
+  'restaurant','restaurants','place','places','spot','spots','city','chef','chefs',
+]);
+
+function contentWords(s) {
+  const all = s.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .match(/\b[a-z]{4,}\b/g) || [];
+  return new Set(all.filter(w => !STOP_WORDS.has(w)));
+}
+
+function similarity(a, b) {
+  const wa = contentWords(a);
+  const wb = contentWords(b);
+  if (!wa.size || !wb.size) return 0;
+  let inter = 0;
+  for (const x of wa) if (wb.has(x)) inter++;
+  return inter / Math.min(wa.size, wb.size);
+}
+
+// Pull 1–3 sentences from `text` that don't semantically overlap with `existing`.
+// Returns an empty string if nothing distinctive found.
+function pickDistinctiveSentences(text, existing, maxChars = 220) {
+  if (!text) return '';
+  const sentences = (text.match(/[^.!?]+[.!?]+/g) || []).map(s => s.trim());
+  let out = '';
+  for (const sent of sentences) {
+    if (sent.length < 30 || sent.length > 400) continue;
+    const against = (existing || '') + ' ' + out;
+    // 0.4 threshold on content-word unigram overlap — drops redundant sentences
+    // that repeat names + key concepts from already-included content.
+    // Tuned on Besta (CNT + Eater both naming "Carles Ramón + Manu Núñez from
+    // Catalonia/Galicia" with slightly different phrasing).
+    if (similarity(sent, against) >= 0.4) continue;
+    if (out && out.length + sent.length + 1 > maxChars) break;
+    out += (out ? ' ' : '') + sent;
+    if (out.length >= maxChars * 0.9) break;
   }
-  return { text: null, type: null };
+  return out;
 }
 
 function buildRedditLine(sources) {
@@ -350,24 +399,45 @@ function buildRedditLine(sources) {
 function composeHighlights(entry) {
   const raws = entry._rawDescs || {};
   const credentials = buildCredentialsLine(entry.sources);
-  const narrativeBudget = credentials ? 600 : 750;
-  const { text: narrative, type: narrativeSource } = pickNarrative(raws, narrativeBudget);
 
-  // Add Reddit coda only when the narrative didn't already come FROM Reddit —
-  // otherwise it's redundant ("good Peruvian place... r/Barcelona 2 mentions.")
-  const redditLine = narrativeSource === 'reddit' ? '' : buildRedditLine(entry.sources);
+  // Find every narrative source that has substantive prose, in preference order
+  const proseSources = NARRATIVE_PREFERENCE
+    .filter(type => raws[type] && raws[type].length >= 40);
 
-  if (!narrative && credentials) {
-    // Michelin-only or 50best-only entry — credentials alone is the description
-    return credentials + (redditLine ? ' ' + redditLine : '');
-  }
-  if (!narrative) {
-    // Rare fallback — neither narrative nor credentials
+  // No narrative at all — return credentials (Michelin-only entries) or fall back.
+  if (!proseSources.length) {
+    if (credentials) {
+      const reddit = buildRedditLine(entry.sources);
+      return credentials + (reddit ? ' ' + reddit : '');
+    }
     const anything = Object.values(raws).find(Boolean);
     return anything ? sentenceTruncate(anything, 700) : null;
   }
 
-  return [credentials, narrative, redditLine].filter(Boolean).join(' ');
+  // Primary narrative: richest source, ~400-char budget (tighter than before to leave
+  // room for secondary content from other sources)
+  const primaryType = proseSources[0];
+  const primaryBudget = credentials ? 420 : 520;
+  const primary = sentenceTruncate(raws[primaryType], primaryBudget);
+
+  // Secondary narrative: distinctive sentences from each additional prose source.
+  // Budget is smaller (~200 chars per source) to keep the total description focused.
+  const secondaryParts = [];
+  let combinedSoFar = primary;
+  for (const type of proseSources.slice(1)) {
+    const addition = pickDistinctiveSentences(raws[type], combinedSoFar, 220);
+    if (addition) {
+      secondaryParts.push(addition);
+      combinedSoFar += ' ' + addition;
+    }
+  }
+
+  // Reddit coda: only if reddit is a source AND didn't already contribute to the narrative
+  // (neither as primary nor secondary)
+  const narrativeTypes = new Set([primaryType, ...proseSources.slice(1).filter((t, i) => secondaryParts[i])]);
+  const redditLine = narrativeTypes.has('reddit') ? '' : buildRedditLine(entry.sources);
+
+  return [credentials, primary, ...secondaryParts, redditLine].filter(Boolean).join(' ');
 }
 
 // Compose highlights for every entry, then drop the scratch field
