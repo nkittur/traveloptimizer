@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
-  <title>San Diego Restaurants</title>
-  <link rel="stylesheet" href="css/style.css?v=1775459000">
+  <title>Restaurants</title>
+  <link rel="stylesheet" href="css/style.css?v=1775460000">
+  <link rel="stylesheet" href="css/picker.css?v=1775460000">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
@@ -16,59 +17,75 @@
   </script>
 </head>
 <body>
-  <header class="header">
-    <div class="header-left">
-      <h1 id="header-title">San Diego Restaurants</h1>
-      <a class="header-sources-link" id="sources-link" data-action="show-sources">15 sources</a>
+  <!-- Picker root (shown when no ?g= token) -->
+  <div id="picker-root" hidden></div>
+
+  <!-- App shell (shown when ?g= token is present) -->
+  <div id="app-shell" hidden>
+    <header class="header">
+      <div class="header-left">
+        <h1 id="header-title">Restaurants</h1>
+        <a class="header-sources-link" id="sources-link" data-action="show-sources"></a>
+      </div>
+      <button class="header-pill header-pill-accent" id="filter-btn">
+        ⚙ Filters
+        <span class="filter-badge" id="filter-badge" hidden></span>
+      </button>
+    </header>
+
+    <div class="map-filter-banner" id="map-filter-banner" hidden>
+      <span id="map-filter-text"></span>
+      <button id="clear-map-filter">&times;</button>
     </div>
-    <button class="header-pill header-pill-accent" id="filter-btn">
-      ⚙ Filters
-      <span class="filter-badge" id="filter-badge" hidden></span>
+
+    <main class="content" id="content"></main>
+
+    <!-- Floating map toggle -->
+    <button class="map-fab" id="map-fab">
+      <span class="map-fab-icon" id="map-fab-icon">🗺</span>
+      <span class="map-fab-label" id="map-fab-label">Map</span>
     </button>
-  </header>
 
-  <div class="map-filter-banner" id="map-filter-banner" hidden>
-    <span id="map-filter-text"></span>
-    <button id="clear-map-filter">&times;</button>
-  </div>
+    <div class="detail-overlay" id="detail-container"></div>
+    <div id="modal-container" hidden></div>
+    <button id="add-btn" hidden></button>
 
-  <main class="content" id="content"></main>
-
-  <!-- Floating map toggle -->
-  <button class="map-fab" id="map-fab">
-    <span class="map-fab-icon" id="map-fab-icon">🗺</span>
-    <span class="map-fab-label" id="map-fab-label">Map</span>
-  </button>
-
-  <div class="detail-overlay" id="detail-container"></div>
-  <div id="modal-container" hidden></div>
-  <button id="add-btn" hidden></button>
-
-  <div class="filter-modal-overlay" id="filter-modal" hidden>
-    <div class="filter-modal">
-      <div class="filter-modal-header">
-        <h3>Filters</h3>
-        <button class="modal-close" id="filter-modal-close">&times;</button>
+    <div class="filter-modal-overlay" id="filter-modal" hidden>
+      <div class="filter-modal">
+        <div class="filter-modal-header">
+          <h3>Filters</h3>
+          <button class="modal-close" id="filter-modal-close">&times;</button>
+        </div>
+        <div class="filter-modal-body" id="filter-modal-body"></div>
       </div>
-      <div class="filter-modal-body" id="filter-modal-body"></div>
     </div>
-  </div>
 
-  <div class="map-drawer" id="map-drawer">
-    <div class="map-drawer-content">
-      <div class="map-toolbar">
-        <div class="map-toolbar-spacer"></div>
-        <button class="map-btn map-paint-btn" id="map-paint-toggle">🖌 Paint</button>
-        <button class="map-btn" id="map-reset">Reset</button>
-      </div>
-      <div class="map-area">
-        <div id="map-container"></div>
-        <canvas id="paint-canvas"></canvas>
-        <div class="map-count-bar" id="map-paint-count" hidden></div>
+    <div class="map-drawer" id="map-drawer">
+      <div class="map-drawer-content">
+        <div class="map-toolbar">
+          <div class="map-toolbar-spacer"></div>
+          <button class="map-btn map-paint-btn" id="map-paint-toggle">🖌 Paint</button>
+          <button class="map-btn" id="map-reset">Reset</button>
+        </div>
+        <div class="map-area">
+          <div id="map-container"></div>
+          <canvas id="paint-canvas"></canvas>
+          <div class="map-count-bar" id="map-paint-count" hidden></div>
+        </div>
       </div>
     </div>
   </div>
 
-  <script type="module" src="js/app.js?v=1775459000"></script>
+  <script>
+    // Dispatcher: pick picker vs app based on ?g= token
+    (function() {
+      var g = new URLSearchParams(location.search).get('g');
+      var src = g ? 'js/app.js?v=1775460000' : 'js/picker.js?v=1775460000';
+      var s = document.createElement('script');
+      s.type = 'module';
+      s.src = src;
+      document.body.appendChild(s);
+    })();
+  </script>
 </body>
 </html>

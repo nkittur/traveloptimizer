@@ -1,8 +1,8 @@
-// supabase.js — Supabase backend for shared state
-// Config is loaded from window.__SUPABASE_URL and window.__SUPABASE_KEY
-// set in index.html or via env
+// supabase.js — Supabase backend for shared state, scoped per group.
+// Config is loaded from window.__SUPABASE_URL and window.__SUPABASE_KEY (index.html).
 
 let _sb = null;
+let _groupId = null;
 
 function getClient() {
   if (_sb) return _sb;
@@ -23,25 +23,102 @@ export function isConfigured() {
   return !!(window.__SUPABASE_URL && window.__SUPABASE_KEY);
 }
 
+// ── Group context ──
+
+export function setGroupId(id) {
+  _groupId = id;
+}
+
+export function getGroupId() {
+  return _groupId;
+}
+
+function requireGroup() {
+  if (!_groupId) throw new Error('No group set. Call setGroupId() first.');
+  return _groupId;
+}
+
+// ── Groups ──
+
+export async function loadGroup(id) {
+  const { data, error } = await sb()
+    .from('groups')
+    .select('*')
+    .eq('id', id)
+    .maybeSingle();
+  if (error) { console.error('loadGroup:', error); return null; }
+  return data;
+}
+
+export async function loadGroups(ids) {
+  if (!ids?.length) return [];
+  const { data, error } = await sb()
+    .from('groups')
+    .select('*')
+    .in('id', ids);
+  if (error) { console.error('loadGroups:', error); return []; }
+  return data;
+}
+
+export async function createGroup({ name, cityName, citySlug, country, criteria, createdByName }) {
+  const { data, error } = await sb()
+    .from('groups')
+    .insert({
+      name,
+      city_name: cityName,
+      city_slug: citySlug,
+      country,
+      criteria: criteria || {},
+      created_by_name: createdByName || null,
+    })
+    .select()
+    .single();
+  if (error) { console.error('createGroup:', error); return null; }
+  return data;
+}
+
+// ── Restaurants (per-group) ──
+
+export async function loadGroupRestaurants() {
+  const groupId = requireGroup();
+  const { data, error } = await sb()
+    .from('group_restaurants')
+    .select('*')
+    .eq('group_id', groupId)
+    .eq('status', 'active');
+  if (error) { console.error('loadGroupRestaurants:', error); return []; }
+  // Merge the jsonb data payload with top-level metadata so existing UI shape is preserved
+  return data.map(row => ({
+    ...row.data,
+    id: row.restaurant_id,
+    _firstSeenRun: row.first_seen_run,
+    _lastSeenRun: row.last_seen_run,
+  }));
+}
+
 // ── User identification ──
 
 export function getUser() {
-  return localStorage.getItem('sd-user-name');
+  const gid = _groupId;
+  if (!gid) return null;
+  return localStorage.getItem(`user-name:${gid}`);
 }
 
 export function setUser(name) {
-  localStorage.setItem('sd-user-name', name);
+  const gid = requireGroup();
+  localStorage.setItem(`user-name:${gid}`, name);
 }
 
 // ── Restaurant State (votes, shortlist, trash) ──
 
 export async function loadAllState() {
+  const groupId = requireGroup();
   const { data, error } = await sb()
     .from('restaurant_state')
-    .select('*');
+    .select('*')
+    .eq('group_id', groupId);
   if (error) { console.error('loadAllState:', error); return {}; }
 
-  // Group by restaurant_id, then by user
   const result = {};
   for (const row of data) {
     if (!result[row.restaurant_id]) result[row.restaurant_id] = {};
@@ -55,14 +132,16 @@ export async function loadAllState() {
 }
 
 export async function upsertState(restaurantId, userName, updates) {
+  const groupId = requireGroup();
   const { error } = await sb()
     .from('restaurant_state')
     .upsert({
+      group_id: groupId,
       restaurant_id: restaurantId,
       user_name: userName,
       ...updates,
       updated_at: new Date().toISOString(),
-    }, { onConflict: 'restaurant_id,user_name' });
+    }, { onConflict: 'group_id,restaurant_id,user_name' });
   if (error) console.error('upsertState:', error);
 }
 
@@ -81,12 +160,14 @@ export async function updateShortlistPositions(userName, orderedIds) {
   await Promise.all(promises);
 }
 
-// ── Comments (shared) ──
+// ── Comments (shared within group) ──
 
 export async function loadAllComments() {
+  const groupId = requireGroup();
   const { data, error } = await sb()
     .from('comments')
     .select('*')
+    .eq('group_id', groupId)
     .order('created_at', { ascending: true });
   if (error) { console.error('loadComments:', error); return {}; }
 
@@ -105,11 +186,13 @@ export async function loadAllComments() {
 }
 
 export async function addComment(restaurantId, userName, text, parentId = null) {
+  const groupId = requireGroup();
   const id = 'c' + Date.now();
   const { error } = await sb()
     .from('comments')
     .insert({
       id,
+      group_id: groupId,
       restaurant_id: restaurantId,
       user_name: userName,
       text,
@@ -119,57 +202,67 @@ export async function addComment(restaurantId, userName, text, parentId = null) 
   return id;
 }
 
-// ── Custom Restaurants (shared) ──
+// ── Custom Restaurants (shared within group) ──
 
 export async function loadCustomRestaurants() {
+  const groupId = requireGroup();
   const { data, error } = await sb()
     .from('custom_restaurants')
     .select('*')
+    .eq('group_id', groupId)
     .order('created_at', { ascending: true });
   if (error) { console.error('loadCustom:', error); return []; }
   return data.map(row => ({ ...row.data, id: row.id, _createdBy: row.created_by }));
 }
 
-// ── Shared State (map filter, etc.) ──
-
-export async function loadSharedState(key) {
-  const { data, error } = await sb()
-    .from('shared_state')
-    .select('value')
-    .eq('key', key)
-    .single();
-  if (error) return null;
-  return data?.value;
-}
-
-export async function saveSharedState(key, value, userName) {
-  const { error } = await sb()
-    .from('shared_state')
-    .upsert({
-      key,
-      value,
-      updated_by: userName,
-      updated_at: new Date().toISOString(),
-    }, { onConflict: 'key' });
-  if (error) console.error('saveSharedState:', error);
-}
-
-export async function deleteSharedState(key) {
-  const { error } = await sb()
-    .from('shared_state')
-    .delete()
-    .eq('key', key);
-  if (error) console.error('deleteSharedState:', error);
-}
-
 export async function addCustomRestaurant(restaurant, userName) {
+  const groupId = requireGroup();
   const { id, ...rest } = restaurant;
   const { error } = await sb()
     .from('custom_restaurants')
     .insert({
       id,
+      group_id: groupId,
       data: restaurant,
       created_by: userName,
     });
   if (error) console.error('addCustom:', error);
+}
+
+// ── Shared State (map filter, etc.) ──
+
+export async function loadSharedState(key) {
+  const groupId = requireGroup();
+  const { data, error } = await sb()
+    .from('shared_state')
+    .select('value')
+    .eq('group_id', groupId)
+    .eq('key', key)
+    .maybeSingle();
+  if (error) return null;
+  return data?.value;
+}
+
+export async function saveSharedState(key, value, userName) {
+  const groupId = requireGroup();
+  const { error } = await sb()
+    .from('shared_state')
+    .upsert({
+      group_id: groupId,
+      key,
+      value,
+      updated_by: userName,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'group_id,key' });
+  if (error) console.error('saveSharedState:', error);
+}
+
+export async function deleteSharedState(key) {
+  const groupId = requireGroup();
+  const { error } = await sb()
+    .from('shared_state')
+    .delete()
+    .eq('group_id', groupId)
+    .eq('key', key);
+  if (error) console.error('deleteSharedState:', error);
 }

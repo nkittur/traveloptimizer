@@ -1,10 +1,11 @@
 // app.js — Main controller with Supabase backend for shared state
-import { loadRestaurants, getAllRestaurants, generateId } from './data.js?v=1775459000';
-import * as local from './storage.js?v=1775459000';
-import * as db from './supabase.js?v=1775459000';
-import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT, renderFilterPane, activeFilterCount } from './components.js?v=1775459000';
-import { initSortable, destroySortable } from './drag.js?v=1775459000';
-import { initMap, clearFilterExternal, openDrawer as openMapDrawer, closeDrawer as closeMapDrawer, highlightMarker } from './map.js?v=1775459000';
+import { loadRestaurants, getAllRestaurants, generateId, setCityContext } from './data.js?v=1775460000';
+import * as local from './storage.js?v=1775460000';
+import * as db from './supabase.js?v=1775460000';
+import * as groupCtx from './group.js?v=1775460000';
+import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT, renderFilterPane, activeFilterCount } from './components.js?v=1775460000';
+import { initSortable, destroySortable } from './drag.js?v=1775460000';
+import { initMap, clearFilterExternal, openDrawer as openMapDrawer, closeDrawer as closeMapDrawer, highlightMarker } from './map.js?v=1775460000';
 
 const useDB = db.isConfigured();
 
@@ -677,11 +678,33 @@ $filterBody.addEventListener('change', (e) => {
 // ── Init ──
 
 async function init() {
-  // Get or prompt for user name
+  // Resolve group from ?g=... — the dispatcher in index.html only loads app.js
+  // when a group id is present, so bail defensively if it isn't.
+  const group = await groupCtx.resolveCurrentGroup();
+  if (!group) {
+    location.replace('/');
+    return;
+  }
+  state.group = group;
+
+  // Tell data.js how to label Yelp/Maps URLs for this city
+  setCityContext({ name: group.city_name, country: group.country });
+
+  // Dynamic title + header for this group
+  document.title = `${group.city_name} Restaurants`;
+  const headerTitle = document.getElementById('header-title');
+  if (headerTitle) headerTitle.textContent = `${group.city_name} Restaurants`;
+
+  // Reveal the app shell (hidden by the dispatcher until we know which view to show)
+  document.getElementById('app-shell')?.removeAttribute('hidden');
+
+  // Get or prompt for user name (scoped per-group)
   state.userName = db.getUser();
   if (!state.userName) {
     state.userName = await promptUserName();
   }
+  // Remember this group in the device-local "my groups" list
+  groupCtx.rememberGroup(group, state.userName);
 
   // Load data
   state.restaurants = await loadRestaurants();
@@ -728,9 +751,17 @@ async function init() {
   updateMapFilterBanner();
   render();
 
-  // Set source count
+  // Sources modal currently has SD-specific hardcoded content (components.js).
+  // Phase 2 will data-drive it from groups.source_metadata; until then, only
+  // show the link for the legacy SD group.
   const sourcesLink = document.getElementById('sources-link');
-  if (sourcesLink) sourcesLink.textContent = `${TOTAL_SOURCE_COUNT} sources`;
+  if (sourcesLink) {
+    if (group.city_slug === 'san-diego') {
+      sourcesLink.textContent = `${TOTAL_SOURCE_COUNT} sources`;
+    } else {
+      sourcesLink.hidden = true;
+    }
+  }
 
   // Init map
   initMap(getAllRestaurants(), onMapFilterChange);

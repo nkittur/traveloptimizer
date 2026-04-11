@@ -1,5 +1,5 @@
 // components.js — Pure rendering functions returning HTML strings
-import { yelpUrl, mapsUrl } from './data.js';
+import { yelpUrl, mapsUrl } from './data.js?v=1775460000';
 
 function esc(s) {
   if (!s) return '';
@@ -243,7 +243,7 @@ export function renderCard(r, us) {
       <div class="card-links-row">
         <a class="action-btn link-btn" href="${yelpUrl(r.name, r.neighborhood)}" target="_blank" rel="noopener">Yelp</a>
         ${r.website ? `<a class="action-btn link-btn" href="${esc(r.website)}" target="_blank" rel="noopener">Web</a>` : ''}
-        <a class="action-btn link-btn" href="${mapsUrl(r.name, r.address)}" target="_blank" rel="noopener">Map</a>
+        <a class="action-btn link-btn" href="${mapsUrl(r.name, r.address)}" target="_blank" rel="noopener">Google Maps</a>
       </div>
       <div class="card-interact-row">
         ${renderVoteButtons(r.id, vote)}
