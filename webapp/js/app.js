@@ -139,13 +139,21 @@ function getFilteredListFromState(view) {
   if (state.filters.openNow) {
     visible = visible.filter(r => isOpenNow(r));
   }
-  // Sort by vote: double thumbs up first, then thumbs up, then unvoted, then thumbs down, then double thumbs down
+  // Sort order: my vote (desc) → number of distinct sources (desc) → Google rating (desc).
+  // Votes stay the top-level priority so anything the user has upvoted floats up.
+  // Within the same vote tier (e.g. the unvoted majority), most-validated entries
+  // rank first: a restaurant on three editorial lists outranks a single-source
+  // one, and among same-source-count entries, higher Google rating wins.
   visible.sort((a, b) => {
     const va = myState(a.id).vote || 0;
     const vb = myState(b.id).vote || 0;
-    if (vb !== va) return vb - va; // higher vote first
-    // Within same vote level, keep original order (source count)
-    return 0;
+    if (vb !== va) return vb - va;
+    const sa = a.sources?.length || 0;
+    const sb = b.sources?.length || 0;
+    if (sb !== sa) return sb - sa;
+    const ra = a.googleRating || 0;
+    const rb = b.googleRating || 0;
+    return rb - ra;
   });
   return visible;
 }
