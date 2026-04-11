@@ -6,38 +6,10 @@ function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-// Pick a snippet from a Google review. Prefers the most distinctive opening
-// (first meaningful sentence), trimmed to fit a card.
-function reviewSnippet(text, maxChars = 180) {
-  if (!text) return '';
-  const cleaned = text.replace(/\s+/g, ' ').trim();
-  if (cleaned.length <= maxChars) return cleaned;
-  // Cut at a sentence boundary if there's one in range
-  const sub = cleaned.slice(0, maxChars);
-  const lastPunct = Math.max(sub.lastIndexOf('.'), sub.lastIndexOf('!'), sub.lastIndexOf('?'));
-  if (lastPunct > maxChars * 0.5) return sub.slice(0, lastPunct + 1);
-  // Otherwise cut at the last space and add ellipsis
-  const lastSpace = sub.lastIndexOf(' ');
-  return (lastSpace > maxChars * 0.5 ? sub.slice(0, lastSpace) : sub).trim() + '…';
-}
-
-function renderGoogleReviews(reviews) {
-  if (!Array.isArray(reviews) || !reviews.length) return '';
-  // Show up to 2 — first two are "most relevant" per Google's default order
-  const picked = reviews.slice(0, 2);
-  const items = picked.map(r => {
-    const snippet = reviewSnippet(r.text, 180);
-    const author = r.author ? esc(r.author) : '';
-    const stars = r.rating ? `${r.rating}★` : '';
-    const meta = [stars, r.time ? esc(r.time) : ''].filter(Boolean).join(' · ');
-    return `
-      <div class="google-review">
-        <div class="google-review-text">"${esc(snippet)}"</div>
-        <div class="google-review-meta">${author}${meta ? ' · ' + meta : ''}</div>
-      </div>`;
-  }).join('');
-  return `<div class="card-google-reviews">${items}</div>`;
-}
+// Note: Google reviews are still fetched in enrichment (stored in data.googleReviews)
+// but NOT rendered as a separate UI block. Their role is to serve as additional
+// composition input for the editorial highlights — if a user quote captures
+// something worth including, it gets woven into the single highlights paragraph.
 
 const SOURCE_LABELS = {
   eater: 'Eater',
@@ -279,7 +251,6 @@ export function renderCard(r, us) {
       <div class="card-badges">${renderSourceBadges(r.sources)}</div>
       ${r.highlights ? `<p class="card-highlights">${esc(r.highlights)}</p>` : ''}
       ${r.insiderTip ? `<p class="card-tip"><strong>Tip:</strong> ${esc(r.insiderTip)}</p>` : ''}
-      ${renderGoogleReviews(r.googleReviews)}
       ${lastComment ? `<div class="card-last-comment" data-action="toggle-detail" data-id="${r.id}">
         <span class="last-comment-author">${esc(lastComment.author || 'You')}:</span>
         <span class="last-comment-text">${esc(lastComment.text)}</span>

@@ -139,36 +139,62 @@ Playwright MCP handles Reddit fine on `old.reddit.com`. Don't over-think it.
 
 ## Step 4 — Normalize to canonical schema
 
-### Compose descriptions AFTER all sources are collected, not during ingestion
+### Compose descriptions yourself. This is not an algorithm.
 
-The `highlights` field on each restaurant is a Zagat-style composite built from every source that covered it. **Do not write `highlights` as you scrape each source** — you'll end up with first-arrival-wins truncation and miss multi-source credentials. Instead:
+The `highlights` field on each restaurant is a Zagat-style distillation of everything you know about it. **Do not try to automate this.** Algorithmic approaches — pick-the-longest-source, primary-plus-secondary stitching, similarity-based sentence filtering, credentials-line prefixes — all produce robotic output that misses the point. The job is to read everything and write a sentence that captures what matters.
 
-1. **During ingestion**, store each source's raw, un-truncated description on a scratch field keyed by source type (e.g. `_rawDescs: { cnt: "…", eater: "…", timeout: "…" }`). Don't try to summarize anything yet.
-2. **After all sources are merged** for a restaurant, run a `composeHighlights()` pass that builds the final string.
+The process for **each** restaurant:
 
-`composeHighlights()` produces three parts, joined with spaces:
+1. **Read all available sources**. For a given entry, gather every piece of text you have:
+   - Full editorial prose from each scrape source (CNT's dek, Eater's review, Time Out's write-up, newspaper reviews, etc.)
+   - Michelin star count if any
+   - 50 Best rank and year if any
+   - Reddit thread mentions and the actual upvoted comments that named it
+   - **Google Places user reviews** (the top ~5, fetched by `enrich-group-details.mjs` and stored on `data.googleReviews`). Yes, these matter — real diners surface things critics don't, and a memorable phrase in a Google review can anchor a description.
+2. **Identify what matters**. For a user reading this card on a mobile phone, what are the 3–5 things they most need to know?
+   - What *kind* of place is it? (Cuisine, concept, setting.)
+   - *Why* is it on the list? (Chef pedigree, credentials, signature technique.)
+   - What should they *order*? (Specific signature dishes, ideally cross-referenced between sources.)
+   - What's the *practical* info? (Hard to book, lunch-menu bargain, cash-only, no walk-ins.)
+   - Any *crowd signal* worth surfacing? (r/Barcelona calls it the best under-€20 pick, a Google reviewer used a memorable phrase, etc.)
+3. **Write 1–3 tight sentences** in Zagat's voice-neutral, omniscient-narrator register. Use quoted phrases from sources when they're evocative. Don't cite sources inline ("CNT says…" / "Eater adds…") — the source badges already show where the info came from.
+4. **Skip hedges, filler, and algorithmic artifacts**. No "Three Michelin stars. A meal at X is…" sentence-fragment credential lines, no "r/City N mentions." codas, no per-source attribution labels. Weave credentials naturally into the prose ("Three Michelin stars and named #1 in the World's 50 Best 2024, this El Bulli-alum tasting menu is…").
 
-**1. Credentials line** (multi-source facts, always first):
-- Michelin distinction from `distinction` on the michelin source: `"Three Michelin stars"` / `"Two Michelin stars"` / `"One Michelin star"` / `"Michelin Bib Gourmand"`
-- World's 50 Best rank with year: `"World's 50 Best #1 (2024)"`
-- Eater rank (only if no Michelin or 50 Best already mentioned): `"Eater 38 Best #7"`
-- Joined with `; ` and a trailing period.
+#### Worked example — Disfrutar
 
-**2. Primary narrative** (prose from the richest available source):
-Pick in preference order `['cnt', 'eater', 'timeout', 'reddit']` — take the first one with text length ≥40 chars. Run through **sentence-boundary truncation** (see below). Budget ~420 chars when credentials exist, ~520 when they don't. NEVER mid-sentence truncate.
+**Raw inputs**:
+- CNT dek (~900 words): "A meal at Disfrutar is like a performance: There's fire, ice, smoke, and lots of flavor and color. What started as an exciting new project by three ex-chefs from the late, great El Bulli has achieved the pinnacle of success in its own right—being awarded three Michelin stars and named the best restaurant in the world—officially, in the 2024 edition of The World's 50 Best Restaurants. … Top dishes include the crispy egg yolk with mushrooms and the chocolate peppers with oil and salt…"
+- Michelin distinction: `THREE_STARS`
+- 50 Best: 2024 #1
+- Google reviews: "A masterclass in playful fine dining… Disfrutar absolutely delivers," "creativity, technique, and storytelling all collide," "founded by three chefs from the legendary El Bulli"
+- Reddit: no mentions
 
-**3. Secondary narrative** (distinctive sentences from other prose sources):
-For **multi-source entries**, don't stop at the primary — pull 1–3 distinctive sentences from each additional prose source that add new info. A similarity filter drops redundant sentences (content-word unigram overlap ≥ 0.4 against already-included content is dropped). Per-source budget ~220 chars.
+**Composed output** (one paragraph, ~400 chars):
+> *"Three El Bulli alumni — Mateu Casañas, Oriol Castro, Eduard Xatruch — serving the world's most playful tasting menu, 'like a performance: fire, ice, smoke, and lots of flavor and color.' Three Michelin stars and named #1 in The World's 50 Best Restaurants 2024. Don't miss the crispy egg yolk with mushroom gelatin, the chocolate peppers with oil and salt, or the Beluga-caviar 'panchino' bao. Book months ahead; trust the Classic menu on your first visit."*
 
-This is the difference between:
-> *❌ "Besta is the brainchild of Carles Ramón from Catalonia and Manu Núñez from Galicia…"* (single source, Eater's dish-level detail ignored)
+Notice what this does and doesn't do:
+- **Names the chefs** (pulled from Google review mention of "founded by three chefs from El Bulli" + my own knowledge of who they are)
+- **Weaves credentials into the prose** — Michelin + 50 Best are part of the opening, not a separate prefix line
+- **Quotes the memorable phrase** from CNT about fire/ice/smoke
+- **Lists specific signatures** cross-referenced from multiple sources (including the "panchino" bao, which is in one of the source reviews)
+- **Ends with a practical tip** (book far ahead, start with the Classic menu) — that's the "what does the user need to know to act on this"
 
-and
+### Storage shape — per-city descriptions file
 
-> *✅ "Besta is the brainchild of Carles Ramón from Catalonia and Manu Núñez from Galicia. Together they have invented a gastronomic style like none other…  They precisely plate vibrant dishes with a focus on seafood, like skate wing with bone marrow and mustard, and scallop with bright orange roe emulsion and smoked paprika."* (CNT prose + Eater's distinctive dish detail stitched in)
+Put the hand-crafted descriptions in a per-city JSON file like `trips/places/<city>-descriptions.json`, keyed by slug:
 
-**4. Reddit coda** (only if Reddit is a source AND neither primary nor secondary narrative came from Reddit):
-`"r/<City> <N> mentions."` — appending this when Reddit already provided the narrative is redundant, so skip it.
+```json
+{
+  "disfrutar": "Three El Bulli alumni — Mateu Casañas, Oriol Castro, Eduard Xatruch — serving the world's most playful tasting menu…",
+  "besta": "Catalonia-meets-Galicia tasting menus from chefs Carles Ramón and Manu Núñez — surf-and-turf pushed to another level…"
+}
+```
+
+The normalizer's compose step becomes a pure lookup: `composeHighlights(entry) => handCrafted[entry.id] || fallback(entry)`. Every entry in the city should have a hand-crafted description; the fallback exists only as a safety net.
+
+### Google reviews aren't a separate UI element
+
+**Do not render `googleReviews` as a distinct block on the card.** The user explicitly said this is wrong: Google reviews are an input to your composition, not an output. If a user-review phrase is evocative enough to include, weave it into the single `highlights` paragraph. Otherwise, leave it in the data (still useful for future composition passes) but don't surface it separately.
 
 Example output for Disfrutar (3 sources — CNT + Michelin + 50 Best):
 
