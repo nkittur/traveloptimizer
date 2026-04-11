@@ -75,6 +75,60 @@ function applyHighlight() {
   }
 }
 
+// Compute a bounding box that covers the core cluster of points, dropping
+// stand-out geographic outliers without being overly aggressive on borderline
+// ones. The algorithm:
+//
+//  1. Rank points by distance from the geographic median (median is robust
+//     to outliers, unlike the mean).
+//  2. From the farthest inward, drop points that are clearly out of band:
+//     either >3× the next-closest point's distance (big relative gap), or
+//     more than 0.05° farther than the next-closest (hard absolute gap —
+//     0.05° ≈ 5.5km in lat, less in lng).
+//  3. Stop as soon as the farthest remaining point is in band with the rest.
+//  4. Never drop more than 10% of points or leave fewer than 10.
+//
+// Example — Barcelona has Gelida at (41.44, 1.87) sitting 0.30 from median
+// while the next-farthest legit spot is at 0.048. Gelida / 0.048 ≈ 6×, so
+// Gelida is dropped; the next candidate is only 1.2× the point below it, so
+// the iteration stops and everything else is kept.
+//
+// Returns [[lat,lng],[lat,lng]] for Leaflet's fitBounds, or null if no points.
+function coreBounds(restaurants) {
+  const points = restaurants.filter(r => typeof r.lat === 'number' && typeof r.lng === 'number');
+  if (!points.length) return null;
+  if (points.length <= 5) return points.map(p => [p.lat, p.lng]);
+
+  const latsSorted = [...points].map(p => p.lat).sort((a, b) => a - b);
+  const lngsSorted = [...points].map(p => p.lng).sort((a, b) => a - b);
+  const medLat = latsSorted[Math.floor(latsSorted.length / 2)];
+  const medLng = lngsSorted[Math.floor(lngsSorted.length / 2)];
+
+  const ranked = points
+    .map(p => ({ p, d: Math.hypot(p.lat - medLat, p.lng - medLng) }))
+    .sort((a, b) => a.d - b.d);
+
+  const minKept = Math.max(10, Math.ceil(points.length * 0.9));
+  const RATIO_GAP = 3;       // farthest is dropped if >3x the next
+  const ABSOLUTE_GAP = 0.05; // …or if >0.05° farther than the next
+  while (ranked.length > minKept) {
+    const last = ranked[ranked.length - 1];
+    const prev = ranked[ranked.length - 2];
+    const outlier = last.d > prev.d * RATIO_GAP || (last.d - prev.d) > ABSOLUTE_GAP;
+    if (!outlier) break;
+    ranked.pop();
+  }
+
+  let minLat = Infinity, maxLat = -Infinity, minLng = Infinity, maxLng = -Infinity;
+  for (const { p } of ranked) {
+    if (p.lat < minLat) minLat = p.lat;
+    if (p.lat > maxLat) maxLat = p.lat;
+    if (p.lng < minLng) minLng = p.lng;
+    if (p.lng > maxLng) maxLng = p.lng;
+  }
+  return [[minLat, minLng], [maxLat, maxLng]];
+}
+
 function createMap() {
   const container = $container();
   map = L.map(container, {
@@ -90,10 +144,8 @@ function createMap() {
     maxZoom: 19,
   }).addTo(map);
 
-  const bounds = [];
   for (const r of _restaurants) {
     const latlng = [r.lat, r.lng];
-    bounds.push(latlng);
 
     const marker = L.circleMarker(latlng, {
       radius: 5,
@@ -114,7 +166,12 @@ function createMap() {
     markers.set(r.id, marker);
   }
 
-  if (bounds.length) {
+  // Fit bounds to the central 95% of markers, by distance from the geographic
+  // median. A single outlier (a spot 30km outside the city) used to drag the
+  // zoom all the way out. The outlier markers are still rendered; they just
+  // don't drive the initial view.
+  const bounds = coreBounds(_restaurants, 0.95);
+  if (bounds) {
     map.fitBounds(bounds, { padding: [30, 30] });
   }
 

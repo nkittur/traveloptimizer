@@ -23,19 +23,37 @@ if (points.length < 3) {
   process.exit(3);
 }
 
-function percentile(sorted, p) {
-  const idx = Math.floor((sorted.length - 1) * p);
-  return sorted[idx];
+// Iterative outlier drop from the geographic median outward. Matches the
+// `coreBounds` logic in webapp/js/map.js so the server-computed target_area
+// agrees with what the webapp renders. See that file for the full comment.
+const latsSorted = [...points].map(p => p.lat).sort((a, b) => a - b);
+const lngsSorted = [...points].map(p => p.lng).sort((a, b) => a - b);
+const medLat = latsSorted[Math.floor(latsSorted.length / 2)];
+const medLng = lngsSorted[Math.floor(lngsSorted.length / 2)];
+
+const ranked = points
+  .map(p => ({ p, d: Math.hypot(p.lat - medLat, p.lng - medLng) }))
+  .sort((a, b) => a.d - b.d);
+
+const minKept = Math.max(10, Math.ceil(points.length * 0.9));
+const RATIO_GAP = 3;
+const ABSOLUTE_GAP = 0.05;
+while (ranked.length > minKept) {
+  const last = ranked[ranked.length - 1];
+  const prev = ranked[ranked.length - 2];
+  const outlier = last.d > prev.d * RATIO_GAP || (last.d - prev.d) > ABSOLUTE_GAP;
+  if (!outlier) break;
+  ranked.pop();
 }
+const kept = ranked.map(x => x.p);
 
-const lats = points.map(p => p.lat).sort((a, b) => a - b);
-const lngs = points.map(p => p.lng).sort((a, b) => a - b);
-
-// 5/95 percentile drops outliers (one place way outside the city should not dictate zoom)
-const minLat = percentile(lats, 0.05);
-const maxLat = percentile(lats, 0.95);
-const minLng = percentile(lngs, 0.05);
-const maxLng = percentile(lngs, 0.95);
+let minLat = Infinity, maxLat = -Infinity, minLng = Infinity, maxLng = -Infinity;
+for (const p of kept) {
+  if (p.lat < minLat) minLat = p.lat;
+  if (p.lat > maxLat) maxLat = p.lat;
+  if (p.lng < minLng) minLng = p.lng;
+  if (p.lng > maxLng) maxLng = p.lng;
+}
 
 const center = {
   lat: (minLat + maxLat) / 2,
@@ -54,6 +72,7 @@ const zoom = span > 0
 const targetArea = {
   bbox: { minLat, minLng, maxLat, maxLng },
   point_count: points.length,
+  kept_count: kept.length,
 };
 
 await update('groups', { id: groupId }, {
@@ -66,4 +85,4 @@ console.log(`✓ Updated group ${groupId}`);
 console.log(`  bbox: (${minLat.toFixed(4)}, ${minLng.toFixed(4)}) → (${maxLat.toFixed(4)}, ${maxLng.toFixed(4)})`);
 console.log(`  center: ${center.lat.toFixed(4)}, ${center.lng.toFixed(4)}`);
 console.log(`  zoom: ${zoom}`);
-console.log(`  points used: ${points.length}`);
+console.log(`  points used: ${kept.length} of ${points.length} (${points.length - kept.length} outliers dropped)`);
