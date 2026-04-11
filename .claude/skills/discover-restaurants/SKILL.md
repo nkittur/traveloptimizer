@@ -56,38 +56,48 @@ Aim for **≥3 high-credibility editorial lists + ≥1 crowd-wisdom source**. Th
 
 ## Step 3 — Scrape with Playwright MCP
 
+**What the scrape is for (and what it is NOT for):**
+- ✅ The scrape's job is to capture **name + editorial prose + source attribution** for each restaurant on each list. That's it.
+- ❌ **Do not hunt for addresses, phone numbers, opening hours, price level, lat/lng, rating, or photos** in the scraped HTML. Those are enrichment-layer concerns. Google Places is the authoritative source and the enrichment scripts (`enrich-group-details`, `enrich-group-geocode`, `enrich-group-photos`) fill them in deterministically in Step 6.
+- ❌ **Do not drill into per-restaurant detail pages** on the source site to extract structured venue data. Google Places already has it and will be more up-to-date.
+
+A successful scrape of a single list source yields entries with just: `name`, `highlights` (editorial reasoning), `insiderTip` (if the source calls it out), `notes` (anything source-specific worth preserving), and a `sources` entry. Neighborhood is optional — capture it if the source mentions it by name, skip it if not. **Leave address/price/hours/rating/photos as null.**
+
+Why: the scrape exists to answer "which restaurants belong in this group and why", not "where is this restaurant and when is it open". Mixing the two layers makes the scrape fragile (sites restructure their markup, addresses go stale) and duplicates work the enrichment pipeline already does well.
+
 For each source:
 
 1. `mcp__playwright__browser_navigate` to the URL
 2. `mcp__playwright__browser_snapshot` to get structured content
-3. Extract entries into the canonical shape (see Step 4)
-4. If a site paginates or hides content behind interaction (click-to-expand, "show more"), use `mcp__playwright__browser_click` / `browser_evaluate` to get the full list
+3. If a site paginates or hides content behind interaction (click-to-expand, "show more", next-slide buttons), use `mcp__playwright__browser_click` to walk through. This is the **preferred** way to get every entry on a list.
+4. **Pagination fallback**: if click-through fails (SPA that doesn't update the URL, broken handlers, rate-limited clicks), use `browser_evaluate` to read `window.__PRELOADED_STATE__`, `window.__NEXT_DATA__`, or `window.__INITIAL_STATE__` and extract the list array from there. Treat this as a fallback, not a first resort — state blobs can miss fields the rendered DOM has.
+5. Extract entries into the canonical shape (see Step 4)
 
 **Blocked sites**: Reddit often blocks headless browsers. If `browser_navigate` hits a block, try:
 - Google search for the thread title and read the cached snippet
 - Search for "<thread title> site:reddit.com" → click the Google result (Google's cache sometimes works)
 - Skip Reddit for this group if all paths are blocked and note it in the discovery_run summary
 
-**CRITICAL — feedback_verify_locations**: never claim a restaurant is at a specific location, neighborhood, or address unless a source explicitly confirms it. Past incident: a prior run hallucinated "Burgatory at Ross Park Mall" — Burgatory isn't there. If you're not sure, leave the field null and add a note. Never guess.
+**CRITICAL — feedback_verify_locations**: never claim a restaurant is in a specific neighborhood unless the source explicitly says so. Past incident: a prior run hallucinated "Burgatory at Ross Park Mall" — Burgatory isn't there. If you're not sure, leave `neighborhood` null and let the enrichment pipeline's geocode result speak for itself. Never guess.
 
 ## Step 4 — Normalize to canonical schema
 
-Every entry becomes this shape (matches existing SD data):
+Every entry becomes this shape. **Leave operational fields null** — the enrichment pipeline fills them in from Google Places.
 
 ```json
 {
   "id": "slug-of-name",
   "name": "Display Name",
-  "neighborhood": "District / area name or null",
-  "address": "Full street address or null",
-  "price": "$$ | $$$ | $$$$ or null",
-  "cuisine": "Short description, e.g. 'Catalan tapas' or 'New American'",
-  "openFor": ["lunch", "dinner"] or null,
-  "highlights": "1-3 sentence summary of why it's on the list. What's the dish? the vibe?",
-  "insiderTip": "one-line tip from the source, or null",
-  "website": "https://... or null",
+  "neighborhood": null,
+  "address": null,
+  "price": null,
+  "cuisine": "Short description if the source names a style, e.g. 'Catalan tapas' — else null",
+  "openFor": null,
+  "highlights": "1-3 sentence summary from the source: why it's on the list, what's the dish/vibe/story",
+  "insiderTip": "one-line 'do this' tip if the source has one, else null",
+  "website": null,
   "inTargetArea": true,
-  "notes": "any caveat worth preserving, or null",
+  "notes": "source-specific caveat worth preserving, else null",
   "sources": [
     { "type": "eater", "detail": "Eater 38 Best Restaurants in <city>", "rank": 7 },
     { "type": "infatuation", "detail": "The Infatuation 25 Best" }
@@ -95,10 +105,17 @@ Every entry becomes this shape (matches existing SD data):
 }
 ```
 
+**Scrape-owned** (you fill from the source): `id`, `name`, `highlights`, `insiderTip`, `cuisine` (only if source names it), `notes`, `sources`, `inTargetArea`.
+
+**Enrichment-owned** (leave null, the pipeline writes them): `address`, `neighborhood`, `price`, `openFor`, `website`, plus `lat`, `lng`, `googleRating`, `googleReviewCount`, `openingHours`, `photos`, `photoUrl`.
+
+Neighborhood is a gray area — if the source names it unambiguously ("Bar Canyí in Sant Antoni"), capture it. If not, leave null; the Places API lookup will often recover it from the formatted address or locality.
+
 Rules:
-- **id**: lowercase, hyphenated, stripped of punctuation (same slug function as existing build.mjs). Must be unique within the group.
-- **Dedupe across sources**: fuzzy-match by normalized name. When the same restaurant appears in multiple sources, merge into one entry and push all source refs into `sources`.
-- **inTargetArea**: true for Phase-2 first pass (target area is derived post-geocode). After first run you can refine.
+- **id**: lowercase, hyphenated, stripped of punctuation (use the `slugify` helper in `tools/_db.mjs`). Must be unique within the group.
+- **Dedupe across sources**: fuzzy-match by normalized name. When the same restaurant appears in multiple sources, merge into one entry and push all source refs into `sources`. The upsert helper does this automatically on re-runs — merging happens on source-field union.
+- **Text cleanup**: strip HTML entities (`&nbsp;`, `&amp;`, `&apos;`), collapse markdown link syntax `[text](url)` → `text`, strip Kramdown link attributes `{: target="_blank"}`, normalize whitespace. Many editorial CMSs leak these.
+- **Truncate `highlights`** to ~500 characters. Longer review text should end up in `notes` if it's worth keeping.
 - **sources[].type**: one of `eater`, `eater_new`, `infatuation`, `michelin`, `timeout`, `cnt`, `50best`, `newspaper`, `reddit`, `local_blog`, `manual`.
 
 Deliver the full array to stdin of the upsert helper.
