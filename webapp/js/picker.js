@@ -31,7 +31,7 @@ function render() {
     <div class="picker-page">
       <header class="picker-header">
         <h1>Restaurants</h1>
-        <p class="picker-subtitle">Pick a city group to open or create your own.</p>
+        <p class="picker-subtitle">Pick a city group to browse, vote, and comment on.</p>
       </header>
       <main class="picker-main">
         ${myGroups.length ? `
