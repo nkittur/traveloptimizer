@@ -140,13 +140,44 @@ Every entry becomes this shape. **Leave operational fields null** — the enrich
 Neighborhood is a gray area — if the source names it unambiguously ("Bar Canyí in Sant Antoni"), capture it. If not, leave null; the Places API lookup will often recover it from the formatted address or locality.
 
 Rules:
-- **id**: lowercase, hyphenated, stripped of punctuation (use the `slugify` helper in `tools/_db.mjs`). Must be unique within the group.
-- **Dedupe across sources**: fuzzy-match by normalized name. When the same restaurant appears in multiple sources, merge into one entry and push all source refs into `sources`. The upsert helper does this automatically on re-runs — merging happens on source-field union.
+- **id**: lowercase, hyphenated, NFD-normalized (accents stripped, not hyphenated). Use the `slugify` helper in `tools/_db.mjs` — it handles the NFD step correctly. Must be unique within the group.
 - **Text cleanup**: strip HTML entities (`&nbsp;`, `&amp;`, `&apos;`), collapse markdown link syntax `[text](url)` → `text`, strip Kramdown link attributes `{: target="_blank"}`, normalize whitespace. Many editorial CMSs leak these.
 - **Truncate `highlights`** to ~500 characters. Longer review text should end up in `notes` if it's worth keeping.
 - **sources[].type**: one of `eater`, `eater_new`, `infatuation`, `michelin`, `timeout`, `cnt`, `50best`, `newspaper`, `reddit`, `local_blog`, `manual`.
 
-Deliver the full array to stdin of the upsert helper.
+### Cross-source merging — do this yourself, never use heuristics
+
+When the same restaurant appears in multiple sources, you must merge the entries and union their `sources` arrays. **Do not rely on fuzzy substring/prefix matching to find duplicates.** A prior run used substring matching and falsely merged "El Rectangle" with "Angle" because `"rectangle".includes("angle")` is true. The damage from false positives (wrong restaurant shown, wrong source attribution) is much worse than a missed merge, so the bar for calling two entries "the same" is: **you personally verified it**.
+
+The process for each city:
+
+1. **Enumerate every unique raw name** you've scraped across all sources. Read them. Don't skim.
+2. **Identify merge pairs through judgment**, looking for:
+   - Identical names, modulo case/accents (those merge naturally via `slugify`, no action needed)
+   - **Name drift**: "Lasarte" vs "Restaurante Lasarte", "Amar" vs "Amar Barcelona", "Martínez" vs "Terraza Martínez" — same restaurant, different display choices
+   - **Truncations**: "COME Barcelona" vs "COME by Paco Méndez" — one source uses the short marketing name, another uses the full name
+   - **Translations / local-language variants**: e.g. Chinese / Japanese / Arabic names that different sources romanize differently
+   - **Punctuation or emphasis variants**: "Mont Bar", "Mont. Bar", "MONT BAR"
+3. **For each merge pair, decide the canonical display name**. Pick the one that's clearest to a reader who's never been there — usually the shortest recognizable form. Michelin-official / chef-official names beat marketing truncations.
+4. **Build a `CANONICAL_MERGES` table** in your per-city normalizer script. Format:
+   ```js
+   const CANONICAL_MERGES = {
+     // <raw slug that slugify() would produce from the source's display name>
+     'restaurante-lasarte': { slug: 'lasarte',             name: 'Lasarte' },
+     'amar-barcelona':      { slug: 'amar',                name: 'Amar' },
+     'come-barcelona':      { slug: 'come-by-paco-mendez', name: 'COME by Paco Méndez' },
+     'martinez':            { slug: 'terraza-martinez',    name: 'Terraza Martínez' },
+     // Self-mapping entries force the accented display name to win over a raw-ASCII variant:
+     'terraza-martinez':    { slug: 'terraza-martinez',    name: 'Terraza Martínez' },
+   };
+   ```
+5. **Run each raw entry's name through `slugify`** and check the merge table. Entries not in the table pass through with `{ slug: slugify(name), name }`. The normalizer then groups by final slug — natural same-slug entries merge for free, explicit merges happen via the table.
+
+Look at `tools/_normalize-barcelona.mjs` for the working example. Every new city needs its own `_normalize-<city>.mjs` with its own hand-verified merge table. When uncertain whether two entries are the same, **skip the merge** (leave them as separate rows). Two rows that should be one is a small cosmetic issue; one row that should be two is wrong data.
+
+Before committing, print the merge table's effect: list multi-source entries and eyeball them. Any row showing sources from wildly different cuisines or price ranges is probably a false merge — investigate before upserting.
+
+Deliver the full normalized array to stdin of the upsert helper.
 
 ## Step 5 — Create the discovery run + upsert rows
 
@@ -158,9 +189,11 @@ This script:
 1. Inserts a new `discovery_runs` row and gets back `run_id`
 2. For each incoming restaurant:
    - If not in `group_restaurants`: insert with `first_seen_run = run_id`, `last_seen_run = run_id`, `status = 'active'`
-   - If already present: update `last_seen_run = run_id`, merge new source refs into the jsonb `data.sources`
+   - If already present: **replace** the `data.sources` array with the incoming sources, preserve enrichment fields (`lat`, `lng`, `googleRating`, `googleReviewCount`, `openingHours`, `photos`, `photoUrl`, `price`) from the existing row, update `last_seen_run = run_id`
 3. For existing rows NOT in the incoming set: set `status = 'removed'` (keeps votes/comments for audit + "no longer recommended" display)
 4. Finalizes the discovery_runs row with `places_added`, `places_removed`, `places_still_present`, `completed_at`, `summary`
+
+**Important — each run is a complete snapshot.** The upsert does not merge sources across runs. If your current normalizer omits a source that a previous run included, that source attribution goes away. This is on purpose: it prevents stale source strings (from earlier format drifts) accumulating forever. If you want a source preserved, keep it in the normalizer. Enrichment fields (geocoding, ratings, photos, hours, price) ARE preserved across runs — you don't re-do Google API calls for restaurants that are still on the list.
 
 Pipe the normalized JSON in via stdin or a temp file. The script prints the run id and counts.
 
