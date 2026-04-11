@@ -60,7 +60,7 @@ export async function loadGroups(ids) {
   return data;
 }
 
-export async function createGroup({ name, cityName, citySlug, country, criteria, createdByName }) {
+export async function createGroup({ name, cityName, citySlug, country, criteria, createdByName, isPublic = false }) {
   const { data, error } = await sb()
     .from('groups')
     .insert({
@@ -70,11 +70,37 @@ export async function createGroup({ name, cityName, citySlug, country, criteria,
       country,
       criteria: criteria || {},
       created_by_name: createdByName || null,
+      is_public: !!isPublic,
     })
     .select()
     .single();
   if (error) { console.error('createGroup:', error); return null; }
   return data;
+}
+
+// Public groups — shown in the picker's "Discover" section.
+export async function loadPublicGroups() {
+  const { data, error } = await sb()
+    .from('groups')
+    .select('id,name,city_name,country,created_at')
+    .eq('is_public', true)
+    .order('created_at', { ascending: true });
+  if (error) { console.error('loadPublicGroups:', error); return []; }
+  return data;
+}
+
+// Count the active restaurants in a batch of groups (single query).
+export async function countActiveRestaurants(groupIds) {
+  if (!groupIds?.length) return {};
+  const { data, error } = await sb()
+    .from('group_restaurants')
+    .select('group_id')
+    .in('group_id', groupIds)
+    .eq('status', 'active');
+  if (error) { console.error('countActiveRestaurants:', error); return {}; }
+  const counts = {};
+  for (const row of data) counts[row.group_id] = (counts[row.group_id] || 0) + 1;
+  return counts;
 }
 
 // ── Restaurants (per-group) ──

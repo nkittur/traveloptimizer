@@ -1,9 +1,12 @@
-// picker.js — Pre-screen: list my groups, join via link, create new.
+// picker.js — Pre-screen: list my groups, browse public groups, join via link, create new.
 import * as db from './supabase.js?v=1775460000';
 import * as groupCtx from './group.js?v=1775460000';
 
 const $root = document.getElementById('picker-root');
 $root.hidden = false;
+
+let _publicGroups = [];
+let _publicCounts = {};
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -19,35 +22,70 @@ function timeAgo(ts) {
 }
 
 function render() {
-  const groups = groupCtx.getMyGroups();
+  const myGroups = groupCtx.getMyGroups();
+  const myIds = new Set(myGroups.map(g => g.id));
+  // Don't show a public group in "Discover" if it's already in "Your groups"
+  const discover = _publicGroups.filter(g => !myIds.has(g.id));
 
   $root.innerHTML = `
     <div class="picker-page">
       <header class="picker-header">
-        <h1>Your groups</h1>
+        <h1>Restaurants</h1>
+        <p class="picker-subtitle">Pick a city group to open or create your own.</p>
       </header>
       <main class="picker-main">
-        ${groups.length ? `
-          <ul class="picker-list">
-            ${groups.map(g => `
-              <li class="picker-card" data-action="open" data-id="${esc(g.id)}">
-                <div class="picker-card-main">
-                  <div class="picker-card-title">${esc(g.name || g.cityName || 'Group')}</div>
-                  <div class="picker-card-sub">${esc(g.cityName || '')} · ${esc(g.myName ? 'as ' + g.myName : 'no name yet')} · ${timeAgo(g.lastVisitedAt)}</div>
-                </div>
-                <div class="picker-card-actions">
-                  <button class="picker-icon-btn" data-action="share" data-id="${esc(g.id)}" aria-label="Copy share link">🔗</button>
-                  <button class="picker-icon-btn" data-action="forget" data-id="${esc(g.id)}" aria-label="Remove from list">×</button>
-                </div>
-              </li>
-            `).join('')}
-          </ul>
-        ` : `
+        ${myGroups.length ? `
+          <section class="picker-section">
+            <h2 class="picker-section-title">Your groups</h2>
+            <ul class="picker-list">
+              ${myGroups.map(g => `
+                <li class="picker-card" data-action="open" data-id="${esc(g.id)}">
+                  <div class="picker-card-main">
+                    <div class="picker-card-title">${esc(g.name || g.cityName || 'Group')}</div>
+                    <div class="picker-card-sub">${esc(g.cityName || '')} · ${esc(g.myName ? 'as ' + g.myName : 'no name yet')} · ${timeAgo(g.lastVisitedAt)}</div>
+                  </div>
+                  <div class="picker-card-actions">
+                    <button class="picker-icon-btn" data-action="share" data-id="${esc(g.id)}" aria-label="Copy share link">🔗</button>
+                    <button class="picker-icon-btn" data-action="forget" data-id="${esc(g.id)}" aria-label="Remove from list">×</button>
+                  </div>
+                </li>
+              `).join('')}
+            </ul>
+          </section>
+        ` : ''}
+
+        ${discover.length ? `
+          <section class="picker-section">
+            <h2 class="picker-section-title">Discover</h2>
+            <p class="picker-section-sub">Public groups anyone can browse, vote, and comment on.</p>
+            <ul class="picker-list">
+              ${discover.map(g => {
+                const count = _publicCounts[g.id];
+                return `
+                <li class="picker-card picker-card-public" data-action="open" data-id="${esc(g.id)}">
+                  <div class="picker-card-main">
+                    <div class="picker-card-title">${esc(g.name || g.city_name || 'Group')}</div>
+                    <div class="picker-card-sub">
+                      ${esc(g.city_name || '')}${g.country ? ', ' + esc(g.country) : ''}
+                      ${count ? ` · ${count} restaurants` : ''}
+                    </div>
+                  </div>
+                  <div class="picker-card-actions">
+                    <span class="picker-pill-public">Public</span>
+                  </div>
+                </li>
+                `;
+              }).join('')}
+            </ul>
+          </section>
+        ` : ''}
+
+        ${!myGroups.length && !discover.length ? `
           <div class="picker-empty">
             <p>No groups yet.</p>
             <p class="picker-hint">Create a new one or paste a share link from someone.</p>
           </div>
-        `}
+        ` : ''}
 
         <div class="picker-actions">
           <button class="picker-btn picker-btn-primary" data-action="create">+ Create new group</button>
@@ -107,6 +145,10 @@ function showCreateModal() {
           <span>Criteria (optional, free text)</span>
           <textarea name="criteria" rows="3" placeholder="e.g. kid-friendly, outdoor seating, under $60pp"></textarea>
         </label>
+        <label class="picker-checkbox">
+          <input type="checkbox" name="isPublic">
+          <span><strong>Make this group public</strong> — discoverable on the home page, anyone can join, vote, and comment.</span>
+        </label>
         <div class="picker-modal-actions">
           <button type="button" class="picker-btn" data-action="close-modal">Cancel</button>
           <button type="submit" class="picker-btn picker-btn-primary">Create</button>
@@ -129,11 +171,13 @@ function showCreateModal() {
     const country = form.country.value.trim() || null;
     const myName = form.myName.value.trim();
     const criteriaText = form.criteria.value.trim();
+    const isPublic = form.isPublic.checked;
     const citySlug = cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     const group = await db.createGroup({
       name, cityName, citySlug, country,
       criteria: criteriaText ? { freeText: criteriaText } : {},
       createdByName: myName,
+      isPublic,
     });
     if (!group) {
       submit.disabled = false;
@@ -202,4 +246,13 @@ $root.addEventListener('click', (e) => {
   if (action === 'join') { showJoinModal(); return; }
 });
 
+// Initial render with whatever we know synchronously, then hydrate with public groups.
 render();
+
+(async () => {
+  _publicGroups = await db.loadPublicGroups();
+  if (_publicGroups.length) {
+    _publicCounts = await db.countActiveRestaurants(_publicGroups.map(g => g.id));
+  }
+  render();
+})();
