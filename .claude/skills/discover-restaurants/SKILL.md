@@ -1,15 +1,18 @@
 ---
 name: discover-restaurants
-description: Populate a group's restaurant list by scraping credible best-of lists for its city, normalizing them into the canonical schema, and writing to Supabase. Handles both fresh discovery (empty group) and refresh (diff against existing). Triggered when the user says "discover restaurants for group <id>", "populate <group>", or "refresh restaurants for <group>".
+description: Create and populate a city restaurant group. Scrapes credible best-of lists with Playwright MCP, normalizes into the canonical schema, and writes to Supabase. Handles creating a new group (if the user names a fresh city), fresh discovery against an empty group, and refresh (diff against existing). Triggered when the user says "discover restaurants for <city>", "populate <group>", or "refresh restaurants for <group>".
 user-invocable: true
-argument-hint: "<group-id>"
+argument-hint: "<group-id> | <city name>"
 ---
 
-Populate a group's `group_restaurants` table by finding ≥3 credible best-of restaurant lists for the group's city, scraping them with Playwright MCP, normalizing into the canonical schema, and upserting.
+Create or populate a group's `group_restaurants` table by finding ≥3 credible best-of restaurant lists for the group's city, scraping them with Playwright MCP, normalizing into the canonical schema, and upserting.
+
+**Important**: groups are created exclusively here (via `tools/create-group.mjs`) or by the operator directly via the CLI. The webapp picker is read-only — it never creates groups. If the user wants a new city, this skill is where it starts.
 
 ## Inputs
 
-- **group-id** (required, 8-char token): the group to populate. Look it up in the `groups` Supabase table to get city, country, criteria, target area.
+- **Either**: an existing 8-char group token (e.g. `fgvy96yg`) — populate or refresh that group
+- **Or**: a city name and optional criteria — create a new group first, then populate it. Ask the user any missing details (country, public vs private, their name, criteria focus) before creating the row.
 
 ## Preconditions
 
@@ -17,18 +20,43 @@ Populate a group's `group_restaurants` table by finding ≥3 credible best-of re
 2. **Playwright MCP is available.** Every scrape MUST go through `mcp__playwright__browser_*` — never WebFetch on a JavaScript-driven site (Eater, Infatuation, Reddit, Yelp, Michelin all JS-render).
 3. **Google APIs key** (`GOOGLE_MAPS_API_KEY` in `.env`) is only used by downstream enrichment scripts, not this skill.
 
-## Step 1 — Load group context
+## Step 1 — Load or create the group
+
+**If the user gave a group id**, load it:
 
 ```
 node tools/get-group.mjs <group-id>
 ```
 
-Prints the group row. Extract:
+Prints the group row. If the id doesn't resolve, stop and tell the user the token is wrong.
+
+**If the user gave a city name (no id)**, you need to create the group first. Confirm the details interactively before creating — don't guess. Ask for any missing pieces:
+
+- **name** — short display name for the picker, e.g. "Tokyo 2026 — Izakaya Hunt". If the user doesn't offer one, propose `"<City>"` as the default.
+- **city** — canonical city name as it should appear in search queries (e.g. "Tokyo", not "東京"; "Mexico City", not "CDMX"). Required.
+- **country** — improves geocoding fallbacks for international cities. Ask if not obvious.
+- **public** — should this show up on the home-page Discover list so anyone can browse/vote/comment? Default to **private** unless the user says otherwise.
+- **criteria** — free-text on vibe/price/focus. Biases source selection and filtering in Step 2. Empty is fine.
+- **by** — the user's name, stamped as `created_by_name`.
+
+Then create it:
+
+```
+node tools/create-group.mjs \
+  --name "<display name>" \
+  --city "<city>" \
+  --country "<country>" \
+  --criteria "<free text or omit>" \
+  --by "<user name>" \
+  [--public]
+```
+
+The command prints the new 8-char token to stdout. Capture it and use it as `<group-id>` for the rest of the pipeline.
+
+From the loaded/created group row, extract:
 - `city_name`, `country` → used in every search query
 - `criteria.freeText` → biases source selection + filtering
-- `target_area` (may be null on first run — derived by this skill)
-
-If the group doesn't exist, stop and tell the user the id is wrong.
+- `target_area` (null on first run — derived by Step 6's enrichment pipeline)
 
 ## Step 2 — Pick sources
 

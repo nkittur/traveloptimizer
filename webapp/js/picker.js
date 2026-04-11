@@ -82,13 +82,12 @@ function render() {
 
         ${!myGroups.length && !discover.length ? `
           <div class="picker-empty">
-            <p>No groups yet.</p>
-            <p class="picker-hint">Create a new one or paste a share link from someone.</p>
+            <p>No groups here yet.</p>
+            <p class="picker-hint">Paste a share link from someone to join a private group.</p>
           </div>
         ` : ''}
 
         <div class="picker-actions">
-          <button class="picker-btn picker-btn-primary" data-action="create">+ Create new group</button>
           <button class="picker-btn" data-action="join">Join via link</button>
         </div>
       </main>
@@ -116,80 +115,6 @@ function flash(msg) {
   el.textContent = msg;
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 1600);
-}
-
-function showCreateModal() {
-  const modal = document.createElement('div');
-  modal.className = 'picker-modal-overlay';
-  modal.innerHTML = `
-    <div class="picker-modal">
-      <h2>Create a new group</h2>
-      <form class="picker-form" id="create-form">
-        <label>
-          <span>Group name</span>
-          <input type="text" name="name" placeholder="e.g. SF 2026 Birthday Trip" required autofocus>
-        </label>
-        <label>
-          <span>City</span>
-          <input type="text" name="city" placeholder="e.g. San Francisco" required>
-        </label>
-        <label>
-          <span>Country (optional)</span>
-          <input type="text" name="country" placeholder="e.g. USA">
-        </label>
-        <label>
-          <span>Your name</span>
-          <input type="text" name="myName" placeholder="e.g. Naveen" required>
-        </label>
-        <label>
-          <span>Criteria (optional, free text)</span>
-          <textarea name="criteria" rows="3" placeholder="e.g. kid-friendly, outdoor seating, under $60pp"></textarea>
-        </label>
-        <label class="picker-checkbox">
-          <input type="checkbox" name="isPublic">
-          <span><strong>Make this group public</strong> — discoverable on the home page, anyone can join, vote, and comment.</span>
-        </label>
-        <div class="picker-modal-actions">
-          <button type="button" class="picker-btn" data-action="close-modal">Cancel</button>
-          <button type="submit" class="picker-btn picker-btn-primary">Create</button>
-        </div>
-      </form>
-    </div>
-  `;
-  document.body.appendChild(modal);
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal || e.target.dataset.action === 'close-modal') modal.remove();
-  });
-  modal.querySelector('#create-form').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const submit = form.querySelector('button[type=submit]');
-    submit.disabled = true;
-    submit.textContent = 'Creating…';
-    const name = form.name.value.trim();
-    const cityName = form.city.value.trim();
-    const country = form.country.value.trim() || null;
-    const myName = form.myName.value.trim();
-    const criteriaText = form.criteria.value.trim();
-    const isPublic = form.isPublic.checked;
-    const citySlug = cityName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    const group = await db.createGroup({
-      name, cityName, citySlug, country,
-      criteria: criteriaText ? { freeText: criteriaText } : {},
-      createdByName: myName,
-      isPublic,
-    });
-    if (!group) {
-      submit.disabled = false;
-      submit.textContent = 'Create';
-      flash('Something went wrong');
-      return;
-    }
-    groupCtx.rememberGroup(group, myName);
-    // Scope user name to the new group's id before navigating so app.js finds it
-    localStorage.setItem(`user-name:${group.id}`, myName);
-    location.href = `/?g=${encodeURIComponent(group.id)}`;
-  });
 }
 
 function showJoinModal() {
@@ -242,7 +167,6 @@ $root.addEventListener('click', (e) => {
     render();
     return;
   }
-  if (action === 'create') { showCreateModal(); return; }
   if (action === 'join') { showJoinModal(); return; }
 });
 
