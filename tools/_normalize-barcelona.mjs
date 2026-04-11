@@ -105,6 +105,34 @@ const eaterRaw = JSON.parse(readFileSync(resolve(REPO_ROOT, 'eater-barcelona-raw
 // raw inputs that informed each composition.
 const handCrafted = JSON.parse(readFileSync(resolve(REPO_ROOT, 'trips/places/barcelona-descriptions.json'), 'utf-8'));
 
+// ── Source article URLs ──
+// These get attached to each source entry so the webapp's detail view can
+// render linked source titles (open in new tab).
+const SOURCE_ARTICLES = {
+  cnt: {
+    url: 'https://www.cntraveler.com/gallery/best-restaurants-in-barcelona',
+    detail: 'Condé Nast Traveler — 34 Best Restaurants in Barcelona',
+  },
+  eater: {
+    url: 'https://www.eater.com/maps/best-restaurants-barcelona-spain',
+    detail: 'Eater — 38 Best Restaurants in Barcelona',
+  },
+  michelin: {
+    url: 'https://guide.michelin.com/us/en/catalunya/barcelona/restaurants/all-starred',
+    detail: 'Michelin Guide — Barcelona All-Starred',
+  },
+  timeout: {
+    url: 'https://www.timeout.com/barcelona/restaurants/best-restaurants-in-barcelona',
+    detail: 'Time Out Barcelona — Best Restaurants',
+  },
+};
+
+// 50 Best has different URLs per year
+const BEST50_URLS = {
+  2025: 'https://www.theworlds50best.com/list/1-50',
+  2024: 'https://www.theworlds50best.com/the-list/archive/2024',
+};
+
 // ── Normalize each source into canonical shape ──
 
 // makeEntry stores the raw, un-truncated description under _rawDescs[sourceType].
@@ -131,38 +159,44 @@ function makeEntry(rawName, rawDescription, source) {
 }
 
 function normalizeCnt() {
+  const art = SOURCE_ARTICLES.cnt;
   return cntRaw.map((it, idx) => makeEntry(
     unesc(it.name),
     it.originalVenue?.dek || '',
-    { type: 'cnt', detail: "Condé Nast Traveler — 34 Best Restaurants in Barcelona", rank: idx + 1 },
+    { type: 'cnt', detail: art.detail, url: art.url, rank: idx + 1 },
   ));
 }
 
 function normalizeMichelin() {
+  const art = SOURCE_ARTICLES.michelin;
   return michelinRaw.map(it => makeEntry(
     unesc(it.name),
     null, // Michelin list page has no prose — only the star-count fact (used by composeHighlights)
-    { type: 'michelin', detail: 'Michelin Guide Spain', distinction: it.distinction },
+    { type: 'michelin', detail: art.detail, url: art.url, distinction: it.distinction },
   ));
 }
 
 function normalizeEater() {
+  const art = SOURCE_ARTICLES.eater;
   return eaterRaw.map((it, idx) => makeEntry(
     unesc(it.name),
     it.review || '',
-    { type: 'eater', detail: 'Eater — 38 Best Restaurants in Barcelona', rank: idx + 1 },
+    { type: 'eater', detail: art.detail, url: art.url, rank: idx + 1 },
   ));
 }
 
 function normalizeTimeout() {
   // Time Out entries are already in the canonical shape from the earlier
-  // hand-written file. Re-run canonicalize() for name drift, and move their
-  // highlights field into _rawDescs so composeHighlights sees it.
+  // hand-written file. Re-run canonicalize() for name drift, move highlights
+  // into _rawDescs, and upgrade the source entry with the article URL.
+  const art = SOURCE_ARTICLES.timeout;
   return timeoutEntries.map(e => {
     const { slug, name } = canonicalize(e.name);
-    const out = { ...e, id: slug, name, _rawDescs: {} };
+    const sources = (e.sources || []).map(s =>
+      s.type === 'timeout' ? { ...s, detail: art.detail, url: art.url } : s
+    );
+    const out = { ...e, id: slug, name, sources, _rawDescs: {} };
     if (e.highlights) out._rawDescs.timeout = unesc(e.highlights);
-    // Time Out's insiderTip is useful editorial color — keep it
     return out;
   });
 }
@@ -212,7 +246,12 @@ const worldsBest = [
 addAll(worldsBest.map(wb => makeEntry(
   wb.name,
   `Listed on The World's 50 Best Restaurants ${wb.year} (#${wb.rank}).`,
-  { type: '50best', detail: `The World's 50 Best Restaurants ${wb.year} #${wb.rank}`, rank: wb.rank },
+  {
+    type: '50best',
+    detail: `The World's 50 Best Restaurants ${wb.year} #${wb.rank}`,
+    url: BEST50_URLS[wb.year] || BEST50_URLS[2025],
+    rank: wb.rank,
+  },
 )));
 
 // ── Reddit (hand-curated from r/Barcelona threads) ──
@@ -272,15 +311,51 @@ const REDDIT_FINDS = [
     cuisine: 'Traditional Catalan' },
 ];
 
-const REDDIT_SOURCE_DETAIL = `r/Barcelona — ${REDDIT_THREADS.length} threads cross-referenced`;
+// Load each thread's comments so we can figure out which thread(s) mention
+// each REDDIT_FINDS restaurant by name. Used to attach per-restaurant thread
+// links to the source so the detail view can link to the actual threads.
+const threadCommentsById = {};
+for (const t of REDDIT_THREADS) {
+  try {
+    // Files live at the repo root (where I saved them with playwright_browser_evaluate)
+    const file = resolve(REPO_ROOT, `reddit-thread-${REDDIT_THREADS.indexOf(t) + 1}.json`);
+    threadCommentsById[t.id] = JSON.parse(readFileSync(file, 'utf-8'));
+  } catch {
+    threadCommentsById[t.id] = [];
+  }
+}
+
+function threadsMentioning(restaurantName) {
+  // Case-insensitive literal match. Restaurant names are usually distinctive
+  // enough that substring matching is safe — "Mont Bar" won't collide with
+  // anything, "Bar H" is rare enough to be unambiguous. If a false positive
+  // becomes a problem, add a word-boundary regex and an exclude list.
+  const needle = restaurantName.toLowerCase();
+  const hit = [];
+  for (const t of REDDIT_THREADS) {
+    const comments = threadCommentsById[t.id] || [];
+    if (comments.some(c => c.body?.toLowerCase().includes(needle))) {
+      hit.push({ title: t.title, url: t.url });
+    }
+  }
+  return hit;
+}
 
 for (const f of REDDIT_FINDS) {
+  const matchedThreads = threadsMentioning(f.name);
+  // Fallback: if we couldn't find mentions (the scan missed, or the comments
+  // used a nickname), just link to all threads.
+  const threads = matchedThreads.length ? matchedThreads : REDDIT_THREADS.map(t => ({ title: t.title, url: t.url }));
+  const detail = threads.length === 1
+    ? `r/Barcelona — ${threads[0].title}`
+    : `r/Barcelona — ${threads.length} threads`;
   const entry = makeEntry(
     f.name,
     f.highlights || null,
     {
       type: 'reddit',
-      detail: f.note || REDDIT_SOURCE_DETAIL,
+      detail,
+      threads,
       mentions: f.mentions,
     },
   );

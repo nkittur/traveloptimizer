@@ -1045,10 +1045,24 @@ body {
 }
 
 .source-detail {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
-.source-detail .badge { margin-bottom: 4px; }
-.source-detail p { margin-top: 4px; }
+.source-detail .badge { margin-bottom: 6px; }
+.source-detail p { margin-top: 4px; margin-bottom: 0; }
+.source-detail a {
+  color: var(--accent, #2563eb);
+  text-decoration: none;
+  word-break: break-word;
+}
+.source-detail a:hover,
+.source-detail a:active { text-decoration: underline; }
+.source-threads {
+  margin: 4px 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.source-threads li { margin-bottom: 2px; }
 .source-mentions { font-size: 12px; color: var(--text-secondary); }
 
 /* Comments */

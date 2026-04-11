@@ -24,6 +24,36 @@ const SOURCE_LABELS = {
   manual: 'Added',
 };
 
+// Detail-view source block. Renders clickable links when the source has a
+// URL (or a `threads` array for Reddit). Falls back to plain text for legacy
+// sources that don't have URLs attached (e.g. the SD group's existing data).
+function renderSourceDetail(s) {
+  const label = SOURCE_LABELS[s.type] || (s.type.charAt(0).toUpperCase() + s.type.slice(1));
+  const rankSuffix = s.rank ? ` #${s.rank}` : '';
+  const badge = `<span class="badge badge-${s.type}">${esc(label)}${rankSuffix}</span>`;
+
+  let body = '';
+  if (Array.isArray(s.threads) && s.threads.length) {
+    // Reddit with per-thread links
+    const threadLinks = s.threads.map(t =>
+      `<li><a href="${esc(t.url)}" target="_blank" rel="noopener noreferrer">${esc(t.title)}</a></li>`
+    ).join('');
+    body = `<ul class="source-threads">${threadLinks}</ul>`;
+  } else if (s.url) {
+    // Single article link
+    body = `<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.detail || s.url)}</a></p>`;
+  } else if (s.detail) {
+    // Legacy fallback — plain text
+    body = `<p>${esc(s.detail)}</p>`;
+  }
+
+  const mentions = s.mentions && !s.threads
+    ? `<p class="source-mentions">${s.mentions} Reddit mention${s.mentions > 1 ? 's' : ''}</p>`
+    : '';
+
+  return `<div class="source-detail">${badge}${body}${mentions}</div>`;
+}
+
 export function renderSourceBadges(sources) {
   if (!sources?.length) return '';
   return sources.map(s => {
@@ -336,13 +366,7 @@ export function renderDetail(r, us) {
       ${r.insiderTip ? `<div class="detail-section"><h4>Insider Tip</h4><p>${esc(r.insiderTip)}</p></div>` : ''}
       <div class="detail-section">
         <h4>Sources</h4>
-        ${r.sources.map(s => `
-          <div class="source-detail">
-            <span class="badge badge-${s.type}">${s.type}${s.rank ? ' #' + s.rank : ''}</span>
-            ${s.detail ? `<p>${esc(s.detail)}</p>` : ''}
-            ${s.mentions ? `<p class="source-mentions">${s.mentions} Reddit mention${s.mentions > 1 ? 's' : ''}</p>` : ''}
-          </div>
-        `).join('')}
+        ${r.sources.map(s => renderSourceDetail(s)).join('')}
       </div>
       <div class="detail-section">
         <h4>Comments</h4>
