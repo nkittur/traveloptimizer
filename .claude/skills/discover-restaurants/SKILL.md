@@ -144,6 +144,57 @@ The working recipe:
 
 ## Step 4 — Normalize to canonical schema
 
+### Compose descriptions AFTER all sources are collected, not during ingestion
+
+The `highlights` field on each restaurant is a Zagat-style composite built from every source that covered it. **Do not write `highlights` as you scrape each source** — you'll end up with first-arrival-wins truncation and miss multi-source credentials. Instead:
+
+1. **During ingestion**, store each source's raw, un-truncated description on a scratch field keyed by source type (e.g. `_rawDescs: { cnt: "…", eater: "…", timeout: "…" }`). Don't try to summarize anything yet.
+2. **After all sources are merged** for a restaurant, run a `composeHighlights()` pass that builds the final string.
+
+`composeHighlights()` produces three parts, joined with spaces:
+
+**1. Credentials line** (multi-source facts, always first):
+- Michelin distinction from `distinction` on the michelin source: `"Three Michelin stars"` / `"Two Michelin stars"` / `"One Michelin star"` / `"Michelin Bib Gourmand"`
+- World's 50 Best rank with year: `"World's 50 Best #1 (2024)"`
+- Eater rank (only if no Michelin or 50 Best already mentioned): `"Eater 38 Best #7"`
+- Joined with `; ` and a trailing period.
+
+**2. Narrative** (prose from the richest available source):
+Pick in preference order `['cnt', 'eater', 'timeout', 'reddit']` — take the first one with text length ≥40 chars. Run through **sentence-boundary truncation** (see below). Budget ~600 chars when credentials exist, ~750 when they don't. NEVER mid-sentence truncate.
+
+**3. Reddit coda** (only if Reddit is a source AND the narrative didn't already come from Reddit):
+`"r/<City> <N> mentions."` — appending this when Reddit already provided the narrative is redundant, so skip it.
+
+Example output for Disfrutar (3 sources — CNT + Michelin + 50 Best):
+
+> *"Three Michelin stars; World's 50 Best #1 (2024). A meal at Disfrutar is like a performance: There's fire, ice, smoke, and lots of flavor and color. What started as an exciting new project by three ex-chefs from the late, great El Bulli has achieved the pinnacle of success in its own right—being awarded three Michelin stars and named the best restaurant in the world—officially, in the 2024 edition of The World's 50 Best Restaurants. The tasting menus that are playful, unpredictable, often surprising us by telling our eyes one thing but sending our taste buds a completely different message."*
+
+Example output for ABaC (Michelin-only, no editorial prose):
+
+> *"Three Michelin stars."*
+
+That's fine — single-credential entries get a short line. Don't pad them with fake content.
+
+### Sentence-boundary truncation (never mid-sentence)
+
+Past runs used a hard char slice (`.slice(0, 500)`) that cut mid-word ("…sending our taste buds a comp"). The fix is to split on `[^.!?]+[.!?]+` and keep adding whole sentences until adding the next one would overflow the budget. Reference implementation in `tools/_normalize-barcelona.mjs#sentenceTruncate`.
+
+```js
+function sentenceTruncate(s, maxChars = 700) {
+  if (!s) return null;
+  const sentences = s.match(/[^.!?]+[.!?]+/g) || [s];
+  let out = '';
+  for (const sent of sentences) {
+    if (out.length > 0 && out.length + sent.length > maxChars) break;
+    out += sent;
+    if (out.length >= maxChars * 0.95) break;
+  }
+  return out.trim() || s.slice(0, maxChars).trimEnd() + '…';
+}
+```
+
+### Canonical schema
+
 Every entry becomes this shape. **Leave operational fields null** — the enrichment pipeline fills them in from Google Places.
 
 ```json

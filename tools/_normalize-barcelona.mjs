@@ -33,11 +33,28 @@ function unesc(s) {
     .trim();
 }
 
-function firstSentences(s, n = 3, max = 500) {
+// Truncate text to complete sentences that fit within maxChars. Never slice
+// mid-sentence. If even the first sentence is longer than maxChars, fall back
+// to a char-limited version (edge case, rare for review prose).
+function sentenceTruncate(s, maxChars = 700) {
   if (!s) return null;
   const clean = unesc(s);
   const sentences = clean.match(/[^.!?]+[.!?]+/g) || [clean];
-  return sentences.slice(0, n).join(' ').trim().slice(0, max) || null;
+  let out = '';
+  for (const sent of sentences) {
+    if (out.length > 0 && out.length + sent.length > maxChars) break;
+    out += sent;
+    if (out.length >= maxChars * 0.95) break;
+  }
+  out = out.trim();
+  // Fallback: if we got nothing (first sentence too long), truncate at
+  // the last space before maxChars so we at least don't split a word.
+  if (!out && clean.length) {
+    const hardLimit = clean.slice(0, maxChars);
+    const lastSpace = hardLimit.lastIndexOf(' ');
+    out = (lastSpace > maxChars * 0.5 ? hardLimit.slice(0, lastSpace) : hardLimit).trim() + '…';
+  }
+  return out || null;
 }
 
 // ── Canonical merge table — explicit, hand-verified ──
@@ -81,7 +98,10 @@ const eaterRaw = JSON.parse(readFileSync(resolve(REPO_ROOT, 'eater-barcelona-raw
 
 // ── Normalize each source into canonical shape ──
 
-function makeEntry(rawName, highlights, source) {
+// makeEntry stores the raw, un-truncated description under _rawDescs[sourceType].
+// Final `highlights` is composed AFTER all sources are merged — see
+// composeHighlights() below.
+function makeEntry(rawName, rawDescription, source) {
   const { slug, name } = canonicalize(rawName);
   return {
     id: slug,
@@ -91,54 +111,50 @@ function makeEntry(rawName, highlights, source) {
     price: null,
     cuisine: null,
     openFor: null,
-    highlights,
+    highlights: null, // composed post-merge
     insiderTip: null,
     website: null,
     inTargetArea: true,
     notes: null,
     sources: [source],
+    _rawDescs: rawDescription ? { [source.type]: unesc(rawDescription) } : {},
   };
 }
 
 function normalizeCnt() {
   return cntRaw.map((it, idx) => makeEntry(
     unesc(it.name),
-    firstSentences(it.originalVenue?.dek || '', 3, 500),
+    it.originalVenue?.dek || '',
     { type: 'cnt', detail: "Condé Nast Traveler — 34 Best Restaurants in Barcelona", rank: idx + 1 },
   ));
 }
 
 function normalizeMichelin() {
-  const STAR_LABEL = {
-    THREE_STARS: 'Michelin ★★★',
-    TWO_STARS: 'Michelin ★★',
-    ONE_STAR: 'Michelin ★',
-    BIB_GOURMAND: 'Michelin Bib Gourmand',
-  };
-  return michelinRaw.map(it => {
-    const starLabel = STAR_LABEL[it.distinction] || 'Michelin';
-    return makeEntry(
-      unesc(it.name),
-      `${starLabel} restaurant in Barcelona.`,
-      { type: 'michelin', detail: `${starLabel} (Michelin Guide Spain)`, distinction: it.distinction },
-    );
-  });
+  return michelinRaw.map(it => makeEntry(
+    unesc(it.name),
+    null, // Michelin list page has no prose — only the star-count fact (used by composeHighlights)
+    { type: 'michelin', detail: 'Michelin Guide Spain', distinction: it.distinction },
+  ));
 }
 
 function normalizeEater() {
   return eaterRaw.map((it, idx) => makeEntry(
     unesc(it.name),
-    firstSentences(it.review || '', 3, 500),
+    it.review || '',
     { type: 'eater', detail: 'Eater — 38 Best Restaurants in Barcelona', rank: idx + 1 },
   ));
 }
 
 function normalizeTimeout() {
-  // Time Out entries already in the canonical shape, but run them through
-  // canonicalize() too so any future name-drift is handled uniformly.
+  // Time Out entries are already in the canonical shape from the earlier
+  // hand-written file. Re-run canonicalize() for name drift, and move their
+  // highlights field into _rawDescs so composeHighlights sees it.
   return timeoutEntries.map(e => {
     const { slug, name } = canonicalize(e.name);
-    return { ...e, id: slug, name };
+    const out = { ...e, id: slug, name, _rawDescs: {} };
+    if (e.highlights) out._rawDescs.timeout = unesc(e.highlights);
+    // Time Out's insiderTip is useful editorial color — keep it
+    return out;
   });
 }
 
@@ -150,7 +166,7 @@ function addAll(entries) {
   for (const e of entries) {
     const existing = byId.get(e.id);
     if (!existing) {
-      byId.set(e.id, { ...e });
+      byId.set(e.id, { ...e, _rawDescs: { ...(e._rawDescs || {}) } });
       continue;
     }
     // Union sources (dedup by type+detail)
@@ -159,9 +175,11 @@ function addAll(entries) {
         existing.sources.push(s);
       }
     }
-    // Prefer the longest highlights — editorial quality varies across sources
-    if (e.highlights && (!existing.highlights || e.highlights.length > existing.highlights.length)) {
-      existing.highlights = e.highlights;
+    // Union raw descriptions — first value wins per source type (should
+    // never collide since source types map 1:1 to sources)
+    existing._rawDescs ||= {};
+    for (const [type, desc] of Object.entries(e._rawDescs || {})) {
+      if (desc && !existing._rawDescs[type]) existing._rawDescs[type] = desc;
     }
     // Preserve fields that may already be filled in on the existing entry
     for (const field of ['neighborhood', 'address', 'price', 'cuisine', 'openFor', 'insiderTip', 'website', 'notes']) {
@@ -259,6 +277,103 @@ for (const f of REDDIT_FINDS) {
   );
   if (f.cuisine) entry.cuisine = f.cuisine;
   addAll([entry]);
+}
+
+// ── Compose final highlights AFTER all sources are merged ──
+//
+// Zagat-style: each restaurant's description is built from whatever sources
+// we have, in this order:
+//   1. Credentials line — multi-source facts (Michelin stars, 50 Best rank)
+//   2. Narrative — the richest editorial prose available, truncated at a
+//      sentence boundary (never mid-sentence)
+//   3. Reddit coda — if a Reddit source is present, a short note
+//
+// This runs AFTER merging, so every entry has all the raw descriptions it's
+// ever going to have when we compose. Doing this during ingestion would miss
+// multi-source credentials and cause first-arrival-wins truncation bugs.
+
+const MICHELIN_LABEL = {
+  THREE_STARS: 'Three Michelin stars',
+  TWO_STARS: 'Two Michelin stars',
+  ONE_STAR: 'One Michelin star',
+  BIB_GOURMAND: 'Michelin Bib Gourmand',
+};
+
+// Narrative preference order — pick the first source that has usable prose.
+// CNT has long-form reviews, Eater has detailed takes, Time Out has
+// structured editorial, Reddit is last-resort (short quotes only).
+const NARRATIVE_PREFERENCE = ['cnt', 'eater', 'timeout', 'reddit'];
+
+function buildCredentialsLine(sources) {
+  const bits = [];
+
+  const michelin = sources.find(s => s.type === 'michelin');
+  if (michelin) {
+    const label = MICHELIN_LABEL[michelin.distinction] || 'Michelin-listed';
+    bits.push(label);
+  }
+
+  const best50 = sources.find(s => s.type === '50best');
+  if (best50) {
+    // best50.detail looks like "The World's 50 Best Restaurants 2024 #1"
+    const yearMatch = best50.detail?.match(/\b(20\d{2})\b/);
+    const year = yearMatch ? yearMatch[1] : '';
+    bits.push(`World's 50 Best #${best50.rank}${year ? ' (' + year + ')' : ''}`);
+  }
+
+  const eater = sources.find(s => s.type === 'eater');
+  if (eater?.rank && !michelin && !best50) {
+    // Only call out Eater rank if no bigger credentials already mentioned
+    bits.push(`Eater 38 Best #${eater.rank}`);
+  }
+
+  return bits.length ? bits.join('; ') + '.' : '';
+}
+
+function pickNarrative(raws, maxChars = 700) {
+  for (const type of NARRATIVE_PREFERENCE) {
+    const text = raws[type];
+    if (!text || text.length < 40) continue; // skip short filler
+    return { text: sentenceTruncate(text, maxChars), type };
+  }
+  return { text: null, type: null };
+}
+
+function buildRedditLine(sources) {
+  const reddit = sources.find(s => s.type === 'reddit');
+  if (!reddit) return '';
+  const mentions = reddit.mentions || 1;
+  const label = mentions > 1 ? `${mentions} mentions` : 'mentioned';
+  return `r/Barcelona ${label}.`;
+}
+
+function composeHighlights(entry) {
+  const raws = entry._rawDescs || {};
+  const credentials = buildCredentialsLine(entry.sources);
+  const narrativeBudget = credentials ? 600 : 750;
+  const { text: narrative, type: narrativeSource } = pickNarrative(raws, narrativeBudget);
+
+  // Add Reddit coda only when the narrative didn't already come FROM Reddit —
+  // otherwise it's redundant ("good Peruvian place... r/Barcelona 2 mentions.")
+  const redditLine = narrativeSource === 'reddit' ? '' : buildRedditLine(entry.sources);
+
+  if (!narrative && credentials) {
+    // Michelin-only or 50best-only entry — credentials alone is the description
+    return credentials + (redditLine ? ' ' + redditLine : '');
+  }
+  if (!narrative) {
+    // Rare fallback — neither narrative nor credentials
+    const anything = Object.values(raws).find(Boolean);
+    return anything ? sentenceTruncate(anything, 700) : null;
+  }
+
+  return [credentials, narrative, redditLine].filter(Boolean).join(' ');
+}
+
+// Compose highlights for every entry, then drop the scratch field
+for (const entry of byId.values()) {
+  entry.highlights = composeHighlights(entry);
+  delete entry._rawDescs;
 }
 
 const out = Array.from(byId.values());
