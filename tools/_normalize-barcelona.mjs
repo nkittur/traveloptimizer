@@ -188,6 +188,79 @@ addAll(worldsBest.map(wb => makeEntry(
   { type: '50best', detail: `The World's 50 Best Restaurants ${wb.year} #${wb.rank}`, rank: wb.rank },
 )));
 
+// ── Reddit (hand-curated from r/Barcelona threads) ──
+//
+// Scraped three r/Barcelona threads via old.reddit.com:
+//   1. "Top Favorite Restaurants" (10jv1lm) — 90 comments
+//   2. "Where are your favourite restaurants to go to for large-ish groups?" (tau5zl)
+//   3. "High quality, medium price restaurants with no bullshit?" (6bwvnk) — 51 comments
+//
+// These are the picks I made by hand after reading the threads. Rules:
+// - `mentions` = count of distinct comments recommending this place (ignoring
+//   noise, troll replies, and contested mentions)
+// - Skipped restaurants mentioned once with weak context
+// - Skipped places with mixed sentiment (Chen Ji had [15pt] rec but also
+//   [8pt] "Chen Ji is horrible" — unclear)
+// - Existing-match entries just add the reddit source; new entries become
+//   full rows. Enrichment fills in rating/price/photos from Google Places.
+const REDDIT_THREADS = [
+  { id: '10jv1lm', title: 'Top Favorite Restaurants', url: 'https://www.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/' },
+  { id: 'tau5zl',  title: 'Favourite restaurants for large-ish groups', url: 'https://www.reddit.com/r/Barcelona/comments/tau5zl/' },
+  { id: '6bwvnk',  title: 'High quality, medium price restaurants with no bullshit?', url: 'https://www.reddit.com/r/Barcelona/comments/6bwvnk/' },
+];
+
+const REDDIT_FINDS = [
+  // Strong recommendations for restaurants already in the editorial data —
+  // Reddit adds crowd-wisdom signal on top.
+  { name: 'Maleducat',         mentions: 1, note: '€20-50 range pick (r/Barcelona, 10 points)' },
+  { name: 'Mont Bar',          mentions: 2, note: '€50+ pick + other mentions (r/Barcelona)' },
+  { name: 'Koy Shunka',        mentions: 1, note: '"fantastic Japanese haute cuisine" (r/Barcelona, 7 points)' },
+  { name: 'Batea',             mentions: 1, note: 'r/Barcelona mention' },
+  { name: 'Besta',             mentions: 1, note: '"if you liked Batea" (r/Barcelona)' },
+  { name: 'Xuba Tacos',        mentions: 1, note: '€20-50 pick (r/Barcelona)' },
+  { name: 'Ultramarinos Marin', mentions: 1, note: 'on several "worth trying" lists' },
+
+  // New high-signal finds — not in any editorial list, worth adding.
+  // These get minimal highlights; enrichment fills everything else.
+  { name: 'El Pachuco',  mentions: 3, isNew: true,
+    highlights: 'Beloved cheap Mexican in Barcelona — nachos are the signature ("10/10 is the bomb"). Conchinitas and micheladas also praised. Under €20pp.',
+    cuisine: 'Mexican' },
+  { name: 'Yakumanka',   mentions: 2, isNew: true,
+    highlights: "Gastón Acurio's Peruvian restaurant on Enrique Granados. Ceviche and authentic Peruvian from one of the genre's most famous chefs.",
+    cuisine: 'Peruvian' },
+  { name: 'Xerta Restaurant', mentions: 2, isNew: true,
+    highlights: 'Michelin-starred restaurant focused on Delta de l\u2019Ebre cuisine — seafood sourced daily from the delta. Executive lunch menu ~€35 (one of the better-value Michelin options in the city).',
+    cuisine: 'Modern Catalan / Delta de l\u2019Ebre' },
+  { name: 'Bar H',       mentions: 2, isNew: true,
+    highlights: 'Hole-in-the-wall home-made Italian pasta — €7.50 a plate. "Unbeatable. The owner Gianfranco is a legend." Under €10pp.',
+    cuisine: 'Italian' },
+  { name: 'Dos Pebrots', mentions: 1, isNew: true,
+    highlights: 'Albert Raurich\u2019s (ex-Tickets) take on the history of Mediterranean cooking. On multiple r/Barcelona "restaurants I want to try" lists.',
+    cuisine: 'Modern Mediterranean' },
+  { name: 'Somodo',      mentions: 1, isNew: true,
+    highlights: 'Japanese-Mediterranean fusion in Gràcia. Two set menus at fair prices. Small room, slightly awkward service, but "really good" food.',
+    cuisine: 'Japanese-Mediterranean fusion' },
+  { name: 'Julivert Meu', mentions: 1, isNew: true,
+    highlights: 'Traditional Catalan food in a rustic country-house setting. "Absolutely delicious." ~€30-40 per person.',
+    cuisine: 'Traditional Catalan' },
+];
+
+const REDDIT_SOURCE_DETAIL = `r/Barcelona — ${REDDIT_THREADS.length} threads cross-referenced`;
+
+for (const f of REDDIT_FINDS) {
+  const entry = makeEntry(
+    f.name,
+    f.highlights || null,
+    {
+      type: 'reddit',
+      detail: f.note || REDDIT_SOURCE_DETAIL,
+      mentions: f.mentions,
+    },
+  );
+  if (f.cuisine) entry.cuisine = f.cuisine;
+  addAll([entry]);
+}
+
 const out = Array.from(byId.values());
 out.sort((a, b) => {
   if (b.sources.length !== a.sources.length) return b.sources.length - a.sources.length;
@@ -204,6 +277,7 @@ console.log(`  CNT:        ${cntRaw.length}`);
 console.log(`  Michelin:   ${michelinRaw.length}`);
 console.log(`  Eater:      ${eaterRaw.length}`);
 console.log(`  50 Best:    ${worldsBest.length}`);
+console.log(`  Reddit:     ${REDDIT_FINDS.length} finds from ${REDDIT_THREADS.length} threads`);
 console.log(`  Multi-source (2+): ${out.filter(r => r.sources.length > 1).length}`);
 console.log(`  Multi-source (3+): ${out.filter(r => r.sources.length > 2).length}`);
 console.log(`\nMulti-source restaurants:`);

@@ -60,20 +60,19 @@ From the loaded/created group row, extract:
 
 ## Step 2 — Pick sources
 
-Aim for **≥3 high-credibility editorial lists + ≥1 crowd-wisdom source**. The right mix depends on the city:
+**Minimum sources for any run**: **≥3 high-credibility editorial lists + Reddit (mandatory)**. Reddit is not optional — a past run skipped it and the resulting list was missing hidden gems and local favorites that editorial critics don't cover. See Step 3 for the proven Reddit workflow.
 
 **High-credibility editorial** — prefer these in roughly this order:
-- **Eater** — `<city>.eater.com/maps/best-restaurants-*` and `-heatmap` (exists for most major US cities)
-- **The Infatuation** — `www.theinfatuation.com/<city>/guides/...`
-- **Michelin Guide** — `guide.michelin.com/en/.../<city>/restaurants` (best for cities with a Michelin presence — most European capitals, Tokyo, NYC, Chicago, SF)
-- **Time Out** — `www.timeout.com/<city>/restaurants/best-restaurants-*`
-- **Condé Nast Traveler** — `www.cntraveler.com/gallery/best-restaurants-*-<city>`
-- **Local newspaper food critic** — LA Times, NYT, Guardian, El País, etc. — search `best restaurants <city> <year>` site:nytimes.com etc
-- **50 Best** — `www.theworlds50best.com` for world-class cities
+- **Eater** — `<city>.eater.com/maps/best-restaurants-*` and `-heatmap` (exists for most major US cities). For non-US cities, try `www.eater.com/maps/best-restaurants-<city>` (Barcelona, Paris, etc. have standalone Eater guides).
+- **The Infatuation** — `www.theinfatuation.com/<city>/guides/...` (mostly US + London; often absent for continental European and Asian cities — check 404)
+- **Michelin Guide** — `guide.michelin.com/us/en/<region>/<city>/restaurants/all-starred` for starred lists. The `data-dtm-distinction` attribute on each card gives the star count (`THREE_STARS`/`TWO_STARS`/`ONE_STAR`/`BIB_GOURMAND`). If the page shows results from a different region, it's geo-routing: search Google for `"guide.michelin.com" <city> all-starred` and use the regional URL Google surfaces. Best for cities with a Michelin presence — most European capitals, Tokyo, NYC, Chicago, SF.
+- **Time Out** — `www.timeout.com/<city>/restaurants/best-restaurants-*` — best detailed entries (address, hours, price range) when available, but list length is often shorter than Eater or CNT.
+- **Condé Nast Traveler** — `www.cntraveler.com/gallery/best-restaurants-in-<city>`. Uses lazy-loaded gallery: the full list is in `window.__PRELOADED_STATE__.transformed.gallery.items` — click-through won't work but the state blob does.
+- **Local newspaper food critic** — LA Times, NYT, Guardian, El País, etc. — search `best restaurants <city> <year>` site:nytimes.com etc.
+- **The World's 50 Best** — `www.theworlds50best.com/list/1-50` and `/list/51-100`. Filter the page body for entries containing the city name. Only produces 0–4 entries per city but gives strong "globally recognized" signal.
 
-**Crowd wisdom** (≥1):
-- **Reddit** — `r/<city>Food`, `r/<city>`, thread titles like "best restaurants", "can't miss", "underrated"
-- **Local food subreddits** — r/FoodBarcelona, r/AskTO, r/AskNYC, etc.
+**Crowd wisdom — mandatory**:
+- **Reddit** — `r/<City>` (proper-noun sub, e.g. `r/Barcelona`), plus food-specific subs if they exist (`r/FoodSanDiego`, `r/FoodNYC`, `r/AskTO`, `r/AskNYC`). For at least **2–3 distinct threads**, surface the top-upvoted recommendations and cross-reference with editorial. See Step 3 for the exact workflow.
 
 **Reject**:
 - SEO listicles (tripadvisor top 10, yelp top 10 — untrusted rankings)
@@ -101,10 +100,45 @@ For each source:
 4. **Pagination fallback**: if click-through fails (SPA that doesn't update the URL, broken handlers, rate-limited clicks), use `browser_evaluate` to read `window.__PRELOADED_STATE__`, `window.__NEXT_DATA__`, or `window.__INITIAL_STATE__` and extract the list array from there. Treat this as a fallback, not a first resort — state blobs can miss fields the rendered DOM has.
 5. Extract entries into the canonical shape (see Step 4)
 
-**Blocked sites**: Reddit often blocks headless browsers. If `browser_navigate` hits a block, try:
-- Google search for the thread title and read the cached snippet
-- Search for "<thread title> site:reddit.com" → click the Google result (Google's cache sometimes works)
-- Skip Reddit for this group if all paths are blocked and note it in the discovery_run summary
+### Reddit workflow (mandatory, proven working)
+
+Reddit is the highest-signal crowd-wisdom source and you MUST hit it for every city. It surfaces hidden gems, local favorites, authentic ethnic spots, and off-the-beaten-path places that editorial critics miss. A Barcelona run that skipped Reddit missed Xerta (a Michelin-starred restaurant the Michelin scrape itself also missed), Yakumanka (Gastón Acurio's Peruvian flagship), and El Pachuco (a beloved cheap Mexican spot) — all of which belong on any serious "best of Barcelona" list.
+
+The working recipe:
+
+1. **Google search for threads** (not direct `reddit.com` navigation — `www.reddit.com` often blocks headless browsers and login-walls search results):
+   ```
+   https://www.google.com/search?q=site%3Areddit.com%2Fr%2F<City>+best+restaurants
+   ```
+   Extract thread URLs from the results (`a[href*="reddit.com/r/"]` filtered to paths containing `/comments/`).
+2. **Pick 2–3 threads** with the best titles ("Top favorite restaurants", "can't miss", "best for <price range>", "underrated", "where do locals eat"). Ignore threads with <10 comments or obviously meta ones ("anti-tourism", "is Barcelona expensive", etc.).
+3. **Use `old.reddit.com`** for each thread, not `www.reddit.com`:
+   ```
+   https://old.reddit.com/r/<City>/comments/<thread-id>/
+   ```
+   The old site renders comments server-side without a login wall. Extract via:
+   ```js
+   document.querySelectorAll('div.comment').forEach(c => {
+     const score = parseInt(c.querySelector('.tagline .score.unvoted')?.textContent.match(/-?\d+/)?.[0] || '0');
+     const body = c.querySelector('.entry .md')?.textContent?.trim();
+     if (body && body.length > 3) comments.push({ score, body });
+   });
+   ```
+4. **Save each thread to a raw JSON file** (`reddit-thread-N.json`) so you can re-read them offline when building the merge.
+5. **Read the top-scored comments yourself** and pick the restaurants to add. **Do not regex this** — you need judgment to filter noise, troll replies, contested mentions, and sarcasm. Rules:
+   - A restaurant named in a comment scored ≥5 with positive sentiment is a strong signal.
+   - The same restaurant named across 2+ threads is stronger still.
+   - Ignore restaurants with mixed reception (e.g. one [15pt] rec but also an [8pt] "that place is terrible" reply).
+   - Ignore chains and hotel-restaurants unless context says they're notable.
+6. **Bucket your picks into two groups** in the per-city normalizer:
+   - **Matches for existing editorial entries** — just add a `reddit` source with a `mentions` count to the existing entry
+   - **New finds not in any editorial list** — add as fresh entries with a short `highlights` sourced from the Reddit commentary. Enrichment fills the rest (rating, price, photos).
+7. **Prove Reddit added signal**. After the merge, check that at least some Reddit entries either (a) overlap with editorial picks (validation that multiple sources agree) or (b) surface places editorial missed. If Reddit only produces overlaps AND no new finds, you probably picked the wrong threads — try more.
+
+**Fallbacks** if `old.reddit.com` itself breaks:
+- Search for "<thread title> site:reddit.com" on Google and read the result snippets — they contain the top comments
+- Try `old.reddit.com/r/<City>/search?q=restaurants&restrict_sr=on&sort=top`
+- Worst case: use Google's cached copy (click the three dots next to a result → "About this result" → "Cached")
 
 **CRITICAL — feedback_verify_locations**: never claim a restaurant is in a specific neighborhood unless the source explicitly says so. Past incident: a prior run hallucinated "Burgatory at Ross Park Mall" — Burgatory isn't there. If you're not sure, leave `neighborhood` null and let the enrichment pipeline's geocode result speak for itself. Never guess.
 
