@@ -1,7 +1,10 @@
 #!/usr/bin/env node
-// enrich-group-details.mjs — Fill googleRating / reviewCount / openingHours
+// enrich-group-details.mjs — Fill googleRating / reviewCount / openingHours / price
 // via Google Places API for active rows in group_restaurants.
-// Usage: node tools/enrich-group-details.mjs <group-id>
+// Usage: node tools/enrich-group-details.mjs <group-id> [--force]
+//
+// Pass --force to re-fetch even rows that already have a rating. Useful when
+// new fields (price) are added to the pipeline after initial enrichment.
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -11,7 +14,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 
 const groupId = process.argv[2];
-if (!groupId) { console.error('Usage: enrich-group-details.mjs <group-id>'); process.exit(1); }
+const force = process.argv.includes('--force');
+if (!groupId) { console.error('Usage: enrich-group-details.mjs <group-id> [--force]'); process.exit(1); }
 
 let API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 if (!API_KEY) {
@@ -64,6 +68,21 @@ function parseHours(place) {
   return out;
 }
 
+// Google Places v1 returns priceLevel as an enum string. Map to $-$$$$.
+const PRICE_LEVEL_MAP = {
+  PRICE_LEVEL_FREE: '$',
+  PRICE_LEVEL_INEXPENSIVE: '$',
+  PRICE_LEVEL_MODERATE: '$$',
+  PRICE_LEVEL_EXPENSIVE: '$$$',
+  PRICE_LEVEL_VERY_EXPENSIVE: '$$$$',
+};
+
+function parsePrice(place) {
+  const raw = place.priceLevel;
+  if (!raw) return null;
+  return PRICE_LEVEL_MAP[raw] || null;
+}
+
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const BATCH = 5;
 let enriched = 0, skipped = 0, failed = 0;
@@ -73,17 +92,21 @@ for (let i = 0; i < rows.length; i += BATCH) {
   const batch = rows.slice(i, i + BATCH);
   await Promise.all(batch.map(async (row) => {
     const r = row.data || {};
-    if (r.googleRating != null) { skipped++; return; }
+    // Skip already-enriched rows unless --force OR price is missing (pipeline update)
+    if (!force && r.googleRating != null && r.price != null) { skipped++; return; }
     try {
       const place = await searchPlace(r.name, r.address);
       if (place) {
         r.googleRating = place.rating || null;
         r.googleReviewCount = place.userRatingCount || null;
         r.openingHours = parseHours(place);
+        // Google Places is authoritative for price — overwrite whatever was there
+        const p = parsePrice(place);
+        if (p) r.price = p;
         updates.push({ ...row, data: r });
         enriched++;
         const hrs = r.openingHours?.weekdayText?.length || 0;
-        process.stderr.write(`✓ ${r.name} — ${r.googleRating}★ (${r.googleReviewCount}) ${hrs ? hrs + 'd' : ''}\n`);
+        process.stderr.write(`✓ ${r.name} — ${r.googleRating}★ (${r.googleReviewCount}) ${r.price || '?'} ${hrs ? hrs + 'd' : ''}\n`);
       } else {
         failed++;
         process.stderr.write(`✗ ${r.name}\n`);

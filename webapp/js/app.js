@@ -13,7 +13,7 @@ const state = {
   view: 'all',
   userName: null,
   mapFilter: null, // null = no filter, Set<string> = filtered restaurant IDs
-  filters: { day: null, openNow: false, minRating: 0, time: '' },
+  filters: { day: null, openNow: false, minRating: 0, time: '', prices: [] },
   // allState[restaurantId][userName] = { vote, status, shortlistPosition }
   allState: {},
   // allComments[restaurantId] = [{ id, text, author, timestamp, parentId }]
@@ -124,6 +124,11 @@ function getFilteredListFromState(view) {
   // Apply rating filter
   if (state.filters.minRating) {
     visible = visible.filter(r => (r.googleRating || 0) >= state.filters.minRating);
+  }
+  // Apply price filter (exact match on $-$$$$ tiers)
+  if (state.filters.prices?.length) {
+    const allowed = new Set(state.filters.prices);
+    visible = visible.filter(r => r.price && allowed.has(r.price));
   }
   // Apply day+time filter
   if (state.filters.day !== null && state.filters.day !== undefined) {
@@ -628,8 +633,12 @@ $filterBody.addEventListener('click', (e) => {
     state.filters.time = state.filters.time === t ? '' : t;
     if (state.filters.time && state.filters.day === null) state.filters.day = new Date().getDay(); // auto-select today
     state.filters.openNow = false;
+  } else if (action === 'filter-price') {
+    const p = btn.dataset.price;
+    const cur = state.filters.prices || [];
+    state.filters.prices = cur.includes(p) ? cur.filter(x => x !== p) : [...cur, p];
   } else if (action === 'filter-clear') {
-    state.filters = { day: null, openNow: false, minRating: 0, time: '' };
+    state.filters = { day: null, openNow: false, minRating: 0, time: '', prices: [] };
   } else if (action === 'open-map') {
     closeFilterModal();
     setTimeout(() => openMapDrawer(true), 100);
@@ -772,7 +781,7 @@ async function init() {
     e.stopPropagation();
     clearFilterExternal();
     state.mapFilter = null;
-    state.filters = { day: null, openNow: false, minRating: 0, time: '' };
+    state.filters = { day: null, openNow: false, minRating: 0, time: '', prices: [] };
     if (useDB) db.deleteSharedState('map-filter');
     else localStorage.removeItem('sd-map-filter');
     updateMapFilterBanner();
@@ -804,6 +813,7 @@ function updateMapFilterBanner() {
   if (state.mapFilter) tags.push('Map area');
   if (state.filters.openNow) tags.push('Open now');
   if (state.filters.minRating) tags.push(`${state.filters.minRating}+★`);
+  if (state.filters.prices?.length) tags.push(state.filters.prices.join('/'));
   if (state.filters.day !== null && state.filters.day !== undefined) {
     const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     let dayTag = days[state.filters.day];

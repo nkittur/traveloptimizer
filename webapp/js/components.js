@@ -6,13 +6,26 @@ function esc(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+const SOURCE_LABELS = {
+  eater: 'Eater',
+  eater_new: 'Eater New',
+  infatuation: 'Infatuation',
+  cnt: 'CNT',
+  timeout: 'Time Out',
+  michelin: 'Michelin',
+  '50best': '50 Best',
+  newspaper: 'Press',
+  local_blog: 'Local',
+  manual: 'Added',
+};
+
 export function renderSourceBadges(sources) {
+  if (!sources?.length) return '';
   return sources.map(s => {
     const cls = `badge badge-${s.type}`;
-    let label = s.type.charAt(0).toUpperCase() + s.type.slice(1);
-    if (s.type === 'cnt') label = 'CNT';
-    if (s.type === 'eater_new') label = 'Eater New';
+    let label = SOURCE_LABELS[s.type] || (s.type.charAt(0).toUpperCase() + s.type.slice(1));
     if (s.type === 'eater' && s.rank) label += ` #${s.rank}`;
+    if (s.type === '50best' && s.rank) label += ` #${s.rank}`;
     if (s.type === 'reddit') {
       const n = s.mentions || 1;
       label = `${n} Reddit rec${n !== 1 ? 's' : ''}`;
@@ -401,7 +414,8 @@ export function renderFilterPane(activeFilters, totalCount, filteredCount, hasMa
   const openNow = activeFilters.openNow;
   const minRating = activeFilters.minRating || 0;
   const filterTime = activeFilters.time || '';
-  const hasFilters = openNow || minRating || activeFilters.day !== null || filterTime;
+  const selectedPrices = Array.isArray(activeFilters.prices) ? activeFilters.prices : [];
+  const hasFilters = openNow || minRating || activeFilters.day !== null || filterTime || selectedPrices.length;
 
   // Rating slider label
   const ratingLabel = minRating ? `${minRating}+ ★` : 'Any';
@@ -441,6 +455,16 @@ export function renderFilterPane(activeFilters, totalCount, filteredCount, hasMa
     </div>
 
     <div class="fp-section">
+      <h4>Price</h4>
+      <div class="fp-row">
+        ${['$','$$','$$$','$$$$'].map(p => {
+          const active = selectedPrices.includes(p);
+          return `<button class="fp-chip ${active ? 'active' : ''}" data-action="filter-price" data-price="${p}">${p}</button>`;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="fp-section">
       <h4>Hours</h4>
       <button class="fp-chip ${openNow ? 'active' : ''}" data-action="filter-open-now" style="margin-bottom:10px">
         Open now <span class="fp-chip-sub">${DAYS[today].substring(0,3)} ${nowTime}</span>
@@ -466,6 +490,7 @@ export function activeFilterCount(filters) {
   if (filters.minRating) n++;
   if (filters.day !== null && filters.day !== undefined) n++;
   if (filters.time) n++;
+  if (Array.isArray(filters.prices) && filters.prices.length) n++;
   return n;
 }
 

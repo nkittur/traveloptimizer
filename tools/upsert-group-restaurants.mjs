@@ -86,19 +86,20 @@ for (const r of incoming) {
   const prev = existingById.get(r.id);
 
   if (prev) {
-    // Merge: keep first_seen_run from prev, update last_seen_run, merge sources
+    // Preserve enrichment fields from prev (lat/lng, googleRating, price, photos, hours)
+    // but take everything else — including the sources array — from the incoming run.
+    // Each discovery run is a complete snapshot; source drift across runs should reset,
+    // not accumulate stale entries with slightly different detail strings.
     const prevData = prev.data || {};
-    const prevSources = Array.isArray(prevData.sources) ? prevData.sources : [];
-    const mergedSources = [...prevSources];
-    for (const s of r.sources) {
-      if (!mergedSources.find(ms => ms.type === s.type && ms.detail === s.detail)) {
-        mergedSources.push(s);
-      }
+    const ENRICHMENT_FIELDS = ['lat', 'lng', 'googleRating', 'googleReviewCount', 'openingHours', 'photos', 'photoUrl', 'price'];
+    const preserved = {};
+    for (const k of ENRICHMENT_FIELDS) {
+      if (prevData[k] != null) preserved[k] = prevData[k];
     }
     upsertRows.push({
       group_id: groupId,
       restaurant_id: r.id,
-      data: { ...prevData, ...r, sources: mergedSources },
+      data: { ...r, ...preserved },
       first_seen_run: prev.first_seen_run || runId,
       last_seen_run: runId,
       status: 'active',

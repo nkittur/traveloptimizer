@@ -12,6 +12,11 @@
   --cnt: #0891b2;
   --eater-new: #ea580c;
   --manual: #6b7280;
+  --timeout: #ec0000;
+  --michelin: #c2185b;
+  --50best: #8b5cf6;
+  --newspaper: #1f2937;
+  --local-blog: #14b8a6;
   --vote-up: #16a34a;
   --vote-down: #dc2626;
   --shortlist: #eab308;
@@ -573,6 +578,7 @@ body {
   padding: 2px 7px;
   border-radius: 4px;
   color: #fff;
+  background: #6b7280; /* neutral fallback for any unknown source type */
   letter-spacing: 0.02em;
 }
 .badge-eater { background: var(--eater); }
@@ -581,6 +587,11 @@ body {
 .badge-cnt { background: var(--cnt); }
 .badge-eater_new { background: var(--eater-new); }
 .badge-manual { background: var(--manual); }
+.badge-timeout { background: var(--timeout); }
+.badge-michelin { background: var(--michelin); }
+.badge-50best { background: var(--50best); }
+.badge-newspaper { background: var(--newspaper); }
+.badge-local_blog { background: var(--local-blog); }
 
 /* Sources button */
 .sources-btn {

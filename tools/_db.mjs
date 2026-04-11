@@ -77,8 +77,11 @@ export async function update(table, filter, patch) {
 }
 
 export function slugify(name) {
-  return String(name).toLowerCase()
-    .replace(/['']/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+  return String(name)
+    .normalize('NFD')                        // decompose accented chars: é → e +  ́
+    .replace(/[\u0300-\u036f]/g, '')         // strip the combining diacritics
+    .toLowerCase()
+    .replace(/['’`]/g, '')                   // strip apostrophes (don't hyphenate them)
+    .replace(/[^a-z0-9]+/g, '-')             // any remaining non-alphanumeric → hyphen
+    .replace(/^-|-$/g, '');                  // trim leading/trailing hyphens
 }
