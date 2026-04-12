@@ -180,9 +180,29 @@ Don't move on from a source with a mismatched count without understanding why. A
    - Mixed reception (one high-score rec AND a high-score "terrible" reply) → skip.
    - Chains and hotel restaurants → skip unless context makes them notable.
 7. **Split Reddit picks into two groups** for the normalizer:
-   - **Matches for existing editorial entries** — add a `reddit` source with a `mentions` count.
+   - **Matches for existing editorial entries** — add a `reddit` source (see attribution rules below).
    - **New finds** — add as fresh rows; they'll get descriptions composed in Pass 2.
-8. **Confirm Reddit added signal.** After merging, at least some Reddit entries should either cross-validate editorial picks or surface new places. If Reddit only produces overlaps AND no new finds, pick more threads.
+8. **Per-restaurant thread attribution is mandatory** (L18). For each restaurant that gets a Reddit source, the normalizer must scan the saved thread files and attach ONLY the threads that actually mention it:
+   ```js
+   // For each candidate restaurant, scan every saved thread file's comments +
+   // post body (lowercased, concatenated) for a literal substring match on
+   // the restaurant name. Hand-curate aliases for short forms ("George's" for
+   // "George's At The Cove", "Nine-Ten" for "Nine-Ten Restaurant and Bar").
+   const matched = threads.filter(t => candidates(name).some(c => t.blob.includes(c)));
+   if (matched.length > 0) {
+     entry.sources.push({
+       type: 'reddit',
+       threads: matched.map(t => ({ title: t.title, url: t.url })),
+       mentions: matched.length,                   // ALWAYS = threads.length
+       detail: `r/${sub} — ${matched.length} thread${matched.length === 1 ? '' : 's'}`,
+     });
+   }
+   // If no thread mentions the restaurant → don't attach a reddit source at all.
+   ```
+   **Invariant:** `sources[].mentions === sources[].threads.length`. The badge shows mentions, the detail view shows threads — if they diverge, the UI contradicts itself (the exact SD bug in L18).
+   **Never attach a "universal threads list"** to every restaurant. The threads list is per-restaurant ground truth, not "threads we scraped."
+   **If no thread matches**, drop the reddit source entirely. An unverifiable "N Reddit recs" badge is worse than no badge.
+9. **Confirm Reddit added signal.** After merging, at least some Reddit entries should either cross-validate editorial picks or surface new places. If Reddit only produces overlaps AND no new finds, pick more threads.
 
 ### Text cleanup — CMS residue strippers (L14)
 
@@ -469,6 +489,7 @@ Each of these was a real bug in a prior run. When you see one, stop and investig
 | Google review pull-quotes on the card | Rendering reviews as UI instead of composition input | Already fixed — `renderCard` doesn't call `renderGoogleReviews` |
 | 1-source entries treated as thin data | Forgetting Google reviews are a universal source (L13) | Every entry is multi-source — compose for all of them |
 | Reddit skipped entirely | "Blocks headless" framing feels like permission | Reddit is mandatory; `old.reddit.com` works — see Reddit workflow |
+| Reddit badge says "3 mentions" but detail lists 11 threads | Universal thread list attached to every reddit source; `mentions` and `threads.length` diverged | Per-restaurant thread attribution via literal substring scan; invariant `mentions === threads.length` (L18) |
 | Addresses scraped from source detail pages | Drilling into detail pages for operational data (L5) | Scrape = editorial only; addresses come from Google Places |
 | Badges visible in data but not on cards | CSS missing `.badge-<type>` class | Add to `webapp/css/style.css`; there's a neutral fallback but brand color is nicer |
 

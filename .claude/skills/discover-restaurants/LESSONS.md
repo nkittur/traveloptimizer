@@ -210,6 +210,26 @@ Format per lesson: **what happened → root cause → consequence → skill miti
 
 ---
 
+## L18 · Reddit `mentions` count and `threads[]` list got out of sync
+
+**What happened** — The SD group showed "3 Reddit mentions" on The Marine Room's badge but listed 11 threads in the detail view. Other rows had the same inconsistency. The original SD scrape stored a `mentions` count derived from Google-snippet heuristics (e.g. "Marine Room appears in ~3 thread snippets"), and a later retrofit script attached the full universal 11-thread list to *every* reddit source regardless of which threads actually mentioned each restaurant. The two numbers came from different sources and never had to agree.
+
+**Root cause** — Two things at once:
+1. Attaching a universal thread list to every reddit source ("these are the threads we scraped") instead of a per-restaurant list ("these are the threads that mention *this* restaurant").
+2. Not reconciling `mentions` with `threads.length` — they're both "how many threads cited this restaurant" but one came from Google-snippet matching and the other from bulk attachment.
+
+**Consequence** — Detail view showed 11 threads for a restaurant the scrape said only had 3 mentions. Self-contradictory UI, user caught it immediately. Also 13 of 24 restaurants had unverified mentions counts pointing at threads where they weren't actually named — those shouldn't have claimed Reddit as a source at all.
+
+**Skill mitigation** — Step 3 Reddit workflow now explicitly requires per-restaurant thread attribution:
+- For each restaurant, scan the actual saved thread files (`reddit-thread-<N>.json`) with literal substring matching (case-insensitive, plus hand-curated aliases for short forms like "George's" for "George's At The Cove"), and populate `sources[].threads[]` with only the threads that mention it.
+- Set `sources[].mentions = threads.length` so badge count and detail thread list always agree. These fields must never diverge — they're two views of the same underlying count.
+- If no thread mentions a restaurant, **do not attach a reddit source to it at all** — an unverifiable "N Reddit recs" badge is worse than no badge.
+- Never attach a "universal threads list" to all restaurants. The threads list is per-restaurant ground truth.
+
+Reference: `tools/_retrofit-sd-reddit-threads.mjs` shows the matching pattern (candidates with aliases → literal substring scan → reconcile mentions with threads.length → drop source when no match).
+
+---
+
 ## Adding a new lesson
 
 When a new run catches a mistake not covered above:
