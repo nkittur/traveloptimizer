@@ -146,7 +146,7 @@ function makeEntry(rawName, rawDescription, source) {
     neighborhood: null,
     address: null,
     price: null,
-    cuisine: null,
+    category: null,
     openFor: null,
     highlights: null, // composed post-merge
     insiderTip: null,
@@ -225,7 +225,7 @@ function addAll(entries) {
       if (desc && !existing._rawDescs[type]) existing._rawDescs[type] = desc;
     }
     // Preserve fields that may already be filled in on the existing entry
-    for (const field of ['neighborhood', 'address', 'price', 'cuisine', 'openFor', 'insiderTip', 'website', 'notes']) {
+    for (const field of ['neighborhood', 'address', 'price', 'category', 'openFor', 'insiderTip', 'website', 'notes']) {
       if (existing[field] == null && e[field] != null) existing[field] = e[field];
     }
   }
@@ -290,25 +290,25 @@ const REDDIT_FINDS = [
   // These get minimal highlights; enrichment fills everything else.
   { name: 'El Pachuco',  mentions: 3, isNew: true,
     highlights: 'Beloved cheap Mexican in Barcelona — nachos are the signature ("10/10 is the bomb"). Conchinitas and micheladas also praised. Under €20pp.',
-    cuisine: 'Mexican' },
+    category: 'Mexican' },
   { name: 'Yakumanka',   mentions: 2, isNew: true,
     highlights: "Gastón Acurio's Peruvian restaurant on Enrique Granados. Ceviche and authentic Peruvian from one of the genre's most famous chefs.",
-    cuisine: 'Peruvian' },
+    category: 'Peruvian' },
   { name: 'Xerta Restaurant', mentions: 2, isNew: true,
     highlights: 'Michelin-starred restaurant focused on Delta de l\u2019Ebre cuisine — seafood sourced daily from the delta. Executive lunch menu ~€35 (one of the better-value Michelin options in the city).',
-    cuisine: 'Modern Catalan / Delta de l\u2019Ebre' },
+    category: 'Modern Catalan / Delta de l\u2019Ebre' },
   { name: 'Bar H',       mentions: 2, isNew: true,
     highlights: 'Hole-in-the-wall home-made Italian pasta — €7.50 a plate. "Unbeatable. The owner Gianfranco is a legend." Under €10pp.',
-    cuisine: 'Italian' },
+    category: 'Italian' },
   { name: 'Dos Pebrots', mentions: 1, isNew: true,
     highlights: 'Albert Raurich\u2019s (ex-Tickets) take on the history of Mediterranean cooking. On multiple r/Barcelona "restaurants I want to try" lists.',
-    cuisine: 'Modern Mediterranean' },
+    category: 'Modern Mediterranean' },
   { name: 'Somodo',      mentions: 1, isNew: true,
     highlights: 'Japanese-Mediterranean fusion in Gràcia. Two set menus at fair prices. Small room, slightly awkward service, but "really good" food.',
-    cuisine: 'Japanese-Mediterranean fusion' },
+    category: 'Japanese-Mediterranean fusion' },
   { name: 'Julivert Meu', mentions: 1, isNew: true,
     highlights: 'Traditional Catalan food in a rustic country-house setting. "Absolutely delicious." ~€30-40 per person.',
-    cuisine: 'Traditional Catalan' },
+    category: 'Traditional Catalan' },
 ];
 
 // Load each thread's comments so we can figure out which thread(s) mention
@@ -359,7 +359,7 @@ for (const f of REDDIT_FINDS) {
       mentions: f.mentions,
     },
   );
-  if (f.cuisine) entry.cuisine = f.cuisine;
+  if (f.category) entry.category = f.category;
   addAll([entry]);
 }
 
