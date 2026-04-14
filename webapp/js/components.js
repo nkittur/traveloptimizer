@@ -276,7 +276,7 @@ export function renderCard(r, us) {
       </div>
       <div class="card-meta">
         ${r.neighborhood ? `<span class="card-neighborhood">${esc(r.neighborhood)}</span>` : ''}
-        ${r.cuisine ? `<span class="card-cuisine">${esc(r.cuisine)}</span>` : ''}
+        ${r.category ? `<span class="card-category">${esc(r.category)}</span>` : ''}
       </div>
       <div class="card-badges">${renderSourceBadges(r.sources)}</div>
       ${r.highlights ? `<p class="card-highlights">${esc(r.highlights)}</p>` : ''}
@@ -351,7 +351,7 @@ export function renderDetail(r, us) {
       <div class="detail-meta">
         ${r.neighborhood ? `<span>${esc(r.neighborhood)}</span>` : ''}
         ${r.price ? `<span>${esc(r.price)}</span>` : ''}
-        ${r.cuisine ? `<span>${esc(r.cuisine)}</span>` : ''}
+        ${r.category ? `<span>${esc(r.category)}</span>` : ''}
         ${r.openFor ? `<span>Open for: ${esc(r.openFor)}</span>` : ''}
       </div>
       ${r.address ? `<p class="detail-address">${esc(r.address)}</p>` : ''}
@@ -410,7 +410,7 @@ export function renderAddForm() {
         <label>Name *<input type="text" name="name" required></label>
         <label>Neighborhood<input type="text" name="neighborhood"></label>
         <label>Address<input type="text" name="address"></label>
-        <label>Cuisine<input type="text" name="cuisine"></label>
+        <label>Category<input type="text" name="category"></label>
         <label>Price
           <select name="price">
             <option value="">--</option>
@@ -525,8 +525,8 @@ export function activeFilterCount(filters) {
 
 export function renderEmptyState(view) {
   const msgs = {
-    all: 'No restaurants to show.',
-    shortlist: 'No restaurants shortlisted yet. Tap ☆ on a restaurant to add it.',
+    all: 'Nothing to show.',
+    shortlist: 'No shortlist yet. Tap 👍 on a card to start building one.',
     trash: 'Trash is empty.',
   };
   return `<div class="empty-state">${msgs[view] || msgs.all}</div>`;

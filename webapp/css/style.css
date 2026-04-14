@@ -553,12 +553,12 @@ body {
   margin-top: 3px;
   flex-wrap: wrap;
 }
-.card-neighborhood, .card-cuisine {
+.card-neighborhood, .card-category {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.4;
 }
-.card-cuisine::before {
+.card-category::before {
   content: '·';
   margin-right: 8px;
 }

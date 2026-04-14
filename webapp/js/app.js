@@ -166,9 +166,26 @@ function updateShortlistBadge() {
   $shortlistCount.hidden = count === 0;
 }
 
+// ── Identity gate ──
+// Anonymous browsing is allowed. If an action needs identity, wrap it with this.
+async function requireIdentity(reason) {
+  if (state.userName) return true;
+  const name = await promptUserName({ reason });
+  if (!name) return false;
+  state.userName = name;
+  // Keep the per-group remembered name in sync with the localStorage that
+  // db.setUser() wrote.
+  if (state.group) groupCtx.rememberGroup(state.group, name);
+  updateShortlistBadge();
+  return true;
+}
+
 // ── State mutations ──
 
 function ensureState(restaurantId) {
+  // Callers are expected to gate with requireIdentity() first. Guard anyway
+  // so a stray call doesn't poison allState with a `null` user key.
+  if (!state.userName) return { vote: 0, status: 'default', shortlistPosition: 0 };
   if (!state.allState[restaurantId]) state.allState[restaurantId] = {};
   if (!state.allState[restaurantId][state.userName]) {
     state.allState[restaurantId][state.userName] = { vote: 0, status: 'default', shortlistPosition: 0 };
@@ -253,6 +270,18 @@ function closeDetail() {
 // ── Actions ──
 
 async function handleAction(action, id, el) {
+  // Actions that need identity — prompt first, abort if user dismisses
+  const identityActions = new Set(['vote', 'shortlist', 'unshortlist', 'trash', 'restore']);
+  if (identityActions.has(action)) {
+    const reasons = {
+      vote: 'Enter your name so we can save your votes and share them with the rest of the group.',
+      shortlist: 'Enter your name so we can save your shortlist.',
+      unshortlist: 'Enter your name so we can save your shortlist.',
+      trash: 'Enter your name so we can save what you\'ve hidden.',
+      restore: 'Enter your name so we can save your picks.',
+    };
+    if (!(await requireIdentity(reasons[action]))) return;
+  }
   switch (action) {
     case 'vote': {
       const vote = parseInt(el.dataset.vote);
@@ -330,6 +359,7 @@ async function handleAction(action, id, el) {
         e.preventDefault();
         const text = form.querySelector('textarea').value.trim();
         if (!text) return;
+        if (!(await requireIdentity('Enter your name so your reply can be attributed.'))) return;
         await postComment(id, text, parentId);
         openDetail(id);
       });
@@ -467,6 +497,7 @@ function setupEvents() {
     const textarea = form.querySelector('textarea');
     const text = textarea.value.trim();
     if (!text) return;
+    if (!(await requireIdentity('Enter your name so your comment can be attributed.'))) return;
     submitBtn.disabled = true;
     submitBtn.textContent = '...';
     await postComment(id, text, null);
@@ -499,7 +530,8 @@ function setupEvents() {
     }
   });
 
-  $addBtn.addEventListener('click', () => {
+  $addBtn.addEventListener('click', async () => {
+    if (!(await requireIdentity('Enter your name — added spots will be attributed to you.'))) return;
     $modalContainer.innerHTML = renderAddForm();
     $modalContainer.hidden = false;
   });
@@ -530,7 +562,7 @@ function setupEvents() {
       name,
       neighborhood: form.neighborhood.value.trim() || null,
       address: form.address.value.trim() || null,
-      cuisine: form.cuisine.value.trim() || null,
+      category: form.category.value.trim() || null,
       price: form.price.value || null,
       openFor: null,
       highlights: form.notes.value.trim() || null,
@@ -569,12 +601,14 @@ function setupEvents() {
 
 // ── User name prompt ──
 
-function promptUserName() {
+function promptUserName({ reason } = {}) {
   return new Promise((resolve) => {
     $modalContainer.innerHTML = `
     <div class="modal-overlay">
       <div class="modal" onclick="event.stopPropagation()">
+        <button type="button" class="detail-close" data-action="close-modal" aria-label="Close" style="position:absolute;top:10px;right:12px;background:none;border:0;font-size:22px;cursor:pointer;">&times;</button>
         <div class="modal-header"><h3>Who are you?</h3></div>
+        ${reason ? `<p style="margin:0 16px 12px;color:var(--text-secondary);font-size:14px;">${reason}</p>` : ''}
         <form class="add-form" id="user-form">
           <label>Your name<input type="text" name="username" required autofocus placeholder="e.g. Niki, Carissa, Ashi"></label>
           <button type="submit" class="submit-btn">Continue</button>
@@ -582,15 +616,37 @@ function promptUserName() {
       </div>
     </div>`;
     $modalContainer.hidden = false;
+
+    let settled = false;
+    const onDismissClick = (e) => {
+      if (settled) return;
+      const closing = e.target.closest('[data-action="close-modal"]') || e.target.classList.contains('modal-overlay');
+      if (!closing) return;
+      // Beat the global close-modal handler so we can resolve the promise
+      // before the container is wiped.
+      e.stopPropagation();
+      finish(null);
+    };
+    const finish = (val) => {
+      if (settled) return;
+      settled = true;
+      $modalContainer.removeEventListener('click', onDismissClick, true);
+      $modalContainer.innerHTML = '';
+      $modalContainer.hidden = true;
+      resolve(val);
+    };
+
     document.getElementById('user-form').addEventListener('submit', (e) => {
       e.preventDefault();
       const name = e.target.username.value.trim();
       if (!name) return;
       db.setUser(name);
-      $modalContainer.innerHTML = '';
-      $modalContainer.hidden = true;
-      resolve(name);
+      finish(name);
     });
+
+    // Capture-phase so we run before the global close-modal handler installed
+    // in init(). Only dismisses on × or overlay click; other clicks pass through.
+    $modalContainer.addEventListener('click', onDismissClick, true);
   });
 }
 
@@ -708,19 +764,18 @@ async function init() {
   setCityContext({ name: group.city_name, country: group.country });
 
   // Dynamic title + header for this group
-  document.title = `${group.city_name} Restaurants`;
+  const displayTitle = group.name || `${group.city_name}`;
+  document.title = displayTitle;
   const headerTitle = document.getElementById('header-title');
-  if (headerTitle) headerTitle.textContent = `${group.city_name} Restaurants`;
+  if (headerTitle) headerTitle.textContent = displayTitle;
 
   // Reveal the app shell (hidden by the dispatcher until we know which view to show)
   document.getElementById('app-shell')?.removeAttribute('hidden');
 
-  // Get or prompt for user name (scoped per-group)
+  // Load user name if already set (scoped per-group). Don't prompt yet —
+  // we defer the prompt until the user does something that needs identity
+  // (vote, shortlist, comment, add). See requireIdentity() below.
   state.userName = db.getUser();
-  if (!state.userName) {
-    state.userName = await promptUserName();
-  }
-  // Remember this group in the device-local "my groups" list
   groupCtx.rememberGroup(group, state.userName);
 
   // Load data
@@ -732,7 +787,7 @@ async function init() {
     state.allComments = await db.loadAllComments();
   } else {
     // Fallback: convert old localStorage format to new multi-user format
-    const oldState = local.loadUserState();
+    const oldState = state.userName ? local.loadUserState() : {};
     for (const [rid, us] of Object.entries(oldState)) {
       if (!state.allState[rid]) state.allState[rid] = {};
       state.allState[rid][state.userName] = {
@@ -800,14 +855,15 @@ async function init() {
 
 function onMapFilterChange(ids) {
   state.mapFilter = ids ? new Set(ids) : null;
-  // Persist to Supabase (shared) or localStorage (fallback)
-  if (useDB) {
+  // Only persist shared state when the user has an identity — anonymous
+  // users get a local-only, session-scoped filter that doesn't leak to others.
+  if (useDB && state.userName) {
     if (ids) {
       db.saveSharedState('map-filter', { ids }, state.userName);
     } else {
       db.deleteSharedState('map-filter');
     }
-  } else {
+  } else if (!useDB) {
     if (ids) localStorage.setItem('sd-map-filter', JSON.stringify(ids));
     else localStorage.removeItem('sd-map-filter');
   }
