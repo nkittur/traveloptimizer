@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Los Angeles LAX" [ref=e177]: Los Angeles
+                - generic [ref=e179]: Los Angeles LAX
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main:
+        - heading "Search results" [level=2] [ref=e327]
+      - contentinfo [ref=e331]:
+        - generic [ref=e333]:
+          - button "Language·English (United States)" [ref=e334]:
+            - img [ref=e337]
+            - generic [ref=e339]: Language·English (United States)
+          - button "Location·United States" [ref=e340]:
+            - img [ref=e343]
+            - generic [ref=e346]: Location·United States
+          - button "Currency USD" [ref=e347]:
+            - img [ref=e350]
+            - generic [ref=e360]: Currency·USD
+        - generic [ref=e361]:
+          - link "About Google Travel" [ref=e362] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e363] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e364] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e365] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e366] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e367] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e369]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e370] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

@@ -1,0 +1,453 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - text: ✓
+      - status [ref=e2]
+  - generic [ref=e5]:
+    - link "Skip to main content" [ref=e6] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic:
+      - complementary
+    - banner [ref=e8]:
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+      - navigation "Navigation Row" [ref=e9]:
+        - generic "Navigation Row" [ref=e10]:
+          - generic "Navigation Area" [ref=e11]:
+            - link "Condé Nast Traveler" [ref=e13] [cursor=pointer]:
+              - /url: /
+              - generic "Condé Nast Traveler" [ref=e14]:
+                - img [ref=e15]
+          - generic "Navigation Area" [ref=e37]:
+            - button "Search" [ref=e39] [cursor=pointer]:
+              - img "Search" [ref=e41]
+            - link "Newsletters" [ref=e44] [cursor=pointer]:
+              - /url: /newsletter
+              - generic [ref=e46]: Newsletters
+            - link "Opens in a new window" [ref=e51] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/v2/offers/cnta01027?source=Site_0_JNY_CNT_DESKTOP_NAV_CTA_0_US_QUICKPAY_TEST_2026_ZZ_PANELA
+              - text: SUBSCRIBE
+            - button "Account" [ref=e53] [cursor=pointer]:
+              - img "Account" [ref=e55]
+            - button "Menu Menu" [ref=e59] [cursor=pointer]:
+              - generic [ref=e61]: Menu
+              - img "Menu" [ref=e63]
+      - navigation "Navigation Row" [ref=e65]:
+        - generic "Navigation Row"
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+      - generic "Navigation Row" [ref=e66]:
+        - generic "Navigation Row" [ref=e67]:
+          - generic "Navigation Area" [ref=e68]
+    - generic [ref=e74]:
+      - navigation "Navigation Row" [ref=e75]:
+        - generic "Navigation Row" [ref=e76]:
+          - generic "Navigation Area" [ref=e77]:
+            - link "Inspiration Chevron" [ref=e79] [cursor=pointer]:
+              - /url: /inspiration
+              - generic [ref=e81]: Inspiration
+              - img "Chevron" [ref=e83]
+            - link "Destinations Chevron" [ref=e86] [cursor=pointer]:
+              - /url: "/destinations "
+              - generic [ref=e88]: Destinations
+              - img "Chevron" [ref=e90]
+            - link "Places to Stay" [ref=e93] [cursor=pointer]:
+              - /url: /places-to-stay
+              - generic [ref=e95]: Places to Stay
+            - link "News & Advice Chevron" [ref=e97] [cursor=pointer]:
+              - /url: /news-and-advice
+              - generic [ref=e99]: News & Advice
+              - img "Chevron" [ref=e101]
+            - link "Best Places to Go" [ref=e104] [cursor=pointer]:
+              - /url: /best-places-to-go
+              - generic [ref=e106]: Best Places to Go
+            - link "Curated Escapes" [ref=e108] [cursor=pointer]:
+              - /url: /curated-escapes-with-abercrombie-and-kent
+              - generic [ref=e110]: Curated Escapes
+            - link "Shopping Chevron" [ref=e112] [cursor=pointer]:
+              - /url: /shopping
+              - generic [ref=e114]: Shopping
+              - img "Chevron" [ref=e116]
+            - link "Cruise" [ref=e119] [cursor=pointer]:
+              - /url: /cruise
+              - generic [ref=e121]: Cruise
+            - link "Women Who Travel" [ref=e123] [cursor=pointer]:
+              - /url: /women-who-travel
+              - generic [ref=e125]: Women Who Travel
+            - link "Video" [ref=e127] [cursor=pointer]:
+              - /url: /video
+              - generic [ref=e129]: Video
+          - generic "Navigation Area" [ref=e130]:
+            - link "Search Search" [ref=e132] [cursor=pointer]:
+              - /url: /search
+              - generic [ref=e133]:
+                - img "Search" [ref=e135]
+                - generic [ref=e137]: Search
+            - link "Newsletters" [ref=e139] [cursor=pointer]:
+              - /url: /newsletter
+              - generic [ref=e141]: Newsletters
+            - link "Sign In" [ref=e145] [cursor=pointer]:
+              - /url: /auth/initiate?redirectURL=%2Frestaurants%2Fbarcelona%2Fdisfrutar&source=VERSO_NAVIGATION
+              - generic [ref=e147]: Sign In
+            - link "SUBSCRIBE" [ref=e150] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/v2/offers/cnta01027?source=Site_0_JNY_CNT_GLOBAL_NAV_DRAWER_0_US_QUICKPAY_TEST_2026_ZZ_PANELA
+              - generic [ref=e152]: SUBSCRIBE
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic:
+      - complementary
+    - main [ref=e153]:
+      - generic [ref=e157]:
+        - img "Cntraveler logo" [ref=e158]
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - text: Subscribe and get unlimited access for
+            - strong [ref=e161]:
+              - deletion [ref=e162]: $2.50
+              - text: $1 per month
+            - text: + an exclusive tote!
+          - link "Subscribe now »" [ref=e163] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/v2/offers/cnta01027?source=Site_0_JNY_CNT_DESKTOP_TICKER_BANNER_0_US_QUICKPAY_TEST_2026_ZZ_PANELA
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - link "Europe" [ref=e169] [cursor=pointer]:
+            - /url: /destinations/europe
+          - img "Chevron" [ref=e170]
+        - generic [ref=e172]:
+          - link "Spain" [ref=e173] [cursor=pointer]:
+            - /url: /tag/spain
+          - img "Chevron" [ref=e174]
+        - generic [ref=e176]:
+          - link "Catalonia" [ref=e177] [cursor=pointer]:
+            - /url: /tag/catalonia
+          - img "Chevron" [ref=e178]
+        - link "Barcelona" [ref=e181] [cursor=pointer]:
+          - /url: /destinations/barcelona
+      - article [ref=e182]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e191]: Review
+            - heading "Disfrutar" [level=1] [ref=e192]
+          - generic [ref=e194]: Three El Bulli alums come together to serve playful, sensual cuisine in a surprisingly laid-back atmosphere.
+        - generic [ref=e196]:
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - img "Barcelona Restaurant Disfrutar" [ref=e201]
+          - generic [ref=e202]: Adria Goula Sarda
+          - generic [ref=e203]:
+            - button "Carousel back" [disabled]:
+              - generic:
+                - img "Chevron"
+          - generic [ref=e204]:
+            - button "Carousel forward" [disabled]:
+              - generic:
+                - img "Chevron"
+        - generic [ref=e205]:
+          - button "Save this story" [ref=e208] [cursor=pointer]:
+            - img "Save Story" [ref=e210]
+          - generic [ref=e212]:
+            - generic [ref=e214]:
+              - generic [ref=e216]:
+                - paragraph [ref=e217]: cuisine
+                - generic [ref=e219]: Spanish
+              - generic [ref=e223]:
+                - text: Reviewed by
+                - link "Isabelle Kliger" [ref=e224] [cursor=pointer]:
+                  - /url: /contributor/isabelle-kliger
+              - generic [ref=e228]:
+                - paragraph [ref=e229]:
+                  - strong [ref=e230]: Tell us about your first impressions when you arrived.
+                  - text: "Clean, modern, and elegant, the restaurant feels exclusive without being stuffy. Disfrutar’s credentials speak for themselves: Apart from its three-star Michelin status, the restaurant was ranked number one in the world in the 2024 edition of the prestigious"
+                  - link "World’s 50 Best Restaurants list" [ref=e231] [cursor=pointer]:
+                    - /url: https://www.theworlds50best.com/list/1-50
+                  - text: . Daring to step foot inside might seem like an intimidating prospect, but the staff here is so welcoming that you can’t help but feel at ease. There are no white tablecloths or gloves, just a bright, airy space where the food does all the talking.
+                - paragraph [ref=e232]:
+                  - strong [ref=e233]: What was the crowd like?
+                  - text: "When Mateu Casañas, Oriol Castro, and Eduard Xatruch (all alums of El Bulli, former best restaurant in the world) decided to open a restaurant of their own, one thing was clear: They wanted it to be the kind of friendly, informal place where anyone would feel welcome. They named the restaurant Disfrutar, which means \"enjoy,\" and that’s exactly what you'll do."
+                - paragraph [ref=e234]:
+                  - strong [ref=e235]: What should we be drinking?
+                  - text: There's an
+                  - link "extensive wine list" [ref=e236] [cursor=pointer]:
+                    - /url: https://www.cntraveler.com/gallery/best-wine-bars-in-barcelona
+                  - text: that includes reasonably priced glasses, to a mind-boggling selection of bottles, or a wine pairing to go with your tasting menu, priced at €170.
+                - paragraph [ref=e237]:
+                  - strong [ref=e238]: "Main event: the food. Give us the lowdown—especially what not to miss."
+                  - text: "A tasting menu at Disfrutar is like a performance: There's fire, ice, smoke, and lots of flavor and color. This is why Disfrutar can only really be experienced in the tasting menu format. Casañas, Castro, and Xatruch’s creations are playful and unpredictable, often surprising us by telling our eyes one thing but sending our taste buds a completely different message. Disfrutar has too many life-altering dishes to list here, but, if it’s your first time here, we recommend trying the “Classic” menu featuring many of the star dishes that have earned Disfrutar its lofty status: like the crispy egg yolk with mushroom gelatin, and the chocolate peppers with oil and salt. Also the “panchino” bao bun that oozes creamy Beluga caviar is simply transcendent."
+                - paragraph [ref=e239]:
+                  - strong [ref=e240]: And how did the front-of-house folks treat you?
+                  - text: Disfrutar may be serious about its food, but that doesn’t mean it hires snooty waiters. On the contrary, servers at Disfrutar are warm, laid-back, and eager to help.
+                - paragraph [ref=e241]:
+                  - strong [ref=e242]: What’s the real-real on why we’re coming here?
+                  - text: Come for any special occasion or just for fun. All you need is an open mind and a curious palate (and, yes, a fat stack of euros).
+            - complementary [ref=e246]:
+              - generic [ref=e247]:
+                - paragraph [ref=e248]: Location Map
+                - generic "Location map of address" [ref=e250]:
+                  - generic "Map" [ref=e251]
+                  - generic:
+                    - button "Enter fullscreen" [ref=e254] [cursor=pointer]
+                    - link "Mapbox logo" [ref=e257] [cursor=pointer]:
+                      - /url: https://www.mapbox.com/
+              - generic [ref=e259]:
+                - generic [ref=e260]: Contact
+                - generic [ref=e261]: C. de Villarroel, 163, Barcelona 08036
+                - generic [ref=e262]: Spain
+                - generic [ref=e263]: +34 933 48 68 96
+                - link "http://www.disfrutarbarcelona.com/" [ref=e264] [cursor=pointer]:
+                  - /url: http://www.disfrutarbarcelona.com/
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - heading "More To Discover" [level=2] [ref=e272]
+            - generic [ref=e275]:
+              - switch "hotels" [checked] [ref=e277] [cursor=pointer]
+              - switch "activities" [ref=e279] [cursor=pointer]
+              - switch "restaurants" [ref=e281] [cursor=pointer]
+              - switch "shops" [ref=e283] [cursor=pointer]
+            - generic [ref=e284]:
+              - button "Previous Slide":
+                - img "Chevron"
+              - paragraph [ref=e286]:
+                - generic [ref=e287]: "1"
+                - text: /
+                - generic [ref=e288]: "2"
+              - button "Next Slide" [ref=e289] [cursor=pointer]:
+                - img "Chevron" [ref=e290]
+          - list [ref=e293]:
+            - listitem [ref=e294]:
+              - 'button "Hotel Hotel Boutique Mirlo $$ | Spain, Barcelona, Avenida Tibidabo 32 A 16-room retreat better known as the inspiration behind the fictitious Aldaya residence in *The Shadow of the Wind.* Book Now at Booking.com Powered By: Booking.com" [ref=e295] [cursor=pointer]':
+                - link [ref=e297]:
+                  - /url: /hotels/barcelona/hotel-boutique-mirlo
+                  - img [ref=e302]
+                - generic [ref=e303]:
+                  - generic [ref=e308]: Hotel
+                  - link "Hotel Boutique Mirlo" [ref=e309]:
+                    - /url: /hotels/barcelona/hotel-boutique-mirlo
+                    - generic [ref=e312]: Hotel Boutique Mirlo
+                  - generic [ref=e315]: $$ | Spain, Barcelona, Avenida Tibidabo 32
+                  - generic [ref=e318]: A 16-room retreat better known as the inspiration behind the fictitious Aldaya residence in *The Shadow of the Wind.*
+                  - generic [ref=e321]:
+                    - link "Book Now at Booking.com" [ref=e323]:
+                      - /url: https://cna.st/h/UKMhwqGKSKJYMVKyzMt2xof83TGPSECMYpnXiRLVwJoEjb1qZqP58Dn5vt6M2RAxpTZu6wJ1mP4nqM1Hzxff5Kj4SqKnUdSCgmztF6KuPMNzdpddnTtMou71q6ZhNE579tKXxsSFbSzZfYdjxLVJMVqbiPEWGeQwPs9gbr1X8P92fccuJNSYijsDtfQTuHFAdagzonRHVmu7jd1kASZhVkMgvkxjL11kYDEDLtAUQ6w9EdDaVAz2WnubK53tnDghnUdNqVsEVaECCne9YBQAQMoPdKux19ypGWomLZmaSD1TJVGue2KA9m31CXJQWo6BfX7A5Vaq77YVo
+                      - generic [ref=e324]: Book Now at Booking.com
+                    - generic [ref=e325]: "Powered By: Booking.com"
+            - listitem [ref=e326]:
+              - 'button "Hotel Primero Primera $$ | Spain, Barcelona, Carrer del Dr. Carulla, 25 A boutique Barcelona spot that feels like staying in a distant relative’s fabulous mansion. Book Now at Booking.com Powered By: Booking.com" [ref=e327] [cursor=pointer]':
+                - link [ref=e329]:
+                  - /url: /hotels/barcelona/primero-primera
+                  - img [ref=e334]
+                - generic [ref=e335]:
+                  - generic [ref=e340]: Hotel
+                  - link "Primero Primera" [ref=e341]:
+                    - /url: /hotels/barcelona/primero-primera
+                    - generic [ref=e344]: Primero Primera
+                  - generic [ref=e347]: $$ | Spain, Barcelona, Carrer del Dr. Carulla, 25
+                  - generic [ref=e350]: A boutique Barcelona spot that feels like staying in a distant relative’s fabulous mansion.
+                  - generic [ref=e353]:
+                    - link "Book Now at Booking.com" [ref=e355]:
+                      - /url: https://cna.st/h/UKMhwqGKSKJYMVKyzMt2xof83TGPSECMYpnXiRLVwJoEjb1qZqP58Dn5vt6M2RAxpTZu6wJ1mP4nqM1Hzxff5Kj4SqKnUgMMrir6RDXTvZ7WGSUvHNqeqFfbQfE9RBCgbz5NN6dXPZJn8zTxPZjEQvKbZoKpgCb8e1ThrsPFcFjZhHaoU49DZ39E4qvGzaEdA25iGzhjPDNpQu9CjEV1pcHApXEcDsvdmKqQn9e4xLbuVHSLE8cjFmY3RUJWoX4cxxsymPkbKSVtttz5muzjq4XYc3xWdsU8kVRX3iTZwg7vJEqtPQhyYmR39BFBNo5Rs335aympaM9SR
+                      - generic [ref=e356]: Book Now at Booking.com
+                    - generic [ref=e357]: "Powered By: Booking.com"
+            - listitem [ref=e358]:
+              - 'button "Hotel Casa Llimona $ | Spain, Barcelona, Carrer de Roger de Llúria, 42 An authentically restored 1890s palace that coaxes creativity back to life. Book Now at Booking.com Powered By: Booking.com" [ref=e359] [cursor=pointer]':
+                - link [ref=e361]:
+                  - /url: /hotels/barcelona/casa-llimona
+                  - img [ref=e366]
+                - generic [ref=e367]:
+                  - generic [ref=e372]: Hotel
+                  - link "Casa Llimona" [ref=e373]:
+                    - /url: /hotels/barcelona/casa-llimona
+                    - generic [ref=e376]: Casa Llimona
+                  - generic [ref=e379]: $ | Spain, Barcelona, Carrer de Roger de Llúria, 42
+                  - generic [ref=e382]: An authentically restored 1890s palace that coaxes creativity back to life.
+                  - generic [ref=e385]:
+                    - link "Book Now at Booking.com" [ref=e387]:
+                      - /url: https://cna.st/h/3GxwCCDhdURyr5uytUgaN79YCNPUGSuxaGejKsoZGxBbD5JEvu6u6Ae3tdhuJK2xLPsXkngzf4Ud3pXMXFWiNoTqvs5DUwANYWL8Qi4fdgHeokpTqqgoG1hykYyqUEqP1JkyeGceZ3gPWLvXJAirUhDmvELgJYqkWfpwQWkBfk3xXcUEwh59wMHozW5KT3G1sEyMAjmpdy2LuwZjyXRhQocWUmKoArQz8Zj3LD89xcxvJj42veyDVs7d4jG7nFK8xiN5iN43QJ14si5RRn6vjjqJ8oB6kedM3S4sGwpcbDH7Sr4tRvY6gcQaePcmVcX3AiJhV5mUiit9EczDoLDWoHwjda1UaV
+                      - generic [ref=e388]: Book Now at Booking.com
+                    - generic [ref=e389]: "Powered By: Booking.com"
+            - listitem [ref=e390]:
+              - 'button "Hotel Mandarin Oriental, Barcelona $$$ | Spain, Barcelona, Passeig de Gràcia, 38-40 There''s a reason the Mandarin Oriental is so expensive—it''s simply one of the best hotels in Barcelona, in every way. Book Now at Booking.com Powered By: Booking.com" [ref=e391] [cursor=pointer]':
+                - link [ref=e393]:
+                  - /url: /hotels/spain/placa-de-catalunya/mandarin-oriental-barcelona
+                  - img [ref=e398]
+                - generic [ref=e399]:
+                  - generic [ref=e404]: Hotel
+                  - link "Mandarin Oriental, Barcelona" [ref=e405]:
+                    - /url: /hotels/spain/placa-de-catalunya/mandarin-oriental-barcelona
+                    - generic [ref=e408]: Mandarin Oriental, Barcelona
+                  - generic [ref=e411]: $$$ | Spain, Barcelona, Passeig de Gràcia, 38-40
+                  - generic [ref=e414]: There's a reason the Mandarin Oriental is so expensive—it's simply one of the best hotels in Barcelona, in every way.
+                  - generic [ref=e417]:
+                    - link "Book Now at Booking.com" [ref=e419]:
+                      - /url: https://cna.st/h/3GxwCCDhdURyr5uytUgaN79YCNPUGSuxaGejKsoZGxBbD5JEvu6u6Ae3tdhuJK2xLPsXkngzf4Ud3pXMXFWiNoTqvs5DUwxo4zVT6oPvDphVJusNoznCRoz2bcxHpzWhiLBDNBRaNukjPKCoV7LSGm6PvXs74zLHzinLj6cBsBXW7a11znZspBwKCmpx3FYrbsqpfBTSF5RnP7VnUTgLb5FghfdXbuWAcEyayw1AXYpEyug3MstFvMrJm1xpWeaAaZFyDNN3FUyaThVYB3xsH9mTGPbEMKWSDDZz4K4DDHWaD32VTn5GEcw3KXsYmbbcDv3DeH7zCqkydCuPF8cnmXC1oGLdrZ
+                      - generic [ref=e420]: Book Now at Booking.com
+                    - generic [ref=e421]: "Powered By: Booking.com"
+            - listitem [ref=e422]:
+              - 'button "Hotel Cotton House Hotel, Autograph Collection $$ | Spain, Barcelona, Gran Via de les Corts Catalanes, 670 Enjoy luxe accommodations at this beautifully restored hotel set in a former private palace. Book Now at Booking.com Powered By: Booking.com" [ref=e423] [cursor=pointer]':
+                - link [ref=e425]:
+                  - /url: /hotels/spain/barcelona/cotton-house-hotel
+                  - img [ref=e430]
+                - generic [ref=e431]:
+                  - generic [ref=e436]: Hotel
+                  - link "Cotton House Hotel, Autograph Collection" [ref=e437]:
+                    - /url: /hotels/spain/barcelona/cotton-house-hotel
+                    - generic [ref=e440]: Cotton House Hotel, Autograph Collection
+                  - generic [ref=e443]: $$ | Spain, Barcelona, Gran Via de les Corts Catalanes, 670
+                  - generic [ref=e446]: Enjoy luxe accommodations at this beautifully restored hotel set in a former private palace.
+                  - generic [ref=e449]:
+                    - link "Book Now at Booking.com" [ref=e451]:
+                      - /url: https://cna.st/h/8R1h8mj7jPeeTt1d1kfNKkKvwkjBat9tzyMdFnUvopUuQHhDpwjMqZ3fsYwmRL5jJQosjsjt6nJG3hNf3NfSmCJUZWQQ6hMKaB9youQ4XxPU2zJsrR4KweTuQMQSk4xzGKRQZecbj2MoeVJVJLxhXDdqaiVBhHDTuScwow7uWhthf2L3xRNj6FsKW21aT4gMK5tiZJQPn1EYUxpADZtm7PP9qWSErKFZcDqYjpvsv45zqTsJe9HJ41g4PEyQCXsgT8RsaNTc9AkX2JoDnHhidxQzucoW1fy2XhQa2FQsACDPQkUNvg51JLAkSZ2QVL5CkZUCHCvnFhesFWDZZmuHE1NvE7xAXMjaHZhLHFhGVX
+                      - generic [ref=e452]: Book Now at Booking.com
+                    - generic [ref=e453]: "Powered By: Booking.com"
+            - listitem [ref=e454]:
+              - 'button "Hotel Almanac Barcelona $$ | Spain, Barcelona, Gran Via de les Corts Catalanes, 619-621 Topped off with a secluded skyline pool, Almanac has all the trappings to go with its five-star status. Book Now at Booking.com Powered By: Booking.com" [ref=e455] [cursor=pointer]':
+                - link [ref=e457]:
+                  - /url: /hotels/barcelona/almanac-barcelona
+                  - img [ref=e462]
+                - generic [ref=e463]:
+                  - generic [ref=e468]: Hotel
+                  - link "Almanac Barcelona" [ref=e469]:
+                    - /url: /hotels/barcelona/almanac-barcelona
+                    - generic [ref=e472]: Almanac Barcelona
+                  - generic [ref=e475]: $$ | Spain, Barcelona, Gran Via de les Corts Catalanes, 619-621
+                  - generic [ref=e478]: Topped off with a secluded skyline pool, Almanac has all the trappings to go with its five-star status.
+                  - generic [ref=e481]:
+                    - link "Book Now at Booking.com" [ref=e483]:
+                      - /url: https://cna.st/h/3GxwCCDhdURyr5uytUgaN79YCNPUGSuxaGejKsoZGxBbD5JEvu6u6Ae3tdhuJK2xLPsXkngzf4Ud3pXMXFWiNoTqvs5DUw1HaaK4sTR4U6mrkqT6VAmY3UoxEXrhkpyY27tXyrZVfQgF53NeKotAECsjLdfyjFkezudpTDPVeycG4xepyUgEgxHmTB5Q4puyWiqka1EKc7KRku6nUJVHDXMx6XVrRY7khqD8XR5DgzrmvcgQMXN5Ux4sXE29cSXRyikZnQo4kwxp1WEGFXGsF4gdmMtQoXuNZSMG6w7d2Wr2KQQSctr746psaR1eEXjugfXjvQS8Uf1F9VPmonA2o1dqtFyHCu
+                      - generic [ref=e484]: Book Now at Booking.com
+                    - generic [ref=e485]: "Powered By: Booking.com"
+        - generic [ref=e491]:
+          - generic [ref=e493]: More from Condé Nast Traveler
+          - button "34 Best Restaurants in Barcelona, According to a Local Expert By Isabelle Kliger and Gemma Askham" [ref=e495] [cursor=pointer]:
+            - link [ref=e497]:
+              - /url: /gallery/best-restaurants-in-barcelona
+            - generic [ref=e502]:
+              - link "34 Best Restaurants in Barcelona, According to a Local Expert" [ref=e503]:
+                - /url: /gallery/best-restaurants-in-barcelona
+                - generic [ref=e506]: 34 Best Restaurants in Barcelona, According to a Local Expert
+              - generic [ref=e512]:
+                - generic [ref=e513]: By Isabelle Kliger
+                - text: and
+                - generic [ref=e514]: Gemma Askham
+    - link "Opens in a new window" [ref=e523] [cursor=pointer]:
+      - /url: https://www.cntraveler.com/v2/offers/cnta01027?source=Site_0_JNY_CNT_DESKTOP_FOOTER_0_US_QUICKPAY_TEST_2026_ZZ_PANELA
+      - 'img "IT''S TIME TO VOTE! <br> The 2026 Readers'' Choice Awards Survey is here <br> Go even further for your travels. Just <del>$2.50</del> <strong>$1 per month</strong> for one year. <br> CTA: SUBSCRIBE NOW" [ref=e524]'
+    - contentinfo [ref=e528]:
+      - generic [ref=e529]:
+        - generic [ref=e530]:
+          - link "Condé Nast Traveler" [ref=e532] [cursor=pointer]:
+            - /url: /
+            - img "Condé Nast Traveler" [ref=e535]
+          - list [ref=e537]:
+            - listitem [ref=e538]:
+              - link "Follow us on Pinterest" [ref=e539] [cursor=pointer]:
+                - /url: https://www.pinterest.com/cntraveler/
+                - img "Pinterest" [ref=e542]
+            - listitem [ref=e544]:
+              - link "Follow us on Facebook" [ref=e545] [cursor=pointer]:
+                - /url: https://www.facebook.com/CondeNastTraveler
+                - img "Facebook" [ref=e548]
+            - listitem [ref=e550]:
+              - link "Follow us on Snapchat" [ref=e551] [cursor=pointer]:
+                - /url: https://www.snapchat.com/add/cntraveler
+                - img "Snapchat" [ref=e554]
+            - listitem [ref=e556]:
+              - link "Follow us on Instagram" [ref=e557] [cursor=pointer]:
+                - /url: https://www.instagram.com/cntraveler/
+                - img "Instagram" [ref=e560]
+            - listitem [ref=e562]:
+              - link "Follow us on X" [ref=e563] [cursor=pointer]:
+                - /url: https://twitter.com/CNTraveler
+                - img "X" [ref=e566]
+          - paragraph [ref=e568]: As the most discerning, up-to-the-minute voice in all things travel, Condé Nast Traveler is the global citizen’s bible and muse, offering both inspiration and vital intel. We understand that time is the greatest luxury, which is why Condé Nast Traveler mines its network of experts and influencers so that you never waste a meal, a drink, or a hotel stay wherever you are in the world.
+        - navigation "More from Condé Nast Traveler" [ref=e569]:
+          - paragraph [ref=e570]: More from Condé Nast Traveler
+          - list [ref=e571]:
+            - listitem [ref=e572]:
+              - link "About Condé Nast Traveler" [ref=e573] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/info/about-us
+            - listitem [ref=e574]:
+              - link "Subscribe" [ref=e575] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/subscribe
+            - listitem [ref=e576]:
+              - link "Manage Account" [ref=e577] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/account/profile
+            - listitem [ref=e578]:
+              - link "Newsletter Sign Up" [ref=e579] [cursor=pointer]:
+                - /url: /newsletter
+            - listitem [ref=e580]:
+              - link "Readers' Choice Awards" [ref=e581] [cursor=pointer]:
+                - /url: /inspiration/readers-choice-awards
+            - listitem [ref=e582]:
+              - link "Archive" [ref=e583] [cursor=pointer]:
+                - /url: https://archive.cntraveler.com/
+        - navigation "Contact" [ref=e584]:
+          - paragraph [ref=e585]: Contact
+          - list [ref=e586]:
+            - listitem [ref=e587]:
+              - link "Contact the Editors" [ref=e588] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/info/about-us
+            - listitem [ref=e589]:
+              - link "Careers" [ref=e590] [cursor=pointer]:
+                - /url: https://www.condenast.com/careers/
+        - generic [ref=e592]:
+          - navigation "Notices" [ref=e593]:
+            - list [ref=e594]:
+              - listitem [ref=e595]:
+                - link "User Agreement" [ref=e596] [cursor=pointer]:
+                  - /url: https://www.condenast.com/user-agreement/
+              - listitem [ref=e597]:
+                - text: "|"
+                - link "Privacy Policy" [ref=e598] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy
+              - listitem [ref=e599]:
+                - text: "|"
+                - link "Your California Privacy Rights" [ref=e600] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy-california
+              - listitem [ref=e601]:
+                - text: "|"
+                - link "RSS Feeds" [ref=e602] [cursor=pointer]:
+                  - /url: /feed/rss
+              - listitem [ref=e603]:
+                - text: "|"
+                - link "Site Map" [ref=e604] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e605]:
+                - text: "|"
+                - link "Condé Nast Store" [ref=e606] [cursor=pointer]:
+                  - /url: https://www.condenaststore.com/
+              - listitem [ref=e607]:
+                - text: "|"
+                - img [ref=e609]
+                - button "Privacy Information" [ref=e621] [cursor=pointer]
+          - paragraph [ref=e623]:
+            - text: © 2026 Condé Nast. All rights reserved.
+            - emphasis [ref=e624]: Condé Nast Traveler
+            - text: may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+            - link "Ad Choices" [ref=e625] [cursor=pointer]:
+              - /url: http://www.aboutads.info
+          - generic [ref=e627]:
+            - heading "Select international site" [level=6] [ref=e628]
+            - button "Select international site" [ref=e629] [cursor=pointer]:
+              - generic [ref=e630]: United States
+              - img [ref=e632]
+  - region "Live chat"

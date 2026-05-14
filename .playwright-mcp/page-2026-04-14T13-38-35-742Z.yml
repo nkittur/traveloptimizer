@@ -1,0 +1,451 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2023%252F05%252F04%252Ftravel%252Fthings-to-do-asheville.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - figure "scoop-picture" [ref=e34]
+            - generic [ref=e38]:
+              - link "36 Hours" [ref=e41] [cursor=pointer]:
+                - /url: https://www.nytimes.com/column/36-hours
+              - generic [ref=e43]: Asheville, N.C.
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Jump to:"
+              - link "Recommendations" [ref=e48] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e50] [cursor=pointer]:
+                - /url: "#itinerary"
+              - link "Google Map" [ref=e52] [cursor=pointer]:
+                - /url: https://goo.gl/maps/1FSJEs2jx5iqEqrT9
+              - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e55]:
+                - list [ref=e57]:
+                  - listitem [ref=e58]:
+                    - button "Share full article" [ref=e61] [cursor=pointer]:
+                      - generic [ref=e62]:
+                        - img [ref=e63]
+                        - text: Share full article
+                  - listitem [ref=e65]:
+                    - button "More sharing options ..." [ref=e68] [cursor=pointer]:
+                      - img [ref=e69]
+                  - listitem [ref=e71]:
+                    - switch "Save article for reading later..." [ref=e72] [cursor=pointer]:
+                      - img [ref=e73]
+                  - listitem [ref=e77]:
+                    - button "Read 708 comments" [ref=e78] [cursor=pointer]:
+                      - generic [ref=e79]:
+                        - img [ref=e80]
+                        - text: "708"
+            - generic [ref=e82]:
+              - generic [ref=e83]: By Shayla Martin
+              - generic [ref=e84]: Photographs by Mike Belleme
+              - generic [ref=e85]: May 4, 2023
+              - generic [ref=e86]: Shayla Martin, a former North Carolina resident, visits Asheville frequently.
+            - paragraph [ref=e87]: Once a wellness haven for American elites in search of mountain air, Asheville, N.C., has reinvented itself many times over the last century. In recent years, the city, nestled in the Blue Ridge Mountains, has become a culinary hot spot, with multiple award-winning restaurants, and an inordinate number of breweries. Art lovers will find much to savor in the River Arts District, and bikers and hikers will have miles of trails in and around the city to explore. In the downtown area and beyond, Black residents are embracing their “Affrilachian” heritage through tours and art collectives, and creative spaces featuring the work of Indigenous artists acknowledge the region’s ties to the Eastern Band of Cherokee Indians, on whose ancestral land the city sits.
+          - generic [ref=e88]: Advertisement
+          - generic [ref=e89]:
+            - heading "Recommendations" [level=2] [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93] [cursor=pointer]:
+                  - text: Key stops
+                  - generic [ref=e94]: –
+                - list [ref=e95]:
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: The Block
+                    - text: ", once a flourishing Black-owned business district in downtown Asheville, is reemerging as a buzzing cultural community."
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]:
+                      - link "River Arts District" [ref=e100] [cursor=pointer]:
+                        - /url: https://www.riverartsdistrict.com/
+                    - text: is a collection of former warehouses and mills turned artist studios along the French Broad River.
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]:
+                      - link "Shoji Spa & Retreat" [ref=e103] [cursor=pointer]:
+                        - /url: https://shojispa.com/
+                    - text: is a Japanese-style bath house and spa.
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]:
+                      - link "Biltmore Estate" [ref=e106] [cursor=pointer]:
+                        - /url: https://www.biltmore.com/
+                    - text: includes George Vanderbilt’s 250-room mansion, set on thousands of acres.
+              - generic [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]:
+                  - text: Attractions and shops
+                  - generic [ref=e109]: +
+                - list:
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]:
+                      - link "Hood Huggers International" [ref=e112] [cursor=pointer]:
+                        - /url: https://www.hoodhuggers.com/
+                    - text: offers walking and driving tours of historic African American neighborhoods.
+                  - listitem [ref=e113]:
+                    - strong [ref=e114]:
+                      - link "Noir Collective AVL" [ref=e115] [cursor=pointer]:
+                        - /url: https://noircollectiveavl.com/
+                    - text: is a Black-owned boutique and art gallery featuring Black entrepreneurs.
+                  - listitem [ref=e116]:
+                    - strong [ref=e117]:
+                      - link "YMI Cultural Center" [ref=e118] [cursor=pointer]:
+                        - /url: https://www.ymiculturalcenter.org/
+                    - text: is one of the oldest Black cultural centers in the United States.
+                  - listitem [ref=e119]:
+                    - strong [ref=e120]:
+                      - link "LEAF Global Arts" [ref=e121] [cursor=pointer]:
+                        - /url: https://theleaf.org/
+                    - text: is a music education nonprofit celebrating global music.
+                  - listitem [ref=e122]:
+                    - strong [ref=e123]:
+                      - link "Peace Gardens & Market" [ref=e124] [cursor=pointer]:
+                        - /url: https://www.urbanpeacegardens.org/
+                    - text: is a community garden that offers a pay-what-you-can farm stand.
+                  - listitem [ref=e125]:
+                    - strong [ref=e126]:
+                      - link "North Carolina Glass Center" [ref=e127] [cursor=pointer]:
+                        - /url: https://www.ncglasscenter.org/
+                    - text: is a glass studio and gallery.
+                  - listitem [ref=e128]:
+                    - strong [ref=e129]:
+                      - link "Foundation Woodworks" [ref=e130] [cursor=pointer]:
+                        - /url: https://foundationwoodworks.com/
+                    - text: is a collective of wood-working artists selling everything from wooden jewelry to custom furniture.
+                  - listitem [ref=e131]:
+                    - strong [ref=e132]:
+                      - link "Weaving Rainbows" [ref=e133] [cursor=pointer]:
+                        - /url: https://www.weavingrainbows.love/
+                    - text: sells bead work, sculptures and hand-woven items made by Indigenous artisans.
+              - generic [ref=e134]:
+                - generic [ref=e135] [cursor=pointer]:
+                  - text: Restaurants and bars
+                  - generic [ref=e136]: +
+                - list:
+                  - listitem [ref=e137]:
+                    - strong [ref=e138]:
+                      - link "Benne on Eagle" [ref=e139] [cursor=pointer]:
+                        - /url: https://www.benneoneagle.com/
+                    - text: ", in the Block district, celebrates African American culinary traditions."
+                  - listitem [ref=e140]:
+                    - strong [ref=e141]:
+                      - link "PennyCup Coffee" [ref=e142] [cursor=pointer]:
+                        - /url: https://pennycupcoffeeco.com/
+                    - text: ", a local coffee shop and cafe that has a branch in the Block area, is decorated with a colorful mural by the artist Big Al Carter."
+                  - listitem [ref=e143]:
+                    - strong [ref=e144]:
+                      - link "Workshop Lounge" [ref=e145] [cursor=pointer]:
+                        - /url: https://foundryasheville.com/dining/workshop-lounge
+                    - text: is a cocktail bar with live weekend jazz.
+                  - listitem [ref=e146]:
+                    - strong [ref=e147]:
+                      - link "Hi-Wire Brewing AVL Beer Garden" [ref=e148] [cursor=pointer]:
+                        - /url: https://hiwirebrewing.com/rad-beer-garden-asheville/
+                    - text: serves more than 20 craft beers on tap.
+                  - listitem [ref=e149]:
+                    - strong [ref=e150]:
+                      - link "Foothills Local Meats" [ref=e151] [cursor=pointer]:
+                        - /url: http://foothillslocalmeats.com/food-truck-rad
+                    - text: food truck offers local smokehouse barbecue and vegetarian options.
+                  - listitem [ref=e152]:
+                    - strong [ref=e153]:
+                      - link "Cúrate Bar de Tapas" [ref=e154] [cursor=pointer]:
+                        - /url: https://curatetapasbar.com/bar-de-tapas/
+                    - text: serves traditional Spanish tapas, jamón Iberico and a wide range of Spanish sangria, cider and sherry.
+                  - listitem [ref=e155]:
+                    - strong [ref=e156]:
+                      - link "La Bodega by Cúrate" [ref=e157] [cursor=pointer]:
+                        - /url: https://curatetapasbar.com/la-bodega/
+                    - text: is a Spanish restaurant, market and wine bar from the owners of Cúrate Bar de Tapas.
+                  - listitem [ref=e158]:
+                    - strong [ref=e159]:
+                      - link "Crave Dessert Bar" [ref=e160] [cursor=pointer]:
+                        - /url: https://www.cravedessertbar.com/location/crave-dessert-bar-asheville/
+                    - text: is a cozy lounge featuring a menu of nearly every dessert imaginable.
+                  - listitem [ref=e161]:
+                    - strong [ref=e162]:
+                      - link "Asheville Beauty Academy" [ref=e163] [cursor=pointer]:
+                        - /url: https://www.avlbeautyacademy.com/
+                    - text: is a former cosmetology school turned bar and nightclub with weekly drag performances.
+                  - listitem [ref=e164]:
+                    - strong [ref=e165]:
+                      - link "Blue Ridge Restaurant" [ref=e166] [cursor=pointer]:
+                        - /url: https://www.omnihotels.com/hotels/asheville-grove-park/dining/blue-ridge
+                    - text: offers a farm-to-table Sunday Southern brunch at the Omni Grove Park Inn.
+              - generic [ref=e167]:
+                - generic [ref=e168] [cursor=pointer]:
+                  - text: Where to stay
+                  - generic [ref=e169]: +
+                - list:
+                  - listitem [ref=e170]:
+                    - strong [ref=e171]:
+                      - link "Grand Bohemian Hotel Asheville" [ref=e172] [cursor=pointer]:
+                        - /url: https://www.kesslercollection.com/bohemian-asheville/
+                    - text: ", a Bavarian-hunting-lodge-themed boutique hotel in the Biltmore Village enclave, is all Old World elegance, with stag antler chandeliers, velvet-tufted headboards and European, African and American art in the onsite gallery. Standard rooms from about $289."
+                  - listitem [ref=e173]:
+                    - strong [ref=e174]:
+                      - link "The Foundry Hotel" [ref=e175] [cursor=pointer]:
+                        - /url: https://foundryasheville.com/
+                    - text: ", in a restored steel factory, is in the heart of the Block. Refined, industrial chic is the design principle, with exposed brick walls in guest rooms and oversize marble bathrooms. Doubles from $249."
+                  - listitem [ref=e176]:
+                    - strong [ref=e177]:
+                      - link "Wrong Way River Lodge & Cabins" [ref=e178] [cursor=pointer]:
+                        - /url: https://www.wrongwaycampground.com/
+                    - text: ", recently opened, offers 16 A-frame “Scappalachian” (Scandinavian-meets-Appalachian) cabins on the peaceful French Broad River. From $135 for standard cabins."
+                  - listitem [ref=e179]:
+                    - text: Search for a
+                    - strong [ref=e180]: short-term rental
+                    - text: in West Asheville off Haywood Street, a less-than-10-minute drive from downtown Asheville.
+              - generic [ref=e181]:
+                - generic [ref=e182] [cursor=pointer]:
+                  - text: Getting around
+                  - generic [ref=e183]: +
+                - list:
+                  - listitem [ref=e184]: While downtown Asheville is compact enough to explore on foot, you may want to rent a car to reach the many nature trails and attractions just outside of the city. Asheville’s regional airport hosts most national rental car brands, otherwise Ubers and Lyfts average less than $10 a ride to get to most Asheville neighborhoods.
+          - generic [ref=e185]:
+            - heading "Itinerary" [level=2] [ref=e186]
+            - paragraph [ref=e187]: Friday
+            - figure "scoop-picture" [ref=e189]:
+              - img "A storefront with the words" [ref=e193]
+              - generic [ref=e194]: Noir Collective AVL
+            - generic [ref=e195]:
+              - generic [ref=e196]: 2:30 p.m. Walk ‘the Block’
+              - generic [ref=e197]:
+                - text: Seventy years ago, Eagle and Market Streets, known as the Block, made up a prosperous African American business district. The Young Men’s Institute (now
+                - link "the YMI Cultural Center" [ref=e198] [cursor=pointer]:
+                  - /url: https://www.ymiculturalcenter.org/
+                - text: ) was a cornerstone of the local Black community, with a library, athletic facilities, retail space and classrooms. Though much of the neighborhood was destroyed by urban renewal policies, the Tudor-inspired, red-brick center, built in 1893, is undergoing renovations and expected to open in its entirety later this year. Already, the ground-level retail spaces include
+                - link "Noir Collective AVL" [ref=e199] [cursor=pointer]:
+                  - /url: https://noircollectiveavl.com/
+                - text: ", a Black-owned boutique filled with artwork, jewelry, teas, soaps and more, and"
+                - link "PennyCup Coffee" [ref=e200] [cursor=pointer]:
+                  - /url: https://pennycupcoffeeco.com/
+                - text: ", where a colorful mural by the artist Big Al Carter greets visitors. Nearby, a cultural center called"
+                - link "LEAF Global Arts" [ref=e201] [cursor=pointer]:
+                  - /url: https://theleaf.org/
+                - text: allows visitors to virtually explore music from around the world, play instruments and occasionally enjoy live performances (free).
+            - generic [ref=e202]:
+              - generic [ref=e203]: 4:00 p.m. Celebrate Indigenous artistry
+              - generic [ref=e204]:
+                - text: Also in the downtown area,
+                - link "Weaving Rainbows" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.weavingrainbows.love/
+                - text: ", a new art gallery and creative space dedicated to Indigenous artists, works with artists from the local Eastern Band of Cherokee Indians as well as Indigenous communities in Mexico, Peru and Guatemala, with most of the works created by women. Here you’ll find naturally dyed, handmade weavings, clothing, rugs, huipils (ponchos) and more. This month, the team plans to open the onsite Bejaflor Botanicals Elixir Garden, a nonalcoholic bar of elixirs ($5) made from both international and Appalachian herbs."
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e206]:
+              - generic [ref=e207]: 6:30 p.m. Dine among legends
+              - generic [ref=e208]:
+                - text: An oversize portrait of the writer James Baldwin by the local artist Jenny Pickens greets guests at
+                - link "Benne on Eagle" [ref=e209] [cursor=pointer]:
+                  - /url: https://www.benneoneagle.com/
+                - text: ", a restaurant that pays homage to local African American culinary traditions. Ask for a table near the “Legends of the Block” portraits of four Black female chefs and Eagle street business owners from the 1960s and ’70s whose culinary impact is still felt today. The restaurant focuses on seasonal Southern cuisine: Starters like fried green tomatoes ($12) are served with pimento cheese and tangy chow chow, while the fried catfish and collards entree ($24), served with sweet potato hash and peanut red pepper sauce, is a must. Check out the night’s featured cocktails or try the Mo Benne Blues ($14) with vodka, blueberry, lemon and lavender."
+            - generic [ref=e210]:
+              - generic [ref=e211]: 8 p.m. Listen to live jazz
+              - generic [ref=e212]:
+                - text: Asheville is known for its music scene and you can ease into it just steps away from dinner at the
+                - link "Foundry Hotel" [ref=e213] [cursor=pointer]:
+                  - /url: https://foundryasheville.com/
+                - text: . Housed in three 19th-century buildings that were once a steel factory for the nearby
+                - link "Biltmore Estate" [ref=e214] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/
+                - text: ", the Foundry offers Gilded Age vibes with Art Deco-inspired furnishings and free live jazz most evenings in the"
+                - link "Workshop Lounge" [ref=e215] [cursor=pointer]:
+                  - /url: https://foundryasheville.com/dining/workshop-lounge
+                - text: bar (cocktails from $12 to $15). On Fridays, the Hot Club of Asheville jazz collective plays 1930s swing until 9:30 p.m. Don’t be afraid to join fellow guests on the dance floor.
+          - figure "scoop-picture" [ref=e216]:
+            - img "Three people stroll on footpaths among newly planted gardens on a bucolic estate. In the foreground are some lilies, In the background is a greenhouse with arched windows and beyond that are trees. On one side is a covered walking bath with trellises on which vines grow." [ref=e220]
+            - generic [ref=e221]: Visitors stroll among the gardens on the Biltmore Estate.
+          - generic [ref=e222]: Advertisement
+          - generic [ref=e223]:
+            - paragraph [ref=e224]: Saturday
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e225]:
+              - generic [ref=e226]: 10 a.m. Unwind at a Japanese spa
+              - generic [ref=e227]:
+                - text: Just 15 minutes from downtown Asheville, you’ll find the Blue Ridge mountain views that so many come here for. In the late 19th century, doctors began praising the area’s fresh air, some saying that it was a cure for respiratory illnesses. Today, you’ll find yoga, salt caves and aura readings to help you pursue inner calm, but nothing quite compares to
+                - link "Shoji Spa & Retreat" [ref=e228] [cursor=pointer]:
+                  - /url: https://shojispa.com/
+                - text: . The Japanese-inspired spa, deep within the
+                - link "Pisgah National Forest" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=48114
+                - text: ", is known for its open-air private tub houses. Guests may soak in salt mineral hot tubs ($123 for 90 minutes) with tub-side tea service ($24) that includes the spa’s signature tea blend, raw unfiltered honey and tea crackers. All soaks and spa packages include access to a wet cedar sauna and cold showers."
+            - generic [ref=e230]:
+              - generic [ref=e231]: 1 p.m. Blow glass and sip brews
+              - generic [ref=e232]:
+                - text: Along the French Broad River, in former warehouses, mills and shipping containers, is the
+                - link "River Arts District" [ref=e233] [cursor=pointer]:
+                  - /url: https://www.riverartsdistrict.com/
+                - text: ", a one-mile stretch of galleries and studios for more than 200 artists. If you visit on the"
+                - link "second Saturday" [ref=e234] [cursor=pointer]:
+                  - /url: https://www.riverartsdistrict.com/events/category/second-saturdays/
+                - text: of the month, you’ll find live music, workshops and food and wine tastings. Visit the
+                - link "North Carolina Glass Center" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.ncglasscenter.org/
+                - text: for a
+                - link "30-minute Hot Shop class" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.ncglasscenter.org/classes
+                - text: and create a paperweight or drinking glass ($90), then check out
+                - link "Foundation Woodworks" [ref=e237] [cursor=pointer]:
+                  - /url: https://foundationwoodworks.com/
+                - text: for wooden kitchenware, sculptures and jewelry. Nearby, at the
+                - link "Hi-Wire Brewing AVL Beer Garden" [ref=e238] [cursor=pointer]:
+                  - /url: https://hiwirebrewing.com/rad-beer-garden-asheville/
+                - text: ", choose from 24 taps (from $3 for a four-ounce pour) among mural-covered shipping containers, while snacking on fried brussels sprouts ($8) or smoked barbecue over a cornbread waffle ($15) from the onsite"
+                - link "Foothills Local Meats food truck" [ref=e239] [cursor=pointer]:
+                  - /url: http://foothillslocalmeats.com/food-truck-rad
+                - text: . Afterward, play a game of bocce or pinball.
+            - figure "scoop-picture" [ref=e241]:
+              - img "A garden is cluttered with various signs and portraits and sections of fences. In the foreground is a blue edged sign that reads" [ref=e245]
+              - generic [ref=e246]: Peace Gardens & Market
+            - generic [ref=e247]:
+              - generic [ref=e248]: 4 p.m. Explore Affrilachia
+              - generic [ref=e249]:
+                - text: Coined by the Kentucky poet Frank X. Walker, “Affrilachia” refers to the cultural contributions of local African Americans to the Appalachian South, which is often portrayed as predominantly white. With hopes of reinvigorating Affrilachia, DeWayne Barton, founder of the
+                - link "Hood Huggers International" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.hoodhuggers.com/
+                - text: tour company, leads walking and driving tours, like the
+                - link "Burton Street tour" [ref=e251] [cursor=pointer]:
+                  - /url: https://www.hoodhuggers.com/tours/
+                - text: ($30), which explores the neighborhood founded in 1912 by Edward W. Pearson, a businessman and former Buffalo Soldier (the name given to members of the historic Black U.S. Army regiments). Cliff Cotton, Pearson’s grandson, greets tour-goers at the Burton Street Community Center with tales of his grandfather, who founded Asheville’s first Black semi-pro baseball team. The tour also visits the
+                - link "Peace Gardens & Market" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.urbanpeacegardens.org/
+                - text: ", part community garden, part outdoor museum."
+            - generic [ref=e253]:
+              - generic [ref=e254]: 7:30 p.m. Sample pinxtos and bread pudding
+              - generic [ref=e255]:
+                - text: Many visitors think that dining in Asheville must include a meal created by Katie Button, the James Beard Award-winning chef who helped put the city’s dining scene on the national stage when she opened the Spanish restaurant
+                - link "Cúrate Bar de Tapas" [ref=e256] [cursor=pointer]:
+                  - /url: https://curatetapasbar.com/
+                - text: in 2011. Reservations are sometimes hard to snag, so shoot for a table at the nearby sister restaurant,
+                - link "La Bodega by Cúrate" [ref=e257] [cursor=pointer]:
+                  - /url: https://curatetapasbar.com/la-bodega/
+                - text: . The dinner menu offers Basque pintxos, including mejillones, spicy mussels served with a warm baguette ($16) and pescadito frito, fried anchovies with green peppercorn mayo ($14). Or journey through pinxto culture with the chef’s tasting menu ($65; optional wine pairing, $35). Save room for s’mores ($16) or bourbon pecan cheesecake ($12) at
+                - link "Crave Dessert Bar" [ref=e258] [cursor=pointer]:
+                  - /url: https://www.cravedessertbar.com/asheville-menu/
+                - text: ", a five-minute walk away."
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e259]:
+              - generic [ref=e260]: 10:30 p.m. Dance the night away
+              - generic [ref=e261]:
+                - text: Known for its Sunday drag brunch parties, downtown’s
+                - link "Asheville Beauty Academy" [ref=e262] [cursor=pointer]:
+                  - /url: https://www.avlbeautyacademy.com/
+                - text: "also encourages folks to stay up late. The dance club and bar got its name from the building’s former life as a beauty academy in the 1950s, but today, the L.G.B.T.Q.-focused space welcomes guests to join Saturday night themed parties that might include a Hip-Hop Vinyl Party ($5 cover). House or draft cocktails (from $9) flow until 2 a.m., so you can experience the club’s tagline: The longer you stay, the better you look."
+          - figure "scoop-picture" [ref=e263]:
+            - img "About a dozen people are spread out in an open parklike area. They appear to be taking an outdoor dance class on a nice day. Behind them are a line of low trees, and in the background are city buildings." [ref=e267]
+            - generic [ref=e268]: Salsa dancers gather in downtown Asheville on a recent weekend.
+          - generic [ref=e269]: Advertisement
+          - generic [ref=e270]:
+            - paragraph [ref=e271]: Sunday
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e272]:
+              - generic [ref=e273]: 9:30 a.m. Visit the Vanderbilts’ not-so-humble abode
+              - generic [ref=e274]:
+                - text: No trip to Asheville is complete without a stop at the
+                - link "Biltmore House" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/visit/biltmore-estate/biltmore-house/
+                - text: ", the palatial Gilded Age mansion built by George Vanderbilt in 1895. Billed as the largest home in the United States, it comes in at a whopping 175,000 square feet. A"
+                - link "self-guided audio tour" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/activity/audio-guide-to-biltmore-house/
+                - text: (from $89) can feel stale if you aren’t an architecture buff or particularly interested in the Vanderbilt family, but fortunately the larger estate offers everything from wine tastings at the onsite
+                - link "Biltmore Winery" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/visit/winery/
+                - text: to
+                - link "hiking trails and bike rentals" [ref=e278] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/things-to-do/activities/outdoors/biking-hiking/
+                - text: to explore the estate’s 22 miles of paved and woodland dirt paths. Through Jan. 7, 2024, the “
+                - link "Italian Renaissance Alive" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.biltmore.com/things-to-do/events/italian-renaissance-alive/
+                - text: ” experience at the estate’s Amherst at Deer Park exhibition space features light, sound and scent accompanying projections of works by Michelangelo, Leonardo da Vinci, Boticelli and other artists, all set to Italian opera. (Tickets, including the Italian experience, range from $109 to $129).
+            - generic [ref=e280]:
+              - generic [ref=e281]: 12 p.m. Dig into a Southern Sunday brunch
+              - generic [ref=e282]:
+                - text: North Carolina takes its Sunday brunches so seriously that the state passed the so-called
+                - link "Brunch Bill" [ref=e283] [cursor=pointer]:
+                  - /url: https://www.wcnc.com/article/news/verify/alcohol-laws-north-carolina/275-582f722f-8c87-4dbb-a526-a0ac4fa15aab
+                - text: in 2017 to allow restaurants to start selling alcohol at 10 a.m. instead of noon. Asheville has no shortage of options, but for a true down-home-brunch-in-your-Sunday-best experience, hop in an Uber for a 10-minute ride to
+                - link "Blue Ridge" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.omnihotels.com/hotels/asheville-grove-park/dining/blue-ridge
+                - text: at the storied
+                - link "Omni Grove Park Inn" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.omnihotels.com/hotels/asheville-grove-park
+                - text: . The spread ($48) is immense, with predictable items like omelets and buttermilk pancakes. But take a cue from local diners and make a beeline for the biscuits and sausage gravy, shrimp and grits, and fried catfish. Brunch includes a mimosa, Bellini, champagne or Bloody Mary. Ask for a table by the window overlooking the mountains.
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - text: Support independent journalism with a subscription.
+        - generic [ref=e290]:
+          - text: Already a subscriber?
+          - link [ref=e291] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=oma&asset=RegiWallStandalone&application=Free_Experience&reload=3&campaignId=7JFJX&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26redirect_uri%3Dhttps%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2023%2F05%2F04%2Ftravel%2Fthings-to-do-asheville.html%26EXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2023%2F05%2F04%2Ftravel%2Fthings-to-do-asheville.html
+            - text: Log in.
+      - separator [ref=e292]
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]: Enjoy unlimited access for $1 a week.
+          - generic [ref=e297]: Welcome offer
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: Was
+              - text: $7.50
+            - generic [ref=e301]: Now
+            - text: $1/week
+          - generic [ref=e302]: Billed as $4 every 4 weeks for your first 6 months, then $30 thereafter.
+        - generic [ref=e303]:
+          - generic [ref=e306]:
+            - link [ref=e308] [cursor=pointer]:
+              - /url: https://myaccount.nytimes.com/get-started/payment?campaignId=9XHYQ&o=981b1f30-fe72-4186-92f5-5c6368715550
+              - paragraph [ref=e309]: Continue with card
+            - link [ref=e310] [cursor=pointer]:
+              - /url: https://myaccount.nytimes.com/get-started/payment?campaignId=9XHYQ&o=981b1f30-fe72-4186-92f5-5c6368715550&source=paywall%3Apaypal
+              - img [ref=e311]
+          - generic [ref=e318]: Cancel or pause anytime.
+      - generic [ref=e320]:
+        - generic [ref=e321]: All Access includes news, plus Games, Cooking, Audio, Wirecutter and The Athletic.
+        - separator [ref=e322]
+        - generic [ref=e325]:
+          - text: Offer for a New York Times All Access subscription. Current subscribers and those who have previously accepted a sale/introductory offer from The New York Times may be ineligible for another sale/introductory offer. Subscription excludes print edition. Some games may be available without a subscription. You will be automatically charged in advance $4.00 every 4 weeks for 6 months, and $30.00 every 4 weeks thereafter. Cancel before October 27, 2026 to avoid the transition to the standard price that will be charged on that date. You can
+          - link [ref=e326] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/360003499613-Cancel-Your-Subscription
+            - text: cancel
+          - text: prior to renewal from your account settings online or during limited hours via chat or phone. Cancellation is effective at the end of the current billing period unless an exception applies; see our
+          - link [ref=e327] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: Terms of Sale
+          - text: . For U.S. subscribers, cancellation takes effect at the end of your current billing period. For international subscribers, see our
+          - link [ref=e328] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: Terms of Sale
+          - text: for further information. Taxes may apply. Offer terms are subject to change.
+        - separator [ref=e329]
+        - generic [ref=e330]:
+          - paragraph [ref=e331]: ©2026 The New York Times Company
+          - link [ref=e332] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us
+            - text: Help
+          - link [ref=e333] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us?redir=myacc
+            - text: Feedback

@@ -1,0 +1,578 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQPAgJ
+          - img [ref=e15]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - combobox "Search" [ref=e21]: site:nationalgeographic.com "acadia national park" OR "bar harbor" things to do site:nationalgeographic.com "acadia national park" OR "bar harbor" things to do
+            - generic [ref=e22]:
+              - button "Clear" [ref=e24] [cursor=pointer]:
+                - img [ref=e26]
+              - generic [ref=e29]:
+                - button "Search by voice" [ref=e30] [cursor=pointer]:
+                  - img [ref=e31]
+                - button "Search by image" [ref=e33] [cursor=pointer]:
+                  - img [ref=e34]
+          - button "Search" [ref=e36] [cursor=pointer]:
+            - img [ref=e39]
+    - generic [ref=e42]:
+      - button "Search Labs" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+      - button "Google apps" [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+      - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e53] [cursor=pointer]':
+        - img [ref=e55]
+        - img [ref=e60]
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&aep=1&ntc=1&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ2J8OegQICxAI
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Maps" [ref=e88] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=36815ad48fdd2e61&output=search&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e90]: Maps
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQtKgLegQIEBAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Short videos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQs6gLegQIERAB
+              - generic [ref=e98]: Short videos
+          - listitem [ref=e99]:
+            - link "Forums" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQs6gLegQIEhAB
+              - generic [ref=e102]: Forums
+          - listitem [ref=e103]:
+            - link "Videos" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpUrv6YeyJhXfuYqj4Fj6c1RI_0uMqkwK9S2Nqd6jAgnKRa76s1B6M2fJUhbcT89ppzz5RMkkHCAYnBft_f7frekQVCpHMegctxQICtFJGtGSCoL5A23-qClkZlQg9vj67RDLyFimBAu1HjUtf4oxq-hzoNGyHSanqhhfkb0GBwHZKBKN_578Ik4brodRQ7dVEpS3lrg&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQtKgLegQIDxAB
+              - generic [ref=e106]: Videos
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - generic [ref=e135]: Sponsored tickets & tours
+        - button "Why this ad?" [ref=e138] [cursor=pointer]:
+          - img [ref=e140]
+      - generic [ref=e142]:
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Acadia Fat tire Ebike Tours $190 Viator Rated 5.0 out of 5, 3 user reviews" [ref=e147] [cursor=pointer]:
+              - /url: https://www.viator.com/bar-harbor/d4371
+              - generic [ref=e150]:
+                - generic [ref=e152]: Acadia Fat tire Ebike Tours
+                - generic [ref=e153]:
+                  - generic [ref=e155]: $190
+                  - generic [ref=e156]: Viator
+                  - img "Rated 5.0 out of 5, 3 user reviews" [ref=e158]:
+                    - text: "5.0"
+                    - img [ref=e159]
+                    - text: (3)
+          - listitem [ref=e162]:
+            - link "Schooner Sail $71 Shore Excursions Group Guided tour" [ref=e164] [cursor=pointer]:
+              - /url: https://www.shoreexcursionsgroup.com/tour
+              - generic [ref=e167]:
+                - generic [ref=e169]: Schooner Sail
+                - generic [ref=e170]:
+                  - generic [ref=e172]: $71
+                  - generic [ref=e173]: Shore Excursions Group
+                  - generic [ref=e175]: Guided tour
+          - listitem [ref=e176]:
+            - link "Culinary Walking Tour with Tastings $160 GetYourGuide Rated 4.7 out of 5, 48 user reviews" [ref=e178] [cursor=pointer]:
+              - /url: https://www.getyourguide.com/
+              - generic [ref=e181]:
+                - generic [ref=e183]: Culinary Walking Tour with Tastings
+                - generic [ref=e184]:
+                  - generic [ref=e186]: $160
+                  - generic [ref=e187]: GetYourGuide
+                  - img "Rated 4.7 out of 5, 48 user reviews" [ref=e189]:
+                    - text: "4.7"
+                    - img [ref=e190]
+                    - text: (48)
+          - listitem [ref=e193]:
+            - 'link "Bar Harbor: Small-Group Kayak Tour $191 Viator Rated 4.8 out of 5, 22 user reviews" [ref=e195] [cursor=pointer]':
+              - /url: https://www.viator.com/bar-harbor/d4371
+              - generic [ref=e198]:
+                - generic [ref=e200]: "Bar Harbor: Small-Group Kayak Tour"
+                - generic [ref=e201]:
+                  - generic [ref=e203]: $191
+                  - generic [ref=e204]: Viator
+                  - img "Rated 4.8 out of 5, 22 user reviews" [ref=e206]:
+                    - text: "4.8"
+                    - img [ref=e207]
+                    - text: (22)
+          - listitem [ref=e210]:
+            - 'link "Acadia National Park: Private Full-Day Tour $995 GetYourGuide Free cancellation" [ref=e212] [cursor=pointer]':
+              - /url: https://www.getyourguide.com/
+              - generic [ref=e215]:
+                - generic [ref=e217]: "Acadia National Park: Private Full-Day Tour"
+                - generic [ref=e218]:
+                  - generic [ref=e220]: $995
+                  - generic [ref=e221]: GetYourGuide
+                  - generic [ref=e223]: Free cancellation
+          - listitem [ref=e224]:
+            - 'link "Acadia National Park: Carriage Roads Ebike Tour $197 GetYourGuide Rated 4.9 out of 5, 96 user reviews" [ref=e226] [cursor=pointer]':
+              - /url: https://www.getyourguide.com/
+              - generic [ref=e229]:
+                - generic [ref=e231]: "Acadia National Park: Carriage Roads Ebike Tour"
+                - generic [ref=e232]:
+                  - generic [ref=e234]: $197
+                  - generic [ref=e235]: GetYourGuide
+                  - img "Rated 4.9 out of 5, 96 user reviews" [ref=e237]:
+                    - text: "4.9"
+                    - img [ref=e238]
+                    - text: (96)
+          - listitem [ref=e241]:
+            - link "Guided E Bike Tour of Acadia National Park $150 Tripadvisor Free cancellation" [ref=e243] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/
+              - generic [ref=e246]:
+                - generic [ref=e248]: Guided E Bike Tour of Acadia National Park
+                - generic [ref=e249]:
+                  - generic [ref=e251]: $150
+                  - generic [ref=e252]: Tripadvisor
+                  - generic [ref=e254]: Free cancellation
+          - listitem [ref=e255]:
+            - 'link "Acadia National Park: Private Customizable Tour $700 GetYourGuide Rated 4.6 out of 5, 8 user reviews" [ref=e257] [cursor=pointer]':
+              - /url: https://www.getyourguide.com/
+              - generic [ref=e260]:
+                - generic [ref=e262]: "Acadia National Park: Private Customizable Tour"
+                - generic [ref=e263]:
+                  - generic [ref=e265]: $700
+                  - generic [ref=e266]: GetYourGuide
+                  - img "Rated 4.6 out of 5, 8 user reviews" [ref=e268]:
+                    - text: "4.6"
+                    - img [ref=e269]
+                    - text: (8)
+          - listitem [ref=e272]:
+            - 'link "Acadia National Park: Cadillac Summit Sunrise Driving Tour $299 GetYourGuide Free cancellation" [ref=e274] [cursor=pointer]':
+              - /url: https://www.getyourguide.com/mount-desert-l209456
+              - generic [ref=e277]:
+                - generic [ref=e279]: "Acadia National Park: Cadillac Summit Sunrise Driving Tour"
+                - generic [ref=e280]:
+                  - generic [ref=e282]: $299
+                  - generic [ref=e283]: GetYourGuide
+                  - generic [ref=e285]: Free cancellation
+          - listitem [ref=e286]:
+            - link "Private Sailboat Charter on the Maine Coast $417 Greetwell Rated 5.0 out of 5, 391 user reviews" [ref=e288] [cursor=pointer]:
+              - /url: https://www.greetwell.com/us/all
+              - generic [ref=e291]:
+                - generic [ref=e293]: Private Sailboat Charter on the Maine Coast
+                - generic [ref=e294]:
+                  - generic [ref=e296]: $417
+                  - generic [ref=e297]: Greetwell
+                  - img "Rated 5.0 out of 5, 391 user reviews" [ref=e299]:
+                    - text: "5.0"
+                    - img [ref=e300]
+                    - text: (391)
+          - listitem [ref=e303]:
+            - 'link "The Way Life Should Be: 4-hr, Private Guided Tour of Acadia NP. $700 Viator Rated 4.8 out of 5, 33 user reviews" [ref=e305] [cursor=pointer]':
+              - /url: https://www.viator.com/bar-harbor/d4371
+              - generic [ref=e308]:
+                - generic [ref=e310]: "The Way Life Should Be: 4-hr, Private Guided Tour of Acadia NP."
+                - generic [ref=e311]:
+                  - generic [ref=e313]: $700
+                  - generic [ref=e314]: Viator
+                  - img "Rated 4.8 out of 5, 33 user reviews" [ref=e316]:
+                    - text: "4.8"
+                    - img [ref=e317]
+                    - text: (33)
+          - listitem [ref=e320]:
+            - link "Bar Harbor Windjammer Sailing Trip $67 Hellotickets Rated 4.6 out of 5, 621 user reviews" [ref=e322] [cursor=pointer]:
+              - /url: https://www.hellotickets.com/us/bar-harbor/sailing-trip/a
+              - generic [ref=e325]:
+                - generic [ref=e327]: Bar Harbor Windjammer Sailing Trip
+                - generic [ref=e328]:
+                  - generic [ref=e330]: $67
+                  - generic [ref=e331]: Hellotickets
+                  - img "Rated 4.6 out of 5, 621 user reviews" [ref=e333]:
+                    - text: "4.6"
+                    - img [ref=e334]
+                    - text: (621)
+          - listitem [ref=e337]:
+            - 'link "Acadia National Park: Private Driving Tour With Pickup $795 Viator Rated 5.0 out of 5, 19 user reviews" [ref=e339] [cursor=pointer]':
+              - /url: https://www.viator.com/bar-harbor/d4371
+              - generic [ref=e342]:
+                - generic [ref=e344]: "Acadia National Park: Private Driving Tour With Pickup"
+                - generic [ref=e345]:
+                  - generic [ref=e347]: $795
+                  - generic [ref=e348]: Viator
+                  - img "Rated 5.0 out of 5, 19 user reviews" [ref=e350]:
+                    - text: "5.0"
+                    - img [ref=e351]
+                    - text: (19)
+          - listitem [ref=e354]:
+            - link "Acadia National Park, Boston, and Portland 3-Day Tour from NYC $886 Viator Rated 4.8 out of 5, 18 user reviews" [ref=e356] [cursor=pointer]:
+              - /url: https://www.viator.com/brooklyn/d22371
+              - generic [ref=e359]:
+                - generic [ref=e361]: Acadia National Park, Boston, and Portland 3-Day Tour from NYC
+                - generic [ref=e362]:
+                  - generic [ref=e364]: $886
+                  - generic [ref=e365]: Viator
+                  - img "Rated 4.8 out of 5, 18 user reviews" [ref=e367]:
+                    - text: "4.8"
+                    - img [ref=e368]
+                    - text: (18)
+          - listitem [ref=e371]:
+            - 'link "6 Hour: The Ultimate Acadia Discovery & Lobster Pier Feast $808 Agoda Rated 4.9 out of 5, 199 user reviews" [ref=e373] [cursor=pointer]':
+              - /url: https://www.agoda.com/activities
+              - generic [ref=e376]:
+                - generic [ref=e378]: "6 Hour: The Ultimate Acadia Discovery & Lobster Pier Feast"
+                - generic [ref=e379]:
+                  - generic [ref=e381]: $808
+                  - generic [ref=e382]: Agoda
+                  - img "Rated 4.9 out of 5, 199 user reviews" [ref=e384]:
+                    - text: "4.9"
+                    - img [ref=e385]
+                    - text: (199)
+          - listitem [ref=e388]:
+            - link "Acadia Fat tire Ebike Tours $190 Tripadvisor Rated 5.0 out of 5, 2 user reviews" [ref=e390] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/
+              - generic [ref=e393]:
+                - generic [ref=e395]: Acadia Fat tire Ebike Tours
+                - generic [ref=e396]:
+                  - generic [ref=e398]: $190
+                  - generic [ref=e399]: Tripadvisor
+                  - img "Rated 5.0 out of 5, 2 user reviews" [ref=e401]:
+                    - text: "5.0"
+                    - img [ref=e402]
+                    - text: (2)
+          - listitem [ref=e405]:
+            - link "Aqua Safari Kayak tour departing Southwest Harbor $191 Tripadvisor Rated 4.9 out of 5, 20 user reviews" [ref=e407] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/
+              - generic [ref=e410]:
+                - generic [ref=e412]: Aqua Safari Kayak tour departing Southwest Harbor
+                - generic [ref=e413]:
+                  - generic [ref=e415]: $191
+                  - generic [ref=e416]: Tripadvisor
+                  - img "Rated 4.9 out of 5, 20 user reviews" [ref=e418]:
+                    - text: "4.9"
+                    - img [ref=e419]
+                    - text: (20)
+          - listitem [ref=e422]:
+            - 'link "“Classic Acadia” Private Tour: Cadillac Mountain & Thunder Hole $795 Tripadvisor Rated 5.0 out of 5, 13 user reviews" [ref=e424] [cursor=pointer]':
+              - /url: https://www.tripadvisor.com/
+              - generic [ref=e427]:
+                - generic [ref=e429]: "“Classic Acadia” Private Tour: Cadillac Mountain & Thunder Hole"
+                - generic [ref=e430]:
+                  - generic [ref=e432]: $795
+                  - generic [ref=e433]: Tripadvisor
+                  - img "Rated 5.0 out of 5, 13 user reviews" [ref=e435]:
+                    - text: "5.0"
+                    - img [ref=e436]
+                    - text: (13)
+          - listitem [ref=e439]:
+            - 'link "The Way Life Should Be: 4-hr, Private Guided Tour of Acadia NP. $700 Tripadvisor Rated 4.8 out of 5, 18 user reviews" [ref=e441] [cursor=pointer]':
+              - /url: https://www.tripadvisor.com/
+              - generic [ref=e444]:
+                - generic [ref=e446]: "The Way Life Should Be: 4-hr, Private Guided Tour of Acadia NP."
+                - generic [ref=e447]:
+                  - generic [ref=e449]: $700
+                  - generic [ref=e450]: Tripadvisor
+                  - img "Rated 4.8 out of 5, 18 user reviews" [ref=e452]:
+                    - text: "4.8"
+                    - img [ref=e453]
+                    - text: (18)
+        - button [ref=e457] [cursor=pointer]:
+          - img [ref=e460]
+    - main [ref=e463]:
+      - generic [ref=e467]:
+        - generic [ref=e470]:
+          - heading "Web results" [level=2] [ref=e471]
+          - generic [ref=e472]:
+            - generic [ref=e475]:
+              - link "The ultimate travel guide to Acadia National Park National Geographic https://www.nationalgeographic.com › Travel" [ref=e477] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park
+                - heading "The ultimate travel guide to Acadia National Park" [level=3] [ref=e478]
+                - generic [ref=e483]:
+                  - generic [ref=e485]: National Geographic
+                  - generic [ref=e487]: https://www.nationalgeographic.com › Travel
+              - button "About this result" [ref=e488] [cursor=pointer]:
+                - img [ref=e491]
+            - generic [ref=e494]:
+              - generic [ref=e495]: Mar 25, 2026 —
+              - generic [ref=e496]:
+                - text: Best times to
+                - emphasis [ref=e497]: visit Acadia National Park
+                - text: . Acadia is busiest in July ... In
+                - emphasis [ref=e498]: Bar Harbor
+                - text: ", the island's hub, the waterfront and full-service ..."
+              - link "Read more" [ref=e499] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park#:~:text=Best%20times%20to%20visit%20Acadia,August%2C%20when%20everything%20is%20open.&text=In%20Bar%20Harbor%2C%20the%20island's,hub%2C%20the%20waterfront%20and%20full%2Dservice
+            - link "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e502] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park
+              - img "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e504]
+        - generic [ref=e508]:
+          - generic [ref=e511]:
+            - link "10 best things to do in Maine National Geographic https://www.nationalgeographic.com › Travel" [ref=e513] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/maine-road-trips-farm-stands-indigenous-acadia-hikes-moosehead-lake
+              - heading "10 best things to do in Maine" [level=3] [ref=e514]
+              - generic [ref=e519]:
+                - generic [ref=e521]: National Geographic
+                - generic [ref=e523]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e524] [cursor=pointer]:
+              - img [ref=e527]
+          - generic [ref=e530]:
+            - generic [ref=e531]: Jun 9, 2023 —
+            - generic [ref=e532]:
+              - text: Hike at Moosehead Lake · Stay or play on a farm · Explore
+              - emphasis [ref=e533]: Acadia National Park
+              - text: · Find fine art in Rockland · Sample Damariscotta River oysters · Take ...
+            - link "Read more" [ref=e534] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/maine-road-trips-farm-stands-indigenous-acadia-hikes-moosehead-lake#:~:text=Hike%20at%20Moosehead%20Lake&text=Stay%20or%20play%20on%20a,farm&text=Explore%20Acadia%20National%20Park&text=Find%20fine%20art%20in%20Rockland&text=Sample%20Damariscotta%20River%20oysters&text=Take%20a%20Bold%20Coast%20road,trip
+          - link "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e537] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/maine-road-trips-farm-stands-indigenous-acadia-hikes-moosehead-lake
+            - img "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e539]
+        - generic [ref=e543]:
+          - generic [ref=e546]:
+            - link "The essential guide to visiting Maine National Geographic https://www.nationalgeographic.com › Travel" [ref=e548] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/maine-travel-guide
+              - heading "The essential guide to visiting Maine" [level=3] [ref=e549]
+              - generic [ref=e554]:
+                - generic [ref=e556]: National Geographic
+                - generic [ref=e558]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e559] [cursor=pointer]:
+              - img [ref=e562]
+          - generic [ref=e565]:
+            - generic [ref=e566]: Jun 9, 2023 —
+            - generic [ref=e567]:
+              - text: ...
+              - emphasis [ref=e568]: Bar Harbor
+              - text: "Airport, just 10 miles from Acadia. Fun fact: Maine has ..."
+              - emphasis [ref=e569]: Acadia National Park
+              - text: and Mount Katahdin. Lobster, lighthouses ...
+            - link "Read more" [ref=e570] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/maine-travel-guide#:~:text=A%20popular%20alternative%20to%20flying,any%20other%20state%20except%20Alaska.&text=Acadia%20National%20Park%20and%20Mount,Lobster%2C%20lighthouses%2C%20and%20L.L.%20Bean.
+        - generic [ref=e574]:
+          - generic [ref=e577]:
+            - link "10 incredible family adventures to try in Maine National Geographic https://www.nationalgeographic.com › Travel" [ref=e579] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/10-family-adventures-maine
+              - heading "10 incredible family adventures to try in Maine" [level=3] [ref=e580]
+              - generic [ref=e585]:
+                - generic [ref=e587]: National Geographic
+                - generic [ref=e589]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e590] [cursor=pointer]:
+              - img [ref=e593]
+          - generic [ref=e596]:
+            - generic [ref=e597]: Jun 11, 2024 —
+            - generic [ref=e598]:
+              - text: Road
+              - emphasis [ref=e599]: trip
+              - text: in
+              - emphasis [ref=e600]: Acadia National Park
+              - text: . The nation's easternmost national ... Cruise aboard a “dive-in theater” in
+              - emphasis [ref=e601]: Bar Harbor
+              - text: . Join diver and ...
+            - link "Read more" [ref=e602] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/10-family-adventures-maine#:~:text=Road%20trip%20in%20Acadia%20National,easternmost%20national%20park%2C%20Acadia%20is&text=Cruise%20aboard%20a%20%E2%80%9Cdive%2Din%20theater%E2%80%9D,Join%20diver%20and
+        - generic [ref=e606]:
+          - generic [ref=e609]:
+            - link "How to plan the ultimate road trip through New England National Geographic https://www.nationalgeographic.com › Travel" [ref=e611] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/ultimate-new-england-roadtrip-usa
+              - heading "How to plan the ultimate road trip through New England" [level=3] [ref=e612]
+              - generic [ref=e617]:
+                - generic [ref=e619]: National Geographic
+                - generic [ref=e621]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e622] [cursor=pointer]:
+              - img [ref=e625]
+          - generic [ref=e628]:
+            - generic [ref=e629]: Oct 24, 2024 —
+            - generic [ref=e630]:
+              - emphasis [ref=e631]: Acadia National Park
+              - text: has some of the best hiking spots in New ... Base yourself in
+              - emphasis [ref=e632]: Bar Harbor
+              - text: ", a three-hour drive from Kennebunkport ..."
+            - link "Read more" [ref=e633] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/ultimate-new-england-roadtrip-usa#:~:text=Acadia%20National%20Park%20has%20some,New%20England%20along%20coastal%20scenery.&text=Base%20yourself%20in%20Bar%20Harbor%2C,to%20discover%20this%2047%2C000%2Dacre%20landscape.
+          - generic [ref=e635]:
+            - text: "Missing: things ‎| Show results with:"
+            - link "things" [ref=e636] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+%22things%22+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ5t4CegQIKhAB
+        - generic [ref=e640]:
+          - generic [ref=e643]:
+            - 'link "Visiting Maine: Here''s what the locals love National Geographic https://www.nationalgeographic.com › Travel" [ref=e645] [cursor=pointer]':
+              - /url: https://www.nationalgeographic.com/travel/article/maine-expert-tips-national-geographic
+              - 'heading "Visiting Maine: Here''s what the locals love" [level=3] [ref=e646]'
+              - generic [ref=e651]:
+                - generic [ref=e653]: National Geographic
+                - generic [ref=e655]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e656] [cursor=pointer]:
+              - img [ref=e659]
+          - generic [ref=e662]:
+            - generic [ref=e663]: Jun 9, 2023 —
+            - generic [ref=e664]:
+              - text: ...
+              - emphasis [ref=e665]: Acadia National Park's
+              - text: mountains, anchoring beside fishing villages or undeveloped islands. ...
+              - emphasis [ref=e666]: Bar Harbor
+              - text: . Visitors can see humpback ...
+            - link "Read more" [ref=e667] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/maine-expert-tips-national-geographic#:~:text=Acadia%20National%20Park's%20mountains%2C%20anchoring,fishing%20villages%20or%20undeveloped%20islands.&text=Bar%20Harbor.%20Visitors%20can%20see,humpback
+        - generic [ref=e671]:
+          - generic [ref=e674]:
+            - link "Delightful detours to visit along Maine's Route 1 National Geographic https://www.nationalgeographic.com › Travel" [ref=e676] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/partner-content-delightful-detours-along-maine-route-one
+              - heading "Delightful detours to visit along Maine's Route 1" [level=3] [ref=e677]
+              - generic [ref=e682]:
+                - generic [ref=e684]: National Geographic
+                - generic [ref=e686]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e687] [cursor=pointer]:
+              - img [ref=e690]
+          - generic [ref=e693]:
+            - generic [ref=e694]: May 2, 2019 —
+            - generic [ref=e695]:
+              - text: The route also passes through the only mainland section of
+              - emphasis [ref=e696]: Acadia National Park
+              - text: . The Bold Coast. The small town of Cutler offers a number of ...
+            - link "Read more" [ref=e697] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/partner-content-delightful-detours-along-maine-route-one#:~:text=The%20route%20also%20passes%20through,Cutler%20offers%20a%20number%20of
+          - generic [ref=e699]:
+            - text: "Missing: things ‎| Show results with:"
+            - link "things" [ref=e700] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+%22things%22+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ5t4CegQINRAB
+        - generic [ref=e704]:
+          - generic [ref=e707]:
+            - link "Maine's mountains and lakes offer space to pause and ... National Geographic https://www.nationalgeographic.com › Travel" [ref=e709] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/paid-content-maines-mountains-and-lakes-offer-space-to-pause-and-wonder
+              - heading "Maine's mountains and lakes offer space to pause and ..." [level=3] [ref=e710]
+              - generic [ref=e715]:
+                - generic [ref=e717]: National Geographic
+                - generic [ref=e719]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e720] [cursor=pointer]:
+              - img [ref=e723]
+          - generic [ref=e726]:
+            - generic [ref=e727]: Jul 12, 2023 —
+            - generic [ref=e728]:
+              - text: For still others, it's the sights and sounds of
+              - emphasis [ref=e729]: Acadia National Park
+              - text: ", such as the booming, crashing waves at its Thunder Hole inlet."
+            - link "Read more" [ref=e730] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/paid-content-maines-mountains-and-lakes-offer-space-to-pause-and-wonder#:~:text=For%20still%20others%2C%20it's%20the,at%20its%20Thunder%20Hole%20inlet.
+        - generic [ref=e734]:
+          - generic [ref=e737]:
+            - link "Rare image of great white shark captured off the coast of Maine National Geographic https://www.nationalgeographic.com › destination › ma..." [ref=e739] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/destination/maine?hubmore&page=1&context=eyJjb250ZW50VHlwZSI6IlVuaXNvbkh1YiIsInZhcmlhYmxlcyI6eyJsb2NhdG9yIjoiL3RyYXZlbC9kZXN0aW5hdGlvbi9tYWluZSIsInBvcnRmb2xpbyI6Im5hdGdlbyIsInF1ZXJ5VHlwZSI6IkxPQ0FUT1IifSwibW9kdWxlSWQiOm51bGx9&id=73dcbb38-7b6c-476b-8f71-0b5d57a04818
+              - heading "Rare image of great white shark captured off the coast of Maine" [level=3] [ref=e740]
+              - generic [ref=e745]:
+                - generic [ref=e747]: National Geographic
+                - generic [ref=e749]: https://www.nationalgeographic.com › destination › ma...
+            - button "About this result" [ref=e750] [cursor=pointer]:
+              - img [ref=e753]
+          - generic [ref=e757]:
+            - text: ...
+            - emphasis [ref=e758]: Acadia National Park
+            - text: . This is the most scenic route through
+            - emphasis [ref=e759]: Acadia National Park
+            - text: . Read. Hoping to ski until July? Here are 7
+            - emphasis [ref=e760]: places
+            - text: to go in the U.S. · Travel.
+        - generic [ref=e764]:
+          - generic [ref=e767]:
+            - link "How to plan an epic summer trip to a national park National Geographic https://www.nationalgeographic.com › Travel" [ref=e769] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/how-to-plan-an-epic-summer-trip-to-a-national-park
+              - heading "How to plan an epic summer trip to a national park" [level=3] [ref=e770]
+              - generic [ref=e775]:
+                - generic [ref=e777]: National Geographic
+                - generic [ref=e779]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e780] [cursor=pointer]:
+              - img [ref=e783]
+          - generic [ref=e786]:
+            - generic [ref=e787]: Apr 17, 2026 —
+            - generic [ref=e788]:
+              - text: A hiker on a granite boulder Cadillac Mountain at sunrise. Bass Harbor Head Lighthouse in Maine's
+              - emphasis [ref=e789]: Acadia National Park
+              - text: is a crowd-free ...
+            - link "Read more" [ref=e790] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/how-to-plan-an-epic-summer-trip-to-a-national-park#:~:text=Bass%20Harbor%20Head%20Lighthouse%20in,first%20sunrise%20in%20the%20U.S.
+          - link "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e793] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/how-to-plan-an-epic-summer-trip-to-a-national-park
+            - img "site:nationalgeographic.com \"acadia national park\" OR \"bar harbor\" things to do from www.nationalgeographic.com" [ref=e795]
+          - generic [ref=e797]:
+            - text: "Missing: things ‎| Show results with:"
+            - link "things" [ref=e798] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+%22things%22+to+do&sa=X&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ5t4CegQIOhAB
+      - navigation [ref=e801]:
+        - heading "Page Navigation" [level=1] [ref=e802]
+        - text: "1"
+        - link "Page 2" [ref=e805] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=10&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAE
+          - text: "2"
+        - link "Page 3" [ref=e807] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=20&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAG
+          - text: "3"
+        - link "Page 4" [ref=e809] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=30&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAI
+          - text: "4"
+        - link "Page 5" [ref=e811] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=40&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAK
+          - text: "5"
+        - link "Page 6" [ref=e813] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=50&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAM
+          - text: "6"
+        - link "Page 7" [ref=e815] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=60&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAO
+          - text: "7"
+        - link "Page 8" [ref=e817] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=70&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAQ
+          - text: "8"
+        - link "Page 9" [ref=e819] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=80&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAS
+          - text: "9"
+        - link "Page 10" [ref=e821] [cursor=pointer]:
+          - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=90&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8tMDegQIKxAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e823]:
+          - link "Next" [ref=e824] [cursor=pointer]:
+            - /url: /search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853&ei=NP7vabnPM-bY5NoPwZTTyQ4&start=10&sa=N&sstk=Af77f_d-roAcYc4MIOod03ATjeJ4iUSj7lXSb6vQKdbwLSpQ3iTBj7hRYyKdgIRQm4wpRGCT7IUER8Qoqx8qts3DIYeEPMGrS4htlw&ved=2ahUKEwi5uYeFpI-UAxVmLFkFHUHKNOkQ8NMDegQIKxAW
+            - generic [ref=e826]: Next
+      - navigation
+    - contentinfo [ref=e827]:
+      - heading "Footer Links" [level=1] [ref=e828]
+      - generic [ref=e832]:
+        - generic [ref=e835]:
+          - generic [ref=e836]: Results are personalized
+          - generic [ref=e837]: "-"
+          - link "Try without personalization" [ref=e839] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:nationalgeographic.com+%22acadia+national+park%22+OR+%22bar+harbor%22+things+to+do&peek_pws=0&sxsrf=ANbL-n46JD-p4S8l1AL1mZQfC4jKs5McsQ:1777335860853
+            - generic [ref=e840]: Try without personalization
+        - generic [ref=e844]:
+          - button "15217, Pittsburgh, PA - Based on your places (Home)" [ref=e846] [cursor=pointer]:
+            - generic [ref=e847]: 15217, Pittsburgh, PA
+            - generic [ref=e849]:
+              - text: "-"
+              - generic [ref=e850]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e852] [cursor=pointer]: Update location
+        - generic [ref=e855]:
+          - link "Help" [ref=e856] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e857] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e858] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e859] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,584 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - link "Infatuation homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+            - img [ref=e13]
+          - button "What are you looking for?" [ref=e26] [cursor=pointer]:
+            - paragraph [ref=e28]: What are you looking for?
+            - img [ref=e30]
+          - generic [ref=e32]:
+            - button "Sign Up" [ref=e33] [cursor=pointer]
+            - button "hamburger-menu" [ref=e34] [cursor=pointer]:
+              - img "Hamburger Menu" [ref=e37]
+        - button "Choose city" [ref=e50] [cursor=pointer]:
+          - text: Change City
+          - img [ref=e52]
+    - main [ref=e54]:
+      - generic [ref=e56]:
+        - heading "404 Not Found" [level=1] [ref=e57]
+        - paragraph [ref=e58]: The page you are looking for doesn’t exist or another error occurred.
+        - link "Go to Home Page" [ref=e59] [cursor=pointer]:
+          - /url: /
+      - alertdialog "Cookie notice" [ref=e60]:
+        - generic [ref=e61]:
+          - paragraph [ref=e62]:
+            - text: We and our partners use cookies and other tools for advertising, to help stop fraud, and for other purposes. By using this site, you agree to how your information is used as outlined in our
+            - link "Go to Privacy Policy page" [ref=e63] [cursor=pointer]:
+              - /url: /privacy-policy
+              - text: Privacy Policy
+            - text: .
+          - button "Close" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - link "Infatuation Logo" [ref=e71] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - img "Infatuation Logo" [ref=e75]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading "Cities" [level=4] [ref=e78]
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "Accra" [ref=e81] [cursor=pointer]:
+                  - /url: /accra
+              - listitem [ref=e82]:
+                - link "Albuquerque" [ref=e83] [cursor=pointer]:
+                  - /url: /albuquerque
+              - listitem [ref=e84]:
+                - link "Amalfi Coast" [ref=e85] [cursor=pointer]:
+                  - /url: /amalfi-coast
+              - listitem [ref=e86]:
+                - link "Amsterdam" [ref=e87] [cursor=pointer]:
+                  - /url: /amsterdam
+              - listitem [ref=e88]:
+                - link "Ann Arbor" [ref=e89] [cursor=pointer]:
+                  - /url: /ann-arbor
+              - listitem [ref=e90]:
+                - link "Aruba" [ref=e91] [cursor=pointer]:
+                  - /url: /aruba
+              - listitem [ref=e92]:
+                - link "Asheville" [ref=e93] [cursor=pointer]:
+                  - /url: /asheville
+              - listitem [ref=e94]:
+                - link "Aspen" [ref=e95] [cursor=pointer]:
+                  - /url: /aspen
+              - listitem [ref=e96]:
+                - link "Athens, GA" [ref=e97] [cursor=pointer]:
+                  - /url: /athens-ga
+              - listitem [ref=e98]:
+                - link "Atlanta" [ref=e99] [cursor=pointer]:
+                  - /url: /atlanta
+              - listitem [ref=e100]:
+                - link "Atlantic City" [ref=e101] [cursor=pointer]:
+                  - /url: /atlantic-city
+              - listitem [ref=e102]:
+                - link "Austin" [ref=e103] [cursor=pointer]:
+                  - /url: /austin
+              - listitem [ref=e104]:
+                - link "Baltimore" [ref=e105] [cursor=pointer]:
+                  - /url: /baltimore
+              - listitem [ref=e106]:
+                - link "Bangkok" [ref=e107] [cursor=pointer]:
+                  - /url: /bangkok
+              - listitem [ref=e108]:
+                - link "Bar Harbor" [ref=e109] [cursor=pointer]:
+                  - /url: /bar-harbor
+              - listitem [ref=e110]:
+                - link "Barcelona" [ref=e111] [cursor=pointer]:
+                  - /url: /barcelona
+              - listitem [ref=e112]:
+                - link "Bentonville" [ref=e113] [cursor=pointer]:
+                  - /url: /bentonville
+              - listitem [ref=e114]:
+                - link "Berlin" [ref=e115] [cursor=pointer]:
+                  - /url: /berlin
+              - listitem [ref=e116]:
+                - link "Big Sur" [ref=e117] [cursor=pointer]:
+                  - /url: /big-sur
+              - listitem [ref=e118]:
+                - link "Birmingham" [ref=e119] [cursor=pointer]:
+                  - /url: /birmingham
+              - listitem [ref=e120]:
+                - link "Boston" [ref=e121] [cursor=pointer]:
+                  - /url: /boston
+              - listitem [ref=e122]:
+                - link "Boulder" [ref=e123] [cursor=pointer]:
+                  - /url: /boulder
+              - listitem [ref=e124]:
+                - link "Brighton" [ref=e125] [cursor=pointer]:
+                  - /url: /brighton
+              - listitem [ref=e126]:
+                - link "Bristol" [ref=e127] [cursor=pointer]:
+                  - /url: /bristol
+              - listitem [ref=e128]:
+                - link "Buenos Aires" [ref=e129] [cursor=pointer]:
+                  - /url: /buenos-aires
+              - listitem [ref=e130]:
+                - link "Burlington" [ref=e131] [cursor=pointer]:
+                  - /url: /burlington
+              - listitem [ref=e132]:
+                - link "Cabo" [ref=e133] [cursor=pointer]:
+                  - /url: /cabo
+              - listitem [ref=e134]:
+                - link "Calistoga" [ref=e135] [cursor=pointer]:
+                  - /url: /calistoga
+              - listitem [ref=e136]:
+                - link "Cancun" [ref=e137] [cursor=pointer]:
+                  - /url: /cancun
+              - listitem [ref=e138]:
+                - link "Cannes" [ref=e139] [cursor=pointer]:
+                  - /url: /cannes
+              - listitem [ref=e140]:
+                - link "Cape Cod" [ref=e141] [cursor=pointer]:
+                  - /url: /cape-cod
+              - listitem [ref=e142]:
+                - link "Cape Town" [ref=e143] [cursor=pointer]:
+                  - /url: /cape-town
+              - listitem [ref=e144]:
+                - link "Capri" [ref=e145] [cursor=pointer]:
+                  - /url: /capri
+              - listitem [ref=e146]:
+                - link "Carmel" [ref=e147] [cursor=pointer]:
+                  - /url: /carmel
+              - listitem [ref=e148]:
+                - link "Cebu" [ref=e149] [cursor=pointer]:
+                  - /url: /cebu
+              - listitem [ref=e150]:
+                - link "Charleston" [ref=e151] [cursor=pointer]:
+                  - /url: /charleston
+              - listitem [ref=e152]:
+                - link "Charlotte" [ref=e153] [cursor=pointer]:
+                  - /url: /charlotte
+              - listitem [ref=e154]:
+                - link "Chiang Mai" [ref=e155] [cursor=pointer]:
+                  - /url: /chiang-mai
+              - listitem [ref=e156]:
+                - link "Chicago" [ref=e157] [cursor=pointer]:
+                  - /url: /chicago
+              - listitem [ref=e158]:
+                - link "Cleveland" [ref=e159] [cursor=pointer]:
+                  - /url: /cleveland
+              - listitem [ref=e160]:
+                - link "Columbus" [ref=e161] [cursor=pointer]:
+                  - /url: /columbus
+              - listitem [ref=e162]:
+                - link "Copenhagen" [ref=e163] [cursor=pointer]:
+                  - /url: /copenhagen
+              - listitem [ref=e164]:
+                - link "Cotswolds" [ref=e165] [cursor=pointer]:
+                  - /url: /cotswolds
+              - listitem [ref=e166]:
+                - link "Dallas" [ref=e167] [cursor=pointer]:
+                  - /url: /dallas
+              - listitem [ref=e168]:
+                - link "Denver" [ref=e169] [cursor=pointer]:
+                  - /url: /denver
+              - listitem [ref=e170]:
+                - link "Dublin" [ref=e171] [cursor=pointer]:
+                  - /url: /dublin
+              - listitem [ref=e172]:
+                - link "Edinburgh" [ref=e173] [cursor=pointer]:
+                  - /url: /edinburgh
+              - listitem [ref=e174]:
+                - link "Fairfield County" [ref=e175] [cursor=pointer]:
+                  - /url: /fairfield-county
+              - listitem [ref=e176]:
+                - link "Florence" [ref=e177] [cursor=pointer]:
+                  - /url: /florence
+              - listitem [ref=e178]:
+                - link "Galveston" [ref=e179] [cursor=pointer]:
+                  - /url: /galveston
+              - listitem [ref=e180]:
+                - link "Healdsburg" [ref=e181] [cursor=pointer]:
+                  - /url: /healdsburg
+              - listitem [ref=e182]:
+                - link "Hoboken" [ref=e183] [cursor=pointer]:
+                  - /url: /hoboken
+              - listitem [ref=e184]:
+                - link "Hong Kong" [ref=e185] [cursor=pointer]:
+                  - /url: /hong-kong
+              - listitem [ref=e186]:
+                - link "Houston" [ref=e187] [cursor=pointer]:
+                  - /url: /houston
+              - listitem [ref=e188]:
+                - link "Hudson Valley" [ref=e189] [cursor=pointer]:
+                  - /url: /hudson-valley
+              - listitem [ref=e190]:
+                - link "Ischia" [ref=e191] [cursor=pointer]:
+                  - /url: /ischia
+              - listitem [ref=e192]:
+                - link "Jackson Hole" [ref=e193] [cursor=pointer]:
+                  - /url: /jackson-hole
+              - listitem [ref=e194]:
+                - link "Jersey City" [ref=e195] [cursor=pointer]:
+                  - /url: /jersey-city
+              - listitem [ref=e196]:
+                - link "Jersey Shore" [ref=e197] [cursor=pointer]:
+                  - /url: /jersey-shore
+              - listitem [ref=e198]:
+                - link "Kansas City" [ref=e199] [cursor=pointer]:
+                  - /url: /kansas-city
+              - listitem [ref=e200]:
+                - link "Key West" [ref=e201] [cursor=pointer]:
+                  - /url: /key-west
+              - listitem [ref=e202]:
+                - link "Lake Como" [ref=e203] [cursor=pointer]:
+                  - /url: /lake-como
+              - listitem [ref=e204]:
+                - link "Las Vegas" [ref=e205] [cursor=pointer]:
+                  - /url: /las-vegas
+              - listitem [ref=e206]:
+                - link "Lima" [ref=e207] [cursor=pointer]:
+                  - /url: /lima
+              - listitem [ref=e208]:
+                - link "Lisbon" [ref=e209] [cursor=pointer]:
+                  - /url: /lisbon
+              - listitem [ref=e210]:
+                - link "London" [ref=e211] [cursor=pointer]:
+                  - /url: /london
+              - listitem [ref=e212]:
+                - link "Los Angeles" [ref=e213] [cursor=pointer]:
+                  - /url: /los-angeles
+              - listitem [ref=e214]:
+                - link "Lyon" [ref=e215] [cursor=pointer]:
+                  - /url: /lyon
+              - listitem [ref=e216]:
+                - link "Madison" [ref=e217] [cursor=pointer]:
+                  - /url: /madison
+              - listitem [ref=e218]:
+                - link "Madrid" [ref=e219] [cursor=pointer]:
+                  - /url: /madrid
+              - listitem [ref=e220]:
+                - link "Málaga" [ref=e221] [cursor=pointer]:
+                  - /url: /malaga
+              - listitem [ref=e222]:
+                - link "Mallorca" [ref=e223] [cursor=pointer]:
+                  - /url: /mallorca
+              - listitem [ref=e224]:
+                - link "Mammoth" [ref=e225] [cursor=pointer]:
+                  - /url: /mammoth
+              - listitem [ref=e226]:
+                - link "Manchester" [ref=e227] [cursor=pointer]:
+                  - /url: /manchester
+              - listitem [ref=e228]:
+                - link "Manila" [ref=e229] [cursor=pointer]:
+                  - /url: /manila
+              - listitem [ref=e230]:
+                - link "Marseille" [ref=e231] [cursor=pointer]:
+                  - /url: /marseille
+              - listitem [ref=e232]:
+                - link "Martha's Vineyard" [ref=e233] [cursor=pointer]:
+                  - /url: /marthas-vineyard
+              - listitem [ref=e234]:
+                - link "Maui" [ref=e235] [cursor=pointer]:
+                  - /url: /maui
+              - listitem [ref=e236]:
+                - link "Melbourne" [ref=e237] [cursor=pointer]:
+                  - /url: /melbourne
+              - listitem [ref=e238]:
+                - link "Mendocino" [ref=e239] [cursor=pointer]:
+                  - /url: /mendocino
+              - listitem [ref=e240]:
+                - link "Menorca" [ref=e241] [cursor=pointer]:
+                  - /url: /menorca
+              - listitem [ref=e242]:
+                - link "Mexico City" [ref=e243] [cursor=pointer]:
+                  - /url: /mexico-city
+              - listitem [ref=e244]:
+                - link "Miami" [ref=e245] [cursor=pointer]:
+                  - /url: /miami
+              - listitem [ref=e246]:
+                - link "Milan" [ref=e247] [cursor=pointer]:
+                  - /url: /milan
+              - listitem [ref=e248]:
+                - link "Milwaukee" [ref=e249] [cursor=pointer]:
+                  - /url: /milwaukee
+              - listitem [ref=e250]:
+                - link "Minneapolis" [ref=e251] [cursor=pointer]:
+                  - /url: /minneapolis
+              - listitem [ref=e252]:
+                - link "Monterey" [ref=e253] [cursor=pointer]:
+                  - /url: /monterey
+              - listitem [ref=e254]:
+                - link "Montreal" [ref=e255] [cursor=pointer]:
+                  - /url: /montreal
+              - listitem [ref=e256]:
+                - link "Mumbai" [ref=e257] [cursor=pointer]:
+                  - /url: /mumbai
+              - listitem [ref=e258]:
+                - link "Mystic" [ref=e259] [cursor=pointer]:
+                  - /url: /mystic
+              - listitem [ref=e260]:
+                - link "Nantucket" [ref=e261] [cursor=pointer]:
+                  - /url: /nantucket
+              - listitem [ref=e262]:
+                - link "Napa" [ref=e263] [cursor=pointer]:
+                  - /url: /napa
+              - listitem [ref=e264]:
+                - link "Nashville" [ref=e265] [cursor=pointer]:
+                  - /url: /nashville
+              - listitem [ref=e266]:
+                - link "Nassau" [ref=e267] [cursor=pointer]:
+                  - /url: /nassau
+              - listitem [ref=e268]:
+                - link "New Haven" [ref=e269] [cursor=pointer]:
+                  - /url: /new-haven
+              - listitem [ref=e270]:
+                - link "New Orleans" [ref=e271] [cursor=pointer]:
+                  - /url: /new-orleans
+              - listitem [ref=e272]:
+                - link "New York" [ref=e273] [cursor=pointer]:
+                  - /url: /new-york
+              - listitem [ref=e274]:
+                - link "Newport" [ref=e275] [cursor=pointer]:
+                  - /url: /newport
+              - listitem [ref=e276]:
+                - link "Norfolk" [ref=e277] [cursor=pointer]:
+                  - /url: /norfolk
+              - listitem [ref=e278]:
+                - link "Oahu" [ref=e279] [cursor=pointer]:
+                  - /url: /oahu
+              - listitem [ref=e280]:
+                - link "Oaxaca" [ref=e281] [cursor=pointer]:
+                  - /url: /oaxaca
+              - listitem [ref=e282]:
+                - link "Orlando" [ref=e283] [cursor=pointer]:
+                  - /url: /orlando
+              - listitem [ref=e284]:
+                - link "Oxford" [ref=e285] [cursor=pointer]:
+                  - /url: /oxford
+              - listitem [ref=e286]:
+                - link "Palermo" [ref=e287] [cursor=pointer]:
+                  - /url: /palermo
+              - listitem [ref=e288]:
+                - link "Paris" [ref=e289] [cursor=pointer]:
+                  - /url: /paris
+              - listitem [ref=e290]:
+                - link "Park City" [ref=e291] [cursor=pointer]:
+                  - /url: /park-city
+              - listitem [ref=e292]:
+                - link "Philadelphia" [ref=e293] [cursor=pointer]:
+                  - /url: /philadelphia
+              - listitem [ref=e294]:
+                - link "Phoenix" [ref=e295] [cursor=pointer]:
+                  - /url: /phoenix
+              - listitem [ref=e296]:
+                - link "Phuket" [ref=e297] [cursor=pointer]:
+                  - /url: /phuket
+              - listitem [ref=e298]:
+                - link "Pittsburgh" [ref=e299] [cursor=pointer]:
+                  - /url: /pittsburgh
+              - listitem [ref=e300]:
+                - link "Portland, ME" [ref=e301] [cursor=pointer]:
+                  - /url: /portland-me
+              - listitem [ref=e302]:
+                - link "Portland, OR" [ref=e303] [cursor=pointer]:
+                  - /url: /portland
+              - listitem [ref=e304]:
+                - link "Portsmouth" [ref=e305] [cursor=pointer]:
+                  - /url: /portsmouth
+              - listitem [ref=e306]:
+                - link "Prague" [ref=e307] [cursor=pointer]:
+                  - /url: /prague
+              - listitem [ref=e308]:
+                - link "Providence" [ref=e309] [cursor=pointer]:
+                  - /url: /providence
+              - listitem [ref=e310]:
+                - link "Puerto Vallarta" [ref=e311] [cursor=pointer]:
+                  - /url: /puerto-vallarta
+              - listitem [ref=e312]:
+                - link "Raleigh" [ref=e313] [cursor=pointer]:
+                  - /url: /raleigh
+              - listitem [ref=e314]:
+                - link "Rome" [ref=e315] [cursor=pointer]:
+                  - /url: /rome
+              - listitem [ref=e316]:
+                - link "Salt Lake City" [ref=e317] [cursor=pointer]:
+                  - /url: /salt-lake-city
+              - listitem [ref=e318]:
+                - link "San Antonio" [ref=e319] [cursor=pointer]:
+                  - /url: /san-antonio
+              - listitem [ref=e320]:
+                - link "San Diego" [ref=e321] [cursor=pointer]:
+                  - /url: /san-diego
+              - listitem [ref=e322]:
+                - link "San Francisco" [ref=e323] [cursor=pointer]:
+                  - /url: /san-francisco
+              - listitem [ref=e324]:
+                - link "San Jose" [ref=e325] [cursor=pointer]:
+                  - /url: /san-jose
+              - listitem [ref=e326]:
+                - link "San Juan" [ref=e327] [cursor=pointer]:
+                  - /url: /san-juan
+              - listitem [ref=e328]:
+                - link "San Sebastián" [ref=e329] [cursor=pointer]:
+                  - /url: /san-sebastian
+              - listitem [ref=e330]:
+                - link "Santa Fe" [ref=e331] [cursor=pointer]:
+                  - /url: /santa-fe
+              - listitem [ref=e332]:
+                - link "São Paulo" [ref=e333] [cursor=pointer]:
+                  - /url: /sao-paulo
+              - listitem [ref=e334]:
+                - link "Scottsdale" [ref=e335] [cursor=pointer]:
+                  - /url: /scottsdale
+              - listitem [ref=e336]:
+                - link "Seattle" [ref=e337] [cursor=pointer]:
+                  - /url: /seattle
+              - listitem [ref=e338]:
+                - link "Seville" [ref=e339] [cursor=pointer]:
+                  - /url: /seville
+              - listitem [ref=e340]:
+                - link "Singapore" [ref=e341] [cursor=pointer]:
+                  - /url: /singapore
+              - listitem [ref=e342]:
+                - link "Sonoma" [ref=e343] [cursor=pointer]:
+                  - /url: /sonoma
+              - listitem [ref=e344]:
+                - link "St. Paul" [ref=e345] [cursor=pointer]:
+                  - /url: /st-paul
+              - listitem [ref=e346]:
+                - link "Sun Valley" [ref=e347] [cursor=pointer]:
+                  - /url: /sun-valley
+              - listitem [ref=e348]:
+                - link "Tampa" [ref=e349] [cursor=pointer]:
+                  - /url: /tampa
+              - listitem [ref=e350]:
+                - link "The Catskills" [ref=e351] [cursor=pointer]:
+                  - /url: /the-catskills
+              - listitem [ref=e352]:
+                - link "Todos Santos" [ref=e353] [cursor=pointer]:
+                  - /url: /todos-santos
+              - listitem [ref=e354]:
+                - link "Tokyo" [ref=e355] [cursor=pointer]:
+                  - /url: /tokyo
+              - listitem [ref=e356]:
+                - link "Toronto" [ref=e357] [cursor=pointer]:
+                  - /url: /toronto
+              - listitem [ref=e358]:
+                - link "Troy" [ref=e359] [cursor=pointer]:
+                  - /url: /troy
+              - listitem [ref=e360]:
+                - link "Tulum" [ref=e361] [cursor=pointer]:
+                  - /url: /tulum
+              - listitem [ref=e362]:
+                - link "Vail" [ref=e363] [cursor=pointer]:
+                  - /url: /vail
+              - listitem [ref=e364]:
+                - link "Valencia" [ref=e365] [cursor=pointer]:
+                  - /url: /valencia
+              - listitem [ref=e366]:
+                - link "Vancouver" [ref=e367] [cursor=pointer]:
+                  - /url: /vancouver
+              - listitem [ref=e368]:
+                - link "Venice" [ref=e369] [cursor=pointer]:
+                  - /url: /venice
+              - listitem [ref=e370]:
+                - link "Washington DC" [ref=e371] [cursor=pointer]:
+                  - /url: /washington-dc
+              - listitem [ref=e372]:
+                - link "Willamette Valley" [ref=e373] [cursor=pointer]:
+                  - /url: /willamette-valley
+              - listitem [ref=e374]:
+                - link "Wilmington" [ref=e375] [cursor=pointer]:
+                  - /url: /wilmington
+              - listitem [ref=e376]:
+                - link "Yountville" [ref=e377] [cursor=pointer]:
+                  - /url: /yountville
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - heading "Company" [level=4] [ref=e381]
+              - list [ref=e382]:
+                - listitem [ref=e383]:
+                  - link "About Us" [ref=e384] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e385]:
+                  - link "Careers" [ref=e386] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e387]:
+                  - link "Experiences" [ref=e388] [cursor=pointer]:
+                    - /url: /experiences
+                - listitem [ref=e389]:
+                  - link "Travel" [ref=e390] [cursor=pointer]:
+                    - /url: /travel
+            - generic [ref=e391]:
+              - heading "Information" [level=4] [ref=e392]
+              - list [ref=e393]:
+                - listitem [ref=e394]:
+                  - link "Newsletter" [ref=e395] [cursor=pointer]:
+                    - /url: /newsletter
+                - listitem [ref=e396]:
+                  - link "Contact Us" [ref=e397] [cursor=pointer]:
+                    - /url: mailto:support@theinfatuation.com
+                - listitem [ref=e398]:
+                  - link "Sitemap" [ref=e399] [cursor=pointer]:
+                    - /url: /sitemap
+                - listitem [ref=e400]:
+                  - link "Terms & Conditions" [ref=e401] [cursor=pointer]:
+                    - /url: /terms
+                - listitem [ref=e402]:
+                  - link "Privacy Policy" [ref=e403] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - listitem [ref=e404]:
+                  - link "Online Tracking Opt Out Guide" [ref=e405] [cursor=pointer]:
+                    - /url: /privacy-policy#online-tracking-opt-out-guide
+                - listitem [ref=e406]:
+                  - button "Cookie Settings" [ref=e407] [cursor=pointer]
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - link "Infatuation on Instagram" [ref=e411] [cursor=pointer]:
+                - /url: https://www.instagram.com/infatuation
+                - img [ref=e413]
+              - link "Infatuation on Facebook" [ref=e415] [cursor=pointer]:
+                - /url: https://www.facebook.com/infatuation
+                - img [ref=e417]
+              - link "Infatuation on Twitter" [ref=e419] [cursor=pointer]:
+                - /url: https://twitter.com/infatuation
+                - img [ref=e421]
+              - link "Infatuation on TikTok" [ref=e423] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@theinfatuation
+                - img [ref=e425]
+              - link "Infatuation on Snapchat" [ref=e427] [cursor=pointer]:
+                - /url: https://www.snapchat.com/discover/Infatuation/2548866088
+                - img [ref=e429]
+              - link "Infatuation on Spotify" [ref=e431] [cursor=pointer]:
+                - /url: https://open.spotify.com/user/infatuationmusic
+                - img [ref=e433]
+              - link "Infatuation on YouTube" [ref=e435] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCLyHIJeu7I-IIiM_k8F7PjA
+                - img [ref=e437]
+              - link "Infatuation on Pinterest" [ref=e439] [cursor=pointer]:
+                - /url: https://www.pinterest.com/eeeeeats/
+                - img [ref=e441]
+            - generic [ref=e443]:
+              - text: 2026 © The Infatuation Inc. All Rights Reserved.
+              - text: The views and opinions expressed on The Infatuation’s site and other platforms are those of the authors and do not reflect the official policy or position of (or endorsement by) JPMorgan Chase. The Infatuation and its affiliates assume no responsibility or liability for the content of this site, or any errors or omissions. The Information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness.
+          - generic [ref=e444]:
+            - heading "FIND PLACES ON OUR APP" [level=2] [ref=e445]
+            - generic [ref=e446]:
+              - link "Get it on Google Play" [ref=e447] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.infatuation
+                - generic [ref=e448]:
+                  - img [ref=e450]
+                  - img "Get it on Google Play" [ref=e451]
+              - link "Download on the App Store" [ref=e452] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/the-infatuation/id465685575
+                - generic [ref=e453]:
+                  - img [ref=e455]
+                  - img "Download on the App Store" [ref=e456]
+  - generic: Cookies Settings
+  - alert [ref=e457]
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region

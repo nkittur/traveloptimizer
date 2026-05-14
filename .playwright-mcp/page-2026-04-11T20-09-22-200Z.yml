@@ -1,0 +1,698 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "Barcelona" [ref=e111] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "Barcelona" [ref=e112]
+      - link "Barcelona" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 10 Mar 2022
+      - generic [ref=e130]: 6 points (87% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/tau5zl
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "Barcelona" [level=1] [ref=e145]:
+        - link "Barcelona" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/Barcelona/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Welcome to the Barcelona Sub-Reddit
+        - heading "Use the weekly Barcelona Weekly Q&A sticky post to ask all your questions about visiting, moving to or just living in Barcelona." [level=3] [ref=e153]
+        - heading "Read the wiki - it's full of tips and advice for visitors and residents, like tourist info, bars (& sports bars) and restaurant recommendations from the locals, and much more. Also, please search older topics." [level=3] [ref=e154]:
+          - text: Read
+          - emphasis [ref=e155]:
+            - link "the wiki" [ref=e156] [cursor=pointer]:
+              - /url: /r/Barcelona/wiki/index
+          - text: "- it's full of tips and advice for visitors and residents, like"
+          - link "tourist info" [ref=e157] [cursor=pointer]:
+            - /url: /r/Barcelona/wiki/visitingbarcelona
+          - text: ","
+          - link "bars (& sports bars)" [ref=e158] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/bars
+          - text: and
+          - link "restaurant recommendations" [ref=e159] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/restaurants
+          - text: from the locals, and much more. Also, please search older topics.
+        - paragraph [ref=e160]:
+          - text: "FC Barcelona posts should go on the separate sub:"
+          - link "r/barca" [ref=e161] [cursor=pointer]:
+            - /url: /r/barca
+        - paragraph [ref=e162]: "In Catalonia:"
+        - paragraph [ref=e163]:
+          - link "r/catalonia (in English)" [ref=e164] [cursor=pointer]:
+            - /url: /r/catalonia
+        - paragraph [ref=e165]:
+          - link "r/catalunya (in Catalan)" [ref=e166] [cursor=pointer]:
+            - /url: /r/Catalunya
+        - paragraph [ref=e167]:
+          - link "r/catalan (about the language)" [ref=e168] [cursor=pointer]:
+            - /url: /r/catalan
+        - paragraph [ref=e169]:
+          - link "r/maresme" [ref=e170] [cursor=pointer]:
+            - /url: /r/maresme
+        - paragraph [ref=e171]:
+          - link "r/santcugat" [ref=e172] [cursor=pointer]:
+            - /url: /r/santcugat
+        - paragraph [ref=e173]:
+          - link "r/girona" [ref=e174] [cursor=pointer]:
+            - /url: /r/girona
+        - paragraph [ref=e175]:
+          - link "r/tarragona" [ref=e176] [cursor=pointer]:
+            - /url: /r/tarragona
+        - paragraph [ref=e177]:
+          - text: Our
+          - link "IRC Channel" [ref=e178] [cursor=pointer]:
+            - /url: https://kiwiirc.com/client/irc.snoonet.org/barcelona
+          - text: Join us!
+        - paragraph [ref=e179]:
+          - text: "Other useful subs :"
+          - link "r/buyandsellbcn" [ref=e180] [cursor=pointer]:
+            - /url: /r/buyandsellbcn
+        - paragraph [ref=e181]:
+          - text: "Events: check out"
+          - link "eventradr.com" [ref=e182] [cursor=pointer]:
+            - /url: http://eventradr.com/
+      - generic [ref=e184]:
+        - text: a community for
+        - time [ref=e185]: 17 years
+    - generic [ref=e187]:
+      - heading "MODERATORS" [level=1] [ref=e189]
+      - list [ref=e190]:
+        - listitem [ref=e191]:
+          - link "message the mods" [ref=e192] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/Barcelona
+    - complementary [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - text: discussions in
+          - link "r/Barcelona" [ref=e198] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/?ref=readnext
+        - navigation [ref=e199]:
+          - generic [ref=e200] [cursor=pointer]: <
+          - generic [ref=e201] [cursor=pointer]: ">"
+        - generic [ref=e203] [cursor=pointer]: X
+      - link "791 · 43 comments incredible that barcelona has a wario next door" [ref=e205] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/comments/1shzywy/incredible_that_barcelona_has_a_wario_next_door/?ref=readnext_0
+        - generic [ref=e206]: 791 · 43 comments
+        - generic [ref=e208]: incredible that barcelona has a wario next door
+  - main [ref=e209]:
+    - generic [ref=e210]:
+      - link "Welcome to Reddit. Come for the cats, stay for the empathy. Become a Redditor and start exploring." [ref=e211] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e212]
+        - paragraph [ref=e213]: Come for the cats, stay for the empathy.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Become a Redditor
+          - paragraph [ref=e216]: and start exploring.
+      - link "×" [ref=e217] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e219]:
+      - paragraph
+      - generic [ref=e220]:
+        - button "upvote" [ref=e221] [cursor=pointer]
+        - generic "6" [ref=e222]
+        - button "downvote" [ref=e223] [cursor=pointer]
+      - link [ref=e224] [cursor=pointer]:
+        - /url: /r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - paragraph [ref=e227]:
+            - link "Where are your favourite restaurants to go to for large-ish groups?" [ref=e228] [cursor=pointer]:
+              - /url: /r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/
+            - generic [ref=e229]:
+              - text: (
+              - link "self.Barcelona" [ref=e230] [cursor=pointer]:
+                - /url: /r/Barcelona/
+              - text: )
+          - paragraph [ref=e231]:
+            - text: submitted
+            - time [ref=e232]: 4 years ago
+            - text: by
+            - link "MaybeMako" [ref=e233] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/MaybeMako
+        - paragraph [ref=e239]: Im terrible at organising things/picking restaurants so thought I’d reach out for recommendations rather than rely on el tenedor.
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "10 comments" [ref=e242] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/
+          - listitem [ref=e243]:
+            - link "share" [ref=e244] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e245]:
+            - link "save" [ref=e246] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e247]:
+            - link "hide" [ref=e250] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e251]:
+            - link "report" [ref=e252] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e253]:
+      - generic [ref=e254]: all 10 comments
+      - generic [ref=e256]:
+        - text: "sorted by:"
+        - generic [ref=e257]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e260] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e261]
+        - generic [ref=e262]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e263]
+          - paragraph [ref=e264]: Post a comment!
+          - generic [ref=e266]: Create an account
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - paragraph
+          - generic [ref=e269]:
+            - button "upvote" [ref=e270] [cursor=pointer]
+            - button "downvote" [ref=e271] [cursor=pointer]
+          - generic [ref=e272]:
+            - paragraph [ref=e273]:
+              - link "[–]" [ref=e274] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Mr_B_86" [ref=e275] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Mr_B_86
+              - text: 3 points
+              - time [ref=e277]: 4 years ago
+            - paragraph [ref=e281]: El glop, malandrina III
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - link "permalink" [ref=e284] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i04zlgo/
+              - listitem [ref=e285]:
+                - link "embed" [ref=e286] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e287]:
+                - link "save" [ref=e288] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e289]:
+                - link "report" [ref=e290] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e293]:
+            - paragraph
+            - generic [ref=e294]:
+              - button "upvote" [ref=e295] [cursor=pointer]
+              - button "downvote" [ref=e296] [cursor=pointer]
+            - generic [ref=e297]:
+              - paragraph [ref=e298]:
+                - link "[–]" [ref=e299] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 1 point"
+                - time [ref=e300]: 4 years ago
+              - paragraph [ref=e304]: El Glop is decent.
+              - list [ref=e305]:
+                - listitem [ref=e306]:
+                  - link "permalink" [ref=e307] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i095xyw/
+                - listitem [ref=e308]:
+                  - link "embed" [ref=e309] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e310]:
+                  - link "save" [ref=e311] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e312]:
+                  - link "parent" [ref=e313] [cursor=pointer]:
+                    - /url: "#i04zlgo"
+                - listitem [ref=e314]:
+                  - link "report" [ref=e315] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e316]:
+          - paragraph
+          - generic [ref=e317]:
+            - button "upvote" [ref=e318] [cursor=pointer]
+            - button "downvote" [ref=e319] [cursor=pointer]
+          - generic [ref=e320]:
+            - paragraph [ref=e321]:
+              - link "[–]" [ref=e322] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TheCrazyOsbourne" [ref=e323] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TheCrazyOsbourne
+              - text: 5 points
+              - time [ref=e325]: 4 years ago
+            - paragraph [ref=e329]: La Flauta or their second place La Flauta II
+            - list [ref=e330]:
+              - listitem [ref=e331]:
+                - link "permalink" [ref=e332] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i05m9nz/
+              - listitem [ref=e333]:
+                - link "embed" [ref=e334] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e335]:
+                - link "save" [ref=e336] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e337]:
+                - link "report" [ref=e338] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e339]:
+          - paragraph
+          - generic [ref=e340]:
+            - button "upvote" [ref=e341] [cursor=pointer]
+            - button "downvote" [ref=e342] [cursor=pointer]
+          - generic [ref=e343]:
+            - paragraph [ref=e344]:
+              - link "[–]" [ref=e345] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "theErasmusStudent" [ref=e346] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/theErasmusStudent
+              - text: 1 point
+              - time [ref=e348]: 4 years ago
+            - paragraph [ref=e352]: How large are we talking about? When we did dinners where we were over 15 people we would go to Tagliatella, it's Italian food so everyone likes it, they can accommodate big groups and not too expensive
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - link "permalink" [ref=e355] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i03zqf0/
+              - listitem [ref=e356]:
+                - link "embed" [ref=e357] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e358]:
+                - link "save" [ref=e359] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e360]:
+                - link "report" [ref=e361] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e364]:
+            - paragraph
+            - generic [ref=e365]:
+              - button "upvote" [ref=e366] [cursor=pointer]
+              - button "downvote" [ref=e367] [cursor=pointer]
+            - generic [ref=e368]:
+              - paragraph [ref=e369]:
+                - link "[–]" [ref=e370] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 3 points"
+                - time [ref=e371]: 4 years ago
+              - paragraph [ref=e375]: I like Tagliatella, it's a chain restaurant but it is pretty decent.
+              - list [ref=e376]:
+                - listitem [ref=e377]:
+                  - link "permalink" [ref=e378] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i0964jp/
+                - listitem [ref=e379]:
+                  - link "embed" [ref=e380] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e381]:
+                  - link "save" [ref=e382] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e383]:
+                  - link "parent" [ref=e384] [cursor=pointer]:
+                    - /url: "#i03zqf0"
+                - listitem [ref=e385]:
+                  - link "report" [ref=e386] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e387]:
+          - paragraph
+          - generic [ref=e388]:
+            - button "upvote" [ref=e389] [cursor=pointer]
+            - button "downvote" [ref=e390] [cursor=pointer]
+          - generic [ref=e391]:
+            - paragraph [ref=e392]:
+              - link "[–]" [ref=e393] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "notliw00" [ref=e394] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/notliw00
+              - text: 1 point
+              - time [ref=e396]: 4 years ago
+            - paragraph [ref=e400]: Taverna Can Margarit in poble sec, great traditional catalan food and fair price.
+            - list [ref=e401]:
+              - listitem [ref=e402]:
+                - link "permalink" [ref=e403] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i04b5ui/
+              - listitem [ref=e404]:
+                - link "embed" [ref=e405] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e406]:
+                - link "save" [ref=e407] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e408]:
+                - link "report" [ref=e409] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e410]:
+          - paragraph
+          - generic [ref=e411]:
+            - button "upvote" [ref=e412] [cursor=pointer]
+            - button "downvote" [ref=e413] [cursor=pointer]
+          - generic [ref=e414]:
+            - paragraph [ref=e415]:
+              - link "[–]" [ref=e416] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "unocontra20mcs" [ref=e417] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/unocontra20mcs
+              - text: 1 point
+              - time [ref=e419]: 4 years ago
+            - paragraph [ref=e423]: can pizza if you like pizza, never been with a group but seems like it would suit
+            - list [ref=e424]:
+              - listitem [ref=e425]:
+                - link "permalink" [ref=e426] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i06edy6/
+              - listitem [ref=e427]:
+                - link "embed" [ref=e428] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e429]:
+                - link "save" [ref=e430] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e431]:
+                - link "report" [ref=e432] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e433]:
+          - paragraph
+          - generic [ref=e434]:
+            - button "upvote" [ref=e435] [cursor=pointer]
+            - button "downvote" [ref=e436] [cursor=pointer]
+          - generic [ref=e437]:
+            - paragraph [ref=e438]:
+              - link "[–]" [ref=e439] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "edabliu" [ref=e440] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/edabliu
+              - text: 1 point
+              - time [ref=e442]: 4 years ago
+            - paragraph [ref=e446]: I’ve been to Soco in a large group (~30 people), had a very good experience.
+            - list [ref=e447]:
+              - listitem [ref=e448]:
+                - link "permalink" [ref=e449] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i07lpfz/
+              - listitem [ref=e450]:
+                - link "embed" [ref=e451] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e452]:
+                - link "save" [ref=e453] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e454]:
+                - link "report" [ref=e455] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e456]:
+          - paragraph
+          - generic [ref=e457]:
+            - button "upvote" [ref=e458] [cursor=pointer]
+            - button "downvote" [ref=e459] [cursor=pointer]
+          - generic [ref=e460]:
+            - paragraph [ref=e461]:
+              - link "[–]" [ref=e462] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Toc_Toc_Toc" [ref=e463] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Toc_Toc_Toc
+              - text: 1 point
+              - time [ref=e465]: 4 years ago
+            - paragraph [ref=e469]: Buon Appetito in front of Estació Francia! Everything on the menu (pizzas, pastas,meat and fish) is great at a very fair price.
+            - list [ref=e470]:
+              - listitem [ref=e471]:
+                - link "permalink" [ref=e472] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/tau5zl/where_are_your_favourite_restaurants_to_go_to_for/i0akt2l/
+              - listitem [ref=e473]:
+                - link "embed" [ref=e474] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e475]:
+                - link "save" [ref=e476] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e477]:
+                - link "report" [ref=e478] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e479]:
+    - generic [ref=e480]:
+      - list [ref=e482]:
+        - listitem [ref=e483]: about
+        - listitem [ref=e484]:
+          - link "blog" [ref=e485] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e486]:
+          - link "about" [ref=e487] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e488]:
+          - link "advertising" [ref=e489] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e490]:
+          - link "careers" [ref=e491] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e493]:
+        - listitem [ref=e494]: help
+        - listitem [ref=e495]:
+          - link "site rules" [ref=e496] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e497]:
+          - link "Reddit help center" [ref=e498] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e499]:
+          - link "reddiquette" [ref=e500] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e501]:
+          - link "mod guidelines" [ref=e502] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e503]:
+          - link "contact us" [ref=e504] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e506]:
+        - listitem [ref=e507]: apps & tools
+        - listitem [ref=e508]:
+          - link "Reddit for iPhone" [ref=e509] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e510]:
+          - link "Reddit for Android" [ref=e511] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e512]:
+          - link "mobile website" [ref=e513] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e515]:
+        - listitem [ref=e516]: <3
+        - listitem [ref=e517]:
+          - link "reddit premium" [ref=e518] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e519]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e520] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e521] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e522]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e523]
+  - paragraph [ref=e524]: π

@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "San Diego Restaurants" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - button "5 Sources" [ref=e5] [cursor=pointer]
+      - button "+ Add" [ref=e6] [cursor=pointer]
+  - main [ref=e7]
+  - navigation [ref=e8]:
+    - button "🍽 All" [ref=e9] [cursor=pointer]:
+      - generic [ref=e10]: 🍽
+      - text: All
+    - button "⭐ Shortlist" [ref=e11] [cursor=pointer]:
+      - generic [ref=e12]: ⭐
+      - text: Shortlist
+    - button "🗑 Trash" [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: 🗑
+      - text: Trash

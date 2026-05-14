@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"best restaurants\" pittsburgh 2024 OR 2025 site:pittsburghmagazine.com OR site:post-gazette.com \"best restaurants\" pittsburgh 2024 OR 2025 site:pittsburghmagazine.com OR site:post-gazette.com"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522best%2Brestaurants%2522%2Bpittsburgh%2B2024%2BOR%2B2025%2Bsite%253Apittsburghmagazine.com%2BOR%2Bsite%253Apost-gazette.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&aep=1&ntc=1&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ2J8OegQIERAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQs6gLegQIExAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ0pQJegQIFBAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQtKgLegQIFRAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQtKgLegQIFhAB
+              - generic [ref=e101]: Images
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sa=X&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQs6gLegQIGBAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "The 26 Best Restaurants in Pittsburgh (Updated for 2025) Pittsburgh Magazine https://www.pittsburghmagazine.com › here-are-the-25-..." [ref=e142] [cursor=pointer]:
+                - /url: https://www.pittsburghmagazine.com/here-are-the-25-best-restaurants-in-pittsburgh/
+                - heading "The 26 Best Restaurants in Pittsburgh (Updated for 2025)" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Pittsburgh Magazine
+                  - generic [ref=e152]: https://www.pittsburghmagazine.com › here-are-the-25-...
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: May 30, 2025 —
+              - generic [ref=e161]:
+                - text: Here are the 26
+                - emphasis [ref=e162]: best restaurants
+                - text: in
+                - emphasis [ref=e163]: Pittsburgh
+                - text: ", including Alta Via, Altius, Apteka, Balvanera, Bar Marco, Casbah and more."
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "Here Are The 10 Best New Restaurants in Pittsburgh Pittsburgh Magazine https://www.pittsburghmagazine.com › the-10-best-new..." [ref=e172] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/the-10-best-new-restaurants-in-pittsburgh/
+              - heading "Here Are The 10 Best New Restaurants in Pittsburgh" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: Pittsburgh Magazine
+                - generic [ref=e182]: https://www.pittsburghmagazine.com › the-10-best-new...
+            - button "About this result" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]: Feb 8, 2026 —
+            - generic [ref=e191]:
+              - text: ...
+              - emphasis [ref=e192]: Best Restaurants
+              - text: in
+              - emphasis [ref=e193]: Pittsburgh
+              - text: · 9 251229 Jeremy Waldrup Pittsburgher Of The Year Elan Mizrahi Photography 4ck 1.
+              - emphasis [ref=e194]: "2025"
+              - text: Pittsburgher of the Year ...
+            - link "Read more" [ref=e195] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/the-10-best-new-restaurants-in-pittsburgh/#:~:text=Here%20Are%20the%2026%20Best,of%20the%20Year%3A%20Jeremy%20Waldrup
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "Best restaurants in Pittsburgh for 2025 Pittsburgh Post-Gazette https://newsinteractive.post-gazette.com › pittsburgh-best..." [ref=e204] [cursor=pointer]:
+              - /url: https://newsinteractive.post-gazette.com/pittsburgh-best-restaurants-2025/
+              - heading "Best restaurants in Pittsburgh for 2025" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Pittsburgh Post-Gazette
+                - generic [ref=e214]: https://newsinteractive.post-gazette.com › pittsburgh-best...
+            - button "About this result" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: Oct 8, 2025 —
+            - generic [ref=e223]:
+              - emphasis [ref=e224]: Pittsburgh's best restaurants
+              - text: . 27 spots that showcase peak Western Pa ... The list reflects the full scope of dining in
+              - emphasis [ref=e225]: Pittsburgh
+              - text: in
+              - emphasis [ref=e226]: "2025"
+              - text: .
+            - link "Read more" [ref=e227] [cursor=pointer]:
+              - /url: https://newsinteractive.post-gazette.com/pittsburgh-best-restaurants-2025/#:~:text=Pittsburgh's%20best%20restaurants,that%20showcase%20peak%20Western%20Pa.&text=Thank%20you%20for%20reading%20the
+        - generic [ref=e231]:
+          - generic [ref=e234]:
+            - link "10 Best New Restaurants in Pittsburgh Pittsburgh Magazine https://www.pittsburghmagazine.com › best-new-restaur..." [ref=e236] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/best-new-restaurants-in-pittsburgh-pa/
+              - heading "10 Best New Restaurants in Pittsburgh" [level=3] [ref=e237]
+              - generic [ref=e242]:
+                - generic [ref=e244]: Pittsburgh Magazine
+                - generic [ref=e246]: https://www.pittsburghmagazine.com › best-new-restaur...
+            - button "About this result" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]: Feb 7, 2025 —
+            - generic [ref=e255]:
+              - text: "You should, too. Related: Here Are the 26"
+              - emphasis [ref=e256]: Best Restaurants
+              - text: in
+              - emphasis [ref=e257]: Pittsburgh
+              - text: ... This article appears in the January/February
+              - emphasis [ref=e258]: "2025"
+              - text: issue of
+              - emphasis [ref=e259]: Pittsburgh
+              - text: ...
+            - link "Read more" [ref=e260] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/best-new-restaurants-in-pittsburgh-pa/#:~:text=You%20should%2C%20too.,26%20Best%20Restaurants%20in%20Pittsburgh&text=This%20article%20appears%20in%20the,2025%20issue%20of%20Pittsburgh%20Magazine.
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - 'link "2025 Best of the ''Burgh Winners: Food & Restaurants Pittsburgh Magazine https://www.pittsburghmagazine.com › 2025-best-of-th..." [ref=e269] [cursor=pointer]':
+              - /url: https://www.pittsburghmagazine.com/2025-best-of-the-burgh-winners-food-restaurants/
+              - 'heading "2025 Best of the ''Burgh Winners: Food & Restaurants" [level=3] [ref=e270]'
+              - generic [ref=e275]:
+                - generic [ref=e277]: Pittsburgh Magazine
+                - generic [ref=e279]: https://www.pittsburghmagazine.com › 2025-best-of-th...
+            - button "About this result" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e286]:
+            - generic [ref=e287]: Jun 20, 2025 —
+            - generic [ref=e288]:
+              - text: This article appears in the July
+              - emphasis [ref=e289]: "2025"
+              - text: issue of
+              - emphasis [ref=e290]: Pittsburgh
+              - text: Magazine. ...
+              - emphasis [ref=e291]: Best Restaurants
+              - text: in
+              - emphasis [ref=e292]: Pittsburgh
+              - text: · 9 251229 Jeremy Waldrup Pittsburgher ...
+            - link "Read more" [ref=e293] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/2025-best-of-the-burgh-winners-food-restaurants/#:~:text=This%20article%20appears%20in%20the,2025%20issue%20of%20Pittsburgh%20Magazine.&text=Here%20Are%20the%2026%20Best,Restaurants%20in%20Pittsburgh
+        - generic [ref=e297]:
+          - generic [ref=e300]:
+            - link "2025 Best of the 'Burgh Winners Pittsburgh Magazine https://www.pittsburghmagazine.com › best-of-pittsburgh" [ref=e302] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/best-of-pittsburgh/
+              - heading "2025 Best of the 'Burgh Winners" [level=3] [ref=e303]
+              - generic [ref=e308]:
+                - generic [ref=e310]: Pittsburgh Magazine
+                - generic [ref=e312]: https://www.pittsburghmagazine.com › best-of-pittsburgh
+            - button "About this result" [ref=e313] [cursor=pointer]:
+              - img [ref=e316]
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - text: Presenting
+              - emphasis [ref=e321]: Pittsburgh
+              - text: Magazine's winners of the
+              - emphasis [ref=e322]: "2025"
+              - text: Best of the 'Burgh ...
+              - emphasis [ref=e323]: Best Restaurants
+              - text: · Best of The 'Burgh · Visitors Guide · Top Doctors · Top Dentists ...
+            - link "Read more" [ref=e324] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/best-of-pittsburgh/#:~:text=2025%20Best%20of%20the%20'Burgh
+        - generic [ref=e328]:
+          - generic [ref=e331]:
+            - link "Pittsburgh's best new restaurants of 2025 Pittsburgh Post-Gazette https://www.post-gazette.com › stories › 202512220075" [ref=e333] [cursor=pointer]:
+              - /url: https://www.post-gazette.com/life/dining/2026/01/06/best-new-restaurants-pittsburgh-2025/stories/202512220075
+              - heading "Pittsburgh's best new restaurants of 2025" [level=3] [ref=e334]
+              - generic [ref=e339]:
+                - generic [ref=e341]: Pittsburgh Post-Gazette
+                - generic [ref=e343]: https://www.post-gazette.com › stories › 202512220075
+            - button "About this result" [ref=e344] [cursor=pointer]:
+              - img [ref=e347]
+          - generic [ref=e350]:
+            - generic [ref=e351]: Jan 6, 2026 —
+            - generic [ref=e352]:
+              - emphasis [ref=e353]: Pittsburgh's best restaurants
+              - text: ": The 27 spots that showcase the spectrum of peak Western Pa. dining in"
+              - emphasis [ref=e354]: "2025"
+              - text: . But what helped restaurants stand ...
+            - link "Read more" [ref=e355] [cursor=pointer]:
+              - /url: https://www.post-gazette.com/life/dining/2026/01/06/best-new-restaurants-pittsburgh-2025/stories/202512220075#:~:text=To%20continue%20reading%2C%20try%20unlimited
+        - generic [ref=e359]:
+          - generic [ref=e362]:
+            - link "Fall in Love With These New Dining Spots Pittsburgh Magazine https://www.pittsburghmagazine.com › new-restaurants-..." [ref=e364] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/new-restaurants-october-2025/
+              - heading "Fall in Love With These New Dining Spots" [level=3] [ref=e365]
+              - generic [ref=e370]:
+                - generic [ref=e372]: Pittsburgh Magazine
+                - generic [ref=e374]: https://www.pittsburghmagazine.com › new-restaurants-...
+            - button "About this result" [ref=e375] [cursor=pointer]:
+              - img [ref=e378]
+          - generic [ref=e381]:
+            - generic [ref=e382]: Oct 16, 2025 —
+            - generic [ref=e383]:
+              - text: ...
+              - emphasis [ref=e384]: "2024"
+              - text: ". Lawrenceville, 4129 Butler St. Categories: PGHeats ..."
+              - emphasis [ref=e385]: Best Restaurants
+              - text: in
+              - emphasis [ref=e386]: Pittsburgh
+              - text: · 9 251229 Jeremy Waldrup Pittsburgher ...
+            - link "Read more" [ref=e387] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/new-restaurants-october-2025/#:~:text=Chef%20Csilla%20Thackray%20is%20opening,Categories%3A%20PGHeats&text=Here%20Are%20the%2026%20Best,Restaurants%20in%20Pittsburgh
+        - generic [ref=e391]:
+          - generic [ref=e394]:
+            - link "Best Restaurants Archives Pittsburgh Magazine https://www.pittsburghmagazine.com › category › best-..." [ref=e396] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/category/best-restaurants/
+              - heading "Best Restaurants Archives" [level=3] [ref=e397]
+              - generic [ref=e402]:
+                - generic [ref=e404]: Pittsburgh Magazine
+                - generic [ref=e406]: https://www.pittsburghmagazine.com › category › best-...
+            - button "About this result" [ref=e407] [cursor=pointer]:
+              - img [ref=e410]
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - text: Our annual roundup of
+              - emphasis [ref=e415]: Pittsburgh's Best Restaurants
+              - text: covers a lot of ground. The list includes everything from fine dining at a resort hotel to a scrappy farm- ...
+            - link "Read more" [ref=e416] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/category/best-restaurants/#:~:text=Our%20annual%20roundup%20of%20Pittsburgh's,and%20lunch%20counter%20in%20Bloomfield.
+        - generic [ref=e420]:
+          - generic [ref=e423]:
+            - link "The Best Things to Eat in Pittsburgh Right Now Pittsburgh Magazine https://www.pittsburghmagazine.com › the-best-things-t..." [ref=e425] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/the-best-things-to-eat-in-pittsburgh-right-now/
+              - heading "The Best Things to Eat in Pittsburgh Right Now" [level=3] [ref=e426]
+              - generic [ref=e431]:
+                - generic [ref=e433]: Pittsburgh Magazine
+                - generic [ref=e435]: https://www.pittsburghmagazine.com › the-best-things-t...
+            - button "About this result" [ref=e436] [cursor=pointer]:
+              - img [ref=e439]
+          - generic [ref=e442]:
+            - generic [ref=e443]: 4 days ago —
+            - generic [ref=e444]:
+              - text: ...
+              - emphasis [ref=e445]: Best Restaurants
+              - text: in
+              - emphasis [ref=e446]: Pittsburgh
+              - text: · 9 251229 Jeremy Waldrup Pittsburgher Of The Year Elan Mizrahi Photography 4ck 1 ·
+              - emphasis [ref=e447]: "2025"
+              - text: Pittsburgher of the Year ...
+            - link "Read more" [ref=e448] [cursor=pointer]:
+              - /url: https://www.pittsburghmagazine.com/the-best-things-to-eat-in-pittsburgh-right-now/#:~:text=Here%20Are%20the%2026%20Best,of%20the%20Year%3A%20Jeremy%20Waldrup
+      - navigation [ref=e451]:
+        - heading "Page Navigation" [level=1] [ref=e452]
+        - text: "1"
+        - link "Page 2" [ref=e455] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=10&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAE
+          - text: "2"
+        - link "Page 3" [ref=e457] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=20&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAG
+          - text: "3"
+        - link "Page 4" [ref=e459] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=30&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAI
+          - text: "4"
+        - link "Page 5" [ref=e461] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=40&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAK
+          - text: "5"
+        - link "Page 6" [ref=e463] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=50&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAM
+          - text: "6"
+        - link "Page 7" [ref=e465] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=60&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAO
+          - text: "7"
+        - link "Page 8" [ref=e467] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=70&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAQ
+          - text: "8"
+        - link "Page 9" [ref=e469] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=80&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAS
+          - text: "9"
+        - link "Page 10" [ref=e471] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=90&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8tMDegQIChAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e473]:
+          - link "Next" [ref=e474] [cursor=pointer]:
+            - /url: /search?q=%22best+restaurants%22+pittsburgh+2024+OR+2025+site:pittsburghmagazine.com+OR+site:post-gazette.com&sca_esv=3e6d41f6df379cdf&ei=aQLbaaSKAfCx5NoPjuTd4As&start=10&sa=N&sstk=Af77f_fnSgnqXWu3k4rnwMgc9JCt-PNcmYVSFOAqxL-epR-NET0Y8V5We4aO1xGwfjMCkp3PB-_EOhbVMZmIvXePdlHlSGRIwq66hA&ved=2ahUKEwjk4puMoeeTAxXwGFkFHQ5yF7wQ8NMDegQIChAW
+            - generic [ref=e476]: Next
+      - navigation
+    - contentinfo [ref=e477]:
+      - heading "Footer Links" [level=1] [ref=e478]
+      - generic [ref=e482]:
+        - generic [ref=e486]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e488] [cursor=pointer]:
+            - generic [ref=e489]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e491]:
+              - text: "-"
+              - generic [ref=e492]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e494] [cursor=pointer]: Update location
+        - generic [ref=e497]:
+          - link "Help" [ref=e498] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e499] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e500] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e501] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

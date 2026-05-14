@@ -1,0 +1,300 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:afar.com "where to go in 2026" OR "best places 2026" site:afar.com "where to go in 2026" OR "best places 2026"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Aafar.com%2B%2522where%2Bto%2Bgo%2Bin%2B2026%2522%2BOR%2B%2522best%2Bplaces%2B2026%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&aep=1&ntc=1&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Q2J8OegQIEhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Qs6gLegQIGBAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8QtKgLegQIFBAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Q0pQJegQIFhAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Qs6gLegQIFRAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZ5AZDNIFj-GkfdTiJW8rYw_1Hvv763ArAN3UqRO24FZn_qvrxxmxXp_BaPGopl35nMEB4eY5U9dYaG3mrGKnWrvoNPb7S71NiPG3FvrQorVjHfepSZTiiugRTFtv7o7j3EgQzBA&q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sa=X&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8QtKgLegQIFxAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The Best Places to Travel in 2026 AFAR https://www.afar.com › magazine › the-best-places-to-tr..." [ref=e144] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/the-best-places-to-travel-in-2026
+                - heading "The Best Places to Travel in 2026" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: AFAR
+                  - generic [ref=e154]: https://www.afar.com › magazine › the-best-places-to-tr...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Dec 4, 2025 —
+              - generic [ref=e163]:
+                - emphasis [ref=e164]: Where to Go in 2026
+                - text: ": Places That Are on the Rise and Off the Beaten Path · Adelaide, Australia · Albuquerque, New Mexico · Birmingham, Alabama."
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/the-best-places-to-travel-in-2026#:~:text=Where%20to%20Go%20in%202026%3A,and%20Off%20the%20Beaten%20Path&text=Adelaide%2C%20Australia&text=Albuquerque%2C%20New%20Mexico&text=Birmingham%2C%20Alabama
+            - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e168] [cursor=pointer]:
+              - /url: https://www.afar.com/magazine/the-best-places-to-travel-in-2026
+              - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e170]
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - 'link "Where to Go in 2026: Discover Albuquerque, Route 66 ... AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e179] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-albuquerque-route-66
+              - 'heading "Where to Go in 2026: Discover Albuquerque, Route 66 ..." [level=3] [ref=e180]'
+              - generic [ref=e185]:
+                - generic [ref=e187]: AFAR
+                - generic [ref=e189]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - emphasis [ref=e198]: Where to Go in 2026
+              - text: ": Route 66 Turns 100—and Albuquerque Is Ready to Celebrate. On this episode of Where to Go, Aislyn Greene speaks with Matt Kirouac about ..."
+            - link "Read more" [ref=e199] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-albuquerque-route-66#:~:text=Where%20to%20Go%20in%202026%3A,who%20want%20to%20stay%20longer.
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e202] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-albuquerque-route-66
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e204]
+        - generic [ref=e208]:
+          - generic [ref=e211]:
+            - 'link "Where to Go in 2026: Menton — The French Riviera''s Best‑ ... AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e213] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-menton-france-french-riviera
+              - 'heading "Where to Go in 2026: Menton — The French Riviera''s Best‑ ..." [level=3] [ref=e214]'
+              - generic [ref=e219]:
+                - generic [ref=e221]: AFAR
+                - generic [ref=e223]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e224] [cursor=pointer]:
+              - img [ref=e227]
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - emphasis [ref=e232]: Where to Go in 2026
+              - text: ": The French Riviera's Last Stop Before Italy—and Its Best-Kept Secret. On this episode of Where to Go, Aislyn Greene speaks about Menton ..."
+            - link "Read more" [ref=e233] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-menton-france-french-riviera#:~:text=Where%20to%20Go%20in%202026%3A,Aislyn%20Greene%20speaks%20about%20Menton
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - 'link "Where to Go in 2026: Food and Hotels in Da Nang, Vietnam AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e242] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-da-nang-vietnam
+              - 'heading "Where to Go in 2026: Food and Hotels in Da Nang, Vietnam" [level=3] [ref=e243]'
+              - generic [ref=e248]:
+                - generic [ref=e250]: AFAR
+                - generic [ref=e252]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - emphasis [ref=e261]: Where to Go in 2026
+              - text: ": The White Lotus Architect Designed a Hotel in This Vietnamese City—Now the World Is Noticing · Stay · Eat and Drink · See and Do."
+            - link "Read more" [ref=e262] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-da-nang-vietnam#:~:text=Where%20to%20Go%20in%202026%3A,City%E2%80%94Now%20the%20World%20Is%20Noticing&text=Transcript&text=Transcript&text=Transcript
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e265] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-da-nang-vietnam
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e267]
+        - generic [ref=e271]:
+          - generic [ref=e274]:
+            - 'link "Where to Go in 2026: The New 170-Mile Hiking Network ... AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e276] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-hiking-stockholms-archipelago
+              - 'heading "Where to Go in 2026: The New 170-Mile Hiking Network ..." [level=3] [ref=e277]'
+              - generic [ref=e282]:
+                - generic [ref=e284]: AFAR
+                - generic [ref=e286]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e287] [cursor=pointer]:
+              - img [ref=e290]
+          - generic [ref=e294]:
+            - text: On this
+            - emphasis [ref=e295]: Where to Go in 2026
+            - text: ", Katherine LaGrave talks about hiking the 170‑mile Stockholm Archipelago Trail — ferries, saunas, lodgings and island eats."
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e298] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-hiking-stockholms-archipelago
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e300]
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - 'link "Where to Go in 2026: Columbia River Gorge—Trails, Wine ... AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e309] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-columbia-river-gorge-pacific-northwest
+              - 'heading "Where to Go in 2026: Columbia River Gorge—Trails, Wine ..." [level=3] [ref=e310]'
+              - generic [ref=e315]:
+                - generic [ref=e317]: AFAR
+                - generic [ref=e319]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - emphasis [ref=e328]: Where to Go in 2026
+              - text: ": The Pacific Northwest's 80-Mile Playground Just Got Even Better."
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-columbia-river-gorge-pacific-northwest#:~:text=Where%20to%20Go%20in%202026%3A,Playground%20Just%20Got%20Even%20Better
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e332] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-columbia-river-gorge-pacific-northwest
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e334]
+        - generic [ref=e338]:
+          - generic [ref=e341]:
+            - 'link "Where to Go in 2026: Adelaide: Food, Wine, and Culture AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e343] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-adelaide-south-australia
+              - 'heading "Where to Go in 2026: Adelaide: Food, Wine, and Culture" [level=3] [ref=e344]'
+              - generic [ref=e349]:
+                - generic [ref=e351]: AFAR
+                - generic [ref=e353]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e354] [cursor=pointer]:
+              - img [ref=e357]
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - emphasis [ref=e362]: Where to Go in 2026
+              - text: ": The South Australian City That Punches Above Its Weight. On this episode of Unpacked: Where to Go, Aislyn Greene talks Adelaide. A city ..."
+            - link "Read more" [ref=e363] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-adelaide-south-australia#:~:text=Where%20to%20Go%20in%202026%3A,that%20punches%20above%20its%20weight.
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e366] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-adelaide-south-australia
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e368]
+        - generic [ref=e372]:
+          - generic [ref=e375]:
+            - 'link "Where to Go in 2026: A Guide to Penang, Malaysia AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e377] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-penang-malaysia
+              - 'heading "Where to Go in 2026: A Guide to Penang, Malaysia" [level=3] [ref=e378]'
+              - generic [ref=e383]:
+                - generic [ref=e385]: AFAR
+                - generic [ref=e387]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e388] [cursor=pointer]:
+              - img [ref=e391]
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - emphasis [ref=e396]: Where to Go in 2026
+              - text: ": Malaysia's Most Overlooked Island Is a Feast for Every Sense."
+            - link "Read more" [ref=e397] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-penang-malaysia#:~:text=Where%20to%20Go%20in%202026%3A,a%20Feast%20for%20Every%20Sense
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e400] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-penang-malaysia
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e402]
+        - generic [ref=e406]:
+          - generic [ref=e409]:
+            - 'link "Where to Go in 2026: Laikipia - AFAR Media AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e411] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-safari-in-laikipia-kenya
+              - 'heading "Where to Go in 2026: Laikipia - AFAR Media" [level=3] [ref=e412]'
+              - generic [ref=e417]:
+                - generic [ref=e419]: AFAR
+                - generic [ref=e421]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e422] [cursor=pointer]:
+              - img [ref=e425]
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - emphasis [ref=e430]: Where to Go in 2026
+              - text: ": Trade the Serengeti Traffic for This Under-the-Radar Kenyan Safari · Plan Your Laikipia Safari. (Listen to the View From Afar episode about ..."
+            - link "Read more" [ref=e431] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-safari-in-laikipia-kenya#:~:text=Where%20to%20Go%20in%202026%3A,for%20This%20Under%2Dthe%2DRadar%20Kenyan%20Safari&text=Transcript
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e434] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-safari-in-laikipia-kenya
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e436]
+        - generic [ref=e440]:
+          - generic [ref=e443]:
+            - 'link "Where to Go in 2026: Birmingham — The South''s Next ... AFAR https://www.afar.com › podcasts › unpacked › where-to..." [ref=e445] [cursor=pointer]':
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-birmingham-alabama
+              - 'heading "Where to Go in 2026: Birmingham — The South''s Next ..." [level=3] [ref=e446]'
+              - generic [ref=e451]:
+                - generic [ref=e453]: AFAR
+                - generic [ref=e455]: https://www.afar.com › podcasts › unpacked › where-to...
+            - button "About this result" [ref=e456] [cursor=pointer]:
+              - img [ref=e459]
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - emphasis [ref=e464]: Where to Go in 2026
+              - text: ": Three Hours From Nashville, the South's Next Great Food Capital Is Waiting."
+            - link "Read more" [ref=e465] [cursor=pointer]:
+              - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-birmingham-alabama#:~:text=Where%20to%20Go%20in%202026%3A,Great%20Food%20Capital%20Is%20Waiting
+          - link "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e468] [cursor=pointer]:
+            - /url: https://www.afar.com/podcasts/unpacked/where-to-go-2026-birmingham-alabama
+            - img "site:afar.com \"where to go in 2026\" OR \"best places 2026\" from www.afar.com" [ref=e470]
+      - navigation [ref=e473]:
+        - heading "Page Navigation" [level=1] [ref=e474]
+        - text: "1"
+        - link "Page 2" [ref=e477] [cursor=pointer]:
+          - /url: /search?q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sca_esv=461cceef532bce02&ei=57fvafOsJdjn5NoPupvzeQ&start=10&sa=N&sstk=Af77f_d2TcMnsFlJkh3AVpQw5-HSi0E29ZG3H62dwQpLuPzLOCch1fc-4cH0UmfY1SdFzmknzmj6-0JOWBbQb4goOBvqnLa4HqaSLA&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Q8tMDegQIMBAE
+          - text: "2"
+        - link "Page 3" [ref=e479] [cursor=pointer]:
+          - /url: /search?q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sca_esv=461cceef532bce02&ei=57fvafOsJdjn5NoPupvzeQ&start=20&sa=N&sstk=Af77f_d2TcMnsFlJkh3AVpQw5-HSi0E29ZG3H62dwQpLuPzLOCch1fc-4cH0UmfY1SdFzmknzmj6-0JOWBbQb4goOBvqnLa4HqaSLA&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Q8tMDegQIMBAG
+          - text: "3"
+        - heading "Next" [level=2] [ref=e481]:
+          - link "Next" [ref=e482] [cursor=pointer]:
+            - /url: /search?q=site:afar.com+%22where+to+go+in+2026%22+OR+%22best+places+2026%22&sca_esv=461cceef532bce02&ei=57fvafOsJdjn5NoPupvzeQ&start=10&sa=N&sstk=Af77f_d2TcMnsFlJkh3AVpQw5-HSi0E29ZG3H62dwQpLuPzLOCch1fc-4cH0UmfY1SdFzmknzmj6-0JOWBbQb4goOBvqnLa4HqaSLA&ved=2ahUKEwizvKf_4I6UAxXYM1kFHbrNPA8Q8NMDegQIMBAI
+            - generic [ref=e484]: Next
+      - navigation
+    - contentinfo [ref=e485]:
+      - heading "Footer Links" [level=1] [ref=e486]
+      - generic [ref=e490]:
+        - generic [ref=e494]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e496] [cursor=pointer]:
+            - generic [ref=e497]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e499]:
+              - text: "-"
+              - generic [ref=e500]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e502] [cursor=pointer]: Update location
+        - generic [ref=e505]:
+          - link "Help" [ref=e506] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e507] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e508] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e509] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

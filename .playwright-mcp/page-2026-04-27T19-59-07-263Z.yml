@@ -1,0 +1,541 @@
+- generic [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2024%252F07%252F18%252Ftravel%252Fthings-to-do-san-diego.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - img "A view of a beach on a sunny day where people are laying on the beach and frolicking in the water." [ref=e37]
+            - generic [ref=e39]:
+              - link "36 Hours" [ref=e42] [cursor=pointer]:
+                - /url: https://www.nytimes.com/column/36-hours
+              - generic [ref=e44]: San Diego
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: "Jump to:"
+              - link "Recommendations" [ref=e49] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e51] [cursor=pointer]:
+                - /url: "#itinerary"
+              - generic [ref=e52]:
+                - link "Google Map" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2spLDo6lILTVehTCuCCH_viw!3e3?entry=tts&g_ep=EgoyMDI0MDcxNC4wKgBIAVAD
+                - img [ref=e55]
+            - generic [ref=e59]:
+              - paragraph [ref=e60]:
+                - generic [ref=e61]:
+                  - text: By Freda Moon
+                  - text: Photographs by John Francis Peters
+              - paragraph [ref=e62]: Freda Moon, a frequent New York Times Travel contributor living in California, is a San Diego devotee and visits as often as she can.
+              - time [ref=e63]: July 18, 2024
+            - paragraph [ref=e64]:
+              - text: Dripping with flowers, adorned in murals and fronted by gorgeous beaches, San Diego is almost too pretty to be taken seriously. It excels at being underrated and overlooked. But that’s changing fast, as new hotels, restaurants and arts institutions, including the
+              - link "$85 million Rady Shell" [ref=e65] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2021/08/10/arts/music/san-diego-rady-shell.html
+              - text: ", the San Diego Symphony’s summer stage, add depth to a city already flush with eclectic, arty neighborhoods. Despite the changes, tradition holds strong in the “birthplace of California” (San Diego was the first permanent European settlement on the West Coast). The beloved"
+              - link "Balboa Theater" [ref=e66] [cursor=pointer]:
+                - /url: https://sandiegotheatres.org/
+              - text: ", a former vaudeville venue, turns"
+              - link "100 this year" [ref=e67] [cursor=pointer]:
+                - /url: https://sandiegotheatres.org/balboatheatre100
+              - text: ", and Balboa Park’s"
+              - link "Spreckels Organ" [ref=e68] [cursor=pointer]:
+                - /url: https://balboapark.org/arts-culture/spreckels-organ-pavilion-balboa-park/
+              - text: — over a century old and the world’s largest outdoor pipe organ — continues to draw crowds for free public concerts (every Sunday at 2 p.m.).
+          - generic [ref=e69]: Advertisement
+          - heading "Recommendations" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - button "Key stops –" [ref=e73] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e74]: –
+              - list [ref=e75]:
+                - listitem [ref=e76]:
+                  - text: Spend an afternoon in
+                  - strong [ref=e77]: Barrio Logan
+                  - text: ", a historic Mexican American neighborhood, for rolled tacos with a cult following at"
+                  - strong [ref=e78]:
+                    - link "Las Cuatro Milpas" [ref=e79] [cursor=pointer]:
+                      - /url: http://www.las-cuatro-milpas.com/
+                  - text: ", a remarkable collection of murals at"
+                  - strong [ref=e80]:
+                    - link "Chicano Park" [ref=e81] [cursor=pointer]:
+                      - /url: https://chicanoparkmuseum.org/
+                  - text: ", an innovative art gallery at"
+                  - strong [ref=e82]:
+                    - link "Bread & Salt" [ref=e83] [cursor=pointer]:
+                      - /url: https://www.breadandsaltsandiego.com/
+                  - text: and micheladas at
+                  - strong [ref=e84]:
+                    - link "Mujeres Brew House" [ref=e85] [cursor=pointer]:
+                      - /url: https://www.facebook.com/mujeresbrewhouse
+                  - text: .
+                - listitem [ref=e86]:
+                  - text: Take the ferry to
+                  - strong [ref=e87]: Coronado
+                  - text: ", an island city in San Diego Bay, to ride bike paths to"
+                  - strong [ref=e88]:
+                    - link "Coronado Beach" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.coronado.ca.us/244/Coronado-Beach
+                  - text: and the Hotel del Coronado, a Victorian-era hotel with a star-studded history.
+                - listitem [ref=e90]:
+                  - strong [ref=e91]:
+                    - link "Mike’s Taco Club" [ref=e92] [cursor=pointer]:
+                      - /url: https://www.mikestacoclub.com/
+                  - text: features an excellent rendition of one of San Diego’s most beloved and distinctive dishes, the French-fry-and-carne-asada-filled California burrito.
+                - listitem [ref=e93]:
+                  - strong [ref=e94]:
+                    - link "The Rady Shell" [ref=e95] [cursor=pointer]:
+                      - /url: https://www.theshell.org/
+                  - text: is an ambitious new waterfront concert hall.
+            - generic [ref=e96]:
+              - button "Attractions and outdoor activities +" [ref=e97] [cursor=pointer]:
+                - text: Attractions and outdoor activities
+                - generic [ref=e98]: +
+              - list:
+                - listitem [ref=e99]:
+                  - text: The
+                  - strong [ref=e100]:
+                    - link "Maritime Museum" [ref=e101] [cursor=pointer]:
+                      - /url: https://sdmaritime.org/
+                  - text: and the
+                  - strong [ref=e102]:
+                    - link "USS Midway Museum" [ref=e103] [cursor=pointer]:
+                      - /url: http://midway.org
+                  - text: ", along the waterfront Embarcadero, are a testament to the harbor’s seafaring history and significance."
+                - listitem [ref=e104]:
+                  - text: Visit the
+                  - strong [ref=e105]:
+                    - link "Ocean Beach Tide Pools" [ref=e106] [cursor=pointer]:
+                      - /url: https://oceanbeachsandiego.com/attractions/ocean-beach-pier
+                  - text: at low tide for an up-close encounter with the Pacific Ocean’s ecological bounty, including sea anemones and crabs.
+                - listitem [ref=e107]:
+                  - text: At
+                  - strong [ref=e108]:
+                    - link "Oakoasis County Preserve" [ref=e109] [cursor=pointer]:
+                      - /url: https://www.sdparks.org/content/sdparks/en/park-pages/Oakoasis.html
+                  - text: ", a 2.5-mile hike offers a mix of shade and vistas, chaparral and live oaks."
+                - listitem [ref=e110]:
+                  - strong [ref=e111]:
+                    - link "Leucadia State Beach" [ref=e112] [cursor=pointer]:
+                      - /url: https://www.parks.ca.gov/?page_id=661
+                  - text: is an out-of-the-way stretch of gray sand and smooth stones, affectionately known by locals as Beacon’s.
+            - generic [ref=e113]:
+              - button "Restaurants, bars and nightlife +" [ref=e114] [cursor=pointer]:
+                - text: Restaurants, bars and nightlife
+                - generic [ref=e115]: +
+              - list:
+                - listitem [ref=e116]:
+                  - strong [ref=e117]:
+                    - link "Ironside Fish & Oyster Bar" [ref=e118] [cursor=pointer]:
+                      - /url: https://ironsidefishandoyster.com/
+                  - text: has one of the city’s best happy hours, with $1 oysters and an assortment of other seafood-centric snacks and drinks.
+                - listitem [ref=e119]:
+                  - strong [ref=e120]:
+                    - link "Bobboi Natural Gelato" [ref=e121] [cursor=pointer]:
+                      - /url: https://www.bobboi.com/
+                  - text: serves seasonally changing flavors of gelato in a gorgeous Little Italy shop.
+                - listitem [ref=e122]:
+                  - strong [ref=e123]:
+                    - link "Secret Sister" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.secretsistersouthpark.com/
+                  - text: is a tea shop and sourdough bakery ideal for a quick bite near Balboa Park.
+                - listitem [ref=e125]:
+                  - strong [ref=e126]:
+                    - link "Callie" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.calliesd.com/
+                  - text: is a special-occasion restaurant where Californian ingredients shine in Mediterranean and Middle Eastern dishes.
+                - listitem [ref=e128]:
+                  - strong [ref=e129]:
+                    - link "Mabel’s Gone Fishing" [ref=e130] [cursor=pointer]:
+                      - /url: https://www.mabelsgonefishing.com/
+                  - text: serves Spanish-inspired food and gin-based cocktails in a stylish North Park space.
+                - listitem [ref=e131]:
+                  - strong [ref=e132]:
+                    - link "Atelier Manna" [ref=e133] [cursor=pointer]:
+                      - /url: https://www.atelier-manna.com/visit-us
+                  - text: is quintessentially Southern California, offering patio-only dining with big, fresh flavors and sophisticated nonalcoholic drinks.
+                - listitem [ref=e134]:
+                  - strong [ref=e135]:
+                    - link "Cocina 35 Brunch" [ref=e136] [cursor=pointer]:
+                      - /url: https://cocina35.com/menu-liberty-station/
+                  - text: makes Mexican breakfast staples, including five kinds of hangover-soothing chilaquiles.
+                - listitem [ref=e137]:
+                  - strong [ref=e138]:
+                    - link "Bar Kamon" [ref=e139] [cursor=pointer]:
+                      - /url: https://barkamon.com/
+                  - text: serves immaculate, Japanese-inspired cocktails in a tranquil, low-lit space.
+                - listitem [ref=e140]:
+                  - strong [ref=e141]:
+                    - link "The Gutter" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.opentable.com/r/the-gutter-san-diego?corrid=e14e25ef-f0f3-43b3-9731-32e20a6d7bb8&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=1&sd=2024-01-11T19%3A00%3A00
+                  - text: offers late-night bowling in the wildly stylish Lafayette Hotel.
+                - listitem [ref=e143]:
+                  - strong [ref=e144]:
+                    - link "Part Time Lover" [ref=e145] [cursor=pointer]:
+                      - /url: https://www.parttimeloverhifi.com/
+                  - text: is a hi-fi listening room, record shop and cocktail bar with spectacular sound and design.
+            - generic [ref=e146]:
+              - button "Galleries and shopping +" [ref=e147] [cursor=pointer]:
+                - text: Galleries and shopping
+                - generic [ref=e148]: +
+              - list:
+                - listitem [ref=e149]:
+                  - strong [ref=e150]:
+                    - link "Bad Madge & Co." [ref=e151] [cursor=pointer]:
+                      - /url: https://www.badmadge.com/
+                  - text: sells quirky and colorful secondhand clothing and housewares that evoke a sunny, retro Southern California aesthetic.
+                - listitem [ref=e152]:
+                  - strong [ref=e153]:
+                    - link "Verbatim Books" [ref=e154] [cursor=pointer]:
+                      - /url: https://verbatimbooks.com/
+                  - text: is a warehouse-size temple to used books.
+                - listitem [ref=e155]:
+                  - strong [ref=e156]:
+                    - link "Pigment" [ref=e157] [cursor=pointer]:
+                      - /url: https://www.shoppigment.com/
+                  - text: is a charmingly eclectic gift shop arranged like a Pantone color chart.
+            - generic [ref=e158]:
+              - button "Where to stay +" [ref=e159] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e160]: +
+              - list:
+                - listitem [ref=e161]:
+                  - text: The 1926
+                  - strong [ref=e162]:
+                    - link "La Valencia Hotel" [ref=e163] [cursor=pointer]:
+                      - /url: https://www.lavalencia.com/
+                  - text: is a pink-hued, Spanish-tiled San Diego historic landmark terraced into the hills of the seaside enclave of La Jolla, a worthy beachfront alternative to Hotel del Coronado during its renovation. Rooms start at around $550.
+                - listitem [ref=e164]:
+                  - text: With its gorgeous swimming pool, over-the-top lobby and multiple restaurants, bars and nightlife spots (including a bowling alley and live-music venue), the
+                  - strong [ref=e165]:
+                    - link "Lafayette Hotel" [ref=e166] [cursor=pointer]:
+                      - /url: https://lafayettehotelsd.com/#Dining
+                  - text: is much more than a place to sleep. Rooms start at $228.
+                - listitem [ref=e167]:
+                  - strong [ref=e168]:
+                    - link "Humphreys Half Moon Inn" [ref=e169] [cursor=pointer]:
+                      - /url: https://www.halfmooninn.com/
+                  - text: ", on Shelter Island, a man-made peninsula, is a family-friendly resort with a large pool, lawns and a retro vibe that evokes midcentury Hawaii."
+                  - link "Humphreys Concerts by the Bay" [ref=e170] [cursor=pointer]:
+                    - /url: https://humphreysconcerts.com/schedule.cfm#nextshow
+                  - text: ", a 1,400-seat outdoor waterfront stage belonging to the hotel, attracts touring acts from April through October. Rooms start at around $200."
+            - generic [ref=e171]:
+              - button "Getting around +" [ref=e172] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e173]: +
+              - list [ref=e174]:
+                - listitem [ref=e175]:
+                  - text: Thanks to its relatively small urban core — much of it walkable — San Diego is the rare city in the Western United States that is possible to enjoy without a car. A utilitarian network of
+                  - strong [ref=e176]:
+                    - link "public trolleys" [ref=e177] [cursor=pointer]:
+                      - /url: https://www.sdmts.com/
+                  - link "and" [ref=e178] [cursor=pointer]:
+                    - /url: https://www.sdmts.com/
+                  - strong [ref=e179]:
+                    - link "buses" [ref=e180] [cursor=pointer]:
+                      - /url: https://www.sdmts.com/
+                  - text: ", along with private"
+                  - strong [ref=e181]:
+                    - link "ferries" [ref=e182] [cursor=pointer]:
+                      - /url: https://coronadoferrylanding.com/ferry-info/
+                  - text: ","
+                  - strong [ref=e183]: pedicabs
+                  - text: and
+                  - strong [ref=e184]: ride-hailing
+                  - text: services reaches beyond downtown.
+          - heading "Itinerary" [level=2] [ref=e185]
+          - generic [ref=e186]:
+            - heading "Friday" [level=2] [ref=e187]
+            - generic [ref=e188]:
+              - generic [ref=e189]: 4:30 p.m. Snack and sip during happy hour
+              - paragraph [ref=e191]:
+                - text: Start at one of the city’s best happy hours (3 p.m. to 5 p.m., weekdays) at
+                - link "Ironside Fish & Oyster Bar" [ref=e192] [cursor=pointer]:
+                  - /url: https://ironsidefishandoyster.com/
+                - text: . This
+                - link "Little Italy" [ref=e193] [cursor=pointer]:
+                  - /url: https://www.littleitalysd.com/
+                - text: mainstay, with a giant papier-mâché octopus above the dining room, hasn’t raised prices for its beautiful, fresh oysters ($1 each) since it opened in 2014. There are other snacks, including a fried shrimp taco with spicy aioli ($6), and a seasonal selection of $8 cocktails. Don’t leave Little Italy without a scoop (starting at $5.85 for a two-flavor cup) at
+                - link "Bobboi Natural Gelato" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.bobboi.com/
+                - text: ", whose Sardinian chef, Monica Maccioni, studied at Bologna’s Università del Gelato. Exotic flavors are ever-changing, but one of the more traditional options, the pistacchio della California — made with organic nuts from Santa Barbara — is both rich and refreshingly herbaceous."
+            - generic [ref=e196]:
+              - img "A plate of a dozen raw, shucked oysters on ice, with two sauces and lemon wedges." [ref=e198]
+              - paragraph [ref=e201]: Ironside Fish & Oyster Bar
+            - generic [ref=e202]:
+              - generic [ref=e203]: 5:30 p.m. Bring your blanket for a waterfront show
+              - paragraph [ref=e205]:
+                - text: Walk the waterfront en route to the
+                - link "Rady Shell," [ref=e206] [cursor=pointer]:
+                  - /url: https://www.theshell.org/
+                - text: a gleaming white, hornlike concert venue that opened in 2021. Along the two-mile stroll, admire the
+                - link "Maritime Museum" [ref=e207] [cursor=pointer]:
+                  - /url: https://sdmaritime.org/
+                - text: ’s
+                - link "Star of India" [ref=e208] [cursor=pointer]:
+                  - /url: https://sdmaritime.org/visit/the-ships/star-of-india/
+                - text: — the world’s oldest active sailing ship, built in 1863, and the massive
+                - link "USS Midway Museum" [ref=e209] [cursor=pointer]:
+                  - /url: http://midway.org
+                - text: ", housed in the longest-serving U.S. aircraft carrier of the 20th century. Alternatively, hop on a pedicab for a wind-in-your-hair ride ($10 to $50, by distance). The Rady Shell, an $85 million acoustic dream in a peninsular park on San Diego Bay, hosts the"
+                - link "San Diego Symphony" [ref=e210] [cursor=pointer]:
+                  - /url: https://www.sandiegosymphony.org/
+                - text: as well as mainstream pop acts. Opt for either a table up front or, for a more affordable option, a bring-your-own-blanket or lawn chair spot on the lawn (tickets start at $30).
+            - generic [ref=e211]:
+              - generic [ref=e212]: 9 p.m. Splurge, then sneak away to 1920s Japan
+              - paragraph [ref=e214]:
+                - text: Make reservations for a late, postshow dinner at
+                - link "Callie" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.calliesd.com/
+                - text: ", a splurge-worthy restaurant in the East Village, a 20-minute walk away, that celebrates Southern California ingredients with a Mediterranean-meets-Middle Eastern menu. Opened in 2021, Callie is a homecoming for the chef Travis Swikard, who spent a decade in the kitchens of"
+                - link "Daniel Boulud’s" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.danielboulud.com/photos/restaurants
+                - text: famed New York City restaurants. Try the kanpachi (greater amberjack) served on a vibrant green splash of
+                - link "zhoug" [ref=e217] [cursor=pointer]:
+                  - /url: https://www.seriouseats.com/schug-zhug-srug-yemenite-israeli-hot-sauce-recipe
+                - text: "-like hot sauce and dusted with black lime and avocado ($29) or the local uni (sea urchin) on toast with Spanish Iberico ham ($29). After dinner, head around the corner to"
+                - link "Bar Kamon" [ref=e218] [cursor=pointer]:
+                  - /url: https://barkamon.com/
+                - text: . Hidden behind an unmarked door inside a Japanese bakery, this cocktail bar evokes 1920s Japan with dim lighting, rice-papered walls and whiskey-centric drinks.
+            - generic [ref=e220]:
+              - img "People sit at wooden stools at a long, gray, polished bar. Small lamps along the bar emit a warm glow. A bartender wearing a red apron pours a drink." [ref=e222]
+              - paragraph [ref=e225]: Callie
+          - generic [ref=e226]:
+            - img "A view of a domed building, as seen across a man-made pond and colorful flowers in the foreground." [ref=e228]
+            - paragraph [ref=e231]: The Botanical Building, currently closed for renovation, in 1,200-acre Balboa Park, which is bigger than Central Park in New York and Millennium Park in Chicago combined.
+          - generic [ref=e232]: Advertisement
+          - generic [ref=e233]:
+            - heading "Saturday" [level=2] [ref=e234]
+            - generic [ref=e235]:
+              - generic [ref=e236]: 8 a.m. Rise, shine and dine on chilaquiles
+              - paragraph [ref=e238]:
+                - text: Get to
+                - link "Cocina 35 Brunch" [ref=e239] [cursor=pointer]:
+                  - /url: https://cocina35.com/menu-liberty-station/
+                - text: early to beat the crush of boisterous multigenerational families celebrating milestone birthdays at the first full-service restaurant from this long-running local Mexican cafeteria chain. Cocina 35 has a following for its five varieties of chilaquiles (starting at $21), crispy fried tortillas in a red or green chile sauce with assorted toppings. Or skip brunch and head to Ocean Beach, for a
+                - link "California burrito" [ref=e240] [cursor=pointer]:
+                  - /url: https://slate.com/human-interest/2024/03/california-burrito-san-diego-chipotle-mexican.html
+                - text: ", one of San Diego’s quintessential dishes (carne asada, French fries, guacamole and more, $15), to go from"
+                - link "Mike’s Taco Club" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.mikestacoclub.com/
+                - text: ", a counter-service spot with bottle caps tiling the walls. Eat at the beach while watching the surfers and seagulls before walking south of the neighborhood’s famous pier to explore"
+                - link "tide pools" [ref=e242] [cursor=pointer]:
+                  - /url: https://oceanbeachsandiego.com/attractions/ocean-beach-pier
+                - text: full of sea anemones, crabs and more (best at low tide).
+            - generic [ref=e244]:
+              - img "A restaurant worker wearing a beige apron walks between tables of diners inside a colorful restaurant with a skylight. A tree with pink blossoms appears to be growing inside the restaurant." [ref=e246]
+              - paragraph [ref=e249]: Cocina 35 Brunch
+            - generic [ref=e250]:
+              - generic [ref=e251]: 9:30 a.m. Cruise around an island
+              - paragraph [ref=e253]:
+                - text: Take the
+                - link "Flagship Ferry" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.flagshipsd.com/cruises/flagship-ferry
+                - text: to Coronado, a beachy island city in San Diego Bay, for a quick cruise along the waterfront ($8). Rent some wheels at
+                - link "Holland’s Bikes & Beyond" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.hollandsbicycles.com/about/bike-rentals-pg1295.htm
+                - text: to ride the island’s six miles of bike paths through charming neighborhoods of bungalows and Craftsman homes to the powdery white sand of
+                - link "Coronado Beach" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.coronado.ca.us/244/Coronado-Beach
+                - text: . From there, travel along the boardwalk for a glimpse of the 1888 Victorian
+                - link "Hotel del Coronado" [ref=e257] [cursor=pointer]:
+                  - /url: https://hoteldel.com/
+                - text: ", or “the Del,” which is undergoing a"
+                - link "multiyear, $160 million" [ref=e258] [cursor=pointer]:
+                  - /url: https://hoteldel.com/press/hotel-del-coronado-announces-more-than-160-million-restoration-and-revitalization-of-historic-victorian-building/
+                - text: renovation set to be completed next spring. A nonguest can buy
+                - link "a day pass" [ref=e259] [cursor=pointer]:
+                  - /url: https://www.resortpass.com/hotels/Hotel-del-Coronado
+                - text: to visit the hotel’s beachside, Olympic-size Cabana Pool, which is heated year-round (starting at $75 per adult, $35 per child).
+            - generic [ref=e260]:
+              - generic [ref=e261]: 2 p.m. Hit the barrio
+              - paragraph [ref=e263]:
+                - text: In Barrio Logan, a historic Mexican American neighborhood, Chicano culture is celebrated at every turn, in bilingual bookstores, galleries, street-art supply stores, record shops and new-school taquerias. First, stand in line at
+                - link "Las Cuatro Milpas" [ref=e264] [cursor=pointer]:
+                  - /url: http://www.las-cuatro-milpas.com/
+                - text: ", an institution since 1933, which serves homestyle food from another era. While the counter-service restaurant is known for its rolled tacos, it’s the chorizo con huevos ($5)"
+                - emphasis [ref=e265]: ","
+                - text: a soupy mix of spiced sausage, egg and beans beneath a sheen of chile oil, and the burrito-size tortillas, rich in lard and a delicate crust of flour, that you’re unlikely to have elsewhere. Then, cross Cesar Chavez Parkway to
+                - link "Chicano Park" [ref=e266] [cursor=pointer]:
+                  - /url: https://chicanoparkmuseum.org/
+                - text: . Established in 1970, after a 12-day occupation of the site at the height of California’s Chicano civil rights movement, this
+                - link "national historic landmark" [ref=e267] [cursor=pointer]:
+                  - /url: https://savingplaces.org/stories/explore-the-murals-of-san-diegos-chicano-park
+                - text: features more than
+                - link "100 outdoor murals" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/2022/04/19/us/chicano-park-anniversary.html
+                - text: — the country’s largest collection — depicting cultural figures central to the neighborhood’s story.
+            - generic [ref=e270]:
+              - img "A pillar that appears to be supporting a bridge is covered in a colorful mural depicting the heads of three bearded people wearing berets with stars on them." [ref=e272]
+              - paragraph [ref=e275]: Chicano Park
+            - generic [ref=e276]:
+              - generic [ref=e277]: 3:30 p.m. Hang out in the Heights
+              - paragraph [ref=e279]:
+                - text: Walk uphill on Cesar Chavez to Logan Heights’
+                - link "Bread & Salt" [ref=e280] [cursor=pointer]:
+                  - /url: https://www.breadandsaltsandiego.com/
+                - text: (closes at 4 p.m.), a former bread factory converted into a 45,000-square-foot community art center, with galleries, studios, a cafe and sculpture garden. Unlike a meticulously curated museum, this lived-in, experimental space is somewhere to wander and be surprised. Afterward, go next door to
+                - link "Mujeres Brew House" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.facebook.com/mujeresbrewhouse
+                - text: ", a rare woman-owned brewery in a city lousy with great beer. Serving micheladas (a beer cocktail, typically with some combination of Clamato or tomato juice, Worcestershire, hot sauce and lime) and a lineup of refreshing cervezas that taste made for the brewery’s brightly hued, picnic-table-and-plant-filled patio, which often features a taco cart and live music."
+            - generic [ref=e282]:
+              - generic [ref=e283]: 5 p.m. Fill your suitcase
+              - paragraph [ref=e285]:
+                - text: For Southern California-style souvenirs, head to South Park’s extraordinarily exuberant
+                - link "Bad Madge & Co." [ref=e286] [cursor=pointer]:
+                  - /url: https://www.badmadge.com/
+                - text: ", a vintage shop that leans heavily into a 1960s- and ’70s-era riot of color in its clothing offerings and a midcentury housewares aesthetic that includes an impressive collection of ceramic tiki glasses. Opened in 2015, North Park’s"
+                - link "Verbatim Books" [ref=e287] [cursor=pointer]:
+                  - /url: https://verbatimbooks.com/
+                - text: is a warehouse-size used-book store that’s grown into a local institution. It’s a mural-adorned cathedral to literature, with soaring ceilings and quirky corners that feel like altars (one to Stephen King, another to vintage Hardy Boys and Nancy Drew). On the next block,
+                - link "Pigment" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.shoppigment.com/
+                - text: is a color-themed gift and décor shop with a D.I.Y. succulent arrangement station that evokes year-round sunshine.
+            - generic [ref=e290]:
+              - img "The inside of a store with a sign on the wall that reads \"Vintage.\" A mannequin reclines with its legs crossed on a chair. The space is filled with furniture, potted plants and lamps." [ref=e292]
+              - paragraph [ref=e295]: Bad Madge & Co.
+            - generic [ref=e296]:
+              - generic [ref=e297]: 8 p.m. Spend time in Spain
+              - paragraph [ref=e299]:
+                - link "Mabel’s Gone Fishing" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.mabelsgonefishing.com/
+                - text: has the unfussiness of a neighborhood restaurant, but with a citywide following that demands reservations. With its long, perpetually packed bar, where gin and tonics ($16) and tapas (from $9) are king, this sultry Spanish-style restaurant is date night incarnate. Sit at the chef’s counter if you want to sweat while watching onions char and fish sizzle in glistening oil in the restaurant’s frenetic open kitchen. The menu changes based on the availability of local seafood and seasonal produce, but the Basque cheesecake ($16) is a reliable end-of-meal hit.
+            - generic [ref=e301]:
+              - generic [ref=e302]: 10 p.m. Bowl at the bar
+              - paragraph [ref=e304]:
+                - text: Across the 30th Street,
+                - link "Part Time Lover" [ref=e305] [cursor=pointer]:
+                  - /url: https://www.parttimeloverhifi.com/
+                - text: is a surprise. Behind a facade that only nods at what’s inside, this beautiful, low-lit listening room and bar has a rich wood interior with Art Deco and Craftsman detailing. The in-house record store, at the back of the bar, supplies the eclectic mix of music for the hi-fi system. Then, end the evening with a game at the retro fabulous
+                - link "Lafayette Hotel" [ref=e306] [cursor=pointer]:
+                  - /url: https://lafayettehotelsd.com/#Dining
+                - text: ", where"
+                - link "the Gutter" [ref=e307] [cursor=pointer]:
+                  - /url: https://www.opentable.com/r/the-gutter-san-diego?corrid=e14e25ef-f0f3-43b3-9731-32e20a6d7bb8&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=1&sd=2024-01-11T19%3A00%3A00
+                - text: offers a two-lane bowling alley ($50 per group, up to six people), along with shuffleboard, pool table and cocktails.
+            - generic [ref=e309]:
+              - img "A person rolls a red-and-white ball down a lane inside a bowling alley. The space features dark wood and warm lighting." [ref=e311]
+              - paragraph [ref=e314]: The Gutter
+          - generic [ref=e315]: Advertisement
+          - generic [ref=e316]:
+            - heading "Sunday" [level=2] [ref=e317]
+            - generic [ref=e318]:
+              - generic [ref=e319]: 8 a.m. Grab breakfast to go, then hike through oak and chaparral
+              - paragraph [ref=e321]:
+                - text: Pick up a breakfast sandwich — a cheddar-and-garlic-chive gougère (a savory French pastry) with a fried egg and arugula ($11) — and coffee to go from South Park’s
+                - link "Secret Sister" [ref=e322] [cursor=pointer]:
+                  - /url: https://www.secretsistersouthpark.com/
+                - text: ", so you can hit the trails early. Add a sourdough doughnut, with seasonally changing flavors (local passion fruit is a favorite, $5), for a midhike pick-me-up. Then, drive to"
+                - link "Oakoasis County Preserve" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.sdparks.org/content/sdparks/en/park-pages/Oakoasis.html
+                - text: ", about a half-hour from downtown’s skyscrapers. The preserve’s partly shaded 2.5-mile loop has just enough elevation change to offer a modest workout, along with an ever-changing landscape of wildflowers, oak trees and a meandering creek. About halfway, there’s a detour to a large boulder where you can sit above the chaparral and look out over"
+                - link "San Vicente Reservoir" [ref=e324] [cursor=pointer]:
+                  - /url: https://www.sandiego.gov/reservoirs-lakes/san-vicente-reservoir
+                - text: .
+            - generic [ref=e326]:
+              - img "A close-up of sandwich filled with meat, arugula and egg." [ref=e328]
+              - paragraph [ref=e331]: Secret Sister
+            - generic [ref=e332]:
+              - generic [ref=e333]: 11 a.m. Eat quintessential California
+              - paragraph [ref=e335]:
+                - text: For lunch, drive to the coast for a revitalizing, booze-free brunch at
+                - link "Atelier Manna" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.atelier-manna.com/visit-us
+                - text: in Leucadia. The modest-size outdoor dining room serves an eclectic mix of dishes with big, fresh flavors, including a gorgeous halibut ceviche topped with a tangle of herbs and chile ($23), and a thick slice of miche bread topped with boquerones (fresh anchovies) and a ramp dressing ($18). In place of mimosas and Bloody Marys, the restaurant serves sophisticated mocktails it calls “vitality tonics” (from $8). Then, walk up the hill to
+                - link "Leucadia State Beach" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.parks.ca.gov/?page_id=661
+                - text: ", where you can climb down the cliff-clinging staircase to stroll a shoreline of colorful pebbles while pelicans soar overhead."
+            - generic [ref=e338]:
+              - generic [ref=e339]: 12:30 p.m. Go green
+              - paragraph [ref=e341]:
+                - text: One of the world’s great urban greenspaces, 1,200-acre
+                - link "Balboa Park" [ref=e342] [cursor=pointer]:
+                  - /url: https://balboapark.org/
+                - text: is bigger than Central Park in New York and Millennium Park in Chicago combined. Best known for the exceptional
+                - link "San Diego Zoo" [ref=e343] [cursor=pointer]:
+                  - /url: https://zoo.sandiegozoo.org/
+                - text: ", the park has 18 museums and dozens of other attractions. The"
+                - link "Mingei International Museum" [ref=e344] [cursor=pointer]:
+                  - /url: https://mingei.org/
+                - text: (entry $15, under 18 free) reopened in 2021 after a three-year, $55 million renovation. The museum celebrates global folk art and crafts, with exhibits highlighting practices like tea services, beadwork and quilting. The museum also has a piece by
+                - link "Niki de Saint Phalle" [ref=e345] [cursor=pointer]:
+                  - /url: https://nikidesaintphalle.org/
+                - text: ", the French artist who spent her final years in Southern California and created the kaleidoscopic, open-air mosaic installation “"
+                - link "Queen Califia’s Magical Circle" [ref=e346] [cursor=pointer]:
+                  - /url: https://visitescondido.com/queen-califias-magical-circle-escondido/
+                - text: ” in Escondido, a city a half-hour north of San Diego (it’s worth a private tour on your drive out of town;
+                - link "schedule in advance" [ref=e347] [cursor=pointer]:
+                  - /url: https://www.escondido.org/Facilities/Facility/Details/Niki-de-Saint-Phalles-Queen-Califias-Mag-19
+                - text: ).
+            - generic [ref=e349]:
+              - img "A tree with thick, above-ground roots in a park during the daytime." [ref=e351]
+              - paragraph [ref=e354]: Balboa Park
+        - generic [ref=e358]:
+          - strong [ref=e359]: "Correction:"
+          - text: July 22, 2024
+          - paragraph [ref=e360]: An earlier version of this article misstated the price for a game at the Gutter, a bowling alley. It is $50 per group of up to six people, not $50 per person.
+    - generic [ref=e364]:
+      - iframe [active] [ref=e369]:
+        - generic [ref=f29e6]:
+          - generic [ref=f29e8]:
+            - heading "Create a free account, or log in." [level=2] [ref=f29e9]
+            - heading "Gain access to limited free articles, news alerts, select newsletters, podcasts and some daily games." [level=2] [ref=f29e10]
+          - group [ref=f29e12]:
+            - generic [ref=f29e13]: Email address
+            - textbox "Email address" [active] [ref=f29e16]:
+              - /placeholder: ""
+          - textbox [ref=f29e17]
+          - button "Continue" [ref=f29e19] [cursor=pointer]
+          - generic [ref=f29e21]: or
+          - paragraph [ref=f29e23]:
+            - text: By continuing, you agree to the
+            - link "Terms of Sale" [ref=f29e24] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: ","
+            - link "Terms of Service" [ref=f29e25] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+            - text: ", and"
+            - link "Privacy Policy" [ref=f29e26] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/privacy-policy
+            - text: .
+          - generic [ref=f29e27]:
+            - button "Continue with Google" [ref=f29e29] [cursor=pointer]:
+              - generic:
+                - img
+              - generic: Continue with Google
+            - button "Continue with Apple" [ref=f29e31] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+              - generic: Continue with Apple
+            - link "Continue with work or school single sign-on >" [ref=f29e32] [cursor=pointer]:
+              - /url: ""
+      - generic [ref=e370]:
+        - paragraph [ref=e371]: Enjoy unlimited access to all of The Times.
+        - paragraph [ref=e372]:
+          - link [ref=e373] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+            - text: See subscription options

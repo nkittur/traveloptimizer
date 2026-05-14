@@ -1,0 +1,545 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - figure "scoop-picture" [ref=e38]
+          - generic [ref=e42]:
+            - link "36 Hours" [ref=e45] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e47]: Montreal
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: "Jump to:"
+            - link "Recommendations" [ref=e52] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e54] [cursor=pointer]:
+              - /url: "#itinerary"
+            - link "Google Map" [ref=e56] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/86jYNEZx7ekKXLnGA
+            - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e59]:
+              - list [ref=e61]:
+                - listitem [ref=e62]:
+                  - button "Share full article" [ref=e65] [cursor=pointer]:
+                    - generic [ref=e66]:
+                      - img [ref=e67]
+                      - text: Share full article
+                - listitem [ref=e69]:
+                  - button "More sharing options ..." [ref=e72] [cursor=pointer]:
+                    - img [ref=e73]
+                - listitem [ref=e75]:
+                  - switch "Save article for reading later..." [ref=e76] [cursor=pointer]:
+                    - img [ref=e77]
+                - listitem [ref=e81]:
+                  - button "Read 481 comments" [ref=e82] [cursor=pointer]:
+                    - generic [ref=e83]:
+                      - img [ref=e84]
+                      - text: "481"
+          - generic [ref=e86]:
+            - generic [ref=e87]: By Danial Adkison
+            - generic [ref=e88]: Photographs by Clara Lacasse
+            - generic [ref=e89]: Oct. 12, 2023
+            - generic [ref=e90]: Danial Adkison, an editor for New York Times Travel, has visited Montreal nearly a dozen times since 2004.
+          - paragraph [ref=e91]: "“Bonjour hi,” the ubiquitous greeting servers and shopkeepers use to figure out whether you prefer French or English, encapsulates so much about Montreal, which like its province, Quebec, retains a strong French Canadian identity. In this 381-year-old city of 1.78 million, which Mark Twain once described as a place “where you couldn’t throw a brick without breaking a church window,” one of Canada’s most vibrant L.G.B.T.Q. scenes thrives, and communities formed by Jewish, African, Asian, Italian, Portuguese and Haitian immigrants all offer something special to see (and taste). The city is on an upswing: Modern apartment buildings, cafes and bike paths are popping up in formerly industrial Griffintown, while the Plateau and Mile End areas offer art and music worthy of the place that nurtured Arcade Fire and Leonard Cohen. There is too much for just 36 hours, but if you bring some good walking shoes, you’ll find terrific meals, stunning views atop Mont-Royal and a creative spirit that comes across in any language."
+        - generic [ref=e92]: Advertisement
+        - generic [ref=e93]:
+          - heading "Recommendations" [level=2] [ref=e94]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e98]: –
+              - list [ref=e99]:
+                - listitem [ref=e100]:
+                  - strong [ref=e101]:
+                    - link "Candide" [ref=e102] [cursor=pointer]:
+                      - /url: https://www.restaurantcandide.com/
+                  - text: is a restaurant focused on Quebecois ingredients and built in the rectory of a former church in the Petite-Bourgogne neighborhood.
+                - listitem [ref=e103]:
+                  - strong [ref=e104]:
+                    - link "Kondiaronk Belvedere" [ref=e105] [cursor=pointer]:
+                      - /url: https://montreal.ca/en/places/kondiaronk-lookout
+                  - text: ", a mountaintop lookout at Parc du Mont-Royal, offers panoramic views of Montreal and the St. Lawrence River."
+                - listitem [ref=e106]:
+                  - strong [ref=e107]:
+                    - link "Bota Bota" [ref=e108] [cursor=pointer]:
+                      - /url: https://botabota.ca/en/
+                  - text: is a spa near the Old Port that features saunas, hot tubs, cold plunges and relaxation areas aboard a now-docked former ferry and in an adjacent garden.
+            - generic [ref=e109]:
+              - generic [ref=e110] [cursor=pointer]:
+                - text: Attractions
+                - generic [ref=e111]: +
+              - list:
+                - listitem [ref=e112]:
+                  - strong [ref=e113]:
+                    - link "McCord Stewart Museum" [ref=e114] [cursor=pointer]:
+                      - /url: https://www.musee-mccord-stewart.ca/en/opening-hours/
+                  - text: ", near McGill University, focuses on Montreal’s history, with a special emphasis on its Indigenous heritage."
+                - listitem [ref=e115]:
+                  - strong [ref=e116]:
+                    - link "Biosphère" [ref=e117] [cursor=pointer]:
+                      - /url: https://espacepourlavie.ca/en/biosphere
+                  - text: ", a museum devoted to the environment and climate change, is set in a giant Buckminister Fuller-designed dome that was part of the United States pavilion for the 1967 World’s Fair."
+            - generic [ref=e118]:
+              - generic [ref=e119] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e120]: +
+              - list:
+                - listitem [ref=e121]:
+                  - strong [ref=e122]:
+                    - link "Aigle Noir" [ref=e123] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Bar.Aigle.Noir/
+                  - text: is an inclusive and friendly L.G.B.T.Q. bar in the Gay Village neighborhood.
+                - listitem [ref=e124]:
+                  - strong [ref=e125]:
+                    - link "Complexe Sky" [ref=e126] [cursor=pointer]:
+                      - /url: https://www.instagram.com/explore/locations/257726544329654/complexe-sky/?hl=en
+                  - text: ", one of Canada’s largest L.G.B.T.Q. nightclubs, has dancing, drinks and a rooftop with views of the Gay Village."
+                - listitem [ref=e127]:
+                  - strong [ref=e128]:
+                    - link "SoLIT Café" [ref=e129] [cursor=pointer]:
+                      - /url: http://www.solitcafe.com/
+                  - text: ", a small orange-tree-themed cafe with a garden tucked between two buildings downtown, offers delicious breakfasts and lunches."
+                - listitem [ref=e130]:
+                  - strong [ref=e131]:
+                    - link "Snowdon Deli" [ref=e132] [cursor=pointer]:
+                      - /url: http://www.snowdondeli.com/en/
+                  - text: is a local favorite for smoked meat, one of Montreal’s most prized delicacies.
+                - listitem [ref=e133]:
+                  - strong [ref=e134]:
+                    - link "Dispatch Coffee" [ref=e135] [cursor=pointer]:
+                      - /url: https://dispatchcoffee.ca/
+                  - text: serves delicious brews in a spare concrete space with big windows overlooking Boulevard St.-Laurent.
+                - listitem [ref=e136]:
+                  - strong [ref=e137]:
+                    - link "Le Butterblume" [ref=e138] [cursor=pointer]:
+                      - /url: http://www.lebutterblume.com/
+                  - text: is a cozy Mile End restaurant that focuses on fresh produce and creative approaches.
+                - listitem [ref=e139]:
+                  - strong [ref=e140]:
+                    - link "HELM" [ref=e141] [cursor=pointer]:
+                      - /url: https://www.helmmicrobrasserie.ca/?lang=en
+                  - text: is a microbrewery that pours a variety of excellent beers in a welcoming, slate-and-wood space in Mile End.
+                - listitem [ref=e142]:
+                  - strong [ref=e143]:
+                    - link "Ping Pong Club" [ref=e144] [cursor=pointer]:
+                      - /url: https://www.pingpongclub.ca/
+                  - text: is a comfortable Mile End bar that offers food, music, cocktails and, yes, table tennis.
+                - listitem [ref=e145]:
+                  - strong [ref=e146]:
+                    - link "Le Trou" [ref=e147] [cursor=pointer]:
+                      - /url: https://www.letrou.ca/
+                  - text: is a small cafe in Griffintown that serves Montreal-style bagels fresh out of the oven.
+            - generic [ref=e148]:
+              - generic [ref=e149] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e150]: +
+              - list:
+                - listitem [ref=e151]:
+                  - strong [ref=e152]:
+                    - link "Eva B." [ref=e153] [cursor=pointer]:
+                      - /url: https://boutiqueevab.com/en
+                  - text: is a vintage store in a rambling old row house packed full of mannequins, furniture, clothing, books and more.
+                - listitem [ref=e154]:
+                  - strong [ref=e155]:
+                    - link "Ô Miroir" [ref=e156] [cursor=pointer]:
+                      - /url: https://www.omiroir.com/
+                  - text: is a home goods store on Boulevard St.-Laurent that sells mirrors of all shapes and sizes.
+                - listitem [ref=e157]:
+                  - strong [ref=e158]:
+                    - link "Style Labo Antiquités" [ref=e159] [cursor=pointer]:
+                      - /url: https://stylelabo-deco.com/
+                  - text: is a Mile End antique store full of attractive midcentury furniture, lamps, shelves and a few old globes.
+                - listitem [ref=e160]:
+                  - strong [ref=e161]:
+                    - link "La Pompadour" [ref=e162] [cursor=pointer]:
+                      - /url: https://www.lapompadourmtl.com/
+                  - text: is a furniture shop, also along the Mile End strip, that focuses on the offbeat and hard to find.
+            - generic [ref=e163]:
+              - generic [ref=e164] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e165]: +
+              - list:
+                - listitem [ref=e166]:
+                  - strong [ref=e167]:
+                    - link "Fairmont the Queen Elizabeth" [ref=e168] [cursor=pointer]:
+                      - /url: https://www.fairmont.com/queen-elizabeth-montreal/
+                  - text: is a 950-room downtown stalwart with rooms furnished in a mod-flavored style, including a very pink
+                  - link "Barbie Dream Suite" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.fairmont.com/queen-elizabeth-montreal/offers/barbie-dream-suite/
+                  - text: (with a disco ball). Visitors taking the restarted
+                  - link "Amtrak Adirondack" [ref=e170] [cursor=pointer]:
+                    - /url: https://www.amtrak.com/adirondack-train
+                  - text: service from New York City may appreciate the hotel’s location next to the train station. Rooms from 420 Canadian dollars, or about $305.
+                - listitem [ref=e171]:
+                  - strong [ref=e172]:
+                    - link "Hôtel Le Germain" [ref=e173] [cursor=pointer]:
+                      - /url: https://www.germainhotels.com/en/le-germain-hotel/montreal
+                  - text: ", in a refurbished 1960s office tower, emphasizes that era’s design in large, quiet rooms with bentwood tables, exposed concrete, peekaboo showers and clear acrylic bubble chairs hanging from the ceiling. Rooms from 385 dollars."
+                - listitem [ref=e174]:
+                  - strong [ref=e175]:
+                    - link "Le Cartier Bed and Breakfast" [ref=e176] [cursor=pointer]:
+                      - /url: https://bblecartier.com/index.php
+                  - text: is a tiny gem with homey rooms and a gorgeous back garden on a quiet side street in the Gay Village. In the shoulder season, rooms from 120 dollars.
+                - listitem [ref=e177]:
+                  - strong [ref=e178]: Short-term rental
+                  - text: options are abundant, particularly in the Mile End neighborhood, where hotel options are limited.
+            - generic [ref=e179]:
+              - generic [ref=e180] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e181]: +
+              - list:
+                - listitem [ref=e182]:
+                  - text: Montreal has an extensive
+                  - strong [ref=e183]: Metro system
+                  - text: for a city of its size, and it is quiet, clean and safe. Single rides are 3.75 dollars. (Save money by buying two trips for 7 dollars.) The Bixi
+                  - strong [ref=e184]: bike share
+                  - text: system covers much of the central city and beyond, and there are protected bike lanes, often two-way, on many major streets (fees start at 1.75 dollars plus 15 cents per minute). Ride hailing options like
+                  - strong [ref=e185]: Uber
+                  - text: (but not Lyft) are also available.
+        - generic [ref=e186]:
+          - heading "Itinerary" [level=2] [ref=e187]
+          - paragraph [ref=e188]: Friday
+          - figure "scoop-picture" [ref=e190]:
+            - img "A close-up of an inviting meal and a glass of wine in a dim, warmly lit restaurant, with geraniums in a vase on a wooden table." [ref=e194]
+            - generic [ref=e195]: Candide
+          - generic [ref=e196]:
+            - generic [ref=e197]: 8 p.m. Dine in a desanctified church
+            - generic [ref=e198]:
+              - text: Montreal is teeming with steeples and spires, though Mass attendance in Quebec has
+              - link "dwindled" [ref=e199] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2018/07/30/world/canada/quebec-churches.html
+              - text: . Many churches have found new life as community spaces and restaurants, including the desanctified
+              - link "St. Joseph’s Church" [ref=e200] [cursor=pointer]:
+                - /url: https://montreal.eater.com/2015/12/11/9890292/candide-john-winter-russell-little-burgundy-photos#0
+              - text: ", built in 1861, in the Petite-Bourgogne neighborhood. If the facade impresses you, wait until you walk around to"
+              - link "Candide" [ref=e201] [cursor=pointer]:
+                - /url: https://www.restaurantcandide.com/
+              - text: ", in the former rectory. Sit at the bar and the industrious, mostly young kitchen staff will happily explain the prix-fixe-only menu, which changes monthly. Fresh, Quebec-produced ingredients shine in dishes like a kohlrabi, bean and yogurt salad, a riot of crisp and creamy textures. The presentation is as fun as it is delicious: For one dessert choice,"
+              - link "Le Frère Chasseur" [ref=e202] [cursor=pointer]:
+                - /url: https://fromagesduquebec.qc.ca/en/cheeses/cow-milk/au-gre-des-champs/frere-chasseur-le
+              - text: cheese, shaved thin on a rotary curler, arrives looking like buttery flower petals (78 Canadian dollars, or about $58, per person).
+          - generic [ref=e203]:
+            - generic [ref=e204]: 10 p.m. Feel the love in the Gay Village
+            - generic [ref=e205]:
+              - text: The signs along the Rue Ste.-Catherine, the main axis of the Gay Village, declare, “Quartier Inclusif,” a reminder that Montreal takes inclusion seriously. The street, closed to cars through the Village most of the summer and early fall, becomes a runway on Friday and Saturday nights, when all parts — all ages, too — of the L.G.B.T.Q. spectrum gather at bars and clubs to sing karaoke, dance and show off their fiercest looks. Leather is welcome at the cozy
+              - link "Aigle Noir" [ref=e206] [cursor=pointer]:
+                - /url: https://www.facebook.com/Bar.Aigle.Noir/
+              - text: ", or Black Eagle, bar, but you won’t need to be wearing any to have a good time. Over a pint of beer (6.75 dollars), you might strike up a conversation with a friendly Montrealer. If the weather is nice, finish your night at the multifloor"
+              - link "Complexe Sky" [ref=e207] [cursor=pointer]:
+                - /url: https://www.instagram.com/explore/locations/257726544329654/complexe-sky/?hl=en
+              - text: nightclub, with a cocktail at the rooftop bar (free entry to the bar, 8 dollars for the club).
+        - figure "scoop-picture" [ref=e208]:
+          - img "In front of a large university building, an expansive hilly lawn with shade trees is occupied by scores of students who sit or lay in the grass." [ref=e212]
+          - generic [ref=e213]: McGill University students relax on the campus lawn. Clara Lacasse for The New York Times
+        - generic [ref=e214]: Advertisement
+        - generic [ref=e215]:
+          - paragraph [ref=e216]: Saturday
+          - figure "scoop-picture" [ref=e218]:
+            - img "A close-up of a bagel with a fried egg, guacamole, feta cheese and parsley on a big platter with striped trim. The platter also holds a bowl of a colorful salad." [ref=e222]
+            - generic [ref=e223]: SoLIT Café
+          - generic [ref=e224]:
+            - generic [ref=e225]: 9 a.m. Enjoy a classic Montreal bagel downtown
+            - generic [ref=e226]:
+              - text: In an urban zone of glass facades, concrete walls and chain restaurants,
+              - link "SoLIT Café" [ref=e227] [cursor=pointer]:
+                - /url: http://www.solitcafe.com/
+              - text: offers an orange-tree-decorated oasis with an outdoor garden. It’s a relaxing hideaway for people-watching while sipping big cups of coffee. Try an everything bagel made by St.-Viateur, a classic purveyor of the big-holed Montreal variety, loaded with guacamole, feta and a sunny-side-up egg (23.75 dollars). After breakfast, check out the
+              - link "Hôtel Le Germain" [ref=e228] [cursor=pointer]:
+                - /url: https://www.germainhotels.com/en/le-germain-hotel/montreal
+              - text: next door — its concrete facade painted since 2021 with a kaleidoscopic mural called
+              - link "“Dazzle My Heart" [ref=e229] [cursor=pointer]:
+                - /url: https://www.germainhotels.com/en/blog/a-dazzling-mural-at-le-germain-hotel-montreal
+              - text: .” The hotel, which emerged from a major renovation in early 2020, occupies the Modernist former headquarters of a professional organization for engineers that was built in 1967, when the World’s Fair, also called Expo 67, transformed much of Montreal’s skyline.
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - 'img "A close-up exterior of a museum building focuses on the upper half of the pale stone-brick structure. Golden light bounces off the wall, which has rows of rectangular windows. On the building, is a big framed poster of a fall-themed landscape, and on the poster are the words: Montréal en Devenir."'
+          - generic [ref=e230]:
+            - generic [ref=e231]: 10 a.m. Appreciate Indigenous design and craft
+            - generic [ref=e232]:
+              - text: Occupying an Arts and Crafts-inspired former McGill University building just north of downtown, the
+              - link "McCord Stewart Museum" [ref=e233] [cursor=pointer]:
+                - /url: https://www.musee-mccord-stewart.ca/en/
+              - text: (20 dollars) specializes in the history of Montreal. The permanent “
+              - link "Indigenous Voices of Today" [ref=e234] [cursor=pointer]:
+                - /url: https://www.musee-mccord-stewart.ca/en/exhibitions/indigenous-voices-of-today/
+              - text: ” exhibition spotlights about 100 objects — including snowshoes, knives, beaded bags and an extraordinary parka made of waterproof, breathable animal intestinal membranes — from 11 nations in Quebec, letting individual members of those nations explain the items’ significance through plaques and videos. One section of the exhibition focuses on the devastating impact that Canada’s residential school system had on Indigenous communities,
+              - link "a dark chapter" [ref=e235] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2023/01/21/canada-indigenous-settlement.html
+              - text: the country is still wrestling to understand. On the museum’s top floor, see the Canadian artist
+              - link "James Duncan" [ref=e236] [cursor=pointer]:
+                - /url: https://www.gallery.ca/collection/artist/james-duncan
+              - text: ’s panoramic, autumnal watercolors of 19th-century Montreal. Many were painted from the top of Mont-Royal, looking down toward the St. Lawrence River, showing fields and bucolic copper and golden groves where gleaming skyscrapers now stand.
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "In a parklike area, dense with trees, the leaves are just starting to turn bright red. A wooden stairway beside a pathway leads down to another leafy level."
+          - generic [ref=e237]:
+            - generic [ref=e238]: 11:30 a.m. Head to the top
+            - generic [ref=e239]:
+              - text: Now, it’s time to see for yourself how those views from the top of Mont-Royal have changed. Climb the steps at the top of Rue Peel to the summit of what locals call the Mountain, taking in the surroundings of a park designed by Frederick Law Olmsted along a trail named for him. At the
+              - link "Kondiaronk Belvedere" [ref=e240] [cursor=pointer]:
+                - /url: https://montreal.ca/en/places/kondiaronk-lookout
+              - text: ", a spacious stone plaza at the top, you’re likely to see a wide variety of activities, possibly even juggling and unicycle riding (remember that Montreal is the headquarters of"
+              - link "Cirque du Soleil" [ref=e241] [cursor=pointer]:
+                - /url: https://www.cirquedusoleil.com/
+              - text: ). Compare the graceful, new cable-stayed
+              - link "Samuel de Champlain Bridge" [ref=e242] [cursor=pointer]:
+                - /url: https://www.arup.com/projects/samuel-de-champlain-bridge
+              - text: ", opened in 2019, with the nearby"
+              - link "Victoria Bridge" [ref=e243] [cursor=pointer]:
+                - /url: https://csce.ca/en/historic-site/victoria-bridge/
+              - text: ", a former railroad crossing (it now carries cars, too) that was hailed as the “eighth wonder of the world” when its first wrought-iron incarnation officially opened in 1860."
+          - generic [ref=e244]:
+            - generic [ref=e245]: 1:30 p.m. Ride to an old-school deli
+            - generic [ref=e246]:
+              - text: No visit to Montreal is complete without a pile of smoked meat — a savory, peppery cross between pastrami and corned beef that appears in poutines and on pizzas as well as in overflowing sandwiches that are the trademark of Montreal’s Jewish delis. While many visitors line up at the historic Schwartz’s Deli, one of the oldest in Canada, the 77-year-old
+              - link "Snowdon Deli" [ref=e247] [cursor=pointer]:
+                - /url: http://www.snowdondeli.com/en/
+              - text: is a little harder to get to, but worth the effort. Take the Metro to the Snowdon stop, or ride a Bixi bike along a dedicated cycling lane on the Chemin de la Côte-St.-Antoine, which passes through
+              - link "Westmount" [ref=e248] [cursor=pointer]:
+                - /url: https://westmount.org/en/
+              - text: ", one of Canada’s wealthiest enclaves. Grab a spacious booth at the deli and enjoy a smoked-meat sandwich (medium fat) with a smear of yellow mustard on pillowy light rye, a"
+              - link "Cott black cherry soda" [ref=e249] [cursor=pointer]:
+                - /url: https://www.thejewishstar.com/stories/cott-black-cherry-a-montreal-deli-experience,19626
+              - text: and a plateful of sharp, sour pickles (21 dollars total).
+          - figure "scoop-picture" [ref=e251]:
+            - img "A sleek modern cafe has rows of white counters, and blond wood walls. Young people sit at the counters, some with laptops in front of them." [ref=e255]
+            - generic [ref=e256]: Dispatch Coffee
+          - generic [ref=e257]:
+            - generic [ref=e258]: 3 p.m. Shop and sip coffee in the heart of the city
+            - generic [ref=e259]:
+              - text: Boulevard St.-Laurent, which divides the city into east and west, also has many of its best shops and cafes. In a rambling, mural-covered row house, you’ll find
+              - link "Eva B." [ref=e260] [cursor=pointer]:
+                - /url: https://boutiqueevab.com/
+              - text: ", a kind of Grey Gardens for the vintage set, with its mannequins, creaky wooden floors and shelves groaning with sometimes creepy dolls and well-worn books. Then grab a pick-me-up at"
+              - link "Dispatch Coffee" [ref=e261] [cursor=pointer]:
+                - /url: https://dispatchcoffee.ca/
+              - text: ", a stylish, stripped-down space (Americano, 2.83 dollars) and then head farther up the boulevard to admire the wares at"
+              - link "Ô Miroir" [ref=e262] [cursor=pointer]:
+                - /url: https://www.omiroir.com/en/
+              - text: ", a shop packed with mirrors of all sizes and shapes, as well as"
+              - link "Style Labo Antiquités" [ref=e263] [cursor=pointer]:
+                - /url: https://stylelabo-deco.com/
+              - text: and
+              - link "La Pompadour" [ref=e264] [cursor=pointer]:
+                - /url: https://www.lapompadourmtl.com/
+              - text: ", which are bursting with charming midcentury modern pieces, old globes, pendant lamps and almost any other home decoration you can imagine. Looking for a zebra-striped armchair? La Pompadour may have just the piece (975 dollars)."
+          - generic [ref=e265]:
+            - generic [ref=e266]: 6:30 p.m. Feast on creativity
+            - generic [ref=e267]:
+              - text: Boulevard St.-Laurent eventually leads all the way to Mile End, the locus of Montreal’s creative class, northeast of downtown and Parc du Mont-Royal. The neighborhood, which was once a blue-collar hub of Montreal’s Jewish community, now abounds in bars, clubs and restaurants like
+              - link "Le Butterblume" [ref=e268] [cursor=pointer]:
+                - /url: http://www.lebutterblume.com/
+              - text: ", a solid choice for dinner with a menu that includes pork schnitzel with a breading of panko and pumpkin and sunflower seeds with jalapeño mayonnaise, cherry tomatoes, corn and marinated mushrooms (26 dollars). Keep the good times going with a cocktail and a slightly ironic game of table tennis at the"
+              - link "Ping Pong Club" [ref=e269] [cursor=pointer]:
+                - /url: https://www.pingpongclub.ca/
+              - text: ", a comfy and convivial bar, nearby (free entry)."
+          - figure "scoop-picture" [ref=e271]:
+            - img "Two young people sit at a bar on red and black stools. Behind the bar are lit-up shelves of bar glasses and bottles of alcohol. The shelves are backed with mirrors that have been sprayed here and there with gold paint. Overhead are three old-fashioned mismatched light fixtures, each with white glass shades." [ref=e275]
+            - generic [ref=e276]: Dieu du Ciel
+          - generic [ref=e277]:
+            - generic [ref=e278]: 10 p.m. Raise a glass to the upstarts
+            - generic [ref=e279]:
+              - text: The giant Molson brewery once dominated Montreal’s riverfront in the same way that its commercial brews dominated menus around the city. But in the last decade, microbreweries have exploded onto the scene, many now sharing Mile End with the pioneer
+              - link "Dieu du Ciel" [ref=e280] [cursor=pointer]:
+                - /url: https://dieuduciel.com/en/
+              - text: (which turned 25 in September).
+              - link "HELM" [ref=e281] [cursor=pointer]:
+                - /url: https://www.helmmicrobrasserie.ca/?lang=en
+              - text: ", one of these upstarts, has a particularly enticing offering of rotating brews in a welcoming space with slate floors, a U-shaped bar and a ceiling draped in dangling vines. The name HELM stands for houblon, eau, levure and malt (hops, water, yeast and malt), the main ingredients of what you’re about to drink, and they take their craft seriously with house-brewed stouts, bitters and I.P.A.s (draft pints, 7 dollars)."
+        - figure "scoop-picture" [ref=e282]:
+          - img "The cavernous, ornate interior of a mid-19th-century basilica has towering arches and columns and a shadowy interior illuminated here and there by light seeping through stained-glass windows. Rows of wooden pews fill the room." [ref=e286]
+          - generic [ref=e287]: The mid-19th-century St. Patrick’s Basilica in downtown Montreal was built to serve the city’s growing Irish community.
+        - generic [ref=e288]: Advertisement
+        - generic [ref=e289]:
+          - paragraph [ref=e290]: Sunday
+          - figure "scoop-picture" [ref=e292]:
+            - img "A large geodesic dome, its rounded surface a latticework of steel, rises above a leafy parklike area. The dome appears to be basically transparent. Inside the sphere is an industrial-looking structure, which is actually a museum devoted to the environment." [ref=e296]
+            - generic [ref=e297]: The Biosphère
+          - generic [ref=e298]:
+            - generic [ref=e299]: 9 a.m. No place like dome
+            - generic [ref=e300]:
+              - text: The lasting impression of Expo 67 is most visible on the islands of
+              - link "Parc Jean-Drapeau" [ref=e301] [cursor=pointer]:
+                - /url: https://www.parcjeandrapeau.com/en/
+              - text: ", the site of many of the exhibitions. The former United States pavilion, with a huge Buckminster Fuller-designed geodesic dome — it inspired the one at Disney’s Epcot Center — is now the"
+              - link "Biosphère" [ref=e302] [cursor=pointer]:
+                - /url: https://espacepourlavie.ca/en/biosphere
+              - text: ", a museum occupying a graceful glassy building perched on tall stilts in the center of the dome. (The acrylic panels of the dome burned in"
+              - link "a 1976 fire" [ref=e303] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=ev2cFpP90uE
+              - text: ", leaving just the steel structure.) Besides being breathtakingly beautiful, the museum offers interactive exhibitions, most of them kid-friendly, about environmental issues and climate change (adults, 22.75 dollars; 17 and under, 11.50 dollars). While you’re on the island, be sure to check out “Trois Disques,” a"
+              - link "70-foot-tall stainless steel sculpture" [ref=e304] [cursor=pointer]:
+                - /url: https://www.parcjeandrapeau.com/en/public-art/trois-disques-homme-calder/
+              - text: that the artist Alexander Calder created in 1967 for the World’s Fair.
+          - generic [ref=e305]:
+            - generic [ref=e306]: 10 a.m. Ride along the river
+            - generic [ref=e307]:
+              - text: Contrast Modern architecture with the industrial past by riding a Bixi bike from Parc Jean-Drapeau across the
+              - link "Concordia Bridge" [ref=e308] [cursor=pointer]:
+                - /url: https://expolounge.blogspot.com/2008/08/expo-bridges-concordia-bridge-and-pont.html
+              - text: toward downtown. Watch for the Jenga-like lines of Habitat 67, the Brutalist apartment complex designed by the architect Moshe Safdie. The path leads around the Five Roses flour mill, whose flashing sign is as beloved by Montrealers as the Citgo sign is by Bostonians. Montreal’s location near the eastern end of the Great Lakes helped make it the
+              - link "largest grain port in North America" [ref=e309] [cursor=pointer]:
+                - /url: https://www.port-montreal.com/en/the-port-of-montreal/about-the-port/the-port-of-montreal-through-history/timeline
+              - text: in the 1920s, a legacy you can see in the steamship-like form of
+              - link "Silo No. 5" [ref=e310] [cursor=pointer]:
+                - /url: https://memento.heritagemontreal.org/en/site/silo-no-5/
+              - text: ", a hulking grain elevator that has stood empty since the mid-1990s. The path follows the Lachine Canal through Griffintown, a mushrooming cluster of glassy new buildings, where you can stop for a hand-rolled bagel with cream cheese (3.50 dollars) at"
+              - link "Le Trou" [ref=e311] [cursor=pointer]:
+                - /url: https://www.letrou.ca/
+              - text: ", a tiny cafe with its own oven."
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "At the edge of a parklike promontory covered in fall foliage that juts into an urban canal is a spa housed in what was once a river ferry, now painted black. In the background is a long, industrial-looking building. More buildings rise in the background."
+          - generic [ref=e312]:
+            - generic [ref=e313]: 11 a.m. Get a massage on the water
+            - generic [ref=e314]:
+              - text: Listen for the sound of the water flowing over the canal locks. It will be your soundtrack to relaxation at
+              - link "Bota Bota" [ref=e315] [cursor=pointer]:
+                - /url: https://botabota.ca/en/
+              - text: ", a luxurious spa that began aboard an old ferry boat docked near the Old Port and has expanded to include a nearby land-based garden with a complex of pools. The boat offers hot tubs, cold plunges, steam rooms, dry saunas and massages in a silent environment (signs reminding you not to talk are everywhere). Across a footbridge, in the garden (you can talk there), you’ll find pools ranging from hot to cold, one with a waterfall to massage your shoulders (three-hour “water circuit” 60 to 90 dollars, depending on the season and time)."
+  - generic [ref=e319]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e321]:
+      - button "Read 481 comments" [ref=e323] [cursor=pointer]
+      - list [ref=e325]:
+        - listitem [ref=e326]:
+          - button "Share full article" [ref=e329] [cursor=pointer]:
+            - generic [ref=e330]:
+              - img [ref=e331]
+              - text: Share full article
+        - listitem [ref=e333]:
+          - button "More sharing options ..." [ref=e336] [cursor=pointer]:
+            - img [ref=e337]
+        - listitem [ref=e339]:
+          - switch "Save article for reading later..." [ref=e340] [cursor=pointer]:
+            - img [ref=e341]
+        - listitem [ref=e345]:
+          - button "Read 481 comments" [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]:
+              - img [ref=e348]
+              - text: "481"
+    - region "Related Content" [ref=e351]:
+      - heading "Related Content" [level=2] [ref=e352]
+      - generic [ref=e353]:
+        - list [ref=e358]:
+          - listitem [ref=e359]:
+            - figure [ref=e365]
+          - listitem [ref=e367]:
+            - figure [ref=e373]
+          - listitem [ref=e375]:
+            - figure [ref=e381]
+          - listitem [ref=e383]:
+            - figure [ref=e389]
+          - listitem [ref=e391]:
+            - figure [ref=e397]
+          - listitem [ref=e399]:
+            - figure [ref=e405]
+        - list [ref=e411]:
+          - listitem [ref=e412]:
+            - figure [ref=e418]
+          - listitem [ref=e420]:
+            - figure [ref=e426]
+          - listitem [ref=e428]:
+            - figure [ref=e434]
+      - list [ref=e441]:
+        - listitem [ref=e442]
+        - listitem [ref=e447]
+        - listitem [ref=e452]
+        - listitem [ref=e457]
+        - listitem [ref=e462]
+        - listitem [ref=e467]
+        - listitem [ref=e472]
+        - listitem [ref=e477]
+        - listitem [ref=e482]
+        - listitem [ref=e487]
+    - generic [ref=e492]:
+      - paragraph [ref=e494]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e495] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e497]:
+      - heading "Site Index" [level=2] [ref=e498]
+    - contentinfo [ref=e500]:
+      - navigation [ref=e501]:
+        - heading "Site Information Navigation" [level=2] [ref=e502]
+        - list [ref=e503]:
+          - listitem [ref=e504]:
+            - link "© 2026 The New York Times Company" [ref=e505] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e506]:
+          - listitem [ref=e507]:
+            - link "NYTCo" [ref=e508] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e509]:
+            - link "Contact Us" [ref=e510] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e511]:
+            - link "Accessibility" [ref=e512] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e513]:
+            - link "Work with us" [ref=e514] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e515]:
+            - link "Advertise" [ref=e516] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e517]:
+            - link "T Brand Studio" [ref=e518] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e519]:
+            - link "Privacy Policy" [ref=e520] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e521]:
+            - link "Cookie Policy" [ref=e522] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e523]:
+            - link "Terms of Service" [ref=e524] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e525]:
+            - link "Terms of Sale" [ref=e526] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e527]:
+            - link "Site Map" [ref=e528] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e529]:
+            - link "Help" [ref=e530] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e531]:
+            - link "Subscriptions" [ref=e532] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e533]:
+          - listitem [ref=e534]:
+            - button "Your Privacy Choices" [ref=e535] [cursor=pointer]:
+              - img [ref=e536]
+              - text: Your Privacy Choices

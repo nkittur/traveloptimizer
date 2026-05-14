@@ -1,0 +1,642 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - link "Log in" [ref=e27] [cursor=pointer]:
+          - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2024%252F06%252F13%252Ftravel%252Fthings-to-do-ljubljana.html&asset=masthead
+          - generic [ref=e28]: Log in
+  - main [ref=e29]:
+    - article [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img "A pedestrian bridge spans over a calm, narrow river to a bank with a white building and green trees." [ref=e38]
+          - generic [ref=e40]:
+            - link "36 Hours" [ref=e43] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e45]: Ljubljana, Slovenia
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: "Jump to:"
+            - link "Recommendations" [ref=e50] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e52] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e53]:
+              - link "Google Map" [ref=e54] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/LEaUEsWj8V7LvU9W6
+              - img [ref=e56]
+            - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e61]:
+              - list [ref=e63]:
+                - listitem [ref=e64]:
+                  - button "Share full article" [ref=e67] [cursor=pointer]:
+                    - generic [ref=e68]:
+                      - img [ref=e69]
+                      - text: Share full article
+                - listitem [ref=e71]:
+                  - button "More sharing options ..." [ref=e74] [cursor=pointer]:
+                    - img [ref=e75]
+                - listitem [ref=e77]:
+                  - switch "Save article for reading later..." [ref=e78] [cursor=pointer]:
+                    - img [ref=e79]
+                - listitem [ref=e83]:
+                  - button "Read 80 comments" [ref=e84] [cursor=pointer]:
+                    - generic [ref=e85]:
+                      - img [ref=e86]
+                      - text: "80"
+          - generic [ref=e89]:
+            - paragraph [ref=e90]:
+              - generic [ref=e91]:
+                - text: By Alex Crevar
+                - text: Photographs by Susan Wright
+            - paragraph [ref=e92]: Alex Crevar is a freelance journalist and regular contributor to New York Times Travel. He has lived in and covered the Western Balkans for 25 years.
+            - time [ref=e93]: June 13, 2024
+          - paragraph [ref=e94]:
+            - text: A lifetime in travel has passed since Ljubljana was named the European Commission’s
+            - link "“green capital”" [ref=e95] [cursor=pointer]:
+              - /url: https://environment.ec.europa.eu/topics/urban-environment/european-green-capital-award_en
+            - text: for 2016, but philosophically little has changed for the capital of Slovenia. Ljubljana is still an international
+            - link "model for sustainability" [ref=e96] [cursor=pointer]:
+              - /url: https://www.slovenia.info/en/business/green-scheme-of-slovenian-tourism
+            - text: "with more than 1,600 shared-bicycle docking sites, a car-free urban center and an average of around 5,900 square feet of green space per citizen. It also remains quintessentially Central European: Just look to the hilltop castle that guards the cobbled squares straddling the Ljubljanica River. That’s not to say the city of nearly 300,000, which is framed by the Julian and Kamnik-Savinja Alps and traces its history back more than 5,000 years, hasn’t evolved. In recent years, Ljubljana opened Michelin-starred restaurants,"
+            - link "UNESCO" [ref=e97] [cursor=pointer]:
+              - /url: https://whc.unesco.org/en/list/1643
+            - text: recognized the city for its urban design and last fall, in classic Slovenian recycle-and-reuse fashion, the city reopened a former
+            - link "bicycle factory" [ref=e98] [cursor=pointer]:
+              - /url: https://center-rog.si/en/
+            - text: as a creative hub with open studios, galleries and shops.
+        - generic [ref=e99]: Advertisement
+        - heading "Recommendations" [level=2] [ref=e100]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - button "Key stops –" [ref=e103] [cursor=pointer]:
+              - text: Key stops
+              - generic [ref=e104]: –
+            - list [ref=e105]:
+              - listitem [ref=e106]:
+                - strong [ref=e107]:
+                  - link "Ljubljana Castle" [ref=e108] [cursor=pointer]:
+                    - /url: https://www.ljubljanskigrad.si/en
+                - text: and its Castle Hill has watched over the capital for millennia and is the spot for panoramas, wine and dinner in a Michelin-starred restaurant.
+              - listitem [ref=e109]:
+                - strong [ref=e110]:
+                  - link "Plecnik House" [ref=e111] [cursor=pointer]:
+                    - /url: https://mgml.si/en/plecnik-house/
+                - text: ", which was the home and studio of the city’s chief 20th-century designer, Joze Plecnik, remains as he left it at the time of his death in 1957."
+              - listitem [ref=e112]:
+                - text: The
+                - strong [ref=e113]:
+                  - link "Krizanke Summer Theater" [ref=e114] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/poi/krizanke-summer-theatre/
+                - text: ", which comes alive from June to September during the Ljubljana Festival, stages pop, jazz and symphonic concerts."
+              - listitem [ref=e115]:
+                - strong [ref=e116]:
+                  - link "Center Rog" [ref=e117] [cursor=pointer]:
+                    - /url: https://center-rog.si/en/
+                - text: ", a former bicycle factory opened last year as an art laboratory and now provides workspaces for designers and artists, a public library, cafes and shops."
+          - generic [ref=e118]:
+            - button "Attractions +" [ref=e119] [cursor=pointer]:
+              - text: Attractions
+              - generic [ref=e120]: +
+            - list:
+              - listitem [ref=e121]:
+                - text: The
+                - strong [ref=e122]:
+                  - link "Triple Bridge" [ref=e123] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/poi/triple-bridge/
+                - text: ", designed by Joze Plecnik, connects the central Preseren Square to Ljubljana’s Old Town."
+              - listitem [ref=e124]:
+                - strong [ref=e125]:
+                  - link "Cukrarna Gallery" [ref=e126] [cursor=pointer]:
+                    - /url: https://cukrarna.art/en/
+                - text: ", which opened in 2021 in a repurposed sugar refinery, is a contemporary art space that questions and honors cultural heritage."
+              - listitem [ref=e127]:
+                - text: The
+                - strong [ref=e128]:
+                  - link "National and University Library" [ref=e129] [cursor=pointer]:
+                    - /url: https://www.culture.si/en/National_and_University_Library
+                - text: serves as both Ljubljana’s intellectual center and a monument to the city’s rebirth through 20th-century design.
+              - listitem [ref=e130]:
+                - text: The
+                - strong [ref=e131]:
+                  - link "National Museum of Slovenia" [ref=e132] [cursor=pointer]:
+                    - /url: https://www.nms.si/en/plan-your-visit/locations/metelkova
+                - text: ", in former military barracks, displays a collection of arts and artifacts from the 14th century to the modern era."
+              - listitem [ref=e133]:
+                - strong [ref=e134]:
+                  - link "Trubarjevo Street" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.ljubljana.si/en/news/renovated-trubar-street-space-for-all/
+                - text: ", which runs parallel to and one block north of the Ljubljanica River, has an eclectic mix of shops, bars and international bistros."
+              - listitem [ref=e136]:
+                - strong [ref=e137]:
+                  - link "Plecnik at First Glance" [ref=e138] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/visitors/plan-your-visit/tours-and-trips/plecnik-at-first-glance-for-groups/
+                - text: is a walking tour, run by the city, that offers an overview of the influence that Joze Plecnik had on Ljubljana.
+              - listitem [ref=e139]:
+                - text: The
+                - strong [ref=e140]:
+                  - link "Slovene Ethnographic Museum" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.etno-muzej.si/sl/slovene-ethnographic-museum
+                - text: focuses on the synthesis between Slovenian identity and the influence and changing face of culture.
+              - listitem [ref=e142]:
+                - text: The
+                - strong [ref=e143]:
+                  - link "Museum of Contemporary Art Metelkova" [ref=e144] [cursor=pointer]:
+                    - /url: http://www.mg-lj.si/en/
+                - text: displays Slovenian and Yugoslav works from the 20th century through today.
+              - listitem [ref=e145]:
+                - strong [ref=e146]:
+                  - link "Morostig" [ref=e147] [cursor=pointer]:
+                    - /url: https://morostig.si/en/
+                - text: ", a new educational center within the Ljubljana Marshes, a UNESCO World Heritage site, is dedicated to the ancient pile dwellings, or prehistoric houses built on stilts, discovered at the site."
+          - generic [ref=e148]:
+            - button "Restaurants and bars +" [ref=e149] [cursor=pointer]:
+              - text: Restaurants and bars
+              - generic [ref=e150]: +
+            - list:
+              - listitem [ref=e151]:
+                - strong [ref=e152]:
+                  - link "Open Kitchen" [ref=e153] [cursor=pointer]:
+                    - /url: https://www.odprtakuhna.si/en/
+                - text: ", a weekly outdoor street-food market of around 50 stalls, takes place on Fridays next to Ljubljana’s"
+                - link "Central Market" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.visitljubljana.com/en/poi/central-market/
+                - text: .
+              - listitem [ref=e155]:
+                - strong [ref=e156]:
+                  - link "Restaurant Strelec" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.restavracija-strelec.si/en
+                - text: ", in the Ljubljana Castle’s Archers’ Tower, is a Michelin-starred restaurant with five-, seven- and nine-course menus that change weekly."
+              - listitem [ref=e158]:
+                - strong [ref=e159]:
+                  - link "Grajska Vinoteka" [ref=e160] [cursor=pointer]:
+                    - /url: https://grajskavinoteka.si/
+                - text: ", inside the Ljubljana Castle, has a tasting room, shop and bar with around 200 Slovenian wine varieties."
+              - listitem [ref=e161]:
+                - strong [ref=e162]:
+                  - link "Dvorni Bar" [ref=e163] [cursor=pointer]:
+                    - /url: https://dvornibar.net/
+                - strong [ref=e164]: ","
+                - text: a go-to riverside bar for many locals over about two decades, concentrates on Slovenian wines by the glass.
+              - listitem [ref=e165]:
+                - strong [ref=e166]:
+                  - link "Bazilika" [ref=e167] [cursor=pointer]:
+                    - /url: http://www.bazilika.si/
+                - text: is an intimate bistro and cafe on French Revolution Square with delicious brunch quiches and homemade cakes.
+              - listitem [ref=e168]:
+                - strong [ref=e169]:
+                  - link "Pop’s Pizza" [ref=e170] [cursor=pointer]:
+                    - /url: https://pizza.thepopsplace.com/
+                - text: ", opened by a Slovenian American, specializes in pizza Napoletana and has a menu of cocktails, wines and craft beer."
+              - listitem [ref=e171]:
+                - strong [ref=e172]:
+                  - link "Cacao" [ref=e173] [cursor=pointer]:
+                    - /url: https://cacao.si/en/
+                - text: sells snacks, coffee and desserts from its riverside location, but is best known for delectable, gourmet ice cream.
+              - listitem [ref=e174]:
+                - strong [ref=e175]:
+                  - link "Makalonca" [ref=e176] [cursor=pointer]:
+                    - /url: https://www.facebook.com/pages/Makalonca/212087355470731
+                - text: ", a bar under the Fish Bridge, is a perfect spot for a cold beer on the floating terrace directly on the river."
+              - listitem [ref=e177]:
+                - strong [ref=e178]:
+                  - link "Gric" [ref=e179] [cursor=pointer]:
+                    - /url: https://gric.si/en/
+                - text: is a Michelin-starred restaurant that prioritizes garden-grown and foraged ingredients.
+              - listitem [ref=e180]:
+                - strong [ref=e181]:
+                  - link "Kolibri" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.kolibri-bar.com/
+                - text: ", one of the only true cocktail joints in town, concocts classic and innovative drinks in its cozy, speakeasy-like bar."
+              - listitem [ref=e183]:
+                - strong [ref=e184]:
+                  - link "Kavarna Rog" [ref=e185] [cursor=pointer]:
+                    - /url: http://kavarna-rog.si/
+                - text: ", a cafe with excellent breakfast options, is conveniently located between Center Rog, Cukrarna Gallery and the Metelkova district."
+          - generic [ref=e186]:
+            - button "Shopping +" [ref=e187] [cursor=pointer]:
+              - text: Shopping
+              - generic [ref=e188]: +
+            - list:
+              - listitem [ref=e189]:
+                - strong [ref=e190]:
+                  - link "IKA" [ref=e191] [cursor=pointer]:
+                    - /url: https://www.trgovinaika.si/
+                - text: is a boutique that sells products such as scarves, handbags and day planners from around 100 Slovenian artists and designers.
+              - listitem [ref=e192]:
+                - strong [ref=e193]:
+                  - link "Dapper" [ref=e194] [cursor=pointer]:
+                    - /url: https://www.dapper-store.com/
+                - text: sells its own production of denim, hemp, merino wool and linen clothing as well as biodynamic and organic regional wines.
+              - listitem [ref=e195]:
+                - strong [ref=e196]:
+                  - link "Yauya" [ref=e197] [cursor=pointer]:
+                    - /url: https://yauya.si/
+                - text: is a patisserie next to the Ljubljanica River with delicious single-portion cakes and bite-size chocolates made on premises.
+          - generic [ref=e198]:
+            - button "Where to stay +" [ref=e199] [cursor=pointer]:
+              - text: Where to stay
+              - generic [ref=e200]: +
+            - list:
+              - listitem [ref=e201]:
+                - strong [ref=e202]:
+                  - link "April 1550" [ref=e203] [cursor=pointer]:
+                    - /url: https://www.april1550.com/
+                - text: ", in the Old Town and built in 1550, has eight rooms, each with their own character, all meticulously designed to feel like home — only much nicer and with exceptional service. The owners, Ljubljana residents who live nearby, are on hand for travel tips and there’s a pastry chef on site for exquisite breakfasts. Rooms start at €260, or about $281."
+              - listitem [ref=e204]:
+                - text: The
+                - strong [ref=e205]:
+                  - link "Hotel One66" [ref=e206] [cursor=pointer]:
+                    - /url: https://www.one66hotel.com/
+                - text: has something for everyone, with full apartments, spacious standard rooms and glamping units, as well as a gym, a superb pizzeria and its own laundromat. Rooms start at €90, and include breakfast.
+              - listitem [ref=e207]:
+                - strong [ref=e208]:
+                  - link "Tivoli Boutique Inn" [ref=e209] [cursor=pointer]:
+                    - /url: https://tivoliboutiqueinn.com/
+                - text: ", which opened in March, has 30 rooms across three floors and is a friendly, well-priced hotel on a quiet street with a gracious staff. Among its most attractive qualities is its proximity to Ljubljana’s sprawling Tivoli Park — the city’s largest green space. Rooms start at €80."
+              - listitem [ref=e210]:
+                - text: A slew of
+                - strong [ref=e211]: short-term rentals
+                - text: can be found across town, and all within easy reach of Ljubljana’s main draws. For the best options near the Old Town area, check out the Krakovo, Trnovo and Mirje districts. The up-and-coming Siska District, just northwest of the city center tourist zone, provides a little more breathing room.
+          - generic [ref=e212]:
+            - button "Getting around +" [ref=e213] [cursor=pointer]:
+              - text: Getting around
+              - generic [ref=e214]: +
+            - list [ref=e215]:
+              - listitem [ref=e216]:
+                - text: Ljubljana is perfect for both
+                - strong [ref=e217]: walking
+                - text: and
+                - strong [ref=e218]: cycling
+                - text: . The city makes
+                - strong [ref=e219]:
+                  - link "bike-sharing" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/visitors/travel-information/getting-around/bicikelj/
+                - text: and
+                - strong [ref=e221]:
+                  - link "bike rentals" [ref=e222] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/visitors/travel-information/getting-around/ljubljana-bike/
+                - text: exceptionally easy and inexpensive. There are no Uber drivers. The traditional
+                - strong [ref=e223]:
+                  - link "taxis" [ref=e224] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/visitors/travel-information/getting-around/taxi/
+                - text: are reliable and fast. The dependable
+                - strong [ref=e225]:
+                  - link "bus" [ref=e226] [cursor=pointer]:
+                    - /url: https://www.visitljubljana.com/en/visitors/travel-information/getting-around/city-buses/
+                - text: system is the best option for public transportation within the city.
+        - heading "Itinerary" [level=2] [ref=e227]
+        - generic [ref=e228]:
+          - heading "Friday" [level=2] [ref=e229]
+          - generic [ref=e230]:
+            - generic [ref=e231]: 3 p.m. Open the kitchen
+            - paragraph [ref=e233]:
+              - text: Dive right into Ljubljana’s local-first, gourmet attitude at the
+              - link "Open Kitchen" [ref=e234] [cursor=pointer]:
+                - /url: https://www.odprtakuhna.si/en/
+              - text: ", a street-food market wedged between the fruit and vegetable vendors of the outdoor"
+              - link "Central Market" [ref=e235] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/poi/central-market/
+              - text: ", the Cathedral of St. Nicholas and the"
+              - link "Triple Bridge" [ref=e236] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/poi/triple-bridge/
+              - text: ", which anchors the city center. Locals and tourists gather around more than 50 stands for a wide variety of creations — from Asian delicacies to Slovenian fare like baked veal, sausages and pork ribs (dishes average €8) — each Friday from 10 a.m. to 9 p.m. (10 p.m. in the summer). The tradition has come to symbolize the country’s emergence as one of Europe’s most innovative food locales."
+          - paragraph [ref=e242]: Open Kitchen
+          - generic [ref=e243]:
+            - generic [ref=e244]: 4:30 p.m. Re-cycle the creativity
+            - paragraph [ref=e246]:
+              - text: Slovenia is obsessed with two-wheeled locomotion; its pro cyclists have dominated international racing in recent years. Embrace the fanaticism by visiting the nearly 100,000-square-foot
+              - link "Center Rog" [ref=e247] [cursor=pointer]:
+                - /url: https://center-rog.si/en/
+              - text: ", where a former bicycle factory once produced Yugoslavia’s most famous bike brand, Rog. The building, which reopened last fall and is protected for its national heritage, has been reimagined into a heaven for anyone who creates. Visitors can participate in an array of workshops and peruse studios and production laboratories that specialize in textiles, woodworking, metalwork and more, and includes a"
+              - link "FabLab" [ref=e248] [cursor=pointer]:
+                - /url: https://center-rog.si/en/labs/fablab/
+              - text: with 3D printers. The 150-year-old complex also houses a public library, cafes, restaurants and shops, as well as a sprawling park with fig, apple and plum trees.
+          - generic [ref=e249]:
+            - generic [ref=e250]: 6 p.m. Storm the castle for dinner
+            - paragraph [ref=e252]:
+              - link "Ljubljana Castle" [ref=e253] [cursor=pointer]:
+                - /url: https://www.ljubljanskigrad.si/en
+              - text: ", a 15th-century fortification atop Castle Hill and reachable from the city center by a 10-minute trail walk or by funicular (€6 for a return ticket), has played a critical role in life here since the Bronze Age. Today, the castle (base entry, €12) has culinary attractions, events and an arsenal of activities including an"
+              - link "exhibition on Slovenian history" [ref=e254] [cursor=pointer]:
+                - /url: https://www.ljubljanskigrad.si/en/experiences/exhibition-of-slovenian-history/
+              - text: and an
+              - link "escape-room-inspired adventure game" [ref=e255] [cursor=pointer]:
+                - /url: https://www.ljubljanskigrad.si/en/experiences/escape-castle/
+              - text: . After exploring, but still within the citadel, find your table at the Michelin-starred
+              - link "Restaurant Strelec" [ref=e256] [cursor=pointer]:
+                - /url: https://www.restavracija-strelec.si/en
+              - text: ", a cylindrical dining room inside the Archers’ Tower. Choose from five-, seven- or nine-course menus (€90, €110 or €130; wine pairings extra) that change weekly. Standout dishes include venison tartare; turbot filet served with Adriatic prawns; baked lamb with potatoes, red peppers and eggplant; and, for dessert, hazelnut mousse on a chocolate brownie with bergamot cream."
+          - img "Looking through a narrow window frame is a city scape with mountains in the far background." [ref=e260]
+          - generic [ref=e261]:
+            - generic [ref=e262]: 9:30 p.m. Retreat to the cellar
+            - paragraph [ref=e264]:
+              - text: After dinner, stay on Castle Hill for a glass of vino at
+              - link "Grajska Vinoteka" [ref=e265] [cursor=pointer]:
+                - /url: https://grajskavinoteka.si/
+              - text: . For generations, grapes were grown around the fortress. After nearly a century-long hiatus, vines were
+              - link "replanted in 2016" [ref=e266] [cursor=pointer]:
+                - /url: https://www.ljubljanskigrad.si/en/why-to-the-castle/castle-vineyard-and-wine-shop-en-us/
+              - text: . Taste a castle-grown chardonnay variety called belpin (€5 per glass), or another of the some 200 other Slovenian wines served with an accompanying prosciutto and cheese plate (from €28). Back in the city center, stop at
+              - link "Dvorni Bar" [ref=e267] [cursor=pointer]:
+                - /url: https://dvornibar.net/
+              - text: ", where revelers sit on the outside steps or riverside tables. In its 20th year, Dvorni serves more than 100 wines by the glass, focusing on the country's nine wine-growing districts. Try the teran (€3.80), a dry red from the Karst region. Reservations are recommended."
+          - generic [ref=e269]:
+            - img "An European castle with a turret flying to flags overlooks a cafe." [ref=e271]
+            - paragraph [ref=e274]: Grajska Vinoteka
+        - generic [ref=e275]:
+          - img "A man wearing a white shirt rides a bicycle through a narrow European city street." [ref=e277]
+          - paragraph [ref=e280]: Ljubljana, a Central European city of nearly 300,000, is perfect for both walking and cycling.
+        - generic [ref=e281]: Advertisement
+        - generic [ref=e282]:
+          - heading "Saturday" [level=2] [ref=e283]
+          - generic [ref=e284]:
+            - generic [ref=e285]: 9 a.m. Fuel up with brunch, and add sugar
+            - paragraph [ref=e287]:
+              - text: Start the day at
+              - link "Bazilika" [ref=e288] [cursor=pointer]:
+                - /url: http://www.bazilika.si/
+              - text: ", a bistro spilling onto French Revolution Square. Dishes here are made from family recipes that the owner, Darja Koncarevic (who teaches"
+              - link "culinary workshops" [ref=e289] [cursor=pointer]:
+                - /url: https://www.center-rog.si/en/labs/culinary-lab/
+              - text: at Center Rog) has also assembled into cookbooks. Take a spot on the terrace, order the salmon-and-leek quiche (€7), a slice of cranberry-orange cake (€3.20) and a cappuccino (€2.20). Then walk 15 minutes along the river to
+              - link "Cukrarna Gallery" [ref=e290] [cursor=pointer]:
+                - /url: https://cukrarna.art/en/
+              - text: (opens at 10 a.m., €8), which shows contemporary art in a former sugar refinery built in 1828. Opened in 2021, Cukrarna rotates exhibitions and events featuring edgy multi-media works that both question and honor the country’s cultural heritage.
+          - generic [ref=e292]:
+            - img "People sit at outdoor tables in front on a European building." [ref=e294]
+            - paragraph [ref=e297]: Bazilika
+          - generic [ref=e298]:
+            - generic [ref=e299]: 11:30 a.m. Shop along the river
+            - paragraph [ref=e301]:
+              - text: In a town as sustainability minded as Ljubljana, details matter. Experience that local-first intentionality at
+              - link "IKA" [ref=e302] [cursor=pointer]:
+                - /url: https://www.trgovinaika.si/
+              - text: ", a boutique near Town Square with products like scarves, handbags, jewelry and day planners from around 100 Slovenian artists and designers. A 10-minute walk across the river takes you to"
+              - link "Dapper" [ref=e303] [cursor=pointer]:
+                - /url: https://www.dapper-store.com/
+              - text: ", which sells denim, hemp and linen clothing produced under its own brand, Evio (jeans from €179 to €249), as well as biodynamic and organic regional wines. Reward your discoveries with a pre-lunch treat at"
+              - link "Yauya" [ref=e304] [cursor=pointer]:
+                - /url: https://yauya.si/
+              - text: ", a patisserie where single-portion cakes and bite-sized chocolates are made on premises. Try the BB Cloud (€7.20): warm, nutty banana bread topped with cold mascarpone in a crunchy caramel glaze."
+          - generic [ref=e305]:
+            - generic [ref=e306]: 1 p.m. Break with a slice and a scoop
+            - paragraph [ref=e308]:
+              - text: "Stay on the left bank of the Ljubljanica to enjoy the results of a reverse-immigrant tale: Greg Yurkovich, a Slovenian American, grew up in California and moved to Ljubljana to craft Neapolitan-style pizza made with organic ingredients. His"
+              - link "Pop’s Pizza" [ref=e309] [cursor=pointer]:
+                - /url: https://pizza.thepopsplace.com/
+              - text: ", which also serves wine, craft beers and cocktails, makes the Mr. Sinatra (€14.90) with Friulian pancetta, fior di latte mozzarella and sun-dried tomatoes. After, take a stroll along the river to"
+              - link "Cacao" [ref=e310] [cursor=pointer]:
+                - /url: https://cacao.si/en/
+              - text: ", a cafe and dessert shop with an outdoor ice-cream stand, where locals line up for scoops (€2.60 for one) in flavors like Madagascar vanilla, Santo Domingo chocolate and salty caramel so delicious it ends conversations."
+          - generic [ref=e312]:
+            - img "A roasting hot pizza with a blackened crust and toasted cheese is framed at the opening of a pizza oven." [ref=e314]
+            - paragraph [ref=e317]: Pop’s Pizza
+          - generic [ref=e318]:
+            - generic [ref=e319]: 2 p.m. Walk with the creator
+            - paragraph [ref=e321]:
+              - text: Take a closer look at the city with a
+              - link "walking tour" [ref=e322] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/visitors/plan-your-visit/tours-and-trips/plecnik-at-first-glance-for-groups/
+              - text: (run by the
+              - link "city tourism office" [ref=e323] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/sl/poi/turisticni-informacijski-center-ljubljana-tic/
+              - text: ) of the creations by Joze Plecnik, the architect who helped shape the capital during the early 20th century. According to UNESCO, which placed “
+              - link "Plecnik’s Ljubljana" [ref=e324] [cursor=pointer]:
+                - /url: https://whc.unesco.org/en/list/1643
+              - text: ” on the World Heritage List in 2021, the innovative urban designer changed the identity of Ljubljana “from a provincial city into the symbolic capital of the Slovenian people.” The two-hour stroll (€95 for two people) visits his iconic designs such as the stone, balustraded
+              - link "Triple Bridge" [ref=e325] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/poi/triple-bridge/
+              - text: leading to Prešernov Trg (the main square), the
+              - link "National and University Library" [ref=e326] [cursor=pointer]:
+                - /url: https://www.culture.si/en/National_and_University_Library
+              - text: with its staggered brick-and-stone facade, the city’s
+              - link "porticoed market" [ref=e327] [cursor=pointer]:
+                - /url: https://mgml.si/en/plecnik-house/exhibitions/519/plecniks-market/
+              - text: and the renovation of the
+              - link "Križanke Summer Theater" [ref=e328] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/poi/krizanke-summer-theatre/
+              - text: . End your walk at the tranquil, two-story
+              - link "Plecnik House" [ref=e329] [cursor=pointer]:
+                - /url: https://mgml.si/en/plecnik-house/
+              - text: (€8), in the leafy Trnovo neighborhood, where he lived and designed many of his masterpieces.
+          - generic [ref=e330]:
+            - generic [ref=e331]: 4:30 p.m. Float to happy hour
+            - paragraph [ref=e333]:
+              - text: Drift into the evening with a 50-minute boat tour on the Ljubljanica River aboard the 33-foot, electric-powered wooden boat,
+              - link "Barka Ljubljanica" [ref=e334] [cursor=pointer]:
+                - /url: https://www.barka-ljubljanica.si/en/home-en/
+              - text: . Passing beneath many of the spots where you’ve shopped, eaten and imbibed, the route goes upriver toward the Ljubljana Marshes — a
+              - link "World Heritage Site" [ref=e335] [cursor=pointer]:
+                - /url: https://www.slovenia.info/en/places-to-go/attractions/unesco-world-heritage
+              - text: dating back millennia, where the remains of pile dwellings, or prehistoric houses built on stilts, and the world’s
+              - link "oldest wheel" [ref=e336] [cursor=pointer]:
+                - /url: https://mgml.si/en/city-museum/exhibitions/273/ljubljana-history-city/
+              - text: were found — before turning around. Back on land, duck into
+              - link "Makalonca" [ref=e337] [cursor=pointer]:
+                - /url: https://www.facebook.com/pages/Makalonca/212087355470731
+              - text: ", a bar on the left bank under"
+              - link "Ribja Brv" [ref=e338] [cursor=pointer]:
+                - /url: https://www.ponting.si/en/projects/footbridge---ribja-brv---83.html
+              - text: ", or the Fish Bridge. Order a half-liter bottle of ice-cold Makalonca pale ale (€5.80) at a table on the terrace directly above the rushing water."
+          - generic [ref=e340]:
+            - img "A small bridge with a male pedestrian standing on it spans a small river." [ref=e342]
+            - paragraph [ref=e345]: Ribja Brv
+          - generic [ref=e346]:
+            - generic [ref=e347]: 6:30 p.m. Taste the sustainability
+            - paragraph [ref=e349]:
+              - text: Take a taxi to
+              - link "Gric" [ref=e350] [cursor=pointer]:
+                - /url: https://gric.si/en/
+              - text: ", a decades-old, family-run restaurant, 16 miles west of Ljubljana, where nearly all ingredients are foraged or grown onsite, or within a three-mile radius. The restaurant, now led by the chef Luka Kosir, has a Michelin star and a Michelin green star for sustainable gastronomy. The seven- and 11-course tasting menus (€110 and €150 respectively, wine-pairing on request), served in a dining room with views across forested alpine foothills, combine experimentation and tradition. Start with the duck egg served with tomato, pork crackling and radicchio. The dry-aged beef served with pine-needle oil, birch syrup and pears is unforgettable. Finish with a glass of Quinta do Infantado white port and early plums served with almonds and carob ice cream."
+          - generic [ref=e351]:
+            - generic [ref=e352]: 9 p.m. Get into festival mode
+            - paragraph [ref=e354]:
+              - text: The
+              - link "Krizanke Summer Theater" [ref=e355] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/poi/krizanke-summer-theatre/
+              - text: becomes the city’s center of attention during the
+              - link "Ljubljana Festival" [ref=e356] [cursor=pointer]:
+                - /url: https://ljubljanafestival.si/en/
+              - text: ", running from June to September each year. The building began as a church and monastery for religious military orders like the Knights Templar and the Teutonic Knights, but in the 1950s, it became an"
+              - link "open-air theater" [ref=e357] [cursor=pointer]:
+                - /url: https://ljubljanafestival.si/en/krizanke-at-the-heart-of-your-experience/
+              - text: complex with an atrium, courtyard and arcade of arched windows. The festival annually stages musicals, ballet performances and dramas, as well as jazz, pop and symphonic concerts (tickets range from €29 and €79). After the show, walk three minutes to
+              - link "Kolibri" [ref=e358] [cursor=pointer]:
+                - /url: https://www.kolibri-bar.com/
+              - text: ", one of the city’s few bars dedicated to cocktails. In the swirl of maximalist aesthetics — floral wallpaper, a marble bar and gilded mirrors atop a weathered wooden-plank floor — try the Porn Star Martini (€11.50), with Ketel One vodka, Galliano vanilla, lemon juice, vanilla syrup and passion fruit puree."
+          - generic [ref=e360]:
+            - img "A yellow-colored cocktail drink is being strained into a champagne glass." [ref=e362]
+            - paragraph [ref=e365]: Kolibri
+        - generic [ref=e366]:
+          - img "The bow of a small touring boat overlooks shores filled with trees and a small SUP boarder." [ref=e368]
+          - paragraph [ref=e371]: The Ljubljana Marshes are a World Heritage Site, where the remains of pile dwellings, or prehistoric houses built on stilts, have been found.
+        - generic [ref=e372]: Advertisement
+        - generic [ref=e373]:
+          - heading "Sunday" [level=2] [ref=e374]
+          - generic [ref=e375]:
+            - generic [ref=e376]: 10 a.m. Recover, refuel, reflect
+            - paragraph [ref=e378]:
+              - text: Come full circle by returning to Center Rog and eating breakfast at
+              - link "Kavarna Rog" [ref=e379] [cursor=pointer]:
+                - /url: http://kavarna-rog.si/
+              - text: ", a cafe with a riverside terrace. Fuel up with poached eggs, foie gras, sautéed spinach, hollandaise and truffles (€17.40). Then walk 10 minutes to the Metelkova district, where former military barracks house some of the city’s most dynamic art and history exhibits. Get a sense of life centuries ago at the"
+              - link "National Museum of Slovenia-Metelkova" [ref=e380] [cursor=pointer]:
+                - /url: https://www.nms.si/en/
+              - text: (entry, €8) with furniture, painting and ceramics from the 1300s on. At the
+              - link "Slovene Ethnographic Museum" [ref=e381] [cursor=pointer]:
+                - /url: https://www.etno-muzej.si/sl/slovene-ethnographic-museum
+              - text: (€4.50), around 3,000 pieces fill permanent exhibits and explain folk music, religious customs and other Slovenian traditions. Fast forward to the modern era at the
+              - link "Museum of Contemporary Art Metelkova" [ref=e382] [cursor=pointer]:
+                - /url: http://www.mg-lj.si/en/
+              - text: (€5), where provocative permanent and rotating installations from international artists fill three floors. On the first Sunday of the month, admission at many Ljubljana museums is free.
+          - generic [ref=e384]:
+            - img "The exterior of a house has a fantastical design with different tiles, colored bricks and a replica of the Statue of David." [ref=e386]
+            - paragraph [ref=e389]: Metelkova District
+          - generic [ref=e390]:
+            - generic [ref=e391]: 12:30 p.m. Cycle out of town
+            - paragraph [ref=e393]:
+              - text: Finish strong with a bicycle ride outside of town along the Ljubljanica River and then south to the
+              - link "Ljubljana Marshes" [ref=e394] [cursor=pointer]:
+                - /url: https://www.visitljubljana.com/en/visitors/sights-and-activities/active-holidays/ljubljana-marshes/
+              - text: to get a clearer understanding of how the city’s pile-dwelling ancestors lived more than 5,000 years ago (rentals from €12 per day, with
+              - link "Rent a Bike Ljubljana" [ref=e395] [cursor=pointer]:
+                - /url: https://www.rentabikeljubljana.com/en/
+              - text: ). This flat, up-and-back
+              - link "15-mile pedal" [ref=e396] [cursor=pointer]:
+                - /url: https://morostig.si/en/information/how-to-find-us/
+              - text: to the marshes — on the edge of the 52-square-mile
+              - link "Ljubljansko Barje Nature Park" [ref=e397] [cursor=pointer]:
+                - /url: https://www.ljubljanskobarje.si/
+              - text: — takes you to the recently opened
+              - link "Morostig" [ref=e398] [cursor=pointer]:
+                - /url: https://morostig.si/en/
+              - text: complex (entry, €12) dedicated to the pile dwellings and the environment surrounding them. Within Morostig, you’ll find an interpretive center with exhibitions explaining the unique and rich ecosystem; boardwalks leading over the water and grasses; and reconstructed dwellings, which provide a tangible depiction of life perched above the marshes.
+  - generic [ref=e403]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e405]:
+      - button "Read 80 comments" [ref=e407] [cursor=pointer]
+      - list [ref=e409]:
+        - listitem [ref=e410]:
+          - button "Share full article" [ref=e413] [cursor=pointer]:
+            - generic [ref=e414]:
+              - img [ref=e415]
+              - text: Share full article
+        - listitem [ref=e417]:
+          - button "More sharing options ..." [ref=e420] [cursor=pointer]:
+            - img [ref=e421]
+        - listitem [ref=e423]:
+          - switch "Save article for reading later..." [ref=e424] [cursor=pointer]:
+            - img [ref=e425]
+        - listitem [ref=e429]:
+          - button "Read 80 comments" [ref=e430] [cursor=pointer]:
+            - generic [ref=e431]:
+              - img [ref=e432]
+              - text: "80"
+    - region "Related Content" [ref=e435]:
+      - heading "Related Content" [level=2] [ref=e436]
+      - generic [ref=e437]:
+        - list [ref=e442]:
+          - listitem [ref=e443]:
+            - figure [ref=e449]
+          - listitem [ref=e451]:
+            - figure [ref=e457]
+          - listitem [ref=e459]:
+            - figure [ref=e465]
+          - listitem [ref=e467]:
+            - figure [ref=e473]
+          - listitem [ref=e475]:
+            - figure [ref=e481]
+          - listitem [ref=e483]:
+            - figure [ref=e489]
+        - list [ref=e495]:
+          - listitem [ref=e496]:
+            - figure [ref=e502]
+          - listitem [ref=e504]:
+            - figure [ref=e510]
+          - listitem [ref=e512]:
+            - figure [ref=e518]
+      - list [ref=e525]:
+        - listitem [ref=e526]
+        - listitem [ref=e531]
+        - listitem [ref=e536]
+        - listitem [ref=e541]
+        - listitem [ref=e546]
+        - listitem [ref=e551]
+        - listitem [ref=e556]
+        - listitem [ref=e561]
+        - listitem [ref=e566]
+        - listitem [ref=e571]
+    - generic [ref=e576]:
+      - paragraph [ref=e578]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e579] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e581]:
+      - heading "Site Index" [level=2] [ref=e582]
+    - contentinfo [ref=e584]:
+      - navigation [ref=e585]:
+        - heading "Site Information Navigation" [level=2] [ref=e586]
+        - list [ref=e587]:
+          - listitem [ref=e588]:
+            - link "© 2026 The New York Times Company" [ref=e589] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e590]:
+          - listitem [ref=e591]:
+            - link "NYTCo" [ref=e592] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e593]:
+            - link "Contact Us" [ref=e594] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e595]:
+            - link "Accessibility" [ref=e596] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e597]:
+            - link "Work with us" [ref=e598] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e599]:
+            - link "Advertise" [ref=e600] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e601]:
+            - link "T Brand Studio" [ref=e602] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e603]:
+            - link "Privacy Policy" [ref=e604] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e605]:
+            - link "Cookie Policy" [ref=e606] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e607]:
+            - link "Terms of Service" [ref=e608] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e609]:
+            - link "Terms of Sale" [ref=e610] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e611]:
+            - link "Site Map" [ref=e612] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e613]:
+            - link "Help" [ref=e614] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e615]:
+            - link "Subscriptions" [ref=e616] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e617]:
+          - listitem [ref=e618]:
+            - button "Your Privacy Choices" [ref=e619] [cursor=pointer]:
+              - img [ref=e620]
+              - text: Your Privacy Choices

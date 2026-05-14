@@ -1,0 +1,258 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=e2]:
+          - banner [ref=e6]:
+            - generic [ref=e7]:
+              - generic [ref=e8]:
+                - link "Skip to content" [ref=e9] [cursor=pointer]:
+                  - /url: "#site-content"
+                - link "Skip to site index" [ref=e10] [cursor=pointer]:
+                  - /url: "#site-index"
+                - button "Section Navigation" [ref=e11] [cursor=pointer]:
+                  - generic [ref=e12]: Section Navigation
+                  - img [ref=e13]
+                - button "Search" [ref=e18] [cursor=pointer]:
+                  - generic [ref=e19]: Search
+                  - img [ref=e20]
+              - link "Travel" [ref=e23] [cursor=pointer]:
+                - /url: https://www.nytimes.com/section/travel
+              - link "New York Times homepage" [ref=e25] [cursor=pointer]:
+                - /url: /
+                - img [ref=e26]
+              - generic [ref=e28]:
+                - link "Subscribe for $1/week" [ref=e30] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+                  - generic [ref=e31]: Subscribe for $1/week
+                - button "Account Information" [ref=e33] [cursor=pointer]:
+                  - generic [ref=e34]:
+                    - text: Account
+                    - img [ref=e35]
+          - generic [ref=e37]:
+            - main [ref=e38]:
+              - article [ref=e40]:
+                - generic [ref=e41]:
+                  - paragraph [ref=e43]: Advertisement
+                  - link "SKIP ADVERTISEMENT" [ref=e44] [cursor=pointer]:
+                    - /url: "#after-top"
+                  - iframe [ref=e48]:
+                    - generic [ref=f15e2]:
+                      - link "Advertisement" [ref=f15e4] [cursor=pointer]:
+                        - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjsvKelBGSQDk7fiZlx4HWY9w9ZuiL3cZequVJNxj41A5btBFyufce5wn4Pg4NBaPZlunrpTIQbHizs1MVTsqZrmoVmQ1EouGzWjGV7Ck_JYKYqr_RG1p5JrAvyR_ypOFNQ53W2D2iJJRNrm_HXS3guKf0ZV5mmOa7IAFV2K1Ij_lZRxRee9JdOxsEdFH4DGRx53XklZuw9xU-u16kCHnUjATQJnv9kFVdeMrE1upo2FoqYAebx-8M7SizbS-F9a9FSI30zk1dypTu0kDxRKU6xPWpO7Hjeys-Mr1eyY4wFj2tiZwKduGWv4uZMAUy5Ycb6SSR6No_Gm7aXUVRrCbohslC_6U_G5e12m-iTln8lwBxVVN-XwqWXWX8JPzqejc8JKyAFhTGVRA8sgQOt2p6UEmw5PUYTIREU9Oidnd8SbP8xdhiydHtK9ZwjCqnut6Muwi6FnZS09akHaoQT1px-FUpyaXP64pvouTHOux8TF8oyeXIV0VPa2X7Fb1qarkkodouDnK1ufw5PopYGJmxd9917xy_aKwjQY_yeJi2uRhNVh85RXTguHNLJ2YGjwPHhyNib1ydv3e6nh0NhoLY6wdeJiHvE_AAq76WGj3WFxjTsawX2MHROLq8Y81TPBFpe8vrvZHENPDC2Q1EN9GUuLm0G9pEBCYltSZ8z0AWYvjDQ9dqDoewRRL2b_pS013yRDE9Crgb56cCSWifirWqDB093YajTmZOti4g2yosI4LyDDvTPqhoH0j8ctY4gcqX3bzeMNDpkRbxbw2qZ0-lWxBJiHujaITjVQFV_SojfRoiFZXYzgeOIk0N-nIzsHh7WzyP5BOmQAtbaVN1W908hr153aHKYvjz9O15_be8sJnLBj--HICv8-zzUczSu3_f_joonDAvFmQyJm-X-5Zt4rIbiVf4BEsV-l0doWKGGSTdIbIv7Nktg1BgBRXkuC1RqKBOi0yKk-HvwwSz5jP_x5Q-OjMwgq2Q3LhxNfJemFrw-rKMLAcnGtO9JFLDRqAeQgT7BgElDaJAAKU_YrAIj6DN10ZUGEs7M9-lUpFs4TU9iN04aW0vjHml2KVboSIrxdrZz1h016dZ7KxzGvWo5gl7ikYJQx5xRTJJ6eIwd_Wh43qz4CdwR-aCzqkvQ4qoEg91dMPWNhpT9dBfDP3PB2RjB7PXiTmtD_9pgfUd7cLBs1GxahYdHGH_Agq-45GjRD3KxEcDCojGJaQS8FFYvmHSwv6zpJPu0GJdZ5gpbmpOHMsR_m6xlhmuYXMPExF98wFBF1q1ttyQo74g1yrEbQJa3arHQD6RMYB-f84HDbJnHkClp-wS_AmpFD_H7nAvyWjTtYCLnfapNVxuM7dDgpdhKQYZ8Cekv-Z_PGi9SdxAZgMeGmzp4uJRuciZiRdnaoVKIfQzkqmolmwSc4r_EhiRPZCQFg9v901NVVeV4drouwZ_Kmj6tPcWRD6LhgcC5Q3354FNj4yLmFIDmAIF6MeI8k1gWBheKJMXjYirv8a3oqyR13jIIBSYSQbpAVStKfDel39xGNTR2BZSlNKQPKZjlX1V8rR6I8TVVImyf_kTTbuzwMuGMAac1b0ERZmzasZJsypurrHouSe2Wn1wJsY9Paa3wajhEfDfJk-s-kmHw37P4_MteAIDIOyiYBkcenCO_CdjNA0O-mwKbSrWtRWy2ZGnpuSb0gX_0Ra7jTQZA_MU6sKo1JHfR7wh6zh3F7WvlQommOFjLuYLKS9VQG3q9nBBIyfuhDWPQBqRrKt5JXT9DUMB8zC_4CU9iirAEZH5nA6DkaALAVTpieMyQxkPowxQ4WYlxYicv7kTfo641TGj5A8CPJahUYzkriv8EIEKhGX9FHHeyrKuuweOPXxMC5yx31irFbt-uC7hP5MOupiQfT7gX3Mri6ZQG7G3Me1LVeTErfM26weFJgmigp-So5d8xyt1S4UXVVG020flCzMFOAcMXe7n7iUFM6y-xyy_urOpYNbYSDbXcJphBGvwVpvIG3UneqpeEpy0Q1tkh3lAQ1o93jmgY7nr3bysA&sai=AMfl-YS_-HfTB8HL4H6yDrAxFXW72fdViOr05vDvcZ-HPVPkKsi5UUADvEXqNtbLKjm1RKCXqPYpXHPJiD8xFFC2kkFe_ObqML7JZDRQY0Zh7lzD3-cdo1ykEnCbXRxjIDOoWzURVmBaJJWa3XbAyFMudnbdbZ-jjMONMMiG26B6VS2dOV_8WEdG2e8Pug0CPR0JzMcN6-TkEb0y-LQa0tEuvnOpGAjQnXc_vfF7hlWaSZLl_3sIq8UnsYUEeM3jqzFpaEtT4GJLfp9RiHCaAWuknJjrAVpXsO18vGRYRYiIm_4uZ5P2xWnUJ9S__Zf1I7oUU7LAQKJtFMvhr00tlSkhOG2Oe8xkmXE-iCKF-kSZ3s0kv2EnPWLfJlmKxbK1C3Qr364UYEzViOyAds-EiN09fMamZTQVBHX0GyR6hHp65QbO1CK5Ri6eXnoV-Y_ZSM01aXN_xRJtapboJlm2JKVtOlzb0cjJ-GPhk6Y5HemHwoWM0P7rclrZ-ZlYjSN406YG6g73ELUDjAV07j5vA4XPEjUcz-zKC1AEbm_-n1k6jFzYBJ7iIpcchsBk1KOMIDEzHeHTmFtaIcDX3wX_8Rl7CWao3h9oFex-R3EGhQNWVTWe2iSsi6_NB4LbzNAZezksmJ89HAKRbT6Ah6qlQaoOXYMzztfVxjaPKNd6nqLNOr0MFKaW2cQqF7HRrKTb7NN5gm9Xhg2CBNLRPF5k_srG9xWZb2PKW2JnNTh9XhaWvzgdLEfgnAV0_AK93i2pmdTYXN-JgvqnAoRmFm0TcLyh9WovLOL0uGyjmrLdT9LCoSQK5hBjtUJiZpcvepMBEyPJRmzFx01TaYr_QAwwSi220-QLYgbdMiAAdQ9OEIhR4QM4N-zR0saHOxiai0oGYQa0ZAzfhA&sig=Cg0ArKJSzN1QHPtH84x8&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9wYW5kYWRvYy5jb20&urlfix=1&adurl=https://www.pandadoc.com/lp/hubspot-cpq/%3Futm_source%3Ddv360%26utm_medium%3Ddisplay%26utm_campaign%3Ddv360_display_nb_sell_us_prospecting_nyt_202409-hubspot-cpq%26utm_content%3Dcpq_imc%26utm_term%3Dsell_q126_cpq_fae_970x250_img_plg_emerald_v2
+                        - img "Advertisement" [ref=f15e5]
+                      - generic [ref=f15e6]:
+                        - generic:
+                          - img [ref=f15e10] [cursor=pointer]
+                          - button [ref=f15e13] [cursor=pointer]:
+                            - img [ref=f15e14]
+                - generic [ref=e49]:
+                  - paragraph [ref=e50]:
+                    - link "36 Hours" [ref=e51] [cursor=pointer]:
+                      - /url: /column/36-hours
+                  - heading "36 Hours in Bar Harbor, Me." [level=1] [ref=e53]
+                  - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e54]:
+                    - list [ref=e56]:
+                      - listitem [ref=e57]:
+                        - button "Share full article" [ref=e60] [cursor=pointer]:
+                          - generic [ref=e61]:
+                            - img [ref=e62]
+                            - text: Share full article
+                      - listitem [ref=e64]:
+                        - button "More sharing options ..." [ref=e67] [cursor=pointer]:
+                          - img [ref=e68]
+                      - listitem [ref=e70]:
+                        - switch "Save article for reading later..." [ref=e71] [cursor=pointer]:
+                          - img [ref=e72]
+                  - group "media" [ref=e77]:
+                    - generic [ref=e79]:
+                      - generic [ref=e80]: "From Left: A bicyclist makes his way up Cadillac Mountain; cooling off by the Downeast Deli on Main Street in Bar Harbor; the Margaret Todd emerges from the fog in Bar Harbor."
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Credit...
+                        - generic [ref=e83]: Michael Appleton for The New York Times
+                  - generic [ref=e85]:
+                    - paragraph [ref=e88]:
+                      - text: By
+                      - link "Geraldine Fabrikant" [ref=e89] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/by/geraldine-fabrikant
+                    - list [ref=e90]:
+                      - listitem [ref=e91]:
+                        - time [ref=e92]: July 14, 2011
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - paragraph [ref=e96]: "THERE are summer resorts that get busier and more chic over the years. And then there are the ones, like Bar Harbor, Me., that feel deliciously frozen in time. Don’t look for Starbucks, McDonald’s or Ralph Lauren here. Fashion shoppers stop at places with names like Cool as a Moose. Carmen Verandah and the Thirsty Whale are among the evening hot spots. Bar Harbor is the largest town on Mount Desert Island, and nearby Acadia National Park encompasses some 50 square miles. The rest of Mount Desert belongs to residents and a tony array of summer tenants: Brooke Astor summered here, as did myriad Rockefellers and, once upon a time, the town of Northeast Harbor had so many Philadelphia families that it was dubbed “Philadelphia on the rocks.” They all came lured by the striking setting of mountains, woodlands, lakes and ocean waves crashing against granite cliffs. Then and now, Mount Desert has served as a glorious nature camp for biking, hiking and boating. At day’s end, a visitor can cozy up with a blueberry beer and lobster. Evening strollers can watch sailboats drop anchor and the mist slip down over the hundreds of islands that dot the water."
+                    - paragraph [ref=e97]:
+                      - strong [ref=e98]: Friday
+                    - paragraph [ref=e99]:
+                      - strong [ref=e100]: 6 p.m.
+                      - strong [ref=e101]: 1) TOAST THE SUNSET
+                    - paragraph [ref=e102]: Take the two-hour cruise on the Margaret Todd, a four-masted windjammer that sails through Frenchman Bay and the Porcupine Islands (207-288-4585; downeastwindjammer.com; $37.50). You’ll pass Ironbound Island, still owned by descendants of the painter Dwight Blaney, who with his contemporary John Singer Sargent and others painted the remarkable vistas of the bay and Acadia. A guitarist may serenade you, but if you want to toast the sunset, bring your own wine.
+                    - note [ref=e103]:
+                      - link "Subscribe to The Times" [ref=e104] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/subscription?campaignId=8WXW7
+                      - text: to read as many articles as you like.
+                  - complementary "companion column" [ref=e105]
+                - generic [ref=e106]:
+                  - generic [ref=e107]:
+                    - text: "A version of this article appears in print on July 17, 2011, Section TR, Page 8 of the New York edition with the headline: Bar Harbor, Me."
+                    - generic [ref=e108]:
+                      - text: .
+                      - link "Order Reprints" [ref=e109] [cursor=pointer]:
+                        - /url: https://nytimes.wrightsmedia.com/
+                      - text: "|"
+                      - link "Today’s Paper" [ref=e110] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/section/todayspaper
+                      - text: "|"
+                      - link "Subscribe" [ref=e111] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY
+                  - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e112]:
+                    - list [ref=e114]:
+                      - listitem [ref=e115]:
+                        - button "Share full article" [ref=e118] [cursor=pointer]:
+                          - generic [ref=e119]:
+                            - img [ref=e120]
+                            - text: Share full article
+                      - listitem [ref=e122]:
+                        - button "More sharing options ..." [ref=e125] [cursor=pointer]:
+                          - img [ref=e126]
+                      - listitem [ref=e128]:
+                        - switch "Save article for reading later..." [ref=e129] [cursor=pointer]:
+                          - img [ref=e130]
+                - region "Related Content" [ref=e135]:
+                  - heading "Related Content" [level=2] [ref=e136]
+                  - generic [ref=e137]:
+                    - list [ref=e142]:
+                      - listitem [ref=e143]:
+                        - figure [ref=e149]
+                      - listitem [ref=e151]:
+                        - figure [ref=e157]
+                      - listitem [ref=e159]:
+                        - figure [ref=e165]
+                      - listitem [ref=e167]:
+                        - figure [ref=e173]
+                      - listitem [ref=e175]:
+                        - figure [ref=e181]
+                      - listitem [ref=e183]:
+                        - figure [ref=e189]
+                    - list [ref=e195]:
+                      - listitem [ref=e196]:
+                        - figure [ref=e202]
+                      - listitem [ref=e204]:
+                        - figure [ref=e210]
+                      - listitem [ref=e212]:
+                        - figure [ref=e218]
+                  - list [ref=e225]:
+                    - listitem [ref=e226]
+                    - listitem [ref=e231]
+                    - listitem [ref=e236]
+                    - listitem [ref=e241]
+                    - listitem [ref=e246]
+                    - listitem [ref=e251]
+                    - listitem [ref=e256]
+                    - listitem [ref=e261]
+                    - listitem [ref=e266]
+                    - listitem [ref=e271]
+                - generic [ref=e277]:
+                  - paragraph [ref=e279]: Advertisement
+                  - link "SKIP ADVERTISEMENT" [ref=e280] [cursor=pointer]:
+                    - /url: "#after-bottom"
+            - navigation "Site Index" [ref=e282]:
+              - heading "Site Index" [level=2] [ref=e283]
+            - contentinfo [ref=e285]:
+              - navigation [ref=e286]:
+                - heading "Site Information Navigation" [level=2] [ref=e287]
+                - list [ref=e288]:
+                  - listitem [ref=e289]:
+                    - link "© 2026 The New York Times Company" [ref=e290] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+                - list [ref=e291]:
+                  - listitem [ref=e292]:
+                    - link "NYTCo" [ref=e293] [cursor=pointer]:
+                      - /url: https://www.nytco.com/
+                  - listitem [ref=e294]:
+                    - link "Contact Us" [ref=e295] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+                  - listitem [ref=e296]:
+                    - link "Accessibility" [ref=e297] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+                  - listitem [ref=e298]:
+                    - link "Work with us" [ref=e299] [cursor=pointer]:
+                      - /url: https://www.nytco.com/careers/
+                  - listitem [ref=e300]:
+                    - link "Advertise" [ref=e301] [cursor=pointer]:
+                      - /url: https://advertising.nytimes.com/
+                  - listitem [ref=e302]:
+                    - link "T Brand Studio" [ref=e303] [cursor=pointer]:
+                      - /url: https://advertising.nytimes.com/custom-content/
+                  - listitem [ref=e304]:
+                    - link "Privacy Policy" [ref=e305] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+                  - listitem [ref=e306]:
+                    - link "Cookie Policy" [ref=e307] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/privacy/cookie-policy
+                  - listitem [ref=e308]:
+                    - link "Terms of Service" [ref=e309] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+                  - listitem [ref=e310]:
+                    - link "Terms of Sale" [ref=e311] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+                  - listitem [ref=e312]:
+                    - link "Site Map" [ref=e313] [cursor=pointer]:
+                      - /url: /sitemap/
+                  - listitem [ref=e314]:
+                    - link "Help" [ref=e315] [cursor=pointer]:
+                      - /url: https://help.nytimes.com/hc/en-us
+                  - listitem [ref=e316]:
+                    - link "Subscriptions" [ref=e317] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+                - list [ref=e318]:
+                  - listitem [ref=e319]:
+                    - button "Your Privacy Choices" [ref=e320] [cursor=pointer]:
+                      - img [ref=e321]
+                      - text: Your Privacy Choices
+        - generic [ref=e325]:
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e329]: One day offer
+              - generic [ref=e330]: You’ve unlocked a 7-day free trial to The Times.
+            - generic [ref=e332]:
+              - img [ref=e334]
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - text: Now
+                  - generic [ref=e340]: Limited access to The Times.
+                - generic [ref=e341]:
+                  - text: Today
+                  - generic [ref=e342]: Free unlimited access for 7 days.
+                - generic [ref=e343]:
+                  - text: After 7 days
+                  - generic [ref=e344]:
+                    - text: $7.50$1/week for your first 6 months.
+                    - generic [ref=e345]: After free trial, billed as $4 every four weeks for your first six months, then $30 thereafter.
+            - generic [ref=e346]:
+              - generic [ref=e349]:
+                - link [ref=e351] [cursor=pointer]:
+                  - /url: https://myaccount.nytimes.com/get-started/payment?o=2e9bebde-f85e-4c71-ac65-aefcfc42e380&campaignId=9XHYQ
+                  - paragraph [ref=e352]: Continue with card
+                - link [ref=e353] [cursor=pointer]:
+                  - /url: https://myaccount.nytimes.com/get-started/payment?o=2e9bebde-f85e-4c71-ac65-aefcfc42e380&campaignId=9XHYQ&source=paywall%3Apaypal
+                  - img [ref=e354]
+              - generic [ref=e362]: You will not be charged if you cancel during your free trial.
+          - generic [ref=e364]:
+            - generic [ref=e365]: All Access includes news, plus Games, Cooking, Audio, Wirecutter and The Athletic.
+            - separator [ref=e366]
+            - generic [ref=e369]:
+              - text: Offer for a New York Times All Access subscription. Subscription excludes print edition. Some games may be available without a subscription. If you cancel during a free trial period your access will end upon cancellation and you will not be charged. After your free trial you will automatically become a paying subscriber. As a paying subscriber, your payment method will automatically be charged in advance the introductory rate of $4.00 every 4 weeks for 6 months, and after 6 months the then applicable rate of $30.00 every 4 weeks. Cancel before November 16, 2026 to avoid the transition to the standard price that will be charged on that date. Your subscription will continue until you
+              - link [ref=e370] [cursor=pointer]:
+                - /url: https://help.nytimes.com/hc/en-us/articles/360003499613-Cancel-Your-Subscription
+                - text: cancel
+              - text: . Taxes may apply. Offer terms are subject to change.
+            - separator [ref=e371]
+            - generic [ref=e372]:
+              - paragraph [ref=e373]: ©2026 The New York Times Company
+              - link [ref=e374] [cursor=pointer]:
+                - /url: https://help.nytimes.com/hc/en-us
+                - text: Help
+              - link [ref=e375] [cursor=pointer]:
+                - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us?redir=myacc
+                - text: Feedback

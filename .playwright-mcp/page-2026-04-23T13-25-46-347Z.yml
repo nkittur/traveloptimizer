@@ -1,0 +1,373 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:theinfatuation.com los angeles Westwood OR UCLA OR "best restaurants" site:theinfatuation.com los angeles Westwood OR UCLA OR "best restaurants"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Atheinfatuation.com%2Blos%2Bangeles%2BWestwood%2BOR%2BUCLA%2BOR%2B%2522best%2Brestaurants%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&aep=1&ntc=1&sa=X&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sa=X&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQtKgLegQIFBAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Short videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sa=X&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQs6gLegQIExAB
+              - generic [ref=e95]: Short videos
+          - listitem [ref=e96]:
+            - link "Maps" [ref=e97] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=33b5970ecd4ab1db&output=search&q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e99]: Maps
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sa=X&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQtKgLegQIERAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Forums" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RwL3tTHBUVvEdZRahlhSY9irSo0_MQyP0g5dCW7Aauku4u77i_sikgtzMW5mVXb1SNb4tENsvGVRyARwG7rOpdhDFoCknsr1B0L55jr5fB4K3l8xm_1HX4-nwmS1STVmMn6VPzA&q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sa=X&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQs6gLegQIEBAB
+              - generic [ref=e107]: Forums
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The 18 Best Restaurants In Westwood - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e144] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/where-to-eat-in-westwood
+                - heading "The 18 Best Restaurants In Westwood - Los Angeles" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: The Infatuation
+                  - generic [ref=e154]: https://www.theinfatuation.com › los-angeles › guides
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Sep 5, 2024 —
+              - generic [ref=e163]:
+                - text: The
+                - emphasis [ref=e164]: Best Restaurants
+                - text: In
+                - emphasis [ref=e165]: Westwood
+                - text: ; House of Mandi · 1083 Gayley Ave,
+                - emphasis [ref=e166]: Los Angeles
+                - text: ", CA 90024 · Yemeni ; Attari Sandwich Shop · 1388"
+                - emphasis [ref=e167]: Westwood
+                - text: Blvd, ...
+              - link "Read more" [ref=e168] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/where-to-eat-in-westwood#:~:text=The%20Best%20Restaurants%20In%20Westwood&text=House%20of%20Mandi,Ave%2C%20Los%20Angeles%2C%20CA%2090024&text=Yemeni&text=Attari%20Sandwich%20Shop,Blvd%2C%20Los%20Angeles%2C%20CA%2090024
+            - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e171] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/where-to-eat-in-westwood
+              - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e173]
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - link "The 9 Best New Restaurants On The Westside - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e182] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-westside-hit-list
+              - heading "The 9 Best New Restaurants On The Westside - Los Angeles" [level=3] [ref=e183]
+              - generic [ref=e188]:
+                - generic [ref=e190]: The Infatuation
+                - generic [ref=e192]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+          - generic [ref=e199]:
+            - generic [ref=e200]: Apr 3, 2026 —
+            - generic [ref=e201]:
+              - text: ...
+              - emphasis [ref=e202]: LA
+              - text: Restaurants To Try Right Now. We checked out these new restaurants—and loved them. The
+              - emphasis [ref=e203]: Best
+              - text: ...
+            - link "Read more" [ref=e204] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-westside-hit-list#:~:text=The%20Hit%20List%3A%20New%20LA,these%20new%20restaurants%E2%80%94and%20loved%20them.
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e207] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/the-westside-hit-list
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e209]
+        - generic [ref=e213]:
+          - generic [ref=e216]:
+            - link "The 25 Best Restaurants In Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e218] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-los-angeles
+              - heading "The 25 Best Restaurants In Los Angeles" [level=3] [ref=e219]
+              - generic [ref=e224]:
+                - generic [ref=e226]: The Infatuation
+                - generic [ref=e228]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e229] [cursor=pointer]:
+              - img [ref=e232]
+          - generic [ref=e235]:
+            - generic [ref=e236]: Jan 26, 2026 —
+            - generic [ref=e237]:
+              - text: "Top 25: The"
+              - emphasis [ref=e238]: Best Restaurants
+              - text: In
+              - emphasis [ref=e239]: LA
+              - text: · THE SPOTS · Anajak Thai · Holbox · Bistro Na's · Somni · Dunsmoor · Found Oyster · Gjelina.
+            - link "Read more" [ref=e240] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-los-angeles#:~:text=Top%2025%3A%20The%20Best%20Restaurants,In%20LA&text=THE%20SPOTS&text=Anajak%20Thai&text=Holbox&text=Bistro%20Na's&text=Somni&text=Dunsmoor&text=Found%20Oyster&text=Gjelina
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e243] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-los-angeles
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e245]
+        - generic [ref=e249]:
+          - generic [ref=e252]:
+            - 'link "The Hit List: New LA Restaurants To Try Right Now - Los ... The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e254] [cursor=pointer]':
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-new-los-angeles-restaurants-hit-list
+              - 'heading "The Hit List: New LA Restaurants To Try Right Now - Los ..." [level=3] [ref=e255]'
+              - generic [ref=e260]:
+                - generic [ref=e262]: The Infatuation
+                - generic [ref=e264]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+          - generic [ref=e271]:
+            - generic [ref=e272]: Apr 10, 2026 —
+            - generic [ref=e273]:
+              - text: ... Where To Eat When You're Visiting
+              - emphasis [ref=e274]: Los Angeles
+              - text: image. Where To Eat When You're Visiting
+              - emphasis [ref=e275]: Los Angeles
+              - text: . The
+              - emphasis [ref=e276]: best restaurants
+              - text: to ...
+            - link "Read more" [ref=e277] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-new-los-angeles-restaurants-hit-list#:~:text=Written%20By
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e280] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/best-new-los-angeles-restaurants-hit-list
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e282]
+        - generic [ref=e286]:
+          - generic [ref=e289]:
+            - link "The 16 Best Restaurants In Los Feliz - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e291] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-los-feliz
+              - heading "The 16 Best Restaurants In Los Feliz - Los Angeles" [level=3] [ref=e292]
+              - generic [ref=e297]:
+                - generic [ref=e299]: The Infatuation
+                - generic [ref=e301]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e308]:
+            - generic [ref=e309]: Jan 23, 2026 —
+            - generic [ref=e310]:
+              - text: A guide to the hillside neighborhood's
+              - emphasis [ref=e311]: best restaurants
+              - text: and bars.
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e314] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-los-feliz
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e316]
+        - generic [ref=e320]:
+          - generic [ref=e323]:
+            - link "The Best Restaurants In West Hollywood - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e325] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-west-hollywood
+              - heading "The Best Restaurants In West Hollywood - Los Angeles" [level=3] [ref=e326]
+              - generic [ref=e331]:
+                - generic [ref=e333]: The Infatuation
+                - generic [ref=e335]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e336] [cursor=pointer]:
+              - img [ref=e339]
+          - generic [ref=e342]:
+            - generic [ref=e343]: Apr 8, 2026 —
+            - generic [ref=e344]:
+              - text: From Old Hollywood classics to high-end sushi bars, here are the
+              - emphasis [ref=e345]: best restaurants
+              - text: in West Hollywood.
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e348] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-west-hollywood
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e350]
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - link "The Best Restaurants In Downtown LA - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e359] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-downtown-la
+              - heading "The Best Restaurants In Downtown LA - Los Angeles" [level=3] [ref=e360]
+              - generic [ref=e365]:
+                - generic [ref=e367]: The Infatuation
+                - generic [ref=e369]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e370] [cursor=pointer]:
+              - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]: Jul 10, 2025 —
+            - generic [ref=e378]:
+              - text: All the
+              - emphasis [ref=e379]: best restaurants
+              - text: and bars within walking distance of
+              - emphasis [ref=e380]: LA
+              - text: Live and Crypto.com Arena.
+            - link "Read more" [ref=e381] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-downtown-la#:~:text=All%20the%20best%20restaurants%20and,LA%20Live%20and%20Crypto.com%20Arena.
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e384] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-in-downtown-la
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e386]
+        - generic [ref=e390]:
+          - generic [ref=e393]:
+            - link "The Best Restaurants In South LA - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e395] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams
+              - heading "The Best Restaurants In South LA - Los Angeles" [level=3] [ref=e396]
+              - generic [ref=e401]:
+                - generic [ref=e403]: The Infatuation
+                - generic [ref=e405]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e406] [cursor=pointer]:
+              - img [ref=e409]
+          - generic [ref=e412]:
+            - generic [ref=e413]: Jan 13, 2022 —
+            - generic [ref=e414]:
+              - text: The
+              - emphasis [ref=e415]: Best Restaurants
+              - text: In South
+              - emphasis [ref=e416]: LA
+              - text: . The 26 best places to eat in South
+              - emphasis [ref=e417]: LA
+              - text: ", from Windsor Hills to Watts."
+            - link "Read more" [ref=e418] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams#:~:text=The%20Best%20Restaurants%20In%20South,from%20Windsor%20Hills%20to%20Watts.
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e421] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e423]
+          - list [ref=e425]:
+            - listitem [ref=e426]:
+              - link "Tacos Los Güichos" [ref=e427] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams#:~:text=Tacos%20Los%20G%C3%BCichos
+                - generic [ref=e429]: Tacos Los Güichos
+            - listitem [ref=e430]:
+              - link "Post & Beam" [ref=e431] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams#:~:text=Post%20%26%20Beam,-This%20spot%20is%20Permanently%20Closed
+                - generic [ref=e433]: Post & Beam
+            - listitem [ref=e434]:
+              - link "Alta Adams" [ref=e435] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/best-food-restaurants-south-los-angeles-south-central-inglewood-watts-west-adams#:~:text=Alta%20Adams,-This%20spot%20is%20Temporarily%20Closed
+                - generic [ref=e437]: Alta Adams
+        - generic [ref=e441]:
+          - generic [ref=e444]:
+            - link "The Infatuation The Infatuation https://www.theinfatuation.com" [ref=e446] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/
+              - heading "The Infatuation" [level=3] [ref=e447]
+              - generic [ref=e452]:
+                - generic [ref=e454]: The Infatuation
+                - generic [ref=e456]: https://www.theinfatuation.com
+            - button "About this result" [ref=e457] [cursor=pointer]:
+              - img [ref=e460]
+          - generic [ref=e464]:
+            - text: Find the
+            - emphasis [ref=e465]: best restaurants
+            - text: around the world.
+        - generic [ref=e469]:
+          - generic [ref=e472]:
+            - link "Where To Eat If You're Traveling To Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › collection" [ref=e474] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/collection/losangeles-restaurants-travel
+              - heading "Where To Eat If You're Traveling To Los Angeles" [level=3] [ref=e475]
+              - generic [ref=e480]:
+                - generic [ref=e482]: The Infatuation
+                - generic [ref=e484]: https://www.theinfatuation.com › los-angeles › collection
+            - button "About this result" [ref=e485] [cursor=pointer]:
+              - img [ref=e488]
+          - generic [ref=e491]:
+            - generic [ref=e492]: Mar 15, 2024 —
+            - generic [ref=e493]:
+              - text: ...
+              - emphasis [ref=e494]: Los Angeles
+              - text: image. Where To Eat When You're Visiting
+              - emphasis [ref=e495]: Los Angeles
+              - text: ". Table setting at Anajak Thai. Top 25: The"
+              - emphasis [ref=e496]: Best Restaurants
+              - text: In
+              - emphasis [ref=e497]: LA
+              - text: . Little Fish ...
+            - link "Read more" [ref=e498] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/collection/losangeles-restaurants-travel#:~:text=Where%20To%20Eat%20When%20You're,The%20Best%20Restaurants%20In%20LA
+          - link "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e501] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/collection/losangeles-restaurants-travel
+            - img "site:theinfatuation.com los angeles Westwood OR UCLA OR \"best restaurants\" from www.theinfatuation.com" [ref=e503]
+      - navigation [ref=e506]:
+        - heading "Page Navigation" [level=1] [ref=e507]
+        - text: "1"
+        - link "Page 2" [ref=e510] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=10&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAE
+          - text: "2"
+        - link "Page 3" [ref=e512] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=20&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAG
+          - text: "3"
+        - link "Page 4" [ref=e514] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=30&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAI
+          - text: "4"
+        - link "Page 5" [ref=e516] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=40&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAK
+          - text: "5"
+        - link "Page 6" [ref=e518] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=50&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAM
+          - text: "6"
+        - link "Page 7" [ref=e520] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=60&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAO
+          - text: "7"
+        - link "Page 8" [ref=e522] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=70&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAQ
+          - text: "8"
+        - link "Page 9" [ref=e524] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=80&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAS
+          - text: "9"
+        - link "Page 10" [ref=e526] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=90&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8tMDegQILRAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e528]:
+          - link "Next" [ref=e529] [cursor=pointer]:
+            - /url: /search?q=site:theinfatuation.com+los+angeles+Westwood+OR+UCLA+OR+%22best+restaurants%22&sca_esv=33b5970ecd4ab1db&ei=2R3qac_kEvGz5NoP0I3quAE&start=10&sa=N&sstk=Af77f_efMvVYZuj57FylMOVJwjfzguAs-jGs2jEv0q7ni-f2qLeiR8krUI6x0RiTgon5fTzYrCx6ZGmUdynQrHOWZhf1yzNeyViFbQ&ved=2ahUKEwiPtdSviYSUAxXxGVkFHdCGGhcQ8NMDegQILRAW
+            - generic [ref=e531]: Next
+      - navigation
+    - contentinfo [ref=e532]:
+      - heading "Footer Links" [level=1] [ref=e533]
+      - generic [ref=e537]:
+        - generic [ref=e541]:
+          - button "15213, Pittsburgh, PA - From your IP address" [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]: 15213, Pittsburgh, PA
+            - generic [ref=e546]:
+              - text: "-"
+              - generic [ref=e547]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e549] [cursor=pointer]: Update location
+        - generic [ref=e552]:
+          - link "Help" [ref=e553] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e554] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e555] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e556] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

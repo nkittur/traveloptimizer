@@ -1,0 +1,317 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"best restaurants\" asheville site:ashvegas.com OR site:ashevillecitizen.com OR site:ashevillemade.com OR site:mountainx.com \"best restaurants\" asheville site:ashvegas.com OR site:ashevillecitizen.com OR site:ashevillemade.com OR site:mountainx.com"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522best%2Brestaurants%2522%2Basheville%2Bsite%253Aashvegas.com%2BOR%2Bsite%253Aashevillecitizen.com%2BOR%2Bsite%253Aashevillemade.com%2BOR%2Bsite%253Amountainx.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&aep=1&ntc=1&sa=X&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q2J8OegQIEhAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Qs6gLegQIGBAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4QtKgLegQIFxAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Maps" [ref=e95] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e97]: Maps
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Qs6gLegQIFRAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "Videos" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJHYjZaL4sIMw3ktzB8qRafggCLoL_NTBLAtvH1tHLXLRbxyb4NJex8V3Ja5mnFAsnUFLer5iTzewPOOPnoWEXEzDDBlqoqz8jntQG4COHKbUkzyhiSQSigzPbBPhTayTyQsUR4g&q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4QtKgLegQIFBAB
+              - generic [ref=e105]: Videos
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Asheville's Best Restaurants Archives Ashvegas https://ashvegas.com › tag › ashevilles-best-restaurants" [ref=e142] [cursor=pointer]:
+                - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/
+                - heading "Asheville's Best Restaurants Archives" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Ashvegas
+                  - generic [ref=e152]: https://ashvegas.com › tag › ashevilles-best-restaurants
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - emphasis [ref=e161]: Asheville's Best Restaurants
+                - text: ". FROM OUR SPONSORS:"
+                - emphasis [ref=e162]: Asheville
+                - text: food and drink · 2017 STOOBIE AWARDS! Best of
+                - emphasis [ref=e163]: Asheville
+                - text: "Food Scene prt 4: BEST of the BEST · Stu Helm ..."
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/#:~:text=Asheville's%20Best%20Restaurants,Stu%20Helm%20January%2030%2C%202018
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "Stu Helm's 2017 Stoobie Awards \"Best of Asheville Food ... Ashvegas https://ashvegas.com › amp › 2017-stoobie-awards-best..." [ref=e173] [cursor=pointer]:
+              - /url: https://ashvegas.com/amp/2017-stoobie-awards-best-asheville-food-pt-3/
+              - heading "Stu Helm's 2017 Stoobie Awards \"Best of Asheville Food ..." [level=3] [ref=e174]
+              - generic [ref=e179]:
+                - generic [ref=e181]: Ashvegas
+                - generic [ref=e183]: https://ashvegas.com › amp › 2017-stoobie-awards-best...
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]: Jan 15, 2018 —
+            - generic [ref=e192]:
+              - text: They own and operate two of the
+              - emphasis [ref=e193]: best restaurants
+              - text: in
+              - emphasis [ref=e194]: Asheville
+              - text: ", or depending on who you're talking to, the two"
+              - emphasis [ref=e195]: best restaurants
+              - text: in town. They ...
+            - link "Read more" [ref=e196] [cursor=pointer]:
+              - /url: https://ashvegas.com/amp/2017-stoobie-awards-best-asheville-food-pt-3/#:~:text=They%20own%20and%20operate%20two,help%20combat%20hunger%20in%20WNC.
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - link "A moveable feast Mountain Xpress https://mountainx.com › news › community-news › a_m..." [ref=e205] [cursor=pointer]:
+              - /url: https://mountainx.com/news/community-news/a_moveable_feast-2/
+              - heading "A moveable feast" [level=3] [ref=e206]
+              - generic [ref=e211]:
+                - generic [ref=e213]: Mountain Xpress
+                - generic [ref=e215]: https://mountainx.com › news › community-news › a_m...
+            - button "About this result" [ref=e216] [cursor=pointer]:
+              - img [ref=e219]
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - text: This is definitely one of the
+              - emphasis [ref=e224]: best restaurants
+              - text: in
+              - emphasis [ref=e225]: Asheville
+              - text: ", so I hope they thrive in their new location. The food is wonderful, and the prices are great ..."
+            - link "Read more" [ref=e226] [cursor=pointer]:
+              - /url: https://mountainx.com/news/community-news/a_moveable_feast-2/#:~:text=This%20is%20definitely%20one%20of,and%20the%20prices%20are%20great.
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - link "Asheville's Best Restaurants Archives Ashvegas https://ashvegas.com › tag › ashevilles-best-restaurants" [ref=e235] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=5
+              - heading "Asheville's Best Restaurants Archives" [level=3] [ref=e236]
+              - generic [ref=e241]:
+                - generic [ref=e243]: Ashvegas
+                - generic [ref=e245]: https://ashvegas.com › tag › ashevilles-best-restaurants
+            - button "About this result" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - emphasis [ref=e254]: Asheville's Best Restaurants
+              - text: ". FROM OUR SPONSORS: Merlefest."
+              - emphasis [ref=e255]: Asheville
+              - text: food and drink · 2017 STOOBIE AWARDS! Best of
+              - emphasis [ref=e256]: Asheville
+              - text: "Food Scene prt 4: BEST of the BEST."
+            - link "Read more" [ref=e257] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=5#:~:text=Asheville's%20Best%20Restaurants,4%3A%20BEST%20of%20the%20BEST
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "Fooding Around Asheville! Food Tours, Pop-Ups and a ... Ashvegas https://ashvegas.com › fooding-around-town-asheville" [ref=e266] [cursor=pointer]:
+              - /url: https://ashvegas.com/fooding-around-town-asheville/
+              - heading "Fooding Around Asheville! Food Tours, Pop-Ups and a ..." [level=3] [ref=e267]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Ashvegas
+                - generic [ref=e276]: https://ashvegas.com › fooding-around-town-asheville
+            - button "About this result" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+          - generic [ref=e283]:
+            - generic [ref=e284]: Aug 9, 2016 —
+            - generic [ref=e285]:
+              - text: Gosh, I love this town, and these special dinners that happen in some of the
+              - emphasis [ref=e286]: best restaurants
+              - text: "! Screen shot 2016-08-09 at 9.37.03 AM. PS – The ..."
+            - link "Read more" [ref=e287] [cursor=pointer]:
+              - /url: https://ashvegas.com/fooding-around-town-asheville/#:~:text=Gosh%2C%20I%20love%20this%20town%2C,PS%20%E2%80%93%20The
+        - generic [ref=e291]:
+          - generic [ref=e294]:
+            - link "Asheville's Best Restaurants Archives Ashvegas https://ashvegas.com › tag › ashevilles-best-restaurants" [ref=e296] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=33
+              - heading "Asheville's Best Restaurants Archives" [level=3] [ref=e297]
+              - generic [ref=e302]:
+                - generic [ref=e304]: Ashvegas
+                - generic [ref=e306]: https://ashvegas.com › tag › ashevilles-best-restaurants
+            - button "About this result" [ref=e307] [cursor=pointer]:
+              - img [ref=e310]
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - emphasis [ref=e315]: Asheville's Best Restaurants
+              - text: ". FROM OUR SPONSORS:"
+              - emphasis [ref=e316]: Asheville
+              - text: food and drink · 2017 STOOBIE AWARDS! Best of
+              - emphasis [ref=e317]: Asheville
+              - text: "Food Scene prt 4: BEST of the BEST · Stu Helm ..."
+            - link "Read more" [ref=e318] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=33#:~:text=Asheville's%20Best%20Restaurants,Stu%20Helm%20January%2030%2C%202018
+        - generic [ref=e322]:
+          - generic [ref=e325]:
+            - link "Late night at The Admiral, Asheville's best restaurant Ashvegas https://ashvegas.com › late-night-at-the-admiral-ashevill..." [ref=e327] [cursor=pointer]:
+              - /url: https://ashvegas.com/late-night-at-the-admiral-ashevilles-best-restaurant/
+              - heading "Late night at The Admiral, Asheville's best restaurant" [level=3] [ref=e328]
+              - generic [ref=e333]:
+                - generic [ref=e335]: Ashvegas
+                - generic [ref=e337]: https://ashvegas.com › late-night-at-the-admiral-ashevill...
+            - button "About this result" [ref=e338] [cursor=pointer]:
+              - img [ref=e341]
+          - generic [ref=e344]:
+            - generic [ref=e345]: Dec 15, 2009 —
+            - generic [ref=e346]:
+              - text: Excellent food, knowledgable servers, and a creative menu make for one of the
+              - emphasis [ref=e347]: best restaurants
+              - text: in
+              - emphasis [ref=e348]: asheville
+              - text: . I know they do a switch between ...
+            - link "Read more" [ref=e349] [cursor=pointer]:
+              - /url: https://ashvegas.com/late-night-at-the-admiral-ashevilles-best-restaurant/#:~:text=Excellent%20food%2C%20knowledgable%20servers%2C%20and,they%20stop%20doing%20table%20service.
+        - generic [ref=e353]:
+          - generic [ref=e356]:
+            - link "Stu Helm's 2017 Stoobie Awards \"Best of Asheville Food ... Ashvegas https://ashvegas.com › 2017-stoobie-awards-best-ashevi..." [ref=e358] [cursor=pointer]:
+              - /url: https://ashvegas.com/2017-stoobie-awards-best-asheville-food-pt-4/
+              - heading "Stu Helm's 2017 Stoobie Awards \"Best of Asheville Food ..." [level=3] [ref=e359]
+              - generic [ref=e364]:
+                - generic [ref=e366]: Ashvegas
+                - generic [ref=e368]: https://ashvegas.com › 2017-stoobie-awards-best-ashevi...
+            - button "About this result" [ref=e369] [cursor=pointer]:
+              - img [ref=e372]
+          - generic [ref=e375]:
+            - generic [ref=e376]: Jan 30, 2018 —
+            - generic [ref=e377]:
+              - text: In Part 4 of his annual "Best Of
+              - emphasis [ref=e378]: Asheville
+              - text: "\" Stoobie Awards Stu wraps-it-up with The Best of the Best! Best Restaurant! Best Event!"
+        - generic [ref=e382]:
+          - generic [ref=e385]:
+            - link "Asheville's Best Restaurants Archives Ashvegas https://ashvegas.com › tag › ashevilles-best-restaurants" [ref=e387] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=4
+              - heading "Asheville's Best Restaurants Archives" [level=3] [ref=e388]
+              - generic [ref=e393]:
+                - generic [ref=e395]: Ashvegas
+                - generic [ref=e397]: https://ashvegas.com › tag › ashevilles-best-restaurants
+            - button "About this result" [ref=e398] [cursor=pointer]:
+              - img [ref=e401]
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - emphasis [ref=e406]: Asheville's Best Restaurants
+              - text: ". FROM OUR SPONSORS: Merlefest."
+              - emphasis [ref=e407]: Asheville
+              - text: food and drink · 2017 STOOBIE AWARDS! Best of
+              - emphasis [ref=e408]: Asheville
+              - text: "Food Scene prt 4: BEST of the BEST."
+            - link "Read more" [ref=e409] [cursor=pointer]:
+              - /url: https://ashvegas.com/tag/ashevilles-best-restaurants/?_page=4#:~:text=Asheville's%20Best%20Restaurants,4%3A%20BEST%20of%20the%20BEST
+        - generic [ref=e413]:
+          - generic [ref=e416]:
+            - link "Still Coo-Rah-Tay-zy After All these Years. Asheville's Best Ashvegas https://ashvegas.com › curate-still-coo-rah-tay-zy" [ref=e418] [cursor=pointer]:
+              - /url: https://ashvegas.com/curate-still-coo-rah-tay-zy/
+              - heading "Still Coo-Rah-Tay-zy After All these Years. Asheville's Best" [level=3] [ref=e419]
+              - generic [ref=e424]:
+                - generic [ref=e426]: Ashvegas
+                - generic [ref=e428]: https://ashvegas.com › curate-still-coo-rah-tay-zy
+            - button "About this result" [ref=e429] [cursor=pointer]:
+              - img [ref=e432]
+          - generic [ref=e435]:
+            - generic [ref=e436]: Nov 3, 2016 —
+            - generic [ref=e437]:
+              - text: ...
+              - emphasis [ref=e438]: best restaurants
+              - text: in the country, rubbed elbows with US Presidents ... By Sally Kestin,
+              - emphasis [ref=e439]: Asheville
+              - text: Watchdog The
+              - emphasis [ref=e440]: Asheville
+              - text: Art Museum ...
+            - link "Read more" [ref=e441] [cursor=pointer]:
+              - /url: https://ashvegas.com/curate-still-coo-rah-tay-zy/#:~:text=best%20restaurants%20in%20the%20country%2C,every%20serious%20eater%20in%20St.&text=By%20Sally%20Kestin%2C%20Asheville%20Watchdog,downtown%20heart%20of%20Pack%20%E2%80%A6
+      - navigation [ref=e444]:
+        - heading "Page Navigation" [level=1] [ref=e445]
+        - text: "1"
+        - link "Page 2" [ref=e448] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=xrvdad7LKuKn5NoPu4WA8QE&start=10&sa=N&sstk=Af77f_fsgV-0sYFy0dfnZ-fmwOHNeUhcjQMU1Lq2PvlhISJHXx2La6osUZfZLrndrFdRGd3_hFD6r4BPOXGdFWLYIE5d3oMTwnDX8w&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q8tMDegQIKxAE
+          - text: "2"
+        - link "Page 3" [ref=e450] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=xrvdad7LKuKn5NoPu4WA8QE&start=20&sa=N&sstk=Af77f_fsgV-0sYFy0dfnZ-fmwOHNeUhcjQMU1Lq2PvlhISJHXx2La6osUZfZLrndrFdRGd3_hFD6r4BPOXGdFWLYIE5d3oMTwnDX8w&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q8tMDegQIKxAG
+          - text: "3"
+        - link "Page 4" [ref=e452] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=xrvdad7LKuKn5NoPu4WA8QE&start=30&sa=N&sstk=Af77f_fsgV-0sYFy0dfnZ-fmwOHNeUhcjQMU1Lq2PvlhISJHXx2La6osUZfZLrndrFdRGd3_hFD6r4BPOXGdFWLYIE5d3oMTwnDX8w&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q8tMDegQIKxAI
+          - text: "4"
+        - link "Page 5" [ref=e454] [cursor=pointer]:
+          - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=xrvdad7LKuKn5NoPu4WA8QE&start=40&sa=N&sstk=Af77f_fsgV-0sYFy0dfnZ-fmwOHNeUhcjQMU1Lq2PvlhISJHXx2La6osUZfZLrndrFdRGd3_hFD6r4BPOXGdFWLYIE5d3oMTwnDX8w&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q8tMDegQIKxAK
+          - text: "5"
+        - heading "Next" [level=2] [ref=e456]:
+          - link "Next" [ref=e457] [cursor=pointer]:
+            - /url: /search?q=%22best+restaurants%22+asheville+site:ashvegas.com+OR+site:ashevillecitizen.com+OR+site:ashevillemade.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=xrvdad7LKuKn5NoPu4WA8QE&start=10&sa=N&sstk=Af77f_fsgV-0sYFy0dfnZ-fmwOHNeUhcjQMU1Lq2PvlhISJHXx2La6osUZfZLrndrFdRGd3_hFD6r4BPOXGdFWLYIE5d3oMTwnDX8w&ved=2ahUKEwjexvKTuuyTAxXiE1kFHbsCIB4Q8NMDegQIKxAM
+            - generic [ref=e459]: Next
+      - navigation
+    - contentinfo [ref=e460]:
+      - heading "Footer Links" [level=1] [ref=e461]
+      - generic [ref=e465]:
+        - generic [ref=e469]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e471] [cursor=pointer]:
+            - generic [ref=e472]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e474]:
+              - text: "-"
+              - generic [ref=e475]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e477] [cursor=pointer]: Update location
+        - generic [ref=e480]:
+          - link "Help" [ref=e481] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e482] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e483] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e484] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

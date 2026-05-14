@@ -1,0 +1,54 @@
+[    1485ms] [LOG] DOM isReady:  1471 @ https://assets-cdn.nationalgeographic.com/natgeo/8a01f2e3d96e-release-04-22-2026.0/client/natgeo/9117-47d6a187.js:0
+[    1654ms] [LOG] 19:21:22.401 [Playback Service: Device Detection:] Library Detection and User Agent Detection Do Not Match @ https://hiveplayer-static.bamgrid.com/artifacts/hive/playback-service/26.2.0-bagheera/all_browser_es5/playback-service.js:1
+[    1654ms] [LOG] 19:21:22.402 [Playback Service: Device Detection:] Library Detected: undefined, UA Detected: chrome @ https://hiveplayer-static.bamgrid.com/artifacts/hive/playback-service/26.2.0-bagheera/all_browser_es5/playback-service.js:1
+[    2040ms] [ERROR] Scope is not present @ https://login.disney.com/en-US/us/DTCI-NATGEO.CONSUMER.WEB/v5/bridge/web:0
+[    2040ms] [LOG] No bridge detected @ https://login.disney.com/en-US/us/DTCI-NATGEO.CONSUMER.WEB/v5/bridge/web:0
+[    2111ms] [WARNING] Datadog Browser SDK: No storage available for session. We will not send any data. @ https://login.disney.com/_next/static/chunks/7738-d90cd4784ea0ab97.js?dpl=114cb3a39009dd355650917526638e571aaefc19:0
+[    2274ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_coppa=true&ts=1777317682934' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:0
+[    2282ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_coppa=true&ts=1777317682934:0
+[    2321ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js:18
+[    2324ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js:18
+[    2325ms] [WARNING] [GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {"isDnt":false}
+https://goo.gle/gpt-message#159 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js:18
+[    2352ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317683038' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:0
+[    2355ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317683038:0
+[    2448ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317683151' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:0
+[    2453ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317683151:0
+[    2463ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    2465ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    2468ms] [ERROR] [ERROR] Error during tokenRefresh:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    2468ms] [ERROR] [ERROR] Failed to return token fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    2471ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    3057ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:0
+[    4113ms] [LOG] [19:21:24.859Z] [32mINFO[39m {appid: IDENTITY-SDK-V5, lightbox_version: 1.0.830, sdk_version: web v5 1.0.830, platform: web, git_sha: 114cb3a39009dd355650917526638e571aaefc19} @ https://login.disney.com/_next/static/chunks/958-4eb4d446ab212851.js?dpl=114cb3a39009dd355650917526638e571aaefc19:0
+[    6304ms] [LOG] received a request for uspapi @ https://cdn.espn.com/onetrust/otCCPAiab.js:95
+[    7009ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317687743' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/article/best-of-the-world-2026:0
+[    7011ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777317687743:0
+[    7408ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.search.spotxchange.com/partner?adv_id=7715&uid=4858193757785939640:0

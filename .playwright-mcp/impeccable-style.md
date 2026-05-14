@@ -1,0 +1,603 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - navigation "Page sections" [ref=e3]:
+    - link "01 Anti-Patterns" [ref=e4] [cursor=pointer]:
+      - /url: "#antidote"
+      - generic [ref=e5]: "01"
+      - generic [ref=e6]: Anti-Patterns
+    - link "02 Framework" [ref=e7] [cursor=pointer]:
+      - /url: "#solution"
+      - generic [ref=e8]: "02"
+      - generic [ref=e9]: Framework
+    - link "03 Commands" [ref=e10] [cursor=pointer]:
+      - /url: "#commands-section"
+      - generic [ref=e11]: "03"
+      - generic [ref=e12]: Commands
+    - link "04 Install" [ref=e13] [cursor=pointer]:
+      - /url: "#downloads"
+      - generic [ref=e14]: "04"
+      - generic [ref=e15]: Install
+    - link "05 Changelog" [ref=e16] [cursor=pointer]:
+      - /url: "#changelog"
+      - generic [ref=e17]: "05"
+      - generic [ref=e18]: Changelog
+    - link "06 FAQ" [ref=e19] [cursor=pointer]:
+      - /url: "#faq"
+      - generic [ref=e20]: "06"
+      - generic [ref=e21]: FAQ
+  - generic [ref=e22]:
+    - link "View on GitHub" [ref=e23] [cursor=pointer]:
+      - /url: https://github.com/pbakaus/impeccable
+      - img [ref=e24]
+      - generic [ref=e26]: 13.3k
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Impeccable" [level=1] [ref=e29]
+        - paragraph [ref=e30]: Design fluency for AI harnesses
+        - paragraph [ref=e31]: Great design prompts require design vocabulary. Most people don't have it. You can't ask for "more vertical rhythm" if you've never used those words. Impeccable gives you commands that put designer language in your hands.
+        - generic [ref=e32]:
+          - generic [ref=e33]: What's included
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - text: Enhanced
+              - emphasis [ref=e36]: frontend-design
+              - text: skill + anti-patterns
+            - generic [ref=e37]: ·
+            - generic [ref=e38]: "20 design skills: /polish, /audit, /typeset, /overdrive..."
+        - generic [ref=e39]:
+          - link "Get Started" [ref=e40] [cursor=pointer]:
+            - /url: "#downloads"
+          - generic [ref=e41]:
+            - generic [ref=e42]: Works with
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - img "Cursor" [ref=e45]
+                - text: Cursor
+              - generic [ref=e46]:
+                - img "Claude Code" [ref=e47]
+                - text: Claude Code
+              - generic [ref=e48]:
+                - img "Gemini CLI" [ref=e49]
+                - text: Gemini CLI
+              - generic [ref=e50]:
+                - img "Codex CLI" [ref=e51]
+                - text: Codex CLI
+              - generic [ref=e52]:
+                - img "VS Code Copilot" [ref=e53]
+                - text: VS Code Copilot
+              - generic [ref=e54]:
+                - img "Antigravity" [ref=e55]
+                - text: Antigravity
+              - generic [ref=e56]:
+                - img "Kiro" [ref=e57]
+                - text: Kiro
+              - generic [ref=e58]:
+                - img "OpenCode" [ref=e59]
+                - text: OpenCode
+              - generic [ref=e60]:
+                - img "Pi" [ref=e61]
+                - text: Pi
+        - paragraph [ref=e62]:
+          - link "v1.6.0 — Trae support, scoring for /critique and /audit, build overhaul" [ref=e63] [cursor=pointer]:
+            - /url: "#changelog"
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic: Before
+            - generic [ref=e68]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: Welcome to Our Platform
+                - generic [ref=e73]: The best solution for your needs
+              - paragraph [ref=e74]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is generic placeholder text.
+              - button "Get Started" [ref=e75] [cursor=pointer]
+            - generic:
+              - generic: Inter font (again)
+              - generic: Purple gradient
+              - generic: Generic copy
+              - generic: Cards on cards
+          - generic [ref=e76]:
+            - generic: After
+            - generic [ref=e77]:
+              - paragraph [ref=e78]: Introducing
+              - heading "Thoughtful Design" [level=3] [ref=e79]
+              - paragraph [ref=e80]: Every element serves a purpose. Hierarchy guides the eye. Whitespace breathes.
+              - button "Explore" [ref=e81] [cursor=pointer]
+          - text: ← Drag →
+        - generic [ref=e82]:
+          - generic [ref=e85]: Generic AI Output
+          - generic [ref=e88]: With Design Skills
+  - main [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: "01"
+        - heading "The Antidote" [level=2] [ref=e93]
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: Anthropic's original frontend-design skill laid the foundation. Impeccable builds on it with curated patterns and anti-patterns across typography, color, layout, motion, and more.
+        - generic [ref=e96]:
+          - tablist "Pattern categories" [ref=e97]:
+            - tab "Typography" [selected] [ref=e98] [cursor=pointer]
+            - tab "Color & Contrast" [ref=e99] [cursor=pointer]
+            - tab "Layout & Space" [ref=e100] [cursor=pointer]
+            - tab "Visual Details" [ref=e101] [cursor=pointer]
+            - tab "Motion" [ref=e102] [cursor=pointer]
+            - tab "Interaction" [ref=e103] [cursor=pointer]
+            - tab "Responsive" [ref=e104] [cursor=pointer]
+            - tab "UX Writing" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - tabpanel "Typography" [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Don't
+                  - list "Don't" [ref=e111]:
+                    - listitem [ref=e112]: × Use overused fonts—Inter, Roboto, Arial, Open Sans, system defaults
+                    - listitem [ref=e113]: × Use monospace typography as lazy shorthand for "technical/developer" vibes
+                    - listitem [ref=e114]: × Put large icons with rounded corners above every heading—they rarely add value and make sites look templated
+                - generic [ref=e115]:
+                  - generic [ref=e116]: Do
+                  - list "Do" [ref=e117]:
+                    - listitem [ref=e118]: ✓ Use a modular type scale with fluid sizing (clamp)
+                    - listitem [ref=e119]: ✓ Vary font weights and sizes to create clear visual hierarchy
+            - text: × × × × × ✓ ✓ × × × × × × ✓ ✓ ✓ × × × × × ✓ × × ✓ ✓ ✓ × × ✓ ✓ ✓ × ✓ ✓ × ✓
+        - paragraph [ref=e120]:
+          - text: Missing something?
+          - link "Suggest a pattern →" [ref=e121] [cursor=pointer]:
+            - /url: https://github.com/pbakaus/impeccable/issues/new?labels=pattern&title=Pattern%20suggestion%3A%20
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]: "02"
+        - heading "The Framework" [level=2] [ref=e125]
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: One comprehensive skill with deep expertise, plus 20 commands that form the language of design.
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: Diagnostic
+            - generic [ref=e132]:
+              - button "/audit command - Diagnostic" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]: "1"
+                - generic [ref=e135]: Au
+                - generic [ref=e136]: /audit
+              - button "/critique command - Diagnostic" [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]: "2"
+                - generic [ref=e139]: Cr
+                - generic [ref=e140]: /critique
+          - generic [ref=e141]:
+            - generic [ref=e142]: Quality
+            - generic [ref=e143]:
+              - button "/normalize command - Quality" [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]: "3"
+                - generic [ref=e146]: "No"
+                - generic [ref=e147]: /normalize
+              - button "/polish command - Quality" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]: "4"
+                - generic [ref=e150]: Po
+                - generic [ref=e151]: /polish
+              - button "/optimize command - Quality" [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]: "5"
+                - generic [ref=e154]: Op
+                - generic [ref=e155]: /optimize
+              - button "/harden command - Quality" [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: "6"
+                - generic [ref=e158]: Ha
+                - generic [ref=e159]: /harden
+          - generic [ref=e160]:
+            - generic [ref=e161]: Adaptation
+            - generic [ref=e162]:
+              - button "/clarify command - Adaptation" [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]: "7"
+                - generic [ref=e165]: Cl
+                - generic [ref=e166]: /clarify
+              - button "/distill command - Adaptation" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: "8"
+                - generic [ref=e169]: Di
+                - generic [ref=e170]: /distill
+              - button "/adapt command - Adaptation" [ref=e171] [cursor=pointer]:
+                - generic [ref=e172]: "9"
+                - generic [ref=e173]: Ad
+                - generic [ref=e174]: /adapt
+          - generic [ref=e175]:
+            - generic [ref=e176]: Enhancement
+            - generic [ref=e177]:
+              - button "/animate command - Enhancement" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: "11"
+                - generic [ref=e180]: An
+                - generic [ref=e181]: /animate
+              - button "/colorize command - Enhancement" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: "12"
+                - generic [ref=e184]: Co
+                - generic [ref=e185]: /colorize
+              - button "/delight command - Enhancement" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]: "13"
+                - generic [ref=e188]: De
+                - generic [ref=e189]: /delight
+              - button "/onboard command - Enhancement" [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]: "16"
+                - generic [ref=e192]: "On"
+                - generic [ref=e193]: /onboard
+              - button "/typeset command - Enhancement" [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: "17"
+                - generic [ref=e196]: Ty
+                - generic [ref=e197]: /typeset
+              - button "/arrange command - Enhancement" [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: "18"
+                - generic [ref=e200]: Ar
+                - generic [ref=e201]: /arrange
+              - button "/overdrive command - Enhancement" [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]: "19"
+                - generic [ref=e204]: Od
+                - generic [ref=e205]: /overdrive
+                - generic [ref=e206]: β
+          - generic [ref=e207]:
+            - generic [ref=e208]: Intensity
+            - generic [ref=e209]:
+              - button "/quieter command - Intensity" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: "15"
+                - generic [ref=e212]: Qu
+                - generic [ref=e213]: /quieter
+              - button "/bolder command - Intensity" [ref=e214] [cursor=pointer]:
+                - generic [ref=e215]: "14"
+                - generic [ref=e216]: Bo
+                - generic [ref=e217]: /bolder
+          - generic [ref=e218]:
+            - generic [ref=e219]: System
+            - generic [ref=e220]:
+              - button "/teach-impeccable command - System" [ref=e221] [cursor=pointer]:
+                - generic [ref=e222]: "0"
+                - generic [ref=e223]: Ti
+                - generic [ref=e224]: /teach-impeccable
+              - button "/extract command - System" [ref=e225] [cursor=pointer]:
+                - generic [ref=e226]: "10"
+                - generic [ref=e227]: Ex
+                - generic [ref=e228]: /extract
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - generic [ref=e231]: "03"
+        - heading "Commands in Action" [level=2] [ref=e232]
+        - paragraph [ref=e233]:
+          - text: Interactive demos for every command
+          - link "View cheatsheet →" [ref=e234] [cursor=pointer]:
+            - /url: /cheatsheet
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - generic [ref=e238]: Diagnose
+          - generic [ref=e239] [cursor=pointer]:
+            - heading "/critique" [level=3] [ref=e240]
+            - paragraph [ref=e241]: Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance,...
+            - generic [ref=e242]:
+              - generic [ref=e243]: →
+              - text: leads to
+              - code [ref=e244]: /polish
+              - text: ","
+              - code [ref=e245]: /distill
+              - text: ","
+              - code [ref=e246]: /bolder
+              - text: ","
+              - code [ref=e247]: /quieter
+              - text: ","
+              - code [ref=e248]: /typeset
+              - text: ","
+              - code [ref=e249]: /arrange
+          - generic [ref=e250] [cursor=pointer]:
+            - heading "/audit" [level=3] [ref=e251]
+            - paragraph [ref=e252]: Run technical quality checks across accessibility, performance, theming, responsive design, and anti-patterns.
+            - generic [ref=e253]:
+              - generic [ref=e254]: →
+              - text: leads to
+              - code [ref=e255]: /normalize
+              - text: ","
+              - code [ref=e256]: /harden
+              - text: ","
+              - code [ref=e257]: /optimize
+              - text: ","
+              - code [ref=e258]: /adapt
+              - text: ","
+              - code [ref=e259]: /clarify
+          - generic [ref=e260]: Quality
+          - generic [ref=e261] [cursor=pointer]:
+            - heading "/polish" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Performs a final quality pass fixing alignment, spacing, consistency, and micro-detail issues before shipping.
+          - generic [ref=e264] [cursor=pointer]:
+            - heading "/optimize" [level=3] [ref=e265]
+            - paragraph [ref=e266]: Diagnoses and fixes UI performance across loading speed, rendering, animations, images, and bundle size.
+          - generic [ref=e267] [cursor=pointer]:
+            - heading "/harden" [level=3] [ref=e268]
+            - paragraph [ref=e269]: Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case...
+            - generic [ref=e270]:
+              - generic [ref=e271]: +
+              - text: combines with
+              - code [ref=e272]: /optimize
+          - generic [ref=e273] [cursor=pointer]:
+            - heading "/normalize" [level=3] [ref=e274]
+            - paragraph [ref=e275]: Audits and realigns UI to match design system standards, spacing, tokens, and patterns.
+            - generic [ref=e276]:
+              - generic [ref=e277]: +
+              - text: combines with
+              - code [ref=e278]: /clarify
+              - text: ","
+              - code [ref=e279]: /adapt
+          - generic [ref=e280]: Intensity
+          - generic [ref=e281] [cursor=pointer]:
+            - heading "/bolder" [level=3] [ref=e282]
+            - paragraph [ref=e283]: Amplify safe or boring designs to make them more visually interesting and stimulating.
+            - generic [ref=e284]:
+              - generic [ref=e285]: ↔
+              - text: pairs with
+              - code [ref=e286]: /quieter
+          - generic [ref=e287] [cursor=pointer]:
+            - heading "/quieter" [level=3] [ref=e288]
+            - paragraph [ref=e289]: Tones down visually aggressive or overstimulating designs, reducing intensity while preserving quality.
+            - generic [ref=e290]:
+              - generic [ref=e291]: ↔
+              - text: pairs with
+              - code [ref=e292]: /bolder
+          - generic [ref=e293]: Adaptation
+          - generic [ref=e294] [cursor=pointer]:
+            - heading "/clarify" [level=3] [ref=e295]
+            - paragraph [ref=e296]: Improve unclear UX copy, error messages, microcopy, labels, and instructions to make interfaces easier to understand.
+            - generic [ref=e297]:
+              - generic [ref=e298]: +
+              - text: combines with
+              - code [ref=e299]: /normalize
+              - text: ","
+              - code [ref=e300]: /adapt
+          - generic [ref=e301] [cursor=pointer]:
+            - heading "/adapt" [level=3] [ref=e302]
+            - paragraph [ref=e303]: Adapt designs to work across different screen sizes, devices, contexts, or platforms.
+            - generic [ref=e304]:
+              - generic [ref=e305]: +
+              - text: combines with
+              - code [ref=e306]: /normalize
+              - text: ","
+              - code [ref=e307]: /clarify
+          - generic [ref=e308] [cursor=pointer]:
+            - heading "/distill" [level=3] [ref=e309]
+            - paragraph [ref=e310]: Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean.
+            - generic [ref=e311]:
+              - generic [ref=e312]: +
+              - text: combines with
+              - code [ref=e313]: /quieter
+              - text: ","
+              - code [ref=e314]: /normalize
+          - generic [ref=e315]: Enhancement
+          - generic [ref=e316] [cursor=pointer]:
+            - heading "/animate" [level=3] [ref=e317]
+            - paragraph [ref=e318]: Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve...
+            - generic [ref=e319]:
+              - generic [ref=e320]: +
+              - text: combines with
+              - code [ref=e321]: /delight
+          - generic [ref=e322] [cursor=pointer]:
+            - heading "/arrange" [level=3] [ref=e323]
+            - paragraph [ref=e324]: Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy.
+            - generic [ref=e325]:
+              - generic [ref=e326]: +
+              - text: combines with
+              - code [ref=e327]: /distill
+              - text: ","
+              - code [ref=e328]: /adapt
+          - generic [ref=e329] [cursor=pointer]:
+            - heading "/typeset" [level=3] [ref=e330]
+            - paragraph [ref=e331]: Improves typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional.
+            - generic [ref=e332]:
+              - generic [ref=e333]: +
+              - text: combines with
+              - code [ref=e334]: /bolder
+              - text: ","
+              - code [ref=e335]: /normalize
+          - generic [ref=e336] [cursor=pointer]:
+            - heading "/delight" [level=3] [ref=e337]
+            - paragraph [ref=e338]: Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use.
+            - generic [ref=e339]:
+              - generic [ref=e340]: +
+              - text: combines with
+              - code [ref=e341]: /bolder
+              - text: ","
+              - code [ref=e342]: /animate
+          - generic [ref=e343] [cursor=pointer]:
+            - heading "/colorize" [level=3] [ref=e344]
+            - paragraph [ref=e345]: Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and...
+            - generic [ref=e346]:
+              - generic [ref=e347]: +
+              - text: combines with
+              - code [ref=e348]: /bolder
+              - text: ","
+              - code [ref=e349]: /delight
+          - generic [ref=e350] [cursor=pointer]:
+            - heading "/onboard" [level=3] [ref=e351]
+            - paragraph [ref=e352]: Designs and improves onboarding flows, empty states, and first-run experiences to help users reach value quickly.
+            - generic [ref=e353]:
+              - generic [ref=e354]: +
+              - text: combines with
+              - code [ref=e355]: /clarify
+              - text: ","
+              - code [ref=e356]: /delight
+          - generic [ref=e357] [cursor=pointer]:
+            - heading "/overdrive BETA" [level=3] [ref=e358]
+            - paragraph [ref=e359]: Pushes interfaces past conventional limits with technically ambitious implementations — shaders, spring physics,...
+            - generic [ref=e360]:
+              - generic [ref=e361]: +
+              - text: combines with
+              - code [ref=e362]: /animate
+              - text: ","
+              - code [ref=e363]: /delight
+          - generic [ref=e364]: System
+          - generic [ref=e365] [cursor=pointer]:
+            - heading "/extract" [level=3] [ref=e366]
+            - paragraph [ref=e367]: Extract and consolidate reusable components, design tokens, and patterns into your design system.
+          - generic [ref=e368] [cursor=pointer]:
+            - heading "/teach-impeccable" [level=3] [ref=e369]
+            - paragraph [ref=e370]: One-time setup that gathers design context for your project and saves it to your AI config file.
+        - generic [ref=e372]:
+          - generic [ref=e373]:
+            - button "Demo" [ref=e374] [cursor=pointer]
+            - button "Source" [ref=e375] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - generic: animate.md
+              - generic: "--- name: animate description: \"Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight. Use when the user mentions adding animation, transitions, micro-interactions, motion design, hover effects, or making the UI feel more alive.\" argument-hint: \"[target]\" user-invocable: true --- Analyze a feature and strategically add animations and micro-interactions that enhance understanding, provide feedback, and create delight. ## MANDATORY PREPARATION Invoke {{command_prefix}}frontend-design — it contains design principles, anti-patterns, and the **Context Gathering Protocol**. Follow the protocol before proceeding — if no design context exists yet, you MUST run {{command_prefix}}teach-impeccable first. Additionally gather: performance constraints. --- ## Assess Animation Opportunities Analyze where motion would improve the experience: 1. **Identify static areas**: - **Missing feedback**: Actions without visual acknowledgment (button clicks, form submission, etc.) - **Jarring transitions**: Instant state changes that feel abrupt (show/hide, page loads, route changes) - **Unclear relationships**: Spatial or hierarchical relationships that aren't obvious - **Lack of delight**: Functional but joyless interactions - **Missed guidance**: Opportunities to direct attention or explain behavior 2. **Understand the context**: - What's the personality? (Playful vs serious, energetic vs calm) - What's the performance budget? (Mobile-first? Complex page?) - Who's the audience? (Motion-sensitive users? Power users who want speed?) - What matters most? (One hero animation vs many micro-interactions?) If any of these are unclear from the codebase, {{ask_instruction}} **CRITICAL**: Respect `prefers-reduced-motion`. Always provide non-animated alternatives for users who need them. ## Plan Animation Strategy Create a purposeful animation plan: - **Hero moment**: What's the ONE signature animation? (Page load? Hero section? Key interaction?) - **Feedback layer**: Which interactions need acknowledgment? - **Transition layer**: Which state changes need smoothing? - **Delight layer**: Where can we surprise and delight? **IMPORTANT**: One well-orchestrated experience beats scattered animations everywhere. Focus on high-impact moments. ## Implement Animations Add motion systematically across these categories: ### Entrance Animations - **Page load choreography**: Stagger element reveals (100-150ms delays), fade + slide combinations - **Hero section**: Dramatic entrance for primary content (scale, parallax, or creative effects) - **Content reveals**: Scroll-triggered animations using intersection observer - **Modal/drawer entry**: Smooth slide + fade, backdrop fade, focus management ### Micro-interactions - **Button feedback**: - Hover: Subtle scale (1.02-1.05), color shift, shadow increase - Click: Quick scale down then up (0.95 → 1), ripple effect - Loading: Spinner or pulse state - **Form interactions**: - Input focus: Border color transition, slight scale or glow - Validation: Shake on error, check mark on success, smooth color transitions - **Toggle switches**: Smooth slide + color transition (200-300ms) - **Checkboxes/radio**: Check mark animation, ripple effect - **Like/favorite**: Scale + rotation, particle effects, color transition ### State Transitions - **Show/hide**: Fade + slide (not instant), appropriate timing (200-300ms) - **Expand/collapse**: Height transition with overflow handling, icon rotation - **Loading states**: Skeleton screen fades, spinner animations, progress bars - **Success/error**: Color transitions, icon animations, gentle scale pulse - **Enable/disable**: Opacity transitions, cursor changes ### Navigation & Flow - **Page transitions**: Crossfade between routes, shared element transitions - **Tab switching**: Slide indicator, content fade/slide - **Carousel/slider**: Smooth transforms, snap points, momentum - **Scroll effects**: Parallax layers, sticky headers with state changes, scroll progress indicators ### Feedback & Guidance - **Hover hints**: Tooltip fade-ins, cursor changes, element highlights - **Drag & drop**: Lift effect (shadow + scale), drop zone highlights, smooth repositioning - **Copy/paste**: Brief highlight flash on paste, \"copied\" confirmation - **Focus flow**: Highlight path through form or workflow ### Delight Moments - **Empty states**: Subtle floating animations on illustrations - **Completed actions**: Confetti, check mark flourish, success celebrations - **Easter eggs**: Hidden interactions for discovery - **Contextual animation**: Weather effects, time-of-day themes, seasonal touches ## Technical Implementation Use appropriate techniques for each animation: ### Timing & Easing **Durations by purpose:** - **100-150ms**: Instant feedback (button press, toggle) - **200-300ms**: State changes (hover, menu open) - **300-500ms**: Layout changes (accordion, modal) - **500-800ms**: Entrance animations (page load) **Easing curves (use these, not CSS defaults):** ```css /* Recommended - natural deceleration */ --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1); /* Smooth, refined */ --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1); /* Slightly snappier */ --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1); /* Confident, decisive */ /* AVOID - feel dated and tacky */ /* bounce: cubic-bezier(0.34, 1.56, 0.64, 1); */ /* elastic: cubic-bezier(0.68, -0.6, 0.32, 1.6); */ ``` **Exit animations are faster than entrances.** Use ~75% of enter duration. ### CSS Animations ```css /* Prefer for simple, declarative animations */ - transitions for state changes - @keyframes for complex sequences - transform + opacity only (GPU-accelerated) ``` ### JavaScript Animation ```javascript /* Use for complex, interactive animations */ - Web Animations API for programmatic control - Framer Motion for React - GSAP for complex sequences ``` ### Performance - **GPU acceleration**: Use `transform` and `opacity`, avoid layout properties - **will-change**: Add sparingly for known expensive animations - **Reduce paint**: Minimize repaints, use `contain` where appropriate - **Monitor FPS**: Ensure 60fps on target devices ### Accessibility ```css @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } } ``` **NEVER**: - Use bounce or elastic easing curves—they feel dated and draw attention to the animation itself - Animate layout properties (width, height, top, left)—use transform instead - Use durations over 500ms for feedback—it feels laggy - Animate without purpose—every animation needs a reason - Ignore `prefers-reduced-motion`—this is an accessibility violation - Animate everything—animation fatigue makes interfaces feel exhausting - Block interaction during animations unless intentional ## Verify Quality Test animations thoroughly: - **Smooth at 60fps**: No jank on target devices - **Feels natural**: Easing curves feel organic, not robotic - **Appropriate timing**: Not too fast (jarring) or too slow (laggy) - **Reduced motion works**: Animations disabled or simplified appropriately - **Doesn't block**: Users can interact during/after animations - **Adds value**: Makes interface clearer or more delightful Remember: Motion should enhance understanding and provide feedback, not just add decoration. Animate with purpose, respect performance constraints, and always consider accessibility. Great animation is invisible - it just makes everything feel right."
+          - generic [ref=e377]:
+            - generic [ref=e382]: zsh — 80x24
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - generic [ref=e385]: ➜
+                - generic [ref=e386]: /animate
+              - generic [ref=e387]:
+                - text: 1. Identify...
+                - text: 2. Design...
+                - text: 3. Implement...
+                - text: 4. Polish...
+                - text: ✓ Complete
+              - generic [ref=e389]:
+                - generic [ref=e390]: ← Drag →
+                - generic [ref=e411]: Static layout → Choreographed entrance
+              - generic [ref=e413]: ➜
+    - generic [ref=e415]:
+      - generic [ref=e416]:
+        - generic [ref=e417]: "04"
+        - heading "Get Started" [level=2] [ref=e418]
+        - paragraph [ref=e419]: Two steps to impeccable design.
+      - generic [ref=e420]:
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - generic [ref=e423]: "1"
+            - generic [ref=e424]:
+              - heading "Install the skills" [level=3] [ref=e425]
+              - paragraph [ref=e426]: One command. Every provider.
+          - generic [ref=e428]:
+            - generic [ref=e433]: install
+            - generic [ref=e435]:
+              - generic [ref=e436]:
+                - generic [ref=e437]: $
+                - code [ref=e438]: npx skills add pbakaus/impeccable
+                - button "Copy command" [ref=e439] [cursor=pointer]:
+                  - img [ref=e440]
+              - generic [ref=e443]: Works with Cursor, Claude Code, Gemini CLI, Codex CLI, and more. Auto-detects your AI harness.
+          - group [ref=e444]:
+            - generic "Other install methods" [ref=e445] [cursor=pointer]
+        - generic [ref=e446]:
+          - generic [ref=e447]:
+            - generic [ref=e448]: "2"
+            - generic [ref=e449]:
+              - heading "Stay up to date" [level=3] [ref=e450]
+              - paragraph [ref=e451]: New skills, pattern updates, and design tips.
+          - iframe [ref=e453]:
+            - generic [ref=f189e2]:
+              - iframe
+              - generic [ref=f189e4]:
+                - generic [ref=f189e5]:
+                  - link:
+                    - /url: https://impeccablestyle.substack.com/
+                  - generic [ref=f189e10]:
+                    - textbox "Type your email..." [ref=f189e13]
+                    - button "Subscribe" [disabled] [ref=f189e14]
+                  - generic [ref=f189e16]:
+                    - text: By subscribing you agree to
+                    - link "Substack's Terms of Use" [ref=f189e17] [cursor=pointer]:
+                      - /url: https://impeccablestyle.substack.com/tos?utm_source=embed_publication
+                    - text: ","
+                    - link "our Privacy Policy" [ref=f189e18] [cursor=pointer]:
+                      - /url: https://impeccablestyle.substack.com/privacy?utm_source=embed_publication
+                    - text: and
+                    - link "our Information collection notice" [ref=f189e19] [cursor=pointer]:
+                      - /url: https://substack.com/ccpa?utm_source=embed_publication#personal-data-collected
+                - link "Substack":
+                  - /url: https://substack.com/?utm_source=embed&utm_content=impeccablestyle
+                  - img "Substack" [ref=f189e20] [cursor=pointer]
+              - region "Notifications (F8)":
+                - list
+      - paragraph [ref=e454]:
+        - text: Keep the
+        - link "command cheatsheet" [ref=e455] [cursor=pointer]:
+          - /url: /cheatsheet
+        - text: handy for quick reference. To update skills, run
+        - code [ref=e456]: npx skills update
+        - text: .
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e459]: "05"
+        - heading "What's New" [level=2] [ref=e460]
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - generic [ref=e463]:
+            - generic [ref=e464]: v1.6.0
+            - generic [ref=e465]: March 24, 2026
+          - list [ref=e466]:
+            - listitem [ref=e467]:
+              - text: "New provider:"
+              - strong [ref=e468]: Trae
+              - text: (China + International)
+            - listitem [ref=e469]:
+              - code [ref=e470]: /critique
+              - text: now scores against Nielsen's 10 heuristics, tests with persona archetypes, and assesses cognitive load
+            - listitem [ref=e471]:
+              - code [ref=e472]: /audit
+              - text: now scores 5 dimensions with P0-P3 severity ratings and structured action plans
+            - listitem [ref=e473]: Improved skill descriptions for better agent auto-discovery
+            - listitem [ref=e474]:
+              - text: Fixed invalid YAML frontmatter that broke GitHub preview and Codex loading (
+              - link "#67" [ref=e475] [cursor=pointer]:
+                - /url: https://github.com/pbakaus/impeccable/issues/67
+              - text: )
+            - listitem [ref=e476]:
+              - text: Codex CLI now uses correct
+              - code [ref=e477]: $
+              - text: prefix for command references
+        - group [ref=e478]:
+          - generic "+ View older releases" [ref=e479] [cursor=pointer]
+    - generic [ref=e480]:
+      - generic [ref=e481]:
+        - generic [ref=e482]: "06"
+        - heading "Frequently Asked Questions" [level=2] [ref=e483]
+      - generic [ref=e484]:
+        - group [ref=e485]:
+          - generic "Where do I put the downloaded files? +" [ref=e486] [cursor=pointer]
+        - group [ref=e487]:
+          - generic "How do I update to the latest version? +" [ref=e488] [cursor=pointer]
+        - group [ref=e489]:
+          - generic "Commands or skills aren't appearing. What do I do? +" [ref=e490] [cursor=pointer]
+        - group [ref=e491]:
+          - generic "I'm new to AI harnesses. Where do I start? +" [ref=e492] [cursor=pointer]
+    - generic [ref=e494]:
+      - generic [ref=e495]:
+        - heading "Work with me" [level=2] [ref=e496]
+        - paragraph [ref=e497]: "I help teams navigate AI transformation: upleveling developers, building AI-native workflows, and shipping products. Deep expertise in developer experience, design systems, and full-stack architecture."
+      - generic [ref=e498]:
+        - link "Get in touch" [ref=e499] [cursor=pointer]:
+          - /url: mailto:paul@paulbakaus.com
+          - generic [ref=e500]: Get in touch
+          - img [ref=e501]
+        - link "Leave a tip" [ref=e503] [cursor=pointer]:
+          - /url: https://buy.stripe.com/aFa3cwfsEe3G25R6i48Ra03
+          - generic [ref=e504]: Leave a tip
+          - img [ref=e505]
+  - contentinfo [ref=e507]:
+    - generic [ref=e508]:
+      - generic [ref=e510]: Impeccable
+      - generic [ref=e511]:
+        - link "Cheatsheet" [ref=e512] [cursor=pointer]:
+          - /url: /cheatsheet
+        - link "Privacy" [ref=e513] [cursor=pointer]:
+          - /url: /privacy
+        - link "GitHub" [ref=e514] [cursor=pointer]:
+          - /url: https://github.com/pbakaus/impeccable
+    - generic [ref=e515]:
+      - generic [ref=e516]:
+        - text: Created by
+        - link "Paul Bakaus" [ref=e517] [cursor=pointer]:
+          - /url: https://x.com/pbakaus
+      - generic [ref=e518]:
+        - link "Follow on X" [ref=e519] [cursor=pointer]:
+          - /url: https://x.com/pbakaus
+          - img [ref=e520]
+        - link "Connect on LinkedIn" [ref=e522] [cursor=pointer]:
+          - /url: https://linkedin.com/in/paulbakaus
+          - img [ref=e523]
+        - link "Blog" [ref=e526] [cursor=pointer]:
+          - /url: https://www.paulbakaus.com
+          - text: Blog
+          - img [ref=e527]
+        - link "Newsletter" [ref=e530] [cursor=pointer]:
+          - /url: https://impeccablestyle.substack.com
+          - text: Newsletter
+          - img [ref=e531]

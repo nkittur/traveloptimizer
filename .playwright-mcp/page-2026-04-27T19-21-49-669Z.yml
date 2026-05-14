@@ -1,0 +1,410 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"nationalgeographic.com\" \"best of the world 2026\" destinations list \"nationalgeographic.com\" \"best of the world 2026\" destinations list"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522nationalgeographic.com%2522%2B%2522best%2Bof%2Bthe%2Bworld%2B2026%2522%2Bdestinations%2Blist&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&aep=1&ntc=1&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQtKgLegQIExAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Short videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQs6gLegQIFBAB
+              - generic [ref=e95]: Short videos
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ0pQJegQIERAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQs6gLegQIFRAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_yFYyUrUlLqMhRCkZtle7n_LNz00t7_igecmbWfc-hzzSJ7tWWHHXPnRFxKwG_SNRJ8q7NRPIjD7V644y2tJGfNhnuagjql2-lSnxS3pVv3zfoT6nHlb9PCm7ihY45QfpRsLbOg&q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQtKgLegQIEhAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "Best of the World 2026 National Geographic https://www.nationalgeographic.com › Travel" [ref=e144] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/article/best-of-the-world-2026
+                - heading "Best of the World 2026" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: National Geographic
+                  - generic [ref=e154]: https://www.nationalgeographic.com › Travel
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Oct 21, 2025 —
+              - generic [ref=e163]:
+                - text: It's no surprise that Banff, Alberta, is our Readers' Choice Winner for
+                - emphasis [ref=e164]: Best of the World 2026
+                - text: . This stunning alpine jewel achieves what few ...
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/article/best-of-the-world-2026#:~:text=It's%20no%20surprise%20that%20Banff%2C,alpine%20jewel%20achieves%20what%20few
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - link "Best of the World 2026 National Geographic https://www.nationalgeographic.com › travel › topic" [ref=e174] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/topic/best-of-the-world-2026
+              - heading "Best of the World 2026" [level=3] [ref=e175]
+              - generic [ref=e180]:
+                - generic [ref=e182]: National Geographic
+                - generic [ref=e184]: https://www.nationalgeographic.com › travel › topic
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - emphasis [ref=e193]: Best of the World 2026
+              - text: · The best
+              - emphasis [ref=e194]: places
+              - text: in the world to travel to in 2026 · These are the best wellness experiences in the world for 2026.
+            - link "Read more" [ref=e195] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/topic/best-of-the-world-2026#:~:text=Best%20of%20the%20World%202026&text=The%20best%20places%20in%20the,to%20travel%20to%20in%202026&text=These%20are%20the%20best%20wellness,in%20the%20world%20for%202026
+        - generic [ref=e206]:
+          - heading "Thinking" [level=2] [ref=e210]:
+            - generic [ref=e211]: Thinking
+          - progressbar [ref=e212]
+        - generic [ref=e216]:
+          - heading "Web results" [level=2] [ref=e217]
+          - generic [ref=e218]:
+            - generic [ref=e221]:
+              - 'link "Best of the World 2026: Best wellness destinations National Geographic https://www.nationalgeographic.com › Travel" [ref=e223] [cursor=pointer]':
+                - /url: https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/best-wellness-destinations
+                - 'heading "Best of the World 2026: Best wellness destinations" [level=3] [ref=e224]'
+                - generic [ref=e229]:
+                  - generic [ref=e231]: National Geographic
+                  - generic [ref=e233]: https://www.nationalgeographic.com › Travel
+              - button "About this result" [ref=e234] [cursor=pointer]:
+                - img [ref=e237]
+            - generic [ref=e240]:
+              - generic [ref=e241]: Jan 28, 2026 —
+              - generic [ref=e242]:
+                - text: Our 2026 Best of the World
+                - emphasis [ref=e243]: list
+                - text: inspired you to hike South Korea from coast to coast, take an iconic road trip along Route 66, or plan a once-in ...
+              - link "Read more" [ref=e244] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/best-wellness-destinations#:~:text=Our%202026%20Best%20of%20the,a%20once%2Din%2Da%2Dlifetime%20big%20five%20safari.
+        - generic [ref=e249]:
+          - heading "People also ask" [level=2] [ref=e251]
+          - generic [ref=e252]:
+            - button "What is the top travel destination for 2026?" [ref=e258] [cursor=pointer]:
+              - generic [ref=e260]: What is the top travel destination for 2026?
+              - img [ref=e263]
+            - button "Why is the Nat Geo channel shutting down?" [ref=e272] [cursor=pointer]:
+              - generic [ref=e274]: Why is the Nat Geo channel shutting down?
+              - img [ref=e277]
+            - button "Where to travel in 2026 National Geographic?" [ref=e286] [cursor=pointer]:
+              - generic [ref=e288]: Where to travel in 2026 National Geographic?
+              - img [ref=e291]
+            - button "What is the most beautiful country in the world in 2026?" [ref=e300] [cursor=pointer]:
+              - generic [ref=e302]: What is the most beautiful country in the world in 2026?
+              - img [ref=e305]
+        - generic [ref=e310]:
+          - heading "Web results" [level=2] [ref=e311]
+          - generic [ref=e312]:
+            - generic [ref=e315]:
+              - link "National Geographic's top destinations list is back for \"Best ... Facebook · 6abc Action News 20+ reactions · 6 months ago" [ref=e317] [cursor=pointer]:
+                - /url: https://www.facebook.com/6abcActionNews/posts/national-geographics-top-destinations-list-is-back-for-best-of-the-world-2026-fi/1360489588776746/
+                - heading "National Geographic's top destinations list is back for \"Best ..." [level=3] [ref=e318]
+                - generic [ref=e323]:
+                  - generic [ref=e325]: Facebook · 6abc Action News
+                  - generic [ref=e327]: 20+ reactions · 6 months ago
+              - button "About this result" [ref=e328] [cursor=pointer]:
+                - img [ref=e331]
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - text: National Geographic's top
+                - emphasis [ref=e336]: destinations list
+                - text: is back for "
+                - emphasis [ref=e337]: Best of the World 2026
+                - text: ...
+                - emphasis [ref=e338]: nationalgeographic.com
+                - text: /travel/
+                - emphasis [ref=e339]: best-of-the-world- 2026
+                - text: ...
+              - link "Read more" [ref=e340] [cursor=pointer]:
+                - /url: https://www.facebook.com/6abcActionNews/posts/national-geographics-top-destinations-list-is-back-for-best-of-the-world-2026-fi/1360489588776746/#:~:text=nationalgeographic.com%2Ftravel%2Fbest%2Dof%2Dthe%2Dworld%2D%202026%2Farticle%2Fdominica
+            - link "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.facebook.com" [ref=e343] [cursor=pointer]:
+              - /url: https://www.facebook.com/6abcActionNews/posts/national-geographics-top-destinations-list-is-back-for-best-of-the-world-2026-fi/1360489588776746/
+              - img "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.facebook.com" [ref=e345]
+        - generic [ref=e349]:
+          - generic [ref=e352]:
+            - link "National Geographic's 25 best destinations to visit in 2026 The Press Democrat https://www.pressdemocrat.com › 2025/11/06 › nationa..." [ref=e354] [cursor=pointer]:
+              - /url: https://www.pressdemocrat.com/2025/11/06/national-geographics-25-best-destinations-to-visit-in-2026/
+              - heading "National Geographic's 25 best destinations to visit in 2026" [level=3] [ref=e355]
+              - generic [ref=e360]:
+                - generic [ref=e362]: The Press Democrat
+                - generic [ref=e364]: https://www.pressdemocrat.com › 2025/11/06 › nationa...
+            - button "About this result" [ref=e365] [cursor=pointer]:
+              - img [ref=e368]
+          - generic [ref=e371]:
+            - generic [ref=e372]: Nov 6, 2025 —
+            - generic [ref=e373]:
+              - text: "8 Oulu, Finland. 9 Route 66, Oklahoma. 10 Coastal Oaxaca, Mexico. Source:"
+              - emphasis [ref=e374]: nationalgeographic.com
+              - text: /travel/article/
+              - emphasis [ref=e375]: best-of-the-world-2026
+              - text: . Share ...
+            - link "Read more" [ref=e376] [cursor=pointer]:
+              - /url: https://www.pressdemocrat.com/2025/11/06/national-geographics-25-best-destinations-to-visit-in-2026/#:~:text=8%20Oulu%2C%20Finland,Source%3A%20nationalgeographic.com%2Ftravel%2Farticle%2Fbest%2Dof%2Dthe%2Dworld%2D2026
+          - link "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.pressdemocrat.com" [ref=e379] [cursor=pointer]:
+            - /url: https://www.pressdemocrat.com/2025/11/06/national-geographics-25-best-destinations-to-visit-in-2026/
+            - img "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.pressdemocrat.com" [ref=e381]
+        - generic [ref=e385]:
+          - generic [ref=e388]:
+            - link "Pittsburgh Named National Geographic Best of the World Visit Pittsburgh https://www.visitpittsburgh.com › Media" [ref=e390] [cursor=pointer]:
+              - /url: https://www.visitpittsburgh.com/media/press-releases/pittsburgh-named-one-of-national-geographics-best-of-the-world-where-to-go-in-2026/
+              - heading "Pittsburgh Named National Geographic Best of the World" [level=3] [ref=e391]
+              - generic [ref=e396]:
+                - generic [ref=e398]: Visit Pittsburgh
+                - generic [ref=e400]: https://www.visitpittsburgh.com › Media
+            - button "About this result" [ref=e401] [cursor=pointer]:
+              - img [ref=e404]
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - text: Designed as a curated selection of options to inspire travelers,
+              - emphasis [ref=e409]: Best of the World 2026
+              - text: ... Visit
+              - emphasis [ref=e410]: nationalgeographic.com
+              - text: and natgeotv.com or explore ...
+            - link "Read more" [ref=e411] [cursor=pointer]:
+              - /url: https://www.visitpittsburgh.com/media/press-releases/pittsburgh-named-one-of-national-geographics-best-of-the-world-where-to-go-in-2026/#:~:text=Designed%20as%20a%20curated%20selection,Best%20of%20the%20World%202026&text=Visit%20nationalgeographic.com%20and%20natgeotv.com%20or,LinkedIn%2C%20YouTube%2C%20TikTok%20and%20Reddit.
+        - generic [ref=e415]:
+          - generic [ref=e418]:
+            - 'link "Pittsburgh 2026: When to visit, where to stay, and what to do National Geographic https://www.nationalgeographic.com › Travel" [ref=e420] [cursor=pointer]':
+              - /url: https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/pittsburgh-pennsylvania
+              - 'heading "Pittsburgh 2026: When to visit, where to stay, and what to do" [level=3] [ref=e421]'
+              - generic [ref=e426]:
+                - generic [ref=e428]: National Geographic
+                - generic [ref=e430]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e431] [cursor=pointer]:
+              - img [ref=e434]
+          - generic [ref=e437]:
+            - generic [ref=e438]: Oct 21, 2025 —
+            - generic [ref=e439]:
+              - text: See all 25
+              - emphasis [ref=e440]: destinations
+              - text: that made our
+              - emphasis [ref=e441]: list
+              - text: of the best
+              - emphasis [ref=e442]: places
+              - text: to visit in 2026 · Carnegie International · Andy Warhol Museum ; Rivers of Steel · Con ...
+            - link "Read more" [ref=e443] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/best-of-the-world-2026/article/pittsburgh-pennsylvania#:~:text=(See%20all%2025%20destinations%20that,places%20to%20visit%20in%202026.&text=Carnegie%20International%3A%20Catch%20the%20zeitgeist&text=Andy%20Warhol%20Museum%3A%20This%20can't%2Dmiss,thoughtful%20explorations%20of%20his%20impact.&text=Rivers%20of%20Steel%3A%20This%20vast,the%20might%20of%20American%20steelmaking.&text=Con%20Alma%3A%20After%20a%20show
+        - generic [ref=e450]:
+          - generic [ref=e453]:
+            - 'link "The world awaits #BestOfTheWorld 2026 YouTube · National Geographic 14.7K+ views · 6 months ago" [ref=e455] [cursor=pointer]':
+              - /url: https://www.youtube.com/shorts/H5wKDkKohQg
+              - 'heading "The world awaits #BestOfTheWorld 2026" [level=3] [ref=e456]'
+              - generic [ref=e461]:
+                - generic [ref=e463]: YouTube · National Geographic
+                - generic [ref=e465]: 14.7K+ views · 6 months ago
+            - button "About this result" [ref=e466] [cursor=pointer]:
+              - img [ref=e469]
+          - generic [ref=e471]:
+            - 'button "The world awaits #BestOfTheWorld 2026 by National Geographic on YouTube. Play on Google. 0:49" [ref=e472] [cursor=pointer]':
+              - generic [ref=e474]:
+                - img [ref=e480]
+                - generic [ref=e483]:
+                  - generic [ref=e484]: 0:49
+                  - img [ref=e487]
+            - generic [ref=e490]: This year I'm looking for the best food beaches and architecture in the world.
+        - generic [ref=e494]:
+          - generic [ref=e497]:
+            - link "Best of the World 2026 | Nathan Lump LinkedIn · Nathan Lump 130+ reactions · 6 months ago" [ref=e499] [cursor=pointer]:
+              - /url: https://www.linkedin.com/posts/nathanlump_best-of-the-world-2026-activity-7389346199713247234-LVnz
+              - heading "Best of the World 2026 | Nathan Lump" [level=3] [ref=e500]
+              - generic [ref=e505]:
+                - generic [ref=e507]: LinkedIn · Nathan Lump
+                - generic [ref=e509]: 130+ reactions · 6 months ago
+            - button "About this result" [ref=e510] [cursor=pointer]:
+              - img [ref=e513]
+          - generic [ref=e516]:
+            - generic [ref=e517]:
+              - text: ...
+              - emphasis [ref=e518]: list
+              - text: of top
+              - emphasis [ref=e519]: destinations
+              - text: for travelers in the year to come, Best ...
+              - emphasis [ref=e520]: Best of the World 2026 nationalgeographic.com
+              - text: .
+            - link "Read more" [ref=e521] [cursor=pointer]:
+              - /url: https://www.linkedin.com/posts/nathanlump_best-of-the-world-2026-activity-7389346199713247234-LVnz#:~:text=Best%20of%20the%20World%202026,nationalgeographic.com
+        - generic [ref=e525]:
+          - generic [ref=e528]:
+            - link "National Geographic's best destinations to visit in 2026 Baltimore Sun https://www.baltimoresun.com › 2025/11/19 › national-g..." [ref=e530] [cursor=pointer]:
+              - /url: https://www.baltimoresun.com/2025/11/19/national-geographics-best-destinations-to-visit-in-2026/
+              - heading "National Geographic's best destinations to visit in 2026" [level=3] [ref=e531]
+              - generic [ref=e536]:
+                - generic [ref=e538]: Baltimore Sun
+                - generic [ref=e540]: https://www.baltimoresun.com › 2025/11/19 › national-g...
+            - button "About this result" [ref=e541] [cursor=pointer]:
+              - img [ref=e544]
+          - generic [ref=e547]:
+            - generic [ref=e548]: Nov 19, 2025 —
+            - generic [ref=e549]:
+              - text: "8 Oulu, Finland. 9 Route 66, Oklahoma. 10 Coastal Oaxaca, Mexico. Source:"
+              - emphasis [ref=e550]: nationalgeographic.com
+              - text: /travel/article/
+              - emphasis [ref=e551]: best-of-the-world-2026
+              - text: . Share ...
+            - link "Read more" [ref=e552] [cursor=pointer]:
+              - /url: https://www.baltimoresun.com/2025/11/19/national-geographics-best-destinations-to-visit-in-2026/#:~:text=8%20Oulu%2C%20Finland,Source%3A%20nationalgeographic.com%2Ftravel%2Farticle%2Fbest%2Dof%2Dthe%2Dworld%2D2026
+          - link "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.baltimoresun.com" [ref=e555] [cursor=pointer]:
+            - /url: https://www.baltimoresun.com/2025/11/19/national-geographics-best-destinations-to-visit-in-2026/
+            - img "\"nationalgeographic.com\" \"best of the world 2026\" destinations list from www.baltimoresun.com" [ref=e557]
+      - generic [ref=e559]:
+        - generic [ref=e564]:
+          - heading "People also search for" [level=2] [ref=e566]
+          - generic [ref=e568]:
+            - generic [ref=e569]:
+              - link "Nationalgeographic com best of the world 2026 destinations list usa" [ref=e573] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Nationalgeographic+com+best+of+the+world+2026+destinations+list+usa&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAgnEAE
+                - generic [ref=e574]:
+                  - generic [ref=e579]: Nationalgeographic com best of the world 2026 destinations list usa
+                  - img [ref=e583]
+              - link "National Geographic Best of the World 2026" [ref=e588] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=National+Geographic+Best+of+the+World+2026&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAhAEAE
+                - generic [ref=e589]:
+                  - generic [ref=e594]: National Geographic Best of the World 2026
+                  - img [ref=e598]
+              - link "National Geographic Best of the world 2026 Pittsburgh" [ref=e603] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=National+Geographic+Best+of+the+world+2026+Pittsburgh&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAg7EAE
+                - generic [ref=e604]:
+                  - generic [ref=e609]: National Geographic Best of the world 2026 Pittsburgh
+                  - img [ref=e613]
+              - link "National Geographic reveals top 25 global destinations for 2026" [ref=e618] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=National+Geographic+reveals+top+25+global+destinations+for+2026&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAg5EAE
+                - generic [ref=e619]:
+                  - generic [ref=e624]: National Geographic reveals top 25 global destinations for 2026
+                  - img [ref=e628]
+            - generic [ref=e630]:
+              - link "Top 10 travel destinations 2026" [ref=e634] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Top+10+travel+destinations+2026&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAg3EAE
+                - generic [ref=e635]:
+                  - generic [ref=e640]: Top 10 travel destinations 2026
+                  - img [ref=e644]
+              - link "Top 25 places to visit in the world 2026" [ref=e649] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Top+25+places+to+visit+in+the+world+2026&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAgzEAE
+                - generic [ref=e650]:
+                  - generic [ref=e655]: Top 25 places to visit in the world 2026
+                  - img [ref=e659]
+              - link "Best places to travel in 2026 international" [ref=e664] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Best+places+to+travel+in+2026+international&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAgwEAE
+                - generic [ref=e665]:
+                  - generic [ref=e670]: Best places to travel in 2026 international
+                  - img [ref=e674]
+              - link "National Geographic 2026" [ref=e679] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=National+Geographic+2026&sa=X&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ1QJ6BAgrEAE
+                - generic [ref=e680]:
+                  - generic [ref=e685]: National Geographic 2026
+                  - img [ref=e689]
+        - navigation [ref=e691]:
+          - heading "Page Navigation" [level=1] [ref=e692]
+          - text: "1"
+          - link "Page 2" [ref=e695] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=10&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAE
+            - text: "2"
+          - link "Page 3" [ref=e697] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=20&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAG
+            - text: "3"
+          - link "Page 4" [ref=e699] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=30&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAI
+            - text: "4"
+          - link "Page 5" [ref=e701] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=40&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAK
+            - text: "5"
+          - link "Page 6" [ref=e703] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=50&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAM
+            - text: "6"
+          - link "Page 7" [ref=e705] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=60&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAO
+            - text: "7"
+          - link "Page 8" [ref=e707] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=70&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAQ
+            - text: "8"
+          - link "Page 9" [ref=e709] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=80&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAS
+            - text: "9"
+          - link "Page 10" [ref=e711] [cursor=pointer]:
+            - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=90&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8tMDegQIQxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e713]:
+            - link "Next" [ref=e714] [cursor=pointer]:
+              - /url: /search?q=%22nationalgeographic.com%22+%22best+of+the+world+2026%22+destinations+list&sca_esv=461cceef532bce02&ei=TLfvafyfNdej5NoP8fWFmQw&start=10&sa=N&sstk=Af77f_f771IuYWS5fqv5Ou79-m2j_-JcUEfn6gkZ-QM_KxGfbQMi7ECzAD-pj7pCkWVtxdZmyMgylvnuamMuAAAQsKHeEGcSsb9jxA&ved=2ahUKEwj89cK14I6UAxXXEVkFHfF6IcMQ8NMDegQIQxAW
+              - generic [ref=e716]: Next
+      - navigation
+    - contentinfo [ref=e717]:
+      - heading "Footer Links" [level=1] [ref=e718]
+      - generic [ref=e722]:
+        - generic [ref=e726]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e728] [cursor=pointer]:
+            - generic [ref=e729]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e731]:
+              - text: "-"
+              - generic [ref=e732]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e734] [cursor=pointer]: Update location
+        - generic [ref=e737]:
+          - link "Help" [ref=e738] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e739] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e740] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e741] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

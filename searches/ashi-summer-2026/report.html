@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summer 2026 Camps Shortlist — Ashi</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --paper: #ffffff;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-mute: #847f76;
+    --rule: #e5e1d8;
+    --rule-soft: #efeae0;
+    --accent: #b94f2d;
+    --accent-soft: #fbe9e0;
+    --gold: #b88a2a;
+    --gold-soft: #f6edd1;
+    --green: #2f6e4d;
+    --green-soft: #dcebe1;
+    --gray: #7a756d;
+    --gray-soft: #ebe7df;
+    --shadow: 0 1px 0 rgba(28,26,23,0.04), 0 4px 14px rgba(28,26,23,0.05);
+    --shadow-lift: 0 1px 0 rgba(28,26,23,0.06), 0 8px 28px rgba(28,26,23,0.08);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .serif {
+    font-family: ui-serif, "Iowan Old Style", "Source Serif Pro", "Source Serif 4", Georgia, Cambria, serif;
+    font-feature-settings: "kern", "liga", "onum";
+  }
+
+  .page {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 32px 96px;
+  }
+
+  /* ───── header ───── */
+  header.hero {
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+  h1.title {
+    font-family: ui-serif, "Iowan Old Style", "Source Serif Pro", Georgia, serif;
+    font-size: 56px;
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin: 0 0 24px;
+    color: var(--ink);
+  }
+  h1.title em {
+    font-style: italic;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .meta {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+  }
+  .meta .sep { color: var(--rule); margin: 0 8px; }
+  .meta strong { color: var(--ink); font-weight: 600; }
+  .meta .windows {
+    margin-top: 6px;
+    font-variant-numeric: tabular-nums;
+  }
+  .meta .windows .x {
+    color: var(--accent);
+    padding: 0 8px;
+    font-weight: 600;
+  }
+
+  /* ───── stats strip ───── */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .stat {
+    padding: 18px 16px 16px;
+    text-align: center;
+    border-right: 1px solid var(--rule);
+  }
+  .stat:last-child { border-right: 0; }
+  .stat .n {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat .label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-mute);
+    margin-top: 8px;
+    font-weight: 600;
+  }
+  .stat.highlight .n { color: var(--accent); }
+
+  /* ───── pull quote / headline ───── */
+  .pullquote {
+    background: var(--paper);
+    border-left: 3px solid var(--accent);
+    padding: 28px 32px;
+    margin: 0 0 40px;
+    border-radius: 0 4px 4px 0;
+    box-shadow: var(--shadow);
+  }
+  .pullquote .label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .pullquote p {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+  .pullquote p:last-child { margin-bottom: 0; }
+  .pullquote p em { color: var(--accent); font-style: italic; }
+
+  /* ───── sections ───── */
+  section { margin: 0 0 48px; }
+  h2 {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+    color: var(--ink);
+  }
+  h2 .count {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-mute);
+    letter-spacing: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  h3 {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 28px 0 8px;
+    color: var(--ink);
+  }
+  p { margin: 0 0 14px; }
+
+  /* ───── finalist cards ───── */
+  .finalist {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 32px 32px 28px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .finalist .rank-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  .rank {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .rank .num {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: middle;
+  }
+  .composite {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 14px;
+    color: var(--ink-mute);
+    font-variant-numeric: tabular-nums;
+  }
+  .composite .v {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-right: 6px;
+  }
+  .finalist h3.program {
+    margin: 0 0 4px;
+    font-size: 24px;
+  }
+  .host {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .host strong { color: var(--ink); }
+
+  /* ───── status pill ───── */
+  .pill {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 99px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .pill.open { background: var(--green-soft); color: var(--green); }
+  .pill.waitlist { background: var(--gold-soft); color: var(--gold); }
+  .pill.closed { background: var(--gold-soft); color: var(--gold); }
+  .pill.followup { background: var(--accent-soft); color: var(--accent); }
+  .pill.rejected { background: var(--gray-soft); color: var(--gray); }
+
+  /* ───── facts table ───── */
+  .facts {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 8px 18px;
+    margin: 0 0 22px;
+    font-size: 14px;
+    background: var(--bg);
+    padding: 18px 22px;
+    border-radius: 4px;
+    border: 1px solid var(--rule-soft);
+  }
+  .facts dt {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 600;
+    padding-top: 2px;
+  }
+  .facts dd {
+    margin: 0;
+    color: var(--ink);
+  }
+  .facts dd strong { font-weight: 600; }
+  .facts dd .check { color: var(--green); font-weight: 700; margin: 0 4px; }
+  .facts dd .warn { color: var(--gold); font-weight: 700; margin: 0 4px; }
+
+  /* ───── tagline ───── */
+  .tagline {
+    font-family: ui-serif, Georgia, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    font-style: italic;
+    padding-left: 16px;
+    border-left: 2px solid var(--rule);
+    margin: 0 0 18px;
+  }
+
+  .body p {
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .body p:last-child { margin-bottom: 0; }
+  .body strong { font-weight: 600; }
+  .body em { font-style: italic; }
+
+  /* ───── scores ───── */
+  .scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 24px;
+    margin: 22px 0 18px;
+    padding: 18px 22px;
+    background: var(--bg);
+    border-radius: 4px;
+    border: 1px solid var(--rule-soft);
+  }
+  .score {
+    display: grid;
+    grid-template-columns: 1fr 110px 24px;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+  .score .name {
+    font-weight: 600;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+  }
+  .score .bar {
+    height: 6px;
+    background: var(--rule-soft);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .score .fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+  }
+  .score .v {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    text-align: right;
+    color: var(--ink);
+  }
+
+  /* ───── sources ───── */
+  .sources {
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .sources .label {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .sources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sources li {
+    margin-bottom: 4px;
+    padding-left: 12px;
+    position: relative;
+  }
+  .sources li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); transition: border-color .15s; }
+  a:hover { border-bottom-color: var(--accent); }
+
+  /* ───── secondary entries ───── */
+  .secondary {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 22px 26px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
+  }
+  .secondary .head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .secondary h4 {
+    margin: 0;
+    font-family: ui-serif, Georgia, serif;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  .secondary .meta-line {
+    font-size: 13px;
+    color: var(--ink-mute);
+    margin-bottom: 10px;
+  }
+  .secondary p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+  }
+  .secondary .actions {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--rule);
+  }
+  .secondary .actions strong {
+    color: var(--accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 10px;
+    margin-right: 8px;
+  }
+
+  /* ───── action checklist ───── */
+  .actions-block {
+    background: linear-gradient(180deg, #fdf3ec 0%, #fbe9e0 100%);
+    border: 1px solid var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 28px 32px 24px;
+    margin-bottom: 48px;
+    box-shadow: var(--shadow-lift);
+  }
+  .actions-block h2 {
+    font-size: 26px;
+    border-bottom: 0;
+    margin-bottom: 6px;
+    padding-bottom: 0;
+  }
+  .actions-block .sub {
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+    font-size: 14px;
+  }
+  .actions-block ol {
+    list-style: none;
+    counter-reset: action;
+    padding: 0;
+    margin: 0;
+  }
+  .actions-block li {
+    counter-increment: action;
+    padding: 14px 0 14px 44px;
+    border-top: 1px solid rgba(185,79,45,0.18);
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .actions-block li::before {
+    content: counter(action);
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-family: ui-serif, Georgia, serif;
+    font-weight: 700;
+    color: white;
+    background: var(--accent);
+    border-radius: 50%;
+    font-size: 13px;
+  }
+  .actions-block li strong { color: var(--ink); font-weight: 600; }
+
+  /* ───── rejected ───── */
+  .reject-group {
+    margin-bottom: 24px;
+  }
+  .reject-group h3 {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-weight: 700;
+    color: var(--ink-mute);
+    margin: 0 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .reject-group .count {
+    color: var(--gray);
+    margin-left: 6px;
+    font-weight: 600;
+  }
+  .reject-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .reject {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    font-size: 14px;
+  }
+  .reject:last-child { border-bottom: 0; }
+  .reject .name {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .reject .name .star {
+    color: var(--accent);
+    margin-left: 4px;
+    font-size: 12px;
+  }
+  .reject .meta-line {
+    color: var(--ink-mute);
+    font-size: 13px;
+  }
+  .reject .why {
+    color: var(--ink-soft);
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 2px;
+  }
+
+  /* ───── next year notes ───── */
+  .next-year {
+    background: var(--paper);
+    border: 1px dashed var(--rule);
+    border-radius: 6px;
+    padding: 24px 28px;
+  }
+  .next-year ul {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--ink-soft);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+  .next-year li { margin-bottom: 8px; }
+  .next-year li strong { color: var(--ink); font-weight: 600; }
+
+  /* ───── footer ───── */
+  footer.foot {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-mute);
+    font-size: 12px;
+  }
+  footer.foot a { color: var(--ink-mute); border-bottom-color: var(--rule); }
+
+  /* ───── helpers ───── */
+  .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .badge {
+    display: inline-block;
+    font-size: 10.5px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: var(--bg);
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+  .badge.match { background: var(--green-soft); color: var(--green); border-color: transparent; font-weight: 600; }
+
+  /* ───── responsive ───── */
+  @media (max-width: 720px) {
+    .page { padding: 32px 20px 64px; }
+    h1.title { font-size: 38px; }
+    h2 { font-size: 22px; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .stat:nth-child(2n) { border-right: 0; }
+    .stat { border-bottom: 1px solid var(--rule); }
+    .stat:nth-last-child(-n+1) { border-bottom: 0; }
+    .scores { grid-template-columns: 1fr; }
+    .facts { grid-template-columns: 1fr; padding: 14px 16px; gap: 2px 12px; }
+    .facts dt { margin-top: 8px; }
+    .facts dt:first-child { margin-top: 0; }
+    .finalist { padding: 24px 22px; }
+    .actions-block { padding: 22px 22px 18px; }
+    .actions-block li { padding-left: 38px; }
+  }
+
+  @media print {
+    body { background: white; }
+    .finalist, .secondary, .actions-block, .next-year { box-shadow: none; break-inside: avoid; }
+    .pullquote { background: white; }
+    a { color: var(--ink); border-bottom-color: var(--rule); }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ───── HEADER ───── -->
+  <header class="hero">
+    <div class="eyebrow">Summer 2026 · Camps Shortlist</div>
+    <h1 class="title serif">For <em>Ashi</em></h1>
+    <div class="meta">
+      <strong>Age 14 · Rising 10th</strong>
+      <span class="sep">·</span>
+      Within 3 hr drive of <strong>PIT · ORD · MSN</strong>
+      <span class="sep">·</span>
+      Run <strong>2026-05-14</strong>
+      <div class="windows">
+        <strong>Available:</strong>
+        Jun&nbsp;1 → Jul&nbsp;10<span class="x">|</span>Aug&nbsp;1 → Aug&nbsp;31
+        <span style="color:var(--ink-mute);">&nbsp;&nbsp;(work weeks Jul&nbsp;11–31 unavailable)</span>
+      </div>
+      <div style="margin-top:10px;">
+        <strong>Interests:</strong>
+        <span style="color:var(--ink-soft);">creative writing · screenwriting · media / social media · architecture · psychology · entrepreneurship · business · math (lukewarm) · creative coding (if media/business-adjacent) · leadership · friendships · general camps OK</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───── STATS STRIP ───── -->
+  <div class="stats">
+    <div class="stat"><div class="n">33</div><div class="label">Programs<br>Considered</div></div>
+    <div class="stat"><div class="n">22</div><div class="label">Hard-filter<br>Rejects</div></div>
+    <div class="stat highlight"><div class="n">3</div><div class="label">Open<br>Finalists</div></div>
+    <div class="stat"><div class="n">4</div><div class="label">Closed —<br>Worth Emailing</div></div>
+    <div class="stat"><div class="n">2</div><div class="label">Needs<br>Followup</div></div>
+  </div>
+
+  <!-- ───── HEADLINE PULLQUOTE ───── -->
+  <div class="pullquote">
+    <div class="label">The Headline</div>
+    <p>
+      The <em>work-weeks block (July 11–31)</em> is the dominant constraint. Most quality residential programs on these campuses run mid-July — directly into Ashi's unavailable window. The survivors are concentrated in <em>short late-June commuter day-camps</em> (the Marquette pair) and one <em>early-August session</em> at Northwestern (NSLC).
+    </p>
+    <p>
+      The good news: those survivors are well-targeted. NSLC has tracks in Psychology, Entrepreneurship, Marketing, and Architecture; the Marquette pair delivers business + media/social-media back-to-back at <strong>$600 total tuition</strong>. The bad news: most prestige residentials (UChicago, CTD Civic Leadership, Pitt Architecture) had March deadlines or run dates spanning the work block — so they need a wait-list inquiry or wait until 2027.
+    </p>
+  </div>
+
+  <!-- ───── FAMILY BONUS ───── -->
+  <section>
+    <h2 class="serif">Family-network bonus</h2>
+    <p style="font-size:15.5px; color:var(--ink-soft);">
+      Per ghostwheel <code style="background:var(--rule-soft); padding:1px 6px; border-radius:3px; font-size:13px;">preferences/travel.md</code>, both Chicago (<strong style="color:var(--ink);">"the Roos"</strong>) and Madison (<strong style="color:var(--ink);">"lots of family and friends"</strong>) are family-rich anchors. This matters for a 14yo's first-time-away experience — and specifically unlocks <em>day-camp formats</em> in Chicago that would otherwise require expensive last-minute lodging.
+    </p>
+  </section>
+
+  <!-- ───── FINALISTS ───── -->
+  <section>
+    <h2 class="serif">Finalists <span class="count">— ranked</span></h2>
+
+    <!-- FINALIST 1 — NSLC -->
+    <article class="finalist">
+      <div class="rank-row">
+        <span class="rank"><span class="num">1</span>NSLC Northwestern</span>
+        <span class="composite"><span class="v">4.46</span>/ 5.00</span>
+      </div>
+      <h3 class="program serif">NSLC at Northwestern <span style="color:var(--ink-mute); font-weight:400; font-size:18px;">— August 3–7 Session</span></h3>
+      <div class="host">Northwestern University · Evanston / Chicago, IL  &nbsp;·&nbsp;  <span class="pill open">Open · 85% Full</span></div>
+
+      <dl class="facts">
+        <dt>Dates</dt>            <dd><strong>Aug 3 – 7, 2026</strong>  ·  1 week (5 days)</dd>
+        <dt>Format</dt>           <dd>Day camp / commuter  ·  AM 8:30–12:30 <em>or</em> PM 1:30–5:30 <em>or</em> full day</dd>
+        <dt>Eligibility</dt>      <dd>Ages 14–18, completed 1 year of HS  <span class="check">✓</span> Ashi</dd>
+        <dt>All-in cost</dt>      <dd><strong>$850</strong> single track  ·  $1,600 combined AM+PM</dd>
+        <dt>Application</dt>      <dd>Open · rolling enrollment until full · <a href="https://portal.nslcleaders.org/register">portal.nslcleaders.org</a></dd>
+        <dt>Drive</dt>            <dd>0.5 hr from <strong>ORD</strong>  ·  Chicago lodging via the Roos</dd>
+        <dt>Available tracks</dt> <dd>
+          <div class="badge-row">
+            <span class="badge match">Psychology & Neuroscience</span>
+            <span class="badge match">Entrepreneurship</span>
+            <span class="badge match">Marketing 101</span>
+            <span class="badge match">Architectural Engineering</span>
+            <span class="badge">Sports Management</span>
+            <span class="badge">Finance & Investment</span>
+            <span class="badge">Forensic Science</span>
+            <span class="badge">Medicine & Health</span>
+          </div>
+        </dd>
+      </dl>
+
+      <div class="tagline">One-week day camp on Northwestern's campus with a teen-friendly track menu — the cleanest window-2 fit in the entire search, and it lines up multiple Ashi-interest matches at once.</div>
+
+      <div class="body">
+        <p>NSLC's three weekly sessions at Northwestern are pre-college career-exploration day camps with a teen-aged cohort (14–18) and a rotating menu of academic tracks. The August 3–7 session is the only one that fits a clean window, and the available track list reads like a checklist of Ashi's interests: <strong>Psychology &amp; Neuroscience, Entrepreneurship, Marketing 101, Architectural Engineering</strong>. Pick one for the AM, optionally pair a second for the PM at 2× cost. Enrollments are over 85% full per the official page as of mid-May, so verify track availability at the portal before committing.</p>
+        <p><strong>The day-camp format would be a non-starter for a Pittsburgh family without Chicago lodging</strong> — but ghostwheel notes the Roos as a Chicago contact, which makes this viable in a way it wouldn't otherwise be. That's worth confirming with them before applying.</p>
+      </div>
+
+      <div class="scores">
+        <div class="score"><span class="name">fit to interests</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">daughter fit</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">prestige</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">social value</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">dates clean fit</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">independence</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">cost value</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+      </div>
+
+      <div class="sources">
+        <div class="label">Sources</div>
+        <ul>
+          <li><a href="https://www.nslcleaders.org/youth-leadership-programs/chicago-day-programs/">NSLC Northwestern Chicago Day Programs</a> — official, 2026</li>
+          <li><a href="https://www.chicagoparent.com/sponsored-content/national-student-leadership-conference/">Chicago Parent</a> — 2026 press feature</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- FINALIST 2 — MARQUETTE BUSINESS -->
+    <article class="finalist">
+      <div class="rank-row">
+        <span class="rank"><span class="num">2</span>Marquette Business Academy</span>
+        <span class="composite"><span class="v">4.13</span>/ 5.00</span>
+      </div>
+      <h3 class="program serif">Marquette Summer Business Academy</h3>
+      <div class="host">Marquette University · Milwaukee, WI  &nbsp;·&nbsp;  <span class="pill open">Open · Decisions Wk of May 18</span></div>
+
+      <dl class="facts">
+        <dt>Dates</dt>       <dd><strong>Mon Jun 22 – Wed Jun 24, 2026</strong>  ·  3 days, 8 am – 5 pm</dd>
+        <dt>Format</dt>      <dd>Day camp / commuter</dd>
+        <dt>Eligibility</dt> <dd>Rising 10th–12th graders (9th case-by-case)  <span class="check">✓</span> Ashi</dd>
+        <dt>All-in cost</dt> <dd><strong>$500</strong> · light breakfast + lunch + materials + activity fees included</dd>
+        <dt>Application</dt> <dd>Open · decisions <strong>week of May 18</strong> · <a href="https://www.marquette.edu/business/about/summer-academy.php">marquette.edu/business</a></dd>
+        <dt>Drive</dt>       <dd>1.25 hr from <strong>MSN</strong> (closer)  ·  1.5 hr from ORD</dd>
+      </dl>
+
+      <div class="tagline">Three-day immersion in business + entrepreneurship for rising 10–12. Lines up perfectly with one of Ashi's strongest stated interests, costs $500 all-in, and applications are decided this very week.</div>
+
+      <div class="body">
+        <p>A 3-day program covering <strong>accounting, management, marketing, Wall Street / investing fundamentals, and entrepreneurship</strong> — taught through interactive workshops, real-world simulations, and Milwaukee company visits. Cohort is ~50 students, so peer-caliber is reasonable for a rising-10 mix. The official page positions this as a deliberate first taste of business school, not a watered-down "exposure" gig.</p>
+        <p>The <strong>timing is unusually tight: decisions issue the week of May 18 (this week)</strong>, so this is the one finalist where the family should act now. Lodging in Milwaukee is the operational challenge — but the program <strong>pairs naturally with the "Story of You" workshop below</strong> on the immediately-following days, making one Milwaukee trip cover two interest-matched programs.</p>
+      </div>
+
+      <div class="scores">
+        <div class="score"><span class="name">fit to interests</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">daughter fit</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">prestige</span> <span class="bar"><span class="fill" style="width:60%"></span></span> <span class="v">3</span></div>
+        <div class="score"><span class="name">social value</span> <span class="bar"><span class="fill" style="width:60%"></span></span> <span class="v">3</span></div>
+        <div class="score"><span class="name">dates clean fit</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">independence</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">cost value</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+      </div>
+
+      <div class="sources">
+        <div class="label">Sources</div>
+        <ul>
+          <li><a href="https://www.marquette.edu/business/about/summer-academy.php">Marquette Summer Business Academy 2026</a> — official</li>
+          <li><a href="https://today.marquette.edu/2026/05/summer-learning-on-marquettes-campus/">Marquette Today</a> — May 2026 press feature, year-currency check</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- FINALIST 3 — STORY OF YOU -->
+    <article class="finalist">
+      <div class="rank-row">
+        <span class="rank"><span class="num">3</span>Marquette · Story of You</span>
+        <span class="composite"><span class="v">4.13</span>/ 5.00</span>
+      </div>
+      <h3 class="program serif">"Communicating the Story of You" Workshop</h3>
+      <div class="host">Marquette University · Milwaukee, WI  &nbsp;·&nbsp;  <span class="pill open">Open · No Stated Deadline</span></div>
+
+      <dl class="facts">
+        <dt>Dates</dt>       <dd><strong>Wed Jun 24 – Thu Jun 25, 2026</strong>  ·  2 days, 9 am – 5 pm</dd>
+        <dt>Format</dt>      <dd>Day camp / commuter  ·  Johnston Hall + Milwaukee newsrooms</dd>
+        <dt>Eligibility</dt> <dd>High school students (no grade restriction stated)  <span class="warn">⚠</span> verify rising-10 with admissions</dd>
+        <dt>All-in cost</dt> <dd><strong>$100</strong> · financial aid available via Dr. Patrick Johnson</dd>
+        <dt>Application</dt> <dd>Open · <a href="https://marquette.az1.qualtrics.com/jfe/form/SV_4ItioVBAt9EPci2">Qualtrics application live</a></dd>
+        <dt>Drive</dt>       <dd>1.25 hr from MSN · 1.5 hr from ORD</dd>
+        <dt>Topics</dt>      <dd>
+          <div class="badge-row">
+            <span class="badge match">Multimedia Storytelling</span>
+            <span class="badge match">Social Media</span>
+            <span class="badge match">Personal Branding</span>
+            <span class="badge match">Video / Audio / Print</span>
+            <span class="badge">Media-Career Visits</span>
+          </div>
+        </dd>
+      </dl>
+
+      <div class="tagline">Two-day media-and-storytelling workshop directly tied to social media, multimedia, and personal branding — the most direct interest match in the actionable set for Ashi's media side. $100.</div>
+
+      <div class="body">
+        <p>Per the official page, the workshop covers <strong>personal-branding development, multimedia storytelling across video, audio, print, and social platforms, hands-on media-career exploration, and field trips to local news organizations and agencies</strong> — the Milwaukee version of "what does a media career actually look like from inside the building." For a 14yo whose stated interests include social media, creative writing, and media-in-general, this is unusually well-targeted.</p>
+        <p>The natural play is to <strong>pair this with the Business Academy above</strong> (Jun 22-24, then Jun 24-25 — Jun 24 is the overlap day, so confirm with both program contacts whether dual registration is permitted given the overlap). Together: ~$600 tuition, 4 days, two clean interest-matches at one campus. One asterisk: the page just says "high school students" without specifying a grade range — quick email to <a href="mailto:comm@marquette.edu">comm@marquette.edu</a> to confirm rising-10 is welcomed before applying.</p>
+      </div>
+
+      <div class="scores">
+        <div class="score"><span class="name">fit to interests</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">daughter fit</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">prestige</span> <span class="bar"><span class="fill" style="width:60%"></span></span> <span class="v">3</span></div>
+        <div class="score"><span class="name">social value</span> <span class="bar"><span class="fill" style="width:60%"></span></span> <span class="v">3</span></div>
+        <div class="score"><span class="name">dates clean fit</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+        <div class="score"><span class="name">independence</span> <span class="bar"><span class="fill" style="width:80%"></span></span> <span class="v">4</span></div>
+        <div class="score"><span class="name">cost value</span> <span class="bar"><span class="fill" style="width:100%"></span></span> <span class="v">5</span></div>
+      </div>
+
+      <div class="sources">
+        <div class="label">Sources</div>
+        <ul>
+          <li><a href="https://www.marquette.edu/communication/story-of-you.php">Marquette Communication — Story of You</a> — official</li>
+          <li><a href="https://today.marquette.edu/2026/05/summer-learning-on-marquettes-campus/">Marquette Today</a> — year-currency check</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- ───── ACTION CHECKLIST ───── -->
+  <div class="actions-block">
+    <h2 class="serif">What to do this week</h2>
+    <p class="sub">Six concrete moves, ordered by urgency.</p>
+    <ol>
+      <li><strong>Apply to both Marquette programs by end of this week.</strong> Decisions for Business Academy issue the week of May 18. Even one acceptance = a real plan; both = a perfect 4-day Milwaukee block (Jun 22–25) at $600 total tuition.</li>
+      <li><strong>Confirm Chicago lodging with the Roos for the Aug 3–7 NSLC session.</strong> If they can host, apply to NSLC immediately and pick AM or PM track (Psychology + Entrepreneurship is the natural double). 85% full as of today.</li>
+      <li><strong>Email Wisconsin 4-H Summer Academy organizers</strong> to ask about waitlist availability and non-Wisconsin-resident eligibility. The $150 + UW-Madison residential + age-perfect cohort combo is unmatched if a seat opens.</li>
+      <li><strong>Email UChicago Summer Session</strong> (<a href="mailto:summersession@uchicago.edu">summersession@uchicago.edu</a>) about waitlist for the LEAD (Session 1b) and Business &amp; Entrepreneurship (Session 1a) 2-Week Experience courses. Low odds, high upside.</li>
+      <li><strong>Email Northwestern CTD</strong> (<a href="mailto:ctd-admissions@northwestern.edu">ctd-admissions@northwestern.edu</a>) with Ashi's interest tags + windows. Multiple 1-week sessions likely fit Jun 29-Jul 10 or Aug 3-7 that the public site didn't list.</li>
+      <li><strong>Call Loyola Chicago Summer Sessions</strong> to ask about Pre-Collegiate Summer Scholars Business or Leadership courses in the available windows.</li>
+    </ol>
+  </div>
+
+  <!-- ───── CLOSED — WORTH EMAILING ───── -->
+  <section>
+    <h2 class="serif">Closed <span class="count">— worth emailing admissions</span></h2>
+    <p style="font-size:14px; color:var(--ink-mute); margin-bottom:18px;">Applications officially closed, but the fit is strong enough that a direct email or waitlist inquiry is worthwhile. Today is mid-May; waitlist movement typically continues through June.</p>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>Wisconsin 4-H Summer Academy at UW-Madison <span class="pill waitlist" style="margin-left:8px;">Waitlist Possible</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Jun 14–18 · composite <strong style="color:var(--ink);">4.13</strong></div>
+      </div>
+      <div class="meta-line">Residential at Dejope Hall · <strong>$150 all-in</strong> · grades 8-11 · MSN 0 hr</div>
+      <p>Tracks include Adventure (Leadership + Performing Arts + Entrepreneurship), Civic Engagement &amp; Local Leadership, and an Advanced Arts track. <strong>Exceptional value + Madison family-rich anchor + age-perfect cohort + residential supervised dorm life</strong> make this the strongest candidate for "first big camp away from home" if a seat opens up. Caveat: 4-H membership may be required for non-Wisconsin residents.</p>
+      <div class="actions">
+        <strong>Inquire</strong>
+        Look for the contact link on <a href="https://4h.extension.wisc.edu/opportunities/statewide-events-and-opportunities/summer-academy/">the program page</a>.
+      </div>
+    </div>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>UChicago 2-Week Experience — UChicago LEAD (Leadership) <span class="pill closed" style="margin-left:8px;">Closed</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Jun 29 – Jul 10 · composite <strong style="color:var(--ink);">4.41</strong></div>
+      </div>
+      <div class="meta-line">Residential · $5,890 (~$1,475 after aid for ≤$80k households) · current 9-11 · ORD 0 hr</div>
+      <p>Hyde Park campus, dates fit window 1 exactly (last day = window 1 end). UChicago academic prestige + Chicago family network + leadership topic. Priority deadline Feb 11, regular Mar 12 — both closed.</p>
+      <div class="actions">
+        <strong>Inquire</strong>
+        <a href="mailto:summersession@uchicago.edu">summersession@uchicago.edu</a> · <a href="https://summer.uchicago.edu/pre-college/pre-college/2-week-experience/">2-Week Experience page</a>
+      </div>
+    </div>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>UChicago 2-Week — Career Insight: Business &amp; Entrepreneurship <span class="pill closed" style="margin-left:8px;">Closed</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Jun 15–25 · composite <strong style="color:var(--ink);">4.41</strong></div>
+      </div>
+      <div class="meta-line">Residential · $5,890 (~$1,475 after aid) · current 9-11 · ORD 0 hr</div>
+      <p>Same campus / costs / eligibility as LEAD. <strong>Direct match to Ashi's business interest at UChicago academic-prestige level.</strong> Applications closed in March.</p>
+      <div class="actions">
+        <strong>Inquire</strong>
+        <a href="mailto:summersession@uchicago.edu">summersession@uchicago.edu</a>
+      </div>
+    </div>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>UChicago YIP &amp; Future Intelligence Institute <span class="pill rejected" style="margin-left:8px;">Course Full · Dates Conflict</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Jul 19-24 (YIP) · Jul 26-31 (FII)</div>
+      </div>
+      <p>Both 1-week residentials list as "Course Full." YIP dates (Jul 19-24) and FII dates (Jul 26-31) both fall in the work-weeks block, so even with a wait-list seat <strong>these are not actionable this summer.</strong> Mentioned only as closest near-eligibility matches.</p>
+    </div>
+  </section>
+
+  <!-- ───── NEEDS FOLLOWUP ───── -->
+  <section>
+    <h2 class="serif">Needs followup <span class="count">— info incomplete</span></h2>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>Northwestern CTD — 1-week and 3-week Academic Camps <span class="pill followup" style="margin-left:8px;">Followup</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Window: Jun 29 – Aug 7 (specific dates vary by course)</div>
+      </div>
+      <div class="meta-line">Residential or day · cost varies · grades 6-12 · ORD 0.5 hr</div>
+      <p>Northwestern CTD runs 1- and 3-week residential and day camps across Jun 29 – Aug 7. Applications open; deadline is one week before each session. <strong>Specific course dates live in the my.ctd.northwestern.edu portal</strong> — multiple 1-week sessions likely fit window 1 (Jun 29 – Jul 10) or window 2 (Aug 3-7).</p>
+      <div class="actions">
+        <strong>Action</strong>
+        Email <a href="mailto:ctd-admissions@northwestern.edu">ctd-admissions@northwestern.edu</a> listing Ashi's interests + windows. Ask for rising-10 course suggestions in Jun 29 – Jul 10 or Aug 3-7.
+      </div>
+    </div>
+
+    <div class="secondary">
+      <div class="head">
+        <h4>Loyola University Chicago — Pre-Collegiate Summer Scholars <span class="pill followup" style="margin-left:8px;">Followup</span></h4>
+        <div style="font-size:13px; color:var(--ink-mute);">Dates unknown · 1, 3, or 6-week options</div>
+      </div>
+      <div class="meta-line">HS freshmen, sophomores, juniors · ORD 0 hr</div>
+      <p>Tracks: Arts &amp; Culture, <strong>Business, Leadership</strong>, Pre-Health, Sustainability &amp; Social Justice. Specific 2026 dates not surfaced from public pages. If Loyola has a 1- or 3-week Business or Leadership session that fits window 1 or 2, this slots well alongside the UChicago options.</p>
+      <div class="actions">
+        <strong>Action</strong>
+        Visit <a href="https://www.luc.edu/summer/">luc.edu/summer</a> · call (773) 274-3000 to confirm session dates, rising-10 eligibility, cost, residential availability.
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── REJECTED ───── -->
+  <section>
+    <h2 class="serif">Rejected <span class="count">— audit trail</span></h2>
+    <p style="font-size:14px; color:var(--ink-mute); margin-bottom:24px;">Grouped by rejection reason. Marked with <span style="color:var(--accent);">★</span> if interest-matched and worth applying in a future year.</p>
+
+    <div class="reject-group">
+      <h3>age-mismatch &amp; grade-mismatch <span class="count">(7)</span></h3>
+      <div class="reject-list">
+        <div class="reject"><div class="name">CMU Pre-College <span class="star">★ 2027</span></div><div class="meta-line">Pittsburgh, PA · must be 16 by Jun 20 + rising 11+</div><div class="why">Two years shy on both axes for Ashi. The hometown option to keep on radar.</div></div>
+        <div class="reject"><div class="name">Notre Dame Summer Scholars <span class="star">★ 2027</span></div><div class="meta-line">Notre Dame, IN · rising 11+ only</div></div>
+        <div class="reject"><div class="name">Kenyon Young Writers Workshop <span class="star">★ 2028</span></div><div class="meta-line">Gambier, OH · ages 16–18 required</div><div class="why">The gold-standard creative-writing program in the region. Apply when 16.</div></div>
+        <div class="reject"><div class="name">Denison Reynolds Young Writers <span class="star">★ 2027</span></div><div class="meta-line">Granville, OH · rising 11+ only · 10-day June program</div></div>
+        <div class="reject"><div class="name">Medill-Northwestern Journalism Institute (Cherubs) <span class="star">★ 2029</span></div><div class="meta-line">Evanston, IL · rising 12 only</div><div class="why">Elite media/journalism program. Apply rising-senior year.</div></div>
+        <div class="reject"><div class="name">SAIC Early College Program <span class="star">★ 2027</span></div><div class="meta-line">Chicago, IL · must have completed sophomore year</div></div>
+        <div class="reject"><div class="name">DePaul Prep Middle School Summer</div><div class="meta-line">Chicago, IL · grades 6–8 only · too young for Ashi</div></div>
+      </div>
+    </div>
+
+    <div class="reject-group">
+      <h3>no session fits available windows <span class="count">(9)</span></h3>
+      <div class="reject-list">
+        <div class="reject"><div class="name">Northwestern CTD Civic Leadership Institute <span class="star">★ 2027</span></div><div class="meta-line">Jun 28 – Jul 17 (3 wk) · $5,530 residential · perfect age fit but spans work weeks</div></div>
+        <div class="reject"><div class="name">UChicago Young Innovators Program</div><div class="meta-line">Jul 19–24 · in work-weeks block · also Course Full</div></div>
+        <div class="reject"><div class="name">UChicago Future Intelligence Institute</div><div class="meta-line">Jul 26–31 · in work-weeks block · AI/STEM (lukewarm interest)</div></div>
+        <div class="reject"><div class="name">DePaul Game / Cinema / Animation Academy <span class="star">★ 2027</span></div><div class="meta-line">Jul 13–17 · screenwriting track strong Ashi match but dates conflict · $900 + $150 deposit</div></div>
+        <div class="reject"><div class="name">UIC HiArch Architecture <span class="star">★ 2027</span></div><div class="meta-line">Jul 20–24 / Jul 27–31 · both weeks in work block · architecture is a stated interest</div></div>
+        <div class="reject"><div class="name">Pitt Experiencing Architecture <span class="star">★ 2027</span></div><div class="meta-line">Jul 6–26 (3 wk) · FREE · perfect grade fit · home campus</div><div class="why"><strong>The single biggest near-miss in this search.</strong> Apply next year.</div></div>
+        <div class="reject"><div class="name">UW-Madison Summer Arts Clinic</div><div class="meta-line">Jul 12–18 · off by ~1 week from window 1</div><div class="why">Design track (Architecture + Streetwear) is exceptionally well-targeted; would slot perfectly if work weeks shift.</div></div>
+        <div class="reject"><div class="name">UW-Madison Badger Summer Scholars</div><div class="meta-line">Jul 19–31 · $4,550 · entire residential program inside work weeks</div></div>
+        <div class="reject"><div class="name">UW-Madison Accelerated Learning Program</div><div class="meta-line">Jun 28 – Jul 17 · $4,750 · runs into work weeks</div></div>
+      </div>
+    </div>
+
+    <div class="reject-group">
+      <h3>interest-mismatch <span class="count">(4)</span></h3>
+      <div class="reject-list">
+        <div class="reject"><div class="name">Pitt High School Academy (CS)</div><div class="meta-line">Pittsburgh · FREE June 2026 · pure CS (Python, Big Data, Mobile, OS)</div><div class="why">Per user note: coding only if creative/media/business-adjacent. This is pure CS.</div></div>
+        <div class="reject"><div class="name">Marquette Summer Engineering Experiences</div><div class="meta-line">Milwaukee · engineering tracks (water, AI, biomedical) · not Ashi's lane</div></div>
+        <div class="reject"><div class="name">Pitt Investing Now</div><div class="meta-line">Pittsburgh · FREE 2-week STEAM · STEM-heavy + likely date conflict</div></div>
+        <div class="reject"><div class="name">Lawrence Summer Music Institute</div><div class="meta-line">Appleton WI · music-only · Jul 5–12 also misses window 1 by 1 day</div></div>
+      </div>
+    </div>
+
+    <div class="reject-group">
+      <h3>deadline-passed, geography, format <span class="count">(2)</span></h3>
+      <div class="reject-list">
+        <div class="reject"><div class="name">Northwestern SPS College Preparation Program</div><div class="meta-line">Evanston · 2026 In Focus + Credit Course applications closed</div></div>
+        <div class="reject"><div class="name">Chicago Architecture Center Teen Fellows</div><div class="meta-line">Chicago · applications closed · 15-month commitment with Saturday classes</div></div>
+        <div class="reject"><div class="name">Summer Springboard</div><div class="meta-line">MIT, Yale, Berkeley, Duke, etc. · no campus in PIT/ORD/MSN radius</div></div>
+        <div class="reject"><div class="name">UW-Milwaukee Virtual Architecture Camp</div><div class="meta-line">Online-only · partial date conflict</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── NEXT YEAR NOTES ───── -->
+  <section>
+    <h2 class="serif">Notes for 2027</h2>
+    <div class="next-year">
+      <p style="margin-bottom:12px; color:var(--ink-soft); font-size:14.5px;">Several near-misses age into eligibility or move out of the work-week conflict next year:</p>
+      <ul>
+        <li><strong>CMU Pre-College</strong> — Ashi will be rising 11; she'd need to be 16 by Jun 20, 2027 (verify her summer 2027 birthday timing).</li>
+        <li><strong>Notre Dame Summer Scholars</strong> — rising 11 unlocks the program.</li>
+        <li><strong>Pitt Experiencing Architecture</strong> — apply when summer work weeks free up the 3-week July slot. <em>Free, age-eligible, home campus — the obvious top target next year.</em></li>
+        <li><strong>Northwestern CTD Civic Leadership Institute</strong> — if 2027 dates start earlier or later, ages perfectly.</li>
+        <li><strong>DePaul Game / Cinema / Animation Academy</strong> — screenwriting track + age fit; just need a different week.</li>
+        <li><strong>Kenyon Young Writers Workshop</strong> — apply 2028 when she's 16. Strong fit for the creative-writing side.</li>
+        <li><strong>Medill Cherubs</strong> — apply 2029 (rising 12). The journalism / media flagship for the region.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="foot">
+    Generated by the <code>discover-summer-camps</code> skill · search id <code>ashi-summer-2026</code> · run 2026-05-14<br>
+    Data: <code>searches/ashi-summer-2026/programs.json</code> · Source: <a href="report.md">report.md</a><br>
+    Every program traces to a 2026-current official source. Stale listings rejected per skill rule L0.
+  </footer>
+
+</div>
+</body>
+</html>

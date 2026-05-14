@@ -1,0 +1,503 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - link "Log in" [ref=e24] [cursor=pointer]:
+        - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2025%252F01%252F23%252Ftravel%252Fthings-to-do-quebec-city.html&asset=masthead
+        - generic [ref=e25]: Log in
+  - main [ref=e26]:
+    - article [ref=e27]:
+      - generic [ref=e30]:
+        - generic [ref=e36]:
+          - link "36 Hours" [ref=e39] [cursor=pointer]:
+            - /url: https://www.nytimes.com/column/36-hours
+          - generic [ref=e41]: Quebec City
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: "Jump to:"
+            - link "Recommendations" [ref=e46] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e48] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e49]:
+              - link "Google Map" [ref=e50] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/c8oqzQru2ZTSLNhK8
+              - img [ref=e52]
+          - generic [ref=e56]:
+            - paragraph [ref=e57]:
+              - generic [ref=e58]:
+                - text: By Vjosa Isai
+                - text: Photographs by Renaud Philippe
+            - paragraph [ref=e59]: Vjosa Isai is a reporter and researcher for The Times based in Toronto, where she covers news from across Canada.
+            - time [ref=e60]: Jan. 23, 2025
+          - paragraph [ref=e61]:
+            - text: With its fortified walls, Quebec City, one of North America’s oldest European settlements, in many ways feels frozen in time — a major draw for visitors who relish its quaint public squares and cobblestone streets, absent of skyscrapers. But while French speakers still resist the incursion of English, Quebec City is evolving. Walk down a street and you’ll find a Japanese restaurant serving up salmon poke bowls not far from a bistro offering the traditional fare of tourtière and poutine. Don’t miss the
+            - link "Musée National des Beaux-Arts du Québec" [ref=e62] [cursor=pointer]:
+              - /url: https://www.mnbaq.org/
+            - text: ", home to the largest collection of Quebecois art in the world. And there’s plenty of fun to be had in even the most frigid months, when temperatures can drop to an average low of -16 Celsius (3 degrees) in February, whether you’re whizzing down the hill on a toboggan sled with a view of the St. Lawrence River, marveling at intricately carved sculptures at an ice hotel, or enjoying live music and ice canoe races at"
+            - link "Le Carnaval de Quebec" [ref=e63] [cursor=pointer]:
+              - /url: https://programmation.carnaval.qc.ca/
+            - text: ", the annual winter carnival, which runs from Feb. 7 to Feb. 16."
+        - generic [ref=e64]: Advertisement
+        - heading "Recommendations" [level=2] [ref=e65]
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - button "Key stops –" [ref=e68] [cursor=pointer]:
+              - text: Key stops
+              - generic [ref=e69]: –
+            - list [ref=e70]:
+              - listitem [ref=e71]:
+                - text: The
+                - strong [ref=e72]:
+                  - link "Fairmont Le Château Frontenac" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.fairmont.com/frontenac-quebec/
+                - text: ", a hotel built by the Canadian Pacific Railway company in 1893, is Quebec City’s center of orbit."
+              - listitem [ref=e74]:
+                - text: Roam the cobblestone streets of
+                - strong [ref=e75]:
+                  - link "Le Quartier Petit Champlain" [ref=e76] [cursor=pointer]:
+                    - /url: https://www.quartierpetitchamplain.com/en/home/
+                - text: ", a historic commercial district in Old Quebec, a neighborhood in Quebec City, founded in 1608 by the French explorer Samuel de Champlain. Old Quebec toggles two terrains: a lower town at sea level, and an upper town on top of a rocky promontory, with steep roads and outdoor staircases connecting them."
+              - listitem [ref=e77]:
+                - text: The
+                - strong [ref=e78]:
+                  - link "Morrin Center" [ref=e79] [cursor=pointer]:
+                    - /url: https://www.morrin.org/en/
+                - text: ", the site of a former jailhouse, is now home to a library with an expansive English-language book collection."
+              - listitem [ref=e80]:
+                - strong [ref=e81]:
+                  - link "Montmorency Falls" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.sepaq.com/destinations/parc-chute-montmorency/index.dot?language_id=1
+                - text: ", a roughly 15-minute drive east of Quebec, is a 272-foot-tall waterfall with several vantage points, including an observation deck and a suspension bridge."
+              - listitem [ref=e83]:
+                - text: Quebec City’s largest art museum, the
+                - strong [ref=e84]:
+                  - link "Musée National des Beaux-Arts du Québec" [ref=e85] [cursor=pointer]:
+                    - /url: https://www.mnbaq.org/en/exhibition/early-days-1308
+                - text: ", will until late April host a touring art collection called “Early Days,” featuring works by Indigenous artists."
+          - generic [ref=e86]:
+            - button "Attractions and outdoor activities +" [ref=e87] [cursor=pointer]:
+              - text: Attractions and outdoor activities
+              - generic [ref=e88]: +
+            - list:
+              - listitem [ref=e89]:
+                - text: Skate at
+                - strong [ref=e90]:
+                  - link "Place D’Youville" [ref=e91] [cursor=pointer]:
+                    - /url: https://www.quebec-cite.com/en/businesses/patinoire-de-la-place-dyouville
+                - text: ", the public square near the festively decorated St.-Jean gate, one of the entryways into the old city."
+              - listitem [ref=e92]:
+                - text: For the first time, the Old Port of Quebec is hosting
+                - strong [ref=e93]:
+                  - link "Discoglace" [ref=e94] [cursor=pointer]:
+                    - /url: https://discoglace.portquebec.ca/
+                - text: ", an outdoor rink that comes alive at night."
+              - listitem [ref=e95]:
+                - text: Speed down a toboggan track at
+                - strong [ref=e96]:
+                  - link "Au 1884" [ref=e97] [cursor=pointer]:
+                    - /url: https://www.fairmont.com/frontenac-quebec/activities/tobbogan/
+                - text: ", the slide near Château Frontenac."
+              - listitem [ref=e98]:
+                - text: The
+                - strong [ref=e99]:
+                  - link "Hôtel de Glace" [ref=e100] [cursor=pointer]:
+                    - /url: https://www.valcartier.com/en/lodging/hotel-de-glace-ice-hotel/
+                - text: ", an ice hotel about 35 minutes northwest of Quebec City, is celebrating its 25th anniversary this year."
+          - generic [ref=e101]:
+            - button "Restaurants and bars +" [ref=e102] [cursor=pointer]:
+              - text: Restaurants and bars
+              - generic [ref=e103]: +
+            - list:
+              - listitem [ref=e104]:
+                - strong [ref=e105]:
+                  - link "Le Café du Monde" [ref=e106] [cursor=pointer]:
+                    - /url: https://www.lecafedumonde.com/#/
+                - text: has been around for more than 37 years and serves up classic Parisian fare.
+              - listitem [ref=e107]:
+                - strong [ref=e108]:
+                  - link "Laurie Raphaël" [ref=e109] [cursor=pointer]:
+                    - /url: https://laurieraphael.com/en/
+                - text: is an upscale restaurant that offers a tasting menu, with the option to add a wine or alcohol-free cocktail pairing. It also runs
+                - strong [ref=e110]:
+                  - link "Lueur" [ref=e111] [cursor=pointer]:
+                    - /url: https://laurieraphael.com/lueur/
+                - text: ", a 14-seat, countertop dining experience."
+              - listitem [ref=e112]:
+                - strong [ref=e113]:
+                  - link "Bar Ste-Ang" [ref=e114] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BarSainteAngele/
+                - strong [ref=e115]:
+                  - link "è" [ref=e116] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BarSainteAngele/?locale2=fr_CA
+                - strong [ref=e117]:
+                  - link "le" [ref=e118] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BarSainteAngele/
+                - text: is a rustic jazz club behind a nondescript blue door on the hilly Rue Ste.-Angele. Another venue featuring daily live music is
+                - strong [ref=e119]:
+                  - link "Pub Saint-Alexandre" [ref=e120] [cursor=pointer]:
+                    - /url: https://www.pubstalexandre.com/programmation
+                - text: .
+              - listitem [ref=e121]:
+                - text: At
+                - strong [ref=e122]:
+                  - link "La Buche" [ref=e123] [cursor=pointer]:
+                    - /url: https://www.restolabuche.com/
+                - text: ", Quebecois dishes shine, from classics like tourtière (meat pie) and poutine (French fries and cheese curds topped with gravy), to meals using local ingredients like bison filet mignon and trout gravlax smoked over maple wood."
+              - listitem [ref=e124]:
+                - strong [ref=e125]:
+                  - link "Café Apotek" [ref=e126] [cursor=pointer]:
+                    - /url: https://www.instagram.com/apotek.bakery/?hl=en
+                - text: ", simply furnished in an ode to Danish contemporary design, serves up canelés, sweet buns loaded with flavored mascarpone cream, and weighs espresso shots for an even latte pull each time."
+              - listitem [ref=e127]:
+                - strong [ref=e128]:
+                  - link "Hono Izakaya" [ref=e129] [cursor=pointer]:
+                    - /url: https://izakaya.honorestos.com/
+                - text: is a Japanese restaurant that serves tapas-style plates next door to its sibling restaurant,
+                - strong [ref=e130]:
+                  - link "Hono Ramen" [ref=e131] [cursor=pointer]:
+                    - /url: https://ramen.honorestos.com/
+                - text: ", which specializes in the brothy Japanese noodle dish."
+          - generic [ref=e132]:
+            - button "Shopping +" [ref=e133] [cursor=pointer]:
+              - text: Shopping
+              - generic [ref=e134]: +
+            - list:
+              - listitem [ref=e135]:
+                - strong [ref=e136]:
+                  - link "Les Antiquités Bolduc" [ref=e137] [cursor=pointer]:
+                    - /url: https://lesantiquitesbolduc.com/
+                - text: is operated by a brother-sister duo who inherited the business from their parents and have curated a unique collection of items, from porcelain dishes and glass paperweights to vintage cameras, all beautifully displayed.
+              - listitem [ref=e138]:
+                - strong [ref=e139]:
+                  - link "Oh La La! Boutique Éco Chic" [ref=e140] [cursor=pointer]:
+                    - /url: https://ohlalaeco.com/
+                - text: is a vintage clothing shop specializing in luxury and designer items.
+              - listitem [ref=e141]:
+                - strong [ref=e142]:
+                  - link "Rosie Papeterie" [ref=e143] [cursor=pointer]:
+                    - /url: https://rosiepapeterie.com/
+                - text: ", the Quebec stationary shop, was previously available only online but recently opened its first boutique, which also carries items like jewelry and fragrances from local creators."
+          - generic [ref=e144]:
+            - button "Where to stay +" [ref=e145] [cursor=pointer]:
+              - text: Where to stay
+              - generic [ref=e146]: +
+            - list:
+              - listitem [ref=e147]:
+                - text: The stately
+                - strong [ref=e148]:
+                  - link "Fairmont Le Château Frontenac" [ref=e149] [cursor=pointer]:
+                    - /url: https://www.fairmont.com/frontenac-quebec/
+                - text: is a ubiquitous presence in Quebec City, always peering down on visitors from its highpoint on the Cap Diamant escarpment. With 610 rooms, starting at around 300 dollars ($208) a night, the landmark hotel offers a sweeping view of the St. Lawrence River.
+              - listitem [ref=e150]:
+                - text: "The dozens of auberges, or inns, you’ll see dotting the streets fall into roughly two categories: hostels or boutique hotels. For the latter,"
+                - strong [ref=e151]:
+                  - link "Auberge Saint Antoine" [ref=e152] [cursor=pointer]:
+                    - /url: https://www.saint-antoine.com/
+                - text: ", a hotel near the Old Port of Quebec on the St. Lawrence River, offers a luxury experience starting at 230 dollars a night, with rooms decorated to include artifacts found in an archeological excavation of the site during the hotel’s construction."
+              - listitem [ref=e153]:
+                - text: Quiet fills the air at
+                - strong [ref=e154]:
+                  - link "Le Monastère des Augustines" [ref=e155] [cursor=pointer]:
+                    - /url: https://monastere.ca/en/
+                - text: ", a former monastery in Old Quebec that was converted in 2015 to a nonprofit wellness hotel. Guests have the option of sleeping in the sparsely furnished but comfortable nuns’ quarters, which start at around 200 dollars per night. The “contemporary rooms” have an in-suite private washroom and start at about 260 dollars."
+              - listitem [ref=e156]:
+                - text: Vacation rentals are available on platforms like
+                - strong [ref=e157]:
+                  - link "AirBnb" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.airbnb.ca/s/homes?dynamic_product_ids%5B%5D=26732592&omni_page_id=36021
+                - text: and
+                - strong [ref=e159]:
+                  - link "Vrbo" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.vrbo.com/en-ca/vacation-rentals/canada/qu%C3%A9bec/capitale-nationale/qu%C3%A9bec-city
+                - text: . Look for options in the Saint-Roch neighborhood, where you’ll find many of the city’s best restaurants and nightlife, and an easy walk to major attractions.
+          - generic [ref=e161]:
+            - button "Getting Around +" [ref=e162] [cursor=pointer]:
+              - text: Getting Around
+              - generic [ref=e163]: +
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - text: Quebec City is very pedestrian-friendly and walking is a hassle-free way to get to most attractions, but Ubers and taxis are also widely available. Taxis into town from Québec City Jean Lesage International Airport go for a flat rate of about 40 Canadian dollars, roughly as much as an Uber trip. The public transit system, Réseau de Transport de la Capitale, has a payment app called
+                - link "RTC Nomade" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.rtcquebec.ca/en/rates-and-purchase/purchase-and-points-sale/rtc-nomade-paiement
+                - text: to buy tickets, with day passes for 10 dollars. For trips to the Hôtel de Glace, some tour companies offer packages that include the price of the ticket and round-trip transport from the Fairmont, but it can be more cost effective to take a taxi or rideshare if you’re traveling in a small group.
+        - heading "Itinerary" [level=2] [ref=e167]
+        - generic [ref=e168]:
+          - heading "Friday" [level=2] [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e171]: 5 p.m. Breathe deeply in a nunnery
+            - paragraph [ref=e173]:
+              - text: In the 17th century, French settlers mounted defensive walls called ramparts along parts of Quebec City’s rocky escarpment to fortify it from the British. See these remnants on Rue des Remparts, which also offers panoramic views of the St. Lawrence River, the entry point for the city’s first settlers. The street is also home to
+              - link "Le Monastère des Augustines" [ref=e174] [cursor=pointer]:
+                - /url: https://monastere.ca/en/
+              - text: ", the site of what historians believe is the first hospital on the continent north of Mexico, founded by Augustinian nuns from France. Prime your body for a weekend of Quebec City’s outdoors by dropping in for daily"
+              - link "yoga" [ref=e175] [cursor=pointer]:
+                - /url: https://monastere.ca/en/activity/gentle-yoga/
+              - text: (18 dollars) in the monastery’s arched stone underground vault.
+          - img "A view from above of city streets with quaint old buildings. A river with ice flows and a ship is in the background. On the right is a building with a trompe l'oeil, of a scene not unlike the one we're looking at." [ref=e179]
+          - generic [ref=e180]:
+            - generic [ref=e181]: 7 p.m. Catch a groove
+            - paragraph [ref=e183]:
+              - text: A classic skating option is at
+              - link "Place D’Youville" [ref=e184] [cursor=pointer]:
+                - /url: https://www.quebec-cite.com/en/businesses/patinoire-de-la-place-dyouville
+              - text: ", a public square on one of the city’s oldest roads, under a giant wreath on a historic theater building, now home to"
+              - link "Il Teatro" [ref=e185] [cursor=pointer]:
+                - /url: https://ilteatro.ca/en/
+              - text: restaurant. But for a livelier experience, about a 20-minutes’ walk north at the Old Port of Quebec, one of Canada’s largest ports, is a new nightclub-inspired skating rink called
+              - link "Discoglace" [ref=e186] [cursor=pointer]:
+                - /url: https://discoglace.portquebec.ca/
+              - text: ", with live music and colorful lights. (Through March 9; entrance is free and open to all ages. Skate rentals, 8 dollars.)"
+          - generic [ref=e190]:
+            - generic [ref=e191]: 8 p.m. Dine at a Quebec mainstay
+            - paragraph [ref=e193]:
+              - text: If you work up an appetite,
+              - link "Le Café du Monde" [ref=e194] [cursor=pointer]:
+                - /url: https://www.lecafedumonde.com/#/
+              - text: ", a 37-year-old bistro just a few minutes from Discoglace, serves camembert fondue (14 dollars) and confit duck legs (28 dollars). Or across the street from there,"
+              - link "Lueur" [ref=e195] [cursor=pointer]:
+                - /url: https://laurieraphael.com/lueur/
+              - text: is a new, more affordable offshoot of
+              - link "Laurie Raphaël" [ref=e196] [cursor=pointer]:
+                - /url: https://laurieraphael.com/en/
+              - text: ", the fine-dining powerhouse that charges 185 dollars for its tasting menu. Lueur fits only 14 people at a countertop, and the most expensive item on its modern-French menu is a filet mignon in foie gras sauce with fries at 30 dollars. Reservations are encouraged in Quebec’s busy restaurant scene, even in the winter off-season."
+          - generic [ref=e200]:
+            - generic [ref=e201]: 9:30 p.m. Lose yourself in a mellow tune
+            - paragraph [ref=e203]:
+              - text: Look for the blue door near the bottom of the steep Rue Ste.-Angèle. The light of a moody neon glow from the low window will let you know you’ve got the right place,
+              - link "Bar Ste-Angèle" [ref=e204] [cursor=pointer]:
+                - /url: https://www.facebook.com/BarSainteAngele/?locale2=fr_CA
+              - text: ", a cozy jazz bar anchoring the live music scene of the Old Quebec district. The bar runs a nightly program (tickets are about 10 dollars) and serves affordable cocktails and beer (cocktail pitchers, around 20 dollars). While Quebec City’s winter nightlife can be muted compared to the summer,"
+              - link "Pub Saint-Alexandre" [ref=e205] [cursor=pointer]:
+                - /url: https://www.pubstalexandre.com/programmation
+              - text: ", an English tavern in Old Quebec, is another bar that offers year-round programming."
+          - img "A bar with a bartender shaking a cocktail. There is lots of wood, lots of bottles, and a sign that says \"Jazz Live.\" The atmosphere of the photo is warm and cozy." [ref=e209]
+        - generic [ref=e210]:
+          - img "A view from above of a snowy city; a large elegant, gabled building is in the background." [ref=e212]
+          - paragraph [ref=e215]: Quebec City on a winter’s day, with the grand Fairmont Le Château Frontenac in the background.
+        - generic [ref=e216]: Advertisement
+        - generic [ref=e217]:
+          - heading "Saturday" [level=2] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]: 9:30 a.m. Fuel up, Quebec-style
+            - paragraph [ref=e222]:
+              - text: A hearty breakfast at
+              - link "La Buche" [ref=e223] [cursor=pointer]:
+                - /url: https://www.restolabuche.com/
+              - text: ", in Old Quebec, will give you the boost to take on Quebec City’s hilly pedestrian streets and the outdoor stairways that connect them. Deer heads are mounted on the walls, mini-toboggans are nailed to the ceiling, and lumberjack-plaid drapery evokes cabanes à sucre, or sugar shacks, traditional shanties set up in forests where the sap to be turned into maple syrup is harvested. Classic dishes like tourtière (29 dollars) are served alongside smoked trout crepes (24 dollars) and French toast with maple caramelized apples (20 dollars). Hang onto your receipt and get a 15 percent discount at the restaurant’s boutique shop next door, which sells clothes and touristy gifts such as maple syrup lollipops and spruce-scented candles."
+          - img "The interior of a restaurant; lots of wood paneling, deer heads on the wall. A chandelier of antlers hangs from the ceiling; people are eating at tables with red checked tablecloths." [ref=e227]
+          - generic [ref=e228]:
+            - generic [ref=e229]: 11 a.m. Sift through treasures and trinkets
+            - paragraph [ref=e231]:
+              - text: Porcelain figurines, vintage Christmas decorations and old records occupy neighboring storefronts along Rue St. Paul, in the antiques district. While some shops close or operate on reduced hours in January,
+              - link "Les Antiquités Bolduc" [ref=e232] [cursor=pointer]:
+                - /url: https://lesantiquitesbolduc.com/
+              - text: is a reliable bet. It’s run by a brother and sister, who inherited it from their parents, and neatly displays film cameras, glass paperweights and fine china. Newcomers to the street include
+              - link "Rosie Papeterie" [ref=e233] [cursor=pointer]:
+                - /url: https://rosiepapeterie.com/
+              - text: ", a locally owned stationery shop with a minimalist aesthetic, and a sleek coffee shop,"
+              - link "Café Apotek" [ref=e234] [cursor=pointer]:
+                - /url: https://www.instagram.com/apotek.bakery/?hl=en
+              - text: . Try its sweet brioche buns, stuffed with lime-and-blueberry mascarpone cream (8.50 dollars). For vintage shopping, the year-old
+              - link "Oh La La! Boutique Éco Chic" [ref=e235] [cursor=pointer]:
+                - /url: https://ohlalaeco.com/
+              - text: offers luxury finds; it’s about a 20-minute walk west.
+          - generic [ref=e237]:
+            - img "A partial interior of a shop, with a string instrument and a painting hanging on the wall; on a tabletop surface is a bust and a decanter and glasses." [ref=e239]
+            - paragraph [ref=e242]: Les Antiquités Bolduc
+          - generic [ref=e243]:
+            - generic [ref=e244]: 1 p.m. Hang onto your hat!
+            - paragraph [ref=e246]:
+              - text: Gleeful shrieks become louder as you summit Quebec’s oldest stairway — affectionately known by locals as the “breakneck stairs” — and head toward the Fairmont Le Château Frontenac. The sounds are coming from the toboggan slide
+              - link "Au 1884" [ref=e247] [cursor=pointer]:
+                - /url: https://www.fairmont.com/frontenac-quebec/activities/tobbogan/
+              - text: ", named for the year it was built on the nearby Dufferin Terrace. One ride is 4.75 dollars per person, or 15 dollars for four tickets. You might work up a sweat dragging the wooden toboggan (which can fit four people) up the steep ramp, but you’ll easily dry off after racing down at speeds of nearly 45 miles per hour, while taking in a view of the Château Frontenac and St. Lawrence River. After a couple of rides, wander through the festively adorned cobblestone streets of the"
+              - link "Petit Champlain" [ref=e248] [cursor=pointer]:
+                - /url: https://www.quartierpetitchamplain.com/en/home/
+              - text: district, believed to be one of North America’s oldest commercial streets, and now a bustling area of boutiques, heritage buildings and eateries.
+          - paragraph [ref=e254]: The Petit Champlain district
+          - generic [ref=e255]:
+            - generic [ref=e256]: 2:30 p.m. Warm up in an English library
+            - paragraph [ref=e258]:
+              - text: Take a break from the cold in Quebec City’s English-language library, the
+              - link "Morrin Center" [ref=e259] [cursor=pointer]:
+                - /url: https://www.morrin.org/en/
+              - text: ", originally built by the French in the 19th century as a prison, transformed by a Scottish doctor into a college, and later managed by the Literary and Historical Society of Quebec as a heritage site. The library houses an impressive collection over two stories of floor-to-ceiling bookshelves. But the library has some ghost stories of its own: In its crypt, learn about the haunting history of the prison, complete with graffiti and etchings from former inmates. Tours are 18.50 dollars and have set times in French and English, including at 1 p.m. and 3 p.m. in English."
+          - img "The interior of a two-story library; the balcony has an elaborate railing, and there's a circular stairway connecting the floors. The model of a large ship is on display on a shelf." [ref=e263]
+          - generic [ref=e264]:
+            - generic [ref=e265]: 4:30 p.m. Delight in a hotel of ice
+            - paragraph [ref=e267]:
+              - text: It’s the 25th anniversary of the
+              - link "Hôtel de Glace" [ref=e268] [cursor=pointer]:
+                - /url: https://www.valcartier.com/en/lodging/hotel-de-glace-ice-hotel/
+              - text: ", a one-story hotel built every December out of carved ice. On the grounds of the Valcartier Vacation Village, an outdoor recreational complex about 35 minutes northwest of Quebec City, the ice hotel has 30 rooms, a wedding chapel, two bars, ice sculptures depicting the Indigenous heritage of the local Huron-Wendat people and"
+              - link "a new restaurant" [ref=e269] [cursor=pointer]:
+                - /url: https://www.fairmont.com/frontenac-quebec/activities/restaurant-de-l-hotel-de-glace-signe-chateau-frontenac/
+              - text: (open Friday and Saturday nights). Tour the hotel until 8 p.m., before overnight guests take their rooms (40 dollar day pass). Marvel at the intricate sculptures in themed rooms, with polar bears, dragons, flowers, canoes and psychedelic patterns carved so smoothly you would think the snow walls were made of stone.
+          - img "A figure carved into the ice; a red ball in front of the figure glows, with fire-like carvings in the foreground." [ref=e273]
+          - generic [ref=e274]:
+            - generic [ref=e275]: 8:30 p.m. Have a hearty Japanese noodle soup
+            - paragraph [ref=e277]:
+              - text: In the trendy Saint-Roch neighborhood, west of Old Quebec, are two adjoining sibling Japanese restaurants —
+              - link "Hono Izakaya" [ref=e278] [cursor=pointer]:
+                - /url: https://izakaya.honorestos.com/
+              - text: ", minimally designed in light maple, and the adjoining"
+              - link "Hono Ramen" [ref=e279] [cursor=pointer]:
+                - /url: https://ramen.honorestos.com/
+              - text: ", in contrasting dark mahogany tones. Try Izakaya for a selection of yakitori, small skewered bites from the grill (including a duck heart confit, 10 dollars), or larger plates like an elegantly presented Japanese curry (from 19 dollars). If walking into Hono Izakaya is a no-go — reservations are recommended — Hono Ramen offers several creative bowls, with flavors punched up with such additions as roasted leek oil and roasted garlic, and fun textures like puffed rice."
+          - generic [ref=e281]:
+            - 'img "Japanese food: a hand holds a chopstick with a dumpling; there''s a pot for tea or sauce, a bowl with more dumplings, and some dipping sauce in a shallow bowl." [ref=e283]'
+            - paragraph [ref=e286]: Hono Izakaya
+        - generic [ref=e287]:
+          - img "A sculpted structure made of ice; inside a door is person walking. The sky is a dark blue; the ice house red and white." [ref=e289]
+          - paragraph [ref=e292]: The Hôtel de Glace is built every December out of carved ice. Visitors can tour the hotel until 8 p.m., before overnight guests take their rooms.
+        - generic [ref=e293]: Advertisement
+        - generic [ref=e294]:
+          - heading "Sunday" [level=2] [ref=e295]
+          - generic [ref=e296]:
+            - generic [ref=e297]: 9 a.m. Chase winter waterfalls
+            - paragraph [ref=e299]:
+              - text: It’s hard to tire of the view of the expansive St. Lawrence River, but for another flavor of Quebec’s natural beauty, take a taxi or rideshare 15 minutes east of the old city to the 272-foot-high
+              - link "Montmorency Falls" [ref=e300] [cursor=pointer]:
+                - /url: https://www.sepaq.com/destinations/parc-chute-montmorency/index.dot?language_id=1
+              - text: ", viewed from a suspension bridge (tell the driver to drop you off at Montmorency Manor, the historic home of Quebec’s third governor, where the trail starts). Enjoy free entry during the winter off-season months (the rate is otherwise about 10 dollars for adults). On the way to the suspension bridge, about a 15-minute walk, see giant icicles along the cliff sides and the frozen top of the Montmorency River, their stillness stark against the roaring rush of the waterfall."
+          - img "A wintery, snowy scene with two people dressed in outdoor winter clothing who standing together taking a selfie. There's a hill in the background with falls." [ref=e304]
+          - generic [ref=e305]:
+            - generic [ref=e306]: 11 a.m. Admire Indigenous art
+            - paragraph [ref=e308]:
+              - text: Head to the
+              - link "Musée National des Beaux-Arts du Québec" [ref=e309] [cursor=pointer]:
+                - /url: https://www.mnbaq.org/
+              - text: for the
+              - link "“Early Days”" [ref=e310] [cursor=pointer]:
+                - /url: https://www.mnbaq.org/en/exhibition/early-days-1308
+              - text: exhibition (through April 21), which includes works from about 50 Indigenous artists. Admire the hopeful painting called “New Climate Landscape” by
+              - link "Lawrence Yuxweluptun" [ref=e311] [cursor=pointer]:
+                - /url: https://lawrencepaulyuxweluptun.com/
+              - text: ", an artist born in Kamloops, British Columbia, who is known for his vibrant reimaginations of northwest coastlines. Also see works by Kent Monkman, whose arresting paintings reference historic European art styles and depict violent scenes of colonialism; and Norval Morrisseau, who popularized the Woodlands style of painting, which emphasizes thick, defined brushstrokes and loud, contrasting colors, and is used by many Indigenous artists from Ontario and Manitoba."
+          - img "The exterior of a museum; large windows reveal chairs and a shop inside. A sculpture of tubes is in the foreground." [ref=e315]
+  - generic [ref=e320]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e322]:
+      - button "Read 190 comments" [ref=e324] [cursor=pointer]
+      - list [ref=e326]:
+        - listitem [ref=e327]:
+          - button "Share full article" [ref=e330] [cursor=pointer]:
+            - generic [ref=e331]:
+              - img [ref=e332]
+              - text: Share full article
+        - listitem [ref=e334]:
+          - button "More sharing options ..." [ref=e337] [cursor=pointer]:
+            - img [ref=e338]
+        - listitem [ref=e340]:
+          - switch "Save article for reading later..." [ref=e341] [cursor=pointer]:
+            - img [ref=e342]
+        - listitem [ref=e346]:
+          - button "Read 190 comments" [ref=e347] [cursor=pointer]:
+            - generic [ref=e348]:
+              - img [ref=e349]
+              - text: "190"
+    - region "Related Content" [ref=e352]:
+      - heading "Related Content" [level=2] [ref=e353]
+      - generic [ref=e354]:
+        - list [ref=e359]:
+          - listitem [ref=e360]:
+            - figure [ref=e366]
+          - listitem [ref=e368]:
+            - figure [ref=e374]
+          - listitem [ref=e376]:
+            - figure [ref=e382]
+          - listitem [ref=e384]:
+            - figure [ref=e390]
+          - listitem [ref=e392]:
+            - figure [ref=e398]
+          - listitem [ref=e400]:
+            - figure [ref=e406]
+        - list [ref=e412]:
+          - listitem [ref=e413]:
+            - figure [ref=e419]
+          - listitem [ref=e421]:
+            - figure [ref=e427]
+          - listitem [ref=e429]:
+            - figure [ref=e435]
+      - list [ref=e442]:
+        - listitem [ref=e443]
+        - listitem [ref=e448]
+        - listitem [ref=e453]
+        - listitem [ref=e458]
+        - listitem [ref=e463]
+        - listitem [ref=e468]
+        - listitem [ref=e473]
+        - listitem [ref=e478]
+        - listitem [ref=e483]
+        - listitem [ref=e488]
+    - generic [ref=e493]:
+      - paragraph [ref=e495]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e496] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e498]:
+      - heading "Site Index" [level=2] [ref=e499]
+    - contentinfo [ref=e501]:
+      - navigation [ref=e502]:
+        - heading "Site Information Navigation" [level=2] [ref=e503]
+        - list [ref=e504]:
+          - listitem [ref=e505]:
+            - link "© 2026 The New York Times Company" [ref=e506] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e507]:
+          - listitem [ref=e508]:
+            - link "NYTCo" [ref=e509] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e510]:
+            - link "Contact Us" [ref=e511] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e512]:
+            - link "Accessibility" [ref=e513] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e514]:
+            - link "Work with us" [ref=e515] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e516]:
+            - link "Advertise" [ref=e517] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e518]:
+            - link "T Brand Studio" [ref=e519] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e520]:
+            - link "Privacy Policy" [ref=e521] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e522]:
+            - link "Cookie Policy" [ref=e523] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e524]:
+            - link "Terms of Service" [ref=e525] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e526]:
+            - link "Terms of Sale" [ref=e527] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e528]:
+            - link "Site Map" [ref=e529] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e530]:
+            - link "Help" [ref=e531] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e532]:
+            - link "Subscriptions" [ref=e533] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e534]:
+          - listitem [ref=e535]:
+            - button "Your Privacy Choices" [ref=e536] [cursor=pointer]:
+              - img [ref=e537]
+              - text: Your Privacy Choices

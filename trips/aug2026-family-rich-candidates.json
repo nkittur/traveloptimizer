@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "san-diego-california",
+    "name": "San Diego + La Jolla",
+    "country": "United States",
+    "region": "pacific-coast",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "status": "candidate",
+    "operational": { "airport_codes": ["SAN"], "family_present": "cousin Stefi" },
+    "sources": [
+      { "type": "nyt36hours", "url": "https://www.nytimes.com/interactive/2024/07/18/travel/things-to-do-san-diego.html", "title": "36 Hours in San Diego", "verified": true, "match": "direct" }
+    ]
+  },
+  {
+    "slug": "hamptons-newyork",
+    "name": "The Hamptons + East End",
+    "country": "United States",
+    "region": "atlantic-coast",
+    "lat": 40.9634,
+    "lng": -72.1848,
+    "status": "candidate",
+    "operational": { "airport_codes": ["HTO", "ISP", "JFK"], "family_present": "cousin Gaurav" },
+    "sources": [
+      { "type": "nyt36hours", "url": "https://www.nytimes.com/interactive/2025/07/03/travel/things-to-do-east-end.html", "title": "36 Hours on Long Island's East End", "verified": true, "match": "direct" }
+    ]
+  },
+  {
+    "slug": "irvine-orange-county",
+    "name": "Irvine + Newport Coast",
+    "country": "United States",
+    "region": "pacific-coast",
+    "lat": 33.6846,
+    "lng": -117.8265,
+    "status": "candidate",
+    "operational": { "airport_codes": ["SNA", "LAX"], "family_present": "parents (3-4x/year visit)" },
+    "sources": []
+  }
+]

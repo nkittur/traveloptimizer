@@ -1,0 +1,1693 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodLosAngeles" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+        - listitem [ref=e117]:
+          - link "other discussions (1)" [ref=e118] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/duplicates/1ibq99c/my_favorite_la_spots_jan_2025/
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - text: Want to join?
+        - link "Log in" [ref=e121] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e122] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e123]:
+    - search [ref=e125]:
+      - textbox "search" [ref=e126]
+      - button "Submit" [ref=e127] [cursor=pointer]
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - text: this post was submitted on
+        - time [ref=e131]: 28 Jan 2025
+      - generic [ref=e132]: 31 points (83% upvoted)
+      - generic [ref=e133]:
+        - text: "shortlink:"
+        - textbox [ref=e134]: https://redd.it/1ibq99c
+    - link "Submit a new link" [ref=e138] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit
+    - link "Submit a new text post" [ref=e143] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit?selftext=true
+    - generic [ref=e146]:
+      - heading "FoodLosAngeles" [level=1] [ref=e147]:
+        - link "FoodLosAngeles" [ref=e148] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - link "join" [ref=e150] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e153]:
+        - paragraph [ref=e154]: Food Los Angeles is dedicated to showcasing great food from all over Los Angeles! Share pictures, reviews, websites, etc.
+        - paragraph [ref=e155]: Who doesn't like food?! Subscribe! :)
+        - paragraph [ref=e156]:
+          - strong [ref=e157]: Rules
+        - list [ref=e158]:
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Be friendly
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: Try to specify where the food is from in the comments or title
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: Post Tags
+        - paragraph [ref=e165]:
+          - strong [ref=e166]: "[THE BEST PLACE IN]"
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "[WHO MAKES THE BEST]"
+        - paragraph [ref=e169]:
+          - strong [ref=e170]: "Related Subs:"
+        - list [ref=e171]:
+          - listitem [ref=e172]:
+            - paragraph [ref=e173]:
+              - strong [ref=e174]:
+                - link "/r/FoodWishes" [ref=e175] [cursor=pointer]:
+                  - /url: /r/FoodWishes
+                - text: (NEW!)
+          - listitem [ref=e176]:
+            - paragraph [ref=e177]:
+              - link "/r/Food" [ref=e178] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e179]:
+            - paragraph [ref=e180]:
+              - link "/r/FoodPorn" [ref=e181] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e182]:
+            - paragraph [ref=e183]:
+              - link "/r/LosAngeles" [ref=e184] [cursor=pointer]:
+                - /url: /r/LosAngeles
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: Resources
+        - list [ref=e187]:
+          - listitem [ref=e188]:
+            - paragraph [ref=e189]:
+              - link "Reddit's take on the best restaurants in Los Angeles" [ref=e190] [cursor=pointer]:
+                - /url: http://www.reddit.com/r/LosAngeles/comments/2dq6tr/whats_your_favorite_restaurant_in_los_angeles/
+          - listitem [ref=e191]:
+            - paragraph [ref=e192]:
+              - link "20 Best Restaurants in Los Angeles | LAWeekly.com" [ref=e193] [cursor=pointer]:
+                - /url: http://www.laweekly.com/squidink/2014/04/15/20-best-restaurants-in-los-angeles
+          - listitem [ref=e194]:
+            - paragraph [ref=e195]:
+              - link "L.A.'s 75 Best Restaurants | LAMag.com" [ref=e196] [cursor=pointer]:
+                - /url: http://www.lamag.com/thejump/2014/04/23/hot-stuff-announcing-las-75-best-restaurants
+          - listitem [ref=e197]:
+            - paragraph [ref=e198]:
+              - link "10 Foods Los Angeles Does Better Than Anywhere Else | HuffingtonPost.com" [ref=e199] [cursor=pointer]:
+                - /url: http://www.huffingtonpost.com/2013/10/15/best-los-angeles-food_n_4101759.html
+          - listitem [ref=e200]:
+            - paragraph [ref=e201]:
+              - link "Roaming Hunger Food Truck Map" [ref=e202] [cursor=pointer]:
+                - /url: http://roaminghunger.com/la
+          - listitem [ref=e203]:
+            - paragraph [ref=e204]:
+              - link "FoodTrucksMap.com" [ref=e205] [cursor=pointer]:
+                - /url: http://www.foodtruckmaps.com/la/
+        - paragraph [ref=e206]:
+          - strong [ref=e207]: The Food Network
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - paragraph [ref=e210]:
+              - link "/r/FoodToronto" [ref=e211] [cursor=pointer]:
+                - /url: /r/FoodToronto
+          - listitem [ref=e212]:
+            - paragraph [ref=e213]:
+              - link "/r/FoodPortland" [ref=e214] [cursor=pointer]:
+                - /url: /r/FoodPortland
+          - listitem [ref=e215]:
+            - paragraph [ref=e216]:
+              - link "/r/FoodNYC" [ref=e217] [cursor=pointer]:
+                - /url: /r/FoodNYC
+          - listitem [ref=e218]:
+            - paragraph [ref=e219]:
+              - link "/r/FoodSanDiego" [ref=e220] [cursor=pointer]:
+                - /url: /r/FoodSanDiego
+          - listitem [ref=e221]:
+            - paragraph [ref=e222]:
+              - link "/r/FoodVancouver" [ref=e223] [cursor=pointer]:
+                - /url: /r/FoodVancouver
+          - listitem [ref=e224]:
+            - paragraph [ref=e225]:
+              - link "/r/ChicagoFood" [ref=e226] [cursor=pointer]:
+                - /url: /r/ChicagoFood
+          - listitem [ref=e227]:
+            - paragraph [ref=e228]:
+              - link "/r/ColumbusFood" [ref=e229] [cursor=pointer]:
+                - /url: /r/ColumbusFood
+          - listitem [ref=e230]:
+            - paragraph [ref=e231]:
+              - link "/r/FoodSoCal" [ref=e232] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e233]:
+            - paragraph [ref=e234]:
+              - link "/r/FoodNewOrleans" [ref=e235] [cursor=pointer]:
+                - /url: /r/FoodNewOrleans
+          - listitem [ref=e236]:
+            - paragraph [ref=e237]:
+              - link "/r/FoodSanFrancisco" [ref=e238] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+        - paragraph [ref=e239]: "Related Subs:"
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "/r/Burgers" [ref=e242] [cursor=pointer]:
+              - /url: /r/Burgers
+      - generic [ref=e244]:
+        - text: a community for
+        - time [ref=e245]: 11 years
+    - generic [ref=e247]:
+      - heading "MODERATORS" [level=1] [ref=e249]
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - link "message the mods" [ref=e252] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodLosAngeles
+    - complementary [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - text: discussions in
+          - link "r/FoodLosAngeles" [ref=e258] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/?ref=readnext
+        - navigation [ref=e259]:
+          - generic [ref=e260] [cursor=pointer]: <
+          - generic [ref=e261] [cursor=pointer]: ">"
+        - generic [ref=e263] [cursor=pointer]: X
+      - link "35 · 18 comments r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [ref=e265] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/?ref=readnext_0
+        - generic [ref=e266]: 35 · 18 comments
+        - generic [ref=e267]: r/FoodLosAngeles — 2025's Best Restaurants Poll results!
+  - main [ref=e268]:
+    - generic [ref=e269]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e270] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e271]
+        - paragraph [ref=e272]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e273]:
+          - generic [ref=e274]: Become a Redditor
+          - paragraph [ref=e275]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e276] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e278]:
+      - paragraph
+      - generic [ref=e279]:
+        - button "upvote" [ref=e280] [cursor=pointer]
+        - generic "31" [ref=e281]
+        - button "downvote" [ref=e282] [cursor=pointer]
+      - link [ref=e283] [cursor=pointer]:
+        - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - paragraph [ref=e286]:
+            - link "My Favorite LA Spots (Jan 2025)" [ref=e287] [cursor=pointer]:
+              - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+            - generic "WHO MAKES THE BEST" [ref=e288]
+            - generic [ref=e289]:
+              - text: (
+              - link "self.FoodLosAngeles" [ref=e290] [cursor=pointer]:
+                - /url: /r/FoodLosAngeles/
+              - text: )
+          - paragraph [ref=e291]:
+            - text: submitted
+            - time [ref=e292]: 1 year ago
+            - time [ref=e293]: "*"
+            - text: by
+            - link "PugetSoundRecords" [ref=e294] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/PugetSoundRecords
+        - generic [ref=e298]:
+          - paragraph [ref=e299]: I have lived in LA for 3 years now and here are my favorite places to eat. I stuck to places I have been more than once, minus the very expensive ones. Let me know what you think should be added :) I want to clarify I live on the East side so that is where my center is, I am sure there is great food on the west side too but my options are somewhat limited to my radius.
+          - paragraph [ref=e300]: I think LA has a lot of great food and also a lot of food in general so it can at times be hard to find affordable and also good.
+          - paragraph [ref=e301]: edit I took down the map bc it looks like it's not working for people. I am able to send you a PDF with all the locations of these if interested.
+          - paragraph [ref=e302]: I don't drink coffee so I outsourced with friends. couldn't find much in the way of certain cuisines like German, Ethiopian, and Indian, so I did not add to the list. felt like I probably haven't found all LA's good ones yet. would love to update the list this coming year.
+          - paragraph [ref=e303]:
+            - text: Armenian
+            - text: Ill Mas Bakery
+            - text: Al Taron
+            - text: Zhengyalov Hatz
+            - text: Elena’s
+          - paragraph [ref=e304]:
+            - text: Burger
+            - text: Amboy
+            - text: For the Win
+            - text: Win-Dow
+            - text: Moo’s Craft
+            - text: Heavy Handed
+          - paragraph [ref=e305]:
+            - text: Burrito/Mexican
+            - text: Al & Bea’s
+            - text: Azteca Tortilleria
+            - text: Mariscos Jalisco
+            - text: Tacos Villas
+          - paragraph [ref=e306]:
+            - text: Chinese/Taiwanese
+            - text: Liu’s Cafe
+            - text: Mason's Dumplings
+            - text: Mama Lu's
+            - text: Pine & Crane
+            - text: Yang Chow
+          - paragraph [ref=e307]:
+            - text: Coffee
+            - text: Camel
+            - text: Maru
+            - text: Motoring Coffee
+            - text: Tierra Mia
+          - paragraph [ref=e308]:
+            - text: Filipino
+            - text: Dollar Hits
+            - text: Kuya Lord
+            - text: Park’s Finest
+          - paragraph [ref=e309]:
+            - text: Hawaiian/Fish
+            - text: Holbox
+            - text: Jus Poke
+            - text: Rutt’s
+          - paragraph [ref=e310]:
+            - text: Middle Eastern
+            - text: Kismet
+            - text: Sincerely Syria
+            - text: Saffy's
+            - text: Z Falafel
+          - paragraph [ref=e311]:
+            - text: French
+            - text: Petit Trois
+            - text: Pasjoli
+            - text: République
+          - paragraph [ref=e312]:
+            - text: Italian
+            - text: Colapasta
+            - text: Forma
+            - text: Pasta Sisters
+            - text: Uovo
+          - paragraph [ref=e313]:
+            - text: Japanese
+            - text: Morihiro
+            - text: Shin-Sen-Gumi
+            - text: Sushi Gen
+            - text: Tsujita
+          - paragraph [ref=e314]:
+            - text: Korean
+            - text: Dan Sung Sa
+            - text: Gol Tong
+            - text: Majordomo
+            - text: Myung In
+          - paragraph [ref=e315]:
+            - text: Pastry/Patisserie
+            - text: Artelice Patisserie
+            - text: Fugetsu-Do Mochi
+            - text: Lou’s Frenchon the Block
+            - text: Proof Bakery
+            - text: Porto’s Bakery
+            - text: United Bread and Pastry
+          - paragraph [ref=e316]:
+            - text: Pizza
+            - text: Bella Luna
+            - text: Pizzeria Sei
+            - text: Quarter Sheets
+          - paragraph [ref=e317]:
+            - text: Sandwich
+            - text: Bay Cities Deli
+            - text: Go Go Bird
+            - text: Katsu Sando
+            - text: Langers
+            - text: Lanza Bros.
+            - text: My Dung
+            - text: Roma Market
+          - paragraph [ref=e318]:
+            - text: Soul/BBQ
+            - text: Big Ant’s
+            - text: Dulan’s
+            - text: Moo’s Craft
+            - text: Perry's BBQ @ Leimert Park (Sunday only)
+            - text: The Serving Spoon
+          - paragraph [ref=e319]:
+            - text: Thai
+            - text: Jitlada
+            - text: Sanamluang
+            - text: Heng Heng Chicken Rice
+            - text: Mae Malai
+            - text: Northern Thai Food Club
+        - list [ref=e320]:
+          - listitem [ref=e321]:
+            - link "36 comments" [ref=e322] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+          - listitem [ref=e323]:
+            - link "share" [ref=e324] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e325]:
+            - link "save" [ref=e326] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e327]:
+            - link "hide" [ref=e330] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e331]:
+            - link "report" [ref=e332] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e333]:
+      - generic [ref=e334]: all 36 comments
+      - generic [ref=e336]:
+        - text: "sorted by:"
+        - generic [ref=e337]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e340] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e341]
+        - generic [ref=e342]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e343]
+          - paragraph [ref=e344]: Post a comment!
+          - generic [ref=e346]: Create an account
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - paragraph
+          - paragraph [ref=e350]:
+            - link "[+]" [ref=e351] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e352]: "[deleted]"
+            - time [ref=e353]: 1 year ago
+            - link "(5 children)" [ref=e354] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e355]:
+          - paragraph
+          - generic [ref=e356]:
+            - button "upvote" [ref=e357] [cursor=pointer]
+            - button "downvote" [ref=e358] [cursor=pointer]
+          - generic [ref=e359]:
+            - paragraph [ref=e360]:
+              - link "[–]" [ref=e361] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "YourRedditFriend" [ref=e362] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/YourRedditFriend
+              - generic [ref=e363]:
+                - text: "["
+                - link "🍰" [ref=e364] [cursor=pointer]:
+                  - /url: /user/YourRedditFriend
+                - text: "]"
+              - text: 3 points
+              - time [ref=e365]: 1 year ago
+            - generic [ref=e368]:
+              - paragraph [ref=e369]: Link isnt working! :)
+              - paragraph [ref=e370]: Also wheres Dans Super Subs and Howlin' Rays?
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - link "permalink" [ref=e373] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9pfolu/
+              - listitem [ref=e374]:
+                - link "embed" [ref=e375] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e376]:
+                - link "save" [ref=e377] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e378]:
+                - link "report" [ref=e379] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e380]:
+                - link "reply" [ref=e381] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e384]:
+            - paragraph
+            - generic [ref=e385]:
+              - button "upvote" [ref=e386] [cursor=pointer]
+              - button "downvote" [ref=e387] [cursor=pointer]
+            - generic [ref=e388]:
+              - paragraph [ref=e389]:
+                - link "[–]" [ref=e390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e391] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e392]:
+                  - text: "["
+                  - link "S" [ref=e393] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 2 points
+                - time [ref=e394]: 1 year ago
+              - generic [ref=e397]:
+                - paragraph [ref=e398]: Thanks for engaging. I see the link is not working, I am able to send you a PDF with all the locations
+                - paragraph [ref=e399]: I have not been to either Dans Super Subs or Howlin Rays! What do you recommend at each spot?
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - link "permalink" [ref=e402] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9pmc4n/
+                - listitem [ref=e403]:
+                  - link "embed" [ref=e404] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e405]:
+                  - link "save" [ref=e406] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e407]:
+                  - link "parent" [ref=e408] [cursor=pointer]:
+                    - /url: "#m9pfolu"
+                - listitem [ref=e409]:
+                  - link "report" [ref=e410] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e411]:
+                  - link "reply" [ref=e412] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e415]:
+              - paragraph
+              - generic [ref=e416]:
+                - button "upvote" [ref=e417] [cursor=pointer]
+                - button "downvote" [ref=e418] [cursor=pointer]
+              - generic [ref=e419]:
+                - paragraph [ref=e420]:
+                  - link "[–]" [ref=e421] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "YourRedditFriend" [ref=e422] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/YourRedditFriend
+                  - generic [ref=e423]:
+                    - text: "["
+                    - link "🍰" [ref=e424] [cursor=pointer]:
+                      - /url: /user/YourRedditFriend
+                    - text: "]"
+                  - text: 2 points
+                  - time [ref=e425]: 1 year ago
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: Ive been getting the Turkey and Provolone at Dans for years. I think every sandwich is awesome though. Gotta douse it a bit with the Italian dressing they offer for the table. Also the best part of their sandwich is the steaming process.
+                  - paragraph [ref=e430]: At Howlin', I only get the sandwich and I get HOT. Most people cant handle it, but I love it. That and the fries are a meal. The greens are great too.
+                - list [ref=e431]:
+                  - listitem [ref=e432]:
+                    - link "permalink" [ref=e433] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9po3io/
+                  - listitem [ref=e434]:
+                    - link "embed" [ref=e435] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e436]:
+                    - link "save" [ref=e437] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e438]:
+                    - link "parent" [ref=e439] [cursor=pointer]:
+                      - /url: "#m9pmc4n"
+                  - listitem [ref=e440]:
+                    - link "report" [ref=e441] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e442]:
+                    - link "reply" [ref=e443] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e446]:
+                - paragraph
+                - generic [ref=e447]:
+                  - button "upvote" [ref=e448] [cursor=pointer]
+                  - button "downvote" [ref=e449] [cursor=pointer]
+                - generic [ref=e450]:
+                  - paragraph [ref=e451]:
+                    - link "[–]" [ref=e452] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "PugetSoundRecords" [ref=e453] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/PugetSoundRecords
+                    - generic [ref=e454]:
+                      - text: "["
+                      - link "S" [ref=e455] [cursor=pointer]:
+                        - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                      - text: "]"
+                    - text: 2 points
+                    - time [ref=e456]: 1 year ago
+                  - paragraph [ref=e460]: I will try both of these, thank you for recommending :)
+                  - list [ref=e461]:
+                    - listitem [ref=e462]:
+                      - link "permalink" [ref=e463] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9pojvz/
+                    - listitem [ref=e464]:
+                      - link "embed" [ref=e465] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e466]:
+                      - link "save" [ref=e467] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e468]:
+                      - link "parent" [ref=e469] [cursor=pointer]:
+                        - /url: "#m9po3io"
+                    - listitem [ref=e470]:
+                      - link "report" [ref=e471] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e472]:
+                      - link "reply" [ref=e473] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e476]:
+                  - paragraph
+                  - generic [ref=e477]:
+                    - button "upvote" [ref=e478] [cursor=pointer]
+                    - button "downvote" [ref=e479] [cursor=pointer]
+                  - generic [ref=e480]:
+                    - paragraph [ref=e481]:
+                      - link "[–]" [ref=e482] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "YourRedditFriend" [ref=e483] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/YourRedditFriend
+                      - generic [ref=e484]:
+                        - text: "["
+                        - link "🍰" [ref=e485] [cursor=pointer]:
+                          - /url: /user/YourRedditFriend
+                        - text: "]"
+                      - text: 3 points
+                      - time [ref=e486]: 1 year ago
+                    - paragraph [ref=e490]: Happy to help! Thanks for making a big list to speak to!
+                    - list [ref=e491]:
+                      - listitem [ref=e492]:
+                        - link "permalink" [ref=e493] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9qej8m/
+                      - listitem [ref=e494]:
+                        - link "embed" [ref=e495] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e496]:
+                        - link "save" [ref=e497] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e498]:
+                        - link "parent" [ref=e499] [cursor=pointer]:
+                          - /url: "#m9pojvz"
+                      - listitem [ref=e500]:
+                        - link "report" [ref=e501] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e502]:
+                        - link "reply" [ref=e503] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e504]:
+          - paragraph
+          - generic [ref=e505]:
+            - button "upvote" [ref=e506] [cursor=pointer]
+            - button "downvote" [ref=e507] [cursor=pointer]
+          - generic [ref=e508]:
+            - paragraph [ref=e509]:
+              - link "[–]" [ref=e510] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "baddecisionsmike" [ref=e511] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/baddecisionsmike
+              - text: 16 points
+              - time [ref=e512]: 1 year ago
+            - paragraph [ref=e516]: Looks like you went everywhere instagram told you…respect for gol tong and Dan sung sa
+            - list [ref=e517]:
+              - listitem [ref=e518]:
+                - link "permalink" [ref=e519] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9kdc08/
+              - listitem [ref=e520]:
+                - link "embed" [ref=e521] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e522]:
+                - link "save" [ref=e523] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e524]:
+                - link "report" [ref=e525] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e526]:
+                - link "reply" [ref=e527] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - paragraph
+              - generic [ref=e531]:
+                - button "upvote" [ref=e532] [cursor=pointer]
+                - button "downvote" [ref=e533] [cursor=pointer]
+              - generic [ref=e534]:
+                - paragraph [ref=e535]:
+                  - link "[–]" [ref=e536] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Ruseman" [ref=e537] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Ruseman
+                  - text: 18 points
+                  - time [ref=e538]: 1 year ago
+                - paragraph [ref=e542]: OP must have done a decent job of filtering out dud/overhyped places in that case, because most of this list doesn't look too out of place on this sub. Granted could be more adventurous with Thai given they're near Thai town, and I still can't understand why anyone likes Heavy Handed.
+                - list [ref=e543]:
+                  - listitem [ref=e544]:
+                    - link "permalink" [ref=e545] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9ktkqj/
+                  - listitem [ref=e546]:
+                    - link "embed" [ref=e547] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e548]:
+                    - link "save" [ref=e549] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e550]:
+                    - link "parent" [ref=e551] [cursor=pointer]:
+                      - /url: "#m9kdc08"
+                  - listitem [ref=e552]:
+                    - link "report" [ref=e553] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e554]:
+                    - link "reply" [ref=e555] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e557]:
+                - generic [ref=e558]:
+                  - paragraph
+                  - generic [ref=e559]:
+                    - button "upvote" [ref=e560] [cursor=pointer]
+                    - button "downvote" [ref=e561] [cursor=pointer]
+                  - generic [ref=e562]:
+                    - paragraph [ref=e563]:
+                      - link "[–]" [ref=e564] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Shock_city" [ref=e565] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Shock_city
+                      - text: 4 points
+                      - time [ref=e566]: 1 year ago
+                    - paragraph [ref=e570]: Had heavy handed for the first time last night. There’s better smash burgers around for sure, not as crispy patties as others, but their patty mix is good. It tastes more of beef than most others.
+                    - list [ref=e571]:
+                      - listitem [ref=e572]:
+                        - link "permalink" [ref=e573] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9lc659/
+                      - listitem [ref=e574]:
+                        - link "embed" [ref=e575] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e576]:
+                        - link "save" [ref=e577] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e578]:
+                        - link "parent" [ref=e579] [cursor=pointer]:
+                          - /url: "#m9ktkqj"
+                      - listitem [ref=e580]:
+                        - link "report" [ref=e581] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e582]:
+                        - link "reply" [ref=e583] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e586]:
+                    - paragraph
+                    - generic [ref=e587]:
+                      - button "upvote" [ref=e588] [cursor=pointer]
+                      - button "downvote" [ref=e589] [cursor=pointer]
+                    - generic [ref=e590]:
+                      - paragraph [ref=e591]:
+                        - link "[–]" [ref=e592] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "PugetSoundRecords" [ref=e593] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/PugetSoundRecords
+                        - generic [ref=e594]:
+                          - text: "["
+                          - link "S" [ref=e595] [cursor=pointer]:
+                            - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                          - text: "]"
+                        - text: 2 points
+                        - time [ref=e596]: 1 year ago
+                      - paragraph [ref=e600]: I am not such a big fan of smash burgers, I feel like I may have caught Heavy Handed on a good day. Some places I was recommended that I did not add to this list I chalk up to going there on a day their product may have been not as up to snuff as usual. I realize a lot of times small factors can contribute to the experience of eating somewhere (let's say you order it to go and eat it 20-30 min later versus fresh, or a restaurant are out of their most popular dish etc.)
+                      - list [ref=e601]:
+                        - listitem [ref=e602]:
+                          - link "permalink" [ref=e603] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9ojz1y/
+                        - listitem [ref=e604]:
+                          - link "embed" [ref=e605] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e606]:
+                          - link "save" [ref=e607] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e608]:
+                          - link "parent" [ref=e609] [cursor=pointer]:
+                            - /url: "#m9lc659"
+                        - listitem [ref=e610]:
+                          - link "report" [ref=e611] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e612]:
+                          - link "reply" [ref=e613] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                - generic [ref=e614]:
+                  - paragraph
+                  - generic [ref=e615]:
+                    - button "upvote" [ref=e616] [cursor=pointer]
+                    - button "downvote" [ref=e617] [cursor=pointer]
+                  - generic [ref=e618]:
+                    - paragraph [ref=e619]:
+                      - link "[–]" [ref=e620] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "PugetSoundRecords" [ref=e621] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/PugetSoundRecords
+                      - generic [ref=e622]:
+                        - text: "["
+                        - link "S" [ref=e623] [cursor=pointer]:
+                          - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                        - text: "]"
+                      - text: 3 points
+                      - time [ref=e624]: 1 year ago
+                      - time [ref=e625]: "*"
+                    - generic [ref=e628]:
+                      - paragraph [ref=e629]: Thank you! I think a good amount of LA meals are mid, and IG blows up a lot of them. I do not want to talk down on any restaurant bc I am aware how hard it is to maintain in the current economy. I read Counter Culture by Jonathan Gold, and of the 250 restaurants he mentions in 2000 or earlier, 110 of them went out of business and more than half of the remaining 140 have changed ownership (granted 25 years is a very long time to maintain quality). I made this list with people like him in mind.
+                      - paragraph [ref=e630]: Also I would love to hear your thoughts on other Thai town spots! I like Sanamluang, Kruang Tedd, Sapp, Ruen Pair, and Bhan Kanom. What are some I have missed, and what would you order there?
+                    - list [ref=e631]:
+                      - listitem [ref=e632]:
+                        - link "permalink" [ref=e633] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9ojbva/
+                      - listitem [ref=e634]:
+                        - link "embed" [ref=e635] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e636]:
+                        - link "save" [ref=e637] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e638]:
+                        - link "parent" [ref=e639] [cursor=pointer]:
+                          - /url: "#m9ktkqj"
+                      - listitem [ref=e640]:
+                        - link "report" [ref=e641] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e642]:
+                        - link "reply" [ref=e643] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e646]:
+                    - paragraph
+                    - generic [ref=e647]:
+                      - button "upvote" [ref=e648] [cursor=pointer]
+                      - button "downvote" [ref=e649] [cursor=pointer]
+                    - generic [ref=e650]:
+                      - paragraph [ref=e651]:
+                        - link "[–]" [ref=e652] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "Ruseman" [ref=e653] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/Ruseman
+                        - text: 1 point
+                        - time [ref=e654]: 1 year ago
+                      - paragraph [ref=e658]: Yeah I've seen IG heavy lists on this sub and they're always all over the place, whatever's being promoted at the time I guess. You've found a lot of good spots, and looks like you've explored Thai town pretty well too actually. If you haven't tried them and you like northern Thai, I'd say also check out Pailin Thai and especially Spicy BBQ. Anything off the northern Thai menu at each is great, or alternatively I do like the pad kee mao at Pailin a lot, and the BBQ pork at Spicy BBQ is ridiculous.
+                      - list [ref=e659]:
+                        - listitem [ref=e660]:
+                          - link "permalink" [ref=e661] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9omi9s/
+                        - listitem [ref=e662]:
+                          - link "embed" [ref=e663] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e664]:
+                          - link "save" [ref=e665] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e666]:
+                          - link "parent" [ref=e667] [cursor=pointer]:
+                            - /url: "#m9ojbva"
+                        - listitem [ref=e668]:
+                          - link "report" [ref=e669] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e670]:
+                          - link "reply" [ref=e671] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                    - generic [ref=e674]:
+                      - paragraph
+                      - generic [ref=e675]:
+                        - button "upvote" [ref=e676] [cursor=pointer]
+                        - button "downvote" [ref=e677] [cursor=pointer]
+                      - generic [ref=e678]:
+                        - paragraph [ref=e679]:
+                          - link "[–]" [ref=e680] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "PugetSoundRecords" [ref=e681] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/PugetSoundRecords
+                          - generic [ref=e682]:
+                            - text: "["
+                            - link "S" [ref=e683] [cursor=pointer]:
+                              - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                            - text: "]"
+                          - text: 1 point
+                          - time [ref=e684]: 1 year ago
+                        - paragraph [ref=e688]: Thank you for the recs! I will go to Pailin and try the pad kee mao. Spicy BBQ pork sounds delicious too :)
+                        - list [ref=e689]:
+                          - listitem [ref=e690]:
+                            - link "permalink" [ref=e691] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9onp88/
+                          - listitem [ref=e692]:
+                            - link "embed" [ref=e693] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e694]:
+                            - link "save" [ref=e695] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e696]:
+                            - link "parent" [ref=e697] [cursor=pointer]:
+                              - /url: "#m9omi9s"
+                          - listitem [ref=e698]:
+                            - link "report" [ref=e699] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e700]:
+                            - link "reply" [ref=e701] [cursor=pointer]:
+                              - /url: javascript:void(0)
+            - generic [ref=e702]:
+              - paragraph
+              - generic [ref=e703]:
+                - button "upvote" [ref=e704] [cursor=pointer]
+                - button "downvote" [ref=e705] [cursor=pointer]
+              - generic [ref=e706]:
+                - paragraph [ref=e707]:
+                  - link "[–]" [ref=e708] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "PugetSoundRecords" [ref=e709] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/PugetSoundRecords
+                  - generic [ref=e710]:
+                    - text: "["
+                    - link "S" [ref=e711] [cursor=pointer]:
+                      - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                    - text: "]"
+                  - text: 3 points
+                  - time [ref=e712]: 1 year ago
+                - paragraph [ref=e716]: Thank you! Yes, when I first moved out here I compiled the list from online/LA Eater. I went to summer camp out here but most friends from LA mentioned to me they did not eat out growing up so crowdsourcing for this proved more difficult than trying online. Would love to hear recs I missed!
+                - list [ref=e717]:
+                  - listitem [ref=e718]:
+                    - link "permalink" [ref=e719] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9oisbm/
+                  - listitem [ref=e720]:
+                    - link "embed" [ref=e721] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e722]:
+                    - link "save" [ref=e723] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e724]:
+                    - link "parent" [ref=e725] [cursor=pointer]:
+                      - /url: "#m9kdc08"
+                  - listitem [ref=e726]:
+                    - link "report" [ref=e727] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e728]:
+                    - link "reply" [ref=e729] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e732]:
+                - paragraph
+                - generic [ref=e733]:
+                  - button "upvote" [ref=e734] [cursor=pointer]
+                  - button "downvote" [ref=e735] [cursor=pointer]
+                - generic [ref=e736]:
+                  - paragraph [ref=e737]:
+                    - link "[–]" [ref=e738] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Ruseman" [ref=e739] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Ruseman
+                    - text: 3 points
+                    - time [ref=e740]: 1 year ago
+                    - time [ref=e741]: "*"
+                  - generic [ref=e744]:
+                    - paragraph [ref=e745]: Yeah and even LA natives who did eat out a fair bit growing up often have particularities in their recommendations based on nostalgia. Tito's Tacos for instance definitely is only able to get away with what they charge now because of loyalty from locals. And of course In n Out will always be king with most locals—though thankfully they refuse to jack up their prices even though they easily could.
+                    - paragraph [ref=e746]: Other big ones with natives if I had to think of it would be Philippe's, Porto's, and whichever sit down Mexican booth place their family would go to growing up—El Cholo, Casa Vega, Don Cuco, etc...
+                  - list [ref=e747]:
+                    - listitem [ref=e748]:
+                      - link "permalink" [ref=e749] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9uihvl/
+                    - listitem [ref=e750]:
+                      - link "embed" [ref=e751] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e752]:
+                      - link "save" [ref=e753] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e754]:
+                      - link "parent" [ref=e755] [cursor=pointer]:
+                        - /url: "#m9oisbm"
+                    - listitem [ref=e756]:
+                      - link "report" [ref=e757] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e758]:
+                      - link "reply" [ref=e759] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e762]:
+                  - paragraph
+                  - generic [ref=e763]:
+                    - button "upvote" [ref=e764] [cursor=pointer]
+                    - button "downvote" [ref=e765] [cursor=pointer]
+                  - generic [ref=e766]:
+                    - paragraph [ref=e767]:
+                      - link "[–]" [ref=e768] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "PugetSoundRecords" [ref=e769] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/PugetSoundRecords
+                      - generic [ref=e770]:
+                        - text: "["
+                        - link "S" [ref=e771] [cursor=pointer]:
+                          - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e772]: 1 year ago
+                    - paragraph [ref=e776]: I agree with you, once a place is an establishment they can let quality dwindle. I have been to each of the ones you mentioned in the 2nd paragraph. I love Porto's and In N Out too, I feel like whenever folks come in from out of town those are where they want to go :)
+                    - list [ref=e777]:
+                      - listitem [ref=e778]:
+                        - link "permalink" [ref=e779] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9x9b6x/
+                      - listitem [ref=e780]:
+                        - link "embed" [ref=e781] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e782]:
+                        - link "save" [ref=e783] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e784]:
+                        - link "parent" [ref=e785] [cursor=pointer]:
+                          - /url: "#m9uihvl"
+                      - listitem [ref=e786]:
+                        - link "report" [ref=e787] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e788]:
+                        - link "reply" [ref=e789] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e790]:
+          - paragraph
+          - generic [ref=e791]:
+            - button "upvote" [ref=e792] [cursor=pointer]
+            - button "downvote" [ref=e793] [cursor=pointer]
+          - generic [ref=e794]:
+            - paragraph [ref=e795]:
+              - link "[–]" [ref=e796] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "shmogi" [ref=e797] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/shmogi
+              - generic "Valley Village" [ref=e798]
+              - generic [ref=e799]:
+                - text: "["
+                - link "🍰" [ref=e800] [cursor=pointer]:
+                  - /url: /user/shmogi
+                - text: "]"
+              - text: 2 points
+              - time [ref=e801]: 1 year ago
+            - paragraph [ref=e805]: For Ethiopian, we like Lalibela and Messob
+            - list [ref=e806]:
+              - listitem [ref=e807]:
+                - link "permalink" [ref=e808] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9r5oic/
+              - listitem [ref=e809]:
+                - link "embed" [ref=e810] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e811]:
+                - link "save" [ref=e812] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e813]:
+                - link "report" [ref=e814] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e815]:
+                - link "reply" [ref=e816] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e819]:
+            - paragraph
+            - generic [ref=e820]:
+              - button "upvote" [ref=e821] [cursor=pointer]
+              - button "downvote" [ref=e822] [cursor=pointer]
+            - generic [ref=e823]:
+              - paragraph [ref=e824]:
+                - link "[–]" [ref=e825] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e826] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e827]:
+                  - text: "["
+                  - link "S" [ref=e828] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 2 points
+                - time [ref=e829]: 1 year ago
+              - paragraph [ref=e833]: Thank you for the recommendations! I will definitely try these both out. Is there something in particular you get at either spot?
+              - list [ref=e834]:
+                - listitem [ref=e835]:
+                  - link "permalink" [ref=e836] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9se7ss/
+                - listitem [ref=e837]:
+                  - link "embed" [ref=e838] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e839]:
+                  - link "save" [ref=e840] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e841]:
+                  - link "parent" [ref=e842] [cursor=pointer]:
+                    - /url: "#m9r5oic"
+                - listitem [ref=e843]:
+                  - link "report" [ref=e844] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e845]:
+                  - link "reply" [ref=e846] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e849]:
+              - paragraph
+              - generic [ref=e850]:
+                - button "upvote" [ref=e851] [cursor=pointer]
+                - button "downvote" [ref=e852] [cursor=pointer]
+              - generic [ref=e853]:
+                - paragraph [ref=e854]:
+                  - link "[–]" [ref=e855] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "shmogi" [ref=e856] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/shmogi
+                  - generic "Valley Village" [ref=e857]
+                  - generic [ref=e858]:
+                    - text: "["
+                    - link "🍰" [ref=e859] [cursor=pointer]:
+                      - /url: /user/shmogi
+                    - text: "]"
+                  - text: 2 points
+                  - time [ref=e860]: 1 year ago
+                - paragraph [ref=e864]: At Lalibela it’s worth getting one of their specials that have multiple dishes and sharing family style, I like the one that comes with Doro Wat!
+                - list [ref=e865]:
+                  - listitem [ref=e866]:
+                    - link "permalink" [ref=e867] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9sxj0p/
+                  - listitem [ref=e868]:
+                    - link "embed" [ref=e869] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e870]:
+                    - link "save" [ref=e871] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e872]:
+                    - link "parent" [ref=e873] [cursor=pointer]:
+                      - /url: "#m9se7ss"
+                  - listitem [ref=e874]:
+                    - link "report" [ref=e875] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e876]:
+                    - link "reply" [ref=e877] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e880]:
+                - paragraph
+                - generic [ref=e881]:
+                  - button "upvote" [ref=e882] [cursor=pointer]
+                  - button "downvote" [ref=e883] [cursor=pointer]
+                - generic [ref=e884]:
+                  - paragraph [ref=e885]:
+                    - link "[–]" [ref=e886] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "PugetSoundRecords" [ref=e887] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/PugetSoundRecords
+                    - generic [ref=e888]:
+                      - text: "["
+                      - link "S" [ref=e889] [cursor=pointer]:
+                        - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                      - text: "]"
+                    - text: 2 points
+                    - time [ref=e890]: 1 year ago
+                  - paragraph [ref=e894]: Thank you!
+                  - list [ref=e895]:
+                    - listitem [ref=e896]:
+                      - link "permalink" [ref=e897] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9x9dxy/
+                    - listitem [ref=e898]:
+                      - link "embed" [ref=e899] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e900]:
+                      - link "save" [ref=e901] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e902]:
+                      - link "parent" [ref=e903] [cursor=pointer]:
+                        - /url: "#m9sxj0p"
+                    - listitem [ref=e904]:
+                      - link "report" [ref=e905] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e906]:
+                      - link "reply" [ref=e907] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e908]:
+          - paragraph
+          - generic [ref=e909]:
+            - button "upvote" [ref=e910] [cursor=pointer]
+            - button "downvote" [ref=e911] [cursor=pointer]
+          - generic [ref=e912]:
+            - paragraph [ref=e913]:
+              - link "[–]" [ref=e914] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "morningstar842" [ref=e915] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/morningstar842
+              - text: 2 points
+              - time [ref=e916]: 1 year ago
+            - paragraph [ref=e920]: Isn't Heng Heng a Thai place?
+            - list [ref=e921]:
+              - listitem [ref=e922]:
+                - link "permalink" [ref=e923] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9rplf5/
+              - listitem [ref=e924]:
+                - link "embed" [ref=e925] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e926]:
+                - link "save" [ref=e927] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e928]:
+                - link "report" [ref=e929] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e930]:
+                - link "reply" [ref=e931] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e934]:
+            - paragraph
+            - generic [ref=e935]:
+              - button "upvote" [ref=e936] [cursor=pointer]
+              - button "downvote" [ref=e937] [cursor=pointer]
+            - generic [ref=e938]:
+              - paragraph [ref=e939]:
+                - link "[–]" [ref=e940] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e941] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e942]:
+                  - text: "["
+                  - link "S" [ref=e943] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e944]: 1 year ago
+                - time [ref=e945]: "*"
+              - paragraph [ref=e949]: you are right. I usually get the hainan chicken there which I associated with Southern Chinese cuisine in addition to Thai, I should have checked though. Updating the list to change it to Thai. Thank you for catching that
+              - list [ref=e950]:
+                - listitem [ref=e951]:
+                  - link "permalink" [ref=e952] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9seu4a/
+                - listitem [ref=e953]:
+                  - link "embed" [ref=e954] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e955]:
+                  - link "save" [ref=e956] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e957]:
+                  - link "parent" [ref=e958] [cursor=pointer]:
+                    - /url: "#m9rplf5"
+                - listitem [ref=e959]:
+                  - link "report" [ref=e960] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e961]:
+                  - link "reply" [ref=e962] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e965]:
+              - paragraph
+              - generic [ref=e966]:
+                - button "upvote" [ref=e967] [cursor=pointer]
+                - button "downvote" [ref=e968] [cursor=pointer]
+              - generic [ref=e969]:
+                - paragraph [ref=e970]:
+                  - link "[–]" [ref=e971] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "morningstar842" [ref=e972] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/morningstar842
+                  - text: 2 points
+                  - time [ref=e973]: 1 year ago
+                - paragraph [ref=e977]: Totally get it. Sorry, I hope I didn't come across as arrogantly correcting you. It was just a spot reaction on my part. I associate Hainan chicken with Chinese or Singaporean as well.
+                - list [ref=e978]:
+                  - listitem [ref=e979]:
+                    - link "permalink" [ref=e980] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9yp16a/
+                  - listitem [ref=e981]:
+                    - link "embed" [ref=e982] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e983]:
+                    - link "save" [ref=e984] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e985]:
+                    - link "parent" [ref=e986] [cursor=pointer]:
+                      - /url: "#m9seu4a"
+                  - listitem [ref=e987]:
+                    - link "report" [ref=e988] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e989]:
+                    - link "reply" [ref=e990] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e993]:
+                - paragraph
+                - generic [ref=e994]:
+                  - button "upvote" [ref=e995] [cursor=pointer]
+                  - button "downvote" [ref=e996] [cursor=pointer]
+                - generic [ref=e997]:
+                  - paragraph [ref=e998]:
+                    - link "[–]" [ref=e999] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "PugetSoundRecords" [ref=e1000] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/PugetSoundRecords
+                    - generic [ref=e1001]:
+                      - text: "["
+                      - link "S" [ref=e1002] [cursor=pointer]:
+                        - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                      - text: "]"
+                    - text: 1 point
+                    - time [ref=e1003]: 1 year ago
+                  - paragraph [ref=e1007]: no problem! you did not come across that way, i appreciate the correction.
+                  - list [ref=e1008]:
+                    - listitem [ref=e1009]:
+                      - link "permalink" [ref=e1010] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9yv1n1/
+                    - listitem [ref=e1011]:
+                      - link "embed" [ref=e1012] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1013]:
+                      - link "save" [ref=e1014] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1015]:
+                      - link "parent" [ref=e1016] [cursor=pointer]:
+                        - /url: "#m9yp16a"
+                    - listitem [ref=e1017]:
+                      - link "report" [ref=e1018] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1019]:
+                      - link "reply" [ref=e1020] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1021]:
+          - paragraph
+          - generic [ref=e1022]:
+            - button "upvote" [ref=e1023] [cursor=pointer]
+            - button "downvote" [ref=e1024] [cursor=pointer]
+          - generic [ref=e1025]:
+            - paragraph [ref=e1026]:
+              - link "[–]" [ref=e1027] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "boxxxie1" [ref=e1028] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/boxxxie1
+              - text: 1 point
+              - time [ref=e1029]: 1 year ago
+            - paragraph [ref=e1033]: Pretty good list
+            - list [ref=e1034]:
+              - listitem [ref=e1035]:
+                - link "permalink" [ref=e1036] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9oggfi/
+              - listitem [ref=e1037]:
+                - link "embed" [ref=e1038] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1039]:
+                - link "save" [ref=e1040] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1041]:
+                - link "report" [ref=e1042] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1043]:
+                - link "reply" [ref=e1044] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1047]:
+            - paragraph
+            - generic [ref=e1048]:
+              - button "upvote" [ref=e1049] [cursor=pointer]
+              - button "downvote" [ref=e1050] [cursor=pointer]
+            - generic [ref=e1051]:
+              - paragraph [ref=e1052]:
+                - link "[–]" [ref=e1053] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e1054] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e1055]:
+                  - text: "["
+                  - link "S" [ref=e1056] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1057]: 1 year ago
+              - paragraph [ref=e1061]: Thank you! I appreciate you commenting. If you have a favorite or just any you would recommend I would love to hear
+              - list [ref=e1062]:
+                - listitem [ref=e1063]:
+                  - link "permalink" [ref=e1064] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9okh5a/
+                - listitem [ref=e1065]:
+                  - link "embed" [ref=e1066] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1067]:
+                  - link "save" [ref=e1068] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1069]:
+                  - link "parent" [ref=e1070] [cursor=pointer]:
+                    - /url: "#m9oggfi"
+                - listitem [ref=e1071]:
+                  - link "report" [ref=e1072] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1073]:
+                  - link "reply" [ref=e1074] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1075]:
+          - paragraph
+          - generic [ref=e1076]:
+            - button "upvote" [ref=e1077] [cursor=pointer]
+            - button "downvote" [ref=e1078] [cursor=pointer]
+          - generic [ref=e1079]:
+            - paragraph [ref=e1080]:
+              - link "[–]" [ref=e1081] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Proper-Ad-8546" [ref=e1082] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Proper-Ad-8546
+              - text: 1 point
+              - time [ref=e1083]: 1 year ago
+            - paragraph [ref=e1087]: Would love that PDF of the map if you can send it! Let me know, thanks.
+            - list [ref=e1088]:
+              - listitem [ref=e1089]:
+                - link "permalink" [ref=e1090] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/mgx6yin/
+              - listitem [ref=e1091]:
+                - link "embed" [ref=e1092] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1093]:
+                - link "save" [ref=e1094] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1095]:
+                - link "report" [ref=e1096] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1097]:
+                - link "reply" [ref=e1098] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1101]:
+            - paragraph
+            - generic [ref=e1102]:
+              - button "upvote" [ref=e1103] [cursor=pointer]
+              - button "downvote" [ref=e1104] [cursor=pointer]
+            - generic [ref=e1105]:
+              - paragraph [ref=e1106]:
+                - link "[–]" [ref=e1107] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e1108] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e1109]:
+                  - text: "["
+                  - link "S" [ref=e1110] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1111]: 1 year ago
+              - paragraph [ref=e1115]: hey! the website I used for it, mapcustomizer, unfortunately no longer works, the day trips list I made also vanished. but if you google maps any of them they will show up
+              - list [ref=e1116]:
+                - listitem [ref=e1117]:
+                  - link "permalink" [ref=e1118] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/mgygc2z/
+                - listitem [ref=e1119]:
+                  - link "embed" [ref=e1120] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1121]:
+                  - link "save" [ref=e1122] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1123]:
+                  - link "parent" [ref=e1124] [cursor=pointer]:
+                    - /url: "#mgx6yin"
+                - listitem [ref=e1125]:
+                  - link "report" [ref=e1126] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1127]:
+                  - link "reply" [ref=e1128] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1129]:
+          - paragraph
+          - generic [ref=e1130]:
+            - button "upvote" [ref=e1131] [cursor=pointer]
+            - button "downvote" [ref=e1132] [cursor=pointer]
+          - generic [ref=e1133]:
+            - paragraph [ref=e1134]:
+              - link "[–]" [ref=e1135] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "robojosh2" [ref=e1136] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/robojosh2
+              - text: 0 points
+              - time [ref=e1137]: 1 year ago
+            - generic [ref=e1140]:
+              - paragraph [ref=e1141]: Im taking my time with this list but ive already found a couple of nice looking spots from your Armenian section.
+              - paragraph [ref=e1142]: I've never really enjoyed raffis etc so excited to try others you listed here
+              - paragraph [ref=e1143]: Thanks for putting this together
+            - list [ref=e1144]:
+              - listitem [ref=e1145]:
+                - link "permalink" [ref=e1146] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9llyjt/
+              - listitem [ref=e1147]:
+                - link "embed" [ref=e1148] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1149]:
+                - link "save" [ref=e1150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1151]:
+                - link "report" [ref=e1152] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1153]:
+                - link "reply" [ref=e1154] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1157]:
+            - paragraph
+            - generic [ref=e1158]:
+              - button "upvote" [ref=e1159] [cursor=pointer]
+              - button "downvote" [ref=e1160] [cursor=pointer]
+            - generic [ref=e1161]:
+              - paragraph [ref=e1162]:
+                - link "[–]" [ref=e1163] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "PugetSoundRecords" [ref=e1164] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/PugetSoundRecords
+                - generic [ref=e1165]:
+                  - text: "["
+                  - link "S" [ref=e1166] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1167]: 1 year ago
+              - paragraph [ref=e1171]: Thank you for engaging! At Al Taron I recommend the meat boreka, lahmajun, potato, and spicy cheese.
+              - list [ref=e1172]:
+                - listitem [ref=e1173]:
+                  - link "permalink" [ref=e1174] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/m9okdo3/
+                - listitem [ref=e1175]:
+                  - link "embed" [ref=e1176] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1177]:
+                  - link "save" [ref=e1178] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1179]:
+                  - link "parent" [ref=e1180] [cursor=pointer]:
+                    - /url: "#m9llyjt"
+                - listitem [ref=e1181]:
+                  - link "report" [ref=e1182] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1183]:
+                  - link "reply" [ref=e1184] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1185]:
+          - paragraph
+          - paragraph [ref=e1187]:
+            - link "[+]" [ref=e1188] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Subuwudodgers" [ref=e1189] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Subuwudodgers
+            - text: comment score below threshold
+            - link "(1 child)" [ref=e1190] [cursor=pointer]:
+              - /url: javascript:void(0)
+  - generic [ref=e1191]:
+    - generic [ref=e1192]:
+      - list [ref=e1194]:
+        - listitem [ref=e1195]: about
+        - listitem [ref=e1196]:
+          - link "blog" [ref=e1197] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1198]:
+          - link "about" [ref=e1199] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1200]:
+          - link "advertising" [ref=e1201] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1202]:
+          - link "careers" [ref=e1203] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1205]:
+        - listitem [ref=e1206]: help
+        - listitem [ref=e1207]:
+          - link "site rules" [ref=e1208] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1209]:
+          - link "Reddit help center" [ref=e1210] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1211]:
+          - link "reddiquette" [ref=e1212] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1213]:
+          - link "mod guidelines" [ref=e1214] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1215]:
+          - link "contact us" [ref=e1216] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1218]:
+        - listitem [ref=e1219]: apps & tools
+        - listitem [ref=e1220]:
+          - link "Reddit for iPhone" [ref=e1221] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1222]:
+          - link "Reddit for Android" [ref=e1223] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1224]:
+          - link "mobile website" [ref=e1225] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1227]:
+        - listitem [ref=e1228]: <3
+        - listitem [ref=e1229]:
+          - link "reddit premium" [ref=e1230] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1231]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1232] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1233] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1234]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1235]
+  - paragraph [ref=e1236]: π

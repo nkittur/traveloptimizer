@@ -1,0 +1,370 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:travelandleisure.com "best places" 2026 site:travelandleisure.com "best places" 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Atravelandleisure.com%2B%2522best%2Bplaces%2522%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&aep=1&ntc=1&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ2J8OegQIERAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&q=site:travelandleisure.com+%22best+places%22+2026&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQs6gLegQIExAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&q=site:travelandleisure.com+%22best+places%22+2026&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQtKgLegQIFBAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:travelandleisure.com+%22best+places%22+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ0pQJegQIFRAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&q=site:travelandleisure.com+%22best+places%22+2026&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQtKgLegQIFhAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZgyHvoKDBCd5lJITCkngHs6OnKDrbVRTCmB9ayyUlIUe13m87qciAnoW0K7r2rWoAEnw8p8OnVfPIDYpGwQqTcLkLj-sli7WWzX5PWHzLUigN9D_wvCdz0TRUPO9j1lVVa3Ww6g&q=site:travelandleisure.com+%22best+places%22+2026&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "50 Best Places to Travel in 2026 Travel + Leisure https://www.travelandleisure.com › best-places-to-go-2..." [ref=e144] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/best-places-to-go-2026-11840319
+                - heading "50 Best Places to Travel in 2026" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Travel + Leisure
+                  - generic [ref=e154]: https://www.travelandleisure.com › best-places-to-go-2...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Nov 18, 2025 —
+              - generic [ref=e163]:
+                - text: THE 50
+                - emphasis [ref=e164]: BEST PLACES
+                - text: TO TRAVEL IN
+                - emphasis [ref=e165]: "2026"
+                - text: · DESTINATIONS FOR · FOOD AND DRINKS · BIG-CITY THRILLS · MOMENTS ON THE WATER · CULTURAL IMMERSION · ADVENTUROUS ...
+              - link "Read more" [ref=e166] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/best-places-to-go-2026-11840319#:~:text=THE%2050%20BEST%20PLACES%20TO,TRAVEL%20IN%202026&text=DESTINATIONS%20FOR&text=FOOD%20AND%20DRINKS&text=BIG%2DCITY%20THRILLS&text=MOMENTS%20ON%20THE%20WATER&text=CULTURAL%20IMMERSION&text=ADVENTUROUS%20TRAVELERS
+            - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e169] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-places-to-go-2026-11840319
+              - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e171]
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - link "These Are the Biggest Travel Trends for 2026, According to ... Travel + Leisure https://www.travelandleisure.com › 2026-travel-trends-r..." [ref=e180] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/2026-travel-trends-reports-11879023
+              - heading "These Are the Biggest Travel Trends for 2026, According to ..." [level=3] [ref=e181]
+              - generic [ref=e186]:
+                - generic [ref=e188]: Travel + Leisure
+                - generic [ref=e190]: https://www.travelandleisure.com › 2026-travel-trends-r...
+            - button "About this result" [ref=e191] [cursor=pointer]:
+              - img [ref=e194]
+          - generic [ref=e197]:
+            - generic [ref=e198]: Jan 6, 2026 —
+            - generic [ref=e199]:
+              - text: Here, a look at some of the biggest travel trends emerging—plus, where to go. THE 50
+              - emphasis [ref=e200]: BEST PLACES
+              - text: TO TRAVEL IN
+              - emphasis [ref=e201]: "2026"
+              - text: ...
+            - link "Read more" [ref=e202] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/2026-travel-trends-reports-11879023#:~:text=Here%2C%20a%20look%20at%20some,PLACES%20TO%20TRAVEL%20IN%202026
+        - generic [ref=e206]:
+          - generic [ref=e209]:
+            - link "The 100 Best New Hotels in 2026 Travel + Leisure https://www.travelandleisure.com › best-new-hotels-of-..." [ref=e211] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-new-hotels-of-2026-11914442
+              - heading "The 100 Best New Hotels in 2026" [level=3] [ref=e212]
+              - generic [ref=e217]:
+                - generic [ref=e219]: Travel + Leisure
+                - generic [ref=e221]: https://www.travelandleisure.com › best-new-hotels-of-...
+            - button "About this result" [ref=e222] [cursor=pointer]:
+              - img [ref=e225]
+          - generic [ref=e228]:
+            - generic [ref=e229]: Apr 15, 2026 —
+            - generic [ref=e230]:
+              - text: NAPLES BEACH CLUB, A FOUR SEASONS RESORT, FLORIDA. In its former life, Naples, Florida—voted one of Travel + Leisure's 50
+              - emphasis [ref=e231]: Best Places
+              - text: to Travel ...
+            - link "Read more" [ref=e232] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-new-hotels-of-2026-11914442#:~:text=NAPLES%20BEACH%20CLUB%2C%20A%20FOUR,golf%20community%20for%20Midwestern%20snowbirds.
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e235] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/best-new-hotels-of-2026-11914442
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e237]
+        - generic [ref=e241]:
+          - generic [ref=e244]:
+            - link "These Small U.S. Towns Are Among the Best Places to ... Travel + Leisure https://www.travelandleisure.com › best-small-towns-fo..." [ref=e246] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-small-towns-for-retirement-2026-investopedia-ranking-11943306
+              - heading "These Small U.S. Towns Are Among the Best Places to ..." [level=3] [ref=e247]
+              - generic [ref=e252]:
+                - generic [ref=e254]: Travel + Leisure
+                - generic [ref=e256]: https://www.travelandleisure.com › best-small-towns-fo...
+            - button "About this result" [ref=e257] [cursor=pointer]:
+              - img [ref=e260]
+          - generic [ref=e263]:
+            - generic [ref=e264]: Apr 14, 2026 —
+            - generic [ref=e265]:
+              - text: These Small U.S. Towns Are Among the
+              - emphasis [ref=e266]: Best Places
+              - text: to Retire in
+              - emphasis [ref=e267]: "2026"
+              - text: —From Beach Towns to Mountain Escapes. Relaxed lifestyle and financial ...
+            - link "Read more" [ref=e268] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-small-towns-for-retirement-2026-investopedia-ranking-11943306#:~:text=These%20Small%20U.S.%20Towns%20Are,them%20attractive%20destinations%20for%20retirees.
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e271] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/best-small-towns-for-retirement-2026-investopedia-ranking-11943306
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e273]
+        - generic [ref=e277]:
+          - generic [ref=e280]:
+            - 'link "Your Travel Bucket List: 24 Places to Visit Once in a Lifetime Travel + Leisure https://www.travelandleisure.com › trip-ideas › bucket-l..." [ref=e282] [cursor=pointer]':
+              - /url: https://www.travelandleisure.com/trip-ideas/bucket-list-destinations
+              - 'heading "Your Travel Bucket List: 24 Places to Visit Once in a Lifetime" [level=3] [ref=e283]'
+              - generic [ref=e288]:
+                - generic [ref=e290]: Travel + Leisure
+                - generic [ref=e292]: https://www.travelandleisure.com › trip-ideas › bucket-l...
+            - button "About this result" [ref=e293] [cursor=pointer]:
+              - img [ref=e296]
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - text: The 50
+              - emphasis [ref=e301]: Best Places
+              - text: to Travel in 2023 · Stari Most Old Bridge in Mostar, Bosnia and Herzegovina. The ...
+            - link "Read more" [ref=e302] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/trip-ideas/bucket-list-destinations#:~:text=The%2050%20Best%20Places%20to,Beautiful%20Bridges%20in%20the%20World
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e305] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/trip-ideas/bucket-list-destinations
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e307]
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - link "These Are the 10 Best U.S. Cities for First-time ... Travel + Leisure https://www.travelandleisure.com › best-cities-for-first-t..." [ref=e316] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-cities-for-first-time-homebuyers-11884472
+              - heading "These Are the 10 Best U.S. Cities for First-time ..." [level=3] [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e324]: Travel + Leisure
+                - generic [ref=e326]: https://www.travelandleisure.com › best-cities-for-first-t...
+            - button "About this result" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]: Feb 9, 2026 —
+            - generic [ref=e335]:
+              - text: These Are the 10
+              - emphasis [ref=e336]: Best Places
+              - text: to Live in the Western U.S. in
+              - emphasis [ref=e337]: "2026"
+              - text: —and This Colorado City Is No. 1.
+            - link "Read more" [ref=e338] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-cities-for-first-time-homebuyers-11884472#:~:text=These%20Are%20the%2010%20Best,Colorado%20City%20Is%20No.%201
+        - generic [ref=e342]:
+          - generic [ref=e345]:
+            - 'link "Destination of the Year 2026: Brazil Travel + Leisure https://www.travelandleisure.com › ... › Brazil" [ref=e347] [cursor=pointer]':
+              - /url: https://www.travelandleisure.com/brazil-destination-of-the-year-2026-11824614
+              - 'heading "Destination of the Year 2026: Brazil" [level=3] [ref=e348]'
+              - generic [ref=e353]:
+                - generic [ref=e355]: Travel + Leisure
+                - generic [ref=e357]: https://www.travelandleisure.com › ... › Brazil
+            - button "About this result" [ref=e358] [cursor=pointer]:
+              - img [ref=e361]
+          - generic [ref=e364]:
+            - generic [ref=e365]:
+              - text: Destination of the Year
+              - emphasis [ref=e366]: "2026"
+              - text: ": Brazil. Destination of the. Destinations ... The"
+              - emphasis [ref=e367]: Best Places
+              - text: to Eat in Brazil's Most Dynamic Food Destination.
+            - link "Read more" [ref=e368] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/brazil-destination-of-the-year-2026-11824614#:~:text=IN%20THE%20ISSUE&text=The%20Best%20Places%20to%20Eat,Brazil's%20Most%20Dynamic%20Food%20Destination
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e371] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/brazil-destination-of-the-year-2026-11824614
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e373]
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - link "23 Must-Visit Summer Vacation Destinations Travel + Leisure https://www.travelandleisure.com › trip-ideas › summer..." [ref=e382] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas
+              - heading "23 Must-Visit Summer Vacation Destinations" [level=3] [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e390]: Travel + Leisure
+                - generic [ref=e392]: https://www.travelandleisure.com › trip-ideas › summer...
+            - button "About this result" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - text: "21"
+              - emphasis [ref=e401]: Best Places
+              - text: to Travel in August · A waterfall high above a small village in the ...
+            - link "Read more" [ref=e402] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas#:~:text=21%20Best%20Places%20to%20Travel,in%20August
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e405] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e407]
+          - list [ref=e409]:
+            - listitem [ref=e410]:
+              - link "Visit St. Barts In Its..." [ref=e411] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas#:~:text=Visit%20St.%20Barts%20in%20its%20offseason.
+                - generic [ref=e413]: Visit St. Barts In Its...
+            - listitem [ref=e414]:
+              - link "Go Sportfishing In Los Cabos" [ref=e415] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas#:~:text=Go%20sportfishing%20in%20Los%20Cabos.
+                - generic [ref=e417]: Go Sportfishing In Los Cabos
+            - listitem [ref=e418]:
+              - link "Head To The Arctic To See..." [ref=e419] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/trip-ideas/summer-vacations/summer-vacation-ideas#:~:text=Head%20to%20the%20Arctic%20to%20see%20whales.
+                - generic [ref=e421]: Head To The Arctic To See...
+        - generic [ref=e425]:
+          - generic [ref=e428]:
+            - link "Best Cities to Retire in the Southeast in 2026 Travel + Leisure https://www.travelandleisure.com › best-cities-to-retire-i..." [ref=e430] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-cities-to-retire-in-the-southeast-in-2026-11950952
+              - heading "Best Cities to Retire in the Southeast in 2026" [level=3] [ref=e431]
+              - generic [ref=e436]:
+                - generic [ref=e438]: Travel + Leisure
+                - generic [ref=e440]: https://www.travelandleisure.com › best-cities-to-retire-i...
+            - button "About this result" [ref=e441] [cursor=pointer]:
+              - img [ref=e444]
+          - generic [ref=e447]:
+            - generic [ref=e448]: 5 days ago —
+            - generic [ref=e449]:
+              - text: These Are the
+              - emphasis [ref=e450]: Best Places
+              - text: to Retire in the U.S. Southeast—With One State Dominating the List. A recent report highlights the standout ...
+            - link "Read more" [ref=e451] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-cities-to-retire-in-the-southeast-in-2026-11950952#:~:text=These%20Are%20the%20Best%20Places,retirement%20destinations%20in%20the%20region.
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - link "This Natural Phenomenon Is the No. 1 Travel Experience ... Travel + Leisure https://www.travelandleisure.com › top-dream-travel-ex..." [ref=e460] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/top-dream-travel-experiences-survey-11846842
+              - heading "This Natural Phenomenon Is the No. 1 Travel Experience ..." [level=3] [ref=e461]
+              - generic [ref=e466]:
+                - generic [ref=e468]: Travel + Leisure
+                - generic [ref=e470]: https://www.travelandleisure.com › top-dream-travel-ex...
+            - button "About this result" [ref=e471] [cursor=pointer]:
+              - img [ref=e474]
+          - generic [ref=e477]:
+            - generic [ref=e478]: Nov 13, 2025 —
+            - generic [ref=e479]:
+              - text: Right on the southern edge of the Arctic Circle, Iceland is one of the
+              - emphasis [ref=e480]: best places
+              - text: to witness the northern lights. Peak season runs from ...
+            - link "Read more" [ref=e481] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/top-dream-travel-experiences-survey-11846842#:~:text=Right%20on%20the%20southern%20edge,dancing%20colors%20in%20the%20sky.
+          - link "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e484] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/top-dream-travel-experiences-survey-11846842
+            - img "site:travelandleisure.com \"best places\" 2026 from www.travelandleisure.com" [ref=e486]
+      - generic [ref=e488]:
+        - generic [ref=e493]:
+          - heading "People also search for" [level=2] [ref=e495]
+          - generic [ref=e497]:
+            - link "Best places 2026 in usa" [ref=e502] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=Best+places+2026+in+usa&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ1QJ6BAg0EAE
+              - generic [ref=e503]:
+                - generic [ref=e508]: Best places 2026 in usa
+                - img [ref=e512]
+            - link "Best places 2026 to live" [ref=e518] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=Best+places+2026+to+live&sa=X&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ1QJ6BAg1EAE
+              - generic [ref=e519]:
+                - generic [ref=e524]: Best places 2026 to live
+                - img [ref=e528]
+        - navigation [ref=e530]:
+          - heading "Page Navigation" [level=1] [ref=e531]
+          - text: "1"
+          - link "Page 2" [ref=e534] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=10&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAE
+            - text: "2"
+          - link "Page 3" [ref=e536] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=20&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAG
+            - text: "3"
+          - link "Page 4" [ref=e538] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=30&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAI
+            - text: "4"
+          - link "Page 5" [ref=e540] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=40&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAK
+            - text: "5"
+          - link "Page 6" [ref=e542] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=50&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAM
+            - text: "6"
+          - link "Page 7" [ref=e544] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=60&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAO
+            - text: "7"
+          - link "Page 8" [ref=e546] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=70&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAQ
+            - text: "8"
+          - link "Page 9" [ref=e548] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=80&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAS
+            - text: "9"
+          - link "Page 10" [ref=e550] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=90&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8tMDegQILxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e552]:
+            - link "Next" [ref=e553] [cursor=pointer]:
+              - /url: /search?q=site:travelandleisure.com+%22best+places%22+2026&sca_esv=461cceef532bce02&ei=r7fvaY2zFYGr5NoP7NyhuQ0&start=10&sa=N&sstk=Af77f_cBLv3D4zxaSZRtIGYzJNqzSj2yNT712wf9AklocaJpIhK7i3lHnQF1VDWaledWJsi86taFKgPzMfeidzAMJla6h1IaND2Y9Q&ved=2ahUKEwjNxr3k4I6UAxWBFVkFHWxuKNcQ8NMDegQILxAW
+              - generic [ref=e555]: Next
+      - navigation
+    - contentinfo [ref=e556]:
+      - heading "Footer Links" [level=1] [ref=e557]
+      - generic [ref=e561]:
+        - generic [ref=e565]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e567] [cursor=pointer]:
+            - generic [ref=e568]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e570]:
+              - text: "-"
+              - generic [ref=e571]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e573] [cursor=pointer]: Update location
+        - generic [ref=e576]:
+          - link "Help" [ref=e577] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e578] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e579] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e580] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

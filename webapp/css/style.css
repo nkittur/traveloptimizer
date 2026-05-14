@@ -1044,6 +1044,36 @@ body {
   color: var(--text);
 }
 
+.valence-chip { font-size: 11px; font-weight: 500; padding: 2px 7px; border-radius: 4px; white-space: nowrap; line-height: 1.3; }
+.valence-chip-inline { margin-left: -4px; }
+.valence-chip.valence-top     { background: #fde4b4; color: #8a5200; border: 1px solid #f5c470; }
+.valence-chip.valence-strong  { background: #d4edda; color: #155724; }
+.valence-chip.valence-mixed   { background: #fff3cd; color: #856404; }
+.valence-chip.valence-neg     { background: #f8d7da; color: #721c24; }
+.valence-chip.valence-neutral { background: #e7e9ec; color: #495057; }
+.reddit-snippets { list-style: none; padding: 0; margin: 8px 0 0; }
+.reddit-snippets li { margin-bottom: 10px; }
+.reddit-snippets .snippet-score { font-size: 11px; font-weight: 600; color: #d93900; margin-right: 6px; }
+.reddit-snippets .snippet-thread { font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.03em; }
+.reddit-snippets blockquote { margin: 4px 0 0; padding-left: 10px; border-left: 3px solid #d93900; font-size: 13px; line-height: 1.45; color: var(--text); font-style: italic; }
+
+.card-constraints { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 2px; }
+.ce-chip { font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 4px; white-space: nowrap; line-height: 1.3; }
+.ce-chip.ce-yes     { background: #d4edda; color: #155724; }
+.ce-chip.ce-no      { background: #f8d7da; color: #721c24; }
+.ce-chip.ce-unknown { background: #fff3cd; color: #856404; }
+
+.ce-section h4 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; text-transform: none; letter-spacing: 0; font-size: 14px; }
+.ce-badge { font-size: 11px; font-weight: 500; text-transform: none; letter-spacing: 0; padding: 3px 8px; border-radius: 4px; white-space: nowrap; }
+.ce-badge.ce-yes     { background: #d4edda; color: #155724; }
+.ce-badge.ce-no      { background: #f8d7da; color: #721c24; }
+.ce-badge.ce-unknown { background: #fff3cd; color: #856404; }
+.ce-mentions { list-style: none; padding: 0; margin: 8px 0 0; }
+.ce-mentions li { margin-bottom: 10px; }
+.ce-src { font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
+.ce-mentions blockquote { margin: 4px 0 0; padding-left: 10px; border-left: 3px solid #ddd; font-size: 13px; line-height: 1.45; color: var(--text); font-style: italic; }
+.ce-empty { font-size: 12px; color: var(--text-secondary); margin-top: 6px; font-style: italic; }
+
 .source-detail {
   margin-bottom: 14px;
 }

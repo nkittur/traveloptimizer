@@ -1,0 +1,764 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Vancouver YVR" [ref=e177]: Vancouver
+                - generic [ref=e179]: Vancouver YVR
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 11 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 474 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $474
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 646 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:50 AM on Saturday, August 8. Total duration 7 hr 50 min. Layover (1 of 1) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:50 AM on Saturday, August 8." [ref=e411]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e414]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:50 AM." [ref=e417]': 10:50 AM
+                          - generic [ref=e418]:
+                            - text: Air Canada
+                            - generic [ref=e419]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e420]:
+                          - generic "Total duration 7 hr 50 min." [ref=e421]: 7 hr 50 min
+                          - generic [ref=e422]:
+                            - generic [ref=e425]: PIT
+                            - text: –
+                            - generic [ref=e428]: YVR
+                        - generic [ref=e429]:
+                          - generic "1 stop flight." [ref=e431]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto." [ref=e432]:
+                            - text: 1 hr 51 min
+                            - generic [ref=e434]: YYZ
+                        - generic [ref=e436]:
+                          - generic [ref=e438]: 272 kg CO2e
+                          - generic [ref=e439]:
+                            - generic [ref=e440]: "-20% emissions"
+                            - 'button "Carbon emissions estimate: 272 kilograms. -20% emissions. Learn more about this emissions estimate" [ref=e441]':
+                              - img [ref=e442]
+                        - generic [ref=e444]:
+                          - generic [ref=e445]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e449]:
+                              - generic [ref=e450]:
+                                - generic [ref=e451]:
+                                  - text: "0"
+                                  - img [ref=e452]
+                                - generic [ref=e455]:
+                                  - text: "0"
+                                  - img [ref=e456]
+                            - generic [ref=e459]: $646
+                          - generic [ref=e460]: round trip
+                      - text: · ·· ·
+                      - generic [ref=e461]:
+                        - generic [ref=e462]:
+                          - text: Avoids as much CO2e as
+                          - generic [ref=e463]: 4,079 trees absorb in a day
+                        - button "Avoids as much CO2e as 4079 trees absorb in a day. Learn more about this calculation." [ref=e464]:
+                          - img [ref=e465]
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:50 AM on Saturday, August 8." [ref=e469]:
+                      - img [ref=e472]
+                - listitem [ref=e474]:
+                  - generic [ref=e475]:
+                    - link "From 725 US dollars round trip total. 1 stop flight with United. Operated by SkyWest DBA United Express. Leaves Pittsburgh International Airport at 6:08 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:25 PM on Saturday, August 8. Total duration 7 hr 17 min. Layover (1 of 1) is a 40 min layover at Chicago O'Hare International Airport in Chicago. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e477] [cursor=pointer]:
+                      - generic [ref=e479]:
+                        - generic [ref=e481]:
+                          - generic "Leaves Pittsburgh International Airport at 6:08 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:25 PM on Saturday, August 8." [ref=e483]:
+                            - 'generic "Departure time: 6:08 PM." [ref=e486]': 6:08 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:25 PM." [ref=e489]': 10:25 PM
+                          - generic [ref=e490]:
+                            - text: United
+                            - generic [ref=e491]: ·
+                            - text: Air Canada
+                            - generic [ref=e492]: ·
+                            - text: Operated by SkyWest DBA United Express
+                        - generic [ref=e493]:
+                          - generic "Total duration 7 hr 17 min." [ref=e494]: 7 hr 17 min
+                          - generic [ref=e495]:
+                            - generic [ref=e498]: PIT
+                            - text: –
+                            - generic [ref=e501]: YVR
+                        - generic [ref=e502]:
+                          - generic "1 stop flight." [ref=e504]: 1 stop
+                          - generic "Layover (1 of 1) is a 40 min layover at Chicago O'Hare International Airport in Chicago." [ref=e505]:
+                            - text: 40 min
+                            - generic [ref=e507]: ORD
+                        - generic [ref=e509]:
+                          - generic [ref=e511]: 341 kg CO2e
+                          - generic [ref=e512]:
+                            - generic [ref=e513]: Avg emissions
+                            - 'button "Carbon emissions estimate: 341 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e514]':
+                              - img [ref=e515]
+                        - generic [ref=e517]:
+                          - generic [ref=e518]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e522]:
+                              - generic [ref=e523]:
+                                - generic [ref=e524]:
+                                  - text: "0"
+                                  - img [ref=e525]
+                                - generic [ref=e528]:
+                                  - text: "0"
+                                  - img [ref=e529]
+                            - generic [ref=e532]: $725
+                          - generic [ref=e533]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:08 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:25 PM on Saturday, August 8." [ref=e536]:
+                      - img [ref=e539]
+                - listitem [ref=e541]:
+                  - generic [ref=e542]:
+                    - link "From 839 US dollars round trip total. 1 stop flight with Delta. Leaves Pittsburgh International Airport at 6:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:49 AM on Saturday, August 8. Total duration 7 hr 9 min. Layover (1 of 1) is a 1 hr 9 min layover at Minneapolis-Saint Paul International Airport in Minneapolis. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e544] [cursor=pointer]:
+                      - generic [ref=e546]:
+                        - generic [ref=e548]:
+                          - generic "Leaves Pittsburgh International Airport at 6:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:49 AM on Saturday, August 8." [ref=e550]:
+                            - 'generic "Departure time: 6:40 AM." [ref=e553]': 6:40 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:49 AM." [ref=e556]': 10:49 AM
+                          - generic [ref=e557]:
+                            - text: Delta
+                            - generic [ref=e558]: ·
+                            - text: WestJet
+                        - generic [ref=e559]:
+                          - generic "Total duration 7 hr 9 min." [ref=e560]: 7 hr 9 min
+                          - generic [ref=e561]:
+                            - generic [ref=e564]: PIT
+                            - text: –
+                            - generic [ref=e567]: YVR
+                        - generic [ref=e568]:
+                          - generic "1 stop flight." [ref=e570]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 9 min layover at Minneapolis-Saint Paul International Airport in Minneapolis." [ref=e571]:
+                            - text: 1 hr 9 min
+                            - generic [ref=e573]: MSP
+                        - generic [ref=e575]:
+                          - generic [ref=e577]: 358 kg CO2e
+                          - generic [ref=e578]:
+                            - generic [ref=e579]: +6% emissions
+                            - 'button "Carbon emissions estimate: 358 kilograms. +6% emissions. Learn more about this emissions estimate" [ref=e580]':
+                              - img [ref=e581]
+                        - generic [ref=e583]:
+                          - generic [ref=e584]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e588]:
+                              - generic [ref=e589]:
+                                - generic [ref=e590]:
+                                  - text: "1"
+                                  - img [ref=e591]
+                                - generic [ref=e594]:
+                                  - text: "0"
+                                  - img [ref=e595]
+                            - generic [ref=e598]: $839
+                          - generic [ref=e599]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:49 AM on Saturday, August 8." [ref=e602]:
+                      - img [ref=e605]
+            - generic [ref=e611]:
+              - heading "Price insights" [level=3] [ref=e612]
+              - generic [ref=e613] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e618]
+                - generic [ref=e620]: View price history
+                - button "View price history" [ref=e622]:
+                  - img [ref=e625]
+            - region "Find the best price" [ref=e627]:
+              - generic [ref=e630]:
+                - img [ref=e631]
+                - heading "Track prices" [level=2] [ref=e633]
+                - button "Learn more about tracked prices" [ref=e637] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e638]:
+                    - img [ref=e639]
+                - generic [ref=e641]: Track prices from Pittsburgh to Vancouver departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e642]:
+                  - generic [ref=e644] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Vancouver departing 2026-08-08 and returning 2026-08-15" [ref=e647] [cursor=pointer]:
+                    - generic [ref=e652]:
+                      - img [ref=e653]
+                      - img [ref=e655]
+                - generic [ref=e658]: Track prices from Pittsburgh to Vancouver - Any dates
+                - generic [ref=e660]:
+                  - generic [ref=e661] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Vancouver - Any dates" [ref=e664] [cursor=pointer]:
+                    - generic [ref=e669]:
+                      - img [ref=e670]
+                      - img [ref=e672]
+              - generic [ref=e677]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e682]:
+                        - generic [ref=e683]:
+                          - text: Travel Aug 8 – 14 for $325
+                          - button "Change dates" [ref=e685] [cursor=pointer]
+                        - button "Close" [ref=e686] [cursor=pointer]:
+                          - img [ref=e687]
+                      - alert [ref=e689]: Expanded
+                - button "Date grid" [ref=e691]:
+                  - img [ref=e693]
+                  - generic [ref=e700]: Date grid
+                - button "Price graph" [ref=e702]:
+                  - img [ref=e704]
+                  - generic [ref=e714]: Price graph
+            - generic [ref=e715]:
+              - heading "Other departing flights" [level=3] [ref=e716]
+              - list [ref=e717]:
+                - listitem [ref=e718]:
+                  - generic [ref=e719]:
+                    - link "From 474 US dollars round trip total. 2 stops flight with United. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Vancouver International Airport at 9:51 AM on Sunday, August 9. Total duration 16 hr 52 min. Layover (1 of 2) is a 1 hr 5 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 7 hr 21 min layover at Denver International Airport in Denver. Select flight"
+                    - generic [ref=e721] [cursor=pointer]:
+                      - generic [ref=e723]:
+                        - generic [ref=e725]:
+                          - generic "Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Vancouver International Airport at 9:51 AM on Sunday, August 9." [ref=e727]:
+                            - 'generic "Departure time: 7:59 PM." [ref=e730]': 7:59 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:51 AM on Sunday, August 9." [ref=e733]':
+                              - 'generic "Arrival time: 9:51 AM on Sunday, August 9." [ref=e734]':
+                                - text: 9:51 AM
+                                - generic [ref=e735]: "+1"
+                          - generic [ref=e736]:
+                            - text: United
+                            - generic [ref=e737]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e738]:
+                          - generic "Total duration 16 hr 52 min." [ref=e739]: 16 hr 52 min
+                          - generic [ref=e740]:
+                            - generic [ref=e743]: PIT
+                            - text: –
+                            - generic [ref=e746]: YVR
+                        - generic [ref=e747]:
+                          - generic [ref=e748]:
+                            - generic "2 stops flight." [ref=e749]: 2 stops
+                            - img [ref=e754]
+                          - generic "Layover (1 of 2) is a 1 hr 5 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 7 hr 21 min layover at Denver International Airport in Denver." [ref=e757]:
+                            - generic [ref=e759]: IAD
+                            - text: ","
+                            - generic [ref=e761]: DEN
+                        - generic [ref=e763]:
+                          - generic [ref=e765]: 405 kg CO2e
+                          - generic [ref=e766]:
+                            - generic [ref=e767]: +19% emissions
+                            - 'button "Carbon emissions estimate: 405 kilograms. +19% emissions. Learn more about this emissions estimate" [ref=e768]':
+                              - img [ref=e769]
+                        - generic [ref=e771]:
+                          - generic [ref=e773]: $474
+                          - generic [ref=e774]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Vancouver International Airport at 9:51 AM on Sunday, August 9." [ref=e777]:
+                      - img [ref=e780]
+                - listitem [ref=e782]:
+                  - generic [ref=e783]:
+                    - link "From 654 US dollars round trip total. 2 stops flight with Delta and WestJet. Leaves Pittsburgh International Airport at 11:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 7:10 PM on Saturday, August 8. Total duration 10 hr 30 min. Layover (1 of 2) is a 2 hr layover at Minneapolis-Saint Paul International Airport in Minneapolis. Layover (2 of 2) is a 1 hr 30 min layover at Edmonton International Airport in Edmonton. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e785] [cursor=pointer]:
+                      - generic [ref=e787]:
+                        - generic [ref=e789]:
+                          - generic "Leaves Pittsburgh International Airport at 11:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 7:10 PM on Saturday, August 8." [ref=e791]:
+                            - 'generic "Departure time: 11:40 AM." [ref=e794]': 11:40 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:10 PM." [ref=e797]': 7:10 PM
+                          - generic [ref=e798]: Delta, WestJet
+                        - generic [ref=e799]:
+                          - generic "Total duration 10 hr 30 min." [ref=e800]: 10 hr 30 min
+                          - generic [ref=e801]:
+                            - generic [ref=e804]: PIT
+                            - text: –
+                            - generic [ref=e807]: YVR
+                        - generic [ref=e808]:
+                          - generic "2 stops flight." [ref=e810]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr layover at Minneapolis-Saint Paul International Airport in Minneapolis. Layover (2 of 2) is a 1 hr 30 min layover at Edmonton International Airport in Edmonton." [ref=e811]:
+                            - generic [ref=e813]: MSP
+                            - text: ","
+                            - generic [ref=e815]: YEG
+                        - generic [ref=e817]:
+                          - generic [ref=e819]: 445 kg CO2e
+                          - generic [ref=e820]:
+                            - generic [ref=e821]: +31% emissions
+                            - 'button "Carbon emissions estimate: 445 kilograms. +31% emissions. Learn more about this emissions estimate" [ref=e822]':
+                              - img [ref=e823]
+                        - generic [ref=e825]:
+                          - generic [ref=e826]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e830]:
+                              - generic [ref=e831]:
+                                - generic [ref=e832]:
+                                  - text: "1"
+                                  - img [ref=e833]
+                                - generic [ref=e836]:
+                                  - text: "0"
+                                  - img [ref=e837]
+                            - generic [ref=e840]: $654
+                          - generic [ref=e841]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:40 AM on Saturday, August 8 and arrives at Vancouver International Airport at 7:10 PM on Saturday, August 8." [ref=e844]:
+                      - img [ref=e847]
+                - listitem [ref=e849]:
+                  - generic [ref=e850]:
+                    - link "From 712 US dollars round trip total. 1 stop flight with United. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Vancouver International Airport at 11:22 PM on Saturday, August 8. Total duration 8 hr 59 min. Layover (1 of 1) is a 1 hr layover at San Francisco International Airport in San Francisco. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e852] [cursor=pointer]:
+                      - generic [ref=e854]:
+                        - generic [ref=e856]:
+                          - generic "Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Vancouver International Airport at 11:22 PM on Saturday, August 8." [ref=e858]:
+                            - 'generic "Departure time: 5:23 PM." [ref=e861]': 5:23 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:22 PM." [ref=e864]': 11:22 PM
+                          - generic [ref=e865]: United
+                        - generic [ref=e866]:
+                          - generic "Total duration 8 hr 59 min." [ref=e867]: 8 hr 59 min
+                          - generic [ref=e868]:
+                            - generic [ref=e871]: PIT
+                            - text: –
+                            - generic [ref=e874]: YVR
+                        - generic [ref=e875]:
+                          - generic "1 stop flight." [ref=e877]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr layover at San Francisco International Airport in San Francisco." [ref=e878]:
+                            - text: 1 hr
+                            - generic [ref=e880]: SFO
+                        - generic [ref=e882]:
+                          - generic [ref=e884]: 514 kg CO2e
+                          - generic [ref=e885]:
+                            - generic [ref=e886]: +52% emissions
+                            - 'button "Carbon emissions estimate: 514 kilograms. +52% emissions. Learn more about this emissions estimate" [ref=e887]':
+                              - img [ref=e888]
+                        - generic [ref=e890]:
+                          - generic [ref=e891]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e895]:
+                              - generic [ref=e896]:
+                                - generic [ref=e897]:
+                                  - text: "1"
+                                  - img [ref=e898]
+                                - generic [ref=e901]:
+                                  - text: "0"
+                                  - img [ref=e902]
+                            - generic [ref=e905]: $712
+                          - generic [ref=e906]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Vancouver International Airport at 11:22 PM on Saturday, August 8." [ref=e909]:
+                      - img [ref=e912]
+                - listitem [ref=e914]:
+                  - generic [ref=e915]:
+                    - link "From 734 US dollars round trip total. 1 stop flight with United. Leaves Pittsburgh International Airport at 8:30 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:56 PM on Saturday, August 8. Total duration 17 hr 26 min. Layover (1 of 1) is a 10 hr 54 min layover at Denver International Airport in Denver. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e917] [cursor=pointer]:
+                      - generic [ref=e919]:
+                        - generic [ref=e921]:
+                          - generic "Leaves Pittsburgh International Airport at 8:30 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:56 PM on Saturday, August 8." [ref=e923]:
+                            - 'generic "Departure time: 8:30 AM." [ref=e926]': 8:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:56 PM." [ref=e929]': 10:56 PM
+                          - generic [ref=e930]: United
+                        - generic [ref=e931]:
+                          - generic "Total duration 17 hr 26 min." [ref=e932]: 17 hr 26 min
+                          - generic [ref=e933]:
+                            - generic [ref=e936]: PIT
+                            - text: –
+                            - generic [ref=e939]: YVR
+                        - generic [ref=e940]:
+                          - generic [ref=e941]:
+                            - generic "1 stop flight." [ref=e942]: 1 stop
+                            - img [ref=e947]
+                          - generic "Layover (1 of 1) is a 10 hr 54 min layover at Denver International Airport in Denver." [ref=e950]:
+                            - text: 10 hr 54 min
+                            - generic [ref=e952]: DEN
+                        - generic [ref=e954]:
+                          - generic [ref=e956]: 335 kg CO2e
+                          - generic [ref=e957]:
+                            - generic [ref=e958]: Avg emissions
+                            - 'button "Carbon emissions estimate: 335 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e959]':
+                              - img [ref=e960]
+                        - generic [ref=e962]:
+                          - generic [ref=e963]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e967]:
+                              - generic [ref=e968]:
+                                - generic [ref=e969]:
+                                  - text: "1"
+                                  - img [ref=e970]
+                                - generic [ref=e973]:
+                                  - text: "0"
+                                  - img [ref=e974]
+                            - generic [ref=e977]: $734
+                          - generic [ref=e978]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:30 AM on Saturday, August 8 and arrives at Vancouver International Airport at 10:56 PM on Saturday, August 8." [ref=e981]:
+                      - img [ref=e984]
+                - listitem [ref=e986]:
+                  - generic [ref=e987]:
+                    - link "From 799 US dollars round trip total. 1 stop flight with Delta. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 4:17 PM on Saturday, August 8 and arrives at Vancouver International Airport at 8:29 PM on Saturday, August 8. Total duration 7 hr 12 min. Layover (1 of 1) is a 1 hr 2 min layover at Minneapolis-Saint Paul International Airport in Minneapolis. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e989] [cursor=pointer]:
+                      - generic [ref=e991]:
+                        - generic [ref=e993]:
+                          - generic "Leaves Pittsburgh International Airport at 4:17 PM on Saturday, August 8 and arrives at Vancouver International Airport at 8:29 PM on Saturday, August 8." [ref=e995]:
+                            - 'generic "Departure time: 4:17 PM." [ref=e998]': 4:17 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:29 PM." [ref=e1001]': 8:29 PM
+                          - generic [ref=e1002]:
+                            - text: Delta
+                            - generic [ref=e1003]: ·
+                            - text: WestJet
+                            - generic [ref=e1004]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e1005]:
+                          - generic "Total duration 7 hr 12 min." [ref=e1006]: 7 hr 12 min
+                          - generic [ref=e1007]:
+                            - generic [ref=e1010]: PIT
+                            - text: –
+                            - generic [ref=e1013]: YVR
+                        - generic [ref=e1014]:
+                          - generic "1 stop flight." [ref=e1016]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 2 min layover at Minneapolis-Saint Paul International Airport in Minneapolis." [ref=e1017]:
+                            - text: 1 hr 2 min
+                            - generic [ref=e1019]: MSP
+                        - generic [ref=e1021]:
+                          - generic [ref=e1023]: 384 kg CO2e
+                          - generic [ref=e1024]:
+                            - generic [ref=e1025]: +13% emissions
+                            - 'button "Carbon emissions estimate: 384 kilograms. +13% emissions. Learn more about this emissions estimate" [ref=e1026]':
+                              - img [ref=e1027]
+                        - generic [ref=e1029]:
+                          - generic [ref=e1030]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1034]:
+                              - generic [ref=e1035]:
+                                - generic [ref=e1036]:
+                                  - text: "1"
+                                  - img [ref=e1037]
+                                - generic [ref=e1040]:
+                                  - text: "0"
+                                  - img [ref=e1041]
+                            - generic [ref=e1044]: $799
+                          - generic [ref=e1045]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:17 PM on Saturday, August 8 and arrives at Vancouver International Airport at 8:29 PM on Saturday, August 8." [ref=e1048]:
+                      - img [ref=e1051]
+                - listitem [ref=e1053]:
+                  - generic [ref=e1054]:
+                    - link "From 870 US dollars round trip total. 1 stop flight with Delta. Operated by SkyWest DBA Delta Connection. Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:29 PM on Saturday, August 8. Total duration 7 hr 48 min. Layover (1 of 1) is a 1 hr 9 min layover at Salt Lake City International Airport in Salt Lake City. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1056] [cursor=pointer]:
+                      - generic [ref=e1058]:
+                        - generic [ref=e1060]:
+                          - generic "Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:29 PM on Saturday, August 8." [ref=e1062]:
+                            - 'generic "Departure time: 5:41 PM." [ref=e1065]': 5:41 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:29 PM." [ref=e1068]': 10:29 PM
+                          - generic [ref=e1069]:
+                            - text: Delta
+                            - generic [ref=e1070]: ·
+                            - text: Operated by SkyWest DBA Delta Connection
+                        - generic [ref=e1071]:
+                          - generic "Total duration 7 hr 48 min." [ref=e1072]: 7 hr 48 min
+                          - generic [ref=e1073]:
+                            - generic [ref=e1076]: PIT
+                            - text: –
+                            - generic [ref=e1079]: YVR
+                        - generic [ref=e1080]:
+                          - generic "1 stop flight." [ref=e1082]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 9 min layover at Salt Lake City International Airport in Salt Lake City." [ref=e1083]:
+                            - text: 1 hr 9 min
+                            - generic [ref=e1085]: SLC
+                        - generic [ref=e1087]:
+                          - generic [ref=e1089]: 400 kg CO2e
+                          - generic [ref=e1090]:
+                            - generic [ref=e1091]: +18% emissions
+                            - 'button "Carbon emissions estimate: 400 kilograms. +18% emissions. Learn more about this emissions estimate" [ref=e1092]':
+                              - img [ref=e1093]
+                        - generic [ref=e1095]:
+                          - generic [ref=e1096]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1100]:
+                              - generic [ref=e1101]:
+                                - generic [ref=e1102]:
+                                  - text: "1"
+                                  - img [ref=e1103]
+                                - generic [ref=e1106]:
+                                  - text: "0"
+                                  - img [ref=e1107]
+                            - generic [ref=e1110]: $870
+                          - generic [ref=e1111]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at Vancouver International Airport at 10:29 PM on Saturday, August 8." [ref=e1114]:
+                      - img [ref=e1117]
+                - listitem [ref=e1119]:
+                  - generic [ref=e1120]:
+                    - link "From 1021 US dollars round trip total. 1 stop flight with United and Air Canada. Leaves Pittsburgh International Airport at 2:05 PM on Saturday, August 8 and arrives at Vancouver International Airport at 6:12 PM on Saturday, August 8. Total duration 7 hr 7 min. Layover (1 of 1) is a 50 min layover at Chicago O'Hare International Airport in Chicago. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1122] [cursor=pointer]:
+                      - generic [ref=e1124]:
+                        - generic [ref=e1126]:
+                          - generic "Leaves Pittsburgh International Airport at 2:05 PM on Saturday, August 8 and arrives at Vancouver International Airport at 6:12 PM on Saturday, August 8." [ref=e1128]:
+                            - 'generic "Departure time: 2:05 PM." [ref=e1131]': 2:05 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:12 PM." [ref=e1134]': 6:12 PM
+                          - generic [ref=e1135]: United, Air Canada
+                        - generic [ref=e1136]:
+                          - generic "Total duration 7 hr 7 min." [ref=e1137]: 7 hr 7 min
+                          - generic [ref=e1138]:
+                            - generic [ref=e1141]: PIT
+                            - text: –
+                            - generic [ref=e1144]: YVR
+                        - generic [ref=e1145]:
+                          - generic "1 stop flight." [ref=e1147]: 1 stop
+                          - generic "Layover (1 of 1) is a 50 min layover at Chicago O'Hare International Airport in Chicago." [ref=e1148]:
+                            - text: 50 min
+                            - generic [ref=e1150]: ORD
+                        - generic [ref=e1152]:
+                          - generic [ref=e1154]: 368 kg CO2e
+                          - generic [ref=e1155]:
+                            - generic [ref=e1156]: +9% emissions
+                            - 'button "Carbon emissions estimate: 368 kilograms. +9% emissions. Learn more about this emissions estimate" [ref=e1157]':
+                              - img [ref=e1158]
+                        - generic [ref=e1160]:
+                          - generic [ref=e1161]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1165]:
+                              - generic [ref=e1166]:
+                                - generic [ref=e1167]:
+                                  - text: "1"
+                                  - img [ref=e1168]
+                                - generic [ref=e1171]:
+                                  - text: "0"
+                                  - img [ref=e1172]
+                            - generic [ref=e1175]: $1,021
+                          - generic [ref=e1176]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 2:05 PM on Saturday, August 8 and arrives at Vancouver International Airport at 6:12 PM on Saturday, August 8." [ref=e1179]:
+                      - img [ref=e1182]
+                - listitem [ref=e1184]:
+                  - generic [ref=e1185]:
+                    - link "From 1080 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 7:10 AM on Saturday, August 8 and arrives at Vancouver International Airport at 1:14 PM on Saturday, August 8. Total duration 9 hr 4 min. Layover (1 of 1) is a 1 hr 31 min layover at Dallas Fort Worth International Airport in Dallas. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1187] [cursor=pointer]:
+                      - generic [ref=e1189]:
+                        - generic [ref=e1191]:
+                          - generic "Leaves Pittsburgh International Airport at 7:10 AM on Saturday, August 8 and arrives at Vancouver International Airport at 1:14 PM on Saturday, August 8." [ref=e1193]:
+                            - 'generic "Departure time: 7:10 AM." [ref=e1196]': 7:10 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:14 PM." [ref=e1199]': 1:14 PM
+                          - generic [ref=e1200]: American
+                        - generic [ref=e1201]:
+                          - generic "Total duration 9 hr 4 min." [ref=e1202]: 9 hr 4 min
+                          - generic [ref=e1203]:
+                            - generic [ref=e1206]: PIT
+                            - text: –
+                            - generic [ref=e1209]: YVR
+                        - generic [ref=e1210]:
+                          - generic "1 stop flight." [ref=e1212]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 31 min layover at Dallas Fort Worth International Airport in Dallas." [ref=e1213]:
+                            - text: 1 hr 31 min
+                            - generic [ref=e1215]: DFW
+                        - generic [ref=e1217]:
+                          - generic [ref=e1219]: 385 kg CO2e
+                          - generic [ref=e1220]:
+                            - generic [ref=e1221]: +14% emissions
+                            - 'button "Carbon emissions estimate: 385 kilograms. +14% emissions. Learn more about this emissions estimate" [ref=e1222]':
+                              - img [ref=e1223]
+                        - generic [ref=e1225]:
+                          - generic [ref=e1226]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1230]:
+                              - generic [ref=e1231]:
+                                - generic [ref=e1232]:
+                                  - text: "1"
+                                  - img [ref=e1233]
+                                - generic [ref=e1236]:
+                                  - text: "0"
+                                  - img [ref=e1237]
+                            - generic [ref=e1240]: $1,080
+                          - generic [ref=e1241]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:10 AM on Saturday, August 8 and arrives at Vancouver International Airport at 1:14 PM on Saturday, August 8." [ref=e1244]:
+                      - img [ref=e1247]
+                - listitem [ref=e1249]:
+                  - generic [ref=e1250] [cursor=pointer]:
+                    - button "View more flights" [ref=e1253]:
+                      - img
+                    - generic [ref=e1256]: View more flights
+          - text: · · ·· · ·· · ·· ·· · · ·· · · · ·· · · ·· · ·· · ·· ·· · ·· ·· · · ·· · · ·· · ··
+      - contentinfo [ref=e1259]:
+        - generic [ref=e1261]:
+          - button "Language·English (United States)" [ref=e1262]:
+            - img [ref=e1265]
+            - generic [ref=e1267]: Language·English (United States)
+          - button "Location·United States" [ref=e1268]:
+            - img [ref=e1271]
+            - generic [ref=e1274]: Location·United States
+          - button "Currency USD" [ref=e1275]:
+            - img [ref=e1278]
+            - generic [ref=e1288]: Currency·USD
+        - generic [ref=e1289]:
+          - link "About Google Travel" [ref=e1290] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1291] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1292] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1293] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1294] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1295] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1297]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1298] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

@@ -1,0 +1,566 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Montreal YUL" [ref=e177]: Montreal
+                - generic [ref=e179]: Montreal YUL
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 8 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 538 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $538
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - 'link "From 594 US dollars round trip total. Nonstop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:59 PM on Saturday, August 8. Total duration 1 hr 24 min. Carbon emissions estimate: 116 kilograms. Select flight"'
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:59 PM on Saturday, August 8." [ref=e411]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e414]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:59 PM." [ref=e417]': 4:59 PM
+                          - generic [ref=e418]:
+                            - text: Air Canada
+                            - generic [ref=e419]: ·
+                            - text: United
+                            - generic [ref=e420]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e421]:
+                          - generic "Total duration 1 hr 24 min." [ref=e422]: 1 hr 24 min
+                          - generic [ref=e423]:
+                            - generic [ref=e426]: PIT
+                            - text: –
+                            - generic [ref=e429]: YUL
+                        - generic "Nonstop flight." [ref=e432]: Nonstop
+                        - generic [ref=e436]: 116 kg CO2e
+                        - generic [ref=e437]:
+                          - generic [ref=e439]: $594
+                          - generic [ref=e440]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:59 PM on Saturday, August 8." [ref=e443]:
+                      - img [ref=e446]
+                - listitem [ref=e448]:
+                  - generic [ref=e449]:
+                    - 'link "From 630 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 10:22 AM on Saturday, August 8. Total duration 4 hr 22 min. Layover (1 of 1) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto. 0 carry-on bags included. 0 checked bags included. Carbon emissions estimate: 139 kilograms. Select flight"'
+                    - generic [ref=e451] [cursor=pointer]:
+                      - generic [ref=e453]:
+                        - generic [ref=e455]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 10:22 AM on Saturday, August 8." [ref=e457]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e460]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:22 AM." [ref=e463]': 10:22 AM
+                          - generic [ref=e464]:
+                            - text: Air Canada
+                            - generic [ref=e465]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e466]:
+                          - generic "Total duration 4 hr 22 min." [ref=e467]: 4 hr 22 min
+                          - generic [ref=e468]:
+                            - generic [ref=e471]: PIT
+                            - text: –
+                            - generic [ref=e474]: YUL
+                        - generic [ref=e475]:
+                          - generic "1 stop flight." [ref=e477]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto." [ref=e478]:
+                            - text: 1 hr 51 min
+                            - generic [ref=e480]: YYZ
+                        - generic [ref=e484]: 139 kg CO2e
+                        - generic [ref=e485]:
+                          - generic [ref=e486]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e490]:
+                              - generic [ref=e491]:
+                                - generic [ref=e492]:
+                                  - text: "0"
+                                  - img [ref=e493]
+                                - generic [ref=e496]:
+                                  - text: "0"
+                                  - img [ref=e497]
+                            - generic [ref=e500]: $630
+                          - generic [ref=e501]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 10:22 AM on Saturday, August 8." [ref=e504]:
+                      - img [ref=e507]
+                - listitem [ref=e509]:
+                  - generic [ref=e510]:
+                    - 'link "From 681 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8. Total duration 3 hr 57 min. Layover (1 of 1) is a 47 min layover at Newark Liberty International Airport in Newark. 0 carry-on bags included. 0 checked bags included. Carbon emissions estimate: 184 kilograms. Select flight"'
+                    - generic [ref=e512] [cursor=pointer]:
+                      - generic [ref=e514]:
+                        - generic [ref=e516]:
+                          - generic "Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8." [ref=e518]:
+                            - 'generic "Departure time: 9:12 AM." [ref=e521]': 9:12 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:09 PM." [ref=e524]': 1:09 PM
+                          - generic [ref=e525]:
+                            - text: United
+                            - generic [ref=e526]: ·
+                            - text: Operated by Republic Airways DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e527]:
+                          - generic "Total duration 3 hr 57 min." [ref=e528]: 3 hr 57 min
+                          - generic [ref=e529]:
+                            - generic [ref=e532]: PIT
+                            - text: –
+                            - generic [ref=e535]: YUL
+                        - generic [ref=e536]:
+                          - generic "1 stop flight." [ref=e538]: 1 stop
+                          - generic "Layover (1 of 1) is a 47 min layover at Newark Liberty International Airport in Newark." [ref=e539]:
+                            - text: 47 min
+                            - generic [ref=e541]: EWR
+                        - generic [ref=e545]: 184 kg CO2e
+                        - generic [ref=e546]:
+                          - generic [ref=e547]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e551]:
+                              - generic [ref=e552]:
+                                - generic [ref=e553]:
+                                  - text: "0"
+                                  - img [ref=e554]
+                                - generic [ref=e557]:
+                                  - text: "0"
+                                  - img [ref=e558]
+                            - generic [ref=e561]: $681
+                          - generic [ref=e562]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8." [ref=e565]:
+                      - img [ref=e568]
+            - generic [ref=e574]:
+              - heading "Price insights" [level=3] [ref=e575]
+              - generic [ref=e576] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e581]
+                - generic [ref=e583]: View price history
+                - button "View price history" [ref=e585]:
+                  - img [ref=e588]
+            - region "Find the best price" [ref=e590]:
+              - generic [ref=e593]:
+                - img [ref=e594]
+                - heading "Track prices" [level=2] [ref=e596]
+                - button "Learn more about tracked prices" [ref=e600] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e601]:
+                    - img [ref=e602]
+                - generic [ref=e604]: Track prices from Pittsburgh to Montreal departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e605]:
+                  - generic [ref=e607] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Montreal departing 2026-08-08 and returning 2026-08-15" [ref=e610] [cursor=pointer]:
+                    - generic [ref=e615]:
+                      - img [ref=e616]
+                      - img [ref=e618]
+                - generic [ref=e621]: Track prices from Pittsburgh to Montreal - Any dates
+                - generic [ref=e623]:
+                  - generic [ref=e624] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Montreal - Any dates" [ref=e627] [cursor=pointer]:
+                    - generic [ref=e632]:
+                      - img [ref=e633]
+                      - img [ref=e635]
+              - generic [ref=e640]:
+                - button "Date grid" [ref=e642]:
+                  - img [ref=e644]
+                  - generic [ref=e651]: Date grid
+                - button "Price graph" [ref=e653]:
+                  - img [ref=e655]
+                  - generic [ref=e665]: Price graph
+            - generic [ref=e666]:
+              - heading "Other departing flights" [level=3] [ref=e667]
+              - list [ref=e668]:
+                - listitem [ref=e669]:
+                  - generic [ref=e670]:
+                    - 'link "From 538 US dollars round trip total. 1 stop flight with American. Operated by Republic Airways as American Eagle, Republic Airways as American Eagle. Leaves Pittsburgh International Airport at 5:52 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:46 AM on Sunday, August 9. Total duration 15 hr 54 min. Layover (1 of 1) is a 12 hr 49 min layover at LaGuardia Airport in New York. Carbon emissions estimate: 223 kilograms. Select flight"'
+                    - generic [ref=e672] [cursor=pointer]:
+                      - generic [ref=e674]:
+                        - generic [ref=e676]:
+                          - generic "Leaves Pittsburgh International Airport at 5:52 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:46 AM on Sunday, August 9." [ref=e678]:
+                            - 'generic "Departure time: 5:52 PM." [ref=e681]': 5:52 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:46 AM on Sunday, August 9." [ref=e684]':
+                              - 'generic "Arrival time: 9:46 AM on Sunday, August 9." [ref=e685]':
+                                - text: 9:46 AM
+                                - generic [ref=e686]: "+1"
+                          - generic [ref=e687]:
+                            - text: American
+                            - generic [ref=e688]: ·
+                            - text: Operated by Republic Airways as American Eagle, Republic Airways as American Eagle
+                        - generic [ref=e689]:
+                          - generic "Total duration 15 hr 54 min." [ref=e690]: 15 hr 54 min
+                          - generic [ref=e691]:
+                            - generic [ref=e694]: PIT
+                            - text: –
+                            - generic [ref=e697]: YUL
+                        - generic [ref=e698]:
+                          - generic [ref=e699]:
+                            - generic "1 stop flight." [ref=e700]: 1 stop
+                            - img [ref=e705]
+                          - generic "Layover (1 of 1) is a 12 hr 49 min layover at LaGuardia Airport in New York." [ref=e708]:
+                            - text: 12 hr 49 min
+                            - generic [ref=e710]: LGA
+                        - generic [ref=e714]: 223 kg CO2e
+                        - generic [ref=e715]:
+                          - generic [ref=e717]: $538
+                          - generic [ref=e718]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:52 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:46 AM on Sunday, August 9." [ref=e721]:
+                      - img [ref=e724]
+                - listitem [ref=e726]:
+                  - generic [ref=e727]:
+                    - 'link "From 626 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8. Total duration 6 hr 58 min. Layover (1 of 1) is a 3 hr 47 min layover at Newark Liberty International Airport in Newark. 0 carry-on bags included. 0 checked bags included. Carbon emissions estimate: 184 kilograms. Select flight"'
+                    - generic [ref=e729] [cursor=pointer]:
+                      - generic [ref=e731]:
+                        - generic [ref=e733]:
+                          - generic "Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8." [ref=e735]:
+                            - 'generic "Departure time: 9:12 AM." [ref=e738]': 9:12 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:10 PM." [ref=e741]': 4:10 PM
+                          - generic [ref=e742]:
+                            - text: United
+                            - generic [ref=e743]: ·
+                            - text: Operated by Republic Airways DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e744]:
+                          - generic "Total duration 6 hr 58 min." [ref=e745]: 6 hr 58 min
+                          - generic [ref=e746]:
+                            - generic [ref=e749]: PIT
+                            - text: –
+                            - generic [ref=e752]: YUL
+                        - generic [ref=e753]:
+                          - generic "1 stop flight." [ref=e755]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 47 min layover at Newark Liberty International Airport in Newark." [ref=e756]:
+                            - text: 3 hr 47 min
+                            - generic [ref=e758]: EWR
+                        - generic [ref=e762]: 184 kg CO2e
+                        - generic [ref=e763]:
+                          - generic [ref=e764]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e768]:
+                              - generic [ref=e769]:
+                                - generic [ref=e770]:
+                                  - text: "0"
+                                  - img [ref=e771]
+                                - generic [ref=e774]:
+                                  - text: "0"
+                                  - img [ref=e775]
+                            - generic [ref=e778]: $626
+                          - generic [ref=e779]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:12 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8." [ref=e782]:
+                      - img [ref=e785]
+                - listitem [ref=e787]:
+                  - generic [ref=e788]:
+                    - 'link "From 642 US dollars round trip total. 1 stop flight with American. Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:44 PM on Saturday, August 8. Total duration 4 hr 21 min. Layover (1 of 1) is a 53 min layover at Philadelphia International Airport in Philadelphia. 1 carry-on bag included. 0 checked bags included. Carbon emissions estimate: 233 kilograms. Select flight"'
+                    - generic [ref=e790] [cursor=pointer]:
+                      - generic [ref=e792]:
+                        - generic [ref=e794]:
+                          - generic "Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:44 PM on Saturday, August 8." [ref=e796]:
+                            - 'generic "Departure time: 5:23 PM." [ref=e799]': 5:23 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:44 PM." [ref=e802]': 9:44 PM
+                          - generic [ref=e803]:
+                            - text: American
+                            - generic [ref=e804]: ·
+                            - text: Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle
+                        - generic [ref=e805]:
+                          - generic "Total duration 4 hr 21 min." [ref=e806]: 4 hr 21 min
+                          - generic [ref=e807]:
+                            - generic [ref=e810]: PIT
+                            - text: –
+                            - generic [ref=e813]: YUL
+                        - generic [ref=e814]:
+                          - generic "1 stop flight." [ref=e816]: 1 stop
+                          - generic "Layover (1 of 1) is a 53 min layover at Philadelphia International Airport in Philadelphia." [ref=e817]:
+                            - text: 53 min
+                            - generic [ref=e819]: PHL
+                        - generic [ref=e823]: 233 kg CO2e
+                        - generic [ref=e824]:
+                          - generic [ref=e825]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e829]:
+                              - generic [ref=e830]:
+                                - generic [ref=e831]:
+                                  - text: "1"
+                                  - img [ref=e832]
+                                - generic [ref=e835]:
+                                  - text: "0"
+                                  - img [ref=e836]
+                            - generic [ref=e839]: $642
+                          - generic [ref=e840]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 9:44 PM on Saturday, August 8." [ref=e843]:
+                      - img [ref=e846]
+                - listitem [ref=e848]:
+                  - generic [ref=e849]:
+                    - 'link "From 665 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:25 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8. Total duration 5 hr 44 min. Layover (1 of 1) is a 2 hr 32 min layover at Newark Liberty International Airport in Newark. 0 carry-on bags included. 0 checked bags included. Carbon emissions estimate: 184 kilograms. Select flight"'
+                    - generic [ref=e851] [cursor=pointer]:
+                      - generic [ref=e853]:
+                        - generic [ref=e855]:
+                          - generic "Leaves Pittsburgh International Airport at 7:25 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8." [ref=e857]:
+                            - 'generic "Departure time: 7:25 AM." [ref=e860]': 7:25 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:09 PM." [ref=e863]': 1:09 PM
+                          - generic [ref=e864]:
+                            - text: United
+                            - generic [ref=e865]: ·
+                            - text: Operated by Republic Airways DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e866]:
+                          - generic "Total duration 5 hr 44 min." [ref=e867]: 5 hr 44 min
+                          - generic [ref=e868]:
+                            - generic [ref=e871]: PIT
+                            - text: –
+                            - generic [ref=e874]: YUL
+                        - generic [ref=e875]:
+                          - generic "1 stop flight." [ref=e877]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 32 min layover at Newark Liberty International Airport in Newark." [ref=e878]:
+                            - text: 2 hr 32 min
+                            - generic [ref=e880]: EWR
+                        - generic [ref=e884]: 184 kg CO2e
+                        - generic [ref=e885]:
+                          - generic [ref=e886]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e890]:
+                              - generic [ref=e891]:
+                                - generic [ref=e892]:
+                                  - text: "0"
+                                  - img [ref=e893]
+                                - generic [ref=e896]:
+                                  - text: "0"
+                                  - img [ref=e897]
+                            - generic [ref=e900]: $665
+                          - generic [ref=e901]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:25 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 1:09 PM on Saturday, August 8." [ref=e904]:
+                      - img [ref=e907]
+                - listitem [ref=e909]:
+                  - generic [ref=e910]:
+                    - 'link "From 686 US dollars round trip total. 1 stop flight with United. Operated by Gojet Airlines DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8. Total duration 4 hr 44 min. Layover (1 of 1) is a 1 hr 32 min layover at Newark Liberty International Airport in Newark. 0 carry-on bags included. 0 checked bags included. Carbon emissions estimate: 236 kilograms. Select flight"'
+                    - generic [ref=e912] [cursor=pointer]:
+                      - generic [ref=e914]:
+                        - generic [ref=e916]:
+                          - generic "Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8." [ref=e918]:
+                            - 'generic "Departure time: 11:26 AM." [ref=e921]': 11:26 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:10 PM." [ref=e924]': 4:10 PM
+                          - generic [ref=e925]:
+                            - text: United
+                            - generic [ref=e926]: ·
+                            - text: Operated by Gojet Airlines DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e927]:
+                          - generic "Total duration 4 hr 44 min." [ref=e928]: 4 hr 44 min
+                          - generic [ref=e929]:
+                            - generic [ref=e932]: PIT
+                            - text: –
+                            - generic [ref=e935]: YUL
+                        - generic [ref=e936]:
+                          - generic "1 stop flight." [ref=e938]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 32 min layover at Newark Liberty International Airport in Newark." [ref=e939]:
+                            - text: 1 hr 32 min
+                            - generic [ref=e941]: EWR
+                        - generic [ref=e945]: 236 kg CO2e
+                        - generic [ref=e946]:
+                          - generic [ref=e947]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e951]:
+                              - generic [ref=e952]:
+                                - generic [ref=e953]:
+                                  - text: "0"
+                                  - img [ref=e954]
+                                - generic [ref=e957]:
+                                  - text: "0"
+                                  - img [ref=e958]
+                            - generic [ref=e961]: $686
+                          - generic [ref=e962]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Montréal-Pierre Elliott Trudeau International Airport at 4:10 PM on Saturday, August 8." [ref=e965]:
+                      - img [ref=e968]
+                - listitem [ref=e970]:
+                  - generic [ref=e971] [cursor=pointer]:
+                    - button "View more flights" [ref=e974]:
+                      - img
+                    - generic [ref=e977]: View more flights
+          - text: ·· · ·· ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e980]:
+        - generic [ref=e982]:
+          - button "Language·English (United States)" [ref=e983]:
+            - img [ref=e986]
+            - generic [ref=e988]: Language·English (United States)
+          - button "Location·United States" [ref=e989]:
+            - img [ref=e992]
+            - generic [ref=e995]: Location·United States
+          - button "Currency USD" [ref=e996]:
+            - img [ref=e999]
+            - generic [ref=e1009]: Currency·USD
+        - generic [ref=e1010]:
+          - link "About Google Travel" [ref=e1011] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1012] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1013] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1014] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1015] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1016] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1018]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1019] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

@@ -1,0 +1,2167 @@
+- generic [active] [ref=e1]:
+  - generic "Download the Eater app!":
+    - generic [ref=e2813]:
+      - generic [ref=e2814]: Download the Eater app!
+      - button "close download banner" [ref=e2815] [cursor=pointer]:
+        - img [ref=e2816]
+        - generic [ref=e2820]: close download banner
+      - form "Download the Eater app!" [ref=e2822]:
+        - heading "Take Eater with you Restaurant recommendations you can trust" [level=2] [ref=e2824]:
+          - generic [ref=e2826]: Take Eater with you
+          - generic [ref=e2828]: Restaurant recommendations you can trust
+        - generic [ref=e2829]:
+          - link [ref=e2831] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkind&mt=8
+          - link [ref=e2833] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkindqr&mt=8
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: Skip to main content
+    - generic [ref=e9]:
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - link "Get our App" [ref=e16] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img [ref=e17]
+            - generic [ref=e19]:
+              - generic [ref=e20]: Get our
+              - generic [ref=e21]: App
+          - link "App":
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img
+            - generic: App
+        - link "The homepage Eater" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e24]: The homepage
+          - img "Eater" [ref=e25]
+        - generic [ref=e28]:
+          - button "Open Search" [ref=e29] [cursor=pointer]:
+            - img [ref=e30]
+          - button "Open Drawer" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+      - navigation "City Navigation" [ref=e36]:
+        - 'button "Current eater city: San Diego" [ref=e37] [cursor=pointer]':
+          - generic [ref=e38]: "Current eater city:"
+          - text: San Diego
+          - img [ref=e40]
+    - main [ref=e43]:
+      - article [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e55]:
+            - generic [ref=e57]:
+              - heading "More maps in Eater San Diego" [level=3] [ref=e58]
+              - link "See more maps" [ref=e60] [cursor=pointer]:
+                - /url: /maps
+                - generic [ref=e61]:
+                  - generic [ref=e62]: See more maps
+                  - img [ref=e64]
+            - generic [ref=e68]:
+              - generic [ref=e70]:
+                - img "The Best New Restaurants in and Around San Diego, April 2026" [ref=e72]
+                - link "The Best New Restaurants in and Around San Diego, April 2026" [ref=e79] [cursor=pointer]:
+                  - /url: /maps/best-new-san-diego-restaurants-heatmap
+              - generic [ref=e81]:
+                - img "The Best Pizzerias in and Around San Diego" [ref=e83]
+                - link "The Best Pizzerias in and Around San Diego" [ref=e90] [cursor=pointer]:
+                  - /url: /maps/best-pizza-restaurant-pizzeria-san-diego
+              - generic [ref=e92]:
+                - img "The Best Brunch Restaurants in San Diego" [ref=e94]
+                - link "The Best Brunch Restaurants in San Diego" [ref=e101] [cursor=pointer]:
+                  - /url: /maps/best-brunch-san-diego-restaurants
+              - generic [ref=e103]:
+                - img "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e105]
+                - link "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e112] [cursor=pointer]:
+                  - /url: /maps/best-restaurants-bars-food-la-jolla
+              - generic [ref=e114]:
+                - img "Where to Watch Sports and Snack in San Diego" [ref=e116]
+                - link "Where to Watch Sports and Snack in San Diego" [ref=e123] [cursor=pointer]:
+                  - /url: /maps/san-diego-best-sports-bars-super-bowl-game-day-restaurants
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e127]:
+                - generic [ref=e130]:
+                  - img "Lamb chops on a decorative white plate with a sauce spooned over the top" [ref=e133]
+                  - generic [ref=e134]: Lamb chops. Kimberly Motos
+                - generic [ref=e136]:
+                  - list [ref=e139]:
+                    - listitem [ref=e140]:
+                      - link "Dining Out in San Diego" [ref=e141] [cursor=pointer]:
+                        - /url: /dining-out-in-san-diego
+                  - generic [ref=e142]:
+                    - heading "The 38 Best Restaurants in San Diego" [level=1] [ref=e143]
+                    - paragraph [ref=e144]: San Diego’s essential restaurants across an array of cuisines, neighborhoods, and price points
+                - img [ref=e145]
+                - generic [ref=e147]:
+                  - generic [ref=e149]:
+                    - generic [ref=e151]:
+                      - text: by
+                      - link "Helen I. Hwang" [ref=e153] [cursor=pointer]:
+                        - /url: https://www.eater.com/authors/helen-i-hwang
+                    - generic [ref=e154]:
+                      - text: Updated
+                      - time [ref=e155]: Jan 13, 2026, 4:29 PM EST
+                  - list [ref=e158]:
+                    - listitem [ref=e159]:
+                      - button "Share on Facebook" [ref=e160] [cursor=pointer]:
+                        - img "Facebook" [ref=e161]
+                    - listitem [ref=e163]:
+                      - button "Copy link" [ref=e165] [cursor=pointer]:
+                        - img "Link" [ref=e166]
+              - generic [ref=e169]:
+                - link "Helen I. Hwang" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.eater.com/authors/helen-i-hwang
+                  - img "Helen I. Hwang" [ref=e172]
+                - generic [ref=e173]:
+                  - link "Helen I. Hwang" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.eater.com/authors/helen-i-hwang
+                  - text: is a freelance journalist who covers food, travel, and news. She worked in the food industry as a mechanical engineer for eight years, training as a “supertaster.” She then worked as an editor for the now-defunct Philadelphia City Paper where she first began writing about food, lifestyle, and news.
+              - paragraph [ref=e176]:
+                - text: This standout group of 38 restaurants reflects the best of
+                - link "San Diego’s diverse dining culture" [ref=e177] [cursor=pointer]:
+                  - /url: /neighborhoods
+                - text: — covering cities across the county while spanning a range of price points, cuisines, approaches, and neighborhoods. With every update, Eater San Diego adds a few restaurants that have become newly eligible or have stepped up their game. As such, a few restaurants are retired from the map each quarter — not necessarily forever — to make room. For hot new restaurants, check out our monthly
+                - link "Eater heatmap." [ref=e178] [cursor=pointer]:
+                  - /url: /maps/best-new-san-diego-restaurants-heatmap
+              - paragraph [ref=e180]: In the latest update, we’ve added insider tips to each write-up, including what the must-try dish is, how to avoid a nightmare parking situation, and what occasion each restaurant is best known for. Also, watch out for our new price categories, ranging from $ for an affordable meal under $25 a person to $$$$, which indicates a splurge that may be a better fit for a special occasion.
+              - paragraph [ref=e182]:
+                - strong [ref=e183]: "New this update:"
+                - emphasis [ref=e184]: Deckman’s North @3131, Izola Bakery, and Wormwood join the list, while Wolf in the Woods, Azucar, and Market Restaurant leave.
+              - generic:
+                - paragraph
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - text: advertisement
+                  - generic [ref=e188]:
+                    - text: AD
+                    - iframe [ref=e2873]:
+                      - generic [ref=f115e7]:
+                        - generic:
+                          - generic:
+                            - link:
+                              - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstuD5D6_mcKALgA1c3JY_tMP0AIWZiIdPwGk1gXYytQ0j9jRXVPFHjGtzR29ScqPrMTvexM8_h9d1wrZFUnUFz6RgNT0E6_CzxInqoHpIa32RL7DhZT64tZ5Ys7bsOC21swQPVqFP4Gj26DtsS9Qprn5IvHpKlvKi7uS18sdPaDzZKwomYJKB-T5t_qOv-uImAthsHxC-Z14eQ2U3N9QTOcFnYwLWh2ci97Z-q4zG2FSi7UMsknO0t2n-fLRnF9AaTLAYJop7AbXDq65pBoJ7tfbIleTtIfpV_wbs90QRtMh1jkCgnbyLw9my69fmJlMwI2dzKqKyLBKyExlF7EbHViWPqN4eIucIlyvlu1Im0bWhg2-GRvRNhKKQuKvKIl4P1M_8vkQRMGYjjN2HrNK19YGZZ_PGj0l_PsoQNYLOspnnbeIgbV_dUqsawrLDrwv6m-76BI63EpuQNRMb6NPsOZeusUOT0O8m6w-8Lt7-UgsG7Mca4TaK9J9TQMO6PLDjM2ScCUu7AS_L_bTtU7OG5b_3JQXzKJepY24A6o8TkgbNzerDyrdebr8iu3inbZFjzRLDq-PS4KU8r9MZ2WXrPrq_A6xx8qGk9ABcB_8xt5So08f5N7LggTFcqE7gXCoRYJJqKnRASZ4IFvOb8kmAneuCCT3ZlLpZZ5eKoRy-SdBUaGVWGXvBHKe2hkaKYjpbRDI7FHrdUZdpD9mum42IGGDiO7mB5H7lGnaxdjon3yoWy4VZtN_0h-NDWwddE0nTXJtbqPqfts&sai=AMfl-YSFhpv6zlYOVj9Ftpn028VBo-K9-Xos4gRqh_-OhFWIqsN36A2lQYQIrTrWw_LpMz61OwZafWV3S26FzS2XStdvoSkL8uw1QDqHDDvK6HSHPYhLJ1d25x-qTf1Q8nxJOBQvTQAcRtBtC9jWKMBhrrB3XTbspFA2xWFv6TG4Bi7fLwdwNjGGJjudN1MteWf0TatAAuVxOaSPc57noAMb6qJB9uDeKltxHqAL6iLHTTIwe-cBkAjzftjx-dZs3xCW0dqxhCE01NUzBGMovBnZ1Z09CQfs&sig=Cg0ArKJSzByUR9KiQ1WPEAE&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://productshop.donjulio.com/social/659c67a7c5c4be0e504f08bc%3Futm_source%3Dprogrammatic%26utm_medium%3Dpaid_video%26utm_campaign%3D%26utm_term%3D%26utm_content%3D%26utm_placement%3Dall_device_video%26utm_marketing_tactic%3Dawareness%3Futm_source%3Dcmp(controlledmarketplace)%26utm_medium%3Ddcm%26utm_campaign%3D26008632_LuxuryPV_DOJUO_DONJUB_NAT_USA_USOA_NORA_USD_AWA_TB_01-01-2026_06-30-2026_4904490245%26utm_term%3DNU%26utm_content%3DNU%26utm_ID%3D26008632%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23516561485
+                          - generic [ref=f115e9]:
+                            - generic "Advertisement" [ref=f115e10]
+                            - iframe [ref=f115e12]:
+                              - button [ref=f128e3]:
+                                - img [ref=f128e4] [cursor=pointer]
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Unmute" [ref=f115e16] [cursor=pointer]:
+                                    - generic [ref=f115e17]:
+                                      - img [ref=f115e19]
+                                      - img [ref=f115e24]
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Unmute
+                                  - generic:
+                                    - generic: 00:13
+                - generic [ref=e189]:
+                  - generic [ref=e191]:
+                    - heading "Valle" [level=2] [ref=e192]
+                    - button "Copy link" [ref=e194] [cursor=pointer]:
+                      - img "Link" [ref=e195]
+                  - paragraph [ref=e197]:
+                    - strong [ref=e198]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e199]:
+                    - strong [ref=e200]: "Price range:"
+                    - text: $$$$
+                  - paragraph [ref=e201]: Valle, the first Oceanside restaurant to receive a Michelin star, comes from chef Roberto Alcocer (who also cooks at Malva in Valle de Guadalupe). The landmark restaurant has helped transform the small surfing town into a recognized dining destination. Alcocer transports his modern Mexican cuisine stateside, showcasing his approach to Baja and Californian ingredients in meat-based or vegetarian tasting menus with optional wine pairings that spotlight Baja California’s Valle de Guadalupe wine region. Grab a seat at the chef’s table for an inside look at the bustling, well-oiled kitchen. The menu now includes plates like local spiny lobster tacos, wagyu carne asada, and a honeypatch squash buñuelo.
+                  - paragraph [ref=e202]:
+                    - strong [ref=e203]: "Know before you go:"
+                    - text: Grab a reservation before the sun sets to take in the view over the Oceanside pier from the outdoor patio or a table near the window.
+                  - list [ref=e204]:
+                    - listitem [ref=e205]:
+                      - link "Booking Book a table" [ref=e207] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/182221?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e208]
+                        - text: Book a table
+                        - img [ref=e210]
+                    - listitem [ref=e212]:
+                      - link "Location 222 N Pacific St, Oceanside, CA 92054External Link" [ref=e213] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Valle%2C%20222%20N%20Pacific%20St%2C%20Oceanside%2C%20CA%2092054
+                        - img "Location" [ref=e214]
+                        - generic [ref=e216]:
+                          - text: 222 N Pacific St, Oceanside, CA 92054
+                          - img "External Link" [ref=e217]
+                    - listitem [ref=e219]:
+                      - link "Phone (866) 723-8906" [ref=e220] [cursor=pointer]:
+                        - /url: tel:8667238906
+                        - img "Phone" [ref=e221]
+                        - text: (866) 723-8906
+                    - listitem [ref=e223]:
+                      - link "Link Visit website" [ref=e224] [cursor=pointer]:
+                        - /url: https://valleoceanside.com/
+                        - img "Link" [ref=e225]
+                        - text: Visit website
+                  - generic [ref=e229]:
+                    - img "Tables and a couch in a restaurant." [ref=e232]
+                    - generic [ref=e233]: Kimberly Motos
+                  - generic [ref=e234]:
+                    - heading "See more" [level=3] [ref=e237]
+                    - generic [ref=e240]:
+                      - img "The Best Mexican Food in San Diego, According to a Local Food Expert" [ref=e242]
+                      - link "The Best Mexican Food in San Diego, According to a Local Food Expert" [ref=e249] [cursor=pointer]:
+                        - /url: /maps/best-mexican-restaurants-food-tacos-birria-michelin-san-diego
+              - generic [ref=e251]:
+                - generic [ref=e253]:
+                  - heading "Matsu" [level=2] [ref=e254]
+                  - button "Copy link" [ref=e256] [cursor=pointer]:
+                    - img "Link" [ref=e257]
+                - paragraph [ref=e259]:
+                  - strong [ref=e260]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e261]:
+                  - strong [ref=e262]: "Price range:"
+                  - text: $$$$
+                - paragraph [ref=e263]: A core institution in the Oceanside fine dining scene, chef William Eick commands a Japanese omakase tasting menu with 10 courses, showcasing seafood, seasonal vegetables, premium meats, and dessert. For a splurge, upgrade to the A5 Wagyu add-on for $55, or opt for the a la carte menu for something more customized. The range of dishes can include lobster, wagyu, and miso in deceptively simple preparations that highlight the main ingredients and strive for a zero-waste ethos. One highlight is the sunflower, ika, rayu — an intricate plate using the entire sunflower plant and cuttlefish, presented like a cuttlefish handroll and dusted with dehydrated sunflower leaf. Also, try the oak-grilled sablefish, prepared with a technique that puffs the fish’s scales out like a pinecone. Look for special events like chef and Japanese sake collaborations.
+                - paragraph [ref=e264]:
+                  - strong [ref=e265]: "Know before you go:"
+                  - text: A warm place for a celebration with a special date or close friends when you want to hear each other’s conversations.
+                - list [ref=e266]:
+                  - listitem [ref=e267]:
+                    - link "Booking Book a table on OpenTable" [ref=e269] [cursor=pointer]:
+                      - /url: http://www.opentable.com/r/matsu-oceanside?ref=9040
+                      - img "Booking" [ref=e270]
+                      - text: Book a table on OpenTable
+                      - img [ref=e272]
+                  - listitem [ref=e274]:
+                    - link "Location 626 S Tremont St, Oceanside, CA, 92054, USExternal Link" [ref=e275] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Matsu%2C%20626%20S%20Tremont%20St%2C%20Oceanside%2C%20CA%2C%2092054%2C%20US
+                      - img "Location" [ref=e276]
+                      - generic [ref=e278]:
+                        - text: 626 S Tremont St, Oceanside, CA, 92054, US
+                        - img "External Link" [ref=e279]
+                  - listitem [ref=e281]:
+                    - link "Phone (760) 681-6152" [ref=e282] [cursor=pointer]:
+                      - /url: tel:7606816152
+                      - img "Phone" [ref=e283]
+                      - text: (760) 681-6152
+                  - listitem [ref=e285]:
+                    - link "Link Visit website" [ref=e286] [cursor=pointer]:
+                      - /url: http://eatatmatsu.com/
+                      - img "Link" [ref=e287]
+                      - text: Visit website
+                - generic [ref=e291]:
+                  - img "Overhead shot of omakase dishes on a wood bar at Matsu" [ref=e294]
+                  - generic [ref=e295]: Matsu
+                - generic [ref=e296]:
+                  - heading "See more" [level=3] [ref=e299]
+                  - generic [ref=e300]:
+                    - generic [ref=e302]:
+                      - img "The Best Restaurants Open for Christmas in San Diego" [ref=e304]
+                      - link "The Best Restaurants Open for Christmas in San Diego" [ref=e311] [cursor=pointer]:
+                        - /url: /maps/best-christmas-dinners-san-diego-restaurants
+                    - generic [ref=e313]:
+                      - img "The Best San Diego Fine Dining Restaurants" [ref=e315]
+                      - link "The Best San Diego Fine Dining Restaurants" [ref=e322] [cursor=pointer]:
+                        - /url: /maps/san-diego-restaurants-chefs-tasting-menu-dinners-omakase
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - text: advertisement
+                  - generic [ref=e325]: AD
+                - generic [ref=e326]:
+                  - generic [ref=e328]:
+                    - heading "Tanner’s Prime Burger" [level=2] [ref=e329]
+                    - button "Copy link" [ref=e331] [cursor=pointer]:
+                      - img "Link" [ref=e332]
+                  - paragraph [ref=e334]:
+                    - strong [ref=e335]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e336]:
+                    - strong [ref=e337]: "Price Range:"
+                    - text: $
+                  - paragraph [ref=e338]: Beef tallow is the name of the game at Tanner’s Prime Burgers, a casual burger joint that’s been recognized by the Michelin Guide. Chef Brandon Rodgers (The French Laundry, Benu, In Situ) partnered with Eric Brandt of Brandt Beef to launch this Oceanside restaurant after hosting pop-ups at the Del Mar Thoroughbred Club. The simple interior features retro flair, with white tables and red stools, as well as indoor and outdoor counter seating and a spacious dining patio. Tanner’s serves its smash burger on a pillowy brioche bun with a USDA Prime Brandt beef patty, beef bacon, New School American cheese, lettuce, caramelized onions, and a drizzle of Tanner’s sauce. Don’t be shy about dabbing on some Tanner’s Prime Hot Sauce for an extra kick. An order of tallow-fried fries is essential on every visit here. Save room for a creamy milkshake, or the restaurant’s signature Fatty Patty, an ice cream sandwich with vanilla beef tallow ice cream between chocolate chip cookies.
+                  - paragraph [ref=e339]:
+                    - strong [ref=e340]: "Must-try dishes:"
+                    - text: Prime burger, tallow fries, and Fatty Patty
+                  - list [ref=e341]:
+                    - listitem [ref=e342]:
+                      - link "Location 510 Vista Way, Oceanside, California 92054External Link" [ref=e343] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Tanner%E2%80%99s%20Prime%20Burger%2C%20510%20Vista%20Way%2C%20Oceanside%2C%20California%2092054
+                        - img "Location" [ref=e344]
+                        - generic [ref=e346]:
+                          - text: 510 Vista Way, Oceanside, California 92054
+                          - img "External Link" [ref=e347]
+                    - listitem [ref=e349]:
+                      - link "Link Visit website" [ref=e350] [cursor=pointer]:
+                        - /url: https://www.tannersprimeburgers.com/
+                        - img "Link" [ref=e351]
+                        - text: Visit website
+                  - generic [ref=e355]:
+                    - img "Tanners.PC.Chris.Costa" [ref=e358]
+                    - generic [ref=e359]: Chris Costa
+                  - generic [ref=e360]:
+                    - heading "See more" [level=3] [ref=e363]
+                    - generic [ref=e366]:
+                      - img "The Best Burgers in San Diego, California" [ref=e368]
+                      - link "The Best Burgers in San Diego, California" [ref=e375] [cursor=pointer]:
+                        - /url: /maps/best-burgers-san-diego-california-restaurants
+              - generic [ref=e377]:
+                - generic [ref=e379]:
+                  - heading "Lilo" [level=2] [ref=e380]
+                  - button "Copy link" [ref=e382] [cursor=pointer]:
+                    - img "Link" [ref=e383]
+                - paragraph [ref=e385]:
+                  - text: Within two months of opening in Carlsbad,
+                  - link "Lilo" [ref=e386] [cursor=pointer]:
+                    - /url: https://www.restaurantlilo.com/
+                  - text: earned a Michelin star, becoming the only new restaurant in San Diego to receive the accolade. Housed in a former boogie-board factory, the intimate 22-seat restaurant is tucked behind Bost’s all-day café, Wildland. Chef Eric Bost (Campfire, Jeune et Jolie) leads the kitchen alongside chef de cuisine Dusan Todic and pastry chef Madeline Biehl (Single Thread); the team serves hyperlocal California dishes with Asian influences in a 12-course tasting menu. Diners begin their culinary journey outdoors with an amuse-bouche and a zero-proof cocktail, under an Australian bottle tree. Next, they enter the dining room, surrounded by textured walls, where they delve into dishes like a spring pea tartlet, dry-aged wild-caught fish, squab, and blackened banana with shiro miso, accompanied by Koshihikari rice.
+                - paragraph [ref=e387]:
+                  - strong [ref=e388]: Know before you go
+                  - text: ": Inside the dining room, there are two options: a 14-seat chef’s counter or two chef’s tables. Ask for your preferred spot when you make your reservation."
+                - list [ref=e389]:
+                  - listitem [ref=e390]:
+                    - link "Location 2571 Roosevelt Street, Carlsbad, California 92008External Link" [ref=e391] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Lilo%2C%202571%20Roosevelt%20Street%2C%20Carlsbad%2C%20California%2092008
+                      - img "Location" [ref=e392]
+                      - generic [ref=e394]:
+                        - text: 2571 Roosevelt Street, Carlsbad, California 92008
+                        - img "External Link" [ref=e395]
+                  - listitem [ref=e397]:
+                    - link "Phone (442) 303-8245" [ref=e398] [cursor=pointer]:
+                      - /url: tel:4423038245
+                      - img "Phone" [ref=e399]
+                      - text: (442) 303-8245
+                  - listitem [ref=e401]:
+                    - link "Link Visit website" [ref=e402] [cursor=pointer]:
+                      - /url: https://www.restaurantlilo.com/
+                      - img "Link" [ref=e403]
+                      - text: Visit website
+                - generic [ref=e407]:
+                  - img "Spot prawn" [ref=e410]
+                  - generic [ref=e411]: Lilo
+                - generic [ref=e412]:
+                  - heading "See more" [level=3] [ref=e415]
+                  - generic [ref=e416]:
+                    - generic [ref=e418]:
+                      - img "The Best San Diego Fine Dining Restaurants" [ref=e420]
+                      - link "The Best San Diego Fine Dining Restaurants" [ref=e427] [cursor=pointer]:
+                        - /url: /maps/san-diego-restaurants-chefs-tasting-menu-dinners-omakase
+                    - generic [ref=e429]:
+                      - img "The Best Restaurants in Carlsbad, California" [ref=e431]
+                      - link "The Best Restaurants in Carlsbad, California" [ref=e438] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-carlsbad-san-diego
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - text: advertisement
+                  - generic [ref=e441]: AD
+                - generic [ref=e442]:
+                  - generic [ref=e444]:
+                    - heading "Manna" [level=2] [ref=e445]
+                    - button "Copy link" [ref=e447] [cursor=pointer]:
+                      - img "Link" [ref=e448]
+                  - paragraph [ref=e450]:
+                    - strong [ref=e451]: "Open for:"
+                    - text: Breakfast, Lunch
+                  - paragraph [ref=e452]:
+                    - strong [ref=e453]: "Price range:"
+                    - text: $$
+                  - paragraph [ref=e454]: Atelier Manna, a Michelin Bib Gourmand-recognized brunch restaurant, started as a stopgap for chef Andrew Bachelier (previously of Jeune et Jolie and Cucina Enoteca) as he worked toward launching his larger restaurant partnership with pro skater Tony Hawk. It’s safe to say that this North County daytime cafe, Eater’s 2023 winner for Neighborhood Restaurant of the Year, has already become a beloved fixture in Leucadia. Diners have fully embraced Atelier Manna’s feel-good menu, which includes comforting savory pork belly congee, seasonal salads, and Turkish eggs with chili garlic butter, as well as coffees, teas, wellness shots, and adaptogenic “vitality tonics” for the health-conscious.
+                  - paragraph [ref=e455]:
+                    - strong [ref=e456]: "Must-try dishes:"
+                    - text: Locals come for the unparalleled Turkish eggs and Manna bowl. Don’t skip on a vitality tonic, including ones made with Steady State coffee.
+                  - list [ref=e457]:
+                    - listitem [ref=e458]:
+                      - link "Location 1076 N. Coast Highway 101, Encinitas, CA 92024External Link" [ref=e459] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Manna%2C%201076%20N.%20Coast%20Highway%20101%2C%20Encinitas%2C%20CA%2092024
+                        - img "Location" [ref=e460]
+                        - generic [ref=e462]:
+                          - text: 1076 N. Coast Highway 101, Encinitas, CA 92024
+                          - img "External Link" [ref=e463]
+                    - listitem [ref=e465]:
+                      - link "Phone (760) 230-1237" [ref=e466] [cursor=pointer]:
+                        - /url: tel:7602301237
+                        - img "Phone" [ref=e467]
+                        - text: (760) 230-1237
+                    - listitem [ref=e469]:
+                      - link "Link Visit website" [ref=e470] [cursor=pointer]:
+                        - /url: https://www.atelier-manna.com/
+                        - img "Link" [ref=e471]
+                        - text: Visit website
+                  - generic [ref=e475]:
+                    - img "A restaurant patio." [ref=e478]
+                    - generic [ref=e479]: Kimberly Motos
+                  - generic [ref=e480]:
+                    - heading "See more" [level=3] [ref=e483]
+                    - generic [ref=e486]:
+                      - img "The Best Breakfast Spots to Try Right Now in San Diego" [ref=e488]
+                      - link "The Best Breakfast Spots to Try Right Now in San Diego" [ref=e495] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-breakfast-san-diego
+              - generic [ref=e497]:
+                - generic [ref=e499]:
+                  - heading "Leu Leu" [level=2] [ref=e500]
+                  - button "Copy link" [ref=e502] [cursor=pointer]:
+                    - img "Link" [ref=e503]
+                - paragraph [ref=e505]:
+                  - link "Leu Leu" [ref=e506] [cursor=pointer]:
+                    - /url: https://www.leuleuleucadia.com/
+                  - text: has quickly established itself as a hidden gem in Leucadia. The restaurant showcases inventive culinary machinations from the Mediterranean in its dishes. Enter through antique doors with golden hands serving as handles and step onto a patio with tables on wooden floors. From here, diners wind into a breezy, eclectic lair with exposed beams, peacock-embossed velvet curtains, and a vinyl record player perched on a stage for regular DJ nights. The restaurant lives in the skeleton of a motel built when the Del Mar Racetrack opened in the 1930s, making it a visual treat for architecture aficionados. Start with the rose snapper ceviche in a Castelvetrano olive zhoug and the Smyrna-style meatballs made with mint, caper berries, and bulgur. The crispy chicken is served with a warm, herb yogurt to cool the Aleppo chile marinade.
+                - paragraph [ref=e507]:
+                  - strong [ref=e508]: "Know before you go:"
+                  - text: Much of the seating is on the heated patio, so if you want to snag one of the tables inside or the bar seating for two, book early.
+                - list [ref=e509]:
+                  - listitem [ref=e510]:
+                    - link "Location 454 North Coast Highway 101, Encinitas, California 92024External Link" [ref=e511] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Leu%20Leu%2C%20454%20North%20Coast%20Highway%20101%2C%20Encinitas%2C%20California%2092024
+                      - img "Location" [ref=e512]
+                      - generic [ref=e514]:
+                        - text: 454 North Coast Highway 101, Encinitas, California 92024
+                        - img "External Link" [ref=e515]
+                  - listitem [ref=e517]:
+                    - link "Link Visit website" [ref=e518] [cursor=pointer]:
+                      - /url: https://www.leuleuleucadia.com/
+                      - img "Link" [ref=e519]
+                      - text: Visit website
+                - generic [ref=e523]:
+                  - img "LeuLeu.Meatballs_111-028" [ref=e526]
+                  - generic [ref=e527]: Leu Leu
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - text: advertisement
+                  - generic [ref=e530]: AD
+                - generic [ref=e531]:
+                  - generic [ref=e533]:
+                    - heading "Addison Restaurant" [level=2] [ref=e534]
+                    - button "Copy link" [ref=e536] [cursor=pointer]:
+                      - img "Link" [ref=e537]
+                  - paragraph [ref=e539]:
+                    - strong [ref=e540]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e541]:
+                    - strong [ref=e542]: "Price range:"
+                    - text: $$$$
+                  - paragraph [ref=e543]: Guided by longtime executive chef/director William Bradley, Addison is San Diego’s only three-Michelin-starred restaurant. The culinary team leads diners through an elaborate $385 ten-course chef’s tasting menu, spotlighting local California ingredients and produce. While the menu rotates with the seasons (expect the spring menu to change three times), highlight dishes include the pillowy shellfish chawanmushi with broccoli and bok choy, Regiis Ova reserve caviar with koshihikari rice, smoked sabayon and sesame, and sourdough bread made with goat’s milk. A curated wine pairing is available at an additional cost. Make sure to try a libation from the spring cocktail menu like the Snap Pea, made with blanco tequila, lime, snap pea, muskmelon, and aloe.
+                  - paragraph [ref=e544]:
+                    - strong [ref=e545]: "Know before you go:"
+                    - text: Plan for the tasting menu by booking reservations well in advance. Arrive early for a drink at the lounge in the dining area for the full experience.
+                  - list [ref=e546]:
+                    - listitem [ref=e547]:
+                      - link "Booking Book a table on OpenTable" [ref=e549] [cursor=pointer]:
+                        - /url: http://www.opentable.com/r/addison-by-william-bradley?ref=9040
+                        - img "Booking" [ref=e550]
+                        - text: Book a table on OpenTable
+                        - img [ref=e552]
+                    - listitem [ref=e554]:
+                      - link "Location 5200 Grand Del Mar Way, San Diego, CA 92130, USAExternal Link" [ref=e555] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Addison%20Restaurant%2C%205200%20Grand%20Del%20Mar%20Way%2C%20San%20Diego%2C%20CA%2092130%2C%20USA
+                        - img "Location" [ref=e556]
+                        - generic [ref=e558]:
+                          - text: 5200 Grand Del Mar Way, San Diego, CA 92130, USA
+                          - img "External Link" [ref=e559]
+                    - listitem [ref=e561]:
+                      - link "Phone (858) 314-1900" [ref=e562] [cursor=pointer]:
+                        - /url: tel:8583141900
+                        - img "Phone" [ref=e563]
+                        - text: (858) 314-1900
+                    - listitem [ref=e565]:
+                      - link "Link Visit website" [ref=e566] [cursor=pointer]:
+                        - /url: http://www.addisondelmar.com/?y_source=1_MTU2Mzc2NTEtNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl
+                        - img "Link" [ref=e567]
+                        - text: Visit website
+                  - generic [ref=e571]:
+                    - img "Front entryway of Addison Restaurant with a sunset sky in the background." [ref=e574]
+                    - generic [ref=e575]: Addison [Official photo]
+                  - generic [ref=e576]:
+                    - heading "See more" [level=3] [ref=e579]
+                    - generic [ref=e580]:
+                      - generic [ref=e582]:
+                        - img "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e584]
+                        - link "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e591] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-thanksgiving-day-dinner-lunch-san-diego
+                      - generic [ref=e593]:
+                        - img "The Best San Diego Fine Dining Restaurants" [ref=e595]
+                        - link "The Best San Diego Fine Dining Restaurants" [ref=e602] [cursor=pointer]:
+                          - /url: /maps/san-diego-restaurants-chefs-tasting-menu-dinners-omakase
+              - generic [ref=e604]:
+                - generic [ref=e606]:
+                  - heading "George's At The Cove" [level=2] [ref=e607]
+                  - button "Copy link" [ref=e609] [cursor=pointer]:
+                    - img "Link" [ref=e610]
+                - paragraph [ref=e612]:
+                  - strong [ref=e613]: "Open for:"
+                  - text: Lunch, Dinner
+                - paragraph [ref=e614]:
+                  - strong [ref=e615]: "Price range:"
+                  - text: $$$
+                - paragraph [ref=e616]: A landmark La Jolla restaurant, George’s at the Cove has been going strong for over 40 years now. The culinary team is led by chef Trey Foshee, executive chef Masa Kojima, and pastry chef Anna Adams.
+                - paragraph [ref=e617]: The restaurant’s three levels, each with different vibes, all have sweeping views of the Pacific shoreline. The rooftop Ocean Terrace features a full bar and a new snacks menu with fresh anchovies, sardines, mussels, and grilled cheese. Right below is the newly renovated Level 2 dining area and bar with a high-top counter facing the ocean. Hit up the spring and summer happy hour for half-price beer and wine, along with bar bites. The lowest level works well for large gatherings.
+                - paragraph [ref=e618]:
+                  - strong [ref=e619]: "Must-try dishes:"
+                  - text: For lunch, don’t skip the lobster roll and rockfish tacos. For dinner, try the seared rare yellowtail or prime flat iron steak.
+                - list [ref=e620]:
+                  - listitem [ref=e621]:
+                    - link "Location 1250 Prospect St, La Jolla, CA 92037, USAExternal Link" [ref=e622] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=George's%20At%20The%20Cove%2C%201250%20Prospect%20St%2C%20La%20Jolla%2C%20CA%2092037%2C%20USA
+                      - img "Location" [ref=e623]
+                      - generic [ref=e625]:
+                        - text: 1250 Prospect St, La Jolla, CA 92037, USA
+                        - img "External Link" [ref=e626]
+                  - listitem [ref=e628]:
+                    - link "Phone (858) 454-4244" [ref=e629] [cursor=pointer]:
+                      - /url: tel:8584544244
+                      - img "Phone" [ref=e630]
+                      - text: (858) 454-4244
+                  - listitem [ref=e632]:
+                    - link "Link Visit website" [ref=e633] [cursor=pointer]:
+                      - /url: https://www.georgesatthecove.com/
+                      - img "Link" [ref=e634]
+                      - text: Visit website
+                - generic [ref=e638]:
+                  - img "A coastal restaurant at sunset in La Jolla called George’s at the Cove." [ref=e641]
+                  - generic [ref=e642]: George’s at the Cove
+                - generic [ref=e643]:
+                  - heading "See more" [level=3] [ref=e646]
+                  - generic [ref=e647]:
+                    - generic [ref=e649]:
+                      - img "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e651]
+                      - link "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e658] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-bars-food-la-jolla
+                    - generic [ref=e660]:
+                      - img "The Best Restaurants Open for Christmas in San Diego" [ref=e662]
+                      - link "The Best Restaurants Open for Christmas in San Diego" [ref=e669] [cursor=pointer]:
+                        - /url: /maps/best-christmas-dinners-san-diego-restaurants
+              - generic [ref=e670]:
+                - generic [ref=e671]:
+                  - text: advertisement
+                  - generic [ref=e672]: AD
+                - generic [ref=e673]:
+                  - generic [ref=e675]:
+                    - heading "Nine-Ten Restaurant and Bar" [level=2] [ref=e676]
+                    - button "Copy link" [ref=e678] [cursor=pointer]:
+                      - img "Link" [ref=e679]
+                  - paragraph [ref=e681]:
+                    - strong [ref=e682]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e683]:
+                    - strong [ref=e684]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e685]:
+                    - text: From this elegant and contemporary restaurant, chef Jason Knibb and team execute dishes from an eclectic menu that spans the globe, using hyper-local ingredients. It’s no surprise the folks at Michelin have
+                    - link "recognized this La Jolla restaurant" [ref=e686] [cursor=pointer]:
+                      - /url: https://guide.michelin.com/us/en/california/la-jolla/restaurant/nine-ten
+                    - text: as a guide inclusion. While Nine-Ten offers lunch and weekend brunch as well as a great bar menu, dinner is its main event with highlights that include Knibb’s signature Jamaican jerk pork belly, as well as his takes on the Italian classic cacio e pepe and hamachi sashimi served with marinated baby shitake mushrooms to kick off the meal. For a truly remarkable meal, splurge on the “Mercy of the Chef” dinner, a six-course culinary adventure that offers dishes not on the regular menu.
+                  - paragraph [ref=e687]:
+                    - strong [ref=e688]: "Know before you go:"
+                    - text: When you want to truly impress guests with chef Knibb’s plates, ambiance, and a pleasant after-meal saunter around La Jolla Cove, Nine-Ten is where you want to book.
+                  - list [ref=e689]:
+                    - listitem [ref=e690]:
+                      - link "Booking Book a table on OpenTable" [ref=e692] [cursor=pointer]:
+                        - /url: http://www.opentable.com/r/nine-ten-san-diego-2?ref=9040
+                        - img "Booking" [ref=e693]
+                        - text: Book a table on OpenTable
+                        - img [ref=e695]
+                    - listitem [ref=e697]:
+                      - link "Location 910 Prospect St, La Jolla, CA 92037, USAExternal Link" [ref=e698] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Nine-Ten%20Restaurant%20and%20Bar%2C%20910%20Prospect%20St%2C%20La%20Jolla%2C%20CA%2092037%2C%20USA
+                        - img "Location" [ref=e699]
+                        - generic [ref=e701]:
+                          - text: 910 Prospect St, La Jolla, CA 92037, USA
+                          - img "External Link" [ref=e702]
+                    - listitem [ref=e704]:
+                      - link "Phone (858) 964-5400" [ref=e705] [cursor=pointer]:
+                        - /url: tel:8589645400
+                        - img "Phone" [ref=e706]
+                        - text: (858) 964-5400
+                    - listitem [ref=e708]:
+                      - link "Link Visit website" [ref=e709] [cursor=pointer]:
+                        - /url: https://www.nine-ten.com/
+                        - img "Link" [ref=e710]
+                        - text: Visit website
+                  - link "NINE-TEN" [ref=e719] [cursor=pointer]:
+                    - /url: http://www.nine-ten.com
+                  - generic [ref=e720]:
+                    - heading "See more" [level=3] [ref=e723]
+                    - generic [ref=e724]:
+                      - generic [ref=e726]:
+                        - img "The Best Burgers in San Diego, California" [ref=e728]
+                        - link "The Best Burgers in San Diego, California" [ref=e735] [cursor=pointer]:
+                          - /url: /maps/best-burgers-san-diego-california-restaurants
+                      - generic [ref=e737]:
+                        - img "Head Here for Last-Minute Valentine’s Day Reservations" [ref=e739]
+                        - link "Head Here for Last-Minute Valentine’s Day Reservations" [ref=e746] [cursor=pointer]:
+                          - /url: /maps/last-minute-valentines-day-restaurant-reservations-san-diego
+              - generic [ref=e748]:
+                - generic [ref=e750]:
+                  - heading "Yiko Yiko" [level=2] [ref=e751]
+                  - button "Copy link" [ref=e753] [cursor=pointer]:
+                    - img "Link" [ref=e754]
+                - paragraph [ref=e756]:
+                  - text: What started as a home baking venture has blossomed into a must-try charming bakery in Kearny Mesa, earning
+                  - link "Eater San Diego’s Best New Bakery award in 2023" [ref=e757] [cursor=pointer]:
+                    - /url: /23939610/eater-awards-winners-san-diego-2023
+                  - text: .
+                  - link "Yiko Yiko" [ref=e758] [cursor=pointer]:
+                    - /url: https://www.instagram.com/yikoyiko_sd/
+                  - text: (which roughly translates to “one bite, one bite” in Mandarin Chinese) has stepped up its game with a staff of six in the windowed kitchen to expand its dessert case offerings and fulfill customized cake orders on quicker turnaround times. The cafe, dressed in a sunny yellow hue, offers
+                  - link "not-too-sweet" [ref=e759] [cursor=pointer]:
+                    - /url: https://www.eater.com/23991259/not-too-sweet-asian-dessert-memes
+                  - text: mochi and cakes that are all made within 24 hours. Baker Yuan Yuan Zhang uses organic ingredients and substitutes jujube for sugar as a healthier alternative; the result is mochi that literally melts in your mouth. Stuffed inside the mochi are textured delights like taro, chocolate, Oreo, matcha, and mango. Other highlights are airy chiffon cakes layered with light cream and fruit, and party cakes. Look for a new membership program that allows regulars to earn free desserts.
+                - paragraph [ref=e760]:
+                  - strong [ref=e761]: "Must try dishes:"
+                  - text: Snowball mochi, mini mochi balls, and matcha grape mini cake.
+                - list [ref=e762]:
+                  - listitem [ref=e763]:
+                    - link "Location 8008 Clairemont Mesa Boulevard, San Diego, CA 92111External Link" [ref=e764] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Yiko%20Yiko%2C%208008%20Clairemont%20Mesa%20Boulevard%2C%20San%20Diego%2C%20CA%2092111
+                      - img "Location" [ref=e765]
+                      - generic [ref=e767]:
+                        - text: 8008 Clairemont Mesa Boulevard, San Diego, CA 92111
+                        - img "External Link" [ref=e768]
+                  - listitem [ref=e770]:
+                    - link "Phone (858) 384-2038" [ref=e771] [cursor=pointer]:
+                      - /url: tel:8583842038
+                      - img "Phone" [ref=e772]
+                      - text: (858) 384-2038
+                - generic [ref=e776]:
+                  - img "Yiko Yiko" [ref=e779]
+                  - generic [ref=e780]: Helen Hwang
+                - generic [ref=e781]:
+                  - heading "See more" [level=3] [ref=e784]
+                  - generic [ref=e785]:
+                    - generic [ref=e787]:
+                      - img "Where to Find San Diego’s Best Bakeries" [ref=e789]
+                      - link "Where to Find San Diego’s Best Bakeries" [ref=e796] [cursor=pointer]:
+                        - /url: /maps/best-san-diego-bakeries
+                    - generic [ref=e798]:
+                      - img "Where to Indulge on Delectable Desserts in San Diego" [ref=e800]
+                      - link "Where to Indulge on Delectable Desserts in San Diego" [ref=e807] [cursor=pointer]:
+                        - /url: /maps/essential-best-desserts-cakes-ice-cream-cookies-sweets-shops-cafes-san-diego
+              - generic [ref=e808]:
+                - generic [ref=e809]:
+                  - text: advertisement
+                  - generic [ref=e810]: AD
+                - generic [ref=e811]:
+                  - generic [ref=e813]:
+                    - heading "Shan Xi Magic Kitchen" [level=2] [ref=e814]
+                    - button "Copy link" [ref=e816] [cursor=pointer]:
+                      - img "Link" [ref=e817]
+                  - paragraph [ref=e819]:
+                    - strong [ref=e820]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e821]:
+                    - strong [ref=e822]: "Price Range:"
+                    - text: $
+                  - paragraph [ref=e823]: Peer through the oversized glass window and into the kitchen at Shan Xi Magic Kitchen, a Chinese restaurant on Convoy Street, to watch cooks deftly stretch dough into lengthy hand-pulled noodles, before dropping them into an awaiting pot of boiling water. The specialty of this family-owned restaurant is the cumin-lamb biang biang noodles, which are tossed with cumin-spiced lamb and pepper flakes. Also, try the beef brisket hand-ripped noodles, served over the same wide, chewy noodles that retain a pleasant, bouncy texture. For non-noodle options, try the stewed pork burger or the spicy cumin lamb burger. Add in an order of lamb skewers and dry-fried green beans to round out the meal.
+                  - paragraph [ref=e824]:
+                    - strong [ref=e825]: "Know before you go:"
+                    - text: If the long noodles feel unwieldy, ask for scissors to trim them to size.
+                  - list [ref=e826]:
+                    - listitem [ref=e827]:
+                      - link "Location 4344 Convoy St Ste G, San Diego, CA, 92111, USExternal Link" [ref=e828] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Shan%20Xi%20Magic%20Kitchen%2C%204344%20Convoy%20St%20Ste%20G%2C%20San%20Diego%2C%20CA%2C%2092111%2C%20US
+                        - img "Location" [ref=e829]
+                        - generic [ref=e831]:
+                          - text: 4344 Convoy St Ste G, San Diego, CA, 92111, US
+                          - img "External Link" [ref=e832]
+                    - listitem [ref=e834]:
+                      - link "Phone (858) 565-2688" [ref=e835] [cursor=pointer]:
+                        - /url: tel:8585652688
+                        - img "Phone" [ref=e836]
+                        - text: (858) 565-2688
+                    - listitem [ref=e838]:
+                      - link "Link Visit website" [ref=e839] [cursor=pointer]:
+                        - /url: https://www.shanximagickitchen.com/
+                        - img "Link" [ref=e840]
+                        - text: Visit website
+                  - generic [ref=e844]:
+                    - img "Shanxi Magic Kitchen.HelenI. Hwang" [ref=e847]
+                    - generic [ref=e848]: Helen Hwang
+                  - generic [ref=e849]:
+                    - heading "See more" [level=3] [ref=e852]
+                    - generic [ref=e853]:
+                      - generic [ref=e855]:
+                        - img "The Best Chinese Restaurants in San Diego" [ref=e857]
+                        - link "The Best Chinese Restaurants in San Diego" [ref=e864] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-chinese-food-dim-sum-hot-pot-san-diego
+                      - generic [ref=e866]:
+                        - img "The Best Restaurants on Convoy Street" [ref=e868]
+                        - link "The Best Restaurants on Convoy Street" [ref=e875] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-convoy-street-kearny-mesa
+              - generic [ref=e877]:
+                - generic [ref=e879]:
+                  - heading "Paradisaea" [level=2] [ref=e880]
+                  - button "Copy link" [ref=e882] [cursor=pointer]:
+                    - img "Link" [ref=e883]
+                - paragraph [ref=e885]:
+                  - strong [ref=e886]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e887]:
+                  - strong [ref=e888]: "Price Range:"
+                  - text: $$$
+                - paragraph [ref=e889]: Nestled in Bird Rock, Paradisaea is a breezy, floral, birds-of-paradise-themed restaurant in the iconic Piano Building. After starting as chef de cuisine in 2024, Denmark-born chef Anders Jensen now leads the kitchen, serving a menu influenced by French technique and Baja and Nordic influences. Start with the colorful Jalapeno Caesar salad with lemon anchovy and the Thomson Heritage beef tartare served with rye toast points before moving on to fish dishes or steak frites with duck fat fries. Make sure to try the Copenhagen sourdough bread, a nod to Jensen’s heritage. The bar menu features playful items, such as newspaper-wrapped fish and chips and goat cheese croquettes. Don’t skip the cocktail menu, which offers a robust non-alcoholic selection.
+                - paragraph [ref=e890]:
+                  - strong [ref=e891]: "Know before you go:"
+                  - text: Try to snag one of the two chef’s tables to watch the open kitchen in action. Diners at the tables have the opportunity to sample dishes from both the bar menu and the main menu.
+                - list [ref=e892]:
+                  - listitem [ref=e893]:
+                    - link "Booking Book a table on OpenTable" [ref=e895] [cursor=pointer]:
+                      - /url: http://www.opentable.com/r/paradisaea-la-jolla?ref=9040
+                      - img "Booking" [ref=e896]
+                      - text: Book a table on OpenTable
+                      - img [ref=e898]
+                  - listitem [ref=e900]:
+                    - link "Location 5680 La Jolla Blvd, La Jolla, CA, 92037, USExternal Link" [ref=e901] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Paradisaea%2C%205680%20La%20Jolla%20Blvd%2C%20La%20Jolla%2C%20CA%2C%2092037%2C%20US
+                      - img "Location" [ref=e902]
+                      - generic [ref=e904]:
+                        - text: 5680 La Jolla Blvd, La Jolla, CA, 92037, US
+                        - img "External Link" [ref=e905]
+                  - listitem [ref=e907]:
+                    - link "Phone (858) 255-8011" [ref=e908] [cursor=pointer]:
+                      - /url: tel:8582558011
+                      - img "Phone" [ref=e909]
+                      - text: (858) 255-8011
+                  - listitem [ref=e911]:
+                    - link "Link Visit website" [ref=e912] [cursor=pointer]:
+                      - /url: https://www.paradisaea.com/
+                      - img "Link" [ref=e913]
+                      - text: Visit website
+                - generic [ref=e917]:
+                  - img "Paradisaea.SteakTartare.PC.HelenIHwang" [ref=e920]
+                  - generic [ref=e921]: Helen Hwang
+                - generic [ref=e922]:
+                  - heading "See more" [level=3] [ref=e925]
+                  - generic [ref=e926]:
+                    - generic [ref=e928]:
+                      - img "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e930]
+                      - link "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e937] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-bars-food-la-jolla
+                    - generic [ref=e939]:
+                      - img "The Best New Cocktail Bars in San Diego, August 2025" [ref=e941]
+                      - link "The Best New Cocktail Bars in San Diego, August 2025" [ref=e948] [cursor=pointer]:
+                        - /url: /maps/best-new-cocktail-bars-san-diego
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - text: advertisement
+                  - generic [ref=e951]: AD
+                - generic [ref=e952]:
+                  - generic [ref=e954]:
+                    - heading "Yakitori Tsuta" [level=2] [ref=e955]
+                    - button "Copy link" [ref=e957] [cursor=pointer]:
+                      - img "Link" [ref=e958]
+                  - paragraph [ref=e960]:
+                    - strong [ref=e961]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e962]:
+                    - strong [ref=e963]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e964]: One of the most exciting openings in 2024 is San Diego’s first yakitori omakase restaurant, headed by the venerable chef Tatsuro Tsuchiya, who has spent time at Sushi Tadokoro, Yakitori Yakyudori, and Yakitori Hino. The elegant space seats eight people at the counter and four guests at a single table. Needless to say, reservations are hard to come by, so book early. Seats are released 30 days ahead. Over two hours, the chef will parse out 18 to 20 dishes during the omakase meal. Available at both the 5:30 p.m. or 8:15 p.m. seating, the omakase, priced at $115, is worth the adventure. Chino Farms’ seasonal produce is used for the starters and is found in the chawanmushi. Forget beef, pork, or fish — only chicken and vegetable skewers are served, followed by refreshing, tiny desserts.
+                  - paragraph [ref=e965]:
+                    - strong [ref=e966]: "Must-try dishes:"
+                    - text: If you do the omakase, you’ll get to try all the dishes. If a la carte is more your speed (only available at the 8:15 p.m. seating), be sure to order the chawanmushi, chicken broth, chicken liver, and chicken skin.
+                  - list [ref=e967]:
+                    - listitem [ref=e968]:
+                      - link "Location 3860 Convoy Street, San Diego, California 92111External Link" [ref=e969] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Yakitori%20Tsuta%2C%203860%20Convoy%20Street%2C%20San%20Diego%2C%20California%2092111
+                        - img "Location" [ref=e970]
+                        - generic [ref=e972]:
+                          - text: 3860 Convoy Street, San Diego, California 92111
+                          - img "External Link" [ref=e973]
+                    - listitem [ref=e975]:
+                      - link "Link Visit website" [ref=e976] [cursor=pointer]:
+                        - /url: https://www.exploretock.com/yakitori-tsuta
+                        - img "Link" [ref=e977]
+                        - text: Visit website
+                  - generic [ref=e981]:
+                    - img "A chicken wing skewer from Yakitori Tsuta." [ref=e984]
+                    - generic [ref=e985]: Kimberly Motos
+                  - generic [ref=e986]:
+                    - heading "See more" [level=3] [ref=e989]
+                    - generic [ref=e992]:
+                      - img "The Best Restaurants on Convoy Street" [ref=e994]
+                      - link "The Best Restaurants on Convoy Street" [ref=e1001] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-convoy-street-kearny-mesa
+              - generic [ref=e1003]:
+                - generic [ref=e1005]:
+                  - heading "Wayfarer Bread & Pastry" [level=2] [ref=e1006]
+                  - button "Copy link" [ref=e1008] [cursor=pointer]:
+                    - img "Link" [ref=e1009]
+                - paragraph [ref=e1011]:
+                  - strong [ref=e1012]: "Open for:"
+                  - text: Breakfast, Lunch, Weekend Dinners
+                - paragraph [ref=e1013]:
+                  - strong [ref=e1014]: "Price range:"
+                  - text: $
+                - paragraph [ref=e1015]: When it set up shop in the quiet coastal community of Bird Rock in 2018, Wayfarer brought the beach its first modern artisan bakery. Established by owner and master baker Crystal White, the takeout-only spot has become a destination for its flaky pastries sweetened with local produce and sturdy-crusted, naturally leavened loaves made from heirloom grains. Popular favorites include the kouign amann, baguettes, and croissants that come in a variety of flavors, including plain, almond, chocolate, or ham and cheese. At 11 a.m., Wayfarer offers meat or veg grab-and-go sandwiches on their own bread with ingredients from nearby farms. On weekend nights, pizzas are available by pre-order only.
+                - paragraph [ref=e1016]:
+                  - strong [ref=e1017]: "Know before you go: I"
+                  - text: f you want to skip the long weekend lines, pre-ordering is a good option so you can dive right into the pastries.
+                - list [ref=e1018]:
+                  - listitem [ref=e1019]:
+                    - link "Location 5525 La Jolla Blvd, La Jolla, CA 92037, USAExternal Link" [ref=e1020] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Wayfarer%20Bread%20%26%20Pastry%2C%205525%20La%20Jolla%20Blvd%2C%20La%20Jolla%2C%20CA%2092037%2C%20USA
+                      - img "Location" [ref=e1021]
+                      - generic [ref=e1023]:
+                        - text: 5525 La Jolla Blvd, La Jolla, CA 92037, USA
+                        - img "External Link" [ref=e1024]
+                  - listitem [ref=e1026]:
+                    - link "Phone (858) 454-1924" [ref=e1027] [cursor=pointer]:
+                      - /url: tel:8584541924
+                      - img "Phone" [ref=e1028]
+                      - text: (858) 454-1924
+                  - listitem [ref=e1030]:
+                    - link "Link Visit website" [ref=e1031] [cursor=pointer]:
+                      - /url: http://www.wayfarerbread.com/
+                      - img "Link" [ref=e1032]
+                      - text: Visit website
+                - generic [ref=e1036]:
+                  - img "Various scones and croissants in a brown box." [ref=e1039]
+                  - generic [ref=e1040]: Matthew Kang
+                - generic [ref=e1041]:
+                  - heading "See more" [level=3] [ref=e1044]
+                  - generic [ref=e1045]:
+                    - generic [ref=e1047]:
+                      - img "The Best Pizzerias in and Around San Diego" [ref=e1049]
+                      - link "The Best Pizzerias in and Around San Diego" [ref=e1056] [cursor=pointer]:
+                        - /url: /maps/best-pizza-restaurant-pizzeria-san-diego
+                    - generic [ref=e1058]:
+                      - img "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e1060]
+                      - link "The Best Restaurants in the Jewel Box Coastal Town of La Jolla" [ref=e1067] [cursor=pointer]:
+                        - /url: /maps/best-restaurants-bars-food-la-jolla
+              - generic [ref=e1068]:
+                - generic [ref=e1069]:
+                  - text: advertisement
+                  - generic [ref=e1070]: AD
+                - generic [ref=e1071]:
+                  - generic [ref=e1073]:
+                    - heading "The Fishery" [level=2] [ref=e1074]
+                    - button "Copy link" [ref=e1076] [cursor=pointer]:
+                      - img "Link" [ref=e1077]
+                  - paragraph [ref=e1079]:
+                    - strong [ref=e1080]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e1081]:
+                    - strong [ref=e1082]: "Price range:"
+                    - text: $$
+                  - paragraph [ref=e1083]: For a city of its size, San Diego has too few restaurants dedicated to showcasing local seafood and the bounty of the West Coast. This family-run Pacific Beach institution is currently helmed by chef Mike Reidy (Callie, Ironside, Melisse), who joined last year. The casual restaurant is also a seafood distributor and retail market, ensuring that the freshest catch lands on the menu. All the fish and shrimp are wild caught, and the names of the local purveyors (fisherfolks and farmers) are acknowledged on the menu. The local seafood, oysters, and ocean-themed cocktails, like the Selkie Song, are made with Bimini overproof gin, Taiwanese sunset oolong, and seaweed.
+                  - paragraph [ref=e1084]:
+                    - strong [ref=e1085]: "Must-try dishes:"
+                    - text: Indulge in the shareable seafood tower, which has a little of everything, and pair it with a Tiny Martini made with Layback vodka and oyster shell vermouth.
+                  - list [ref=e1086]:
+                    - listitem [ref=e1087]:
+                      - link "Booking Book a table on OpenTable" [ref=e1089] [cursor=pointer]:
+                        - /url: http://www.opentable.com/the-fishery?ref=9040
+                        - img "Booking" [ref=e1090]
+                        - text: Book a table on OpenTable
+                        - img [ref=e1092]
+                    - listitem [ref=e1094]:
+                      - link "Location 5040 Cass St, San Diego, CA 92109, USAExternal Link" [ref=e1095] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=The%20Fishery%2C%205040%20Cass%20St%2C%20San%20Diego%2C%20CA%2092109%2C%20USA
+                        - img "Location" [ref=e1096]
+                        - generic [ref=e1098]:
+                          - text: 5040 Cass St, San Diego, CA 92109, USA
+                          - img "External Link" [ref=e1099]
+                    - listitem [ref=e1101]:
+                      - link "Phone (858) 272-9985" [ref=e1102] [cursor=pointer]:
+                        - /url: tel:8582729985
+                        - img "Phone" [ref=e1103]
+                        - text: (858) 272-9985
+                    - listitem [ref=e1105]:
+                      - link "Link Visit website" [ref=e1106] [cursor=pointer]:
+                        - /url: http://www.thefishery.com/
+                        - img "Link" [ref=e1107]
+                        - text: Visit website
+                  - generic [ref=e1111]:
+                    - img "The front entrance of The Fishery" [ref=e1114]
+                    - generic [ref=e1115]: The Fishery [Official photo]
+                  - generic [ref=e1116]:
+                    - heading "See more" [level=3] [ref=e1119]
+                    - generic [ref=e1120]:
+                      - generic [ref=e1122]:
+                        - img "Where to Find the Best Seafood in San Diego" [ref=e1124]
+                        - link "Where to Find the Best Seafood in San Diego" [ref=e1131] [cursor=pointer]:
+                          - /url: /maps/best-seafood-restaurants-san-diego
+                      - generic [ref=e1133]:
+                        - img "Where to Get Your Fish and Chips Fix in San Diego" [ref=e1135]
+                        - link "Where to Get Your Fish and Chips Fix in San Diego" [ref=e1142] [cursor=pointer]:
+                          - /url: /maps/fish-chips-restaurants-bars-san-diego
+                - generic [ref=e1143]:
+                  - heading "More Maps" [level=3] [ref=e1146]
+                  - list [ref=e1147]:
+                    - listitem [ref=e1148]:
+                      - link "The Best New Restaurants in and Around San Diego, April 2026" [ref=e1149] [cursor=pointer]:
+                        - /url: /maps/best-new-san-diego-restaurants-heatmap
+                    - listitem [ref=e1150]:
+                      - link "The Best Pizzerias in and Around San Diego" [ref=e1151] [cursor=pointer]:
+                        - /url: /maps/best-pizza-restaurant-pizzeria-san-diego
+                    - listitem [ref=e1152]:
+                      - link "The Best Brunch Restaurants in San Diego" [ref=e1153] [cursor=pointer]:
+                        - /url: /maps/best-brunch-san-diego-restaurants
+              - generic [ref=e1155]:
+                - generic [ref=e1157]:
+                  - heading "Sushi Ichifuji" [level=2] [ref=e1158]
+                  - button "Copy link" [ref=e1160] [cursor=pointer]:
+                    - img "Link" [ref=e1161]
+                - paragraph [ref=e1163]:
+                  - strong [ref=e1164]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e1165]:
+                  - strong [ref=e1166]: "Price range:"
+                  - text: $$$$
+                - paragraph [ref=e1167]: There is no shortage of sushi bars in San Diego, from the everyday to the sublime, but Sushi Ichifuji has risen to the top of the pack while remaining an accessible and attainable reservation. The 10-seat sushi counter, manned by two skilled itamae with decades of experience between them at revered local Japanese restaurants like Soichi Sushi, Sushi Tadokoro, and Taka Sushi, is a showcase for a nigiri-focused omakase menu and a more elaborate eight-course menu that changes with the seasons but always includes impeccable fish, creative appetizers, and homemade desserts like hojicha panna cotta, and yuzu cream sorbet.
+                - paragraph [ref=e1168]:
+                  - strong [ref=e1169]: "Know before you go:"
+                  - text: The omakase menu changes seasonally, so going every few months isn’t a crazy idea. Don’t skip on the sake, which comes from small-batch distilleries in Japan.
+                - list [ref=e1170]:
+                  - listitem [ref=e1171]:
+                    - link "Booking Book a table" [ref=e1173] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/168012?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e1174]
+                      - text: Book a table
+                      - img [ref=e1176]
+                  - listitem [ref=e1178]:
+                    - link "Location 7530 Mesa College Drive, Suite B, San Diego, CA 92111External Link" [ref=e1179] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Sushi%20Ichifuji%2C%207530%20Mesa%20College%20Drive%2C%20Suite%20B%2C%20San%20Diego%2C%20CA%2092111
+                      - img "Location" [ref=e1180]
+                      - generic [ref=e1182]:
+                        - text: 7530 Mesa College Drive, Suite B, San Diego, CA 92111
+                        - img "External Link" [ref=e1183]
+                  - listitem [ref=e1185]:
+                    - link "Phone +18585651179" [ref=e1186] [cursor=pointer]:
+                      - /url: tel:18585651179
+                      - img "Phone" [ref=e1187]
+                      - text: "+18585651179"
+                  - listitem [ref=e1189]:
+                    - link "Link Visit website" [ref=e1190] [cursor=pointer]:
+                      - /url: https://www.ichifujisushi.com/
+                      - img "Link" [ref=e1191]
+                      - text: Visit website
+                - generic [ref=e1195]:
+                  - img "A plate of sashimi." [ref=e1198]
+                  - generic [ref=e1199]: Candice Woo
+              - generic [ref=e1200]:
+                - generic [ref=e1201]:
+                  - text: advertisement
+                  - generic [ref=e1202]: AD
+                - generic [ref=e1203]:
+                  - generic [ref=e1205]:
+                    - heading "Bosforo" [level=2] [ref=e1206]
+                    - button "Copy link" [ref=e1208] [cursor=pointer]:
+                      - img "Link" [ref=e1209]
+                  - paragraph [ref=e1211]:
+                    - link "Bosforo" [ref=e1212] [cursor=pointer]:
+                      - /url: https://bosforosd.com/
+                    - text: has made a definitive splash in San Diego, slinging some of the best Turkish dishes in Southern California. Chef Seckin Sage Anlasbay runs the Turkish-Mediterranean kitchen in Normal Heights after honing his skills in restaurants in San Francisco and San Diego; he still operates his mobile wood-fired pizza catering company,
+                    - link "Pizza Bosforo" [ref=e1213] [cursor=pointer]:
+                      - /url: https://pizzabosforo.com/
+                    - text: ". After 15 years, Anlasbay has finally been able to offer homestyle dishes that he grew up with: mezze like creamy smoked cacik with yogurt, garlic, and mint, and Bosforo wood-fired hummus made with kayseri pastrami and chile burned butter; Bosforo kebap (only 50 of the Adana-style marinated hand-minced beef skewers are made each day); and lahmacun—a thin-crust Turkish-style pizza topped with minced beef or mushrooms. Anlasbay has recently added new dishes, including olive oil fasülye (braised green beans with tomato and olive oil), and kalamar dolma (whole calamari with spiced rice). In the coming months, look out for an outdoor patio with a wood-fired grill for more kebap varieties you would find in the Euroasian country."
+                  - paragraph [ref=e1214]:
+                    - strong [ref=e1215]: "Know before you go:"
+                    - text: Don’t skip the salgam (fermented turnip juice) to accompany the mezes, and make sure to order the Bosforo kebaps before they run out (only 50 get made each day).
+                  - list [ref=e1216]:
+                    - listitem [ref=e1217]:
+                      - link "Location 3201 Adams Avenue, San Diego, California 92116External Link" [ref=e1218] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Bosforo%2C%203201%20Adams%20Avenue%2C%20San%20Diego%2C%20California%2092116
+                        - img "Location" [ref=e1219]
+                        - generic [ref=e1221]:
+                          - text: 3201 Adams Avenue, San Diego, California 92116
+                          - img "External Link" [ref=e1222]
+                    - listitem [ref=e1224]:
+                      - link "Link Visit website" [ref=e1225] [cursor=pointer]:
+                        - /url: https://bosforosd.com/
+                        - img "Link" [ref=e1226]
+                        - text: Visit website
+                  - generic [ref=e1230]:
+                    - img "Marinated meat on a lavash for kebap at Bosforo in San Diego" [ref=e1233]
+                    - generic [ref=e1234]: Kimberly Motos
+              - generic [ref=e1236]:
+                - generic [ref=e1238]:
+                  - heading "Soichi Sushi" [level=2] [ref=e1239]
+                  - button "Copy link" [ref=e1241] [cursor=pointer]:
+                    - img "Link" [ref=e1242]
+                - paragraph [ref=e1244]:
+                  - strong [ref=e1245]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e1246]:
+                  - strong [ref=e1247]: "Price range:"
+                  - text: $$$$
+                - paragraph [ref=e1248]: Nestled on a quiet street in Normal Heights, this gracious, family-run Adams Avenue sushi bar boasts a Michelin star. The menu includes a range of omakase options, ranging from the petite omakase for $60 to the premier eight-course omakase experience for $169. Master sushi chef Sochi Kadoya showcases delicately prepared appetizers, nigiri, and sashimi offered alongside a well-curated sake selection. Also on the menu are a la carte items like special futomaki rolls, tempura, and ankimo, monk fish liver with a dash of the chef’s house-made ponzu sauce.
+                - paragraph [ref=e1249]:
+                  - strong [ref=e1250]: "Know before you go:"
+                  - text: Reservations are tough to get, so if your Soichi Sushi craving must be satiated right away, just know that take-out orders are limited to two to three per day.
+                - list [ref=e1251]:
+                  - listitem [ref=e1252]:
+                    - link "Booking Book a table" [ref=e1254] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/163720?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e1255]
+                      - text: Book a table
+                      - img [ref=e1257]
+                  - listitem [ref=e1259]:
+                    - link "Location 2121 Adams Ave, San Diego, CA 92116, USAExternal Link" [ref=e1260] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Soichi%20Sushi%2C%202121%20Adams%20Ave%2C%20San%20Diego%2C%20CA%2092116%2C%20USA
+                      - img "Location" [ref=e1261]
+                      - generic [ref=e1263]:
+                        - text: 2121 Adams Ave, San Diego, CA 92116, USA
+                        - img "External Link" [ref=e1264]
+                  - listitem [ref=e1266]:
+                    - link "Phone (619) 677-2220" [ref=e1267] [cursor=pointer]:
+                      - /url: tel:6196772220
+                      - img "Phone" [ref=e1268]
+                      - text: (619) 677-2220
+                  - listitem [ref=e1270]:
+                    - link "Link Visit website" [ref=e1271] [cursor=pointer]:
+                      - /url: http://www.soichisushi.com/
+                      - img "Link" [ref=e1272]
+                      - text: Visit website
+                - generic [ref=e1276]:
+                  - img "Platter of nigiri from Soichi Sushi" [ref=e1279]
+                  - generic [ref=e1281]:
+                    - text: Soichi Sushi/
+                    - link "Facebook" [ref=e1282] [cursor=pointer]:
+                      - /url: https://www.facebook.com/SoichiSushi/photos/a.385069948975871/664081124408084/?type=3&theater
+                - generic [ref=e1283]:
+                  - heading "See more" [level=3] [ref=e1286]
+                  - generic [ref=e1287]:
+                    - generic [ref=e1289]:
+                      - img "The Best San Diego Fine Dining Restaurants" [ref=e1291]
+                      - link "The Best San Diego Fine Dining Restaurants" [ref=e1298] [cursor=pointer]:
+                        - /url: /maps/san-diego-restaurants-chefs-tasting-menu-dinners-omakase
+                    - generic [ref=e1300]:
+                      - img "The Best Sushi Restaurants in San Diego" [ref=e1302]
+                      - link "The Best Sushi Restaurants in San Diego" [ref=e1309] [cursor=pointer]:
+                        - /url: /maps/best-sushi-restaurants-san-diego
+              - generic [ref=e1310]:
+                - generic [ref=e1311]:
+                  - text: advertisement
+                  - generic [ref=e1312]: AD
+                - generic [ref=e1313]:
+                  - generic [ref=e1315]:
+                    - heading "Wormwood" [level=2] [ref=e1316]
+                    - button "Copy link" [ref=e1318] [cursor=pointer]:
+                      - img "Link" [ref=e1319]
+                  - paragraph [ref=e1321]:
+                    - strong [ref=e1322]: "Open for:"
+                    - text: Weekend brunch, dinner
+                  - paragraph [ref=e1323]:
+                    - strong [ref=e1324]: "Price range:"
+                    - text: $$-$$$
+                  - paragraph [ref=e1325]: "When Wormwood landed in North Park in 2021, the French-Baja restaurant brought San Diego its first absinthe bar. It’s been a darling spot for intimate gatherings ever since that transports guests to a bohemian bistro in Paris. The kitchen is led by chef Omar Armas, who spent 10 years in Michelin-starred kitchens (Pujol in Mexico City, Momofuku Ssam Bar in New York City, Quique Dacosta in Dénia, Spain) before returning to San Diego, where he was born. The moody ambience lends itself as a fitting home for the “green fairy,” the mythical muse supposedly induced by absinthe. Be sure to partake in one of the broadest absinthe menus in San Diego, ranging from rare bottles to absinthe flights and absinthe cocktails. (Try the Absinthe Sauvage 1804 based on an old French recipe.) A fountain of ice water with a spout accompanies the absinthe, slowly dripping the liquid over a sugar cube into the liquor. The food also makes an impression: Don’t skip the punchy oysters in a citrus-y mezcal mignonette, corn and mascarpone agnolotti made in-house, or the 8-ounce chicken roulade with a crispy layer."
+                  - paragraph [ref=e1326]:
+                    - strong [ref=e1327]: "Insider tip:"
+                    - text: Book a table in the Secret Garden, an outdoor dining terrace surrounded by succulents and shrubbery tucked behind the main restaurant.
+                  - list [ref=e1328]:
+                    - listitem [ref=e1329]:
+                      - link "Booking Book a table" [ref=e1331] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/128018?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1332]
+                        - text: Book a table
+                        - img [ref=e1334]
+                    - listitem [ref=e1336]:
+                      - link "Location 4677 30th St, San Diego, CA, 92116, USExternal Link" [ref=e1337] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Wormwood%2C%204677%2030th%20St%2C%20San%20Diego%2C%20CA%2C%2092116%2C%20US
+                        - img "Location" [ref=e1338]
+                        - generic [ref=e1340]:
+                          - text: 4677 30th St, San Diego, CA, 92116, US
+                          - img "External Link" [ref=e1341]
+                    - listitem [ref=e1343]:
+                      - link "Phone +16199156706" [ref=e1344] [cursor=pointer]:
+                        - /url: tel:16199156706
+                        - img "Phone" [ref=e1345]
+                        - text: "+16199156706"
+                    - listitem [ref=e1347]:
+                      - link "Link Visit website" [ref=e1348] [cursor=pointer]:
+                        - /url: https://wormwoodsd.com
+                        - img "Link" [ref=e1349]
+                        - text: Visit website
+                  - generic [ref=e1353]:
+                    - img "Wormwood 2023" [ref=e1356]
+                    - generic [ref=e1357]: Wormwood
+              - generic [ref=e1359]:
+                - generic [ref=e1361]:
+                  - heading "Fort Oak" [level=2] [ref=e1362]
+                  - button "Copy link" [ref=e1364] [cursor=pointer]:
+                    - img "Link" [ref=e1365]
+                - paragraph [ref=e1367]:
+                  - strong [ref=e1368]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e1369]:
+                  - strong [ref=e1370]: "Price range:"
+                  - text: $$$
+                - paragraph [ref=e1371]: This sophomore entry from chef Brad Wise behind Trust Restaurant Group is a well-loved staple in Mission Hills. Housed in a former 1920s Ford dealership, there’s an oval-shaped cocktail bar that fits nicely in the showroom that once sold cars. With an upscale dining room, outdoor dining space, and chef’s counter perch, the restaurant offers a range of hearth-driven meals. Start dinner here with a selection of dishes from the raw bar like scallop aguachile and ahi tartare before digging into mains like pork chop with black garlic sauce and New York strip steak.
+                - paragraph [ref=e1372]:
+                  - strong [ref=e1373]: "Must-try dishes:"
+                  - text: Oysters, scallop aguachile, Cedar River Prime New York Strip with asparagus and chanterelle mushrooms.
+                - list [ref=e1374]:
+                  - listitem [ref=e1375]:
+                    - link "Location 1011 Fort Stockton Dr, San Diego, CA 92103, USAExternal Link" [ref=e1376] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Fort%20Oak%2C%201011%20Fort%20Stockton%20Dr%2C%20San%20Diego%2C%20CA%2092103%2C%20USA
+                      - img "Location" [ref=e1377]
+                      - generic [ref=e1379]:
+                        - text: 1011 Fort Stockton Dr, San Diego, CA 92103, USA
+                        - img "External Link" [ref=e1380]
+                  - listitem [ref=e1382]:
+                    - link "Phone (619) 722-3398" [ref=e1383] [cursor=pointer]:
+                      - /url: tel:6197223398
+                      - img "Phone" [ref=e1384]
+                      - text: (619) 722-3398
+                  - listitem [ref=e1386]:
+                    - link "Link Visit website" [ref=e1387] [cursor=pointer]:
+                      - /url: https://fortoaksd.com/
+                      - img "Link" [ref=e1388]
+                      - text: Visit website
+                - generic [ref=e1392]:
+                  - img "A modern dining room with glass walls." [ref=e1395]
+                  - generic [ref=e1396]: James Tran
+                - generic [ref=e1397]:
+                  - heading "See more" [level=3] [ref=e1400]
+                  - generic [ref=e1401]:
+                    - generic [ref=e1403]:
+                      - img "The Best Holiday Cocktail Pop-Ups to Check Out in San Diego" [ref=e1405]
+                      - link "The Best Holiday Cocktail Pop-Ups to Check Out in San Diego" [ref=e1412] [cursor=pointer]:
+                        - /url: /maps/holiday-pop-ups-guide-christmas-themed-bars-cocktails-restaurants-food-san-diego
+                    - generic [ref=e1414]:
+                      - img "The Best Outdoor Dining Restaurants in San Diego" [ref=e1416]
+                      - link "The Best Outdoor Dining Restaurants in San Diego" [ref=e1423] [cursor=pointer]:
+                        - /url: /maps/outdoor-dining-restaurant-patios-eateries-san-diego
+              - generic [ref=e1424]:
+                - generic [ref=e1425]:
+                  - text: advertisement
+                  - generic [ref=e1426]: AD
+                - generic [ref=e1427]:
+                  - generic [ref=e1429]:
+                    - heading "Sushi Tadokoro" [level=2] [ref=e1430]
+                    - button "Copy link" [ref=e1432] [cursor=pointer]:
+                      - img "Link" [ref=e1433]
+                  - paragraph [ref=e1435]:
+                    - strong [ref=e1436]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e1437]:
+                    - strong [ref=e1438]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e1439]: Well-crafted nigiri sushi is one of the attractions at this Michelin-recognized restaurant, which tops many sushi aficionados’ lists for its adherence to traditional Japanese style and technique. Classic edomae sushi is the ethos here, meaning the raw fish is served simply with rice seasoned with vinegar. Tucked away in Old Town, the setting is sparse and intimate; all of the fireworks are reserved for what’s on the plate. Menu options include omakase at the sushi bar or the table, as well as a la carte sushi. Be sure to try the sea urchin sushi, a specialty here. Chef Tadokoro selects the seasonal sea urchin from Hokkaido and California for the best flavors.
+                  - paragraph [ref=e1440]:
+                    - strong [ref=e1441]: "Know before you go:"
+                    - text: Parking is tight in the modest strip mall where Sushi Tadokoro sits, but nearby street parking is usually available.
+                  - list [ref=e1442]:
+                    - listitem [ref=e1443]:
+                      - link "Booking Book a table" [ref=e1445] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/164499?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1446]
+                        - text: Book a table
+                        - img [ref=e1448]
+                    - listitem [ref=e1450]:
+                      - link "Location 2244 San Diego Ave, San Diego, CA 92110, USAExternal Link" [ref=e1451] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Sushi%20Tadokoro%2C%202244%20San%20Diego%20Ave%2C%20San%20Diego%2C%20CA%2092110%2C%20USA
+                        - img "Location" [ref=e1452]
+                        - generic [ref=e1454]:
+                          - text: 2244 San Diego Ave, San Diego, CA 92110, USA
+                          - img "External Link" [ref=e1455]
+                    - listitem [ref=e1457]:
+                      - link "Phone (619) 297-0298" [ref=e1458] [cursor=pointer]:
+                        - /url: tel:6192970298
+                        - img "Phone" [ref=e1459]
+                        - text: (619) 297-0298
+                    - listitem [ref=e1461]:
+                      - link "Link Visit website" [ref=e1462] [cursor=pointer]:
+                        - /url: http://sushitadokoro.com/
+                        - img "Link" [ref=e1463]
+                        - text: Visit website
+                  - generic [ref=e1467]:
+                    - img "Front entrance of Sushi Tadokoro" [ref=e1470]
+                    - generic [ref=e1471]: Sushi Tadokoro [Official photo]
+                  - generic [ref=e1472]:
+                    - heading "See more" [level=3] [ref=e1475]
+                    - generic [ref=e1476]:
+                      - generic [ref=e1478]:
+                        - img "The Best Sushi Restaurants in San Diego" [ref=e1480]
+                        - link "The Best Sushi Restaurants in San Diego" [ref=e1487] [cursor=pointer]:
+                          - /url: /maps/best-sushi-restaurants-san-diego
+                      - generic [ref=e1489]:
+                        - img "Where to Eat Japanese Food in San Diego" [ref=e1491]
+                        - link "Where to Eat Japanese Food in San Diego" [ref=e1498] [cursor=pointer]:
+                          - /url: /maps/san-diego-best-japanese-restaurants
+              - generic [ref=e1500]:
+                - generic [ref=e1502]:
+                  - heading "Deckman’s North at 3131" [level=2] [ref=e1503]
+                  - button "Copy link" [ref=e1505] [cursor=pointer]:
+                    - img "Link" [ref=e1506]
+                - paragraph [ref=e1508]:
+                  - strong [ref=e1509]: "Open for:"
+                  - text: Lunch, dinner
+                - paragraph [ref=e1510]:
+                  - strong [ref=e1511]: "Price range:"
+                  - text: $$-$$$
+                - paragraph [ref=e1512]:
+                  - text: Opened in 2024, Deckman’s North (Park) at 3131 is the first U.S. restaurant for chef Drew Deckman, who previously opened three restaurants (Deckman’s en el Mogo, Conchas de Piedra, Enso Omakase) in
+                  - link "Valle de Guadalupe, Mexico" [ref=e1513] [cursor=pointer]:
+                    - /url: /maps/best-valle-de-guadalupe-restaurants-mexico
+                  - text: . Over the last 15 years, Deckman has showcased farm-to-table dishes with ingredients from his own Mexican ranch and seafood purveyors he works closely with. (Deckman originally moved to Baja California to be a fisherman.) His restaurants have been recognized in Mexico’s first Michelin guide, and now the chef has brought his style of cooking stateside with, as he says, an “American head, Mexican heart, and French hands.” In North Park, the seafood-learning menu serves briny Baja oysters and thinly sliced fish crudo. For more filling dishes, try the dry-aged ribeye with an optional truffle add-on or the crowd-pleasing cheeseburger fried in tallow; all made with regenerative beef. The dining counter in front of the open kitchen offers experiences like the five-course, live-fire tasting menu and the chef’s counter seven-course journey. Head to the rooftop for a city view where you can order from the full menu or go for happy hour specials on Baja oysters and cocktails that run from 5 p.m. to 6:30 p.m.
+                - paragraph [ref=e1514]:
+                  - strong [ref=e1515]: "Must-try dishes:"
+                  - text: Baja oysters, fish crudo, daily seafood catch, and dry-aged rib-eye
+                - list [ref=e1516]:
+                  - listitem [ref=e1517]:
+                    - link "Location 3131 University Avenue, San Diego, California 92104, United StatesExternal Link" [ref=e1518] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Deckman%E2%80%99s%20North%20at%203131%2C%203131%20University%20Avenue%2C%20San%20Diego%2C%20California%2092104%2C%20United%20States
+                      - img "Location" [ref=e1519]
+                      - generic [ref=e1521]:
+                        - text: 3131 University Avenue, San Diego, California 92104, United States
+                        - img "External Link" [ref=e1522]
+                - generic [ref=e1526]:
+                  - img "Deckmans.Photo Credit Jim Sullivan" [ref=e1529]
+                  - generic [ref=e1530]: Jim Sullivan
+              - generic [ref=e1531]:
+                - generic [ref=e1532]:
+                  - text: advertisement
+                  - generic [ref=e1533]: AD
+                - generic [ref=e1534]:
+                  - generic [ref=e1536]:
+                    - heading "Tribute Pizza" [level=2] [ref=e1537]
+                    - button "Copy link" [ref=e1539] [cursor=pointer]:
+                      - img "Link" [ref=e1540]
+                  - paragraph [ref=e1542]:
+                    - strong [ref=e1543]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e1544]:
+                    - strong [ref=e1545]: "Price range:"
+                    - text: $$
+                  - paragraph [ref=e1546]: Though it was initially built to honor some of the world’s great pizzerias, this North Park restaurant has earned respect for its own menu creations, from homemade bread and farmer’s market-sourced vegetable plates to its “Neo-Neapolitan” pies that range from creatively-topped weekly specials to classic pies. Choose your own adventure with pizza styles, including neo-neapolitan, Grandma style with a rectangular pan, or New York-style pan. Popular favorites include the Margherita and Dirty Dancin’, made with house-made Italian fennel sausage, jalapenos, and pineapple (not from a can, as it states on the menu).
+                  - paragraph [ref=e1547]:
+                    - strong [ref=e1548]: "Know before you go:"
+                    - text: Pizzas are made by hand and can take up to 45 minutes, so be sure to order an appetizer if you’re peckish.
+                  - list [ref=e1549]:
+                    - listitem [ref=e1550]:
+                      - link "Booking Book a table" [ref=e1552] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/1294?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1553]
+                        - text: Book a table
+                        - img [ref=e1555]
+                    - listitem [ref=e1557]:
+                      - link "Location 3077 North Park Way, San Diego, CA 92104, USAExternal Link" [ref=e1558] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Tribute%20Pizza%2C%203077%20North%20Park%20Way%2C%20San%20Diego%2C%20CA%2092104%2C%20USA
+                        - img "Location" [ref=e1559]
+                        - generic [ref=e1561]:
+                          - text: 3077 North Park Way, San Diego, CA 92104, USA
+                          - img "External Link" [ref=e1562]
+                    - listitem [ref=e1564]:
+                      - link "Phone (619) 450-4505" [ref=e1565] [cursor=pointer]:
+                        - /url: tel:6194504505
+                        - img "Phone" [ref=e1566]
+                        - text: (619) 450-4505
+                    - listitem [ref=e1568]:
+                      - link "Link Visit website" [ref=e1569] [cursor=pointer]:
+                        - /url: http://tributepizza.com/
+                        - img "Link" [ref=e1570]
+                        - text: Visit website
+                  - generic [ref=e1574]:
+                    - img "A New York-style pizza with cheese and basil." [ref=e1577]
+                    - generic [ref=e1578]: Matthew Kang
+                  - generic [ref=e1579]:
+                    - heading "See more" [level=3] [ref=e1582]
+                    - generic [ref=e1583]:
+                      - generic [ref=e1585]:
+                        - img "The Best Pizzerias in and Around San Diego" [ref=e1587]
+                        - link "The Best Pizzerias in and Around San Diego" [ref=e1594] [cursor=pointer]:
+                          - /url: /maps/best-pizza-restaurant-pizzeria-san-diego
+                      - generic [ref=e1596]:
+                        - img "The Freshest Salads in San Diego" [ref=e1598]
+                        - link "The Freshest Salads in San Diego" [ref=e1605] [cursor=pointer]:
+                          - /url: /maps/best-salads-san-diego-restaurants
+              - generic [ref=e1607]:
+                - generic [ref=e1609]:
+                  - heading "Mabel's Gone Fishing" [level=2] [ref=e1610]
+                  - button "Copy link" [ref=e1612] [cursor=pointer]:
+                    - img "Link" [ref=e1613]
+                - paragraph [ref=e1615]:
+                  - strong [ref=e1616]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e1617]:
+                  - strong [ref=e1618]: "Price range:"
+                  - text: $$$
+                - paragraph [ref=e1619]: This bustling, friendly restaurant, which serves up seasonal seafood and mixes stellar gin and tonics, has racked up accolades that include being named to Eater’s list of the best new restaurants in America and earning Michelin Bib Gourmand status. Building on the goodwill garnered by the Rose, their South Park wine bar, the team has set up a firm footing in North Park with the seafood-forward restaurant. Hit up the happy hour from 4 to 5 p.m. for a dozen oysters at half price and drink specials. Also, make sure to try the smoked mackerel and Basque cheesecake.
+                - paragraph [ref=e1620]:
+                  - strong [ref=e1621]: "Must-try dishes:"
+                  - text: To sample all the best dishes, it’s worth ordering the sharing-style chef’s menu at $85 per person.
+                - list [ref=e1622]:
+                  - listitem [ref=e1623]:
+                    - link "Booking Book a table" [ref=e1625] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/165218?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e1626]
+                      - text: Book a table
+                      - img [ref=e1628]
+                  - listitem [ref=e1630]:
+                    - link "Location 3770 30th St, San Diego, CA 92104, USAExternal Link" [ref=e1631] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Mabel's%20Gone%20Fishing%2C%203770%2030th%20St%2C%20San%20Diego%2C%20CA%2092104%2C%20USA
+                      - img "Location" [ref=e1632]
+                      - generic [ref=e1634]:
+                        - text: 3770 30th St, San Diego, CA 92104, USA
+                        - img "External Link" [ref=e1635]
+                  - listitem [ref=e1637]:
+                    - link "Phone (619) 228-9851" [ref=e1638] [cursor=pointer]:
+                      - /url: tel:6192289851
+                      - img "Phone" [ref=e1639]
+                      - text: (619) 228-9851
+                  - listitem [ref=e1641]:
+                    - link "Link Visit website" [ref=e1642] [cursor=pointer]:
+                      - /url: https://www.mabelsgonefishing.com/
+                      - img "Link" [ref=e1643]
+                      - text: Visit website
+                - generic [ref=e1647]:
+                  - img "A curved cocktail bar." [ref=e1650]
+                  - generic [ref=e1651]: Kimberly Motos
+              - generic [ref=e1652]:
+                - generic [ref=e1653]:
+                  - text: advertisement
+                  - generic [ref=e1654]: AD
+                - generic [ref=e1655]:
+                  - generic [ref=e1657]:
+                    - heading "Cesarina" [level=2] [ref=e1658]
+                    - button "Copy link" [ref=e1660] [cursor=pointer]:
+                      - img "Link" [ref=e1661]
+                  - paragraph [ref=e1663]:
+                    - strong [ref=e1664]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e1665]:
+                    - strong [ref=e1666]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e1667]: Having just celebrated its six-year anniversary, this vibey neighborhood trattoria in Point Loma charms with Roman romance and hospitality. From the lush vines and flowers trailing down the trellis in the cozy outdoor patio to the indoor dining area with rose-colored booths, bistro tables, and casual bar counter, it is ideal for a refreshing aperitif or solo dining. The restaurant features an inventive menu showcasing pastas like pappardelle and ravioli, along with robust vegan and gluten-free options. A must-try is the popular cremini sauce, made with shitake and porcini mushroom sauce, on a pasta shape of your choosing. Don’t skip the tableside tiramisu, made with house-made ladyfingers, no matter how full you think you are.
+                  - paragraph [ref=e1668]:
+                    - strong [ref=e1669]: "Know before you go:"
+                    - text: If you can’t get a table, head down the street about a mile away to their sister restaurant, Elvira. The casual hideaway also has house-made pastas along with wood-fired pizzas.
+                  - list [ref=e1670]:
+                    - listitem [ref=e1671]:
+                      - link "Booking Book a table on OpenTable" [ref=e1673] [cursor=pointer]:
+                        - /url: http://www.opentable.com/r/cesarina-san-diego?ref=9040
+                        - img "Booking" [ref=e1674]
+                        - text: Book a table on OpenTable
+                        - img [ref=e1676]
+                    - listitem [ref=e1678]:
+                      - link "Location 4161 Voltaire St Ste B, San Diego, CA, 92107, USExternal Link" [ref=e1679] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Cesarina%2C%204161%20Voltaire%20St%20Ste%20B%2C%20San%20Diego%2C%20CA%2C%2092107%2C%20US
+                        - img "Location" [ref=e1680]
+                        - generic [ref=e1682]:
+                          - text: 4161 Voltaire St Ste B, San Diego, CA, 92107, US
+                          - img "External Link" [ref=e1683]
+                    - listitem [ref=e1685]:
+                      - link "Phone (619) 226-6222" [ref=e1686] [cursor=pointer]:
+                        - /url: tel:6192266222
+                        - img "Phone" [ref=e1687]
+                        - text: (619) 226-6222
+                    - listitem [ref=e1689]:
+                      - link "Link Visit website" [ref=e1690] [cursor=pointer]:
+                        - /url: http://www.cesarinarestaurant.com/
+                        - img "Link" [ref=e1691]
+                        - text: Visit website
+                  - generic [ref=e1695]:
+                    - img "An array of coastal Italian dishes at San Diego Italian restaurant Cesarina." [ref=e1698]
+                    - generic [ref=e1699]: Cesarina
+                  - generic [ref=e1700]:
+                    - heading "See more" [level=3] [ref=e1703]
+                    - generic [ref=e1704]:
+                      - generic [ref=e1706]:
+                        - img "The Most Romantic Restaurants in San Diego for Date Night" [ref=e1708]
+                        - link "The Most Romantic Restaurants in San Diego for Date Night" [ref=e1715] [cursor=pointer]:
+                          - /url: /maps/best-romantic-restaurants-date-night-valentines-day-san-diego
+                      - generic [ref=e1717]:
+                        - img "Feast in the Best Italian Restaurants in San Diego" [ref=e1719]
+                        - link "Feast in the Best Italian Restaurants in San Diego" [ref=e1726] [cursor=pointer]:
+                          - /url: /maps/san-diego-best-italian-restaurants-eateries-pizza-pasta
+              - generic [ref=e1728]:
+                - generic [ref=e1730]:
+                  - heading "Cori Pastificio Trattoria" [level=2] [ref=e1731]
+                  - button "Copy link" [ref=e1733] [cursor=pointer]:
+                    - img "Link" [ref=e1734]
+                - paragraph [ref=e1736]:
+                  - strong [ref=e1737]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e1738]:
+                  - strong [ref=e1739]: "Price range:"
+                  - text: $$
+                - paragraph [ref=e1740]: Since opening in 2019, Cori Pastificio Trattoria, a cozy Italian restaurant, has showcased Sicilian dishes from chef Accursio Lota. While the interior shines with sunny colors, the outdoor patio space is warmed with heaters and string lights. The house-made pastas are made on the premises each day with heirloom Sicilian grains and local seasonal ingredients. Try the yellowtail crudo, Thompson Heritage Farm porchetta, ancient grain tonnarelli pasta, and the award-winning seafood carbonara pasta. Well-received by locals as well as the international culinary community, this North Park treasure has a vegan menu and Sicilian desserts such as the ruota menfitana, a ruota shell filled with sheep ricotta, candied oranges, and prickly pear juice.
+                - paragraph [ref=e1741]:
+                  - strong [ref=e1742]: "Must-try dishes:"
+                  - text: Be sure to try the seafood carbonara pasta, made with ancient grains. It’s a dish that made Chef Lota the winner of a global pasta competition.
+                - list [ref=e1743]:
+                  - listitem [ref=e1744]:
+                    - link "Booking Book a table on OpenTable" [ref=e1746] [cursor=pointer]:
+                      - /url: http://www.opentable.com/r/cori-pastificio-trattoria-san-diego?ref=9040
+                      - img "Booking" [ref=e1747]
+                      - text: Book a table on OpenTable
+                      - img [ref=e1749]
+                  - listitem [ref=e1751]:
+                    - link "Location 2977 Upas St, San Diego, CA 92104, USAExternal Link" [ref=e1752] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Cori%20Pastificio%20Trattoria%2C%202977%20Upas%20St%2C%20San%20Diego%2C%20CA%2092104%2C%20USA
+                      - img "Location" [ref=e1753]
+                      - generic [ref=e1755]:
+                        - text: 2977 Upas St, San Diego, CA 92104, USA
+                        - img "External Link" [ref=e1756]
+                  - listitem [ref=e1758]:
+                    - link "Phone (619) 573-6159" [ref=e1759] [cursor=pointer]:
+                      - /url: tel:6195736159
+                      - img "Phone" [ref=e1760]
+                      - text: (619) 573-6159
+                  - listitem [ref=e1762]:
+                    - link "Link Visit website" [ref=e1763] [cursor=pointer]:
+                      - /url: http://coripasta.com/
+                      - img "Link" [ref=e1764]
+                      - text: Visit website
+                - generic [ref=e1768]:
+                  - img "Pasta dish from Cori Pastificio Trattoria" [ref=e1771]
+                  - generic [ref=e1772]: Sam Wells
+                - generic [ref=e1773]:
+                  - heading "See more" [level=3] [ref=e1776]
+                  - generic [ref=e1777]:
+                    - generic [ref=e1779]:
+                      - img "The Best Restaurants to Celebrate New Year’s Eve in San Diego" [ref=e1781]
+                      - link "The Best Restaurants to Celebrate New Year’s Eve in San Diego" [ref=e1788] [cursor=pointer]:
+                        - /url: /maps/best-new-years-eve-dinners-restaurants-san-diego
+                    - generic [ref=e1790]:
+                      - img "Celebrate Mother’s Day in San Diego with Takeout and Delivery" [ref=e1792]
+                      - link "Celebrate Mother’s Day in San Diego with Takeout and Delivery" [ref=e1799] [cursor=pointer]:
+                        - /url: /maps/mothers-day-san-diego-restaurants-takeout-delivery
+              - generic [ref=e1800]:
+                - generic [ref=e1801]:
+                  - text: advertisement
+                  - generic [ref=e1802]: AD
+                - generic [ref=e1803]:
+                  - generic [ref=e1805]:
+                    - heading "Artifact at Mingei" [level=2] [ref=e1806]
+                    - button "Copy link" [ref=e1808] [cursor=pointer]:
+                      - img "Link" [ref=e1809]
+                  - paragraph [ref=e1811]:
+                    - strong [ref=e1812]: Open for
+                    - text: ": Lunch, Dinner"
+                  - paragraph [ref=e1813]:
+                    - strong [ref=e1814]: "Price Range:"
+                    - text: $$
+                  - paragraph [ref=e1815]: Artifact anchors the Mingei International Museum in Balboa Park, showcasing ancient cooking methods, flavorful spices, and bright botanicals as a nod to the dozen or so museums that surround the restaurant. The menu offers an edible history lesson, tracing the evolution of dishes across the globe. Be sure to try a few dishes from the dumpling category, which spans gyoza, pierogies, and somasas with turmeric. Short rib resting on a bed of egg noodles and crispy tofu with gai lan in fermented black bean sauce are also highlights at Artifact. Keep an eye out for monthly regional dinners, which focus on specific cuisines from around the world; upcoming events include Romania, Switzerland, and Parisian Christmas.
+                  - paragraph [ref=e1816]:
+                    - strong [ref=e1817]: Know before you go
+                    - text: ": Artifact offers a weekend happy hour from 2:30 p.m. to 5 p.m. from Friday to Sunday."
+                  - list [ref=e1818]:
+                    - listitem [ref=e1819]:
+                      - link "Location 1439 El Prado, San Diego, California 92101External Link" [ref=e1820] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Artifact%20at%20Mingei%2C%201439%20El%20Prado%2C%20San%20Diego%2C%20California%2092101
+                        - img "Location" [ref=e1821]
+                        - generic [ref=e1823]:
+                          - text: 1439 El Prado, San Diego, California 92101
+                          - img "External Link" [ref=e1824]
+                    - listitem [ref=e1826]:
+                      - link "Phone (619) 704-7523" [ref=e1827] [cursor=pointer]:
+                        - /url: tel:6197047523
+                        - img "Phone" [ref=e1828]
+                        - text: (619) 704-7523
+                    - listitem [ref=e1830]:
+                      - link "Link Visit website" [ref=e1831] [cursor=pointer]:
+                        - /url: https://www.urbankitchengroup.com/artifact-at-mingei/menu/
+                        - img "Link" [ref=e1832]
+                        - text: Visit website
+                  - generic [ref=e1836]:
+                    - img "Artifact" [ref=e1839]
+                    - generic [ref=e1840]: Kimberly Motos
+                  - generic [ref=e1841]:
+                    - heading "See more" [level=3] [ref=e1844]
+                    - generic [ref=e1847]:
+                      - img "The Most Romantic Restaurants in San Diego for Date Night" [ref=e1849]
+                      - link "The Most Romantic Restaurants in San Diego for Date Night" [ref=e1856] [cursor=pointer]:
+                        - /url: /maps/best-romantic-restaurants-date-night-valentines-day-san-diego
+              - generic [ref=e1858]:
+                - generic [ref=e1860]:
+                  - heading "Mothership" [level=2] [ref=e1861]
+                  - button "Copy link" [ref=e1863] [cursor=pointer]:
+                    - img "Link" [ref=e1864]
+                - paragraph [ref=e1866]:
+                  - text: What started as a pop-up at Kindred has metamorphosed into its own standalone immersive cocktail and restaurant experience in North Park.
+                  - link "Mothership" [ref=e1867] [cursor=pointer]:
+                    - /url: https://mothershiptrip.com/
+                  - text: is a no-holds-barred concept conceived by vegan restaurateur Kory Stetina (Kindred, Dreamboat, Vulture) and an invitation into a maximalist world with discombobulating lights and sounds. Outside the front door, read the vintage-looking posters that explain the backstory before embarking into intergalactic darkness. Once inside, you’ll find vegan dishes, which Stetina calls “Earth Food made from the planet’s flora.” Favorites include the “potato,” a latke-based dish with kimchi, cashew cream cheese, and furikake, and “rice,” a fusion of fried rice and paella. End on a sweet note like the seasonal tempura-battered butternut squash with soft serve. While the dishes are excellent, the drinks here are a main attraction. The iconic Mindblower is a riff on the Painkiller cocktail topped with a Tang cordial (a staple of American astronauts in the 1960s), but go hyper-speed with the off-menu Short Circuit punchbowl.
+                - paragraph [ref=e1868]:
+                  - strong [ref=e1869]: "Best for:"
+                  - text: When you’re looking for an out-of-this-world experience for cocktails with good food that happens to be vegan.
+                - list [ref=e1870]:
+                  - listitem [ref=e1871]:
+                    - link "Location 2310 30th Street, San Diego, California 92104External Link" [ref=e1872] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Mothership%2C%202310%2030th%20Street%2C%20San%20Diego%2C%20California%2092104
+                      - img "Location" [ref=e1873]
+                      - generic [ref=e1875]:
+                        - text: 2310 30th Street, San Diego, California 92104
+                        - img "External Link" [ref=e1876]
+                  - listitem [ref=e1878]:
+                    - link "Link Visit website" [ref=e1879] [cursor=pointer]:
+                      - /url: https://mothershiptrip.com/
+                      - img "Link" [ref=e1880]
+                      - text: Visit website
+                - generic [ref=e1884]:
+                  - img "An array of cocktails at Mothership." [ref=e1887]
+                  - generic [ref=e1888]: Kimberly Motos
+                - generic [ref=e1889]:
+                  - heading "See more" [level=3] [ref=e1892]
+                  - generic [ref=e1895]:
+                    - img "San Diego’s Best Vegan and Vegetarian Restaurants" [ref=e1897]
+                    - link "San Diego’s Best Vegan and Vegetarian Restaurants" [ref=e1904] [cursor=pointer]:
+                      - /url: /maps/best-vegan-vegetarian-restaurants-plant-based-san-diego
+              - generic [ref=e1905]:
+                - generic [ref=e1906]:
+                  - text: advertisement
+                  - generic [ref=e1907]: AD
+                - generic [ref=e1908]:
+                  - generic [ref=e1910]:
+                    - heading "Herb & Wood" [level=2] [ref=e1911]
+                    - button "Copy link" [ref=e1913] [cursor=pointer]:
+                      - img "Link" [ref=e1914]
+                  - paragraph [ref=e1916]:
+                    - strong [ref=e1917]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e1918]:
+                    - strong [ref=e1919]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e1920]: Head to Little Italy to experience chef Brian Malarkey’s flagship restaurant with its sprawling dining areas, including a roomy rectangular bar, a low-lit, sophisticated interior with exposed wooden beams, or an enclosed patio space with a warming fireplace in the center. Herb & Wood is still a stunning spot to see and be seen in, with its California-meets-Mediterranean menu of grilled meats, pasta, and wood-fired pizza that keeps diners coming back. Start with pork belly with vadouvan aioli or roasted oysters with bone marrow before exploring the rest of the menu with dishes like a wagyu New York strip, roasted branzino, mushroom pizza, and lobster radiator.
+                  - paragraph [ref=e1921]:
+                    - strong [ref=e1922]: "Must-try dishes:"
+                    - text: The rustic atmosphere lends itself to wood-fired dishes like the shareable mushroom pizza.
+                  - list [ref=e1923]:
+                    - listitem [ref=e1924]:
+                      - link "Booking Book a table on OpenTable" [ref=e1926] [cursor=pointer]:
+                        - /url: http://www.opentable.com/herb-and-wood?ref=9040
+                        - img "Booking" [ref=e1927]
+                        - text: Book a table on OpenTable
+                        - img [ref=e1929]
+                    - listitem [ref=e1931]:
+                      - link "Location 2210 Kettner Blvd, San Diego, CA 92101, USAExternal Link" [ref=e1932] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Herb%20%26%20Wood%2C%202210%20Kettner%20Blvd%2C%20San%20Diego%2C%20CA%2092101%2C%20USA
+                        - img "Location" [ref=e1933]
+                        - generic [ref=e1935]:
+                          - text: 2210 Kettner Blvd, San Diego, CA 92101, USA
+                          - img "External Link" [ref=e1936]
+                    - listitem [ref=e1938]:
+                      - link "Phone (619) 955-8495" [ref=e1939] [cursor=pointer]:
+                        - /url: tel:6199558495
+                        - img "Phone" [ref=e1940]
+                        - text: (619) 955-8495
+                    - listitem [ref=e1942]:
+                      - link "Link Visit website" [ref=e1943] [cursor=pointer]:
+                        - /url: https://www.herbandwood.com/
+                        - img "Link" [ref=e1944]
+                        - text: Visit website
+                  - generic [ref=e1948]:
+                    - img "Dining room at Herb & Wood" [ref=e1951]
+                    - generic [ref=e1952]: Bailey Films
+                  - generic [ref=e1953]:
+                    - heading "See more" [level=3] [ref=e1956]
+                    - generic [ref=e1957]:
+                      - generic [ref=e1959]:
+                        - img "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e1961]
+                        - link "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e1968] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-thanksgiving-day-dinner-lunch-san-diego
+                      - generic [ref=e1970]:
+                        - img "The Best Places to Eat and Drink in Little Italy" [ref=e1972]
+                        - link "The Best Places to Eat and Drink in Little Italy" [ref=e1979] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-bars-food-little-italy-san-diego
+              - generic [ref=e1981]:
+                - generic [ref=e1983]:
+                  - heading "Kettner Exchange" [level=2] [ref=e1984]
+                  - button "Copy link" [ref=e1986] [cursor=pointer]:
+                    - img "Link" [ref=e1987]
+                - paragraph [ref=e1989]:
+                  - strong [ref=e1990]: "Open for:"
+                  - text: Dinner, Sunday Lunch
+                - paragraph [ref=e1991]:
+                  - strong [ref=e1992]: "Price range:"
+                  - text: $$
+                - paragraph [ref=e1993]: An expansive rooftop patio is part of the draw at this bi-level restaurant that’s a fixture on the nightlife scene but was also recognized with Michelin Bib Gourmand status in 2021. The downstairs level is hip and happening, and the upstairs is quieter, with an eye-catching tree in the middle of the second-floor patio. Helmed by executive chef Brian Redzikowski, who has created a consistently thoughtful menu with dishes infused with Asian ingredients and techniques. Menu highlights include spicy tuna crispy rice, spicy garlic noodles with royal red shrimp, butternut squash dumplings with black vinegar, and crispy fried butternut squash with peanut crunch and nuoc nam.
+                - paragraph [ref=e1994]:
+                  - strong [ref=e1995]: "Must-try dishes:"
+                  - text: Be sure to get something from the inventive cocktail menu, like the Curry-osity with gin, curry, turmeric, and coconut, along with dishes showcasing seasonal ingredients, like the satisfying butternut squash from Two Forks Farm.
+                - list [ref=e1996]:
+                  - listitem [ref=e1997]:
+                    - link "Booking Book a table" [ref=e1999] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/163212?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e2000]
+                      - text: Book a table
+                      - img [ref=e2002]
+                  - listitem [ref=e2004]:
+                    - link "Location 2001 Kettner Blvd, San Diego, CA 92101, USAExternal Link" [ref=e2005] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Kettner%20Exchange%2C%202001%20Kettner%20Blvd%2C%20San%20Diego%2C%20CA%2092101%2C%20USA
+                      - img "Location" [ref=e2006]
+                      - generic [ref=e2008]:
+                        - text: 2001 Kettner Blvd, San Diego, CA 92101, USA
+                        - img "External Link" [ref=e2009]
+                  - listitem [ref=e2011]:
+                    - link "Phone (619) 255-2001" [ref=e2012] [cursor=pointer]:
+                      - /url: tel:6192552001
+                      - img "Phone" [ref=e2013]
+                      - text: (619) 255-2001
+                  - listitem [ref=e2015]:
+                    - link "Link Visit website" [ref=e2016] [cursor=pointer]:
+                      - /url: http://www.kettnerexchange.com/
+                      - img "Link" [ref=e2017]
+                      - text: Visit website
+                - generic [ref=e2021]:
+                  - img "The bar at Kettner Exchange" [ref=e2024]
+                  - generic [ref=e2025]: Kettner Exchange [Official photo]
+                - generic [ref=e2026]:
+                  - heading "See more" [level=3] [ref=e2029]
+                  - generic [ref=e2030]:
+                    - generic [ref=e2032]:
+                      - img "12 Enticing Rooftops for Eating and Drinking in San Diego" [ref=e2034]
+                      - link "12 Enticing Rooftops for Eating and Drinking in San Diego" [ref=e2041] [cursor=pointer]:
+                        - /url: /maps/best-rooftop-dining-restaurants-bars-ocean-view-san-diego
+                    - generic [ref=e2043]:
+                      - img "63 San Diego Restaurants, Wineries, Breweries, and Distilleries Offering Booze To-Go" [ref=e2045]
+                      - link "63 San Diego Restaurants, Wineries, Breweries, and Distilleries Offering Booze To-Go" [ref=e2052] [cursor=pointer]:
+                        - /url: /maps/san-diego-restaurants-wineries-breweries-distilleries-wine-cocktails-beer-takeout-delivery
+              - generic [ref=e2053]:
+                - generic [ref=e2054]:
+                  - text: advertisement
+                  - generic [ref=e2055]: AD
+                - generic [ref=e2056]:
+                  - generic [ref=e2058]:
+                    - heading "Meet Dumpling" [level=2] [ref=e2059]
+                    - button "Copy link" [ref=e2061] [cursor=pointer]:
+                      - img "Link" [ref=e2062]
+                  - paragraph [ref=e2064]:
+                    - strong [ref=e2065]: "Open for:"
+                    - text: Lunch, Dinner
+                  - paragraph [ref=e2066]:
+                    - strong [ref=e2067]: "Price range:"
+                    - text: $
+                  - paragraph [ref=e2068]: "Don’t be fooled by Meet Dumpling’s nondescript storefront in the Point Loma strip mall, near San Diego’s marinas and military bases. The tiny Chinese restaurant, owned by a husband-wife team that moved from San Francisco in 2022, serves dumplings from the Chinese province of Liaoning, where co-owner Howard Gao grew up. A small cut-out in the kitchen door gives customers a first-hand view of the deliberate process that begins with a piece of dough being broken off and flattened with a rolling pin. Each wrapper is filled individually and pinched in pleats before being dropped in scorching hot water. The boiled dumplings are available with fillings, including ground pork, shrimp, celery, mushrooms, and cabbage; the green chive dumplings with shrimp and pork are a signature dish. The rest of the menu is worth exploring: Dongbei beef noodle soup with thin, springy wheat noodles and Beijing-style zhajiangmian noodles, mixed tableside with sesame oil, soy sauce, and housemade chile oil for a kick. Also try the rougamo, a Shaanxi flatbread sandwich with stewed seasoned meat, paying homage to the Western province where Gao’s wife, Alice Wang, grew up. No meal here is complete without an order of boba tea, made with muddled fruit like passionfruit, lychee, or strawberry."
+                  - paragraph [ref=e2069]:
+                    - strong [ref=e2070]: "Know before you go:"
+                    - text: Take a peek in the kitchen cut-out to see the dumplings scratch-made in small batches.
+                  - list [ref=e2071]:
+                    - listitem [ref=e2072]:
+                      - link "Location 2907 Shelter Island Dr Ste 104, San Diego, CA 92106External Link" [ref=e2073] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Meet%20Dumpling%2C%202907%20Shelter%20Island%20Dr%20Ste%20104%2C%20San%20Diego%2C%20CA%2092106
+                        - img "Location" [ref=e2074]
+                        - generic [ref=e2076]:
+                          - text: 2907 Shelter Island Dr Ste 104, San Diego, CA 92106
+                          - img "External Link" [ref=e2077]
+                    - listitem [ref=e2079]:
+                      - link "Phone (619) 269-7668" [ref=e2080] [cursor=pointer]:
+                        - /url: tel:6192697668
+                        - img "Phone" [ref=e2081]
+                        - text: (619) 269-7668
+                    - listitem [ref=e2083]:
+                      - link "Link Visit website" [ref=e2084] [cursor=pointer]:
+                        - /url: https://meetdumplingfood.com
+                        - img "Link" [ref=e2085]
+                        - text: Visit website
+                  - generic [ref=e2089]:
+                    - img "Dumplings, seaweed salad, and chive pockets at Meet Dumpling on an oblong dish" [ref=e2092]
+                    - generic [ref=e2093]: Candice Woo
+                  - generic [ref=e2094]:
+                    - heading "See more" [level=3] [ref=e2097]
+                    - generic [ref=e2098]:
+                      - generic [ref=e2100]:
+                        - img "The Best Chinese Restaurants in San Diego" [ref=e2102]
+                        - link "The Best Chinese Restaurants in San Diego" [ref=e2109] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-chinese-food-dim-sum-hot-pot-san-diego
+                      - generic [ref=e2111]:
+                        - img "Where to Eat in San Diego’s Point Loma Neighborhood" [ref=e2113]
+                        - link "Where to Eat in San Diego’s Point Loma Neighborhood" [ref=e2120] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-point-loma-san-diego
+              - generic [ref=e2122]:
+                - generic [ref=e2124]:
+                  - heading "Kingfisher" [level=2] [ref=e2125]
+                  - button "Copy link" [ref=e2127] [cursor=pointer]:
+                    - img "Link" [ref=e2128]
+                - paragraph [ref=e2130]:
+                  - strong [ref=e2131]: "Open for:"
+                  - text: Dinner
+                - paragraph [ref=e2132]:
+                  - strong [ref=e2133]: "Price range: $"
+                  - text: $$
+                - paragraph [ref=e2134]: Kingfisher continues to be one of the city’s most dynamic restaurants, bringing destination dining from executive chef David Sim and team to the undersung neighborhood of Golden Hill with a menu that elegantly modernizes classic Vietnamese dishes while highlighting San Diego produce from farms like Chino Farm. Don’t miss the dry-aged duck, available in limited quantities, seasonal congee, and scratch-made spring egg noodles with stinging nettle, a bright lemongrass sauté, topped with a soft poached egg to poke and stir through the comfort porridge dish. The fantastically creative cocktails incorporate Asian ingredients like miso, jackfruit, and Chinese five spice in a knock-your-socks-off, refreshing kind of way.
+                - paragraph [ref=e2135]:
+                  - strong [ref=e2136]: "Know before you go:"
+                  - text: Make it to the Golden Hour happy hours extended to 5 p.m. to 7 p.m. from Sunday through Thursday, with elevated bar bites like crispy chicken wings, crispy pig ear salad, or littleneck clams and mussels. Don’t forget to try the warm bread pudding with roasted banana ice cream for dessert.
+                - list [ref=e2137]:
+                  - listitem [ref=e2138]:
+                    - link "Booking Book a table" [ref=e2140] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/163503?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e2141]
+                      - text: Book a table
+                      - img [ref=e2143]
+                  - listitem [ref=e2145]:
+                    - link "Location 2469 Broadway, San Diego, CA 92102, USAExternal Link" [ref=e2146] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Kingfisher%2C%202469%20Broadway%2C%20San%20Diego%2C%20CA%2092102%2C%20USA
+                      - img "Location" [ref=e2147]
+                      - generic [ref=e2149]:
+                        - text: 2469 Broadway, San Diego, CA 92102, USA
+                        - img "External Link" [ref=e2150]
+                  - listitem [ref=e2152]:
+                    - link "Phone (619) 432-1014" [ref=e2153] [cursor=pointer]:
+                      - /url: tel:6194321014
+                      - img "Phone" [ref=e2154]
+                      - text: (619) 432-1014
+                  - listitem [ref=e2156]:
+                    - link "Link Visit website" [ref=e2157] [cursor=pointer]:
+                      - /url: http://kingfishersd.com/
+                      - img "Link" [ref=e2158]
+                      - text: Visit website
+                - generic [ref=e2162]:
+                  - img "A gold cocktail bar." [ref=e2165]
+                  - generic [ref=e2166]: Kimberly Motos
+                - generic [ref=e2167]:
+                  - heading "See more" [level=3] [ref=e2170]
+                  - generic [ref=e2171]:
+                    - generic [ref=e2173]:
+                      - img "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2175]
+                      - link "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2182] [cursor=pointer]:
+                        - /url: /maps/best-romantic-restaurants-date-night-valentines-day-san-diego
+                    - generic [ref=e2184]:
+                      - img "The Best Restaurants to Celebrate New Year’s Eve in San Diego" [ref=e2186]
+                      - link "The Best Restaurants to Celebrate New Year’s Eve in San Diego" [ref=e2193] [cursor=pointer]:
+                        - /url: /maps/best-new-years-eve-dinners-restaurants-san-diego
+              - generic [ref=e2194]:
+                - generic [ref=e2195]:
+                  - text: advertisement
+                  - generic [ref=e2196]: AD
+                - generic [ref=e2197]:
+                  - generic [ref=e2199]:
+                    - heading "Animae" [level=2] [ref=e2200]
+                    - button "Copy link" [ref=e2202] [cursor=pointer]:
+                      - img "Link" [ref=e2203]
+                  - paragraph [ref=e2205]:
+                    - strong [ref=e2206]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e2207]:
+                    - strong [ref=e2208]: "Price range:"
+                    - text: $$$$
+                  - paragraph [ref=e2209]: Named as San Diego’s first James Beard Award finalist, executive chef Tara Monsod helms San Diego’s Filipino- and Asian-inflected steakhouse. Cooking the restaurant’s most compelling menu to date, Monsod’s cuisine brings a new perspective to Asian classics with dishes like tuna kinilaw, short rib kare kare, Taiwanese fried chicken, and wagyu fried rice. The modern, opulent dining space with sky-high ceilings, huge windows with velvet drapes, and cushy, curvaceous booths adds to the ambiance of a night out with elevated comfort dishes. Stop at the gorgeous bar for bites and cocktails. Don’t skip desserts like chocolate crèmeux and buko pandan.
+                  - paragraph [ref=e2210]:
+                    - strong [ref=e2211]: "Must-try dishes:"
+                    - text: Don’t miss out on the pork tomahawk tocino, brightened with a red beet glaze and accompanied by a citrusy mango sawsawan, a Filipino favorite that chef Tara has incorporated into the dinner menu.
+                  - list [ref=e2212]:
+                    - listitem [ref=e2213]:
+                      - link "Booking Book a table on OpenTable" [ref=e2215] [cursor=pointer]:
+                        - /url: http://www.opentable.com/r/animae-san-diego?ref=9040
+                        - img "Booking" [ref=e2216]
+                        - text: Book a table on OpenTable
+                        - img [ref=e2218]
+                    - listitem [ref=e2220]:
+                      - link "Location 969 Pacific Hwy, San Diego, CA 92101, USAExternal Link" [ref=e2221] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Animae%2C%20969%20Pacific%20Hwy%2C%20San%20Diego%2C%20CA%2092101%2C%20USA
+                        - img "Location" [ref=e2222]
+                        - generic [ref=e2224]:
+                          - text: 969 Pacific Hwy, San Diego, CA 92101, USA
+                          - img "External Link" [ref=e2225]
+                    - listitem [ref=e2227]:
+                      - link "Phone (619) 432-1225" [ref=e2228] [cursor=pointer]:
+                        - /url: tel:6194321225
+                        - img "Phone" [ref=e2229]
+                        - text: (619) 432-1225
+                    - listitem [ref=e2231]:
+                      - link "Link Visit website" [ref=e2232] [cursor=pointer]:
+                        - /url: https://www.animaesd.com/
+                        - img "Link" [ref=e2233]
+                        - text: Visit website
+                  - generic [ref=e2237]:
+                    - img "A wedge of charred cabbage in brown butter miso with a charred lime." [ref=e2240]
+                    - generic [ref=e2241]: Jim Sullivan
+                  - generic [ref=e2242]:
+                    - heading "See more" [level=3] [ref=e2245]
+                    - generic [ref=e2246]:
+                      - generic [ref=e2248]:
+                        - img "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2250]
+                        - link "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2257] [cursor=pointer]:
+                          - /url: /maps/best-romantic-restaurants-date-night-valentines-day-san-diego
+                      - generic [ref=e2259]:
+                        - img "Where to Feast on Steak in San Diego" [ref=e2261]
+                        - link "Where to Feast on Steak in San Diego" [ref=e2268] [cursor=pointer]:
+                          - /url: /maps/best-steakhouse-restaurants-bar-san-diego
+              - generic [ref=e2270]:
+                - generic [ref=e2272]:
+                  - heading "Izola Bakery" [level=2] [ref=e2273]
+                  - button "Copy link" [ref=e2275] [cursor=pointer]:
+                    - img "Link" [ref=e2276]
+                - paragraph [ref=e2278]:
+                  - strong [ref=e2279]: "Open for:"
+                  - text: Breakfast, lunch
+                - paragraph [ref=e2280]:
+                  - strong [ref=e2281]: "Price range:"
+                  - text: $-$$
+                - paragraph [ref=e2282]: What started as a home baking business during the pandemic has transformed into a standalone 4,200-square-foot bakery thriving in East Village. (The bakery originally developed a cult following for lowering croissants from a third-floor apartment window to their customers.) Izola has since introduced sourdough loaves to its menu, which fly off the shelves each morning. In addition to conventional croissant flavors, like chocolate, almond, and the 96-layer butter croissant, the kitchen offers savory renditions, like the bibimbap croissant that went viral. Sourdough flavors include seedy multigrain, cranberry pecan, and the Lao Gan Ma Gruyere loaf, which started as a monthly special before popular demand made it a permanent fixture. With inventive, unexpected versions of pillowy pastries and hearty sourdough dropping in every month, Izola has only grown its fanbase to enormous proportions.
+                - paragraph [ref=e2283]:
+                  - strong [ref=e2284]: "Know before you go:"
+                  - text: Lines can wrap down the block on busy weekend mornings and holidays, so it may be best to order online to snag your pick of the sourdough and croissants.
+                - list [ref=e2285]:
+                  - listitem [ref=e2286]:
+                    - link "Location 710 13th St Ste 300, San Diego, CA, 92101, USExternal Link" [ref=e2287] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Izola%20Bakery%2C%20710%2013th%20St%20Ste%20300%2C%20San%20Diego%2C%20CA%2C%2092101%2C%20US
+                      - img "Location" [ref=e2288]
+                      - generic [ref=e2290]:
+                        - text: 710 13th St Ste 300, San Diego, CA, 92101, US
+                        - img "External Link" [ref=e2291]
+                  - listitem [ref=e2293]:
+                    - link "Phone +16192898358" [ref=e2294] [cursor=pointer]:
+                      - /url: tel:16192898358
+                      - img "Phone" [ref=e2295]
+                      - text: "+16192898358"
+                - generic [ref=e2299]:
+                  - img "izola" [ref=e2302]
+                  - generic [ref=e2303]: Izola Bakery
+              - generic [ref=e2304]:
+                - generic [ref=e2305]:
+                  - text: advertisement
+                  - generic [ref=e2306]: AD
+                - generic [ref=e2307]:
+                  - generic [ref=e2309]:
+                    - heading "Callie" [level=2] [ref=e2310]
+                    - button "Copy link" [ref=e2312] [cursor=pointer]:
+                      - img "Link" [ref=e2313]
+                  - paragraph [ref=e2315]:
+                    - strong [ref=e2316]: "Open for:"
+                    - text: Dinner
+                  - paragraph [ref=e2317]:
+                    - strong [ref=e2318]: "Price range:"
+                    - text: $$$
+                  - paragraph [ref=e2319]: Still one of the city’s most coveted reservations, Callie has become an essential contributor to San Diego’s restaurant culture. Chef Travis Swikard’s compelling California-Mediterranean cuisine lets local ingredients shine, making the East Village food scene a whole lot brighter. Be sure to start with the house pita and dips like hummus and avocado labneh. The menu is punctuated by stellar pasta and dishes like Aleppo chicken and harissa-grilled lamb chops. To try a bit of everything, order the five-course feast for $80, accompanied by an optional $45 wine pairing or a $35 non-alcoholic pairing.
+                  - paragraph [ref=e2320]:
+                    - strong [ref=e2321]: "Know before you go:"
+                    - text: For those who fear parallel parking in East Village, an underground parking garage sits in the same building as the restaurant. The restaurant even validates tickets.
+                  - list [ref=e2322]:
+                    - listitem [ref=e2323]:
+                      - link "Booking Book a table" [ref=e2325] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/162982?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e2326]
+                        - text: Book a table
+                        - img [ref=e2328]
+                    - listitem [ref=e2330]:
+                      - link "Location 1195 Island Ave, San Diego, CA 92101, USAExternal Link" [ref=e2331] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Callie%2C%201195%20Island%20Ave%2C%20San%20Diego%2C%20CA%2092101%2C%20USA
+                        - img "Location" [ref=e2332]
+                        - generic [ref=e2334]:
+                          - text: 1195 Island Ave, San Diego, CA 92101, USA
+                          - img "External Link" [ref=e2335]
+                    - listitem [ref=e2337]:
+                      - link "Phone (619) 255-9696" [ref=e2338] [cursor=pointer]:
+                        - /url: tel:6192559696
+                        - img "Phone" [ref=e2339]
+                        - text: (619) 255-9696
+                    - listitem [ref=e2341]:
+                      - link "Link Visit website" [ref=e2342] [cursor=pointer]:
+                        - /url: https://calliesd.com/
+                        - img "Link" [ref=e2343]
+                        - text: Visit website
+                  - generic [ref=e2347]:
+                    - img "Hummus, baba ghanoush, and pita." [ref=e2350]
+                    - generic [ref=e2351]: Kimberly Motos
+                  - generic [ref=e2352]:
+                    - heading "See more" [level=3] [ref=e2355]
+                    - generic [ref=e2356]:
+                      - generic [ref=e2358]:
+                        - img "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e2360]
+                        - link "The Best San Diego Restaurants for Thanksgiving Dinner" [ref=e2367] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-thanksgiving-day-dinner-lunch-san-diego
+                      - generic [ref=e2369]:
+                        - img "The Best San Diego Fine Dining Restaurants" [ref=e2371]
+                        - link "The Best San Diego Fine Dining Restaurants" [ref=e2378] [cursor=pointer]:
+                          - /url: /maps/san-diego-restaurants-chefs-tasting-menu-dinners-omakase
+              - generic [ref=e2380]:
+                - generic [ref=e2382]:
+                  - heading "Fish Guts" [level=2] [ref=e2383]
+                  - button "Copy link" [ref=e2385] [cursor=pointer]:
+                    - img "Link" [ref=e2386]
+                - paragraph [ref=e2388]:
+                  - strong [ref=e2389]: "Open for:"
+                  - text: Lunch
+                - paragraph [ref=e2390]:
+                  - strong [ref=e2391]: "Price range:"
+                  - text: $
+                - paragraph [ref=e2392]: Chef Pablo Becker starts most mornings with an early trip to Tunaville Market to pick out fresh fish from legendary fishmonger Tommy Gomes. Moving quickly to keep the fish fresh, Becker heads back to his taqueria, Fish Guts, to prepare the city’s best fish tacos. The local white fish used for the Estilo Baja tacos, usually rockfish or sheepshead, is portioned out before being battered with a mix of flour, Modelo, bread crumbs, and French mustard inspired by a trip to Ensenada, Mexico. Just before the fish is ready, Blecker prepares the coleslaw and assembles the taco on a fresh corn tortilla made with masa from a local vendor. The outer coating is not too thick, and the fish is tender, practically melting in slivers with each mouthful. Add orders of smoked monchong fish dip, Baja-style battered shrimp tacos, and freshly fried fish and chips to round out the meal. Signature drink options at Fish Guts include a smoky mango margarita made with agave wine and fresh juice or a classic michelada.
+                - paragraph [ref=e2393]:
+                  - strong [ref=e2394]: "Must-try dish:"
+                  - text: You can’t drop into a place with “fish” in its name without indulging in a fish taco.
+                - list [ref=e2395]:
+                  - listitem [ref=e2396]:
+                    - link "Location 2222 Logan Ave, San Diego, CA, 92113, USExternal Link" [ref=e2397] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Fish%20Guts%2C%202222%20Logan%20Ave%2C%20San%20Diego%2C%20CA%2C%2092113%2C%20US
+                      - img "Location" [ref=e2398]
+                      - generic [ref=e2400]:
+                        - text: 2222 Logan Ave, San Diego, CA, 92113, US
+                        - img "External Link" [ref=e2401]
+                  - listitem [ref=e2403]:
+                    - link "Phone (619) 888-0081" [ref=e2404] [cursor=pointer]:
+                      - /url: tel:6198880081
+                      - img "Phone" [ref=e2405]
+                      - text: (619) 888-0081
+                  - listitem [ref=e2407]:
+                    - link "Link Visit website" [ref=e2408] [cursor=pointer]:
+                      - /url: https://www.fishgutsca.com/
+                      - img "Link" [ref=e2409]
+                      - text: Visit website
+                - generic [ref=e2414]:
+                  - heading "See more" [level=3] [ref=e2417]
+                  - generic [ref=e2418]:
+                    - generic [ref=e2420]:
+                      - img "Where to Find the Best Seafood in San Diego" [ref=e2422]
+                      - link "Where to Find the Best Seafood in San Diego" [ref=e2429] [cursor=pointer]:
+                        - /url: /maps/best-seafood-restaurants-san-diego
+                    - generic [ref=e2431]:
+                      - img "Where to Eat the Best Tacos in San Diego" [ref=e2433]
+                      - link "Where to Eat the Best Tacos in San Diego" [ref=e2440] [cursor=pointer]:
+                        - /url: /maps/san-diego-best-local-tacos
+              - generic [ref=e2441]:
+                - generic [ref=e2442]:
+                  - text: advertisement
+                  - generic [ref=e2443]: AD
+                - generic [ref=e2444]:
+                  - generic [ref=e2446]:
+                    - heading "Serea Coastal Cuisine" [level=2] [ref=e2447]
+                    - button "Copy link" [ref=e2449] [cursor=pointer]:
+                      - img "Link" [ref=e2450]
+                  - paragraph [ref=e2452]:
+                    - strong [ref=e2453]: "Open for:"
+                    - text: Breakfast, Dinner, Weekend Brunch
+                  - paragraph [ref=e2454]:
+                    - strong [ref=e2455]: "Price range:"
+                    - text: $$$$
+                  - paragraph [ref=e2456]: "The iconic Hotel del Coronado’s anchor restaurant is also a showcase for the region’s best seafood. With views facing the Pacific Ocean from almost all the tables, the interior is decorated like a beach house with a tiered outdoor patio so everyone gets a view. Executive chef JoJo Ruiz (Lionfish, Joya Kitchen, Temaki Bar: Handroll, Sushi, Sake) has a long history of supporting local fishermen, whose fresh catch is cooked whole and served tableside just steps from the beach. On the menu are seasonal dishes, such as the “Greek Freak,” crusted tuna with crispy dolmas, grilled swordfish “piccata” made with horta, lemon, capers, and piccata sauce, and Greek grilled chicken with lemon mustard sauce."
+                  - paragraph [ref=e2457]:
+                    - strong [ref=e2458]: "Know before you go:"
+                    - text: Book a table at sunset for spectacular views while sipping on refreshing cocktails like the spicy hibiscus margarita.
+                  - list [ref=e2459]:
+                    - listitem [ref=e2460]:
+                      - link "Booking Book a table on OpenTable" [ref=e2462] [cursor=pointer]:
+                        - /url: http://www.opentable.com/r/serea-coronado?ref=9040
+                        - img "Booking" [ref=e2463]
+                        - text: Book a table on OpenTable
+                        - img [ref=e2465]
+                    - listitem [ref=e2467]:
+                      - link "Location 1500 Orange Ave, Coronado, CA 92118, USAExternal Link" [ref=e2468] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Serea%20Coastal%20Cuisine%2C%201500%20Orange%20Ave%2C%20Coronado%2C%20CA%2092118%2C%20USA
+                        - img "Location" [ref=e2469]
+                        - generic [ref=e2471]:
+                          - text: 1500 Orange Ave, Coronado, CA 92118, USA
+                          - img "External Link" [ref=e2472]
+                    - listitem [ref=e2474]:
+                      - link "Phone (619) 435-6611" [ref=e2475] [cursor=pointer]:
+                        - /url: tel:6194356611
+                        - img "Phone" [ref=e2476]
+                        - text: (619) 435-6611
+                    - listitem [ref=e2478]:
+                      - link "Link Visit website" [ref=e2479] [cursor=pointer]:
+                        - /url: https://sereasandiego.com/
+                        - img "Link" [ref=e2480]
+                        - text: Visit website
+                  - generic [ref=e2484]:
+                    - img "Tables on the outdoor patio at Serea looking out onto the Coronado Beach" [ref=e2487]
+                    - link "Serea/Facebook" [ref=e2490] [cursor=pointer]:
+                      - /url: https://www.facebook.com/sereasandiego/photos/746818486019941
+                  - generic [ref=e2491]:
+                    - heading "See more" [level=3] [ref=e2494]
+                    - generic [ref=e2495]:
+                      - generic [ref=e2497]:
+                        - img "The Best Restaurants to Try in Scenic Coronado" [ref=e2499]
+                        - link "The Best Restaurants to Try in Scenic Coronado" [ref=e2506] [cursor=pointer]:
+                          - /url: /maps/best-restaurants-coronado-food-island-hotel-del-crown-city-san-diego
+                      - generic [ref=e2508]:
+                        - img "The Best Waterfront Restaurant Views in San Diego" [ref=e2510]
+                        - link "The Best Waterfront Restaurant Views in San Diego" [ref=e2517] [cursor=pointer]:
+                          - /url: /maps/best-waterfront-restaurants-dining-ocean-beach-view-san-diego-beachfront
+              - generic [ref=e2519]:
+                - generic [ref=e2521]:
+                  - heading "Aqui Es Texcoco" [level=2] [ref=e2522]
+                  - button "Copy link" [ref=e2524] [cursor=pointer]:
+                    - img "Link" [ref=e2525]
+                - paragraph [ref=e2527]:
+                  - strong [ref=e2528]: "Open for:"
+                  - text: Breakfast, Lunch, Dinner
+                - paragraph [ref=e2529]:
+                  - strong [ref=e2530]: "Price range:"
+                  - text: $
+                - paragraph [ref=e2531]: Birria might be the Mexican slow-cooked meat dish of the moment, but barbacoa — particularly barbacoa de borrego (lamb) — might reign supreme. Traditionally roasted for over seven hours in an underground fire pit and covered with maguey plant leaves, the kitchen uses a specialized oven to replicate the flavors. This roomy Chula Vista restaurant has been focused on lamb barbacoa for nearly 35 years, turning out tender, succulent barbecue that’s best had as a build-your-own taco experience, served with fresh tortillas, salsa, garnishes, and a side of rich lamb consomme, but it’s also excellent as a filling for crunchy flautas or cheesy quesatacos. Although lamb is king here, don’t miss the zucchini flower or huitlacoche quesadillas.
+                - paragraph [ref=e2532]:
+                  - strong [ref=e2533]: "Must-try dish:"
+                  - text: Start with the lamb barbecue plate to establish a baseline if you’ve never tried barbacoa before.
+                - list [ref=e2534]:
+                  - listitem [ref=e2535]:
+                    - link "Location 520 Broadway Ste 6, Chula Vista, CA, 91910, USExternal Link" [ref=e2536] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Aqui%20Es%20Texcoco%2C%20520%20Broadway%20Ste%206%2C%20Chula%20Vista%2C%20CA%2C%2091910%2C%20US
+                      - img "Location" [ref=e2537]
+                      - generic [ref=e2539]:
+                        - text: 520 Broadway Ste 6, Chula Vista, CA, 91910, US
+                        - img "External Link" [ref=e2540]
+                  - listitem [ref=e2542]:
+                    - link "Phone +16194274045" [ref=e2543] [cursor=pointer]:
+                      - /url: tel:16194274045
+                      - img "Phone" [ref=e2544]
+                      - text: "+16194274045"
+                  - listitem [ref=e2546]:
+                    - link "Link Visit website" [ref=e2547] [cursor=pointer]:
+                      - /url: http://www.aquiestexcoco.com
+                      - img "Link" [ref=e2548]
+                      - text: Visit website
+                - generic [ref=e2552]:
+                  - img "A plate of lamb barbacoa with tortillas and salsa." [ref=e2555]
+                  - link "Aqui Es Texcoco" [ref=e2558] [cursor=pointer]:
+                    - /url: https://www.facebook.com/AquiEsTexcoco/photos/pb.100064486848216.-2207520000/3658983054128479/?type=3
+      - generic [ref=e2559]:
+        - generic [ref=e2560]:
+          - text: advertisement
+          - generic [ref=e2561]: AD
+        - generic [ref=e2562]:
+          - generic [ref=e2563]:
+            - generic [ref=e2565]:
+              - heading "More in Dining Out in San Diego" [level=2] [ref=e2569]:
+                - text: More in
+                - link "Dining Out in San Diego" [ref=e2570] [cursor=pointer]:
+                  - /url: /dining-out-in-san-diego
+              - generic [ref=e2573]:
+                - generic [ref=e2575]:
+                  - img "Where to Watch Sports and Snack in San Diego" [ref=e2577]
+                  - link "Where to Watch Sports and Snack in San Diego" [ref=e2584] [cursor=pointer]:
+                    - /url: /maps/san-diego-best-sports-bars-super-bowl-game-day-restaurants
+                - generic [ref=e2586]:
+                  - img "Best Speakeasies to Sneak Into in San Diego" [ref=e2588]
+                  - link "Best Speakeasies to Sneak Into in San Diego" [ref=e2595] [cursor=pointer]:
+                    - /url: /maps/best-speakeasy-cocktail-secret-bar-san-diego
+                - generic [ref=e2597]:
+                  - img "The Best Affordable Restaurants in San Diego" [ref=e2599]
+                  - link "The Best Affordable Restaurants in San Diego" [ref=e2606] [cursor=pointer]:
+                    - /url: /maps/best-affordable-cheap-food-restaurants-san-diego
+                - generic [ref=e2608]:
+                  - img "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2610]
+                  - link "The Most Romantic Restaurants in San Diego for Date Night" [ref=e2617] [cursor=pointer]:
+                    - /url: /maps/best-romantic-restaurants-date-night-valentines-day-san-diego
+                - generic [ref=e2619]:
+                  - img "Where to Feast on Steak in San Diego" [ref=e2621]
+                  - link "Where to Feast on Steak in San Diego" [ref=e2628] [cursor=pointer]:
+                    - /url: /maps/best-steakhouse-restaurants-bar-san-diego
+                - generic [ref=e2630]:
+                  - img "Where to Eat Around the World in 2026" [ref=e2632]
+                  - link "Where to Eat Around the World in 2026" [ref=e2639] [cursor=pointer]:
+                    - /url: https://www.eater.com/dining-out/936672/best-places-to-eat-restaurants-travel-2026
+            - link "Advertisement" [ref=e2643] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e2644]:
+                - generic [ref=e2645]:
+                  - generic [ref=e2646]: Advertiser Content From
+                  - img "Sponsor Logo" [ref=e2648]
+                - paragraph [ref=e2649]: This is the title for the native ad
+          - generic [ref=e2651]:
+            - heading "The Latest" [level=2] [ref=e2655]
+            - generic [ref=e2656]:
+              - generic [ref=e2660]:
+                - time [ref=e2664]: Apr 3
+                - link "The Best New Restaurants in and Around San Diego, April 2026" [ref=e2667] [cursor=pointer]:
+                  - /url: /maps/best-new-san-diego-restaurants-heatmap
+              - generic [ref=e2671]:
+                - time [ref=e2675]: Mar 31
+                - link "San Diego Gets Shut Out of the 2026 James Beard Foundation Awards" [ref=e2678] [cursor=pointer]:
+                  - /url: /restaurant-news/62410/san-diego-shut-out-james-beard-foundation-awards-2026
+              - generic [ref=e2682]:
+                - time [ref=e2686]: Mar 26
+                - link "The Best Pizzerias in and Around San Diego" [ref=e2689] [cursor=pointer]:
+                  - /url: /maps/best-pizza-restaurant-pizzeria-san-diego
+              - generic [ref=e2693]:
+                - generic [ref=e2695]:
+                  - time [ref=e2697]: Mar 24
+                  - generic [ref=e2699]: Eater
+                - link "Where Your Favorite Chefs and Food Experts Eat When They’re Off the Clock" [ref=e2702] [cursor=pointer]:
+                  - /url: https://www.eater.com/press-room/24434033/eater-app-list-sharing-chefs-creators
+              - generic [ref=e2706]:
+                - generic [ref=e2708]:
+                  - time [ref=e2710]: Mar 24
+                  - generic [ref=e2712]: Eater
+                - link "The Eater App Just Got a Lot Better" [ref=e2715] [cursor=pointer]:
+                  - /url: https://www.eater.com/editor-newsletter/950572/new-eater-app-2026
+              - generic [ref=e2719]:
+                - time [ref=e2723]: Mar 18
+                - link "The Best Brunch Restaurants in San Diego" [ref=e2726] [cursor=pointer]:
+                  - /url: /maps/best-brunch-san-diego-restaurants
+    - contentinfo [ref=e2727]:
+      - generic [ref=e2728]:
+        - text: advertisement
+        - generic [ref=e2729]: AD
+      - generic [ref=e2731]:
+        - generic [ref=e2732]:
+          - link "Eater" [ref=e2733] [cursor=pointer]:
+            - /url: /
+            - img "Eater" [ref=e2734]
+          - list [ref=e2737]:
+            - listitem [ref=e2738]:
+              - link "Facebook" [ref=e2739] [cursor=pointer]:
+                - /url: https://www.facebook.com/Eater-San-Diego-465169560201718/
+                - img "Facebook" [ref=e2740]
+            - listitem [ref=e2742]:
+              - link "Twitter" [ref=e2743] [cursor=pointer]:
+                - /url: https://twitter.com/EaterSanDiego
+                - img "Twitter" [ref=e2744]
+            - listitem [ref=e2746]:
+              - link "Instagram" [ref=e2747] [cursor=pointer]:
+                - /url: https://www.instagram.com/eater/
+                - img "Instagram" [ref=e2748]
+            - listitem [ref=e2750]:
+              - link "Youtube" [ref=e2751] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/eater1
+                - img "Youtube" [ref=e2752]
+            - listitem [ref=e2754]:
+              - link "RSS" [ref=e2755] [cursor=pointer]:
+                - /url: /rss/index.xml
+                - img "RSS" [ref=e2756]
+            - listitem [ref=e2758]:
+              - link [ref=e2759] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+                - img [ref=e2760]
+        - generic [ref=e2762]:
+          - list [ref=e2763]:
+            - listitem [ref=e2764]:
+              - link "Terms of Use" [ref=e2765] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/terms-of-use
+            - listitem [ref=e2766]:
+              - link "Privacy Notice" [ref=e2767] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/privacy-notice
+            - listitem [ref=e2768]:
+              - link "Cookie Policy" [ref=e2769] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/cookie-policy
+            - listitem [ref=e2770]:
+              - button "Do Not Sell or Share My Personal Data" [ref=e2771] [cursor=pointer]
+            - listitem [ref=e2772]:
+              - link "Licensing FAQ" [ref=e2773] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/pages/licensing
+            - listitem [ref=e2774]:
+              - link "Accessibility" [ref=e2775] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/accessibility
+            - listitem [ref=e2776]:
+              - link "Platform Status" [ref=e2777] [cursor=pointer]:
+                - /url: https://status.voxmedia.com
+          - list [ref=e2778]:
+            - listitem [ref=e2779]:
+              - link "Archives" [ref=e2780] [cursor=pointer]:
+                - /url: /archives/full
+            - listitem [ref=e2781]:
+              - link "Contact Us" [ref=e2782] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e2783]:
+              - link "Send Us a Tip" [ref=e2784] [cursor=pointer]:
+                - /url: https://www.eater.com/2017/11/1/16572850/send-secure-tips-to-eater
+            - listitem [ref=e2785]:
+              - link "Community Guidelines" [ref=e2786] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/eater-community-guidelines
+            - listitem [ref=e2787]:
+              - link "Masthead" [ref=e2788] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/masthead
+            - listitem [ref=e2789]:
+              - link "About Eater" [ref=e2790] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/about
+            - listitem [ref=e2791]:
+              - link "Ethics Statement" [ref=e2792] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-ethics-statement
+            - listitem [ref=e2793]:
+              - link "Press Room" [ref=e2794] [cursor=pointer]:
+                - /url: https://www.eater.com/press-room
+            - listitem [ref=e2795]:
+              - link "Newsletters" [ref=e2796] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+            - listitem [ref=e2797]:
+              - link "How to Pitch" [ref=e2798] [cursor=pointer]:
+                - /url: https://www.eater.com/2016/12/15/13962822/eater-pitching-guidelines-how-to-pitch
+            - listitem [ref=e2799]:
+              - link "Maps Methodology" [ref=e2800] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-maps-methodology
+        - paragraph [ref=e2801]:
+          - text: © 2026
+          - link "Vox Media" [ref=e2802] [cursor=pointer]:
+            - /url: https://www.voxmedia.com
+          - text: ", LLC. All Rights Reserved"
+  - alert [ref=e2803]

@@ -1,6 +1,10 @@
 #!/usr/bin/env node
+// [DEPRECATED — use enrich-group-combined.mjs]
 // enrich-group-geocode.mjs — Fill lat/lng for active rows in group_restaurants.
 // Usage: node tools/enrich-group-geocode.mjs <group-id>
+//
+// The combined enrichment now gets lat/lng from the single Places Text Search
+// (places.location), so a separate Geocoding call is no longer needed.
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';

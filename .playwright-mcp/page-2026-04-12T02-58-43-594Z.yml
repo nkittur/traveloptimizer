@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/sandiego best things to do OR "must do" OR "hidden gems" OR "visiting" site:reddit.com/r/sandiego best things to do OR "must do" OR "hidden gems" OR "visiting"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Fsandiego%2Bbest%2Bthings%2Bto%2Bdo%2BOR%2B%2522must%2Bdo%2522%2BOR%2B%2522hidden%2Bgems%2522%2BOR%2B%2522visiting%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&aep=1&ntc=1&sa=X&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ2J8OegQIDxAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sa=X&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQs6gLegQIEhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sa=X&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQtKgLegQIFBAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sa=X&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQtKgLegQIFRAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sa=X&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQs6gLegQIFhAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&ved=1t:220175&ictx=111
+              - generic [ref=e105]: Shopping
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "What are the quirky cool places that make San Diego ... Reddit · r/sandiego 80+ comments · 2 years ago" [ref=e142] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/
+                - heading "What are the quirky cool places that make San Diego ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Reddit · r/sandiego
+                  - generic [ref=e152]: 80+ comments · 2 years ago
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - text: Hike at Torrey Pines State Reserve, hike the cave at Annie's Canyon, watch gliders or
+                - emphasis [ref=e161]: do
+                - text: the raptor experience at Gliderport, kayak La Jolla Cove, eat tacos at ...
+              - link "Read more" [ref=e162] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/#:~:text=Not%20quirky%20but%3A%20Hike%20at,Reserve%2C%20hike%20the%20cave%20at&text=Annie's%20Canyon&text=%2C%20watch%20gliders%20or%20do,the%20raptor%20experience%20at&text=Gliderport&text=%2C%20kayak%20La%20Jolla%20Cove%2C
+            - generic [ref=e167]:
+              - link "83 answers" [ref=e168] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke3lkb6/
+              - generic [ref=e169]: ·
+              - generic [ref=e170]: "Top answer:"
+              - generic [ref=e171]: Spruce Street suspension Bridge
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - 'link "1 year in SD: What are some \"must-do''s\"? 1 placed you''d ... Reddit · r/sandiego 40+ comments · 1 year ago" [ref=e180] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1ivwmh7/1_year_in_sd_what_are_some_mustdos_1_placed_youd/
+              - 'heading "1 year in SD: What are some \"must-do''s\"? 1 placed you''d ..." [level=3] [ref=e181]'
+              - generic [ref=e186]:
+                - generic [ref=e188]: Reddit · r/sandiego
+                - generic [ref=e190]: 40+ comments · 1 year ago
+            - button "About this result" [ref=e191] [cursor=pointer]:
+              - img [ref=e194]
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - text: Brit's
+              - emphasis [ref=e199]: visiting
+              - text: Phoenix,
+              - emphasis [ref=e200]: what
+              - text: are the "
+              - emphasis [ref=e201]: must-do's
+              - text: "\", pls? r/phoenix. • 1y ago. Brit's"
+              - emphasis [ref=e202]: visiting
+              - text: Phoenix,
+              - emphasis [ref=e203]: what
+              - text: are the "
+              - emphasis [ref=e204]: must-do's
+              - text: "\", pls? 45. 229 ..."
+            - link "Read more" [ref=e205] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1ivwmh7/1_year_in_sd_what_are_some_mustdos_1_placed_youd/#:~:text=r%2Fphoenix,229
+          - generic [ref=e210]:
+            - link "45 answers" [ref=e211] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1ivwmh7/1_year_in_sd_what_are_some_mustdos_1_placed_youd/me985yj/
+            - generic [ref=e212]: ·
+            - generic [ref=e213]: "Top answer:"
+            - generic [ref=e214]: I would say go to the zoo. It may seem like it’s child related but the SD zoo is world famous ...
+        - generic [ref=e218]:
+          - generic [ref=e221]:
+            - 'link "Non-touristy things to do... : r/sandiego Reddit · r/sandiego 10+ comments · 12 years ago" [ref=e223] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1sj4u2/nontouristy_things_to_do/
+              - 'heading "Non-touristy things to do... : r/sandiego" [level=3] [ref=e224]'
+              - generic [ref=e229]:
+                - generic [ref=e231]: Reddit · r/sandiego
+                - generic [ref=e233]: 10+ comments · 12 years ago
+            - button "About this result" [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - text: Looking for some guidance in the real
+              - emphasis [ref=e242]: must-do's
+              - text: of the area. ...
+              - emphasis [ref=e243]: visiting
+              - text: colleagues or family...I even just go there to work out by ...
+            - link "Read more" [ref=e244] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1sj4u2/nontouristy_things_to_do/#:~:text=Looking%20for%20some%20guidance%20in,real%20must%2Ddo's%20of%20the%20area.&text=It's%20fantastic%20for%20taking%20dates%2C,instead%20of%20concrete%20and%20houses.
+        - generic [ref=e248]:
+          - generic [ref=e251]:
+            - link "What is your hobby or favorite way to spend your free time ... Reddit · r/sandiego 370+ comments · 3 years ago" [ref=e253] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/12drxex/what_is_your_hobby_or_favorite_way_to_spend_your/
+              - heading "What is your hobby or favorite way to spend your free time ..." [level=3] [ref=e254]
+              - generic [ref=e259]:
+                - generic [ref=e261]: Reddit · r/sandiego
+                - generic [ref=e263]: 370+ comments · 3 years ago
+            - button "About this result" [ref=e264] [cursor=pointer]:
+              - img [ref=e267]
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - emphasis [ref=e272]: Visiting
+              - text: Breweries (crazy how cheap beer is compared to ...
+              - emphasis [ref=e273]: What
+              - text: Are the Must-See Attractions and
+              - emphasis [ref=e274]: Hidden Gems
+              - text: in San Antonio? 57.
+            - link "Read more" [ref=e275] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/12drxex/what_is_your_hobby_or_favorite_way_to_spend_your/#:~:text=Visiting%20Breweries%20(crazy%20how%20cheap,compared%20to%20everything%20else%20here).&text=What%20Are%20the%20Must%2DSee%20Attractions,57
+          - generic [ref=e280]:
+            - link "370 answers" [ref=e281] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/12drxex/what_is_your_hobby_or_favorite_way_to_spend_your/jf7p1io/
+            - generic [ref=e282]: ·
+            - generic [ref=e283]: "Top answer:"
+            - generic [ref=e284]: Walk; seaport village, balboa park, mission ...
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - 'link "Coolest low cost to free things to do/see in SD? : r/sandiego Reddit · r/sandiego 140+ comments · 1 year ago" [ref=e293] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/
+              - 'heading "Coolest low cost to free things to do/see in SD? : r/sandiego" [level=3] [ref=e294]'
+              - generic [ref=e299]:
+                - generic [ref=e301]: Reddit · r/sandiego
+                - generic [ref=e303]: 140+ comments · 1 year ago
+            - button "About this result" [ref=e304] [cursor=pointer]:
+              - img [ref=e307]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - emphasis [ref=e312]: What's
+              - text: the
+              - emphasis [ref=e313]: best thing to do
+              - text: in San Diego under $30? r/sandiego. • 1y ago.
+              - emphasis [ref=e314]: What's
+              - text: the
+              - emphasis [ref=e315]: best thing to do
+              - text: in San Diego under $30? 55. 134 ...
+              - emphasis [ref=e316]: Visiting
+              - text: ...
+            - link "Read more" [ref=e317] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/#:~:text=r%2Fsandiego,134&text=Visiting%20Tucson%20for%203%20Days,Hiking%2C%20What%20Else%20to%20Do%3F
+          - generic [ref=e322]:
+            - link "142 answers" [ref=e323] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfnds6/
+            - generic [ref=e324]: ·
+            - generic [ref=e325]: "Top answer:"
+            - generic [ref=e326]: There are free museums in balboa that are worth a trip, like Timken. Also hit the art village ...
+        - generic [ref=e330]:
+          - generic [ref=e333]:
+            - link "Going to San Diego for the first time in early January and ... Reddit · r/sandiego 20+ comments · 8 years ago" [ref=e335] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/7jve7s/going_to_san_diego_for_the_first_time_in_early/
+              - heading "Going to San Diego for the first time in early January and ..." [level=3] [ref=e336]
+              - generic [ref=e341]:
+                - generic [ref=e343]: Reddit · r/sandiego
+                - generic [ref=e345]: 20+ comments · 8 years ago
+            - button "About this result" [ref=e346] [cursor=pointer]:
+              - img [ref=e349]
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - text: Figure out
+              - emphasis [ref=e354]: what
+              - text: time you are free, and verify with the TIDE tables at Point Loma, and go visit the tide pools at the national park. Like art?
+            - link "Read more" [ref=e355] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/7jve7s/going_to_san_diego_for_the_first_time_in_early/#:~:text=Figure%20out%20what%20time%20you,Like%20art%3F
+        - generic [ref=e359]:
+          - generic [ref=e362]:
+            - 'link "Off the beaten path things to do in SD : r/sandiego Reddit · r/sandiego 40+ comments · 12 years ago" [ref=e364] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1f49k7/off_the_beaten_path_things_to_do_in_sd/
+              - 'heading "Off the beaten path things to do in SD : r/sandiego" [level=3] [ref=e365]'
+              - generic [ref=e370]:
+                - generic [ref=e372]: Reddit · r/sandiego
+                - generic [ref=e374]: 40+ comments · 12 years ago
+            - button "About this result" [ref=e375] [cursor=pointer]:
+              - img [ref=e378]
+          - generic [ref=e381]:
+            - generic [ref=e382]:
+              - text: If someone only had 6 months left in San Diego,
+              - emphasis [ref=e383]: what
+              - text: are some
+              - emphasis [ref=e384]: MUST DO
+              - text: activities? r/sandiego. • ...
+            - link "Read more" [ref=e385] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1f49k7/off_the_beaten_path_things_to_do_in_sd/#:~:text=r%2Fsandiego,%E2%80%A2
+        - generic [ref=e389]:
+          - generic [ref=e392]:
+            - link "r/sandiego Reddit https://www.reddit.com › sandiego › best" [ref=e394] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/best/
+              - heading "r/sandiego" [level=3] [ref=e395]
+              - generic [ref=e400]:
+                - generic [ref=e402]: Reddit
+                - generic [ref=e404]: https://www.reddit.com › sandiego › best
+            - button "About this result" [ref=e405] [cursor=pointer]:
+              - img [ref=e408]
+          - generic [ref=e411]:
+            - generic [ref=e412]:
+              - text: Just moved here, looking for a bowling alley where they take
+              - emphasis [ref=e413]: things
+              - text: "seriously: daily oil, no cosmic, etc. for those with a hook (Lame ik). Any suggestions?"
+            - link "Read more" [ref=e414] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/best/#:~:text=Just%20moved%20here%2C%20looking%20for,Any%20suggestions%3F
+        - generic [ref=e418]:
+          - generic [ref=e421]:
+            - 'link "Things to do in Coronado? : r/sandiego Reddit · r/sandiego 20+ comments · 2 years ago" [ref=e423] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1aovukw/things_to_do_in_coronado/
+              - 'heading "Things to do in Coronado? : r/sandiego" [level=3] [ref=e424]'
+              - generic [ref=e429]:
+                - generic [ref=e431]: Reddit · r/sandiego
+                - generic [ref=e433]: 20+ comments · 2 years ago
+            - button "About this result" [ref=e434] [cursor=pointer]:
+              - img [ref=e437]
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - text: Any places you can recommend
+              - emphasis [ref=e442]: visiting
+              - text: in Fort Lauderdale or in Miami for first time goers? (Attractions, museums, restaurants etc...).
+            - link "Read more" [ref=e443] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1aovukw/things_to_do_in_coronado/#:~:text=r%2Ffortlauderdale
+          - generic [ref=e448]:
+            - link "23 answers" [ref=e449] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1aovukw/things_to_do_in_coronado/kq341ax/
+            - generic [ref=e450]: ·
+            - generic [ref=e451]: "Top answer:"
+            - generic [ref=e452]: Expectation management. It's essentially beaches, high-end residential neighborhood, nice-hotel, ...
+        - generic [ref=e456]:
+          - generic [ref=e459]:
+            - 'link "Solo day in Del Mar suggestions? : r/sandiego Reddit · r/sandiego 10+ comments · 1 year ago" [ref=e461] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1hgg03n/solo_day_in_del_mar_suggestions/
+              - 'heading "Solo day in Del Mar suggestions? : r/sandiego" [level=3] [ref=e462]'
+              - generic [ref=e467]:
+                - generic [ref=e469]: Reddit · r/sandiego
+                - generic [ref=e471]: 10+ comments · 1 year ago
+            - button "About this result" [ref=e472] [cursor=pointer]:
+              - img [ref=e475]
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - emphasis [ref=e480]: Hidden gems
+              - text: to explore in San Diego.
+              - emphasis [ref=e481]: Best
+              - text: local spots for ...
+              - emphasis [ref=e482]: Visiting
+              - text: Madison for 10 Days — Looking for Nature-Focused Recommendations.
+            - link "Read more" [ref=e483] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1hgg03n/solo_day_in_del_mar_suggestions/#:~:text=Open%20App&text=Visiting%20Madison%20for%2010%20Days,%E2%80%94%20Looking%20for%20Nature%2DFocused%20Recommendations
+      - navigation [ref=e486]:
+        - heading "Page Navigation" [level=1] [ref=e487]
+        - text: "1"
+        - link "Page 2" [ref=e490] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=10&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAE
+          - text: "2"
+        - link "Page 3" [ref=e492] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=20&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAG
+          - text: "3"
+        - link "Page 4" [ref=e494] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=30&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAI
+          - text: "4"
+        - link "Page 5" [ref=e496] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=40&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAK
+          - text: "5"
+        - link "Page 6" [ref=e498] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=50&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAM
+          - text: "6"
+        - link "Page 7" [ref=e500] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=60&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAO
+          - text: "7"
+        - link "Page 8" [ref=e502] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=70&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAQ
+          - text: "8"
+        - link "Page 9" [ref=e504] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=80&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAS
+          - text: "9"
+        - link "Page 10" [ref=e506] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=90&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8tMDegQICRAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e508]:
+          - link "Next" [ref=e509] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/sandiego+best+things+to+do+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22visiting%22&sca_esv=a823c5315a1e3660&ei=YwrbabSTBYeg5NoPmoOSkQs&start=10&sa=N&sstk=Af77f_dTD8doDg7RUwGSWFZ1XdFuVJlyBesi42FBjuxMNf5d1gnFz5Vk1P5QTLcfMJuLuEudZUZl_u6z7xXouB86t75s_7Cu8z1jmQ&ved=2ahUKEwj00PnZqOeTAxUHEFkFHZqBJLIQ8NMDegQICRAW
+            - generic [ref=e511]: Next
+      - navigation
+    - contentinfo [ref=e512]:
+      - heading "Footer Links" [level=1] [ref=e513]
+      - generic [ref=e517]:
+        - generic [ref=e521]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e523] [cursor=pointer]:
+            - generic [ref=e524]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e526]:
+              - text: "-"
+              - generic [ref=e527]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e529] [cursor=pointer]: Update location
+        - generic [ref=e532]:
+          - link "Help" [ref=e533] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e534] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e535] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e536] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node geocode.mjs)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_evaluate",
+      "Bash(supabase db:*)",
+      "Bash(node fetch-details.mjs)",
+      "Bash(node --check /Users/nkittur/Dropbox/scripts/traveloptimizer/webapp/js/app.js)",
+      "Bash(node --check /Users/nkittur/Dropbox/scripts/traveloptimizer/webapp/js/components.js)",
+      "mcp__playwright__browser_network_requests",
+      "Bash(node -e ':*)",
+      "Bash(node:*)"
+    ]
+  }
+}

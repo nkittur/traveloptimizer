@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"theinfatuation.com\" \"barcelona\" best restaurants \"theinfatuation.com\" \"barcelona\" best restaurants"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - button "Share" [ref=e54] [cursor=pointer]:
+        - img [ref=e58]
+      - generic [ref=e60]:
+        - button "Google apps" [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+        - link "Sign in" [ref=e67] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522theinfatuation.com%2522%2B%2522barcelona%2522%2Bbest%2Brestaurants%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e69]:
+    - navigation [ref=e75]:
+      - generic [ref=e79]:
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link "AI Mode" [ref=e84] [cursor=pointer]:
+              - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&aep=1&ntc=1&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ2J8OegQIEBAE
+              - generic [ref=e87]: AI Mode
+          - listitem [ref=e88]:
+            - link "All" [disabled] [ref=e89]:
+              - generic [ref=e91]: All
+          - listitem [ref=e92]:
+            - link "Short videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQs6gLegQIFhAB
+              - generic [ref=e95]: Short videos
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQs6gLegQIFBAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Images" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQtKgLegQIEhAB
+              - generic [ref=e103]: Images
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - link "Videos" [ref=e109] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0zUFjYUtIFlWdMm34hz3-7e7p8z0DU_NFSMoUWzvdbBdb1VoQXuTNbnWPIEEZqUtgwKr8OoBxqpfDG6r68NZgj8Vt06HOFiAhHxrlbihtVZ1TXM92OQ-ivEnc_Z-Gh3tCdAt4OphvjaW6bZsiTDHNtt2GSUwA&q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQtKgLegQIExAB
+              - generic [ref=e111]: Videos
+          - listitem [ref=e112]:
+            - button "More filters" [ref=e113] [cursor=pointer]:
+              - generic "More filters" [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]: More
+                  - img [ref=e118]
+        - button "Tools" [ref=e121] [cursor=pointer]:
+          - generic [ref=e123]:
+            - generic [ref=e124]: Tools
+            - img [ref=e126]
+    - heading "Search Results" [level=1] [ref=e128]
+    - main [ref=e134]:
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - heading "Web results" [level=2] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e146]:
+              - link "Barcelona Restaurant Reviews The Infatuation https://www.theinfatuation.com › barcelona" [ref=e148] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/barcelona
+                - heading "Barcelona Restaurant Reviews" [level=3] [ref=e149]
+                - generic [ref=e154]:
+                  - generic [ref=e156]: The Infatuation
+                  - generic [ref=e158]: https://www.theinfatuation.com › barcelona
+              - button "About this result" [ref=e159] [cursor=pointer]:
+                - img [ref=e162]
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - text: The Best Tapas Spots In
+                - emphasis [ref=e167]: Barcelona
+                - text: . Where to
+                - emphasis [ref=e168]: eat
+                - text: squid-ink croquettes, cult-status conservas, and beefy bombas in Catalonia's capital.
+              - link "Read more" [ref=e169] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/barcelona#:~:text=The%20Best%20Tapas%20Spots%20In,beefy%20bombas%20in%20Catalonia's%20capital.
+        - generic [ref=e180]:
+          - heading "Thinking" [level=2] [ref=e184]:
+            - generic [ref=e185]: Thinking
+          - progressbar [ref=e186]
+        - generic [ref=e190]:
+          - heading "Web results" [level=2] [ref=e191]
+          - generic [ref=e192]:
+            - generic [ref=e195]:
+              - 'link "The Hit List: New Barcelona Restaurants To Try Right Now The Infatuation https://www.theinfatuation.com › barcelona › guides" [ref=e197] [cursor=pointer]':
+                - /url: https://www.theinfatuation.com/barcelona/guides/best-new-barcelona-restaurants-hit-list
+                - 'heading "The Hit List: New Barcelona Restaurants To Try Right Now" [level=3] [ref=e198]'
+                - generic [ref=e203]:
+                  - generic [ref=e205]: The Infatuation
+                  - generic [ref=e207]: https://www.theinfatuation.com › barcelona › guides
+              - button "About this result" [ref=e208] [cursor=pointer]:
+                - img [ref=e211]
+            - generic [ref=e214]:
+              - generic [ref=e215]: Jan 21, 2026 —
+              - generic [ref=e216]:
+                - text: "The Hit List: New"
+                - emphasis [ref=e217]: Barcelona Restaurants
+                - text: To Try Right Now · THE SPOTS · Taberna Nardi · Find The
+                - emphasis [ref=e218]: Best
+                - text: Spots Nearby · Seis Cuarenta · Mundial Bar.
+              - link "Read more" [ref=e219] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/barcelona/guides/best-new-barcelona-restaurants-hit-list#:~:text=The%20Hit%20List%3A%20New%20Barcelona,Restaurants%20To%20Try%20Right%20Now&text=THE%20SPOTS&text=Taberna%20Nardi&text=Find%20The%20Best%20Spots%20Nearby&text=Seis%20Cuarenta&text=Mundial%20Bar
+        - generic [ref=e223]:
+          - generic [ref=e226]:
+            - link "The 25 Best Restaurants In Barcelona The Infatuation https://www.theinfatuation.com › barcelona › guides" [ref=e228] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides/best-restaurants-hotels-barcelona
+              - heading "The 25 Best Restaurants In Barcelona" [level=3] [ref=e229]
+              - generic [ref=e234]:
+                - generic [ref=e236]: The Infatuation
+                - generic [ref=e238]: https://www.theinfatuation.com › barcelona › guides
+            - button "About this result" [ref=e239] [cursor=pointer]:
+              - img [ref=e242]
+          - generic [ref=e245]:
+            - generic [ref=e246]: Apr 2, 2026 —
+            - generic [ref=e247]:
+              - text: The
+              - emphasis [ref=e248]: best restaurants
+              - text: in
+              - emphasis [ref=e249]: Barcelona
+              - text: . 25
+              - emphasis [ref=e250]: great restaurants
+              - text: ", tapas bars, and beachside joints in the Catalan capital."
+            - link "Read more" [ref=e251] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides/best-restaurants-hotels-barcelona#:~:text=The%20Best%20Restaurants%20In%20Barcelona&text=25%20great%20restaurants%2C%20tapas%20bars%2C,joints%20in%20the%20Catalan%20capital.
+        - generic [ref=e255]:
+          - generic [ref=e258]:
+            - link "Guides - Barcelona The Infatuation https://www.theinfatuation.com › sitemap-section › gui..." [ref=e260] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/sitemap-section/barcelona/guides
+              - heading "Guides - Barcelona" [level=3] [ref=e261]
+              - generic [ref=e266]:
+                - generic [ref=e268]: The Infatuation
+                - generic [ref=e270]: https://www.theinfatuation.com › sitemap-section › gui...
+            - button "About this result" [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - text: The Best Tapas Spots In
+              - emphasis [ref=e279]: Barcelona
+              - text: · The Best Wine Bars In
+              - emphasis [ref=e280]: Barcelona
+              - text: · 12 New-Wave Vermouth Bars In Spain · The
+              - emphasis [ref=e281]: Best Restaurants
+              - text: In
+              - emphasis [ref=e282]: Barcelona
+              - text: · The Best Paella ...
+            - link "Read more" [ref=e283] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/sitemap-section/barcelona/guides#:~:text=The%20Best%20Tapas%20Spots%20In,The%20Best%20Paella%20In%20Barcelona
+        - generic [ref=e287]:
+          - generic [ref=e290]:
+            - link "The Infatuation The Infatuation https://www.theinfatuation.com" [ref=e292] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/
+              - heading "The Infatuation" [level=3] [ref=e293]
+              - generic [ref=e298]:
+                - generic [ref=e300]: The Infatuation
+                - generic [ref=e302]: https://www.theinfatuation.com
+            - button "About this result" [ref=e303] [cursor=pointer]:
+              - img [ref=e306]
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - text: The
+              - emphasis [ref=e311]: Best Restaurants
+              - text: In New Orleans. A casual wooden restaurant ...
+              - emphasis [ref=e312]: Barcelona
+              - text: · Bentonville · Berlin · Big Sur · Birmingham · Boston · Boulder · Brighton ...
+            - link "Read more" [ref=e313] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/#:~:text=The%20Best%20Restaurants%20In%20New,Orleans&text=Barcelona,Brighton
+        - generic [ref=e317]:
+          - generic [ref=e320]:
+            - link "Barcelona Restaurant Reviews The Infatuation https://www.theinfatuation.com › barcelona › guides" [ref=e322] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides
+              - heading "Barcelona Restaurant Reviews" [level=3] [ref=e323]
+              - generic [ref=e328]:
+                - generic [ref=e330]: The Infatuation
+                - generic [ref=e332]: https://www.theinfatuation.com › barcelona › guides
+            - button "About this result" [ref=e333] [cursor=pointer]:
+              - img [ref=e336]
+          - generic [ref=e339]:
+            - generic [ref=e340]:
+              - text: The
+              - emphasis [ref=e341]: best restaurants
+              - text: in
+              - emphasis [ref=e342]: Barcelona
+              - text: . 25
+              - emphasis [ref=e343]: great restaurants
+              - text: ", tapas bars, and beachside joints in the Catalan capital."
+            - link "Read more" [ref=e344] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides#:~:text=The%20Best%20Restaurants%20In%20Barcelona&text=25%20great%20restaurants%2C%20tapas%20bars%2C,joints%20in%20the%20Catalan%20capital.
+        - generic [ref=e348]:
+          - generic [ref=e351]:
+            - link "15 Iconic Dishes That Define Barcelona The Infatuation https://www.theinfatuation.com › barcelona › guides › i..." [ref=e353] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides/iconic-barcelona-food
+              - heading "15 Iconic Dishes That Define Barcelona" [level=3] [ref=e354]
+              - generic [ref=e359]:
+                - generic [ref=e361]: The Infatuation
+                - generic [ref=e363]: https://www.theinfatuation.com › barcelona › guides › i...
+            - button "About this result" [ref=e364] [cursor=pointer]:
+              - img [ref=e367]
+          - generic [ref=e370]:
+            - generic [ref=e371]: Mar 16, 2026 —
+            - generic [ref=e372]:
+              - text: The
+              - emphasis [ref=e373]: Best Restaurants
+              - text: In
+              - emphasis [ref=e374]: Barcelona
+              - text: . 25
+              - emphasis [ref=e375]: great restaurants
+              - text: ", tapas bars, and beachside joints in the Catalan capital."
+            - link "Read more" [ref=e376] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/barcelona/guides/iconic-barcelona-food#:~:text=The%20Best%20Restaurants%20In%20Barcelona,joints%20in%20the%20Catalan%20capital.
+        - generic [ref=e380]:
+          - generic [ref=e383]:
+            - link "Where To Eat In Spain The Infatuation https://www.theinfatuation.com › all › guidebooks › wh..." [ref=e385] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/guidebooks/where-to-eat-spain
+              - heading "Where To Eat In Spain" [level=3] [ref=e386]
+              - generic [ref=e391]:
+                - generic [ref=e393]: The Infatuation
+                - generic [ref=e395]: https://www.theinfatuation.com › all › guidebooks › wh...
+            - button "About this result" [ref=e396] [cursor=pointer]:
+              - img [ref=e399]
+          - generic [ref=e402]:
+            - generic [ref=e403]:
+              - text: "25"
+              - emphasis [ref=e404]: great restaurants
+              - text: ", tapas bars, and beachside joints in the Catalan capital. The Hit List: New"
+              - emphasis [ref=e405]: Barcelona
+              - text: Restaurants To Try Right Now image ...
+            - link "Read more" [ref=e406] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/guidebooks/where-to-eat-spain#:~:text=25%20great%20restaurants%2C%20tapas%20bars%2C,joints%20in%20the%20Catalan%20capital.
+        - generic [ref=e410]:
+          - generic [ref=e413]:
+            - 'link "Madrid & Barcelona Recs : r/LuxuryTravel Reddit · r/LuxuryTravel 10+ comments · 8 months ago" [ref=e415] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/LuxuryTravel/comments/1mgtd22/madrid_barcelona_recs/
+              - 'heading "Madrid & Barcelona Recs : r/LuxuryTravel" [level=3] [ref=e416]'
+              - generic [ref=e421]:
+                - generic [ref=e423]: Reddit · r/LuxuryTravel
+                - generic [ref=e425]: 10+ comments · 8 months ago
+            - button "About this result" [ref=e426] [cursor=pointer]:
+              - img [ref=e429]
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - text: https://www.
+              - emphasis [ref=e434]: theinfatuation.com
+              - text: /
+              - emphasis [ref=e435]: barcelona
+              - text: /guides/best-bars ... In
+              - emphasis [ref=e436]: Barcelona
+              - text: ", Quimet & Quimet is always on the list of places to"
+              - emphasis [ref=e437]: eat
+              - text: .
+            - link "Read more" [ref=e438] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/LuxuryTravel/comments/1mgtd22/madrid_barcelona_recs/#:~:text=https%3A%2F%2Fwww.theinfatuation.com%2Fbarcelona%2Fguides%2Fbest%2Dbars%2Dbarcelona%3Fifsb%3Dyes&text=In%20Barcelona%2C%20Quimet%20%26%20Quimet,list%20of%20places%20to%20eat.
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "Hello nice restaurant ideas for December 24 please Facebook · Chicago Travel Tips (Tours by Foot) 7 comments · 3 months ago" [ref=e447] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/chicagotraveltips/posts/1740468956913617/
+              - heading "Hello nice restaurant ideas for December 24 please" [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: Facebook · Chicago Travel Tips (Tours by Foot)
+                - generic [ref=e457]: 7 comments · 3 months ago
+            - button "About this result" [ref=e458] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - text: Pretty much anywhere https://www.
+              - emphasis [ref=e466]: theinfatuation.com
+              - text: /chicago ... Hi everyone, will be flying to
+              - emphasis [ref=e467]: Barcelona
+              - text: on 20th till Christmas, can ...
+            - link "Read more" [ref=e468] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/chicagotraveltips/posts/1740468956913617/#:~:text=Pretty%20much%20anywhere%20https%3A%2F%2Fwww.theinfatuation.com%2Fchicago&text=Hi%20everyone%2C%20will%20be%20flying,for%20the%2024th%20of%20December%3F
+      - generic [ref=e470]:
+        - generic [ref=e475]:
+          - heading "People also search for" [level=2] [ref=e477]
+          - generic [ref=e479]:
+            - generic [ref=e480]:
+              - link "Best restaurants in Barcelona" [ref=e484] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+restaurants+in+Barcelona&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAghEAE
+                - generic [ref=e485]:
+                  - generic [ref=e490]: Best restaurants in Barcelona
+                  - img [ref=e494]
+              - link "Infatuation best restaurants Barcelona" [ref=e499] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Infatuation+best+restaurants+Barcelona&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAg7EAE
+                - generic [ref=e500]:
+                  - generic [ref=e505]: Infatuation best restaurants Barcelona
+                  - img [ref=e509]
+              - link "Best new restaurants Barcelona" [ref=e514] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+new+restaurants+Barcelona&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAg0EAE
+                - generic [ref=e515]:
+                  - generic [ref=e520]: Best new restaurants Barcelona
+                  - img [ref=e524]
+              - link "Best restaurants Barcelona El Born" [ref=e529] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+restaurants+Barcelona+El+Born&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAgxEAE
+                - generic [ref=e530]:
+                  - generic [ref=e535]: Best restaurants Barcelona El Born
+                  - img [ref=e539]
+            - generic [ref=e541]:
+              - link "Best restaurantsEixample" [ref=e545] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+restaurantsEixample&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAgsEAE
+                - generic [ref=e546]:
+                  - generic [ref=e551]: Best restaurantsEixample
+                  - img [ref=e555]
+              - link "Best Catalan restaurants in Barcelona" [ref=e560] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+Catalan+restaurants+in+Barcelona&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAgqEAE
+                - generic [ref=e561]:
+                  - generic [ref=e566]: Best Catalan restaurants in Barcelona
+                  - img [ref=e570]
+              - link "Infatuation Barcelona tapas" [ref=e575] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Infatuation+Barcelona+tapas&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAglEAE
+                - generic [ref=e576]:
+                  - generic [ref=e581]: Infatuation Barcelona tapas
+                  - img [ref=e585]
+              - link "Best restaurants Gracia, Barcelona" [ref=e590] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&q=Best+restaurants+Gracia,+Barcelona&sa=X&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ1QJ6BAgiEAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: Best restaurants Gracia, Barcelona
+                  - img [ref=e600]
+        - navigation [ref=e602]:
+          - heading "Page Navigation" [level=1] [ref=e603]
+          - text: "1"
+          - link "Page 2" [ref=e606] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=10&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAE
+            - text: "2"
+          - link "Page 3" [ref=e608] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=20&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAG
+            - text: "3"
+          - link "Page 4" [ref=e610] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=30&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAI
+            - text: "4"
+          - link "Page 5" [ref=e612] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=40&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAK
+            - text: "5"
+          - link "Page 6" [ref=e614] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=50&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAM
+            - text: "6"
+          - link "Page 7" [ref=e616] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=60&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAO
+            - text: "7"
+          - link "Page 8" [ref=e618] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=70&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAQ
+            - text: "8"
+          - link "Page 9" [ref=e620] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=80&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAS
+            - text: "9"
+          - link "Page 10" [ref=e622] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=90&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8tMDegQICxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e624]:
+            - link "Next" [ref=e625] [cursor=pointer]:
+              - /url: /search?q=%22theinfatuation.com%22+%22barcelona%22+best+restaurants&sca_esv=0baaa2d5d8a71e57&hl=en&ei=QJ_aaZbIKfrV5NoP9qTlkA8&start=10&sa=N&sstk=Af77f_f_1bO7XhUB1COLy34RT4cs10jTPOevsyDnJmWI-yTYSGlsaOqd26YRGd0OtBnKtYQeY7ceSrCzQNnW8bdQ896Bl4iPXBygjA&ved=2ahUKEwiW6ILEwuaTAxX6KlkFHXZSGfIQ8NMDegQICxAW
+              - generic [ref=e627]: Next
+      - navigation
+    - contentinfo [ref=e628]:
+      - heading "Footer Links" [level=1] [ref=e629]
+      - generic [ref=e633]:
+        - generic [ref=e637]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e639] [cursor=pointer]:
+            - generic [ref=e640]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e642]:
+              - text: "-"
+              - generic [ref=e643]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e645] [cursor=pointer]: Update location
+        - generic [ref=e648]:
+          - link "Help" [ref=e649] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e650] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e651] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e652] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,384 @@
+- generic [ref=e2]:
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - link "Skip to content" [ref=e10] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e11] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: Section Navigation
+          - img [ref=e14]
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Search
+          - img [ref=e21]
+      - link "36 Hours" [ref=e24] [cursor=pointer]:
+        - /url: https://www.nytimes.com/column/36-hours
+      - link "New York Times homepage" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e27]
+      - generic [ref=e29]:
+        - link "Subscribe for $1/week" [ref=e31] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+          - generic [ref=e32]: Subscribe for $1/week
+        - link "Log in" [ref=e33] [cursor=pointer]:
+          - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fcolumn%252F36-hours&asset=masthead
+          - generic [ref=e34]: Log in
+  - generic [ref=e35]:
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - link "Travel" [ref=e44] [cursor=pointer]:
+            - /url: /section/travel
+          - generic [ref=e46]:
+            - heading "36 Hours" [level=1] [ref=e48]
+            - heading "Have a weekend to explore a destination? Find your perfect itinerary here." [level=2] [ref=e49]
+        - generic [ref=e51]:
+          - navigation [ref=e52]:
+            - tablist [ref=e53]:
+              - heading "Latest" [level=2] [ref=e54]:
+                - tab "Latest" [selected] [ref=e55] [cursor=pointer]
+              - tab "Search" [ref=e56] [cursor=pointer]:
+                - img [ref=e57]
+                - text: Search
+          - generic [ref=e60]:
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - generic [ref=e63]:
+                  - article [ref=e64]:
+                    - group "media" [ref=e65]
+                    - link "36 Hours in Richmond, Va." [ref=e67] [cursor=pointer]:
+                      - /url: /interactive/2026/04/23/travel/things-to-do-richmond.html
+                      - heading "36 Hours in Richmond, Va." [level=3] [ref=e68]
+                    - paragraph [ref=e69]: In the onetime Confederate capital, history is being told with newfound clarity.
+                    - paragraph [ref=e70]:
+                      - text: By
+                      - generic [ref=e71]: Alexander Nazaryan and Carolyn Van Houten
+                  - generic [ref=e72]: April 23, 2026
+              - listitem [ref=e73]:
+                - generic [ref=e74]:
+                  - article [ref=e75]:
+                    - group "media" [ref=e76]
+                    - link "36 Hours in Santa Cruz, Calif." [ref=e78] [cursor=pointer]:
+                      - /url: /interactive/2026/04/16/travel/things-to-do-santa-cruz.html
+                      - heading "36 Hours in Santa Cruz, Calif." [level=3] [ref=e79]
+                    - paragraph [ref=e80]: Find in microcosm so much that is great about California, including towering redwoods, surf culture and renowned wineries.
+                    - paragraph [ref=e81]:
+                      - text: By
+                      - generic [ref=e82]: David Farley and Ruth Fremson
+                  - generic [ref=e83]: April 16, 2026
+              - listitem [ref=e84]:
+                - generic [ref=e85]:
+                  - article [ref=e86]:
+                    - group "media" [ref=e87]
+                    - link "36 Hours in Hoi An, Vietnam" [ref=e89] [cursor=pointer]:
+                      - /url: /interactive/2026/04/09/travel/things-to-do-hoi-an.html
+                      - heading "36 Hours in Hoi An, Vietnam" [level=3] [ref=e90]
+                    - paragraph [ref=e91]: Find timeworn architecture, tea ceremonies, modern dining and a world-class circus beneath a bamboo dome on Vietnam’s central coast.
+                    - paragraph [ref=e92]:
+                      - text: By
+                      - generic [ref=e93]: Kit Humphrey and Linh Pham
+                  - generic [ref=e94]: April 9, 2026
+              - listitem [ref=e95]:
+                - generic [ref=e96]:
+                  - article [ref=e97]:
+                    - group "media" [ref=e98]
+                    - link "36 Hours in Queenstown, New Zealand" [ref=e100] [cursor=pointer]:
+                      - /url: /interactive/2026/04/02/travel/things-to-do-queenstown.html
+                      - heading "36 Hours in Queenstown, New Zealand" [level=3] [ref=e101]
+                    - paragraph [ref=e102]: An adventure town famous for madcap thrills is offering something relatively radical — relaxation.
+                    - paragraph [ref=e103]:
+                      - text: By
+                      - generic [ref=e104]: Brittany Lyte and Simon Devitt
+                  - generic [ref=e105]: April 2, 2026
+              - listitem [ref=e106]:
+                - generic [ref=e107]:
+                  - article [ref=e108]:
+                    - group "media" [ref=e109]
+                    - link "36 Hours in Raleigh, N.C." [ref=e111] [cursor=pointer]:
+                      - /url: /interactive/2026/03/26/travel/things-to-do-raleigh.html
+                      - heading "36 Hours in Raleigh, N.C." [level=3] [ref=e112]
+                    - paragraph [ref=e113]: A leveled-up dining scene, upgraded greenways and public art await weekend visitors to this Southern capital.
+                    - paragraph [ref=e114]:
+                      - text: By
+                      - generic [ref=e115]: Ingrid K. Williams and Mike Belleme
+                  - generic [ref=e116]: March 26, 2026
+              - listitem [ref=e117]:
+                - generic [ref=e118]:
+                  - article [ref=e119]:
+                    - group "media" [ref=e120]
+                    - link "36 Hours in Shanghai" [ref=e122] [cursor=pointer]:
+                      - /url: /interactive/2026/03/19/travel/things-to-do-shanghai.html
+                      - heading "36 Hours in Shanghai" [level=3] [ref=e123]
+                    - paragraph [ref=e124]: In China’s second-largest city, historic architecture finds new life as galleries and dining destinations.
+                    - paragraph [ref=e125]: By Erin Vivid Riley
+                  - generic [ref=e126]: March 19, 2026
+              - listitem [ref=e127]:
+                - generic [ref=e128]:
+                  - article [ref=e129]:
+                    - group "media" [ref=e130]
+                    - link "36 Hours in Grand Junction, Colo." [ref=e132] [cursor=pointer]:
+                      - /url: /interactive/2026/03/12/travel/things-to-do-grand-junction.html
+                      - heading "36 Hours in Grand Junction, Colo." [level=3] [ref=e133]
+                    - paragraph [ref=e134]: This western Colorado city is drawing more than just outdoor enthusiasts with its small but growing destination-dining scene, new hotels and expanded arts programming.
+                    - paragraph [ref=e135]: By Cindy Hirschfeld
+                  - generic [ref=e136]: March 12, 2026
+              - listitem [ref=e137]:
+                - generic [ref=e138]:
+                  - article [ref=e139]:
+                    - group "media" [ref=e140]
+                    - link "36 Hours in Bologna, Italy" [ref=e142] [cursor=pointer]:
+                      - /url: /interactive/2026/03/05/travel/things-to-do-bologna.html
+                      - heading "36 Hours in Bologna, Italy" [level=3] [ref=e143]
+                    - paragraph [ref=e144]: While Emilia-Romagna’s capital still thrives on traditions like tagliatelle al ragù and mortadella, new openings are taking the city in refreshing directions.
+                    - paragraph [ref=e145]:
+                      - text: By
+                      - generic [ref=e146]: Evan Rail and Marta Giaccone
+                  - generic [ref=e147]: March 5, 2026
+              - listitem [ref=e148]:
+                - generic [ref=e149]:
+                  - article [ref=e150]:
+                    - group "media" [ref=e151]
+                    - link "36 Hours in Las Vegas" [ref=e153] [cursor=pointer]:
+                      - /url: /interactive/2026/02/26/travel/things-to-do-las-vegas.html
+                      - heading "36 Hours in Las Vegas" [level=3] [ref=e154]
+                    - paragraph [ref=e155]: Visitors seeking all manner of newfangled, over-the-top thrills won’t be disappointed.
+                    - paragraph [ref=e156]:
+                      - text: By
+                      - generic [ref=e157]: Alex Schechter and Roger Kisby
+                  - generic [ref=e158]: Feb. 26, 2026
+              - listitem [ref=e159]:
+                - generic [ref=e160]:
+                  - article [ref=e161]:
+                    - group "media" [ref=e162]
+                    - link "36 Hours in Savannah, Ga." [ref=e164] [cursor=pointer]:
+                      - /url: /interactive/2026/02/19/travel/things-to-do-savannah.html
+                      - heading "36 Hours in Savannah, Ga." [level=3] [ref=e165]
+                    - paragraph [ref=e166]: The present and past coexist in a Southern city unlike any other.
+                    - paragraph [ref=e167]:
+                      - text: By
+                      - generic [ref=e168]: Rick Rojas and Adam Kuehl
+                  - generic [ref=e169]: Feb. 19, 2026
+              - listitem [ref=e170]:
+                - generic [ref=e171]:
+                  - article [ref=e172]:
+                    - group "media" [ref=e173]
+                    - link "36 Hours in Seville, Spain" [ref=e175] [cursor=pointer]:
+                      - /url: /interactive/2026/02/12/travel/things-to-do-seville.html
+                      - heading "36 Hours in Seville, Spain" [level=3] [ref=e176]
+                    - paragraph [ref=e177]: Few European cities combine history, beauty and walkability as seductively as this Andalusian capital.
+                    - paragraph [ref=e178]:
+                      - text: By
+                      - generic [ref=e179]: Andrew Ferren and Emilio Parra Doiztua
+                  - generic [ref=e180]: Feb. 12, 2026
+              - listitem [ref=e181]:
+                - generic [ref=e182]:
+                  - article [ref=e183]:
+                    - group "media" [ref=e184]
+                    - link "36 Hours in Lagos, Nigeria" [ref=e186] [cursor=pointer]:
+                      - /url: /interactive/2026/02/05/travel/things-to-do-lagos.html
+                      - heading "36 Hours in Lagos, Nigeria" [level=3] [ref=e187]
+                    - paragraph [ref=e188]: Nigeria’s mega metropolis is gaining attention for its youth culture and Afrobeats music scene.
+                    - paragraph [ref=e189]:
+                      - text: By
+                      - generic [ref=e190]: Dipo Faloyin and Francis Kokoroko
+                  - generic [ref=e191]: Feb. 5, 2026
+              - listitem [ref=e192]:
+                - generic [ref=e193]:
+                  - article [ref=e194]:
+                    - group "media" [ref=e195]
+                    - link "36 Hours on Vieques, P.R." [ref=e197] [cursor=pointer]:
+                      - /url: /interactive/2026/01/29/travel/things-to-do-vieques.html
+                      - heading "36 Hours on Vieques, P.R." [level=3] [ref=e198]
+                    - paragraph [ref=e199]: Drive winding roads, past free-roaming horses, to the secluded white-sand beaches of this rugged Puerto Rican island.
+                    - paragraph [ref=e200]:
+                      - text: By
+                      - generic [ref=e201]: Luis Ferré-Sadurní and Erika P. Rodríguez
+                  - generic [ref=e202]: Jan. 29, 2026
+              - listitem [ref=e203]:
+                - generic [ref=e204]:
+                  - article [ref=e205]:
+                    - group "media" [ref=e206]
+                    - link "36 Hours in Mexico City" [ref=e208] [cursor=pointer]:
+                      - /url: /interactive/2026/01/22/travel/things-to-do-mexico-city.html
+                      - heading "36 Hours in Mexico City" [level=3] [ref=e209]
+                    - paragraph [ref=e210]: The Mexican capital is constantly changing, uncommonly warm and never less than thrilling.
+                    - paragraph [ref=e211]:
+                      - text: By
+                      - generic [ref=e212]: Michael Snyder and Jake Naughton
+                  - generic [ref=e213]: Jan. 22, 2026
+              - listitem [ref=e214]:
+                - generic [ref=e215]:
+                  - article [ref=e216]:
+                    - group "media" [ref=e217]
+                    - link "36 Hours in Sapporo, Japan" [ref=e219] [cursor=pointer]:
+                      - /url: /interactive/2026/01/15/travel/things-to-do-sapporo.html
+                      - heading "36 Hours in Sapporo, Japan" [level=3] [ref=e220]
+                    - paragraph [ref=e221]: The snowy capital of the island of Hokkaido offers a quieter alternative to Japan’s congested “Golden Route” of Tokyo, Osaka and Kyoto.
+                    - paragraph [ref=e222]:
+                      - text: By
+                      - generic [ref=e223]: River Akira Davis, Kiuko Notoya and Hiroko Masuike
+                  - generic [ref=e224]: Jan. 15, 2026
+              - listitem [ref=e225]:
+                - generic [ref=e226]:
+                  - article [ref=e227]:
+                    - group "media" [ref=e228]
+                    - link "36 Hours in Cortina d’Ampezzo, Italy" [ref=e230] [cursor=pointer]:
+                      - /url: /interactive/2026/01/01/travel/things-to-do-cortina.html
+                      - heading "36 Hours in Cortina d’Ampezzo, Italy" [level=3] [ref=e231]
+                    - paragraph [ref=e232]: A snowy playground for the conspicuously wealthy and a co-host of the 2026 Winter Olympics, this tiny Dolomite town is ready for its close-up.
+                    - paragraph [ref=e233]: By Laura Rysman
+                  - generic [ref=e234]: Jan. 1, 2026
+              - listitem [ref=e235]:
+                - generic [ref=e236]:
+                  - article [ref=e237]:
+                    - group "media" [ref=e238]
+                    - link "36 Hours in Park City, Utah" [ref=e240] [cursor=pointer]:
+                      - /url: /interactive/2025/12/25/travel/things-to-do-park-city.html
+                      - heading "36 Hours in Park City, Utah" [level=3] [ref=e241]
+                    - paragraph [ref=e242]: More than 2,000 acres of new ski area add to the allure of this sporty mecca with a thriving cultural scene.
+                    - paragraph [ref=e243]:
+                      - text: By
+                      - generic [ref=e244]: Cindy Hirschfeld and Alex Goodlett
+                  - generic [ref=e245]: Dec. 25, 2025
+              - listitem [ref=e246]:
+                - generic [ref=e247]:
+                  - article [ref=e248]:
+                    - group "media" [ref=e249]
+                    - link "36 Hours in San Luis Obispo County" [ref=e251] [cursor=pointer]:
+                      - /url: /interactive/2025/12/18/travel/things-to-do-san-luis-obispo.html
+                      - heading "36 Hours in San Luis Obispo County" [level=3] [ref=e252]
+                    - paragraph [ref=e253]: Wineries and boutique hotels have sprouted along the backroads and once-sleepy main streets of this Central Coast county.
+                    - paragraph [ref=e254]: By Freda Moon
+                  - generic [ref=e255]: Dec. 18, 2025
+              - listitem [ref=e256]:
+                - generic [ref=e257]:
+                  - article [ref=e258]:
+                    - group "media" [ref=e259]
+                    - link "36 Hours in Toulouse, France" [ref=e261] [cursor=pointer]:
+                      - /url: /interactive/2025/12/11/travel/things-to-do-toulouse.html
+                      - heading "36 Hours in Toulouse, France" [level=3] [ref=e262]
+                    - paragraph [ref=e263]: The riverside, red-brick city in southwestern France, already a hub for aerospace technology, is undergoing a cultural rebirth with the reopening of several top art museums.
+                    - paragraph [ref=e264]:
+                      - text: By
+                      - generic [ref=e265]: Seth Sherwood and Jonathan Stokes
+                  - generic [ref=e266]: Dec. 11, 2025
+              - listitem [ref=e267]:
+                - generic [ref=e268]:
+                  - article [ref=e269]:
+                    - group "media" [ref=e270]
+                    - link "36 Hours in Dresden, Germany" [ref=e272] [cursor=pointer]:
+                      - /url: /interactive/2025/12/04/travel/things-to-do-dresden.html
+                      - heading "36 Hours in Dresden, Germany" [level=3] [ref=e273]
+                    - paragraph [ref=e274]: History never feels out of reach in the capital of Saxony, lush with avant-garde art, restored Baroque architecture and one of Europe’s oldest Christmas markets.
+                    - paragraph [ref=e275]:
+                      - text: By
+                      - generic [ref=e276]: Evan Rail and Andreas Meichsner
+                  - generic [ref=e277]: Dec. 4, 2025
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - text: Page
+                - strong [ref=e280]: "1"
+                - text: of
+                - strong [ref=e281]: "10"
+              - navigation "Page Navigation" [ref=e282]:
+                - list [ref=e283]:
+                  - listitem [ref=e284]:
+                    - link "Go to page 1" [ref=e285] [cursor=pointer]:
+                      - /url: /column/36-hours
+                      - strong [ref=e286]: "1"
+                  - listitem [ref=e287]:
+                    - link "Go to page 2" [ref=e288] [cursor=pointer]:
+                      - /url: /column/36-hours?page=2
+                      - text: "2"
+                  - listitem [ref=e289]:
+                    - link "Go to page 3" [ref=e290] [cursor=pointer]:
+                      - /url: /column/36-hours?page=3
+                      - text: "3"
+                  - listitem [ref=e291]:
+                    - link "Go to page 4" [ref=e292] [cursor=pointer]:
+                      - /url: /column/36-hours?page=4
+                      - text: "4"
+                  - listitem [ref=e293]:
+                    - link "Go to page 5" [ref=e294] [cursor=pointer]:
+                      - /url: /column/36-hours?page=5
+                      - text: "5"
+                  - listitem [ref=e295]:
+                    - link "Go to page 6" [ref=e296] [cursor=pointer]:
+                      - /url: /column/36-hours?page=6
+                      - text: "6"
+                  - listitem [ref=e297]:
+                    - link "Go to page 7" [ref=e298] [cursor=pointer]:
+                      - /url: /column/36-hours?page=7
+                      - text: "7"
+                  - listitem [ref=e299]:
+                    - link "Go to page 8" [ref=e300] [cursor=pointer]:
+                      - /url: /column/36-hours?page=8
+                      - text: "8"
+                  - listitem [ref=e301]:
+                    - link "Go to page 9" [ref=e302] [cursor=pointer]:
+                      - /url: /column/36-hours?page=9
+                      - text: "9"
+                  - listitem [ref=e303]:
+                    - link "Go to page 10" [ref=e304] [cursor=pointer]:
+                      - /url: /column/36-hours?page=10
+                      - text: "10"
+        - generic:
+          - log [ref=e306]
+          - log [ref=e307]
+          - log [ref=e308]: Additional results have loaded
+          - log [ref=e309]
+    - navigation "Site Index" [ref=e310]:
+      - heading "Site Index" [level=2] [ref=e311]
+    - contentinfo [ref=e313]:
+      - navigation [ref=e314]:
+        - heading "Site Information Navigation" [level=2] [ref=e315]
+        - list [ref=e316]:
+          - listitem [ref=e317]:
+            - link "© 2026 The New York Times Company" [ref=e318] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e319]:
+          - listitem [ref=e320]:
+            - link "NYTCo" [ref=e321] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e322]:
+            - link "Contact Us" [ref=e323] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e324]:
+            - link "Accessibility" [ref=e325] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e326]:
+            - link "Work with us" [ref=e327] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e328]:
+            - link "Advertise" [ref=e329] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e330]:
+            - link "T Brand Studio" [ref=e331] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e332]:
+            - link "Privacy Policy" [ref=e333] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e334]:
+            - link "Cookie Policy" [ref=e335] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e336]:
+            - link "Terms of Service" [ref=e337] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e338]:
+            - link "Terms of Sale" [ref=e339] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e340]:
+            - link "Site Map" [ref=e341] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e342]:
+            - link "Help" [ref=e343] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e344]:
+            - link "Subscriptions" [ref=e345] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e346]:
+          - listitem [ref=e347]:
+            - button "Your Privacy Choices" [ref=e348] [cursor=pointer]:
+              - img [ref=e349]
+              - text: Your Privacy Choices

@@ -1,0 +1,460 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Ponta Delgada PDL" [ref=e177]: Ponta Delgada
+                - generic [ref=e179]: Ponta Delgada PDL
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 5 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 1511 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $1,511
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 1511 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:17 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:40 AM on Sunday, August 9. Total duration 9 hr 23 min. Layover (1 of 1) is a 2 hr 6 min layover at Newark Liberty International Airport in Newark. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 7:17 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:40 AM on Sunday, August 9." [ref=e411]:
+                            - 'generic "Departure time: 7:17 PM." [ref=e414]': 7:17 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:40 AM on Sunday, August 9." [ref=e417]':
+                              - 'generic "Arrival time: 8:40 AM on Sunday, August 9." [ref=e418]':
+                                - text: 8:40 AM
+                                - generic [ref=e419]: "+1"
+                          - generic [ref=e420]:
+                            - text: United
+                            - generic [ref=e421]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e422]:
+                          - generic "Total duration 9 hr 23 min." [ref=e423]: 9 hr 23 min
+                          - generic [ref=e424]:
+                            - generic [ref=e427]: PIT
+                            - text: –
+                            - generic [ref=e430]: PDL
+                        - generic [ref=e431]:
+                          - generic "1 stop flight." [ref=e433]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 6 min layover at Newark Liberty International Airport in Newark." [ref=e434]:
+                            - text: 2 hr 6 min
+                            - generic [ref=e436]: EWR
+                        - generic [ref=e438]:
+                          - generic [ref=e440]: 451 kg CO2e
+                          - generic [ref=e441]:
+                            - generic [ref=e442]: "-6% emissions"
+                            - 'button "Carbon emissions estimate: 451 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e443]':
+                              - img [ref=e444]
+                        - generic [ref=e446]:
+                          - generic [ref=e448]: $1,511
+                          - generic [ref=e449]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:17 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:40 AM on Sunday, August 9." [ref=e452]:
+                      - img [ref=e455]
+                - listitem [ref=e457]:
+                  - generic [ref=e458]:
+                    - link "From 1515 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9. Total duration 22 hr 20 min. Layover (1 of 1) is a 15 hr 26 min layover at Toronto Pearson International Airport in Toronto. Select flight"
+                    - generic [ref=e460] [cursor=pointer]:
+                      - generic [ref=e462]:
+                        - generic [ref=e464]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9." [ref=e466]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e469]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e472]':
+                              - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e473]':
+                                - text: 8:20 AM
+                                - generic [ref=e474]: "+1"
+                          - generic [ref=e475]:
+                            - text: Air Canada
+                            - generic [ref=e476]: ·
+                            - text: United, Lufthansa
+                            - generic [ref=e477]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e478]:
+                          - generic "Total duration 22 hr 20 min." [ref=e479]: 22 hr 20 min
+                          - generic [ref=e480]:
+                            - generic [ref=e483]: PIT
+                            - text: –
+                            - generic [ref=e486]: PDL
+                        - generic [ref=e487]:
+                          - generic [ref=e488]:
+                            - generic "1 stop flight." [ref=e489]: 1 stop
+                            - img [ref=e494]
+                          - generic "Layover (1 of 1) is a 15 hr 26 min layover at Toronto Pearson International Airport in Toronto." [ref=e497]:
+                            - text: 15 hr 26 min
+                            - generic [ref=e499]: YYZ
+                        - generic [ref=e501]:
+                          - generic [ref=e503]: 389 kg CO2e
+                          - generic [ref=e504]:
+                            - generic [ref=e505]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 389 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e506]':
+                              - img [ref=e507]
+                        - generic [ref=e509]:
+                          - generic [ref=e511]: $1,515
+                          - generic [ref=e512]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9." [ref=e515]:
+                      - img [ref=e518]
+                - listitem [ref=e520]:
+                  - generic [ref=e521]:
+                    - link "From 1594 US dollars round trip total. 2 stops flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9. Total duration 12 hr 45 min. Layover (1 of 2) is a 1 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Layover (2 of 2) is a 2 hr 40 min layover at Toronto Pearson International Airport in Toronto. Select flight"
+                    - generic [ref=e523] [cursor=pointer]:
+                      - generic [ref=e525]:
+                        - generic [ref=e527]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9." [ref=e529]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e532]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e535]':
+                              - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e536]':
+                                - text: 8:20 AM
+                                - generic [ref=e537]: "+1"
+                          - generic [ref=e538]:
+                            - text: Air Canada
+                            - generic [ref=e539]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e540]:
+                          - generic "Total duration 12 hr 45 min." [ref=e541]: 12 hr 45 min
+                          - generic [ref=e542]:
+                            - generic [ref=e545]: PIT
+                            - text: –
+                            - generic [ref=e548]: PDL
+                        - generic [ref=e549]:
+                          - generic "2 stops flight." [ref=e551]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Layover (2 of 2) is a 2 hr 40 min layover at Toronto Pearson International Airport in Toronto." [ref=e552]:
+                            - generic [ref=e554]: YUL
+                            - text: ","
+                            - generic [ref=e556]: YYZ
+                        - generic [ref=e558]:
+                          - generic [ref=e560]: 497 kg CO2e
+                          - generic [ref=e561]:
+                            - generic [ref=e562]: Avg emissions
+                            - 'button "Carbon emissions estimate: 497 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e563]':
+                              - img [ref=e564]
+                        - generic [ref=e566]:
+                          - generic [ref=e568]: $1,594
+                          - generic [ref=e569]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 8:20 AM on Sunday, August 9." [ref=e572]:
+                      - img [ref=e575]
+            - generic [ref=e581]:
+              - heading "Price insights" [level=3] [ref=e582]
+              - generic [ref=e583] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e588]
+                - generic [ref=e590]: View price history
+                - button "View price history" [ref=e592]:
+                  - img [ref=e595]
+            - region "Find the best price" [ref=e597]:
+              - generic [ref=e600]:
+                - img [ref=e601]
+                - heading "Track prices" [level=2] [ref=e603]
+                - button "Learn more about tracked prices" [ref=e607] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e608]:
+                    - img [ref=e609]
+                - generic [ref=e611]: Track prices from Pittsburgh to Ponta Delgada departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e612]:
+                  - generic [ref=e614] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Ponta Delgada departing 2026-08-08 and returning 2026-08-15" [ref=e617] [cursor=pointer]:
+                    - generic [ref=e622]:
+                      - img [ref=e623]
+                      - img [ref=e625]
+                - generic [ref=e628]: Track prices from Pittsburgh to Ponta Delgada - Any dates
+                - generic [ref=e630]:
+                  - generic [ref=e631] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Ponta Delgada - Any dates" [ref=e634] [cursor=pointer]:
+                    - generic [ref=e639]:
+                      - img [ref=e640]
+                      - img [ref=e642]
+              - generic [ref=e647]:
+                - button "Date grid" [ref=e649]:
+                  - img [ref=e651]
+                  - generic [ref=e658]: Date grid
+                - button "Price graph" [ref=e660]:
+                  - img [ref=e662]
+                  - generic [ref=e672]: Price graph
+            - generic [ref=e673]:
+              - heading "Other departing flights" [level=3] [ref=e674]
+              - list [ref=e675]:
+                - listitem [ref=e676]:
+                  - generic [ref=e677]:
+                    - link "From 3052 US dollars round trip total. 1 stop flight with Air Canada and Azores Airlines. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 6:50 AM on Sunday, August 9. Total duration 11 hr 15 min. Layover (1 of 1) is a 4 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Select flight"
+                    - generic [ref=e679] [cursor=pointer]:
+                      - generic [ref=e681]:
+                        - generic [ref=e683]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 6:50 AM on Sunday, August 9." [ref=e685]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e688]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:50 AM on Sunday, August 9." [ref=e691]':
+                              - 'generic "Arrival time: 6:50 AM on Sunday, August 9." [ref=e692]':
+                                - text: 6:50 AM
+                                - generic [ref=e693]: "+1"
+                          - generic [ref=e694]:
+                            - text: Air Canada, Azores Airlines
+                            - generic [ref=e695]: ·
+                            - text: United
+                            - generic [ref=e696]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e697]:
+                          - generic "Total duration 11 hr 15 min." [ref=e698]: 11 hr 15 min
+                          - generic [ref=e699]:
+                            - generic [ref=e702]: PIT
+                            - text: –
+                            - generic [ref=e705]: PDL
+                        - generic [ref=e706]:
+                          - generic "1 stop flight." [ref=e708]: 1 stop
+                          - generic "Layover (1 of 1) is a 4 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal." [ref=e709]:
+                            - text: 4 hr 31 min
+                            - generic [ref=e711]: YUL
+                        - generic [ref=e713]:
+                          - generic [ref=e715]: 410 kg CO2e
+                          - generic [ref=e716]:
+                            - generic [ref=e717]: "-14% emissions"
+                            - 'button "Carbon emissions estimate: 410 kilograms. -14% emissions. Learn more about this emissions estimate" [ref=e718]':
+                              - img [ref=e719]
+                        - generic [ref=e721]:
+                          - generic [ref=e723]: $3,052
+                          - generic [ref=e724]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 6:50 AM on Sunday, August 9." [ref=e727]:
+                      - img [ref=e730]
+                - listitem [ref=e732]:
+                  - generic [ref=e733]:
+                    - link "From 3927 US dollars round trip total. 2 stops flight with JetBlue and Tap Air Portugal. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 9:45 AM on Sunday, August 9. Total duration 19 hr 6 min. Layover (1 of 2) is a 5 hr 49 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 2 hr 35 min layover at Humberto Delgado Airport in Lisbon. Select flight"
+                    - generic [ref=e735] [cursor=pointer]:
+                      - generic [ref=e737]:
+                        - generic [ref=e739]:
+                          - generic "Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 9:45 AM on Sunday, August 9." [ref=e741]:
+                            - 'generic "Departure time: 10:39 AM." [ref=e744]': 10:39 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:45 AM on Sunday, August 9." [ref=e747]':
+                              - 'generic "Arrival time: 9:45 AM on Sunday, August 9." [ref=e748]':
+                                - text: 9:45 AM
+                                - generic [ref=e749]: "+1"
+                          - generic [ref=e750]: JetBlue, Tap Air Portugal
+                        - generic [ref=e751]:
+                          - generic "Total duration 19 hr 6 min." [ref=e752]: 19 hr 6 min
+                          - generic [ref=e753]:
+                            - generic [ref=e756]: PIT
+                            - text: –
+                            - generic [ref=e759]: PDL
+                        - generic [ref=e760]:
+                          - generic [ref=e761]:
+                            - generic "2 stops flight." [ref=e762]: 2 stops
+                            - img [ref=e767]
+                          - generic "Layover (1 of 2) is a 5 hr 49 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 2 hr 35 min layover at Humberto Delgado Airport in Lisbon." [ref=e770]:
+                            - generic [ref=e772]: BOS
+                            - text: ","
+                            - generic [ref=e774]: LIS
+                        - generic [ref=e776]:
+                          - generic [ref=e778]: 620 kg CO2e
+                          - generic [ref=e779]:
+                            - generic [ref=e780]: +29% emissions
+                            - 'button "Carbon emissions estimate: 620 kilograms. +29% emissions. Learn more about this emissions estimate" [ref=e781]':
+                              - img [ref=e782]
+                        - generic [ref=e784]:
+                          - generic [ref=e786]: $3,927
+                          - generic [ref=e787]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Aeroporto João Paulo II at 9:45 AM on Sunday, August 9." [ref=e790]:
+                      - img [ref=e793]
+                - listitem [ref=e795]:
+                  - generic [ref=e796] [cursor=pointer]:
+                    - button "View more flights" [ref=e799]:
+                      - img
+                    - generic [ref=e802]: View more flights
+          - text: · · ·· · ·· · ·· ·· · · ·· · ·· · ·· ·· · ··
+      - contentinfo [ref=e805]:
+        - generic [ref=e807]:
+          - button "Language·English (United States)" [ref=e808]:
+            - img [ref=e811]
+            - generic [ref=e813]: Language·English (United States)
+          - button "Location·United States" [ref=e814]:
+            - img [ref=e817]
+            - generic [ref=e820]: Location·United States
+          - button "Currency USD" [ref=e821]:
+            - img [ref=e824]
+            - generic [ref=e834]: Currency·USD
+        - generic [ref=e835]:
+          - link "About Google Travel" [ref=e836] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e837] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e838] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e839] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e840] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e841] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e843]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e844] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

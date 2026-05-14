@@ -1,0 +1,582 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - figure "scoop-picture" [ref=e38]:
+            - img "Two stroll along a raised cobblestoned pathway in a European city in the daytime. Next to the pathway is a row of different colored houses — in blue, yellow and pink. There is also an old-fashioned lamp post." [ref=e42]
+          - generic [ref=e43]:
+            - link "36 Hours" [ref=e46] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e48]: Lisbon
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "Jump to:"
+            - link "Recommendations" [ref=e53] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e55] [cursor=pointer]:
+              - /url: "#itinerary"
+            - link "Google Map" [ref=e57] [cursor=pointer]:
+              - /url: https://goo.gl/maps/Nzkj8G9TkTs5uxy8A
+            - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e60]:
+              - list [ref=e62]:
+                - listitem [ref=e63]:
+                  - button "Share full article" [ref=e66] [cursor=pointer]:
+                    - generic [ref=e67]:
+                      - img [ref=e68]
+                      - text: Share full article
+                - listitem [ref=e70]:
+                  - button "More sharing options ..." [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+                - listitem [ref=e76]:
+                  - switch "Save article for reading later..." [ref=e77] [cursor=pointer]:
+                    - img [ref=e78]
+                - listitem [ref=e82]:
+                  - button "Read 325 comments" [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]:
+                      - img [ref=e85]
+                      - text: "325"
+          - generic [ref=e87]:
+            - generic [ref=e88]: By Seth Sherwood
+            - generic [ref=e89]: Photographs by Kerry Murray
+            - generic [ref=e90]: April 20, 2023
+          - paragraph [ref=e91]:
+            - text: You’ll very likely hear many other languages than just Portuguese these days in the hilly, sun-warmed streets of Lisbon, Portugal’s capital, as millions pour in as digital nomads, service-industry workers, home buyers and tourists. For travelers, especially in the summer, this popularity can mean long lines to enter the
+            - link "Castelo de São Jorge" [ref=e92] [cursor=pointer]:
+              - /url: https://castelodesaojorge.pt/
+            - text: or to enjoy a pastry from
+            - link "Pastéis de Belém" [ref=e93] [cursor=pointer]:
+              - /url: https://pasteisdebelem.pt/en/
+            - text: ", which can (almost) diminish the charm of the city’s colorful-tile-wrapped facades, centuries-old churches and melancholy fado music. Lisbon, once a slow-paced maritime city, is in development overdrive, which has not been without discontent: The cost of living has skyrocketed, leading to"
+            - link "public debate (and protests" [ref=e94] [cursor=pointer]:
+              - /url: https://edition.cnn.com/2023/04/02/europe/thousands-protest-housing-crisis-portugal-intl/index.html
+            - text: ) about the city’s future and to the
+            - link "cancellation of the “golden visa” program" [ref=e95] [cursor=pointer]:
+              - /url: https://www.reuters.com/markets/europe/portugal-ends-golden-visas-curtails-airbnb-rentals-address-housing-crisis-2023-02-16/
+            - text: ", which granted residency to foreigners who invested in high-value properties. Visiting Lisbon thus involves a delicate balance: enjoying one of Europe’s most dynamic cities while being sensitive to the challenges that have accompanied its rapid boom."
+          - paragraph [ref=e96]:
+            - strong [ref=e97]:
+              - emphasis [ref=e98]: Note that funicular trams in Lisbon are currently closed,
+            - strong [ref=e99]:
+              - emphasis [ref=e100]:
+                - link "following a fatal crash" [ref=e101] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/2025/10/20/world/europe/lisbon-funicular-crash-report.html
+            - strong [ref=e102]:
+              - emphasis [ref=e103]: in September.
+        - generic [ref=e104]: Advertisement
+        - generic [ref=e105]:
+          - heading "Recommendations" [level=2] [ref=e106]
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e109] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e110]: –
+              - list [ref=e111]:
+                - listitem [ref=e112]:
+                  - strong [ref=e113]:
+                    - link "Arkhe" [ref=e114] [cursor=pointer]:
+                      - /url: https://arkhe.pt/en/
+                  - text: is a plant-filled restaurant that specializes in colorful, intricate vegetarian creations.
+                - listitem [ref=e115]:
+                  - strong [ref=e116]:
+                    - link "Gala Cricri" [ref=e117] [cursor=pointer]:
+                      - /url: https://galacricri.com/
+                  - text: nightclub occupies part of a restored 18th-century palace, the
+                  - strong [ref=e118]:
+                    - link "Palácio do Grilo" [ref=e119] [cursor=pointer]:
+                      - /url: https://palaciogrilo.com/en/
+                  - text: .
+                - listitem [ref=e120]:
+                  - strong [ref=e121]: Beato
+                  - text: and
+                  - strong [ref=e122]: Marvila
+                  - text: ", adjacent neighborhoods in an industrial zone, are emerging hotbeds of art and nightlife."
+            - generic [ref=e123]:
+              - generic [ref=e124] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e125]: +
+              - list:
+                - listitem [ref=e126]:
+                  - strong [ref=e127]:
+                    - link "Pica-Pau" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.restaurantepicapau.pt/en
+                  - text: dishes out reverent takes on old-time Portuguese recipes.
+                - listitem [ref=e129]:
+                  - strong [ref=e130]:
+                    - link "Dois Corvos" [ref=e131] [cursor=pointer]:
+                      - /url: https://www.doiscorvos.pt/en/
+                  - text: ", a microbrewery, pours nearly 20 house beers."
+                - listitem [ref=e132]:
+                  - strong [ref=e133]:
+                    - link "Tricky’s" [ref=e134] [cursor=pointer]:
+                      - /url: https://www.cometotrickys.com/
+                  - text: has clever, contemporary small plates and natural wine in a convivial industrial-ish setting.
+                - listitem [ref=e135]:
+                  - strong [ref=e136]:
+                    - link "Monkey Mash" [ref=e137] [cursor=pointer]:
+                      - /url: https://www.monkeymash.pt/
+                  - text: ", a bar that serves adventurous cocktails amid tropical vibes, has a hidden door leading to"
+                  - strong [ref=e138]:
+                    - link "Red Frog" [ref=e139] [cursor=pointer]:
+                      - /url: https://www.redfrog.pt/
+                  - text: ", a speakeasy-style bar with imaginative drinks."
+            - generic [ref=e140]:
+              - generic [ref=e141] [cursor=pointer]:
+                - text: Museums and attractions
+                - generic [ref=e142]: +
+              - list:
+                - listitem [ref=e143]:
+                  - strong [ref=e144]:
+                    - link "Casa-Museu Amália Rodrigues" [ref=e145] [cursor=pointer]:
+                      - /url: https://amaliarodrigues.pt/en/house-museum/
+                  - text: is a museum in the home of the late, great fado music singer, for whom it is named.
+                - listitem [ref=e146]:
+                  - strong [ref=e147]:
+                    - link "Miradouro da Senhora do Monte" [ref=e148] [cursor=pointer]:
+                      - /url: https://www.visitlisboa.com/en/places/miradouro-da-senhora-do-monte
+                  - text: ", an outdoor lookout, offers commanding skyline views."
+                - listitem [ref=e149]:
+                  - strong [ref=e150]:
+                    - link "Galeria Filomena Soares" [ref=e151] [cursor=pointer]:
+                      - /url: https://www.gfilomenasoares.com/en/
+                  - text: represents many noted international and Portuguese contemporary artists.
+                - listitem [ref=e152]:
+                  - strong [ref=e153]:
+                    - link "Galeria Francisco Fino" [ref=e154] [cursor=pointer]:
+                      - /url: https://www.franciscofino.com/
+                  - text: ", an art space in the Marvila neighborhood, hosts rotating exhibitions."
+                - listitem [ref=e155]:
+                  - strong [ref=e156]:
+                    - link "Palácio Nacional da Ajuda" [ref=e157] [cursor=pointer]:
+                      - /url: https://www.visitlisboa.com/en/places/ajuda-national-palace
+                  - link "," [ref=e158] [cursor=pointer]:
+                    - /url: https://www.visitlisboa.com/en/places/ajuda-national-palace
+                  - text: a 19th-century royal palace, contains sumptuous period rooms. Steps away, the new
+                  - strong [ref=e159]:
+                    - link "Museu do Tesouro Real" [ref=e160] [cursor=pointer]:
+                      - /url: https://www.tesouroreal.pt/
+                  - text: displays the crown jewels.
+                - listitem [ref=e161]:
+                  - strong [ref=e162]:
+                    - link "The No. 12E Tram" [ref=e163] [cursor=pointer]:
+                      - /url: https://www.carris.pt/en/travel/carreiras/12e-martim-moniz-circulacao-castelo/
+                  - text: ", which climbs and descends through multiple central Lisbon neighborhoods, offers a cheap and quick sightseeing trip."
+            - generic [ref=e164]:
+              - generic [ref=e165] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e166]: +
+              - list:
+                - listitem [ref=e167]:
+                  - strong [ref=e168]:
+                    - link "Homecore" [ref=e169] [cursor=pointer]:
+                      - /url: https://www.homecore.com/en
+                  - text: ", a French-owned brand and boutique, supplies cool casualwear."
+                - listitem [ref=e170]:
+                  - strong [ref=e171]:
+                    - link "Sokyo Lisbon" [ref=e172] [cursor=pointer]:
+                      - /url: https://sokyolisbon.com/
+                  - text: showcases abstract dinnerware and sculptures by Japanese ceramists.
+                - listitem [ref=e173]:
+                  - strong [ref=e174]:
+                    - link "Distopia" [ref=e175] [cursor=pointer]:
+                      - /url: https://distopialivraria.pt/
+                  - text: stocks vinyl albums, CDs and books, including English-language guides to Lisbon.
+                - listitem [ref=e176]:
+                  - strong [ref=e177]:
+                    - link "Feira da Ladra" [ref=e178] [cursor=pointer]:
+                      - /url: https://www.visitlisboa.com/en/places/feira-da-ladra-flea-market
+                  - text: ", a flea market, bursts with everything from antique cookware to contemporary fashion."
+                - listitem [ref=e179]:
+                  - strong [ref=e180]:
+                    - link "Feed" [ref=e181] [cursor=pointer]:
+                      - /url: https://www.instagram.com/feedconceptstore/?hl=en
+                  - text: stocks colorful 1960s- and 1970s-inspired women’s wear in a soaring showroom.
+                - listitem [ref=e182]:
+                  - strong [ref=e183]:
+                    - link "Little Chelsea Experience" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.facebook.com/littlechelseaexperience/
+                  - text: ", a gallery-bar-boutique, channels the spirit of rock ’n’ roll."
+            - generic [ref=e185]:
+              - generic [ref=e186] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e187]: +
+              - list:
+                - listitem [ref=e188]:
+                  - text: The
+                  - strong [ref=e189]:
+                    - link "Casa Balthazar" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.casabalthazarlisbon.com/
+                  - text: building, near the central Rossio Square, was acquired in the 19th century by the founder of
+                  - link "Confeitaria Nacional" [ref=e191] [cursor=pointer]:
+                    - /url: https://confeitarianacional.com/
+                  - text: — an iconic Lisbon pastry shop — and was converted into a hotel in 2010. The 20 rooms (some with panoramic city views) are outfitted with contemporary bedding and vintage furniture. The hotel also offers a spa, a pool and breakfast provided by, yes, Confeitaira Nacional nearby. Double rooms from 240 euros, or about $265.
+                - listitem [ref=e192]:
+                  - text: The chic new
+                  - strong [ref=e193]:
+                    - link "Hotel Hotel" [ref=e194] [cursor=pointer]:
+                      - /url: https://www.hotelhotel.pt/
+                  - text: was designed by
+                  - link "Pedrita" [ref=e195] [cursor=pointer]:
+                    - /url: https://pedrita.net/
+                  - text: ", a studio known for its work on another fashionable Portuguese-owned hotel, the"
+                  - link "Visionaire Apartments" [ref=e196] [cursor=pointer]:
+                    - /url: https://visionaireapartments.com/
+                  - text: . In addition to its 40 rooms, Hotel Hotel features a swimming pool, a yoga studio and a tattoo parlor. Doubles from €290.
+                - listitem [ref=e197]:
+                  - strong [ref=e198]:
+                    - link "Cheese & Wine Lapa" [ref=e199] [cursor=pointer]:
+                      - /url: https://www.cheese-wine.com/book-now-lapa-rooms
+                  - text: is a simple, bohemian option in the Lapa neighborhood. Common areas include rooms full of contemporary art and vintage furniture — all of it for sale. Twin rooms with shared bath from around €67. The Cheese & Wine hotel group has
+                  - link "other options" [ref=e200] [cursor=pointer]:
+                    - /url: https://www.cheese-wine.com/#Accommodation
+                  - text: around town.
+            - generic [ref=e201]:
+              - generic [ref=e202] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e203]: +
+              - list:
+                - listitem [ref=e204]:
+                  - text: Lisbon has a
+                  - strong [ref=e205]: metro
+                  - text: system and a
+                  - strong [ref=e206]: bus
+                  - text: network that cover much of the city, along with its much photographed yellow trams.
+                  - strong [ref=e207]: Taxis
+                  - text: and ride-hailing apps like
+                  - strong [ref=e208]: Uber
+                  - text: and
+                  - strong [ref=e209]: Bolt
+                  - text: are also widely available and remarkably affordable compared with other European capitals.
+        - generic [ref=e210]:
+          - heading "Itinerary" [level=2] [ref=e211]
+          - paragraph [ref=e212]: Friday
+          - figure "scoop-picture" [ref=e214]:
+            - img "A view of a bookshelf in a store that is neatly stocked with books on display." [ref=e218]
+            - generic [ref=e219]: Distopia
+          - generic [ref=e220]:
+            - generic [ref=e221]: 4 p.m. Meet the two faces of Lisbon
+            - generic [ref=e222]:
+              - text: The Lisbon of yesterday and today sit elbow to elbow in a sloping street called the Rua de São Bento. Climbing it from the intersection with Calçada da Estrela, you pass dusty antique shops, the Portuguese Parliament and the
+              - link "Casa-Museu Amália Rodrigues" [ref=e223] [cursor=pointer]:
+                - /url: https://amaliarodrigues.pt/en/house-museum/
+              - text: — a museum that bears the name of the Portuguese fado diva that it is devoted to — interspersed with establishments from the new creative class. Check out the (mostly) single-color fashions of the French-owned
+              - link "Homecore" [ref=e224] [cursor=pointer]:
+                - /url: https://www.homecore.com/en
+              - text: boutique, where you could pick up an outfit comprising purple jeans, a green military vest and tortoiseshell glasses. Farther up, the
+              - link "Sokyo Lisbon" [ref=e225] [cursor=pointer]:
+                - /url: https://sokyolisbon.com/
+              - text: gallery specializes in melted-looking vases and meteorite-like sculptures by Japanese ceramists, while the
+              - link "Distopia" [ref=e226] [cursor=pointer]:
+                - /url: https://distopialivraria.pt/
+              - text: bookshop sells two essential English-language guides dedicated to the city’s history — “Soul of Lisbon” and “Secret Lisbon” — along with vinyl albums, CDs and more.
+          - generic [ref=e227]:
+            - generic [ref=e228]: 7:30 p.m. Aim for the top
+            - generic [ref=e229]:
+              - text: Now head higher. The hilltop viewpoint at the
+              - link "Miradouro da Senhora do Monte" [ref=e230] [cursor=pointer]:
+                - /url: https://www.visitlisboa.com/en/places/miradouro-da-senhora-do-monte
+              - text: ", overlooks an undulating sprawl of orange-tiled roofs, church towers and stony squares with the medieval crenellated battlements of the"
+              - link "Castelo de São Jorge" [ref=e231] [cursor=pointer]:
+                - /url: https://castelodesaojorge.pt/
+              - text: and the blue Tagus River in the distance. But the marquee attraction is the sunset. A caipirinha (€7.50) from the Maria Limão stand enhances the feel-good, garden-party vibe as twilight approaches.
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A wood-paneled bar in a restaurant that has lush, green plants and hanging lightbulbs suspended above. Behind the bar are restaurant staff members wearing white, and many empty wine glasses. In front of the bar are liquor bottles."
+          - generic [ref=e232]:
+            - generic [ref=e233]: 9 p.m. Eat without meat
+            - generic [ref=e234]:
+              - text: In a city awash in restaurants dishing out copious piles of pork, chicken and sardines, light bites and meatless meals used to be hard to find. Not anymore. Several ambitious vegetarian restaurants have sprouted in recent years, perhaps none more quietly elegant than
+              - link "Arkhe" [ref=e235] [cursor=pointer]:
+                - /url: https://arkhe.pt/en/
+              - text: ", near the Cais do Sodré district. Potted plants and a tall banana tree adorn the airy, high-ceilinged space. The menu is also filled with plants: kaleidoscopic and artful vegetarian dishes by the chef"
+              - link "João Ricardo Alves" [ref=e236] [cursor=pointer]:
+                - /url: https://www.instagram.com/joaord.alves/?hl=en
+              - text: . One appetizer presents multiple preparations of red beet (chunky, pickled, crispy dried) served with a delicate dashi- and beet-infused broth, while a kimchi tortellini with carrot purée and Indonesian chile paste is tangy, fermented and fiery. Five courses, without drinks, €70 per person.
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A dimly lit room with polished wood floors, red draped at the windows and softly illuminated lamps. There are ornate decorations on the crown molding near the ceiling."
+          - generic [ref=e237]:
+            - generic [ref=e238]: 12 a.m. Party in a palace
+            - generic [ref=e239]:
+              - text: The nightclub
+              - link "Gala Cricri" [ref=e240] [cursor=pointer]:
+                - /url: https://galacricri.com/
+              - text: is inside the
+              - link "Palácio do Grilo" [ref=e241] [cursor=pointer]:
+                - /url: https://palaciogrilo.com/en/
+              - text: ", a formerly disused 18th-century manor in the emerging Beato district that was recently reborn as a restaurant and, more notably, a magnificent nocturnal hangout. The dance party fills a maze of grand aristocratic rooms with period details like ornate moldings and parquet floors coupled with laser lights, smoke machines, and a booming, eclectic playlist that runs from electro to disco classics. Within, black-clad night owls from varying decades of life drink cocktails (€10 to €14) while meandering through the warren of chambers, expansive gardens and even a former chapel. Entry is free if you reserve ahead via the club’s"
+              - link "website" [ref=e242] [cursor=pointer]:
+                - /url: https://galacricri.com/
+              - text: or arrive before 10 p.m.; otherwise, €8.
+        - figure "scoop-picture" [ref=e243]:
+          - img "A public square on a sunny day. Two people stand near some small steps on the edge of the square in the foreground, and more people mill around in the background. In the near distance, grand buildings with porticos and yellow facades wrap around the square. A tall arch with a statue at the top overlooks the scene." [ref=e247]
+          - generic [ref=e248]: Praça do Comércio, an 18th-century square that faces the Tagus River. Spring can be a great time to visit sunny Lisbon, before the crowds peak in the summer.
+        - generic [ref=e249]: Advertisement
+        - generic [ref=e250]:
+          - paragraph [ref=e251]: Saturday
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A moped is parked on a cobblestoned street. Next to it, an array of brightly colored bowls and dishes are laid out on the street, as if for sale. More of the dishes are mounted for display on a wall nearby."
+          - generic [ref=e252]:
+            - generic [ref=e253]: 10 a.m. Survey the market
+            - generic [ref=e254]:
+              - text: A patchwork of blankets and tables spread with the bric-a-brac of seemingly every Portuguese attic and basement, the
+              - link "Feira da Ladra flea market" [ref=e255] [cursor=pointer]:
+                - /url: https://www.visitlisboa.com/en/places/feira-da-ladra-flea-market
+              - text: is also a citywide social gathering. As you ascend the hillside from the Campo de Santa Clara, the quality of the wares rises too, shifting toward glassware, china, jewelry and fashion. Keep an eye out for the vendor João F. de Almeida's ace selection of classic, indie and art-house films on DVD (look for his yellow van) and
+              - link "A Gata Naladra" [ref=e256] [cursor=pointer]:
+                - /url: https://www.facebook.com/agatanaladra.atelier
+              - text: ’s military jackets hand-painted with images of skulls and artists like Frida Kahlo and Salvador Dalí.
+          - generic [ref=e257]:
+            - generic [ref=e258]: 1 p.m. Consume the Portuguese past
+            - generic [ref=e259]:
+              - text: Tradition and simplicity are hallmarks of the hearty farmhouse and fisherman’s fare ladled out at
+              - link "Pica-Pau" [ref=e260] [cursor=pointer]:
+                - /url: https://www.restaurantepicapau.pt/en
+              - text: ", a newcomer in Príncipe Real with a pleasant back patio that reverently revives old-time Portuguese food. (The place is named after a working-class bar snack of meat cubes in beer sauce.) If gizzard stew sounds too adventurous, consider crispy fried cod cakes (€6) or scrambled eggs bursting with asparagus, croutons and white pudding, a type of sausage (€8). Also worthy, the steaming stew of monkfish, shrimp and spicy rice is a robust undersea medley. Lunch for two, without drinks, around €50."
+          - generic [ref=e261]:
+            - generic [ref=e262]: 3 p.m. Beat a path to Beato
+            - generic [ref=e263]:
+              - text: In Beato and Marvila, adjacent industrial zones, former warehouses and factories are filling with start-ups, art spaces, concept stores and microbreweries. The elder statesman is
+              - link "Galeria Filomena Soares" [ref=e264] [cursor=pointer]:
+                - /url: https://www.gfilomenasoares.com/en/
+              - text: ", a Beato institution since 2001 that represents noted international artists like"
+              - link "Allan Sekula" [ref=e265] [cursor=pointer]:
+                - /url: https://www.allansekulastudio.org/
+              - text: and
+              - link "Shirin Neshat" [ref=e266] [cursor=pointer]:
+                - /url: https://www.npr.org/2023/04/14/1169666597/iranian-visual-artist-shirin-neshat-on-how-exile-is-a-driving-force-in-her-work
+              - text: . (Take the stairs to the rooftop to see the curvy, ribbonlike glass wall installation by the artist
+              - link "Dan Graham" [ref=e267] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2022/03/04/arts/dan-graham-dead.html
+              - text: .) Nearby,
+              - link "Feed" [ref=e268] [cursor=pointer]:
+                - /url: https://www.instagram.com/feedconceptstore/?hl=en
+              - text: fills a hangar-size emporium with funky and psychedelic women’s wear and accessories, including silver disco boots by
+              - link "Gold&Rouge" [ref=e269] [cursor=pointer]:
+                - /url: https://www.goldandrouge.com/
+              - text: and leopard-print clutches from
+              - link "Soruka" [ref=e270] [cursor=pointer]:
+                - /url: https://soruka.com/
+              - text: .
+          - figure "scoop-picture" [ref=e272]:
+            - img "A person wearing a t-shirt and jeans stands in a white-walled gallery space that has a polished gray floor. On the walls are two large abstract paintings that feature yellow, white, black and a deep blue." [ref=e276]
+            - generic [ref=e277]: Galeria Filomena Soares
+          - generic [ref=e278]:
+            - generic [ref=e279]: 5 p.m. Marvel at Marvila
+            - generic [ref=e280]:
+              - text: The spirit of 1970s New York punk and glam infuses
+              - link "Little Chelsea Experience" [ref=e281] [cursor=pointer]:
+                - /url: https://www.facebook.com/littlechelseaexperience/
+              - text: ", a hybrid retail boutique-bar-gallery where you can shop for vintage clothes, quaff wines, check out art exhibits and attend rock ’n’ roll shows. It’s just one of the attractions along a single Marvila block. You might also stumble into"
+              - link "Galeria Francisco Fino" [ref=e282] [cursor=pointer]:
+                - /url: https://www.franciscofino.com/
+              - text: ", a gleaming white house with two levels of exhibition space and a roster of mostly Portuguese and Brazilian contemporary artists, or stagger out of"
+              - link "Dois Corvos" [ref=e283] [cursor=pointer]:
+                - /url: https://www.doiscorvos.pt/en/
+              - text: ", an art-adorned beer hall selling its own craft brews."
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Two people sit at a small wooden dining table in a restaurant. Behind them is a dark-blue-painted wall, with Keith Haring-style illustrations of dancing figures. Wine bottles line the top of the wall next to them."
+          - generic [ref=e284]:
+            - generic [ref=e285]: 8 p.m. Sample Tricky’s treats
+            - generic [ref=e286]:
+              - text: A short detour from the noisy nightlife of Cais do Sodré,
+              - link "Tricky’s" [ref=e287] [cursor=pointer]:
+                - /url: https://www.cometotrickys.com/
+              - text: "features industrial décor and draws a lively, youngish crowd lured by its natural wines and fun, eclectic small plates: There may be a mackerel wrapped in lardo with a spicy, peanut-pepper chutney; Portuguese shrimp with stracciatella cheese; or a mash-up of labneh, harissa and pomegranate seeds with a kebab of celeriac hiding underneath. The juicy and bright natural orange wine called Funky — from the Douro Valley in the country’s north — complements and summarizes the experience. Dinner for two, without drinks, runs about €70. Cash only."
+          - figure "scoop-picture" [ref=e289]:
+            - img "A closeup of a bartender preparing a cocktail. The drink has a flat disc with a whole through the center, that appears like dried pineapple, sitting on top of the rim of the glass. The bartender is adding a liquid via a dropper." [ref=e293]
+            - generic [ref=e294]: Monkey Mash
+          - generic [ref=e295]:
+            - generic [ref=e296]: 10 p.m. Order a double
+            - generic [ref=e297]:
+              - text: Granted, speakeasy bars these days can seem as common as Starbucks outlets. But a speakeasy within a speakeasy? For that, hit
+              - link "Monkey Mash" [ref=e298] [cursor=pointer]:
+                - /url: https://www.monkeymash.pt/
+              - text: ", a windowless underground cocktail haven with a tropical-chic aesthetic, located just off an upscale shopping street, Avenida da Liberdade. Start with a Dope Punch, a rum and cachaça cocktail with some eccentric ingredients (including marigold, Sichuan pepper and buttermilk) that make an aromatic concoction (€13.50). Then ask to see"
+              - link "Red Frog" [ref=e299] [cursor=pointer]:
+                - /url: https://www.redfrog.pt/
+              - text: ". Hidden behind a wall panel, this velvety little meta-speakeasy is elegantly outfitted and serves creations like the American Gangster: Powdered cinnamon and cocoa on the glass enrich the spicy-sweet medley of Bulleit bourbon, amaro and Madeira (€15). Book in advance at both bars."
+        - figure "scoop-picture" [ref=e300]:
+          - img "A yellow tram moves through a very narrow, curved street, not much wider than the tram. The ground is paved with cobblestones. A person looks out at the tram from a doorway." [ref=e304]
+          - generic [ref=e305]: The 12E Tram is less crowded than the more famous 28E Tram. It passes by the commanding views of the lookout point at Largo das Portas do Sol, down through the old Moorish quarter of Alfama and under the rectangular towers of Se Cathedral, among other popular sightseeing stops.
+        - generic [ref=e306]: Advertisement
+        - generic [ref=e307]:
+          - paragraph [ref=e308]: Sunday
+          - generic:
+            - figure "scoop-picture"
+          - generic [ref=e309]:
+            - generic [ref=e310]: 10 a.m. Go for gold
+            - generic [ref=e311]:
+              - text: It’s good to be king. You can wear a collar of diamonds and emeralds, carry a
+              - link "diamond-covered snuffbox" [ref=e312] [cursor=pointer]:
+                - /url: https://www.tesouroreal.pt/en/pages/33c055b1-jewels
+              - text: ", and read with a gold-and-sapphire bookmark. Those opulent objects — accumulated by Portuguese monarchs before the country’s first republic was proclaimed in 1910 — are displayed at the sleek new museum for Portugal’s crown jewels,"
+              - link "Museu do Tesouro Real" [ref=e313] [cursor=pointer]:
+                - /url: https://www.tesouroreal.pt/
+              - text: ", which opened last year. Next door, the former royal palace,"
+              - link "Palácio Nacional da Ajuda" [ref=e314] [cursor=pointer]:
+                - /url: https://www.visitlisboa.com/en/places/ajuda-national-palace
+              - text: ", also has a new look: an avant-garde facade of thick, white vertical bars by the architect João Carlos Santos. Inside you’ll find soaring salons filled with towering chandeliers, massive tapestries, marble statues, bearskin rugs and even a painting of Christ by El Greco. Combined admission, €13."
+          - generic [ref=e315]:
+            - generic [ref=e316]: 12 p.m. Ride the rails
+            - generic [ref=e317]:
+              - text: Hordes of travelers line up every day in Martim Moniz Square to ride the venerable yellow Tram 28, famous for its 50-minute journey across Lisbon and the points of interest it passes. Do not join them. Instead, board the nearly empty
+              - link "Tram 12E" [ref=e318] [cursor=pointer]:
+                - /url: https://www.carris.pt/en/travel/carreiras/12e-martim-moniz-circulacao-castelo/
+              - text: from the same spot. It features the same mustard-colored paint job, the same wood-lined interior and the same creaky seats but offers a more rapid, less cliché and less claustrophobic sightseeing experience. Over roughly 30 minutes, it careens through the multiethnic Mouraria neighborhood, past the commanding views of the lookout point at
+              - link "Largo das Portas do Sol" [ref=e319] [cursor=pointer]:
+                - /url: https://www.lisbonportugaltourism.com/guide/miradouro-das-portas-do-sol.html
+              - text: ", down through the old Moorish quarter of Alfama, under the rectangular towers of"
+              - link "Se Cathedral" [ref=e320] [cursor=pointer]:
+                - /url: https://www.sedelisboa.pt/?lang=en
+              - text: ", through the urban grid of the Baixa commercial district, and finally uphill again among the boutique-lined lanes of the fashionable Chiado neighborhood before dropping you at the terminus in Bairro Alto, a lively area known for its restaurants and nightlife. Tickets, €3."
+  - generic [ref=e324]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e326]:
+      - button "Read 325 comments" [ref=e328] [cursor=pointer]
+      - list [ref=e330]:
+        - listitem [ref=e331]:
+          - button "Share full article" [ref=e334] [cursor=pointer]:
+            - generic [ref=e335]:
+              - img [ref=e336]
+              - text: Share full article
+        - listitem [ref=e338]:
+          - button "More sharing options ..." [ref=e341] [cursor=pointer]:
+            - img [ref=e342]
+        - listitem [ref=e344]:
+          - switch "Save article for reading later..." [ref=e345] [cursor=pointer]:
+            - img [ref=e346]
+        - listitem [ref=e350]:
+          - button "Read 325 comments" [ref=e351] [cursor=pointer]:
+            - generic [ref=e352]:
+              - img [ref=e353]
+              - text: "325"
+    - region "Related Content" [ref=e356]:
+      - heading "Related Content" [level=2] [ref=e357]
+      - generic [ref=e358]:
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - figure [ref=e370]
+          - listitem [ref=e372]:
+            - figure [ref=e378]
+          - listitem [ref=e380]:
+            - figure [ref=e386]
+          - listitem [ref=e388]:
+            - figure [ref=e394]
+          - listitem [ref=e396]:
+            - figure [ref=e402]
+          - listitem [ref=e404]:
+            - figure [ref=e410]
+        - list [ref=e416]:
+          - listitem [ref=e417]:
+            - figure [ref=e423]
+          - listitem [ref=e425]:
+            - figure [ref=e431]
+          - listitem [ref=e433]:
+            - figure [ref=e439]
+      - list [ref=e446]:
+        - listitem [ref=e447]
+        - listitem [ref=e452]
+        - listitem [ref=e457]
+        - listitem [ref=e462]
+        - listitem [ref=e467]
+        - listitem [ref=e472]
+        - listitem [ref=e477]
+        - listitem [ref=e482]
+        - listitem [ref=e487]
+        - listitem [ref=e492]
+    - generic [ref=e497]:
+      - paragraph [ref=e499]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e500] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e502]:
+      - heading "Site Index" [level=2] [ref=e503]
+    - contentinfo [ref=e505]:
+      - navigation [ref=e506]:
+        - heading "Site Information Navigation" [level=2] [ref=e507]
+        - list [ref=e508]:
+          - listitem [ref=e509]:
+            - link "© 2026 The New York Times Company" [ref=e510] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e511]:
+          - listitem [ref=e512]:
+            - link "NYTCo" [ref=e513] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e514]:
+            - link "Contact Us" [ref=e515] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e516]:
+            - link "Accessibility" [ref=e517] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e518]:
+            - link "Work with us" [ref=e519] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e520]:
+            - link "Advertise" [ref=e521] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e522]:
+            - link "T Brand Studio" [ref=e523] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e524]:
+            - link "Privacy Policy" [ref=e525] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e526]:
+            - link "Cookie Policy" [ref=e527] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e528]:
+            - link "Terms of Service" [ref=e529] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e530]:
+            - link "Terms of Sale" [ref=e531] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e532]:
+            - link "Site Map" [ref=e533] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e534]:
+            - link "Help" [ref=e535] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e536]:
+            - link "Subscriptions" [ref=e537] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e538]:
+          - listitem [ref=e539]:
+            - button "Your Privacy Choices" [ref=e540] [cursor=pointer]:
+              - img [ref=e541]
+              - text: Your Privacy Choices

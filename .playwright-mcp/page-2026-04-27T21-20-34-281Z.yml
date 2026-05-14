@@ -1,0 +1,721 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Stockholm ARN" [ref=e177]: Stockholm
+                - generic [ref=e179]: Stockholm ARN
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 11 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 780 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $780
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 780 US dollars round trip total. 1 stop flight with Delta. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9. Total duration 19 hr. Layover (1 of 1) is a 9 hr 10 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9." [ref=e411]:
+                            - 'generic "Departure time: 7:20 AM." [ref=e414]': 7:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e417]':
+                              - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e418]':
+                                - text: 8:20 AM
+                                - generic [ref=e419]: "+1"
+                          - generic [ref=e420]:
+                            - text: Delta
+                            - generic [ref=e421]: ·
+                            - text: KLM
+                            - generic [ref=e422]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e423]:
+                          - generic "Total duration 19 hr." [ref=e424]: 19 hr
+                          - generic [ref=e425]:
+                            - generic [ref=e428]: PIT
+                            - text: –
+                            - generic [ref=e431]: ARN
+                        - generic [ref=e432]:
+                          - generic [ref=e433]:
+                            - generic "1 stop flight." [ref=e434]: 1 stop
+                            - img [ref=e439]
+                          - generic "Layover (1 of 1) is a 9 hr 10 min layover at John F. Kennedy International Airport in New York." [ref=e442]:
+                            - text: 9 hr 10 min
+                            - generic [ref=e444]: JFK
+                        - generic [ref=e446]:
+                          - generic [ref=e448]: 438 kg CO2e
+                          - generic [ref=e449]:
+                            - generic [ref=e450]: "-23% emissions"
+                            - 'button "Carbon emissions estimate: 438 kilograms. -23% emissions. Learn more about this emissions estimate" [ref=e451]':
+                              - img [ref=e452]
+                        - generic [ref=e454]:
+                          - generic [ref=e456]: $780
+                          - generic [ref=e457]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9." [ref=e460]:
+                      - img [ref=e463]
+                - listitem [ref=e465]:
+                  - generic [ref=e466]:
+                    - link "From 904 US dollars round trip total. 1 stop flight with Delta. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9. Total duration 14 hr 22 min. Layover (1 of 1) is a 4 hr 30 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e468] [cursor=pointer]:
+                      - generic [ref=e470]:
+                        - generic [ref=e472]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9." [ref=e474]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e477]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e480]':
+                              - 'generic "Arrival time: 8:20 AM on Sunday, August 9." [ref=e481]':
+                                - text: 8:20 AM
+                                - generic [ref=e482]: "+1"
+                          - generic [ref=e483]:
+                            - text: Delta
+                            - generic [ref=e484]: ·
+                            - text: KLM
+                            - generic [ref=e485]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e486]:
+                          - generic "Total duration 14 hr 22 min." [ref=e487]: 14 hr 22 min
+                          - generic [ref=e488]:
+                            - generic [ref=e491]: PIT
+                            - text: –
+                            - generic [ref=e494]: ARN
+                        - generic [ref=e495]:
+                          - generic "1 stop flight." [ref=e497]: 1 stop
+                          - generic "Layover (1 of 1) is a 4 hr 30 min layover at John F. Kennedy International Airport in New York." [ref=e498]:
+                            - text: 4 hr 30 min
+                            - generic [ref=e500]: JFK
+                        - generic [ref=e502]:
+                          - generic [ref=e504]: 438 kg CO2e
+                          - generic [ref=e505]:
+                            - generic [ref=e506]: "-23% emissions"
+                            - 'button "Carbon emissions estimate: 438 kilograms. -23% emissions. Learn more about this emissions estimate" [ref=e507]':
+                              - img [ref=e508]
+                        - generic [ref=e510]:
+                          - generic [ref=e512]: $904
+                          - generic [ref=e513]: round trip
+                      - text: · ·· ··
+                      - generic [ref=e514]:
+                        - generic [ref=e515]:
+                          - text: Avoids as much CO2e as
+                          - generic [ref=e516]: 7,914 trees absorb in a day
+                        - button "Avoids as much CO2e as 7914 trees absorb in a day. Learn more about this calculation." [ref=e517]:
+                          - img [ref=e518]
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:20 AM on Sunday, August 9." [ref=e522]:
+                      - img [ref=e525]
+                - listitem [ref=e527]:
+                  - generic [ref=e528]:
+                    - link "From 924 US dollars round trip total. 2 stops flight with Delta and Air France. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:50 AM on Sunday, August 9. Total duration 15 hr 25 min. Layover (1 of 2) is a 2 hr 50 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr layover at Paris Charles de Gaulle Airport in Paris. Select flight"
+                    - generic [ref=e530] [cursor=pointer]:
+                      - generic [ref=e532]:
+                        - generic [ref=e534]:
+                          - generic "Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:50 AM on Sunday, August 9." [ref=e536]:
+                            - 'generic "Departure time: 2:25 PM." [ref=e539]': 2:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:50 AM on Sunday, August 9." [ref=e542]':
+                              - 'generic "Arrival time: 11:50 AM on Sunday, August 9." [ref=e543]':
+                                - text: 11:50 AM
+                                - generic [ref=e544]: "+1"
+                          - generic [ref=e545]:
+                            - text: Delta, Air France
+                            - generic [ref=e546]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e547]:
+                          - generic "Total duration 15 hr 25 min." [ref=e548]: 15 hr 25 min
+                          - generic [ref=e549]:
+                            - generic [ref=e552]: PIT
+                            - text: –
+                            - generic [ref=e555]: ARN
+                        - generic [ref=e556]:
+                          - generic "2 stops flight." [ref=e558]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr 50 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr layover at Paris Charles de Gaulle Airport in Paris." [ref=e559]:
+                            - generic [ref=e561]: BOS
+                            - text: ","
+                            - generic [ref=e563]: CDG
+                        - generic [ref=e565]:
+                          - generic [ref=e567]: 633 kg CO2e
+                          - generic [ref=e568]:
+                            - generic [ref=e569]: +11% emissions
+                            - 'button "Carbon emissions estimate: 633 kilograms. +11% emissions. Learn more about this emissions estimate" [ref=e570]':
+                              - img [ref=e571]
+                        - generic [ref=e573]:
+                          - generic [ref=e575]: $924
+                          - generic [ref=e576]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:50 AM on Sunday, August 9." [ref=e579]:
+                      - img [ref=e582]
+                - listitem [ref=e584]:
+                  - generic [ref=e585]:
+                    - link "From 935 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 4:35 PM on Sunday, August 9. Total duration 16 hr 40 min. Layover (1 of 2) is a 3 hr 42 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 2 hr 15 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e587] [cursor=pointer]:
+                      - generic [ref=e589]:
+                        - generic [ref=e591]:
+                          - generic "Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 4:35 PM on Sunday, August 9." [ref=e593]:
+                            - 'generic "Departure time: 5:55 PM." [ref=e596]': 5:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:35 PM on Sunday, August 9." [ref=e599]':
+                              - 'generic "Arrival time: 4:35 PM on Sunday, August 9." [ref=e600]':
+                                - text: 4:35 PM
+                                - generic [ref=e601]: "+1"
+                          - generic [ref=e602]:
+                            - text: Delta, KLM
+                            - generic [ref=e603]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e604]:
+                          - generic "Total duration 16 hr 40 min." [ref=e605]: 16 hr 40 min
+                          - generic [ref=e606]:
+                            - generic [ref=e609]: PIT
+                            - text: –
+                            - generic [ref=e612]: ARN
+                        - generic [ref=e613]:
+                          - generic "2 stops flight." [ref=e615]: 2 stops
+                          - generic "Layover (1 of 2) is a 3 hr 42 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 2 hr 15 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e616]:
+                            - generic [ref=e618]: DTW
+                            - text: ","
+                            - generic [ref=e620]: AMS
+                        - generic [ref=e622]:
+                          - generic [ref=e624]: 532 kg CO2e
+                          - generic [ref=e625]:
+                            - generic [ref=e626]: "-6% emissions"
+                            - 'button "Carbon emissions estimate: 532 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e627]':
+                              - img [ref=e628]
+                        - generic [ref=e630]:
+                          - generic [ref=e632]: $935
+                          - generic [ref=e633]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 4:35 PM on Sunday, August 9." [ref=e636]:
+                      - img [ref=e639]
+            - generic [ref=e645]:
+              - heading "Price insights" [level=3] [ref=e646]
+              - generic [ref=e647] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e652]
+                - generic [ref=e654]: View price history
+                - button "View price history" [ref=e656]:
+                  - img [ref=e659]
+            - region "Find the best price" [ref=e661]:
+              - generic [ref=e664]:
+                - img [ref=e665]
+                - heading "Track prices" [level=2] [ref=e667]
+                - button "Learn more about tracked prices" [ref=e671] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e672]:
+                    - img [ref=e673]
+                - generic [ref=e675]: Track prices from Pittsburgh to Stockholm departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e676]:
+                  - generic [ref=e678] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Stockholm departing 2026-08-08 and returning 2026-08-15" [ref=e681] [cursor=pointer]:
+                    - generic [ref=e686]:
+                      - img [ref=e687]
+                      - img [ref=e689]
+                - generic [ref=e692]: Track prices from Pittsburgh to Stockholm - Any dates
+                - generic [ref=e694]:
+                  - generic [ref=e695] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Stockholm - Any dates" [ref=e698] [cursor=pointer]:
+                    - generic [ref=e703]:
+                      - img [ref=e704]
+                      - img [ref=e706]
+              - generic [ref=e711]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e716]:
+                        - generic [ref=e717]:
+                          - text: Travel Aug 9 – 16 for $576
+                          - button "Change dates" [ref=e719] [cursor=pointer]
+                        - button "Close" [ref=e720] [cursor=pointer]:
+                          - img [ref=e721]
+                      - alert [ref=e723]: Expanded
+                - button "Date grid" [ref=e725]:
+                  - img [ref=e727]
+                  - generic [ref=e734]: Date grid
+                - button "Price graph" [ref=e736]:
+                  - img [ref=e738]
+                  - generic [ref=e748]: Price graph
+            - generic [ref=e749]:
+              - heading "Other departing flights" [level=3] [ref=e750]
+              - list [ref=e751]:
+                - listitem [ref=e752]:
+                  - generic [ref=e753]:
+                    - link "From 1130 US dollars round trip total. 2 stops flight with United and Lufthansa. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 5:30 PM on Sunday, August 9. Total duration 15 hr 31 min. Layover (1 of 2) is a 1 hr 2 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 2 hr 45 min layover at Munich International Airport in Munich. Select flight"
+                    - generic [ref=e755] [cursor=pointer]:
+                      - generic [ref=e757]:
+                        - generic [ref=e759]:
+                          - generic "Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 5:30 PM on Sunday, August 9." [ref=e761]:
+                            - 'generic "Departure time: 7:59 PM." [ref=e764]': 7:59 PM
+                            - text: –
+                            - 'generic "Arrival time: 5:30 PM on Sunday, August 9." [ref=e767]':
+                              - 'generic "Arrival time: 5:30 PM on Sunday, August 9." [ref=e768]':
+                                - text: 5:30 PM
+                                - generic [ref=e769]: "+1"
+                          - generic [ref=e770]:
+                            - text: United, Lufthansa
+                            - generic [ref=e771]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e772]:
+                          - generic "Total duration 15 hr 31 min." [ref=e773]: 15 hr 31 min
+                          - generic [ref=e774]:
+                            - generic [ref=e777]: PIT
+                            - text: –
+                            - generic [ref=e780]: ARN
+                        - generic [ref=e781]:
+                          - generic "2 stops flight." [ref=e783]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 2 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 2 hr 45 min layover at Munich International Airport in Munich." [ref=e784]:
+                            - generic [ref=e786]: IAD
+                            - text: ","
+                            - generic [ref=e788]: MUC
+                        - generic [ref=e790]:
+                          - generic [ref=e792]: 836 kg CO2e
+                          - generic [ref=e793]:
+                            - generic [ref=e794]: +47% emissions
+                            - 'button "Carbon emissions estimate: 836 kilograms. +47% emissions. Learn more about this emissions estimate" [ref=e795]':
+                              - img [ref=e796]
+                        - generic [ref=e798]:
+                          - generic [ref=e800]: $1,130
+                          - generic [ref=e801]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 5:30 PM on Sunday, August 9." [ref=e804]:
+                      - img [ref=e807]
+                - listitem [ref=e809]:
+                  - generic [ref=e810]:
+                    - link "From 1170 US dollars round trip total. 2 stops flight with British Airways and Finnair. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:25 PM on Sunday, August 9. Total duration 16 hr 35 min. Layover (1 of 2) is a 3 hr 30 min layover at Heathrow Airport in London. Layover (2 of 2) is a 2 hr layover at Helsinki Airport in Helsinki. Select flight"
+                    - generic [ref=e812] [cursor=pointer]:
+                      - generic [ref=e814]:
+                        - generic [ref=e816]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:25 PM on Sunday, August 9." [ref=e818]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e821]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:25 PM on Sunday, August 9." [ref=e824]':
+                              - 'generic "Arrival time: 8:25 PM on Sunday, August 9." [ref=e825]':
+                                - text: 8:25 PM
+                                - generic [ref=e826]: "+1"
+                          - generic [ref=e827]: British Airways, Finnair
+                        - generic [ref=e828]:
+                          - generic "Total duration 16 hr 35 min." [ref=e829]: 16 hr 35 min
+                          - generic [ref=e830]:
+                            - generic [ref=e833]: PIT
+                            - text: –
+                            - generic [ref=e836]: ARN
+                        - generic [ref=e837]:
+                          - generic "2 stops flight." [ref=e839]: 2 stops
+                          - generic "Layover (1 of 2) is a 3 hr 30 min layover at Heathrow Airport in London. Layover (2 of 2) is a 2 hr layover at Helsinki Airport in Helsinki." [ref=e840]:
+                            - generic [ref=e842]: LHR
+                            - text: ","
+                            - generic [ref=e844]: HEL
+                        - generic [ref=e846]:
+                          - generic [ref=e848]: 636 kg CO2e
+                          - generic [ref=e849]:
+                            - generic [ref=e850]: +12% emissions
+                            - 'button "Carbon emissions estimate: 636 kilograms. +12% emissions. Learn more about this emissions estimate" [ref=e851]':
+                              - img [ref=e852]
+                        - generic [ref=e854]:
+                          - generic [ref=e856]: $1,170
+                          - generic [ref=e857]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 8:25 PM on Sunday, August 9." [ref=e860]:
+                      - img [ref=e863]
+                - listitem [ref=e865]:
+                  - generic [ref=e866]:
+                    - link "From 1253 US dollars round trip total. 2 stops flight with JetBlue and Icelandair. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:45 PM on Sunday, August 9. Total duration 20 hr 6 min. Layover (1 of 2) is a 8 hr 34 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr 30 min layover at Keflavík International Airport in Reykjavík. Select flight"
+                    - generic [ref=e868] [cursor=pointer]:
+                      - generic [ref=e870]:
+                        - generic [ref=e872]:
+                          - generic "Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:45 PM on Sunday, August 9." [ref=e874]:
+                            - 'generic "Departure time: 10:39 AM." [ref=e877]': 10:39 AM
+                            - text: –
+                            - 'generic "Arrival time: 12:45 PM on Sunday, August 9." [ref=e880]':
+                              - 'generic "Arrival time: 12:45 PM on Sunday, August 9." [ref=e881]':
+                                - text: 12:45 PM
+                                - generic [ref=e882]: "+1"
+                          - generic [ref=e883]: JetBlue, Icelandair
+                        - generic [ref=e884]:
+                          - generic "Total duration 20 hr 6 min." [ref=e885]: 20 hr 6 min
+                          - generic [ref=e886]:
+                            - generic [ref=e889]: PIT
+                            - text: –
+                            - generic [ref=e892]: ARN
+                        - generic [ref=e893]:
+                          - generic [ref=e894]:
+                            - generic "2 stops flight." [ref=e895]: 2 stops
+                            - img [ref=e900]
+                          - generic "Layover (1 of 2) is a 8 hr 34 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr 30 min layover at Keflavík International Airport in Reykjavík." [ref=e903]:
+                            - generic [ref=e905]: BOS
+                            - text: ","
+                            - generic [ref=e907]: KEF
+                        - generic [ref=e909]:
+                          - generic [ref=e911]: 546 kg CO2e
+                          - generic [ref=e912]:
+                            - generic [ref=e913]: Avg emissions
+                            - 'button "Carbon emissions estimate: 546 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e914]':
+                              - img [ref=e915]
+                        - generic [ref=e917]:
+                          - generic [ref=e919]: $1,253
+                          - generic [ref=e920]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:45 PM on Sunday, August 9." [ref=e923]:
+                      - img [ref=e926]
+                - listitem [ref=e928]:
+                  - generic [ref=e929]:
+                    - link "From 1349 US dollars round trip total. 2 stops flight with Delta and Scandinavian Airlines. Operated by Endeavor Air DBA Delta Connection for Delta Air Lines, Endeavor Air DBA Delta Connection for Delta Air Lines. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 7:15 AM on Sunday, August 9. Total duration 12 hr 57 min. Layover (1 of 2) is a 40 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 1 hr 26 min layover at Newark Liberty International Airport in Newark. Select flight"
+                    - generic [ref=e931] [cursor=pointer]:
+                      - generic [ref=e933]:
+                        - generic [ref=e935]:
+                          - generic "Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 7:15 AM on Sunday, August 9." [ref=e937]:
+                            - 'generic "Departure time: 12:18 PM." [ref=e940]': 12:18 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:15 AM on Sunday, August 9." [ref=e943]':
+                              - 'generic "Arrival time: 7:15 AM on Sunday, August 9." [ref=e944]':
+                                - text: 7:15 AM
+                                - generic [ref=e945]: "+1"
+                          - generic [ref=e946]:
+                            - text: Delta, Scandinavian Airlines
+                            - generic [ref=e947]: ·
+                            - text: Air France
+                            - generic [ref=e948]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection for Delta Air Lines, Endeavor Air DBA Delta Connection for Delta Air Lines
+                        - generic [ref=e949]:
+                          - generic "Total duration 12 hr 57 min." [ref=e950]: 12 hr 57 min
+                          - generic [ref=e951]:
+                            - generic [ref=e954]: PIT
+                            - text: –
+                            - generic [ref=e957]: ARN
+                        - generic [ref=e958]:
+                          - generic "2 stops flight." [ref=e960]: 2 stops
+                          - generic "Layover (1 of 2) is a 40 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 1 hr 26 min layover at Newark Liberty International Airport in Newark." [ref=e961]:
+                            - generic [ref=e963]: DTW
+                            - text: ","
+                            - generic [ref=e965]: EWR
+                        - generic [ref=e967]:
+                          - generic [ref=e969]: 607 kg CO2e
+                          - generic [ref=e970]:
+                            - generic [ref=e971]: +7% emissions
+                            - 'button "Carbon emissions estimate: 607 kilograms. +7% emissions. Learn more about this emissions estimate" [ref=e972]':
+                              - img [ref=e973]
+                        - generic [ref=e975]:
+                          - generic [ref=e977]: $1,349
+                          - generic [ref=e978]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 7:15 AM on Sunday, August 9." [ref=e981]:
+                      - img [ref=e984]
+                - listitem [ref=e986]:
+                  - generic [ref=e987]:
+                    - link "From 1463 US dollars round trip total. 2 stops flight with United and SWISS. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 2:45 PM on Sunday, August 9. Total duration 14 hr 25 min. Layover (1 of 2) is a 1 hr 43 min layover at Newark Liberty International Airport in Newark. Layover (2 of 2) is a 50 min layover at Zurich Airport in Zürich. Select flight"
+                    - generic [ref=e989] [cursor=pointer]:
+                      - generic [ref=e991]:
+                        - generic [ref=e993]:
+                          - generic "Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 2:45 PM on Sunday, August 9." [ref=e995]:
+                            - 'generic "Departure time: 6:20 PM." [ref=e998]': 6:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 2:45 PM on Sunday, August 9." [ref=e1001]':
+                              - 'generic "Arrival time: 2:45 PM on Sunday, August 9." [ref=e1002]':
+                                - text: 2:45 PM
+                                - generic [ref=e1003]: "+1"
+                          - generic [ref=e1004]:
+                            - text: United, SWISS
+                            - generic [ref=e1005]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e1006]:
+                          - generic "Total duration 14 hr 25 min." [ref=e1007]: 14 hr 25 min
+                          - generic [ref=e1008]:
+                            - generic [ref=e1011]: PIT
+                            - text: –
+                            - generic [ref=e1014]: ARN
+                        - generic [ref=e1015]:
+                          - generic "2 stops flight." [ref=e1017]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 43 min layover at Newark Liberty International Airport in Newark. Layover (2 of 2) is a 50 min layover at Zurich Airport in Zürich." [ref=e1018]:
+                            - generic [ref=e1020]: EWR
+                            - text: ","
+                            - generic [ref=e1022]: ZRH
+                        - generic [ref=e1024]:
+                          - generic [ref=e1026]: 558 kg CO2e
+                          - generic [ref=e1027]:
+                            - generic [ref=e1028]: Avg emissions
+                            - 'button "Carbon emissions estimate: 558 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1029]':
+                              - img [ref=e1030]
+                        - generic [ref=e1032]:
+                          - generic [ref=e1034]: $1,463
+                          - generic [ref=e1035]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 2:45 PM on Sunday, August 9." [ref=e1038]:
+                      - img [ref=e1041]
+                - listitem [ref=e1043]:
+                  - generic [ref=e1044]:
+                    - link "From 1539 US dollars round trip total. 2 stops flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:15 AM on Sunday, August 9. Total duration 13 hr 40 min. Layover (1 of 2) is a 1 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Layover (2 of 2) is a 1 hr 30 min layover at Toronto Pearson International Airport in Toronto. Select flight"
+                    - generic [ref=e1046] [cursor=pointer]:
+                      - generic [ref=e1048]:
+                        - generic [ref=e1050]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:15 AM on Sunday, August 9." [ref=e1052]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e1055]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:15 AM on Sunday, August 9." [ref=e1058]':
+                              - 'generic "Arrival time: 11:15 AM on Sunday, August 9." [ref=e1059]':
+                                - text: 11:15 AM
+                                - generic [ref=e1060]: "+1"
+                          - generic [ref=e1061]:
+                            - text: Air Canada
+                            - generic [ref=e1062]: ·
+                            - text: Austrian, Brussels Airlines, Lufthansa
+                            - generic [ref=e1063]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e1064]:
+                          - generic "Total duration 13 hr 40 min." [ref=e1065]: 13 hr 40 min
+                          - generic [ref=e1066]:
+                            - generic [ref=e1069]: PIT
+                            - text: –
+                            - generic [ref=e1072]: ARN
+                        - generic [ref=e1073]:
+                          - generic "2 stops flight." [ref=e1075]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 31 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Layover (2 of 2) is a 1 hr 30 min layover at Toronto Pearson International Airport in Toronto." [ref=e1076]:
+                            - generic [ref=e1078]: YUL
+                            - text: ","
+                            - generic [ref=e1080]: YYZ
+                        - generic [ref=e1082]:
+                          - generic [ref=e1084]: 538 kg CO2e
+                          - generic [ref=e1085]:
+                            - generic [ref=e1086]: Avg emissions
+                            - 'button "Carbon emissions estimate: 538 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1087]':
+                              - img [ref=e1088]
+                        - generic [ref=e1090]:
+                          - generic [ref=e1092]: $1,539
+                          - generic [ref=e1093]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 11:15 AM on Sunday, August 9." [ref=e1096]:
+                      - img [ref=e1099]
+                - listitem [ref=e1101]:
+                  - generic [ref=e1102]:
+                    - link "From 2072 US dollars round trip total. 2 stops flight with Delta and Scandinavian Airlines. Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:55 PM on Sunday, August 9. Total duration 13 hr 59 min. Layover (1 of 2) is a 41 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta. Layover (2 of 2) is a 1 hr 25 min layover at Copenhagen Airport in Copenhagen. Select flight"
+                    - generic [ref=e1104] [cursor=pointer]:
+                      - generic [ref=e1106]:
+                        - generic [ref=e1108]:
+                          - generic "Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:55 PM on Sunday, August 9." [ref=e1110]:
+                            - 'generic "Departure time: 4:56 PM." [ref=e1113]': 4:56 PM
+                            - text: –
+                            - 'generic "Arrival time: 12:55 PM on Sunday, August 9." [ref=e1116]':
+                              - 'generic "Arrival time: 12:55 PM on Sunday, August 9." [ref=e1117]':
+                                - text: 12:55 PM
+                                - generic [ref=e1118]: "+1"
+                          - generic [ref=e1119]: Delta, Scandinavian Airlines
+                        - generic [ref=e1120]:
+                          - generic "Total duration 13 hr 59 min." [ref=e1121]: 13 hr 59 min
+                          - generic [ref=e1122]:
+                            - generic [ref=e1125]: PIT
+                            - text: –
+                            - generic [ref=e1128]: ARN
+                        - generic [ref=e1129]:
+                          - generic "2 stops flight." [ref=e1131]: 2 stops
+                          - generic "Layover (1 of 2) is a 41 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta. Layover (2 of 2) is a 1 hr 25 min layover at Copenhagen Airport in Copenhagen." [ref=e1132]:
+                            - generic [ref=e1134]: ATL
+                            - text: ","
+                            - generic [ref=e1136]: CPH
+                        - generic [ref=e1138]:
+                          - generic [ref=e1140]: 600 kg CO2e
+                          - generic [ref=e1141]:
+                            - generic [ref=e1142]: +6% emissions
+                            - 'button "Carbon emissions estimate: 600 kilograms. +6% emissions. Learn more about this emissions estimate" [ref=e1143]':
+                              - img [ref=e1144]
+                        - generic [ref=e1146]:
+                          - generic [ref=e1148]: $2,072
+                          - generic [ref=e1149]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Stockholm Arlanda Airport at 12:55 PM on Sunday, August 9." [ref=e1152]:
+                      - img [ref=e1155]
+                - listitem [ref=e1157]:
+                  - generic [ref=e1158] [cursor=pointer]:
+                    - button "View more flights" [ref=e1161]:
+                      - img
+                    - generic [ref=e1164]: View more flights
+          - text: ·· · ·· ·· ·· · ·· ·· · · ·· · · · ·· · · · ·· · · ·· · ·· ·· · ·· ·· · · ·· · ·· · ·· ·· · ··
+      - contentinfo [ref=e1167]:
+        - generic [ref=e1169]:
+          - button "Language·English (United States)" [ref=e1170]:
+            - img [ref=e1173]
+            - generic [ref=e1175]: Language·English (United States)
+          - button "Location·United States" [ref=e1176]:
+            - img [ref=e1179]
+            - generic [ref=e1182]: Location·United States
+          - button "Currency USD" [ref=e1183]:
+            - img [ref=e1186]
+            - generic [ref=e1196]: Currency·USD
+        - generic [ref=e1197]:
+          - link "About Google Travel" [ref=e1198] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1199] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1200] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1201] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1202] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1203] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1205]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1206] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

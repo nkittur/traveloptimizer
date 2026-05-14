@@ -1,0 +1,468 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Copenhagen CPH" [ref=e177]: Copenhagen
+                - generic [ref=e179]: Copenhagen CPH
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 5 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 904 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $904
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 928 US dollars round trip total. 1 stop flight with Delta. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Copenhagen Airport at 6:45 AM on Sunday, August 9. Total duration 12 hr 47 min. Layover (1 of 1) is a 3 hr 10 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Copenhagen Airport at 6:45 AM on Sunday, August 9." [ref=e411]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e414]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e417]':
+                              - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e418]':
+                                - text: 6:45 AM
+                                - generic [ref=e419]: "+1"
+                          - generic [ref=e420]:
+                            - text: Delta
+                            - generic [ref=e421]: ·
+                            - text: KLM, Virgin Atlantic
+                            - generic [ref=e422]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e423]:
+                          - generic "Total duration 12 hr 47 min." [ref=e424]: 12 hr 47 min
+                          - generic [ref=e425]:
+                            - generic [ref=e428]: PIT
+                            - text: –
+                            - generic [ref=e431]: CPH
+                        - generic [ref=e432]:
+                          - generic "1 stop flight." [ref=e434]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 10 min layover at John F. Kennedy International Airport in New York." [ref=e435]:
+                            - text: 3 hr 10 min
+                            - generic [ref=e437]: JFK
+                        - generic [ref=e439]:
+                          - generic [ref=e441]: 407 kg CO2e
+                          - generic [ref=e442]:
+                            - generic [ref=e443]: "-29% emissions"
+                            - 'button "Carbon emissions estimate: 407 kilograms. -29% emissions. Learn more about this emissions estimate" [ref=e444]':
+                              - img [ref=e445]
+                        - generic [ref=e447]:
+                          - generic [ref=e449]: $928
+                          - generic [ref=e450]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Copenhagen Airport at 6:45 AM on Sunday, August 9." [ref=e453]:
+                      - img [ref=e456]
+                - listitem [ref=e458]:
+                  - generic [ref=e459]:
+                    - link "From 949 US dollars round trip total. 1 stop flight with British Airways. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Copenhagen Airport at 3:40 PM on Sunday, August 9. Total duration 11 hr 50 min. Layover (1 of 1) is a 2 hr 35 min layover at Heathrow Airport in London. Select flight"
+                    - generic [ref=e461] [cursor=pointer]:
+                      - generic [ref=e463]:
+                        - generic [ref=e465]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Copenhagen Airport at 3:40 PM on Sunday, August 9." [ref=e467]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e470]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 3:40 PM on Sunday, August 9." [ref=e473]':
+                              - 'generic "Arrival time: 3:40 PM on Sunday, August 9." [ref=e474]':
+                                - text: 3:40 PM
+                                - generic [ref=e475]: "+1"
+                          - generic [ref=e476]:
+                            - text: British Airways
+                            - generic [ref=e477]: ·
+                            - text: American, Finnair
+                        - generic [ref=e478]:
+                          - generic "Total duration 11 hr 50 min." [ref=e479]: 11 hr 50 min
+                          - generic [ref=e480]:
+                            - generic [ref=e483]: PIT
+                            - text: –
+                            - generic [ref=e486]: CPH
+                        - generic [ref=e487]:
+                          - generic "1 stop flight." [ref=e489]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 35 min layover at Heathrow Airport in London." [ref=e490]:
+                            - text: 2 hr 35 min
+                            - generic [ref=e492]: LHR
+                        - generic [ref=e494]:
+                          - generic [ref=e496]: 493 kg CO2e
+                          - generic [ref=e497]:
+                            - generic [ref=e498]: "-14% emissions"
+                            - 'button "Carbon emissions estimate: 493 kilograms. -14% emissions. Learn more about this emissions estimate" [ref=e499]':
+                              - img [ref=e500]
+                        - generic [ref=e502]:
+                          - generic [ref=e504]: $949
+                          - generic [ref=e505]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Copenhagen Airport at 3:40 PM on Sunday, August 9." [ref=e508]:
+                      - img [ref=e511]
+                - listitem [ref=e513]:
+                  - generic [ref=e514]:
+                    - link "From 1053 US dollars round trip total. 1 stop flight with American. Operated by Piedmont Airlines as American Eagle. Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Copenhagen Airport at 11:35 AM on Sunday, August 9. Total duration 9 hr 56 min. Layover (1 of 1) is a 1 hr 1 min layover at Philadelphia International Airport in Philadelphia. Select flight"
+                    - generic [ref=e516] [cursor=pointer]:
+                      - generic [ref=e518]:
+                        - generic [ref=e520]:
+                          - generic "Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Copenhagen Airport at 11:35 AM on Sunday, August 9." [ref=e522]:
+                            - 'generic "Departure time: 7:39 PM." [ref=e525]': 7:39 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:35 AM on Sunday, August 9." [ref=e528]':
+                              - 'generic "Arrival time: 11:35 AM on Sunday, August 9." [ref=e529]':
+                                - text: 11:35 AM
+                                - generic [ref=e530]: "+1"
+                          - generic [ref=e531]:
+                            - text: American
+                            - generic [ref=e532]: ·
+                            - text: British Airways
+                            - generic [ref=e533]: ·
+                            - text: Operated by Piedmont Airlines as American Eagle
+                        - generic [ref=e534]:
+                          - generic "Total duration 9 hr 56 min." [ref=e535]: 9 hr 56 min
+                          - generic [ref=e536]:
+                            - generic [ref=e539]: PIT
+                            - text: –
+                            - generic [ref=e542]: CPH
+                        - generic [ref=e543]:
+                          - generic "1 stop flight." [ref=e545]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 1 min layover at Philadelphia International Airport in Philadelphia." [ref=e546]:
+                            - text: 1 hr 1 min
+                            - generic [ref=e548]: PHL
+                        - generic [ref=e550]:
+                          - generic [ref=e552]: 523 kg CO2e
+                          - generic [ref=e553]:
+                            - generic [ref=e554]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 523 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e555]':
+                              - img [ref=e556]
+                        - generic [ref=e558]:
+                          - generic [ref=e560]: $1,053
+                          - generic [ref=e561]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Copenhagen Airport at 11:35 AM on Sunday, August 9." [ref=e564]:
+                      - img [ref=e567]
+            - generic [ref=e573]:
+              - heading "Price insights" [level=3] [ref=e574]
+              - generic [ref=e575] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e580]
+                - generic [ref=e582]: View price history
+                - button "View price history" [ref=e584]:
+                  - img [ref=e587]
+            - region "Find the best price" [ref=e589]:
+              - generic [ref=e592]:
+                - img [ref=e593]
+                - heading "Track prices" [level=2] [ref=e595]
+                - button "Learn more about tracked prices" [ref=e599] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e600]:
+                    - img [ref=e601]
+                - generic [ref=e603]: Track prices from Pittsburgh to Copenhagen departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e604]:
+                  - generic [ref=e606] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Copenhagen departing 2026-08-08 and returning 2026-08-15" [ref=e609] [cursor=pointer]:
+                    - generic [ref=e614]:
+                      - img [ref=e615]
+                      - img [ref=e617]
+                - generic [ref=e620]: Track prices from Pittsburgh to Copenhagen - Any dates
+                - generic [ref=e622]:
+                  - generic [ref=e623] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Copenhagen - Any dates" [ref=e626] [cursor=pointer]:
+                    - generic [ref=e631]:
+                      - img [ref=e632]
+                      - img [ref=e634]
+              - generic [ref=e639]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e644]:
+                        - generic [ref=e645]:
+                          - text: Travel Aug 9 – 16 for $649
+                          - button "Change dates" [ref=e647] [cursor=pointer]
+                        - button "Close" [ref=e648] [cursor=pointer]:
+                          - img [ref=e649]
+                      - alert [ref=e651]: Expanded
+                - button "Date grid" [ref=e653]:
+                  - img [ref=e655]
+                  - generic [ref=e662]: Date grid
+                - button "Price graph" [ref=e664]:
+                  - img [ref=e666]
+                  - generic [ref=e676]: Price graph
+            - generic [ref=e677]:
+              - heading "Other departing flights" [level=3] [ref=e678]
+              - list [ref=e679]:
+                - listitem [ref=e680]:
+                  - generic [ref=e681]:
+                    - link "From 904 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Copenhagen Airport at 10:50 AM on Sunday, August 9. Total duration 22 hr 50 min. Layover (1 of 1) is a 13 hr 56 min layover at Toronto Pearson International Airport in Toronto. Select flight"
+                    - generic [ref=e683] [cursor=pointer]:
+                      - generic [ref=e685]:
+                        - generic [ref=e687]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Copenhagen Airport at 10:50 AM on Sunday, August 9." [ref=e689]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e692]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:50 AM on Sunday, August 9." [ref=e695]':
+                              - 'generic "Arrival time: 10:50 AM on Sunday, August 9." [ref=e696]':
+                                - text: 10:50 AM
+                                - generic [ref=e697]: "+1"
+                          - generic [ref=e698]:
+                            - text: Air Canada
+                            - generic [ref=e699]: ·
+                            - text: United
+                            - generic [ref=e700]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e701]:
+                          - generic "Total duration 22 hr 50 min." [ref=e702]: 22 hr 50 min
+                          - generic [ref=e703]:
+                            - generic [ref=e706]: PIT
+                            - text: –
+                            - generic [ref=e709]: CPH
+                        - generic [ref=e710]:
+                          - generic [ref=e711]:
+                            - generic "1 stop flight." [ref=e712]: 1 stop
+                            - img [ref=e717]
+                          - generic "Layover (1 of 1) is a 13 hr 56 min layover at Toronto Pearson International Airport in Toronto." [ref=e720]:
+                            - text: 13 hr 56 min
+                            - generic [ref=e722]: YYZ
+                        - generic [ref=e724]:
+                          - generic [ref=e726]: 454 kg CO2e
+                          - generic [ref=e727]:
+                            - generic [ref=e728]: "-21% emissions"
+                            - 'button "Carbon emissions estimate: 454 kilograms. -21% emissions. Learn more about this emissions estimate" [ref=e729]':
+                              - img [ref=e730]
+                        - generic [ref=e732]:
+                          - generic [ref=e734]: $904
+                          - generic [ref=e735]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Copenhagen Airport at 10:50 AM on Sunday, August 9." [ref=e738]:
+                      - img [ref=e741]
+                - listitem [ref=e743]:
+                  - generic [ref=e744]:
+                    - link "From 1308 US dollars round trip total. 1 stop flight with Delta and Scandinavian Airlines. Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Copenhagen Airport at 10:15 AM on Sunday, August 9. Total duration 11 hr 19 min. Layover (1 of 1) is a 41 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta. Select flight"
+                    - generic [ref=e746] [cursor=pointer]:
+                      - generic [ref=e748]:
+                        - generic [ref=e750]:
+                          - generic "Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Copenhagen Airport at 10:15 AM on Sunday, August 9." [ref=e752]:
+                            - 'generic "Departure time: 4:56 PM." [ref=e755]': 4:56 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:15 AM on Sunday, August 9." [ref=e758]':
+                              - 'generic "Arrival time: 10:15 AM on Sunday, August 9." [ref=e759]':
+                                - text: 10:15 AM
+                                - generic [ref=e760]: "+1"
+                          - generic [ref=e761]: Delta, Scandinavian Airlines
+                        - generic [ref=e762]:
+                          - generic "Total duration 11 hr 19 min." [ref=e763]: 11 hr 19 min
+                          - generic [ref=e764]:
+                            - generic [ref=e767]: PIT
+                            - text: –
+                            - generic [ref=e770]: CPH
+                        - generic [ref=e771]:
+                          - generic "1 stop flight." [ref=e773]: 1 stop
+                          - generic "Layover (1 of 1) is a 41 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta." [ref=e774]:
+                            - text: 41 min
+                            - generic [ref=e776]: ATL
+                        - generic [ref=e778]:
+                          - generic [ref=e780]: 543 kg CO2e
+                          - generic [ref=e781]:
+                            - generic [ref=e782]: Avg emissions
+                            - 'button "Carbon emissions estimate: 543 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e783]':
+                              - img [ref=e784]
+                        - generic [ref=e786]:
+                          - generic [ref=e788]: $1,308
+                          - generic [ref=e789]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:56 PM on Saturday, August 8 and arrives at Copenhagen Airport at 10:15 AM on Sunday, August 9." [ref=e792]:
+                      - img [ref=e795]
+                - listitem [ref=e797]:
+                  - generic [ref=e798] [cursor=pointer]:
+                    - button "View more flights" [ref=e801]:
+                      - img
+                    - generic [ref=e804]: View more flights
+          - text: ·· · ·· ·· · · ·· · ·· · ·· ·· ·· · ·· ·· · ··
+      - contentinfo [ref=e807]:
+        - generic [ref=e809]:
+          - button "Language·English (United States)" [ref=e810]:
+            - img [ref=e813]
+            - generic [ref=e815]: Language·English (United States)
+          - button "Location·United States" [ref=e816]:
+            - img [ref=e819]
+            - generic [ref=e822]: Location·United States
+          - button "Currency USD" [ref=e823]:
+            - img [ref=e826]
+            - generic [ref=e836]: Currency·USD
+        - generic [ref=e837]:
+          - link "About Google Travel" [ref=e838] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e839] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e840] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e841] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e842] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e843] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e845]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e846] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

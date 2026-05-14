@@ -1,0 +1,3623 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "sandiego":
+        - /url: https://old.reddit.com/
+        - img "sandiego" [ref=e111] [cursor=pointer]
+      - link "sandiego" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/sandiego/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e122]:
+      - textbox "search" [ref=e123]
+      - button "Submit" [ref=e124]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - text: this post was submitted on
+        - time [ref=e128]: 13 Apr 2024
+      - generic [ref=e129]: 159 points (93% upvoted)
+      - generic [ref=e130]:
+        - text: "shortlink:"
+        - textbox [ref=e131]: https://redd.it/1c3avld
+    - link "Submit a new link" [ref=e135]:
+      - /url: https://old.reddit.com/r/sandiego/submit
+    - link "Submit a new text post" [ref=e139]:
+      - /url: https://old.reddit.com/r/sandiego/submit?selftext=true
+    - generic [ref=e141]:
+      - heading "sandiego" [level=1]:
+        - link "sandiego" [ref=e142] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/sandiego/
+      - link "join" [ref=e144]:
+        - /url: "#"
+      - generic [ref=e147]:
+        - heading "Ask your QUESTIONS HERE" [level=2] [ref=e148]:
+          - emphasis [ref=e149]: Ask your QUESTIONS HERE
+        - heading "• Ask San Diego" [level=2] [ref=e150]:
+          - text: •
+          - strong [ref=e151]:
+            - emphasis [ref=e152]:
+              - link "Ask San Diego" [ref=e153] [cursor=pointer]:
+                - /url: /r/AskSanDiego
+        - heading "• SD Classifieds" [level=2] [ref=e154]:
+          - text: •
+          - strong [ref=e155]:
+            - emphasis [ref=e156]:
+              - link "SD Classifieds" [ref=e157] [cursor=pointer]:
+                - /url: /r/SanDiegoClassifieds
+        - heading "• SD Jobs" [level=2] [ref=e158]:
+          - text: •
+          - strong [ref=e159]:
+            - emphasis [ref=e160]:
+              - link "SD Jobs" [ref=e161] [cursor=pointer]:
+                - /url: /r/SanDiegoJobs
+        - separator [ref=e162]
+        - separator [ref=e163]
+        - heading "Rules" [level=1]:
+          - link "Rules" [ref=e164] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanDiego/about/rules/
+        - paragraph [ref=e165]:
+          - link "Our rules and guidelines are easy" [ref=e166] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanDiego/about/rules/
+            - strong [ref=e167]: Our rules and guidelines are easy
+          - text: ":"
+        - separator [ref=e168]
+        - paragraph [ref=e169]:
+          - strong [ref=e170]:
+            - emphasis [ref=e171]: Bored?
+        - paragraph [ref=e172]:
+          - text: Check the weekly*
+          - strong [ref=e173]:
+            - emphasis [ref=e174]: "\"Things to Do\""
+          - text: "*thread pinned at the top of the sub or visit the subs"
+          - link "Facebook Meetup Group" [ref=e175] [cursor=pointer]:
+            - /url: http://www.facebook.com/groups/sdredditors/
+        - paragraph [ref=e176]:
+          - link "Feeling Depressed? Help is here (chat)!" [ref=e177] [cursor=pointer]:
+            - /url: https://svcrplv.uhc.com/sdchat/
+            - strong [ref=e178]: Feeling Depressed?
+            - text: Help is here (chat)!
+          - text: "Direct Phone:"
+          - strong [ref=e179]: (888) 724-7240
+        - paragraph [ref=e180]:
+          - link "Watch this video for some VERY GOOD Advice" [ref=e181] [cursor=pointer]:
+            - /url: https://youtu.be/eVphvQjSJ9c
+            - strong [ref=e182]: Watch this video for some VERY GOOD Advice
+        - paragraph [ref=e183]:
+          - link "Bi-Polar, OCD or something else you're not sure of (difficult thoughts)?" [ref=e184] [cursor=pointer]:
+            - /url: https://www.crisistextline.org
+            - strong [ref=e185]: Bi-Polar, OCD
+            - text: or
+            - strong [ref=e186]:
+              - emphasis [ref=e187]: something else
+            - text: you're not sure of (difficult thoughts)?
+          - text: and you can also
+          - link "check these people out too" [ref=e188] [cursor=pointer]:
+            - /url: http://www.dbsasandiego.org
+        - separator [ref=e189]
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - paragraph [ref=e192]:
+              - link "Visiting The City?*" [ref=e193] [cursor=pointer]:
+                - /url: https://www.sandiego.org/plan/visitors-information-services.aspx
+                - strong [ref=e194]:
+                  - emphasis [ref=e195]: Visiting The City
+                  - text: "?"
+                - text: "*"
+              - text: Here's
+              - link "One redditors tour experience" [ref=e196] [cursor=pointer]:
+                - /url: https://old.reddit.com/r/sandiego/comments/98cyyo/visited-sd-last-week-to-visit-family-and-had-a/
+          - listitem [ref=e197]:
+            - paragraph [ref=e198]:
+              - link "Thinking of moving to SD? Use this SubSearch" [ref=e199] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/search?q=Moving&sort=comments&restrict-sr=on
+                - strong [ref=e200]: Thinking of moving to SD? Use this SubSearch
+            - paragraph [ref=e201]:
+              - strong [ref=e202]: OR
+          - listitem [ref=e203]:
+            - paragraph [ref=e204]:
+              - link "Click here for the \"Moving to San Diego\"" [ref=e205] [cursor=pointer]:
+                - /url: /r/Moving2SanDiego
+                - strong [ref=e206]: Click here for the "Moving to San Diego"
+              - text: "-It's a specific sub we maintain for you."
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "Want something \"off the tourist trail/SD history\"?" [ref=e209] [cursor=pointer]:
+                - /url: http://video.kpbs.org/show/ken-kramers-about-san-diego/
+                - strong [ref=e210]: Want something "off the tourist trail/SD history"?
+          - listitem [ref=e211]:
+            - paragraph [ref=e212]:
+              - link "Best of SD" [ref=e213] [cursor=pointer]:
+                - /url: /r/sandiego/comments/2duatc/best-of-san-diego-august-2014/
+                - strong [ref=e214]: Best of SD
+              - text: and
+              - link "Things to do in SD" [ref=e215] [cursor=pointer]:
+                - /url: /r/sandiego/comments/d9dlr/definitive-list/
+                - strong [ref=e216]: Things to do in SD
+          - listitem [ref=e217]:
+            - paragraph [ref=e218]:
+              - link "Updated Craft Brewery Map of San Diego" [ref=e219] [cursor=pointer]:
+                - /url: https://www.google.com/maps/d/viewer?mid=1pbR91HVqmpQogZczWzgMFVrIbSA&hl=en-US&ll=32.74927874387212%2C-117.12385493115232&z=14
+                - strong [ref=e220]: Updated Craft Brewery Map of San Diego
+        - separator [ref=e221]
+        - paragraph [ref=e222]:
+          - strong [ref=e223]: "Related Subreddits:"
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "Tijuana" [ref=e227] [cursor=pointer]:
+                - /url: /r/tijuana
+            - paragraph [ref=e228]:
+              - strong [ref=e229]: "Special Local Interests:"
+          - listitem [ref=e230]:
+            - paragraph [ref=e231]:
+              - 'link "SD Weed: Our Medical and Recreational Cannabis & MJ Sub" [ref=e232] [cursor=pointer]':
+                - /url: /r/SDweed
+          - listitem [ref=e233]:
+            - paragraph [ref=e234]:
+              - link "San Diego Food (porn)" [ref=e235] [cursor=pointer]:
+                - /url: /r/foodsandiego
+          - listitem [ref=e236]:
+            - paragraph [ref=e237]:
+              - link "SD Pictures and Photography" [ref=e238] [cursor=pointer]:
+                - /url: /r/SanDiego_Photography/
+            - paragraph [ref=e239]:
+              - strong [ref=e240]: "Sports:"
+          - listitem [ref=e241]:
+            - paragraph [ref=e242]:
+              - link "SD Sports subs(Linking sub listing)" [ref=e243] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/SanDiego-Sports/
+            - paragraph [ref=e244]:
+              - strong [ref=e245]: "Geographical Area subs:"
+          - listitem [ref=e246]:
+            - paragraph [ref=e247]:
+              - link "Anza Borrego" [ref=e248] [cursor=pointer]:
+                - /url: /r/AnzaBorrego
+          - listitem [ref=e249]:
+            - paragraph [ref=e250]:
+              - link "East County" [ref=e251] [cursor=pointer]:
+                - /url: /r/EastCounty
+          - listitem [ref=e252]:
+            - paragraph [ref=e253]:
+              - link "North County" [ref=e254] [cursor=pointer]:
+                - /url: /r/NorthCounty
+            - paragraph [ref=e255]:
+              - strong [ref=e256]: "Schools / University Subs:"
+          - listitem [ref=e257]:
+            - paragraph [ref=e258]:
+              - link "CSUSM" [ref=e259] [cursor=pointer]:
+                - /url: /r/CSUSM
+          - listitem [ref=e260]:
+            - paragraph [ref=e261]:
+              - link "SDSU" [ref=e262] [cursor=pointer]:
+                - /url: /r/SDSU
+          - listitem [ref=e263]:
+            - paragraph [ref=e264]:
+              - link "UCSD" [ref=e265] [cursor=pointer]:
+                - /url: /r/UCSD
+          - listitem [ref=e266]:
+            - paragraph [ref=e267]:
+              - link "USD" [ref=e268] [cursor=pointer]:
+                - /url: /r/USD
+        - separator [ref=e269]
+        - paragraph [ref=e270]:
+          - strong [ref=e271]: "City Links:"
+        - paragraph [ref=e272]:
+          - text: See something to alert the city of?
+          - emphasis [ref=e273]: (potholes, hazards, illegal dumping, graffiti)
+        - paragraph [ref=e274]:
+          - link "Use the \"Get it Done\" app from the city of SD to report and track it" [ref=e275] [cursor=pointer]:
+            - /url: https://www.sandiego.gov/get-it-done
+        - paragraph [ref=e276]:
+          - text: Need a more graphical list of contact numbers for city issues?
+          - link "\"We got ya fam.\"" [ref=e277] [cursor=pointer]:
+            - /url: https://i.redd.it/fvho0sbnbevz.gif
+            - emphasis [ref=e278]: "\"We got ya fam.\""
+        - paragraph [ref=e279]:
+          - strong [ref=e280]: "Wildlife Help:"
+        - paragraph [ref=e281]:
+          - text: "SeaWorld:"
+          - emphasis [ref=e282]: Animal Rescue only
+          - text: "- direct number ( 619. 226-3900 x3893)"
+      - generic [ref=e284]:
+        - text: a community for
+        - time [ref=e285]: 17 years
+    - generic [ref=e287]:
+      - heading "MODERATORS" [level=1] [ref=e289]
+      - list [ref=e290]:
+        - listitem [ref=e291]:
+          - link "message the mods" [ref=e292] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/sandiego
+    - complementary [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - text: discussions in
+          - link "r/sandiego" [ref=e298] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/sandiego/?ref=readnext
+        - navigation [ref=e299]:
+          - generic [ref=e300] [cursor=pointer]: <
+          - generic [ref=e301] [cursor=pointer]: ">"
+        - generic [ref=e303] [cursor=pointer]: X
+      - link "9 · 8 comments Missing Child- At Risk" [ref=e305] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/sandiego/comments/1sg13ev/missing_child_at_risk/?ref=readnext_0
+        - generic [ref=e306]: 9 · 8 comments
+        - generic [ref=e308]: Missing Child- At Risk
+  - main [ref=e309]:
+    - generic [ref=e310]:
+      - link "Welcome to Reddit. Come for the cats, stay for the empathy. Become a Redditor and start exploring." [ref=e311] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e312]
+        - paragraph [ref=e313]: Come for the cats, stay for the empathy.
+        - generic [ref=e314]:
+          - generic [ref=e315]: Become a Redditor
+          - paragraph [ref=e316]: and start exploring.
+      - link "×" [ref=e317] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e319]:
+      - paragraph
+      - generic [ref=e320]:
+        - button "upvote" [ref=e321] [cursor=pointer]
+        - generic "159" [ref=e322]
+        - button "downvote" [ref=e323] [cursor=pointer]
+      - link [ref=e324] [cursor=pointer]:
+        - /url: /r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - paragraph [ref=e327]:
+            - link "Coolest low cost to free things to do/see in SD?" [ref=e328] [cursor=pointer]:
+              - /url: /r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/
+            - generic [ref=e329]:
+              - text: (
+              - link "self.sandiego" [ref=e330] [cursor=pointer]:
+                - /url: /r/sandiego/
+              - text: )
+          - paragraph [ref=e331]:
+            - text: submitted
+            - time [ref=e332]: 1 year ago
+            - text: by
+            - link "sleepygreenpanda" [ref=e333] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/sleepygreenpanda
+        - paragraph [ref=e338]: Looking for some cool things to go do and see in the SD area that are low cost or free. I've already done some of the typical stuff (Italian farmers market, various neighborhood walk throughs). Hoping you guys might have some options I hadn't considered.
+        - link "142 comments" [ref=e339] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/
+    - generic [ref=e340]:
+      - generic [ref=e342]:
+        - text: "sorted by:"
+        - generic [ref=e343]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e346] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e347]
+        - generic [ref=e348]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e349]
+          - paragraph [ref=e350]: Post a comment!
+          - generic [ref=e352]: Create an account
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - paragraph
+          - generic [ref=e355]:
+            - button "upvote" [ref=e356] [cursor=pointer]
+            - button "downvote" [ref=e357] [cursor=pointer]
+          - generic [ref=e358]:
+            - paragraph [ref=e359]:
+              - link "[–]" [ref=e360] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 166 points"
+              - time [ref=e361]: 1 year ago
+            - paragraph [ref=e365]: There are free museums in balboa that are worth a trip, like Timken. Also hit the art village and cactus gardens while you’re there.
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - link "permalink" [ref=e368] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfnds6/
+              - listitem [ref=e369]:
+                - link "embed" [ref=e370] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e371]:
+                - link "save" [ref=e372] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e373]:
+                - link "report" [ref=e374] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - paragraph
+              - generic [ref=e378]:
+                - button "upvote" [ref=e379] [cursor=pointer]
+                - button "downvote" [ref=e380] [cursor=pointer]
+              - generic [ref=e381]:
+                - paragraph [ref=e382]:
+                  - link "[–]" [ref=e383] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "SoF4rGone" [ref=e384] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/SoF4rGone
+                  - text: 47 points
+                  - time [ref=e385]: 1 year ago
+                - paragraph [ref=e389]: Also they have a rotating free day for most the balboa museums on like Tuesday.
+                - list [ref=e390]:
+                  - listitem [ref=e391]:
+                    - link "permalink" [ref=e392] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfv8m9/
+                  - listitem [ref=e393]:
+                    - link "embed" [ref=e394] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e395]:
+                    - link "save" [ref=e396] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e397]:
+                    - link "parent" [ref=e398] [cursor=pointer]:
+                      - /url: "#kzfnds6"
+                  - listitem [ref=e399]:
+                    - link "report" [ref=e400] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e402]:
+                - generic [ref=e403]:
+                  - paragraph
+                  - generic [ref=e404]:
+                    - button "upvote" [ref=e405] [cursor=pointer]
+                    - button "downvote" [ref=e406] [cursor=pointer]
+                  - generic [ref=e407]:
+                    - paragraph [ref=e408]:
+                      - link "[–]" [ref=e409] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Opposite-Spare8637" [ref=e410] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Opposite-Spare8637
+                      - text: 34 points
+                      - time [ref=e411]: 1 year ago
+                    - paragraph [ref=e415]: i believe the free museum tuesdays are for sd residents only
+                    - list [ref=e416]:
+                      - listitem [ref=e417]:
+                        - link "permalink" [ref=e418] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfx3rm/
+                      - listitem [ref=e419]:
+                        - link "embed" [ref=e420] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e421]:
+                        - link "save" [ref=e422] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e423]:
+                        - link "parent" [ref=e424] [cursor=pointer]:
+                          - /url: "#kzfv8m9"
+                      - listitem [ref=e425]:
+                        - link "report" [ref=e426] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - paragraph
+                      - generic [ref=e430]:
+                        - button "upvote" [ref=e431] [cursor=pointer]
+                        - button "downvote" [ref=e432] [cursor=pointer]
+                      - generic [ref=e433]:
+                        - paragraph [ref=e434]:
+                          - link "[–]" [ref=e435] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "SoF4rGone" [ref=e436] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/SoF4rGone
+                          - text: 2 points
+                          - time [ref=e437]: 1 year ago
+                        - paragraph [ref=e441]: Ah, my bad 😅
+                        - list [ref=e442]:
+                          - listitem [ref=e443]:
+                            - link "permalink" [ref=e444] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfy216/
+                          - listitem [ref=e445]:
+                            - link "embed" [ref=e446] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e447]:
+                            - link "save" [ref=e448] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e449]:
+                            - link "parent" [ref=e450] [cursor=pointer]:
+                              - /url: "#kzfx3rm"
+                          - listitem [ref=e451]:
+                            - link "report" [ref=e452] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                    - generic [ref=e453]:
+                      - paragraph
+                      - generic [ref=e454]:
+                        - button "upvote" [ref=e455] [cursor=pointer]
+                        - button "downvote" [ref=e456] [cursor=pointer]
+                      - generic [ref=e457]:
+                        - paragraph [ref=e458]:
+                          - link "[–]" [ref=e459] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "phua1" [ref=e460] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/phua1
+                          - text: 8 points
+                          - time [ref=e461]: 1 year ago
+                        - paragraph [ref=e465]: I’ve gone to some and they don’t really check, for mingei i just walked in and the art museum asks for a zip code but that’s easy to just look up any SD zip
+                        - list [ref=e466]:
+                          - listitem [ref=e467]:
+                            - link "permalink" [ref=e468] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg0iz7/
+                          - listitem [ref=e469]:
+                            - link "embed" [ref=e470] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e471]:
+                            - link "save" [ref=e472] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e473]:
+                            - link "parent" [ref=e474] [cursor=pointer]:
+                              - /url: "#kzfx3rm"
+                          - listitem [ref=e475]:
+                            - link "report" [ref=e476] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                      - generic [ref=e479]:
+                        - paragraph
+                        - generic [ref=e480]:
+                          - button "upvote" [ref=e481] [cursor=pointer]
+                          - button "downvote" [ref=e482] [cursor=pointer]
+                        - generic [ref=e483]:
+                          - paragraph [ref=e484]:
+                            - link "[–]" [ref=e485] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - link "paochow" [ref=e486] [cursor=pointer]:
+                              - /url: https://old.reddit.com/user/paochow
+                            - text: 5 points
+                            - time [ref=e487]: 1 year ago
+                          - paragraph [ref=e491]: It depends on the museum staff.. there were some where they were super strict when I came with people who were visiting from out of state. They asked to see ID so I got in but then they asked my friends to go pay. And we were like, hell no. So we left, got a snack, checked out some other spots. Came back when somebody else was at the front and they let us all in. FYI.
+                          - list [ref=e492]:
+                            - listitem [ref=e493]:
+                              - link "permalink" [ref=e494] [cursor=pointer]:
+                                - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhuy61/
+                            - listitem [ref=e495]:
+                              - link "embed" [ref=e496] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e497]:
+                              - link "save" [ref=e498] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e499]:
+                              - link "parent" [ref=e500] [cursor=pointer]:
+                                - /url: "#kzg0iz7"
+                            - listitem [ref=e501]:
+                              - link "report" [ref=e502] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                - generic [ref=e503]:
+                  - paragraph
+                  - generic [ref=e504]:
+                    - button "upvote" [ref=e505] [cursor=pointer]
+                    - button "downvote" [ref=e506] [cursor=pointer]
+                  - generic [ref=e507]:
+                    - paragraph [ref=e508]:
+                      - link "[–]" [ref=e509] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - text: "[deleted] 3 points"
+                      - time [ref=e510]: 1 year ago
+                    - paragraph [ref=e514]: Yep, that too if you’re a local
+                    - list [ref=e515]:
+                      - listitem [ref=e516]:
+                        - link "permalink" [ref=e517] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfz622/
+                      - listitem [ref=e518]:
+                        - link "embed" [ref=e519] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e520]:
+                        - link "save" [ref=e521] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e522]:
+                        - link "parent" [ref=e523] [cursor=pointer]:
+                          - /url: "#kzfv8m9"
+                      - listitem [ref=e524]:
+                        - link "report" [ref=e525] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e526]:
+              - paragraph
+              - generic [ref=e527]:
+                - button "upvote" [ref=e528] [cursor=pointer]
+                - button "downvote" [ref=e529] [cursor=pointer]
+              - generic [ref=e530]:
+                - paragraph [ref=e531]:
+                  - link "[–]" [ref=e532] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "thizzydrafts" [ref=e533] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/thizzydrafts
+                  - text: 8 points
+                  - time [ref=e534]: 1 year ago
+                - paragraph [ref=e538]: And assuming the weather is nice, a picnic at Balboa is also nice to do!
+                - list [ref=e539]:
+                  - listitem [ref=e540]:
+                    - link "permalink" [ref=e541] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzha9fb/
+                  - listitem [ref=e542]:
+                    - link "embed" [ref=e543] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e544]:
+                    - link "save" [ref=e545] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e546]:
+                    - link "parent" [ref=e547] [cursor=pointer]:
+                      - /url: "#kzfnds6"
+                  - listitem [ref=e548]:
+                    - link "report" [ref=e549] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e552]:
+                - paragraph
+                - generic [ref=e553]:
+                  - button "upvote" [ref=e554] [cursor=pointer]
+                  - button "downvote" [ref=e555] [cursor=pointer]
+                - generic [ref=e556]:
+                  - paragraph [ref=e557]:
+                    - link "[–]" [ref=e558] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 2 points"
+                    - time [ref=e559]: 1 year ago
+                  - paragraph [ref=e563]: Always!
+                  - list [ref=e564]:
+                    - listitem [ref=e565]:
+                      - link "permalink" [ref=e566] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhblex/
+                    - listitem [ref=e567]:
+                      - link "embed" [ref=e568] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e569]:
+                      - link "save" [ref=e570] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e571]:
+                      - link "parent" [ref=e572] [cursor=pointer]:
+                        - /url: "#kzha9fb"
+                    - listitem [ref=e573]:
+                      - link "report" [ref=e574] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e575]:
+          - paragraph
+          - paragraph [ref=e577]:
+            - link "[+]" [ref=e578] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e579]: "[deleted]"
+            - time [ref=e580]: 1 year ago
+            - link "(2 children)" [ref=e581] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e582]:
+          - paragraph
+          - generic [ref=e583]:
+            - button "upvote" [ref=e584] [cursor=pointer]
+            - button "downvote" [ref=e585] [cursor=pointer]
+          - generic [ref=e586]:
+            - paragraph [ref=e587]:
+              - link "[–]" [ref=e588] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Hedgehogs_Lol" [ref=e589] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Hedgehogs_Lol
+              - text: 41 points
+              - time [ref=e590]: 1 year ago
+            - generic [ref=e593]:
+              - paragraph [ref=e594]:
+                - link "<image>" [ref=e595] [cursor=pointer]:
+                  - /url: https://preview.redd.it/p3rkbpwz8cuc1.jpeg?width=3024&format=pjpg&auto=webp&s=aab113e273f37a4b7d2d2a592c0220092a1c566c
+              - paragraph [ref=e596]: Iron Mtn is gorgeous this time of year when the wild lilacs are blooming! It’s 3.1 miles to the top and well-worth the amazing views.
+            - list [ref=e597]:
+              - listitem [ref=e598]:
+                - link "permalink" [ref=e599] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgq76g/
+              - listitem [ref=e600]:
+                - link "embed" [ref=e601] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e602]:
+                - link "save" [ref=e603] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e604]:
+                - link "report" [ref=e605] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e607]:
+            - generic [ref=e608]:
+              - paragraph
+              - generic [ref=e609]:
+                - button "upvote" [ref=e610] [cursor=pointer]
+                - button "downvote" [ref=e611] [cursor=pointer]
+              - generic [ref=e612]:
+                - paragraph [ref=e613]:
+                  - link "[–]" [ref=e614] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Mysterious-Art8838" [ref=e615] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Mysterious-Art8838
+                  - text: 6 points
+                  - time [ref=e616]: 1 year ago
+                - paragraph [ref=e620]: I will go if you carry me.
+                - list [ref=e621]:
+                  - listitem [ref=e622]:
+                    - link "permalink" [ref=e623] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kznikym/
+                  - listitem [ref=e624]:
+                    - link "embed" [ref=e625] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e626]:
+                    - link "save" [ref=e627] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e628]:
+                    - link "parent" [ref=e629] [cursor=pointer]:
+                      - /url: "#kzgq76g"
+                  - listitem [ref=e630]:
+                    - link "report" [ref=e631] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e634]:
+                - paragraph
+                - generic [ref=e635]:
+                  - button "upvote" [ref=e636] [cursor=pointer]
+                  - button "downvote" [ref=e637] [cursor=pointer]
+                - generic [ref=e638]:
+                  - paragraph [ref=e639]:
+                    - link "[–]" [ref=e640] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Hedgehogs_Lol" [ref=e641] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Hedgehogs_Lol
+                    - text: 1 point
+                    - time [ref=e642]: 1 year ago
+                  - paragraph [ref=e646]: Lol ok yoda
+                  - list [ref=e647]:
+                    - listitem [ref=e648]:
+                      - link "permalink" [ref=e649] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzon7zh/
+                    - listitem [ref=e650]:
+                      - link "embed" [ref=e651] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e652]:
+                      - link "save" [ref=e653] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e654]:
+                      - link "parent" [ref=e655] [cursor=pointer]:
+                        - /url: "#kznikym"
+                    - listitem [ref=e656]:
+                      - link "report" [ref=e657] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e658]:
+              - paragraph
+              - generic [ref=e659]:
+                - button "upvote" [ref=e660] [cursor=pointer]
+                - button "downvote" [ref=e661] [cursor=pointer]
+              - generic [ref=e662]:
+                - paragraph [ref=e663]:
+                  - link "[–]" [ref=e664] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Former-Part5692" [ref=e665] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Former-Part5692
+                  - text: 2 points
+                  - time [ref=e666]: 1 year ago
+                  - time [ref=e667]: "*"
+                - paragraph [ref=e671]: How far is it down? 6.2 mile loop is not for everyone!
+                - list [ref=e672]:
+                  - listitem [ref=e673]:
+                    - link "permalink" [ref=e674] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzo78of/
+                  - listitem [ref=e675]:
+                    - link "embed" [ref=e676] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e677]:
+                    - link "save" [ref=e678] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e679]:
+                    - link "parent" [ref=e680] [cursor=pointer]:
+                      - /url: "#kzgq76g"
+                  - listitem [ref=e681]:
+                    - link "report" [ref=e682] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e685]:
+                - paragraph
+                - generic [ref=e686]:
+                  - button "upvote" [ref=e687] [cursor=pointer]
+                  - button "downvote" [ref=e688] [cursor=pointer]
+                - generic [ref=e689]:
+                  - paragraph [ref=e690]:
+                    - link "[–]" [ref=e691] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Hedgehogs_Lol" [ref=e692] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Hedgehogs_Lol
+                    - text: 5 points
+                    - time [ref=e693]: 1 year ago
+                  - paragraph [ref=e697]: It's 3.1 up and 3.1 down, so 6.2. Exactly why I'm posting the distance so you know what you're getting into!
+                  - list [ref=e698]:
+                    - listitem [ref=e699]:
+                      - link "permalink" [ref=e700] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzon66o/
+                    - listitem [ref=e701]:
+                      - link "embed" [ref=e702] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e703]:
+                      - link "save" [ref=e704] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e705]:
+                      - link "parent" [ref=e706] [cursor=pointer]:
+                        - /url: "#kzo78of"
+                    - listitem [ref=e707]:
+                      - link "report" [ref=e708] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e711]:
+                  - paragraph
+                  - generic [ref=e712]:
+                    - button "upvote" [ref=e713] [cursor=pointer]
+                    - button "downvote" [ref=e714] [cursor=pointer]
+                  - generic [ref=e715]:
+                    - paragraph [ref=e716]:
+                      - link "[–]" [ref=e717] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Former-Part5692" [ref=e718] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Former-Part5692
+                      - text: 1 point
+                      - time [ref=e719]: 1 year ago
+                    - paragraph [ref=e723]: Appreciate it!!!
+                    - list [ref=e724]:
+                      - listitem [ref=e725]:
+                        - link "permalink" [ref=e726] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzoq71e/
+                      - listitem [ref=e727]:
+                        - link "embed" [ref=e728] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e729]:
+                        - link "save" [ref=e730] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e731]:
+                        - link "parent" [ref=e732] [cursor=pointer]:
+                          - /url: "#kzon66o"
+                      - listitem [ref=e733]:
+                        - link "report" [ref=e734] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e735]:
+          - paragraph
+          - generic [ref=e736]:
+            - button "upvote" [ref=e737] [cursor=pointer]
+            - button "downvote" [ref=e738] [cursor=pointer]
+          - generic [ref=e739]:
+            - paragraph [ref=e740]:
+              - link "[–]" [ref=e741] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dreameRevolution" [ref=e742] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dreameRevolution
+              - text: 75 points
+              - time [ref=e743]: 1 year ago
+            - paragraph [ref=e747]: Hike Torrey pines. The lagoon trail in Carlsbad.
+            - list [ref=e748]:
+              - listitem [ref=e749]:
+                - link "permalink" [ref=e750] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfssho/
+              - listitem [ref=e751]:
+                - link "embed" [ref=e752] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e753]:
+                - link "save" [ref=e754] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e755]:
+                - link "report" [ref=e756] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e759]:
+            - paragraph
+            - generic [ref=e760]:
+              - button "upvote" [ref=e761] [cursor=pointer]
+              - button "downvote" [ref=e762] [cursor=pointer]
+            - generic [ref=e763]:
+              - paragraph [ref=e764]:
+                - link "[–]" [ref=e765] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "adjblair" [ref=e766] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/adjblair
+                - text: 59 points
+                - time [ref=e767]: 1 year ago
+              - paragraph [ref=e771]: If you have a library card you can check out a state park pass for 2 weeks at a time and park at Torrey Pines for free.
+              - list [ref=e772]:
+                - listitem [ref=e773]:
+                  - link "permalink" [ref=e774] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfwgah/
+                - listitem [ref=e775]:
+                  - link "embed" [ref=e776] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e777]:
+                  - link "save" [ref=e778] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e779]:
+                  - link "parent" [ref=e780] [cursor=pointer]:
+                    - /url: "#kzfssho"
+                - listitem [ref=e781]:
+                  - link "report" [ref=e782] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e785]:
+              - paragraph
+              - generic [ref=e786]:
+                - button "upvote" [ref=e787] [cursor=pointer]
+                - button "downvote" [ref=e788] [cursor=pointer]
+              - generic [ref=e789]:
+                - paragraph [ref=e790]:
+                  - link "[–]" [ref=e791] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Table_tennis_01" [ref=e792] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Table_tennis_01
+                  - text: 5 points
+                  - time [ref=e793]: 1 year ago
+                - paragraph [ref=e797]: Can you share more information? I have never heard of this.
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - link "permalink" [ref=e800] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzji48x/
+                  - listitem [ref=e801]:
+                    - link "embed" [ref=e802] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e803]:
+                    - link "save" [ref=e804] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e805]:
+                    - link "parent" [ref=e806] [cursor=pointer]:
+                      - /url: "#kzfwgah"
+                  - listitem [ref=e807]:
+                    - link "report" [ref=e808] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e811]:
+                - paragraph
+                - generic [ref=e812]:
+                  - button "upvote" [ref=e813] [cursor=pointer]
+                  - button "downvote" [ref=e814] [cursor=pointer]
+                - generic [ref=e815]:
+                  - paragraph [ref=e816]:
+                    - link "[–]" [ref=e817] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "adjblair" [ref=e818] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/adjblair
+                    - text: 8 points
+                    - time [ref=e819]: 1 year ago
+                  - paragraph [ref=e823]:
+                    - text: I think the Central Library may be the only library in San Diego to check them out. I've always just called ahead to confirm that they have some in stock. You can just place it on your dashboard or hang it from your rear view mirror and pass on paying the entrance/parking fees. Here's some
+                    - link "info" [ref=e824] [cursor=pointer]:
+                      - /url: https://www.sandiego.gov/public-library/check-out-nature#discovergo
+                    - text: online about the program. There's also a "Discover & Go" program which I didn't previously know about, which is cool!
+                  - list [ref=e825]:
+                    - listitem [ref=e826]:
+                      - link "permalink" [ref=e827] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzjjg9x/
+                    - listitem [ref=e828]:
+                      - link "embed" [ref=e829] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e830]:
+                      - link "save" [ref=e831] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e832]:
+                      - link "parent" [ref=e833] [cursor=pointer]:
+                        - /url: "#kzji48x"
+                    - listitem [ref=e834]:
+                      - link "report" [ref=e835] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e836]:
+          - paragraph
+          - generic [ref=e837]:
+            - button "upvote" [ref=e838] [cursor=pointer]
+            - button "downvote" [ref=e839] [cursor=pointer]
+          - generic [ref=e840]:
+            - paragraph [ref=e841]:
+              - link "[–]" [ref=e842] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dinosaur_0987" [ref=e843] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dinosaur_0987
+              - text: 89 points
+              - time [ref=e844]: 1 year ago
+            - paragraph [ref=e848]: Encinitas meditation gardens
+            - list [ref=e849]:
+              - listitem [ref=e850]:
+                - link "permalink" [ref=e851] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfwz47/
+              - listitem [ref=e852]:
+                - link "embed" [ref=e853] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e854]:
+                - link "save" [ref=e855] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e856]:
+                - link "report" [ref=e857] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e859]:
+            - generic [ref=e860]:
+              - paragraph
+              - paragraph [ref=e862]:
+                - link "[+]" [ref=e863] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - emphasis [ref=e864]: "[deleted]"
+                - time [ref=e865]: 1 year ago
+                - link "(1 child)" [ref=e866] [cursor=pointer]:
+                  - /url: javascript:void(0)
+            - generic [ref=e867]:
+              - paragraph
+              - generic [ref=e868]:
+                - button "upvote" [ref=e869] [cursor=pointer]
+                - button "downvote" [ref=e870] [cursor=pointer]
+              - generic [ref=e871]:
+                - paragraph [ref=e872]:
+                  - link "[–]" [ref=e873] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "kristenlicious" [ref=e874] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/kristenlicious
+                  - text: 0 points
+                  - time [ref=e875]: 1 year ago
+                - paragraph [ref=e879]: Just thought it was the weird cult
+                - list [ref=e880]:
+                  - listitem [ref=e881]:
+                    - link "permalink" [ref=e882] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhbtlt/
+                  - listitem [ref=e883]:
+                    - link "embed" [ref=e884] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e885]:
+                    - link "save" [ref=e886] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e887]:
+                    - link "parent" [ref=e888] [cursor=pointer]:
+                      - /url: "#kzfwz47"
+                  - listitem [ref=e889]:
+                    - link "report" [ref=e890] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e891]:
+          - paragraph
+          - paragraph [ref=e893]:
+            - link "[+]" [ref=e894] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e895]: "[deleted]"
+            - time [ref=e896]: 1 year ago
+            - link "(5 children)" [ref=e897] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e898]:
+          - paragraph
+          - generic [ref=e899]:
+            - button "upvote" [ref=e900] [cursor=pointer]
+            - button "downvote" [ref=e901] [cursor=pointer]
+          - generic [ref=e902]:
+            - paragraph [ref=e903]:
+              - link "[–]" [ref=e904] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "tankgirl619" [ref=e905] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/tankgirl619
+              - text: 27 points
+              - time [ref=e906]: 1 year ago
+            - paragraph [ref=e910]: Balboa park and Spanish village are free to walk through
+            - list [ref=e911]:
+              - listitem [ref=e912]:
+                - link "permalink" [ref=e913] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfs4dp/
+              - listitem [ref=e914]:
+                - link "embed" [ref=e915] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e916]:
+                - link "save" [ref=e917] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e918]:
+                - link "report" [ref=e919] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e922]:
+            - paragraph
+            - generic [ref=e923]:
+              - button "upvote" [ref=e924] [cursor=pointer]
+              - button "downvote" [ref=e925] [cursor=pointer]
+            - generic [ref=e926]:
+              - paragraph [ref=e927]:
+                - link "[–]" [ref=e928] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "RedCorundum" [ref=e929] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/RedCorundum
+                - text: 16 points
+                - time [ref=e930]: 1 year ago
+              - paragraph [ref=e934]: I can wander through Balboa Park forever and never tire of it. I miss living in SD.
+              - list [ref=e935]:
+                - listitem [ref=e936]:
+                  - link "permalink" [ref=e937] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg11vi/
+                - listitem [ref=e938]:
+                  - link "embed" [ref=e939] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e940]:
+                  - link "save" [ref=e941] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e942]:
+                  - link "parent" [ref=e943] [cursor=pointer]:
+                    - /url: "#kzfs4dp"
+                - listitem [ref=e944]:
+                  - link "report" [ref=e945] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e948]:
+              - paragraph
+              - generic [ref=e949]:
+                - button "upvote" [ref=e950] [cursor=pointer]
+                - button "downvote" [ref=e951] [cursor=pointer]
+              - generic [ref=e952]:
+                - paragraph [ref=e953]:
+                  - link "[–]" [ref=e954] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bmxer4l1fe" [ref=e955] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bmxer4l1fe
+                  - text: 6 points
+                  - time [ref=e956]: 1 year ago
+                - paragraph [ref=e960]: Me too, portland is nice, but only 1/2 the year. My heart is stuck in SD
+                - list [ref=e961]:
+                  - listitem [ref=e962]:
+                    - link "permalink" [ref=e963] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kziaf7o/
+                  - listitem [ref=e964]:
+                    - link "embed" [ref=e965] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e966]:
+                    - link "save" [ref=e967] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e968]:
+                    - link "parent" [ref=e969] [cursor=pointer]:
+                      - /url: "#kzg11vi"
+                  - listitem [ref=e970]:
+                    - link "report" [ref=e971] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e972]:
+          - paragraph
+          - generic [ref=e973]:
+            - button "upvote" [ref=e974] [cursor=pointer]
+            - button "downvote" [ref=e975] [cursor=pointer]
+          - generic [ref=e976]:
+            - paragraph [ref=e977]:
+              - link "[–]" [ref=e978] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "BigReebs" [ref=e979] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/BigReebs
+              - text: 29 points
+              - time [ref=e980]: 1 year ago
+            - paragraph [ref=e984]: If you get an annual pass to the zoo, ends up being cheaper than 2 day passes. Plus it gets you free parking to the Safari Park (for the 2nd tier and higher) and 10% off everything in the park. My wife and I go to one of the parks every week or two, which comes out VERY cheap per visit. It’s nice to be able to go for a few hours, get some steps in, and not feel pressured to see even half the animals
+            - list [ref=e985]:
+              - listitem [ref=e986]:
+                - link "permalink" [ref=e987] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgvafn/
+              - listitem [ref=e988]:
+                - link "embed" [ref=e989] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e990]:
+                - link "save" [ref=e991] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e992]:
+                - link "report" [ref=e993] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e995]:
+            - generic [ref=e996]:
+              - paragraph
+              - generic [ref=e997]:
+                - button "upvote" [ref=e998] [cursor=pointer]
+                - button "downvote" [ref=e999] [cursor=pointer]
+              - generic [ref=e1000]:
+                - paragraph [ref=e1001]:
+                  - link "[–]" [ref=e1002] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "swagmaster3k" [ref=e1003] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/swagmaster3k
+                  - text: 11 points
+                  - time [ref=e1004]: 1 year ago
+                - paragraph [ref=e1008]: Our favorite thing to do too. I always tell people it’s so worth it as long as you visit each park at least once, it’s already paid for itself.
+                - list [ref=e1009]:
+                  - listitem [ref=e1010]:
+                    - link "permalink" [ref=e1011] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh9p1s/
+                  - listitem [ref=e1012]:
+                    - link "embed" [ref=e1013] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1014]:
+                    - link "save" [ref=e1015] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1016]:
+                    - link "parent" [ref=e1017] [cursor=pointer]:
+                      - /url: "#kzgvafn"
+                  - listitem [ref=e1018]:
+                    - link "report" [ref=e1019] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1020]:
+              - paragraph
+              - generic [ref=e1021]:
+                - button "upvote" [ref=e1022] [cursor=pointer]
+                - button "downvote" [ref=e1023] [cursor=pointer]
+              - generic [ref=e1024]:
+                - paragraph [ref=e1025]:
+                  - link "[–]" [ref=e1026] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bmxer4l1fe" [ref=e1027] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bmxer4l1fe
+                  - text: 3 points
+                  - time [ref=e1028]: 1 year ago
+                - paragraph [ref=e1032]: Safari park > zoo. Love me some wild animal park
+                - list [ref=e1033]:
+                  - listitem [ref=e1034]:
+                    - link "permalink" [ref=e1035] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kziai7t/
+                  - listitem [ref=e1036]:
+                    - link "embed" [ref=e1037] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1038]:
+                    - link "save" [ref=e1039] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1040]:
+                    - link "parent" [ref=e1041] [cursor=pointer]:
+                      - /url: "#kzgvafn"
+                  - listitem [ref=e1042]:
+                    - link "report" [ref=e1043] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1044]:
+          - paragraph
+          - generic [ref=e1045]:
+            - button "upvote" [ref=e1046] [cursor=pointer]
+            - button "downvote" [ref=e1047] [cursor=pointer]
+          - generic [ref=e1048]:
+            - paragraph [ref=e1049]:
+              - link "[–]" [ref=e1050] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "lark_song" [ref=e1051] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/lark_song
+              - text: 23 points
+              - time [ref=e1052]: 1 year ago
+            - generic [ref=e1055]:
+              - paragraph [ref=e1056]: Balboa Park gardens. Mission Bay. Old town. Mission trails. Torrey pines trail. Rancho pq trail. Belmont park. Free museums on Tuesday. Museums that are always free. Gliderport. Liberty Station. Julian. Beach. Other beach. Another beach. The south beach. The north beach.
+              - paragraph [ref=e1057]: Out of all the places I've lived, San Diego has the most free beautiful things to do
+            - list [ref=e1058]:
+              - listitem [ref=e1059]:
+                - link "permalink" [ref=e1060] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgjrma/
+              - listitem [ref=e1061]:
+                - link "embed" [ref=e1062] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1063]:
+                - link "save" [ref=e1064] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1065]:
+                - link "report" [ref=e1066] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1067]:
+          - paragraph
+          - generic [ref=e1068]:
+            - button "upvote" [ref=e1069] [cursor=pointer]
+            - button "downvote" [ref=e1070] [cursor=pointer]
+          - generic [ref=e1071]:
+            - paragraph [ref=e1072]:
+              - link "[–]" [ref=e1073] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Original_Virus9162" [ref=e1074] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Original_Virus9162
+              - generic [ref=e1075]:
+                - text: "["
+                - link "🍰" [ref=e1076] [cursor=pointer]:
+                  - /url: /user/Original_Virus9162
+                - text: "]"
+              - text: 17 points
+              - time [ref=e1077]: 1 year ago
+            - paragraph [ref=e1081]: Mockingbird Improv’s shows at Liberty Station are usually free or donation based.
+            - list [ref=e1082]:
+              - listitem [ref=e1083]:
+                - link "permalink" [ref=e1084] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgvcz9/
+              - listitem [ref=e1085]:
+                - link "embed" [ref=e1086] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1087]:
+                - link "save" [ref=e1088] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1089]:
+                - link "report" [ref=e1090] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1093]:
+            - paragraph
+            - generic [ref=e1094]:
+              - button "upvote" [ref=e1095] [cursor=pointer]
+              - button "downvote" [ref=e1096] [cursor=pointer]
+            - generic [ref=e1097]:
+              - paragraph [ref=e1098]:
+                - link "[–]" [ref=e1099] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "dr_henry_jones" [ref=e1100] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/dr_henry_jones
+                - text: 3 points
+                - time [ref=e1101]: 1 year ago
+              - paragraph [ref=e1105]: Amazing theater!
+              - list [ref=e1106]:
+                - listitem [ref=e1107]:
+                  - link "permalink" [ref=e1108] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi6aaw/
+                - listitem [ref=e1109]:
+                  - link "embed" [ref=e1110] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1111]:
+                  - link "save" [ref=e1112] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1113]:
+                  - link "parent" [ref=e1114] [cursor=pointer]:
+                    - /url: "#kzgvcz9"
+                - listitem [ref=e1115]:
+                  - link "report" [ref=e1116] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1117]:
+          - paragraph
+          - generic [ref=e1118]:
+            - button "upvote" [ref=e1119] [cursor=pointer]
+            - button "downvote" [ref=e1120] [cursor=pointer]
+          - generic [ref=e1121]:
+            - paragraph [ref=e1122]:
+              - link "[–]" [ref=e1123] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Jimmy_Aztec" [ref=e1124] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Jimmy_Aztec
+              - text: 10 points
+              - time [ref=e1125]: 1 year ago
+            - paragraph [ref=e1129]: Leo Carrillo Ranch in Carlsbad
+            - list [ref=e1130]:
+              - listitem [ref=e1131]:
+                - link "permalink" [ref=e1132] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg9ht7/
+              - listitem [ref=e1133]:
+                - link "embed" [ref=e1134] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1135]:
+                - link "save" [ref=e1136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1137]:
+                - link "report" [ref=e1138] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1139]:
+          - paragraph
+          - generic [ref=e1140]:
+            - button "upvote" [ref=e1141] [cursor=pointer]
+            - button "downvote" [ref=e1142] [cursor=pointer]
+          - generic [ref=e1143]:
+            - paragraph [ref=e1144]:
+              - link "[–]" [ref=e1145] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Rosie3450" [ref=e1146] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Rosie3450
+              - text: 40 points
+              - time [ref=e1147]: 1 year ago
+            - paragraph [ref=e1151]: Mission Trails Park.
+            - list [ref=e1152]:
+              - listitem [ref=e1153]:
+                - link "permalink" [ref=e1154] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfptp7/
+              - listitem [ref=e1155]:
+                - link "embed" [ref=e1156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1157]:
+                - link "save" [ref=e1158] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1159]:
+                - link "report" [ref=e1160] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1162]:
+            - generic [ref=e1163]:
+              - paragraph
+              - generic [ref=e1164]:
+                - button "upvote" [ref=e1165] [cursor=pointer]
+                - button "downvote" [ref=e1166] [cursor=pointer]
+              - generic [ref=e1167]:
+                - paragraph [ref=e1168]:
+                  - link "[–]" [ref=e1169] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Spaceley_Murderpaws" [ref=e1170] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Spaceley_Murderpaws
+                  - text: 13 points
+                  - time [ref=e1171]: 1 year ago
+                - paragraph [ref=e1175]: Yes! Def check out the exhibits & library in the Mission Trails Visitor Center. Volunteers at the front desk can also help you find the best trails for your interests.
+                - list [ref=e1176]:
+                  - listitem [ref=e1177]:
+                    - link "permalink" [ref=e1178] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfxiav/
+                  - listitem [ref=e1179]:
+                    - link "embed" [ref=e1180] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1181]:
+                    - link "save" [ref=e1182] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1183]:
+                    - link "parent" [ref=e1184] [cursor=pointer]:
+                      - /url: "#kzfptp7"
+                  - listitem [ref=e1185]:
+                    - link "report" [ref=e1186] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1187]:
+              - paragraph
+              - generic [ref=e1188]:
+                - button "upvote" [ref=e1189] [cursor=pointer]
+                - button "downvote" [ref=e1190] [cursor=pointer]
+              - generic [ref=e1191]:
+                - paragraph [ref=e1192]:
+                  - link "[–]" [ref=e1193] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "tooncreationz" [ref=e1194] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/tooncreationz
+                  - text: 6 points
+                  - time [ref=e1195]: 1 year ago
+                - paragraph [ref=e1199]: I loved hiking up to North Fortuna and looking over into Miramar and watching the jets take off/land.
+                - list [ref=e1200]:
+                  - listitem [ref=e1201]:
+                    - link "permalink" [ref=e1202] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg5q54/
+                  - listitem [ref=e1203]:
+                    - link "embed" [ref=e1204] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1205]:
+                    - link "save" [ref=e1206] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1207]:
+                    - link "parent" [ref=e1208] [cursor=pointer]:
+                      - /url: "#kzfptp7"
+                  - listitem [ref=e1209]:
+                    - link "report" [ref=e1210] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1211]:
+              - paragraph
+              - generic [ref=e1212]:
+                - button "upvote" [ref=e1213] [cursor=pointer]
+                - button "downvote" [ref=e1214] [cursor=pointer]
+              - generic [ref=e1215]:
+                - paragraph [ref=e1216]:
+                  - link "[–]" [ref=e1217] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "mmabpa" [ref=e1218] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/mmabpa
+                  - text: 5 points
+                  - time [ref=e1219]: 1 year ago
+                - paragraph [ref=e1223]: Yes! Try one of the free guided bat hikes in the evenings!
+                - list [ref=e1224]:
+                  - listitem [ref=e1225]:
+                    - link "permalink" [ref=e1226] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzjqjh3/
+                  - listitem [ref=e1227]:
+                    - link "embed" [ref=e1228] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1229]:
+                    - link "save" [ref=e1230] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1231]:
+                    - link "parent" [ref=e1232] [cursor=pointer]:
+                      - /url: "#kzfptp7"
+                  - listitem [ref=e1233]:
+                    - link "report" [ref=e1234] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1235]:
+          - paragraph
+          - generic [ref=e1236]:
+            - button "upvote" [ref=e1237] [cursor=pointer]
+            - button "downvote" [ref=e1238] [cursor=pointer]
+          - generic [ref=e1239]:
+            - paragraph [ref=e1240]:
+              - link "[–]" [ref=e1241] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Cookingforaxl" [ref=e1242] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Cookingforaxl
+              - text: 10 points
+              - time [ref=e1243]: 1 year ago
+            - paragraph [ref=e1247]: There are over 100 historical buildings in the Gaslamp Quarter. You can find a list on Wikipedia. Start at number 1 and work your way through. They will all be designated with a plaque that will give you a tiny synopsis. You can then find more info about the buildings by hitting up Google. Have some fun!
+            - list [ref=e1248]:
+              - listitem [ref=e1249]:
+                - link "permalink" [ref=e1250] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgep7s/
+              - listitem [ref=e1251]:
+                - link "embed" [ref=e1252] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1253]:
+                - link "save" [ref=e1254] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1255]:
+                - link "report" [ref=e1256] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1257]:
+          - paragraph
+          - generic [ref=e1258]:
+            - button "upvote" [ref=e1259] [cursor=pointer]
+            - button "downvote" [ref=e1260] [cursor=pointer]
+          - generic [ref=e1261]:
+            - paragraph [ref=e1262]:
+              - link "[–]" [ref=e1263] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "cincacinca" [ref=e1264] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/cincacinca
+              - text: 17 points
+              - time [ref=e1265]: 1 year ago
+            - paragraph [ref=e1269]:
+              - link "For your checklist" [ref=e1270] [cursor=pointer]:
+                - /url: https://www.sandiego.org/articles/25-fun-free-things-to-do-in-san-diego.aspx
+            - list [ref=e1271]:
+              - listitem [ref=e1272]:
+                - link "permalink" [ref=e1273] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzftk3t/
+              - listitem [ref=e1274]:
+                - link "embed" [ref=e1275] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1276]:
+                - link "save" [ref=e1277] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1278]:
+                - link "report" [ref=e1279] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1282]:
+            - paragraph
+            - generic [ref=e1283]:
+              - button "upvote" [ref=e1284] [cursor=pointer]
+              - button "downvote" [ref=e1285] [cursor=pointer]
+            - generic [ref=e1286]:
+              - paragraph [ref=e1287]:
+                - link "[–]" [ref=e1288] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "small_bites" [ref=e1289] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/small_bites
+                - text: 2 points
+                - time [ref=e1290]: 1 year ago
+              - paragraph [ref=e1294]: Nice list!
+              - list [ref=e1295]:
+                - listitem [ref=e1296]:
+                  - link "permalink" [ref=e1297] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg2931/
+                - listitem [ref=e1298]:
+                  - link "embed" [ref=e1299] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1300]:
+                  - link "save" [ref=e1301] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1302]:
+                  - link "parent" [ref=e1303] [cursor=pointer]:
+                    - /url: "#kzftk3t"
+                - listitem [ref=e1304]:
+                  - link "report" [ref=e1305] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1306]:
+          - paragraph
+          - generic [ref=e1307]:
+            - button "upvote" [ref=e1308] [cursor=pointer]
+            - button "downvote" [ref=e1309] [cursor=pointer]
+          - generic [ref=e1310]:
+            - paragraph [ref=e1311]:
+              - link "[–]" [ref=e1312] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bigbrojesse" [ref=e1313] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bigbrojesse
+              - text: 17 points
+              - time [ref=e1314]: 1 year ago
+            - paragraph [ref=e1318]: If you're down for a decent stroll and willing to spend about $14, the Japanese Friendship Garden has a lot of interesting things like a origami dress, koi ponds, and some historical stuff.
+            - list [ref=e1319]:
+              - listitem [ref=e1320]:
+                - link "permalink" [ref=e1321] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg6wy0/
+              - listitem [ref=e1322]:
+                - link "embed" [ref=e1323] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1324]:
+                - link "save" [ref=e1325] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1326]:
+                - link "report" [ref=e1327] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1330]:
+            - paragraph
+            - generic [ref=e1331]:
+              - button "upvote" [ref=e1332] [cursor=pointer]
+              - button "downvote" [ref=e1333] [cursor=pointer]
+            - generic [ref=e1334]:
+              - paragraph [ref=e1335]:
+                - link "[–]" [ref=e1336] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "liberalis" [ref=e1337] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/liberalis
+                - text: 3 points
+                - time [ref=e1338]: 1 year ago
+              - paragraph [ref=e1342]: I've been haunting that place past few weeks. Flowers are coming into bloom now.
+              - list [ref=e1343]:
+                - listitem [ref=e1344]:
+                  - link "permalink" [ref=e1345] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi4stz/
+                - listitem [ref=e1346]:
+                  - link "embed" [ref=e1347] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1348]:
+                  - link "save" [ref=e1349] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1350]:
+                  - link "parent" [ref=e1351] [cursor=pointer]:
+                    - /url: "#kzg6wy0"
+                - listitem [ref=e1352]:
+                  - link "report" [ref=e1353] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1354]:
+          - paragraph
+          - generic [ref=e1355]:
+            - button "upvote" [ref=e1356] [cursor=pointer]
+            - button "downvote" [ref=e1357] [cursor=pointer]
+          - generic [ref=e1358]:
+            - paragraph [ref=e1359]:
+              - link "[–]" [ref=e1360] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LordofGrange" [ref=e1361] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LordofGrange
+              - text: 15 points
+              - time [ref=e1362]: 1 year ago
+            - paragraph [ref=e1366]: Presidio Park is often overlooked but fantastic
+            - list [ref=e1367]:
+              - listitem [ref=e1368]:
+                - link "permalink" [ref=e1369] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgdi4m/
+              - listitem [ref=e1370]:
+                - link "embed" [ref=e1371] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1372]:
+                - link "save" [ref=e1373] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1374]:
+                - link "report" [ref=e1375] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1377]:
+            - generic [ref=e1378]:
+              - paragraph
+              - generic [ref=e1379]:
+                - button "upvote" [ref=e1380] [cursor=pointer]
+                - button "downvote" [ref=e1381] [cursor=pointer]
+              - generic [ref=e1382]:
+                - paragraph [ref=e1383]:
+                  - link "[–]" [ref=e1384] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Turdposter777" [ref=e1385] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Turdposter777
+                  - text: 5 points
+                  - time [ref=e1386]: 1 year ago
+                - paragraph [ref=e1390]: Also Kate Session Park. Summer nights, can see the fireworks at sea world from both Kate and Persidio
+                - list [ref=e1391]:
+                  - listitem [ref=e1392]:
+                    - link "permalink" [ref=e1393] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhll04/
+                  - listitem [ref=e1394]:
+                    - link "embed" [ref=e1395] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1396]:
+                    - link "save" [ref=e1397] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1398]:
+                    - link "parent" [ref=e1399] [cursor=pointer]:
+                      - /url: "#kzgdi4m"
+                  - listitem [ref=e1400]:
+                    - link "report" [ref=e1401] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1402]:
+              - paragraph
+              - generic [ref=e1403]:
+                - button "upvote" [ref=e1404] [cursor=pointer]
+                - button "downvote" [ref=e1405] [cursor=pointer]
+              - generic [ref=e1406]:
+                - paragraph [ref=e1407]:
+                  - link "[–]" [ref=e1408] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "strangerin_thealps" [ref=e1409] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/strangerin_thealps
+                  - text: 2 points
+                  - time [ref=e1410]: 1 year ago
+                - paragraph [ref=e1414]: Prettiest place ever, I finish all my bike rides by climbing up the hill and it’s magic every time. Such a nice place to watch golden hour come in, sun set, picnic, take a walk.
+                - list [ref=e1415]:
+                  - listitem [ref=e1416]:
+                    - link "permalink" [ref=e1417] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgtcge/
+                  - listitem [ref=e1418]:
+                    - link "embed" [ref=e1419] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1420]:
+                    - link "save" [ref=e1421] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1422]:
+                    - link "parent" [ref=e1423] [cursor=pointer]:
+                      - /url: "#kzgdi4m"
+                  - listitem [ref=e1424]:
+                    - link "report" [ref=e1425] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1426]:
+          - paragraph
+          - generic [ref=e1427]:
+            - button "upvote" [ref=e1428] [cursor=pointer]
+            - button "downvote" [ref=e1429] [cursor=pointer]
+          - generic [ref=e1430]:
+            - paragraph [ref=e1431]:
+              - link "[–]" [ref=e1432] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "jwheel1970" [ref=e1433] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/jwheel1970
+              - text: 8 points
+              - time [ref=e1434]: 1 year ago
+            - paragraph [ref=e1438]: Glider port! Beautiful views and fun action seeing people launch and fly away over the beach and ocean.
+            - list [ref=e1439]:
+              - listitem [ref=e1440]:
+                - link "permalink" [ref=e1441] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfxml2/
+              - listitem [ref=e1442]:
+                - link "embed" [ref=e1443] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1444]:
+                - link "save" [ref=e1445] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1446]:
+                - link "report" [ref=e1447] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1448]:
+          - paragraph
+          - generic [ref=e1449]:
+            - button "upvote" [ref=e1450] [cursor=pointer]
+            - button "downvote" [ref=e1451] [cursor=pointer]
+          - generic [ref=e1452]:
+            - paragraph [ref=e1453]:
+              - link "[–]" [ref=e1454] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SandyEggoBB" [ref=e1455] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SandyEggoBB
+              - text: 6 points
+              - time [ref=e1456]: 1 year ago
+            - paragraph [ref=e1460]: I've been following hiddensandiego on Instagram for good ideas
+            - list [ref=e1461]:
+              - listitem [ref=e1462]:
+                - link "permalink" [ref=e1463] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhbjnw/
+              - listitem [ref=e1464]:
+                - link "embed" [ref=e1465] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1466]:
+                - link "save" [ref=e1467] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1468]:
+                - link "report" [ref=e1469] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1470]:
+          - paragraph
+          - generic [ref=e1471]:
+            - button "upvote" [ref=e1472] [cursor=pointer]
+            - button "downvote" [ref=e1473] [cursor=pointer]
+          - generic [ref=e1474]:
+            - paragraph [ref=e1475]:
+              - link "[–]" [ref=e1476] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Known-Delay7227" [ref=e1477] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Known-Delay7227
+              - text: 6 points
+              - time [ref=e1478]: 1 year ago
+            - generic [ref=e1481]:
+              - paragraph [ref=e1482]: We took a free tour of Scripps Pier today which was really cool.
+              - paragraph [ref=e1483]:
+                - link "https://scripps.ucsd.edu/about/tours" [ref=e1484] [cursor=pointer]:
+                  - /url: https://scripps.ucsd.edu/about/tours
+            - list [ref=e1485]:
+              - listitem [ref=e1486]:
+                - link "permalink" [ref=e1487] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh05al/
+              - listitem [ref=e1488]:
+                - link "embed" [ref=e1489] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1490]:
+                - link "save" [ref=e1491] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1492]:
+                - link "report" [ref=e1493] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1494]:
+          - paragraph
+          - generic [ref=e1495]:
+            - button "upvote" [ref=e1496] [cursor=pointer]
+            - button "downvote" [ref=e1497] [cursor=pointer]
+          - generic [ref=e1498]:
+            - paragraph [ref=e1499]:
+              - link "[–]" [ref=e1500] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "luvs2xplr" [ref=e1501] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/luvs2xplr
+              - text: 6 points
+              - time [ref=e1502]: 1 year ago
+            - paragraph [ref=e1506]: Walk to TJ and back, all for free and makes you feel like you left on vacation 👍🏻
+            - list [ref=e1507]:
+              - listitem [ref=e1508]:
+                - link "permalink" [ref=e1509] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzkbxzl/
+              - listitem [ref=e1510]:
+                - link "embed" [ref=e1511] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1512]:
+                - link "save" [ref=e1513] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1514]:
+                - link "report" [ref=e1515] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1516]:
+          - paragraph
+          - generic [ref=e1517]:
+            - button "upvote" [ref=e1518] [cursor=pointer]
+            - button "downvote" [ref=e1519] [cursor=pointer]
+          - generic [ref=e1520]:
+            - paragraph [ref=e1521]:
+              - link "[–]" [ref=e1522] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mindlessness7099" [ref=e1523] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mindlessness7099
+              - text: 11 points
+              - time [ref=e1524]: 1 year ago
+            - paragraph [ref=e1528]: OB has a street fair on Wednesdays! Food and goods! I usually grab a bite to eat and people watch 🤣
+            - list [ref=e1529]:
+              - listitem [ref=e1530]:
+                - link "permalink" [ref=e1531] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg7xi6/
+              - listitem [ref=e1532]:
+                - link "embed" [ref=e1533] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1534]:
+                - link "save" [ref=e1535] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1536]:
+                - link "report" [ref=e1537] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1538]:
+          - paragraph
+          - generic [ref=e1539]:
+            - button "upvote" [ref=e1540] [cursor=pointer]
+            - button "downvote" [ref=e1541] [cursor=pointer]
+          - generic [ref=e1542]:
+            - paragraph [ref=e1543]:
+              - link "[–]" [ref=e1544] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LarryPer123" [ref=e1545] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LarryPer123
+              - text: 5 points
+              - time [ref=e1546]: 1 year ago
+              - time [ref=e1547]: "*"
+            - generic [ref=e1550]:
+              - paragraph [ref=e1551]: If you are a San Diego county resident about 1/3 of the museums in Balboa Park rotate and they would be free every Tuesday
+              - paragraph [ref=e1552]:
+                - link "https://balboapark.org/resident-free-days/" [ref=e1553] [cursor=pointer]:
+                  - /url: https://balboapark.org/resident-free-days/
+            - list [ref=e1554]:
+              - listitem [ref=e1555]:
+                - link "permalink" [ref=e1556] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg77um/
+              - listitem [ref=e1557]:
+                - link "embed" [ref=e1558] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1559]:
+                - link "save" [ref=e1560] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1561]:
+                - link "report" [ref=e1562] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1563]:
+          - paragraph
+          - generic [ref=e1564]:
+            - button "upvote" [ref=e1565] [cursor=pointer]
+            - button "downvote" [ref=e1566] [cursor=pointer]
+          - generic [ref=e1567]:
+            - paragraph [ref=e1568]:
+              - link "[–]" [ref=e1569] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "uritarded" [ref=e1570] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/uritarded
+              - text: 5 points
+              - time [ref=e1571]: 1 year ago
+            - paragraph [ref=e1575]: Go disc golf at Morley field. Less than $10 if you don’t have discs already. Maybe more if you bring some booze
+            - list [ref=e1576]:
+              - listitem [ref=e1577]:
+                - link "permalink" [ref=e1578] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg9o4x/
+              - listitem [ref=e1579]:
+                - link "embed" [ref=e1580] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1581]:
+                - link "save" [ref=e1582] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1583]:
+                - link "report" [ref=e1584] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1585]:
+          - paragraph
+          - paragraph [ref=e1587]:
+            - link "[+]" [ref=e1588] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e1589]: "[deleted]"
+            - time [ref=e1590]: 1 year ago
+            - link "(1 child)" [ref=e1591] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1592]:
+          - paragraph
+          - generic [ref=e1593]:
+            - button "upvote" [ref=e1594] [cursor=pointer]
+            - button "downvote" [ref=e1595] [cursor=pointer]
+          - generic [ref=e1596]:
+            - paragraph [ref=e1597]:
+              - link "[–]" [ref=e1598] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dequinn711" [ref=e1599] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dequinn711
+              - text: 6 points
+              - time [ref=e1600]: 1 year ago
+            - paragraph [ref=e1604]: The meditation gardens in Encinitas
+            - list [ref=e1605]:
+              - listitem [ref=e1606]:
+                - link "permalink" [ref=e1607] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi0ees/
+              - listitem [ref=e1608]:
+                - link "embed" [ref=e1609] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1610]:
+                - link "save" [ref=e1611] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1612]:
+                - link "report" [ref=e1613] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1614]:
+          - paragraph
+          - generic [ref=e1615]:
+            - button "upvote" [ref=e1616] [cursor=pointer]
+            - button "downvote" [ref=e1617] [cursor=pointer]
+          - generic [ref=e1618]:
+            - paragraph [ref=e1619]:
+              - link "[–]" [ref=e1620] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TheElusiveHolograph" [ref=e1621] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TheElusiveHolograph
+              - text: 9 points
+              - time [ref=e1622]: 1 year ago
+            - generic [ref=e1625]:
+              - paragraph [ref=e1626]: Day time or night time? For Night time I like the go to Carriage House bar on convoy to be entertained by people singing karaoke. Or you could join in and sing karaoke yourself. There’s no cover charge and you don’t have to drink alcohol. A soda is just a couple bucks.
+              - paragraph [ref=e1627]: Lestat’s West on Adams has an open mic stage on Monday nights. So you can watch some live music for free.
+            - list [ref=e1628]:
+              - listitem [ref=e1629]:
+                - link "permalink" [ref=e1630] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzft9sx/
+              - listitem [ref=e1631]:
+                - link "embed" [ref=e1632] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1633]:
+                - link "save" [ref=e1634] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1635]:
+                - link "report" [ref=e1636] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1637]:
+          - paragraph
+          - generic [ref=e1638]:
+            - button "upvote" [ref=e1639] [cursor=pointer]
+            - button "downvote" [ref=e1640] [cursor=pointer]
+          - generic [ref=e1641]:
+            - paragraph [ref=e1642]:
+              - link "[–]" [ref=e1643] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ikes" [ref=e1644] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ikes
+              - text: 5 points
+              - time [ref=e1645]: 1 year ago
+            - paragraph [ref=e1649]: Tuesday night races at the velodrome. It's free. They usually have a food vendor but feel free to bring your own burrito and some beer or whatever. 7pm.
+            - list [ref=e1650]:
+              - listitem [ref=e1651]:
+                - link "permalink" [ref=e1652] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhr1bj/
+              - listitem [ref=e1653]:
+                - link "embed" [ref=e1654] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1655]:
+                - link "save" [ref=e1656] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1657]:
+                - link "report" [ref=e1658] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1659]:
+          - paragraph
+          - generic [ref=e1660]:
+            - button "upvote" [ref=e1661] [cursor=pointer]
+            - button "downvote" [ref=e1662] [cursor=pointer]
+          - generic [ref=e1663]:
+            - paragraph [ref=e1664]:
+              - link "[–]" [ref=e1665] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "benshenanigans" [ref=e1666] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/benshenanigans
+              - text: 5 points
+              - time [ref=e1667]: 1 year ago
+            - paragraph [ref=e1671]: Cabrillo National Monument. It has a lighthouse, museum, and tide pools. Free for veterans or people who are disabled. Otherwise $10.
+            - list [ref=e1672]:
+              - listitem [ref=e1673]:
+                - link "permalink" [ref=e1674] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzic8tp/
+              - listitem [ref=e1675]:
+                - link "embed" [ref=e1676] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1677]:
+                - link "save" [ref=e1678] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1679]:
+                - link "report" [ref=e1680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1683]:
+            - paragraph
+            - generic [ref=e1684]:
+              - button "upvote" [ref=e1685] [cursor=pointer]
+              - button "downvote" [ref=e1686] [cursor=pointer]
+            - generic [ref=e1687]:
+              - paragraph [ref=e1688]:
+                - link "[–]" [ref=e1689] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "wwhsd" [ref=e1690] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/wwhsd
+                - text: 1 point
+                - time [ref=e1691]: 1 year ago
+              - paragraph [ref=e1695]: That’s $10 for the car load, right?
+              - list [ref=e1696]:
+                - listitem [ref=e1697]:
+                  - link "permalink" [ref=e1698] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzk0tng/
+                - listitem [ref=e1699]:
+                  - link "embed" [ref=e1700] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1701]:
+                  - link "save" [ref=e1702] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1703]:
+                  - link "parent" [ref=e1704] [cursor=pointer]:
+                    - /url: "#kzic8tp"
+                - listitem [ref=e1705]:
+                  - link "report" [ref=e1706] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1709]:
+              - paragraph
+              - generic [ref=e1710]:
+                - button "upvote" [ref=e1711] [cursor=pointer]
+                - button "downvote" [ref=e1712] [cursor=pointer]
+              - generic [ref=e1713]:
+                - paragraph [ref=e1714]:
+                  - link "[–]" [ref=e1715] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "cincacinca" [ref=e1716] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/cincacinca
+                  - text: 1 point
+                  - time [ref=e1717]: 1 year ago
+                - paragraph [ref=e1721]:
+                  - text: $10 is walk-in.
+                  - text: $20 car - good for 6 additional days.
+                  - text: $35 year pass.
+                  - link "www.nps.gov/cabr/planyourvisit/fees.htm" [ref=e1722] [cursor=pointer]:
+                    - /url: http://www.nps.gov/cabr/planyourvisit/fees.htm
+                - list [ref=e1723]:
+                  - listitem [ref=e1724]:
+                    - link "permalink" [ref=e1725] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzknc7n/
+                  - listitem [ref=e1726]:
+                    - link "embed" [ref=e1727] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1728]:
+                    - link "save" [ref=e1729] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1730]:
+                    - link "parent" [ref=e1731] [cursor=pointer]:
+                      - /url: "#kzk0tng"
+                  - listitem [ref=e1732]:
+                    - link "report" [ref=e1733] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1736]:
+                - paragraph
+                - generic [ref=e1737]:
+                  - button "upvote" [ref=e1738] [cursor=pointer]
+                  - button "downvote" [ref=e1739] [cursor=pointer]
+                - generic [ref=e1740]:
+                  - paragraph [ref=e1741]:
+                    - link "[–]" [ref=e1742] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "wwhsd" [ref=e1743] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/wwhsd
+                    - text: 2 points
+                    - time [ref=e1744]: 1 year ago
+                  - paragraph [ref=e1748]: Thanks. It’s a been a few years since I’ve been but I’ve typically got a full minivan when I go, so even at $20 a car it seems very inexpensive.
+                  - list [ref=e1749]:
+                    - listitem [ref=e1750]:
+                      - link "permalink" [ref=e1751] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzplonh/
+                    - listitem [ref=e1752]:
+                      - link "embed" [ref=e1753] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1754]:
+                      - link "save" [ref=e1755] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1756]:
+                      - link "parent" [ref=e1757] [cursor=pointer]:
+                        - /url: "#kzknc7n"
+                    - listitem [ref=e1758]:
+                      - link "report" [ref=e1759] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1760]:
+          - paragraph
+          - generic [ref=e1761]:
+            - button "upvote" [ref=e1762] [cursor=pointer]
+            - button "downvote" [ref=e1763] [cursor=pointer]
+          - generic [ref=e1764]:
+            - paragraph [ref=e1765]:
+              - link "[–]" [ref=e1766] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "8chison" [ref=e1767] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/8chison
+              - text: 7 points
+              - time [ref=e1768]: 1 year ago
+            - paragraph [ref=e1772]: La Jolla Cove at 2 or 230 pm. At this time it's usually easy to find free parking overlooking the water, sea birds and seals at the Cove.
+            - list [ref=e1773]:
+              - listitem [ref=e1774]:
+                - link "permalink" [ref=e1775] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgb5p8/
+              - listitem [ref=e1776]:
+                - link "embed" [ref=e1777] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1778]:
+                - link "save" [ref=e1779] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1780]:
+                - link "report" [ref=e1781] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1782]:
+          - paragraph
+          - generic [ref=e1783]:
+            - button "upvote" [ref=e1784] [cursor=pointer]
+            - button "downvote" [ref=e1785] [cursor=pointer]
+          - generic [ref=e1786]:
+            - paragraph [ref=e1787]:
+              - link "[–]" [ref=e1788] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 6 points"
+              - time [ref=e1789]: 1 year ago
+            - paragraph [ref=e1793]: Tijuana Slough National Wildlife Refuge is pretty cool and never crowded. It’s been quite a while since I’ve been but I used to love going there.
+            - list [ref=e1794]:
+              - listitem [ref=e1795]:
+                - link "permalink" [ref=e1796] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgovwq/
+              - listitem [ref=e1797]:
+                - link "embed" [ref=e1798] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1799]:
+                - link "save" [ref=e1800] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1801]:
+                - link "report" [ref=e1802] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1805]:
+            - paragraph
+            - generic [ref=e1806]:
+              - button "upvote" [ref=e1807] [cursor=pointer]
+              - button "downvote" [ref=e1808] [cursor=pointer]
+            - generic [ref=e1809]:
+              - paragraph [ref=e1810]:
+                - link "[–]" [ref=e1811] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Strange_Translator45" [ref=e1812] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Strange_Translator45
+                - text: "-4 points"
+                - time [ref=e1813]: 1 year ago
+              - generic [ref=e1816]:
+                - paragraph [ref=e1817]: I love the smell of the Mexican human sewerage that comes in at the Las Americas Mall (Tijuana River) and exits near the Slough.
+                - paragraph [ref=e1818]: That refuge is ground zero for fecal tourism if you're really into that, which I see you are.
+              - list [ref=e1819]:
+                - listitem [ref=e1820]:
+                  - link "permalink" [ref=e1821] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzha29z/
+                - listitem [ref=e1822]:
+                  - link "embed" [ref=e1823] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1824]:
+                  - link "save" [ref=e1825] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1826]:
+                  - link "parent" [ref=e1827] [cursor=pointer]:
+                    - /url: "#kzgovwq"
+                - listitem [ref=e1828]:
+                  - link "report" [ref=e1829] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1831]:
+              - generic [ref=e1832]:
+                - paragraph
+                - generic [ref=e1833]:
+                  - button "upvote" [ref=e1834] [cursor=pointer]
+                  - button "downvote" [ref=e1835] [cursor=pointer]
+                - generic [ref=e1836]:
+                  - paragraph [ref=e1837]:
+                    - link "[–]" [ref=e1838] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 6 points"
+                    - time [ref=e1839]: 1 year ago
+                  - paragraph [ref=e1843]: I am, in fact, not into that, thank you. But was expecting this response from someone. As I said in my comment it’s been quite a while since I’ve been but when I used to go there I loved seeing the wildlife and how there weren’t any people there. A rare thing in San Diego. You seem like a fun and kind person. /s
+                  - list [ref=e1844]:
+                    - listitem [ref=e1845]:
+                      - link "permalink" [ref=e1846] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzk1yq4/
+                    - listitem [ref=e1847]:
+                      - link "embed" [ref=e1848] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1849]:
+                      - link "save" [ref=e1850] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1851]:
+                      - link "parent" [ref=e1852] [cursor=pointer]:
+                        - /url: "#kzha29z"
+                    - listitem [ref=e1853]:
+                      - link "report" [ref=e1854] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e1855]:
+                - paragraph
+                - generic [ref=e1856]:
+                  - button "upvote" [ref=e1857] [cursor=pointer]
+                  - button "downvote" [ref=e1858] [cursor=pointer]
+                - generic [ref=e1859]:
+                  - paragraph [ref=e1860]:
+                    - link "[–]" [ref=e1861] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "liberalis" [ref=e1862] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/liberalis
+                    - text: 3 points
+                    - time [ref=e1863]: 1 year ago
+                  - paragraph [ref=e1867]: I mean, there's birds there as well.
+                  - list [ref=e1868]:
+                    - listitem [ref=e1869]:
+                      - link "permalink" [ref=e1870] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi4wa8/
+                    - listitem [ref=e1871]:
+                      - link "embed" [ref=e1872] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1873]:
+                      - link "save" [ref=e1874] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1875]:
+                      - link "parent" [ref=e1876] [cursor=pointer]:
+                        - /url: "#kzha29z"
+                    - listitem [ref=e1877]:
+                      - link "report" [ref=e1878] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1879]:
+          - paragraph
+          - generic [ref=e1880]:
+            - button "upvote" [ref=e1881] [cursor=pointer]
+            - button "downvote" [ref=e1882] [cursor=pointer]
+          - generic [ref=e1883]:
+            - paragraph [ref=e1884]:
+              - link "[–]" [ref=e1885] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Realtodddebakis" [ref=e1886] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Realtodddebakis
+              - text: 7 points
+              - time [ref=e1887]: 1 year ago
+            - generic [ref=e1890]:
+              - paragraph [ref=e1891]: Torrey Pines State Reserve*
+              - paragraph [ref=e1892]: "*if you get parking along Torrey Pines Rd it's free. Parking in their lot is $10-25 depending on the day. Absolutely worth it."
+            - list [ref=e1893]:
+              - listitem [ref=e1894]:
+                - link "permalink" [ref=e1895] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg5qjw/
+              - listitem [ref=e1896]:
+                - link "embed" [ref=e1897] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1898]:
+                - link "save" [ref=e1899] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1900]:
+                - link "report" [ref=e1901] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1902]:
+          - paragraph
+          - generic [ref=e1903]:
+            - button "upvote" [ref=e1904] [cursor=pointer]
+            - button "downvote" [ref=e1905] [cursor=pointer]
+          - generic [ref=e1906]:
+            - paragraph [ref=e1907]:
+              - link "[–]" [ref=e1908] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "cherrytwizzler88" [ref=e1909] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/cherrytwizzler88
+              - text: 3 points
+              - time [ref=e1910]: 1 year ago
+            - paragraph [ref=e1914]: Balboa Park for a stroll or a picnic, or to read or journal. Sunset cliffs to watch the sunsets. Lots of hikes in the area, including Torrey Pines, if that’s your jam. La Jolla Cove to see the sea lions. There are also a ton of fun, unique and interesting coffee shops, you can go get a coffee or a tea and just sit and people watch, or read. The beaches are free.
+            - list [ref=e1915]:
+              - listitem [ref=e1916]:
+                - link "permalink" [ref=e1917] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfuxzg/
+              - listitem [ref=e1918]:
+                - link "embed" [ref=e1919] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1920]:
+                - link "save" [ref=e1921] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1922]:
+                - link "report" [ref=e1923] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1924]:
+          - paragraph
+          - generic [ref=e1925]:
+            - button "upvote" [ref=e1926] [cursor=pointer]
+            - button "downvote" [ref=e1927] [cursor=pointer]
+          - generic [ref=e1928]:
+            - paragraph [ref=e1929]:
+              - link "[–]" [ref=e1930] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 3 points"
+              - time [ref=e1931]: 1 year ago
+            - generic [ref=e1934]:
+              - paragraph [ref=e1935]: The outdoors are free and the best :)
+              - paragraph [ref=e1936]: Tide pools (La Jolla or Carrillo) Hikes- so many hikes! The UT has a hike of the week article that you should check out The beach Mission bay- they’ve renovated parks and created outdoor gyms that are cool SDSU or UCSD athletics (baseball/softball/anything not basketball or football) Tuesday free museums at balboa park (also October) Picnics
+              - paragraph [ref=e1937]: Low cost- local comedy shows, public golf courses, movie matinees, roller skating
+            - list [ref=e1938]:
+              - listitem [ref=e1939]:
+                - link "permalink" [ref=e1940] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzg0wv9/
+              - listitem [ref=e1941]:
+                - link "embed" [ref=e1942] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1943]:
+                - link "save" [ref=e1944] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1945]:
+                - link "report" [ref=e1946] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1947]:
+          - paragraph
+          - generic [ref=e1948]:
+            - button "upvote" [ref=e1949] [cursor=pointer]
+            - button "downvote" [ref=e1950] [cursor=pointer]
+          - generic [ref=e1951]:
+            - paragraph [ref=e1952]:
+              - link "[–]" [ref=e1953] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Ok_Comb_1757" [ref=e1954] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Ok_Comb_1757
+              - text: 3 points
+              - time [ref=e1955]: 1 year ago
+            - paragraph [ref=e1959]: DISC GOLF
+            - list [ref=e1960]:
+              - listitem [ref=e1961]:
+                - link "permalink" [ref=e1962] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgppup/
+              - listitem [ref=e1963]:
+                - link "embed" [ref=e1964] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1965]:
+                - link "save" [ref=e1966] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1967]:
+                - link "report" [ref=e1968] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1971]:
+            - paragraph
+            - generic [ref=e1972]:
+              - button "upvote" [ref=e1973] [cursor=pointer]
+              - button "downvote" [ref=e1974] [cursor=pointer]
+            - generic [ref=e1975]:
+              - paragraph [ref=e1976]:
+                - link "[–]" [ref=e1977] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Known-Delay7227" [ref=e1978] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Known-Delay7227
+                - text: 1 point
+                - time [ref=e1979]: 1 year ago
+              - paragraph [ref=e1983]: In balboa park
+              - list [ref=e1984]:
+                - listitem [ref=e1985]:
+                  - link "permalink" [ref=e1986] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh0hlx/
+                - listitem [ref=e1987]:
+                  - link "embed" [ref=e1988] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1989]:
+                  - link "save" [ref=e1990] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1991]:
+                  - link "parent" [ref=e1992] [cursor=pointer]:
+                    - /url: "#kzgppup"
+                - listitem [ref=e1993]:
+                  - link "report" [ref=e1994] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1995]:
+          - paragraph
+          - generic [ref=e1996]:
+            - button "upvote" [ref=e1997] [cursor=pointer]
+            - button "downvote" [ref=e1998] [cursor=pointer]
+          - generic [ref=e1999]:
+            - paragraph [ref=e2000]:
+              - link "[–]" [ref=e2001] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 3 points"
+              - time [ref=e2002]: 1 year ago
+            - paragraph [ref=e2006]: If you have an EBT card you can get into a lot of the local museums, aquariums etc for super discounted rates. Just gotta check the calfresh website
+            - list [ref=e2007]:
+              - listitem [ref=e2008]:
+                - link "permalink" [ref=e2009] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhtinp/
+              - listitem [ref=e2010]:
+                - link "embed" [ref=e2011] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2012]:
+                - link "save" [ref=e2013] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2014]:
+                - link "report" [ref=e2015] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2016]:
+          - paragraph
+          - generic [ref=e2017]:
+            - button "upvote" [ref=e2018] [cursor=pointer]
+            - button "downvote" [ref=e2019] [cursor=pointer]
+          - generic [ref=e2020]:
+            - paragraph [ref=e2021]:
+              - link "[–]" [ref=e2022] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "lexphillips" [ref=e2023] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/lexphillips
+              - text: 3 points
+              - time [ref=e2024]: 1 year ago
+            - paragraph [ref=e2028]: You can rent a kayak pretty inexpensively in La Jolla
+            - list [ref=e2029]:
+              - listitem [ref=e2030]:
+                - link "permalink" [ref=e2031] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi57qm/
+              - listitem [ref=e2032]:
+                - link "embed" [ref=e2033] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2034]:
+                - link "save" [ref=e2035] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2036]:
+                - link "report" [ref=e2037] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2038]:
+          - paragraph
+          - generic [ref=e2039]:
+            - button "upvote" [ref=e2040] [cursor=pointer]
+            - button "downvote" [ref=e2041] [cursor=pointer]
+          - generic [ref=e2042]:
+            - paragraph [ref=e2043]:
+              - link "[–]" [ref=e2044] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 3 points"
+              - time [ref=e2045]: 1 year ago
+            - generic [ref=e2048]:
+              - paragraph [ref=e2049]: Balboa Park is fun to spend to hangout. Seaport Village, which is not too far away from there
+              - paragraph [ref=e2050]: Scripps Aquarium is inexpensive
+            - list [ref=e2051]:
+              - listitem [ref=e2052]:
+                - link "permalink" [ref=e2053] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi7shw/
+              - listitem [ref=e2054]:
+                - link "embed" [ref=e2055] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2056]:
+                - link "save" [ref=e2057] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2058]:
+                - link "report" [ref=e2059] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2060]:
+          - paragraph
+          - generic [ref=e2061]:
+            - button "upvote" [ref=e2062] [cursor=pointer]
+            - button "downvote" [ref=e2063] [cursor=pointer]
+          - generic [ref=e2064]:
+            - paragraph [ref=e2065]:
+              - link "[–]" [ref=e2066] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "laurenhoneyyy" [ref=e2067] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/laurenhoneyyy
+              - text: 3 points
+              - time [ref=e2068]: 1 year ago
+            - paragraph [ref=e2072]: The ocean or staring at the sky. Pretty much free (unless you get a parking ticket at the beach)
+            - list [ref=e2073]:
+              - listitem [ref=e2074]:
+                - link "permalink" [ref=e2075] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzjsc2m/
+              - listitem [ref=e2076]:
+                - link "embed" [ref=e2077] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2078]:
+                - link "save" [ref=e2079] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2080]:
+                - link "report" [ref=e2081] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2082]:
+          - paragraph
+          - generic [ref=e2083]:
+            - button "upvote" [ref=e2084] [cursor=pointer]
+            - button "downvote" [ref=e2085] [cursor=pointer]
+          - generic [ref=e2086]:
+            - paragraph [ref=e2087]:
+              - link "[–]" [ref=e2088] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "anothercar" [ref=e2089] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/anothercar
+              - text: 9 points
+              - time [ref=e2090]: 1 year ago
+            - paragraph [ref=e2094]: Potato Chip Rock
+            - list [ref=e2095]:
+              - listitem [ref=e2096]:
+                - link "permalink" [ref=e2097] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfnxk0/
+              - listitem [ref=e2098]:
+                - link "embed" [ref=e2099] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2100]:
+                - link "save" [ref=e2101] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2102]:
+                - link "report" [ref=e2103] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2104]:
+          - paragraph
+          - generic [ref=e2105]:
+            - button "upvote" [ref=e2106] [cursor=pointer]
+            - button "downvote" [ref=e2107] [cursor=pointer]
+          - generic [ref=e2108]:
+            - paragraph [ref=e2109]:
+              - link "[–]" [ref=e2110] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "RadiantZote" [ref=e2111] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/RadiantZote
+              - text: 2 points
+              - time [ref=e2112]: 1 year ago
+            - generic [ref=e2115]:
+              - paragraph [ref=e2116]: Check the reader events page, there's a ton of things listed every day and many are free
+              - paragraph [ref=e2117]:
+                - link "https://www.sandiegoreader.com/events/" [ref=e2118] [cursor=pointer]:
+                  - /url: https://www.sandiegoreader.com/events/
+            - list [ref=e2119]:
+              - listitem [ref=e2120]:
+                - link "permalink" [ref=e2121] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgpfzj/
+              - listitem [ref=e2122]:
+                - link "embed" [ref=e2123] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2124]:
+                - link "save" [ref=e2125] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2126]:
+                - link "report" [ref=e2127] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2128]:
+          - paragraph
+          - generic [ref=e2129]:
+            - button "upvote" [ref=e2130] [cursor=pointer]
+            - button "downvote" [ref=e2131] [cursor=pointer]
+          - generic [ref=e2132]:
+            - paragraph [ref=e2133]:
+              - link "[–]" [ref=e2134] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Boinkology" [ref=e2135] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Boinkology
+              - text: 2 points
+              - time [ref=e2136]: 1 year ago
+            - paragraph [ref=e2140]: Timken Museum in Balboa Park
+            - list [ref=e2141]:
+              - listitem [ref=e2142]:
+                - link "permalink" [ref=e2143] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh02bi/
+              - listitem [ref=e2144]:
+                - link "embed" [ref=e2145] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2146]:
+                - link "save" [ref=e2147] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2148]:
+                - link "report" [ref=e2149] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2150]:
+          - paragraph
+          - generic [ref=e2151]:
+            - button "upvote" [ref=e2152] [cursor=pointer]
+            - button "downvote" [ref=e2153] [cursor=pointer]
+          - generic [ref=e2154]:
+            - paragraph [ref=e2155]:
+              - link "[–]" [ref=e2156] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Imaginary-Aioli" [ref=e2157] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Imaginary-Aioli
+              - text: 2 points
+              - time [ref=e2158]: 1 year ago
+            - paragraph [ref=e2162]: It’s pretty basic but beach picnic always slaps, especially at sunset
+            - list [ref=e2163]:
+              - listitem [ref=e2164]:
+                - link "permalink" [ref=e2165] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh0uh3/
+              - listitem [ref=e2166]:
+                - link "embed" [ref=e2167] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2168]:
+                - link "save" [ref=e2169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2170]:
+                - link "report" [ref=e2171] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2172]:
+          - paragraph
+          - generic [ref=e2173]:
+            - button "upvote" [ref=e2174] [cursor=pointer]
+            - button "downvote" [ref=e2175] [cursor=pointer]
+          - generic [ref=e2176]:
+            - paragraph [ref=e2177]:
+              - link "[–]" [ref=e2178] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "weelookaround" [ref=e2179] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/weelookaround
+              - text: 2 points
+              - time [ref=e2180]: 1 year ago
+            - generic [ref=e2183]:
+              - paragraph [ref=e2184]: The Rady Shell has some free events, and is open to the public as a park during non-event days.
+              - paragraph [ref=e2185]: First Thursdays “Walk in Art” in Hillcrest.
+              - paragraph [ref=e2186]: The library downtown is huge and has activities/events.
+              - paragraph [ref=e2187]: Old Town has the old buildings/ a lot of history to check out and is a vibe.
+              - paragraph [ref=e2188]: Find cool venues on social media for news of art exhibits and music.
+            - list [ref=e2189]:
+              - listitem [ref=e2190]:
+                - link "permalink" [ref=e2191] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhva17/
+              - listitem [ref=e2192]:
+                - link "embed" [ref=e2193] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2194]:
+                - link "save" [ref=e2195] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2196]:
+                - link "report" [ref=e2197] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2200]:
+            - paragraph
+            - generic [ref=e2201]:
+              - button "upvote" [ref=e2202] [cursor=pointer]
+              - button "downvote" [ref=e2203] [cursor=pointer]
+            - generic [ref=e2204]:
+              - paragraph [ref=e2205]:
+                - link "[–]" [ref=e2206] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "ScaredSpace7064" [ref=e2207] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/ScaredSpace7064
+                - text: 2 points
+                - time [ref=e2208]: 1 year ago
+              - paragraph [ref=e2212]: You can also watch rehearsals of any performer at the Rady shell which happen often.
+              - list [ref=e2213]:
+                - listitem [ref=e2214]:
+                  - link "permalink" [ref=e2215] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzlmy0a/
+                - listitem [ref=e2216]:
+                  - link "embed" [ref=e2217] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2218]:
+                  - link "save" [ref=e2219] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2220]:
+                  - link "parent" [ref=e2221] [cursor=pointer]:
+                    - /url: "#kzhva17"
+                - listitem [ref=e2222]:
+                  - link "report" [ref=e2223] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e2226]:
+              - paragraph
+              - generic [ref=e2227]:
+                - button "upvote" [ref=e2228] [cursor=pointer]
+                - button "downvote" [ref=e2229] [cursor=pointer]
+              - generic [ref=e2230]:
+                - paragraph [ref=e2231]:
+                  - link "[–]" [ref=e2232] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "weelookaround" [ref=e2233] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/weelookaround
+                  - text: 1 point
+                  - time [ref=e2234]: 1 year ago
+                - paragraph [ref=e2238]: That’s awesome!
+                - list [ref=e2239]:
+                  - listitem [ref=e2240]:
+                    - link "permalink" [ref=e2241] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzly78w/
+                  - listitem [ref=e2242]:
+                    - link "embed" [ref=e2243] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2244]:
+                    - link "save" [ref=e2245] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2246]:
+                    - link "parent" [ref=e2247] [cursor=pointer]:
+                      - /url: "#kzlmy0a"
+                  - listitem [ref=e2248]:
+                    - link "report" [ref=e2249] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e2250]:
+          - paragraph
+          - generic [ref=e2251]:
+            - button "upvote" [ref=e2252] [cursor=pointer]
+            - button "downvote" [ref=e2253] [cursor=pointer]
+          - generic [ref=e2254]:
+            - paragraph [ref=e2255]:
+              - link "[–]" [ref=e2256] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "InertiaInMyPants" [ref=e2257] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/InertiaInMyPants
+              - text: 2 points
+              - time [ref=e2258]: 1 year ago
+            - generic [ref=e2261]:
+              - paragraph [ref=e2262]: Kayak.
+              - paragraph [ref=e2263]:
+                - link "https://rockymountainrec.com/lake-facilities/listing/lake-miramar" [ref=e2264] [cursor=pointer]:
+                  - /url: https://rockymountainrec.com/lake-facilities/listing/lake-miramar
+            - list [ref=e2265]:
+              - listitem [ref=e2266]:
+                - link "permalink" [ref=e2267] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzixbpp/
+              - listitem [ref=e2268]:
+                - link "embed" [ref=e2269] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2270]:
+                - link "save" [ref=e2271] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2272]:
+                - link "report" [ref=e2273] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2274]:
+          - paragraph
+          - generic [ref=e2275]:
+            - button "upvote" [ref=e2276] [cursor=pointer]
+            - button "downvote" [ref=e2277] [cursor=pointer]
+          - generic [ref=e2278]:
+            - paragraph [ref=e2279]:
+              - link "[–]" [ref=e2280] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "619to808" [ref=e2281] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/619to808
+              - generic [ref=e2282]:
+                - text: "["
+                - link "🍰" [ref=e2283] [cursor=pointer]:
+                  - /url: /user/619to808
+                - text: "]"
+              - text: 3 points
+              - time [ref=e2284]: 1 year ago
+            - paragraph [ref=e2288]: Borrow a pole and go fishing on a pier.
+            - list [ref=e2289]:
+              - listitem [ref=e2290]:
+                - link "permalink" [ref=e2291] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfuth3/
+              - listitem [ref=e2292]:
+                - link "embed" [ref=e2293] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2294]:
+                - link "save" [ref=e2295] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2296]:
+                - link "report" [ref=e2297] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2300]:
+            - paragraph
+            - generic [ref=e2301]:
+              - button "upvote" [ref=e2302] [cursor=pointer]
+              - button "downvote" [ref=e2303] [cursor=pointer]
+            - generic [ref=e2304]:
+              - paragraph [ref=e2305]:
+                - link "[–]" [ref=e2306] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "chrismtb" [ref=e2307] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/chrismtb
+                - text: 2 points
+                - time [ref=e2308]: 1 year ago
+              - paragraph [ref=e2312]: no license needed for piers, so this is a free option if you can borrow a pole.
+              - list [ref=e2313]:
+                - listitem [ref=e2314]:
+                  - link "permalink" [ref=e2315] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi53zy/
+                - listitem [ref=e2316]:
+                  - link "embed" [ref=e2317] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2318]:
+                  - link "save" [ref=e2319] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2320]:
+                  - link "parent" [ref=e2321] [cursor=pointer]:
+                    - /url: "#kzfuth3"
+                - listitem [ref=e2322]:
+                  - link "report" [ref=e2323] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e2324]:
+          - paragraph
+          - generic [ref=e2325]:
+            - button "upvote" [ref=e2326] [cursor=pointer]
+            - button "downvote" [ref=e2327] [cursor=pointer]
+          - generic [ref=e2328]:
+            - paragraph [ref=e2329]:
+              - link "[–]" [ref=e2330] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mostlykey" [ref=e2331] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mostlykey
+              - text: 1 point
+              - time [ref=e2332]: 1 year ago
+            - paragraph [ref=e2336]: Watch the sunset at the Gliderport
+            - list [ref=e2337]:
+              - listitem [ref=e2338]:
+                - link "permalink" [ref=e2339] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzggb90/
+              - listitem [ref=e2340]:
+                - link "embed" [ref=e2341] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2342]:
+                - link "save" [ref=e2343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2344]:
+                - link "report" [ref=e2345] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2346]:
+          - paragraph
+          - generic [ref=e2347]:
+            - button "upvote" [ref=e2348] [cursor=pointer]
+            - button "downvote" [ref=e2349] [cursor=pointer]
+          - generic [ref=e2350]:
+            - paragraph [ref=e2351]:
+              - link "[–]" [ref=e2352] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "2timeBiscuits" [ref=e2353] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/2timeBiscuits
+              - text: 1 point
+              - time [ref=e2354]: 1 year ago
+            - paragraph [ref=e2358]: Surf.
+            - list [ref=e2359]:
+              - listitem [ref=e2360]:
+                - link "permalink" [ref=e2361] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgi24s/
+              - listitem [ref=e2362]:
+                - link "embed" [ref=e2363] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2364]:
+                - link "save" [ref=e2365] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2366]:
+                - link "report" [ref=e2367] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2368]:
+          - paragraph
+          - generic [ref=e2369]:
+            - button "upvote" [ref=e2370] [cursor=pointer]
+            - button "downvote" [ref=e2371] [cursor=pointer]
+          - generic [ref=e2372]:
+            - paragraph [ref=e2373]:
+              - link "[–]" [ref=e2374] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "quarentine_del" [ref=e2375] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/quarentine_del
+              - text: 1 point
+              - time [ref=e2376]: 1 year ago
+            - paragraph [ref=e2380]: get a day pass and take some busses? that should waste your whole day lol
+            - list [ref=e2381]:
+              - listitem [ref=e2382]:
+                - link "permalink" [ref=e2383] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgj3th/
+              - listitem [ref=e2384]:
+                - link "embed" [ref=e2385] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2386]:
+                - link "save" [ref=e2387] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2388]:
+                - link "report" [ref=e2389] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2390]:
+          - paragraph
+          - generic [ref=e2391]:
+            - button "upvote" [ref=e2392] [cursor=pointer]
+            - button "downvote" [ref=e2393] [cursor=pointer]
+          - generic [ref=e2394]:
+            - paragraph [ref=e2395]:
+              - link "[–]" [ref=e2396] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mrkrinkle773" [ref=e2397] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mrkrinkle773
+              - text: 1 point
+              - time [ref=e2398]: 1 year ago
+            - paragraph [ref=e2402]: Sunset
+            - list [ref=e2403]:
+              - listitem [ref=e2404]:
+                - link "permalink" [ref=e2405] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgzxol/
+              - listitem [ref=e2406]:
+                - link "embed" [ref=e2407] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2408]:
+                - link "save" [ref=e2409] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2410]:
+                - link "report" [ref=e2411] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2412]:
+          - paragraph
+          - generic [ref=e2413]:
+            - button "upvote" [ref=e2414] [cursor=pointer]
+            - button "downvote" [ref=e2415] [cursor=pointer]
+          - generic [ref=e2416]:
+            - paragraph [ref=e2417]:
+              - link "[–]" [ref=e2418] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "litex2x" [ref=e2419] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/litex2x
+              - text: 1 point
+              - time [ref=e2420]: 1 year ago
+            - paragraph [ref=e2424]: Going to the beaches
+            - list [ref=e2425]:
+              - listitem [ref=e2426]:
+                - link "permalink" [ref=e2427] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzh3rrz/
+              - listitem [ref=e2428]:
+                - link "embed" [ref=e2429] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2430]:
+                - link "save" [ref=e2431] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2432]:
+                - link "report" [ref=e2433] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2434]:
+          - paragraph
+          - generic [ref=e2435]:
+            - button "upvote" [ref=e2436] [cursor=pointer]
+            - button "downvote" [ref=e2437] [cursor=pointer]
+          - generic [ref=e2438]:
+            - paragraph [ref=e2439]:
+              - link "[–]" [ref=e2440] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "withagrainofsalt1" [ref=e2441] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/withagrainofsalt1
+              - text: 1 point
+              - time [ref=e2442]: 1 year ago
+            - paragraph [ref=e2446]: Just go outside. It’s literally the easiest city to find something to do.
+            - list [ref=e2447]:
+              - listitem [ref=e2448]:
+                - link "permalink" [ref=e2449] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzha4rp/
+              - listitem [ref=e2450]:
+                - link "embed" [ref=e2451] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2452]:
+                - link "save" [ref=e2453] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2454]:
+                - link "report" [ref=e2455] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2456]:
+          - paragraph
+          - generic [ref=e2457]:
+            - button "upvote" [ref=e2458] [cursor=pointer]
+            - button "downvote" [ref=e2459] [cursor=pointer]
+          - generic [ref=e2460]:
+            - paragraph [ref=e2461]:
+              - link "[–]" [ref=e2462] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Stellargurl44" [ref=e2463] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Stellargurl44
+              - text: 1 point
+              - time [ref=e2464]: 1 year ago
+            - paragraph [ref=e2468]: the children’s pool in la jolla is cool. it’s pupping season so you can’t go on the beach but it’s neat to watch the seals come in and out. can also hit the tide pools at low tide in that area as well
+            - list [ref=e2469]:
+              - listitem [ref=e2470]:
+                - link "permalink" [ref=e2471] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhjor3/
+              - listitem [ref=e2472]:
+                - link "embed" [ref=e2473] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2474]:
+                - link "save" [ref=e2475] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2476]:
+                - link "report" [ref=e2477] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2478]:
+          - paragraph
+          - generic [ref=e2479]:
+            - button "upvote" [ref=e2480] [cursor=pointer]
+            - button "downvote" [ref=e2481] [cursor=pointer]
+          - generic [ref=e2482]:
+            - paragraph [ref=e2483]:
+              - link "[–]" [ref=e2484] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "BlessHerHeart--" [ref=e2485] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/BlessHerHeart--
+              - text: 1 point
+              - time [ref=e2486]: 1 year ago
+            - paragraph [ref=e2490]:
+              - text: Hiking Tecolate Canyon in Clairemont is a wonderful way to see the beauty of the San Diego Canyons.
+              - link "https://www.sandiego.gov/park-and-recreation/parks/osp/tecolote" [ref=e2491] [cursor=pointer]:
+                - /url: https://www.sandiego.gov/park-and-recreation/parks/osp/tecolote
+            - list [ref=e2492]:
+              - listitem [ref=e2493]:
+                - link "permalink" [ref=e2494] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzhsu3b/
+              - listitem [ref=e2495]:
+                - link "embed" [ref=e2496] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2497]:
+                - link "save" [ref=e2498] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2499]:
+                - link "report" [ref=e2500] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2501]:
+          - paragraph
+          - generic [ref=e2502]:
+            - button "upvote" [ref=e2503] [cursor=pointer]
+            - button "downvote" [ref=e2504] [cursor=pointer]
+          - generic [ref=e2505]:
+            - paragraph [ref=e2506]:
+              - link "[–]" [ref=e2507] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dr_henry_jones" [ref=e2508] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dr_henry_jones
+              - text: 1 point
+              - time [ref=e2509]: 1 year ago
+            - paragraph [ref=e2513]: I host two free comedy shows. Duck Foot Comedy in Miramar and Abnormal Nights Comedy in Normal Heights at the Adams Ave Theater! Next AAT show is the 25th come on by!
+            - list [ref=e2514]:
+              - listitem [ref=e2515]:
+                - link "permalink" [ref=e2516] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi6860/
+              - listitem [ref=e2517]:
+                - link "embed" [ref=e2518] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2519]:
+                - link "save" [ref=e2520] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2521]:
+                - link "report" [ref=e2522] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2523]:
+          - paragraph
+          - generic [ref=e2524]:
+            - button "upvote" [ref=e2525] [cursor=pointer]
+            - button "downvote" [ref=e2526] [cursor=pointer]
+          - generic [ref=e2527]:
+            - paragraph [ref=e2528]:
+              - link "[–]" [ref=e2529] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 1 point"
+              - time [ref=e2530]: 1 year ago
+            - paragraph [ref=e2534]: Stay home lol
+            - list [ref=e2535]:
+              - listitem [ref=e2536]:
+                - link "permalink" [ref=e2537] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi90xq/
+              - listitem [ref=e2538]:
+                - link "embed" [ref=e2539] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2540]:
+                - link "save" [ref=e2541] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2542]:
+                - link "report" [ref=e2543] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2544]:
+          - paragraph
+          - generic [ref=e2545]:
+            - button "upvote" [ref=e2546] [cursor=pointer]
+            - button "downvote" [ref=e2547] [cursor=pointer]
+          - generic [ref=e2548]:
+            - paragraph [ref=e2549]:
+              - link "[–]" [ref=e2550] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "UCSurfer" [ref=e2551] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/UCSurfer
+              - text: 1 point
+              - time [ref=e2552]: 1 year ago
+            - paragraph [ref=e2556]: Mt Soledad at sunrise.
+            - list [ref=e2557]:
+              - listitem [ref=e2558]:
+                - link "permalink" [ref=e2559] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzizpdl/
+              - listitem [ref=e2560]:
+                - link "embed" [ref=e2561] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2562]:
+                - link "save" [ref=e2563] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2564]:
+                - link "report" [ref=e2565] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2566]:
+          - paragraph
+          - generic [ref=e2567]:
+            - button "upvote" [ref=e2568] [cursor=pointer]
+            - button "downvote" [ref=e2569] [cursor=pointer]
+          - generic [ref=e2570]:
+            - paragraph [ref=e2571]:
+              - link "[–]" [ref=e2572] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "DeaconBlue-51" [ref=e2573] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/DeaconBlue-51
+              - text: 1 point
+              - time [ref=e2574]: 1 year ago
+            - paragraph [ref=e2578]: Adams Unplugged on April 27th
+            - list [ref=e2579]:
+              - listitem [ref=e2580]:
+                - link "permalink" [ref=e2581] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzjgcai/
+              - listitem [ref=e2582]:
+                - link "embed" [ref=e2583] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2584]:
+                - link "save" [ref=e2585] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2586]:
+                - link "report" [ref=e2587] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2588]:
+          - paragraph
+          - generic [ref=e2589]:
+            - button "upvote" [ref=e2590] [cursor=pointer]
+            - button "downvote" [ref=e2591] [cursor=pointer]
+          - generic [ref=e2592]:
+            - paragraph [ref=e2593]:
+              - link "[–]" [ref=e2594] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "robojbo" [ref=e2595] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/robojbo
+              - text: 1 point
+              - time [ref=e2596]: 1 year ago
+            - paragraph [ref=e2600]: improv shows at mockingbird improv or finest city improv are low or free
+            - list [ref=e2601]:
+              - listitem [ref=e2602]:
+                - link "permalink" [ref=e2603] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzjp5gl/
+              - listitem [ref=e2604]:
+                - link "embed" [ref=e2605] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2606]:
+                - link "save" [ref=e2607] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2608]:
+                - link "report" [ref=e2609] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2610]:
+          - paragraph
+          - generic [ref=e2611]:
+            - button "upvote" [ref=e2612] [cursor=pointer]
+            - button "downvote" [ref=e2613] [cursor=pointer]
+          - generic [ref=e2614]:
+            - paragraph [ref=e2615]:
+              - link "[–]" [ref=e2616] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "barksatthemoon" [ref=e2617] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/barksatthemoon
+              - text: 1 point
+              - time [ref=e2618]: 1 year ago
+            - paragraph [ref=e2622]: Old Town (old buildings) and Sunset Cliffs.
+            - list [ref=e2623]:
+              - listitem [ref=e2624]:
+                - link "permalink" [ref=e2625] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzkne0x/
+              - listitem [ref=e2626]:
+                - link "embed" [ref=e2627] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2628]:
+                - link "save" [ref=e2629] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2630]:
+                - link "report" [ref=e2631] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2632]:
+          - paragraph
+          - generic [ref=e2633]:
+            - button "upvote" [ref=e2634] [cursor=pointer]
+            - button "downvote" [ref=e2635] [cursor=pointer]
+          - generic [ref=e2636]:
+            - paragraph [ref=e2637]:
+              - link "[–]" [ref=e2638] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "electroheather" [ref=e2639] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/electroheather
+              - text: 1 point
+              - time [ref=e2640]: 1 year ago
+            - paragraph [ref=e2644]: Annie's Slot canyon hike :)
+            - list [ref=e2645]:
+              - listitem [ref=e2646]:
+                - link "permalink" [ref=e2647] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzl3wyi/
+              - listitem [ref=e2648]:
+                - link "embed" [ref=e2649] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2650]:
+                - link "save" [ref=e2651] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2652]:
+                - link "report" [ref=e2653] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2654]:
+          - paragraph
+          - generic [ref=e2655]:
+            - button "upvote" [ref=e2656] [cursor=pointer]
+            - button "downvote" [ref=e2657] [cursor=pointer]
+          - generic [ref=e2658]:
+            - paragraph [ref=e2659]:
+              - link "[–]" [ref=e2660] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ScaredSpace7064" [ref=e2661] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ScaredSpace7064
+              - text: 1 point
+              - time [ref=e2662]: 1 year ago
+            - paragraph [ref=e2666]: Walk the five miles around Miramar Lake.
+            - list [ref=e2667]:
+              - listitem [ref=e2668]:
+                - link "permalink" [ref=e2669] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzlmg2h/
+              - listitem [ref=e2670]:
+                - link "embed" [ref=e2671] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2672]:
+                - link "save" [ref=e2673] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2674]:
+                - link "report" [ref=e2675] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2676]:
+          - paragraph
+          - generic [ref=e2677]:
+            - button "upvote" [ref=e2678] [cursor=pointer]
+            - button "downvote" [ref=e2679] [cursor=pointer]
+          - generic [ref=e2680]:
+            - paragraph [ref=e2681]:
+              - link "[–]" [ref=e2682] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ScaredSpace7064" [ref=e2683] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ScaredSpace7064
+              - text: 1 point
+              - time [ref=e2684]: 1 year ago
+            - paragraph [ref=e2688]: All our area college campuses are open and beautiful with lots of interesting stuff to see. They can either be peaceful or bustling depending on the time you’re there - perfectly safe until dark anytime. Point Loma Nazarene and USD are especially beautiful. Buy yourself a beverage and be one of the cool kids for a while. But no creepers please.
+            - list [ref=e2689]:
+              - listitem [ref=e2690]:
+                - link "permalink" [ref=e2691] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzlne0q/
+              - listitem [ref=e2692]:
+                - link "embed" [ref=e2693] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2694]:
+                - link "save" [ref=e2695] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2696]:
+                - link "report" [ref=e2697] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2698]:
+          - paragraph
+          - generic [ref=e2699]:
+            - button "upvote" [ref=e2700] [cursor=pointer]
+            - button "downvote" [ref=e2701] [cursor=pointer]
+          - generic [ref=e2702]:
+            - paragraph [ref=e2703]:
+              - link "[–]" [ref=e2704] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Traditional-Neck7778" [ref=e2705] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Traditional-Neck7778
+              - text: 1 point
+              - time [ref=e2706]: 1 year ago
+            - paragraph [ref=e2710]: Museums in old town
+            - list [ref=e2711]:
+              - listitem [ref=e2712]:
+                - link "permalink" [ref=e2713] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzlwv96/
+              - listitem [ref=e2714]:
+                - link "embed" [ref=e2715] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2716]:
+                - link "save" [ref=e2717] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2718]:
+                - link "report" [ref=e2719] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2720]:
+          - paragraph
+          - generic [ref=e2721]:
+            - button "upvote" [ref=e2722] [cursor=pointer]
+            - button "downvote" [ref=e2723] [cursor=pointer]
+          - generic [ref=e2724]:
+            - paragraph [ref=e2725]:
+              - link "[–]" [ref=e2726] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "HuachumaPuma" [ref=e2727] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/HuachumaPuma
+              - text: 1 point
+              - time [ref=e2728]: 1 year ago
+            - paragraph [ref=e2732]: I love walking around Balboa Park and Ocean Beach
+            - list [ref=e2733]:
+              - listitem [ref=e2734]:
+                - link "permalink" [ref=e2735] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzmqaqk/
+              - listitem [ref=e2736]:
+                - link "embed" [ref=e2737] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2738]:
+                - link "save" [ref=e2739] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2740]:
+                - link "report" [ref=e2741] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2742]:
+          - paragraph
+          - generic [ref=e2743]:
+            - button "upvote" [ref=e2744] [cursor=pointer]
+            - button "downvote" [ref=e2745] [cursor=pointer]
+          - generic [ref=e2746]:
+            - paragraph [ref=e2747]:
+              - link "[–]" [ref=e2748] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "CYCLE_NYC" [ref=e2749] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/CYCLE_NYC
+              - text: 1 point
+              - time [ref=e2750]: 1 year ago
+            - paragraph [ref=e2754]: I would try to get on a sailboat. sometimes they have small little beercan races and they need "deck meat"
+            - list [ref=e2755]:
+              - listitem [ref=e2756]:
+                - link "permalink" [ref=e2757] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzfqhaz/
+              - listitem [ref=e2758]:
+                - link "embed" [ref=e2759] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2760]:
+                - link "save" [ref=e2761] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2762]:
+                - link "report" [ref=e2763] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2766]:
+            - paragraph
+            - generic [ref=e2767]:
+              - button "upvote" [ref=e2768] [cursor=pointer]
+              - button "downvote" [ref=e2769] [cursor=pointer]
+            - generic [ref=e2770]:
+              - paragraph [ref=e2771]:
+                - link "[–]" [ref=e2772] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 2 points"
+                - time [ref=e2773]: 1 year ago
+              - paragraph [ref=e2777]: I'm very intrigued as to what this means!
+              - list [ref=e2778]:
+                - listitem [ref=e2779]:
+                  - link "permalink" [ref=e2780] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgposn/
+                - listitem [ref=e2781]:
+                  - link "embed" [ref=e2782] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2783]:
+                  - link "save" [ref=e2784] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2785]:
+                  - link "parent" [ref=e2786] [cursor=pointer]:
+                    - /url: "#kzfqhaz"
+                - listitem [ref=e2787]:
+                  - link "report" [ref=e2788] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e2791]:
+              - paragraph
+              - generic [ref=e2792]:
+                - button "upvote" [ref=e2793] [cursor=pointer]
+                - button "downvote" [ref=e2794] [cursor=pointer]
+              - generic [ref=e2795]:
+                - paragraph [ref=e2796]:
+                  - link "[–]" [ref=e2797] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "CYCLE_NYC" [ref=e2798] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/CYCLE_NYC
+                  - text: 3 points
+                  - time [ref=e2799]: 1 year ago
+                - paragraph [ref=e2803]: so sometimes you can call around the sail clubs and to balance the boat when racing around they need people to sit on the sides etc. I have actually never done it but I know for sure this is now many people get started with sailing. you should bring the owner like a 6 pack of beer that's usually it.
+                - list [ref=e2804]:
+                  - listitem [ref=e2805]:
+                    - link "permalink" [ref=e2806] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzgqgqm/
+                  - listitem [ref=e2807]:
+                    - link "embed" [ref=e2808] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2809]:
+                    - link "save" [ref=e2810] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2811]:
+                    - link "parent" [ref=e2812] [cursor=pointer]:
+                      - /url: "#kzgposn"
+                  - listitem [ref=e2813]:
+                    - link "report" [ref=e2814] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e2816]:
+                - generic [ref=e2817]:
+                  - paragraph
+                  - generic [ref=e2818]:
+                    - button "upvote" [ref=e2819] [cursor=pointer]
+                    - button "downvote" [ref=e2820] [cursor=pointer]
+                  - generic [ref=e2821]:
+                    - paragraph [ref=e2822]:
+                      - link "[–]" [ref=e2823] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "liberalis" [ref=e2824] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/liberalis
+                      - text: 2 points
+                      - time [ref=e2825]: 1 year ago
+                    - paragraph [ref=e2829]: My new aspiration is to be 'deck meat'.
+                    - list [ref=e2830]:
+                      - listitem [ref=e2831]:
+                        - link "permalink" [ref=e2832] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzi50w7/
+                      - listitem [ref=e2833]:
+                        - link "embed" [ref=e2834] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2835]:
+                        - link "save" [ref=e2836] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2837]:
+                        - link "parent" [ref=e2838] [cursor=pointer]:
+                          - /url: "#kzgqgqm"
+                      - listitem [ref=e2839]:
+                        - link "report" [ref=e2840] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                - generic [ref=e2841]:
+                  - paragraph
+                  - generic [ref=e2842]:
+                    - button "upvote" [ref=e2843] [cursor=pointer]
+                    - button "downvote" [ref=e2844] [cursor=pointer]
+                  - generic [ref=e2845]:
+                    - paragraph [ref=e2846]:
+                      - link "[–]" [ref=e2847] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - text: "[deleted] 1 point"
+                      - time [ref=e2848]: 1 year ago
+                    - paragraph [ref=e2852]: Thanks for explaining! I Googled and couldn't find any reference to deck meat.
+                    - list [ref=e2853]:
+                      - listitem [ref=e2854]:
+                        - link "permalink" [ref=e2855] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/1c3avld/coolest_low_cost_to_free_things_to_dosee_in_sd/kzn7hbz/
+                      - listitem [ref=e2856]:
+                        - link "embed" [ref=e2857] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2858]:
+                        - link "save" [ref=e2859] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2860]:
+                        - link "parent" [ref=e2861] [cursor=pointer]:
+                          - /url: "#kzgqgqm"
+                      - listitem [ref=e2862]:
+                        - link "report" [ref=e2863] [cursor=pointer]:
+                          - /url: javascript:void(0)
+  - generic [ref=e2864]:
+    - generic [ref=e2865]:
+      - text: Subreddit Layout /r/Naut
+      - list [ref=e2867]:
+        - listitem [ref=e2868]: about
+        - listitem [ref=e2869]:
+          - link "blog" [ref=e2870] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e2871]:
+          - link "about" [ref=e2872] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e2873]:
+          - link "advertising" [ref=e2874] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e2875]:
+          - link "careers" [ref=e2876] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e2878]:
+        - listitem [ref=e2879]: help
+        - listitem [ref=e2880]:
+          - link "site rules" [ref=e2881] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e2882]:
+          - link "Reddit help center" [ref=e2883] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e2884]:
+          - link "reddiquette" [ref=e2885] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e2886]:
+          - link "mod guidelines" [ref=e2887] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e2888]:
+          - link "contact us" [ref=e2889] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e2891]:
+        - listitem [ref=e2892]: apps & tools
+        - listitem [ref=e2893]:
+          - link "Reddit for iPhone" [ref=e2894] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e2895]:
+          - link "Reddit for Android" [ref=e2896] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e2897]:
+          - link "mobile website" [ref=e2898] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e2900]:
+        - listitem [ref=e2901]: <3
+        - listitem [ref=e2902]:
+          - link "reddit premium" [ref=e2903] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e2904]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e2905] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e2906] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e2907]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e2908]
+  - paragraph [ref=e2909]: π

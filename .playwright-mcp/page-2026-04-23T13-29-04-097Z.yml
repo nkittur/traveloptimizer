@@ -1,0 +1,2082 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodLosAngeles" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 25 Feb 2024
+      - generic [ref=e130]: 31 points (77% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/1azwx8d
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "FoodLosAngeles" [level=1] [ref=e145]:
+        - link "FoodLosAngeles" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Food Los Angeles is dedicated to showcasing great food from all over Los Angeles! Share pictures, reviews, websites, etc.
+        - paragraph [ref=e153]: Who doesn't like food?! Subscribe! :)
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Rules
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: Be friendly
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Try to specify where the food is from in the comments or title
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: Post Tags
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: "[THE BEST PLACE IN]"
+        - paragraph [ref=e165]:
+          - strong [ref=e166]: "[WHO MAKES THE BEST]"
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "Related Subs:"
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - paragraph [ref=e171]:
+              - strong [ref=e172]:
+                - link "/r/FoodWishes" [ref=e173] [cursor=pointer]:
+                  - /url: /r/FoodWishes
+                - text: (NEW!)
+          - listitem [ref=e174]:
+            - paragraph [ref=e175]:
+              - link "/r/Food" [ref=e176] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e177]:
+            - paragraph [ref=e178]:
+              - link "/r/FoodPorn" [ref=e179] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e180]:
+            - paragraph [ref=e181]:
+              - link "/r/LosAngeles" [ref=e182] [cursor=pointer]:
+                - /url: /r/LosAngeles
+        - paragraph [ref=e183]:
+          - strong [ref=e184]: Resources
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - paragraph [ref=e187]:
+              - link "Reddit's take on the best restaurants in Los Angeles" [ref=e188] [cursor=pointer]:
+                - /url: http://www.reddit.com/r/LosAngeles/comments/2dq6tr/whats_your_favorite_restaurant_in_los_angeles/
+          - listitem [ref=e189]:
+            - paragraph [ref=e190]:
+              - link "20 Best Restaurants in Los Angeles | LAWeekly.com" [ref=e191] [cursor=pointer]:
+                - /url: http://www.laweekly.com/squidink/2014/04/15/20-best-restaurants-in-los-angeles
+          - listitem [ref=e192]:
+            - paragraph [ref=e193]:
+              - link "L.A.'s 75 Best Restaurants | LAMag.com" [ref=e194] [cursor=pointer]:
+                - /url: http://www.lamag.com/thejump/2014/04/23/hot-stuff-announcing-las-75-best-restaurants
+          - listitem [ref=e195]:
+            - paragraph [ref=e196]:
+              - link "10 Foods Los Angeles Does Better Than Anywhere Else | HuffingtonPost.com" [ref=e197] [cursor=pointer]:
+                - /url: http://www.huffingtonpost.com/2013/10/15/best-los-angeles-food_n_4101759.html
+          - listitem [ref=e198]:
+            - paragraph [ref=e199]:
+              - link "Roaming Hunger Food Truck Map" [ref=e200] [cursor=pointer]:
+                - /url: http://roaminghunger.com/la
+          - listitem [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "FoodTrucksMap.com" [ref=e203] [cursor=pointer]:
+                - /url: http://www.foodtruckmaps.com/la/
+        - paragraph [ref=e204]:
+          - strong [ref=e205]: The Food Network
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "/r/FoodToronto" [ref=e209] [cursor=pointer]:
+                - /url: /r/FoodToronto
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "/r/FoodPortland" [ref=e212] [cursor=pointer]:
+                - /url: /r/FoodPortland
+          - listitem [ref=e213]:
+            - paragraph [ref=e214]:
+              - link "/r/FoodNYC" [ref=e215] [cursor=pointer]:
+                - /url: /r/FoodNYC
+          - listitem [ref=e216]:
+            - paragraph [ref=e217]:
+              - link "/r/FoodSanDiego" [ref=e218] [cursor=pointer]:
+                - /url: /r/FoodSanDiego
+          - listitem [ref=e219]:
+            - paragraph [ref=e220]:
+              - link "/r/FoodVancouver" [ref=e221] [cursor=pointer]:
+                - /url: /r/FoodVancouver
+          - listitem [ref=e222]:
+            - paragraph [ref=e223]:
+              - link "/r/ChicagoFood" [ref=e224] [cursor=pointer]:
+                - /url: /r/ChicagoFood
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "/r/ColumbusFood" [ref=e227] [cursor=pointer]:
+                - /url: /r/ColumbusFood
+          - listitem [ref=e228]:
+            - paragraph [ref=e229]:
+              - link "/r/FoodSoCal" [ref=e230] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e231]:
+            - paragraph [ref=e232]:
+              - link "/r/FoodNewOrleans" [ref=e233] [cursor=pointer]:
+                - /url: /r/FoodNewOrleans
+          - listitem [ref=e234]:
+            - paragraph [ref=e235]:
+              - link "/r/FoodSanFrancisco" [ref=e236] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+        - paragraph [ref=e237]: "Related Subs:"
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - link "/r/Burgers" [ref=e240] [cursor=pointer]:
+              - /url: /r/Burgers
+      - generic [ref=e242]:
+        - text: a community for
+        - time [ref=e243]: 11 years
+    - generic [ref=e245]:
+      - heading "MODERATORS" [level=1] [ref=e247]
+      - list [ref=e248]:
+        - listitem [ref=e249]:
+          - link "message the mods" [ref=e250] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodLosAngeles
+    - complementary [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - text: discussions in
+          - link "r/FoodLosAngeles" [ref=e256] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/?ref=readnext
+        - navigation [ref=e257]:
+          - generic [ref=e258] [cursor=pointer]: <
+          - generic [ref=e259] [cursor=pointer]: ">"
+        - generic [ref=e261] [cursor=pointer]: X
+      - link "37 · 18 comments r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [ref=e263] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/?ref=readnext_0
+        - generic [ref=e264]: 37 · 18 comments
+        - generic [ref=e265]: r/FoodLosAngeles — 2025's Best Restaurants Poll results!
+  - main [ref=e266]:
+    - generic [ref=e267]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e268] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e269]
+        - paragraph [ref=e270]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Become a Redditor
+          - paragraph [ref=e273]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e274] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e276]:
+      - paragraph
+      - generic [ref=e277]:
+        - button "upvote" [ref=e278] [cursor=pointer]
+        - generic "31" [ref=e279]
+        - button "downvote" [ref=e280] [cursor=pointer]
+      - link [ref=e281] [cursor=pointer]:
+        - /url: /r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/
+      - generic [ref=e283]:
+        - paragraph [ref=e284]:
+          - link "What’s a good date restaurant in Westwood or Brentwood that’s above average in price, but not crazy expensive?" [ref=e285] [cursor=pointer]:
+            - /url: /r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/
+          - generic "THE BEST PLACE IN" [ref=e286]
+          - generic [ref=e287]:
+            - text: (
+            - link "self.FoodLosAngeles" [ref=e288] [cursor=pointer]:
+              - /url: /r/FoodLosAngeles/
+            - text: )
+        - paragraph [ref=e289]:
+          - text: submitted
+          - time [ref=e290]: 2 years ago
+          - text: by
+          - link "CrazyGermaphobe" [ref=e291] [cursor=pointer]:
+            - /url: https://old.reddit.com/user/CrazyGermaphobe
+        - list [ref=e292]:
+          - listitem [ref=e293]:
+            - link "60 comments" [ref=e294] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/
+          - listitem [ref=e295]:
+            - link "share" [ref=e296] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e297]:
+            - link "save" [ref=e298] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e299]:
+            - link "hide" [ref=e302] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e303]:
+            - link "report" [ref=e304] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e305]:
+      - generic [ref=e306]: all 60 comments
+      - generic [ref=e308]:
+        - text: "sorted by:"
+        - generic [ref=e309]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e312] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e313]
+        - generic [ref=e314]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e315]
+          - paragraph [ref=e316]: Post a comment!
+          - generic [ref=e318]: Create an account
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - paragraph
+          - generic [ref=e321]:
+            - button "upvote" [ref=e322] [cursor=pointer]
+            - button "downvote" [ref=e323] [cursor=pointer]
+          - generic [ref=e324]:
+            - paragraph [ref=e325]:
+              - link "[–]" [ref=e326] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Scared-Wave" [ref=e327] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Scared-Wave
+              - text: 31 points
+              - time [ref=e328]: 2 years ago
+            - paragraph [ref=e332]: AOC
+            - list [ref=e333]:
+              - listitem [ref=e334]:
+                - link "permalink" [ref=e335] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4ij84/
+              - listitem [ref=e336]:
+                - link "embed" [ref=e337] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e338]:
+                - link "save" [ref=e339] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e340]:
+                - link "report" [ref=e341] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e342]:
+                - link "reply" [ref=e343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - paragraph
+              - generic [ref=e347]:
+                - button "upvote" [ref=e348] [cursor=pointer]
+                - button "downvote" [ref=e349] [cursor=pointer]
+              - generic [ref=e350]:
+                - paragraph [ref=e351]:
+                  - link "[–]" [ref=e352] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] 4 points"
+                  - time [ref=e353]: 2 years ago
+                - paragraph [ref=e357]: second AOC
+                - list [ref=e358]:
+                  - listitem [ref=e359]:
+                    - link "permalink" [ref=e360] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks58x59/
+                  - listitem [ref=e361]:
+                    - link "embed" [ref=e362] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e363]:
+                    - link "save" [ref=e364] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e365]:
+                    - link "parent" [ref=e366] [cursor=pointer]:
+                      - /url: "#ks4ij84"
+                  - listitem [ref=e367]:
+                    - link "report" [ref=e368] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e369]:
+                    - link "reply" [ref=e370] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e371]:
+              - paragraph
+              - generic [ref=e372]:
+                - button "upvote" [ref=e373] [cursor=pointer]
+                - button "downvote" [ref=e374] [cursor=pointer]
+              - generic [ref=e375]:
+                - paragraph [ref=e376]:
+                  - link "[–]" [ref=e377] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "hung_like__podrick" [ref=e378] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/hung_like__podrick
+                  - generic "Brentwood" [ref=e379]
+                  - text: 3 points
+                  - time [ref=e380]: 2 years ago
+                - paragraph [ref=e384]: Agreed
+                - list [ref=e385]:
+                  - listitem [ref=e386]:
+                    - link "permalink" [ref=e387] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5fq33/
+                  - listitem [ref=e388]:
+                    - link "embed" [ref=e389] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e390]:
+                    - link "save" [ref=e391] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e392]:
+                    - link "parent" [ref=e393] [cursor=pointer]:
+                      - /url: "#ks4ij84"
+                  - listitem [ref=e394]:
+                    - link "report" [ref=e395] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e396]:
+                    - link "reply" [ref=e397] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e398]:
+              - paragraph
+              - generic [ref=e399]:
+                - button "upvote" [ref=e400] [cursor=pointer]
+                - button "downvote" [ref=e401] [cursor=pointer]
+              - generic [ref=e402]:
+                - paragraph [ref=e403]:
+                  - link "[–]" [ref=e404] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Fearless_Ad_3584" [ref=e405] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Fearless_Ad_3584
+                  - text: 2 points
+                  - time [ref=e406]: 2 years ago
+                - paragraph [ref=e410]: It’s really overpriced for what it is. Also the one in WeHo is nicer
+                - list [ref=e411]:
+                  - listitem [ref=e412]:
+                    - link "permalink" [ref=e413] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks9310x/
+                  - listitem [ref=e414]:
+                    - link "embed" [ref=e415] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e416]:
+                    - link "save" [ref=e417] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e418]:
+                    - link "parent" [ref=e419] [cursor=pointer]:
+                      - /url: "#ks4ij84"
+                  - listitem [ref=e420]:
+                    - link "report" [ref=e421] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e422]:
+                    - link "reply" [ref=e423] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e424]:
+              - paragraph
+              - paragraph [ref=e426]:
+                - link "[+]" [ref=e427] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "bce13" [ref=e428] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/bce13
+                - text: comment score below threshold
+                - link "(1 child)" [ref=e429] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e430]:
+          - paragraph
+          - generic [ref=e431]:
+            - button "upvote" [ref=e432] [cursor=pointer]
+            - button "downvote" [ref=e433] [cursor=pointer]
+          - generic [ref=e434]:
+            - paragraph [ref=e435]:
+              - link "[–]" [ref=e436] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "cityofangels18" [ref=e437] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/cityofangels18
+              - text: 46 points
+              - time [ref=e438]: 2 years ago
+            - paragraph [ref=e442]: Pizzana
+            - list [ref=e443]:
+              - listitem [ref=e444]:
+                - link "permalink" [ref=e445] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks43j71/
+              - listitem [ref=e446]:
+                - link "embed" [ref=e447] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e448]:
+                - link "save" [ref=e449] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e450]:
+                - link "report" [ref=e451] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e452]:
+                - link "reply" [ref=e453] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e456]:
+            - paragraph
+            - generic [ref=e457]:
+              - button "upvote" [ref=e458] [cursor=pointer]
+              - button "downvote" [ref=e459] [cursor=pointer]
+            - generic [ref=e460]:
+              - paragraph [ref=e461]:
+                - link "[–]" [ref=e462] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Entaroadun" [ref=e463] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Entaroadun
+                - text: 3 points
+                - time [ref=e464]: 2 years ago
+              - paragraph [ref=e468]: How's pizzana for takeout?
+              - list [ref=e469]:
+                - listitem [ref=e470]:
+                  - link "permalink" [ref=e471] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5odf2/
+                - listitem [ref=e472]:
+                  - link "embed" [ref=e473] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e474]:
+                  - link "save" [ref=e475] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e476]:
+                  - link "parent" [ref=e477] [cursor=pointer]:
+                    - /url: "#ks43j71"
+                - listitem [ref=e478]:
+                  - link "report" [ref=e479] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e480]:
+                  - link "reply" [ref=e481] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - paragraph
+                - generic [ref=e485]:
+                  - button "upvote" [ref=e486] [cursor=pointer]
+                  - button "downvote" [ref=e487] [cursor=pointer]
+                - generic [ref=e488]:
+                  - paragraph [ref=e489]:
+                    - link "[–]" [ref=e490] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "cityofangels18" [ref=e491] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/cityofangels18
+                    - text: 6 points
+                    - time [ref=e492]: 2 years ago
+                  - paragraph [ref=e496]: Good but I’d rather eat it there. It’s thin so it might be soggy and doesn’t reheat as well
+                  - list [ref=e497]:
+                    - listitem [ref=e498]:
+                      - link "permalink" [ref=e499] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5ogeg/
+                    - listitem [ref=e500]:
+                      - link "embed" [ref=e501] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e502]:
+                      - link "save" [ref=e503] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e504]:
+                      - link "parent" [ref=e505] [cursor=pointer]:
+                        - /url: "#ks5odf2"
+                    - listitem [ref=e506]:
+                      - link "report" [ref=e507] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e508]:
+                      - link "reply" [ref=e509] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e512]:
+                  - paragraph
+                  - generic [ref=e513]:
+                    - button "upvote" [ref=e514] [cursor=pointer]
+                    - button "downvote" [ref=e515] [cursor=pointer]
+                  - generic [ref=e516]:
+                    - paragraph [ref=e517]:
+                      - link "[–]" [ref=e518] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "laustic" [ref=e519] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/laustic
+                      - text: 6 points
+                      - time [ref=e520]: 2 years ago
+                    - paragraph [ref=e524]: You can get a pizza un-baked so you just pop it in the oven at home and make it fresh!
+                    - list [ref=e525]:
+                      - listitem [ref=e526]:
+                        - link "permalink" [ref=e527] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6eygm/
+                      - listitem [ref=e528]:
+                        - link "embed" [ref=e529] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e530]:
+                        - link "save" [ref=e531] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e532]:
+                        - link "parent" [ref=e533] [cursor=pointer]:
+                          - /url: "#ks5ogeg"
+                      - listitem [ref=e534]:
+                        - link "report" [ref=e535] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e536]:
+                        - link "reply" [ref=e537] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e540]:
+                    - paragraph
+                    - generic [ref=e541]:
+                      - button "upvote" [ref=e542] [cursor=pointer]
+                      - button "downvote" [ref=e543] [cursor=pointer]
+                    - generic [ref=e544]:
+                      - paragraph [ref=e545]:
+                        - link "[–]" [ref=e546] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "bonnifunk" [ref=e547] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/bonnifunk
+                        - generic "Brentwood Westside" [ref=e548]
+                        - text: 2 points
+                        - time [ref=e549]: 2 years ago
+                        - time [ref=e550]: "*"
+                      - paragraph [ref=e554]: That's the way to go. It's partially baked, so it only takes a few minutes in the oven or toaster oven. The partially baked one comes uncut, unless you ask for slices.
+                      - list [ref=e555]:
+                        - listitem [ref=e556]:
+                          - link "permalink" [ref=e557] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks8xts8/
+                        - listitem [ref=e558]:
+                          - link "embed" [ref=e559] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e560]:
+                          - link "save" [ref=e561] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e562]:
+                          - link "parent" [ref=e563] [cursor=pointer]:
+                            - /url: "#ks6eygm"
+                        - listitem [ref=e564]:
+                          - link "report" [ref=e565] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e566]:
+                          - link "reply" [ref=e567] [cursor=pointer]:
+                            - /url: javascript:void(0)
+              - generic [ref=e568]:
+                - paragraph
+                - generic [ref=e569]:
+                  - button "upvote" [ref=e570] [cursor=pointer]
+                  - button "downvote" [ref=e571] [cursor=pointer]
+                - generic [ref=e572]:
+                  - paragraph [ref=e573]:
+                    - link "[–]" [ref=e574] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "recordcollection64" [ref=e575] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/recordcollection64
+                    - text: 1 point
+                    - time [ref=e576]: 2 years ago
+                  - paragraph [ref=e580]: Good
+                  - list [ref=e581]:
+                    - listitem [ref=e582]:
+                      - link "permalink" [ref=e583] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks8mseb/
+                    - listitem [ref=e584]:
+                      - link "embed" [ref=e585] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e586]:
+                      - link "save" [ref=e587] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e588]:
+                      - link "parent" [ref=e589] [cursor=pointer]:
+                        - /url: "#ks5odf2"
+                    - listitem [ref=e590]:
+                      - link "report" [ref=e591] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e592]:
+                      - link "reply" [ref=e593] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e594]:
+          - paragraph
+          - generic [ref=e595]:
+            - button "upvote" [ref=e596] [cursor=pointer]
+            - button "downvote" [ref=e597] [cursor=pointer]
+          - generic [ref=e598]:
+            - paragraph [ref=e599]:
+              - link "[–]" [ref=e600] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mystic_scorpio" [ref=e601] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mystic_scorpio
+              - text: 18 points
+              - time [ref=e602]: 2 years ago
+            - paragraph [ref=e606]: I personally love Pomodoro Trattoria
+            - list [ref=e607]:
+              - listitem [ref=e608]:
+                - link "permalink" [ref=e609] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4anzw/
+              - listitem [ref=e610]:
+                - link "embed" [ref=e611] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e612]:
+                - link "save" [ref=e613] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e614]:
+                - link "report" [ref=e615] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e616]:
+                - link "reply" [ref=e617] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e620]:
+            - paragraph
+            - generic [ref=e621]:
+              - button "upvote" [ref=e622] [cursor=pointer]
+              - button "downvote" [ref=e623] [cursor=pointer]
+            - generic [ref=e624]:
+              - paragraph [ref=e625]:
+                - link "[–]" [ref=e626] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Tuesday_Addams" [ref=e627] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Tuesday_Addams
+                - text: 2 points
+                - time [ref=e628]: 2 years ago
+              - paragraph [ref=e632]: +1 for Pomodoro! Food is delicious, it’s got a great vibe, the staff is lovely and prices are pretty reasonable for the west side
+              - list [ref=e633]:
+                - listitem [ref=e634]:
+                  - link "permalink" [ref=e635] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks7xe0y/
+                - listitem [ref=e636]:
+                  - link "embed" [ref=e637] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e638]:
+                  - link "save" [ref=e639] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e640]:
+                  - link "parent" [ref=e641] [cursor=pointer]:
+                    - /url: "#ks4anzw"
+                - listitem [ref=e642]:
+                  - link "report" [ref=e643] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e644]:
+                  - link "reply" [ref=e645] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e646]:
+          - paragraph
+          - generic [ref=e647]:
+            - button "upvote" [ref=e648] [cursor=pointer]
+            - button "downvote" [ref=e649] [cursor=pointer]
+          - generic [ref=e650]:
+            - paragraph [ref=e651]:
+              - link "[–]" [ref=e652] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mamsterla" [ref=e653] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mamsterla
+              - text: 17 points
+              - time [ref=e654]: 2 years ago
+            - paragraph [ref=e658]: I would add Violet in Westwood, Emporium Thai which is higher end Thai food. Went to Teleferic last night and really enjoyed it.
+            - list [ref=e659]:
+              - listitem [ref=e660]:
+                - link "permalink" [ref=e661] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4byi3/
+              - listitem [ref=e662]:
+                - link "embed" [ref=e663] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e664]:
+                - link "save" [ref=e665] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e666]:
+                - link "report" [ref=e667] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e668]:
+                - link "reply" [ref=e669] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - paragraph
+              - generic [ref=e673]:
+                - button "upvote" [ref=e674] [cursor=pointer]
+                - button "downvote" [ref=e675] [cursor=pointer]
+              - generic [ref=e676]:
+                - paragraph [ref=e677]:
+                  - link "[–]" [ref=e678] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "magic_bryant24" [ref=e679] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/magic_bryant24
+                  - text: 15 points
+                  - time [ref=e680]: 2 years ago
+                - paragraph [ref=e684]: I actually found Emporium Thai underwhelming. Like they rely heavily on hype.
+                - list [ref=e685]:
+                  - listitem [ref=e686]:
+                    - link "permalink" [ref=e687] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4tllx/
+                  - listitem [ref=e688]:
+                    - link "embed" [ref=e689] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e690]:
+                    - link "save" [ref=e691] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e692]:
+                    - link "parent" [ref=e693] [cursor=pointer]:
+                      - /url: "#ks4byi3"
+                  - listitem [ref=e694]:
+                    - link "report" [ref=e695] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e696]:
+                    - link "reply" [ref=e697] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e699]:
+                - generic [ref=e700]:
+                  - paragraph
+                  - generic [ref=e701]:
+                    - button "upvote" [ref=e702] [cursor=pointer]
+                    - button "downvote" [ref=e703] [cursor=pointer]
+                  - generic [ref=e704]:
+                    - paragraph [ref=e705]:
+                      - link "[–]" [ref=e706] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "mamsterla" [ref=e707] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/mamsterla
+                      - text: 2 points
+                      - time [ref=e708]: 2 years ago
+                    - generic [ref=e711]:
+                      - paragraph [ref=e712]: "Bummer. I used to go before COVID-19 and it was good then. I have a Thai place that I like in Mar Vista: Good Day Thai"
+                      - paragraph [ref=e713]:
+                        - link "https://www.gooddaythaikitchenandcafe.com/" [ref=e714] [cursor=pointer]:
+                          - /url: https://www.gooddaythaikitchenandcafe.com/
+                    - list [ref=e715]:
+                      - listitem [ref=e716]:
+                        - link "permalink" [ref=e717] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks68wtp/
+                      - listitem [ref=e718]:
+                        - link "embed" [ref=e719] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e720]:
+                        - link "save" [ref=e721] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e722]:
+                        - link "parent" [ref=e723] [cursor=pointer]:
+                          - /url: "#ks4tllx"
+                      - listitem [ref=e724]:
+                        - link "report" [ref=e725] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e726]:
+                        - link "reply" [ref=e727] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e730]:
+                    - paragraph
+                    - generic [ref=e731]:
+                      - button "upvote" [ref=e732] [cursor=pointer]
+                      - button "downvote" [ref=e733] [cursor=pointer]
+                    - generic [ref=e734]:
+                      - paragraph [ref=e735]:
+                        - link "[–]" [ref=e736] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "magic_bryant24" [ref=e737] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/magic_bryant24
+                        - text: 2 points
+                        - time [ref=e738]: 2 years ago
+                      - paragraph [ref=e742]: Thanks for the rec! I’ll check it out next time in the area
+                      - list [ref=e743]:
+                        - listitem [ref=e744]:
+                          - link "permalink" [ref=e745] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6atj1/
+                        - listitem [ref=e746]:
+                          - link "embed" [ref=e747] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e748]:
+                          - link "save" [ref=e749] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e750]:
+                          - link "parent" [ref=e751] [cursor=pointer]:
+                            - /url: "#ks68wtp"
+                        - listitem [ref=e752]:
+                          - link "report" [ref=e753] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e754]:
+                          - link "reply" [ref=e755] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                - generic [ref=e756]:
+                  - paragraph
+                  - generic [ref=e757]:
+                    - button "upvote" [ref=e758] [cursor=pointer]
+                    - button "downvote" [ref=e759] [cursor=pointer]
+                  - generic [ref=e760]:
+                    - paragraph [ref=e761]:
+                      - link "[–]" [ref=e762] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Fearless_Ad_3584" [ref=e763] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Fearless_Ad_3584
+                      - text: 1 point
+                      - time [ref=e764]: 2 years ago
+                    - paragraph [ref=e768]: Yeah it’s super expensive for what it is. The food is worse than many other Thai restaurants
+                    - list [ref=e769]:
+                      - listitem [ref=e770]:
+                        - link "permalink" [ref=e771] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks934po/
+                      - listitem [ref=e772]:
+                        - link "embed" [ref=e773] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e774]:
+                        - link "save" [ref=e775] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e776]:
+                        - link "parent" [ref=e777] [cursor=pointer]:
+                          - /url: "#ks4tllx"
+                      - listitem [ref=e778]:
+                        - link "report" [ref=e779] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e780]:
+                        - link "reply" [ref=e781] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e782]:
+              - paragraph
+              - generic [ref=e783]:
+                - button "upvote" [ref=e784] [cursor=pointer]
+                - button "downvote" [ref=e785] [cursor=pointer]
+              - generic [ref=e786]:
+                - paragraph [ref=e787]:
+                  - link "[–]" [ref=e788] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "xquizitdecorum" [ref=e789] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/xquizitdecorum
+                  - text: 8 points
+                  - time [ref=e790]: 2 years ago
+                - paragraph [ref=e794]: Yes Violet Bistro, no Emporium Thai
+                - list [ref=e795]:
+                  - listitem [ref=e796]:
+                    - link "permalink" [ref=e797] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5hblt/
+                  - listitem [ref=e798]:
+                    - link "embed" [ref=e799] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e800]:
+                    - link "save" [ref=e801] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e802]:
+                    - link "parent" [ref=e803] [cursor=pointer]:
+                      - /url: "#ks4byi3"
+                  - listitem [ref=e804]:
+                    - link "report" [ref=e805] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e806]:
+                    - link "reply" [ref=e807] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e808]:
+              - paragraph
+              - generic [ref=e809]:
+                - button "upvote" [ref=e810] [cursor=pointer]
+                - button "downvote" [ref=e811] [cursor=pointer]
+              - generic [ref=e812]:
+                - paragraph [ref=e813]:
+                  - link "[–]" [ref=e814] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "starry_plough" [ref=e815] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/starry_plough
+                  - text: 5 points
+                  - time [ref=e816]: 2 years ago
+                - paragraph [ref=e820]: Second Violet. So cute and chic! 10/10 atmosphere and great food too
+                - list [ref=e821]:
+                  - listitem [ref=e822]:
+                    - link "permalink" [ref=e823] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4wr36/
+                  - listitem [ref=e824]:
+                    - link "embed" [ref=e825] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e826]:
+                    - link "save" [ref=e827] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e828]:
+                    - link "parent" [ref=e829] [cursor=pointer]:
+                      - /url: "#ks4byi3"
+                  - listitem [ref=e830]:
+                    - link "report" [ref=e831] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e832]:
+                    - link "reply" [ref=e833] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e834]:
+              - paragraph
+              - generic [ref=e835]:
+                - button "upvote" [ref=e836] [cursor=pointer]
+                - button "downvote" [ref=e837] [cursor=pointer]
+              - generic [ref=e838]:
+                - paragraph [ref=e839]:
+                  - link "[–]" [ref=e840] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "BAMgoesthedynamite" [ref=e841] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/BAMgoesthedynamite
+                  - text: 2 points
+                  - time [ref=e842]: 2 years ago
+                - paragraph [ref=e846]: Emporium is good but their spice levels are on a log scale; unless things have changed, I’d be very careful with anything above a 2-3 unless you know what you’re doing. (Might be useful information for a date, no?)
+                - list [ref=e847]:
+                  - listitem [ref=e848]:
+                    - link "permalink" [ref=e849] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5y117/
+                  - listitem [ref=e850]:
+                    - link "embed" [ref=e851] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e852]:
+                    - link "save" [ref=e853] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e854]:
+                    - link "parent" [ref=e855] [cursor=pointer]:
+                      - /url: "#ks4byi3"
+                  - listitem [ref=e856]:
+                    - link "report" [ref=e857] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e858]:
+                    - link "reply" [ref=e859] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e860]:
+          - paragraph
+          - generic [ref=e861]:
+            - button "upvote" [ref=e862] [cursor=pointer]
+            - button "downvote" [ref=e863] [cursor=pointer]
+          - generic [ref=e864]:
+            - paragraph [ref=e865]:
+              - link "[–]" [ref=e866] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Necessary_Loss_6769" [ref=e867] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Necessary_Loss_6769
+              - text: 16 points
+              - time [ref=e868]: 2 years ago
+            - paragraph [ref=e872]: Telefric or Jemma Di Mare
+            - list [ref=e873]:
+              - listitem [ref=e874]:
+                - link "permalink" [ref=e875] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks45hzc/
+              - listitem [ref=e876]:
+                - link "embed" [ref=e877] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e878]:
+                - link "save" [ref=e879] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e880]:
+                - link "report" [ref=e881] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e882]:
+                - link "reply" [ref=e883] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e886]:
+            - paragraph
+            - generic [ref=e887]:
+              - button "upvote" [ref=e888] [cursor=pointer]
+              - button "downvote" [ref=e889] [cursor=pointer]
+            - generic [ref=e890]:
+              - paragraph [ref=e891]:
+                - link "[–]" [ref=e892] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "meowcattpurr" [ref=e893] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/meowcattpurr
+                - generic "santa monica" [ref=e894]
+                - text: 1 point
+                - time [ref=e895]: 2 years ago
+              - paragraph [ref=e899]: jemma di mare has happy hour every day— the kale salad is delicious i also love the spicy rigatoni (similar to jon and vinny’s spicy fusili) jon and vinny’s is another option
+              - list [ref=e900]:
+                - listitem [ref=e901]:
+                  - link "permalink" [ref=e902] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6mtex/
+                - listitem [ref=e903]:
+                  - link "embed" [ref=e904] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e905]:
+                  - link "save" [ref=e906] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e907]:
+                  - link "parent" [ref=e908] [cursor=pointer]:
+                    - /url: "#ks45hzc"
+                - listitem [ref=e909]:
+                  - link "report" [ref=e910] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e911]:
+                  - link "reply" [ref=e912] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e913]:
+          - paragraph
+          - generic [ref=e914]:
+            - button "upvote" [ref=e915] [cursor=pointer]
+            - button "downvote" [ref=e916] [cursor=pointer]
+          - generic [ref=e917]:
+            - paragraph [ref=e918]:
+              - link "[–]" [ref=e919] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "sumdum1234" [ref=e920] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/sumdum1234
+              - text: 7 points
+              - time [ref=e921]: 2 years ago
+            - paragraph [ref=e925]: Violet in Westwood
+            - list [ref=e926]:
+              - listitem [ref=e927]:
+                - link "permalink" [ref=e928] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4xpr7/
+              - listitem [ref=e929]:
+                - link "embed" [ref=e930] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e931]:
+                - link "save" [ref=e932] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e933]:
+                - link "report" [ref=e934] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e935]:
+                - link "reply" [ref=e936] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e937]:
+          - paragraph
+          - generic [ref=e938]:
+            - button "upvote" [ref=e939] [cursor=pointer]
+            - button "downvote" [ref=e940] [cursor=pointer]
+          - generic [ref=e941]:
+            - paragraph [ref=e942]:
+              - link "[–]" [ref=e943] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "karen_h" [ref=e944] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/karen_h
+              - text: 16 points
+              - time [ref=e945]: 2 years ago
+            - paragraph [ref=e949]: Shamshiri. Persian food. I’ve been eating there for decades.
+            - list [ref=e950]:
+              - listitem [ref=e951]:
+                - link "permalink" [ref=e952] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4y9sx/
+              - listitem [ref=e953]:
+                - link "embed" [ref=e954] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e955]:
+                - link "save" [ref=e956] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e957]:
+                - link "report" [ref=e958] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e959]:
+                - link "reply" [ref=e960] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e963]:
+            - paragraph
+            - generic [ref=e964]:
+              - button "upvote" [ref=e965] [cursor=pointer]
+              - button "downvote" [ref=e966] [cursor=pointer]
+            - generic [ref=e967]:
+              - paragraph [ref=e968]:
+                - link "[–]" [ref=e969] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 12 points"
+                - time [ref=e970]: 2 years ago
+              - generic [ref=e973]:
+                - paragraph [ref=e974]: great food, but I associate it more with families than dates
+                - paragraph [ref=e975]: just my two cents though
+              - list [ref=e976]:
+                - listitem [ref=e977]:
+                  - link "permalink" [ref=e978] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5906d/
+                - listitem [ref=e979]:
+                  - link "embed" [ref=e980] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e981]:
+                  - link "save" [ref=e982] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e983]:
+                  - link "parent" [ref=e984] [cursor=pointer]:
+                    - /url: "#ks4y9sx"
+                - listitem [ref=e985]:
+                  - link "report" [ref=e986] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e987]:
+                  - link "reply" [ref=e988] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e989]:
+          - paragraph
+          - generic [ref=e990]:
+            - button "upvote" [ref=e991] [cursor=pointer]
+            - button "downvote" [ref=e992] [cursor=pointer]
+          - generic [ref=e993]:
+            - paragraph [ref=e994]:
+              - link "[–]" [ref=e995] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "thesphinxistheriddle" [ref=e996] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/thesphinxistheriddle
+              - text: 7 points
+              - time [ref=e997]: 2 years ago
+            - paragraph [ref=e1001]: Takuma was a favorite date spot for me and my husband when we lived on that side of town!
+            - list [ref=e1002]:
+              - listitem [ref=e1003]:
+                - link "permalink" [ref=e1004] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4549k/
+              - listitem [ref=e1005]:
+                - link "embed" [ref=e1006] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1007]:
+                - link "save" [ref=e1008] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1009]:
+                - link "report" [ref=e1010] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1011]:
+                - link "reply" [ref=e1012] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1013]:
+          - paragraph
+          - generic [ref=e1014]:
+            - button "upvote" [ref=e1015] [cursor=pointer]
+            - button "downvote" [ref=e1016] [cursor=pointer]
+          - generic [ref=e1017]:
+            - paragraph [ref=e1018]:
+              - link "[–]" [ref=e1019] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Ok_Comfort628" [ref=e1020] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Ok_Comfort628
+              - text: 6 points
+              - time [ref=e1021]: 2 years ago
+            - paragraph [ref=e1025]: Pastina
+            - list [ref=e1026]:
+              - listitem [ref=e1027]:
+                - link "permalink" [ref=e1028] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4p2m9/
+              - listitem [ref=e1029]:
+                - link "embed" [ref=e1030] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1031]:
+                - link "save" [ref=e1032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1033]:
+                - link "report" [ref=e1034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1035]:
+                - link "reply" [ref=e1036] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1037]:
+          - paragraph
+          - generic [ref=e1038]:
+            - button "upvote" [ref=e1039] [cursor=pointer]
+            - button "downvote" [ref=e1040] [cursor=pointer]
+          - generic [ref=e1041]:
+            - paragraph [ref=e1042]:
+              - link "[–]" [ref=e1043] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ZacheyBYT" [ref=e1044] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ZacheyBYT
+              - text: 6 points
+              - time [ref=e1045]: 2 years ago
+            - paragraph [ref=e1049]: KazuNori hand roll bar
+            - list [ref=e1050]:
+              - listitem [ref=e1051]:
+                - link "permalink" [ref=e1052] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks68o7k/
+              - listitem [ref=e1053]:
+                - link "embed" [ref=e1054] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1055]:
+                - link "save" [ref=e1056] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1057]:
+                - link "report" [ref=e1058] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1059]:
+                - link "reply" [ref=e1060] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1063]:
+            - paragraph
+            - paragraph [ref=e1065]:
+              - link "[+]" [ref=e1066] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e1067]: "[deleted]"
+              - time [ref=e1068]: 2 years ago
+              - link "(1 child)" [ref=e1069] [cursor=pointer]:
+                - /url: javascript:void(0)
+        - generic [ref=e1070]:
+          - paragraph
+          - generic [ref=e1071]:
+            - button "upvote" [ref=e1072] [cursor=pointer]
+            - button "downvote" [ref=e1073] [cursor=pointer]
+          - generic [ref=e1074]:
+            - paragraph [ref=e1075]:
+              - link "[–]" [ref=e1076] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ImRefat" [ref=e1077] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ImRefat
+              - text: 22 points
+              - time [ref=e1078]: 2 years ago
+              - time [ref=e1079]: "*"
+            - generic [ref=e1082]:
+              - paragraph [ref=e1083]: might be basic but Eataly at Westfield mall just because you can walk around and enjoy the sights.
+              - paragraph [ref=e1084]: "edit: they have a rotating wine selection, a specialty market downstairs, and if you're not in the mood for a whole meal they have the Terra rooftop bar which is a great place to catch up with friends. For me the food is not crazy memorable but it's good quality pasta, pretty hard to hate."
+            - list [ref=e1085]:
+              - listitem [ref=e1086]:
+                - link "permalink" [ref=e1087] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks58sgc/
+              - listitem [ref=e1088]:
+                - link "embed" [ref=e1089] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1090]:
+                - link "save" [ref=e1091] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1092]:
+                - link "report" [ref=e1093] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1094]:
+                - link "reply" [ref=e1095] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1098]:
+            - paragraph
+            - generic [ref=e1099]:
+              - button "upvote" [ref=e1100] [cursor=pointer]
+              - button "downvote" [ref=e1101] [cursor=pointer]
+            - generic [ref=e1102]:
+              - paragraph [ref=e1103]:
+                - link "[–]" [ref=e1104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Fearless_Ad_3584" [ref=e1105] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Fearless_Ad_3584
+                - text: 0 points
+                - time [ref=e1106]: 2 years ago
+              - paragraph [ref=e1110]: U r SOOO basic 😊
+              - list [ref=e1111]:
+                - listitem [ref=e1112]:
+                  - link "permalink" [ref=e1113] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks939dt/
+                - listitem [ref=e1114]:
+                  - link "embed" [ref=e1115] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1116]:
+                  - link "save" [ref=e1117] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1118]:
+                  - link "parent" [ref=e1119] [cursor=pointer]:
+                    - /url: "#ks58sgc"
+                - listitem [ref=e1120]:
+                  - link "report" [ref=e1121] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1122]:
+                  - link "reply" [ref=e1123] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1124]:
+          - paragraph
+          - generic [ref=e1125]:
+            - button "upvote" [ref=e1126] [cursor=pointer]
+            - button "downvote" [ref=e1127] [cursor=pointer]
+          - generic [ref=e1128]:
+            - paragraph [ref=e1129]:
+              - link "[–]" [ref=e1130] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "hello_losangeles3" [ref=e1131] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/hello_losangeles3
+              - text: 5 points
+              - time [ref=e1132]: 2 years ago
+            - paragraph [ref=e1136]: Takao at san vicente blvd has good japanese food but I believe you need to call and reserve in advance
+            - list [ref=e1137]:
+              - listitem [ref=e1138]:
+                - link "permalink" [ref=e1139] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4cn45/
+              - listitem [ref=e1140]:
+                - link "embed" [ref=e1141] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1142]:
+                - link "save" [ref=e1143] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1144]:
+                - link "report" [ref=e1145] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1146]:
+                - link "reply" [ref=e1147] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1148]:
+          - paragraph
+          - generic [ref=e1149]:
+            - button "upvote" [ref=e1150] [cursor=pointer]
+            - button "downvote" [ref=e1151] [cursor=pointer]
+          - generic [ref=e1152]:
+            - paragraph [ref=e1153]:
+              - link "[–]" [ref=e1154] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Apprehensive-Gas5666" [ref=e1155] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Apprehensive-Gas5666
+              - text: 10 points
+              - time [ref=e1156]: 2 years ago
+            - paragraph [ref=e1160]: Violet or Lulu at The Hammer
+            - list [ref=e1161]:
+              - listitem [ref=e1162]:
+                - link "permalink" [ref=e1163] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4nzbo/
+              - listitem [ref=e1164]:
+                - link "embed" [ref=e1165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1166]:
+                - link "save" [ref=e1167] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1168]:
+                - link "report" [ref=e1169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1170]:
+                - link "reply" [ref=e1171] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1174]:
+            - paragraph
+            - generic [ref=e1175]:
+              - button "upvote" [ref=e1176] [cursor=pointer]
+              - button "downvote" [ref=e1177] [cursor=pointer]
+            - generic [ref=e1178]:
+              - paragraph [ref=e1179]:
+                - link "[–]" [ref=e1180] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "yangdaddy" [ref=e1181] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/yangdaddy
+                - text: 7 points
+                - time [ref=e1182]: 2 years ago
+              - paragraph [ref=e1186]: I second Lulu, as a stroll through the museum is a great before or after dinner date activity.
+              - list [ref=e1187]:
+                - listitem [ref=e1188]:
+                  - link "permalink" [ref=e1189] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks66c36/
+                - listitem [ref=e1190]:
+                  - link "embed" [ref=e1191] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1192]:
+                  - link "save" [ref=e1193] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1194]:
+                  - link "parent" [ref=e1195] [cursor=pointer]:
+                    - /url: "#ks4nzbo"
+                - listitem [ref=e1196]:
+                  - link "report" [ref=e1197] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1198]:
+                  - link "reply" [ref=e1199] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1200]:
+          - paragraph
+          - generic [ref=e1201]:
+            - button "upvote" [ref=e1202] [cursor=pointer]
+            - button "downvote" [ref=e1203] [cursor=pointer]
+          - generic [ref=e1204]:
+            - paragraph [ref=e1205]:
+              - link "[–]" [ref=e1206] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 4 points"
+              - time [ref=e1207]: 2 years ago
+            - paragraph [ref=e1211]: Baltaire for breakfast
+            - list [ref=e1212]:
+              - listitem [ref=e1213]:
+                - link "permalink" [ref=e1214] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5jomn/
+              - listitem [ref=e1215]:
+                - link "embed" [ref=e1216] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1217]:
+                - link "save" [ref=e1218] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1219]:
+                - link "report" [ref=e1220] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1221]:
+                - link "reply" [ref=e1222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1223]:
+          - paragraph
+          - generic [ref=e1224]:
+            - button "upvote" [ref=e1225] [cursor=pointer]
+            - button "downvote" [ref=e1226] [cursor=pointer]
+          - generic [ref=e1227]:
+            - paragraph [ref=e1228]:
+              - link "[–]" [ref=e1229] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Durendal_et_Joyeuse" [ref=e1230] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Durendal_et_Joyeuse
+              - generic "I miss Souplantation." [ref=e1231]
+              - text: 5 points
+              - time [ref=e1232]: 2 years ago
+            - paragraph [ref=e1236]: Milo & Olive fits this description so well that I often feel like I’m invading on a dating scene when I invite my family to go there.
+            - list [ref=e1237]:
+              - listitem [ref=e1238]:
+                - link "permalink" [ref=e1239] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6kpjm/
+              - listitem [ref=e1240]:
+                - link "embed" [ref=e1241] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1242]:
+                - link "save" [ref=e1243] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1244]:
+                - link "report" [ref=e1245] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1246]:
+                - link "reply" [ref=e1247] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1248]:
+          - paragraph
+          - generic [ref=e1249]:
+            - button "upvote" [ref=e1250] [cursor=pointer]
+            - button "downvote" [ref=e1251] [cursor=pointer]
+          - generic [ref=e1252]:
+            - paragraph [ref=e1253]:
+              - link "[–]" [ref=e1254] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "e90t" [ref=e1255] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/e90t
+              - text: 9 points
+              - time [ref=e1256]: 2 years ago
+            - paragraph [ref=e1260]: Noma in Santa Monica isn’t that far from Brentwood.
+            - list [ref=e1261]:
+              - listitem [ref=e1262]:
+                - link "permalink" [ref=e1263] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4bxyt/
+              - listitem [ref=e1264]:
+                - link "embed" [ref=e1265] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1266]:
+                - link "save" [ref=e1267] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1268]:
+                - link "report" [ref=e1269] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1270]:
+                - link "reply" [ref=e1271] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1273]:
+            - generic [ref=e1274]:
+              - paragraph
+              - generic [ref=e1275]:
+                - button "upvote" [ref=e1276] [cursor=pointer]
+                - button "downvote" [ref=e1277] [cursor=pointer]
+              - generic [ref=e1278]:
+                - paragraph [ref=e1279]:
+                  - link "[–]" [ref=e1280] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] 1 point"
+                  - time [ref=e1281]: 2 years ago
+                - paragraph [ref=e1285]: Yes and it’s perfect for a date. Good choice.
+                - list [ref=e1286]:
+                  - listitem [ref=e1287]:
+                    - link "permalink" [ref=e1288] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4dq1g/
+                  - listitem [ref=e1289]:
+                    - link "embed" [ref=e1290] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1291]:
+                    - link "save" [ref=e1292] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1293]:
+                    - link "parent" [ref=e1294] [cursor=pointer]:
+                      - /url: "#ks4bxyt"
+                  - listitem [ref=e1295]:
+                    - link "report" [ref=e1296] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1297]:
+                    - link "reply" [ref=e1298] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1299]:
+              - paragraph
+              - generic [ref=e1300]:
+                - button "upvote" [ref=e1301] [cursor=pointer]
+                - button "downvote" [ref=e1302] [cursor=pointer]
+              - generic [ref=e1303]:
+                - paragraph [ref=e1304]:
+                  - link "[–]" [ref=e1305] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Durendal_et_Joyeuse" [ref=e1306] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Durendal_et_Joyeuse
+                  - generic "I miss Souplantation." [ref=e1307]
+                  - text: 1 point
+                  - time [ref=e1308]: 2 years ago
+                - paragraph [ref=e1312]: One of my favorite sushi spots in SoCal. The baked blue crab hand roll is legitimately unreal.
+                - list [ref=e1313]:
+                  - listitem [ref=e1314]:
+                    - link "permalink" [ref=e1315] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6kmad/
+                  - listitem [ref=e1316]:
+                    - link "embed" [ref=e1317] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1318]:
+                    - link "save" [ref=e1319] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1320]:
+                    - link "parent" [ref=e1321] [cursor=pointer]:
+                      - /url: "#ks4bxyt"
+                  - listitem [ref=e1322]:
+                    - link "report" [ref=e1323] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1324]:
+                    - link "reply" [ref=e1325] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1326]:
+          - paragraph
+          - generic [ref=e1327]:
+            - button "upvote" [ref=e1328] [cursor=pointer]
+            - button "downvote" [ref=e1329] [cursor=pointer]
+          - generic [ref=e1330]:
+            - paragraph [ref=e1331]:
+              - link "[–]" [ref=e1332] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "-tinylibrarian" [ref=e1333] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/-tinylibrarian
+              - text: 3 points
+              - time [ref=e1334]: 2 years ago
+            - paragraph [ref=e1338]: Nanbankan on Santa Monica (delicious yakitori but reservations highly recommended), and plenty of fun date night restaurants on Sawtelle!
+            - list [ref=e1339]:
+              - listitem [ref=e1340]:
+                - link "permalink" [ref=e1341] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6ju4g/
+              - listitem [ref=e1342]:
+                - link "embed" [ref=e1343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1344]:
+                - link "save" [ref=e1345] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1346]:
+                - link "report" [ref=e1347] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1348]:
+                - link "reply" [ref=e1349] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1350]:
+          - paragraph
+          - generic [ref=e1351]:
+            - button "upvote" [ref=e1352] [cursor=pointer]
+            - button "downvote" [ref=e1353] [cursor=pointer]
+          - generic [ref=e1354]:
+            - paragraph [ref=e1355]:
+              - link "[–]" [ref=e1356] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Doginthesun" [ref=e1357] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Doginthesun
+              - text: 2 points
+              - time [ref=e1358]: 2 years ago
+            - paragraph [ref=e1362]: Pastina
+            - list [ref=e1363]:
+              - listitem [ref=e1364]:
+                - link "permalink" [ref=e1365] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5pg1t/
+              - listitem [ref=e1366]:
+                - link "embed" [ref=e1367] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1368]:
+                - link "save" [ref=e1369] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1370]:
+                - link "report" [ref=e1371] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1372]:
+                - link "reply" [ref=e1373] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1374]:
+          - paragraph
+          - generic [ref=e1375]:
+            - button "upvote" [ref=e1376] [cursor=pointer]
+            - button "downvote" [ref=e1377] [cursor=pointer]
+          - generic [ref=e1378]:
+            - paragraph [ref=e1379]:
+              - link "[–]" [ref=e1380] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 2 points"
+              - time [ref=e1381]: 2 years ago
+            - paragraph [ref=e1385]: Pecorino! It’s Divine.
+            - list [ref=e1386]:
+              - listitem [ref=e1387]:
+                - link "permalink" [ref=e1388] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks679wc/
+              - listitem [ref=e1389]:
+                - link "embed" [ref=e1390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1391]:
+                - link "save" [ref=e1392] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1393]:
+                - link "report" [ref=e1394] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1395]:
+                - link "reply" [ref=e1396] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1397]:
+          - paragraph
+          - generic [ref=e1398]:
+            - button "upvote" [ref=e1399] [cursor=pointer]
+            - button "downvote" [ref=e1400] [cursor=pointer]
+          - generic [ref=e1401]:
+            - paragraph [ref=e1402]:
+              - link "[–]" [ref=e1403] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "XennialToothFairy" [ref=e1404] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/XennialToothFairy
+              - text: 2 points
+              - time [ref=e1405]: 2 years ago
+            - paragraph [ref=e1409]: Violet Bistro! Great atmosphere.
+            - list [ref=e1410]:
+              - listitem [ref=e1411]:
+                - link "permalink" [ref=e1412] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks6k0el/
+              - listitem [ref=e1413]:
+                - link "embed" [ref=e1414] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1415]:
+                - link "save" [ref=e1416] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1417]:
+                - link "report" [ref=e1418] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1419]:
+                - link "reply" [ref=e1420] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1421]:
+          - paragraph
+          - generic [ref=e1422]:
+            - button "upvote" [ref=e1423] [cursor=pointer]
+            - button "downvote" [ref=e1424] [cursor=pointer]
+          - generic [ref=e1425]:
+            - paragraph [ref=e1426]:
+              - link "[–]" [ref=e1427] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "madebylondon" [ref=e1428] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/madebylondon
+              - text: 2 points
+              - time [ref=e1429]: 2 years ago
+            - paragraph [ref=e1433]: I miss bandera!
+            - list [ref=e1434]:
+              - listitem [ref=e1435]:
+                - link "permalink" [ref=e1436] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ksaua3u/
+              - listitem [ref=e1437]:
+                - link "embed" [ref=e1438] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1439]:
+                - link "save" [ref=e1440] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1441]:
+                - link "report" [ref=e1442] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1443]:
+                - link "reply" [ref=e1444] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1445]:
+          - paragraph
+          - generic [ref=e1446]:
+            - button "upvote" [ref=e1447] [cursor=pointer]
+            - button "downvote" [ref=e1448] [cursor=pointer]
+          - generic [ref=e1449]:
+            - paragraph [ref=e1450]:
+              - link "[–]" [ref=e1451] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "none_mama_see" [ref=e1452] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/none_mama_see
+              - text: 1 point
+              - time [ref=e1453]: 2 years ago
+            - paragraph [ref=e1457]: Skylight gardens
+            - list [ref=e1458]:
+              - listitem [ref=e1459]:
+                - link "permalink" [ref=e1460] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks5g4ez/
+              - listitem [ref=e1461]:
+                - link "embed" [ref=e1462] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1463]:
+                - link "save" [ref=e1464] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1465]:
+                - link "report" [ref=e1466] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1467]:
+                - link "reply" [ref=e1468] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1469]:
+          - paragraph
+          - generic [ref=e1470]:
+            - button "upvote" [ref=e1471] [cursor=pointer]
+            - button "downvote" [ref=e1472] [cursor=pointer]
+          - generic [ref=e1473]:
+            - paragraph [ref=e1474]:
+              - link "[–]" [ref=e1475] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ElBigKahuna" [ref=e1476] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ElBigKahuna
+              - generic "Los Angeles" [ref=e1477]
+              - text: 0 points
+              - time [ref=e1478]: 2 years ago
+            - paragraph [ref=e1482]: House of meatballs
+            - list [ref=e1483]:
+              - listitem [ref=e1484]:
+                - link "permalink" [ref=e1485] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4oqwj/
+              - listitem [ref=e1486]:
+                - link "embed" [ref=e1487] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1488]:
+                - link "save" [ref=e1489] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1490]:
+                - link "report" [ref=e1491] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1492]:
+                - link "reply" [ref=e1493] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1494]:
+          - paragraph
+          - generic [ref=e1495]:
+            - button "upvote" [ref=e1496] [cursor=pointer]
+            - button "downvote" [ref=e1497] [cursor=pointer]
+          - generic [ref=e1498]:
+            - paragraph [ref=e1499]:
+              - link "[–]" [ref=e1500] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TommyFX" [ref=e1501] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TommyFX
+              - text: 0 points
+              - time [ref=e1502]: 2 years ago
+            - paragraph [ref=e1506]: Lunetta All Day in Santa Monica
+            - list [ref=e1507]:
+              - listitem [ref=e1508]:
+                - link "permalink" [ref=e1509] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks4wkwr/
+              - listitem [ref=e1510]:
+                - link "embed" [ref=e1511] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1512]:
+                - link "save" [ref=e1513] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1514]:
+                - link "report" [ref=e1515] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1516]:
+                - link "reply" [ref=e1517] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1518]:
+          - paragraph
+          - generic [ref=e1519]:
+            - button "upvote" [ref=e1520] [cursor=pointer]
+            - button "downvote" [ref=e1521] [cursor=pointer]
+          - generic [ref=e1522]:
+            - paragraph [ref=e1523]:
+              - link "[–]" [ref=e1524] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ubetchagw" [ref=e1525] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ubetchagw
+              - text: 0 points
+              - time [ref=e1526]: 2 years ago
+            - paragraph [ref=e1530]: Violet and Emporium !!
+            - list [ref=e1531]:
+              - listitem [ref=e1532]:
+                - link "permalink" [ref=e1533] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks50mam/
+              - listitem [ref=e1534]:
+                - link "embed" [ref=e1535] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1536]:
+                - link "save" [ref=e1537] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1538]:
+                - link "report" [ref=e1539] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1540]:
+                - link "reply" [ref=e1541] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1542]:
+          - paragraph
+          - paragraph [ref=e1544]:
+            - link "[+]" [ref=e1545] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - text: "[deleted] comment score below threshold"
+            - link "(5 children)" [ref=e1546] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1547]:
+          - paragraph
+          - generic [ref=e1548]:
+            - button "upvote" [ref=e1549] [cursor=pointer]
+            - button "downvote" [ref=e1550] [cursor=pointer]
+          - generic [ref=e1551]:
+            - paragraph [ref=e1552]:
+              - link "[–]" [ref=e1553] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bonnifunk" [ref=e1554] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bonnifunk
+              - generic "Brentwood Westside" [ref=e1555]
+              - text: 1 point
+              - time [ref=e1556]: 2 years ago
+            - paragraph [ref=e1560]: Barcelona Teleferic for tapas and paella. Fantastic drinks, too! Then walk to get gelato at Bacio di Latte.
+            - list [ref=e1561]:
+              - listitem [ref=e1562]:
+                - link "permalink" [ref=e1563] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks8ynwx/
+              - listitem [ref=e1564]:
+                - link "embed" [ref=e1565] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1566]:
+                - link "save" [ref=e1567] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1568]:
+                - link "report" [ref=e1569] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1570]:
+                - link "reply" [ref=e1571] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1572]:
+          - paragraph
+          - generic [ref=e1573]:
+            - button "upvote" [ref=e1574] [cursor=pointer]
+            - button "downvote" [ref=e1575] [cursor=pointer]
+          - generic [ref=e1576]:
+            - paragraph [ref=e1577]:
+              - link "[–]" [ref=e1578] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bonnifunk" [ref=e1579] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bonnifunk
+              - generic "Brentwood Westside" [ref=e1580]
+              - text: 1 point
+              - time [ref=e1581]: 2 years ago
+            - paragraph [ref=e1585]: There's also a Rosti location in Brentwood now. Pretty atmosphere and, if you go during the happy hour time, most apps and all drinks are 25% off.
+            - list [ref=e1586]:
+              - listitem [ref=e1587]:
+                - link "permalink" [ref=e1588] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks8z924/
+              - listitem [ref=e1589]:
+                - link "embed" [ref=e1590] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1591]:
+                - link "save" [ref=e1592] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1593]:
+                - link "report" [ref=e1594] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1595]:
+                - link "reply" [ref=e1596] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e1597]:
+    - generic [ref=e1598]:
+      - list [ref=e1600]:
+        - listitem [ref=e1601]: about
+        - listitem [ref=e1602]:
+          - link "blog" [ref=e1603] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1604]:
+          - link "about" [ref=e1605] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1606]:
+          - link "advertising" [ref=e1607] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1608]:
+          - link "careers" [ref=e1609] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1611]:
+        - listitem [ref=e1612]: help
+        - listitem [ref=e1613]:
+          - link "site rules" [ref=e1614] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1615]:
+          - link "Reddit help center" [ref=e1616] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1617]:
+          - link "reddiquette" [ref=e1618] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1619]:
+          - link "mod guidelines" [ref=e1620] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1621]:
+          - link "contact us" [ref=e1622] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1624]:
+        - listitem [ref=e1625]: apps & tools
+        - listitem [ref=e1626]:
+          - link "Reddit for iPhone" [ref=e1627] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1628]:
+          - link "Reddit for Android" [ref=e1629] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1630]:
+          - link "mobile website" [ref=e1631] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1633]:
+        - listitem [ref=e1634]: <3
+        - listitem [ref=e1635]:
+          - link "reddit premium" [ref=e1636] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1637]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1638] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1639] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1640]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1641]
+  - paragraph [ref=e1642]: π

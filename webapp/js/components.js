@@ -1,5 +1,5 @@
 // components.js — Pure rendering functions returning HTML strings
-import { yelpUrl, mapsUrl } from './data.js?v=1775460000';
+import { yelpUrl, mapsUrl } from './data.js?v=1776965114';
 
 function esc(s) {
   if (!s) return '';
@@ -27,10 +27,22 @@ const SOURCE_LABELS = {
 // Detail-view source block. Renders clickable links when the source has a
 // URL (or a `threads` array for Reddit). Falls back to plain text for legacy
 // sources that don't have URLs attached (e.g. the SD group's existing data).
+const VALENCE_LABELS = {
+  'top-pick':       { text: 'top pick',       cls: 'valence-top' },
+  'strong':         { text: 'strong rec',     cls: 'valence-strong' },
+  'mixed':          { text: 'mixed',          cls: 'valence-mixed' },
+  'skeptical':      { text: 'skeptical',      cls: 'valence-neg' },
+  'mentioned':      { text: 'mentioned',      cls: 'valence-neutral' },
+  'single-mention': { text: 'single mention', cls: 'valence-neutral' },
+};
+
 function renderSourceDetail(s) {
   const label = SOURCE_LABELS[s.type] || (s.type.charAt(0).toUpperCase() + s.type.slice(1));
   const rankSuffix = s.rank ? ` #${s.rank}` : '';
-  const badge = `<span class="badge badge-${s.type}">${esc(label)}${rankSuffix}</span>`;
+  const valenceChip = s.type === 'reddit' && s.valence && VALENCE_LABELS[s.valence]
+    ? `<span class="valence-chip ${VALENCE_LABELS[s.valence].cls}">${VALENCE_LABELS[s.valence].text}</span>`
+    : '';
+  const badge = `<span class="badge badge-${s.type}">${esc(label)}${rankSuffix}</span>${valenceChip}`;
 
   let body = '';
   if (Array.isArray(s.threads) && s.threads.length) {
@@ -47,11 +59,23 @@ function renderSourceDetail(s) {
     body = `<p>${esc(s.detail)}</p>`;
   }
 
+  // Reddit snippets — show the actual comment excerpts with scores so the
+  // user can judge the valence themselves rather than trusting our label.
+  let snippetsBlock = '';
+  if (Array.isArray(s.snippets) && s.snippets.length) {
+    const items = s.snippets.map(sn => {
+      const scoreTag = sn.score > 0 ? `${sn.score}▲` : sn.score < 0 ? `${sn.score}▽` : '·';
+      const titleTag = sn.threadTitle ? `<span class="snippet-thread">${esc(sn.threadTitle)}</span>` : '';
+      return `<li><span class="snippet-score">${scoreTag}</span>${titleTag}<blockquote>${esc(sn.text)}</blockquote></li>`;
+    }).join('');
+    snippetsBlock = `<ul class="reddit-snippets">${items}</ul>`;
+  }
+
   const mentions = s.mentions && !s.threads
     ? `<p class="source-mentions">${s.mentions} Reddit mention${s.mentions > 1 ? 's' : ''}</p>`
     : '';
 
-  return `<div class="source-detail">${badge}${body}${mentions}</div>`;
+  return `<div class="source-detail">${badge}${body}${snippetsBlock}${mentions}</div>`;
 }
 
 export function renderSourceBadges(sources) {
@@ -65,7 +89,14 @@ export function renderSourceBadges(sources) {
       const n = s.mentions || 1;
       label = `${n} Reddit rec${n !== 1 ? 's' : ''}`;
     }
-    return `<span class="${cls}">${label}</span>`;
+    const main = `<span class="${cls}">${label}</span>`;
+    // Append a valence chip next to the Reddit badge so the degree-and-
+    // direction of crowd sentiment shows at a glance.
+    if (s.type === 'reddit' && s.valence && VALENCE_LABELS[s.valence]) {
+      const v = VALENCE_LABELS[s.valence];
+      return `${main}<span class="valence-chip valence-chip-inline ${v.cls}">${v.text}</span>`;
+    }
+    return main;
   }).join('');
 }
 
@@ -279,6 +310,7 @@ export function renderCard(r, us) {
         ${r.category ? `<span class="card-category">${esc(r.category)}</span>` : ''}
       </div>
       <div class="card-badges">${renderSourceBadges(r.sources)}</div>
+      ${renderConstraintChips(r.constraintEvidence)}
       ${r.highlights ? `<p class="card-highlights">${esc(r.highlights)}</p>` : ''}
       ${r.insiderTip ? `<p class="card-tip"><strong>Tip:</strong> ${esc(r.insiderTip)}</p>` : ''}
       ${lastComment ? `<div class="card-last-comment" data-action="toggle-detail" data-id="${r.id}">
@@ -295,7 +327,7 @@ export function renderCard(r, us) {
       </div>
       <div class="card-interact-row">
         ${renderVoteButtons(r.id, vote)}
-        <button class="interact-btn comment-btn" data-action="toggle-detail" data-id="${r.id}">
+        <button class="interact-btn comment-btn" data-action="open-comment" data-id="${r.id}">
           💬${commentCount > 0 ? `<span class="comment-count">${commentCount}</span>` : ''}
         </button>
       </div>
@@ -364,6 +396,7 @@ export function renderDetail(r, us) {
     <div class="detail-body">
       ${r.highlights ? `<div class="detail-section"><h4>Highlights</h4><p>${esc(r.highlights)}</p></div>` : ''}
       ${r.insiderTip ? `<div class="detail-section"><h4>Insider Tip</h4><p>${esc(r.insiderTip)}</p></div>` : ''}
+      ${renderConstraintEvidence(r.constraintEvidence)}
       <div class="detail-section">
         <h4>Sources</h4>
         ${r.sources.map(s => renderSourceDetail(s)).join('')}
@@ -378,6 +411,54 @@ export function renderDetail(r, us) {
       </div>
     </div>
   </div>`;
+}
+
+function renderConstraintChips(ev) {
+  if (!ev || typeof ev !== 'object') return '';
+  const entries = Object.entries(ev);
+  if (!entries.length) return '';
+  const chips = entries.map(([, c]) => {
+    const label = c.label || 'Constraint';
+    const n = (c.mentions || []).length;
+    let cls, prefix;
+    if (c.placesAnswer === true)        { cls = 'ce-yes';     prefix = '✓'; }
+    else if (c.placesAnswer === false)  { cls = 'ce-no';      prefix = '✗'; }
+    else                                { cls = 'ce-unknown'; prefix = '?'; }
+    const mentionsSuffix = n > 0 ? ` · ${n}` : '';
+    return `<span class="ce-chip ${cls}" title="Tap card for evidence">${prefix} ${esc(label)}${mentionsSuffix}</span>`;
+  }).join('');
+  return `<div class="card-constraints">${chips}</div>`;
+}
+
+function renderConstraintEvidence(ev) {
+  if (!ev || typeof ev !== 'object') return '';
+  const entries = Object.entries(ev);
+  if (!entries.length) return '';
+  return entries.map(([, c]) => {
+    const label = c.label || 'Constraint';
+    let badge = '';
+    let badgeClass = '';
+    if (c.placesAnswer === true)  { badge = `✓ Google Places confirms ${label.toLowerCase()}`; badgeClass = 'ce-yes'; }
+    else if (c.placesAnswer === false) { badge = `✗ Google Places says no ${label.toLowerCase()}`; badgeClass = 'ce-no'; }
+    else { badge = `? Google Places unsure — see mentions`; badgeClass = 'ce-unknown'; }
+    const mentions = (c.mentions || []).map(m => {
+      if (m.source === 'google_review') {
+        const meta = [m.rating ? `${m.rating}★` : null, m.author || null].filter(Boolean).join(' · ');
+        return `<li><span class="ce-src">Google review${meta ? ' — ' + esc(meta) : ''}</span><blockquote>${esc(m.text)}</blockquote></li>`;
+      }
+      if (m.source === 'highlights') {
+        return `<li><span class="ce-src">From summary</span><blockquote>${esc(m.text)}</blockquote></li>`;
+      }
+      return `<li><span class="ce-src">${esc(m.source)}</span><blockquote>${esc(m.text)}</blockquote></li>`;
+    }).join('');
+    const mentionsBlock = mentions
+      ? `<ul class="ce-mentions">${mentions}</ul>`
+      : `<p class="ce-empty">No keyword mentions in the highlights or top Google reviews.</p>`;
+    return `<div class="detail-section ce-section">
+      <h4>${esc(label)} <span class="ce-badge ${badgeClass}">${esc(badge)}</span></h4>
+      ${mentionsBlock}
+    </div>`;
+  }).join('');
 }
 
 function renderCommentThread(comments, parentId, restaurantId) {

@@ -1,0 +1,1431 @@
+- generic [active] [ref=e1]:
+  - generic "Download the Eater app!":
+    - generic [ref=e4]:
+      - generic [ref=e5]: Download the Eater app!
+      - button "close download banner" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - generic [ref=e11]: close download banner
+      - form "Download the Eater app!" [ref=e13]:
+        - heading "Take Eater with you Restaurant recommendations you can trust" [level=2] [ref=e15]:
+          - generic [ref=e17]: Take Eater with you
+          - generic [ref=e19]: Restaurant recommendations you can trust
+        - generic [ref=e20]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkind&mt=8
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkindqr&mt=8
+  - generic [ref=e26]:
+    - link "Skip to main content" [ref=e27] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e28]: Skip to main content
+    - generic [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - link "Get our App" [ref=e39] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img [ref=e40]
+            - generic [ref=e42]:
+              - generic [ref=e43]: Get our
+              - generic [ref=e44]: App
+          - link "App":
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img
+            - generic: App
+        - link "The homepage Eater" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]: The homepage
+          - img "Eater" [ref=e48]
+        - generic [ref=e51]:
+          - button "Open Search" [ref=e52] [cursor=pointer]:
+            - img [ref=e53]
+          - button "Open Drawer" [ref=e55] [cursor=pointer]:
+            - img [ref=e56]
+      - navigation "City Navigation" [ref=e59]:
+        - 'button "Current eater city: Washington, D.C." [ref=e60] [cursor=pointer]':
+          - generic [ref=e61]: "Current eater city:"
+          - text: Washington, D.C.
+          - img [ref=e63]
+    - main [ref=e66]:
+      - article [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e78]:
+            - generic [ref=e80]:
+              - heading "More maps in Eater DC" [level=3] [ref=e81]
+              - link "See more maps" [ref=e83] [cursor=pointer]:
+                - /url: /maps
+                - generic [ref=e84]:
+                  - generic [ref=e85]: See more maps
+                  - img [ref=e87]
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - img "The Best New Restaurants Around D.C., April 2026" [ref=e95]
+                - link "The Best New Restaurants Around D.C., April 2026" [ref=e102] [cursor=pointer]:
+                  - /url: /maps/best-new-restaurants-heatmap-dc
+              - generic [ref=e104]:
+                - img "The 38 Best Restaurants Around D.C." [ref=e106]
+                - link "The 38 Best Restaurants Around D.C." [ref=e113] [cursor=pointer]:
+                  - /url: /maps/dc-best-restaurants-38
+              - generic [ref=e115]:
+                - img "The Most Fun Restaurants in D.C." [ref=e117]
+                - link "The Most Fun Restaurants in D.C." [ref=e124] [cursor=pointer]:
+                  - /url: /maps/most-fun-restaurants-dc
+              - generic [ref=e126]:
+                - img "The Best Restaurants and Bars Near Capital One Arena, Home of the Washington Wizards and Capitals" [ref=e128]
+                - link "The Best Restaurants and Bars Near Capital One Arena, Home of the Washington Wizards and Capitals" [ref=e135] [cursor=pointer]:
+                  - /url: /maps/best-bars-restaurants-near-capital-one-arena-penn-quarter-chinatown-dc
+              - generic [ref=e137]:
+                - img "The Best Irish Pubs Around D.C." [ref=e139]
+                - link "The Best Irish Pubs Around D.C." [ref=e146] [cursor=pointer]:
+                  - /url: /maps/best-irish-pubs-bars-dc
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e150]:
+                - generic [ref=e153]:
+                  - img "Two large pizzas on a black table." [ref=e156]
+                  - generic [ref=e157]: Pittsburgh’s Piccolo Forno specializes in Northern Italian cuisine. Hal B. Klein
+                - generic [ref=e159]:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link "Dining Out in DC" [ref=e164] [cursor=pointer]:
+                        - /url: /dining-out-in-dc
+                  - generic [ref=e165]:
+                    - heading "The 38 Essential Pittsburgh Restaurants" [level=1] [ref=e166]
+                    - paragraph [ref=e167]: Longtime go-tos, scrappy taquerias, an Indian diner, and more
+                - img [ref=e168]
+                - generic [ref=e170]:
+                  - generic [ref=e172]:
+                    - generic [ref=e174]:
+                      - text: by
+                      - link "Melissa McCart" [ref=e176] [cursor=pointer]:
+                        - /url: https://www.eater.com/authors/melissa-mccart
+                      - text: and
+                      - link "Hal B. Klein" [ref=e178] [cursor=pointer]:
+                        - /url: https://www.eater.com/authors/hal-b-klein
+                    - generic [ref=e179]:
+                      - text: Updated
+                      - time [ref=e180]: Aug 29, 2024, 4:29 PM EDT
+                  - list [ref=e183]:
+                    - listitem [ref=e184]:
+                      - button "Share on Facebook" [ref=e185] [cursor=pointer]:
+                        - img "Facebook" [ref=e186]
+                    - listitem [ref=e188]:
+                      - button "Copy link" [ref=e190] [cursor=pointer]:
+                        - img "Link" [ref=e191]
+              - paragraph [ref=e194]:
+                - text: Nestled at the confluence of three rivers and about
+                - link "a four-hour drive" [ref=e195] [cursor=pointer]:
+                  - /url: /maps/best-restaurants-dc-pittsburgh-pit-stops
+                - text: from D.C., Pittsburgh punches above its weight in terms of diverse offerings, quality food, creative indie spots, and beloved longtime go-tos that have shaped generations of how the city eats.
+              - paragraph [ref=e197]: Its foodways reflect influences of Appalachia, Italian American classics, polished New American restaurants, and a burgeoning Chinese scene. Because Pittsburgh is such a liveable city, affordable, with great neighborhoods, and rich cultural offerings — the Carnegie Museum, superb libraries, the Warhol, the Pittsburgh symphony, the Pirates, and of course, the Steelers — it’s attracting new and diverse residents. The restaurants reflect how the city is changing.
+              - paragraph [ref=e199]:
+                - text: This Eater 38 depicts where to eat and drink right now, an all-encompassing guide featuring a wide berth of restaurants new and old, fancy and affordable, plus a few great bars with easy-to-like bites. Have only a short time in the city? Check out
+                - link "our weekend guide" [ref=e200] [cursor=pointer]:
+                  - /url: /2023/7/10/23785654/pittsburgh-weekend-guide-food-restaurants
+                - text: .
+              - paragraph [ref=e202]:
+                - emphasis [ref=e203]: Co-author Hal B. Klein is the Pittsburgh Post-Gazette’s senior food writer and dining critic.
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]:
+                  - text: advertisement
+                  - generic [ref=e207]: AD
+                - generic [ref=e208]:
+                  - generic [ref=e210]:
+                    - heading "Chengdu Gourmet 2" [level=2] [ref=e211]
+                    - button "Copy link" [ref=e213] [cursor=pointer]:
+                      - img "Link" [ref=e214]
+                  - paragraph [ref=e216]: Six-time James Beard-nominated chef Wei Zhu hails from Chengdu, in China’s Sichuan Province. Plan on visiting with a crew to forge a meal that combines Sichuan classics like mapo tofu, cumin lamb, and Chongqing crispy chicken with rarer finds such as their own Chinese sausage, green Sichuan peppercorn fish soup, and vinegary shoestring potatoes. The newer Chengdu Gourmet 2 location just north of Pittsburgh is more elaborately decorated (and features fresh fish and shellfish tanks) than the original Squirrel Hill branch.
+                  - list [ref=e217]:
+                    - listitem [ref=e218]:
+                      - link "Location 4768 McKnight Rd, Pittsburgh, PA, 15237, USExternal Link" [ref=e219] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Chengdu%20Gourmet%202%2C%204768%20McKnight%20Rd%2C%20Pittsburgh%2C%20PA%2C%2015237%2C%20US
+                        - img "Location" [ref=e220]
+                        - generic [ref=e222]:
+                          - text: 4768 McKnight Rd, Pittsburgh, PA, 15237, US
+                          - img "External Link" [ref=e223]
+                    - listitem [ref=e225]:
+                      - link "Phone +14125790999" [ref=e226] [cursor=pointer]:
+                        - /url: tel:14125790999
+                        - img "Phone" [ref=e227]
+                        - text: "+14125790999"
+                    - listitem [ref=e229]:
+                      - link "Link Visit website" [ref=e230] [cursor=pointer]:
+                        - /url: https://www.chengdugourmet2.com/
+                        - img "Link" [ref=e231]
+                        - text: Visit website
+                  - generic [ref=e235]:
+                    - img "A large piece of chicken sliced in a bowl of bright red oil topped with chopped herbs" [ref=e238]
+                    - generic [ref=e239]: Chengdu Gourmet
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - heading "Hyeholde Restaurant" [level=2] [ref=e244]
+                  - button "Copy link" [ref=e246] [cursor=pointer]:
+                    - img "Link" [ref=e247]
+                - paragraph [ref=e249]: When William Kryskill built the Hyeholde for his wife, Clara, 87 years ago, the area surrounding Pittsburgh International Airport was a vast stretch of farmland far from Downtown. Today, it’s suburbs, some fancy homes, and big box stores, yet the restaurant survives as a reminder of an era of white-tablecloth dining and formal service. Longtime chef Chris O’Brien purchased the castle-like restaurant from the Kryskill’s daughter Barbara a few years ago, carrying on the tradition of romantic dining with a bill of fare that includes sherry bisque, summer gazpacho, and elk loin with baby turnips, chard, and port au poivre sauce.
+                - list [ref=e250]:
+                  - listitem [ref=e251]:
+                    - link "Location 1516 Coraopolis Heights Rd, Coraopolis, PA 15108External Link" [ref=e252] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Hyeholde%20Restaurant%2C%201516%20Coraopolis%20Heights%20Rd%2C%20Coraopolis%2C%20PA%2015108
+                      - img "Location" [ref=e253]
+                      - generic [ref=e255]:
+                        - text: 1516 Coraopolis Heights Rd, Coraopolis, PA 15108
+                        - img "External Link" [ref=e256]
+                  - listitem [ref=e258]:
+                    - link "Phone (412) 264-3116" [ref=e259] [cursor=pointer]:
+                      - /url: tel:4122643116
+                      - img "Phone" [ref=e260]
+                      - text: (412) 264-3116
+                  - listitem [ref=e262]:
+                    - link "Link Visit website" [ref=e263] [cursor=pointer]:
+                      - /url: http://www.hyeholde.com
+                      - img "Link" [ref=e264]
+                      - text: Visit website
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - text: advertisement
+                  - generic [ref=e271]: AD
+                - generic [ref=e272]:
+                  - generic [ref=e274]:
+                    - heading "Alta Via (multiple locations)" [level=2] [ref=e275]
+                    - button "Copy link" [ref=e277] [cursor=pointer]:
+                      - img "Link" [ref=e278]
+                  - paragraph [ref=e280]: Alta Via has two locations and a pizza offshoot, and is the latest offering from the city’s oldest restaurant conglomerate, Big Burrito Restaurant Group. Go here for satisfying pasta, salads, layered vegetable courses, and polished service.
+                  - list [ref=e281]:
+                    - listitem [ref=e282]:
+                      - link "Booking Book a table" [ref=e284] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/133431?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e285]
+                        - text: Book a table
+                        - img [ref=e287]
+                    - listitem [ref=e289]:
+                      - link "Location 46 Fox Chapel Rd, Pittsburgh, PA, 15238, USExternal Link" [ref=e290] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Alta%20Via%20(multiple%20locations)%2C%2046%20Fox%20Chapel%20Rd%2C%20Pittsburgh%2C%20PA%2C%2015238%2C%20US
+                        - img "Location" [ref=e291]
+                        - generic [ref=e293]:
+                          - text: 46 Fox Chapel Rd, Pittsburgh, PA, 15238, US
+                          - img "External Link" [ref=e294]
+                    - listitem [ref=e296]:
+                      - link "Phone +14124083816" [ref=e297] [cursor=pointer]:
+                        - /url: tel:14124083816
+                        - img "Phone" [ref=e298]
+                        - text: "+14124083816"
+                    - listitem [ref=e300]:
+                      - link "Link Visit website" [ref=e301] [cursor=pointer]:
+                        - /url: https://www.altaviapgh.com
+                        - img "Link" [ref=e302]
+                        - text: Visit website
+                  - generic [ref=e306]:
+                    - img "Noodles on a white plate on a wooden table." [ref=e309]
+                    - generic [ref=e310]: Alta Via
+              - generic [ref=e312]:
+                - generic [ref=e314]:
+                  - heading "Pusadee’s Garden" [level=2] [ref=e315]
+                  - button "Copy link" [ref=e317] [cursor=pointer]:
+                    - img "Link" [ref=e318]
+                - paragraph [ref=e320]: "The owners of Pusadee’s Garden took a big risk when they closed their beloved, homestyle Thai restaurant for a few years to renovate the space from the ground up. The bet paid off — it’s been more than three years since the relaunch, and reservations can still be hard to come by (tip: they hold space for walk-ins; put your name on the waitlist, and you’ll likely get a table). This year, primary chef Bootsaba “Gik” Tongdee earned her first James Beard Best Chef: Mid-Atlantic semifinalist spot for her menu of multiregional Thai dishes. Pittsburgh architecture firm MossArchitects turned the multi-building space into a visual stunner, and the interior garden is now maturing into an escapist destination dining location."
+                - list [ref=e321]:
+                  - listitem [ref=e322]:
+                    - link "Booking Book a table" [ref=e324] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/3206?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e325]
+                      - text: Book a table
+                      - img [ref=e327]
+                  - listitem [ref=e329]:
+                    - link "Location 5319 Butler St, Pittsburgh, PA, 15201, USExternal Link" [ref=e330] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Pusadee%E2%80%99s%20Garden%2C%205319%20Butler%20St%2C%20Pittsburgh%2C%20PA%2C%2015201%2C%20US
+                      - img "Location" [ref=e331]
+                      - generic [ref=e333]:
+                        - text: 5319 Butler St, Pittsburgh, PA, 15201, US
+                        - img "External Link" [ref=e334]
+                  - listitem [ref=e336]:
+                    - link "Phone (412) 252-2683" [ref=e337] [cursor=pointer]:
+                      - /url: tel:4122522683
+                      - img "Phone" [ref=e338]
+                      - text: (412) 252-2683
+                  - listitem [ref=e340]:
+                    - link "Link Visit website" [ref=e341] [cursor=pointer]:
+                      - /url: http://www.pusadeesgarden.com/
+                      - img "Link" [ref=e342]
+                      - text: Visit website
+                - generic [ref=e346]:
+                  - img "Yellow curry and bread triangles on a black plate." [ref=e349]
+                  - generic [ref=e350]: Hal B. Klein
+                - generic [ref=e351]:
+                  - heading "See more" [level=3] [ref=e354]
+                  - generic [ref=e357]:
+                    - img "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e359]
+                    - link "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e366] [cursor=pointer]:
+                      - /url: https://philly.eater.com/maps/pittsburgh-restaurants-bars-weekend-trip-guide
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - text: advertisement
+                  - generic [ref=e369]: AD
+                - generic [ref=e370]:
+                  - generic [ref=e372]:
+                    - heading "The Allegheny Wine Mixer" [level=2] [ref=e373]
+                    - button "Copy link" [ref=e375] [cursor=pointer]:
+                      - img "Link" [ref=e376]
+                  - paragraph [ref=e378]:
+                    - text: Allegheny Wine Mixer is a Lawrenceville favorite, with its eclectic collection of flea-market paintings and a name inspired by the Catalina Wine Mixer scene in
+                    - link "Step Brothers" [ref=e379] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=lJ9HcYuGVgU
+                      - emphasis [ref=e380]: Step Brothers
+                    - text: ". As such, it doesn’t take itself too seriously, though it offers a selection of interesting wines by the glass, with pours from often underrepresented wine regions and a small but compelling cocktail list. Food is limited to meat-and-cheese plates, toasties, sweet bites, and specials like hot dog Sundays. Co-owner with Piccolo Forno’s Domenic Branduzzi, Roger Li also operates three nearby establishments: the excellent Izakaya Umami, multifaceted Nanban, and terrific Hong Kong-influenced Parlor Dim Sum. All are worth visiting."
+                  - list [ref=e381]:
+                    - listitem [ref=e382]:
+                      - link "Location 5326 Butler St, Pittsburgh, PA, 15201, USExternal Link" [ref=e383] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=The%20Allegheny%20Wine%20Mixer%2C%205326%20Butler%20St%2C%20Pittsburgh%2C%20PA%2C%2015201%2C%20US
+                        - img "Location" [ref=e384]
+                        - generic [ref=e386]:
+                          - text: 5326 Butler St, Pittsburgh, PA, 15201, US
+                          - img "External Link" [ref=e387]
+                    - listitem [ref=e389]:
+                      - link "Phone +14122522337" [ref=e390] [cursor=pointer]:
+                        - /url: tel:14122522337
+                        - img "Phone" [ref=e391]
+                        - text: "+14122522337"
+                    - listitem [ref=e393]:
+                      - link "Link Visit website" [ref=e394] [cursor=pointer]:
+                        - /url: http://www.alleghenywinemixer.com/
+                        - img "Link" [ref=e395]
+                        - text: Visit website
+              - generic [ref=e401]:
+                - generic [ref=e403]:
+                  - heading "Piccolo Forno" [level=2] [ref=e404]
+                  - button "Copy link" [ref=e406] [cursor=pointer]:
+                    - img "Link" [ref=e407]
+                - paragraph [ref=e409]: Long before Lower Lawrenceville was a mini-restaurant row, Piccolo Forno served Northern Italian cuisine to hungry diners. Domenic Branduzzi followed in his parents’ culinary footsteps when he opened the restaurant in 2005. It’s a destination for thin and crispy wood-fired pizza (try the speck e mascarpone and mortadella e pistachio) and pasta made from scratch by Branduzzi’s mother, Carla. Branduzzi’s fantastic grappa and amari bar Grapperia is just around the corner, a terrific spot for pre- and post-dining drinks.
+                - list [ref=e410]:
+                  - listitem [ref=e411]:
+                    - link "Location 3801 Butler St, Pittsburgh, PA, 15201, USExternal Link" [ref=e412] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Piccolo%20Forno%2C%203801%20Butler%20St%2C%20Pittsburgh%2C%20PA%2C%2015201%2C%20US
+                      - img "Location" [ref=e413]
+                      - generic [ref=e415]:
+                        - text: 3801 Butler St, Pittsburgh, PA, 15201, US
+                        - img "External Link" [ref=e416]
+                  - listitem [ref=e418]:
+                    - link "Phone +14126220111" [ref=e419] [cursor=pointer]:
+                      - /url: tel:14126220111
+                      - img "Phone" [ref=e420]
+                      - text: "+14126220111"
+                  - listitem [ref=e422]:
+                    - link "Link Visit website" [ref=e423] [cursor=pointer]:
+                      - /url: http://www.piccolo-forno.com
+                      - img "Link" [ref=e424]
+                      - text: Visit website
+                - generic [ref=e428]:
+                  - img "Two big circular pizzas." [ref=e431]
+                  - generic [ref=e432]: Hal B. Klein
+              - generic [ref=e433]:
+                - generic [ref=e434]:
+                  - text: advertisement
+                  - generic [ref=e435]: AD
+                - generic [ref=e436]:
+                  - generic [ref=e438]:
+                    - heading "Driftwood Oven" [level=2] [ref=e439]
+                    - button "Copy link" [ref=e441] [cursor=pointer]:
+                      - img "Link" [ref=e442]
+                  - paragraph [ref=e444]: California-influenced baker’s style pizzas are the core of Neil Blazin’s sourdough shop in Lower Lawrenceville. He and his team offer square and round pies, plus Roman-style cuts of pizza ranging from classics to seasonal options such as corn and peach. Over the years, Blazin has expanded Driftwood Oven into a full-fledged bakery, with high-quality bread, bagels, and sweets. The menu also includes hefty sandwiches, salads, and snacks. Seating is limited.
+                  - list [ref=e445]:
+                    - listitem [ref=e446]:
+                      - link "Location 3615 Butler St, Pittsburgh, PA 15201, USAExternal Link" [ref=e447] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Driftwood%20Oven%2C%203615%20Butler%20St%2C%20Pittsburgh%2C%20PA%2015201%2C%20USA
+                        - img "Location" [ref=e448]
+                        - generic [ref=e450]:
+                          - text: 3615 Butler St, Pittsburgh, PA 15201, USA
+                          - img "External Link" [ref=e451]
+                    - listitem [ref=e453]:
+                      - link "Phone (412) 251-0253" [ref=e454] [cursor=pointer]:
+                        - /url: tel:4122510253
+                        - img "Phone" [ref=e455]
+                        - text: (412) 251-0253
+                    - listitem [ref=e457]:
+                      - link "Link Visit website" [ref=e458] [cursor=pointer]:
+                        - /url: https://www.driftwoodoven.com/
+                        - img "Link" [ref=e459]
+                        - text: Visit website
+                  - generic [ref=e463]:
+                    - img "From above, a wooden table topped with two full pizzas with toppings, loaves of bread, a sandwich and a salad." [ref=e466]
+                    - generic [ref=e467]: Driftwood Oven
+                  - generic [ref=e468]:
+                    - heading "See more" [level=3] [ref=e471]
+                    - generic [ref=e474]:
+                      - img "The 14 Hottest New Restaurants in Pittsburgh" [ref=e476]
+                      - link "The 14 Hottest New Restaurants in Pittsburgh" [ref=e483] [cursor=pointer]:
+                        - /url: https://www.eater.com/maps/pittsburgh-where-to-eat-best-new-restaurants
+              - generic [ref=e485]:
+                - generic [ref=e487]:
+                  - heading "Apteka" [level=2] [ref=e488]
+                  - button "Copy link" [ref=e490] [cursor=pointer]:
+                    - img "Link" [ref=e491]
+                - paragraph [ref=e493]: "This pioneering restaurant has landed on the James Beard Award lists several times for good reason: The compelling vegan menu marries Eastern European cuisine with a deep embrace of Western Pennsylvania seasonality. Apteka’s beverage program is every bit as exciting as its culinary offerings; there’s a top-notch, largely Eastern Europe-focused natural wine selection, a strong cocktail list, terrific beer, and one of the best nonalcoholic drinks lists in town that includes a variety of homemade sodas. Get the nettle soup in season or the pickle plates; pierogies are always a win, as is the celeriac schnitzel."
+                - list [ref=e494]:
+                  - listitem [ref=e495]:
+                    - link "Location 4606 Penn Avenue, PA 15224External Link" [ref=e496] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Apteka%2C%204606%20Penn%20Avenue%2C%20PA%2015224
+                      - img "Location" [ref=e497]
+                      - generic [ref=e499]:
+                        - text: 4606 Penn Avenue, PA 15224
+                        - img "External Link" [ref=e500]
+                  - listitem [ref=e502]:
+                    - link "Phone (412) 251-0189" [ref=e503] [cursor=pointer]:
+                      - /url: tel:4122510189
+                      - img "Phone" [ref=e504]
+                      - text: (412) 251-0189
+                  - listitem [ref=e506]:
+                    - link "Link Visit website" [ref=e507] [cursor=pointer]:
+                      - /url: http://aptekapgh.com/
+                      - img "Link" [ref=e508]
+                      - text: Visit website
+                - generic [ref=e512]:
+                  - img "Plant-based schnitzel in a white bowl." [ref=e515]
+                  - generic [ref=e516]: Hal B. Klein
+                - generic [ref=e517]:
+                  - heading "See more" [level=3] [ref=e520]
+                  - generic [ref=e523]:
+                    - img "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e525]
+                    - link "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e532] [cursor=pointer]:
+                      - /url: https://philly.eater.com/maps/pittsburgh-restaurants-bars-weekend-trip-guide
+              - generic [ref=e533]:
+                - generic [ref=e534]:
+                  - text: advertisement
+                  - generic [ref=e535]: AD
+                - generic [ref=e536]:
+                  - generic [ref=e538]:
+                    - heading "Soju" [level=2] [ref=e539]
+                    - button "Copy link" [ref=e541] [cursor=pointer]:
+                      - img "Link" [ref=e542]
+                  - paragraph [ref=e544]: Pittsburgh’s smaller, independently owned restaurants are often deeply personal endeavors. Soju, Simon Chough’s Korean-fusion restaurant in Garfield, takes that notion to the max. He offers an array of Korean dishes inspired by his grandmother’s recipe while weaving his distinctive touch through the menu with dishes such as galbi jjim morphed with elements of French onion soup like Hawaiian bread croutons and soulful kimchi jjigae with three versions of kimchi. When offered, Chough’s mandu are among the best dumplings in Pittsburgh. Cough extends the grace of the space to others through an ongoing series of pop-ups that allow Pittsburgh chefs to express their culinary voices.
+                  - list [ref=e545]:
+                    - listitem [ref=e546]:
+                      - link "Location 4923 Penn Ave, Pittsburgh, PA, 15224, USExternal Link" [ref=e547] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Soju%2C%204923%20Penn%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015224%2C%20US
+                        - img "Location" [ref=e548]
+                        - generic [ref=e550]:
+                          - text: 4923 Penn Ave, Pittsburgh, PA, 15224, US
+                          - img "External Link" [ref=e551]
+                    - listitem [ref=e553]:
+                      - link "Phone (412) 450-8968" [ref=e554] [cursor=pointer]:
+                        - /url: tel:4124508968
+                        - img "Phone" [ref=e555]
+                        - text: (412) 450-8968
+                    - listitem [ref=e557]:
+                      - link "Link Visit website" [ref=e558] [cursor=pointer]:
+                        - /url: https://simonchough.wixsite.com/sojupgh
+                        - img "Link" [ref=e559]
+                        - text: Visit website
+                  - generic [ref=e563]:
+                    - img "Multiple plates of Korean food on a wooden table." [ref=e566]
+                    - generic [ref=e567]: Hal B. Klein
+                  - generic [ref=e568]:
+                    - heading "See more" [level=3] [ref=e571]
+                    - generic [ref=e574]:
+                      - img "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e576]
+                      - link "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e583] [cursor=pointer]:
+                        - /url: https://philly.eater.com/maps/pittsburgh-restaurants-bars-weekend-trip-guide
+              - generic [ref=e585]:
+                - generic [ref=e587]:
+                  - heading "Morcilla" [level=2] [ref=e588]
+                  - button "Copy link" [ref=e590] [cursor=pointer]:
+                    - img "Link" [ref=e591]
+                - paragraph [ref=e593]: Acclaimed restaurateurs Justin Severino and Hilary Prescott Severino founded Morcilla to follow their lauded, now-closed Cure. Sit in the taverna-style dining room for larger plates from executive chef/partner Nate Hobart, like top-notch Laurel Hill Farm trout with vivid salsa verde. Morcilla’s bar offers perfectly balanced cocktails, deep wine list, and an outstanding spirits selection.
+                - list [ref=e594]:
+                  - listitem [ref=e595]:
+                    - link "Booking Book a table" [ref=e597] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/120723?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e598]
+                      - text: Book a table
+                      - img [ref=e600]
+                  - listitem [ref=e602]:
+                    - link "Location 3519 Butler St, Pittsburgh, PA, 15201, USExternal Link" [ref=e603] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Morcilla%2C%203519%20Butler%20St%2C%20Pittsburgh%2C%20PA%2C%2015201%2C%20US
+                      - img "Location" [ref=e604]
+                      - generic [ref=e606]:
+                        - text: 3519 Butler St, Pittsburgh, PA, 15201, US
+                        - img "External Link" [ref=e607]
+                  - listitem [ref=e609]:
+                    - link "Phone +14126529924" [ref=e610] [cursor=pointer]:
+                      - /url: tel:14126529924
+                      - img "Phone" [ref=e611]
+                      - text: "+14126529924"
+                  - listitem [ref=e613]:
+                    - link "Link Visit website" [ref=e614] [cursor=pointer]:
+                      - /url: http://www.morcillapittsburgh.com/
+                      - img "Link" [ref=e615]
+                      - text: Visit website
+                - generic [ref=e619]:
+                  - img "A plate of whole fish." [ref=e622]
+                  - generic [ref=e623]: Hal B. Klein
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - text: advertisement
+                  - generic [ref=e626]: AD
+                - generic [ref=e627]:
+                  - generic [ref=e629]:
+                    - heading "Trace Brewing" [level=2] [ref=e630]
+                    - button "Copy link" [ref=e632] [cursor=pointer]:
+                      - img "Link" [ref=e633]
+                  - paragraph [ref=e635]: What does the definition of a contemporary brewery look like? Visit Trace Brewing in Bloomfield. The taproom offers an ever-shifting mix of easy-to-love beer covering a wide range of styles and ABV percentage, as well as on-tap cocktails from nearby Goodlander Cocktail Brewery. By day, Trace showcases a top-tier coffee menu and doubles as an easy-breezy space for meetings and hanging out. The deliberately inclusive space hosts a range of events, including the super popular Slappers N Bangers, Disco Sunday Disco, and Sunday drag brunches. There’s almost always something tasty to eat, as Trace programs a deep rotation of the region’s food trucks.
+                  - list [ref=e636]:
+                    - listitem [ref=e637]:
+                      - link "Location 4312 Main St, Pittsburgh, PA 15224External Link" [ref=e638] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Trace%20Brewing%2C%204312%20Main%20St%2C%20Pittsburgh%2C%20PA%2015224
+                        - img "Location" [ref=e639]
+                        - generic [ref=e641]:
+                          - text: 4312 Main St, Pittsburgh, PA 15224
+                          - img "External Link" [ref=e642]
+                    - listitem [ref=e644]:
+                      - link "Phone (412) 904-3555" [ref=e645] [cursor=pointer]:
+                        - /url: tel:4129043555
+                        - img "Phone" [ref=e646]
+                        - text: (412) 904-3555
+                    - listitem [ref=e648]:
+                      - link "Link Visit website" [ref=e649] [cursor=pointer]:
+                        - /url: https://www.tracebloomfield.com
+                        - img "Link" [ref=e650]
+                        - text: Visit website
+              - generic [ref=e656]:
+                - generic [ref=e658]:
+                  - heading "Tessaro’s American Bar & Hardwood Grill" [level=2] [ref=e659]
+                  - button "Copy link" [ref=e661] [cursor=pointer]:
+                    - img "Link" [ref=e662]
+                - paragraph [ref=e664]: A Pittsburgh institution since 1981, Tessaro’s serves thick, handcrafted burgers with a custom blend of beef ground in-house daily cooked over a blend of PA hickory, oak, maple, and ash hardwoods by longtime grillmaster Courtney McFarlane. The tavern-style burgers are the primary draw, though you should also make it a point to visit the historic Bloomfield building on Thursdays for Tessaro’s weekly rib night. The menu is rounded out with steaks, chicken, and sides. Seating sprawls across several expansions; the best place to sit is still the front room, where you can enjoy a burger and cold beverage at or near the 1933 art deco Sears and Roebuck bar.
+                - list [ref=e665]:
+                  - listitem [ref=e666]:
+                    - link "Location 4601 Liberty Avenue, Pittsburgh, Pennsylvania 15224External Link" [ref=e667] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Tessaro%E2%80%99s%20American%20Bar%20%26%20Hardwood%20Grill%2C%204601%20Liberty%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015224
+                      - img "Location" [ref=e668]
+                      - generic [ref=e670]:
+                        - text: 4601 Liberty Avenue, Pittsburgh, Pennsylvania 15224
+                        - img "External Link" [ref=e671]
+                  - listitem [ref=e673]:
+                    - link "Phone (412) 682-6809" [ref=e674] [cursor=pointer]:
+                      - /url: tel:4126826809
+                      - img "Phone" [ref=e675]
+                      - text: (412) 682-6809
+                  - listitem [ref=e677]:
+                    - link "Link Visit website" [ref=e678] [cursor=pointer]:
+                      - /url: https://tessaros.com/
+                      - img "Link" [ref=e679]
+                      - text: Visit website
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - text: advertisement
+                  - generic [ref=e686]: AD
+                - generic [ref=e687]:
+                  - generic [ref=e689]:
+                    - heading "Fet Fisk" [level=2] [ref=e690]
+                    - button "Copy link" [ref=e692] [cursor=pointer]:
+                      - img "Link" [ref=e693]
+                  - paragraph [ref=e695]: Fet Fisk, Pittsburgh’s buzziest new opening of 2024, debuted in March in a former Italian restaurant space in Bloomfield. Nik Forsberg, who landed a 2023 James Beard award semifinalist nod while operating Fet Fisk as a pop-up, helms the kitchen, offering a seasonal, Scandinavian-influenced lineup of dishes like pickled mackerel with smoked beets and seafood salad. The juicy roasted chicken with lingonberry sauce is a must.
+                  - list [ref=e696]:
+                    - listitem [ref=e697]:
+                      - link "Location 4786 Liberty Avenue, Pittsburgh, Pennsylvania 15224External Link" [ref=e698] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Fet%20Fisk%2C%204786%20Liberty%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015224
+                        - img "Location" [ref=e699]
+                        - generic [ref=e701]:
+                          - text: 4786 Liberty Avenue, Pittsburgh, Pennsylvania 15224
+                          - img "External Link" [ref=e702]
+                    - listitem [ref=e704]:
+                      - link "Link Visit website" [ref=e705] [cursor=pointer]:
+                        - /url: https://www.fetfisk.net/
+                        - img "Link" [ref=e706]
+                        - text: Visit website
+                  - generic [ref=e710]:
+                    - img "Plates of chicken, fries, and a glass of wine." [ref=e713]
+                    - generic [ref=e714]: Hal B. Klein
+              - generic [ref=e716]:
+                - generic [ref=e718]:
+                  - heading "Kelly’s Bar & Lounge" [level=2] [ref=e719]
+                  - button "Copy link" [ref=e721] [cursor=pointer]:
+                    - img "Link" [ref=e722]
+                - paragraph [ref=e724]: It’s increasingly rare to find a welcoming neighborhood bar that serves good food and well-made drinks at reasonable prices, yet maintains an old-school vibe without trying too hard. Kelly’s Bar & Lounge, founded in the 1940s and every bit as relevant today, is one of them. Grub highlights include a killer chicken sandwich, a tuna melt, and tofu bites. Cocktails veer toward staples like Negronis, palomas, and vespers, with daily specials rotated into the mix.
+                - list [ref=e725]:
+                  - listitem [ref=e726]:
+                    - link "Location 6012 Centre Ave, Pittsburgh, PA, 15206, USExternal Link" [ref=e727] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Kelly%E2%80%99s%20Bar%20%26%20Lounge%2C%206012%20Centre%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015206%2C%20US
+                      - img "Location" [ref=e728]
+                      - generic [ref=e730]:
+                        - text: 6012 Centre Ave, Pittsburgh, PA, 15206, US
+                        - img "External Link" [ref=e731]
+                  - listitem [ref=e733]:
+                    - link "Phone (412) 363-6012" [ref=e734] [cursor=pointer]:
+                      - /url: tel:4123636012
+                      - img "Phone" [ref=e735]
+                      - text: (412) 363-6012
+                  - listitem [ref=e737]:
+                    - link "Link Visit website" [ref=e738] [cursor=pointer]:
+                      - /url: https://kellysbarlounge.com/
+                      - img "Link" [ref=e739]
+                      - text: Visit website
+                - generic [ref=e743]:
+                  - img "Chicken and tomatoes on a green plate." [ref=e746]
+                  - generic [ref=e747]: Hal B. Klein
+                - generic [ref=e748]:
+                  - heading "See more" [level=3] [ref=e751]
+                  - generic [ref=e754]:
+                    - img "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e756]
+                    - link "The Philly Weekender’s Guide to Eating and Drinking in Pittsburgh" [ref=e763] [cursor=pointer]:
+                      - /url: https://philly.eater.com/maps/pittsburgh-restaurants-bars-weekend-trip-guide
+              - generic [ref=e764]:
+                - generic [ref=e765]:
+                  - text: advertisement
+                  - generic [ref=e766]: AD
+                - generic [ref=e767]:
+                  - generic [ref=e769]:
+                    - heading "Showcase BBQ" [level=2] [ref=e770]
+                    - button "Copy link" [ref=e772] [cursor=pointer]:
+                      - img "Link" [ref=e773]
+                  - paragraph [ref=e775]: Drew Allen has perfumed Homewood with the aroma of hardwood smoke and slow-cooked meat for over 20 years. His Showcase BBQ is a draw for its smoked ribs, which have a tender tug as you pull the just-charred meat from the bone. His melting turkey ribs (technically part of the shoulder) are a reminder that enjoying the great bird ought not to be limited to Thanksgiving. Top those, or the crisp chicken wings, with a spoon of Showcase’s piquant barbeque sauce to add a little oomph to your day. The sides here are as much of a draw as the meats — yams, green beans, mac and cheese, and potato salad are a few of the standouts.
+                  - list [ref=e776]:
+                    - listitem [ref=e777]:
+                      - link "Location 6800 Frankstown Ave, Pittsburgh, PA, 15208, USExternal Link" [ref=e778] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Showcase%20BBQ%2C%206800%20Frankstown%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015208%2C%20US
+                        - img "Location" [ref=e779]
+                        - generic [ref=e781]:
+                          - text: 6800 Frankstown Ave, Pittsburgh, PA, 15208, US
+                          - img "External Link" [ref=e782]
+                    - listitem [ref=e784]:
+                      - link "Phone +14123617469" [ref=e785] [cursor=pointer]:
+                        - /url: tel:14123617469
+                        - img "Phone" [ref=e786]
+                        - text: "+14123617469"
+                    - listitem [ref=e788]:
+                      - link "Link Visit website" [ref=e789] [cursor=pointer]:
+                        - /url: http://www.showcasebbq.net/
+                        - img "Link" [ref=e790]
+                        - text: Visit website
+                - generic [ref=e792]:
+                  - heading "More Maps" [level=3] [ref=e795]
+                  - list [ref=e796]:
+                    - listitem [ref=e797]:
+                      - link "The Best New Restaurants Around D.C., April 2026" [ref=e798] [cursor=pointer]:
+                        - /url: /maps/best-new-restaurants-heatmap-dc
+                    - listitem [ref=e799]:
+                      - link "The 38 Best Restaurants Around D.C." [ref=e800] [cursor=pointer]:
+                        - /url: /maps/dc-best-restaurants-38
+                    - listitem [ref=e801]:
+                      - link "The Most Fun Restaurants in D.C." [ref=e802] [cursor=pointer]:
+                        - /url: /maps/most-fun-restaurants-dc
+              - generic [ref=e804]:
+                - generic [ref=e806]:
+                  - heading "Casbah" [level=2] [ref=e807]
+                  - button "Copy link" [ref=e809] [cursor=pointer]:
+                    - img "Link" [ref=e810]
+                - paragraph [ref=e812]: Casbah is a Pittsburgh classic in Shadyside that’s about to celebrate its 30th anniversary for good reason. It’s a crowd pleaser for tailored gatherings, with an engaging wine list, strong service, and the kind of meal to linger over. Start with dishes like Mediterranean spreads and grilled artichokes, move on to mussels or grilled octopus, split the chicken orecchiette with sage cream, or splurge on the Elysian Fields lamb.
+                - list [ref=e813]:
+                  - listitem [ref=e814]:
+                    - link "Booking Book a table" [ref=e816] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/141026?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e817]
+                      - text: Book a table
+                      - img [ref=e819]
+                  - listitem [ref=e821]:
+                    - link "Location 229 S Highland Ave, Pittsburgh, PA, 15206, USExternal Link" [ref=e822] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Casbah%2C%20229%20S%20Highland%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015206%2C%20US
+                      - img "Location" [ref=e823]
+                      - generic [ref=e825]:
+                        - text: 229 S Highland Ave, Pittsburgh, PA, 15206, US
+                        - img "External Link" [ref=e826]
+                  - listitem [ref=e828]:
+                    - link "Phone +14126615656" [ref=e829] [cursor=pointer]:
+                      - /url: tel:14126615656
+                      - img "Phone" [ref=e830]
+                      - text: "+14126615656"
+                  - listitem [ref=e832]:
+                    - link "Link Visit website" [ref=e833] [cursor=pointer]:
+                      - /url: https://casbah.kitchen/
+                      - img "Link" [ref=e834]
+                      - text: Visit website
+                - generic [ref=e838]:
+                  - img "Tuna on a white plate." [ref=e841]
+                  - generic [ref=e842]: Hal B. Klein
+              - generic [ref=e843]:
+                - generic [ref=e844]:
+                  - text: advertisement
+                  - generic [ref=e845]: AD
+                - generic [ref=e846]:
+                  - generic [ref=e848]:
+                    - heading "Lilith" [level=2] [ref=e849]
+                    - button "Copy link" [ref=e851] [cursor=pointer]:
+                      - img "Link" [ref=e852]
+                  - paragraph [ref=e854]: Jamilka Borges and Dianne DeStefano were two of the chefs who helped spur Pittsburgh dining forward in the 2010s. Last year, the duo paired up to open Lilith, a lovely neighborhood bistro carrying on the tradition of hospitality-focused, joyful dining in the space previously occupied by the late Toni Pais’ Cafe Zinho. Borges’ savory offerings tilt coastal, drawing influence from her native Puerto Rico with items like scallop crudo, coconut oil, chili, and lime. DeStefano handles the bakery side of the operation, offering a selection of fresh bread and classic-meets-contemporary desserts such as baked Alaska with creme fraiche semifreddo, plus strawberry, lemon, and coriander streusel.
+                  - list [ref=e855]:
+                    - listitem [ref=e856]:
+                      - link "Booking Book a table" [ref=e858] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/3269?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e859]
+                        - text: Book a table
+                        - img [ref=e861]
+                    - listitem [ref=e863]:
+                      - link "Location 238 Spahr St, Pittsburgh, PA, 15232, USExternal Link" [ref=e864] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Lilith%2C%20238%20Spahr%20St%2C%20Pittsburgh%2C%20PA%2C%2015232%2C%20US
+                        - img "Location" [ref=e865]
+                        - generic [ref=e867]:
+                          - text: 238 Spahr St, Pittsburgh, PA, 15232, US
+                          - img "External Link" [ref=e868]
+                    - listitem [ref=e870]:
+                      - link "Phone +14127449290" [ref=e871] [cursor=pointer]:
+                        - /url: tel:14127449290
+                        - img "Phone" [ref=e872]
+                        - text: "+14127449290"
+                    - listitem [ref=e874]:
+                      - link "Link Visit website" [ref=e875] [cursor=pointer]:
+                        - /url: https://www.lilithrestaurant.com/
+                        - img "Link" [ref=e876]
+                        - text: Visit website
+                  - generic [ref=e880]:
+                    - img "Flowers and pierogies on a wooden table." [ref=e883]
+                    - generic [ref=e884]: Hal B. Klein
+              - generic [ref=e886]:
+                - generic [ref=e888]:
+                  - heading "Max’s Allegheny Tavern" [level=2] [ref=e889]
+                  - button "Copy link" [ref=e891] [cursor=pointer]:
+                    - img "Link" [ref=e892]
+                - paragraph [ref=e894]: Hit Max’s Allegheny Tavern in Pittsburgh’s East Allegheny neighborhood for a bit of history. The front room’s grand wood-paneled bar and hexagonal tiled floor date back to the early 1900s when the building was called Hotel Rahn. It has existed as Max’s since 1977, offering a sprawling series of semi-private nooks and dining rooms across the floorplan of two attached buildings. The portions of the German-style cuisine are hefty; try the schnitzels, sausages, and German potato salad.
+                - list [ref=e895]:
+                  - listitem [ref=e896]:
+                    - link "Location 537 Suismon St, Pittsburgh, PA, 15212, USExternal Link" [ref=e897] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Max%E2%80%99s%20Allegheny%20Tavern%2C%20537%20Suismon%20St%2C%20Pittsburgh%2C%20PA%2C%2015212%2C%20US
+                      - img "Location" [ref=e898]
+                      - generic [ref=e900]:
+                        - text: 537 Suismon St, Pittsburgh, PA, 15212, US
+                        - img "External Link" [ref=e901]
+                  - listitem [ref=e903]:
+                    - link "Phone +14122311899" [ref=e904] [cursor=pointer]:
+                      - /url: tel:14122311899
+                      - img "Phone" [ref=e905]
+                      - text: "+14122311899"
+                  - listitem [ref=e907]:
+                    - link "Link Visit website" [ref=e908] [cursor=pointer]:
+                      - /url: http://www.maxsalleghenytavern.com/
+                      - img "Link" [ref=e909]
+                      - text: Visit website
+              - generic [ref=e911]:
+                - generic [ref=e912]:
+                  - text: advertisement
+                  - generic [ref=e913]: AD
+                - generic [ref=e914]:
+                  - generic [ref=e916]:
+                    - heading "DiAnoia’s Eatery" [level=2] [ref=e917]
+                    - button "Copy link" [ref=e919] [cursor=pointer]:
+                      - img "Link" [ref=e920]
+                  - paragraph [ref=e922]: Pleasing breakfast, lunch, and dinner selections plus ultra-friendly service combine to make DiAnoia’s Eatery the day-into-night Italian restaurant that makes it a city staple. Breakfast means egg sandwiches, simple omelets, and toasts on terrific bread. Lunch is cold and hot paninis, pasta, and a few small plates. DiAnoia’s dinner menu expands on the pasta and contorni, adding larger dishes such as luscious porchetta and steak Florentine. Don’t skip the next-door pizzeria, Pizzeria Davide, and the family’s bakery and takeaway shop, Pane e Pronto, just a few blocks up the street.
+                  - list [ref=e923]:
+                    - listitem [ref=e924]:
+                      - link "Location 2549 Penn Avenue, Pittsburgh, Pennsylvania 15222External Link" [ref=e925] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=DiAnoia%E2%80%99s%20Eatery%2C%202549%20Penn%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015222
+                        - img "Location" [ref=e926]
+                        - generic [ref=e928]:
+                          - text: 2549 Penn Avenue, Pittsburgh, Pennsylvania 15222
+                          - img "External Link" [ref=e929]
+                    - listitem [ref=e931]:
+                      - link "Phone (412) 918-1875" [ref=e932] [cursor=pointer]:
+                        - /url: tel:4129181875
+                        - img "Phone" [ref=e933]
+                        - text: (412) 918-1875
+                    - listitem [ref=e935]:
+                      - link "Link Visit website" [ref=e936] [cursor=pointer]:
+                        - /url: https://www.dianoiaseatery.com
+                        - img "Link" [ref=e937]
+                        - text: Visit website
+              - generic [ref=e943]:
+                - generic [ref=e945]:
+                  - heading "Fig & Ash Wood Fire Kitchen" [level=2] [ref=e946]
+                  - button "Copy link" [ref=e948] [cursor=pointer]:
+                    - img "Link" [ref=e949]
+                - paragraph [ref=e951]: Corey Hughes and his team opened Fig & Ash in 2020 and today the handsome restaurant is an anchor of the revived Northside. Go here for vegetable-focused small plates and spins on traditional dishes — peach Caprese salad, summer squash crab cakes. Meaty mains feed a crowd, with items like short rib and pork belly meatloaf and a formidable pork shank.
+                - list [ref=e952]:
+                  - listitem [ref=e953]:
+                    - link "Booking Book a table" [ref=e955] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/145859?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e956]
+                      - text: Book a table
+                      - img [ref=e958]
+                  - listitem [ref=e960]:
+                    - link "Location 514 E Ohio St, Pittsburgh, PA, 15212, USExternal Link" [ref=e961] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Fig%20%26%20Ash%20Wood%20Fire%20Kitchen%2C%20514%20E%20Ohio%20St%2C%20Pittsburgh%2C%20PA%2C%2015212%2C%20US
+                      - img "Location" [ref=e962]
+                      - generic [ref=e964]:
+                        - text: 514 E Ohio St, Pittsburgh, PA, 15212, US
+                        - img "External Link" [ref=e965]
+                  - listitem [ref=e967]:
+                    - link "Phone +14123212222" [ref=e968] [cursor=pointer]:
+                      - /url: tel:14123212222
+                      - img "Phone" [ref=e969]
+                      - text: "+14123212222"
+                  - listitem [ref=e971]:
+                    - link "Link Visit website" [ref=e972] [cursor=pointer]:
+                      - /url: https://figandashpgh.com/
+                      - img "Link" [ref=e973]
+                      - text: Visit website
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - text: advertisement
+                  - generic [ref=e977]: AD
+                - generic [ref=e978]:
+                  - generic [ref=e980]:
+                    - heading "EYV Restaurant" [level=2] [ref=e981]
+                    - button "Copy link" [ref=e983] [cursor=pointer]:
+                      - img "Link" [ref=e984]
+                  - paragraph [ref=e986]: EYV chef and owner Mike Godlewski marries fancy techniques and plating with a seasonal menu that lets its ingredients shine. Vegetables take the stage at the forefront of most dishes, though meat can be used as an accent.
+                  - list [ref=e987]:
+                    - listitem [ref=e988]:
+                      - link "Location 424 East Ohio Street, Pittsburgh, Pennsylvania 15212External Link" [ref=e989] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=EYV%20Restaurant%2C%20424%20East%20Ohio%20Street%2C%20Pittsburgh%2C%20Pennsylvania%2015212
+                        - img "Location" [ref=e990]
+                        - generic [ref=e992]:
+                          - text: 424 East Ohio Street, Pittsburgh, Pennsylvania 15212
+                          - img "External Link" [ref=e993]
+                    - listitem [ref=e995]:
+                      - link "Phone (412) 742-4386" [ref=e996] [cursor=pointer]:
+                        - /url: tel:4127424386
+                        - img "Phone" [ref=e997]
+                        - text: (412) 742-4386
+                    - listitem [ref=e999]:
+                      - link "Link Visit website" [ref=e1000] [cursor=pointer]:
+                        - /url: https://eyvrestaurant.com/
+                        - img "Link" [ref=e1001]
+                        - text: Visit website
+                  - paragraph [ref=e1006]: This embedded content failed to load.
+              - generic [ref=e1008]:
+                - generic [ref=e1010]:
+                  - heading "Bar Marco" [level=2] [ref=e1011]
+                  - button "Copy link" [ref=e1013] [cursor=pointer]:
+                    - img "Link" [ref=e1014]
+                - paragraph [ref=e1016]: Housed in a former firehouse, 12-year-old Bar Marco is one of the restaurants that pushed Pittsburgh’s restaurant revival forward in the early 2010s. The establishment pairs a well-executed Italian menu with pork tonnato, pastas, and fleeting seasonal offerings like asparagus with pistachio pesto and fava greens. The Strip District eatery has a top-flight cocktail list and one of Pittsburgh’s largest selections of amari. Bar Marco is a no-tip restaurant, with the two-course menu currently running $45 for an antipasti or salad and a pasta or large plate.
+                - list [ref=e1017]:
+                  - listitem [ref=e1018]:
+                    - link "Booking Book a table" [ref=e1020] [cursor=pointer]:
+                      - /url: https://reservations.safegraph.com/reserve/165290?utm_source=safegraph&utm_campaign=poi
+                      - img "Booking" [ref=e1021]
+                      - text: Book a table
+                      - img [ref=e1023]
+                  - listitem [ref=e1025]:
+                    - link "Location 2216 Penn Ave, Pittsburgh, PA, 15222, USExternal Link" [ref=e1026] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Bar%20Marco%2C%202216%20Penn%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015222%2C%20US
+                      - img "Location" [ref=e1027]
+                      - generic [ref=e1029]:
+                        - text: 2216 Penn Ave, Pittsburgh, PA, 15222, US
+                        - img "External Link" [ref=e1030]
+                  - listitem [ref=e1032]:
+                    - link "Phone +14124711900" [ref=e1033] [cursor=pointer]:
+                      - /url: tel:14124711900
+                      - img "Phone" [ref=e1034]
+                      - text: "+14124711900"
+                  - listitem [ref=e1036]:
+                    - link "Link Visit website" [ref=e1037] [cursor=pointer]:
+                      - /url: http://www.barmarcopgh.com/
+                      - img "Link" [ref=e1038]
+                      - text: Visit website
+              - generic [ref=e1043]:
+                - generic [ref=e1044]:
+                  - text: advertisement
+                  - generic [ref=e1045]: AD
+                - generic [ref=e1046]:
+                  - generic [ref=e1048]:
+                    - heading "Balvanera" [level=2] [ref=e1049]
+                    - button "Copy link" [ref=e1051] [cursor=pointer]:
+                      - img "Link" [ref=e1052]
+                  - paragraph [ref=e1054]: Pittsburgh native Meredith Boyle returned to the Steel City with her husband, Fernando Navas, in 2023 to open a bigger, glitzier version of Balvanera, the Argentine restaurant the couple has run in New York City since 2014. Navas offers gorgeously crafted versions of the South American country’s dishes that venture well beyond the signature grilled steaks (which are also terrific). Pastry chef Ginger Fisher Baldwin adds destination-worthy desserts to the chic experience.
+                  - list [ref=e1055]:
+                    - listitem [ref=e1056]:
+                      - link "Location 1660 Smallman Street, Pittsburgh, Pennsylvania 15222External Link" [ref=e1057] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Balvanera%2C%201660%20Smallman%20Street%2C%20Pittsburgh%2C%20Pennsylvania%2015222
+                        - img "Location" [ref=e1058]
+                        - generic [ref=e1060]:
+                          - text: 1660 Smallman Street, Pittsburgh, Pennsylvania 15222
+                          - img "External Link" [ref=e1061]
+                    - listitem [ref=e1063]:
+                      - link "Phone (412) 586-5617" [ref=e1064] [cursor=pointer]:
+                        - /url: tel:4125865617
+                        - img "Phone" [ref=e1065]
+                        - text: (412) 586-5617
+                    - listitem [ref=e1067]:
+                      - link "Link Visit website" [ref=e1068] [cursor=pointer]:
+                        - /url: https://www.balvanerarestaurants.com
+                        - img "Link" [ref=e1069]
+                        - text: Visit website
+                  - generic [ref=e1073]:
+                    - img "Empanadas and a skillet on a wooden table." [ref=e1076]
+                    - generic [ref=e1077]: Hal B. Klein
+              - generic [ref=e1079]:
+                - generic [ref=e1081]:
+                  - heading "Udipi Cafe" [level=2] [ref=e1082]
+                  - button "Copy link" [ref=e1084] [cursor=pointer]:
+                    - img "Link" [ref=e1085]
+                - paragraph [ref=e1087]: This suburban Indian restaurant is one of the region’s oldest vegetarian establishments. The bustling dining room at Udipi resembles a neighborhood diner, but instead of plates of eggs and hash browns, it’s an assemblage of dishes from southern India’s Tuluva-Mangalorean and Andhra cuisines. The main draws are dosas, fermented rice, and lentil batter griddled into yard-long crepes stuffed with potatoes, onions, and other ingredients. Sambahr (lentil and vegetable soup), deluxe thali platter, and chili padoka are among other favorite dishes.
+                - list [ref=e1088]:
+                  - listitem [ref=e1089]:
+                    - link "Location 4141 Old William Penn Hwy, Monroeville, PA, 15146, USExternal Link" [ref=e1090] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Udipi%20Cafe%2C%204141%20Old%20William%20Penn%20Hwy%2C%20Monroeville%2C%20PA%2C%2015146%2C%20US
+                      - img "Location" [ref=e1091]
+                      - generic [ref=e1093]:
+                        - text: 4141 Old William Penn Hwy, Monroeville, PA, 15146, US
+                        - img "External Link" [ref=e1094]
+                  - listitem [ref=e1096]:
+                    - link "Phone +14123735581" [ref=e1097] [cursor=pointer]:
+                      - /url: tel:14123735581
+                      - img "Phone" [ref=e1098]
+                      - text: "+14123735581"
+                  - listitem [ref=e1100]:
+                    - link "Link Visit website" [ref=e1101] [cursor=pointer]:
+                      - /url: http://www.udipicafegeorgia.com
+                      - img "Link" [ref=e1102]
+                      - text: Visit website
+                - generic [ref=e1106]:
+                  - img "Rolls and breads on a wooden table." [ref=e1109]
+                  - generic [ref=e1110]: Hal B. Klein
+              - generic [ref=e1111]:
+                - generic [ref=e1112]:
+                  - text: advertisement
+                  - generic [ref=e1113]: AD
+                - generic [ref=e1114]:
+                  - generic [ref=e1116]:
+                    - heading "Con Alma" [level=2] [ref=e1117]
+                    - button "Copy link" [ref=e1119] [cursor=pointer]:
+                      - img "Link" [ref=e1120]
+                  - paragraph [ref=e1122]: Con Alma is a favorite downtown destination for pre- and post-show drinks and entertainment in a standalone space. The broad dining room and elegant bar harken back to an era when Pittsburgh was a hotbed for jazz. Today, you’ll find local and touring musicians playing here seven nights a week. Con Alma’s drinks menu features terrific seasonal cocktails, (spins on) classics, and a sharply curated wine list. The establishment’s dinner menu draws from Mediterranean influences, with roasted whole branzino with spicy berbere caponata, preserved lemon, and snacky bites like beet muhammara.
+                  - list [ref=e1123]:
+                    - listitem [ref=e1124]:
+                      - link "Booking Book a table" [ref=e1126] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/6564?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1127]
+                        - text: Book a table
+                        - img [ref=e1129]
+                    - listitem [ref=e1131]:
+                      - link "Location 613 Penn Ave, Pittsburgh, PA 15222, USAExternal Link" [ref=e1132] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Con%20Alma%2C%20613%20Penn%20Ave%2C%20Pittsburgh%2C%20PA%2015222%2C%20USA
+                        - img "Location" [ref=e1133]
+                        - generic [ref=e1135]:
+                          - text: 613 Penn Ave, Pittsburgh, PA 15222, USA
+                          - img "External Link" [ref=e1136]
+                    - listitem [ref=e1138]:
+                      - link "Phone (412) 932-2387" [ref=e1139] [cursor=pointer]:
+                        - /url: tel:4129322387
+                        - img "Phone" [ref=e1140]
+                        - text: (412) 932-2387
+                    - listitem [ref=e1142]:
+                      - link "Link Visit website" [ref=e1143] [cursor=pointer]:
+                        - /url: http://conalmapgh.com/
+                        - img "Link" [ref=e1144]
+                        - text: Visit website
+                  - generic [ref=e1148]:
+                    - img "A bar interior with leather seats and tables, pendant lights over the bar, a neon sign reading Con Alma, and generally tropical vibe." [ref=e1151]
+                    - generic [ref=e1152]: Con Alma
+              - generic [ref=e1154]:
+                - generic [ref=e1156]:
+                  - heading "The Warren Bar & Burrow" [level=2] [ref=e1157]
+                  - button "Copy link" [ref=e1159] [cursor=pointer]:
+                    - img "Link" [ref=e1160]
+                - paragraph [ref=e1162]: The Warren is always there to fill our cravings after concerts, performances, and sporting events with a kitchen that stays open until midnight (a rare find in a town where it’s hard to get a good bite after 10 p.m.) and a bar open nightly till 2 a.m. You’ll find a selection of well-made, globally influenced pub grub as well as fresh fish and sushi dishes from business partners Penn Ave. Fish Co. The terrific bartenders seamlessly straddle high-volume and more elaborate cocktail styles and offer terrific beer and wine lists. The new sidebar, E.T.A. is a Japanese-style standing bar with an ace highball and cocktail list; the vinyl record playlist offers a significantly more chill atmosphere than its raucous neighbor.
+                - list [ref=e1163]:
+                  - listitem [ref=e1164]:
+                    - link "Location 245 7th St, Pittsburgh, PA 15222, USAExternal Link" [ref=e1165] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=The%20Warren%20Bar%20%26%20Burrow%2C%20245%207th%20St%2C%20Pittsburgh%2C%20PA%2015222%2C%20USA
+                      - img "Location" [ref=e1166]
+                      - generic [ref=e1168]:
+                        - text: 245 7th St, Pittsburgh, PA 15222, USA
+                        - img "External Link" [ref=e1169]
+                  - listitem [ref=e1171]:
+                    - link "Phone (412) 201-5888" [ref=e1172] [cursor=pointer]:
+                      - /url: tel:4122015888
+                      - img "Phone" [ref=e1173]
+                      - text: (412) 201-5888
+                  - listitem [ref=e1175]:
+                    - link "Link Visit website" [ref=e1176] [cursor=pointer]:
+                      - /url: http://www.thewarrenpgh.com/
+                      - img "Link" [ref=e1177]
+                      - text: Visit website
+                - generic [ref=e1181]:
+                  - img "From above, a bowl of crab dip on a plate beside wanton chips, all sitting on a wood-slat outdoor table" [ref=e1184]
+                  - generic [ref=e1185]: The Warren Bar & Burrow
+              - generic [ref=e1186]:
+                - generic [ref=e1187]:
+                  - text: advertisement
+                  - generic [ref=e1188]: AD
+                - generic [ref=e1189]:
+                  - generic [ref=e1191]:
+                    - heading "Gi-Jin" [level=2] [ref=e1192]
+                    - button "Copy link" [ref=e1194] [cursor=pointer]:
+                      - img "Link" [ref=e1195]
+                  - paragraph [ref=e1197]: The Richard DeShantz Restaurant Group operates numerous bars that happen to be restaurants throughout the city, ranging from the Strip District funhouse Coop de Ville to the eclectic Fish nor Fowl. The best is Gi-Jin. The intimate Downtown spot highlights raw fish with some of the city’s best nigiri, and its sushi chefs also prepare terrific hand rolls. Small plates such as hamachi crudo with ponzu, ginger oil, and daikon also stand out. Gi-Jin’s beverage list is deep, with sake and gin selections that are hard to find elsewhere in Pittsburgh.
+                  - list [ref=e1198]:
+                    - listitem [ref=e1199]:
+                      - link "Booking Book a table" [ref=e1201] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/147288?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1202]
+                        - text: Book a table
+                        - img [ref=e1204]
+                    - listitem [ref=e1206]:
+                      - link "Location 208 6th St, Pittsburgh, PA, 15222, USExternal Link" [ref=e1207] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Gi-Jin%2C%20208%206th%20St%2C%20Pittsburgh%2C%20PA%2C%2015222%2C%20US
+                        - img "Location" [ref=e1208]
+                        - generic [ref=e1210]:
+                          - text: 208 6th St, Pittsburgh, PA, 15222, US
+                          - img "External Link" [ref=e1211]
+                    - listitem [ref=e1213]:
+                      - link "Phone +14123326939" [ref=e1214] [cursor=pointer]:
+                        - /url: tel:14123326939
+                        - img "Phone" [ref=e1215]
+                        - text: "+14123326939"
+                    - listitem [ref=e1217]:
+                      - link "Link Visit website" [ref=e1218] [cursor=pointer]:
+                        - /url: http://www.gi-jin.com/
+                        - img "Link" [ref=e1219]
+                        - text: Visit website
+                  - generic [ref=e1223]:
+                    - img "Raw fish on a wooden board." [ref=e1226]
+                    - generic [ref=e1227]: Hal B. Klein
+              - generic [ref=e1229]:
+                - generic [ref=e1231]:
+                  - heading "Cafe Momentum" [level=2] [ref=e1232]
+                  - button "Copy link" [ref=e1234] [cursor=pointer]:
+                    - img "Link" [ref=e1235]
+                - paragraph [ref=e1237]: Cafe Momentum, a Downtown restaurant with branches in Dallas and Nashville, is a mission-driven restaurant that serves a great meal. The staff is composed of those seeking social justice through the workplace as well as at-risk youth who learn front- and back-of-house skills throughout a 12-month paid internship. The menu features a signature smoked and fried chicken, red snapper with squid ink, and seasonal salads.
+                - list [ref=e1238]:
+                  - listitem [ref=e1239]:
+                    - link "Location 268 Forbes Avenue, Pittsburgh, Pennsylvania 15222External Link" [ref=e1240] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Cafe%20Momentum%2C%20268%20Forbes%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015222
+                      - img "Location" [ref=e1241]
+                      - generic [ref=e1243]:
+                        - text: 268 Forbes Avenue, Pittsburgh, Pennsylvania 15222
+                        - img "External Link" [ref=e1244]
+                  - listitem [ref=e1246]:
+                    - link "Phone (412) 315-7765" [ref=e1247] [cursor=pointer]:
+                      - /url: tel:4123157765
+                      - img "Phone" [ref=e1248]
+                      - text: (412) 315-7765
+                  - listitem [ref=e1250]:
+                    - link "Link Visit website" [ref=e1251] [cursor=pointer]:
+                      - /url: https://www.cafemomentum.org
+                      - img "Link" [ref=e1252]
+                      - text: Visit website
+                - generic [ref=e1256]:
+                  - img "A salad against a chalkboard wall." [ref=e1259]
+                  - generic [ref=e1260]: Hal B. Klein
+              - generic [ref=e1261]:
+                - generic [ref=e1262]:
+                  - text: advertisement
+                  - generic [ref=e1263]: AD
+                - generic [ref=e1264]:
+                  - generic [ref=e1266]:
+                    - heading "Everyday Noodles" [level=2] [ref=e1267]
+                    - button "Copy link" [ref=e1269] [cursor=pointer]:
+                      - img "Link" [ref=e1270]
+                  - paragraph [ref=e1272]: Pittsburgh was a xiao long bao desert until Mike Chen, the godfather of modern Chinese cuisine in Pittsburgh, opened Everyday Noodles in Squirrel Hill in 2013. The neighborhood is now a destination for regional Chinese dishes, with this foundational gem still putting out juicy soup dumplings and the “thwap! whap!” sounds of cooks pulling and stretching noodles for dishes like dan tzu noodles. Grab some items from the top of the list, too (the funky-sweet golden cabbage is a must-get).
+                  - list [ref=e1273]:
+                    - listitem [ref=e1274]:
+                      - link "Location 5875 Forbes Ave, Pittsburgh, PA, 15217, USExternal Link" [ref=e1275] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Everyday%20Noodles%2C%205875%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015217%2C%20US
+                        - img "Location" [ref=e1276]
+                        - generic [ref=e1278]:
+                          - text: 5875 Forbes Ave, Pittsburgh, PA, 15217, US
+                          - img "External Link" [ref=e1279]
+                    - listitem [ref=e1281]:
+                      - link "Phone +14124216668" [ref=e1282] [cursor=pointer]:
+                        - /url: tel:14124216668
+                        - img "Phone" [ref=e1283]
+                        - text: "+14124216668"
+                    - listitem [ref=e1285]:
+                      - link "Link Visit website" [ref=e1286] [cursor=pointer]:
+                        - /url: http://www.everydaynoodles.net/
+                        - img "Link" [ref=e1287]
+                        - text: Visit website
+              - generic [ref=e1290]:
+                - generic [ref=e1292]:
+                  - heading "Moonlit Burgers" [level=2] [ref=e1293]
+                  - button "Copy link" [ref=e1295] [cursor=pointer]:
+                    - img "Link" [ref=e1296]
+                - paragraph [ref=e1298]: Skip the national chains and head to one of Moonlit Burgers’ two locations for top-tier smash burgers, crispy chicken sandwiches, shoestring fries, and other tasty sides. Longtime Pittsburgh hospitality industry pros Mike McCoy and Derek Stevens spun an early COVID-19 era smash burger pop-up into a fully-fledged business in 2021, building the framework for a locally owned fast food destination — with a full bar to boot — in Dormont. Robust systems are on full display at Moonlit’s Uptown location before events and games at PPG Paints Arena, with the team keeping long lines moving and hot food delivered to tables at a quick clip.
+                - list [ref=e1299]:
+                  - listitem [ref=e1300]:
+                    - link "Location 1023 Forbes Ave, Pittsburgh, PA, 15219, USExternal Link" [ref=e1301] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Moonlit%20Burgers%2C%201023%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015219%2C%20US
+                      - img "Location" [ref=e1302]
+                      - generic [ref=e1304]:
+                        - text: 1023 Forbes Ave, Pittsburgh, PA, 15219, US
+                        - img "External Link" [ref=e1305]
+                  - listitem [ref=e1307]:
+                    - link "Phone +14127461070" [ref=e1308] [cursor=pointer]:
+                      - /url: tel:14127461070
+                      - img "Phone" [ref=e1309]
+                      - text: "+14127461070"
+                  - listitem [ref=e1311]:
+                    - link "Link Visit website" [ref=e1312] [cursor=pointer]:
+                      - /url: https://moonlitburgers.com/
+                      - img "Link" [ref=e1313]
+                      - text: Visit website
+                - generic [ref=e1317]:
+                  - img "Burgers and fries on a yellow table." [ref=e1320]
+                  - generic [ref=e1321]: Moonlit Burgers
+              - generic [ref=e1322]:
+                - generic [ref=e1323]:
+                  - text: advertisement
+                  - generic [ref=e1324]: AD
+                - generic [ref=e1325]:
+                  - generic [ref=e1327]:
+                    - heading "Amazing Dumplings" [level=2] [ref=e1328]
+                    - button "Copy link" [ref=e1330] [cursor=pointer]:
+                      - img "Link" [ref=e1331]
+                  - paragraph [ref=e1333]: The owners of Amazing Dumplings are a husband and wife team Fenping Geng and Feng Gao, who have deepened their celebration of Northern Chinese-style dishes for the past few years. Geng handles the dumplings, many of which come wrapped in vividly rainbowed, vegetable-dyed skins. Favorites include spicy pork with lotus root, the vivid “Van Gogh Starry Night” and sesame hot oil. Gao’s hand-pulled hot oil and biang biang noodles are also must-gets — the tomato and egg and the beef hot-oil version are great. Go with a group or a date.
+                  - list [ref=e1334]:
+                    - listitem [ref=e1335]:
+                      - link "Location 5882 Forbes Avenue, Pittsburgh, Pennsylvania 15217External Link" [ref=e1336] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Amazing%20Dumplings%2C%205882%20Forbes%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015217
+                        - img "Location" [ref=e1337]
+                        - generic [ref=e1339]:
+                          - text: 5882 Forbes Avenue, Pittsburgh, Pennsylvania 15217
+                          - img "External Link" [ref=e1340]
+                    - listitem [ref=e1342]:
+                      - link "Phone (412) 422-7188" [ref=e1343] [cursor=pointer]:
+                        - /url: tel:4124227188
+                        - img "Phone" [ref=e1344]
+                        - text: (412) 422-7188
+                    - listitem [ref=e1346]:
+                      - link "Link Visit website" [ref=e1347] [cursor=pointer]:
+                        - /url: https://amazingdumplings.com/
+                        - img "Link" [ref=e1348]
+                        - text: Visit website
+                  - generic [ref=e1352]:
+                    - img "Rainbow-colored dumplings on a white plate." [ref=e1355]
+                    - generic [ref=e1356]: Hal B. Klein
+              - generic [ref=e1358]:
+                - generic [ref=e1360]:
+                  - heading "Stuntpig" [level=2] [ref=e1361]
+                  - button "Copy link" [ref=e1363] [cursor=pointer]:
+                    - img "Link" [ref=e1364]
+                - paragraph [ref=e1366]: Ariel Alexander and Cody Maze launched Stuntpig as a food truck in 2020. Their celebration of smoked and cured meats (plus some vegetarian options) in sandwich form quickly became a sensation at Pittsburgh-area breweries and events. Earlier this year, the couple opened a brick-and-mortar version of the now-retired “Pig Rig,” serving a rotating menu of killer handhelds such as Mr. Orange (smoked chicken, peri-peri sauce, pickles), Pitt Beef (smoked and shaved beef, thin vidalia onions, tiger sauce) and Madonia’s Muffuletta. Expect a small selection of handmade sides. The super-herby potato salad is especially good.
+                - list [ref=e1367]:
+                  - listitem [ref=e1368]:
+                    - link "Location 1707 Murray Avenue, Pittsburgh, Pennsylvania 15217External Link" [ref=e1369] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Stuntpig%2C%201707%20Murray%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015217
+                      - img "Location" [ref=e1370]
+                      - generic [ref=e1372]:
+                        - text: 1707 Murray Avenue, Pittsburgh, Pennsylvania 15217
+                        - img "External Link" [ref=e1373]
+                  - listitem [ref=e1375]:
+                    - link "Link Visit website" [ref=e1376] [cursor=pointer]:
+                      - /url: https://www.stuntpigpgh.com/
+                      - img "Link" [ref=e1377]
+                      - text: Visit website
+              - generic [ref=e1382]:
+                - generic [ref=e1383]:
+                  - text: advertisement
+                  - generic [ref=e1384]: AD
+                - generic [ref=e1385]:
+                  - generic [ref=e1387]:
+                    - heading "Hidden Harbor/Independent Brewing Company" [level=2] [ref=e1388]
+                    - button "Copy link" [ref=e1390] [cursor=pointer]:
+                      - img "Link" [ref=e1391]
+                  - paragraph [ref=e1393]: "Just around the corner from Squirrel Hill’s primary business district is a two-for-one special: Hidden Harbor and Independent Brewing Company. Hidden Harbor is one of the foremost tiki bars in the country, featuring an array of potent, tropical-style cocktails (take the “shark fin” strength warnings seriously) and a rum collection of more than 500 bottles. Independent Brewing Company is focused on beer, serving an ever-rotating selection of local and international craft brews from its taps. Look for items like tacos al pastor and smash burgers on the food menu."
+                  - list [ref=e1394]:
+                    - listitem [ref=e1395]:
+                      - link "Location 1708 Shady Ave, Pittsburgh, PA, 15217, USExternal Link" [ref=e1396] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Hidden%20Harbor%2FIndependent%20Brewing%20Company%2C%201708%20Shady%20Ave%2C%20Pittsburgh%2C%20PA%2C%2015217%2C%20US
+                        - img "Location" [ref=e1397]
+                        - generic [ref=e1399]:
+                          - text: 1708 Shady Ave, Pittsburgh, PA, 15217, US
+                          - img "External Link" [ref=e1400]
+                    - listitem [ref=e1402]:
+                      - link "Phone +14124225040" [ref=e1403] [cursor=pointer]:
+                        - /url: tel:14124225040
+                        - img "Phone" [ref=e1404]
+                        - text: "+14124225040"
+                    - listitem [ref=e1406]:
+                      - link "Link Visit website" [ref=e1407] [cursor=pointer]:
+                        - /url: http://www.hiddenharborpgh.com/
+                        - img "Link" [ref=e1408]
+                        - text: Visit website
+              - generic [ref=e1414]:
+                - generic [ref=e1416]:
+                  - heading "African Eats Cuisine" [level=2] [ref=e1417]
+                  - button "Copy link" [ref=e1419] [cursor=pointer]:
+                    - img "Link" [ref=e1420]
+                - paragraph [ref=e1422]:
+                  - text: Look for meat pies and
+                  - link "suya" [ref=e1423] [cursor=pointer]:
+                    - /url: https://cooking.nytimes.com/recipes/1020289-beef-suya
+                  - text: at this three-year-old Nigerian spot in Squirrel Hill from Dr. Saudat Lawal and her husband, Luke. Lawal brings the heat in the kitchen to her pepper soups (the transcendent fish pepper soup is a must-get), and her chicken drumsticks in red sauce are some of the best in town. Round out your meal with an order of fufu or jollof rice. Lawal and her family import peppers, spices, stockfish, and other ingredients harder-to-find in Pittsburgh to ensure the dishes are true to her memory. A menu of beer, wine, and cocktails like a Lagos sunrise is available in the comfortable dining room.
+                - list [ref=e1424]:
+                  - listitem [ref=e1425]:
+                    - link "Location 2032 Murray Ave, Pittsburgh, PA 15217, USAExternal Link" [ref=e1426] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=African%20Eats%20Cuisine%2C%202032%20Murray%20Ave%2C%20Pittsburgh%2C%20PA%2015217%2C%20USA
+                      - img "Location" [ref=e1427]
+                      - generic [ref=e1429]:
+                        - text: 2032 Murray Ave, Pittsburgh, PA 15217, USA
+                        - img "External Link" [ref=e1430]
+                  - listitem [ref=e1432]:
+                    - link "Phone (412) 307-0294" [ref=e1433] [cursor=pointer]:
+                      - /url: tel:4123070294
+                      - img "Phone" [ref=e1434]
+                      - text: (412) 307-0294
+                  - listitem [ref=e1436]:
+                    - link "Link Visit website" [ref=e1437] [cursor=pointer]:
+                      - /url: http://www.africaneatscuisine.com/
+                      - img "Link" [ref=e1438]
+                      - text: Visit website
+                - generic [ref=e1442]:
+                  - img "A bowl of food on a wooden board." [ref=e1445]
+                  - generic [ref=e1446]: Hal B. Klein
+              - generic [ref=e1447]:
+                - generic [ref=e1448]:
+                  - text: advertisement
+                  - generic [ref=e1449]: AD
+                - generic [ref=e1450]:
+                  - generic [ref=e1452]:
+                    - heading "Dish Osteria & Bar" [level=2] [ref=e1453]
+                    - button "Copy link" [ref=e1455] [cursor=pointer]:
+                      - img "Link" [ref=e1456]
+                  - paragraph [ref=e1458]: Michele and Cindy Savoia run the very definition of an Italian neighborhood restaurant just a few blocks from one of Pittsburgh’s main partying drags. Dish, a beloved favorite for over 20 years now, offers a Sicilian-influenced roster of dishes where high-quality ingredients take center stage. Start with seasonal soup and seafood dishes such as carpaccio di tonno and grilled sardines bathed in fresh lemon juice. Then dig into Savoia’s terrific pasta dishes like his celebrated rigatoni alla scamorza (with cheese). Brother Andrea Savoia runs the energetic front-of-house, where you’ll find regulars aplenty.
+                  - list [ref=e1459]:
+                    - listitem [ref=e1460]:
+                      - link "Booking Book a table" [ref=e1462] [cursor=pointer]:
+                        - /url: https://reservations.safegraph.com/reserve/3985?utm_source=safegraph&utm_campaign=poi
+                        - img "Booking" [ref=e1463]
+                        - text: Book a table
+                        - img [ref=e1465]
+                    - listitem [ref=e1467]:
+                      - link "Location 128 S 17th St, Pittsburgh, PA, 15203, USExternal Link" [ref=e1468] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Dish%20Osteria%20%26%20Bar%2C%20128%20S%2017th%20St%2C%20Pittsburgh%2C%20PA%2C%2015203%2C%20US
+                        - img "Location" [ref=e1469]
+                        - generic [ref=e1471]:
+                          - text: 128 S 17th St, Pittsburgh, PA, 15203, US
+                          - img "External Link" [ref=e1472]
+                    - listitem [ref=e1474]:
+                      - link "Phone +14123902012" [ref=e1475] [cursor=pointer]:
+                        - /url: tel:14123902012
+                        - img "Phone" [ref=e1476]
+                        - text: "+14123902012"
+                    - listitem [ref=e1478]:
+                      - link "Link Visit website" [ref=e1479] [cursor=pointer]:
+                        - /url: http://www.dishosteria.com
+                        - img "Link" [ref=e1480]
+                        - text: Visit website
+                  - generic [ref=e1484]:
+                    - img "Clams in a red broth in a white bowl." [ref=e1487]
+                    - generic [ref=e1488]: Hal B. Klein
+              - generic [ref=e1490]:
+                - generic [ref=e1492]:
+                  - heading "La Cocina de Betty" [level=2] [ref=e1493]
+                  - button "Copy link" [ref=e1495] [cursor=pointer]:
+                    - img "Link" [ref=e1496]
+                - paragraph [ref=e1498]: Maria Elizabeth “Betty” Hernandez, a native of Honduras, came to Pittsburgh in 2013 and launched her eponymous restaurant in Pittsburgh’s burgeoning Beechview neighborhood (home to many of the city’s most exciting Mexican, Central, and South American restaurants) in 2019. From a menu of Honduran, Salvadoran, and Mexican dishes, start with baleadas, the Honduran staple with homemade flour tortillas, refried beans, and fresh cheese, or Salvadorian pupusas with fried pork belly. The restaurant’s mammoth torta Cubana is one of Pittsburgh’s grand sandwiches.
+                - list [ref=e1499]:
+                  - listitem [ref=e1500]:
+                    - link "Location 1605 Broadway Avenue, Pittsburgh, Pennsylvania 15216External Link" [ref=e1501] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=La%20Cocina%20de%20Betty%2C%201605%20Broadway%20Avenue%2C%20Pittsburgh%2C%20Pennsylvania%2015216
+                      - img "Location" [ref=e1502]
+                      - generic [ref=e1504]:
+                        - text: 1605 Broadway Avenue, Pittsburgh, Pennsylvania 15216
+                        - img "External Link" [ref=e1505]
+                  - listitem [ref=e1507]:
+                    - link "Phone (412) 815-8801" [ref=e1508] [cursor=pointer]:
+                      - /url: tel:4128158801
+                      - img "Phone" [ref=e1509]
+                      - text: (412) 815-8801
+                  - listitem [ref=e1511]:
+                    - link "Link Visit website" [ref=e1512] [cursor=pointer]:
+                      - /url: https://www.facebook.com/lacocina.debetty.3/
+                      - img "Link" [ref=e1513]
+                      - text: Visit website
+                - generic [ref=e1517]:
+                  - img "A blue plate and rice in the background." [ref=e1520]
+                  - generic [ref=e1521]: Hal B. Klein
+              - generic [ref=e1522]:
+                - generic [ref=e1523]:
+                  - text: advertisement
+                  - generic [ref=e1524]: AD
+                - generic [ref=e1525]:
+                  - generic [ref=e1527]:
+                    - heading "Gab & Eat" [level=2] [ref=e1528]
+                    - button "Copy link" [ref=e1530] [cursor=pointer]:
+                      - img "Link" [ref=e1531]
+                  - paragraph [ref=e1533]: Pittsburgh has plenty of old-school diners, yet Gab & Eat stands out. Owners Sue Smith and Karie Goedert manage the 41-year-old eatery with a welcoming, no-nonsense staff who cater to regulars and newcomers at the 14-seat counter or 12 booths in the rectangular space within a shopping plaza just outside the city limits. Enjoy a mug of robust coffee alongside fluffy pancakes, heaps of home fries, crispy bacon, and eggs cooked to your preference. Gab & Eat’s flattop chefs were smashing burgers long before it became trendy; the never-frozen beef patties, topped with razor-thin onions and traditional garnishes, rank among Pittsburgh’s finest.
+                  - list [ref=e1534]:
+                    - listitem [ref=e1535]:
+                      - link "Location 1073 Washington Ave, Carnegie, PA, 15106, USExternal Link" [ref=e1536] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Gab%20%26%20Eat%2C%201073%20Washington%20Ave%2C%20Carnegie%2C%20PA%2C%2015106%2C%20US
+                        - img "Location" [ref=e1537]
+                        - generic [ref=e1539]:
+                          - text: 1073 Washington Ave, Carnegie, PA, 15106, US
+                          - img "External Link" [ref=e1540]
+                    - listitem [ref=e1542]:
+                      - link "Phone +14122768808" [ref=e1543] [cursor=pointer]:
+                        - /url: tel:14122768808
+                        - img "Phone" [ref=e1544]
+                        - text: "+14122768808"
+                    - listitem [ref=e1546]:
+                      - link "Link Visit website" [ref=e1547] [cursor=pointer]:
+                        - /url: http://gabneat.com
+                        - img "Link" [ref=e1548]
+                        - text: Visit website
+                  - generic [ref=e1552]:
+                    - img "A big burger with lettuce on a white plate." [ref=e1555]
+                    - generic [ref=e1556]: Hal B. Klein
+      - generic [ref=e1557]:
+        - generic [ref=e1558]:
+          - text: advertisement
+          - generic [ref=e1559]: AD
+        - generic [ref=e1560]:
+          - generic [ref=e1561]:
+            - generic [ref=e1563]:
+              - heading "More in Dining Out in DC" [level=2] [ref=e1567]:
+                - text: More in
+                - link "Dining Out in DC" [ref=e1568] [cursor=pointer]:
+                  - /url: /dining-out-in-dc
+              - generic [ref=e1571]:
+                - generic [ref=e1573]:
+                  - img "The Best Restaurants and Bars Near Capital One Arena, Home of the Washington Wizards and Capitals" [ref=e1575]
+                  - link "The Best Restaurants and Bars Near Capital One Arena, Home of the Washington Wizards and Capitals" [ref=e1582] [cursor=pointer]:
+                    - /url: /maps/best-bars-restaurants-near-capital-one-arena-penn-quarter-chinatown-dc
+                - generic [ref=e1584]:
+                  - img "What to Eat and Drink at Nationals Park, Home of the Washington Nationals" [ref=e1586]
+                  - link "What to Eat and Drink at Nationals Park, Home of the Washington Nationals" [ref=e1593] [cursor=pointer]:
+                    - /url: /24391028/best-food-nationals-park-baseball-stadium-washington-nationals-games
+                - generic [ref=e1595]:
+                  - img "The Best Irish Pubs Around D.C." [ref=e1597]
+                  - link "The Best Irish Pubs Around D.C." [ref=e1604] [cursor=pointer]:
+                    - /url: /maps/best-irish-pubs-bars-dc
+                - generic [ref=e1606]:
+                  - img "D.C.’s Best Sports Bars" [ref=e1608]
+                  - link "D.C.’s Best Sports Bars" [ref=e1615] [cursor=pointer]:
+                    - /url: /maps/best-sports-bars-dc-dmv
+                - generic [ref=e1617]:
+                  - img "This Is What You Get When Japanese and Italian Food Collide" [ref=e1619]
+                  - link "This Is What You Get When Japanese and Italian Food Collide" [ref=e1626] [cursor=pointer]:
+                    - /url: https://www.eater.com/trends/946838/japanes-wafu-italian-itameshi-restaurant-trend
+                - generic [ref=e1628]:
+                  - img "The Best Brunches in D.C." [ref=e1630]
+                  - link "The Best Brunches in D.C." [ref=e1637] [cursor=pointer]:
+                    - /url: /maps/best-brunches-dc
+            - link "Advertisement" [ref=e1641] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e1642]:
+                - generic [ref=e1643]:
+                  - generic [ref=e1644]: Advertiser Content From
+                  - img "Sponsor Logo" [ref=e1646]
+                - paragraph [ref=e1647]: This is the title for the native ad
+          - generic [ref=e1649]:
+            - heading "The Latest" [level=2] [ref=e1653]
+            - generic [ref=e1654]:
+              - generic [ref=e1658]:
+                - time [ref=e1662]: Apr 10
+                - link "The Vietnamese Restaurant in Penn Quarter That Keeps You Circling Back" [ref=e1665] [cursor=pointer]:
+                  - /url: /dining-report/167446/moon-rabbit-vietnamese-penn-quarter-review
+              - generic [ref=e1669]:
+                - time [ref=e1673]: Apr 9
+                - link "The Best New Restaurants Around D.C., April 2026" [ref=e1676] [cursor=pointer]:
+                  - /url: /maps/best-new-restaurants-heatmap-dc
+              - generic [ref=e1680]:
+                - time [ref=e1684]: Apr 8
+                - link "The 38 Best Restaurants Around D.C." [ref=e1687] [cursor=pointer]:
+                  - /url: /maps/dc-best-restaurants-38
+              - generic [ref=e1691]:
+                - time [ref=e1695]: Apr 8
+                - link "A Color-Soaked Import Brings an Indian Street Foods Party to D.C." [ref=e1698] [cursor=pointer]:
+                  - /url: /dining-report/167384/chai-pani-indian-street-foods-union-market-dc-review
+              - generic [ref=e1702]:
+                - time [ref=e1706]: Apr 7
+                - link "Get Ready for Hot Crawfish Summer in Navy Yard" [ref=e1709] [cursor=pointer]:
+                  - /url: /coming-attractions/167363/catahoula-seafood-dc-restaurant-opening-new-orleans-navy-yard-coming-attractions
+              - generic [ref=e1713]:
+                - time [ref=e1717]: Apr 3
+                - link "Drink Deals and Duck Shawarma at This Hidden Gem on H Street" [ref=e1720] [cursor=pointer]:
+                  - /url: /dining-report/167332/tiffany-bar-and-bistro-mediterranean-h-street-review
+    - contentinfo [ref=e1721]:
+      - generic [ref=e1722]:
+        - text: advertisement
+        - generic [ref=e1723]: AD
+      - generic [ref=e1725]:
+        - generic [ref=e1726]:
+          - link "Eater" [ref=e1727] [cursor=pointer]:
+            - /url: /
+            - img "Eater" [ref=e1728]
+          - list [ref=e1731]:
+            - listitem [ref=e1732]:
+              - link "Facebook" [ref=e1733] [cursor=pointer]:
+                - /url: https://www.facebook.com/EaterDC
+                - img "Facebook" [ref=e1734]
+            - listitem [ref=e1736]:
+              - link "Twitter" [ref=e1737] [cursor=pointer]:
+                - /url: https://twitter.com/Eater_DC
+                - img "Twitter" [ref=e1738]
+            - listitem [ref=e1740]:
+              - link "Instagram" [ref=e1741] [cursor=pointer]:
+                - /url: https://www.instagram.com/eater_dc
+                - img "Instagram" [ref=e1742]
+            - listitem [ref=e1744]:
+              - link "Youtube" [ref=e1745] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/eater1
+                - img "Youtube" [ref=e1746]
+            - listitem [ref=e1748]:
+              - link "RSS" [ref=e1749] [cursor=pointer]:
+                - /url: /rss/index.xml
+                - img "RSS" [ref=e1750]
+            - listitem [ref=e1752]:
+              - link [ref=e1753] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+                - img [ref=e1754]
+        - generic [ref=e1756]:
+          - list [ref=e1757]:
+            - listitem [ref=e1758]:
+              - link "Terms of Use" [ref=e1759] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/terms-of-use
+            - listitem [ref=e1760]:
+              - link "Privacy Notice" [ref=e1761] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/privacy-notice
+            - listitem [ref=e1762]:
+              - link "Cookie Policy" [ref=e1763] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/cookie-policy
+            - listitem [ref=e1764]:
+              - button "Do Not Sell or Share My Personal Data" [ref=e1765] [cursor=pointer]
+            - listitem [ref=e1766]:
+              - link "Licensing FAQ" [ref=e1767] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/pages/licensing
+            - listitem [ref=e1768]:
+              - link "Accessibility" [ref=e1769] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/accessibility
+            - listitem [ref=e1770]:
+              - link "Platform Status" [ref=e1771] [cursor=pointer]:
+                - /url: https://status.voxmedia.com
+          - list [ref=e1772]:
+            - listitem [ref=e1773]:
+              - link "Archives" [ref=e1774] [cursor=pointer]:
+                - /url: /archives/full
+            - listitem [ref=e1775]:
+              - link "Contact Us" [ref=e1776] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e1777]:
+              - link "Send Us a Tip" [ref=e1778] [cursor=pointer]:
+                - /url: https://www.eater.com/2017/11/1/16572850/send-secure-tips-to-eater
+            - listitem [ref=e1779]:
+              - link "Community Guidelines" [ref=e1780] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/eater-community-guidelines
+            - listitem [ref=e1781]:
+              - link "Masthead" [ref=e1782] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/masthead
+            - listitem [ref=e1783]:
+              - link "About Eater" [ref=e1784] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/about
+            - listitem [ref=e1785]:
+              - link "Ethics Statement" [ref=e1786] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-ethics-statement
+            - listitem [ref=e1787]:
+              - link "Press Room" [ref=e1788] [cursor=pointer]:
+                - /url: https://www.eater.com/press-room
+            - listitem [ref=e1789]:
+              - link "Newsletters" [ref=e1790] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+            - listitem [ref=e1791]:
+              - link "How to Pitch" [ref=e1792] [cursor=pointer]:
+                - /url: https://www.eater.com/2016/12/15/13962822/eater-pitching-guidelines-how-to-pitch
+            - listitem [ref=e1793]:
+              - link "Maps Methodology" [ref=e1794] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-maps-methodology
+        - paragraph [ref=e1795]:
+          - text: © 2026
+          - link "Vox Media" [ref=e1796] [cursor=pointer]:
+            - /url: https://www.voxmedia.com
+          - text: ", LLC. All Rights Reserved"
+  - alert [ref=e1797]

@@ -1,0 +1,646 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Québec City YQB" [ref=e177]: Québec City
+                - generic [ref=e179]: Québec City YQB
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 9 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 609 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $609
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 609 US dollars round trip total. 1 stop flight with American. Operated by Piedmont Airlines as American Eagle. Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Saturday, August 8. Total duration 5 hr 12 min. Layover (1 of 1) is a 1 hr 40 min layover at Philadelphia International Airport in Philadelphia. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Saturday, August 8." [ref=e411]:
+                            - 'generic "Departure time: 8:00 AM." [ref=e414]': 8:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:12 PM." [ref=e417]': 1:12 PM
+                          - generic [ref=e418]:
+                            - text: American
+                            - generic [ref=e419]: ·
+                            - text: Operated by Piedmont Airlines as American Eagle
+                        - generic [ref=e420]:
+                          - generic "Total duration 5 hr 12 min." [ref=e421]: 5 hr 12 min
+                          - generic [ref=e422]:
+                            - generic [ref=e425]: PIT
+                            - text: –
+                            - generic [ref=e428]: YQB
+                        - generic [ref=e429]:
+                          - generic "1 stop flight." [ref=e431]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 40 min layover at Philadelphia International Airport in Philadelphia." [ref=e432]:
+                            - text: 1 hr 40 min
+                            - generic [ref=e434]: PHL
+                        - generic [ref=e436]:
+                          - generic [ref=e438]: 237 kg CO2e
+                          - generic [ref=e439]:
+                            - generic [ref=e440]: Avg emissions
+                            - 'button "Carbon emissions estimate: 237 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e441]':
+                              - img [ref=e442]
+                        - generic [ref=e444]:
+                          - generic [ref=e446]: $609
+                          - generic [ref=e447]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Saturday, August 8." [ref=e450]:
+                      - img [ref=e453]
+                - listitem [ref=e455]:
+                  - generic [ref=e456]:
+                    - link "From 609 US dollars round trip total. 1 stop flight with American. Operated by Republic Airways as American Eagle, Republic Airways as American Eagle. Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:46 PM on Saturday, August 8. Total duration 4 hr 57 min. Layover (1 of 1) is a 1 hr 31 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e458] [cursor=pointer]:
+                      - generic [ref=e460]:
+                        - generic [ref=e462]:
+                          - generic "Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:46 PM on Saturday, August 8." [ref=e464]:
+                            - 'generic "Departure time: 8:49 AM." [ref=e467]': 8:49 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:46 PM." [ref=e470]': 1:46 PM
+                          - generic [ref=e471]:
+                            - text: American
+                            - generic [ref=e472]: ·
+                            - text: Operated by Republic Airways as American Eagle, Republic Airways as American Eagle
+                        - generic [ref=e473]:
+                          - generic "Total duration 4 hr 57 min." [ref=e474]: 4 hr 57 min
+                          - generic [ref=e475]:
+                            - generic [ref=e478]: PIT
+                            - text: –
+                            - generic [ref=e481]: YQB
+                        - generic [ref=e482]:
+                          - generic "1 stop flight." [ref=e484]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 31 min layover at John F. Kennedy International Airport in New York." [ref=e485]:
+                            - text: 1 hr 31 min
+                            - generic [ref=e487]: JFK
+                        - generic [ref=e489]:
+                          - generic [ref=e491]: 202 kg CO2e
+                          - generic [ref=e492]:
+                            - generic [ref=e493]: "-18% emissions"
+                            - 'button "Carbon emissions estimate: 202 kilograms. -18% emissions. Learn more about this emissions estimate" [ref=e494]':
+                              - img [ref=e495]
+                        - generic [ref=e497]:
+                          - generic [ref=e499]: $609
+                          - generic [ref=e500]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:46 PM on Saturday, August 8." [ref=e503]:
+                      - img [ref=e506]
+                - listitem [ref=e508]:
+                  - generic [ref=e509]:
+                    - link "From 609 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 10:41 PM on Saturday, August 8. Total duration 4 hr 21 min. Layover (1 of 1) is a 46 min layover at Newark Liberty International Airport in Newark. Select flight"
+                    - generic [ref=e511] [cursor=pointer]:
+                      - generic [ref=e513]:
+                        - generic [ref=e515]:
+                          - generic "Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 10:41 PM on Saturday, August 8." [ref=e517]:
+                            - 'generic "Departure time: 6:20 PM." [ref=e520]': 6:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:41 PM." [ref=e523]': 10:41 PM
+                          - generic [ref=e524]:
+                            - text: United
+                            - generic [ref=e525]: ·
+                            - text: Operated by Republic Airways DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e526]:
+                          - generic "Total duration 4 hr 21 min." [ref=e527]: 4 hr 21 min
+                          - generic [ref=e528]:
+                            - generic [ref=e531]: PIT
+                            - text: –
+                            - generic [ref=e534]: YQB
+                        - generic [ref=e535]:
+                          - generic "1 stop flight." [ref=e537]: 1 stop
+                          - generic "Layover (1 of 1) is a 46 min layover at Newark Liberty International Airport in Newark." [ref=e538]:
+                            - text: 46 min
+                            - generic [ref=e540]: EWR
+                        - generic [ref=e542]:
+                          - generic [ref=e544]: 199 kg CO2e
+                          - generic [ref=e545]:
+                            - generic [ref=e546]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 199 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e547]':
+                              - img [ref=e548]
+                        - generic [ref=e550]:
+                          - generic [ref=e552]: $609
+                          - generic [ref=e553]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:20 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 10:41 PM on Saturday, August 8." [ref=e556]:
+                      - img [ref=e559]
+            - generic [ref=e565]:
+              - heading "Price insights" [level=3] [ref=e566]
+              - generic [ref=e567] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e572]
+                - generic [ref=e574]: View price history
+                - button "View price history" [ref=e576]:
+                  - img [ref=e579]
+            - region "Find the best price" [ref=e581]:
+              - generic [ref=e584]:
+                - img [ref=e585]
+                - heading "Track prices" [level=2] [ref=e587]
+                - button "Learn more about tracked prices" [ref=e591] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e592]:
+                    - img [ref=e593]
+                - generic [ref=e595]: Track prices from Pittsburgh to Québec City departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e596]:
+                  - generic [ref=e598] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Québec City departing 2026-08-08 and returning 2026-08-15" [ref=e601] [cursor=pointer]:
+                    - generic [ref=e606]:
+                      - img [ref=e607]
+                      - img [ref=e609]
+                - generic [ref=e612]: Track prices from Pittsburgh to Québec City - Any dates
+                - generic [ref=e614]:
+                  - generic [ref=e615] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Québec City - Any dates" [ref=e618] [cursor=pointer]:
+                    - generic [ref=e623]:
+                      - img [ref=e624]
+                      - img [ref=e626]
+              - generic [ref=e631]:
+                - button "Date grid" [ref=e633]:
+                  - img [ref=e635]
+                  - generic [ref=e642]: Date grid
+                - button "Price graph" [ref=e644]:
+                  - img [ref=e646]
+                  - generic [ref=e656]: Price graph
+            - generic [ref=e657]:
+              - heading "Other departing flights" [level=3] [ref=e658]
+              - list [ref=e659]:
+                - listitem [ref=e660]:
+                  - generic [ref=e661]:
+                    - link "From 682 US dollars round trip total. 1 stop flight with American. Operated by Piedmont Airlines as American Eagle, Piedmont Airlines as American Eagle. Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Sunday, August 9. Total duration 17 hr 33 min. Layover (1 of 1) is a 13 hr 56 min layover at Philadelphia International Airport in Philadelphia. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e663] [cursor=pointer]:
+                      - generic [ref=e665]:
+                        - generic [ref=e667]:
+                          - generic "Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Sunday, August 9." [ref=e669]:
+                            - 'generic "Departure time: 7:39 PM." [ref=e672]': 7:39 PM
+                            - text: –
+                            - 'generic "Arrival time: 1:12 PM on Sunday, August 9." [ref=e675]':
+                              - 'generic "Arrival time: 1:12 PM on Sunday, August 9." [ref=e676]':
+                                - text: 1:12 PM
+                                - generic [ref=e677]: "+1"
+                          - generic [ref=e678]:
+                            - text: American
+                            - generic [ref=e679]: ·
+                            - text: Operated by Piedmont Airlines as American Eagle, Piedmont Airlines as American Eagle
+                        - generic [ref=e680]:
+                          - generic "Total duration 17 hr 33 min." [ref=e681]: 17 hr 33 min
+                          - generic [ref=e682]:
+                            - generic [ref=e685]: PIT
+                            - text: –
+                            - generic [ref=e688]: YQB
+                        - generic [ref=e689]:
+                          - generic [ref=e690]:
+                            - generic "1 stop flight." [ref=e691]: 1 stop
+                            - img [ref=e696]
+                          - generic "Layover (1 of 1) is a 13 hr 56 min layover at Philadelphia International Airport in Philadelphia." [ref=e699]:
+                            - text: 13 hr 56 min
+                            - generic [ref=e701]: PHL
+                        - generic [ref=e703]:
+                          - generic [ref=e705]: 258 kg CO2e
+                          - generic [ref=e706]:
+                            - generic [ref=e707]: Avg emissions
+                            - 'button "Carbon emissions estimate: 258 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e708]':
+                              - img [ref=e709]
+                        - generic [ref=e711]:
+                          - generic [ref=e712]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e716]:
+                              - generic [ref=e717]:
+                                - generic [ref=e718]:
+                                  - text: "1"
+                                  - img [ref=e719]
+                                - generic [ref=e722]:
+                                  - text: "0"
+                                  - img [ref=e723]
+                            - generic [ref=e726]: $682
+                          - generic [ref=e727]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:39 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:12 PM on Sunday, August 9." [ref=e730]:
+                      - img [ref=e733]
+                - listitem [ref=e735]:
+                  - generic [ref=e736]:
+                    - link "From 688 US dollars round trip total. 2 stops flight with Air Canada. Operated by Air Canada Express - Jazz, Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 12:21 PM on Saturday, August 8. Total duration 6 hr 21 min. Layover (1 of 2) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto. Layover (2 of 2) is a 1 hr 8 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e738] [cursor=pointer]:
+                      - generic [ref=e740]:
+                        - generic [ref=e742]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 12:21 PM on Saturday, August 8." [ref=e744]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e747]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 12:21 PM." [ref=e750]': 12:21 PM
+                          - generic [ref=e751]:
+                            - text: Air Canada
+                            - generic [ref=e752]: ·
+                            - text: Operated by Air Canada Express - Jazz, Air Canada Express - Jazz
+                        - generic [ref=e753]:
+                          - generic "Total duration 6 hr 21 min." [ref=e754]: 6 hr 21 min
+                          - generic [ref=e755]:
+                            - generic [ref=e758]: PIT
+                            - text: –
+                            - generic [ref=e761]: YQB
+                        - generic [ref=e762]:
+                          - generic "2 stops flight." [ref=e764]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 51 min layover at Toronto Pearson International Airport in Toronto. Layover (2 of 2) is a 1 hr 8 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal." [ref=e765]:
+                            - generic [ref=e767]: YYZ
+                            - text: ","
+                            - generic [ref=e769]: YUL
+                        - generic [ref=e771]:
+                          - generic [ref=e773]: 199 kg CO2e
+                          - generic [ref=e774]:
+                            - generic [ref=e775]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 199 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e776]':
+                              - img [ref=e777]
+                        - generic [ref=e779]:
+                          - generic [ref=e780]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e784]:
+                              - generic [ref=e785]:
+                                - generic [ref=e786]:
+                                  - text: "0"
+                                  - img [ref=e787]
+                                - generic [ref=e790]:
+                                  - text: "0"
+                                  - img [ref=e791]
+                            - generic [ref=e794]: $688
+                          - generic [ref=e795]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 12:21 PM on Saturday, August 8." [ref=e798]:
+                      - img [ref=e801]
+                - listitem [ref=e803]:
+                  - generic [ref=e804]:
+                    - link "From 704 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz, Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:30 PM on Saturday, August 8. Total duration 7 hr 30 min. Layover (1 of 1) is a 4 hr 51 min layover at Toronto Pearson International Airport in Toronto. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e806] [cursor=pointer]:
+                      - generic [ref=e808]:
+                        - generic [ref=e810]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:30 PM on Saturday, August 8." [ref=e812]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e815]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:30 PM." [ref=e818]': 1:30 PM
+                          - generic [ref=e819]:
+                            - text: Air Canada
+                            - generic [ref=e820]: ·
+                            - text: Operated by Air Canada Express - Jazz, Air Canada Express - Jazz
+                        - generic [ref=e821]:
+                          - generic "Total duration 7 hr 30 min." [ref=e822]: 7 hr 30 min
+                          - generic [ref=e823]:
+                            - generic [ref=e826]: PIT
+                            - text: –
+                            - generic [ref=e829]: YQB
+                        - generic [ref=e830]:
+                          - generic "1 stop flight." [ref=e832]: 1 stop
+                          - generic "Layover (1 of 1) is a 4 hr 51 min layover at Toronto Pearson International Airport in Toronto." [ref=e833]:
+                            - text: 4 hr 51 min
+                            - generic [ref=e835]: YYZ
+                        - generic [ref=e837]:
+                          - generic [ref=e839]: 186 kg CO2e
+                          - generic [ref=e840]:
+                            - generic [ref=e841]: "-25% emissions"
+                            - 'button "Carbon emissions estimate: 186 kilograms. -25% emissions. Learn more about this emissions estimate" [ref=e842]':
+                              - img [ref=e843]
+                        - generic [ref=e845]:
+                          - generic [ref=e846]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e850]:
+                              - generic [ref=e851]:
+                                - generic [ref=e852]:
+                                  - text: "0"
+                                  - img [ref=e853]
+                                - generic [ref=e856]:
+                                  - text: "0"
+                                  - img [ref=e857]
+                            - generic [ref=e860]: $704
+                          - generic [ref=e861]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 1:30 PM on Saturday, August 8." [ref=e864]:
+                      - img [ref=e867]
+                - listitem [ref=e869]:
+                  - generic [ref=e870]:
+                    - link "From 757 US dollars round trip total. 1 stop flight with American. Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 10:54 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 3:16 PM on Saturday, August 8. Total duration 4 hr 22 min. Layover (1 of 1) is a 1 hr 10 min layover at Philadelphia International Airport in Philadelphia. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e872] [cursor=pointer]:
+                      - generic [ref=e874]:
+                        - generic [ref=e876]:
+                          - generic "Leaves Pittsburgh International Airport at 10:54 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 3:16 PM on Saturday, August 8." [ref=e878]:
+                            - 'generic "Departure time: 10:54 AM." [ref=e881]': 10:54 AM
+                            - text: –
+                            - 'generic "Arrival time: 3:16 PM." [ref=e884]': 3:16 PM
+                          - generic [ref=e885]:
+                            - text: American
+                            - generic [ref=e886]: ·
+                            - text: Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle
+                        - generic [ref=e887]:
+                          - generic "Total duration 4 hr 22 min." [ref=e888]: 4 hr 22 min
+                          - generic [ref=e889]:
+                            - generic [ref=e892]: PIT
+                            - text: –
+                            - generic [ref=e895]: YQB
+                        - generic [ref=e896]:
+                          - generic "1 stop flight." [ref=e898]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 10 min layover at Philadelphia International Airport in Philadelphia." [ref=e899]:
+                            - text: 1 hr 10 min
+                            - generic [ref=e901]: PHL
+                        - generic [ref=e903]:
+                          - generic [ref=e905]: 252 kg CO2e
+                          - generic [ref=e906]:
+                            - generic [ref=e907]: Avg emissions
+                            - 'button "Carbon emissions estimate: 252 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e908]':
+                              - img [ref=e909]
+                        - generic [ref=e911]:
+                          - generic [ref=e912]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e916]:
+                              - generic [ref=e917]:
+                                - generic [ref=e918]:
+                                  - text: "1"
+                                  - img [ref=e919]
+                                - generic [ref=e922]:
+                                  - text: "0"
+                                  - img [ref=e923]
+                            - generic [ref=e926]: $757
+                          - generic [ref=e927]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:54 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 3:16 PM on Saturday, August 8." [ref=e930]:
+                      - img [ref=e933]
+                - listitem [ref=e935]:
+                  - generic [ref=e936]:
+                    - link "From 810 US dollars round trip total. 1 stop flight with United. Operated by Gojet Airlines DBA United Express, Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 4:00 PM on Saturday, August 8. Total duration 4 hr 34 min. Layover (1 of 1) is a 1 hr 16 min layover at Newark Liberty International Airport in Newark. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e938] [cursor=pointer]:
+                      - generic [ref=e940]:
+                        - generic [ref=e942]:
+                          - generic "Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 4:00 PM on Saturday, August 8." [ref=e944]:
+                            - 'generic "Departure time: 11:26 AM." [ref=e947]': 11:26 AM
+                            - text: –
+                            - 'generic "Arrival time: 4:00 PM." [ref=e950]': 4:00 PM
+                          - generic [ref=e951]:
+                            - text: United
+                            - generic [ref=e952]: ·
+                            - text: Operated by Gojet Airlines DBA United Express, Republic Airways DBA United Express
+                        - generic [ref=e953]:
+                          - generic "Total duration 4 hr 34 min." [ref=e954]: 4 hr 34 min
+                          - generic [ref=e955]:
+                            - generic [ref=e958]: PIT
+                            - text: –
+                            - generic [ref=e961]: YQB
+                        - generic [ref=e962]:
+                          - generic "1 stop flight." [ref=e964]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 16 min layover at Newark Liberty International Airport in Newark." [ref=e965]:
+                            - text: 1 hr 16 min
+                            - generic [ref=e967]: EWR
+                        - generic [ref=e969]:
+                          - generic [ref=e971]: 252 kg CO2e
+                          - generic [ref=e972]:
+                            - generic [ref=e973]: Avg emissions
+                            - 'button "Carbon emissions estimate: 252 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e974]':
+                              - img [ref=e975]
+                        - generic [ref=e977]:
+                          - generic [ref=e978]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e982]:
+                              - generic [ref=e983]:
+                                - generic [ref=e984]:
+                                  - text: "0"
+                                  - img [ref=e985]
+                                - generic [ref=e988]:
+                                  - text: "0"
+                                  - img [ref=e989]
+                            - generic [ref=e992]: $810
+                          - generic [ref=e993]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:26 AM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 4:00 PM on Saturday, August 8." [ref=e996]:
+                      - img [ref=e999]
+                - listitem [ref=e1001]:
+                  - generic [ref=e1002]:
+                    - link "From 915 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz, Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 7:41 PM on Saturday, August 8. Total duration 4 hr 6 min. Layover (1 of 1) is a 1 hr 51 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1004] [cursor=pointer]:
+                      - generic [ref=e1006]:
+                        - generic [ref=e1008]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 7:41 PM on Saturday, August 8." [ref=e1010]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e1013]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:41 PM." [ref=e1016]': 7:41 PM
+                          - generic [ref=e1017]:
+                            - text: Air Canada
+                            - generic [ref=e1018]: ·
+                            - text: Operated by Air Canada Express - Jazz, Air Canada Express - Jazz
+                        - generic [ref=e1019]:
+                          - generic "Total duration 4 hr 6 min." [ref=e1020]: 4 hr 6 min
+                          - generic [ref=e1021]:
+                            - generic [ref=e1024]: PIT
+                            - text: –
+                            - generic [ref=e1027]: YQB
+                        - generic [ref=e1028]:
+                          - generic "1 stop flight." [ref=e1030]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 51 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal." [ref=e1031]:
+                            - text: 1 hr 51 min
+                            - generic [ref=e1033]: YUL
+                        - generic [ref=e1035]:
+                          - generic [ref=e1037]: 177 kg CO2e
+                          - generic [ref=e1038]:
+                            - generic [ref=e1039]: "-28% emissions"
+                            - 'button "Carbon emissions estimate: 177 kilograms. -28% emissions. Learn more about this emissions estimate" [ref=e1040]':
+                              - img [ref=e1041]
+                        - generic [ref=e1043]:
+                          - generic [ref=e1044]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1048]:
+                              - generic [ref=e1049]:
+                                - generic [ref=e1050]:
+                                  - text: "1"
+                                  - img [ref=e1051]
+                                - generic [ref=e1054]:
+                                  - text: "0"
+                                  - img [ref=e1055]
+                            - generic [ref=e1058]: $915
+                          - generic [ref=e1059]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Québec City Jean Lesage International Airport at 7:41 PM on Saturday, August 8." [ref=e1062]:
+                      - img [ref=e1065]
+                - listitem [ref=e1067]:
+                  - generic [ref=e1068] [cursor=pointer]:
+                    - button "View more flights" [ref=e1071]:
+                      - img
+                    - generic [ref=e1074]: View more flights
+          - text: · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e1077]:
+        - generic [ref=e1079]:
+          - button "Language·English (United States)" [ref=e1080]:
+            - img [ref=e1083]
+            - generic [ref=e1085]: Language·English (United States)
+          - button "Location·United States" [ref=e1086]:
+            - img [ref=e1089]
+            - generic [ref=e1092]: Location·United States
+          - button "Currency USD" [ref=e1093]:
+            - img [ref=e1096]
+            - generic [ref=e1106]: Currency·USD
+        - generic [ref=e1107]:
+          - link "About Google Travel" [ref=e1108] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1109] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1110] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1111] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1112] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1113] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1115]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1116] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

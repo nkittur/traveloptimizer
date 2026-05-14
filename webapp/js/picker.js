@@ -1,12 +1,13 @@
 // picker.js — Pre-screen: list my groups, browse public groups, join via link, create new.
-import * as db from './supabase.js?v=1775460000';
-import * as groupCtx from './group.js?v=1775460000';
+import * as db from './supabase.js?v=1776965114';
+import * as groupCtx from './group.js?v=1776965114';
 
 const $root = document.getElementById('picker-root');
 $root.hidden = false;
 
 let _publicGroups = [];
 let _publicCounts = {};
+let _publicTrips = [];
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -50,6 +51,35 @@ function render() {
                   </div>
                 </li>
               `).join('')}
+            </ul>
+          </section>
+        ` : ''}
+
+        ${_publicTrips.length ? `
+          <section class="picker-section">
+            <h2 class="picker-section-title">Trips</h2>
+            <p class="picker-section-sub">Vacation-planning trips with ranked destinations, scorecards, and visual itineraries.</p>
+            <ul class="picker-list">
+              ${_publicTrips.map(t => {
+                const dates = (t.dates_start && t.dates_end)
+                  ? new Date(t.dates_start).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                    + ' – '
+                    + new Date(t.dates_end).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                  : (t.duration_days ? t.duration_days + ' days' : '');
+                return `
+                <li class="picker-card picker-card-public" data-action="open-trip" data-id="${esc(t.id)}">
+                  <div class="picker-card-main">
+                    <div class="picker-card-title">${esc(t.name || 'Trip')}</div>
+                    <div class="picker-card-sub">
+                      ${esc(dates)}${t.origin_airport ? ' · from ' + esc(t.origin_airport) : ''}
+                    </div>
+                  </div>
+                  <div class="picker-card-actions">
+                    <span class="picker-pill-public">Trip</span>
+                  </div>
+                </li>
+                `;
+              }).join('')}
             </ul>
           </section>
         ` : ''}
@@ -160,6 +190,7 @@ $root.addEventListener('click', (e) => {
   const action = btn.dataset.action;
   const id = btn.dataset.id;
   if (action === 'open') { openGroup(id); return; }
+  if (action === 'open-trip') { location.href = `/?t=${encodeURIComponent(id)}`; return; }
   if (action === 'share') { e.stopPropagation(); copyShareLink(id); return; }
   if (action === 'forget') {
     e.stopPropagation();
@@ -174,7 +205,12 @@ $root.addEventListener('click', (e) => {
 render();
 
 (async () => {
-  _publicGroups = await db.loadPublicGroups();
+  const [groups, trips] = await Promise.all([
+    db.loadPublicGroups(),
+    db.loadPublicTrips(),
+  ]);
+  _publicGroups = groups;
+  _publicTrips = trips;
   if (_publicGroups.length) {
     _publicCounts = await db.countActiveRestaurants(_publicGroups.map(g => g.id));
   }

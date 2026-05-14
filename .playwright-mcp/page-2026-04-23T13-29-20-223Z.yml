@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/FoodLosAngeles best restaurants LA 2024 OR 2025 site:reddit.com/r/FoodLosAngeles best restaurants LA 2024 OR 2025
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252FFoodLosAngeles%2Bbest%2Brestaurants%2BLA%2B2024%2BOR%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&aep=1&ntc=1&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ2J8OegQIEhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQs6gLegQIGBAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQtKgLegQIFxAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQs6gLegQIFhAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "News" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ0pQJegQIFBAB
+              - generic [ref=e103]: News
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB6T5acHzpcMb2Sa86_LK1j2D50BBrTcJxqBJS7fVb0O8luU4n2fHtA-TAQeP-39NM3yEMTnZtvK9bAvpWxZrEubnhGWnAwn5PNTlGzPvtwGvC5jOnhNB5j_YjavRKnjSVY4ld6JlNLUGMZ6BEOkwAdAlYH1A&q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQtKgLegQIFRAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "La Times 101 best Restaurants discussion - 2025 Reddit · r/FoodLosAngeles 140+ comments · 4 months ago" [ref=e144] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1piviyq/la_times_101_best_restaurants_discussion_2025/
+                - heading "La Times 101 best Restaurants discussion - 2025" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Reddit · r/FoodLosAngeles
+                  - generic [ref=e154]: 140+ comments · 4 months ago
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - emphasis [ref=e163]: Meteora, Camphor, and Pasta Bar
+                - text: are all excellent. Hard to imagine them not making this list. DJMataLeao. • 4mo ago. Agree. Enjoyed the Meteora ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1piviyq/la_times_101_best_restaurants_discussion_2025/#:~:text=Meteora%2C%20Camphor%2C%20and%20Pasta%20Bar,the%20101%20Best%20awards%20night.
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "r/FoodLosAngeles — 2025's Best Restaurants Poll results! Reddit · r/FoodLosAngeles 10+ comments · 1 month ago" [ref=e173] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/
+              - heading "r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [level=3] [ref=e174]
+              - generic [ref=e179]:
+                - generic [ref=e181]: Reddit · r/FoodLosAngeles
+                - generic [ref=e183]: 10+ comments · 1 month ago
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - emphasis [ref=e192]: Holbox won "Best Bite of the Year
+              - text: "\" by getting 3 different bites nominated, and Restaurant Ki and Kurrypinch tied for \"Best New Restaurant\"."
+            - link "Read more" [ref=e193] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/#:~:text=Holbox%20won%20%22Best%20Bite%20of,tied%20for%20%22Best%20New%20Restaurant%22.
+        - generic [ref=e197]:
+          - generic [ref=e200]:
+            - 'link "My Favorite LA Spots (Jan 2025) : r/FoodLosAngeles Reddit · r/FoodLosAngeles 30+ comments · 1 year ago" [ref=e202] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/
+              - 'heading "My Favorite LA Spots (Jan 2025) : r/FoodLosAngeles" [level=3] [ref=e203]'
+              - generic [ref=e208]:
+                - generic [ref=e210]: Reddit · r/FoodLosAngeles
+                - generic [ref=e212]: 30+ comments · 1 year ago
+            - button "About this result" [ref=e213] [cursor=pointer]:
+              - img [ref=e216]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - text: I have lived in LA for 3 years now and
+              - emphasis [ref=e221]: here are my favorite places to eat
+              - text: . I stuck to places I have been more than once, minus the very ...
+            - link "Read more" [ref=e222] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ibq99c/my_favorite_la_spots_jan_2025/#:~:text=I%20have%20lived%20in%20LA,minus%20the%20very%20expensive%20ones.
+        - generic [ref=e226]:
+          - generic [ref=e229]:
+            - link "What's on your 'must visit' food places in 2024? Reddit · r/FoodLosAngeles 90+ comments · 2 years ago" [ref=e231] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1abqopc/whats_on_your_must_visit_food_places_in_2024/
+              - heading "What's on your 'must visit' food places in 2024?" [level=3] [ref=e232]
+              - generic [ref=e237]:
+                - generic [ref=e239]: Reddit · r/FoodLosAngeles
+                - generic [ref=e241]: 90+ comments · 2 years ago
+            - button "About this result" [ref=e242] [cursor=pointer]:
+              - img [ref=e245]
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - text: "Places I have been to and you must visit:"
+              - emphasis [ref=e250]: Holbox
+              - text: ", Found Oyster, Parks Bbq, Ginsol Gukbap, 8th Street Sundae, Damian, Pasjoli, Anajak Thai, ..."
+            - link "Read more" [ref=e251] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1abqopc/whats_on_your_must_visit_food_places_in_2024/#:~:text=Places%20I%20have%20been%20to,Sundae%2C%20Damian%2C%20Pasjoli%2C%20Anajak%20Thai%2C
+          - generic [ref=e256]:
+            - link "97 answers" [ref=e257] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1abqopc/whats_on_your_must_visit_food_places_in_2024/kjpbiag/
+            - generic [ref=e258]: ·
+            - generic [ref=e259]: "Top answer:"
+            - generic [ref=e260]: Holbox, Antico Nuovo, Hae Heng Chicken Rice, Anajak. Number one with a bullet coming into ...
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - 'link "LA Times - 101 Best Restaurants : r/FoodLosAngeles Reddit · r/FoodLosAngeles 270+ comments · 4 months ago" [ref=e269] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1pive72/la_times_101_best_restaurants/
+              - 'heading "LA Times - 101 Best Restaurants : r/FoodLosAngeles" [level=3] [ref=e270]'
+              - generic [ref=e275]:
+                - generic [ref=e277]: Reddit · r/FoodLosAngeles
+                - generic [ref=e279]: 270+ comments · 4 months ago
+            - button "About this result" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - text: Just copied and pasted from article).
+              - emphasis [ref=e288]: Panda Inn Chinese American
+              - text: • $$ . Soowon Galbi Koreatown • Korean • $$. Kang Kang Food Court Alhambra • ...
+            - link "Read more" [ref=e289] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1pive72/la_times_101_best_restaurants/#:~:text=Just%20copied%20and%20pasted%20from,Alhambra%20%E2%80%A2%20Chinese%20%E2%80%A2%20%24
+        - generic [ref=e293]:
+          - generic [ref=e296]:
+            - 'link "Dine LA 2025 : r/FoodLosAngeles Reddit · r/FoodLosAngeles 70+ comments · 3 months ago" [ref=e298] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1qhhcn5/dine_la_2025/
+              - 'heading "Dine LA 2025 : r/FoodLosAngeles" [level=3] [ref=e299]'
+              - generic [ref=e304]:
+                - generic [ref=e306]: Reddit · r/FoodLosAngeles
+                - generic [ref=e308]: 70+ comments · 3 months ago
+            - button "About this result" [ref=e309] [cursor=pointer]:
+              - img [ref=e312]
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - text: I do
+              - emphasis [ref=e317]: gyu kaku and north Italia
+              - text: every Dine LA..... Just because I like those places anyhow and it's such a good price for all that food!
+            - link "Read more" [ref=e318] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1qhhcn5/dine_la_2025/#:~:text=I%20do%20gyu%20kaku%20and,price%20for%20all%20that%20food!
+        - generic [ref=e322]:
+          - generic [ref=e325]:
+            - link "r/FoodLosAngeles Reddit · r/FoodLosAngeles 326.4K+ followers" [ref=e327] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/
+              - heading "r/FoodLosAngeles" [level=3] [ref=e328]
+              - generic [ref=e333]:
+                - generic [ref=e335]: Reddit · r/FoodLosAngeles
+                - generic [ref=e337]: 326.4K+ followers
+            - button "About this result" [ref=e338] [cursor=pointer]:
+              - img [ref=e341]
+          - generic [ref=e345]:
+            - text: "r/FoodLosAngeles:"
+            - emphasis [ref=e346]: Food Los Angeles
+            - text: is dedicated to showcasing food from all over the greater Los Angeles area. Share pictures, reviews and news, and…
+        - generic [ref=e350]:
+          - generic [ref=e353]:
+            - link "Thanks Food LA for a great year! My 2025 eats! Reddit · r/FoodLosAngeles 30+ comments · 3 months ago" [ref=e355] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1pzpvd6/thanks_food_la_for_a_great_year_my_2025_eats/
+              - heading "Thanks Food LA for a great year! My 2025 eats!" [level=3] [ref=e356]
+              - generic [ref=e361]:
+                - generic [ref=e363]: Reddit · r/FoodLosAngeles
+                - generic [ref=e365]: 30+ comments · 3 months ago
+            - button "About this result" [ref=e366] [cursor=pointer]:
+              - img [ref=e369]
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - text: Shoutout to
+              - emphasis [ref=e374]: Road to Seoul, Ave 26 Tacos, Yuchun, Canter's and Gus's Fried Chicken
+              - text: "- not pictured. Looking forward to all the recommendations and ..."
+            - link "Read more" [ref=e375] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1pzpvd6/thanks_food_la_for_a_great_year_my_2025_eats/#:~:text=Shoutout%20to%20Road%20to%20Seoul%2C,recommendations%20and%20eats%20in%202026!
+        - generic [ref=e379]:
+          - generic [ref=e382]:
+            - link "r/FoodLosAngeles Reddit https://www.reddit.com › FoodLosAngeles › rising" [ref=e384] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/rising/
+              - heading "r/FoodLosAngeles" [level=3] [ref=e385]
+              - generic [ref=e390]:
+                - generic [ref=e392]: Reddit
+                - generic [ref=e394]: https://www.reddit.com › FoodLosAngeles › rising
+            - button "About this result" [ref=e395] [cursor=pointer]:
+              - img [ref=e398]
+          - generic [ref=e402]:
+            - text: "r/FoodLosAngeles:"
+            - emphasis [ref=e403]: Food Los Angeles
+            - text: is dedicated to showcasing food from all over the greater Los Angeles area. Share pictures, reviews and news, and…
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "America's Best Restaurants 2025 according to NYT (3 in LA) Reddit · r/FoodLosAngeles 20+ comments · 7 months ago" [ref=e412] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ncivel/americas_best_restaurants_2025_according_to_nyt_3/
+              - heading "America's Best Restaurants 2025 according to NYT (3 in LA)" [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: Reddit · r/FoodLosAngeles
+                - generic [ref=e422]: 20+ comments · 7 months ago
+            - button "About this result" [ref=e423] [cursor=pointer]:
+              - img [ref=e426]
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - emphasis [ref=e431]: Nozomi
+              - text: is also great, definitely with a distinct point of view on an omakase in a city that's rife with them. They are clearly not better than ...
+            - link "Read more" [ref=e432] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ncivel/americas_best_restaurants_2025_according_to_nyt_3/#:~:text=Nozomi%20is%20also%20great%2C%20definitely,Providence%20or%20Hayato%20or%20Kato.
+      - generic [ref=e434]:
+        - generic [ref=e439]:
+          - heading "People also search for" [level=2] [ref=e441]
+          - generic [ref=e443]:
+            - link "Best restaurants la 2024 2025 reddit" [ref=e448] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&q=Best+restaurants+la+2024+2025+reddit&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ1QJ6BAgzEAE
+              - generic [ref=e449]:
+                - generic [ref=e454]: Best restaurants la 2024 2025 reddit
+                - img [ref=e458]
+            - link "Best restaurants la 2024 2025 california" [ref=e464] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&q=Best+restaurants+la+2024+2025+california&sa=X&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ1QJ6BAg0EAE
+              - generic [ref=e465]:
+                - generic [ref=e470]: Best restaurants la 2024 2025 california
+                - img [ref=e474]
+        - navigation [ref=e476]:
+          - heading "Page Navigation" [level=1] [ref=e477]
+          - text: "1"
+          - link "Page 2" [ref=e480] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=10&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAE
+            - text: "2"
+          - link "Page 3" [ref=e482] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=20&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAG
+            - text: "3"
+          - link "Page 4" [ref=e484] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=30&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAI
+            - text: "4"
+          - link "Page 5" [ref=e486] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=40&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAK
+            - text: "5"
+          - link "Page 6" [ref=e488] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=50&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAM
+            - text: "6"
+          - link "Page 7" [ref=e490] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=60&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAO
+            - text: "7"
+          - link "Page 8" [ref=e492] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=70&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAQ
+            - text: "8"
+          - link "Page 9" [ref=e494] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=80&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAS
+            - text: "9"
+          - link "Page 10" [ref=e496] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=90&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8tMDegQILBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e498]:
+            - link "Next" [ref=e499] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/FoodLosAngeles+best+restaurants+LA+2024+OR+2025&sca_esv=33b5970ecd4ab1db&ei=rx7qafr-FqTjiLMPv_vYgAw&start=10&sa=N&sstk=Af77f_d9dCOEzbjWZgWLheifl0fzplOrgvqXIf43hylkcRP6YZ2coo5Eqkmu3z7fCK48VeRzcEoiHgdMNU20y5ecd1OMgxHLSkIlpw&ved=2ahUKEwi6kt6VioSUAxWkMWIAHb89FsAQ8NMDegQILBAW
+              - generic [ref=e501]: Next
+      - navigation
+    - contentinfo [ref=e502]:
+      - heading "Footer Links" [level=1] [ref=e503]
+      - generic [ref=e507]:
+        - generic [ref=e511]:
+          - button "15213, Pittsburgh, PA - From your IP address" [ref=e513] [cursor=pointer]:
+            - generic [ref=e514]: 15213, Pittsburgh, PA
+            - generic [ref=e516]:
+              - text: "-"
+              - generic [ref=e517]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e519] [cursor=pointer]: Update location
+        - generic [ref=e522]:
+          - link "Help" [ref=e523] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e524] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e525] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e526] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

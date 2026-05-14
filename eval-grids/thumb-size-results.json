@@ -1,0 +1,250 @@
+{
+  "sample": [
+    {
+      "idx": 1,
+      "place": "The Church Brew Works",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 2,
+      "place": "Helltown Brewing - Strip District",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 3,
+      "place": "Southern Tier Brewery Pittsburgh",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 4,
+      "place": "Cinderlands Warehouse",
+      "truth": "outdoor"
+    },
+    {
+      "idx": 5,
+      "place": "Hazel Grove Brewing",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 6,
+      "place": "Mondays Brewing Taproom",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 7,
+      "place": "Allegheny City Brewing",
+      "truth": "outdoor"
+    },
+    {
+      "idx": 8,
+      "place": "The Urban Tap - Shadyside",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 9,
+      "place": "Hop Farm Brewing Company",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 10,
+      "place": "Eleventh Hour Brewing",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 11,
+      "place": "Hop Farm Brewing Company",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 12,
+      "place": "Two Frays Brewery",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 13,
+      "place": "Trace Brewing",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 14,
+      "place": "The Urban Tap - Shadyside",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 15,
+      "place": "Burghers Brewing Co.",
+      "truth": "NOT outdoor"
+    },
+    {
+      "idx": 16,
+      "place": "Two Frays Brewery",
+      "truth": "NOT outdoor"
+    }
+  ],
+  "results": {
+    "150x110 (current)": {
+      "tp": 1,
+      "fp": 2,
+      "tn": 12,
+      "fn": 1,
+      "precision": "33",
+      "recall": "50",
+      "accuracy": "81",
+      "fpr": "14",
+      "elapsed": "12.9",
+      "errors": [
+        {
+          "n": 1,
+          "place": "The Church Brew Works",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor seating area with blue umbrellas and tables under open sky"
+        },
+        {
+          "n": 7,
+          "place": "Allegheny City Brewing",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Indoor bar setting with beer glasses"
+        },
+        {
+          "n": 15,
+          "place": "Burghers Brewing Co.",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor rooftop or patio with open sky, cityscape visible in background"
+        }
+      ]
+    },
+    "200x150": {
+      "tp": 0,
+      "fp": 5,
+      "tn": 9,
+      "fn": 2,
+      "precision": "0",
+      "recall": "0",
+      "accuracy": "56",
+      "fpr": "36",
+      "elapsed": "18.1",
+      "errors": [
+        {
+          "n": 4,
+          "place": "Cinderlands Warehouse",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Indoor setting showing dark beer and food plate on table"
+        },
+        {
+          "n": 5,
+          "place": "Hazel Grove Brewing",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor patio with open sky visible, tables and seating area"
+        },
+        {
+          "n": 7,
+          "place": "Allegheny City Brewing",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Indoor brewery with Allegheny City signage, bar counter visible"
+        },
+        {
+          "n": 9,
+          "place": "Hop Farm Brewing Company",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor seating area with natural light, open-air farm brewery setting"
+        },
+        {
+          "n": 11,
+          "place": "Hop Farm Brewing Company",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor setting with beer glass, natural daylight, open sky above"
+        },
+        {
+          "n": 14,
+          "place": "The Urban Tap - Shadyside",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor sidewalk/patio seating area with open sky and street visible"
+        },
+        {
+          "n": 16,
+          "place": "Two Frays Brewery",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor ground-level shot showing Two Frays Brewery logo on pavement/sidewalk"
+        }
+      ]
+    },
+    "300x225": {
+      "tp": 0,
+      "fp": 2,
+      "tn": 12,
+      "fn": 2,
+      "precision": "0",
+      "recall": "0",
+      "accuracy": "75",
+      "fpr": "14",
+      "elapsed": "26.8",
+      "errors": [
+        {
+          "n": 1,
+          "place": "The Church Brew Works",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Exterior/patio view of brewery with open sky and outdoor seating area visible"
+        },
+        {
+          "n": 4,
+          "place": "Cinderlands Warehouse",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Beer glass indoors with dark background"
+        },
+        {
+          "n": 7,
+          "place": "Allegheny City Brewing",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Hazy beer in glass, indoor setting with some natural light"
+        },
+        {
+          "n": 13,
+          "place": "Trace Brewing",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor view showing building exterior with open sky, sidewalk/patio area"
+        }
+      ]
+    },
+    "400x300": {
+      "tp": 1,
+      "fp": 1,
+      "tn": 13,
+      "fn": 1,
+      "precision": "50",
+      "recall": "50",
+      "accuracy": "88",
+      "fpr": "7",
+      "elapsed": "16.4",
+      "errors": [
+        {
+          "n": 7,
+          "place": "Allegheny City Brewing",
+          "truth": "outdoor",
+          "predicted": "NOT outdoor",
+          "desc": "Indoor table with Allegheny City Brewing glass and food"
+        },
+        {
+          "n": 12,
+          "place": "Two Frays Brewery",
+          "truth": "NOT outdoor",
+          "predicted": "outdoor",
+          "desc": "Outdoor storefront/patio of Two Frays Brewing with open sky visible"
+        }
+      ]
+    }
+  }
+}

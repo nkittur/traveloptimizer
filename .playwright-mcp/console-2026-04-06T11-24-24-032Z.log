@@ -1,0 +1,6 @@
+[     958ms] [WARNING] GoTrueClient@sb-iavqgmvjaawerbbrckjx-auth-token:1 (2.101.1) 2026-04-06T11:24:24.986Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key. @ https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js:6
+[    1111ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://iavqgmvjaawerbbrckjx.supabase.co/rest/v1/shared_state?select=value&key=eq.map-filter:0
+[    1914ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at updateShortlistBadge (https://webapp-rust-phi.vercel.app/js/app.js?v=1775447000:150:31)
+    at render (https://webapp-rust-phi.vercel.app/js/app.js?v=1775447000:216:3)
+    at init (https://webapp-rust-phi.vercel.app/js/app.js?v=1775447000:665:3)

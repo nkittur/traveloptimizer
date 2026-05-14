@@ -1,0 +1,376 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:nationalgeographic.com "cool list" 2026 site:nationalgeographic.com "cool list" 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Anationalgeographic.com%2B%2522cool%2Blist%2522%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:nationalgeographic.com+%22cool+list%22+2026&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&q=site:nationalgeographic.com+%22cool+list%22+2026&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQtKgLegQIFBAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Shopping" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&q=site:nationalgeographic.com+%22cool+list%22+2026&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Shopping
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:nationalgeographic.com+%22cool+list%22+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ0pQJegQIExAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&q=site:nationalgeographic.com+%22cool+list%22+2026&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQtKgLegQIEhAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Forums" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6lto6-3aNUADBtReCZUIrpCSvtJ2n2Dl5r5xPF7AjcceSsrZfAr12urbe-Qpeeh8KBvxGpY7KMMD3mTMWGffZZFBQD8XK1aC61gxbhx5tiVBKzPJTD2TiPdcpx0iVdC2dF9mC2O59ATTP_seY-Ocy0bkIWIQ&q=site:nationalgeographic.com+%22cool+list%22+2026&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQs6gLegQIEBAB
+              - generic [ref=e107]: Forums
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - 'link "The Cool List 2024: the 30 most exciting destinations to ... National Geographic https://www.nationalgeographic.com › Culture" [ref=e144] [cursor=pointer]':
+                - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024
+                - 'heading "The Cool List 2024: the 30 most exciting destinations to ..." [level=3] [ref=e145]'
+                - generic [ref=e150]:
+                  - generic [ref=e152]: National Geographic
+                  - generic [ref=e154]: https://www.nationalgeographic.com › Culture
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Oct 31, 2023 —
+              - generic [ref=e163]:
+                - text: The
+                - emphasis [ref=e164]: Cool List
+                - text: "2024: the 30 most exciting destinations to visit in 2024. From Argentina to Australia and Norway to Nova Scotia, these places ..."
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024#:~:text=The%20Cool%20List%202024%3A%20the,headlines%20in%20the%20year%20ahead.
+            - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e168] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024
+              - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e170]
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - link "For Chile's most elemental cuisine, visit this island of ... National Geographic https://www.nationalgeographic.com › Travel" [ref=e179] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/for-chiles-most-elemental-cuisine-visit-this-island-of-female-chefs-chiloe
+              - heading "For Chile's most elemental cuisine, visit this island of ..." [level=3] [ref=e180]
+              - generic [ref=e185]:
+                - generic [ref=e187]: National Geographic
+                - generic [ref=e189]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+          - generic [ref=e196]:
+            - generic [ref=e197]: Mar 12, 2026 —
+            - generic [ref=e198]:
+              - text: The
+              - emphasis [ref=e199]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 ..."
+              - emphasis [ref=e200]: "2026"
+              - text: National Geographic Partners, LLC. All rights reserved.
+            - link "Read more" [ref=e201] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/for-chiles-most-elemental-cuisine-visit-this-island-of-female-chefs-chiloe#:~:text=The%20Cool%20List%202024%3A%20the,destinations%20to%20visit%20in%202024&text=Copyright%20%C2%A9%201996%2D2015%20National%20Geographic,Partners%2C%20LLC.%20All%20rights%20reserved
+          - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e204] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/for-chiles-most-elemental-cuisine-visit-this-island-of-female-chefs-chiloe
+            - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e206]
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - link "Where to celebrate Oktoberfest outside of Munich National Geographic https://www.nationalgeographic.com › Travel" [ref=e215] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/where-to-celebrate-oktoberfest-outside-of-munich
+              - heading "Where to celebrate Oktoberfest outside of Munich" [level=3] [ref=e216]
+              - generic [ref=e221]:
+                - generic [ref=e223]: National Geographic
+                - generic [ref=e225]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e226] [cursor=pointer]:
+              - img [ref=e229]
+          - generic [ref=e232]:
+            - generic [ref=e233]: Sep 23, 2025 —
+            - generic [ref=e234]:
+              - text: The
+              - emphasis [ref=e235]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 · TRAVEL. This historic dish is a French staple—just don't call it pizza."
+            - link "Read more" [ref=e236] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/where-to-celebrate-oktoberfest-outside-of-munich#:~:text=The%20Cool%20List%202024%3A%20the,staple%E2%80%94just%20don't%20call%20it%20pizza
+        - generic [ref=e240]:
+          - heading "Images" [level=2] [ref=e244]
+          - generic [ref=e248]:
+            - generic [ref=e252] [cursor=pointer]:
+              - 'link "The Cool List 2024: the 30 most exciting destinations to ... National Geographic"':
+                - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024
+              - 'button "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e254]':
+                - 'img "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e256]'
+              - generic [ref=e258]:
+                - generic [ref=e260]: "The Cool List 2024: the 30 most exciting destinations to ..."
+                - generic [ref=e261]:
+                  - generic [ref=e268]: National Geographic
+                  - button "About this result" [ref=e271]:
+                    - img [ref=e274]
+            - generic [ref=e279] [cursor=pointer]:
+              - 'link "The Cool List 2024: the 30 most exciting destinations to ... National Geographic"':
+                - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024
+              - 'button "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e281]':
+                - 'img "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e283]'
+              - generic [ref=e285]:
+                - generic [ref=e287]: "The Cool List 2024: the 30 most exciting destinations to ..."
+                - generic [ref=e288]:
+                  - generic [ref=e295]: National Geographic
+                  - button "About this result" [ref=e298]:
+                    - img [ref=e301]
+            - generic [ref=e306] [cursor=pointer]:
+              - 'link "The Cool List 2024: the 30 most exciting destinations to ... National Geographic"':
+                - /url: https://www.nationalgeographic.com/culture/article/uk-cool-list-2024
+              - 'button "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e308]':
+                - 'img "The Cool List 2024: the 30 most exciting destinations to ..." [ref=e310]'
+              - generic [ref=e312]:
+                - generic [ref=e314]: "The Cool List 2024: the 30 most exciting destinations to ..."
+                - generic [ref=e315]:
+                  - generic [ref=e322]: National Geographic
+                  - button "About this result" [ref=e325]:
+                    - img [ref=e328]
+          - button "Show more images" [ref=e331] [cursor=pointer]:
+            - separator [ref=e332]
+            - generic [ref=e333]:
+              - generic [ref=e334]: Show more images
+              - img [ref=e336]
+        - generic [ref=e340]:
+          - heading "Web results" [level=2] [ref=e341]
+          - generic [ref=e342]:
+            - generic [ref=e345]:
+              - link "19 of the most romantic destinations in the world National Geographic https://www.nationalgeographic.com › Travel" [ref=e347] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/article/world-most-romantic-destinations
+                - heading "19 of the most romantic destinations in the world" [level=3] [ref=e348]
+                - generic [ref=e353]:
+                  - generic [ref=e355]: National Geographic
+                  - generic [ref=e357]: https://www.nationalgeographic.com › Travel
+              - button "About this result" [ref=e358] [cursor=pointer]:
+                - img [ref=e361]
+            - generic [ref=e364]:
+              - generic [ref=e365]: Feb 3, 2025 —
+              - generic [ref=e366]:
+                - text: The
+                - emphasis [ref=e367]: Cool List
+                - text: "2024: the 30 most exciting destinations to visit in 2024 · TRAVEL. 5 Caribbean island alternatives for a crowd-free escape."
+              - link "Read more" [ref=e368] [cursor=pointer]:
+                - /url: https://www.nationalgeographic.com/travel/article/world-most-romantic-destinations#:~:text=The%20Cool%20List%202024%3A%20the,alternatives%20for%20a%20crowd%2Dfree%20escape
+            - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e371] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/world-most-romantic-destinations
+              - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e373]
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - link "Where to travel in November in 2025 National Geographic https://www.nationalgeographic.com › Travel" [ref=e382] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/where-to-travel-in-november
+              - heading "Where to travel in November in 2025" [level=3] [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e390]: National Geographic
+                - generic [ref=e392]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e399]:
+            - generic [ref=e400]: Oct 1, 2025 —
+            - generic [ref=e401]:
+              - text: The
+              - emphasis [ref=e402]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 · TRAVEL. A practical guide to travelling around China, from riding the ..."
+            - link "Read more" [ref=e403] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/where-to-travel-in-november#:~:text=The%20Cool%20List%202024%3A%20the,fastest%20trains%20to%20using%20Alipay
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "These are the must-see sights of Italy's Abruzzo region National Geographic https://www.nationalgeographic.com › Travel" [ref=e412] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/abruzzo-italy-must-see-sights
+              - heading "These are the must-see sights of Italy's Abruzzo region" [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: National Geographic
+                - generic [ref=e422]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e423] [cursor=pointer]:
+              - img [ref=e426]
+          - generic [ref=e429]:
+            - generic [ref=e430]: Oct 11, 2024 —
+            - generic [ref=e431]:
+              - text: The
+              - emphasis [ref=e432]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 ..."
+              - emphasis [ref=e433]: "2026"
+              - text: National Geographic Partners, LLC. All rights reserved.
+            - link "Read more" [ref=e434] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/abruzzo-italy-must-see-sights#:~:text=The%20Cool%20List%202024%3A%20the,destinations%20to%20visit%20in%202024&text=Copyright%20%C2%A9%201996%2D2015%20National%20Geographic,Partners%2C%20LLC.%20All%20rights%20reserved
+          - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e437] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/abruzzo-italy-must-see-sights
+            - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e439]
+        - generic [ref=e443]:
+          - generic [ref=e446]:
+            - link "Ireland's Most Picture-Perfect Spots National Geographic https://www.nationalgeographic.com › Travel" [ref=e448] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/picture-perfect-ireland
+              - heading "Ireland's Most Picture-Perfect Spots" [level=3] [ref=e449]
+              - generic [ref=e454]:
+                - generic [ref=e456]: National Geographic
+                - generic [ref=e458]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e459] [cursor=pointer]:
+              - img [ref=e462]
+          - generic [ref=e465]:
+            - generic [ref=e466]: Aug 15, 2014 —
+            - generic [ref=e467]:
+              - text: The
+              - emphasis [ref=e468]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 ..."
+              - emphasis [ref=e469]: "2026"
+              - text: National Geographic Partners, LLC. All rights reserved.
+            - link "Read more" [ref=e470] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/picture-perfect-ireland#:~:text=The%20Cool%20List%202024%3A%20the,destinations%20to%20visit%20in%202024&text=Copyright%20%C2%A9%201996%2D2015%20National%20Geographic,Partners%2C%20LLC.%20All%20rights%20reserved
+          - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e473] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/picture-perfect-ireland
+            - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e475]
+        - generic [ref=e479]:
+          - generic [ref=e482]:
+            - link "7 of the best Maya ruins to visit in Mexico National Geographic https://www.nationalgeographic.com › Travel" [ref=e484] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/best-maya-ruins-mexico
+              - heading "7 of the best Maya ruins to visit in Mexico" [level=3] [ref=e485]
+              - generic [ref=e490]:
+                - generic [ref=e492]: National Geographic
+                - generic [ref=e494]: https://www.nationalgeographic.com › Travel
+            - button "About this result" [ref=e495] [cursor=pointer]:
+              - img [ref=e498]
+          - generic [ref=e501]:
+            - generic [ref=e502]: Apr 25, 2024 —
+            - generic [ref=e503]:
+              - text: 7 must-visit ancient sites everyone should see · TRAVEL. The
+              - emphasis [ref=e504]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 ..."
+              - emphasis [ref=e505]: "2026"
+              - text: National ...
+            - link "Read more" [ref=e506] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/travel/article/best-maya-ruins-mexico#:~:text=7%20must%2Dvisit%20ancient%20sites%20everyone,destinations%20to%20visit%20in%202024&text=Copyright%20%C2%A9%201996%2D2015%20National%20Geographic,2015%2D2026%20National%20Geographic%20Partners%2C%20LLC.
+          - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e509] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/travel/article/best-maya-ruins-mexico
+            - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e511]
+        - generic [ref=e515]:
+          - generic [ref=e518]:
+            - link "A visit to the Louvre can be a gastronomic adventure—if ... National Geographic https://www.nationalgeographic.com › Culture" [ref=e520] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/culture/article/food-art-louvre-museum-paris
+              - heading "A visit to the Louvre can be a gastronomic adventure—if ..." [level=3] [ref=e521]
+              - generic [ref=e526]:
+                - generic [ref=e528]: National Geographic
+                - generic [ref=e530]: https://www.nationalgeographic.com › Culture
+            - button "About this result" [ref=e531] [cursor=pointer]:
+              - img [ref=e534]
+          - generic [ref=e537]:
+            - generic [ref=e538]: Apr 1, 2025 —
+            - generic [ref=e539]:
+              - text: The
+              - emphasis [ref=e540]: Cool List
+              - text: "2024: the 30 most exciting destinations to visit in 2024 · HISTORY & CULTURE. Capturing one of humanity's first voyages into the ..."
+            - link "Read more" [ref=e541] [cursor=pointer]:
+              - /url: https://www.nationalgeographic.com/culture/article/food-art-louvre-museum-paris#:~:text=The%20Cool%20List%202024%3A%20the,first%20voyages%20into%20the%20heavens
+          - link "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e544] [cursor=pointer]:
+            - /url: https://www.nationalgeographic.com/culture/article/food-art-louvre-museum-paris
+            - img "site:nationalgeographic.com \"cool list\" 2026 from www.nationalgeographic.com" [ref=e546]
+      - generic [ref=e548]:
+        - generic [ref=e553]:
+          - heading "People also search for" [level=2] [ref=e555]
+          - generic [ref=e557]:
+            - generic [ref=e558]:
+              - link "Cool list 2026 tour" [ref=e562] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Cool+list+2026+tour&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ1QJ6BAgmEAE
+                - generic [ref=e563]:
+                  - generic [ref=e568]: Cool list 2026 tour
+                  - img [ref=e572]
+              - link "Cool list 2026 reddit" [ref=e577] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Cool+list+2026+reddit&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ1QJ6BAgqEAE
+                - generic [ref=e578]:
+                  - generic [ref=e583]: Cool list 2026 reddit
+                  - img [ref=e587]
+              - link "Cool list 2026 map" [ref=e592] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Cool+list+2026+map&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ1QJ6BAgpEAE
+                - generic [ref=e593]:
+                  - generic [ref=e598]: Cool list 2026 map
+                  - img [ref=e602]
+            - generic [ref=e604]:
+              - link "Cool list 2026 artists" [ref=e608] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Cool+list+2026+artists&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ1QJ6BAgoEAE
+                - generic [ref=e609]:
+                  - generic [ref=e614]: Cool list 2026 artists
+                  - img [ref=e618]
+              - link "Cool list 2026 2022" [ref=e623] [cursor=pointer]:
+                - /url: /search?sca_esv=461cceef532bce02&q=Cool+list+2026+2022&sa=X&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ1QJ6BAgnEAE
+                - generic [ref=e624]:
+                  - generic [ref=e629]: Cool list 2026 2022
+                  - img [ref=e633]
+        - navigation [ref=e635]:
+          - heading "Page Navigation" [level=1] [ref=e636]
+          - text: "1"
+          - link "Page 2" [ref=e639] [cursor=pointer]:
+            - /url: /search?q=site:nationalgeographic.com+%22cool+list%22+2026&sca_esv=461cceef532bce02&ei=z7fvaZ-6DYbX5NoPt9iawQw&start=10&sa=N&sstk=Af77f_ceqbWsa_83hipnLQt1BpYOZ184TmaKVUcEaoe8RDo4o8C11H-xGUo93QxvolHG7qWZJ6Qot5B1Qnljc7H4PejXf8PJSfIu8A&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ8tMDegQIJBAE
+            - text: "2"
+          - heading "Next" [level=2] [ref=e641]:
+            - link "Next" [ref=e642] [cursor=pointer]:
+              - /url: /search?q=site:nationalgeographic.com+%22cool+list%22+2026&sca_esv=461cceef532bce02&ei=z7fvaZ-6DYbX5NoPt9iawQw&start=10&sa=N&sstk=Af77f_ceqbWsa_83hipnLQt1BpYOZ184TmaKVUcEaoe8RDo4o8C11H-xGUo93QxvolHG7qWZJ6Qot5B1Qnljc7H4PejXf8PJSfIu8A&ved=2ahUKEwjf3dbz4I6UAxWGK1kFHTesJsgQ8NMDegQIJBAG
+              - generic [ref=e644]: Next
+      - navigation
+    - contentinfo [ref=e645]:
+      - heading "Footer Links" [level=1] [ref=e646]
+      - generic [ref=e650]:
+        - generic [ref=e654]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e656] [cursor=pointer]:
+            - generic [ref=e657]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e659]:
+              - text: "-"
+              - generic [ref=e660]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e662] [cursor=pointer]: Update location
+        - generic [ref=e665]:
+          - link "Help" [ref=e666] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e667] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e668] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e669] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

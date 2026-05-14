@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:eater.com Orange County Thai OR Indian OR French site:eater.com Orange County Thai OR Indian OR French
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Aeater.com%2BOrange%2BCounty%2BThai%2BOR%2BIndian%2BOR%2BFrench&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&aep=1&ntc=1&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4QtKgLegQIExAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Maps" [ref=e93] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=c0c8628026d5a19e&output=search&q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e95]: Maps
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Qs6gLegQIERAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4QtKgLegQIEhAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "News" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3oS--rGJkYYVqoCX1ykAQd1q92kK2KQ1nOUDbrcSAPT-XzHXQ1IluXLSSlMqESy3_pCYD0oaky1m9ibDCa8b4owoRyAIseF1Mrq4-k8mxxNr3Toj0Hlc6m_04gqIzdVROjsCQyLetx79NIi0i5zaY-_t9CD7LyUZsLvEPkSaiDGJw5FHBw&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q0pQJegQIEBAB
+              - generic [ref=e107]: News
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "Kahani Is OC's New High-End Indian Restaurant Tucked ... Eater Los Angeles https://la.eater.com › 2023/10/16 › kahani-indian-food-..." [ref=e144] [cursor=pointer]:
+                - /url: https://la.eater.com/2023/10/16/23916518/kahani-indian-food-sanjay-rawat-ritz-carlton-laguna-niguel
+                - heading "Kahani Is OC's New High-End Indian Restaurant Tucked ..." [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Eater Los Angeles
+                  - generic [ref=e154]: https://la.eater.com › 2023/10/16 › kahani-indian-food-...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Oct 16, 2023 —
+              - text: Talented chef Sanjay Rawat was going to open his own restaurant, Kahani, right on the expansive Ritz-Carlton, Laguna Niguel property in Dana Point.
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://la.eater.com/2023/10/16/23916518/kahani-indian-food-sanjay-rawat-ritz-carlton-laguna-niguel#:~:text=After%20generating%20plenty%20of%20attention,Niguel%20property%20in%20Dana%20Point.
+            - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e166] [cursor=pointer]:
+              - /url: https://la.eater.com/2023/10/16/23916518/kahani-indian-food-sanjay-rawat-ritz-carlton-laguna-niguel
+              - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e168]
+        - generic [ref=e172]:
+          - generic [ref=e175]:
+            - link "Orange County Khan Saab Is Surprising Indian-Flavored ... Eater Los Angeles https://la.eater.com › khan-saab-fullerton-orange-count..." [ref=e177] [cursor=pointer]:
+              - /url: https://la.eater.com/2020/2/14/21136342/khan-saab-fullerton-orange-county-indian-desi-steakhouse-halal-photos-new
+              - heading "Orange County Khan Saab Is Surprising Indian-Flavored ..." [level=3] [ref=e178]
+              - generic [ref=e183]:
+                - generic [ref=e185]: Eater Los Angeles
+                - generic [ref=e187]: https://la.eater.com › khan-saab-fullerton-orange-count...
+            - button "About this result" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: Feb 14, 2020 —
+            - generic [ref=e196]:
+              - text: Orange County's most exciting new restaurant is an
+              - emphasis [ref=e197]: Indian-flavored meat bonanza
+              - text: inside Khan Saab, the all-halal destination for modern Desi dining.
+            - link "Read more" [ref=e198] [cursor=pointer]:
+              - /url: https://la.eater.com/2020/2/14/21136342/khan-saab-fullerton-orange-county-indian-desi-steakhouse-halal-photos-new#:~:text=Orange%20County's%20Most%20Exciting%20New,Is%20an%20Indian%2DFlavored%20Meat%20Bonanza&text=Inside%20Khan%20Saab%2C%20the%20all%2Dhalal,destination%20for%20modern%20Desi%20dining
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e201] [cursor=pointer]:
+            - /url: https://la.eater.com/2020/2/14/21136342/khan-saab-fullerton-orange-county-indian-desi-steakhouse-halal-photos-new
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e203]
+        - generic [ref=e207]:
+          - generic [ref=e210]:
+            - link "In Orange County, a Ritz-Carlton Chef Reimagines the ... Eater Los Angeles https://la.eater.com › 2022/10/12 › orange-county-ritz-..." [ref=e212] [cursor=pointer]:
+              - /url: https://la.eater.com/2022/10/12/23393283/orange-county-ritz-carlton-hotel-chef-sanjay-rawat-indian-weddings-catering-diwali
+              - heading "In Orange County, a Ritz-Carlton Chef Reimagines the ..." [level=3] [ref=e213]
+              - generic [ref=e218]:
+                - generic [ref=e220]: Eater Los Angeles
+                - generic [ref=e222]: https://la.eater.com › 2022/10/12 › orange-county-ritz-...
+            - button "About this result" [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+          - generic [ref=e229]:
+            - generic [ref=e230]: Oct 12, 2022 —
+            - generic [ref=e231]:
+              - emphasis [ref=e232]: Chef Sanjay Rawat
+              - text: has quietly become one of the most in-demand cooks for weddings, Diwali celebrations, and other Indian American events and festivals.
+            - link "Read more" [ref=e233] [cursor=pointer]:
+              - /url: https://la.eater.com/2022/10/12/23393283/orange-county-ritz-carlton-hotel-chef-sanjay-rawat-indian-weddings-catering-diwali#:~:text=Chef%20Sanjay%20Rawat%20has%20quietly,Indian%20American%20events%20and%20festivals
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e236] [cursor=pointer]:
+            - /url: https://la.eater.com/2022/10/12/23393283/orange-county-ritz-carlton-hotel-chef-sanjay-rawat-indian-weddings-catering-diwali
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e238]
+        - generic [ref=e242]:
+          - generic [ref=e245]:
+            - link "An Underground Indian Food Star Finally Gets His Shot in ... Eater Los Angeles https://la.eater.com › orange-county-indian-restaurant-s..." [ref=e247] [cursor=pointer]:
+              - /url: https://la.eater.com/2023/9/7/23863242/orange-county-indian-restaurant-sanjay-rawat-ritz-carlton-dana-point-kahani
+              - heading "An Underground Indian Food Star Finally Gets His Shot in ..." [level=3] [ref=e248]
+              - generic [ref=e253]:
+                - generic [ref=e255]: Eater Los Angeles
+                - generic [ref=e257]: https://la.eater.com › orange-county-indian-restaurant-s...
+            - button "About this result" [ref=e258] [cursor=pointer]:
+              - img [ref=e261]
+          - generic [ref=e264]:
+            - generic [ref=e265]: Sep 7, 2023 —
+            - generic [ref=e266]:
+              - text: After many years in the catering and events world,
+              - emphasis [ref=e267]: Ritz-Carlton chef Sanjay Rawat
+              - text: is opening his own restaurant next month.
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e270] [cursor=pointer]:
+            - /url: https://la.eater.com/2023/9/7/23863242/orange-county-indian-restaurant-sanjay-rawat-ritz-carlton-dana-point-kahani
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e272]
+        - generic [ref=e276]:
+          - generic [ref=e279]:
+            - link "Cali Dumpling Opens a Brick-and-Mortar Restaurant ... Eater Los Angeles https://la.eater.com › cali-dumpling-frozen-dumpling-c..." [ref=e281] [cursor=pointer]:
+              - /url: https://la.eater.com/2024/6/28/24187832/cali-dumpling-frozen-dumpling-company-restaurant-opening-old-towne-orange-county
+              - heading "Cali Dumpling Opens a Brick-and-Mortar Restaurant ..." [level=3] [ref=e282]
+              - generic [ref=e287]:
+                - generic [ref=e289]: Eater Los Angeles
+                - generic [ref=e291]: https://la.eater.com › cali-dumpling-frozen-dumpling-c...
+            - button "About this result" [ref=e292] [cursor=pointer]:
+              - img [ref=e295]
+          - generic [ref=e298]:
+            - generic [ref=e299]: Jun 28, 2024 —
+            - generic [ref=e300]:
+              - text: Cali Dumpling will open a fast-casual restaurant of the same name in Old Towne
+              - emphasis [ref=e301]: Orange
+              - text: on July 1. Located in the former Jackson's Chicken space.
+            - link "Read more" [ref=e302] [cursor=pointer]:
+              - /url: https://la.eater.com/2024/6/28/24187832/cali-dumpling-frozen-dumpling-company-restaurant-opening-old-towne-orange-county#:~:text=Southern%20California%2Dbased%20frozen%20food%20company,the%20former%20Jackson's%20Chicken%20space
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e305] [cursor=pointer]:
+            - /url: https://la.eater.com/2024/6/28/24187832/cali-dumpling-frozen-dumpling-company-restaurant-opening-old-towne-orange-county
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e307]
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - link "LA's French cuisine power couple to open new restaurant ... Eater Los Angeles https://la.eater.com › french-cuisine-opening-south-coas..." [ref=e316] [cursor=pointer]:
+              - /url: https://la.eater.com/2018/5/16/17361648/french-cuisine-opening-south-coast-plaza
+              - heading "LA's French cuisine power couple to open new restaurant ..." [level=3] [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e324]: Eater Los Angeles
+                - generic [ref=e326]: https://la.eater.com › french-cuisine-opening-south-coas...
+            - button "About this result" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]: May 16, 2018 —
+            - generic [ref=e335]:
+              - text: LA's French Cuisine Power Couple to Open New Restaurant in Orange County ·
+              - emphasis [ref=e336]: 257 South Spring Street, CA 90012
+              - text: · (213) 372-5189 ...
+            - link "Read more" [ref=e337] [cursor=pointer]:
+              - /url: https://la.eater.com/2018/5/16/17361648/french-cuisine-opening-south-coast-plaza#:~:text=LA's%20French%20Cuisine%20Power%20Couple,New%20Restaurant%20in%20Orange%20County&text=257%20South%20Spring%20Street%2C%20CA,90012&text=(213)%20372%2D5189
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e340] [cursor=pointer]:
+            - /url: https://la.eater.com/2018/5/16/17361648/french-cuisine-opening-south-coast-plaza
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e342]
+        - generic [ref=e346]:
+          - generic [ref=e349]:
+            - link "The Best Vietnamese Restaurants in Little Saigon, Orange ... Eater Los Angeles https://la.eater.com › maps › best-vietnamese-restaurant..." [ref=e351] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-vietnamese-restaurants-little-saigon-orange-county-southern-california
+              - heading "The Best Vietnamese Restaurants in Little Saigon, Orange ..." [level=3] [ref=e352]
+              - generic [ref=e357]:
+                - generic [ref=e359]: Eater Los Angeles
+                - generic [ref=e361]: https://la.eater.com › maps › best-vietnamese-restaurant...
+            - button "About this result" [ref=e362] [cursor=pointer]:
+              - img [ref=e365]
+          - generic [ref=e368]:
+            - generic [ref=e369]: Jul 29, 2025 —
+            - generic [ref=e370]:
+              - text: The Best Vietnamese Restaurants in Little Saigon, Orange County ·
+              - emphasis [ref=e371]: THH Sandwiches
+              - text: · Pho Redbo · Pho 101 · Canton Restaurant - Cháo Cá Chợ Cũ · Ngu ...
+            - link "Read more" [ref=e372] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-vietnamese-restaurants-little-saigon-orange-county-southern-california#:~:text=THH%20Sandwiches&text=THH%20Sandwiches&text=Pho%20Redbo&text=Pho%20101&text=Canton%20Restaurant%20%2D%20Ch%C3%A1o%20C%C3%A1,Ch%E1%BB%A3%20C%C5%A9&text=Ngu%20Binh%20Restaurant
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e375] [cursor=pointer]:
+            - /url: https://la.eater.com/maps/best-vietnamese-restaurants-little-saigon-orange-county-southern-california
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e377]
+        - generic [ref=e381]:
+          - generic [ref=e384]:
+            - link "Orange County's Hottest Restaurant Group Is a ... - Eater LA Eater Los Angeles https://la.eater.com › orange-county-restaurant-group-k..." [ref=e386] [cursor=pointer]:
+              - /url: https://la.eater.com/2022/4/6/23013540/orange-county-restaurant-group-kei-concepts-vox-kitchen-kin-ramen-sup-noodle-feature
+              - heading "Orange County's Hottest Restaurant Group Is a ... - Eater LA" [level=3] [ref=e387]
+              - generic [ref=e392]:
+                - generic [ref=e394]: Eater Los Angeles
+                - generic [ref=e396]: https://la.eater.com › orange-county-restaurant-group-k...
+            - button "About this result" [ref=e397] [cursor=pointer]:
+              - img [ref=e400]
+          - generic [ref=e403]:
+            - generic [ref=e404]: Apr 6, 2022 —
+            - text: Kei Concepts is turning out some of the region's busiest restaurants thanks to chef/partner Viet Nguyen's flair for big flavors and ...
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e407] [cursor=pointer]:
+            - /url: https://la.eater.com/2022/4/6/23013540/orange-county-restaurant-group-kei-concepts-vox-kitchen-kin-ramen-sup-noodle-feature
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e409]
+        - generic [ref=e413]:
+          - generic [ref=e416]:
+            - link "The 38 Best Orange County Restaurants Eater Los Angeles https://la.eater.com › maps › best-essential-restaurants-o..." [ref=e418] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california
+              - heading "The 38 Best Orange County Restaurants" [level=3] [ref=e419]
+              - generic [ref=e424]:
+                - generic [ref=e426]: Eater Los Angeles
+                - generic [ref=e428]: https://la.eater.com › maps › best-essential-restaurants-o...
+            - button "About this result" [ref=e429] [cursor=pointer]:
+              - img [ref=e432]
+          - generic [ref=e435]:
+            - generic [ref=e436]:
+              - emphasis [ref=e437]: Here are the 38 best restaurants in Orange County
+              - text: ". New this update: Taco Mesita, Smoke Queen Barbecue, and Fat of the Land join the list, while Terrace by Mix ..."
+            - link "Read more" [ref=e438] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california#:~:text=Here%20are%20the%2038%20best,and%20Sushi%20II%20come%20off.
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e441] [cursor=pointer]:
+            - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e443]
+        - generic [ref=e447]:
+          - generic [ref=e450]:
+            - link "A Vietnamese Brunch Destination Rises in Orange County Eater Los Angeles https://la.eater.com › dining-report › nep-cafe-review" [ref=e452] [cursor=pointer]:
+              - /url: https://la.eater.com/dining-report/294378/nep-cafe-review
+              - heading "A Vietnamese Brunch Destination Rises in Orange County" [level=3] [ref=e453]
+              - generic [ref=e458]:
+                - generic [ref=e460]: Eater Los Angeles
+                - generic [ref=e462]: https://la.eater.com › dining-report › nep-cafe-review
+            - button "About this result" [ref=e463] [cursor=pointer]:
+              - img [ref=e466]
+          - generic [ref=e469]:
+            - generic [ref=e470]: Oct 28, 2025 —
+            - generic [ref=e471]:
+              - text: A Vietnamese Brunch Destination Rises in Orange County.
+              - emphasis [ref=e472]: Nep Cafe serves colorful coffee drinks, crab scrambled eggs, and sizzling beef skillets
+              - text: ...
+            - link "Read more" [ref=e473] [cursor=pointer]:
+              - /url: https://la.eater.com/dining-report/294378/nep-cafe-review#:~:text=A%20Vietnamese%20Brunch%20Destination%20Rises,a%20bright%20strip%20mall%20space
+          - link "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e476] [cursor=pointer]:
+            - /url: https://la.eater.com/dining-report/294378/nep-cafe-review
+            - img "site:eater.com Orange County Thai OR Indian OR French from la.eater.com" [ref=e478]
+      - generic [ref=e480]:
+        - generic [ref=e485]:
+          - heading "People also search for" [level=2] [ref=e487]
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - link "Orange county thai indian french restaurant" [ref=e494] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Orange+county+thai+indian+french+restaurant&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q1QJ6BAg9EAE
+                - generic [ref=e495]:
+                  - generic [ref=e500]: Orange county thai indian french restaurant
+                  - img [ref=e504]
+              - link "Orange county thai indian french menu" [ref=e509] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Orange+county+thai+indian+french+menu&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q1QJ6BAhAEAE
+                - generic [ref=e510]:
+                  - generic [ref=e515]: Orange county thai indian french menu
+                  - img [ref=e519]
+              - link "Orange county thai indian french names" [ref=e524] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Orange+county+thai+indian+french+names&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q1QJ6BAg_EAE
+                - generic [ref=e525]:
+                  - generic [ref=e530]: Orange county thai indian french names
+                  - img [ref=e534]
+            - generic [ref=e536]:
+              - link "Orange county thai indian french cuisines" [ref=e540] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Orange+county+thai+indian+french+cuisines&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q1QJ6BAg-EAE
+                - generic [ref=e541]:
+                  - generic [ref=e546]: Orange county thai indian french cuisines
+                  - img [ref=e550]
+              - link "Orange county thai indian french food" [ref=e555] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Orange+county+thai+indian+french+food&sa=X&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q1QJ6BAg8EAE
+                - generic [ref=e556]:
+                  - generic [ref=e561]: Orange county thai indian french food
+                  - img [ref=e565]
+        - navigation [ref=e567]:
+          - heading "Page Navigation" [level=1] [ref=e568]
+          - text: "1"
+          - link "Page 2" [ref=e571] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=10&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAE
+            - text: "2"
+          - link "Page 3" [ref=e573] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=20&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAG
+            - text: "3"
+          - link "Page 4" [ref=e575] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=30&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAI
+            - text: "4"
+          - link "Page 5" [ref=e577] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=40&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAK
+            - text: "5"
+          - link "Page 6" [ref=e579] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=50&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAM
+            - text: "6"
+          - link "Page 7" [ref=e581] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=60&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAO
+            - text: "7"
+          - link "Page 8" [ref=e583] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=70&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAQ
+            - text: "8"
+          - link "Page 9" [ref=e585] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=80&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAS
+            - text: "9"
+          - link "Page 10" [ref=e587] [cursor=pointer]:
+            - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=90&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8tMDegQIOhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e589]:
+            - link "Next" [ref=e590] [cursor=pointer]:
+              - /url: /search?q=site:eater.com+Orange+County+Thai+OR+Indian+OR+French&sca_esv=c0c8628026d5a19e&ei=FHHiaay8F9uvur8PpsiQ8Ak&start=10&sa=N&sstk=Af77f_dLoK_89ZlMTxDov0rqhgz9qiIdyLk78fdKALLeyjV1ju91Vo_xkX7Ek6LXHyENlMeH_T477-xShXg_1MWkCwJPUyaQuxVcog&ved=2ahUKEwisltXPt_WTAxXbl-4BHSYkBJ4Q8NMDegQIOhAW
+              - generic [ref=e592]: Next
+      - navigation
+    - contentinfo [ref=e593]:
+      - heading "Footer Links" [level=1] [ref=e594]
+      - generic [ref=e598]:
+        - generic [ref=e602]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e604] [cursor=pointer]:
+            - generic [ref=e605]: 92620, Irvine, CA
+            - generic [ref=e607]:
+              - text: "-"
+              - generic [ref=e608]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e610] [cursor=pointer]: Update location
+        - generic [ref=e613]:
+          - link "Help" [ref=e614] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e615] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e616] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e617] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

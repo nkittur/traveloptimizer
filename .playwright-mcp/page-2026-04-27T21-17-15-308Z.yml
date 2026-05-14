@@ -1,0 +1,502 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? New York JFK" [ref=e177]: New York
+                - generic [ref=e179]: New York JFK
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 6 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 184 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $184
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 184 US dollars round trip total. Nonstop flight with JetBlue. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 7:29 AM on Saturday, August 8. Total duration 1 hr 29 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 7:29 AM on Saturday, August 8." [ref=e411]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e414]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:29 AM." [ref=e417]': 7:29 AM
+                          - generic [ref=e418]: JetBlue
+                        - generic [ref=e419]:
+                          - generic "Total duration 1 hr 29 min." [ref=e420]: 1 hr 29 min
+                          - generic [ref=e421]:
+                            - generic [ref=e424]: PIT
+                            - text: –
+                            - generic [ref=e427]: JFK
+                        - generic "Nonstop flight." [ref=e430]: Nonstop
+                        - generic [ref=e432]:
+                          - generic [ref=e434]: 145 kg CO2e
+                          - generic [ref=e435]:
+                            - generic [ref=e436]: +32% emissions
+                            - 'button "Carbon emissions estimate: 145 kilograms. +32% emissions. Learn more about this emissions estimate" [ref=e437]':
+                              - img [ref=e438]
+                        - generic [ref=e440]:
+                          - generic [ref=e441]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e445]:
+                              - generic [ref=e446]:
+                                - generic [ref=e447]:
+                                  - text: "1"
+                                  - img [ref=e448]
+                                - generic [ref=e451]:
+                                  - text: "0"
+                                  - img [ref=e452]
+                            - generic [ref=e455]: $184
+                          - generic [ref=e456]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 7:29 AM on Saturday, August 8." [ref=e459]:
+                      - img [ref=e462]
+                - listitem [ref=e464]:
+                  - generic [ref=e465]:
+                    - link "From 214 US dollars round trip total. Nonstop flight with Delta. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 9:00 AM on Saturday, August 8. Total duration 1 hr 40 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e467] [cursor=pointer]:
+                      - generic [ref=e469]:
+                        - generic [ref=e471]:
+                          - generic "Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 9:00 AM on Saturday, August 8." [ref=e473]:
+                            - 'generic "Departure time: 7:20 AM." [ref=e476]': 7:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:00 AM." [ref=e479]': 9:00 AM
+                          - generic [ref=e480]:
+                            - text: Delta
+                            - generic [ref=e481]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e482]:
+                          - generic "Total duration 1 hr 40 min." [ref=e483]: 1 hr 40 min
+                          - generic [ref=e484]:
+                            - generic [ref=e487]: PIT
+                            - text: –
+                            - generic [ref=e490]: JFK
+                        - generic "Nonstop flight." [ref=e493]: Nonstop
+                        - generic [ref=e495]:
+                          - generic [ref=e497]: 100 kg CO2e
+                          - generic [ref=e498]:
+                            - generic [ref=e499]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 100 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e500]':
+                              - img [ref=e501]
+                        - generic [ref=e503]:
+                          - generic [ref=e504]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e508]:
+                              - generic [ref=e509]:
+                                - generic [ref=e510]:
+                                  - text: "1"
+                                  - img [ref=e511]
+                                - generic [ref=e514]:
+                                  - text: "0"
+                                  - img [ref=e515]
+                            - generic [ref=e518]: $214
+                          - generic [ref=e519]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 9:00 AM on Saturday, August 8." [ref=e522]:
+                      - img [ref=e525]
+            - generic [ref=e531]:
+              - heading "Price insights" [level=3] [ref=e532]
+              - generic [ref=e533] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e538]
+                - generic [ref=e540]: View price history
+                - button "View price history" [ref=e542]:
+                  - img [ref=e545]
+            - region "Find the best price" [ref=e547]:
+              - generic [ref=e550]:
+                - img [ref=e551]
+                - heading "Track prices" [level=2] [ref=e553]
+                - button "Learn more about tracked prices" [ref=e557] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e558]:
+                    - img [ref=e559]
+                - generic [ref=e561]: Track prices from Pittsburgh to New York departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e562]:
+                  - generic [ref=e564] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to New York departing 2026-08-08 and returning 2026-08-15" [ref=e567] [cursor=pointer]:
+                    - generic [ref=e572]:
+                      - img [ref=e573]
+                      - img [ref=e575]
+                - generic [ref=e578]: Track prices from Pittsburgh to New York - Any dates
+                - generic [ref=e580]:
+                  - generic [ref=e581] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to New York - Any dates" [ref=e584] [cursor=pointer]:
+                    - generic [ref=e589]:
+                      - img [ref=e590]
+                      - img [ref=e592]
+              - generic [ref=e597]:
+                - button "Date grid" [ref=e599]:
+                  - img [ref=e601]
+                  - generic [ref=e608]: Date grid
+                - button "Price graph" [ref=e610]:
+                  - img [ref=e612]
+                  - generic [ref=e622]: Price graph
+            - generic [ref=e623]:
+              - heading "Other departing flights" [level=3] [ref=e624]
+              - list [ref=e625]:
+                - listitem [ref=e626]:
+                  - generic [ref=e627]:
+                    - link "From 251 US dollars round trip total. Nonstop flight with American. Operated by Republic Airways as American Eagle. Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 10:29 AM on Saturday, August 8. Total duration 1 hr 40 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e629] [cursor=pointer]:
+                      - generic [ref=e631]:
+                        - generic [ref=e633]:
+                          - generic "Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 10:29 AM on Saturday, August 8." [ref=e635]:
+                            - 'generic "Departure time: 8:49 AM." [ref=e638]': 8:49 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:29 AM." [ref=e641]': 10:29 AM
+                          - generic [ref=e642]:
+                            - text: American
+                            - generic [ref=e643]: ·
+                            - text: Operated by Republic Airways as American Eagle
+                        - generic [ref=e644]:
+                          - generic "Total duration 1 hr 40 min." [ref=e645]: 1 hr 40 min
+                          - generic [ref=e646]:
+                            - generic [ref=e649]: PIT
+                            - text: –
+                            - generic [ref=e652]: JFK
+                        - generic "Nonstop flight." [ref=e655]: Nonstop
+                        - generic [ref=e657]:
+                          - generic [ref=e659]: 95 kg CO2e
+                          - generic [ref=e660]:
+                            - generic [ref=e661]: "-14% emissions"
+                            - 'button "Carbon emissions estimate: 95 kilograms. -14% emissions. Learn more about this emissions estimate" [ref=e662]':
+                              - img [ref=e663]
+                        - generic [ref=e665]:
+                          - generic [ref=e666]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e670]:
+                              - generic [ref=e671]:
+                                - generic [ref=e672]:
+                                  - text: "1"
+                                  - img [ref=e673]
+                                - generic [ref=e676]:
+                                  - text: "0"
+                                  - img [ref=e677]
+                            - generic [ref=e680]: $251
+                          - generic [ref=e681]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:49 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 10:29 AM on Saturday, August 8." [ref=e684]:
+                      - img [ref=e687]
+                - listitem [ref=e689]:
+                  - generic [ref=e690]:
+                    - link "From 257 US dollars round trip total. Nonstop flight with Delta. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:40 PM on Saturday, August 8. Total duration 1 hr 42 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e692] [cursor=pointer]:
+                      - generic [ref=e694]:
+                        - generic [ref=e696]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:40 PM on Saturday, August 8." [ref=e698]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e701]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:40 PM." [ref=e704]': 1:40 PM
+                          - generic [ref=e705]:
+                            - text: Delta
+                            - generic [ref=e706]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e707]:
+                          - generic "Total duration 1 hr 42 min." [ref=e708]: 1 hr 42 min
+                          - generic [ref=e709]:
+                            - generic [ref=e712]: PIT
+                            - text: –
+                            - generic [ref=e715]: JFK
+                        - generic "Nonstop flight." [ref=e718]: Nonstop
+                        - generic [ref=e720]:
+                          - generic [ref=e722]: 100 kg CO2e
+                          - generic [ref=e723]:
+                            - generic [ref=e724]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 100 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e725]':
+                              - img [ref=e726]
+                        - generic [ref=e728]:
+                          - generic [ref=e729]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e733]:
+                              - generic [ref=e734]:
+                                - generic [ref=e735]:
+                                  - text: "1"
+                                  - img [ref=e736]
+                                - generic [ref=e739]:
+                                  - text: "0"
+                                  - img [ref=e740]
+                            - generic [ref=e743]: $257
+                          - generic [ref=e744]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:40 PM on Saturday, August 8." [ref=e747]:
+                      - img [ref=e750]
+                - listitem [ref=e752]:
+                  - generic [ref=e753]:
+                    - link "From 257 US dollars round trip total. Nonstop flight with Delta. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 6:55 PM on Saturday, August 8. Total duration 1 hr 51 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e755] [cursor=pointer]:
+                      - generic [ref=e757]:
+                        - generic [ref=e759]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 6:55 PM on Saturday, August 8." [ref=e761]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e764]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:55 PM." [ref=e767]': 6:55 PM
+                          - generic [ref=e768]:
+                            - text: Delta
+                            - generic [ref=e769]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e770]:
+                          - generic "Total duration 1 hr 51 min." [ref=e771]: 1 hr 51 min
+                          - generic [ref=e772]:
+                            - generic [ref=e775]: PIT
+                            - text: –
+                            - generic [ref=e778]: JFK
+                        - generic "Nonstop flight." [ref=e781]: Nonstop
+                        - generic [ref=e783]:
+                          - generic [ref=e785]: 104 kg CO2e
+                          - generic [ref=e786]:
+                            - generic [ref=e787]: Avg emissions
+                            - 'button "Carbon emissions estimate: 104 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e788]':
+                              - img [ref=e789]
+                        - generic [ref=e791]:
+                          - generic [ref=e792]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e796]:
+                              - generic [ref=e797]:
+                                - generic [ref=e798]:
+                                  - text: "1"
+                                  - img [ref=e799]
+                                - generic [ref=e802]:
+                                  - text: "0"
+                                  - img [ref=e803]
+                            - generic [ref=e806]: $257
+                          - generic [ref=e807]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 6:55 PM on Saturday, August 8." [ref=e810]:
+                      - img [ref=e813]
+                - listitem [ref=e815]:
+                  - generic [ref=e816]:
+                    - link "From 299 US dollars round trip total. Nonstop flight with American. Operated by Republic Airways as American Eagle. Leaves Pittsburgh International Airport at 12:08 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:49 PM on Saturday, August 8. Total duration 1 hr 41 min. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e818] [cursor=pointer]:
+                      - generic [ref=e820]:
+                        - generic [ref=e822]:
+                          - generic "Leaves Pittsburgh International Airport at 12:08 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:49 PM on Saturday, August 8." [ref=e824]:
+                            - 'generic "Departure time: 12:08 PM." [ref=e827]': 12:08 PM
+                            - text: –
+                            - 'generic "Arrival time: 1:49 PM." [ref=e830]': 1:49 PM
+                          - generic [ref=e831]:
+                            - text: American
+                            - generic [ref=e832]: ·
+                            - text: Operated by Republic Airways as American Eagle
+                        - generic [ref=e833]:
+                          - generic "Total duration 1 hr 41 min." [ref=e834]: 1 hr 41 min
+                          - generic [ref=e835]:
+                            - generic [ref=e838]: PIT
+                            - text: –
+                            - generic [ref=e841]: JFK
+                        - generic "Nonstop flight." [ref=e844]: Nonstop
+                        - generic [ref=e846]:
+                          - generic [ref=e848]: 95 kg CO2e
+                          - generic [ref=e849]:
+                            - generic [ref=e850]: "-14% emissions"
+                            - 'button "Carbon emissions estimate: 95 kilograms. -14% emissions. Learn more about this emissions estimate" [ref=e851]':
+                              - img [ref=e852]
+                        - generic [ref=e854]:
+                          - generic [ref=e855]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e859]:
+                              - generic [ref=e860]:
+                                - generic [ref=e861]:
+                                  - text: "1"
+                                  - img [ref=e862]
+                                - generic [ref=e865]:
+                                  - text: "0"
+                                  - img [ref=e866]
+                            - generic [ref=e869]: $299
+                          - generic [ref=e870]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 12:08 PM on Saturday, August 8 and arrives at John F. Kennedy International Airport at 1:49 PM on Saturday, August 8." [ref=e873]:
+                      - img [ref=e876]
+                - listitem [ref=e878]:
+                  - generic [ref=e879] [cursor=pointer]:
+                    - button "View more flights" [ref=e882]:
+                      - img
+                    - generic [ref=e885]: View more flights
+          - text: · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e888]:
+        - generic [ref=e890]:
+          - button "Language·English (United States)" [ref=e891]:
+            - img [ref=e894]
+            - generic [ref=e896]: Language·English (United States)
+          - button "Location·United States" [ref=e897]:
+            - img [ref=e900]
+            - generic [ref=e903]: Location·United States
+          - button "Currency USD" [ref=e904]:
+            - img [ref=e907]
+            - generic [ref=e917]: Currency·USD
+        - generic [ref=e918]:
+          - link "About Google Travel" [ref=e919] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e920] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e921] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e922] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e923] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e924] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e926]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e927] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

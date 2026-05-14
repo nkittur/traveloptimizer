@@ -1,0 +1,452 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2024%252F06%252F20%252Ftravel%252Fthings-to-do-portland-maine.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e38]:
+            - link "36 Hours" [ref=e41] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e43]: Portland, Maine
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Jump to:"
+              - link "Recommendations" [ref=e48] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e50] [cursor=pointer]:
+                - /url: "#itinerary"
+              - generic [ref=e51]:
+                - link "Google Map" [ref=e52] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/Yw7yiAvDHfrMGqRU9
+                - img [ref=e54]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]:
+                - generic [ref=e60]:
+                  - text: By Chelsea Conaboy
+                  - text: Photographs by Greta Rybus
+              - paragraph [ref=e61]: Chelsea Conaboy is a writer and editor who lives near Portland.
+              - time [ref=e62]: June 20, 2024
+            - paragraph [ref=e63]:
+              - text: From the fishing piers and wharves lined up like piano keys along Commercial Street to the ocean views and historic Queen Anne-style homes atop Munjoy Hill, Portland offers a lot for visitors to take in. And then there is the food. Maine's largest city has long been nationally known as a top food destination, and just this year
+              - link "two Portland bakers won" [ref=e64] [cursor=pointer]:
+                - /url: https://www.pressherald.com/2024/06/10/four-maine-restaurants-and-chefs-up-for-james-beard-awards-tonight/
+              - text: James Beard Awards. To host travelers, culinary or otherwise, five boutique hotels have opened since 2020. The hotel construction, new high-end condo development and rising coastal real estate prices have exacerbated a housing crisis here. But the elements that make this New England city such an attractive place to visit — a dynamic creative economy, juxtaposition of the old and the new, and the distinctive character of a working waterfront — endure.
+          - generic [ref=e65]: Advertisement
+          - heading "Recommendations" [level=2] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - button "Key stops –" [ref=e69] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e70]: –
+              - list [ref=e71]:
+                - listitem [ref=e72]:
+                  - strong [ref=e73]:
+                    - link "The Eastern Promenade" [ref=e74] [cursor=pointer]:
+                      - /url: https://www.portlandmaine.gov/1222/5487/Eastern-Promenade
+                  - text: offers picnicking, beach access and a playground with an unbeatable view, plus lots of food trucks to explore.
+                - listitem [ref=e75]:
+                  - strong [ref=e76]:
+                    - link "The Portland Museum of Art" [ref=e77] [cursor=pointer]:
+                      - /url: https://www.portlandmuseum.org/
+                  - text: ", which stretches across four buildings, has a collection of established and emerging Maine artists and includes a small sculpture garden."
+                - listitem [ref=e78]:
+                  - strong [ref=e79]:
+                    - link "Fort Williams Park" [ref=e80] [cursor=pointer]:
+                      - /url: https://fortwilliams.org/
+                  - text: in the nearby town of Cape Elizabeth provides visitors the excellent combination of breathtaking views and a good lobster roll.
+            - generic [ref=e81]:
+              - button "Attractions +" [ref=e82] [cursor=pointer]:
+                - text: Attractions
+                - generic [ref=e83]: +
+              - list:
+                - listitem [ref=e84]:
+                  - strong [ref=e85]:
+                    - link "Casco Bay Lines" [ref=e86] [cursor=pointer]:
+                      - /url: https://www.cascobaylines.com/
+                  - text: ", with a ferry terminal on Commercial Street, offers an affordable tour of Casco Bay or a quick trip to the islands."
+                - listitem [ref=e87]:
+                  - text: "On"
+                  - strong [ref=e88]:
+                    - link "Peaks Island" [ref=e89] [cursor=pointer]:
+                      - /url: https://peaksisland.info/
+                  - text: ", three miles off mainland Portland, one should meander, swim and enjoy the view."
+                - listitem [ref=e90]:
+                  - strong [ref=e91]:
+                    - link "Portland Paddle" [ref=e92] [cursor=pointer]:
+                      - /url: https://www.portlandpaddle.net/tours/fort-gorges-sea-kayak-trip/
+                  - text: organizes a three-hour kayak tour of Fort Gorges every day in the summer, starting from East End Beach and including time to explore the Civil War-era structure built on a ledge in the middle of Casco Bay.
+            - generic [ref=e93]:
+              - button "Restaurants and bars +" [ref=e94] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e95]: +
+              - list:
+                - listitem [ref=e96]:
+                  - strong [ref=e97]:
+                    - link "Công Tử Bột" [ref=e98] [cursor=pointer]:
+                      - /url: http://www.congtubot.com
+                  - text: has a cheerful dining room, a family-style Vietnamese menu and a counter with a kitchen view.
+                - listitem [ref=e99]:
+                  - strong [ref=e100]:
+                    - link "Ugly Duckling" [ref=e101] [cursor=pointer]:
+                      - /url: https://www.uglyducklingmaine.com/
+                  - text: is a sweet luncheonette with memorable breakfast sandwiches.
+                - listitem [ref=e102]:
+                  - strong [ref=e103]:
+                    - link "Il Leone" [ref=e104] [cursor=pointer]:
+                      - /url: https://illeone.me/
+                  - text: is in its fourth season of turning local ingredients and naturally leavened dough into wood-fired pizza magic on Peaks Island.
+                - listitem [ref=e105]:
+                  - strong [ref=e106]:
+                    - link "Luke’s Lobster" [ref=e107] [cursor=pointer]:
+                      - /url: https://lukeslobster.com/pages/portland-pier
+                  - text: was known for exporting Maine lobsters to a chain of lobster shacks around the globe, then returned to Maine to build a restaurant very close to the catch, on the Portland Pier.
+                - listitem [ref=e108]:
+                  - strong [ref=e109]:
+                    - link "Bar Futo" [ref=e110] [cursor=pointer]:
+                      - /url: https://www.eatfuto.com/
+                  - text: serves yakitori-style skewers and sharing plates with creative cocktails and whiskey highballs that will make you want to order another.
+                - listitem [ref=e111]:
+                  - strong [ref=e112]:
+                    - link "Hot Suppa!" [ref=e113] [cursor=pointer]:
+                      - /url: http://hotsuppa.com/
+                  - text: brings from-scratch Southern cooking to this very northern city — and the crowds show up.
+                - listitem [ref=e114]:
+                  - strong [ref=e115]:
+                    - link "Bite Into Maine" [ref=e116] [cursor=pointer]:
+                      - /url: https://www.biteintomaine.com/fort-williams
+                  - text: "’s Fort Williams food truck offers a very Maine experience: eating a lobster roll with a lighthouse in view."
+                - listitem [ref=e117]:
+                  - strong [ref=e118]:
+                    - link "Oxbow Blending and Bottling" [ref=e119] [cursor=pointer]:
+                      - /url: https://oxbowbeer.com/location/portland/
+                  - text: is where this popular Maine brewery blends and packages its aged beers, with a large bar and patio area and frequent live music.
+                - listitem [ref=e120]:
+                  - strong [ref=e121]:
+                    - link "Anoche" [ref=e122] [cursor=pointer]:
+                      - /url: http://anoche.co/
+                  - text: offers Spanish gin, wine and a wide array of hard ciders, plus all that goes with it, including Spanish cheeses, meats and tinned fish.
+                - listitem [ref=e123]:
+                  - strong [ref=e124]:
+                    - link "One Longfellow Square" [ref=e125] [cursor=pointer]:
+                      - /url: https://onelongfellowsquare.com/
+                  - text: draws folk and roots musicians and their fans to its intimate performance space.
+                - listitem [ref=e126]:
+                  - strong [ref=e127]:
+                    - link "Blue Portland Maine" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.blueportlandmaine.com/
+                  - text: is expanding its legacy as a jazz bar to include other genres, with an emphasis on live sound quality in this small listening room.
+            - generic [ref=e129]:
+              - button "Shopping +" [ref=e130] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e131]: +
+              - list:
+                - listitem [ref=e132]:
+                  - strong [ref=e133]:
+                    - link "Rabelais" [ref=e134] [cursor=pointer]:
+                      - /url: https://www.rabelaisbooks.com/
+                  - text: sells rare food-and-drink books and will operate a tiny pop-up shop on Washington Avenue this summer.
+                - listitem [ref=e135]:
+                  - strong [ref=e136]:
+                    - link "Open House" [ref=e137] [cursor=pointer]:
+                      - /url: https://www.openhouseportland.com/
+                  - text: is a showroom of antique, vintage and handmade furnishings and clothing.
+                - listitem [ref=e138]:
+                  - strong [ref=e139]:
+                    - link "Onggi" [ref=e140] [cursor=pointer]:
+                      - /url: https://onggi.com/
+                  - text: is a market and newly opened cafe with a focus on fermentation.
+                - listitem [ref=e141]:
+                  - strong [ref=e142]:
+                    - link "Strata" [ref=e143] [cursor=pointer]:
+                      - /url: https://strataportland.com/
+                  - text: is a high-end kitchenware shop with an emphasis on beautiful quality knives.
+                - listitem [ref=e144]:
+                  - strong [ref=e145]:
+                    - link "Back Cove Books" [ref=e146] [cursor=pointer]:
+                      - /url: https://www.backcovebooks.com/
+                  - text: is a neighborhood bookstore with a lovely children’s section and a cozy reading nook for the littlest readers and the grownups.
+                - listitem [ref=e147]:
+                  - text: At
+                  - strong [ref=e148]:
+                    - 'link "Print: A Bookstore" [ref=e149] [cursor=pointer]':
+                      - /url: https://www.printbookstore.com/
+                  - text: ", the staff are funny on"
+                  - link "Instagram" [ref=e150] [cursor=pointer]:
+                    - /url: https://www.instagram.com/print.bookstore
+                  - text: and helpful in real life.
+            - generic [ref=e151]:
+              - button "Where to stay +" [ref=e152] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e153]: +
+              - list:
+                - listitem [ref=e154]:
+                  - strong [ref=e155]:
+                    - link "The Longfellow Hotel" [ref=e156] [cursor=pointer]:
+                      - /url: https://www.longfellowhotel.com/
+                  - text: ", named after Henry Wadsworth Longfellow, Portland’s most famous poet, opened in May, with 48 guest rooms and a"
+                  - link "spa" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.longfellowhotel.com/spa/
+                  - text: on the edge of the historic West End neighborhood. A bar named for Longfellow’s five-man literary group, the Five of Clubs, is the lobby’s focal point. Rooms start at $499, higher during the summer season.
+                - listitem [ref=e158]:
+                  - strong [ref=e159]:
+                    - link "Canopy by Hilton on the Portland Waterfront" [ref=e160] [cursor=pointer]:
+                      - /url: https://www.hilton.com/en/hotels/pwmoppy-canopy-portland-waterfront/
+                  - text: "opened in 2021 and has one feature that truly sets it apart: a year-round rooftop bar, called"
+                  - link "Luna" [ref=e161] [cursor=pointer]:
+                    - /url: https://lunarooftopbarmaine.com/
+                  - text: ", where you can watch the sky over the Fore River change colors in the evening. With 135 rooms, it sits on a quieter block on Commercial Street, a tourist destination for shopping, dining and exploring the waterfront. Rooms start at $399 during the warmer months, higher for a water view."
+                - listitem [ref=e162]:
+                  - text: The
+                  - strong [ref=e163]:
+                    - link "Holiday Inn By the Bay" [ref=e164] [cursor=pointer]:
+                      - /url: https://www.innbythebay.com/
+                  - text: is a more affordable mainstay. Guest rooms and event spaces in this 239-room hotel, built in 1973, have been renovated since 2020. The location is convenient — a block from the Portland Museum of Art — and room rates start around $160.
+                - listitem [ref=e165]:
+                  - text: While regulated Airbnbs are allowed in Portland,
+                  - strong [ref=e166]: short-term rentals
+                  - text: can be hard to find in summer months. With advance planning, look in Munjoy Hill, for easy access to the Eastern Promenade. To expand your search, consider staying in South Portland, just across the Casco Bay Bridge.
+            - generic [ref=e167]:
+              - button "Getting around +" [ref=e168] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e169]: +
+              - list [ref=e170]:
+                - listitem [ref=e171]:
+                  - text: Many attractions on the Portland peninsula are within walking distance of one another. Greater Portland Metro’s bus service offers connections to the Portland Transportation Center, with
+                  - strong [ref=e172]: bus
+                  - text: and
+                  - strong [ref=e173]: train
+                  - text: service from Boston and other points, and also runs a route that circles most of the peninsula. A single ride for most adults is $2. Be sure to check for
+                  - link "updated schedules" [ref=e174] [cursor=pointer]:
+                    - /url: https://gpmetro.org/35/
+                  - text: .
+                  - strong [ref=e175]: Uber
+                  - text: and
+                  - strong [ref=e176]: Lyft
+                  - text: offer generally reliable service. The city has a
+                  - strong [ref=e177]: biking
+                  - text: culture but a long way to go in developing
+                  - link "bike lanes" [ref=e178] [cursor=pointer]:
+                    - /url: https://www.portlandmaine.gov/699/Bicycle-Pedestrian-Planning
+                  - text: . Those who travel by
+                  - strong [ref=e179]: car
+                  - text: should read parking lot signs carefully, as ticketing can be aggressive.
+          - heading "Itinerary" [level=2] [ref=e180]
+          - generic [ref=e181]:
+            - heading "Friday" [level=2] [ref=e182]
+            - generic [ref=e183]:
+              - generic [ref=e184]: 4 p.m. Wander Washington Avenue
+              - paragraph [ref=e186]:
+                - text: A four-block stretch of Washington Avenue is a food hub good for shopping as well as eating. Start your stroll at
+                - link "Onggi" [ref=e187] [cursor=pointer]:
+                  - /url: https://onggi.com/
+                - text: ", a fermentation market and cafe, where shelves are stocked with sake, chili crisp, pickled blueberries and more. Buy a hojicha-butterscotch oat cookie ($3.25 each) to enjoy as you wander south to browse high-end kitchenware and Maine-made home goods at"
+                - link "Strata" [ref=e188] [cursor=pointer]:
+                  - /url: https://strataportland.com/
+                - text: and
+                - link "Post Supply" [ref=e189] [cursor=pointer]:
+                  - /url: https://www.thepostsupply.com/
+                - text: ", found inside what once was the J.J. Nissen bakery, where the New England top-split hot dog bun was created. On the way: The repurposed shipping containers at"
+                - link "the Black Box" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.tbbwashington.com/
+                - text: ", which serve as five tiny shops with month-to-month leases. Arriving in July is a pop-up version of"
+                - link "Rabelais" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.rabelaisbooks.com/
+                - text: ", a renowned seller of rare food-and-drink books."
+            - generic [ref=e193]:
+              - img "A person wearing a maroon dress arranges a displays of homewares on a wooden table inside a store." [ref=e195]
+              - paragraph [ref=e198]: Post Supply
+            - generic [ref=e199]:
+              - generic [ref=e200]: 6 p.m. Enjoy comfort food
+              - paragraph [ref=e202]:
+                - text: On to the eating, but how to choose? Texas-style barbecue is served on
+                - link "Terlingua’s" [ref=e203] [cursor=pointer]:
+                  - /url: http://www.terlingua.me/
+                - text: sprawling back decks (one pound of house-smoked meats with a side, cornbread and pickles, $35), while sake and shared plates, such as fried tofu with jalapeño soy sauce and bonito ($7) or sautéed udon noodles with duck breast and vegetables ($15) can be found at
+                - link "Izakaya Minato" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.izakayaminato.com/
+                - text: .
+                - link "Công Tử Bột" [ref=e205] [cursor=pointer]:
+                  - /url: http://www.congtubot.com
+                - text: offers a warm welcome, with Vietnamese food ordered family style, great cocktails and a buzzy dining area that’s especially pleasant when the garage-style doors are open. Try the salad of puffed rice, oyster mushrooms and “pickled stuff” dressed with chile oil ($17) or the twice-cooked eggplant ($14). Leave room for chè chuối, a dessert of tapioca, coconut and banana that is more than the sum of its parts ($11).
+            - generic [ref=e206]:
+              - generic [ref=e207]: 7:30 p.m. Savor the sunset, then settle with a beer or cider
+              - paragraph [ref=e209]:
+                - text: After dinner, take a short stroll up Munjoy Hill, which dominates the eastern end of the city’s peninsula, to enjoy not one but two incredible views. At the end of Marion Street, follow the stone steps up to Fort Sumner Park, which looks west over Portland’s Back Cove. On a clear day, you can see the peak of Mount Washington and an exceptional sunset. From there, walk up Quebec Street to arrive at the Eastern Promenade, a 78-acre park that looks east over Casco Bay. Lounge on the grass or head back downhill on Congress Street to sit outside at
+                - link "Oxbow" [ref=e210] [cursor=pointer]:
+                  - /url: https://oxbowbeer.com/location/portland/
+                - text: ", one of the many Maine breweries that make beer in Portland or have outposts here, or choose from a long list of ciders on tap (from $7.50) at the Basque-inspired"
+                - link "Anoche" [ref=e211] [cursor=pointer]:
+                  - /url: http://anoche.co/
+                - text: .
+            - generic [ref=e213]:
+              - img "People sit at wooden stools inside a bar." [ref=e215]
+              - paragraph [ref=e218]: Anoche
+          - generic [ref=e219]:
+            - img "People sit on a deck under umbrellas outside a restaurant with a sign that reads \"OYSTERS\" in painted letters." [ref=e221]
+            - paragraph [ref=e224]: A four-block stretch of Washington Avenue is known for good shopping as well as good eating, including at places like Island Creek Oysters.
+          - generic [ref=e225]: Advertisement
+          - generic [ref=e226]:
+            - heading "Saturday" [level=2] [ref=e227]
+            - generic [ref=e228]:
+              - generic [ref=e229]: 8 a.m. Breakfast in a colorful spot
+              - paragraph [ref=e231]:
+                - link "Ugly Duckling" [ref=e232] [cursor=pointer]:
+                  - /url: https://www.uglyducklingmaine.com/
+                - text: ", which opened in 2023 with a big U-shaped counter and a come-as-you-are vibe, is the latest project by Ilma Lopez and Damian Sansonetti, owners of the nearby Spanish-French brasserie Chaval. Breakfast sandwiches come on housemade English muffins. The No. 2, which includes two fried eggs, house pork sausage, American cheese and ketchup, is a popular order ($11.75). You might need a fork to finish the Como Se Dice Buongiorno ($12.75): fried egg, hash brown, prosciutto, jalapeño, arugula and garlic aioli on an English muffin with everything-bagel seasoning."
+            - generic [ref=e234]:
+              - img "Two people sit on orange plush seats at a round white table inside a cafe." [ref=e236]
+              - paragraph [ref=e239]: Ugly Duckling
+            - generic [ref=e240]:
+              - generic [ref=e241]: 10:15 a.m. Ride the ferry
+              - paragraph [ref=e243]:
+                - text: Catch the 10:15 a.m. boat to Peaks Island at the
+                - link "Casco Bay Lines" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.cascobaylines.com/
+                - text: "ferry terminal on Commercial Street. The island, with nearly 1,000 year-round residents, was once home to an amusement park and now has a no-shoes-required vibe. Part of the city of Portland, it sits just three miles offshore but feels much farther. During the 17-minute trip (from April to October: $14 roundtrip for adults, $7 for seniors and children), take in a view of Portland from the water, watch for harbor seals and pass by Fort Gorges, a formidable granite military fort built in the mid-19th century and now a frequent host to"
+                - link "kayak tours" [ref=e245] [cursor=pointer]:
+                  - /url: https://www.portlandpaddle.net/tours/fort-gorges-sea-kayak-trip/
+                - text: and history buffs.
+            - generic [ref=e246]:
+              - generic [ref=e247]: 10:45 a.m. Explore Peaks on two wheels, then grab a pie
+              - paragraph [ref=e249]:
+                - text: You can explore the island by foot, but a bike is handy to make the nearly four-mile loop around the perimeter. Bring your own on the ferry for an extra fee ($7 adult, $3.50 children), or rent one from
+                - link "Brad & Wyatt’s Island Bike Rental" [ref=e250] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/vj1T2raoQCzB29Y18
+                - text: ($20 for two hours, $30 for four hours — rentals are first-come, first-served, no website). You’ll find great spots for exploring the rocks on the east side of the island, with views of the Atlantic Ocean. Before catching the return ferry, circle back to
+                - link "Il Leone" [ref=e251] [cursor=pointer]:
+                  - /url: https://illeone.me/
+                - text: for salad and pizza cooked in a wood-fired oven and eaten at a shady picnic table. The menu typically includes at least one pie that follows the harvest, highlighting Maine-grown garlic scapes, heirloom tomatoes or squash blossoms (pizzas start at $17.95).
+            - generic [ref=e253]:
+              - img "A top-down view of a pizza that has chunks of lobster on top." [ref=e255]
+              - paragraph [ref=e258]: Il Leone
+            - generic [ref=e259]:
+              - generic [ref=e260]: 4 p.m. Hunt for treasure
+              - paragraph [ref=e262]:
+                - text: Think of an indoor flea market and you might imagine rows of booths, some full of beauty, others full of dust. Back on the mainland,
+                - link "Open House" [ref=e263] [cursor=pointer]:
+                  - /url: https://www.openhouseportland.com/
+                - text: instead arranges furniture in cozy living-room vignettes throughout its 10,000-square-foot shop on Congress Street, which has a large selection of vintage clothing and handcrafted goods. Items range in price from $5 for packable trinkets to a few thousand dollars for midcentury-modern antiques. And the owners welcome browsers — no stuffy gatekeepers here.
+            - generic [ref=e265]:
+              - img "A person wearing a denim jacket and a straw shoulder bag crouches down to inspect a wooden side table in a furniture store." [ref=e267]
+              - paragraph [ref=e270]: Open House
+            - generic [ref=e271]:
+              - generic [ref=e272]: 5 p.m. Find a good book
+              - paragraph [ref=e274]:
+                - text: Maine has a rich literary past and present — for starters, Stephen King and Lois Lowry live and write in the state. In Portland, used, independent and specialty bookstores abound. Linger in the beautiful children’s section at
+                - link "Back Cove Books" [ref=e275] [cursor=pointer]:
+                  - /url: https://backcovebooks.com/
+                - text: ", in the Woodfords Corner neighborhood, which displays its biographies and current affairs books in an old bank vault. Or visit"
+                - 'link "Print: A Bookstore" [ref=e276] [cursor=pointer]':
+                  - /url: https://www.printbookstore.com/
+                - text: ", with its expertly curated staff picks and a large section highlighting Maine writers. Both shops draw an impressive slate of author readings and other events each month, so check their calendars online."
+            - generic [ref=e277]:
+              - generic [ref=e278]: 6:30 p.m. Eat from the sea
+              - paragraph [ref=e280]:
+                - text: Plenty of restaurants in Portland serve lobster, but few get you as close to the lobster boat as
+                - link "Luke’s Lobster" [ref=e281] [cursor=pointer]:
+                  - /url: https://lukeslobster.com/pages/portland-pier
+                - text: ", a lobster-shack chain that has a full-service restaurant on the end of Portland Pier, off Commercial Street. The two-story restaurant, with a view of the Fore River as it meets Casco Bay, sits next to the company’s commercial lobster-buying facility, where lobster boats dock to sell their catch, some of which goes directly to the kitchen. (No reservations during the peak summer season.) Or reserve a table at"
+                - link "Bar Futo" [ref=e282] [cursor=pointer]:
+                  - /url: https://www.eatfuto.com/
+                - text: in the Old Port to try skewers of squid, fish, pork belly or chicken ($7 to $9 each) grilled over binchotan, or Japanese charcoal, alongside a perfectly carbonated whiskey highball made with
+                - link "a Suntory Toki machine" [ref=e283] [cursor=pointer]:
+                  - /url: https://distiller.com/articles/toki-highball-machine
+                - text: ($14).
+            - generic [ref=e284]:
+              - generic [ref=e285]: 8 p.m. Listen to the local sound
+              - paragraph [ref=e287]:
+                - text: Portland’s go-to venue for summer concerts by nationally touring artists is
+                - link "Thompson’s Point" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.thompsonspoint.com/
+                - text: ", an outdoor stage near the bank of the Fore River. Included in the 2024 lineup are Goose, Counting Crows and Dark Star Orchestra. But"
+                - link "One Longfellow Square" [ref=e289] [cursor=pointer]:
+                  - /url: https://onelongfellowsquare.com/
+                - text: ", in the West End with 180 seats, has a cozy feel that lends itself well to the folk and roots music that makes up most of its shows. Ticket prices vary but start around $20. Just half a block away is"
+                - link "Blue Portland Maine" [ref=e290] [cursor=pointer]:
+                  - /url: https://www.blueportlandmaine.com/
+                - text: ", which hosts jazz and more. Half the shows are ticketed, with prices between $10 and $20, and half are free with a hat passed for the artists."
+            - generic [ref=e292]:
+              - img "A person plays guitar and sings into a microphone on a stage in what appears to be a small venue." [ref=e294]
+              - paragraph [ref=e297]: Blue Portland Maine
+          - generic [ref=e298]:
+            - img "People stroll across two zebra crossings in an intersection with red-brick buildings on an overcast day." [ref=e300]
+            - paragraph [ref=e303]: The Old Port, with its cobblestone streets and old brick buildings, is Portland’s traditional tourist district.
+          - generic [ref=e304]: Advertisement
+          - generic [ref=e305]:
+            - heading "Sunday" [level=2] [ref=e306]
+            - generic [ref=e307]:
+              - generic [ref=e308]: 9 a.m. Go south in the north
+              - paragraph [ref=e310]:
+                - text: Start your Sunday at
+                - link "Hot Suppa!" [ref=e311] [cursor=pointer]:
+                  - /url: http://hotsuppa.com/
+                - text: ", with some shrimp and cheesy grits ($22) or scrambalaya ($17) — that’s eggs scrambled with jambalaya. Don’t choose your meal without consulting the specials, which highlight the kitchen’s from-scratch Southern cooking and seasonal produce. Recently, they included eggs Benedict with bacon and ramps ($23). And if your plate doesn’t already include corned beef hash, order a side for the table ($16)."
+            - img "A top-down view of a plate with fried chicken, a large waffle and a glass container of syrup." [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e317]: 10:30 a.m. Take in some treasured Maine art
+              - paragraph [ref=e319]:
+                - text: Intricacy and devotion are on display in “
+                - 'link "Jeremy Frey: Woven" [ref=e320] [cursor=pointer]':
+                  - /url: https://www.portlandmuseum.org/woven
+                - text: ",” through Sept. 15 at the"
+                - link "Portland Museum of Art" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.portlandmuseum.org/
+                - text: . Mr. Frey is a
+                - link "seventh-generation basketmaker" [ref=e322] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/2024/04/26/arts/design/jeremy-frey-baskets-indigenous.html
+                - text: from the Passamaquoddy tribe in Maine whose works have been shown at art markets for years and are found in major museums across the United States. This is the first solo museum exhibition for Frey, with more than 50 baskets and a short film documenting his process. While at the museum, you can see paintings by Winslow Homer and N.C. Wyeth, but don’t miss the work of artists who have broadened and deepened the legacy of Maine art in recent decades, including paintings by
+                - link "Reggie Burrows Hodges" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.portlandmuseum.org/magazine/reggieburrowshodges
+                - text: and
+                - link "Daniel Minter" [ref=e324] [cursor=pointer]:
+                  - /url: https://danielminter.net/
+                - text: ", and sculpture by"
+                - link "Lauren Fensterstock" [ref=e325] [cursor=pointer]:
+                  - /url: https://laurenfensterstock.com/home.html
+                - text: . (Admission free for ages 21 and under. Seniors and students, $18. All others, $20.)
+            - generic [ref=e326]:
+              - generic [ref=e327]: 12:30 p.m. See the light
+              - paragraph [ref=e329]:
+                - text: Leave time for the 15-minute drive out to
+                - link "Fort Williams Park" [ref=e330] [cursor=pointer]:
+                  - /url: https://portlandheadlight.com/
+                - text: ", a 90-acre park owned by the nearby town of Cape Elizabeth that has a cliff walk, a children’s garden and a panoramic view of Casco Bay. It’s also home to"
+                - link "Portland Head Light" [ref=e331] [cursor=pointer]:
+                  - /url: https://portlandheadlight.com/
+                - text: ", a historic and much-photographed lighthouse. If you haven’t eaten a lobster roll yet (or even if you have), visit the"
+                - link "Bite Into Maine" [ref=e332] [cursor=pointer]:
+                  - /url: https://www.biteintomaine.com/
+                - text: food truck to choose between a Maine-style with mayo or a Connecticut-style with butter, or try the picnic-style roll, with lobster piled on a bed of coleslaw ($29.95). Yes, these rolls are pricey, but consider the view.
+            - generic [ref=e334]:
+              - img "A view of a rocky ocean shore with a white lighthouse and, in the water, a boat with white sails." [ref=e336]
+              - paragraph [ref=e339]: Portland Head Light
+    - generic [ref=e344]:
+      - img [ref=e349]
+      - generic [ref=e357]:
+        - paragraph [ref=e358]: Enjoy unlimited access to all of The Times.
+        - paragraph [ref=e359]:
+          - link [ref=e360] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+            - text: See subscription options

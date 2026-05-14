@@ -1,0 +1,1177 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodLosAngeles" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 06 Mar 2026
+      - generic [ref=e130]: 39 points (92% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/1rmlc6a
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "FoodLosAngeles" [level=1] [ref=e145]:
+        - link "FoodLosAngeles" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Food Los Angeles is dedicated to showcasing great food from all over Los Angeles! Share pictures, reviews, websites, etc.
+        - paragraph [ref=e153]: Who doesn't like food?! Subscribe! :)
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Rules
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: Be friendly
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Try to specify where the food is from in the comments or title
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: Post Tags
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: "[THE BEST PLACE IN]"
+        - paragraph [ref=e165]:
+          - strong [ref=e166]: "[WHO MAKES THE BEST]"
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "Related Subs:"
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - paragraph [ref=e171]:
+              - strong [ref=e172]:
+                - link "/r/FoodWishes" [ref=e173] [cursor=pointer]:
+                  - /url: /r/FoodWishes
+                - text: (NEW!)
+          - listitem [ref=e174]:
+            - paragraph [ref=e175]:
+              - link "/r/Food" [ref=e176] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e177]:
+            - paragraph [ref=e178]:
+              - link "/r/FoodPorn" [ref=e179] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e180]:
+            - paragraph [ref=e181]:
+              - link "/r/LosAngeles" [ref=e182] [cursor=pointer]:
+                - /url: /r/LosAngeles
+        - paragraph [ref=e183]:
+          - strong [ref=e184]: Resources
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - paragraph [ref=e187]:
+              - link "Reddit's take on the best restaurants in Los Angeles" [ref=e188] [cursor=pointer]:
+                - /url: http://www.reddit.com/r/LosAngeles/comments/2dq6tr/whats_your_favorite_restaurant_in_los_angeles/
+          - listitem [ref=e189]:
+            - paragraph [ref=e190]:
+              - link "20 Best Restaurants in Los Angeles | LAWeekly.com" [ref=e191] [cursor=pointer]:
+                - /url: http://www.laweekly.com/squidink/2014/04/15/20-best-restaurants-in-los-angeles
+          - listitem [ref=e192]:
+            - paragraph [ref=e193]:
+              - link "L.A.'s 75 Best Restaurants | LAMag.com" [ref=e194] [cursor=pointer]:
+                - /url: http://www.lamag.com/thejump/2014/04/23/hot-stuff-announcing-las-75-best-restaurants
+          - listitem [ref=e195]:
+            - paragraph [ref=e196]:
+              - link "10 Foods Los Angeles Does Better Than Anywhere Else | HuffingtonPost.com" [ref=e197] [cursor=pointer]:
+                - /url: http://www.huffingtonpost.com/2013/10/15/best-los-angeles-food_n_4101759.html
+          - listitem [ref=e198]:
+            - paragraph [ref=e199]:
+              - link "Roaming Hunger Food Truck Map" [ref=e200] [cursor=pointer]:
+                - /url: http://roaminghunger.com/la
+          - listitem [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "FoodTrucksMap.com" [ref=e203] [cursor=pointer]:
+                - /url: http://www.foodtruckmaps.com/la/
+        - paragraph [ref=e204]:
+          - strong [ref=e205]: The Food Network
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "/r/FoodToronto" [ref=e209] [cursor=pointer]:
+                - /url: /r/FoodToronto
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "/r/FoodPortland" [ref=e212] [cursor=pointer]:
+                - /url: /r/FoodPortland
+          - listitem [ref=e213]:
+            - paragraph [ref=e214]:
+              - link "/r/FoodNYC" [ref=e215] [cursor=pointer]:
+                - /url: /r/FoodNYC
+          - listitem [ref=e216]:
+            - paragraph [ref=e217]:
+              - link "/r/FoodSanDiego" [ref=e218] [cursor=pointer]:
+                - /url: /r/FoodSanDiego
+          - listitem [ref=e219]:
+            - paragraph [ref=e220]:
+              - link "/r/FoodVancouver" [ref=e221] [cursor=pointer]:
+                - /url: /r/FoodVancouver
+          - listitem [ref=e222]:
+            - paragraph [ref=e223]:
+              - link "/r/ChicagoFood" [ref=e224] [cursor=pointer]:
+                - /url: /r/ChicagoFood
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "/r/ColumbusFood" [ref=e227] [cursor=pointer]:
+                - /url: /r/ColumbusFood
+          - listitem [ref=e228]:
+            - paragraph [ref=e229]:
+              - link "/r/FoodSoCal" [ref=e230] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e231]:
+            - paragraph [ref=e232]:
+              - link "/r/FoodNewOrleans" [ref=e233] [cursor=pointer]:
+                - /url: /r/FoodNewOrleans
+          - listitem [ref=e234]:
+            - paragraph [ref=e235]:
+              - link "/r/FoodSanFrancisco" [ref=e236] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+        - paragraph [ref=e237]: "Related Subs:"
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - link "/r/Burgers" [ref=e240] [cursor=pointer]:
+              - /url: /r/Burgers
+      - generic [ref=e242]:
+        - text: a community for
+        - time [ref=e243]: 11 years
+    - generic [ref=e245]:
+      - heading "MODERATORS" [level=1] [ref=e247]
+      - list [ref=e248]:
+        - listitem [ref=e249]:
+          - link "message the mods" [ref=e250] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodLosAngeles
+    - complementary [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - text: discussions in
+          - link "r/FoodLosAngeles" [ref=e256] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/?ref=readnext
+        - navigation [ref=e257]:
+          - generic [ref=e258] [cursor=pointer]: <
+          - generic [ref=e259] [cursor=pointer]: ">"
+        - generic [ref=e261] [cursor=pointer]: X
+      - link "3 r/FoodLosAngeles Week In Review 04/17/26" [ref=e263] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1snyvp6/rfoodlosangeles_week_in_review_041726/?ref=readnext_0
+        - generic [ref=e264]: "3"
+        - generic [ref=e265]: r/FoodLosAngeles Week In Review 04/17/26
+  - main [ref=e266]:
+    - generic [ref=e267]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e268] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e269]
+        - paragraph [ref=e270]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Become a Redditor
+          - paragraph [ref=e273]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e274] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e276]:
+      - paragraph
+      - generic [ref=e277]:
+        - button "upvote" [ref=e278] [cursor=pointer]
+        - generic "39" [ref=e279]
+        - button "downvote" [ref=e280] [cursor=pointer]
+      - link [ref=e281] [cursor=pointer]:
+        - /url: https://bokindustries.github.io/foodla-2025/
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - paragraph [ref=e284]:
+            - link "r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [ref=e285] [cursor=pointer]:
+              - /url: https://bokindustries.github.io/foodla-2025/
+            - generic "BEST OF LA" [ref=e286]
+            - generic [ref=e287]:
+              - text: (
+              - link "bokindustries.github.io" [ref=e288] [cursor=pointer]:
+                - /url: /domain/bokindustries.github.io/
+              - text: )
+          - paragraph [ref=e289]:
+            - text: submitted
+            - time [ref=e290]: 1 month ago
+            - time [ref=e291]: "*"
+            - text: by
+            - link "LAFoodieBen" [ref=e292] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/LAFoodieBen
+            - generic "Culver City" [ref=e293]
+            - generic [ref=e294]:
+              - text: "["
+              - link "M" [ref=e295] [cursor=pointer]:
+                - /url: /r/FoodLosAngeles/about/moderators
+              - text: "]"
+            - text: "- announcement"
+        - generic [ref=e299]:
+          - paragraph [ref=e300]:
+            - text: At long last, the results from the
+            - link "r/FoodLosAngeles" [ref=e301] [cursor=pointer]:
+              - /url: /r/FoodLosAngeles
+            - text: Best of 2025 poll are in! 39 of y'all weighed in and here are the top scorers (
+            - link "full results here" [ref=e302] [cursor=pointer]:
+              - /url: https://bokindustries.github.io/foodla-2025/
+            - text: "):"
+          - table [ref=e303]:
+            - rowgroup [ref=e304]:
+              - row "Restaurant Points" [ref=e305]:
+                - columnheader "Restaurant" [ref=e306]:
+                  - strong [ref=e307]: Restaurant
+                - columnheader "Points" [ref=e308]:
+                  - strong [ref=e309]: Points
+            - rowgroup [ref=e310]:
+              - row "Holbox 46" [ref=e311]:
+                - cell "Holbox" [ref=e312]
+                - cell "46" [ref=e313]
+              - row "Providence 18" [ref=e314]:
+                - cell "Providence" [ref=e315]
+                - cell "18" [ref=e316]
+              - row "Quarter Sheets 13" [ref=e317]:
+                - cell "Quarter Sheets" [ref=e318]
+                - cell "13" [ref=e319]
+              - row "Kato 13" [ref=e320]:
+                - cell "Kato" [ref=e321]
+                - cell "13" [ref=e322]
+              - row "Dunsmoor 13" [ref=e323]:
+                - cell "Dunsmoor" [ref=e324]
+                - cell "13" [ref=e325]
+              - row "Pizzeria Sei 11" [ref=e326]:
+                - cell "Pizzeria Sei" [ref=e327]
+                - cell "11" [ref=e328]
+              - row "Hayato 10" [ref=e329]:
+                - cell "Hayato" [ref=e330]
+                - cell "10" [ref=e331]
+              - row "Komal 10" [ref=e332]:
+                - cell "Komal" [ref=e333]
+                - cell "10" [ref=e334]
+              - row "Kurrypinch 9" [ref=e335]:
+                - cell "Kurrypinch" [ref=e336]
+                - cell "9" [ref=e337]
+              - row "Bavel 9" [ref=e338]:
+                - cell "Bavel" [ref=e339]
+                - cell "9" [ref=e340]
+              - row "Restaurant Ki 8" [ref=e341]:
+                - cell "Restaurant Ki" [ref=e342]
+                - cell "8" [ref=e343]
+              - row "Baroo 8" [ref=e344]:
+                - cell "Baroo" [ref=e345]
+                - cell "8" [ref=e346]
+              - row "n/soto 8" [ref=e347]:
+                - cell "n/soto" [ref=e348]
+                - cell "8" [ref=e349]
+              - row "Mariscos Jalisco 7" [ref=e350]:
+                - cell "Mariscos Jalisco" [ref=e351]
+                - cell "7" [ref=e352]
+              - row "Carmel 6" [ref=e353]:
+                - cell "Carmel" [ref=e354]
+                - cell "6" [ref=e355]
+          - paragraph [ref=e356]:
+            - link "You can check out a summary of the rest of the poll results here" [ref=e357] [cursor=pointer]:
+              - /url: https://bokindustries.github.io/foodla-2025/recap.html
+            - text: "! Holbox won \"Best Bite of the Year\" by getting 3 different bites nominated, and Restaurant Ki and Kurrypinch tied for \"Best New Restaurant\"."
+          - paragraph [ref=e358]: Providence's tasting menu got the most votes for "Best Food Experience" and, while some of us mourned for the Helms Bakery reboot, even more found Here's Looking At You to be the "Saddest Restaurant Closure of 2025".
+          - paragraph [ref=e359]: "Big thanks to everybody who voted (even to the user who had Del Taco as #1 and Holbox at #5)! Next year I think we'll take a different non-Google poll approach to try and get more than .01% of us involved :D"
+        - list [ref=e360]:
+          - listitem [ref=e361]:
+            - link "18 comments" [ref=e362] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/
+          - listitem [ref=e363]:
+            - link "share" [ref=e364] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e365]:
+            - link "save" [ref=e366] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e367]:
+            - link "hide" [ref=e370] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e371]:
+            - link "report" [ref=e372] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e373]:
+      - generic [ref=e374]: all 18 comments
+      - generic [ref=e376]:
+        - text: "sorted by:"
+        - generic [ref=e377]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e380] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e381]
+        - generic [ref=e382]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e383]
+          - paragraph [ref=e384]: Post a comment!
+          - generic [ref=e386]: Create an account
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - paragraph
+          - generic [ref=e389]:
+            - button "upvote" [ref=e390] [cursor=pointer]
+            - button "downvote" [ref=e391] [cursor=pointer]
+          - generic [ref=e392]:
+            - paragraph [ref=e393]:
+              - link "[–]" [ref=e394] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LAFoodieBen" [ref=e395] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LAFoodieBen
+              - generic "Culver City" [ref=e396]
+              - generic [ref=e397]:
+                - text: "["
+                - link "S" [ref=e398] [cursor=pointer]:
+                  - /url: /r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/
+                - text: "]"
+              - text: "[score hidden]"
+              - time [ref=e399]: 1 month ago
+              - text: "- stickied comment"
+            - paragraph [ref=e403]:
+              - text: If you're using the app and can't see those links,
+              - link "here's a link to the full results" [ref=e404] [cursor=pointer]:
+                - /url: https://bokindustries.github.io/foodla-2025/
+              - text: and
+              - link "here's a link to the summary of the rest of the poll questions" [ref=e405] [cursor=pointer]:
+                - /url: https://bokindustries.github.io/foodla-2025/recap.html
+              - text: "!"
+            - list [ref=e406]:
+              - listitem [ref=e407]:
+                - link "permalink" [ref=e408] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o91aff3/
+              - listitem [ref=e409]:
+                - link "embed" [ref=e410] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e411]:
+                - link "save" [ref=e412] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e413]:
+                - link "report" [ref=e414] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e415]:
+                - link "reply" [ref=e416] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e417]:
+          - paragraph
+          - generic [ref=e418]:
+            - button "upvote" [ref=e419] [cursor=pointer]
+            - button "downvote" [ref=e420] [cursor=pointer]
+          - generic [ref=e421]:
+            - paragraph [ref=e422]:
+              - link "[–]" [ref=e423] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ahrumah" [ref=e424] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ahrumah
+              - text: 11 points
+              - time [ref=e425]: 1 month ago
+            - paragraph [ref=e429]: Huh. I feel like I’m moderately aware of what’s going on in the LA food scene, and I’ve never heard of Kurrypinch. Super intrigued.
+            - list [ref=e430]:
+              - listitem [ref=e431]:
+                - link "permalink" [ref=e432] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o9097im/
+              - listitem [ref=e433]:
+                - link "embed" [ref=e434] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e435]:
+                - link "save" [ref=e436] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e437]:
+                - link "report" [ref=e438] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e439]:
+                - link "reply" [ref=e440] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - paragraph
+              - generic [ref=e444]:
+                - button "upvote" [ref=e445] [cursor=pointer]
+                - button "downvote" [ref=e446] [cursor=pointer]
+              - generic [ref=e447]:
+                - paragraph [ref=e448]:
+                  - link "[–]" [ref=e449] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "BallerGuitarer" [ref=e450] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/BallerGuitarer
+                  - text: 7 points
+                  - time [ref=e451]: 1 month ago
+                  - time [ref=e452]: "*"
+                - generic [ref=e455]:
+                  - paragraph [ref=e456]:
+                    - text: "They had some press when they opened last year:"
+                    - link "https://la.eater.com/2025/2/20/24317253/kurrypinch-sri-lankan-restaurant-opening-los-angeles" [ref=e457] [cursor=pointer]:
+                      - /url: https://la.eater.com/2025/2/20/24317253/kurrypinch-sri-lankan-restaurant-opening-los-angeles
+                  - paragraph [ref=e458]: I'm Sri Lankan and I think they're great. They have a new high tea option in the afternoons, which is super pleasant and unique.
+                - list [ref=e459]:
+                  - listitem [ref=e460]:
+                    - link "permalink" [ref=e461] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o9260zv/
+                  - listitem [ref=e462]:
+                    - link "embed" [ref=e463] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e464]:
+                    - link "save" [ref=e465] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e466]:
+                    - link "parent" [ref=e467] [cursor=pointer]:
+                      - /url: "#o9097im"
+                  - listitem [ref=e468]:
+                    - link "report" [ref=e469] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e470]:
+                    - link "reply" [ref=e471] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e472]:
+              - paragraph
+              - generic [ref=e473]:
+                - button "upvote" [ref=e474] [cursor=pointer]
+                - button "downvote" [ref=e475] [cursor=pointer]
+              - generic [ref=e476]:
+                - paragraph [ref=e477]:
+                  - link "[–]" [ref=e478] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "TomIcemanKazinski" [ref=e479] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/TomIcemanKazinski
+                  - text: 6 points
+                  - time [ref=e480]: 1 month ago
+                - paragraph [ref=e484]: It’s in Thai Town on Hollywood
+                - list [ref=e485]:
+                  - listitem [ref=e486]:
+                    - link "permalink" [ref=e487] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o915vb1/
+                  - listitem [ref=e488]:
+                    - link "embed" [ref=e489] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e490]:
+                    - link "save" [ref=e491] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e492]:
+                    - link "parent" [ref=e493] [cursor=pointer]:
+                      - /url: "#o9097im"
+                  - listitem [ref=e494]:
+                    - link "report" [ref=e495] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e496]:
+                    - link "reply" [ref=e497] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e498]:
+              - paragraph
+              - generic [ref=e499]:
+                - button "upvote" [ref=e500] [cursor=pointer]
+                - button "downvote" [ref=e501] [cursor=pointer]
+              - generic [ref=e502]:
+                - paragraph [ref=e503]:
+                  - link "[–]" [ref=e504] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "zxxxxcccccc" [ref=e505] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/zxxxxcccccc
+                  - text: 4 points
+                  - time [ref=e506]: 1 month ago
+                - paragraph [ref=e510]: it is fantastic
+                - list [ref=e511]:
+                  - listitem [ref=e512]:
+                    - link "permalink" [ref=e513] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o92p7qa/
+                  - listitem [ref=e514]:
+                    - link "embed" [ref=e515] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e516]:
+                    - link "save" [ref=e517] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e518]:
+                    - link "parent" [ref=e519] [cursor=pointer]:
+                      - /url: "#o9097im"
+                  - listitem [ref=e520]:
+                    - link "report" [ref=e521] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e522]:
+                    - link "reply" [ref=e523] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e524]:
+          - paragraph
+          - generic [ref=e525]:
+            - button "upvote" [ref=e526] [cursor=pointer]
+            - button "downvote" [ref=e527] [cursor=pointer]
+          - generic [ref=e528]:
+            - paragraph [ref=e529]:
+              - link "[–]" [ref=e530] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Lordain" [ref=e531] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Lordain
+              - text: 11 points
+              - time [ref=e532]: 1 month ago
+            - paragraph [ref=e536]: Providence is quite immaculate. Personally Ive had mixed feelings about other 2-3 star restaurants sometimes too pretentious for their own good and if I still need tacos after a 600$ meal we need to talk. I left Providence stuffed and quite happy.
+            - list [ref=e537]:
+              - listitem [ref=e538]:
+                - link "permalink" [ref=e539] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o90vtaw/
+              - listitem [ref=e540]:
+                - link "embed" [ref=e541] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e542]:
+                - link "save" [ref=e543] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e544]:
+                - link "report" [ref=e545] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e546]:
+                - link "reply" [ref=e547] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e548]:
+          - paragraph
+          - generic [ref=e549]:
+            - button "upvote" [ref=e550] [cursor=pointer]
+            - button "downvote" [ref=e551] [cursor=pointer]
+          - generic [ref=e552]:
+            - paragraph [ref=e553]:
+              - link "[–]" [ref=e554] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "measuredsympathy" [ref=e555] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/measuredsympathy
+              - text: 4 points
+              - time [ref=e556]: 1 month ago
+            - paragraph [ref=e560]: Ranked choice next time? Haha
+            - list [ref=e561]:
+              - listitem [ref=e562]:
+                - link "permalink" [ref=e563] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o90x46s/
+              - listitem [ref=e564]:
+                - link "embed" [ref=e565] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e566]:
+                - link "save" [ref=e567] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e568]:
+                - link "report" [ref=e569] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e570]:
+                - link "reply" [ref=e571] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e572]:
+          - paragraph
+          - generic [ref=e573]:
+            - button "upvote" [ref=e574] [cursor=pointer]
+            - button "downvote" [ref=e575] [cursor=pointer]
+          - generic [ref=e576]:
+            - paragraph [ref=e577]:
+              - link "[–]" [ref=e578] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bankster24" [ref=e579] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bankster24
+              - text: 13 points
+              - time [ref=e580]: 1 month ago
+            - paragraph [ref=e584]: Quarter sheets?? Cmon yall that pizza isn’t even the best in LA let alone best restaurant 😂
+            - list [ref=e585]:
+              - listitem [ref=e586]:
+                - link "permalink" [ref=e587] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o91c9j9/
+              - listitem [ref=e588]:
+                - link "embed" [ref=e589] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e590]:
+                - link "save" [ref=e591] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e592]:
+                - link "report" [ref=e593] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e594]:
+                - link "reply" [ref=e595] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e597]:
+            - generic [ref=e598]:
+              - paragraph
+              - generic [ref=e599]:
+                - button "upvote" [ref=e600] [cursor=pointer]
+                - button "downvote" [ref=e601] [cursor=pointer]
+              - generic [ref=e602]:
+                - paragraph [ref=e603]:
+                  - link "[–]" [ref=e604] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "sheik_yerbouti" [ref=e605] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/sheik_yerbouti
+                  - text: 3 points
+                  - time [ref=e606]: 1 month ago
+                - paragraph [ref=e610]: Truly do not understand the hype. The princess cake was the best thing and it was just fine.
+                - list [ref=e611]:
+                  - listitem [ref=e612]:
+                    - link "permalink" [ref=e613] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o95me84/
+                  - listitem [ref=e614]:
+                    - link "embed" [ref=e615] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e616]:
+                    - link "save" [ref=e617] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e618]:
+                    - link "parent" [ref=e619] [cursor=pointer]:
+                      - /url: "#o91c9j9"
+                  - listitem [ref=e620]:
+                    - link "report" [ref=e621] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e622]:
+                    - link "reply" [ref=e623] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e624]:
+              - paragraph
+              - generic [ref=e625]:
+                - button "upvote" [ref=e626] [cursor=pointer]
+                - button "downvote" [ref=e627] [cursor=pointer]
+              - generic [ref=e628]:
+                - paragraph [ref=e629]:
+                  - link "[–]" [ref=e630] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "catsRawesome123" [ref=e631] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/catsRawesome123
+                  - text: 5 points
+                  - time [ref=e632]: 1 month ago
+                - paragraph [ref=e636]: Best cake slice ever
+                - list [ref=e637]:
+                  - listitem [ref=e638]:
+                    - link "permalink" [ref=e639] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o91f03g/
+                  - listitem [ref=e640]:
+                    - link "embed" [ref=e641] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e642]:
+                    - link "save" [ref=e643] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e644]:
+                    - link "parent" [ref=e645] [cursor=pointer]:
+                      - /url: "#o91c9j9"
+                  - listitem [ref=e646]:
+                    - link "report" [ref=e647] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e648]:
+                    - link "reply" [ref=e649] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e650]:
+          - paragraph
+          - generic [ref=e651]:
+            - button "upvote" [ref=e652] [cursor=pointer]
+            - button "downvote" [ref=e653] [cursor=pointer]
+          - generic [ref=e654]:
+            - paragraph [ref=e655]:
+              - link "[–]" [ref=e656] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mizzzikey" [ref=e657] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mizzzikey
+              - text: 3 points
+              - time [ref=e658]: 1 month ago
+            - paragraph [ref=e662]: Del taco’s placement 🤪
+            - list [ref=e663]:
+              - listitem [ref=e664]:
+                - link "permalink" [ref=e665] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o933y20/
+              - listitem [ref=e666]:
+                - link "embed" [ref=e667] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e668]:
+                - link "save" [ref=e669] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e670]:
+                - link "report" [ref=e671] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e672]:
+                - link "reply" [ref=e673] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e674]:
+          - paragraph
+          - generic [ref=e675]:
+            - button "upvote" [ref=e676] [cursor=pointer]
+            - button "downvote" [ref=e677] [cursor=pointer]
+          - generic [ref=e678]:
+            - paragraph [ref=e679]:
+              - link "[–]" [ref=e680] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "chandler2020" [ref=e681] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/chandler2020
+              - text: 3 points
+              - time [ref=e682]: 1 month ago
+            - paragraph [ref=e686]: I truly don’t get the love for pizzeria sei.
+            - list [ref=e687]:
+              - listitem [ref=e688]:
+                - link "permalink" [ref=e689] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o91xtif/
+              - listitem [ref=e690]:
+                - link "embed" [ref=e691] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e692]:
+                - link "save" [ref=e693] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e694]:
+                - link "report" [ref=e695] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e696]:
+                - link "reply" [ref=e697] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e700]:
+            - paragraph
+            - generic [ref=e701]:
+              - button "upvote" [ref=e702] [cursor=pointer]
+              - button "downvote" [ref=e703] [cursor=pointer]
+            - generic [ref=e704]:
+              - paragraph [ref=e705]:
+                - link "[–]" [ref=e706] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "buhrandone" [ref=e707] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/buhrandone
+                - text: 2 points
+                - time [ref=e708]: 1 month ago
+              - generic [ref=e711]:
+                - paragraph [ref=e712]: Agreed. I dined in and both our pizzas ended up soggy and soaked in oil. Was not a great experience.
+                - paragraph [ref=e713]: First bite was great, while the pizza was still fresh. But they really need to serve the pizza on a rack or something so that it doesn’t steam itself and get super soggy.
+              - list [ref=e714]:
+                - listitem [ref=e715]:
+                  - link "permalink" [ref=e716] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o92xbkr/
+                - listitem [ref=e717]:
+                  - link "embed" [ref=e718] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e719]:
+                  - link "save" [ref=e720] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e721]:
+                  - link "parent" [ref=e722] [cursor=pointer]:
+                    - /url: "#o91xtif"
+                - listitem [ref=e723]:
+                  - link "report" [ref=e724] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e725]:
+                  - link "reply" [ref=e726] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e727]:
+          - paragraph
+          - generic [ref=e728]:
+            - button "upvote" [ref=e729] [cursor=pointer]
+            - button "downvote" [ref=e730] [cursor=pointer]
+          - generic [ref=e731]:
+            - paragraph [ref=e732]:
+              - link "[–]" [ref=e733] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SlappyMcGillicuddy" [ref=e734] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SlappyMcGillicuddy
+              - text: 2 points
+              - time [ref=e735]: 1 month ago
+            - paragraph [ref=e739]: It's just "Here's Looking At You;" no kid. Let's not spit on its grave.
+            - list [ref=e740]:
+              - listitem [ref=e741]:
+                - link "permalink" [ref=e742] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o93srvi/
+              - listitem [ref=e743]:
+                - link "embed" [ref=e744] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e745]:
+                - link "save" [ref=e746] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e747]:
+                - link "report" [ref=e748] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e749]:
+                - link "reply" [ref=e750] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e753]:
+            - paragraph
+            - generic [ref=e754]:
+              - button "upvote" [ref=e755] [cursor=pointer]
+              - button "downvote" [ref=e756] [cursor=pointer]
+            - generic [ref=e757]:
+              - paragraph [ref=e758]:
+                - link "[–]" [ref=e759] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "LAFoodieBen" [ref=e760] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/LAFoodieBen
+                - generic "Culver City" [ref=e761]
+                - generic [ref=e762]:
+                  - text: "["
+                  - link "S" [ref=e763] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/
+                  - text: "]"
+                - text: 2 points
+                - time [ref=e764]: 1 month ago
+              - paragraph [ref=e768]: Corrected!
+              - list [ref=e769]:
+                - listitem [ref=e770]:
+                  - link "permalink" [ref=e771] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o9q4g1d/
+                - listitem [ref=e772]:
+                  - link "embed" [ref=e773] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e774]:
+                  - link "save" [ref=e775] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e776]:
+                  - link "parent" [ref=e777] [cursor=pointer]:
+                    - /url: "#o93srvi"
+                - listitem [ref=e778]:
+                  - link "report" [ref=e779] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e780]:
+                  - link "reply" [ref=e781] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e782]:
+          - paragraph
+          - generic [ref=e783]:
+            - button "upvote" [ref=e784] [cursor=pointer]
+            - button "downvote" [ref=e785] [cursor=pointer]
+          - generic [ref=e786]:
+            - paragraph [ref=e787]:
+              - link "[–]" [ref=e788] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "inthefade95" [ref=e789] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/inthefade95
+              - text: 1 point
+              - time [ref=e790]: 1 month ago
+            - paragraph [ref=e794]: Is it best to show up to Comedor Tenchita early? Or is it chill?
+            - list [ref=e795]:
+              - listitem [ref=e796]:
+                - link "permalink" [ref=e797] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/ob08l4u/
+              - listitem [ref=e798]:
+                - link "embed" [ref=e799] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e800]:
+                - link "save" [ref=e801] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e802]:
+                - link "report" [ref=e803] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e804]:
+                - link "reply" [ref=e805] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e806]:
+          - paragraph
+          - generic [ref=e807]:
+            - button "upvote" [ref=e808] [cursor=pointer]
+            - button "downvote" [ref=e809] [cursor=pointer]
+          - generic [ref=e810]:
+            - paragraph [ref=e811]:
+              - link "[–]" [ref=e812] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Jackie_Of_All_Trades" [ref=e813] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Jackie_Of_All_Trades
+              - text: "-2 points"
+              - time [ref=e814]: 1 month ago
+            - paragraph [ref=e818]: Good list, no Bestia.
+            - list [ref=e819]:
+              - listitem [ref=e820]:
+                - link "permalink" [ref=e821] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/o90yzrl/
+              - listitem [ref=e822]:
+                - link "embed" [ref=e823] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e824]:
+                - link "save" [ref=e825] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e826]:
+                - link "report" [ref=e827] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e828]:
+                - link "reply" [ref=e829] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e832]:
+            - paragraph
+            - generic [ref=e833]:
+              - button "upvote" [ref=e834] [cursor=pointer]
+              - button "downvote" [ref=e835] [cursor=pointer]
+            - generic [ref=e836]:
+              - paragraph [ref=e837]:
+                - link "[–]" [ref=e838] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "The_Bucket_Of_Truth" [ref=e839] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/The_Bucket_Of_Truth
+                - text: 1 point
+                - time [ref=e840]: 7 days ago
+              - paragraph [ref=e844]: First time I went there I thought it was fantastic but another time few years later it was just okay. Not sure if their eyes were off the ball with a new restaurant or two or just an off night, but I haven't traveled for it again.
+              - list [ref=e845]:
+                - listitem [ref=e846]:
+                  - link "permalink" [ref=e847] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/oghfype/
+                - listitem [ref=e848]:
+                  - link "embed" [ref=e849] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e850]:
+                  - link "save" [ref=e851] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e852]:
+                  - link "parent" [ref=e853] [cursor=pointer]:
+                    - /url: "#o90yzrl"
+                - listitem [ref=e854]:
+                  - link "report" [ref=e855] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e856]:
+                  - link "reply" [ref=e857] [cursor=pointer]:
+                    - /url: javascript:void(0)
+  - generic [ref=e858]:
+    - generic [ref=e859]:
+      - list [ref=e861]:
+        - listitem [ref=e862]: about
+        - listitem [ref=e863]:
+          - link "blog" [ref=e864] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e865]:
+          - link "about" [ref=e866] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e867]:
+          - link "advertising" [ref=e868] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e869]:
+          - link "careers" [ref=e870] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e872]:
+        - listitem [ref=e873]: help
+        - listitem [ref=e874]:
+          - link "site rules" [ref=e875] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e876]:
+          - link "Reddit help center" [ref=e877] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e878]:
+          - link "reddiquette" [ref=e879] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e880]:
+          - link "mod guidelines" [ref=e881] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e882]:
+          - link "contact us" [ref=e883] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e885]:
+        - listitem [ref=e886]: apps & tools
+        - listitem [ref=e887]:
+          - link "Reddit for iPhone" [ref=e888] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e889]:
+          - link "Reddit for Android" [ref=e890] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e891]:
+          - link "mobile website" [ref=e892] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e894]:
+        - listitem [ref=e895]: <3
+        - listitem [ref=e896]:
+          - link "reddit premium" [ref=e897] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e898]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e899] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e900] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e901]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e902]
+  - paragraph [ref=e903]: π

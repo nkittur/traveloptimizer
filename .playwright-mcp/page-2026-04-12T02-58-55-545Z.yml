@@ -1,0 +1,2155 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "sandiego":
+        - /url: https://old.reddit.com/
+        - img "sandiego" [ref=e111] [cursor=pointer]
+      - link "sandiego" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/sandiego/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e122]:
+      - textbox "search" [ref=e123]
+      - button "Submit" [ref=e124]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - text: this post was submitted on
+        - time [ref=e128]: 19 Dec 2023
+      - generic [ref=e129]: 61 points (82% upvoted)
+      - generic [ref=e130]:
+        - text: "shortlink:"
+        - textbox [ref=e131]: https://redd.it/18m9c6g
+    - link "Submit a new link" [ref=e135]:
+      - /url: https://old.reddit.com/r/sandiego/submit
+    - link "Submit a new text post" [ref=e139]:
+      - /url: https://old.reddit.com/r/sandiego/submit?selftext=true
+    - generic [ref=e141]:
+      - heading "sandiego" [level=1]:
+        - link "sandiego" [ref=e142] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/sandiego/
+      - link "join" [ref=e144]:
+        - /url: "#"
+      - generic [ref=e147]:
+        - heading "Ask your QUESTIONS HERE" [level=2] [ref=e148]:
+          - emphasis [ref=e149]: Ask your QUESTIONS HERE
+        - heading "• Ask San Diego" [level=2] [ref=e150]:
+          - text: •
+          - strong [ref=e151]:
+            - emphasis [ref=e152]:
+              - link "Ask San Diego" [ref=e153] [cursor=pointer]:
+                - /url: /r/AskSanDiego
+        - heading "• SD Classifieds" [level=2] [ref=e154]:
+          - text: •
+          - strong [ref=e155]:
+            - emphasis [ref=e156]:
+              - link "SD Classifieds" [ref=e157] [cursor=pointer]:
+                - /url: /r/SanDiegoClassifieds
+        - heading "• SD Jobs" [level=2] [ref=e158]:
+          - text: •
+          - strong [ref=e159]:
+            - emphasis [ref=e160]:
+              - link "SD Jobs" [ref=e161] [cursor=pointer]:
+                - /url: /r/SanDiegoJobs
+        - separator [ref=e162]
+        - separator [ref=e163]
+        - heading "Rules" [level=1]:
+          - link "Rules" [ref=e164] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanDiego/about/rules/
+        - paragraph [ref=e165]:
+          - link "Our rules and guidelines are easy" [ref=e166] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanDiego/about/rules/
+            - strong [ref=e167]: Our rules and guidelines are easy
+          - text: ":"
+        - separator [ref=e168]
+        - paragraph [ref=e169]:
+          - strong [ref=e170]:
+            - emphasis [ref=e171]: Bored?
+        - paragraph [ref=e172]:
+          - text: Check the weekly*
+          - strong [ref=e173]:
+            - emphasis [ref=e174]: "\"Things to Do\""
+          - text: "*thread pinned at the top of the sub or visit the subs"
+          - link "Facebook Meetup Group" [ref=e175] [cursor=pointer]:
+            - /url: http://www.facebook.com/groups/sdredditors/
+        - paragraph [ref=e176]:
+          - link "Feeling Depressed? Help is here (chat)!" [ref=e177] [cursor=pointer]:
+            - /url: https://svcrplv.uhc.com/sdchat/
+            - strong [ref=e178]: Feeling Depressed?
+            - text: Help is here (chat)!
+          - text: "Direct Phone:"
+          - strong [ref=e179]: (888) 724-7240
+        - paragraph [ref=e180]:
+          - link "Watch this video for some VERY GOOD Advice" [ref=e181] [cursor=pointer]:
+            - /url: https://youtu.be/eVphvQjSJ9c
+            - strong [ref=e182]: Watch this video for some VERY GOOD Advice
+        - paragraph [ref=e183]:
+          - link "Bi-Polar, OCD or something else you're not sure of (difficult thoughts)?" [ref=e184] [cursor=pointer]:
+            - /url: https://www.crisistextline.org
+            - strong [ref=e185]: Bi-Polar, OCD
+            - text: or
+            - strong [ref=e186]:
+              - emphasis [ref=e187]: something else
+            - text: you're not sure of (difficult thoughts)?
+          - text: and you can also
+          - link "check these people out too" [ref=e188] [cursor=pointer]:
+            - /url: http://www.dbsasandiego.org
+        - separator [ref=e189]
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - paragraph [ref=e192]:
+              - link "Visiting The City?*" [ref=e193] [cursor=pointer]:
+                - /url: https://www.sandiego.org/plan/visitors-information-services.aspx
+                - strong [ref=e194]:
+                  - emphasis [ref=e195]: Visiting The City
+                  - text: "?"
+                - text: "*"
+              - text: Here's
+              - link "One redditors tour experience" [ref=e196] [cursor=pointer]:
+                - /url: https://old.reddit.com/r/sandiego/comments/98cyyo/visited-sd-last-week-to-visit-family-and-had-a/
+          - listitem [ref=e197]:
+            - paragraph [ref=e198]:
+              - link "Thinking of moving to SD? Use this SubSearch" [ref=e199] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/search?q=Moving&sort=comments&restrict-sr=on
+                - strong [ref=e200]: Thinking of moving to SD? Use this SubSearch
+            - paragraph [ref=e201]:
+              - strong [ref=e202]: OR
+          - listitem [ref=e203]:
+            - paragraph [ref=e204]:
+              - link "Click here for the \"Moving to San Diego\"" [ref=e205] [cursor=pointer]:
+                - /url: /r/Moving2SanDiego
+                - strong [ref=e206]: Click here for the "Moving to San Diego"
+              - text: "-It's a specific sub we maintain for you."
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "Want something \"off the tourist trail/SD history\"?" [ref=e209] [cursor=pointer]:
+                - /url: http://video.kpbs.org/show/ken-kramers-about-san-diego/
+                - strong [ref=e210]: Want something "off the tourist trail/SD history"?
+          - listitem [ref=e211]:
+            - paragraph [ref=e212]:
+              - link "Best of SD" [ref=e213] [cursor=pointer]:
+                - /url: /r/sandiego/comments/2duatc/best-of-san-diego-august-2014/
+                - strong [ref=e214]: Best of SD
+              - text: and
+              - link "Things to do in SD" [ref=e215] [cursor=pointer]:
+                - /url: /r/sandiego/comments/d9dlr/definitive-list/
+                - strong [ref=e216]: Things to do in SD
+          - listitem [ref=e217]:
+            - paragraph [ref=e218]:
+              - link "Updated Craft Brewery Map of San Diego" [ref=e219] [cursor=pointer]:
+                - /url: https://www.google.com/maps/d/viewer?mid=1pbR91HVqmpQogZczWzgMFVrIbSA&hl=en-US&ll=32.74927874387212%2C-117.12385493115232&z=14
+                - strong [ref=e220]: Updated Craft Brewery Map of San Diego
+        - separator [ref=e221]
+        - paragraph [ref=e222]:
+          - strong [ref=e223]: "Related Subreddits:"
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "Tijuana" [ref=e227] [cursor=pointer]:
+                - /url: /r/tijuana
+            - paragraph [ref=e228]:
+              - strong [ref=e229]: "Special Local Interests:"
+          - listitem [ref=e230]:
+            - paragraph [ref=e231]:
+              - 'link "SD Weed: Our Medical and Recreational Cannabis & MJ Sub" [ref=e232] [cursor=pointer]':
+                - /url: /r/SDweed
+          - listitem [ref=e233]:
+            - paragraph [ref=e234]:
+              - link "San Diego Food (porn)" [ref=e235] [cursor=pointer]:
+                - /url: /r/foodsandiego
+          - listitem [ref=e236]:
+            - paragraph [ref=e237]:
+              - link "SD Pictures and Photography" [ref=e238] [cursor=pointer]:
+                - /url: /r/SanDiego_Photography/
+            - paragraph [ref=e239]:
+              - strong [ref=e240]: "Sports:"
+          - listitem [ref=e241]:
+            - paragraph [ref=e242]:
+              - link "SD Sports subs(Linking sub listing)" [ref=e243] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/SanDiego-Sports/
+            - paragraph [ref=e244]:
+              - strong [ref=e245]: "Geographical Area subs:"
+          - listitem [ref=e246]:
+            - paragraph [ref=e247]:
+              - link "Anza Borrego" [ref=e248] [cursor=pointer]:
+                - /url: /r/AnzaBorrego
+          - listitem [ref=e249]:
+            - paragraph [ref=e250]:
+              - link "East County" [ref=e251] [cursor=pointer]:
+                - /url: /r/EastCounty
+          - listitem [ref=e252]:
+            - paragraph [ref=e253]:
+              - link "North County" [ref=e254] [cursor=pointer]:
+                - /url: /r/NorthCounty
+            - paragraph [ref=e255]:
+              - strong [ref=e256]: "Schools / University Subs:"
+          - listitem [ref=e257]:
+            - paragraph [ref=e258]:
+              - link "CSUSM" [ref=e259] [cursor=pointer]:
+                - /url: /r/CSUSM
+          - listitem [ref=e260]:
+            - paragraph [ref=e261]:
+              - link "SDSU" [ref=e262] [cursor=pointer]:
+                - /url: /r/SDSU
+          - listitem [ref=e263]:
+            - paragraph [ref=e264]:
+              - link "UCSD" [ref=e265] [cursor=pointer]:
+                - /url: /r/UCSD
+          - listitem [ref=e266]:
+            - paragraph [ref=e267]:
+              - link "USD" [ref=e268] [cursor=pointer]:
+                - /url: /r/USD
+        - separator [ref=e269]
+        - paragraph [ref=e270]:
+          - strong [ref=e271]: "City Links:"
+        - paragraph [ref=e272]:
+          - text: See something to alert the city of?
+          - emphasis [ref=e273]: (potholes, hazards, illegal dumping, graffiti)
+        - paragraph [ref=e274]:
+          - link "Use the \"Get it Done\" app from the city of SD to report and track it" [ref=e275] [cursor=pointer]:
+            - /url: https://www.sandiego.gov/get-it-done
+        - paragraph [ref=e276]:
+          - text: Need a more graphical list of contact numbers for city issues?
+          - link "\"We got ya fam.\"" [ref=e277] [cursor=pointer]:
+            - /url: https://i.redd.it/fvho0sbnbevz.gif
+            - emphasis [ref=e278]: "\"We got ya fam.\""
+        - paragraph [ref=e279]:
+          - strong [ref=e280]: "Wildlife Help:"
+        - paragraph [ref=e281]:
+          - text: "SeaWorld:"
+          - emphasis [ref=e282]: Animal Rescue only
+          - text: "- direct number ( 619. 226-3900 x3893)"
+      - generic [ref=e284]:
+        - text: a community for
+        - time [ref=e285]: 17 years
+    - generic [ref=e287]:
+      - heading "MODERATORS" [level=1] [ref=e289]
+      - list [ref=e290]:
+        - listitem [ref=e291]:
+          - link "message the mods" [ref=e292] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/sandiego
+    - complementary [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - text: discussions in
+          - link "r/sandiego" [ref=e298] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/sandiego/?ref=readnext
+        - navigation [ref=e299]:
+          - generic [ref=e300] [cursor=pointer]: <
+          - generic [ref=e301] [cursor=pointer]: ">"
+        - generic [ref=e303] [cursor=pointer]: X
+      - link "9 · 8 comments Missing Child- At Risk" [ref=e305] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/sandiego/comments/1sg13ev/missing_child_at_risk/?ref=readnext_0
+        - generic [ref=e306]: 9 · 8 comments
+        - generic [ref=e308]: Missing Child- At Risk
+  - main [ref=e309]:
+    - generic [ref=e310]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e311] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e312]
+        - paragraph [ref=e313]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e314]:
+          - generic [ref=e315]: Become a Redditor
+          - paragraph [ref=e316]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e317] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e319]:
+      - paragraph
+      - generic [ref=e320]:
+        - button "upvote" [ref=e321] [cursor=pointer]
+        - generic "61" [ref=e322]
+        - button "downvote" [ref=e323] [cursor=pointer]
+      - link [ref=e324] [cursor=pointer]:
+        - /url: /r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - paragraph [ref=e327]:
+            - link "What are the quirky cool places that make San Diego, San Diego?" [ref=e328] [cursor=pointer]:
+              - /url: /r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/
+            - generic [ref=e329]:
+              - text: (
+              - link "self.sandiego" [ref=e330] [cursor=pointer]:
+                - /url: /r/sandiego/
+              - text: )
+          - paragraph [ref=e331]:
+            - text: submitted
+            - time [ref=e332]: 2 years ago
+            - text: by
+            - link "ITinTheMaking" [ref=e333] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/ITinTheMaking
+        - paragraph [ref=e338]: Title. What are places you take visitors and family so they get to experience SD in it's fullest, anything from viewpoints to restaurants to events. I want to be able to experience SD in it's entirety.
+        - link "83 comments" [ref=e339] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/
+    - generic [ref=e340]:
+      - generic [ref=e342]:
+        - text: "sorted by:"
+        - generic [ref=e343]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e346] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e347]
+        - generic [ref=e348]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e349]
+          - paragraph [ref=e350]: Post a comment!
+          - generic [ref=e352]: Create an account
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - paragraph
+          - generic [ref=e355]:
+            - button "upvote" [ref=e356] [cursor=pointer]
+            - button "downvote" [ref=e357] [cursor=pointer]
+          - generic [ref=e358]:
+            - paragraph [ref=e359]:
+              - link "[–]" [ref=e360] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "stangAce20" [ref=e361] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/stangAce20
+              - text: 79 points
+              - time [ref=e362]: 2 years ago
+            - paragraph [ref=e366]: Spruce Street suspension Bridge
+            - list [ref=e367]:
+              - listitem [ref=e368]:
+                - link "permalink" [ref=e369] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke3lkb6/
+              - listitem [ref=e370]:
+                - link "embed" [ref=e371] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e372]:
+                - link "save" [ref=e373] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e374]:
+                - link "report" [ref=e375] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e376]:
+          - paragraph
+          - paragraph [ref=e378]:
+            - link "[+]" [ref=e379] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e380]: "[deleted]"
+            - time [ref=e381]: 2 years ago
+            - link "(2 children)" [ref=e382] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e383]:
+          - paragraph
+          - generic [ref=e384]:
+            - button "upvote" [ref=e385] [cursor=pointer]
+            - button "downvote" [ref=e386] [cursor=pointer]
+          - generic [ref=e387]:
+            - paragraph [ref=e388]:
+              - link "[–]" [ref=e389] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "squeakyc" [ref=e390] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/squeakyc
+              - text: 26 points
+              - time [ref=e391]: 2 years ago
+            - paragraph [ref=e395]: The big pile of salt at the south end of San Diego Bay on Bay Blvd. That says San Diego to me! Second oldest business in San Diego.
+            - list [ref=e396]:
+              - listitem [ref=e397]:
+                - link "permalink" [ref=e398] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke40hrh/
+              - listitem [ref=e399]:
+                - link "embed" [ref=e400] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e401]:
+                - link "save" [ref=e402] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e403]:
+                - link "report" [ref=e404] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e405]:
+          - paragraph
+          - generic [ref=e406]:
+            - button "upvote" [ref=e407] [cursor=pointer]
+            - button "downvote" [ref=e408] [cursor=pointer]
+          - generic [ref=e409]:
+            - paragraph [ref=e410]:
+              - link "[–]" [ref=e411] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "WhyAlwaysMex" [ref=e412] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/WhyAlwaysMex
+              - text: 21 points
+              - time [ref=e413]: 2 years ago
+              - time [ref=e414]: "*"
+            - paragraph [ref=e418]: OB Farmers Market on Wednesdays and weekend night dive bars
+            - list [ref=e419]:
+              - listitem [ref=e420]:
+                - link "permalink" [ref=e421] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4k8xo/
+              - listitem [ref=e422]:
+                - link "embed" [ref=e423] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e424]:
+                - link "save" [ref=e425] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e426]:
+                - link "report" [ref=e427] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e428]:
+          - paragraph
+          - generic [ref=e429]:
+            - button "upvote" [ref=e430] [cursor=pointer]
+            - button "downvote" [ref=e431] [cursor=pointer]
+          - generic [ref=e432]:
+            - paragraph [ref=e433]:
+              - link "[–]" [ref=e434] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ProcrastinatingPuma" [ref=e435] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ProcrastinatingPuma
+              - text: 67 points
+              - time [ref=e436]: 2 years ago
+            - generic [ref=e439]:
+              - paragraph [ref=e440]: Honestly, you could just spend an entire day at Balboa park, a few days even, there is genuinely so much stuff to do there. The Gaslamp is pretty nice especially now that they have begun pedestrianizing it. Most of our beaches are pretty nice, except for Imperial beach, which through not fault of it's own is super polluted. The waterfront is generally quite nice until you get north of the maritime museum. Sunset Cliffs is downright beautiful, as is Torrey Pines.
+              - paragraph [ref=e441]: And of course as Padres fans I would be ashamed of myself if I didn't recommend taking in a ballgame at Petco Park, just don't wear Dodger blue.
+            - list [ref=e442]:
+              - listitem [ref=e443]:
+                - link "permalink" [ref=e444] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke32y17/
+              - listitem [ref=e445]:
+                - link "embed" [ref=e446] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e447]:
+                - link "save" [ref=e448] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e449]:
+                - link "report" [ref=e450] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e453]:
+            - paragraph
+            - generic [ref=e454]:
+              - button "upvote" [ref=e455] [cursor=pointer]
+              - button "downvote" [ref=e456] [cursor=pointer]
+            - generic [ref=e457]:
+              - paragraph [ref=e458]:
+                - link "[–]" [ref=e459] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Lemongaming91" [ref=e460] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Lemongaming91
+                - text: 4 points
+                - time [ref=e461]: 2 years ago
+              - paragraph [ref=e465]: A FL man who has visited SD for 30 years 3-5 times a year you hit the nail on the head !! Petco best ball park there is Go padres
+              - list [ref=e466]:
+                - listitem [ref=e467]:
+                  - link "permalink" [ref=e468] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke60m62/
+                - listitem [ref=e469]:
+                  - link "embed" [ref=e470] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e471]:
+                  - link "save" [ref=e472] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e473]:
+                  - link "parent" [ref=e474] [cursor=pointer]:
+                    - /url: "#ke32y17"
+                - listitem [ref=e475]:
+                  - link "report" [ref=e476] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e477]:
+          - paragraph
+          - generic [ref=e478]:
+            - button "upvote" [ref=e479] [cursor=pointer]
+            - button "downvote" [ref=e480] [cursor=pointer]
+          - generic [ref=e481]:
+            - paragraph [ref=e482]:
+              - link "[–]" [ref=e483] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Own-Indication8192" [ref=e484] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Own-Indication8192
+              - text: 24 points
+              - time [ref=e485]: 2 years ago
+            - generic [ref=e488]:
+              - paragraph [ref=e489]: "Not quirky but: Hike at Torrey Pines State Reserve, hike the cave at Annie's Canyon, watch gliders or do the raptor experience at Gliderport, kayak La Jolla Cove, eat tacos at Oscar's Mexican seafood, go to the Birch Aquarium, and day trip to hike and wine taste in Julian. There are so so many things to do here; this is just where I like to take people."
+              - paragraph [ref=e490]: What do you like and what do you mean by quirky and we can help you better?
+            - list [ref=e491]:
+              - listitem [ref=e492]:
+                - link "permalink" [ref=e493] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke3gdgp/
+              - listitem [ref=e494]:
+                - link "embed" [ref=e495] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e496]:
+                - link "save" [ref=e497] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e498]:
+                - link "report" [ref=e499] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e502]:
+            - paragraph
+            - generic [ref=e503]:
+              - button "upvote" [ref=e504] [cursor=pointer]
+              - button "downvote" [ref=e505] [cursor=pointer]
+            - generic [ref=e506]:
+              - paragraph [ref=e507]:
+                - link "[–]" [ref=e508] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "tickleboy69" [ref=e509] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/tickleboy69
+                - text: 1 point
+                - time [ref=e510]: 2 years ago
+              - paragraph [ref=e514]: Annie’s Canyon lol! We used to call that place the Shroom Cave hike in high school. Went back over the summer and it’s changed so much! Filled with families and recreational hikers.
+              - list [ref=e515]:
+                - listitem [ref=e516]:
+                  - link "permalink" [ref=e517] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke54870/
+                - listitem [ref=e518]:
+                  - link "embed" [ref=e519] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e520]:
+                  - link "save" [ref=e521] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e522]:
+                  - link "parent" [ref=e523] [cursor=pointer]:
+                    - /url: "#ke3gdgp"
+                - listitem [ref=e524]:
+                  - link "report" [ref=e525] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e528]:
+              - paragraph
+              - generic [ref=e529]:
+                - button "upvote" [ref=e530] [cursor=pointer]
+                - button "downvote" [ref=e531] [cursor=pointer]
+              - generic [ref=e532]:
+                - paragraph [ref=e533]:
+                  - link "[–]" [ref=e534] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Own-Indication8192" [ref=e535] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Own-Indication8192
+                  - text: 1 point
+                  - time [ref=e536]: 2 years ago
+                - paragraph [ref=e540]: Yeah it has undergone a major transformation since the shroom cave graffiti days. They also made a 5 mile loop connecting the San Elijo Lagoon, Nature Center, beach, Annie's Canyon, and the various birding areas in between...pretty nice!
+                - list [ref=e541]:
+                  - listitem [ref=e542]:
+                    - link "permalink" [ref=e543] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5btvn/
+                  - listitem [ref=e544]:
+                    - link "embed" [ref=e545] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e546]:
+                    - link "save" [ref=e547] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e548]:
+                    - link "parent" [ref=e549] [cursor=pointer]:
+                      - /url: "#ke54870"
+                  - listitem [ref=e550]:
+                    - link "report" [ref=e551] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e552]:
+          - paragraph
+          - generic [ref=e553]:
+            - button "upvote" [ref=e554] [cursor=pointer]
+            - button "downvote" [ref=e555] [cursor=pointer]
+          - generic [ref=e556]:
+            - paragraph [ref=e557]:
+              - link "[–]" [ref=e558] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Nachotacoma" [ref=e559] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Nachotacoma
+              - text: 64 points
+              - time [ref=e560]: 2 years ago
+            - generic [ref=e563]:
+              - paragraph [ref=e564]: Inside out
+              - paragraph [ref=e565]: Sd zoo
+              - paragraph [ref=e566]: Pizza port brewing
+              - paragraph [ref=e567]: Coronado island
+              - paragraph [ref=e568]: Sunset cliffs
+              - paragraph [ref=e569]: Tacos el Gordo
+              - paragraph [ref=e570]: International houses in Balboa Park
+              - paragraph [ref=e571]: False idol
+              - paragraph [ref=e572]: Raised by wolves
+            - list [ref=e573]:
+              - listitem [ref=e574]:
+                - link "permalink" [ref=e575] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke2zs0b/
+              - listitem [ref=e576]:
+                - link "embed" [ref=e577] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e578]:
+                - link "save" [ref=e579] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e580]:
+                - link "report" [ref=e581] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - paragraph
+              - generic [ref=e585]:
+                - button "upvote" [ref=e586] [cursor=pointer]
+                - button "downvote" [ref=e587] [cursor=pointer]
+              - generic [ref=e588]:
+                - paragraph [ref=e589]:
+                  - link "[–]" [ref=e590] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "phua1" [ref=e591] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/phua1
+                  - text: 6 points
+                  - time [ref=e592]: 2 years ago
+                - paragraph [ref=e596]: What’s at the international houses? I walk around balboa regularly but they always seem closed or empty whenever i’m there
+                - list [ref=e597]:
+                  - listitem [ref=e598]:
+                    - link "permalink" [ref=e599] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke415jd/
+                  - listitem [ref=e600]:
+                    - link "embed" [ref=e601] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e602]:
+                    - link "save" [ref=e603] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e604]:
+                    - link "parent" [ref=e605] [cursor=pointer]:
+                      - /url: "#ke2zs0b"
+                  - listitem [ref=e606]:
+                    - link "report" [ref=e607] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e610]:
+                - paragraph
+                - generic [ref=e611]:
+                  - button "upvote" [ref=e612] [cursor=pointer]
+                  - button "downvote" [ref=e613] [cursor=pointer]
+                - generic [ref=e614]:
+                  - paragraph [ref=e615]:
+                    - link "[–]" [ref=e616] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "TangerineDream92064" [ref=e617] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/TangerineDream92064
+                    - text: 17 points
+                    - time [ref=e618]: 2 years ago
+                  - paragraph [ref=e622]: They are open on the weekends. Check the schedule. In the summer, each "country" holds a special performance like a dance group, food fair, etc.
+                  - list [ref=e623]:
+                    - listitem [ref=e624]:
+                      - link "permalink" [ref=e625] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4374n/
+                    - listitem [ref=e626]:
+                      - link "embed" [ref=e627] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e628]:
+                      - link "save" [ref=e629] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e630]:
+                      - link "parent" [ref=e631] [cursor=pointer]:
+                        - /url: "#ke415jd"
+                    - listitem [ref=e632]:
+                      - link "report" [ref=e633] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e634]:
+              - paragraph
+              - generic [ref=e635]:
+                - button "upvote" [ref=e636] [cursor=pointer]
+                - button "downvote" [ref=e637] [cursor=pointer]
+              - generic [ref=e638]:
+                - paragraph [ref=e639]:
+                  - link "[–]" [ref=e640] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "ConfusedObserver0" [ref=e641] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/ConfusedObserver0
+                  - text: 1 point
+                  - time [ref=e642]: 2 years ago
+                - generic [ref=e645]:
+                  - paragraph [ref=e646]: Inside out?
+                  - paragraph [ref=e647]: False idol?
+                  - paragraph [ref=e648]: Raised by wolves?
+                - list [ref=e649]:
+                  - listitem [ref=e650]:
+                    - link "permalink" [ref=e651] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/keawrll/
+                  - listitem [ref=e652]:
+                    - link "embed" [ref=e653] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e654]:
+                    - link "save" [ref=e655] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e656]:
+                    - link "parent" [ref=e657] [cursor=pointer]:
+                      - /url: "#ke2zs0b"
+                  - listitem [ref=e658]:
+                    - link "report" [ref=e659] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e662]:
+                - paragraph
+                - generic [ref=e663]:
+                  - button "upvote" [ref=e664] [cursor=pointer]
+                  - button "downvote" [ref=e665] [cursor=pointer]
+                - generic [ref=e666]:
+                  - paragraph [ref=e667]:
+                    - link "[–]" [ref=e668] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "AllTheRowboats93" [ref=e669] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/AllTheRowboats93
+                    - text: 2 points
+                    - time [ref=e670]: 2 years ago
+                  - paragraph [ref=e674]: False Idol and Raised by Wolves are “speakeasy” bars that are fairly well known among my circles but I’ve ever heard of Inside Out
+                  - list [ref=e675]:
+                    - listitem [ref=e676]:
+                      - link "permalink" [ref=e677] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/kfjvk79/
+                    - listitem [ref=e678]:
+                      - link "embed" [ref=e679] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e680]:
+                      - link "save" [ref=e681] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e682]:
+                      - link "parent" [ref=e683] [cursor=pointer]:
+                        - /url: "#keawrll"
+                    - listitem [ref=e684]:
+                      - link "report" [ref=e685] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e686]:
+          - paragraph
+          - generic [ref=e687]:
+            - button "upvote" [ref=e688] [cursor=pointer]
+            - button "downvote" [ref=e689] [cursor=pointer]
+          - generic [ref=e690]:
+            - paragraph [ref=e691]:
+              - link "[–]" [ref=e692] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "rxhard" [ref=e693] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/rxhard
+              - text: 6 points
+              - time [ref=e694]: 2 years ago
+            - paragraph [ref=e698]: Blacks Beach
+            - list [ref=e699]:
+              - listitem [ref=e700]:
+                - link "permalink" [ref=e701] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke55dh6/
+              - listitem [ref=e702]:
+                - link "embed" [ref=e703] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e704]:
+                - link "save" [ref=e705] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e706]:
+                - link "report" [ref=e707] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e710]:
+            - paragraph
+            - generic [ref=e711]:
+              - button "upvote" [ref=e712] [cursor=pointer]
+              - button "downvote" [ref=e713] [cursor=pointer]
+            - generic [ref=e714]:
+              - paragraph [ref=e715]:
+                - link "[–]" [ref=e716] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "MightyKrakyn" [ref=e717] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/MightyKrakyn
+                - text: 7 points
+                - time [ref=e718]: 2 years ago
+              - paragraph [ref=e722]: All those guys have their quirks on full display
+              - list [ref=e723]:
+                - listitem [ref=e724]:
+                  - link "permalink" [ref=e725] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5fwnh/
+                - listitem [ref=e726]:
+                  - link "embed" [ref=e727] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e728]:
+                  - link "save" [ref=e729] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e730]:
+                  - link "parent" [ref=e731] [cursor=pointer]:
+                    - /url: "#ke55dh6"
+                - listitem [ref=e732]:
+                  - link "report" [ref=e733] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e734]:
+          - paragraph
+          - generic [ref=e735]:
+            - button "upvote" [ref=e736] [cursor=pointer]
+            - button "downvote" [ref=e737] [cursor=pointer]
+          - generic [ref=e738]:
+            - paragraph [ref=e739]:
+              - link "[–]" [ref=e740] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "VolumeLopsided4157" [ref=e741] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/VolumeLopsided4157
+              - text: 8 points
+              - time [ref=e742]: 2 years ago
+            - paragraph [ref=e746]: OB
+            - list [ref=e747]:
+              - listitem [ref=e748]:
+                - link "permalink" [ref=e749] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4sxhc/
+              - listitem [ref=e750]:
+                - link "embed" [ref=e751] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e752]:
+                - link "save" [ref=e753] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e754]:
+                - link "report" [ref=e755] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e756]:
+          - paragraph
+          - paragraph [ref=e758]:
+            - link "[+]" [ref=e759] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e760]: "[deleted]"
+            - time [ref=e761]: 2 years ago
+            - link "(3 children)" [ref=e762] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e763]:
+          - paragraph
+          - generic [ref=e764]:
+            - button "upvote" [ref=e765] [cursor=pointer]
+            - button "downvote" [ref=e766] [cursor=pointer]
+          - generic [ref=e767]:
+            - paragraph [ref=e768]:
+              - link "[–]" [ref=e769] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Basil-Hayden" [ref=e770] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Basil-Hayden
+              - text: 20 points
+              - time [ref=e771]: 2 years ago
+            - paragraph [ref=e775]: The Camel Dairy in Romona is pretty cool
+            - list [ref=e776]:
+              - listitem [ref=e777]:
+                - link "permalink" [ref=e778] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke3umle/
+              - listitem [ref=e779]:
+                - link "embed" [ref=e780] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e781]:
+                - link "save" [ref=e782] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e783]:
+                - link "report" [ref=e784] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e787]:
+            - paragraph
+            - generic [ref=e788]:
+              - button "upvote" [ref=e789] [cursor=pointer]
+              - button "downvote" [ref=e790] [cursor=pointer]
+            - generic [ref=e791]:
+              - paragraph [ref=e792]:
+                - link "[–]" [ref=e793] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Jay-Dubbb" [ref=e794] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Jay-Dubbb
+                - text: 2 points
+                - time [ref=e795]: 2 years ago
+              - paragraph [ref=e799]: How/when do you get in? We drove up on Sunday and they were closed.
+              - list [ref=e800]:
+                - listitem [ref=e801]:
+                  - link "permalink" [ref=e802] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6edqi/
+                - listitem [ref=e803]:
+                  - link "embed" [ref=e804] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e805]:
+                  - link "save" [ref=e806] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e807]:
+                  - link "parent" [ref=e808] [cursor=pointer]:
+                    - /url: "#ke3umle"
+                - listitem [ref=e809]:
+                  - link "report" [ref=e810] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e813]:
+              - paragraph
+              - generic [ref=e814]:
+                - button "upvote" [ref=e815] [cursor=pointer]
+                - button "downvote" [ref=e816] [cursor=pointer]
+              - generic [ref=e817]:
+                - paragraph [ref=e818]:
+                  - link "[–]" [ref=e819] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Basil-Hayden" [ref=e820] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Basil-Hayden
+                  - text: 3 points
+                  - time [ref=e821]: 2 years ago
+                - paragraph [ref=e825]: You need to check their website for the dates they are open. They have group tours and private tours- the private tour is $150 for up to 10 people- it’s a very unique experience.
+                - list [ref=e826]:
+                  - listitem [ref=e827]:
+                    - link "permalink" [ref=e828] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6p9zi/
+                  - listitem [ref=e829]:
+                    - link "embed" [ref=e830] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e831]:
+                    - link "save" [ref=e832] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e833]:
+                    - link "parent" [ref=e834] [cursor=pointer]:
+                      - /url: "#ke6edqi"
+                  - listitem [ref=e835]:
+                    - link "report" [ref=e836] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e837]:
+          - paragraph
+          - generic [ref=e838]:
+            - button "upvote" [ref=e839] [cursor=pointer]
+            - button "downvote" [ref=e840] [cursor=pointer]
+          - generic [ref=e841]:
+            - paragraph [ref=e842]:
+              - link "[–]" [ref=e843] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 25 points"
+              - time [ref=e844]: 2 years ago
+            - paragraph [ref=e848]: San Diego isn't quirky.
+            - list [ref=e849]:
+              - listitem [ref=e850]:
+                - link "permalink" [ref=e851] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4b2dy/
+              - listitem [ref=e852]:
+                - link "embed" [ref=e853] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e854]:
+                - link "save" [ref=e855] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e856]:
+                - link "report" [ref=e857] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e860]:
+            - paragraph
+            - generic [ref=e861]:
+              - button "upvote" [ref=e862] [cursor=pointer]
+              - button "downvote" [ref=e863] [cursor=pointer]
+            - generic [ref=e864]:
+              - paragraph [ref=e865]:
+                - link "[–]" [ref=e866] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "ConfusedObserver0" [ref=e867] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/ConfusedObserver0
+                - text: 2 points
+                - time [ref=e868]: 2 years ago
+              - paragraph [ref=e872]: North park, city heights, Hillcrest and OB are the quirkiest in our range I think.
+              - list [ref=e873]:
+                - listitem [ref=e874]:
+                  - link "permalink" [ref=e875] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/keawvwk/
+                - listitem [ref=e876]:
+                  - link "embed" [ref=e877] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e878]:
+                  - link "save" [ref=e879] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e880]:
+                  - link "parent" [ref=e881] [cursor=pointer]:
+                    - /url: "#ke4b2dy"
+                - listitem [ref=e882]:
+                  - link "report" [ref=e883] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e884]:
+          - paragraph
+          - generic [ref=e885]:
+            - button "upvote" [ref=e886] [cursor=pointer]
+            - button "downvote" [ref=e887] [cursor=pointer]
+          - generic [ref=e888]:
+            - paragraph [ref=e889]:
+              - link "[–]" [ref=e890] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SaiFromSd" [ref=e891] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SaiFromSd
+              - text: 8 points
+              - time [ref=e892]: 2 years ago
+            - paragraph [ref=e896]:
+              - text: Bring them visitors to
+              - link "r/sandiego" [ref=e897] [cursor=pointer]:
+                - /url: /r/sandiego
+              - text: . Especially with the rain coming…
+            - list [ref=e898]:
+              - listitem [ref=e899]:
+                - link "permalink" [ref=e900] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke2m53j/
+              - listitem [ref=e901]:
+                - link "embed" [ref=e902] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e903]:
+                - link "save" [ref=e904] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e905]:
+                - link "report" [ref=e906] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e909]:
+            - paragraph
+            - paragraph [ref=e911]:
+              - link "[+]" [ref=e912] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e913]: "[deleted]"
+              - time [ref=e914]: 2 years ago
+              - link "(2 children)" [ref=e915] [cursor=pointer]:
+                - /url: javascript:void(0)
+        - generic [ref=e916]:
+          - paragraph
+          - generic [ref=e917]:
+            - button "upvote" [ref=e918] [cursor=pointer]
+            - button "downvote" [ref=e919] [cursor=pointer]
+          - generic [ref=e920]:
+            - paragraph [ref=e921]:
+              - link "[–]" [ref=e922] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "kaswing" [ref=e923] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/kaswing
+              - text: 5 points
+              - time [ref=e924]: 2 years ago
+            - generic [ref=e927]:
+              - paragraph [ref=e928]: If at all possible, walk over the border. This is my number one recommendation, but it can be a hard sell and they need a passport.
+              - paragraph [ref=e929]: Panama 66 has SD beer that isn't distributed, Balboa Park, sculpture garden, and great sammiches. Lots of bang for your buck in terms of pleasantness and San Diego-ness.
+              - paragraph [ref=e930]: Mexican food anywhere. If it were me, I'd go to the El Zarape on Park probably.
+              - paragraph [ref=e931]: In-n-out OR, if you want to level that up, Friendly's.
+              - paragraph [ref=e932]: Consider taking the trolley, Coaster, or Surfliner somewhere! Coaster and Surfliner are a great way to behold a lot of beach and general coastal environs without 1) having to drive to a bunch of different beaches, 2) having to park, or 3) getting sand all over the damn place. On the Surfliner, you can even enjoy a San Diego beer while you do it! just make sure to sit on the west side (toward the bay if you board at Santa Fe station, toward the parking lot if you board at Old Town).
+              - paragraph [ref=e933]: Zoo or wild animal park-- people seem to like that.
+              - paragraph [ref=e934]: If it's raining, take them on a tour of all the spots it floods (and post your photo tour here for our amusement). Marvel at the fact that we are functioning city where it rains so seldom that this level of infrastructure failure in the rain is tolerable. Yes, we built this road down into a river bank and back up again, why do you ask? We'd do it again. (Hold eye contact).
+            - list [ref=e935]:
+              - listitem [ref=e936]:
+                - link "permalink" [ref=e937] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4ao3m/
+              - listitem [ref=e938]:
+                - link "embed" [ref=e939] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e940]:
+                - link "save" [ref=e941] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e942]:
+                - link "report" [ref=e943] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e944]:
+          - paragraph
+          - generic [ref=e945]:
+            - button "upvote" [ref=e946] [cursor=pointer]
+            - button "downvote" [ref=e947] [cursor=pointer]
+          - generic [ref=e948]:
+            - paragraph [ref=e949]:
+              - link "[–]" [ref=e950] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TangerineDream92064" [ref=e951] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TangerineDream92064
+              - text: 3 points
+              - time [ref=e952]: 2 years ago
+            - paragraph [ref=e956]: The walk around San Elijo Lagoon is really cool. There is a slot canyon and lots of marsh birds. I think the hike around Torrey Pines is amazing. (Look for gray whales around now and also killer whales) The Timken Museum in Balboa Park is small, but has a nice collection and is free! The Japanese Garden and tea room is not something you find everywhere. The Whaley House in Old Town has actual ghosts. All the Asian restaurants along Convoy - so many choices. Try "Realm of the 52 Remedies" for a cool speakeasy experience.
+            - list [ref=e957]:
+              - listitem [ref=e958]:
+                - link "permalink" [ref=e959] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke44dpc/
+              - listitem [ref=e960]:
+                - link "embed" [ref=e961] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e962]:
+                - link "save" [ref=e963] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e964]:
+                - link "report" [ref=e965] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e966]:
+          - paragraph
+          - generic [ref=e967]:
+            - button "upvote" [ref=e968] [cursor=pointer]
+            - button "downvote" [ref=e969] [cursor=pointer]
+          - generic [ref=e970]:
+            - paragraph [ref=e971]:
+              - link "[–]" [ref=e972] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "imissmypencils" [ref=e973] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/imissmypencils
+              - text: 3 points
+              - time [ref=e974]: 2 years ago
+            - paragraph [ref=e978]: Barrio Logan for me. Just walking around the area and strolling into a random shop or place to eat. Except Barrio Dogg- food is blah.
+            - list [ref=e979]:
+              - listitem [ref=e980]:
+                - link "permalink" [ref=e981] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5epyp/
+              - listitem [ref=e982]:
+                - link "embed" [ref=e983] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e984]:
+                - link "save" [ref=e985] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e986]:
+                - link "report" [ref=e987] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e990]:
+            - paragraph
+            - generic [ref=e991]:
+              - button "upvote" [ref=e992] [cursor=pointer]
+              - button "downvote" [ref=e993] [cursor=pointer]
+            - generic [ref=e994]:
+              - paragraph [ref=e995]:
+                - link "[–]" [ref=e996] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Professional-Chip-28" [ref=e997] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Professional-Chip-28
+                - text: 2 points
+                - time [ref=e998]: 1 year ago
+              - paragraph [ref=e1002]: Barrio dog is trash lol
+              - list [ref=e1003]:
+                - listitem [ref=e1004]:
+                  - link "permalink" [ref=e1005] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/l2k3889/
+                - listitem [ref=e1006]:
+                  - link "embed" [ref=e1007] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1008]:
+                  - link "save" [ref=e1009] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1010]:
+                  - link "parent" [ref=e1011] [cursor=pointer]:
+                    - /url: "#ke5epyp"
+                - listitem [ref=e1012]:
+                  - link "report" [ref=e1013] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1014]:
+          - paragraph
+          - generic [ref=e1015]:
+            - button "upvote" [ref=e1016] [cursor=pointer]
+            - button "downvote" [ref=e1017] [cursor=pointer]
+          - generic [ref=e1018]:
+            - paragraph [ref=e1019]:
+              - link "[–]" [ref=e1020] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 2 points"
+              - time [ref=e1021]: 2 years ago
+            - paragraph [ref=e1025]: Witches Tower
+            - list [ref=e1026]:
+              - listitem [ref=e1027]:
+                - link "permalink" [ref=e1028] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke3ndlo/
+              - listitem [ref=e1029]:
+                - link "embed" [ref=e1030] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1031]:
+                - link "save" [ref=e1032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1033]:
+                - link "report" [ref=e1034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1037]:
+            - paragraph
+            - generic [ref=e1038]:
+              - button "upvote" [ref=e1039] [cursor=pointer]
+              - button "downvote" [ref=e1040] [cursor=pointer]
+            - generic [ref=e1041]:
+              - paragraph [ref=e1042]:
+                - link "[–]" [ref=e1043] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "lighthousekeeper33" [ref=e1044] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/lighthousekeeper33
+                - text: 3 points
+                - time [ref=e1045]: 2 years ago
+              - paragraph [ref=e1049]: Are you talking about the tower at presidio park with the pentagram?
+              - list [ref=e1050]:
+                - listitem [ref=e1051]:
+                  - link "permalink" [ref=e1052] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke48tox/
+                - listitem [ref=e1053]:
+                  - link "embed" [ref=e1054] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1055]:
+                  - link "save" [ref=e1056] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1057]:
+                  - link "parent" [ref=e1058] [cursor=pointer]:
+                    - /url: "#ke3ndlo"
+                - listitem [ref=e1059]:
+                  - link "report" [ref=e1060] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1063]:
+              - paragraph
+              - generic [ref=e1064]:
+                - button "upvote" [ref=e1065] [cursor=pointer]
+                - button "downvote" [ref=e1066] [cursor=pointer]
+              - generic [ref=e1067]:
+                - paragraph [ref=e1068]:
+                  - link "[–]" [ref=e1069] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Financial_Clue_2534" [ref=e1070] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Financial_Clue_2534
+                  - text: 1 point
+                  - time [ref=e1071]: 2 years ago
+                - paragraph [ref=e1075]: Where is this
+                - list [ref=e1076]:
+                  - listitem [ref=e1077]:
+                    - link "permalink" [ref=e1078] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5vag1/
+                  - listitem [ref=e1079]:
+                    - link "embed" [ref=e1080] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1081]:
+                    - link "save" [ref=e1082] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1083]:
+                    - link "parent" [ref=e1084] [cursor=pointer]:
+                      - /url: "#ke48tox"
+                  - listitem [ref=e1085]:
+                    - link "report" [ref=e1086] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1089]:
+                - paragraph
+                - generic [ref=e1090]:
+                  - button "upvote" [ref=e1091] [cursor=pointer]
+                  - button "downvote" [ref=e1092] [cursor=pointer]
+                - generic [ref=e1093]:
+                  - paragraph [ref=e1094]:
+                    - link "[–]" [ref=e1095] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "lighthousekeeper33" [ref=e1096] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/lighthousekeeper33
+                    - text: 2 points
+                    - time [ref=e1097]: 2 years ago
+                  - paragraph [ref=e1101]: Right across the parking lot from the presidio building in presidio park. It’s not really a tower, it’s actually a staircase that goes to the top of the bathrooms. If you go up there you’ll find a pentagram embedded into the building
+                  - list [ref=e1102]:
+                    - listitem [ref=e1103]:
+                      - link "permalink" [ref=e1104] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6qj00/
+                    - listitem [ref=e1105]:
+                      - link "embed" [ref=e1106] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1107]:
+                      - link "save" [ref=e1108] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1109]:
+                      - link "parent" [ref=e1110] [cursor=pointer]:
+                        - /url: "#ke5vag1"
+                    - listitem [ref=e1111]:
+                      - link "report" [ref=e1112] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1113]:
+          - paragraph
+          - generic [ref=e1114]:
+            - button "upvote" [ref=e1115] [cursor=pointer]
+            - button "downvote" [ref=e1116] [cursor=pointer]
+          - generic [ref=e1117]:
+            - paragraph [ref=e1118]:
+              - link "[–]" [ref=e1119] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "jdubs109" [ref=e1120] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/jdubs109
+              - text: 2 points
+              - time [ref=e1121]: 2 years ago
+            - paragraph [ref=e1125]: The sunset or night time city view from Mt Soledad mountain (navy memorial in La Jolla)
+            - list [ref=e1126]:
+              - listitem [ref=e1127]:
+                - link "permalink" [ref=e1128] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5236d/
+              - listitem [ref=e1129]:
+                - link "embed" [ref=e1130] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1131]:
+                - link "save" [ref=e1132] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1133]:
+                - link "report" [ref=e1134] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1135]:
+          - paragraph
+          - generic [ref=e1136]:
+            - button "upvote" [ref=e1137] [cursor=pointer]
+            - button "downvote" [ref=e1138] [cursor=pointer]
+          - generic [ref=e1139]:
+            - paragraph [ref=e1140]:
+              - link "[–]" [ref=e1141] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "OfAnOldRepublic" [ref=e1142] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/OfAnOldRepublic
+              - text: 2 points
+              - time [ref=e1143]: 2 years ago
+            - generic [ref=e1146]:
+              - paragraph [ref=e1147]: Point Loma Seafood
+              - paragraph [ref=e1148]: The Embarcadero
+            - list [ref=e1149]:
+              - listitem [ref=e1150]:
+                - link "permalink" [ref=e1151] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke55nz1/
+              - listitem [ref=e1152]:
+                - link "embed" [ref=e1153] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1154]:
+                - link "save" [ref=e1155] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1156]:
+                - link "report" [ref=e1157] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1158]:
+          - paragraph
+          - generic [ref=e1159]:
+            - button "upvote" [ref=e1160] [cursor=pointer]
+            - button "downvote" [ref=e1161] [cursor=pointer]
+          - generic [ref=e1162]:
+            - paragraph [ref=e1163]:
+              - link "[–]" [ref=e1164] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Historical_Factor161" [ref=e1165] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Historical_Factor161
+              - text: 2 points
+              - time [ref=e1166]: 2 years ago
+            - paragraph [ref=e1170]: Del Mar
+            - list [ref=e1171]:
+              - listitem [ref=e1172]:
+                - link "permalink" [ref=e1173] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5qmkk/
+              - listitem [ref=e1174]:
+                - link "embed" [ref=e1175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1176]:
+                - link "save" [ref=e1177] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1178]:
+                - link "report" [ref=e1179] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1180]:
+          - paragraph
+          - generic [ref=e1181]:
+            - button "upvote" [ref=e1182] [cursor=pointer]
+            - button "downvote" [ref=e1183] [cursor=pointer]
+          - generic [ref=e1184]:
+            - paragraph [ref=e1185]:
+              - link "[–]" [ref=e1186] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "thereal_rockrock" [ref=e1187] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/thereal_rockrock
+              - text: 2 points
+              - time [ref=e1188]: 2 years ago
+            - paragraph [ref=e1192]: The Ranch 99 market in Kearny Mesa is fun too.
+            - list [ref=e1193]:
+              - listitem [ref=e1194]:
+                - link "permalink" [ref=e1195] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6dwvr/
+              - listitem [ref=e1196]:
+                - link "embed" [ref=e1197] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1198]:
+                - link "save" [ref=e1199] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1200]:
+                - link "report" [ref=e1201] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1202]:
+          - paragraph
+          - generic [ref=e1203]:
+            - button "upvote" [ref=e1204] [cursor=pointer]
+            - button "downvote" [ref=e1205] [cursor=pointer]
+          - generic [ref=e1206]:
+            - paragraph [ref=e1207]:
+              - link "[–]" [ref=e1208] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SoCalDude20" [ref=e1209] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SoCalDude20
+              - text: 2 points
+              - time [ref=e1210]: 2 years ago
+            - generic [ref=e1213]:
+              - paragraph [ref=e1214]: The “unusual” sand bluffs near the Del Coronado Hotel that from the air look like this….
+              - paragraph [ref=e1215]:
+                - link "<image>" [ref=e1216] [cursor=pointer]:
+                  - /url: https://preview.redd.it/owle3rdruh7c1.jpeg?width=1178&format=pjpg&auto=webp&s=13a41208c4a2bdbdc5fb4e7f439a32188a4a0eee
+            - list [ref=e1217]:
+              - listitem [ref=e1218]:
+                - link "permalink" [ref=e1219] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke7p5tz/
+              - listitem [ref=e1220]:
+                - link "embed" [ref=e1221] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1222]:
+                - link "save" [ref=e1223] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1224]:
+                - link "report" [ref=e1225] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1226]:
+          - paragraph
+          - generic [ref=e1227]:
+            - button "upvote" [ref=e1228] [cursor=pointer]
+            - button "downvote" [ref=e1229] [cursor=pointer]
+          - generic [ref=e1230]:
+            - paragraph [ref=e1231]:
+              - link "[–]" [ref=e1232] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "cordsandchucks" [ref=e1233] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/cordsandchucks
+              - text: 3 points
+              - time [ref=e1234]: 2 years ago
+              - time [ref=e1235]: "*"
+            - generic [ref=e1238]:
+              - paragraph [ref=e1239]: The Black - OB
+              - paragraph [ref=e1240]: Lucha Libre - Mexican food
+              - paragraph [ref=e1241]: The Casbah or Soda Bar - live music venues
+              - paragraph [ref=e1242]: Whaley House or the Star of India - allegedly haunted
+              - paragraph [ref=e1243]: Asian food on Convoy
+              - paragraph [ref=e1244]: Christmas boat parade on the bay
+              - paragraph [ref=e1245]: Not technically San Diego but Mom’s Apple Pie in Julian - get the Apple crumble and thank me later
+              - paragraph [ref=e1246]: Nate’s But Farm errr Bate’s Nut Farm pumpkin patch
+              - paragraph [ref=e1247]: Coronado - Ice skating on the beach
+              - paragraph [ref=e1248]: If you’re a hiker, Cowles Mountain or Annie’s Canyon (slot canyon)
+              - paragraph [ref=e1249]: Con Pane at Liberty Station makes the best peanut butter and jelly sandwich I’ve ever had.
+            - list [ref=e1250]:
+              - listitem [ref=e1251]:
+                - link "permalink" [ref=e1252] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5eksd/
+              - listitem [ref=e1253]:
+                - link "embed" [ref=e1254] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1255]:
+                - link "save" [ref=e1256] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1257]:
+                - link "report" [ref=e1258] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1259]:
+          - paragraph
+          - generic [ref=e1260]:
+            - button "upvote" [ref=e1261] [cursor=pointer]
+            - button "downvote" [ref=e1262] [cursor=pointer]
+          - generic [ref=e1263]:
+            - paragraph [ref=e1264]:
+              - link "[–]" [ref=e1265] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "goosetavo2013" [ref=e1266] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/goosetavo2013
+              - text: 2 points
+              - time [ref=e1267]: 2 years ago
+            - paragraph [ref=e1271]: Tacos El Gordo
+            - list [ref=e1272]:
+              - listitem [ref=e1273]:
+                - link "permalink" [ref=e1274] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4oqp2/
+              - listitem [ref=e1275]:
+                - link "embed" [ref=e1276] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1277]:
+                - link "save" [ref=e1278] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1279]:
+                - link "report" [ref=e1280] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1281]:
+          - paragraph
+          - generic [ref=e1282]:
+            - button "upvote" [ref=e1283] [cursor=pointer]
+            - button "downvote" [ref=e1284] [cursor=pointer]
+          - generic [ref=e1285]:
+            - paragraph [ref=e1286]:
+              - link "[–]" [ref=e1287] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "berthol27" [ref=e1288] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/berthol27
+              - text: 1 point
+              - time [ref=e1289]: 2 years ago
+            - paragraph [ref=e1293]: Mitch’s for fish tacos.. South Park for drinks
+            - list [ref=e1294]:
+              - listitem [ref=e1295]:
+                - link "permalink" [ref=e1296] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke2zy7i/
+              - listitem [ref=e1297]:
+                - link "embed" [ref=e1298] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1299]:
+                - link "save" [ref=e1300] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1301]:
+                - link "report" [ref=e1302] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1303]:
+          - paragraph
+          - generic [ref=e1304]:
+            - button "upvote" [ref=e1305] [cursor=pointer]
+            - button "downvote" [ref=e1306] [cursor=pointer]
+          - generic [ref=e1307]:
+            - paragraph [ref=e1308]:
+              - link "[–]" [ref=e1309] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "meta-ph-oracle" [ref=e1310] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/meta-ph-oracle
+              - text: 0 points
+              - time [ref=e1311]: 2 years ago
+            - generic [ref=e1314]:
+              - paragraph [ref=e1315]: The stiff smell of urine dancing on the downtown air molecules. Dirty, forgotten souls on the ground. The rapid way you could die at a stop light, because green doesn't mean it's just your turn. The brutality from our police who are definitely not in a gang. The 8 highway quietly cuts the town just at the poverty line. Have you ever noticed that all the rich people live north of highway 8?
+              - paragraph [ref=e1316]: San Diego, not classy. Classist.
+              - paragraph [ref=e1317]: San Diego is gross and overrated.
+            - list [ref=e1318]:
+              - listitem [ref=e1319]:
+                - link "permalink" [ref=e1320] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke7fhvp/
+              - listitem [ref=e1321]:
+                - link "embed" [ref=e1322] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1323]:
+                - link "save" [ref=e1324] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1325]:
+                - link "report" [ref=e1326] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1328]:
+            - generic [ref=e1329]:
+              - paragraph
+              - generic [ref=e1330]:
+                - button "upvote" [ref=e1331] [cursor=pointer]
+                - button "downvote" [ref=e1332] [cursor=pointer]
+              - generic [ref=e1333]:
+                - paragraph [ref=e1334]:
+                  - link "[–]" [ref=e1335] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "phobos2deimos" [ref=e1336] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/phobos2deimos
+                  - text: 3 points
+                  - time [ref=e1337]: 2 years ago
+                - generic [ref=e1340]:
+                  - paragraph [ref=e1341]: I mean, yeah, sure, bad things do happen.
+                  - paragraph [ref=e1342]: But what about sunsets?
+                  - paragraph [ref=e1343]: Perfect weather.
+                  - paragraph [ref=e1344]: The smell of burritos.
+                  - paragraph [ref=e1345]: That's why I believe in San Diego.
+                  - paragraph [ref=e1346]: Not because of the things that it takes away from us but because of the things that it gives to us.
+                - list [ref=e1347]:
+                  - listitem [ref=e1348]:
+                    - link "permalink" [ref=e1349] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke7mogv/
+                  - listitem [ref=e1350]:
+                    - link "embed" [ref=e1351] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1352]:
+                    - link "save" [ref=e1353] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1354]:
+                    - link "parent" [ref=e1355] [cursor=pointer]:
+                      - /url: "#ke7fhvp"
+                  - listitem [ref=e1356]:
+                    - link "report" [ref=e1357] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1360]:
+                - paragraph
+                - generic [ref=e1361]:
+                  - button "upvote" [ref=e1362] [cursor=pointer]
+                  - button "downvote" [ref=e1363] [cursor=pointer]
+                - generic [ref=e1364]:
+                  - paragraph [ref=e1365]:
+                    - link "[–]" [ref=e1366] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "shayaanhatim" [ref=e1367] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/shayaanhatim
+                    - text: 2 points
+                    - time [ref=e1368]: 2 years ago
+                  - paragraph [ref=e1372]: Good Sunny reference. This other guy’s a chode
+                  - list [ref=e1373]:
+                    - listitem [ref=e1374]:
+                      - link "permalink" [ref=e1375] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/kxff6b7/
+                    - listitem [ref=e1376]:
+                      - link "embed" [ref=e1377] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1378]:
+                      - link "save" [ref=e1379] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1380]:
+                      - link "parent" [ref=e1381] [cursor=pointer]:
+                        - /url: "#ke7mogv"
+                    - listitem [ref=e1382]:
+                      - link "report" [ref=e1383] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e1384]:
+              - paragraph
+              - generic [ref=e1385]:
+                - button "upvote" [ref=e1386] [cursor=pointer]
+                - button "downvote" [ref=e1387] [cursor=pointer]
+              - generic [ref=e1388]:
+                - paragraph [ref=e1389]:
+                  - link "[–]" [ref=e1390] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "meta-ph-oracle" [ref=e1391] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/meta-ph-oracle
+                  - text: 1 point
+                  - time [ref=e1392]: 2 years ago
+                - paragraph [ref=e1396]: I guess it's quirky that if you sleep with the right person you essentially slept with the whole town because it's basically like a giant sex cult. . Lol 🤣 (insider information)
+                - list [ref=e1397]:
+                  - listitem [ref=e1398]:
+                    - link "permalink" [ref=e1399] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke7fo04/
+                  - listitem [ref=e1400]:
+                    - link "embed" [ref=e1401] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1402]:
+                    - link "save" [ref=e1403] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1404]:
+                    - link "parent" [ref=e1405] [cursor=pointer]:
+                      - /url: "#ke7fhvp"
+                  - listitem [ref=e1406]:
+                    - link "report" [ref=e1407] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1408]:
+          - paragraph
+          - generic [ref=e1409]:
+            - button "upvote" [ref=e1410] [cursor=pointer]
+            - button "downvote" [ref=e1411] [cursor=pointer]
+          - generic [ref=e1412]:
+            - paragraph [ref=e1413]:
+              - link "[–]" [ref=e1414] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 0 points"
+              - time [ref=e1415]: 2 years ago
+            - paragraph [ref=e1419]: Hodads
+            - list [ref=e1420]:
+              - listitem [ref=e1421]:
+                - link "permalink" [ref=e1422] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke57v54/
+              - listitem [ref=e1423]:
+                - link "embed" [ref=e1424] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1425]:
+                - link "save" [ref=e1426] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1427]:
+                - link "report" [ref=e1428] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1429]:
+          - paragraph
+          - generic [ref=e1430]:
+            - button "upvote" [ref=e1431] [cursor=pointer]
+            - button "downvote" [ref=e1432] [cursor=pointer]
+          - generic [ref=e1433]:
+            - paragraph [ref=e1434]:
+              - link "[–]" [ref=e1435] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "DontPanic1985" [ref=e1436] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/DontPanic1985
+              - text: 0 points
+              - time [ref=e1437]: 2 years ago
+            - paragraph [ref=e1441]: Sbarro
+            - list [ref=e1442]:
+              - listitem [ref=e1443]:
+                - link "permalink" [ref=e1444] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6uwk3/
+              - listitem [ref=e1445]:
+                - link "embed" [ref=e1446] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1447]:
+                - link "save" [ref=e1448] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1449]:
+                - link "report" [ref=e1450] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1451]:
+          - paragraph
+          - generic [ref=e1452]:
+            - button "upvote" [ref=e1453] [cursor=pointer]
+            - button "downvote" [ref=e1454] [cursor=pointer]
+          - generic [ref=e1455]:
+            - paragraph [ref=e1456]:
+              - link "[–]" [ref=e1457] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "This_Is_Beanz" [ref=e1458] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/This_Is_Beanz
+              - text: 1 point
+              - time [ref=e1459]: 2 years ago
+            - paragraph [ref=e1463]: I always point out the screwdriver and hex key buildings downtown when people visit. Idk if it’s quirky but if I saw a city skyline with those buildings I would instantly know it’s SD
+            - list [ref=e1464]:
+              - listitem [ref=e1465]:
+                - link "permalink" [ref=e1466] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke4g7vq/
+              - listitem [ref=e1467]:
+                - link "embed" [ref=e1468] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1469]:
+                - link "save" [ref=e1470] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1471]:
+                - link "report" [ref=e1472] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1475]:
+            - paragraph
+            - generic [ref=e1476]:
+              - button "upvote" [ref=e1477] [cursor=pointer]
+              - button "downvote" [ref=e1478] [cursor=pointer]
+            - generic [ref=e1479]:
+              - paragraph [ref=e1480]:
+                - link "[–]" [ref=e1481] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "krazkatluvsu" [ref=e1482] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/krazkatluvsu
+                - text: 3 points
+                - time [ref=e1483]: 2 years ago
+              - paragraph [ref=e1487]: Wait! What?? Please explain
+              - list [ref=e1488]:
+                - listitem [ref=e1489]:
+                  - link "permalink" [ref=e1490] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5h3z0/
+                - listitem [ref=e1491]:
+                  - link "embed" [ref=e1492] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1493]:
+                  - link "save" [ref=e1494] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1495]:
+                  - link "parent" [ref=e1496] [cursor=pointer]:
+                    - /url: "#ke4g7vq"
+                - listitem [ref=e1497]:
+                  - link "report" [ref=e1498] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1500]:
+              - generic [ref=e1501]:
+                - paragraph
+                - generic [ref=e1502]:
+                  - button "upvote" [ref=e1503] [cursor=pointer]
+                  - button "downvote" [ref=e1504] [cursor=pointer]
+                - generic [ref=e1505]:
+                  - paragraph [ref=e1506]:
+                    - link "[–]" [ref=e1507] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "nikkibnikkib" [ref=e1508] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/nikkibnikkib
+                    - text: 2 points
+                    - time [ref=e1509]: 2 years ago
+                  - generic [ref=e1512]:
+                    - paragraph [ref=e1513]: It's the One America Plaza building (Philips screwdriver) and the Westin San Diego Bayview Hotel (hex wrench) The building used to be called the Emerald Tower building before the Westin took over. It's on West Broadway in downtown next to the train station.
+                    - paragraph [ref=e1514]:
+                      - link "Westin Hotel" [ref=e1515] [cursor=pointer]:
+                        - /url: https://tdr.aaa.com/tdr-images/images/property_photo/accommodation/63383H1.jpg
+                    - paragraph [ref=e1516]:
+                      - text: One America Plaza
+                      - link "One America Plaza" [ref=e1517] [cursor=pointer]:
+                        - /url: https://s3.amazonaws.com/images.skyscrapercenter.com/thumbs/7071_500x650.jpg
+                  - list [ref=e1518]:
+                    - listitem [ref=e1519]:
+                      - link "permalink" [ref=e1520] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke5vyp8/
+                    - listitem [ref=e1521]:
+                      - link "embed" [ref=e1522] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1523]:
+                      - link "save" [ref=e1524] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1525]:
+                      - link "parent" [ref=e1526] [cursor=pointer]:
+                        - /url: "#ke5h3z0"
+                    - listitem [ref=e1527]:
+                      - link "report" [ref=e1528] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1531]:
+                  - paragraph
+                  - generic [ref=e1532]:
+                    - button "upvote" [ref=e1533] [cursor=pointer]
+                    - button "downvote" [ref=e1534] [cursor=pointer]
+                  - generic [ref=e1535]:
+                    - paragraph [ref=e1536]:
+                      - link "[–]" [ref=e1537] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "krazkatluvsu" [ref=e1538] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/krazkatluvsu
+                      - text: 1 point
+                      - time [ref=e1539]: 2 years ago
+                    - paragraph [ref=e1543]: Thank you so much for explaining! TIL
+                    - list [ref=e1544]:
+                      - listitem [ref=e1545]:
+                        - link "permalink" [ref=e1546] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/keahw89/
+                      - listitem [ref=e1547]:
+                        - link "embed" [ref=e1548] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1549]:
+                        - link "save" [ref=e1550] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1551]:
+                        - link "parent" [ref=e1552] [cursor=pointer]:
+                          - /url: "#ke5vyp8"
+                      - listitem [ref=e1553]:
+                        - link "report" [ref=e1554] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1555]:
+                - paragraph
+                - generic [ref=e1556]:
+                  - button "upvote" [ref=e1557] [cursor=pointer]
+                  - button "downvote" [ref=e1558] [cursor=pointer]
+                - generic [ref=e1559]:
+                  - paragraph [ref=e1560]:
+                    - link "[–]" [ref=e1561] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "This_Is_Beanz" [ref=e1562] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/This_Is_Beanz
+                    - text: 1 point
+                    - time [ref=e1563]: 2 years ago
+                  - paragraph [ref=e1567]: Once you see them you can’t unsee see it haha. Hex wrench one has green lights but you can only really see it from the side of the bay looking north east ish. Screwdriver one has white lights and can be seen from any angle.
+                  - list [ref=e1568]:
+                    - listitem [ref=e1569]:
+                      - link "permalink" [ref=e1570] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/kel378n/
+                    - listitem [ref=e1571]:
+                      - link "embed" [ref=e1572] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1573]:
+                      - link "save" [ref=e1574] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1575]:
+                      - link "parent" [ref=e1576] [cursor=pointer]:
+                        - /url: "#ke5h3z0"
+                    - listitem [ref=e1577]:
+                      - link "report" [ref=e1578] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1579]:
+          - paragraph
+          - generic [ref=e1580]:
+            - button "upvote" [ref=e1581] [cursor=pointer]
+            - button "downvote" [ref=e1582] [cursor=pointer]
+          - generic [ref=e1583]:
+            - paragraph [ref=e1584]:
+              - link "[–]" [ref=e1585] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "tubetop2go" [ref=e1586] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/tubetop2go
+              - text: 1 point
+              - time [ref=e1587]: 2 years ago
+            - paragraph [ref=e1591]: The Windansea Surf Shack. Head down there for a sunset. It’s buzzing with surfers, families walking and you get the real vibe of life in SD
+            - list [ref=e1592]:
+              - listitem [ref=e1593]:
+                - link "permalink" [ref=e1594] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke6mc01/
+              - listitem [ref=e1595]:
+                - link "embed" [ref=e1596] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1597]:
+                - link "save" [ref=e1598] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1599]:
+                - link "report" [ref=e1600] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1601]:
+          - paragraph
+          - generic [ref=e1602]:
+            - button "upvote" [ref=e1603] [cursor=pointer]
+            - button "downvote" [ref=e1604] [cursor=pointer]
+          - generic [ref=e1605]:
+            - paragraph [ref=e1606]:
+              - link "[–]" [ref=e1607] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Bethechangeurme" [ref=e1608] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Bethechangeurme
+              - text: 1 point
+              - time [ref=e1609]: 2 years ago
+            - paragraph [ref=e1613]: Polluted beaches?
+            - list [ref=e1614]:
+              - listitem [ref=e1615]:
+                - link "permalink" [ref=e1616] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke8dbtz/
+              - listitem [ref=e1617]:
+                - link "embed" [ref=e1618] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1619]:
+                - link "save" [ref=e1620] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1621]:
+                - link "report" [ref=e1622] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1623]:
+          - paragraph
+          - generic [ref=e1624]:
+            - button "upvote" [ref=e1625] [cursor=pointer]
+            - button "downvote" [ref=e1626] [cursor=pointer]
+          - generic [ref=e1627]:
+            - paragraph [ref=e1628]:
+              - link "[–]" [ref=e1629] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "EmjaEmjaEmja" [ref=e1630] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/EmjaEmjaEmja
+              - text: 1 point
+              - time [ref=e1631]: 2 years ago
+            - paragraph [ref=e1635]: Asian food in Covoy st in Kearney Mesa
+            - list [ref=e1636]:
+              - listitem [ref=e1637]:
+                - link "permalink" [ref=e1638] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke8i77e/
+              - listitem [ref=e1639]:
+                - link "embed" [ref=e1640] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1641]:
+                - link "save" [ref=e1642] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1643]:
+                - link "report" [ref=e1644] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1645]:
+          - paragraph
+          - generic [ref=e1646]:
+            - button "upvote" [ref=e1647] [cursor=pointer]
+            - button "downvote" [ref=e1648] [cursor=pointer]
+          - generic [ref=e1649]:
+            - paragraph [ref=e1650]:
+              - link "[–]" [ref=e1651] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "EmjaEmjaEmja" [ref=e1652] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/EmjaEmjaEmja
+              - text: 1 point
+              - time [ref=e1653]: 2 years ago
+            - paragraph [ref=e1657]: The Taco Stand
+            - list [ref=e1658]:
+              - listitem [ref=e1659]:
+                - link "permalink" [ref=e1660] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/sandiego/comments/18m9c6g/what_are_the_quirky_cool_places_that_make_san/ke8ik7d/
+              - listitem [ref=e1661]:
+                - link "embed" [ref=e1662] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1663]:
+                - link "save" [ref=e1664] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1665]:
+                - link "report" [ref=e1666] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e1667]:
+    - generic [ref=e1668]:
+      - text: Subreddit Layout /r/Naut
+      - list [ref=e1670]:
+        - listitem [ref=e1671]: about
+        - listitem [ref=e1672]:
+          - link "blog" [ref=e1673] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1674]:
+          - link "about" [ref=e1675] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1676]:
+          - link "advertising" [ref=e1677] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1678]:
+          - link "careers" [ref=e1679] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1681]:
+        - listitem [ref=e1682]: help
+        - listitem [ref=e1683]:
+          - link "site rules" [ref=e1684] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1685]:
+          - link "Reddit help center" [ref=e1686] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1687]:
+          - link "reddiquette" [ref=e1688] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1689]:
+          - link "mod guidelines" [ref=e1690] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1691]:
+          - link "contact us" [ref=e1692] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1694]:
+        - listitem [ref=e1695]: apps & tools
+        - listitem [ref=e1696]:
+          - link "Reddit for iPhone" [ref=e1697] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1698]:
+          - link "Reddit for Android" [ref=e1699] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1700]:
+          - link "mobile website" [ref=e1701] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1703]:
+        - listitem [ref=e1704]: <3
+        - listitem [ref=e1705]:
+          - link "reddit premium" [ref=e1706] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1707]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1708] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1709] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1710]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1711]
+  - paragraph [ref=e1712]: π

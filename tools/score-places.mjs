@@ -3,13 +3,14 @@
 // Usage: node tools/score-places.mjs <places.json>
 //    or: node tools/nearby-places.mjs "query" "location" | node tools/score-places.mjs
 //
-// Reads profile/family.json for preference matching.
+// Reads family travel context from ghostwheel via tools/_load-travel-context.mjs.
 // Outputs a mobile-first HTML with interactive map + scored cards with query-specific insights.
 
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
+import { loadTravelContext } from './_load-travel-context.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
@@ -24,12 +25,12 @@ if (!API_KEY) {
   } catch {}
 }
 
-// --- Load profile ---
+// --- Load profile from ghostwheel ---
 let profile;
 try {
-  profile = JSON.parse(readFileSync(resolve(REPO_ROOT, 'profile/family.json'), 'utf-8'));
-} catch {
-  console.error('Warning: Could not read profile/family.json');
+  profile = loadTravelContext();
+} catch (e) {
+  console.error('Warning: Could not load travel context from ghostwheel:', e.message);
   profile = {};
 }
 
@@ -556,11 +557,11 @@ console.error(`Index updated: ${index.length} entries`);
 
 // --- Build member profiles for the UI ---
 const memberProfiles = {};
-// From family.json members
+// From ghostwheel family members
 for (const m of (profile.family?.members || [])) {
   memberProfiles[m.name] = { role: m.role, notes: m.notes };
 }
-// From friend_profiles in family.json
+// From ghostwheel friend_profiles
 for (const [name, fp] of Object.entries(profile.friend_profiles || {})) {
   memberProfiles[name] = { role: 'friend', notes: fp.notes, drinks: fp.drinks, vibe: fp.vibe };
 }
@@ -569,7 +570,7 @@ if (data.group?.friend_profiles) {
   for (const [name, desc] of Object.entries(data.group.friend_profiles)) {
     if (!memberProfiles[name]) memberProfiles[name] = {};
     memberProfiles[name].role = memberProfiles[name].role || 'friend';
-    // Don't overwrite richer family.json data with shorter group context
+    // Don't overwrite richer ghostwheel data with shorter group context
   }
 }
 

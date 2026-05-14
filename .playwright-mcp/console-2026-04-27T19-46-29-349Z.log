@@ -1,0 +1,51 @@
+[     697ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:48
+[     706ms] [WARNING] limitedAds is not set, defaulting to false @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:58
+[     732ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[     809ms] [ERROR] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy. @ https://myaccount.nytimes.com/auth/prefetch-assets:0
+[     957ms] [LOG] <!--
+         0000000                         000        0000000
+       111111111      11111111100          000      111111111
+       00000        111111111111111111      00000      000000
+       000        1111111111111111111111111100000         000
+       000        1111       1111111111111111100          000
+       000         11       0     1111111100              000
+       000          1      00             1               000
+       000               00      00       1               000
+       000             000    00000       1               000
+    00000            0000  00000000       1                00000
+  11111            000 00    000000      000                 11111
+    00000          0000      000000     00000              00000
+       000        10000      000000      000              0000
+       000        00000      000000       1               000
+       000        000000     10000        1     0         000
+       000        1000000 00              1    00         000
+       000         1111111                1 0000          000
+       000          1111111100           000000           000
+       0000          111111111111111110000000            0000
+       111111111        111111111111100000          111111111
+         0000000              00000000              0000000
+
+      NYTimes.com: All the code that's fit to window.print()!
+      We're hiring: https://boards.greenhouse.io/thenewyorktimes
+   --> @ https://www.nytimes.com/vi-assets/static-assets/main-6e02cfd81f1f6b2151fd.js:0
+[     984ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[    1002ms] [WARNING] et2 snippet should only load once per page @ :49
+[    1486ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604230101/pubads_impl.js?cb=31098092:18
+[    1489ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604230101/pubads_impl.js?cb=31098092:18
+[    1911ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[    1975ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239:0
+[    2035ms] [ERROR] Creating a worker from 'blob:https://myaccount.nytimes.com/d63e3d55-cfff-449a-9250-7125280608c3' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://dd.nytimes.com/tags.js:1
+[    2895ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4065ms] SecurityError: Failed to read a named property 'addEventListener' from 'Window': Blocked a frame with origin "https://226b2e86794b252b727f69f79a5aa2a8.safeframe.googlesyndication.com" from accessing a cross-origin frame.
+    at https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi.js:3:425977
+    at https://rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi.js:3:461293
+[    5062ms] [ERROR] Attestation check for Attribution Reporting on https://ara.paa-reporting-advertising.amazon failed. @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:0
+[    5064ms] [ERROR] Attestation check for Shared Storage on https://ara.paa-reporting-advertising.amazon failed. @ https://aax-events-cell02-cf.us-east.3px.axp.amazon-adsystem.com/e/is/857fd431bfdc8db7f637dfd614014caf/creative?b=JBuXPHrh3uy3Q15SWnJjZkgAAAGd0HqjqAEAAAd9AUEzcHhfdHhuX2JpZDIgICAzcHhfdHhuX2ltcDEgICCrK3XL&w=ae-9FwAAAACrt30MTv8eHmcwyT4E-vqV5QvyRw&bi=cfv1_CFivNGMPo8625lagZPt9nSb6fikjW-cqzAJhhVXCBk33I4L1VpRe7Lp0nixf2jqzgvJUwZJenXjXsXMhDidHzSZCTVm6GfPSOnskTWxRG2qLNdMpz09dldp-UH7PEM-na6OPAkrHn_YpIWYZsXu7EmtmHmAvKNRXO2p-cYkUcjih5PvMsH54Mj_WXl2HW8xAOTt-G-T38vt6S3gYTfpebsUnwKaDk8MmBhSTUYUozggau7eW9NLdaRcj106l5FUbIXHBBfjstRJr8kkhFryJBGTdNogdP2-WGoFsPgpUk3iM3SDcdB5tepd01_-haEsDaC78fV6SLZknQSoP-FJb8qXtvJZaZQFgiKAXwdV1HcFk2EN1FUq46Rye-ZQbRkqmTgVwpjbaxThU4mqvUO3bAj4BAMuhyYQ4PrNBZhn21m8Aa99qmzl3NV1Hz50TIw55NunNY92byuilBXZOFmrK3sZGHRHZx0m4OW9oe5NyudqhFwcUxpqX6jPsdEdbS9GrhbZd_AVCQ-lKhgaFhBGF13jSXj9YNwhPXRquaAT4JKj5b2SBEhBEhkcmJF_vaSHTd9J5iMV9fK3w4rtYpsoaAxXW54LXThn8A9_8ocWJVUyn:0
+[    5476ms] [WARNING] The resource https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://myaccount.nytimes.com/auth/iframe/enter-email?response_type=cookie&client_id=oma&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26redirect_uri%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2011%252F07%252F17%252Ftravel%252F36-hours-in-bar-harbor.html%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2011%252F07%252F17%252Ftravel%252F36-hours-in-bar-harbor.html&display=regiwall_lire&asset=RegiWall&application=OMA&preloaded=true#lire-ui-814614:0
+[    8648ms] [WARNING] The resource https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:0
+[   11050ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://cs.admanmedia.com/e805be652c9053b8f771665f0ac3c361.gif?puid=k-uiaWkArF6_noLvnyYtTAeOhNvGz0xoHdhlzZig&redir=https%3a%2f%2fssp-sync.criteo.com%2fuser-sync%2fmatch%3fp%3dTNFLwF8lMkJOb1l5dEgyYmtrcVRYaEI2b05ITXZmbm90dHdQRlNVbGhjJTJCU2MzNzQ5YyUzRA%26u%3d%5bUID%5d&gdpr=0&gdpr_consent=&ccpa=:0
+[   13770ms] [ERROR] UserInfoAgentID unavailable. @ https://myaccount.nytimes.com/auth/iframe/enter-email?response_type=cookie&client_id=oma&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26redirect_uri%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2011%252F07%252F17%252Ftravel%252F36-hours-in-bar-harbor.html%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F2011%252F07%252F17%252Ftravel%252F36-hours-in-bar-harbor.html&display=regiwall_lire&asset=RegiWall&application=OMA&preloaded=true:262
+[   14298ms] [WARNING] The resource https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:0
+[   19295ms] [WARNING] The resource https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html:0

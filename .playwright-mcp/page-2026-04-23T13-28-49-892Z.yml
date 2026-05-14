@@ -1,0 +1,1121 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodLosAngeles" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 04 Feb 2025
+      - generic [ref=e130]: 7 points (77% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/1ihbbe8
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "FoodLosAngeles" [level=1] [ref=e145]:
+        - link "FoodLosAngeles" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Food Los Angeles is dedicated to showcasing great food from all over Los Angeles! Share pictures, reviews, websites, etc.
+        - paragraph [ref=e153]: Who doesn't like food?! Subscribe! :)
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Rules
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: Be friendly
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Try to specify where the food is from in the comments or title
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: Post Tags
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: "[THE BEST PLACE IN]"
+        - paragraph [ref=e165]:
+          - strong [ref=e166]: "[WHO MAKES THE BEST]"
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "Related Subs:"
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - paragraph [ref=e171]:
+              - strong [ref=e172]:
+                - link "/r/FoodWishes" [ref=e173] [cursor=pointer]:
+                  - /url: /r/FoodWishes
+                - text: (NEW!)
+          - listitem [ref=e174]:
+            - paragraph [ref=e175]:
+              - link "/r/Food" [ref=e176] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e177]:
+            - paragraph [ref=e178]:
+              - link "/r/FoodPorn" [ref=e179] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e180]:
+            - paragraph [ref=e181]:
+              - link "/r/LosAngeles" [ref=e182] [cursor=pointer]:
+                - /url: /r/LosAngeles
+        - paragraph [ref=e183]:
+          - strong [ref=e184]: Resources
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - paragraph [ref=e187]:
+              - link "Reddit's take on the best restaurants in Los Angeles" [ref=e188] [cursor=pointer]:
+                - /url: http://www.reddit.com/r/LosAngeles/comments/2dq6tr/whats_your_favorite_restaurant_in_los_angeles/
+          - listitem [ref=e189]:
+            - paragraph [ref=e190]:
+              - link "20 Best Restaurants in Los Angeles | LAWeekly.com" [ref=e191] [cursor=pointer]:
+                - /url: http://www.laweekly.com/squidink/2014/04/15/20-best-restaurants-in-los-angeles
+          - listitem [ref=e192]:
+            - paragraph [ref=e193]:
+              - link "L.A.'s 75 Best Restaurants | LAMag.com" [ref=e194] [cursor=pointer]:
+                - /url: http://www.lamag.com/thejump/2014/04/23/hot-stuff-announcing-las-75-best-restaurants
+          - listitem [ref=e195]:
+            - paragraph [ref=e196]:
+              - link "10 Foods Los Angeles Does Better Than Anywhere Else | HuffingtonPost.com" [ref=e197] [cursor=pointer]:
+                - /url: http://www.huffingtonpost.com/2013/10/15/best-los-angeles-food_n_4101759.html
+          - listitem [ref=e198]:
+            - paragraph [ref=e199]:
+              - link "Roaming Hunger Food Truck Map" [ref=e200] [cursor=pointer]:
+                - /url: http://roaminghunger.com/la
+          - listitem [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "FoodTrucksMap.com" [ref=e203] [cursor=pointer]:
+                - /url: http://www.foodtruckmaps.com/la/
+        - paragraph [ref=e204]:
+          - strong [ref=e205]: The Food Network
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "/r/FoodToronto" [ref=e209] [cursor=pointer]:
+                - /url: /r/FoodToronto
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "/r/FoodPortland" [ref=e212] [cursor=pointer]:
+                - /url: /r/FoodPortland
+          - listitem [ref=e213]:
+            - paragraph [ref=e214]:
+              - link "/r/FoodNYC" [ref=e215] [cursor=pointer]:
+                - /url: /r/FoodNYC
+          - listitem [ref=e216]:
+            - paragraph [ref=e217]:
+              - link "/r/FoodSanDiego" [ref=e218] [cursor=pointer]:
+                - /url: /r/FoodSanDiego
+          - listitem [ref=e219]:
+            - paragraph [ref=e220]:
+              - link "/r/FoodVancouver" [ref=e221] [cursor=pointer]:
+                - /url: /r/FoodVancouver
+          - listitem [ref=e222]:
+            - paragraph [ref=e223]:
+              - link "/r/ChicagoFood" [ref=e224] [cursor=pointer]:
+                - /url: /r/ChicagoFood
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "/r/ColumbusFood" [ref=e227] [cursor=pointer]:
+                - /url: /r/ColumbusFood
+          - listitem [ref=e228]:
+            - paragraph [ref=e229]:
+              - link "/r/FoodSoCal" [ref=e230] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e231]:
+            - paragraph [ref=e232]:
+              - link "/r/FoodNewOrleans" [ref=e233] [cursor=pointer]:
+                - /url: /r/FoodNewOrleans
+          - listitem [ref=e234]:
+            - paragraph [ref=e235]:
+              - link "/r/FoodSanFrancisco" [ref=e236] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+        - paragraph [ref=e237]: "Related Subs:"
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - link "/r/Burgers" [ref=e240] [cursor=pointer]:
+              - /url: /r/Burgers
+      - generic [ref=e242]:
+        - text: a community for
+        - time [ref=e243]: 11 years
+    - generic [ref=e245]:
+      - heading "MODERATORS" [level=1] [ref=e247]
+      - list [ref=e248]:
+        - listitem [ref=e249]:
+          - link "message the mods" [ref=e250] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodLosAngeles
+    - complementary [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - text: discussions in
+          - link "r/FoodLosAngeles" [ref=e256] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/?ref=readnext
+        - navigation [ref=e257]:
+          - generic [ref=e258] [cursor=pointer]: <
+          - generic [ref=e259] [cursor=pointer]: ">"
+        - generic [ref=e261] [cursor=pointer]: X
+      - link "36 · 18 comments r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [ref=e263] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/?ref=readnext_0
+        - generic [ref=e264]: 36 · 18 comments
+        - generic [ref=e265]: r/FoodLosAngeles — 2025's Best Restaurants Poll results!
+  - main [ref=e266]:
+    - generic [ref=e267]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e268] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e269]
+        - paragraph [ref=e270]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Become a Redditor
+          - paragraph [ref=e273]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e274] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e276]:
+      - paragraph
+      - generic [ref=e277]:
+        - button "upvote" [ref=e278] [cursor=pointer]
+        - generic "7" [ref=e279]
+        - button "downvote" [ref=e280] [cursor=pointer]
+      - link [ref=e281] [cursor=pointer]:
+        - /url: /r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - paragraph [ref=e284]:
+            - link "Best restaurants near Westwood or Brentwood?" [ref=e285] [cursor=pointer]:
+              - /url: /r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/
+            - generic "THE BEST PLACE IN" [ref=e286]
+            - generic [ref=e287]:
+              - text: (
+              - link "self.FoodLosAngeles" [ref=e288] [cursor=pointer]:
+                - /url: /r/FoodLosAngeles/
+              - text: )
+          - paragraph [ref=e289]:
+            - text: submitted
+            - time [ref=e290]: 1 year ago
+            - text: by
+            - link "Passionate_1_4_fun" [ref=e291] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Passionate_1_4_fun
+        - paragraph [ref=e296]: In town for a UCLA basketball game tomorrow hoping to grab a bite before the game. Any can’t miss italian places ?
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "23 comments" [ref=e299] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/
+          - listitem [ref=e300]:
+            - link "share" [ref=e301] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e302]:
+            - link "save" [ref=e303] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e304]:
+            - link "hide" [ref=e307] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e308]:
+            - link "report" [ref=e309] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e310]:
+      - generic [ref=e311]: all 23 comments
+      - generic [ref=e313]:
+        - text: "sorted by:"
+        - generic [ref=e314]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e317] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e318]
+        - generic [ref=e319]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e320]
+          - paragraph [ref=e321]: Post a comment!
+          - generic [ref=e323]: Create an account
+      - generic [ref=e324]:
+        - generic [ref=e325]:
+          - paragraph
+          - generic [ref=e326]:
+            - button "upvote" [ref=e327] [cursor=pointer]
+            - button "downvote" [ref=e328] [cursor=pointer]
+          - generic [ref=e329]:
+            - paragraph [ref=e330]:
+              - link "[–]" [ref=e331] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "7Thanks" [ref=e332] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/7Thanks
+              - text: 6 points
+              - time [ref=e333]: 1 year ago
+            - paragraph [ref=e337]: Violet Bistro (French, not Italian, but good)
+            - list [ref=e338]:
+              - listitem [ref=e339]:
+                - link "permalink" [ref=e340] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/maykfj3/
+              - listitem [ref=e341]:
+                - link "embed" [ref=e342] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e343]:
+                - link "save" [ref=e344] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e345]:
+                - link "report" [ref=e346] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e347]:
+                - link "reply" [ref=e348] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e349]:
+          - paragraph
+          - generic [ref=e350]:
+            - button "upvote" [ref=e351] [cursor=pointer]
+            - button "downvote" [ref=e352] [cursor=pointer]
+          - generic [ref=e353]:
+            - paragraph [ref=e354]:
+              - link "[–]" [ref=e355] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Justinsetchell" [ref=e356] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Justinsetchell
+              - text: 5 points
+              - time [ref=e357]: 1 year ago
+            - generic [ref=e360]:
+              - paragraph [ref=e361]: For nicer sit down dinner Toranj for good Persian food House of Meatballs for Italian
+              - paragraph [ref=e362]: For something quick and more casual Mr Noodle for decent affordable Asian food (afterward grab some ice cream sandwiches at Diddy Riese nextdoor, actually do this no matter where you eat at)
+              - paragraph [ref=e363]: For something quick you could always grab a slice from Lamonicas
+              - paragraph [ref=e364]: And one place I haven't been to but looks interesting and I want to try is House of Mandi for middle eastern food.
+              - paragraph [ref=e365]: All these suggestions are in Westwood Village which should offer plenty of easy parking.
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - link "permalink" [ref=e368] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/may3g2m/
+              - listitem [ref=e369]:
+                - link "embed" [ref=e370] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e371]:
+                - link "save" [ref=e372] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e373]:
+                - link "report" [ref=e374] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e375]:
+                - link "reply" [ref=e376] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e377]:
+          - paragraph
+          - generic [ref=e378]:
+            - button "upvote" [ref=e379] [cursor=pointer]
+            - button "downvote" [ref=e380] [cursor=pointer]
+          - generic [ref=e381]:
+            - paragraph [ref=e382]:
+              - link "[–]" [ref=e383] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "reeerooo" [ref=e384] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/reeerooo
+              - text: 14 points
+              - time [ref=e385]: 1 year ago
+            - paragraph [ref=e389]: Pizzana in Brentwood
+            - list [ref=e390]:
+              - listitem [ref=e391]:
+                - link "permalink" [ref=e392] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mavqwzs/
+              - listitem [ref=e393]:
+                - link "embed" [ref=e394] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e395]:
+                - link "save" [ref=e396] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e397]:
+                - link "report" [ref=e398] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e399]:
+                - link "reply" [ref=e400] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e403]:
+            - paragraph
+            - generic [ref=e404]:
+              - button "upvote" [ref=e405] [cursor=pointer]
+              - button "downvote" [ref=e406] [cursor=pointer]
+            - generic [ref=e407]:
+              - paragraph [ref=e408]:
+                - link "[–]" [ref=e409] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Entaroadun" [ref=e410] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Entaroadun
+                - text: 0 points
+                - time [ref=e411]: 1 year ago
+              - paragraph [ref=e415]: Really? Their pizza worth it? Anything besides pizza really good there?
+              - list [ref=e416]:
+                - listitem [ref=e417]:
+                  - link "permalink" [ref=e418] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mb113ro/
+                - listitem [ref=e419]:
+                  - link "embed" [ref=e420] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e421]:
+                  - link "save" [ref=e422] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e423]:
+                  - link "parent" [ref=e424] [cursor=pointer]:
+                    - /url: "#mavqwzs"
+                - listitem [ref=e425]:
+                  - link "report" [ref=e426] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e427]:
+                  - link "reply" [ref=e428] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e429]:
+          - paragraph
+          - generic [ref=e430]:
+            - button "upvote" [ref=e431] [cursor=pointer]
+            - button "downvote" [ref=e432] [cursor=pointer]
+          - generic [ref=e433]:
+            - paragraph [ref=e434]:
+              - link "[–]" [ref=e435] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Neuroccountant" [ref=e436] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Neuroccountant
+              - text: 15 points
+              - time [ref=e437]: 1 year ago
+            - paragraph [ref=e441]: I wouldn’t go to Brentwood. You don’t want to get stuck on the wrong side of the 405. The Broxton public parking lot in Westwood is $5 flat if you arrive after 5:00. Get there at or soon after 5:01, enjoy pizza and happy hour cocktails at Rocco’s, then start waking to Pauley at 6:40.
+            - list [ref=e442]:
+              - listitem [ref=e443]:
+                - link "permalink" [ref=e444] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mavrg9a/
+              - listitem [ref=e445]:
+                - link "embed" [ref=e446] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e447]:
+                - link "save" [ref=e448] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e449]:
+                - link "report" [ref=e450] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e451]:
+                - link "reply" [ref=e452] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e455]:
+            - paragraph
+            - generic [ref=e456]:
+              - button "upvote" [ref=e457] [cursor=pointer]
+              - button "downvote" [ref=e458] [cursor=pointer]
+            - generic [ref=e459]:
+              - paragraph [ref=e460]:
+                - link "[–]" [ref=e461] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "geenaleigh" [ref=e462] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/geenaleigh
+                - text: 7 points
+                - time [ref=e463]: 1 year ago
+              - paragraph [ref=e467]: It’s been extra brutal with the PCH closure recently. Basically gridlocked from Santa Monica city line to the 405 down on Wilshire. I live in it and have accepted I ain’t going anywhere for a while lol. Highly recommend heading this advice and stay out of it.
+              - list [ref=e468]:
+                - listitem [ref=e469]:
+                  - link "permalink" [ref=e470] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/maxmten/
+                - listitem [ref=e471]:
+                  - link "embed" [ref=e472] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e473]:
+                  - link "save" [ref=e474] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e475]:
+                  - link "parent" [ref=e476] [cursor=pointer]:
+                    - /url: "#mavrg9a"
+                - listitem [ref=e477]:
+                  - link "report" [ref=e478] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e479]:
+                  - link "reply" [ref=e480] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e483]:
+              - paragraph
+              - generic [ref=e484]:
+                - button "upvote" [ref=e485] [cursor=pointer]
+                - button "downvote" [ref=e486] [cursor=pointer]
+              - generic [ref=e487]:
+                - paragraph [ref=e488]:
+                  - link "[–]" [ref=e489] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "magic_bryant24" [ref=e490] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/magic_bryant24
+                  - text: 2 points
+                  - time [ref=e491]: 1 year ago
+                - paragraph [ref=e495]: Yup. I live in Westwood, work in Santa Monica. My drive to work is still 10-15 mins, but coming back home to Westwood is now 40+ mins. I’m looking into getting a bike.
+                - list [ref=e496]:
+                  - listitem [ref=e497]:
+                    - link "permalink" [ref=e498] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayogac/
+                  - listitem [ref=e499]:
+                    - link "embed" [ref=e500] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e501]:
+                    - link "save" [ref=e502] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e503]:
+                    - link "parent" [ref=e504] [cursor=pointer]:
+                      - /url: "#maxmten"
+                  - listitem [ref=e505]:
+                    - link "report" [ref=e506] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e507]:
+                    - link "reply" [ref=e508] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e511]:
+                - paragraph
+                - generic [ref=e512]:
+                  - button "upvote" [ref=e513] [cursor=pointer]
+                  - button "downvote" [ref=e514] [cursor=pointer]
+                - generic [ref=e515]:
+                  - paragraph [ref=e516]:
+                    - link "[–]" [ref=e517] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "geenaleigh" [ref=e518] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/geenaleigh
+                    - text: 1 point
+                    - time [ref=e519]: 1 year ago
+                  - paragraph [ref=e523]: Honestly a bike is a good idea with how miserable it’s been haha. The streets that run parallel between Wilshire and Santa Monica are great biking.
+                  - list [ref=e524]:
+                    - listitem [ref=e525]:
+                      - link "permalink" [ref=e526] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/maz8lu3/
+                    - listitem [ref=e527]:
+                      - link "embed" [ref=e528] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e529]:
+                      - link "save" [ref=e530] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e531]:
+                      - link "parent" [ref=e532] [cursor=pointer]:
+                        - /url: "#mayogac"
+                    - listitem [ref=e533]:
+                      - link "report" [ref=e534] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e535]:
+                      - link "reply" [ref=e536] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e537]:
+          - paragraph
+          - generic [ref=e538]:
+            - button "upvote" [ref=e539] [cursor=pointer]
+            - button "downvote" [ref=e540] [cursor=pointer]
+          - generic [ref=e541]:
+            - paragraph [ref=e542]:
+              - link "[–]" [ref=e543] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LA_Snkr_Dude" [ref=e544] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LA_Snkr_Dude
+              - text: 3 points
+              - time [ref=e545]: 1 year ago
+            - paragraph [ref=e549]: If you don’t need something fancy, the pepperoni pizzas (regular slice, and also square slice) at Danny Boys in Westwood are fantastic. The other slices were hit or miss, but everyone loved the pepperoni. They also have sandwiches, meatballs, hot wings, and beer.
+            - list [ref=e550]:
+              - listitem [ref=e551]:
+                - link "permalink" [ref=e552] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mawmcui/
+              - listitem [ref=e553]:
+                - link "embed" [ref=e554] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e555]:
+                - link "save" [ref=e556] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e557]:
+                - link "report" [ref=e558] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e559]:
+                - link "reply" [ref=e560] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e561]:
+          - paragraph
+          - generic [ref=e562]:
+            - button "upvote" [ref=e563] [cursor=pointer]
+            - button "downvote" [ref=e564] [cursor=pointer]
+          - generic [ref=e565]:
+            - paragraph [ref=e566]:
+              - link "[–]" [ref=e567] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "razorduc" [ref=e568] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/razorduc
+              - text: 4 points
+              - time [ref=e569]: 1 year ago
+            - paragraph [ref=e573]: Carmine's II in Century City
+            - list [ref=e574]:
+              - listitem [ref=e575]:
+                - link "permalink" [ref=e576] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/maygvqi/
+              - listitem [ref=e577]:
+                - link "embed" [ref=e578] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e579]:
+                - link "save" [ref=e580] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e581]:
+                - link "report" [ref=e582] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e583]:
+                - link "reply" [ref=e584] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e585]:
+          - paragraph
+          - generic [ref=e586]:
+            - button "upvote" [ref=e587] [cursor=pointer]
+            - button "downvote" [ref=e588] [cursor=pointer]
+          - generic [ref=e589]:
+            - paragraph [ref=e590]:
+              - link "[–]" [ref=e591] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bladi40" [ref=e592] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bladi40
+              - text: 3 points
+              - time [ref=e593]: 1 year ago
+            - paragraph [ref=e597]: Danny Boy's in Westwood for some of the best pizza in all of LA!
+            - list [ref=e598]:
+              - listitem [ref=e599]:
+                - link "permalink" [ref=e600] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayl06w/
+              - listitem [ref=e601]:
+                - link "embed" [ref=e602] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e603]:
+                - link "save" [ref=e604] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e605]:
+                - link "report" [ref=e606] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e607]:
+                - link "reply" [ref=e608] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e609]:
+          - paragraph
+          - generic [ref=e610]:
+            - button "upvote" [ref=e611] [cursor=pointer]
+            - button "downvote" [ref=e612] [cursor=pointer]
+          - generic [ref=e613]:
+            - paragraph [ref=e614]:
+              - link "[–]" [ref=e615] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "samhansom" [ref=e616] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/samhansom
+              - text: 5 points
+              - time [ref=e617]: 1 year ago
+            - paragraph [ref=e621]: Jon & Vinny’s or Pizzana in Brentwood or Sunnin (Lebanese) or Taste of Tehran in Westwood (not Italian but as others have said Westwood does Persian well)
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - link "permalink" [ref=e624] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayc0bw/
+              - listitem [ref=e625]:
+                - link "embed" [ref=e626] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e627]:
+                - link "save" [ref=e628] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e629]:
+                - link "report" [ref=e630] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e631]:
+                - link "reply" [ref=e632] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e633]:
+          - paragraph
+          - generic [ref=e634]:
+            - button "upvote" [ref=e635] [cursor=pointer]
+            - button "downvote" [ref=e636] [cursor=pointer]
+          - generic [ref=e637]:
+            - paragraph [ref=e638]:
+              - link "[–]" [ref=e639] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "19sapphire19" [ref=e640] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/19sapphire19
+              - text: 2 points
+              - time [ref=e641]: 1 year ago
+            - paragraph [ref=e645]: Enzo's
+            - list [ref=e646]:
+              - listitem [ref=e647]:
+                - link "permalink" [ref=e648] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mavsbhv/
+              - listitem [ref=e649]:
+                - link "embed" [ref=e650] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e651]:
+                - link "save" [ref=e652] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e653]:
+                - link "report" [ref=e654] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e655]:
+                - link "reply" [ref=e656] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e657]:
+          - paragraph
+          - generic [ref=e658]:
+            - button "upvote" [ref=e659] [cursor=pointer]
+            - button "downvote" [ref=e660] [cursor=pointer]
+          - generic [ref=e661]:
+            - paragraph [ref=e662]:
+              - link "[–]" [ref=e663] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mrsbaerwald" [ref=e664] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mrsbaerwald
+              - text: 2 points
+              - time [ref=e665]: 1 year ago
+            - paragraph [ref=e669]: Divino in Brentwood is so good
+            - list [ref=e670]:
+              - listitem [ref=e671]:
+                - link "permalink" [ref=e672] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayxinb/
+              - listitem [ref=e673]:
+                - link "embed" [ref=e674] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e675]:
+                - link "save" [ref=e676] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e677]:
+                - link "report" [ref=e678] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e679]:
+                - link "reply" [ref=e680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e681]:
+          - paragraph
+          - generic [ref=e682]:
+            - button "upvote" [ref=e683] [cursor=pointer]
+            - button "downvote" [ref=e684] [cursor=pointer]
+          - generic [ref=e685]:
+            - paragraph [ref=e686]:
+              - link "[–]" [ref=e687] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "trickquail_" [ref=e688] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/trickquail_
+              - text: 2 points
+              - time [ref=e689]: 1 year ago
+            - paragraph [ref=e693]: AOC in Brentwood is awesome
+            - list [ref=e694]:
+              - listitem [ref=e695]:
+                - link "permalink" [ref=e696] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayw1o4/
+              - listitem [ref=e697]:
+                - link "embed" [ref=e698] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e699]:
+                - link "save" [ref=e700] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e701]:
+                - link "report" [ref=e702] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e703]:
+                - link "reply" [ref=e704] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e705]:
+          - paragraph
+          - generic [ref=e706]:
+            - button "upvote" [ref=e707] [cursor=pointer]
+            - button "downvote" [ref=e708] [cursor=pointer]
+          - generic [ref=e709]:
+            - paragraph [ref=e710]:
+              - link "[–]" [ref=e711] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Opinionated_Urbanist" [ref=e712] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Opinionated_Urbanist
+              - generic "Claremont" [ref=e713]
+              - text: 1 point
+              - time [ref=e714]: 1 year ago
+            - paragraph [ref=e718]: Tuscan Son is great. It's Italian. Danny Boy for pizza.
+            - list [ref=e719]:
+              - listitem [ref=e720]:
+                - link "permalink" [ref=e721] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mb75bak/
+              - listitem [ref=e722]:
+                - link "embed" [ref=e723] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e724]:
+                - link "save" [ref=e725] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e726]:
+                - link "report" [ref=e727] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e728]:
+                - link "reply" [ref=e729] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e730]:
+          - paragraph
+          - generic [ref=e731]:
+            - button "upvote" [ref=e732] [cursor=pointer]
+            - button "downvote" [ref=e733] [cursor=pointer]
+          - generic [ref=e734]:
+            - paragraph [ref=e735]:
+              - link "[–]" [ref=e736] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dramatic_Claim5298" [ref=e737] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dramatic_Claim5298
+              - text: 1 point
+              - time [ref=e738]: 8 months ago
+            - paragraph [ref=e742]: Love Enzo's Pizzeria in Westwood Village!
+            - list [ref=e743]:
+              - listitem [ref=e744]:
+                - link "permalink" [ref=e745] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/n8yy19o/
+              - listitem [ref=e746]:
+                - link "embed" [ref=e747] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e748]:
+                - link "save" [ref=e749] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e750]:
+                - link "report" [ref=e751] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e752]:
+                - link "reply" [ref=e753] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e754]:
+          - paragraph
+          - generic [ref=e755]:
+            - button "upvote" [ref=e756] [cursor=pointer]
+            - button "downvote" [ref=e757] [cursor=pointer]
+          - generic [ref=e758]:
+            - paragraph [ref=e759]:
+              - link "[–]" [ref=e760] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Plenty_Apricot_3880" [ref=e761] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Plenty_Apricot_3880
+              - text: 1 point
+              - time [ref=e762]: 1 month ago
+            - generic [ref=e765]:
+              - paragraph [ref=e766]: "For Italian near Brentwood:"
+              - paragraph [ref=e767]: All Roads Pinseria + Enoteca does Roman-style pinsa (different dough than pizza, lighter, fluffier, crunchier) and good Italian wines — easy before a game.
+              - paragraph [ref=e768]: Bar Toscana is a longtime neighborhood staple for pasta + wine if you want something more traditional.
+            - list [ref=e769]:
+              - listitem [ref=e770]:
+                - link "permalink" [ref=e771] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/o76o3rx/
+              - listitem [ref=e772]:
+                - link "embed" [ref=e773] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e774]:
+                - link "save" [ref=e775] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e776]:
+                - link "report" [ref=e777] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e778]:
+                - link "reply" [ref=e779] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e780]:
+          - paragraph
+          - paragraph [ref=e782]:
+            - link "[+]" [ref=e783] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e784]: "[deleted]"
+            - time [ref=e785]: 1 year ago
+            - link "(1 child)" [ref=e786] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e787]:
+          - paragraph
+          - generic [ref=e788]:
+            - button "upvote" [ref=e789] [cursor=pointer]
+            - button "downvote" [ref=e790] [cursor=pointer]
+          - generic [ref=e791]:
+            - paragraph [ref=e792]:
+              - link "[–]" [ref=e793] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Y0knapatawpha" [ref=e794] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Y0knapatawpha
+              - text: 1 point
+              - time [ref=e795]: 1 year ago
+            - paragraph [ref=e799]:
+              - text: If you're really going to go into Brentwood, and you want good Italian, I'm all about Peppone.
+              - link "https://www.peppone.com/" [ref=e800] [cursor=pointer]:
+                - /url: https://www.peppone.com/
+            - list [ref=e801]:
+              - listitem [ref=e802]:
+                - link "permalink" [ref=e803] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mayjquj/
+              - listitem [ref=e804]:
+                - link "embed" [ref=e805] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e806]:
+                - link "save" [ref=e807] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e808]:
+                - link "report" [ref=e809] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e810]:
+                - link "reply" [ref=e811] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e812]:
+          - paragraph
+          - paragraph [ref=e814]:
+            - link "[+]" [ref=e815] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "hung_like__podrick" [ref=e816] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/hung_like__podrick
+            - text: comment score below threshold
+            - link "(2 children)" [ref=e817] [cursor=pointer]:
+              - /url: javascript:void(0)
+  - generic [ref=e818]:
+    - generic [ref=e819]:
+      - list [ref=e821]:
+        - listitem [ref=e822]: about
+        - listitem [ref=e823]:
+          - link "blog" [ref=e824] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e825]:
+          - link "about" [ref=e826] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e827]:
+          - link "advertising" [ref=e828] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e829]:
+          - link "careers" [ref=e830] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e832]:
+        - listitem [ref=e833]: help
+        - listitem [ref=e834]:
+          - link "site rules" [ref=e835] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e836]:
+          - link "Reddit help center" [ref=e837] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e838]:
+          - link "reddiquette" [ref=e839] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e840]:
+          - link "mod guidelines" [ref=e841] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e842]:
+          - link "contact us" [ref=e843] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e845]:
+        - listitem [ref=e846]: apps & tools
+        - listitem [ref=e847]:
+          - link "Reddit for iPhone" [ref=e848] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e849]:
+          - link "Reddit for Android" [ref=e850] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e851]:
+          - link "mobile website" [ref=e852] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e854]:
+        - listitem [ref=e855]: <3
+        - listitem [ref=e856]:
+          - link "reddit premium" [ref=e857] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e858]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e859] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e860] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e861]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e862]
+  - paragraph [ref=e863]: π

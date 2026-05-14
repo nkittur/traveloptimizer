@@ -1,7 +1,12 @@
 #!/usr/bin/env node
+// [DEPRECATED — use enrich-group-combined.mjs]
 // enrich-group-details.mjs — Fill googleRating / reviewCount / openingHours / price
 // via Google Places API for active rows in group_restaurants.
 // Usage: node tools/enrich-group-details.mjs <group-id> [--force]
+//
+// As of Phase 3, enrich-group-combined.mjs folds details + photos + geocode
+// + outdoor-seating into a single cached Places call per row. This file is
+// kept only for emergency fallback; new pipelines should use combined.
 //
 // Pass --force to re-fetch even rows that already have a rating. Useful when
 // new fields (price) are added to the pipeline after initial enrichment.

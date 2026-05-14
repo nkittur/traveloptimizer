@@ -1,0 +1,2500 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "irvine" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 04 Oct 2024
+      - generic [ref=e127]: 12 points (69% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/1fvnyda
+    - generic [ref=e130]:
+      - link "Submit a new linkSubmit Link" [ref=e131] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit
+      - text: N/A
+    - generic [ref=e132]:
+      - text: N/A
+      - link "Submit a new text postSubmit Text" [ref=e133] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit?selftext=true
+    - generic [ref=e135]:
+      - text: Subreddit Info
+      - heading "irvine" [level=1] [ref=e136]:
+        - link "irvine" [ref=e137] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/irvine/
+      - link "join" [ref=e139] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e142]:
+        - separator [ref=e143]
+        - paragraph [ref=e144]:
+          - link "Thinking about moving to Irvine? Please check out the wiki before submitting a question!" [ref=e145] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/wiki/moving
+        - separator [ref=e146]
+        - paragraph [ref=e147]:
+          - link "Posting Rules:" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/about/rules/
+            - strong [ref=e149]: "Posting Rules:"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - paragraph [ref=e152]: Try to be courteous, it's a small subreddit.
+          - listitem [ref=e153]:
+            - paragraph [ref=e154]: Don't spam. Advertisements may be removed (includes self promotion).
+          - listitem [ref=e155]:
+            - paragraph [ref=e156]: This is not a subreddit to meet other people.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: This is not a subreddit to sell or buy things/services.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: If you're a politician or most of your posts are about politics, your submission/comments may be removed. Please message the moderators if you have any questions.
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: No simple, generic, or misleading posts (e.g. one or two word titles, questions that can easily be googled, complaints about the city, etc).
+          - listitem [ref=e163]:
+            - paragraph [ref=e164]: Links to Twitter/X are not allowed.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: AI generated posts are not allowed.
+        - paragraph [ref=e167]:
+          - emphasis [ref=e168]: Posts may be removed for reasons not listed above. Please feel free to inquire about any removals.
+        - paragraph [ref=e169]
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Things to Do:"
+        - paragraph [ref=e172]:
+          - link "Orange County Great Park" [ref=e173] [cursor=pointer]:
+            - /url: http://www.ocgp.org/
+        - paragraph [ref=e174]:
+          - link "Irvine Improv" [ref=e175] [cursor=pointer]:
+            - /url: http://irvine.improv.com/
+        - paragraph [ref=e176]:
+          - link "Irvine Ampitheatre" [ref=e177] [cursor=pointer]:
+            - /url: http://www.verizonwirelessamphitheatreirvine.com/
+        - paragraph [ref=e178]:
+          - link "IVC Arts" [ref=e179] [cursor=pointer]:
+            - /url: http://www.ivcarts.org/
+        - paragraph [ref=e180]
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: "Shopping:"
+        - paragraph [ref=e183]:
+          - link "Irvine Spectrum" [ref=e184] [cursor=pointer]:
+            - /url: http://www.shopirvinespectrumcenter.com/
+        - paragraph [ref=e185]:
+          - link "Diamond Jamboree" [ref=e186] [cursor=pointer]:
+            - /url: http://www.diamond-jamboree.com/
+        - paragraph [ref=e187]:
+          - link "Tustin Marketplace" [ref=e188] [cursor=pointer]:
+            - /url: http://www.shopthemarketplace.com/
+        - paragraph [ref=e189]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: "Community Sites:"
+        - paragraph [ref=e192]:
+          - link "Irvine Police Department" [ref=e193] [cursor=pointer]:
+            - /url: http://www.cityofirvine.org/ipd/
+        - paragraph [ref=e194]:
+          - link "The Irvine Company" [ref=e195] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e196]:
+          - link "UC Irvine" [ref=e197] [cursor=pointer]:
+            - /url: http://uci.edu/
+        - paragraph [ref=e198]:
+          - link "Irvine Unified School District" [ref=e199] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e200]:
+          - link "Irvine Chamber of Commerce" [ref=e201] [cursor=pointer]:
+            - /url: http://www.irvinechamber.com/
+        - paragraph [ref=e202]:
+          - link "Irvine Valley College" [ref=e203] [cursor=pointer]:
+            - /url: http://ivc.edu/
+        - paragraph [ref=e204]
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Other Subreddits:"
+        - paragraph [ref=e207]:
+          - link "/r/orangecounty" [ref=e208] [cursor=pointer]:
+            - /url: /r/orangecounty
+    - generic [ref=e210]:
+      - heading "MODERATORS" [level=1] [ref=e212]
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link "message the mods" [ref=e215] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/irvine
+    - complementary [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - text: discussions in
+          - link "r/irvine" [ref=e221] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/?ref=readnext
+        - navigation [ref=e222]:
+          - generic [ref=e223] [cursor=pointer]: <
+          - generic [ref=e224] [cursor=pointer]: ">"
+        - generic [ref=e226] [cursor=pointer]: X
+      - link "19 · 20 comments Irvine City Council allows Oak Creek Golf Course zoning change" [ref=e228] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/comments/1so1evf/irvine_city_council_allows_oak_creek_golf_course/?ref=readnext_0
+        - generic [ref=e229]: 19 · 20 comments
+        - generic [ref=e231]: Irvine City Council allows Oak Creek Golf Course zoning change
+    - text: This subreddit uses the /r/Naut theme.
+  - main [ref=e232]:
+    - generic [ref=e233]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e234] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e235]
+        - paragraph [ref=e236]: the front page of the internet.
+        - generic [ref=e237]:
+          - generic [ref=e238]: Become a Redditor
+          - paragraph [ref=e239]: and join one of thousands of communities.
+      - link "×" [ref=e240] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e242]:
+      - paragraph
+      - generic [ref=e243]:
+        - button "upvote" [ref=e244] [cursor=pointer]
+        - generic "12" [ref=e245]
+        - button "downvote" [ref=e246] [cursor=pointer]
+      - link [ref=e247] [cursor=pointer]:
+        - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - paragraph [ref=e250]:
+            - link "Indian cuisine in Irvine / OC" [ref=e251] [cursor=pointer]:
+              - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+            - link "self.irvine" [ref=e252] [cursor=pointer]:
+              - /url: /r/irvine/
+          - paragraph [ref=e253]:
+            - text: submitted
+            - time [ref=e254]: 1 year ago
+            - text: by
+            - link "Professional-Clerk34" [ref=e255] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Professional-Clerk34
+        - paragraph [ref=e260]: Hi, I am looking for recommendations on some good Indian restaurants and take out places in Irvine or greater Orange County. Thanks
+        - list [ref=e261]:
+          - listitem [ref=e262]:
+            - link "65 comments" [ref=e263] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+          - listitem [ref=e264]:
+            - link "share" [ref=e265] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e266]:
+            - link "save" [ref=e267] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e268]:
+            - link "hide" [ref=e271] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e272]:
+            - link "report" [ref=e273] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e274]:
+      - generic [ref=e275]: all 65 comments
+      - generic [ref=e277]:
+        - text: "sorted by:"
+        - generic [ref=e278]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e281] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e282]
+        - generic [ref=e283]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e284]
+          - paragraph [ref=e285]: Post a comment!
+          - generic [ref=e287]: Create an account
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - paragraph
+          - generic [ref=e290]:
+            - button "upvote" [ref=e291] [cursor=pointer]
+            - button "downvote" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - paragraph [ref=e294]:
+              - link "[–]" [ref=e295] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "StatisticianKey9639" [ref=e296] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/StatisticianKey9639
+              - text: • • 15 points •
+              - time [ref=e297]: 1 year ago
+            - paragraph [ref=e301]: I'm enjoying Biryani Pot Express in Irvine (near spectrum) for takeout. Nataraj is always decent but to save some $ I go to their fast casual spots rather than their full service restaurants. Also, best deals found at the Nataraj inside Nina's Groceries in Lake Forest. You can get a 3 item plate there for like $17. Easily 2.5 meals worth if you are willing to make an extra cup of rice at home.
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - link "permalink" [ref=e304] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8qz6d/
+              - listitem [ref=e305]:
+                - link "embed" [ref=e306] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e307]:
+                - link "save" [ref=e308] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e309]:
+                - link "report" [ref=e310] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e311]:
+                - link "reply" [ref=e312] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - paragraph
+              - generic [ref=e316]:
+                - button "upvote" [ref=e317] [cursor=pointer]
+                - button "downvote" [ref=e318] [cursor=pointer]
+              - generic [ref=e319]:
+                - paragraph [ref=e320]:
+                  - link "[–]" [ref=e321] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Professional-Clerk34" [ref=e322] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Professional-Clerk34
+                  - generic [ref=e323]:
+                    - text: "["
+                    - link "S" [ref=e324] [cursor=pointer]:
+                      - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                    - text: "]"
+                  - text: • • 5 points •
+                  - time [ref=e325]: 1 year ago
+                - paragraph [ref=e329]: A friend of ours tried Biriyani Pot Express and loved the chicken biriyani and Irani chai! It's surely on our bucketlist!
+                - list [ref=e330]:
+                  - listitem [ref=e331]:
+                    - link "permalink" [ref=e332] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8rdje/
+                  - listitem [ref=e333]:
+                    - link "embed" [ref=e334] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e335]:
+                    - link "save" [ref=e336] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e337]:
+                    - link "parent" [ref=e338] [cursor=pointer]:
+                      - /url: "#lq8qz6d"
+                  - listitem [ref=e339]:
+                    - link "report" [ref=e340] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e341]:
+                    - link "reply" [ref=e342] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e345]:
+                - paragraph
+                - generic [ref=e346]:
+                  - button "upvote" [ref=e347] [cursor=pointer]
+                  - button "downvote" [ref=e348] [cursor=pointer]
+                - generic [ref=e349]:
+                  - paragraph [ref=e350]:
+                    - link "[–]" [ref=e351] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "StatisticianKey9639" [ref=e352] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/StatisticianKey9639
+                    - text: • • 3 points •
+                    - time [ref=e353]: 1 year ago
+                  - generic [ref=e356]:
+                    - paragraph [ref=e357]: Yes, it's one of the few decent biryani's in OC. I like their dum-biryani (means the meat is cooked with the rice for more intense flavor) and chicken is always a great choice. I also like the goat biryani.
+                    - paragraph [ref=e358]: Their other stuff is fine too. Overall solid place. Their naan sucks though. That is one thing all the Nataraj locations get right.
+                  - list [ref=e359]:
+                    - listitem [ref=e360]:
+                      - link "permalink" [ref=e361] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8ropd/
+                    - listitem [ref=e362]:
+                      - link "embed" [ref=e363] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e364]:
+                      - link "save" [ref=e365] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e366]:
+                      - link "parent" [ref=e367] [cursor=pointer]:
+                        - /url: "#lq8rdje"
+                    - listitem [ref=e368]:
+                      - link "report" [ref=e369] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e370]:
+                      - link "reply" [ref=e371] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e374]:
+                  - paragraph
+                  - generic [ref=e375]:
+                    - button "upvote" [ref=e376] [cursor=pointer]
+                    - button "downvote" [ref=e377] [cursor=pointer]
+                  - generic [ref=e378]:
+                    - paragraph [ref=e379]:
+                      - link "[–]" [ref=e380] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Professional-Clerk34" [ref=e381] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Professional-Clerk34
+                      - generic [ref=e382]:
+                        - text: "["
+                        - link "S" [ref=e383] [cursor=pointer]:
+                          - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                        - text: "]"
+                      - text: • • 3 points •
+                      - time [ref=e384]: 1 year ago
+                    - paragraph [ref=e388]: That’s great! Some people also recommended Charminar in Laguna Hills as the best Biriyani in SoCal, will try that out too!
+                    - list [ref=e389]:
+                      - listitem [ref=e390]:
+                        - link "permalink" [ref=e391] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8rv9v/
+                      - listitem [ref=e392]:
+                        - link "embed" [ref=e393] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e394]:
+                        - link "save" [ref=e395] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e396]:
+                        - link "parent" [ref=e397] [cursor=pointer]:
+                          - /url: "#lq8ropd"
+                      - listitem [ref=e398]:
+                        - link "report" [ref=e399] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e400]:
+                        - link "reply" [ref=e401] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - paragraph
+                      - generic [ref=e405]:
+                        - button "upvote" [ref=e406] [cursor=pointer]
+                        - button "downvote" [ref=e407] [cursor=pointer]
+                      - generic [ref=e408]:
+                        - paragraph [ref=e409]:
+                          - link "[–]" [ref=e410] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "morningbreadth" [ref=e411] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/morningbreadth
+                          - text: • • 5 points •
+                          - time [ref=e412]: 1 year ago
+                        - paragraph [ref=e416]: Charminar in Laguna Hills is by far the best biryani and other south-indian food in OC. There is no comparision! They have a branch in San Diego which is slightly better than their Laguna Hills branch.
+                        - list [ref=e417]:
+                          - listitem [ref=e418]:
+                            - link "permalink" [ref=e419] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8tbf4/
+                          - listitem [ref=e420]:
+                            - link "embed" [ref=e421] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e422]:
+                            - link "save" [ref=e423] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e424]:
+                            - link "parent" [ref=e425] [cursor=pointer]:
+                              - /url: "#lq8rv9v"
+                          - listitem [ref=e426]:
+                            - link "report" [ref=e427] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e428]:
+                            - link "reply" [ref=e429] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                    - generic [ref=e430]:
+                      - paragraph
+                      - generic [ref=e431]:
+                        - button "upvote" [ref=e432] [cursor=pointer]
+                        - button "downvote" [ref=e433] [cursor=pointer]
+                      - generic [ref=e434]:
+                        - paragraph [ref=e435]:
+                          - link "[–]" [ref=e436] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "StatisticianKey9639" [ref=e437] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/StatisticianKey9639
+                          - text: • • 2 points •
+                          - time [ref=e438]: 1 year ago
+                        - paragraph [ref=e442]: I will also check that out - haven't tried it.
+                        - list [ref=e443]:
+                          - listitem [ref=e444]:
+                            - link "permalink" [ref=e445] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8ryix/
+                          - listitem [ref=e446]:
+                            - link "embed" [ref=e447] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e448]:
+                            - link "save" [ref=e449] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e450]:
+                            - link "parent" [ref=e451] [cursor=pointer]:
+                              - /url: "#lq8rv9v"
+                          - listitem [ref=e452]:
+                            - link "report" [ref=e453] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e454]:
+                            - link "reply" [ref=e455] [cursor=pointer]:
+                              - /url: javascript:void(0)
+            - generic [ref=e456]:
+              - paragraph
+              - generic [ref=e457]:
+                - button "upvote" [ref=e458] [cursor=pointer]
+                - button "downvote" [ref=e459] [cursor=pointer]
+              - generic [ref=e460]:
+                - paragraph [ref=e461]:
+                  - link "[–]" [ref=e462] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] • • 1 point •"
+                  - time [ref=e463]: 1 year ago
+                - generic [ref=e466]:
+                  - paragraph [ref=e467]: We just found this place and it’s delicious.
+                  - paragraph [ref=e468]: We get the chicken Briyani too!
+                - list [ref=e469]:
+                  - listitem [ref=e470]:
+                    - link "permalink" [ref=e471] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8z1y7/
+                  - listitem [ref=e472]:
+                    - link "embed" [ref=e473] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e474]:
+                    - link "save" [ref=e475] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e476]:
+                    - link "parent" [ref=e477] [cursor=pointer]:
+                      - /url: "#lq8qz6d"
+                  - listitem [ref=e478]:
+                    - link "report" [ref=e479] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e480]:
+                    - link "reply" [ref=e481] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e482]:
+              - paragraph
+              - generic [ref=e483]:
+                - button "upvote" [ref=e484] [cursor=pointer]
+                - button "downvote" [ref=e485] [cursor=pointer]
+              - generic [ref=e486]:
+                - paragraph [ref=e487]:
+                  - link "[–]" [ref=e488] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "RowAdmirable7014" [ref=e489] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/RowAdmirable7014
+                  - text: • • 1 point •
+                  - time [ref=e490]: 9 months ago
+                - generic [ref=e493]:
+                  - paragraph [ref=e494]: Very bad experience with biryani pot express. Gobi Manchuria tasted like it was dipped in sugar syrup. We don’t eat like this in India.
+                  - paragraph [ref=e495]: In mutton biryani meat was so dry I can’t chew it. Threw away biryani for the first time in my life.
+                  - paragraph [ref=e496]: Not sure if they improved later but this was a year ago.
+                - list [ref=e497]:
+                  - listitem [ref=e498]:
+                    - link "permalink" [ref=e499] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/n2m8ft5/
+                  - listitem [ref=e500]:
+                    - link "embed" [ref=e501] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e502]:
+                    - link "save" [ref=e503] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e504]:
+                    - link "parent" [ref=e505] [cursor=pointer]:
+                      - /url: "#lq8qz6d"
+                  - listitem [ref=e506]:
+                    - link "report" [ref=e507] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e508]:
+                    - link "reply" [ref=e509] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e510]:
+          - paragraph
+          - generic [ref=e511]:
+            - button "upvote" [ref=e512] [cursor=pointer]
+            - button "downvote" [ref=e513] [cursor=pointer]
+          - generic [ref=e514]:
+            - paragraph [ref=e515]:
+              - link "[–]" [ref=e516] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "DoughnutSwimming3709" [ref=e517] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/DoughnutSwimming3709
+              - text: • • 13 points •
+              - time [ref=e518]: 1 year ago
+            - generic [ref=e521]:
+              - paragraph [ref=e522]: "I try to find authentic/regional/unique Indian food. Here’s my list so far:"
+              - paragraph [ref=e523]: Yellow Chili - one of the fancier ones, and owned by Sanjeev Kapoor. Modern & fusion-ed Indian cuisine with a foundation of North Indian food. Flavors are subdued.
+              - paragraph [ref=e524]: Southern Spice is South Indian food from Andhra/Hyderabad. Spicy!!
+              - paragraph [ref=e525]: Inchin’s Bamboo Garden next to Southern Spice is an Indo-Chinese place that has Indian versions (fusion) of Asian food - Chinese, Thai, etc. Spicy!!
+              - paragraph [ref=e526]: Anjappar in Tustin is South Indian food from Tamil Nadu/Chennai. Spicy!!
+              - paragraph [ref=e527]: Rajdhani in Artesia is Gujarati food. Mild.
+              - paragraph [ref=e528]: Surati Farsan in Artesia is all kinds of Indian fast food. Flavorful but mild.
+              - paragraph [ref=e529]: Curry Up Now in Irvine is Indian fast food - flavors are just ok though. Mild.
+              - paragraph [ref=e530]: Curry Pizza House in Lake Forest has Indian pizza. Spicy.
+              - paragraph [ref=e531]: Rest of the Indian places I’ve been to so far serve variations of the same stuff with subdued flavors - butter chicken, naan, etc.
+            - list [ref=e532]:
+              - listitem [ref=e533]:
+                - link "permalink" [ref=e534] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8sflq/
+              - listitem [ref=e535]:
+                - link "embed" [ref=e536] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e537]:
+                - link "save" [ref=e538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e539]:
+                - link "report" [ref=e540] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e541]:
+                - link "reply" [ref=e542] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - paragraph
+              - generic [ref=e546]:
+                - button "upvote" [ref=e547] [cursor=pointer]
+                - button "downvote" [ref=e548] [cursor=pointer]
+              - generic [ref=e549]:
+                - paragraph [ref=e550]:
+                  - link "[–]" [ref=e551] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "gonenutsbrb" [ref=e552] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/gonenutsbrb
+                  - text: • • 4 points •
+                  - time [ref=e553]: 1 year ago
+                - paragraph [ref=e557]: Yellow Chili and Southern Spice are my go-to’s depending on the occasion. Southern Spice sends out 20% coupons if you put in your phone number when you pay. Pretty solid deal at that point.
+                - list [ref=e558]:
+                  - listitem [ref=e559]:
+                    - link "permalink" [ref=e560] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9eo8x/
+                  - listitem [ref=e561]:
+                    - link "embed" [ref=e562] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e563]:
+                    - link "save" [ref=e564] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e565]:
+                    - link "parent" [ref=e566] [cursor=pointer]:
+                      - /url: "#lq8sflq"
+                  - listitem [ref=e567]:
+                    - link "report" [ref=e568] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e569]:
+                    - link "reply" [ref=e570] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e571]:
+              - paragraph
+              - generic [ref=e572]:
+                - button "upvote" [ref=e573] [cursor=pointer]
+                - button "downvote" [ref=e574] [cursor=pointer]
+              - generic [ref=e575]:
+                - paragraph [ref=e576]:
+                  - link "[–]" [ref=e577] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Professional-Clerk34" [ref=e578] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Professional-Clerk34
+                  - generic [ref=e579]:
+                    - text: "["
+                    - link "S" [ref=e580] [cursor=pointer]:
+                      - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                    - text: "]"
+                  - text: • • 2 points •
+                  - time [ref=e581]: 1 year ago
+                - paragraph [ref=e585]: Wow that’s a comprehensive list, I did try Inchins in the east coast and liked it. Will give the Irvine one a try as well.
+                - list [ref=e586]:
+                  - listitem [ref=e587]:
+                    - link "permalink" [ref=e588] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8spbt/
+                  - listitem [ref=e589]:
+                    - link "embed" [ref=e590] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e591]:
+                    - link "save" [ref=e592] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e593]:
+                    - link "parent" [ref=e594] [cursor=pointer]:
+                      - /url: "#lq8sflq"
+                  - listitem [ref=e595]:
+                    - link "report" [ref=e596] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e597]:
+                    - link "reply" [ref=e598] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e601]:
+                - paragraph
+                - generic [ref=e602]:
+                  - button "upvote" [ref=e603] [cursor=pointer]
+                  - button "downvote" [ref=e604] [cursor=pointer]
+                - generic [ref=e605]:
+                  - paragraph [ref=e606]:
+                    - link "[–]" [ref=e607] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "DoughnutSwimming3709" [ref=e608] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/DoughnutSwimming3709
+                    - text: • • 2 points •
+                    - time [ref=e609]: 1 year ago
+                  - generic [ref=e612]:
+                    - paragraph [ref=e613]: Enjoy!!
+                    - paragraph [ref=e614]: Ironically, after all this, I actually prefer Trader Joe’s frozen Indian entrees - paneer, lamb, chole, chicken, etc. - since they actually have the right flavors, though milder. And is better both for the pocket and digestion.
+                  - list [ref=e615]:
+                    - listitem [ref=e616]:
+                      - link "permalink" [ref=e617] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8u1vo/
+                    - listitem [ref=e618]:
+                      - link "embed" [ref=e619] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e620]:
+                      - link "save" [ref=e621] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e622]:
+                      - link "parent" [ref=e623] [cursor=pointer]:
+                        - /url: "#lq8spbt"
+                    - listitem [ref=e624]:
+                      - link "report" [ref=e625] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e626]:
+                      - link "reply" [ref=e627] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e630]:
+                  - paragraph
+                  - generic [ref=e631]:
+                    - button "upvote" [ref=e632] [cursor=pointer]
+                    - button "downvote" [ref=e633] [cursor=pointer]
+                  - generic [ref=e634]:
+                    - paragraph [ref=e635]:
+                      - link "[–]" [ref=e636] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Professional-Clerk34" [ref=e637] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Professional-Clerk34
+                      - generic [ref=e638]:
+                        - text: "["
+                        - link "S" [ref=e639] [cursor=pointer]:
+                          - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                        - text: "]"
+                      - text: • • 1 point •
+                      - time [ref=e640]: 1 year ago
+                    - paragraph [ref=e644]: Thanks for the recommendation, now I wanna head to Trader Joe’s haha
+                    - list [ref=e645]:
+                      - listitem [ref=e646]:
+                        - link "permalink" [ref=e647] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8u5j3/
+                      - listitem [ref=e648]:
+                        - link "embed" [ref=e649] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e650]:
+                        - link "save" [ref=e651] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e652]:
+                        - link "parent" [ref=e653] [cursor=pointer]:
+                          - /url: "#lq8u1vo"
+                      - listitem [ref=e654]:
+                        - link "report" [ref=e655] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e656]:
+                        - link "reply" [ref=e657] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e660]:
+                    - paragraph
+                    - generic [ref=e661]:
+                      - button "upvote" [ref=e662] [cursor=pointer]
+                      - button "downvote" [ref=e663] [cursor=pointer]
+                    - generic [ref=e664]:
+                      - paragraph [ref=e665]:
+                        - link "[–]" [ref=e666] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "DoughnutSwimming3709" [ref=e667] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/DoughnutSwimming3709
+                        - text: • • 2 points •
+                        - time [ref=e668]: 1 year ago
+                      - paragraph [ref=e672]: Haha! In that case, I’ll also mention the frozen section of Indian stores. Ashoka, Deep, Haldiram, etc. are good brands. And a lot of it’s food actually made in India (or Canada) and not holding back on the flavors.
+                      - list [ref=e673]:
+                        - listitem [ref=e674]:
+                          - link "permalink" [ref=e675] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8vbvm/
+                        - listitem [ref=e676]:
+                          - link "embed" [ref=e677] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e678]:
+                          - link "save" [ref=e679] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e680]:
+                          - link "parent" [ref=e681] [cursor=pointer]:
+                            - /url: "#lq8u5j3"
+                        - listitem [ref=e682]:
+                          - link "report" [ref=e683] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e684]:
+                          - link "reply" [ref=e685] [cursor=pointer]:
+                            - /url: javascript:void(0)
+        - generic [ref=e686]:
+          - paragraph
+          - generic [ref=e687]:
+            - button "upvote" [ref=e688] [cursor=pointer]
+            - button "downvote" [ref=e689] [cursor=pointer]
+          - generic [ref=e690]:
+            - paragraph [ref=e691]:
+              - link "[–]" [ref=e692] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "scolesdang" [ref=e693] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/scolesdang
+              - text: • • 9 points •
+              - time [ref=e694]: 1 year ago
+            - paragraph [ref=e698]: Annapoorna is my favorite, especially the lunch buffet
+            - list [ref=e699]:
+              - listitem [ref=e700]:
+                - link "permalink" [ref=e701] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8zx4h/
+              - listitem [ref=e702]:
+                - link "embed" [ref=e703] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e704]:
+                - link "save" [ref=e705] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e706]:
+                - link "report" [ref=e707] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e708]:
+                - link "reply" [ref=e709] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e712]:
+            - paragraph
+            - generic [ref=e713]:
+              - button "upvote" [ref=e714] [cursor=pointer]
+              - button "downvote" [ref=e715] [cursor=pointer]
+            - generic [ref=e716]:
+              - paragraph [ref=e717]:
+                - link "[–]" [ref=e718] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "septer012" [ref=e719] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/septer012
+                - generic "Portola Springs" [ref=e720]: "- Portola Springs"
+                - text: • • 2 points •
+                - time [ref=e721]: 1 year ago
+              - paragraph [ref=e725]: I'd say the buffet is standard, I think it really is good for dinner takeout though.
+              - list [ref=e726]:
+                - listitem [ref=e727]:
+                  - link "permalink" [ref=e728] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqbtsu2/
+                - listitem [ref=e729]:
+                  - link "embed" [ref=e730] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e731]:
+                  - link "save" [ref=e732] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e733]:
+                  - link "parent" [ref=e734] [cursor=pointer]:
+                    - /url: "#lq8zx4h"
+                - listitem [ref=e735]:
+                  - link "report" [ref=e736] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e737]:
+                  - link "reply" [ref=e738] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e739]:
+          - paragraph
+          - generic [ref=e740]:
+            - button "upvote" [ref=e741] [cursor=pointer]
+            - button "downvote" [ref=e742] [cursor=pointer]
+          - generic [ref=e743]:
+            - paragraph [ref=e744]:
+              - link "[–]" [ref=e745] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dispac" [ref=e746] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dispac
+              - text: • • 10 points •
+              - time [ref=e747]: 1 year ago
+            - paragraph [ref=e751]: India Gate on the border of Tustin and Irvine is the best!
+            - list [ref=e752]:
+              - listitem [ref=e753]:
+                - link "permalink" [ref=e754] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9ox3e/
+              - listitem [ref=e755]:
+                - link "embed" [ref=e756] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e757]:
+                - link "save" [ref=e758] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e759]:
+                - link "report" [ref=e760] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e761]:
+                - link "reply" [ref=e762] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e765]:
+            - paragraph
+            - generic [ref=e766]:
+              - button "upvote" [ref=e767] [cursor=pointer]
+              - button "downvote" [ref=e768] [cursor=pointer]
+            - generic [ref=e769]:
+              - paragraph [ref=e770]:
+                - link "[–]" [ref=e771] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Lower_Ad_5532" [ref=e772] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Lower_Ad_5532
+                - text: • • 1 point •
+                - time [ref=e773]: 1 year ago
+              - paragraph [ref=e777]: It's always packed for lunch
+              - list [ref=e778]:
+                - listitem [ref=e779]:
+                  - link "permalink" [ref=e780] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqc0dsb/
+                - listitem [ref=e781]:
+                  - link "embed" [ref=e782] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e783]:
+                  - link "save" [ref=e784] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e785]:
+                  - link "parent" [ref=e786] [cursor=pointer]:
+                    - /url: "#lq9ox3e"
+                - listitem [ref=e787]:
+                  - link "report" [ref=e788] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e789]:
+                  - link "reply" [ref=e790] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e791]:
+          - paragraph
+          - generic [ref=e792]:
+            - button "upvote" [ref=e793] [cursor=pointer]
+            - button "downvote" [ref=e794] [cursor=pointer]
+          - generic [ref=e795]:
+            - paragraph [ref=e796]:
+              - link "[–]" [ref=e797] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "jumpman0128" [ref=e798] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/jumpman0128
+              - text: • • 16 points •
+              - time [ref=e799]: 1 year ago
+            - paragraph [ref=e803]: india kitchen in tustin is pretty good
+            - list [ref=e804]:
+              - listitem [ref=e805]:
+                - link "permalink" [ref=e806] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8k05m/
+              - listitem [ref=e807]:
+                - link "embed" [ref=e808] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e809]:
+                - link "save" [ref=e810] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e811]:
+                - link "report" [ref=e812] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e813]:
+                - link "reply" [ref=e814] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e817]:
+            - paragraph
+            - generic [ref=e818]:
+              - button "upvote" [ref=e819] [cursor=pointer]
+              - button "downvote" [ref=e820] [cursor=pointer]
+            - generic [ref=e821]:
+              - paragraph [ref=e822]:
+                - link "[–]" [ref=e823] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Linwooo5" [ref=e824] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Linwooo5
+                - text: • • 1 point •
+                - time [ref=e825]: 1 year ago
+              - paragraph [ref=e829]: I agree. Our family thinks it's the best in OC.
+              - list [ref=e830]:
+                - listitem [ref=e831]:
+                  - link "permalink" [ref=e832] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqb89ti/
+                - listitem [ref=e833]:
+                  - link "embed" [ref=e834] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e835]:
+                  - link "save" [ref=e836] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e837]:
+                  - link "parent" [ref=e838] [cursor=pointer]:
+                    - /url: "#lq8k05m"
+                - listitem [ref=e839]:
+                  - link "report" [ref=e840] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e841]:
+                  - link "reply" [ref=e842] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e843]:
+          - paragraph
+          - generic [ref=e844]:
+            - button "upvote" [ref=e845] [cursor=pointer]
+            - button "downvote" [ref=e846] [cursor=pointer]
+          - generic [ref=e847]:
+            - paragraph [ref=e848]:
+              - link "[–]" [ref=e849] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "RaAAAGETV" [ref=e850] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/RaAAAGETV
+              - text: • • 5 points •
+              - time [ref=e851]: 1 year ago
+            - paragraph [ref=e855]: If you're willing to make a bit of a drive try Khan Saab, it's on the michelin list. excellent food.
+            - list [ref=e856]:
+              - listitem [ref=e857]:
+                - link "permalink" [ref=e858] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8wyof/
+              - listitem [ref=e859]:
+                - link "embed" [ref=e860] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e861]:
+                - link "save" [ref=e862] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e863]:
+                - link "report" [ref=e864] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e865]:
+                - link "reply" [ref=e866] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e867]:
+          - paragraph
+          - generic [ref=e868]:
+            - button "upvote" [ref=e869] [cursor=pointer]
+            - button "downvote" [ref=e870] [cursor=pointer]
+          - generic [ref=e871]:
+            - paragraph [ref=e872]:
+              - link "[–]" [ref=e873] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "aretw0" [ref=e874] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/aretw0
+              - text: • • 6 points •
+              - time [ref=e875]: 1 year ago
+            - paragraph [ref=e879]:
+              - text: Maast over by Irvine Costco
+              - link "https://maps.app.goo.gl/t2qt6CgcZdNvBeoz5?g_st=com.google.maps.preview.copy" [ref=e880] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/t2qt6CgcZdNvBeoz5?g_st=com.google.maps.preview.copy
+            - list [ref=e881]:
+              - listitem [ref=e882]:
+                - link "permalink" [ref=e883] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqaw1q5/
+              - listitem [ref=e884]:
+                - link "embed" [ref=e885] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e886]:
+                - link "save" [ref=e887] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e888]:
+                - link "report" [ref=e889] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e890]:
+                - link "reply" [ref=e891] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e892]:
+          - paragraph
+          - generic [ref=e893]:
+            - button "upvote" [ref=e894] [cursor=pointer]
+            - button "downvote" [ref=e895] [cursor=pointer]
+          - generic [ref=e896]:
+            - paragraph [ref=e897]:
+              - link "[–]" [ref=e898] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SHumanM" [ref=e899] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SHumanM
+              - text: • • 4 points •
+              - time [ref=e900]: 1 year ago
+            - paragraph [ref=e904]: Yellow Chili, located in the District is technically in Tustin, but it’s as good as in Irvine.
+            - list [ref=e905]:
+              - listitem [ref=e906]:
+                - link "permalink" [ref=e907] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8pj67/
+              - listitem [ref=e908]:
+                - link "embed" [ref=e909] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e910]:
+                - link "save" [ref=e911] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e912]:
+                - link "report" [ref=e913] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e914]:
+                - link "reply" [ref=e915] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e916]:
+          - paragraph
+          - generic [ref=e917]:
+            - button "upvote" [ref=e918] [cursor=pointer]
+            - button "downvote" [ref=e919] [cursor=pointer]
+          - generic [ref=e920]:
+            - paragraph [ref=e921]:
+              - link "[–]" [ref=e922] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dguy101" [ref=e923] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dguy101
+              - text: • • 3 points •
+              - time [ref=e924]: 1 year ago
+            - paragraph [ref=e928]: There's a place off Alicia Parkway called Natraj Indian Bistro & Bar that has a buffet if that's something you're into.
+            - list [ref=e929]:
+              - listitem [ref=e930]:
+                - link "permalink" [ref=e931] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9m2m3/
+              - listitem [ref=e932]:
+                - link "embed" [ref=e933] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e934]:
+                - link "save" [ref=e935] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e936]:
+                - link "report" [ref=e937] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e938]:
+                - link "reply" [ref=e939] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e940]:
+          - paragraph
+          - generic [ref=e941]:
+            - button "upvote" [ref=e942] [cursor=pointer]
+            - button "downvote" [ref=e943] [cursor=pointer]
+          - generic [ref=e944]:
+            - paragraph [ref=e945]:
+              - link "[–]" [ref=e946] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ArkMaxim" [ref=e947] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ArkMaxim
+              - text: • • 4 points •
+              - time [ref=e948]: 1 year ago
+            - paragraph [ref=e952]: Go to India Gate. They are the best. Their naan is actually insane.
+            - list [ref=e953]:
+              - listitem [ref=e954]:
+                - link "permalink" [ref=e955] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqb79ic/
+              - listitem [ref=e956]:
+                - link "embed" [ref=e957] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e958]:
+                - link "save" [ref=e959] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e960]:
+                - link "report" [ref=e961] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e962]:
+                - link "reply" [ref=e963] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e964]:
+          - paragraph
+          - generic [ref=e965]:
+            - button "upvote" [ref=e966] [cursor=pointer]
+            - button "downvote" [ref=e967] [cursor=pointer]
+          - generic [ref=e968]:
+            - paragraph [ref=e969]:
+              - link "[–]" [ref=e970] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "EngineeringWeak8448" [ref=e971] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/EngineeringWeak8448
+              - text: • • 3 points •
+              - time [ref=e972]: 1 year ago
+            - paragraph [ref=e976]: India Gate is amazing, we often take the whole family, fun fact is the owners who are friends with my mother are Nepalese
+            - list [ref=e977]:
+              - listitem [ref=e978]:
+                - link "permalink" [ref=e979] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqbnblw/
+              - listitem [ref=e980]:
+                - link "embed" [ref=e981] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e982]:
+                - link "save" [ref=e983] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e984]:
+                - link "report" [ref=e985] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e986]:
+                - link "reply" [ref=e987] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e988]:
+          - paragraph
+          - generic [ref=e989]:
+            - button "upvote" [ref=e990] [cursor=pointer]
+            - button "downvote" [ref=e991] [cursor=pointer]
+          - generic [ref=e992]:
+            - paragraph [ref=e993]:
+              - link "[–]" [ref=e994] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "newbatthis" [ref=e995] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/newbatthis
+              - text: • • 3 points •
+              - time [ref=e996]: 1 year ago
+            - generic [ref=e999]:
+              - paragraph [ref=e1000]: Piggybacking on this thread but before I moved here I visited Irvine once a decade ago. During that visit I was introduced to this small Indian grocery store that had the most fragrant and delicious garlic naan I've had my whole life.
+              - paragraph [ref=e1001]: No idea if this place still exists. But I've tried garlic naan at several such groceries since and none came close. Don't know if anyone might have any ideas. Or just recs for good garlic naan would be appreciated.
+            - list [ref=e1002]:
+              - listitem [ref=e1003]:
+                - link "permalink" [ref=e1004] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9fhx9/
+              - listitem [ref=e1005]:
+                - link "embed" [ref=e1006] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1007]:
+                - link "save" [ref=e1008] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1009]:
+                - link "report" [ref=e1010] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1011]:
+                - link "reply" [ref=e1012] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1015]:
+            - paragraph
+            - generic [ref=e1016]:
+              - button "upvote" [ref=e1017] [cursor=pointer]
+              - button "downvote" [ref=e1018] [cursor=pointer]
+            - generic [ref=e1019]:
+              - paragraph [ref=e1020]:
+                - link "[–]" [ref=e1021] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Parking_Cranberry935" [ref=e1022] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Parking_Cranberry935
+                - text: • • 2 points •
+                - time [ref=e1023]: 1 year ago
+              - paragraph [ref=e1027]: Would that have been Nina’s Grocery in Lake Forest? They sell indian and british imports as well as having a tiny restaurant in the back.
+              - list [ref=e1028]:
+                - listitem [ref=e1029]:
+                  - link "permalink" [ref=e1030] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqbo9uk/
+                - listitem [ref=e1031]:
+                  - link "embed" [ref=e1032] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1033]:
+                  - link "save" [ref=e1034] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1035]:
+                  - link "parent" [ref=e1036] [cursor=pointer]:
+                    - /url: "#lq9fhx9"
+                - listitem [ref=e1037]:
+                  - link "report" [ref=e1038] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1039]:
+                  - link "reply" [ref=e1040] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1042]:
+              - generic [ref=e1043]:
+                - paragraph
+                - generic [ref=e1044]:
+                  - button "upvote" [ref=e1045] [cursor=pointer]
+                  - button "downvote" [ref=e1046] [cursor=pointer]
+                - generic [ref=e1047]:
+                  - paragraph [ref=e1048]:
+                    - link "[–]" [ref=e1049] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "newbatthis" [ref=e1050] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/newbatthis
+                    - text: • • 2 points •
+                    - time [ref=e1051]: 1 year ago
+                    - time [ref=e1052]: "*"
+                  - paragraph [ref=e1056]: Ooh I never thought to check outside Irvine but Lake Forest is certainly close enough to be a possibility. And they've been open long enough too. I'll give it a shot later and report back!
+                  - list [ref=e1057]:
+                    - listitem [ref=e1058]:
+                      - link "permalink" [ref=e1059] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqbptdj/
+                    - listitem [ref=e1060]:
+                      - link "embed" [ref=e1061] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1062]:
+                      - link "save" [ref=e1063] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1064]:
+                      - link "parent" [ref=e1065] [cursor=pointer]:
+                        - /url: "#lqbo9uk"
+                    - listitem [ref=e1066]:
+                      - link "report" [ref=e1067] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1068]:
+                      - link "reply" [ref=e1069] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e1070]:
+                - paragraph
+                - generic [ref=e1071]:
+                  - button "upvote" [ref=e1072] [cursor=pointer]
+                  - button "downvote" [ref=e1073] [cursor=pointer]
+                - generic [ref=e1074]:
+                  - paragraph [ref=e1075]:
+                    - link "[–]" [ref=e1076] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "newbatthis" [ref=e1077] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/newbatthis
+                    - text: • • 1 point •
+                    - time [ref=e1078]: 1 year ago
+                  - paragraph [ref=e1082]: Dude thank you so much. This is the place alright! I knew as soon as I walked in the store. And the garlic naan is still as amazing as I remembered as was everything else! Definitely gonna be a place I'll frequent from now on!
+                  - list [ref=e1083]:
+                    - listitem [ref=e1084]:
+                      - link "permalink" [ref=e1085] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqk41jw/
+                    - listitem [ref=e1086]:
+                      - link "embed" [ref=e1087] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1088]:
+                      - link "save" [ref=e1089] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1090]:
+                      - link "parent" [ref=e1091] [cursor=pointer]:
+                        - /url: "#lqbo9uk"
+                    - listitem [ref=e1092]:
+                      - link "report" [ref=e1093] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1094]:
+                      - link "reply" [ref=e1095] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1098]:
+                  - paragraph
+                  - generic [ref=e1099]:
+                    - button "upvote" [ref=e1100] [cursor=pointer]
+                    - button "downvote" [ref=e1101] [cursor=pointer]
+                  - generic [ref=e1102]:
+                    - paragraph [ref=e1103]:
+                      - link "[–]" [ref=e1104] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Parking_Cranberry935" [ref=e1105] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Parking_Cranberry935
+                      - text: • • 2 points •
+                      - time [ref=e1106]: 1 year ago
+                    - paragraph [ref=e1110]: Awh I’m so glad! I was raised going to Nina’s as a treat. Parents are from England and Ireland. We would get candy there for holidays and pick up goods for traditional christmas breakfast and dinner. It’s always been a staple gem for our family. And that restaurant in the back is seriously amazing!
+                    - list [ref=e1111]:
+                      - listitem [ref=e1112]:
+                        - link "permalink" [ref=e1113] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqn87vb/
+                      - listitem [ref=e1114]:
+                        - link "embed" [ref=e1115] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1116]:
+                        - link "save" [ref=e1117] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1118]:
+                        - link "parent" [ref=e1119] [cursor=pointer]:
+                          - /url: "#lqk41jw"
+                      - listitem [ref=e1120]:
+                        - link "report" [ref=e1121] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1122]:
+                        - link "reply" [ref=e1123] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e1124]:
+          - paragraph
+          - generic [ref=e1125]:
+            - button "upvote" [ref=e1126] [cursor=pointer]
+            - button "downvote" [ref=e1127] [cursor=pointer]
+          - generic [ref=e1128]:
+            - paragraph [ref=e1129]:
+              - link "[–]" [ref=e1130] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Jahlapenoez" [ref=e1131] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Jahlapenoez
+              - text: • • 3 points •
+              - time [ref=e1132]: 1 year ago
+            - paragraph [ref=e1136]: If you are passing through Lake Forest by El Toro Road, there is an Indian restaurant at the back of Nina's Indian Grocery.
+            - list [ref=e1137]:
+              - listitem [ref=e1138]:
+                - link "permalink" [ref=e1139] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9j46z/
+              - listitem [ref=e1140]:
+                - link "embed" [ref=e1141] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1142]:
+                - link "save" [ref=e1143] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1144]:
+                - link "report" [ref=e1145] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1146]:
+                - link "reply" [ref=e1147] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1148]:
+          - paragraph
+          - generic [ref=e1149]:
+            - button "upvote" [ref=e1150] [cursor=pointer]
+            - button "downvote" [ref=e1151] [cursor=pointer]
+          - generic [ref=e1152]:
+            - paragraph [ref=e1153]:
+              - link "[–]" [ref=e1154] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "NiskeetzS" [ref=e1155] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/NiskeetzS
+              - text: • • 3 points •
+              - time [ref=e1156]: 1 year ago
+            - paragraph [ref=e1160]: Khan Saab
+            - list [ref=e1161]:
+              - listitem [ref=e1162]:
+                - link "permalink" [ref=e1163] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqb4luo/
+              - listitem [ref=e1164]:
+                - link "embed" [ref=e1165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1166]:
+                - link "save" [ref=e1167] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1168]:
+                - link "report" [ref=e1169] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1170]:
+                - link "reply" [ref=e1171] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1172]:
+          - paragraph
+          - generic [ref=e1173]:
+            - button "upvote" [ref=e1174] [cursor=pointer]
+            - button "downvote" [ref=e1175] [cursor=pointer]
+          - generic [ref=e1176]:
+            - paragraph [ref=e1177]:
+              - link "[–]" [ref=e1178] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Wi2ar0" [ref=e1179] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Wi2ar0
+              - text: • • 5 points •
+              - time [ref=e1180]: 1 year ago
+            - generic [ref=e1183]:
+              - paragraph [ref=e1184]: If you are willing to go a little further, Cerritos has probably the best Indian food in SoCal.
+              - paragraph [ref=e1185]: Otherwise in and around Irvine, India Kitchen in Tustin is good, and Natraj in Laguna Niguel is good.
+            - list [ref=e1186]:
+              - listitem [ref=e1187]:
+                - link "permalink" [ref=e1188] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8lq1g/
+              - listitem [ref=e1189]:
+                - link "embed" [ref=e1190] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1191]:
+                - link "save" [ref=e1192] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1193]:
+                - link "report" [ref=e1194] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1195]:
+                - link "reply" [ref=e1196] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1199]:
+            - paragraph
+            - generic [ref=e1200]:
+              - button "upvote" [ref=e1201] [cursor=pointer]
+              - button "downvote" [ref=e1202] [cursor=pointer]
+            - generic [ref=e1203]:
+              - paragraph [ref=e1204]:
+                - link "[–]" [ref=e1205] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Professional-Clerk34" [ref=e1206] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Professional-Clerk34
+                - generic [ref=e1207]:
+                  - text: "["
+                  - link "S" [ref=e1208] [cursor=pointer]:
+                    - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                  - text: "]"
+                - text: • • 2 points •
+                - time [ref=e1209]: 1 year ago
+              - paragraph [ref=e1213]: Thanks will try it out, I have also heard about Artesia which is like a Little India and has a lot of Indian restaurants
+              - list [ref=e1214]:
+                - listitem [ref=e1215]:
+                  - link "permalink" [ref=e1216] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8mf4p/
+                - listitem [ref=e1217]:
+                  - link "embed" [ref=e1218] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1219]:
+                  - link "save" [ref=e1220] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1221]:
+                  - link "parent" [ref=e1222] [cursor=pointer]:
+                    - /url: "#lq8lq1g"
+                - listitem [ref=e1223]:
+                  - link "report" [ref=e1224] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1225]:
+                  - link "reply" [ref=e1226] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1228]:
+              - generic [ref=e1229]:
+                - paragraph
+                - generic [ref=e1230]:
+                  - button "upvote" [ref=e1231] [cursor=pointer]
+                  - button "downvote" [ref=e1232] [cursor=pointer]
+                - generic [ref=e1233]:
+                  - paragraph [ref=e1234]:
+                    - link "[–]" [ref=e1235] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "SHumanM" [ref=e1236] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/SHumanM
+                    - text: • • 2 points •
+                    - time [ref=e1237]: 1 year ago
+                  - paragraph [ref=e1241]: Cerritos = Artesia. Udipi Palace used to be great
+                  - list [ref=e1242]:
+                    - listitem [ref=e1243]:
+                      - link "permalink" [ref=e1244] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8pr16/
+                    - listitem [ref=e1245]:
+                      - link "embed" [ref=e1246] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1247]:
+                      - link "save" [ref=e1248] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1249]:
+                      - link "parent" [ref=e1250] [cursor=pointer]:
+                        - /url: "#lq8mf4p"
+                    - listitem [ref=e1251]:
+                      - link "report" [ref=e1252] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1253]:
+                      - link "reply" [ref=e1254] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e1255]:
+                - paragraph
+                - generic [ref=e1256]:
+                  - button "upvote" [ref=e1257] [cursor=pointer]
+                  - button "downvote" [ref=e1258] [cursor=pointer]
+                - generic [ref=e1259]:
+                  - paragraph [ref=e1260]:
+                    - link "[–]" [ref=e1261] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "theintrospectivelad" [ref=e1262] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/theintrospectivelad
+                    - text: • • 2 points •
+                    - time [ref=e1263]: 1 year ago
+                  - paragraph [ref=e1267]: Cerritos and Artesia border each other and are used interchangably.
+                  - list [ref=e1268]:
+                    - listitem [ref=e1269]:
+                      - link "permalink" [ref=e1270] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqcfrbl/
+                    - listitem [ref=e1271]:
+                      - link "embed" [ref=e1272] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1273]:
+                      - link "save" [ref=e1274] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1275]:
+                      - link "parent" [ref=e1276] [cursor=pointer]:
+                        - /url: "#lq8mf4p"
+                    - listitem [ref=e1277]:
+                      - link "report" [ref=e1278] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1279]:
+                      - link "reply" [ref=e1280] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1281]:
+          - paragraph
+          - generic [ref=e1282]:
+            - button "upvote" [ref=e1283] [cursor=pointer]
+            - button "downvote" [ref=e1284] [cursor=pointer]
+          - generic [ref=e1285]:
+            - paragraph [ref=e1286]:
+              - link "[–]" [ref=e1287] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] • • 4 points •"
+              - time [ref=e1288]: 1 year ago
+            - paragraph [ref=e1292]: Southern spice
+            - list [ref=e1293]:
+              - listitem [ref=e1294]:
+                - link "permalink" [ref=e1295] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8pilp/
+              - listitem [ref=e1296]:
+                - link "embed" [ref=e1297] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1298]:
+                - link "save" [ref=e1299] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1300]:
+                - link "report" [ref=e1301] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1302]:
+                - link "reply" [ref=e1303] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1304]:
+          - paragraph
+          - generic [ref=e1305]:
+            - button "upvote" [ref=e1306] [cursor=pointer]
+            - button "downvote" [ref=e1307] [cursor=pointer]
+          - generic [ref=e1308]:
+            - paragraph [ref=e1309]:
+              - link "[–]" [ref=e1310] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Pentacera" [ref=e1311] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Pentacera
+              - text: • • 5 points •
+              - time [ref=e1312]: 1 year ago
+            - paragraph [ref=e1316]: Masala Bae! It’s just north of Irvine off the 5 and Red Hill.
+            - list [ref=e1317]:
+              - listitem [ref=e1318]:
+                - link "permalink" [ref=e1319] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8qx4o/
+              - listitem [ref=e1320]:
+                - link "embed" [ref=e1321] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1322]:
+                - link "save" [ref=e1323] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1324]:
+                - link "report" [ref=e1325] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1326]:
+                - link "reply" [ref=e1327] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1328]:
+          - paragraph
+          - generic [ref=e1329]:
+            - button "upvote" [ref=e1330] [cursor=pointer]
+            - button "downvote" [ref=e1331] [cursor=pointer]
+          - generic [ref=e1332]:
+            - paragraph [ref=e1333]:
+              - link "[–]" [ref=e1334] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "IAmNotInterestingAMA" [ref=e1335] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/IAmNotInterestingAMA
+              - text: • • 4 points •
+              - time [ref=e1336]: 1 year ago
+            - heading "Punjabi Tandoor is great, the owner is super friendly and the prices are good" [level=1] [ref=e1340]
+            - list [ref=e1341]:
+              - listitem [ref=e1342]:
+                - link "permalink" [ref=e1343] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8sboe/
+              - listitem [ref=e1344]:
+                - link "embed" [ref=e1345] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1346]:
+                - link "save" [ref=e1347] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1348]:
+                - link "report" [ref=e1349] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1350]:
+                - link "reply" [ref=e1351] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1354]:
+            - paragraph
+            - generic [ref=e1355]:
+              - button "upvote" [ref=e1356] [cursor=pointer]
+              - button "downvote" [ref=e1357] [cursor=pointer]
+            - generic [ref=e1358]:
+              - paragraph [ref=e1359]:
+                - link "[–]" [ref=e1360] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Professional-Clerk34" [ref=e1361] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Professional-Clerk34
+                - generic [ref=e1362]:
+                  - text: "["
+                  - link "S" [ref=e1363] [cursor=pointer]:
+                    - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                  - text: "]"
+                - text: • • 2 points •
+                - time [ref=e1364]: 1 year ago
+              - paragraph [ref=e1368]: Thanks, will surely try this place!
+              - list [ref=e1369]:
+                - listitem [ref=e1370]:
+                  - link "permalink" [ref=e1371] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8slxs/
+                - listitem [ref=e1372]:
+                  - link "embed" [ref=e1373] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1374]:
+                  - link "save" [ref=e1375] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1376]:
+                  - link "parent" [ref=e1377] [cursor=pointer]:
+                    - /url: "#lq8sboe"
+                - listitem [ref=e1378]:
+                  - link "report" [ref=e1379] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1380]:
+                  - link "reply" [ref=e1381] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1384]:
+              - paragraph
+              - generic [ref=e1385]:
+                - button "upvote" [ref=e1386] [cursor=pointer]
+                - button "downvote" [ref=e1387] [cursor=pointer]
+              - generic [ref=e1388]:
+                - paragraph [ref=e1389]:
+                  - link "[–]" [ref=e1390] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "davemeister" [ref=e1391] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/davemeister
+                  - text: • • 2 points •
+                  - time [ref=e1392]: 1 year ago
+                - paragraph [ref=e1396]: Just remember that they shut down from 3:30 p.m. to 5:00 p.m. to prepare for dinner service, But it's worth the wait.
+                - list [ref=e1397]:
+                  - listitem [ref=e1398]:
+                    - link "permalink" [ref=e1399] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq932or/
+                  - listitem [ref=e1400]:
+                    - link "embed" [ref=e1401] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1402]:
+                    - link "save" [ref=e1403] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1404]:
+                    - link "parent" [ref=e1405] [cursor=pointer]:
+                      - /url: "#lq8slxs"
+                  - listitem [ref=e1406]:
+                    - link "report" [ref=e1407] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1408]:
+                    - link "reply" [ref=e1409] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1410]:
+          - paragraph
+          - generic [ref=e1411]:
+            - button "upvote" [ref=e1412] [cursor=pointer]
+            - button "downvote" [ref=e1413] [cursor=pointer]
+          - generic [ref=e1414]:
+            - paragraph [ref=e1415]:
+              - link "[–]" [ref=e1416] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] • • 2 points •"
+              - time [ref=e1417]: 1 year ago
+            - generic [ref=e1420]:
+              - paragraph [ref=e1421]: Irvine- Punjab Tandoor combos range from $13-18 and enough for 2 meals
+              - paragraph [ref=e1422]: Tustin- India Kitchen, love their buffet
+              - paragraph [ref=e1423]: Irvine- Briyani express; one Briyani is enough for 2 people and some left over. Beautiful flavor
+            - list [ref=e1424]:
+              - listitem [ref=e1425]:
+                - link "permalink" [ref=e1426] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8zadg/
+              - listitem [ref=e1427]:
+                - link "embed" [ref=e1428] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1429]:
+                - link "save" [ref=e1430] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1431]:
+                - link "report" [ref=e1432] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1433]:
+                - link "reply" [ref=e1434] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1437]:
+            - paragraph
+            - generic [ref=e1438]:
+              - button "upvote" [ref=e1439] [cursor=pointer]
+              - button "downvote" [ref=e1440] [cursor=pointer]
+            - generic [ref=e1441]:
+              - paragraph [ref=e1442]:
+                - link "[–]" [ref=e1443] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "davemeister" [ref=e1444] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/davemeister
+                - text: • • 2 points •
+                - time [ref=e1445]: 1 year ago
+              - paragraph [ref=e1449]:
+                - link "Punjabi Tandoor" [ref=e1450] [cursor=pointer]:
+                  - /url: https://www.punjabitandoor.com/our-locations/irvine-ca
+                - text: is my favorite India take-out in Irvine. They have 4.2 stars on Yelp.
+              - list [ref=e1451]:
+                - listitem [ref=e1452]:
+                  - link "permalink" [ref=e1453] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq92r6w/
+                - listitem [ref=e1454]:
+                  - link "embed" [ref=e1455] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1456]:
+                  - link "save" [ref=e1457] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1458]:
+                  - link "parent" [ref=e1459] [cursor=pointer]:
+                    - /url: "#lq8zadg"
+                - listitem [ref=e1460]:
+                  - link "report" [ref=e1461] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1462]:
+                  - link "reply" [ref=e1463] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1466]:
+              - paragraph
+              - generic [ref=e1467]:
+                - button "upvote" [ref=e1468] [cursor=pointer]
+                - button "downvote" [ref=e1469] [cursor=pointer]
+              - generic [ref=e1470]:
+                - paragraph [ref=e1471]:
+                  - link "[–]" [ref=e1472] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] • • 1 point •"
+                  - time [ref=e1473]: 1 year ago
+                - paragraph [ref=e1477]: I go once a week. Love it!
+                - list [ref=e1478]:
+                  - listitem [ref=e1479]:
+                    - link "permalink" [ref=e1480] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq92tki/
+                  - listitem [ref=e1481]:
+                    - link "embed" [ref=e1482] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1483]:
+                    - link "save" [ref=e1484] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1485]:
+                    - link "parent" [ref=e1486] [cursor=pointer]:
+                      - /url: "#lq92r6w"
+                  - listitem [ref=e1487]:
+                    - link "report" [ref=e1488] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1489]:
+                    - link "reply" [ref=e1490] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1491]:
+          - paragraph
+          - generic [ref=e1492]:
+            - button "upvote" [ref=e1493] [cursor=pointer]
+            - button "downvote" [ref=e1494] [cursor=pointer]
+          - generic [ref=e1495]:
+            - paragraph [ref=e1496]:
+              - link "[–]" [ref=e1497] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Angiekhan" [ref=e1498] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Angiekhan
+              - text: • • 2 points •
+              - time [ref=e1499]: 1 year ago
+            - paragraph [ref=e1503]: Khan Saab in Fullerton. 4 years Michelin Bib Gourmand. Best Indian Pakistani food.
+            - list [ref=e1504]:
+              - listitem [ref=e1505]:
+                - link "permalink" [ref=e1506] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq9v2n6/
+              - listitem [ref=e1507]:
+                - link "embed" [ref=e1508] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1509]:
+                - link "save" [ref=e1510] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1511]:
+                - link "report" [ref=e1512] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1513]:
+                - link "reply" [ref=e1514] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1515]:
+          - paragraph
+          - generic [ref=e1516]:
+            - button "upvote" [ref=e1517] [cursor=pointer]
+            - button "downvote" [ref=e1518] [cursor=pointer]
+          - generic [ref=e1519]:
+            - paragraph [ref=e1520]:
+              - link "[–]" [ref=e1521] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "divemasterff" [ref=e1522] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/divemasterff
+              - text: • • 2 points •
+              - time [ref=e1523]: 1 year ago
+            - paragraph [ref=e1527]: "Some of our favorites: Punjabi Tandoor, Natraj (Alicia parkway location is better than the express ones), Maast, and India Kitchen."
+            - list [ref=e1528]:
+              - listitem [ref=e1529]:
+                - link "permalink" [ref=e1530] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqb25qn/
+              - listitem [ref=e1531]:
+                - link "embed" [ref=e1532] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1533]:
+                - link "save" [ref=e1534] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1535]:
+                - link "report" [ref=e1536] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1537]:
+                - link "reply" [ref=e1538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1539]:
+          - paragraph
+          - generic [ref=e1540]:
+            - button "upvote" [ref=e1541] [cursor=pointer]
+            - button "downvote" [ref=e1542] [cursor=pointer]
+          - generic [ref=e1543]:
+            - paragraph [ref=e1544]:
+              - link "[–]" [ref=e1545] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ParsnipPrestigious59" [ref=e1546] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ParsnipPrestigious59
+              - text: • • 2 points •
+              - time [ref=e1547]: 1 year ago
+            - paragraph [ref=e1551]: Amaravathi express in artesia is sooo good as a Telugu guy myself lol
+            - list [ref=e1552]:
+              - listitem [ref=e1553]:
+                - link "permalink" [ref=e1554] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqes1rt/
+              - listitem [ref=e1555]:
+                - link "embed" [ref=e1556] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1557]:
+                - link "save" [ref=e1558] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1559]:
+                - link "report" [ref=e1560] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1561]:
+                - link "reply" [ref=e1562] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1565]:
+            - paragraph
+            - generic [ref=e1566]:
+              - button "upvote" [ref=e1567] [cursor=pointer]
+              - button "downvote" [ref=e1568] [cursor=pointer]
+            - generic [ref=e1569]:
+              - paragraph [ref=e1570]:
+                - link "[–]" [ref=e1571] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "ParsnipPrestigious59" [ref=e1572] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/ParsnipPrestigious59
+                - text: • • 1 point •
+                - time [ref=e1573]: 1 year ago
+              - paragraph [ref=e1577]: Their paneer biryani especially is so goddamn tasty
+              - list [ref=e1578]:
+                - listitem [ref=e1579]:
+                  - link "permalink" [ref=e1580] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqes84q/
+                - listitem [ref=e1581]:
+                  - link "embed" [ref=e1582] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1583]:
+                  - link "save" [ref=e1584] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1585]:
+                  - link "parent" [ref=e1586] [cursor=pointer]:
+                    - /url: "#lqes1rt"
+                - listitem [ref=e1587]:
+                  - link "report" [ref=e1588] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1589]:
+                  - link "reply" [ref=e1590] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1593]:
+              - paragraph
+              - generic [ref=e1594]:
+                - button "upvote" [ref=e1595] [cursor=pointer]
+                - button "downvote" [ref=e1596] [cursor=pointer]
+              - generic [ref=e1597]:
+                - paragraph [ref=e1598]:
+                  - link "[–]" [ref=e1599] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "ParsnipPrestigious59" [ref=e1600] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/ParsnipPrestigious59
+                  - text: • • 1 point •
+                  - time [ref=e1601]: 1 year ago
+                - paragraph [ref=e1605]: Oh and their manchurian is also so good
+                - list [ref=e1606]:
+                  - listitem [ref=e1607]:
+                    - link "permalink" [ref=e1608] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqesjaf/
+                  - listitem [ref=e1609]:
+                    - link "embed" [ref=e1610] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1611]:
+                    - link "save" [ref=e1612] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1613]:
+                    - link "parent" [ref=e1614] [cursor=pointer]:
+                      - /url: "#lqes84q"
+                  - listitem [ref=e1615]:
+                    - link "report" [ref=e1616] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1617]:
+                    - link "reply" [ref=e1618] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1619]:
+          - paragraph
+          - generic [ref=e1620]:
+            - button "upvote" [ref=e1621] [cursor=pointer]
+            - button "downvote" [ref=e1622] [cursor=pointer]
+          - generic [ref=e1623]:
+            - paragraph [ref=e1624]:
+              - link "[–]" [ref=e1625] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "False-Firefighter301" [ref=e1626] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/False-Firefighter301
+              - text: • • 2 points •
+              - time [ref=e1627]: 1 year ago
+            - paragraph [ref=e1631]: Mint in Laguna Hills
+            - list [ref=e1632]:
+              - listitem [ref=e1633]:
+                - link "permalink" [ref=e1634] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqj1frf/
+              - listitem [ref=e1635]:
+                - link "embed" [ref=e1636] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1637]:
+                - link "save" [ref=e1638] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1639]:
+                - link "report" [ref=e1640] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1641]:
+                - link "reply" [ref=e1642] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1643]:
+          - paragraph
+          - generic [ref=e1644]:
+            - button "upvote" [ref=e1645] [cursor=pointer]
+            - button "downvote" [ref=e1646] [cursor=pointer]
+          - generic [ref=e1647]:
+            - paragraph [ref=e1648]:
+              - link "[–]" [ref=e1649] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "IraniPatriot" [ref=e1650] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/IraniPatriot
+              - text: • • 2 points •
+              - time [ref=e1651]: 1 year ago
+            - paragraph [ref=e1655]: India kitchen in Tustin
+            - list [ref=e1656]:
+              - listitem [ref=e1657]:
+                - link "permalink" [ref=e1658] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqjx5m3/
+              - listitem [ref=e1659]:
+                - link "embed" [ref=e1660] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1661]:
+                - link "save" [ref=e1662] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1663]:
+                - link "report" [ref=e1664] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1665]:
+                - link "reply" [ref=e1666] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1667]:
+          - paragraph
+          - generic [ref=e1668]:
+            - button "upvote" [ref=e1669] [cursor=pointer]
+            - button "downvote" [ref=e1670] [cursor=pointer]
+          - generic [ref=e1671]:
+            - paragraph [ref=e1672]:
+              - link "[–]" [ref=e1673] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "swish787" [ref=e1674] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/swish787
+              - text: • • 2 points •
+              - time [ref=e1675]: 1 year ago
+            - paragraph [ref=e1679]: As an Indian, our family goes to Southern Spice. Very good north and south indian food. Some of their dishes are spicier if you prefer as the cuisine is Hyderabadi but they also have more traditional Indian food(ie butter chicken which is my personal favorite). Also their chai hits the spot at the end of a meal. Very nice vibes in the restaurant and food comes out very quick.
+            - list [ref=e1680]:
+              - listitem [ref=e1681]:
+                - link "permalink" [ref=e1682] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqmlw9i/
+              - listitem [ref=e1683]:
+                - link "embed" [ref=e1684] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1685]:
+                - link "save" [ref=e1686] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1687]:
+                - link "report" [ref=e1688] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1689]:
+                - link "reply" [ref=e1690] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1691]:
+          - paragraph
+          - generic [ref=e1692]:
+            - button "upvote" [ref=e1693] [cursor=pointer]
+            - button "downvote" [ref=e1694] [cursor=pointer]
+          - generic [ref=e1695]:
+            - paragraph [ref=e1696]:
+              - link "[–]" [ref=e1697] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Hungry-Trash-9343" [ref=e1698] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Hungry-Trash-9343
+              - text: • • 1 point •
+              - time [ref=e1699]: 1 year ago
+            - paragraph [ref=e1703]:
+              - link "https://kannappacatering.com" [ref=e1704] [cursor=pointer]:
+                - /url: https://kannappacatering.com
+              - text: They are takeout only Indian food place.
+            - list [ref=e1705]:
+              - listitem [ref=e1706]:
+                - link "permalink" [ref=e1707] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqcy7qo/
+              - listitem [ref=e1708]:
+                - link "embed" [ref=e1709] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1710]:
+                - link "save" [ref=e1711] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1712]:
+                - link "report" [ref=e1713] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1714]:
+                - link "reply" [ref=e1715] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1716]:
+          - paragraph
+          - generic [ref=e1717]:
+            - button "upvote" [ref=e1718] [cursor=pointer]
+            - button "downvote" [ref=e1719] [cursor=pointer]
+          - generic [ref=e1720]:
+            - paragraph [ref=e1721]:
+              - link "[–]" [ref=e1722] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LALakerFan" [ref=e1723] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LALakerFan
+              - text: • • 1 point •
+              - time [ref=e1724]: 1 year ago
+            - paragraph [ref=e1728]: India Kitchen. Hands down.
+            - list [ref=e1729]:
+              - listitem [ref=e1730]:
+                - link "permalink" [ref=e1731] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqdgn6q/
+              - listitem [ref=e1732]:
+                - link "embed" [ref=e1733] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1734]:
+                - link "save" [ref=e1735] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1736]:
+                - link "report" [ref=e1737] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1738]:
+                - link "reply" [ref=e1739] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1740]:
+          - paragraph
+          - generic [ref=e1741]:
+            - button "upvote" [ref=e1742] [cursor=pointer]
+            - button "downvote" [ref=e1743] [cursor=pointer]
+          - generic [ref=e1744]:
+            - paragraph [ref=e1745]:
+              - link "[–]" [ref=e1746] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TechnicalMedium2112" [ref=e1747] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TechnicalMedium2112
+              - text: • • 1 point •
+              - time [ref=e1748]: 1 year ago
+            - paragraph [ref=e1752]: Anywhere but Anjappar in Tustin
+            - list [ref=e1753]:
+              - listitem [ref=e1754]:
+                - link "permalink" [ref=e1755] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqeaxsx/
+              - listitem [ref=e1756]:
+                - link "embed" [ref=e1757] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1758]:
+                - link "save" [ref=e1759] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1760]:
+                - link "report" [ref=e1761] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1762]:
+                - link "reply" [ref=e1763] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1764]:
+          - paragraph
+          - generic [ref=e1765]:
+            - button "upvote" [ref=e1766] [cursor=pointer]
+            - button "downvote" [ref=e1767] [cursor=pointer]
+          - generic [ref=e1768]:
+            - paragraph [ref=e1769]:
+              - link "[–]" [ref=e1770] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "13ass13ass" [ref=e1771] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/13ass13ass
+              - text: • • 1 point •
+              - time [ref=e1772]: 1 year ago
+            - paragraph [ref=e1776]: International India bazaar in Tustin is good for carry out
+            - list [ref=e1777]:
+              - listitem [ref=e1778]:
+                - link "permalink" [ref=e1779] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqexfje/
+              - listitem [ref=e1780]:
+                - link "embed" [ref=e1781] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1782]:
+                - link "save" [ref=e1783] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1784]:
+                - link "report" [ref=e1785] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1786]:
+                - link "reply" [ref=e1787] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1790]:
+            - paragraph
+            - generic [ref=e1791]:
+              - button "upvote" [ref=e1792] [cursor=pointer]
+              - button "downvote" [ref=e1793] [cursor=pointer]
+            - generic [ref=e1794]:
+              - paragraph [ref=e1795]:
+                - link "[–]" [ref=e1796] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Professional-Clerk34" [ref=e1797] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Professional-Clerk34
+                - generic [ref=e1798]:
+                  - text: "["
+                  - link "S" [ref=e1799] [cursor=pointer]:
+                    - /url: /r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/
+                  - text: "]"
+                - text: • • 1 point •
+                - time [ref=e1800]: 1 year ago
+              - paragraph [ref=e1804]: I think Paradise Biriyani has replaced the food court of International India Bazaar, they underwent a renovation recently
+              - list [ref=e1805]:
+                - listitem [ref=e1806]:
+                  - link "permalink" [ref=e1807] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqey5gn/
+                - listitem [ref=e1808]:
+                  - link "embed" [ref=e1809] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1810]:
+                  - link "save" [ref=e1811] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1812]:
+                  - link "parent" [ref=e1813] [cursor=pointer]:
+                    - /url: "#lqexfje"
+                - listitem [ref=e1814]:
+                  - link "report" [ref=e1815] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1816]:
+                  - link "reply" [ref=e1817] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1818]:
+          - paragraph
+          - generic [ref=e1819]:
+            - button "upvote" [ref=e1820] [cursor=pointer]
+            - button "downvote" [ref=e1821] [cursor=pointer]
+          - generic [ref=e1822]:
+            - paragraph [ref=e1823]:
+              - link "[–]" [ref=e1824] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "WG_Target" [ref=e1825] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/WG_Target
+              - text: • • 1 point •
+              - time [ref=e1826]: 1 year ago
+              - time [ref=e1827]: "*"
+            - generic [ref=e1830]:
+              - paragraph [ref=e1831]: Believe it or not, you can get Indian cuisine at the concession stand at Regal Theater Irvine Spectrum 20, IMAX and RPX.
+              - paragraph [ref=e1832]:
+                - link "https://www.reddit.com/r/RegalUnlimited/s/lJ3HqZRz1D" [ref=e1833] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/RegalUnlimited/s/lJ3HqZRz1D
+            - list [ref=e1834]:
+              - listitem [ref=e1835]:
+                - link "permalink" [ref=e1836] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lqf26ts/
+              - listitem [ref=e1837]:
+                - link "embed" [ref=e1838] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1839]:
+                - link "save" [ref=e1840] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1841]:
+                - link "report" [ref=e1842] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1843]:
+                - link "reply" [ref=e1844] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1845]:
+          - paragraph
+          - generic [ref=e1846]:
+            - button "upvote" [ref=e1847] [cursor=pointer]
+            - button "downvote" [ref=e1848] [cursor=pointer]
+          - generic [ref=e1849]:
+            - paragraph [ref=e1850]:
+              - link "[–]" [ref=e1851] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "LA0975" [ref=e1852] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/LA0975
+              - text: • • 1 point •
+              - time [ref=e1853]: 1 year ago
+            - paragraph [ref=e1857]: Artesia is the way to go! For good south Indian food try Bhimas in Artesia! The other suggestions are great too! Try Annapoorna or even Anjappar for South Indian food!
+            - list [ref=e1858]:
+              - listitem [ref=e1859]:
+                - link "permalink" [ref=e1860] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/ls9jamb/
+              - listitem [ref=e1861]:
+                - link "embed" [ref=e1862] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1863]:
+                - link "save" [ref=e1864] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1865]:
+                - link "report" [ref=e1866] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1867]:
+                - link "reply" [ref=e1868] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1869]:
+          - paragraph
+          - generic [ref=e1870]:
+            - button "upvote" [ref=e1871] [cursor=pointer]
+            - button "downvote" [ref=e1872] [cursor=pointer]
+          - generic [ref=e1873]:
+            - paragraph [ref=e1874]:
+              - link "[–]" [ref=e1875] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "The_Dex" [ref=e1876] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/The_Dex
+              - text: • • 1 point •
+              - time [ref=e1877]: 1 year ago
+            - paragraph [ref=e1881]: Bumping for my own curiosity!
+            - list [ref=e1882]:
+              - listitem [ref=e1883]:
+                - link "permalink" [ref=e1884] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8ih3r/
+              - listitem [ref=e1885]:
+                - link "embed" [ref=e1886] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1887]:
+                - link "save" [ref=e1888] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1889]:
+                - link "report" [ref=e1890] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1891]:
+                - link "reply" [ref=e1892] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1895]:
+            - paragraph
+            - generic [ref=e1896]:
+              - button "upvote" [ref=e1897] [cursor=pointer]
+              - button "downvote" [ref=e1898] [cursor=pointer]
+            - generic [ref=e1899]:
+              - paragraph [ref=e1900]:
+                - link "[–]" [ref=e1901] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "IAmNotInterestingAMA" [ref=e1902] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/IAmNotInterestingAMA
+                - text: • • 1 point •
+                - time [ref=e1903]: 1 year ago
+              - paragraph [ref=e1907]: Try Punjabi Tandoor
+              - list [ref=e1908]:
+                - listitem [ref=e1909]:
+                  - link "permalink" [ref=e1910] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1fvnyda/indian_cuisine_in_irvine_oc/lq8se4u/
+                - listitem [ref=e1911]:
+                  - link "embed" [ref=e1912] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1913]:
+                  - link "save" [ref=e1914] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1915]:
+                  - link "parent" [ref=e1916] [cursor=pointer]:
+                    - /url: "#lq8ih3r"
+                - listitem [ref=e1917]:
+                  - link "report" [ref=e1918] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1919]:
+                  - link "reply" [ref=e1920] [cursor=pointer]:
+                    - /url: javascript:void(0)
+  - generic [ref=e1921]:
+    - generic [ref=e1922]:
+      - list [ref=e1924]:
+        - listitem [ref=e1925]: about
+        - listitem [ref=e1926]:
+          - link "blog" [ref=e1927] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1928]:
+          - link "about" [ref=e1929] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1930]:
+          - link "advertising" [ref=e1931] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1932]:
+          - link "careers" [ref=e1933] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1935]:
+        - listitem [ref=e1936]: help
+        - listitem [ref=e1937]:
+          - link "site rules" [ref=e1938] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1939]:
+          - link "Reddit help center" [ref=e1940] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1941]:
+          - link "reddiquette" [ref=e1942] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1943]:
+          - link "mod guidelines" [ref=e1944] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1945]:
+          - link "contact us" [ref=e1946] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1948]:
+        - listitem [ref=e1949]: apps & tools
+        - listitem [ref=e1950]:
+          - link "Reddit for iPhone" [ref=e1951] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1952]:
+          - link "Reddit for Android" [ref=e1953] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1954]:
+          - link "mobile website" [ref=e1955] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1957]:
+        - listitem [ref=e1958]: <3
+        - listitem [ref=e1959]:
+          - link "reddit premium" [ref=e1960] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1961]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1962] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1963] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1964]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

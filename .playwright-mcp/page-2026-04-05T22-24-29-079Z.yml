@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - generic:
+          - generic:
+            - img
+        - link "Easter 2026" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4QPQgL
+          - img "Easter 2026" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search" [ref=e20]: best restaurants san diego worth it underrated reddit best restaurants san diego worth it underrated reddit
+            - generic [ref=e21]:
+              - button "Clear" [ref=e23] [cursor=pointer]:
+                - img [ref=e25]
+              - generic [ref=e28]:
+                - button "Search by voice" [ref=e29] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Search by image" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+          - button "Search" [ref=e35] [cursor=pointer]:
+            - img [ref=e38]
+    - generic [ref=e40]:
+      - button "Settings" [ref=e42] [cursor=pointer]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - button "Google apps" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+        - link "Sign in" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bsan%2Bdiego%2Bworth%2Bit%2Bunderrated%2Breddit%26udm%3D18&ec=futura_srp_og_si_72236_p
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q2J8OegQIDhAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [ref=e77] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&q=best+restaurants+san+diego+worth+it+underrated+reddit&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q0pQJegQIEBAB
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "Forums" [disabled] [ref=e81]:
+              - generic [ref=e83]: Forums
+          - listitem [ref=e84]:
+            - link "Short videos" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&q=best+restaurants+san+diego+worth+it+underrated+reddit&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Qs6gLegQIExAB
+              - generic [ref=e87]: Short videos
+          - listitem [ref=e88]:
+            - link "Flights" [ref=e89] [cursor=pointer]:
+              - /url: /travel/flights?sca_esv=b2c48e119f077edf&output=search&q=best+restaurants+san+diego+worth+it+underrated+reddit&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&ved=1t:200715&ictx=111
+              - generic [ref=e91]: Flights
+          - listitem [ref=e92]:
+            - link "Web" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&q=best+restaurants+san+diego+worth+it+underrated+reddit&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Qs6gLegQIFRAB
+              - generic [ref=e95]: Web
+          - listitem [ref=e96]:
+            - link "Finance" [ref=e97] [cursor=pointer]:
+              - /url: /finance?sca_esv=b2c48e119f077edf&output=search&q=best+restaurants+san+diego+worth+it+underrated+reddit&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8O2J-l05bwPYHG24xCsQH1zG4KcB_T0DAb0zFpZIMC_kA_cUqqdLIPNjbRTj07al1G8VUMDyIXcAGNf9GEpysKgjRB1NSJPP3jlt32S1HsWENDbXKfumZQsnT9xbcGQglZ0GooUaGu2D46P-c2RS8uTioQTbzu6o_2rsvsKlZdMMIhINtQ&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q0pQJegQIEhAB
+              - generic [ref=e99]: Finance
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - main [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - heading "Web results" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - link "What is the best unknown or underrated place to eat? Reddit · r/sandiego 90+ comments · 1 year ago" [ref=e136] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/1jhkl4j/what_is_the_best_unknown_or_underrated_place_to/
+                - heading "What is the best unknown or underrated place to eat?" [level=3] [ref=e137]
+                - generic [ref=e142]:
+                  - generic [ref=e144]: Reddit · r/sandiego
+                  - generic [ref=e146]: 90+ comments · 1 year ago
+              - button "About this result" [ref=e147] [cursor=pointer]:
+                - img [ref=e150]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - emphasis [ref=e155]: Azteca Taco Shop
+                - text: . It's a little hole in the wall place near Park and Market downtown. They have fantastic California burritos and really great tostadas.
+              - link "Read more" [ref=e156] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/1jhkl4j/what_is_the_best_unknown_or_underrated_place_to/#:~:text=Azteca%20Taco%20Shop.%20It's%20a,burritos%20and%20really%20great%20tostadas.
+            - generic [ref=e161]:
+              - link "91 answers" [ref=e162] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/sandiego/comments/1jhkl4j/what_is_the_best_unknown_or_underrated_place_to/mj8380g/
+              - generic [ref=e163]: ·
+              - generic [ref=e164]: "Top answer:"
+              - generic [ref=e165]: Canada Steak Burger at 36th & University.
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - 'link "Underrated restaurants : r/sandiego Reddit · r/sandiego 390+ comments · 3 years ago" [ref=e174] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/yoe9m1/underrated_restaurants/
+              - 'heading "Underrated restaurants : r/sandiego" [level=3] [ref=e175]'
+              - generic [ref=e180]:
+                - generic [ref=e182]: Reddit · r/sandiego
+                - generic [ref=e184]: 390+ comments · 3 years ago
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - text: I love
+              - emphasis [ref=e193]: Yasai
+              - text: ", Mochinut donuts, THANH TINH CHAY RESTAURANT, Himalayan curry and grill, TukTuk one Thai (those two aren't vegan but they have ..."
+            - link "Read more" [ref=e194] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/yoe9m1/underrated_restaurants/#:~:text=I%20love%20Yasai%2C%20Mochinut%20donuts%2C,of%20more%20to%20add%20later.
+        - generic [ref=e198]:
+          - generic [ref=e201]:
+            - link "Best/favorite local places you could go to weekly and worth ... Reddit · r/FoodSanDiego 100+ comments · 3 months ago" [ref=e203] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1px5vgh/bestfavorite_local_places_you_could_go_to_weekly/
+              - heading "Best/favorite local places you could go to weekly and worth ..." [level=3] [ref=e204]
+              - generic [ref=e209]:
+                - generic [ref=e211]: Reddit · r/FoodSanDiego
+                - generic [ref=e213]: 100+ comments · 3 months ago
+            - button "About this result" [ref=e214] [cursor=pointer]:
+              - img [ref=e217]
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - text: I think the most underrated carne asada burrito is at
+              - emphasis [ref=e222]: Panchitas kitchen in north park
+              - text: . Their meat is nicely grilled and actually steak not ...
+            - link "Read more" [ref=e223] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1px5vgh/bestfavorite_local_places_you_could_go_to_weekly/#:~:text=I%20think%20the%20most%20underrated,wrinkle%20pieces%20of%20gristle%20meat.
+          - generic [ref=e228]:
+            - link "104 answers" [ref=e229] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1px5vgh/bestfavorite_local_places_you_could_go_to_weekly/nw8kky5/
+            - generic [ref=e230]: ·
+            - generic [ref=e231]: "Top answer:"
+            - generic [ref=e232]: "I live in the grossly overlooked Southbay (iT’s ToO fAR aWAy 🙄): Caliano Pizza The ..."
+        - generic [ref=e236]:
+          - generic [ref=e239]:
+            - 'link "Favorite dinners in SD right now? : r/FoodSanDiego Reddit · r/FoodSanDiego 80+ comments · 2 months ago" [ref=e241] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qnkclz/favorite_dinners_in_sd_right_now/
+              - 'heading "Favorite dinners in SD right now? : r/FoodSanDiego" [level=3] [ref=e242]'
+              - generic [ref=e247]:
+                - generic [ref=e249]: Reddit · r/FoodSanDiego
+                - generic [ref=e251]: 80+ comments · 2 months ago
+            - button "About this result" [ref=e252] [cursor=pointer]:
+              - img [ref=e255]
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - emphasis [ref=e260]: Fort Oak is usually my go to for a solid meal
+              - text: but would like to branch out. Last time we did Kingfisher and sat at the bar. which was great.
+            - link "Read more" [ref=e261] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qnkclz/favorite_dinners_in_sd_right_now/#:~:text=Fort%20Oak%20is%20usually%20my,the%20bar.%20which%20was%20great.
+          - generic [ref=e266]:
+            - link "89 answers" [ref=e267] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qnkclz/favorite_dinners_in_sd_right_now/o1udfdl/
+            - generic [ref=e268]: ·
+            - generic [ref=e269]: "Top answer:"
+            - generic [ref=e270]: Callie
+        - generic [ref=e274]:
+          - generic [ref=e277]:
+            - 'link "What restaurants are a ''can''t miss'' in SD? : r/FoodSanDiego Reddit · r/FoodSanDiego 170+ comments · 1 year ago" [ref=e279] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1grkvcu/what_restaurants_are_a_cant_miss_in_sd/
+              - 'heading "What restaurants are a ''can''t miss'' in SD? : r/FoodSanDiego" [level=3] [ref=e280]'
+              - generic [ref=e285]:
+                - generic [ref=e287]: Reddit · r/FoodSanDiego
+                - generic [ref=e289]: 170+ comments · 1 year ago
+            - button "About this result" [ref=e290] [cursor=pointer]:
+              - img [ref=e293]
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - text: My two faves are
+              - emphasis [ref=e298]: Shan Xi magic kitchen
+              - text: for the noodles and Spicy City for good Szechuan food. There's so much to eat up there.
+            - link "Read more" [ref=e299] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1grkvcu/what_restaurants_are_a_cant_miss_in_sd/#:~:text=My%20two%20faves%20are&text=Shan%20Xi%20magic%20kitchen&text=for%20the%20noodles%20and%20Spicy,much%20to%20eat%20up%20there.
+          - generic [ref=e304]:
+            - link "171 answers" [ref=e305] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1grkvcu/what_restaurants_are_a_cant_miss_in_sd/lx6rtp2/
+            - generic [ref=e306]: ·
+            - generic [ref=e307]: "Top answer:"
+            - generic [ref=e308]: Pomegranate, The Friendly, Tacos el Gordo are at the top of my list
+        - generic [ref=e312]:
+          - generic [ref=e315]:
+            - 'link "Most underrated restaurant in San Diego? : r/SanDiegan Reddit · r/SanDiegan 300+ comments · 2 years ago" [ref=e317] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/SanDiegan/comments/16ozjqi/most_underrated_restaurant_in_san_diego/
+              - 'heading "Most underrated restaurant in San Diego? : r/SanDiegan" [level=3] [ref=e318]'
+              - generic [ref=e323]:
+                - generic [ref=e325]: Reddit · r/SanDiegan
+                - generic [ref=e327]: 300+ comments · 2 years ago
+            - button "About this result" [ref=e328] [cursor=pointer]:
+              - img [ref=e331]
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - text: Everyone is going to hate this one but
+              - emphasis [ref=e336]: Dumpling Inn
+              - text: . Usually get a table no problem it's not super expensive and they fire out the food so fast.
+            - link "Read more" [ref=e337] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/SanDiegan/comments/16ozjqi/most_underrated_restaurant_in_san_diego/#:~:text=Everyone%20is%20going%20to%20hate,out%20the%20food%20so%20fast.
+          - generic [ref=e342]:
+            - link "307 answers" [ref=e343] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/SanDiegan/comments/16ozjqi/most_underrated_restaurant_in_san_diego/k1o1fme/
+            - generic [ref=e344]: ·
+            - generic [ref=e345]: "Top answer:"
+            - generic [ref=e346]: Chris' Liquor in OB. Best sandwiches I've ever had. I think the bros behind the counter ...
+        - generic [ref=e350]:
+          - generic [ref=e353]:
+            - link "Quintessential San Diego restaurants to take visitors to? Reddit · r/FoodSanDiego 130+ comments · 1 year ago" [ref=e355] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1f3dl27/quintessential_san_diego_restaurants_to_take/
+              - heading "Quintessential San Diego restaurants to take visitors to?" [level=3] [ref=e356]
+              - generic [ref=e361]:
+                - generic [ref=e363]: Reddit · r/FoodSanDiego
+                - generic [ref=e365]: 130+ comments · 1 year ago
+            - button "About this result" [ref=e366] [cursor=pointer]:
+              - img [ref=e369]
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - text: "For me it's a mix of:"
+              - emphasis [ref=e374]: Queenstown, Mitch's Seafood, Balboa Bar & Grille, Eastern Dynasty, Grand
+              - text: Ole BBQ, Tribue Pizza, Cesarina, Bonchon, Common ...
+            - link "Read more" [ref=e375] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1f3dl27/quintessential_san_diego_restaurants_to_take/#:~:text=For%20me%20it's%20a%20mix,Tribue%20Pizza%2C%20Cesarina%2C%20Bonchon%2C%20Common
+          - generic [ref=e380]:
+            - link "130 answers" [ref=e381] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1f3dl27/quintessential_san_diego_restaurants_to_take/lkd5p2j/
+            - generic [ref=e382]: ·
+            - generic [ref=e383]: "Top answer:"
+            - generic [ref=e384]: Fish Guts in Barrio Logan, then take 'em thru Chicano Park. Little Lion in OB, then take ...
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - link "Best restaurants outside of the \"main\" parts of San Diego? Reddit · r/FoodSanDiego 70+ comments · 1 year ago" [ref=e393] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1j9cqfl/best_restaurants_outside_of_the_main_parts_of_san/
+              - heading "Best restaurants outside of the \"main\" parts of San Diego?" [level=3] [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e401]: Reddit · r/FoodSanDiego
+                - generic [ref=e403]: 70+ comments · 1 year ago
+            - button "About this result" [ref=e404] [cursor=pointer]:
+              - img [ref=e407]
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - emphasis [ref=e412]: Tacos el Gordo in chula vista for tacos
+              - text: · Alforon in college area for great Lebanese food · Super Cocina in City Heights (I know you said outside ...
+            - link "Read more" [ref=e413] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1j9cqfl/best_restaurants_outside_of_the_main_parts_of_san/#:~:text=Tacos%20el%20Gordo,in%20chula%20vista%20for%20tacos&text=Alforon%20in%20college%20area%20for,great%20Lebanese%20food&text=Super%20Cocina%20in%20City%20Heights,I%20had%20to%20mention%20this)
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - 'link "san diego has too many good restaurants : r/sandiego Reddit · r/sandiego 150+ comments · 1 month ago" [ref=e422] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/sandiego/comments/1rj29gt/san_diego_has_too_many_good_restaurants/
+              - 'heading "san diego has too many good restaurants : r/sandiego" [level=3] [ref=e423]'
+              - generic [ref=e428]:
+                - generic [ref=e430]: Reddit · r/sandiego
+                - generic [ref=e432]: 150+ comments · 1 month ago
+            - button "About this result" [ref=e433] [cursor=pointer]:
+              - img [ref=e436]
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - emphasis [ref=e441]: Leila
+              - text: ", Dunedin (and its cousin, Bareback), most of Old Town, Miguel's, Swami's, Seneca, a good chunk of Little Italy and the Gaslamp, Underbelly ..."
+            - link "Read more" [ref=e442] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/sandiego/comments/1rj29gt/san_diego_has_too_many_good_restaurants/#:~:text=Leila%2C%20Dunedin%20(and%20its%20cousin%2C,(cute%20restaurant%2C%20mediocre%20food)%2C%20etc.
+        - generic [ref=e446]:
+          - generic [ref=e449]:
+            - link "Rate my food spots and looking for suggestions as well! Reddit · r/FoodSanDiego 30+ comments · 6 months ago" [ref=e451] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1nx8cui/rate_my_food_spots_and_looking_for_suggestions_as/
+              - heading "Rate my food spots and looking for suggestions as well!" [level=3] [ref=e452]
+              - generic [ref=e457]:
+                - generic [ref=e459]: Reddit · r/FoodSanDiego
+                - generic [ref=e461]: 30+ comments · 6 months ago
+            - button "About this result" [ref=e462] [cursor=pointer]:
+              - img [ref=e465]
+          - generic [ref=e468]:
+            - generic [ref=e469]:
+              - emphasis [ref=e470]: Taco Stand is good
+              - text: ", but nearby there is also Don Carlos for more veggie options or El Pescador if you want seafood. A California burrito or a ..."
+            - link "Read more" [ref=e471] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1nx8cui/rate_my_food_spots_and_looking_for_suggestions_as/#:~:text=Taco%20Stand%20is%20good%2C%20but,menu%20items%20unique%20to%20SD.
+      - generic [ref=e473]:
+        - generic [ref=e478]:
+          - heading "People also search for" [level=2] [ref=e480]
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - link "Hidden gem restaurants San Diego Reddit" [ref=e487] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Hidden+gem+restaurants+San+Diego+Reddit&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg5EAE
+                - generic [ref=e488]:
+                  - generic [ref=e493]: Hidden gem restaurants San Diego Reddit
+                  - img [ref=e497]
+              - link "Best restaurants in San Diego with a view" [ref=e502] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Best+restaurants+in+San+Diego+with+a+view&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg8EAE
+                - generic [ref=e503]:
+                  - generic [ref=e508]: Best restaurants in San Diego with a view
+                  - img [ref=e512]
+              - link "Thrillist San Diego restaurants" [ref=e517] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Thrillist+San+Diego+restaurants&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg9EAE
+                - generic [ref=e518]:
+                  - generic [ref=e523]: Thrillist San Diego restaurants
+                  - img [ref=e527]
+              - link "Best affordable restaurants in San Diego" [ref=e532] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Best+affordable+restaurants+in+San+Diego&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg7EAE
+                - generic [ref=e533]:
+                  - generic [ref=e538]: Best affordable restaurants in San Diego
+                  - img [ref=e542]
+            - generic [ref=e544]:
+              - link "Top 10 places to eat in San Diego" [ref=e548] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Top+10+places+to+eat+in+San+Diego&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg6EAE
+                - generic [ref=e549]:
+                  - generic [ref=e554]: Top 10 places to eat in San Diego
+                  - img [ref=e558]
+              - link "Top rated restaurants San Diego" [ref=e563] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Top+rated+restaurants+San+Diego&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg3EAE
+                - generic [ref=e564]:
+                  - generic [ref=e569]: Top rated restaurants San Diego
+                  - img [ref=e573]
+              - link "San Diego restaurants with a view" [ref=e578] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=San+Diego+restaurants+with+a+view&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg4EAE
+                - generic [ref=e579]:
+                  - generic [ref=e584]: San Diego restaurants with a view
+                  - img [ref=e588]
+              - link "Best restaurants in San Diego with vegetarian options" [ref=e593] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&udm=18&q=Best+restaurants+in+San+Diego+with+vegetarian+options&sa=X&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q1QJ6BAg2EAE
+                - generic [ref=e594]:
+                  - generic [ref=e599]: Best restaurants in San Diego with vegetarian options
+                  - img [ref=e603]
+        - navigation [ref=e605]:
+          - heading "Page Navigation" [level=1] [ref=e606]
+          - text: "1"
+          - link "Page 2" [ref=e609] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=10&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAE
+            - text: "2"
+          - link "Page 3" [ref=e611] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=20&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAG
+            - text: "3"
+          - link "Page 4" [ref=e613] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=30&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAI
+            - text: "4"
+          - link "Page 5" [ref=e615] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=40&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAK
+            - text: "5"
+          - link "Page 6" [ref=e617] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=50&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAM
+            - text: "6"
+          - link "Page 7" [ref=e619] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=60&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAO
+            - text: "7"
+          - link "Page 8" [ref=e621] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=70&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAQ
+            - text: "8"
+          - link "Page 9" [ref=e623] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=80&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAS
+            - text: "9"
+          - link "Page 10" [ref=e625] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=90&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8tMDegQICBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e627]:
+            - link "Next" [ref=e628] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+worth+it+underrated+reddit&sca_esv=b2c48e119f077edf&udm=18&ei=HOHSac-DCtWo5NoPvPuJ8QM&start=10&sa=N&sstk=Af77f_eyCgphhLtciLZhBpQ42Ib9HuV0Jg5ALqxvctrySPFDBDn17NTykWktEJF4SzsG2eTPaAb6nEYXCAu1zj3tzNbAz02A5IrQ5Q&ved=2ahUKEwjPgaCb4NeTAxVVFFkFHbx9Ij4Q8NMDegQICBAW
+              - generic [ref=e630]: Next
+      - navigation
+    - contentinfo [ref=e631]:
+      - heading "Footer Links" [level=1] [ref=e632]
+      - generic [ref=e636]:
+        - generic [ref=e640]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e642] [cursor=pointer]:
+            - generic [ref=e643]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e645]:
+              - text: "-"
+              - generic [ref=e646]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e648] [cursor=pointer]: Update location
+        - generic [ref=e651]:
+          - link "Help" [ref=e652] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e653] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e654] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e655] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,342 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:theinfatuation.com Irvine OR "Orange County" site:theinfatuation.com Irvine OR "Orange County"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Atheinfatuation.com%2BIrvine%2BOR%2B%2522Orange%2BCounty%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&aep=1&ntc=1&sa=X&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ2J8OegQIERAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sa=X&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQtKgLegQIEhAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&sa=X&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ0pQJegQIFBAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Maps" [ref=e97] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=c0c8628026d5a19e&output=search&q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e99]: Maps
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sa=X&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQtKgLegQIFhAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Forums" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izczKHhF2wgz0AoHZ2f_yIK7XTASet5-C18IAAgZ4W_tl9lMlhTG0bgcXN0otq6dSIrr8QvKMOCJc2ifZlByLs9QC4a5PxYkZJITk064Ciu8vGd9OLX1EHoQjce70zTk1ygObnKSUyLH211rxpmuDu2rjdmCkF8HBQtdYAcxU0Rk7hQlg&q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sa=X&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQs6gLegQIGBAB
+              - generic [ref=e107]: Forums
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The Best Restaurants In Little Saigon - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e144] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-little-saigon-orange-county
+                - heading "The Best Restaurants In Little Saigon - Los Angeles" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: The Infatuation
+                  - generic [ref=e154]: https://www.theinfatuation.com › los-angeles › guides
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Nov 2, 2021 —
+              - generic [ref=e163]:
+                - text: The landmark Vietnamese restaurant in Garden Grove, open since 1982, is one of the most well-known restaurants in all of
+                - emphasis [ref=e164]: Orange County
+                - text: ", and ..."
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-little-saigon-orange-county#:~:text=The%20landmark%20Vietnamese%20restaurant%20in,all%20of%20Orange%20County%2C%20and
+            - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e168] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-little-saigon-orange-county
+              - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e170]
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - link "The 14 Best Restaurants In Newport Beach - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e179] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-newport-beach
+              - heading "The 14 Best Restaurants In Newport Beach - Los Angeles" [level=3] [ref=e180]
+              - generic [ref=e185]:
+                - generic [ref=e187]: The Infatuation
+                - generic [ref=e189]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+          - generic [ref=e196]:
+            - generic [ref=e197]: Apr 29, 2025 —
+            - generic [ref=e198]:
+              - text: Where you should be eating in
+              - emphasis [ref=e199]: Orange County's
+              - text: splashiest beachside city ... The Chicken Shop · 1120
+              - emphasis [ref=e200]: Irvine
+              - text: Ave, Newport Beach, CA 92660.
+            - link "Read more" [ref=e201] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-newport-beach#:~:text=The%20Chicken%20Shop,Ave%2C%20Newport%20Beach%2C%20CA%2092660
+          - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e204] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-newport-beach
+            - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e206]
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - link "The Best Restaurants In Laguna Beach - The Infatuation The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e215] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/laguna-restaurants
+              - heading "The Best Restaurants In Laguna Beach - The Infatuation" [level=3] [ref=e216]
+              - generic [ref=e221]:
+                - generic [ref=e223]: The Infatuation
+                - generic [ref=e225]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e226] [cursor=pointer]:
+              - img [ref=e229]
+          - generic [ref=e232]:
+            - generic [ref=e233]: Jun 3, 2024 —
+            - generic [ref=e234]:
+              - text: Rye Goods is a bakery and cafe with a few locations around
+              - emphasis [ref=e235]: Orange County
+              - text: and is best known for heirloom sourdough loaves and putting tasty ...
+            - link "Read more" [ref=e236] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/laguna-restaurants#:~:text=Rye%20Goods%20is%20a%20bakery,sourdough%20loaves%20and%20putting%20tasty
+          - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e239] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/laguna-restaurants
+            - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e241]
+        - generic [ref=e245]:
+          - generic [ref=e248]:
+            - link "The 19 Best Restaurants In Anaheim - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e250] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-anaheim
+              - heading "The 19 Best Restaurants In Anaheim - Los Angeles" [level=3] [ref=e251]
+              - generic [ref=e256]:
+                - generic [ref=e258]: The Infatuation
+                - generic [ref=e260]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e261] [cursor=pointer]:
+              - img [ref=e264]
+          - generic [ref=e267]:
+            - generic [ref=e268]: Jun 3, 2024 —
+            - generic [ref=e269]:
+              - text: The 21 best places to eat in
+              - emphasis [ref=e270]: Orange County's
+              - text: Little Saigon.
+            - link "Read more" [ref=e271] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-anaheim#:~:text=The%2021%20best%20places%20to,in%20Orange%20County's%20Little%20Saigon.
+          - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e274] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-anaheim
+            - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e276]
+        - generic [ref=e280]:
+          - generic [ref=e283]:
+            - link "Pho 79 - Review - Garden Grove - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › reviews" [ref=e285] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/pho-79-la
+              - heading "Pho 79 - Review - Garden Grove - Los Angeles" [level=3] [ref=e286]
+              - generic [ref=e291]:
+                - generic [ref=e293]: The Infatuation
+                - generic [ref=e295]: https://www.theinfatuation.com › los-angeles › reviews
+            - button "About this result" [ref=e296] [cursor=pointer]:
+              - img [ref=e299]
+          - generic [ref=e302]:
+            - generic [ref=e303]: Jun 16, 2022 —
+            - generic [ref=e304]:
+              - text: You could spend an entire month trying every pho spot in
+              - emphasis [ref=e305]: Orange County's
+              - text: Little Saigon—and most of them would be pretty damn delicious.
+            - link "Read more" [ref=e306] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/pho-79-la#:~:text=You%20could%20spend%20an%20entire,would%20be%20pretty%20damn%20delicious.
+          - generic [ref=e308]: "Review by Brant Cox · ‎Price range: $"
+        - generic [ref=e312]:
+          - generic [ref=e315]:
+            - 'link "Modern Times Leisuretown: The Beer Resort Of Your Dreams The Infatuation https://www.theinfatuation.com › los-angeles › features" [ref=e317] [cursor=pointer]':
+              - /url: https://www.theinfatuation.com/los-angeles/features/la-brewery-anaheim-modern-times-leisuretown
+              - 'heading "Modern Times Leisuretown: The Beer Resort Of Your Dreams" [level=3] [ref=e318]'
+              - generic [ref=e323]:
+                - generic [ref=e325]: The Infatuation
+                - generic [ref=e327]: https://www.theinfatuation.com › los-angeles › features
+            - button "About this result" [ref=e328] [cursor=pointer]:
+              - img [ref=e331]
+          - generic [ref=e334]:
+            - generic [ref=e335]: Nov 11, 2020 —
+            - generic [ref=e336]:
+              - text: ...
+              - emphasis [ref=e337]: Orange County
+              - text: spot for a beer-filled vacation. You sound like you need it.
+            - link "Read more" [ref=e338] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/features/la-brewery-anaheim-modern-times-leisuretown#:~:text=Orange%20County%20spot%20for%20a,sound%20like%20you%20need%20it.
+        - generic [ref=e342]:
+          - generic [ref=e345]:
+            - link "The Chicken Shop - Review - Newport Beach - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › reviews" [ref=e347] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/the-chicken-shop
+              - heading "The Chicken Shop - Review - Newport Beach - Los Angeles" [level=3] [ref=e348]
+              - generic [ref=e353]:
+                - generic [ref=e355]: The Infatuation
+                - generic [ref=e357]: https://www.theinfatuation.com › los-angeles › reviews
+            - button "About this result" [ref=e358] [cursor=pointer]:
+              - img [ref=e361]
+          - generic [ref=e364]:
+            - generic [ref=e365]: Mar 17, 2025 —
+            - text: The Chicken Shop is a rotisserie chicken specialist in Newport Beach with healthy-ish lunch options.
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - img "Rated 4.0 out of 5," [ref=e370]:
+                - text: 7.5/10
+                - img [ref=e371]
+              - text: ·
+            - text: "Review by Cathy Park · ‎Price range: $"
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - 'link "The Meet In The Middle Guide: Where To Eat When You''re ... The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e382] [cursor=pointer]':
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide
+              - 'heading "The Meet In The Middle Guide: Where To Eat When You''re ..." [level=3] [ref=e383]'
+              - generic [ref=e388]:
+                - generic [ref=e390]: The Infatuation
+                - generic [ref=e392]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e399]:
+            - generic [ref=e400]: Nov 6, 2023 —
+            - text: Broken up by specific—and distant—neighborhoods, this guide will finally help solve your long-distance dinner woes ...
+            - link "Read more" [ref=e401] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide#:~:text=Broken%20up%20by%20specific%E2%80%94and%20distant%E2%80%94neighborhoods%2C,solve%20your%20long%2Ddistance%20dinner%20woes.
+          - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e404] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide
+            - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e406]
+          - list [ref=e408]:
+            - listitem [ref=e409]:
+              - link "Beverly Hills & Burbank" [ref=e410] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide#:~:text=BEVERLY%20HILLS%20%26%20BURBANK%3A
+                - generic [ref=e413]: Beverly Hills & Burbank
+            - listitem [ref=e414]:
+              - link "Long Beach & Hollywood" [ref=e415] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide#:~:text=LONG%20BEACH%20%26%20HOLLYWOOD
+                - generic [ref=e418]: Long Beach & Hollywood
+            - listitem [ref=e419]:
+              - link "Burbank & Downtown" [ref=e420] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/the-meet-in-the-middle-guide#:~:text=BURBANK%20%26%20DOWNTOWN
+                - generic [ref=e423]: Burbank & Downtown
+        - generic [ref=e427]:
+          - generic [ref=e430]:
+            - link "Tan Cang Newport Seafood - Review - Santa Ana - Los ... The Infatuation https://www.theinfatuation.com › los-angeles › reviews" [ref=e432] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/tan-cang-newport-seafood
+              - heading "Tan Cang Newport Seafood - Review - Santa Ana - Los ..." [level=3] [ref=e433]
+              - generic [ref=e438]:
+                - generic [ref=e440]: The Infatuation
+                - generic [ref=e442]: https://www.theinfatuation.com › los-angeles › reviews
+            - button "About this result" [ref=e443] [cursor=pointer]:
+              - img [ref=e446]
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - text: There are restaurants all over
+              - emphasis [ref=e451]: Orange County
+              - text: trying to imitate this dish, but Tan Cang is the originator (it's been open since 1988) and the best. The ...
+            - link "Read more" [ref=e452] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/tan-cang-newport-seafood#:~:text=There%20are%20restaurants%20all%20over,1988)%20and%20the%20best.%20The
+          - link "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e455] [cursor=pointer]:
+            - /url: https://www.theinfatuation.com/los-angeles/reviews/tan-cang-newport-seafood
+            - img "site:theinfatuation.com Irvine OR \"Orange County\" from www.theinfatuation.com" [ref=e457]
+          - generic [ref=e459]: "Review by Brant Cox · ‎Price range: $$"
+        - generic [ref=e463]:
+          - generic [ref=e466]:
+            - link "Garlic & Chives - Review - Westminster - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › reviews" [ref=e468] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/garlic-chives
+              - heading "Garlic & Chives - Review - Westminster - Los Angeles" [level=3] [ref=e469]
+              - generic [ref=e474]:
+                - generic [ref=e476]: The Infatuation
+                - generic [ref=e478]: https://www.theinfatuation.com › los-angeles › reviews
+            - button "About this result" [ref=e479] [cursor=pointer]:
+              - img [ref=e482]
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - text: In
+              - emphasis [ref=e487]: Orange County's
+              - text: Little Saigon, there is a tight list of restaurant royalty. These are the spots that have been serving the same iconic dishes for decades ...
+            - link "Read more" [ref=e488] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/reviews/garlic-chives#:~:text=In%20Orange%20County's%20Little%20Saigon%2C,same%20iconic%20dishes%20for%20decades
+          - generic [ref=e490]: "Review by Brant Cox · ‎Price range: $$"
+      - navigation [ref=e493]:
+        - heading "Page Navigation" [level=1] [ref=e494]
+        - text: "1"
+        - link "Page 2" [ref=e497] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=10&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAE
+          - text: "2"
+        - link "Page 3" [ref=e499] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=20&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAG
+          - text: "3"
+        - link "Page 4" [ref=e501] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=30&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAI
+          - text: "4"
+        - link "Page 5" [ref=e503] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=40&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAK
+          - text: "5"
+        - link "Page 6" [ref=e505] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=50&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAM
+          - text: "6"
+        - link "Page 7" [ref=e507] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=60&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAO
+          - text: "7"
+        - link "Page 8" [ref=e509] [cursor=pointer]:
+          - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=70&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8tMDegQIMBAQ
+          - text: "8"
+        - heading "Next" [level=2] [ref=e511]:
+          - link "Next" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=site:theinfatuation.com+Irvine+OR+%22Orange+County%22&sca_esv=c0c8628026d5a19e&ei=G3HiaeOMMvDLkPIPg_724Qk&start=10&sa=N&sstk=Af77f_fbWBe6UFWlkmaSvYQHW7z6IUU93GMddFGEVY2wzN5tSGfG0HtMwSWC6HTdntWUtkS7uQdr-p0p1wqp4TByF6dDFnEzkcVDug&ved=2ahUKEwijhpvTt_WTAxXwJUQIHQO_PZwQ8NMDegQIMBAS
+            - generic [ref=e514]: Next
+      - navigation
+    - contentinfo [ref=e515]:
+      - heading "Footer Links" [level=1] [ref=e516]
+      - generic [ref=e520]:
+        - generic [ref=e524]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e526] [cursor=pointer]:
+            - generic [ref=e527]: 92620, Irvine, CA
+            - generic [ref=e529]:
+              - text: "-"
+              - generic [ref=e530]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e532] [cursor=pointer]: Update location
+        - generic [ref=e535]:
+          - link "Help" [ref=e536] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e537] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e538] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e539] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

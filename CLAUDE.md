@@ -6,18 +6,27 @@ An AI travel planner for a family (user, wife, daughter). Built as a collection 
 ## Architecture
 - **CLI-first**: Each skill is a bash script in `tools/`
 - **Recursive Claude calls**: Tools launch `claude` (interactive) or `claude -p` (single-shot) with system prompts and context
-- **Shared state**: `profile/family.json` holds persistent family info; `trips/<trip-id>.json` holds per-trip data — all tools read/write these
+- **Shared state**: family preferences live in **ghostwheel** (`../ghostwheel/data/people/*.md` + `../ghostwheel/data/preferences/{travel,food}.md`) — load via `tools/_load-travel-context.mjs`. Per-trip state lives in `trips/<trip-id>.json` and (for trips run through the destinations skill) in Supabase tables.
 - **Web-enabled**: Tools use web search/fetch when they need real-time info (flights, events, visa, weather)
 - **Composable**: Tools can call each other, forming pipelines
 
 ## Key Files
 ```
-profile/family.json    # Persistent family preferences, constraints, members
+../ghostwheel/data/people/{niki,carissa,ashi,robbie,jess}.md
+                       # Per-person profiles (canonical) — name, role, age, travel + food sections
+../ghostwheel/data/preferences/travel.md
+                       # Family-level travel preferences (climate, vibes, flights, driving, recently_visited, city contacts)
+../ghostwheel/data/preferences/food.md
+                       # Family-level food preferences
 trips/<trip-id>.json   # Per-trip data (constraints, preferences, options, itinerary)
+tools/_load-travel-context.mjs
+                       # Helper: reads ghostwheel and returns structured context for tools
 tools/                 # CLI tools — each is a specialist agent
 patterns/              # Codified patterns and templates
 examples/              # Example usage and trip plans
 ```
+
+**Single source of truth for family preferences is ghostwheel.** Do not introduce parallel preference stores in this repo. If you need richer per-person data (e.g., a new person), add it to ghostwheel and re-export via `_load-travel-context.mjs`.
 
 ## Restaurants webapp (the main active project)
 
@@ -53,4 +62,11 @@ Typical flow:
 - Use Playwright MCP (not WebFetch) for any JavaScript-rendered site
 
 ## Patterns Learned
-_Will be populated as we discover what works_
+
+The `discover-destinations` skill build (Aug 2026 trip) produced a substantial body of architecture decisions and lessons learned. See:
+
+- `.claude/skills/discover-destinations/ARCHITECTURE.md` — three-layer pipeline (scrape / enrich / compose), data model, invariants, UX patterns
+- `.claude/skills/discover-destinations/LESSONS.md` — indexed log of mistakes + fixes by topic (data acquisition, filtering, scoring, composition, photos, loyalty, family preferences, UX, operational data, architecture, process)
+- `../ghostwheel/data/preferences/travel.md` — canonical family preferences (climate, flights, recently-visited cooldown, hotel cap, loyalty cards)
+
+The cardinal rule: **every place name surfaced on a trip page must trace back to a real source** — scraped articles (verified) or training-knowledge (clearly labeled `sources: ['curated']`). Mixing the two without honest labeling makes the system untrustworthy.

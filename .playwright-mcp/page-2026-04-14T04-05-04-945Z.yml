@@ -1,0 +1,3011 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "jump to content" [ref=e2] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]: my subreddits▼
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "popular" [ref=e10] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e11]:
+            - text: "-"
+            - link "all" [ref=e12] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e13]:
+            - text: "-"
+            - link "users" [ref=e14] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "AskReddit" [ref=e17] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e18]:
+            - text: "-"
+            - link "pics" [ref=e19] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e20]:
+            - text: "-"
+            - link "funny" [ref=e21] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e22]:
+            - text: "-"
+            - link "movies" [ref=e23] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e24]:
+            - text: "-"
+            - link "worldnews" [ref=e25] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e26]:
+            - text: "-"
+            - link "news" [ref=e27] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e28]:
+            - text: "-"
+            - link "todayilearned" [ref=e29] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e30]:
+            - text: "-"
+            - link "nottheonion" [ref=e31] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e32]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e33] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e34]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e35] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e36]:
+            - text: "-"
+            - link "DIY" [ref=e37] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e38]:
+            - text: "-"
+            - link "videos" [ref=e39] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e40]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e41] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e42]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e43] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e44]:
+            - text: "-"
+            - link "tifu" [ref=e45] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e46]:
+            - text: "-"
+            - link "Music" [ref=e47] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e48]:
+            - text: "-"
+            - link "books" [ref=e49] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e50]:
+            - text: "-"
+            - link "LifeProTips" [ref=e51] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e52]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e53] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e54]:
+            - text: "-"
+            - link "aww" [ref=e55] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e56]:
+            - text: "-"
+            - link "science" [ref=e57] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e58]:
+            - text: "-"
+            - link "space" [ref=e59] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e60]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e61] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e62]:
+            - text: "-"
+            - link "askscience" [ref=e63] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e64]:
+            - text: "-"
+            - link "Jokes" [ref=e65] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e66]:
+            - text: "-"
+            - link "Art" [ref=e67] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e68]:
+            - text: "-"
+            - link "IAmA" [ref=e69] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e70]:
+            - text: "-"
+            - link "Futurology" [ref=e71] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e72]:
+            - text: "-"
+            - link "sports" [ref=e73] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e74]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e75] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e76]:
+            - text: "-"
+            - link "food" [ref=e77] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e78]:
+            - text: "-"
+            - link "nosleep" [ref=e79] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e80]:
+            - text: "-"
+            - link "creepy" [ref=e81] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e82]:
+            - text: "-"
+            - link "history" [ref=e83] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e84]:
+            - text: "-"
+            - link "gifs" [ref=e85] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e86]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e87] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e88]:
+            - text: "-"
+            - link "GetMotivated" [ref=e89] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e90]:
+            - text: "-"
+            - link "gadgets" [ref=e91] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e92]:
+            - text: "-"
+            - link "announcements" [ref=e93] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e94]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e95] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e96]:
+            - text: "-"
+            - link "philosophy" [ref=e97] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e98]:
+            - text: "-"
+            - link "Documentaries" [ref=e99] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e100]:
+            - text: "-"
+            - link "EarthPorn" [ref=e101] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e102]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e103] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e104]:
+            - text: "-"
+            - link "listentothis" [ref=e105] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e106]:
+            - text: "-"
+            - link "blog" [ref=e107] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e108] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e109]:
+      - link "asheville" [ref=e110] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "asheville" [ref=e111]
+      - link "/r/asheville" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 28 Jan 2024
+      - generic [ref=e127]: 59 points (87% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/1ad7gl5
+    - link "Submit a new post" [ref=e131] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/asheville/submit
+    - generic [ref=e133]:
+      - heading "asheville" [level=1] [ref=e134]:
+        - link "asheville" [ref=e135] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/asheville/
+      - link "join" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e139]:
+        - paragraph:
+          - link "r/AshevilleFAQ" [ref=e140] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Asheville/wiki/index
+        - paragraph [ref=e141]
+        - paragraph [ref=e142]:
+          - strong [ref=e143]:
+            - text: Welcome to
+            - link "/r/Asheville" [ref=e144] [cursor=pointer]:
+              - /url: /r/Asheville
+          - text: ", the best place on the internet to discuss what's going on in and around Asheville, North Carolina."
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: Rules
+        - paragraph [ref=e148]:
+          - text: Please our
+          - link "detailed rules" [ref=e149] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/asheville/wiki/index/rules
+          - text: and Reddit's overall
+          - link "Reddit's Content Policy" [ref=e150] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - text: ". Rules will be enforced. The short version of our rules:"
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - paragraph [ref=e153]: No hate speech, insults, or personal attacks
+          - listitem [ref=e154]:
+            - paragraph [ref=e155]: No consistent trolling
+          - listitem [ref=e156]:
+            - paragraph [ref=e157]: No Impersonating Other Users
+          - listitem [ref=e158]:
+            - paragraph [ref=e159]: No Spamming
+          - listitem [ref=e160]:
+            - paragraph [ref=e161]: Submissions Must Be Related to Asheville
+          - listitem [ref=e162]:
+            - paragraph [ref=e163]: No Doxxing
+          - listitem [ref=e164]:
+            - paragraph [ref=e165]:
+              - text: "No"
+              - emphasis [ref=e166]: posts
+              - text: directly related to crowd-funding
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]:
+              - text: Questions about
+              - strong [ref=e169]: visiting
+              - text: or
+              - strong [ref=e170]: moving
+              - text: should be asked in the pinned thread
+        - paragraph [ref=e171]:
+          - text: Above all,
+          - emphasis [ref=e172]: be excellent to each other
+          - text: "!"
+        - paragraph [ref=e173]
+        - paragraph [ref=e174]:
+          - strong [ref=e175]: College Subreddits
+        - paragraph [ref=e176]:
+          - link "/r/ABTech" [ref=e177] [cursor=pointer]:
+            - /url: /r/ABTech
+          - text: "- AB Tech"
+        - paragraph [ref=e178]:
+          - link "/r/UNCA" [ref=e179] [cursor=pointer]:
+            - /url: /r/UNCA
+          - text: "- University of NC, Asheville"
+        - paragraph [ref=e180]:
+          - link "/r/WCU" [ref=e181] [cursor=pointer]:
+            - /url: /r/WCU
+          - text: "- Western Carolina University"
+        - paragraph [ref=e182]:
+          - link "/r/WWC" [ref=e183] [cursor=pointer]:
+            - /url: /r/WWC
+          - text: "- Warren Wilson College"
+        - paragraph [ref=e184]
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: Regional Subreddits
+        - paragraph [ref=e187]:
+          - link "/r/NorthCarolina" [ref=e188] [cursor=pointer]:
+            - /url: /r/NorthCarolina
+        - paragraph [ref=e189]:
+          - link "/r/WNC" [ref=e190] [cursor=pointer]:
+            - /url: /r/WNC
+          - text: "- Western North Carolina"
+        - paragraph [ref=e191]:
+          - link "/r/GSMNP" [ref=e192] [cursor=pointer]:
+            - /url: /r/GSMNP
+          - text: "- The Smokeys"
+        - paragraph [ref=e193]:
+          - link "/r/McDowellCounty" [ref=e194] [cursor=pointer]:
+            - /url: /r/McDowellCounty
+        - paragraph [ref=e195]:
+          - link "/r/Foothills" [ref=e196] [cursor=pointer]:
+            - /url: /r/Foothills
+        - paragraph [ref=e197]:
+          - link "/r/MarsHillNC" [ref=e198] [cursor=pointer]:
+            - /url: /r/MarsHillNC
+        - paragraph [ref=e199]:
+          - link "/r/Hendersonville" [ref=e200] [cursor=pointer]:
+            - /url: /r/Hendersonville
+        - paragraph [ref=e201]:
+          - link "/r/BrysonCity" [ref=e202] [cursor=pointer]:
+            - /url: /r/BrysonCity
+        - paragraph [ref=e203]:
+          - link "/r/MillsRiver" [ref=e204] [cursor=pointer]:
+            - /url: /r/MillsRiver
+        - paragraph [ref=e205]
+        - paragraph [ref=e206]:
+          - strong [ref=e207]: General Subreddits
+        - paragraph [ref=e208]:
+          - link "/r/AshevilleClassifieds" [ref=e209] [cursor=pointer]:
+            - /url: /r/AshevilleClassifieds
+        - paragraph [ref=e210]:
+          - link "/r/thehotspot" [ref=e211] [cursor=pointer]:
+            - /url: /r/thehotspot
+        - paragraph [ref=e212]:
+          - link "/r/AshevilleMusic" [ref=e213] [cursor=pointer]:
+            - /url: /r/AshevilleMusic
+        - paragraph [ref=e214]:
+          - link "/r/AshevilleBitcoin" [ref=e215] [cursor=pointer]:
+            - /url: /r/AshevilleBitcoin
+        - paragraph [ref=e216]:
+          - link "/r/AshevilleFarmExchange" [ref=e217] [cursor=pointer]:
+            - /url: /r/AshevilleFarmExchange
+        - paragraph [ref=e218]:
+          - link "/r/CarolinaBeer" [ref=e219] [cursor=pointer]:
+            - /url: /r/CarolinaBeer
+        - paragraph [ref=e220]:
+          - link "/r/ashevillebeer" [ref=e221] [cursor=pointer]:
+            - /url: /r/ashevillebeer
+        - paragraph [ref=e222]:
+          - link "/r/NCMusic" [ref=e223] [cursor=pointer]:
+            - /url: /r/NCMusic
+        - paragraph [ref=e224]:
+          - link "/r/NCTrails" [ref=e225] [cursor=pointer]:
+            - /url: /r/NCTrails
+        - paragraph [ref=e226]:
+          - link /r/ncpolitics/ [ref=e227] [cursor=pointer]:
+            - /url: /r/ncpolitics/
+        - paragraph [ref=e228]:
+          - link "/r/Asheville Traffic Stats" [ref=e229] [cursor=pointer]:
+            - /url: http://www.reddit.com/r/asheville/about/traffic/
+        - paragraph [ref=e230]:
+          - link "r/WNCGoneWild" [ref=e231] [cursor=pointer]:
+            - /url: /r/WNCGoneWild
+          - text: ( ͡~ ͜ʖ ͡°)
+        - paragraph [ref=e232]
+        - paragraph [ref=e233]:
+          - strong [ref=e234]: Acknowledgments
+        - paragraph [ref=e235]:
+          - text: Subreddit originally designed by
+          - link "Devin Holmes Design" [ref=e236] [cursor=pointer]:
+            - /url: http://devinholmesdesign.com/
+        - paragraph [ref=e237]:
+          - text: Header image courtesy of
+          - link "u/MicahMack76" [ref=e238] [cursor=pointer]:
+            - /url: /u/MicahMack76
+          - text: at
+          - link "http://micahmack.com/" [ref=e239] [cursor=pointer]:
+            - /url: http://micahmack.com/
+        - paragraph [ref=e240]
+        - paragraph [ref=e241]:
+          - link "." [ref=e242] [cursor=pointer]:
+            - /url: "#/RES_SR_Config/NightModeCompatible"
+      - generic [ref=e244]:
+        - text: a community for
+        - time [ref=e245]: 16 years
+    - generic [ref=e247]:
+      - heading "MODERATORS" [level=1] [ref=e249]
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - link "message the mods" [ref=e252] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/asheville
+    - complementary [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - text: discussions in
+          - link "r/asheville" [ref=e258] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/?ref=readnext
+        - navigation [ref=e259]:
+          - generic [ref=e260] [cursor=pointer]: <
+          - generic [ref=e261] [cursor=pointer]: ">"
+        - generic [ref=e263] [cursor=pointer]: X
+      - link "0 · 2 comments Visiting or Moving to Asheville? Ask your questions here!" [ref=e265] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/comments/1sk6bkl/visiting_or_moving_to_asheville_ask_your/?ref=readnext_0
+        - generic [ref=e266]: 0 · 2 comments
+        - generic [ref=e267]: Visiting or Moving to Asheville? Ask your questions here!
+    - text: CSS Theme via /r/Naut
+  - main [ref=e268]:
+    - generic [ref=e269]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e270] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e271]
+        - paragraph [ref=e272]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e273]:
+          - generic [ref=e274]: Become a Redditor
+          - paragraph [ref=e275]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e276] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e278]:
+      - paragraph
+      - generic [ref=e279]:
+        - button "upvote" [ref=e280] [cursor=pointer]
+        - generic "59" [ref=e281]
+        - button "downvote" [ref=e282] [cursor=pointer]
+      - link [ref=e283] [cursor=pointer]:
+        - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - paragraph [ref=e286]:
+            - generic "Ask the Sub" [ref=e287]
+            - link "Moving away bucketlist!" [ref=e288] [cursor=pointer]:
+              - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+            - link "self.asheville" [ref=e289] [cursor=pointer]:
+              - /url: /r/asheville/
+          - paragraph [ref=e290]:
+            - text: submitted
+            - time [ref=e291]: 2 years ago
+            - text: by
+            - link "twilight0wn" [ref=e292] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/twilight0wn
+            - generic "Native:uni1::uni2:" [ref=e293]:
+              - text: "- Native"
+              - generic ":uni1:" [ref=e294]
+              - generic ":uni2:" [ref=e295]
+        - paragraph [ref=e300]: I’ve lived in the Asheville area since I was born. I’ve hit the “big ticket items” multiple times through my life. My husband are planning to move out of state in the next year. Living in Asheville is unrealistic and we’ve been priced out. So we’re building a bucketlist of things we need to do before we go. There’s things we want to experience for the first time and some we want to experience for a possible last time. What are we forgetting that we add on there? Right now, we’ve got Grove Park Spa, Arboretum, LaZoom.
+        - list [ref=e301]:
+          - listitem [ref=e302]:
+            - link "77 comments" [ref=e303] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+          - listitem [ref=e304]:
+            - link "share" [ref=e305] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e306]:
+            - link "save" [ref=e307] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e308]:
+            - link "hide" [ref=e311] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e312]:
+            - link "report" [ref=e313] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e314]:
+      - generic [ref=e315]: all 77 comments
+      - generic [ref=e317]:
+        - text: "sorted by:"
+        - generic [ref=e318]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e321] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e322]
+        - generic [ref=e323]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e324]
+          - paragraph [ref=e325]: Post a comment!
+          - generic [ref=e327]: Create an account
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - paragraph
+          - generic [ref=e330]:
+            - button "upvote" [ref=e331] [cursor=pointer]
+            - button "downvote" [ref=e332] [cursor=pointer]
+          - generic [ref=e333]:
+            - paragraph [ref=e334]:
+              - link "[–]" [ref=e335] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "firestarsupermama" [ref=e336] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/firestarsupermama
+              - generic "West Asheville" [ref=e337]: "- West Asheville"
+              - text: 56 points
+              - time [ref=e338]: 2 years ago
+            - paragraph [ref=e342]: Lazoom is def worth it, stargazing nights at unc observatory, sunset at jump off rock or max patch, hot spot.
+            - list [ref=e343]:
+              - listitem [ref=e344]:
+                - link "permalink" [ref=e345] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzan54/
+              - listitem [ref=e346]:
+                - link "embed" [ref=e347] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e348]:
+                - link "save" [ref=e349] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e350]:
+                - link "report" [ref=e351] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e352]:
+                - link "reply" [ref=e353] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e355]:
+            - generic [ref=e356]:
+              - paragraph
+              - generic [ref=e357]:
+                - button "upvote" [ref=e358] [cursor=pointer]
+                - button "downvote" [ref=e359] [cursor=pointer]
+              - generic [ref=e360]:
+                - paragraph [ref=e361]:
+                  - link "[–]" [ref=e362] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "twilight0wn" [ref=e363] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/twilight0wn
+                  - generic "Native:uni1::uni2:" [ref=e364]:
+                    - text: "- Native"
+                    - generic ":uni1:" [ref=e365]
+                    - generic ":uni2:" [ref=e366]
+                  - generic [ref=e367]:
+                    - text: "["
+                    - link "S" [ref=e368] [cursor=pointer]:
+                      - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                    - text: "]"
+                  - text: 8 points
+                  - time [ref=e369]: 2 years ago
+                - paragraph [ref=e373]: I was wondering if it’s worth the price! It seems fun. Stargazing nights is a perfect thing to add! Max patch is incredible, I followed Hunger Games when it was getting filmed out here really closely. Thanks for the suggestions. 🩵💙
+                - list [ref=e374]:
+                  - listitem [ref=e375]:
+                    - link "permalink" [ref=e376] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzg3eg/
+                  - listitem [ref=e377]:
+                    - link "embed" [ref=e378] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e379]:
+                    - link "save" [ref=e380] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e381]:
+                    - link "parent" [ref=e382] [cursor=pointer]:
+                      - /url: "#kjzan54"
+                  - listitem [ref=e383]:
+                    - link "report" [ref=e384] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e385]:
+                    - link "reply" [ref=e386] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e387]:
+              - paragraph
+              - generic [ref=e388]:
+                - button "upvote" [ref=e389] [cursor=pointer]
+                - button "downvote" [ref=e390] [cursor=pointer]
+              - generic [ref=e391]:
+                - paragraph [ref=e392]:
+                  - link "[–]" [ref=e393] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "trespassingbear" [ref=e394] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/trespassingbear
+                  - text: 6 points
+                  - time [ref=e395]: 2 years ago
+                - paragraph [ref=e399]: I'd say the hell with it and just camp at max patch one more time. Take your trash with you and just dont set up a tent,sleep right on the ground. Eat before you hike up and just leave early dawn. Nobody is gonna know.
+                - list [ref=e400]:
+                  - listitem [ref=e401]:
+                    - link "permalink" [ref=e402] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzgzvd/
+                  - listitem [ref=e403]:
+                    - link "embed" [ref=e404] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e405]:
+                    - link "save" [ref=e406] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e407]:
+                    - link "parent" [ref=e408] [cursor=pointer]:
+                      - /url: "#kjzan54"
+                  - listitem [ref=e409]:
+                    - link "report" [ref=e410] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e411]:
+                    - link "reply" [ref=e412] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e413]:
+              - paragraph
+              - generic [ref=e414]:
+                - paragraph [ref=e415]:
+                  - link "[–]" [ref=e416] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - emphasis [ref=e417]: "[deleted]"
+                  - time [ref=e418]: 2 years ago
+                - paragraph [ref=e422]: "[removed]"
+                - list
+              - generic [ref=e425]:
+                - paragraph
+                - generic [ref=e426]:
+                  - button "upvote" [ref=e427] [cursor=pointer]
+                  - button "downvote" [ref=e428] [cursor=pointer]
+                - generic [ref=e429]:
+                  - paragraph [ref=e430]:
+                    - link "[–]" [ref=e431] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "asheville-ModTeam" [ref=e432] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/asheville-ModTeam
+                    - generic [ref=e433]:
+                      - text: "["
+                      - link "M" [ref=e434] [cursor=pointer]:
+                        - /url: /r/asheville/about/moderators
+                      - text: "]"
+                    - text: 1 point
+                    - time [ref=e435]: 2 years ago
+                    - generic "locked by this subreddit's moderators" [ref=e436]: locked comment
+                  - generic [ref=e439]:
+                    - paragraph [ref=e440]: "We are removing your post/comment due to trolling related behavior. This includes but is not limited to:"
+                    - list [ref=e441]:
+                      - listitem [ref=e442]: Inflammatory and digressive behavior
+                      - listitem [ref=e443]: Extraneous, or off-topic messages
+                    - paragraph [ref=e444]:
+                      - text: Please see our full rules page for the specifics.
+                      - link "https://www.reddit.com/r/asheville/about/rules/" [ref=e445] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/asheville/about/rules/
+                  - list [ref=e446]:
+                    - listitem [ref=e447]:
+                      - link "permalink" [ref=e448] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1mszl/
+                    - listitem [ref=e449]:
+                      - link "embed" [ref=e450] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e451]:
+                      - link "save" [ref=e452] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e453]:
+                      - link "report" [ref=e454] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e455]:
+          - paragraph
+          - generic [ref=e456]:
+            - button "upvote" [ref=e457] [cursor=pointer]
+            - button "downvote" [ref=e458] [cursor=pointer]
+          - generic [ref=e459]:
+            - paragraph [ref=e460]:
+              - link "[–]" [ref=e461] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "adogandponyshow" [ref=e462] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/adogandponyshow
+              - generic "Five Points :5point:" [ref=e463]:
+                - text: "- Five Points"
+                - generic ":5point:" [ref=e464]
+              - text: 21 points
+              - time [ref=e465]: 2 years ago
+            - generic [ref=e468]:
+              - paragraph [ref=e469]: Picnic at Riverside Cemetery? It's one of my fav places in town--quiet and peaceful, and I love checking out the older headstones...really beautiful.
+              - paragraph [ref=e470]:
+                - text: The
+                - link "trolley Ghost Tour" [ref=e471] [cursor=pointer]:
+                  - /url: https://graylineasheville.com/tours/ghost-tour/
+                - text: is pretty cool too. Definitely geared more towards adults--lots of history and runs late; my then-first-grader was bored and fell asleep but I found it really interesting.
+              - paragraph [ref=e472]:
+                - text: Haven't gone myself but the
+                - link "zip line" [ref=e473] [cursor=pointer]:
+                  - /url: https://navitat.com/asheville-nc/
+                - text: sounds like it might be kinda cool?
+            - list [ref=e474]:
+              - listitem [ref=e475]:
+                - link "permalink" [ref=e476] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzuf3o/
+              - listitem [ref=e477]:
+                - link "embed" [ref=e478] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e479]:
+                - link "save" [ref=e480] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e481]:
+                - link "report" [ref=e482] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e483]:
+                - link "reply" [ref=e484] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e486]:
+            - generic [ref=e487]:
+              - paragraph
+              - generic [ref=e488]:
+                - button "upvote" [ref=e489] [cursor=pointer]
+                - button "downvote" [ref=e490] [cursor=pointer]
+              - generic [ref=e491]:
+                - paragraph [ref=e492]:
+                  - link "[–]" [ref=e493] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "babycharmander88" [ref=e494] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/babycharmander88
+                  - text: 2 points
+                  - time [ref=e495]: 2 years ago
+                - paragraph [ref=e499]: I just checked out that ghost tour and it seems pretty fun.
+                - list [ref=e500]:
+                  - listitem [ref=e501]:
+                    - link "permalink" [ref=e502] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0asit/
+                  - listitem [ref=e503]:
+                    - link "embed" [ref=e504] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e505]:
+                    - link "save" [ref=e506] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e507]:
+                    - link "parent" [ref=e508] [cursor=pointer]:
+                      - /url: "#kjzuf3o"
+                  - listitem [ref=e509]:
+                    - link "report" [ref=e510] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e511]:
+                    - link "reply" [ref=e512] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e513]:
+              - paragraph
+              - generic [ref=e514]:
+                - button "upvote" [ref=e515] [cursor=pointer]
+                - button "downvote" [ref=e516] [cursor=pointer]
+              - generic [ref=e517]:
+                - paragraph [ref=e518]:
+                  - link "[–]" [ref=e519] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "twilight0wn" [ref=e520] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/twilight0wn
+                  - generic "Native:uni1::uni2:" [ref=e521]:
+                    - text: "- Native"
+                    - generic ":uni1:" [ref=e522]
+                    - generic ":uni2:" [ref=e523]
+                  - generic [ref=e524]:
+                    - text: "["
+                    - link "S" [ref=e525] [cursor=pointer]:
+                      - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                    - text: "]"
+                  - text: 1 point
+                  - time [ref=e526]: 2 years ago
+                - paragraph [ref=e530]: The zip line is very fun, thanks for the addition!!
+                - list [ref=e531]:
+                  - listitem [ref=e532]:
+                    - link "permalink" [ref=e533] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1xo1n/
+                  - listitem [ref=e534]:
+                    - link "embed" [ref=e535] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e536]:
+                    - link "save" [ref=e537] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e538]:
+                    - link "parent" [ref=e539] [cursor=pointer]:
+                      - /url: "#kjzuf3o"
+                  - listitem [ref=e540]:
+                    - link "report" [ref=e541] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e542]:
+                    - link "reply" [ref=e543] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e544]:
+          - paragraph
+          - generic [ref=e545]:
+            - button "upvote" [ref=e546] [cursor=pointer]
+            - button "downvote" [ref=e547] [cursor=pointer]
+          - generic [ref=e548]:
+            - paragraph [ref=e549]:
+              - link "[–]" [ref=e550] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "og_speedfreeq" [ref=e551] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/og_speedfreeq
+              - text: 40 points
+              - time [ref=e552]: 2 years ago
+            - generic [ref=e555]:
+              - paragraph [ref=e556]: There's a little secret garden below Kenilworth Lake. You can get to it from the west side of the lake or from Swannanoa river road behind Britt&Tilson Glass... it's a beautiful spot.
+              - paragraph [ref=e557]: Another fun Asheville thing to do is to trespass to the top of the Beaucatcher Cut and catch the sunset up there, if you haven't. Follow the private road along the ridge from Vance Gap...
+            - list [ref=e558]:
+              - listitem [ref=e559]:
+                - link "permalink" [ref=e560] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzkgik/
+              - listitem [ref=e561]:
+                - link "embed" [ref=e562] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e563]:
+                - link "save" [ref=e564] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e565]:
+                - link "report" [ref=e566] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e567]:
+                - link "reply" [ref=e568] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e571]:
+            - paragraph
+            - generic [ref=e572]:
+              - button "upvote" [ref=e573] [cursor=pointer]
+              - button "downvote" [ref=e574] [cursor=pointer]
+            - generic [ref=e575]:
+              - paragraph [ref=e576]:
+                - link "[–]" [ref=e577] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Kenilwort" [ref=e578] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Kenilwort
+                - generic "Kenilworth" [ref=e579]: "- Kenilworth"
+                - text: 24 points
+                - time [ref=e580]: 2 years ago
+              - paragraph [ref=e584]: If I was still a mod I would have removed this comment. Like c'mon people, if you want to recommend a place on private property, do it in the PMs.
+              - list [ref=e585]:
+                - listitem [ref=e586]:
+                  - link "permalink" [ref=e587] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0ucch/
+                - listitem [ref=e588]:
+                  - link "embed" [ref=e589] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e590]:
+                  - link "save" [ref=e591] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e592]:
+                  - link "parent" [ref=e593] [cursor=pointer]:
+                    - /url: "#kjzkgik"
+                - listitem [ref=e594]:
+                  - link "report" [ref=e595] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e596]:
+                  - link "reply" [ref=e597] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e599]:
+              - generic [ref=e600]:
+                - paragraph
+                - generic [ref=e601]:
+                  - paragraph [ref=e602]:
+                    - link "[–]" [ref=e603] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e604]: "[deleted]"
+                    - time [ref=e605]: 2 years ago
+                  - paragraph [ref=e609]: "[deleted]"
+                  - list
+                - generic [ref=e612]:
+                  - paragraph
+                  - generic [ref=e613]:
+                    - button "upvote" [ref=e614] [cursor=pointer]
+                    - button "downvote" [ref=e615] [cursor=pointer]
+                  - generic [ref=e616]:
+                    - paragraph [ref=e617]:
+                      - link "[–]" [ref=e618] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Kenilwort" [ref=e619] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Kenilwort
+                      - generic "Kenilworth" [ref=e620]: "- Kenilworth"
+                      - text: 11 points
+                      - time [ref=e621]: 2 years ago
+                    - paragraph [ref=e625]: Neither of these are hotels, they are both located on private property, not sure what you're on about. And I have no problem with trespassing, some of my favorite memories were made trespassing, but blabbing about it to the whole world is very different.
+                    - list [ref=e626]:
+                      - listitem [ref=e627]:
+                        - link "permalink" [ref=e628] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk10neq/
+                      - listitem [ref=e629]:
+                        - link "embed" [ref=e630] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e631]:
+                        - link "save" [ref=e632] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e633]:
+                        - link "report" [ref=e634] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e635]:
+                        - link "reply" [ref=e636] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e639]:
+                    - paragraph
+                    - generic [ref=e640]:
+                      - paragraph [ref=e641]:
+                        - link "[–]" [ref=e642] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - emphasis [ref=e643]: "[deleted]"
+                        - time [ref=e644]: 2 years ago
+                      - paragraph [ref=e648]: "[deleted]"
+                      - list
+                    - generic [ref=e651]:
+                      - paragraph
+                      - generic [ref=e652]:
+                        - button "upvote" [ref=e653] [cursor=pointer]
+                        - button "downvote" [ref=e654] [cursor=pointer]
+                      - generic [ref=e655]:
+                        - paragraph [ref=e656]:
+                          - link "[–]" [ref=e657] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "Kenilwort" [ref=e658] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/Kenilwort
+                          - generic "Kenilworth" [ref=e659]: "- Kenilworth"
+                          - text: 4 points
+                          - time [ref=e660]: 2 years ago
+                        - generic [ref=e663]:
+                          - paragraph [ref=e664]: It's their corporate office, and I'm pretty sure the person I responded to is giving directions from the other side (more popular side). But yeah does seem like they know Kenilworth so you may be right. I'm less concerned about that one anyways. Cats already out the bag on the cut.
+                          - paragraph [ref=e665]: "Edit: yeah idk, if they were recommending from the kenilworth side, then OP is going to be in for a ride awakening when they get to a giant fence that will have to scale, only to be in a totally trailless downhill slope. Not my preferred way of getting up there."
+                        - list [ref=e666]:
+                          - listitem [ref=e667]:
+                            - link "permalink" [ref=e668] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk12xph/
+                          - listitem [ref=e669]:
+                            - link "embed" [ref=e670] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e671]:
+                            - link "save" [ref=e672] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e673]:
+                            - link "report" [ref=e674] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e675]:
+                            - link "reply" [ref=e676] [cursor=pointer]:
+                              - /url: javascript:void(0)
+              - generic [ref=e677]:
+                - paragraph
+                - generic [ref=e678]:
+                  - button "upvote" [ref=e679] [cursor=pointer]
+                  - button "downvote" [ref=e680] [cursor=pointer]
+                - generic [ref=e681]:
+                  - paragraph [ref=e682]:
+                    - link "[–]" [ref=e683] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "mycatlovesprimus" [ref=e684] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/mycatlovesprimus
+                    - text: 1 point
+                    - time [ref=e685]: 2 years ago
+                  - paragraph [ref=e689]: Superman 2 vibes
+                  - list [ref=e690]:
+                    - listitem [ref=e691]:
+                      - link "permalink" [ref=e692] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0zop6/
+                    - listitem [ref=e693]:
+                      - link "embed" [ref=e694] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e695]:
+                      - link "save" [ref=e696] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e697]:
+                      - link "parent" [ref=e698] [cursor=pointer]:
+                        - /url: "#kk0ucch"
+                    - listitem [ref=e699]:
+                      - link "report" [ref=e700] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e701]:
+                      - link "reply" [ref=e702] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e705]:
+                  - paragraph
+                  - generic [ref=e706]:
+                    - button "upvote" [ref=e707] [cursor=pointer]
+                    - button "downvote" [ref=e708] [cursor=pointer]
+                  - generic [ref=e709]:
+                    - paragraph [ref=e710]:
+                      - link "[–]" [ref=e711] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Kenilwort" [ref=e712] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Kenilwort
+                      - generic "Kenilworth" [ref=e713]: "- Kenilworth"
+                      - text: 14 points
+                      - time [ref=e714]: 2 years ago
+                    - generic [ref=e717]:
+                      - paragraph [ref=e718]: Without revealing details, let's just say there are similar spots to this, where a private person generously let anyone go onto their property, but this private person was very offended when someone blabbed to a media source about how beautiful his property was and everyone and their mother started showing up there. I love the idea of being open to the public, but the search and quest to find a cool spot is 90% of what makes it special.
+                      - paragraph [ref=e719]: Unfortunately I have no idea what you mean by superman 2 vibes, but thanks for the comment I guess?
+                    - list [ref=e720]:
+                      - listitem [ref=e721]:
+                        - link "permalink" [ref=e722] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk10cy6/
+                      - listitem [ref=e723]:
+                        - link "embed" [ref=e724] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e725]:
+                        - link "save" [ref=e726] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e727]:
+                        - link "parent" [ref=e728] [cursor=pointer]:
+                          - /url: "#kk0zop6"
+                      - listitem [ref=e729]:
+                        - link "report" [ref=e730] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e731]:
+                        - link "reply" [ref=e732] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e733]:
+          - paragraph
+          - generic [ref=e734]:
+            - button "upvote" [ref=e735] [cursor=pointer]
+            - button "downvote" [ref=e736] [cursor=pointer]
+          - generic [ref=e737]:
+            - paragraph [ref=e738]:
+              - link "[–]" [ref=e739] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "allsongsconsideredd" [ref=e740] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/allsongsconsideredd
+              - text: 6 points
+              - time [ref=e741]: 2 years ago
+            - paragraph [ref=e745]: Curious as to what type of area y’all plan to resettle?
+            - list [ref=e746]:
+              - listitem [ref=e747]:
+                - link "permalink" [ref=e748] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzkby7/
+              - listitem [ref=e749]:
+                - link "embed" [ref=e750] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e751]:
+                - link "save" [ref=e752] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e753]:
+                - link "report" [ref=e754] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e755]:
+                - link "reply" [ref=e756] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e759]:
+            - paragraph
+            - generic [ref=e760]:
+              - button "upvote" [ref=e761] [cursor=pointer]
+              - button "downvote" [ref=e762] [cursor=pointer]
+            - generic [ref=e763]:
+              - paragraph [ref=e764]:
+                - link "[–]" [ref=e765] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e766] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e767]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e768]
+                  - generic ":uni2:" [ref=e769]
+                - generic [ref=e770]:
+                  - text: "["
+                  - link "S" [ref=e771] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 10 points
+                - time [ref=e772]: 2 years ago
+              - generic [ref=e775]:
+                - paragraph [ref=e776]: Outside of the Orlando area, which I’m aware is not much better. 🥴 Pricing is not the biggest reason we’re moving though.
+                - paragraph [ref=e777]: I’m a school teacher and they get paid much more in Florida. Goal is to get a good job at the theme parks. I’m a teacher and they get paid much more in Florida too. Would be nice to find a charter school down there.
+              - list [ref=e778]:
+                - listitem [ref=e779]:
+                  - link "permalink" [ref=e780] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzl98g/
+                - listitem [ref=e781]:
+                  - link "embed" [ref=e782] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e783]:
+                  - link "save" [ref=e784] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e785]:
+                  - link "parent" [ref=e786] [cursor=pointer]:
+                    - /url: "#kjzkby7"
+                - listitem [ref=e787]:
+                  - link "report" [ref=e788] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e789]:
+                  - link "reply" [ref=e790] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e792]:
+              - generic [ref=e793]:
+                - paragraph
+                - generic [ref=e794]:
+                  - button "upvote" [ref=e795] [cursor=pointer]
+                  - button "downvote" [ref=e796] [cursor=pointer]
+                - generic [ref=e797]:
+                  - paragraph [ref=e798]:
+                    - link "[–]" [ref=e799] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "APodofFlumphs" [ref=e800] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/APodofFlumphs
+                    - text: 52 points
+                    - time [ref=e801]: 2 years ago
+                    - time [ref=e802]: "*"
+                  - generic [ref=e805]:
+                    - paragraph [ref=e806]: It's funny I left Tampa/Orlando to come here because it was too expensive. Unless you are into navigating a bunch of crackheads, awful heat/humidity, more tourists than you can imagine causing 5 rush hours/day on gigantic highways, and the occasional hurricane, please do not go to Orlando. It's miserable there.
+                    - paragraph [ref=e807]: People on here talk about Asheville like some of that stuff applies here but it's 20x as bad in Orlando. Seriously, if you're set on Florida fine. But NOT Orlando.
+                    - paragraph [ref=e808]: "Edit: even if you're set on somewhere else in Florida it's not fine really with all the Desantis education bullshit, especially if you're a teacher."
+                    - paragraph [ref=e809]: "Edit 2: working at the parks is not all it's cracked up to be either. I know I'm just an Internet stranger but I literally gasped aloud and felt myself panicking thinking that someone might think it's better to live there than here"
+                  - list [ref=e810]:
+                    - listitem [ref=e811]:
+                      - link "permalink" [ref=e812] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzyfnx/
+                    - listitem [ref=e813]:
+                      - link "embed" [ref=e814] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e815]:
+                      - link "save" [ref=e816] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e817]:
+                      - link "parent" [ref=e818] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e819]:
+                      - link "report" [ref=e820] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e821]:
+                      - link "reply" [ref=e822] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e824]:
+                  - generic [ref=e825]:
+                    - paragraph
+                    - generic [ref=e826]:
+                      - button "upvote" [ref=e827] [cursor=pointer]
+                      - button "downvote" [ref=e828] [cursor=pointer]
+                    - generic [ref=e829]:
+                      - paragraph [ref=e830]:
+                        - link "[–]" [ref=e831] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "mistaken4strangerz" [ref=e832] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/mistaken4strangerz
+                        - text: 5 points
+                        - time [ref=e833]: 2 years ago
+                      - paragraph [ref=e837]: I live in central FL and I literally said oh no with increasing volume at every sentence in that comment. I felt almost parental sense of responsibility to save this person.
+                      - list [ref=e838]:
+                        - listitem [ref=e839]:
+                          - link "permalink" [ref=e840] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk361lu/
+                        - listitem [ref=e841]:
+                          - link "embed" [ref=e842] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e843]:
+                          - link "save" [ref=e844] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e845]:
+                          - link "parent" [ref=e846] [cursor=pointer]:
+                            - /url: "#kjzyfnx"
+                        - listitem [ref=e847]:
+                          - link "report" [ref=e848] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e849]:
+                          - link "reply" [ref=e850] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                  - generic [ref=e851]:
+                    - paragraph
+                    - generic [ref=e852]:
+                      - paragraph [ref=e853]:
+                        - link "[–]" [ref=e854] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - emphasis [ref=e855]: "[deleted]"
+                        - time [ref=e856]: 2 years ago
+                      - paragraph [ref=e860]: "[deleted]"
+                      - list
+                    - generic [ref=e862]:
+                      - generic [ref=e863]:
+                        - paragraph
+                        - generic [ref=e864]:
+                          - button "upvote" [ref=e865] [cursor=pointer]
+                          - button "downvote" [ref=e866] [cursor=pointer]
+                        - generic [ref=e867]:
+                          - paragraph [ref=e868]:
+                            - link "[–]" [ref=e869] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - link "APodofFlumphs" [ref=e870] [cursor=pointer]:
+                              - /url: https://old.reddit.com/user/APodofFlumphs
+                            - text: 3 points
+                            - time [ref=e871]: 2 years ago
+                          - generic [ref=e874]:
+                            - paragraph [ref=e875]: I grew up in Clearwater and I lived near St Pete for about 7 years before moving to Asheville last winter. I was struck by how much the vibe here was like St Pete.
+                            - paragraph [ref=e876]: Having lived there, in Orlando, spending a decent amount of time in South Florida and ofc visited all over the state, Tampa Bay area is my favorite. It seems more "normal" to me then the rest of Florida (people in Orlando and SFL don't have a lot of chill IMO, and inland you get many more Desantis ppl.)
+                            - paragraph [ref=e877]: But I'm not a beach/summer person and my rent for a 1br apartment in a not-great part of town was over $1200 a month (for context a homeless encampment was set up near the entrance and the complex sent warnings a few times at night about a police manhunt on the property.) My immediate area was all strip malls and large highways, I had to drive to find a few trees to walk through, and the beaches were always packed.
+                            - paragraph [ref=e878]: So as always it depends on what you can afford. I felt that we'd have needed a household income of $120k a year to even start living pleasantly there. And for everyone who's working service jobs it's just a nightmare basically. I know the same thing is an issue here and around the country but IMO at least here there's mountains, trees, seasons, fewer right-wing nutjobs (here people on the whole are at least polite about their politics) and not as much overcrowding.
+                          - list [ref=e879]:
+                            - listitem [ref=e880]:
+                              - link "permalink" [ref=e881] [cursor=pointer]:
+                                - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0yl5j/
+                            - listitem [ref=e882]:
+                              - link "embed" [ref=e883] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e884]:
+                              - link "save" [ref=e885] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e886]:
+                              - link "report" [ref=e887] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e888]:
+                              - link "reply" [ref=e889] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                      - generic [ref=e890]:
+                        - paragraph
+                        - generic [ref=e891]:
+                          - button "upvote" [ref=e892] [cursor=pointer]
+                          - button "downvote" [ref=e893] [cursor=pointer]
+                        - generic [ref=e894]:
+                          - paragraph [ref=e895]:
+                            - link "[–]" [ref=e896] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - link "_eternallyblack_" [ref=e897] [cursor=pointer]:
+                              - /url: https://old.reddit.com/user/_eternallyblack_
+                            - generic "Haw Creek :hawk1::hawk2:" [ref=e898]:
+                              - text: "- Haw Creek"
+                              - generic ":hawk1:" [ref=e899]
+                              - generic ":hawk2:" [ref=e900]
+                            - text: 3 points
+                            - time [ref=e901]: 2 years ago
+                          - paragraph [ref=e905]: I’m from Tampa/st Pete. Sadly everything that was great @ st Pete isn’t anymore bcs everyone has been pushed out - just like what’s happening here. St Pete hit its peak about 7yrs ago. Now all the artists that made it great can’t afford to be there anymore (sound familiar?) We left in ‘18 during the gentrification boom and came here and now we’re moving back to FL, bcs of family. All the great spots of st Pete have closed, they can’t afford the rent anymore.
+                          - list [ref=e906]:
+                            - listitem [ref=e907]:
+                              - link "permalink" [ref=e908] [cursor=pointer]:
+                                - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk3po7z/
+                            - listitem [ref=e909]:
+                              - link "embed" [ref=e910] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e911]:
+                              - link "save" [ref=e912] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e913]:
+                              - link "report" [ref=e914] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e915]:
+                              - link "reply" [ref=e916] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                      - generic [ref=e917]:
+                        - paragraph
+                        - generic [ref=e918]:
+                          - paragraph [ref=e919]:
+                            - link "[–]" [ref=e920] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - emphasis [ref=e921]: "[deleted]"
+                            - time [ref=e922]: 2 years ago
+                          - paragraph [ref=e926]: "[removed]"
+                          - list
+                        - generic [ref=e929]:
+                          - paragraph
+                          - generic [ref=e930]:
+                            - button "upvote" [ref=e931] [cursor=pointer]
+                            - button "downvote" [ref=e932] [cursor=pointer]
+                          - generic [ref=e933]:
+                            - paragraph [ref=e934]:
+                              - link "[–]" [ref=e935] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                              - link "HobbitOnHill" [ref=e936] [cursor=pointer]:
+                                - /url: https://old.reddit.com/user/HobbitOnHill
+                              - text: 4 points
+                              - time [ref=e937]: 2 years ago
+                            - paragraph [ref=e941]: Definitely not way better in my opinion, i much prefer Asheville. But it's progressive and the best city fory tastes and most comparable social demographic to Asheville in Flordia.
+                            - list [ref=e942]:
+                              - listitem [ref=e943]:
+                                - link "permalink" [ref=e944] [cursor=pointer]:
+                                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0t5ir/
+                              - listitem [ref=e945]:
+                                - link "embed" [ref=e946] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e947]:
+                                - link "save" [ref=e948] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e949]:
+                                - link "parent" [ref=e950] [cursor=pointer]:
+                                  - /url: "#kk0r77b"
+                              - listitem [ref=e951]:
+                                - link "report" [ref=e952] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e953]:
+                                - link "reply" [ref=e954] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                          - generic [ref=e956]:
+                            - generic [ref=e957]:
+                              - paragraph
+                              - generic [ref=e958]:
+                                - button "upvote" [ref=e959] [cursor=pointer]
+                                - button "downvote" [ref=e960] [cursor=pointer]
+                              - generic [ref=e961]:
+                                - paragraph [ref=e962]:
+                                  - link "[–]" [ref=e963] [cursor=pointer]:
+                                    - /url: javascript:void(0)
+                                  - link "_eternallyblack_" [ref=e964] [cursor=pointer]:
+                                    - /url: https://old.reddit.com/user/_eternallyblack_
+                                  - generic "Haw Creek :hawk1::hawk2:" [ref=e965]:
+                                    - text: "- Haw Creek"
+                                    - generic ":hawk1:" [ref=e966]
+                                    - generic ":hawk2:" [ref=e967]
+                                  - text: 2 points
+                                  - time [ref=e968]: 2 years ago
+                                - paragraph [ref=e972]: It’s personally preference. I’m from Tampa and could list a slew of things to do back home vs here. I think FL (Tampabay) has way more to do than here … but I also learned living here than I’m not a mountain person - I’m a beach girl that needs a major city and Asheville doesn’t provide that. 🤷🏻‍♀️ It’s not a criticism to avl - as there are things for other ppl, just not me.
+                                - list [ref=e973]:
+                                  - listitem [ref=e974]:
+                                    - link "permalink" [ref=e975] [cursor=pointer]:
+                                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk3qd14/
+                                  - listitem [ref=e976]:
+                                    - link "embed" [ref=e977] [cursor=pointer]:
+                                      - /url: javascript:void(0)
+                                  - listitem [ref=e978]:
+                                    - link "save" [ref=e979] [cursor=pointer]:
+                                      - /url: javascript:void(0)
+                                  - listitem [ref=e980]:
+                                    - link "parent" [ref=e981] [cursor=pointer]:
+                                      - /url: "#kk0t5ir"
+                                  - listitem [ref=e982]:
+                                    - link "report" [ref=e983] [cursor=pointer]:
+                                      - /url: javascript:void(0)
+                                  - listitem [ref=e984]:
+                                    - link "reply" [ref=e985] [cursor=pointer]:
+                                      - /url: javascript:void(0)
+                            - generic [ref=e986]:
+                              - paragraph
+                              - paragraph [ref=e988]:
+                                - link "[+]" [ref=e989] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                                - emphasis [ref=e990]: "[deleted]"
+                                - link "(4 children)" [ref=e991] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+              - generic [ref=e992]:
+                - paragraph
+                - generic [ref=e993]:
+                  - button "upvote" [ref=e994] [cursor=pointer]
+                  - button "downvote" [ref=e995] [cursor=pointer]
+                - generic [ref=e996]:
+                  - paragraph [ref=e997]:
+                    - link "[–]" [ref=e998] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Vladivostokorbust" [ref=e999] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Vladivostokorbust
+                    - text: 13 points
+                    - time [ref=e1000]: 2 years ago
+                  - generic [ref=e1003]:
+                    - paragraph [ref=e1004]: as an example, average teacher pay in seminole county is $48K. private schools it's less. that is one of the higher paying districts in central florida.
+                    - paragraph [ref=e1005]: bless you for wanting to support the students in florida in spite of the gutting of the school system there. they need compassion and understanding more than ever from teachers with grit and fortitude .
+                    - paragraph [ref=e1006]: i am assuming that you have investigated the districts you are considering. there is a reason that florida is suffering from a serious teacher shortage. in some counties the 4 year turnover is close to 50%.
+                    - paragraph [ref=e1007]: the onus is on the teacher to make sure their students only use state approved pronouns based on their assigned gender at birth. you are required to report any deviation from that requirement to the parents. the name the child uses is the one that appears on their birth certificate. all nicknames must be registered with the school by the parent.
+                    - paragraph [ref=e1008]: all books in the classroom must be on the district's approved list. since new laws regarding content are so vague and the inclusion of any book can be challenged by any parent at any time, those lists have now excluded a lot of what were once reading list staples. your future as a teacher in FL depends on bowing to the wishes of the parents
+                    - paragraph [ref=e1009]: you will be told how to teach american history. i suspect you are familiar with the new curricula requirements that include teaching that blacks benefited from their enslavement by learning new skills. also, it bans lessons on race and gender identity that may make some students feel guilt or shame.
+                    - paragraph [ref=e1010]: all DEI has been banned as well as SEL - social emotional learning.
+                    - paragraph [ref=e1011]: on the college front, all state universities can no longer require sociology as part of the core curriculum. it is being replaced by a class that will teach "factual history". desantis appointees in the state dept of education are choosing the "facts". much in the same way his appointed surgeon general is calling for a halt in the use of covid 19 mrna vax in the state. the brain drain created by fleeing instructor and professors is also underway.
+                    - paragraph [ref=e1012]: again i respect anyone who wants to move in that hellhole and work to clean it up, or at least support the failing infrastructure
+                  - list [ref=e1013]:
+                    - listitem [ref=e1014]:
+                      - link "permalink" [ref=e1015] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0vm0b/
+                    - listitem [ref=e1016]:
+                      - link "embed" [ref=e1017] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1018]:
+                      - link "save" [ref=e1019] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1020]:
+                      - link "parent" [ref=e1021] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1022]:
+                      - link "report" [ref=e1023] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1024]:
+                      - link "reply" [ref=e1025] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1028]:
+                  - paragraph
+                  - generic [ref=e1029]:
+                    - button "upvote" [ref=e1030] [cursor=pointer]
+                    - button "downvote" [ref=e1031] [cursor=pointer]
+                  - generic [ref=e1032]:
+                    - paragraph [ref=e1033]:
+                      - link "[–]" [ref=e1034] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1035] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1036]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1037]
+                        - generic ":uni2:" [ref=e1038]
+                      - generic [ref=e1039]:
+                        - text: "["
+                        - link "S" [ref=e1040] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 2 points
+                      - time [ref=e1041]: 2 years ago
+                    - generic [ref=e1044]:
+                      - paragraph [ref=e1045]: It’s really god awful down there and while I’d do it, I would hope to be exactly that - a voice that could bring about change, a voter that makes policies better for teachers. It only takes ONE parent’s complaint for the school district to bend over backwards anymore in Florida. I’ve read the horror stories and I’ve seen the awful videos. Something has to give eventually; and maybe I’m being naive in that thought process.
+                      - paragraph [ref=e1046]: Either way, thank you very much for all your information here. I have done research and I dearly hope I can find a private school that supports teachers just trying to teach in Florida.
+                      - paragraph [ref=e1047]: Though I also really want to work in the theme parks as well.
+                    - list [ref=e1048]:
+                      - listitem [ref=e1049]:
+                        - link "permalink" [ref=e1050] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1x02a/
+                      - listitem [ref=e1051]:
+                        - link "embed" [ref=e1052] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1053]:
+                        - link "save" [ref=e1054] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1055]:
+                        - link "parent" [ref=e1056] [cursor=pointer]:
+                          - /url: "#kk0vm0b"
+                      - listitem [ref=e1057]:
+                        - link "report" [ref=e1058] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1059]:
+                        - link "reply" [ref=e1060] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1061]:
+                - paragraph
+                - generic [ref=e1062]:
+                  - button "upvote" [ref=e1063] [cursor=pointer]
+                  - button "downvote" [ref=e1064] [cursor=pointer]
+                - generic [ref=e1065]:
+                  - paragraph [ref=e1066]:
+                    - link "[–]" [ref=e1067] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "_eternallyblack_" [ref=e1068] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/_eternallyblack_
+                    - generic "Haw Creek :hawk1::hawk2:" [ref=e1069]:
+                      - text: "- Haw Creek"
+                      - generic ":hawk1:" [ref=e1070]
+                      - generic ":hawk2:" [ref=e1071]
+                    - text: 9 points
+                    - time [ref=e1072]: 2 years ago
+                  - paragraph [ref=e1076]: I’m from Florida (we’re moving back in a few months!) I have friends that are teachers there - it’s not great. Ive also had friends that have worked for WDW - pay isn’t great. I’d suggest having jobs before you go so you know what pay your looking at - Orlando area isn’t the cheapest (I’m from Tampa.) Goodluck!
+                  - list [ref=e1077]:
+                    - listitem [ref=e1078]:
+                      - link "permalink" [ref=e1079] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzy0xv/
+                    - listitem [ref=e1080]:
+                      - link "embed" [ref=e1081] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1082]:
+                      - link "save" [ref=e1083] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1084]:
+                      - link "parent" [ref=e1085] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1086]:
+                      - link "report" [ref=e1087] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1088]:
+                      - link "reply" [ref=e1089] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1092]:
+                  - paragraph
+                  - generic [ref=e1093]:
+                    - button "upvote" [ref=e1094] [cursor=pointer]
+                    - button "downvote" [ref=e1095] [cursor=pointer]
+                  - generic [ref=e1096]:
+                    - paragraph [ref=e1097]:
+                      - link "[–]" [ref=e1098] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1099] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1100]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1101]
+                        - generic ":uni2:" [ref=e1102]
+                      - generic [ref=e1103]:
+                        - text: "["
+                        - link "S" [ref=e1104] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 4 points
+                      - time [ref=e1105]: 2 years ago
+                    - paragraph [ref=e1109]: That’s the hope! Because exactly, pay isn’t great. I used to work in WDW and I loved it. I’ve got networking connections I hope will get me in a good position.
+                    - list [ref=e1110]:
+                      - listitem [ref=e1111]:
+                        - link "permalink" [ref=e1112] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1xlbc/
+                      - listitem [ref=e1113]:
+                        - link "embed" [ref=e1114] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1115]:
+                        - link "save" [ref=e1116] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1117]:
+                        - link "parent" [ref=e1118] [cursor=pointer]:
+                          - /url: "#kjzy0xv"
+                      - listitem [ref=e1119]:
+                        - link "report" [ref=e1120] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1121]:
+                        - link "reply" [ref=e1122] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1123]:
+                - paragraph
+                - generic [ref=e1124]:
+                  - button "upvote" [ref=e1125] [cursor=pointer]
+                  - button "downvote" [ref=e1126] [cursor=pointer]
+                - generic [ref=e1127]:
+                  - paragraph [ref=e1128]:
+                    - link "[–]" [ref=e1129] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "HobbitOnHill" [ref=e1130] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/HobbitOnHill
+                    - text: 38 points
+                    - time [ref=e1131]: 2 years ago
+                  - paragraph [ref=e1135]: Most school teachers I know in flordia, including my partner's parents, are actively trying to get out of the Flordia school system considering the current political situation... it ain't good from what I hear.
+                  - list [ref=e1136]:
+                    - listitem [ref=e1137]:
+                      - link "permalink" [ref=e1138] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzpfe6/
+                    - listitem [ref=e1139]:
+                      - link "embed" [ref=e1140] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1141]:
+                      - link "save" [ref=e1142] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1143]:
+                      - link "parent" [ref=e1144] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1145]:
+                      - link "report" [ref=e1146] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1147]:
+                      - link "reply" [ref=e1148] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1151]:
+                  - paragraph
+                  - generic [ref=e1152]:
+                    - button "upvote" [ref=e1153] [cursor=pointer]
+                    - button "downvote" [ref=e1154] [cursor=pointer]
+                  - generic [ref=e1155]:
+                    - paragraph [ref=e1156]:
+                      - link "[–]" [ref=e1157] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1158] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1159]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1160]
+                        - generic ":uni2:" [ref=e1161]
+                      - generic [ref=e1162]:
+                        - text: "["
+                        - link "S" [ref=e1163] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 3 points
+                      - time [ref=e1164]: 2 years ago
+                    - paragraph [ref=e1168]: Nope. You’re right, it’s absolutely terrible. It wouldn’t be permanent for me most likely.
+                    - list [ref=e1169]:
+                      - listitem [ref=e1170]:
+                        - link "permalink" [ref=e1171] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1xug1/
+                      - listitem [ref=e1172]:
+                        - link "embed" [ref=e1173] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1174]:
+                        - link "save" [ref=e1175] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1176]:
+                        - link "parent" [ref=e1177] [cursor=pointer]:
+                          - /url: "#kjzpfe6"
+                      - listitem [ref=e1178]:
+                        - link "report" [ref=e1179] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1180]:
+                        - link "reply" [ref=e1181] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1182]:
+                - paragraph
+                - generic [ref=e1183]:
+                  - button "upvote" [ref=e1184] [cursor=pointer]
+                  - button "downvote" [ref=e1185] [cursor=pointer]
+                - generic [ref=e1186]:
+                  - paragraph [ref=e1187]:
+                    - link "[–]" [ref=e1188] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "farmerofstrawberries" [ref=e1189] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/farmerofstrawberries
+                    - text: 28 points
+                    - time [ref=e1190]: 2 years ago
+                  - paragraph [ref=e1194]: Florida is not a good environment for teachers but more power to you.
+                  - list [ref=e1195]:
+                    - listitem [ref=e1196]:
+                      - link "permalink" [ref=e1197] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzuth8/
+                    - listitem [ref=e1198]:
+                      - link "embed" [ref=e1199] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1200]:
+                      - link "save" [ref=e1201] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1202]:
+                      - link "parent" [ref=e1203] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1204]:
+                      - link "report" [ref=e1205] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1206]:
+                      - link "reply" [ref=e1207] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1210]:
+                  - paragraph
+                  - generic [ref=e1211]:
+                    - button "upvote" [ref=e1212] [cursor=pointer]
+                    - button "downvote" [ref=e1213] [cursor=pointer]
+                  - generic [ref=e1214]:
+                    - paragraph [ref=e1215]:
+                      - link "[–]" [ref=e1216] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Adept-Engineering-40" [ref=e1217] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Adept-Engineering-40
+                      - generic "Woodfin :cline1::cline2::cline3::cline4::cline5:" [ref=e1218]:
+                        - text: "- Woodfin"
+                        - generic ":cline1:" [ref=e1219]
+                        - generic ":cline2:" [ref=e1220]
+                        - generic ":cline3:" [ref=e1221]
+                        - generic ":cline4:" [ref=e1222]
+                        - generic ":cline5:" [ref=e1223]
+                      - text: 12 points
+                      - time [ref=e1224]: 2 years ago
+                    - paragraph [ref=e1228]: Amen to that
+                    - list [ref=e1229]:
+                      - listitem [ref=e1230]:
+                        - link "permalink" [ref=e1231] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzwyfv/
+                      - listitem [ref=e1232]:
+                        - link "embed" [ref=e1233] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1234]:
+                        - link "save" [ref=e1235] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1236]:
+                        - link "parent" [ref=e1237] [cursor=pointer]:
+                          - /url: "#kjzuth8"
+                      - listitem [ref=e1238]:
+                        - link "report" [ref=e1239] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1240]:
+                        - link "reply" [ref=e1241] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1242]:
+                - paragraph
+                - generic [ref=e1243]:
+                  - button "upvote" [ref=e1244] [cursor=pointer]
+                  - button "downvote" [ref=e1245] [cursor=pointer]
+                - generic [ref=e1246]:
+                  - paragraph [ref=e1247]:
+                    - link "[–]" [ref=e1248] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "booksplantsmatcha" [ref=e1249] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/booksplantsmatcha
+                    - generic "West Asheville :psych1::psych2::psych3:" [ref=e1250]:
+                      - text: "- West Asheville"
+                      - generic ":psych1:" [ref=e1251]
+                      - generic ":psych2:" [ref=e1252]
+                      - generic ":psych3:" [ref=e1253]
+                    - text: 4 points
+                    - time [ref=e1254]: 2 years ago
+                  - paragraph [ref=e1258]: I wouldn't be a teacher in Florida for NOTHING
+                  - list [ref=e1259]:
+                    - listitem [ref=e1260]:
+                      - link "permalink" [ref=e1261] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk11uej/
+                    - listitem [ref=e1262]:
+                      - link "embed" [ref=e1263] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1264]:
+                      - link "save" [ref=e1265] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1266]:
+                      - link "parent" [ref=e1267] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1268]:
+                      - link "report" [ref=e1269] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1270]:
+                      - link "reply" [ref=e1271] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1274]:
+                  - paragraph
+                  - generic [ref=e1275]:
+                    - button "upvote" [ref=e1276] [cursor=pointer]
+                    - button "downvote" [ref=e1277] [cursor=pointer]
+                  - generic [ref=e1278]:
+                    - paragraph [ref=e1279]:
+                      - link "[–]" [ref=e1280] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1281] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1282]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1283]
+                        - generic ":uni2:" [ref=e1284]
+                      - generic [ref=e1285]:
+                        - text: "["
+                        - link "S" [ref=e1286] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1287]: 2 years ago
+                    - paragraph [ref=e1291]: Yeah that’s probably a last resort for me 😬 my big goal is to work in the theme parks. I’d fall back on teaching if I have to
+                    - list [ref=e1292]:
+                      - listitem [ref=e1293]:
+                        - link "permalink" [ref=e1294] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1w542/
+                      - listitem [ref=e1295]:
+                        - link "embed" [ref=e1296] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1297]:
+                        - link "save" [ref=e1298] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1299]:
+                        - link "parent" [ref=e1300] [cursor=pointer]:
+                          - /url: "#kk11uej"
+                      - listitem [ref=e1301]:
+                        - link "report" [ref=e1302] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1303]:
+                        - link "reply" [ref=e1304] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1305]:
+                - paragraph
+                - generic [ref=e1306]:
+                  - button "upvote" [ref=e1307] [cursor=pointer]
+                  - button "downvote" [ref=e1308] [cursor=pointer]
+                - generic [ref=e1309]:
+                  - paragraph [ref=e1310]:
+                    - link "[–]" [ref=e1311] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "bmwlocoAirCooled" [ref=e1312] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/bmwlocoAirCooled
+                    - text: 5 points
+                    - time [ref=e1313]: 2 years ago
+                  - generic [ref=e1316]:
+                    - paragraph [ref=e1317]: It would be a cold day in hell before I'd move to Florida. It's doomed.
+                    - paragraph [ref=e1318]: Climate change is a tough old bird.
+                  - list [ref=e1319]:
+                    - listitem [ref=e1320]:
+                      - link "permalink" [ref=e1321] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1bm5y/
+                    - listitem [ref=e1322]:
+                      - link "embed" [ref=e1323] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1324]:
+                      - link "save" [ref=e1325] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1326]:
+                      - link "parent" [ref=e1327] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1328]:
+                      - link "report" [ref=e1329] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1330]:
+                      - link "reply" [ref=e1331] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1334]:
+                  - paragraph
+                  - generic [ref=e1335]:
+                    - button "upvote" [ref=e1336] [cursor=pointer]
+                    - button "downvote" [ref=e1337] [cursor=pointer]
+                  - generic [ref=e1338]:
+                    - paragraph [ref=e1339]:
+                      - link "[–]" [ref=e1340] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1341] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1342]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1343]
+                        - generic ":uni2:" [ref=e1344]
+                      - generic [ref=e1345]:
+                        - text: "["
+                        - link "S" [ref=e1346] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 2 points
+                      - time [ref=e1347]: 2 years ago
+                    - generic [ref=e1350]:
+                      - paragraph [ref=e1351]: True that, it is a tough bird.
+                      - paragraph [ref=e1352]: I hate the political climate down there, I’m more moving because I lived there about a year and man my heart was so very happy living and working there.
+                    - list [ref=e1353]:
+                      - listitem [ref=e1354]:
+                        - link "permalink" [ref=e1355] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1vbwx/
+                      - listitem [ref=e1356]:
+                        - link "embed" [ref=e1357] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1358]:
+                        - link "save" [ref=e1359] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1360]:
+                        - link "parent" [ref=e1361] [cursor=pointer]:
+                          - /url: "#kk1bm5y"
+                      - listitem [ref=e1362]:
+                        - link "report" [ref=e1363] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1364]:
+                        - link "reply" [ref=e1365] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1366]:
+                - paragraph
+                - generic [ref=e1367]:
+                  - button "upvote" [ref=e1368] [cursor=pointer]
+                  - button "downvote" [ref=e1369] [cursor=pointer]
+                - generic [ref=e1370]:
+                  - paragraph [ref=e1371]:
+                    - link "[–]" [ref=e1372] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "mistaken4strangerz" [ref=e1373] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/mistaken4strangerz
+                    - text: 2 points
+                    - time [ref=e1374]: 2 years ago
+                  - generic [ref=e1377]:
+                    - paragraph [ref=e1378]: I've lived outside Orlando for 25 years and I said "oh no" 6 times to your comment. I'm not here to ruin your plans; the grass is always greener and we're on opposite sides. But the pay is not good here, the school system is beholden to an extremist state legislature, and the housing situation is beyond unsustainable. It's also humid summer like you've never felt for 9 months out of the year. Other than that, you'll never run out of anything to do here from Tampa to Orlando (real Orlando, not the theme parks), to the natural springs and Cocoa/Daytona Beach and all the sports and theme parks (not just Disney and Universal). The amenities and entertainment here are second to none. And that makes it hard to leave.
+                    - paragraph [ref=e1379]: "Edit: are you looking for a teaching job or a theme park job? Confused about that part."
+                  - list [ref=e1380]:
+                    - listitem [ref=e1381]:
+                      - link "permalink" [ref=e1382] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk35qhb/
+                    - listitem [ref=e1383]:
+                      - link "embed" [ref=e1384] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1385]:
+                      - link "save" [ref=e1386] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1387]:
+                      - link "parent" [ref=e1388] [cursor=pointer]:
+                        - /url: "#kjzl98g"
+                    - listitem [ref=e1389]:
+                      - link "report" [ref=e1390] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1391]:
+                      - link "reply" [ref=e1392] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e1393]:
+                - paragraph
+                - generic [ref=e1394]:
+                  - paragraph [ref=e1395]:
+                    - link "[–]" [ref=e1396] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e1397]: "[deleted]"
+                    - time [ref=e1398]: 2 years ago
+                  - paragraph [ref=e1402]: "[removed]"
+                  - list
+                - generic [ref=e1405]:
+                  - paragraph
+                  - generic [ref=e1406]:
+                    - button "upvote" [ref=e1407] [cursor=pointer]
+                    - button "downvote" [ref=e1408] [cursor=pointer]
+                  - generic [ref=e1409]:
+                    - paragraph [ref=e1410]:
+                      - link "[–]" [ref=e1411] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1412] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1413]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1414]
+                        - generic ":uni2:" [ref=e1415]
+                      - generic [ref=e1416]:
+                        - text: "["
+                        - link "S" [ref=e1417] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 2 points
+                      - time [ref=e1418]: 2 years ago
+                    - paragraph [ref=e1422]: I lived in Orlando for about a year and it made my heart so happy. I absolutely adore the theme parks. They bring me so much joy.
+                    - list [ref=e1423]:
+                      - listitem [ref=e1424]:
+                        - link "permalink" [ref=e1425] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1x4r5/
+                      - listitem [ref=e1426]:
+                        - link "embed" [ref=e1427] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1428]:
+                        - link "save" [ref=e1429] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1430]:
+                        - link "report" [ref=e1431] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1432]:
+                        - link "reply" [ref=e1433] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e1434]:
+          - paragraph
+          - generic [ref=e1435]:
+            - button "upvote" [ref=e1436] [cursor=pointer]
+            - button "downvote" [ref=e1437] [cursor=pointer]
+          - generic [ref=e1438]:
+            - paragraph [ref=e1439]:
+              - link "[–]" [ref=e1440] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "GroundbreakingBat575" [ref=e1441] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/GroundbreakingBat575
+              - text: 4 points
+              - time [ref=e1442]: 2 years ago
+            - paragraph [ref=e1446]: On a nice day, take a big long walk from WAVL all the way downtown and then all around town, just taking it all at normal speed - stopping whither thou whilst, as they say.
+            - list [ref=e1447]:
+              - listitem [ref=e1448]:
+                - link "permalink" [ref=e1449] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0xvyy/
+              - listitem [ref=e1450]:
+                - link "embed" [ref=e1451] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1452]:
+                - link "save" [ref=e1453] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1454]:
+                - link "report" [ref=e1455] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1456]:
+                - link "reply" [ref=e1457] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1458]:
+          - paragraph
+          - generic [ref=e1459]:
+            - button "upvote" [ref=e1460] [cursor=pointer]
+            - button "downvote" [ref=e1461] [cursor=pointer]
+          - generic [ref=e1462]:
+            - paragraph [ref=e1463]:
+              - link "[–]" [ref=e1464] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "trespassingbear" [ref=e1465] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/trespassingbear
+              - text: 11 points
+              - time [ref=e1466]: 2 years ago
+              - time [ref=e1467]: "*"
+            - generic [ref=e1470]:
+              - paragraph [ref=e1471]: Ever been to the pond that drains from Biltmore forest, theres a dam on it and a little building like thing with a deep well that looks like you could hide bodies in there. You gotta trespass to get to it from the parkway on the commuter section. I drove past it for years without even knowijng it was there until I was looking at maps and seen there was a small body of water right beside the parkway.
+              - paragraph [ref=e1472]: "Edit: ok this is one time I have trespassed. My username really doesnt checkout I just don't like bears in my yard cause it's my home and I was here first. All the bears that were here are long dead as they have shorter lifespans."
+            - list [ref=e1473]:
+              - listitem [ref=e1474]:
+                - link "permalink" [ref=e1475] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzfmu4/
+              - listitem [ref=e1476]:
+                - link "embed" [ref=e1477] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1478]:
+                - link "save" [ref=e1479] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1480]:
+                - link "report" [ref=e1481] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1482]:
+                - link "reply" [ref=e1483] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1485]:
+            - generic [ref=e1486]:
+              - paragraph
+              - generic [ref=e1487]:
+                - button "upvote" [ref=e1488] [cursor=pointer]
+                - button "downvote" [ref=e1489] [cursor=pointer]
+              - generic [ref=e1490]:
+                - paragraph [ref=e1491]:
+                  - link "[–]" [ref=e1492] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "twilight0wn" [ref=e1493] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/twilight0wn
+                  - generic "Native:uni1::uni2:" [ref=e1494]:
+                    - text: "- Native"
+                    - generic ":uni1:" [ref=e1495]
+                    - generic ":uni2:" [ref=e1496]
+                  - generic [ref=e1497]:
+                    - text: "["
+                    - link "S" [ref=e1498] [cursor=pointer]:
+                      - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                    - text: "]"
+                  - text: 3 points
+                  - time [ref=e1499]: 2 years ago
+                - paragraph [ref=e1503]: I know the space you’re talking about but I’ve never been up to it 😂 I absolutely love your description of it
+                - list [ref=e1504]:
+                  - listitem [ref=e1505]:
+                    - link "permalink" [ref=e1506] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzftml/
+                  - listitem [ref=e1507]:
+                    - link "embed" [ref=e1508] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1509]:
+                    - link "save" [ref=e1510] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1511]:
+                    - link "parent" [ref=e1512] [cursor=pointer]:
+                      - /url: "#kjzfmu4"
+                  - listitem [ref=e1513]:
+                    - link "report" [ref=e1514] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1515]:
+                    - link "reply" [ref=e1516] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1519]:
+                - paragraph
+                - generic [ref=e1520]:
+                  - button "upvote" [ref=e1521] [cursor=pointer]
+                  - button "downvote" [ref=e1522] [cursor=pointer]
+                - generic [ref=e1523]:
+                  - paragraph [ref=e1524]:
+                    - link "[–]" [ref=e1525] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "trespassingbear" [ref=e1526] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/trespassingbear
+                    - text: 1 point
+                    - time [ref=e1527]: 2 years ago
+                  - paragraph [ref=e1531]: Nothing that spectacular but was just cool to discover something new that was right there all along.
+                  - list [ref=e1532]:
+                    - listitem [ref=e1533]:
+                      - link "permalink" [ref=e1534] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzhur7/
+                    - listitem [ref=e1535]:
+                      - link "embed" [ref=e1536] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1537]:
+                      - link "save" [ref=e1538] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1539]:
+                      - link "parent" [ref=e1540] [cursor=pointer]:
+                        - /url: "#kjzftml"
+                    - listitem [ref=e1541]:
+                      - link "report" [ref=e1542] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1543]:
+                      - link "reply" [ref=e1544] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1547]:
+                  - paragraph
+                  - generic [ref=e1548]:
+                    - button "upvote" [ref=e1549] [cursor=pointer]
+                    - button "downvote" [ref=e1550] [cursor=pointer]
+                  - generic [ref=e1551]:
+                    - paragraph [ref=e1552]:
+                      - link "[–]" [ref=e1553] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Kenilwort" [ref=e1554] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Kenilwort
+                      - generic "Kenilworth" [ref=e1555]: "- Kenilworth"
+                      - text: 1 point
+                      - time [ref=e1556]: 2 years ago
+                    - paragraph [ref=e1560]: One time I went there it was completely drained, haven't been back since, but be warned.
+                    - list [ref=e1561]:
+                      - listitem [ref=e1562]:
+                        - link "permalink" [ref=e1563] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0unne/
+                      - listitem [ref=e1564]:
+                        - link "embed" [ref=e1565] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1566]:
+                        - link "save" [ref=e1567] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1568]:
+                        - link "parent" [ref=e1569] [cursor=pointer]:
+                          - /url: "#kjzhur7"
+                      - listitem [ref=e1570]:
+                        - link "report" [ref=e1571] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1572]:
+                        - link "reply" [ref=e1573] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e1574]:
+              - paragraph
+              - generic [ref=e1575]:
+                - button "upvote" [ref=e1576] [cursor=pointer]
+                - button "downvote" [ref=e1577] [cursor=pointer]
+              - generic [ref=e1578]:
+                - paragraph [ref=e1579]:
+                  - link "[–]" [ref=e1580] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Kenilwort" [ref=e1581] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Kenilwort
+                  - generic "Kenilworth" [ref=e1582]: "- Kenilworth"
+                  - text: 4 points
+                  - time [ref=e1583]: 2 years ago
+                - paragraph [ref=e1587]: And this one too. C'mon people, keep it in the PMs, the PMs!
+                - list [ref=e1588]:
+                  - listitem [ref=e1589]:
+                    - link "permalink" [ref=e1590] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0uhnt/
+                  - listitem [ref=e1591]:
+                    - link "embed" [ref=e1592] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1593]:
+                    - link "save" [ref=e1594] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1595]:
+                    - link "parent" [ref=e1596] [cursor=pointer]:
+                      - /url: "#kjzfmu4"
+                  - listitem [ref=e1597]:
+                    - link "report" [ref=e1598] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1599]:
+                    - link "reply" [ref=e1600] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1603]:
+                - paragraph
+                - generic [ref=e1604]:
+                  - button "upvote" [ref=e1605] [cursor=pointer]
+                  - button "downvote" [ref=e1606] [cursor=pointer]
+                - generic [ref=e1607]:
+                  - paragraph [ref=e1608]:
+                    - link "[–]" [ref=e1609] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "trespassingbear" [ref=e1610] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/trespassingbear
+                    - text: 1 point
+                    - time [ref=e1611]: 2 years ago
+                  - paragraph [ref=e1615]: Meh, I let this one slide.
+                  - list [ref=e1616]:
+                    - listitem [ref=e1617]:
+                      - link "permalink" [ref=e1618] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1ctf4/
+                    - listitem [ref=e1619]:
+                      - link "embed" [ref=e1620] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1621]:
+                      - link "save" [ref=e1622] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1623]:
+                      - link "parent" [ref=e1624] [cursor=pointer]:
+                        - /url: "#kk0uhnt"
+                    - listitem [ref=e1625]:
+                      - link "report" [ref=e1626] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1627]:
+                      - link "reply" [ref=e1628] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1629]:
+          - paragraph
+          - generic [ref=e1630]:
+            - button "upvote" [ref=e1631] [cursor=pointer]
+            - button "downvote" [ref=e1632] [cursor=pointer]
+          - generic [ref=e1633]:
+            - paragraph [ref=e1634]:
+              - link "[–]" [ref=e1635] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 6 points"
+              - time [ref=e1636]: 2 years ago
+            - paragraph [ref=e1640]: NC Nature Center, Lake Julian, The walking ghost tour in Asheville, Capella on 9 or another rooftop restaurant, World’s Edge, the fish hatchery,
+            - list [ref=e1641]:
+              - listitem [ref=e1642]:
+                - link "permalink" [ref=e1643] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0lk10/
+              - listitem [ref=e1644]:
+                - link "embed" [ref=e1645] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1646]:
+                - link "save" [ref=e1647] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1648]:
+                - link "report" [ref=e1649] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1650]:
+                - link "reply" [ref=e1651] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1654]:
+            - paragraph
+            - generic [ref=e1655]:
+              - button "upvote" [ref=e1656] [cursor=pointer]
+              - button "downvote" [ref=e1657] [cursor=pointer]
+            - generic [ref=e1658]:
+              - paragraph [ref=e1659]:
+                - link "[–]" [ref=e1660] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e1661] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e1662]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e1663]
+                  - generic ":uni2:" [ref=e1664]
+                - generic [ref=e1665]:
+                  - text: "["
+                  - link "S" [ref=e1666] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1667]: 2 years ago
+              - generic [ref=e1670]:
+                - paragraph [ref=e1671]: Ah thanks! The nature center is always a blast. I love visiting the red pandas.
+                - paragraph [ref=e1672]: I’ve seen many of the haunted places independently, I’ve never done the tour. Is it worth it?
+              - list [ref=e1673]:
+                - listitem [ref=e1674]:
+                  - link "permalink" [ref=e1675] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1xbr6/
+                - listitem [ref=e1676]:
+                  - link "embed" [ref=e1677] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1678]:
+                  - link "save" [ref=e1679] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1680]:
+                  - link "parent" [ref=e1681] [cursor=pointer]:
+                    - /url: "#kk0lk10"
+                - listitem [ref=e1682]:
+                  - link "report" [ref=e1683] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1684]:
+                  - link "reply" [ref=e1685] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1688]:
+              - paragraph
+              - generic [ref=e1689]:
+                - button "upvote" [ref=e1690] [cursor=pointer]
+                - button "downvote" [ref=e1691] [cursor=pointer]
+              - generic [ref=e1692]:
+                - paragraph [ref=e1693]:
+                  - link "[–]" [ref=e1694] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] 1 point"
+                  - time [ref=e1695]: 2 years ago
+                - paragraph [ref=e1699]: I enjoyed the tour. It gives a history of downtown as you walk it.
+                - list [ref=e1700]:
+                  - listitem [ref=e1701]:
+                    - link "permalink" [ref=e1702] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk2jz4g/
+                  - listitem [ref=e1703]:
+                    - link "embed" [ref=e1704] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1705]:
+                    - link "save" [ref=e1706] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1707]:
+                    - link "parent" [ref=e1708] [cursor=pointer]:
+                      - /url: "#kk1xbr6"
+                  - listitem [ref=e1709]:
+                    - link "report" [ref=e1710] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1711]:
+                    - link "reply" [ref=e1712] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1713]:
+          - paragraph
+          - generic [ref=e1714]:
+            - button "upvote" [ref=e1715] [cursor=pointer]
+            - button "downvote" [ref=e1716] [cursor=pointer]
+          - generic [ref=e1717]:
+            - paragraph [ref=e1718]:
+              - link "[–]" [ref=e1719] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "cultjake" [ref=e1720] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/cultjake
+              - generic "West Asheville :psych1::psych2::psych3:" [ref=e1721]:
+                - text: "- West Asheville"
+                - generic ":psych1:" [ref=e1722]
+                - generic ":psych2:" [ref=e1723]
+                - generic ":psych3:" [ref=e1724]
+              - text: 6 points
+              - time [ref=e1725]: 2 years ago
+            - paragraph [ref=e1729]: Places don’t matter. People do. Get your love in on your folks before you leave.
+            - list [ref=e1730]:
+              - listitem [ref=e1731]:
+                - link "permalink" [ref=e1732] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1km3r/
+              - listitem [ref=e1733]:
+                - link "embed" [ref=e1734] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1735]:
+                - link "save" [ref=e1736] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1737]:
+                - link "report" [ref=e1738] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1739]:
+                - link "reply" [ref=e1740] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1743]:
+            - paragraph
+            - generic [ref=e1744]:
+              - button "upvote" [ref=e1745] [cursor=pointer]
+              - button "downvote" [ref=e1746] [cursor=pointer]
+            - generic [ref=e1747]:
+              - paragraph [ref=e1748]:
+                - link "[–]" [ref=e1749] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e1750] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e1751]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e1752]
+                  - generic ":uni2:" [ref=e1753]
+                - generic [ref=e1754]:
+                  - text: "["
+                  - link "S" [ref=e1755] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1756]: 2 years ago
+              - paragraph [ref=e1760]: Very true!
+              - list [ref=e1761]:
+                - listitem [ref=e1762]:
+                  - link "permalink" [ref=e1763] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1uxen/
+                - listitem [ref=e1764]:
+                  - link "embed" [ref=e1765] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1766]:
+                  - link "save" [ref=e1767] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1768]:
+                  - link "parent" [ref=e1769] [cursor=pointer]:
+                    - /url: "#kk1km3r"
+                - listitem [ref=e1770]:
+                  - link "report" [ref=e1771] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1772]:
+                  - link "reply" [ref=e1773] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1774]:
+          - paragraph
+          - generic [ref=e1775]:
+            - button "upvote" [ref=e1776] [cursor=pointer]
+            - button "downvote" [ref=e1777] [cursor=pointer]
+          - generic [ref=e1778]:
+            - paragraph [ref=e1779]:
+              - link "[–]" [ref=e1780] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SportingClay" [ref=e1781] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SportingClay
+              - text: 3 points
+              - time [ref=e1782]: 2 years ago
+            - paragraph [ref=e1786]: Where are you moving to?
+            - list [ref=e1787]:
+              - listitem [ref=e1788]:
+                - link "permalink" [ref=e1789] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzkgl3/
+              - listitem [ref=e1790]:
+                - link "embed" [ref=e1791] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1792]:
+                - link "save" [ref=e1793] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1794]:
+                - link "report" [ref=e1795] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1796]:
+                - link "reply" [ref=e1797] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1800]:
+            - paragraph
+            - generic [ref=e1801]:
+              - button "upvote" [ref=e1802] [cursor=pointer]
+              - button "downvote" [ref=e1803] [cursor=pointer]
+            - generic [ref=e1804]:
+              - paragraph [ref=e1805]:
+                - link "[–]" [ref=e1806] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e1807] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e1808]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e1809]
+                  - generic ":uni2:" [ref=e1810]
+                - generic [ref=e1811]:
+                  - text: "["
+                  - link "S" [ref=e1812] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1813]: 2 years ago
+              - generic [ref=e1816]:
+                - paragraph [ref=e1817]: Outside of the Orlando area, which I’m aware is not much better. 🥴 Pricing is not the biggest reason we’re moving though.
+                - paragraph [ref=e1818]: I’m a school teacher and they get paid much more in Florida. Goal is to get a good job at the theme parks. I’m a teacher and they get paid much more in Florida too. Would be nice to find a charter school down there.
+              - list [ref=e1819]:
+                - listitem [ref=e1820]:
+                  - link "permalink" [ref=e1821] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzlaaa/
+                - listitem [ref=e1822]:
+                  - link "embed" [ref=e1823] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1824]:
+                  - link "save" [ref=e1825] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1826]:
+                  - link "parent" [ref=e1827] [cursor=pointer]:
+                    - /url: "#kjzkgl3"
+                - listitem [ref=e1828]:
+                  - link "report" [ref=e1829] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1830]:
+                  - link "reply" [ref=e1831] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1833]:
+              - generic [ref=e1834]:
+                - paragraph
+                - generic [ref=e1835]:
+                  - button "upvote" [ref=e1836] [cursor=pointer]
+                  - button "downvote" [ref=e1837] [cursor=pointer]
+                - generic [ref=e1838]:
+                  - paragraph [ref=e1839]:
+                    - link "[–]" [ref=e1840] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "SportingClay" [ref=e1841] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/SportingClay
+                    - text: 6 points
+                    - time [ref=e1842]: 2 years ago
+                  - paragraph [ref=e1846]: "In that case my suggestions are: skiing, hiking the parkway when it’s closed due to snow. Visit frozen waterfalls. Hike to cold mountain from the scout camp. Stargaze everywhere. White lab pizza (very few good pizza places in the south). Fly fish the Davidson. Skinny dip at least once. Hot springs may also be a send off. Good luck and congratulations! That’s for caring enough to be a teacher."
+                  - list [ref=e1847]:
+                    - listitem [ref=e1848]:
+                      - link "permalink" [ref=e1849] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjzuaxf/
+                    - listitem [ref=e1850]:
+                      - link "embed" [ref=e1851] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1852]:
+                      - link "save" [ref=e1853] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1854]:
+                      - link "parent" [ref=e1855] [cursor=pointer]:
+                        - /url: "#kjzlaaa"
+                    - listitem [ref=e1856]:
+                      - link "report" [ref=e1857] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1858]:
+                      - link "reply" [ref=e1859] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1862]:
+                  - paragraph
+                  - generic [ref=e1863]:
+                    - button "upvote" [ref=e1864] [cursor=pointer]
+                    - button "downvote" [ref=e1865] [cursor=pointer]
+                  - generic [ref=e1866]:
+                    - paragraph [ref=e1867]:
+                      - link "[–]" [ref=e1868] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1869] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1870]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1871]
+                        - generic ":uni2:" [ref=e1872]
+                      - generic [ref=e1873]:
+                        - text: "["
+                        - link "S" [ref=e1874] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1875]: 2 years ago
+                    - paragraph [ref=e1879]: Thank you for a wonderful list!! For sure adding a few of these.
+                    - list [ref=e1880]:
+                      - listitem [ref=e1881]:
+                        - link "permalink" [ref=e1882] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1xqwt/
+                      - listitem [ref=e1883]:
+                        - link "embed" [ref=e1884] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1885]:
+                        - link "save" [ref=e1886] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1887]:
+                        - link "parent" [ref=e1888] [cursor=pointer]:
+                          - /url: "#kjzuaxf"
+                      - listitem [ref=e1889]:
+                        - link "report" [ref=e1890] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1891]:
+                        - link "reply" [ref=e1892] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1893]:
+                - paragraph
+                - generic [ref=e1894]:
+                  - button "upvote" [ref=e1895] [cursor=pointer]
+                  - button "downvote" [ref=e1896] [cursor=pointer]
+                - generic [ref=e1897]:
+                  - paragraph [ref=e1898]:
+                    - link "[–]" [ref=e1899] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 5 points"
+                    - time [ref=e1900]: 2 years ago
+                  - paragraph [ref=e1904]: We moved to Florida 2-ish years ago. You are about to be very surprised at how expensive Florida is.
+                  - list [ref=e1905]:
+                    - listitem [ref=e1906]:
+                      - link "permalink" [ref=e1907] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1c099/
+                    - listitem [ref=e1908]:
+                      - link "embed" [ref=e1909] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1910]:
+                      - link "save" [ref=e1911] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1912]:
+                      - link "parent" [ref=e1913] [cursor=pointer]:
+                        - /url: "#kjzlaaa"
+                    - listitem [ref=e1914]:
+                      - link "report" [ref=e1915] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1916]:
+                      - link "reply" [ref=e1917] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1920]:
+                  - paragraph
+                  - generic [ref=e1921]:
+                    - button "upvote" [ref=e1922] [cursor=pointer]
+                    - button "downvote" [ref=e1923] [cursor=pointer]
+                  - generic [ref=e1924]:
+                    - paragraph [ref=e1925]:
+                      - link "[–]" [ref=e1926] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1927] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1928]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1929]
+                        - generic ":uni2:" [ref=e1930]
+                      - generic [ref=e1931]:
+                        - text: "["
+                        - link "S" [ref=e1932] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1933]: 2 years ago
+                    - paragraph [ref=e1937]: You’re probably right 😭
+                    - list [ref=e1938]:
+                      - listitem [ref=e1939]:
+                        - link "permalink" [ref=e1940] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1v3hd/
+                      - listitem [ref=e1941]:
+                        - link "embed" [ref=e1942] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1943]:
+                        - link "save" [ref=e1944] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1945]:
+                        - link "parent" [ref=e1946] [cursor=pointer]:
+                          - /url: "#kk1c099"
+                      - listitem [ref=e1947]:
+                        - link "report" [ref=e1948] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1949]:
+                        - link "reply" [ref=e1950] [cursor=pointer]:
+                          - /url: javascript:void(0)
+              - generic [ref=e1951]:
+                - paragraph
+                - generic [ref=e1952]:
+                  - button "upvote" [ref=e1953] [cursor=pointer]
+                  - button "downvote" [ref=e1954] [cursor=pointer]
+                - generic [ref=e1955]:
+                  - paragraph [ref=e1956]:
+                    - link "[–]" [ref=e1957] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "pseudonominom" [ref=e1958] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/pseudonominom
+                    - text: 2 points
+                    - time [ref=e1959]: 2 years ago
+                  - generic [ref=e1962]:
+                    - blockquote [ref=e1963]:
+                      - paragraph [ref=e1964]: Pricing is not the biggest reason we’re moving though
+                    - paragraph [ref=e1965]: Curious what it is, then. You said in your post that you’re moving because you’ve been “priced out”.
+                  - list [ref=e1966]:
+                    - listitem [ref=e1967]:
+                      - link "permalink" [ref=e1968] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1aweh/
+                    - listitem [ref=e1969]:
+                      - link "embed" [ref=e1970] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1971]:
+                      - link "save" [ref=e1972] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1973]:
+                      - link "parent" [ref=e1974] [cursor=pointer]:
+                        - /url: "#kjzlaaa"
+                    - listitem [ref=e1975]:
+                      - link "report" [ref=e1976] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1977]:
+                      - link "reply" [ref=e1978] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1981]:
+                  - paragraph
+                  - generic [ref=e1982]:
+                    - button "upvote" [ref=e1983] [cursor=pointer]
+                    - button "downvote" [ref=e1984] [cursor=pointer]
+                  - generic [ref=e1985]:
+                    - paragraph [ref=e1986]:
+                      - link "[–]" [ref=e1987] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "twilight0wn" [ref=e1988] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/twilight0wn
+                      - generic "Native:uni1::uni2:" [ref=e1989]:
+                        - text: "- Native"
+                        - generic ":uni1:" [ref=e1990]
+                        - generic ":uni2:" [ref=e1991]
+                      - generic [ref=e1992]:
+                        - text: "["
+                        - link "S" [ref=e1993] [cursor=pointer]:
+                          - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1994]: 2 years ago
+                    - generic [ref=e1997]:
+                      - paragraph [ref=e1998]: Yes, and Orlando isn’t much better. The hope is we can find good jobs there though.
+                      - paragraph [ref=e1999]: I lived there about a year and my heart was just so happy. I loved the theme parks, being close to the beach, so much to do, the kind people I met over and over again. The Orlando area felt like a community I fit naturally in.
+                    - list [ref=e2000]:
+                      - listitem [ref=e2001]:
+                        - link "permalink" [ref=e2002] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1vvwl/
+                      - listitem [ref=e2003]:
+                        - link "embed" [ref=e2004] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2005]:
+                        - link "save" [ref=e2006] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2007]:
+                        - link "parent" [ref=e2008] [cursor=pointer]:
+                          - /url: "#kk1aweh"
+                      - listitem [ref=e2009]:
+                        - link "report" [ref=e2010] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e2011]:
+                        - link "reply" [ref=e2012] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e2013]:
+          - paragraph
+          - generic [ref=e2014]:
+            - button "upvote" [ref=e2015] [cursor=pointer]
+            - button "downvote" [ref=e2016] [cursor=pointer]
+          - generic [ref=e2017]:
+            - paragraph [ref=e2018]:
+              - link "[–]" [ref=e2019] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "justtobecontrary" [ref=e2020] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/justtobecontrary
+              - text: 3 points
+              - time [ref=e2021]: 2 years ago
+            - paragraph [ref=e2025]: Treasure Club.
+            - list [ref=e2026]:
+              - listitem [ref=e2027]:
+                - link "permalink" [ref=e2028] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1hnah/
+              - listitem [ref=e2029]:
+                - link "embed" [ref=e2030] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2031]:
+                - link "save" [ref=e2032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2033]:
+                - link "report" [ref=e2034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2035]:
+                - link "reply" [ref=e2036] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2037]:
+          - paragraph
+          - generic [ref=e2038]:
+            - button "upvote" [ref=e2039] [cursor=pointer]
+            - button "downvote" [ref=e2040] [cursor=pointer]
+          - generic [ref=e2041]:
+            - paragraph [ref=e2042]:
+              - link "[–]" [ref=e2043] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "garrettgyrlz" [ref=e2044] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/garrettgyrlz
+              - text: 5 points
+              - time [ref=e2045]: 2 years ago
+            - paragraph [ref=e2049]: Go to the Asheville Mardi Gras’s parade on 2/11 on the South Slope!
+            - list [ref=e2050]:
+              - listitem [ref=e2051]:
+                - link "permalink" [ref=e2052] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1e96e/
+              - listitem [ref=e2053]:
+                - link "embed" [ref=e2054] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2055]:
+                - link "save" [ref=e2056] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2057]:
+                - link "report" [ref=e2058] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2059]:
+                - link "reply" [ref=e2060] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2063]:
+            - paragraph
+            - generic [ref=e2064]:
+              - button "upvote" [ref=e2065] [cursor=pointer]
+              - button "downvote" [ref=e2066] [cursor=pointer]
+            - generic [ref=e2067]:
+              - paragraph [ref=e2068]:
+                - link "[–]" [ref=e2069] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e2070] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e2071]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e2072]
+                  - generic ":uni2:" [ref=e2073]
+                - generic [ref=e2074]:
+                  - text: "["
+                  - link "S" [ref=e2075] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e2076]: 2 years ago
+              - paragraph [ref=e2080]: Oh the parade is so fun!! Thanks for the date reminder.
+              - list [ref=e2081]:
+                - listitem [ref=e2082]:
+                  - link "permalink" [ref=e2083] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1v021/
+                - listitem [ref=e2084]:
+                  - link "embed" [ref=e2085] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2086]:
+                  - link "save" [ref=e2087] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2088]:
+                  - link "parent" [ref=e2089] [cursor=pointer]:
+                    - /url: "#kk1e96e"
+                - listitem [ref=e2090]:
+                  - link "report" [ref=e2091] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2092]:
+                  - link "reply" [ref=e2093] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e2094]:
+          - paragraph
+          - generic [ref=e2095]:
+            - button "upvote" [ref=e2096] [cursor=pointer]
+            - button "downvote" [ref=e2097] [cursor=pointer]
+          - generic [ref=e2098]:
+            - paragraph [ref=e2099]:
+              - link "[–]" [ref=e2100] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 0 points"
+              - time [ref=e2101]: 2 years ago
+            - paragraph [ref=e2105]: Me and wife were there last week for 5 days. Got us a cabin. We did Lazoom, Biltmore, their wine tasting room a couple days, dueling piano bar, Cocina 24, La bodega by curate, Casablanca for cigars, art museum, Marquee, that Chocolate Lounge place. It was a lot for 5 days but it was so worth it and not busy.
+            - list [ref=e2106]:
+              - listitem [ref=e2107]:
+                - link "permalink" [ref=e2108] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kjztctm/
+              - listitem [ref=e2109]:
+                - link "embed" [ref=e2110] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2111]:
+                - link "save" [ref=e2112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2113]:
+                - link "report" [ref=e2114] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2115]:
+                - link "reply" [ref=e2116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2117]:
+          - paragraph
+          - generic [ref=e2118]:
+            - button "upvote" [ref=e2119] [cursor=pointer]
+            - button "downvote" [ref=e2120] [cursor=pointer]
+          - generic [ref=e2121]:
+            - paragraph [ref=e2122]:
+              - link "[–]" [ref=e2123] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "OmegaJ8006" [ref=e2124] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/OmegaJ8006
+              - generic "County Gubbamint :cityhall:" [ref=e2125]:
+                - text: "- County Gubbamint"
+                - generic ":cityhall:" [ref=e2126]
+              - text: 1 point
+              - time [ref=e2127]: 2 years ago
+            - paragraph [ref=e2131]:
+              - text: Get a nude drawing from
+              - link "https://instagram.com/baddrawingsokurr" [ref=e2132] [cursor=pointer]:
+                - /url: https://instagram.com/baddrawingsokurr
+            - list [ref=e2133]:
+              - listitem [ref=e2134]:
+                - link "permalink" [ref=e2135] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0p18c/
+              - listitem [ref=e2136]:
+                - link "embed" [ref=e2137] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2138]:
+                - link "save" [ref=e2139] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2140]:
+                - link "report" [ref=e2141] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2142]:
+                - link "reply" [ref=e2143] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2144]:
+          - paragraph
+          - generic [ref=e2145]:
+            - button "upvote" [ref=e2146] [cursor=pointer]
+            - button "downvote" [ref=e2147] [cursor=pointer]
+          - generic [ref=e2148]:
+            - paragraph [ref=e2149]:
+              - link "[–]" [ref=e2150] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Purple-Register7901" [ref=e2151] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Purple-Register7901
+              - text: 1 point
+              - time [ref=e2152]: 2 years ago
+            - paragraph [ref=e2156]: It's not the original owner anymore, but I've heard good things. Hot dog from Hot Dog world in hendo.
+            - list [ref=e2157]:
+              - listitem [ref=e2158]:
+                - link "permalink" [ref=e2159] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk0pzdn/
+              - listitem [ref=e2160]:
+                - link "embed" [ref=e2161] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2162]:
+                - link "save" [ref=e2163] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2164]:
+                - link "report" [ref=e2165] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2166]:
+                - link "reply" [ref=e2167] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2168]:
+          - paragraph
+          - generic [ref=e2169]:
+            - button "upvote" [ref=e2170] [cursor=pointer]
+            - button "downvote" [ref=e2171] [cursor=pointer]
+          - generic [ref=e2172]:
+            - paragraph [ref=e2173]:
+              - link "[–]" [ref=e2174] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "narwhal-narwhal" [ref=e2175] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/narwhal-narwhal
+              - generic "Malvern Hills :tree:" [ref=e2176]:
+                - text: "- Malvern Hills"
+                - generic ":tree:" [ref=e2177]
+              - text: 1 point
+              - time [ref=e2178]: 2 years ago
+            - paragraph [ref=e2182]: Stay at the Pisgah Inn, better hurry with reservations tho.
+            - list [ref=e2183]:
+              - listitem [ref=e2184]:
+                - link "permalink" [ref=e2185] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1hv2q/
+              - listitem [ref=e2186]:
+                - link "embed" [ref=e2187] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2188]:
+                - link "save" [ref=e2189] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2190]:
+                - link "report" [ref=e2191] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2192]:
+                - link "reply" [ref=e2193] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2194]:
+          - paragraph
+          - generic [ref=e2195]:
+            - button "upvote" [ref=e2196] [cursor=pointer]
+            - button "downvote" [ref=e2197] [cursor=pointer]
+          - generic [ref=e2198]:
+            - paragraph [ref=e2199]:
+              - link "[–]" [ref=e2200] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "kjsmith4ub88" [ref=e2201] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/kjsmith4ub88
+              - text: 1 point
+              - time [ref=e2202]: 2 years ago
+            - paragraph [ref=e2206]: Where are you moving to? Asheville sadly seems to be about average for the US now, but with below average jobs.
+            - list [ref=e2207]:
+              - listitem [ref=e2208]:
+                - link "permalink" [ref=e2209] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk1wssk/
+              - listitem [ref=e2210]:
+                - link "embed" [ref=e2211] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2212]:
+                - link "save" [ref=e2213] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2214]:
+                - link "report" [ref=e2215] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2216]:
+                - link "reply" [ref=e2217] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2218]:
+          - paragraph
+          - generic [ref=e2219]:
+            - button "upvote" [ref=e2220] [cursor=pointer]
+            - button "downvote" [ref=e2221] [cursor=pointer]
+          - generic [ref=e2222]:
+            - paragraph [ref=e2223]:
+              - link "[–]" [ref=e2224] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "j19stuff" [ref=e2225] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/j19stuff
+              - text: 1 point
+              - time [ref=e2226]: 2 years ago
+            - paragraph [ref=e2230]: You were born here and never went to arboretum?
+            - list [ref=e2231]:
+              - listitem [ref=e2232]:
+                - link "permalink" [ref=e2233] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk40qs0/
+              - listitem [ref=e2234]:
+                - link "embed" [ref=e2235] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2236]:
+                - link "save" [ref=e2237] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2238]:
+                - link "report" [ref=e2239] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2240]:
+                - link "reply" [ref=e2241] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2244]:
+            - paragraph
+            - generic [ref=e2245]:
+              - button "upvote" [ref=e2246] [cursor=pointer]
+              - button "downvote" [ref=e2247] [cursor=pointer]
+            - generic [ref=e2248]:
+              - paragraph [ref=e2249]:
+                - link "[–]" [ref=e2250] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "twilight0wn" [ref=e2251] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/twilight0wn
+                - generic "Native:uni1::uni2:" [ref=e2252]:
+                  - text: "- Native"
+                  - generic ":uni1:" [ref=e2253]
+                  - generic ":uni2:" [ref=e2254]
+                - generic [ref=e2255]:
+                  - text: "["
+                  - link "S" [ref=e2256] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e2257]: 2 years ago
+              - paragraph [ref=e2261]: Been there, it’s one of the ones we want to revisit.
+              - list [ref=e2262]:
+                - listitem [ref=e2263]:
+                  - link "permalink" [ref=e2264] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kk419ss/
+                - listitem [ref=e2265]:
+                  - link "embed" [ref=e2266] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2267]:
+                  - link "save" [ref=e2268] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2269]:
+                  - link "parent" [ref=e2270] [cursor=pointer]:
+                    - /url: "#kk40qs0"
+                - listitem [ref=e2271]:
+                  - link "report" [ref=e2272] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2273]:
+                  - link "reply" [ref=e2274] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e2275]:
+          - paragraph
+          - generic [ref=e2276]:
+            - button "upvote" [ref=e2277] [cursor=pointer]
+            - button "downvote" [ref=e2278] [cursor=pointer]
+          - generic [ref=e2279]:
+            - paragraph [ref=e2280]:
+              - link "[–]" [ref=e2281] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "sexysadie2u" [ref=e2282] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/sexysadie2u
+              - text: 1 point
+              - time [ref=e2283]: 2 years ago
+            - paragraph [ref=e2287]: Priced out? I’ve been thinking about maybe moving there. How bad is it to live there? Dm me plsss (anyone with info about this in ASHV) I need to now what’s going on. Keep hearing conflicting things! Thx in advance:)
+            - list [ref=e2288]:
+              - listitem [ref=e2289]:
+                - link "permalink" [ref=e2290] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/kocmdb8/
+              - listitem [ref=e2291]:
+                - link "embed" [ref=e2292] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2293]:
+                - link "save" [ref=e2294] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2295]:
+                - link "report" [ref=e2296] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2297]:
+                - link "reply" [ref=e2298] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e2299]:
+    - generic [ref=e2300]:
+      - list [ref=e2302]:
+        - listitem [ref=e2303]: about
+        - listitem [ref=e2304]:
+          - link "blog" [ref=e2305] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e2306]:
+          - link "about" [ref=e2307] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e2308]:
+          - link "advertising" [ref=e2309] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e2310]:
+          - link "careers" [ref=e2311] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e2313]:
+        - listitem [ref=e2314]: help
+        - listitem [ref=e2315]:
+          - link "site rules" [ref=e2316] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e2317]:
+          - link "Reddit help center" [ref=e2318] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e2319]:
+          - link "reddiquette" [ref=e2320] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e2321]:
+          - link "mod guidelines" [ref=e2322] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e2323]:
+          - link "contact us" [ref=e2324] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e2326]:
+        - listitem [ref=e2327]: apps & tools
+        - listitem [ref=e2328]:
+          - link "Reddit for iPhone" [ref=e2329] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e2330]:
+          - link "Reddit for Android" [ref=e2331] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e2332]:
+          - link "mobile website" [ref=e2333] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e2335]:
+        - listitem [ref=e2336]: <3
+        - listitem [ref=e2337]:
+          - link "reddit premium" [ref=e2338] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e2339]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e2340] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e2341] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e2342]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e2343]
+  - paragraph [ref=e2344]: π

@@ -1,0 +1,541 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e42]:
+          - link "36 Hours" [ref=e45] [cursor=pointer]:
+            - /url: https://www.nytimes.com/column/36-hours
+          - generic [ref=e47]: Banff, Alberta
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: "Jump to:"
+            - link "Recommendations" [ref=e52] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e54] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e55]:
+              - link "Google Map" [ref=e56] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/AEbmAkp2kiNFdBSR6
+              - img [ref=e58]
+          - generic [ref=e62]:
+            - paragraph [ref=e63]:
+              - generic [ref=e64]:
+                - text: By Cindy Hirschfeld
+                - text: Photographs by Ruth Fremson
+            - paragraph [ref=e65]: Cindy Hirschfeld, an avid skier and frequent contributor to the Travel section, regularly visits the Canadian Rockies.
+            - time [ref=e66]: Feb. 20, 2025
+          - paragraph [ref=e67]:
+            - text: The town of Banff, about 80 miles west of Calgary in southwest Alberta, sits within
+            - link "Canada’s oldest national park" [ref=e68] [cursor=pointer]:
+              - /url: https://parks.canada.ca/pn-np/ab/banff
+            - text: of the same name, offering awe-inspiring mountain views at every turn, and, of course, an abundance of outdoor recreation. In summer, two million visitors pour into the park, but despite
+            - link "three ski resorts" [ref=e69] [cursor=pointer]:
+              - /url: https://www.skibig3.com/
+            - text: nearby, winter is noticeably quieter. That makes it a perfect time to bundle up and enjoy the snow-blanketed natural splendor, enhanced by new lifts and recent terrain updates at the ski areas, as well as new hotels and restaurants. Thanks to institutions like the
+            - link "Banff Center for Arts and Creativity" [ref=e70] [cursor=pointer]:
+              - /url: https://www.banffcentre.ca/
+            - text: ", internationally known for its"
+            - link "mountain film festival" [ref=e71] [cursor=pointer]:
+              - /url: https://www.banffcentre.ca/banffmountainfestival/tour
+            - text: ", this town of 10,300 residents (all of whom must be locally employed to live within the national park) also has a vibrant cultural scene that sets it apart from many other mountain resorts. Plus, the town’s natural hot springs that have long attracted visitors are open year-round."
+        - generic [ref=e72]: Advertisement
+        - heading "Recommendations" [level=2] [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - button "Key stops –" [ref=e76] [cursor=pointer]:
+              - text: Key stops
+              - generic [ref=e77]: –
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - text: The
+                - link "Banff Gondola" [ref=e80] [cursor=pointer]:
+                  - /url: https://www.banffjaspercollection.com/attractions/banff-gondola/
+                - text: whisks you to the top of Sulphur Mountain in eight minutes and, on winter evenings, the experience includes an immersive multimedia art exhibit called
+                - link "Nightrise" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.banffjaspercollection.com/attractions/banff-gondola/events/nightrise/
+                - text: .
+              - listitem [ref=e82]:
+                - link "Banff Sunshine" [ref=e83] [cursor=pointer]:
+                  - /url: https://www.skibanff.com/
+                - text: ski area, five miles from town, has 138 trails on more than 3,300 acres across three peaks and a season that lasts into May.
+              - listitem [ref=e84]:
+                - text: The region’s biggest ski resort is
+                - link "Lake Louise" [ref=e85] [cursor=pointer]:
+                  - /url: https://www.skilouise.com/
+                - text: ", 32 miles from Banff, with 164 runs on 4,200 acres and extensive open bowls."
+              - listitem [ref=e86]:
+                - link "Banff Upper Hot Springs" [ref=e87] [cursor=pointer]:
+                  - /url: https://hotsprings.ca/banff/
+                - text: has drawn visitors since the late 1800s to its mineral-rich pool on the side of Sulphur Mountain.
+          - generic [ref=e88]:
+            - button "Attractions and activities +" [ref=e89] [cursor=pointer]:
+              - text: Attractions and activities
+              - generic [ref=e90]: +
+            - list:
+              - listitem [ref=e91]:
+                - text: The
+                - link "Whyte Museum of the Canadian Rockies" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.whyte.org/
+                - text: provides an excellent overview of the Banff region’s mountain ethos through exhibits that explore art, history, nature, outdoor recreation and more.
+              - listitem [ref=e93]:
+                - link "Mount Norquay" [ref=e94] [cursor=pointer]:
+                  - /url: https://banffnorquay.com/
+                - text: is Banff’s original ski area, opened in 1926, and today offers 60 runs on 190 acres.
+              - listitem [ref=e95]:
+                - link "Lake Minnewanka" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.banfflakelouise.com/experiences/lake-minnewanka
+                - text: ", a 10-minute drive from Banff, is a favorite spot for star-gazing and viewing the northern lights."
+              - listitem [ref=e97]:
+                - link "Johnston Canyon" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.alltrails.com/trail/canada/alberta/johnston-canyon-to-upper-falls
+                - text: ", 15.5 miles west of Banff, includes a winter hiking trail popular for its up-close views of fantastical frozen waterfalls and cascades."
+              - listitem [ref=e99]:
+                - link "Vermilion Lakes" [ref=e100] [cursor=pointer]:
+                  - /url: https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/vermilion
+                - text: is a good spot to ice skate near town and offers stellar views of high peaks.
+          - generic [ref=e101]:
+            - button "Restaurants and bars +" [ref=e102] [cursor=pointer]:
+              - text: Restaurants and bars
+              - generic [ref=e103]: +
+            - list:
+              - listitem [ref=e104]:
+                - link "The Fat Ox" [ref=e105] [cursor=pointer]:
+                  - /url: https://fatoxbanff.ca/
+                - text: ", opened in summer 2024, specializes in northern Italian dishes amid a lively atmosphere."
+              - listitem [ref=e106]:
+                - text: The
+                - link "Rundle Bar" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.fairmont.com/banff-springs/dining/rundle-bar/
+                - text: ", at the sprawling"
+                - link "Fairmont Banff Springs Hotel" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.fairmont.com/banff-springs/
+                - text: ", is a particularly elegant spot for sipping cocktails."
+              - listitem [ref=e109]:
+                - link "Rose and Crown" [ref=e110] [cursor=pointer]:
+                  - /url: https://roseandcrown.ca/
+                - text: is a downtown nightlife staple, with pool tables, live music nightly and a casual vibe.
+              - listitem [ref=e111]:
+                - text: The midmountain
+                - link "Whitehorn Bistro" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.skilouise.com/dining/on-mountain-dining/whitehorn-bistro/
+                - text: at Lake Louise ski area offers sit-down service for lunch and cheese fondue.
+              - listitem [ref=e113]:
+                - link "Mad Trapper’s" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.skibanff.com/trappers
+                - text: ", at Banff Sunshine’s midmountain village, serves standards like burgers and poutine in a vintage log building."
+              - listitem [ref=e115]:
+                - link "Block Kitchen and Bar" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.banffblock.com/
+                - text: offers a creative menu of Asian- and Mediterranean-inflected dishes amid the genial feel of a neighborhood bar.
+              - listitem [ref=e117]:
+                - link "Wildflour Bakery" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.wildflourbakery.ca/
+                - text: is a long-time favorite downtown spot for fresh bread, pastries and breakfast sandwiches.
+              - listitem [ref=e119]:
+                - text: In the Banff Aspen Lodge,
+                - link "Whitebark Café" [ref=e120] [cursor=pointer]:
+                  - /url: https://whitebarkcafe.com/
+                - text: has tasty housemade baked goods and coffee drinks.
+              - listitem [ref=e121]:
+                - link "Ramen Arashi" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.ramenarashi.com/
+                - text: is a hole-in-the-wall spot with excellent ramen.
+          - generic [ref=e123]:
+            - button "Shopping and galleries +" [ref=e124] [cursor=pointer]:
+              - text: Shopping and galleries
+              - generic [ref=e125]: +
+            - list:
+              - listitem [ref=e126]:
+                - link "Willock and Sax Gallery" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.willockandsaxgallery.com/
+                - text: carries artwork in various media from established and emerging western Canadian artists.
+              - listitem [ref=e128]:
+                - text: For more than 50 years,
+                - link "Canada House Gallery" [ref=e129] [cursor=pointer]:
+                  - /url: https://canadahouse.com/
+                - text: has been a go-to resource for contemporary paintings, sculptures, photography and more from Canadian artists.
+              - listitem [ref=e130]:
+                - link "Brandon T. Brown Gallery" [ref=e131] [cursor=pointer]:
+                  - /url: https://brandontbrown.com/
+                - text: offers captivating, large-format wildlife photography from a local photographer.
+              - listitem [ref=e132]:
+                - link "Carter-Ryan Gallery" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.carter-ryan.com/
+                - text: features representations of the natural world by the prominent Indigenous painter and sculptor Jason Carter.
+              - listitem [ref=e134]:
+                - link "The Paper Den" [ref=e135] [cursor=pointer]:
+                  - /url: https://wildly.shop/pages/paper-den
+                - text: ", owned by two local artists, has graphic-art prints and cards of local mountains and trails."
+              - listitem [ref=e136]:
+                - text: Housed in a restored log cabin from the late 1800s,
+                - link "Jolene’s Tea House" [ref=e137] [cursor=pointer]:
+                  - /url: https://jolenesteahouse.com/
+                - text: sells more than 60 varieties of hand-blended organic tea.
+              - listitem [ref=e138]:
+                - link "Banff Tea Co." [ref=e139] [cursor=pointer]:
+                  - /url: https://banffteaco.com/
+                - text: offers dozens of fragrant tea blends, most available in bulk.
+          - generic [ref=e140]:
+            - button "Where to stay +" [ref=e141] [cursor=pointer]:
+              - text: Where to stay
+              - generic [ref=e142]: +
+            - list:
+              - listitem [ref=e143]:
+                - text: The castle-inspired
+                - link "Fairmont Banff Springs" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.fairmont.com/banff-springs/
+                - text: has been in place almost as long as the national park. Built in 1888 and added to over the years, the 724-room luxury property is a destination unto itself, with a dozen restaurants and bars, spa, shops, swimming, ice skating, a bowling alley, guided activities and, in summer, golf and tennis. Rooms, furnished in timelessly elegant style, start at about 649 Canadian dollars, or about $457, for a double in winter. The hotel’s Lake Louise counterpart is the
+                - link "Fairmont Chateau Lake Louise" [ref=e145] [cursor=pointer]:
+                  - /url: https://www.chateau-lake-louise.com/
+                - text: (rooms from 639 dollars), just slightly smaller in scale; a new
+                - link "water-based wellness center" [ref=e146] [cursor=pointer]:
+                  - /url: https://www.thebasin.com/
+                - text: will debut in summer 2025.
+              - listitem [ref=e147]:
+                - text: One of three hotels that opened last year in renovated spaces, the
+                - link "Moxy Banff" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.marriott.com/en-us/hotels/yycbm-moxy-banff/overview/
+                - text: has retro décor like a 1966 Volkswagen bus turned food truck in the lobby and ski lift-style chairs in some of the 109 guest rooms, which start at 200 dollars.
+              - listitem [ref=e149]:
+                - text: Located on the outskirts of town near Mount Norquay, the hillside
+                - link "Juniper Hotel" [ref=e150] [cursor=pointer]:
+                  - /url: https://thejuniper.com/
+                - text: offers great views, fairly basic but large rooms and a popular bistro that serves breakfast and dinner. Rooms from 139 dollars.
+          - generic [ref=e151]:
+            - button "Getting around +" [ref=e152] [cursor=pointer]:
+              - text: Getting around
+              - generic [ref=e153]: +
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - text: The local bus service,
+                - link "ROAM" [ref=e156] [cursor=pointer]:
+                  - /url: https://roamtransit.com/
+                - text: ", services Banff, Lake Louise and the town of Canmore, including many popular tourist destinations, though some routes run only in summer. Within Banff, buses run approximately every half hour, so having a car may be convenient. Fares start at 2 dollars per ride."
+        - heading "Itinerary" [level=2] [ref=e157]
+        - generic [ref=e158]:
+          - heading "Friday" [level=2] [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e161]: 3 p.m. Tune in to Banff’s mountain vibe
+            - paragraph [ref=e163]:
+              - text: Imagine climbing a nearby peak in hobnail boots circa 1930 or dodging avalanches as a Canadian Pacific railroad construction worker in the 1880s. Learn about these experiences and more at the
+              - link "Whyte Museum of the Canadian Rockies" [ref=e164] [cursor=pointer]:
+                - /url: https://www.whyte.org/
+              - text: (admission 12 Canadian dollars, or about $8.50), founded in 1968 by the landscape painters and philanthropists Peter and Catharine Robb Whyte (their works are also shown). Housed in a wood- and stone-accented, midcentury-style building downtown, the eclectic array of exhibits explores Banff’s relationship with the mountains, as well as the Indigenous people who lived here for centuries (their eviction is addressed in a photography display). View everything from landscapes and vintage mountaineering gear to displays on early female explorers and the challenges of building the railway. Two temporary exhibitions (through April 13) showcase glacier-focused paintings and photographs.
+          - paragraph [ref=e170]: Whyte Museum of the Canadian Rockies
+          - generic [ref=e171]:
+            - generic [ref=e172]: 4:30 p.m. Discover local art and a cabin full of tea
+            - paragraph [ref=e174]:
+              - text: From the museum, walk a block north on Bear Street, where several galleries and shops offer alternatives to the souvenir emporiums lining Banff Avenue (the town’s main street). The long-running
+              - link "Willock and Sax" [ref=e175] [cursor=pointer]:
+                - /url: https://www.willockandsaxgallery.com/
+              - text: and
+              - link "Canada House" [ref=e176] [cursor=pointer]:
+                - /url: https://canadahouse.com/en-us
+              - text: galleries feature works by Canadian artists, much of it inspired by the mountain environment. The
+              - link "Carter-Ryan Gallery" [ref=e177] [cursor=pointer]:
+                - /url: https://www.carter-ryan.com/
+              - text: carries sculptures and large-scale, color-saturated paintings of the natural world from the contemporary Indigenous artist Jason Carter. Find posters and cards of area scenery at the
+              - link "Paper Den" [ref=e178] [cursor=pointer]:
+                - /url: https://wildly.shop/pages/paper-den
+              - text: ", owned by two local graphic artists, and wildlife photography at the"
+              - link "Brandon T. Brown Gallery" [ref=e179] [cursor=pointer]:
+                - /url: https://brandontbrown.com
+              - text: . Then sniff and sample from a variety of custom blend teas, like maple rooibos (18.95 dollars for 80 grams, or about 2.8 ounces) at
+              - link "Jolene’s Tea House" [ref=e180] [cursor=pointer]:
+                - /url: https://jolenesteahouse.com/
+              - text: (in a log cabin from the late 1800s), or a chocolate chile chai (from 8 dollars for 50 grams) at the
+              - link "Banff Tea Co." [ref=e181] [cursor=pointer]:
+                - /url: https://banffteaco.com/
+              - text: ", around the corner on Caribou Street."
+          - paragraph [ref=e187]: Tea jars at the Banff Tea Co.
+          - generic [ref=e188]:
+            - generic [ref=e189]: 6 p.m. Immerse yourself in sound and sight atop a mountain
+            - paragraph [ref=e191]:
+              - text: The eight-minute
+              - link "gondola" [ref=e192] [cursor=pointer]:
+                - /url: https://www.banffjaspercollection.com/attractions/banff-gondola/
+              - text: ride up Sulphur Mountain at dusk, as alpenglow tints the peaks apricot and the lights of town begin to twinkle below, may be entertainment enough (66 dollars per person, reserve online). But the annual, winter-only
+              - link "Nightrise" [ref=e193] [cursor=pointer]:
+                - /url: https://www.banffjaspercollection.com/attractions/banff-gondola/events/nightrise/
+              - text: enhances the experience with an immersive multimedia exhibit inside and outside the summit building (through March 30). With input from the Stoney Nakoda Nation, four separate installations evoke the mountain environment and Indigenous lore through music, video art and shimmering lights. From the top of the gondola, walk a little more than a half mile on the
+              - link "boardwalk and stairs" [ref=e194] [cursor=pointer]:
+                - /url: https://www.sulphurmountain.ca/Sulphur-Mountain-Boardwalk.html#:~:text=Sulphur%20Mountain%20Boardwalk%20Length%20%26%20Pathway,highest%20point%20of%20the%20mountain.
+              - text: to the remains of the
+              - link "Cosmic Ray Station" [ref=e195] [cursor=pointer]:
+                - /url: https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=5
+              - text: ", a 1902 weather observatory later turned international research lab in the 1950s (or take the guided tour, 20 dollars, on select weekend evenings). Then warm up with spiced wine (10 dollars) at the Nightrise patio bar back at the summit building."
+          - paragraph [ref=e201]: Nightrise on the Banff Gondola
+          - generic [ref=e202]:
+            - generic [ref=e203]: 8 p.m. Try unfussy Italian cuisine
+            - paragraph [ref=e205]:
+              - text: Fuel up for an active weekend at
+              - link "the Fat Ox" [ref=e206] [cursor=pointer]:
+                - /url: https://fatoxbanff.ca
+              - text: (reservations recommended) with favorites like 30-month-aged prosciutto with melon (25 dollars), tagliatelle with bison Bolognese (26 dollars) and spiced Tuscan fries, made of cornmeal instead of potatoes (15 dollars) — or splurge on a 16-ounce Alberta-sourced rib-eye with porcini mushroom ragù (94 dollars, serves two or more). Opened in summer 2024, this restaurant on the east side of town reflects Banff’s thriving dining scene, as one of several new spots that debuted in the past year. The popular Calgary chef Glen Manzer conceived the menu, and guests dine on flavorful, unfussy northern Italian fare at a mix of high-top and regular tables backed by long leather banquettes. The wine list is appropriately heavy on Italian pours.
+          - paragraph [ref=e212]: Spiced Tuscan fries are among the favorites at the Fat Ox.
+          - generic [ref=e213]:
+            - generic [ref=e214]: 9:30 p.m. Enjoy a sophisticated sip or join the barflies
+            - paragraph [ref=e216]:
+              - text: Banff’s most elegant cocktail venue is at the legendary
+              - link "Fairmont Banff Springs Hotel" [ref=e217] [cursor=pointer]:
+                - /url: https://www.fairmont.com/banff-springs/?goto=fiche_hotel&code_hotel=A550&merchantid=seo-maps-CA-A550&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTIzNjEzODctNzE1LWxvY2F0aW9uLndlYnNpdGU=
+              - text: south of downtown, opened in 1888 by the Canadian Pacific Railway and resembling a sprawling castle. Sink into a lounge chair (ideally, fireside) at the hotel’s living-room-like, two-level
+              - link "Rundle Bar" [ref=e218] [cursor=pointer]:
+                - /url: https://www.fairmont.com/banff-springs/dining/rundle-bar
+              - text: (named after a nearby peak) and sip on a signature cocktail like the Ember (28 dollars), a twist on an old-fashioned that includes smoky, maple-infused lapsang souchong tea. Prefer a divier vibe? For 40 years, the
+              - link "Rose and Crown" [ref=e219] [cursor=pointer]:
+                - /url: https://roseandcrown.ca/
+              - text: has anchored downtown’s bar scene. The second-floor space, with well-worn wood floors and low ceilings, draws late-night revelers to shoot pool, watch hockey games on TV, drink Kokanee on draft (9 dollars a pint) and shake it to live music nightly at 10 p.m.
+          - paragraph [ref=e225]: The Rose and Crown pub
+        - paragraph [ref=e230]: Banff offers awe-inspiring mountain views at every turn.
+        - generic [ref=e231]: Advertisement
+        - generic [ref=e232]:
+          - heading "Saturday" [level=2] [ref=e233]
+          - generic [ref=e234]:
+            - generic [ref=e235]: 9 a.m. Hit the slopes
+            - paragraph [ref=e237]:
+              - text: Choose from three options, collectively marketed as SkiBig3 (from 180 dollars for a
+              - link "one-day lift ticket" [ref=e238] [cursor=pointer]:
+                - /url: https://vacations.skibig3.com/products/lift-tickets
+              - text: ", or use the multi-mountain"
+              - link "Ikon Pass" [ref=e239] [cursor=pointer]:
+                - /url: https://www.ikonpass.com/
+              - text: from Alterra). Close to town, the compact
+              - link "Mount Norquay" [ref=e240] [cursor=pointer]:
+                - /url: https://banffnorquay.com/
+              - text: has served local skiers since 1926. At
+              - link "Banff Sunshine" [ref=e241] [cursor=pointer]:
+                - /url: https://www.skibanff.com/
+              - text: ", five miles away, a gondola offers access to the midmountain main village; from there, lifts serve more than 3,300 acres across three peaks, from sweeping groomed runs on Lookout Mountain to harrowing steeps that require avalanche gear to enter. Straddling the Continental Divide, the resort typically operates well into May. With 4,200 acres,"
+              - link "Lake Louise" [ref=e242] [cursor=pointer]:
+                - /url: https://www.skilouise.com/
+              - text: ", 32 miles from Banff, offers the most skiing, including the extensive back bowls. A new heated bubble lift makes lapping the expert terrain in the recently opened West Bowl quicker. Not a skier? Experience the high-alpine setting on a"
+              - link "guided snowshoe tour" [ref=e243] [cursor=pointer]:
+                - /url: https://www.whitemountainadventures.com/banff-snowshoeing-sunshine-meadows
+              - text: (149 dollars) at Banff Sunshine.
+          - paragraph [ref=e249]: Lake Louise ski resort, just 32 miles away from town, has a new bubble chairlift.
+          - generic [ref=e250]:
+            - generic [ref=e251]: 12:30 p.m. Stay on the mountain for a tasty bite
+            - paragraph [ref=e253]:
+              - text: At Lake Louise, ski to the midmountain
+              - link "Whitehorn Bistro" [ref=e254] [cursor=pointer]:
+                - /url: https://www.skilouise.com/dining/on-mountain-dining/whitehorn-bistro/
+              - text: for dishes like squash and sage gnocchi (28 dollars), a hearty seafood chowder (24 dollars) and cheese fondue (68 dollars), along with a view across the valley to peaks like Mount Temple and Fairview Mountain, and the Victoria Glacier. At Banff Sunshine, duck into
+              - link "Mad Trapper’s" [ref=e255] [cursor=pointer]:
+                - /url: https://www.skibanff.com/eat-shop/eat/village
+              - text: in the village, housed in a rustic log building from 1928 that used to be a lodge (check out the historic photos inside for a glimpse of the ski area’s past). In keeping with the restaurant’s vintage vibe, the offerings include classic ski fare like burgers (18 dollars), nachos (23 dollars) and, because it’s Canada, poutine (17 dollars).
+          - paragraph [ref=e261]: Whitehorn Bistro at the Lake Louise ski area
+          - generic [ref=e262]:
+            - generic [ref=e263]: 4 p.m. Dip into Canada’s highest-elevation hot springs
+            - paragraph [ref=e265]:
+              - text: Once back in town, do the traditional après-ski hot tub one better at
+              - link "Banff Upper Hot Springs" [ref=e266] [cursor=pointer]:
+                - /url: https://hotsprings.ca/banff/
+              - text: "on the side of Sulphur Mountain (17.50 dollars). The 200-person pool is large enough for swimming, but most guests just soak sore muscles in the mineral-rich water (between 98 and 104 degrees Fahrenheit) while gazing at Mount Rundle and other snowy peaks. There’s history, too: In 1883, railway workers found natural hot springs (now known as the"
+              - link "Cave and Basin site" [ref=e267] [cursor=pointer]:
+                - /url: https://parks.canada.ca/lhn-nhs/ab/caveandbasin
+              - text: ) at the base of Sulphur Mountain, which catalyzed the creation of the national park two years later. The upper springs drew visitors starting in 1884, and the current bathhouse dates to 1932. Fully embrace the retro vibe by renting a vintage-style unisex bathing suit (2.25 dollars) to wear in the springs.
+          - paragraph [ref=e273]: The pool at Banff Upper Hot Springs fits 200 people.
+          - generic [ref=e274]:
+            - generic [ref=e275]: 7 p.m. Make new friends over inventive fare
+            - paragraph [ref=e277]:
+              - text: Find some of Banff’s best food at
+              - link "Block Kitchen and Bar" [ref=e278] [cursor=pointer]:
+                - /url: https://www.banffblock.com/
+              - text: ", a matchbox-size restaurant in the downtown core that serves inventive Asian- and Mediterranean-inflected fare (reservations aren’t taken, so be prepared to wait). It has the genial feel of a neighborhood bar, but it’s not bar food the kitchen turns out. Try dishes like a boneless-beef-rib steamed bao bun with housemade kimchi (10.50 dollars per bun), flatbread with smoked bison and pumpkin seed pesto (27 dollars), and a risotto with three kinds of mushrooms and three types of rice in a mouthwatering Thai curry sauce (26 dollars). Cocktails also get creative treatment: The Open Sesame (18 dollars), for example, melds rye washed in sesame oil, prosecco and shiso bitters into a palate-pleasing elixir. A bonus for extroverts: Conversing with other diners is practically de rigueur."
+          - paragraph [ref=e284]: The Open Sesame cocktail at Block Restaurant and Bar
+          - generic [ref=e285]:
+            - generic [ref=e286]: 9 p.m. See local stars
+            - paragraph [ref=e288]:
+              - text: Picking out constellations amid an inky night sky instills a singular sense of awe, but with pervasive light pollution, the experience can be hard to come by. Not so in national parks, and Banff is no exception. Head to the expanse of
+              - link "Lake Minnewanka" [ref=e289] [cursor=pointer]:
+                - /url: https://www.banfflakelouise.com/experiences/lake-minnewanka
+              - text: ", about a 10-minute drive from town, for a prime star-gazing session. During the"
+              - link "current period of heightened solar activity" [ref=e290] [cursor=pointer]:
+                - /url: https://www.bbc.com/news/articles/cdjepzxjrjgo
+              - text: ", you may even be lucky enough to see the northern lights (locals flock to the lakeshore on these nights). Park at the well-signed day-use area along the lake’s western end, which has a few picnic tables as well as a wooden dock to sit on. Bring plenty of warm clothing and, ideally, a thermos of hot tea or cocoa."
+        - paragraph [ref=e295]: Winter in Banff is a perfect time to bundle up and enjoy the snow-blanketed natural splendor.
+        - generic [ref=e296]: Advertisement
+        - generic [ref=e297]:
+          - heading "Sunday" [level=2] [ref=e298]
+          - generic [ref=e299]:
+            - generic [ref=e300]: 8:30 a.m. Pick among the pastries
+            - paragraph [ref=e302]:
+              - text: For two decades, locals have loved the counter-service
+              - link "Wildflour Bakery" [ref=e303] [cursor=pointer]:
+                - /url: https://www.wildflourbakery.ca/
+              - text: downtown not only for its daily menu of breads, but for the filling breakfast sandwiches made with baked eggs, Cheddar, pepper and tomato jam on sourdough (12 dollars). It’s hard to ignore the tempting array of pastries, too, and you may well end up buying a maple-glazed twist (6 dollars) that’s the size of a salad plate for later. Another local favorite is the
+              - link "Whitebark Café" [ref=e304] [cursor=pointer]:
+                - /url: https://whitebarkcafe.com/
+              - text: in the Banff Aspen Lodge, where the baked goods are also made in-house, like a fluffy apple, Cheddar and bacon scone (5 dollars, ask for it heated, with butter). After ordering, sit at the long, white windowside counter for a close-up view of Mount Rundle’s distinctive wedge-shaped ridgeline.
+          - paragraph [ref=e310]: A coffee and baked treat at Wildflour Bakery
+          - generic [ref=e311]:
+            - generic [ref=e312]: 9:30 a.m. Ice, twice as nice
+            - paragraph [ref=e314]:
+              - text: Yes, it’s winter, so embrace the ice. One way is by visiting the fanciful formations of frozen waterfalls and cascades in
+              - link "Johnston Canyon" [ref=e315] [cursor=pointer]:
+                - /url: https://www.alltrails.com/trail/canada/alberta/johnston-canyon-to-upper-falls
+              - text: ", a 15.5-mile drive west of Banff. A three-mile round-trip snowpacked trail follows the creek, partly along suspended metal catwalks (with railings!); get an up-close look at the almost 100-foot-high upper falls from the end-of-trail viewing platform. Local outfitters lead"
+              - link "guided interpretive tours" [ref=e316] [cursor=pointer]:
+                - /url: https://www.banffadventures.com/things-to-do/johnston-canyon-icewalk/?_gl=1*mfgqyo*_up*MQ..*_ga*MjAwNjQxODQ4NS4xNzM4MDg4ODEx*_ga_FYLG9R6V4J*MTczODA4ODgwOS4xLjEuMTczODA4ODg1NS4wLjAuMA..
+              - text: (99 dollars), but you can easily hike the canyon yourself; consider
+              - link "renting small crampons" [ref=e317] [cursor=pointer]:
+                - /url: https://snowtips-bactrax.com/more-winter-adventures/
+              - text: (15 dollars) for better traction. Prefer gliding across the ice?
+              - link "Lake Louise" [ref=e318] [cursor=pointer]:
+                - /url: https://www.banfflakelouise.com/experiences/ice-skating-lake-louise
+              - text: is the classic place for skating in the national park, but closer to Banff, the
+              - link "Vermilion Lakes" [ref=e319] [cursor=pointer]:
+                - /url: https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/vermilion
+              - text: ", 1.5 miles from town and reassuringly shallow, make a good alternative."
+              - link "Rent a pair of skates" [ref=e320] [cursor=pointer]:
+                - /url: https://snowtips-bactrax.com/more-winter-adventures/
+              - text: (17.50 dollars) and,
+              - link "conditions permitting" [ref=e321] [cursor=pointer]:
+                - /url: https://parks.canada.ca/pn-np/ab/banff/activ/patinage-skating
+              - text: ", sample the wild ice, surrounded by a panorama of high peaks."
+          - paragraph [ref=e327]: In Johnston Canyon, a snowpacked trail follows the creek, partly along suspended metal catwalks.
+          - generic [ref=e328]:
+            - generic [ref=e329]: 12:30 p.m. Take off the chill with ramen
+            - paragraph [ref=e331]:
+              - text: Entering this hole-in-the-wall spot on the top floor of a small indoor shopping mall may seem inauspicious, but some Banff locals swear that
+              - link "Ramen Arashi" [ref=e332] [cursor=pointer]:
+                - /url: https://www.ramenarashi.com/
+              - text: serves some of the best ramen this side of Tokyo. Indeed, a steaming bowl of rich, fragrant black arashi ramen (18.95 dollars), flavored with black sesame, will warm every part of your body. You’ll slurp in close comfort with your neighbors at the eight-table restaurant, which makes up in flavor what it lacks in décor. At night, hungry would-be patrons sit in order of arrival on a bench outside, as Ramen Arashi doesn’t take reservations. Lunch usually requires less of a wait.
+          - paragraph [ref=e338]: Ramen Arashi’s rich, fragrant black arashi ramen, flavored with black sesame, takes away the winter chills.
+  - generic [ref=e343]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e345]:
+      - button "Read 245 comments" [ref=e347] [cursor=pointer]
+      - list [ref=e349]:
+        - listitem [ref=e350]:
+          - button "Share full article" [ref=e353] [cursor=pointer]:
+            - generic [ref=e354]:
+              - img [ref=e355]
+              - text: Share full article
+        - listitem [ref=e357]:
+          - button "More sharing options ..." [ref=e360] [cursor=pointer]:
+            - img [ref=e361]
+        - listitem [ref=e363]:
+          - switch "Save article for reading later..." [ref=e364] [cursor=pointer]:
+            - img [ref=e365]
+        - listitem [ref=e369]:
+          - button "Read 245 comments" [ref=e370] [cursor=pointer]:
+            - generic [ref=e371]:
+              - img [ref=e372]
+              - text: "245"
+    - region "Related Content" [ref=e375]:
+      - heading "Related Content" [level=2] [ref=e376]
+      - generic [ref=e377]:
+        - list [ref=e382]:
+          - listitem [ref=e383]:
+            - figure [ref=e389]
+          - listitem [ref=e391]:
+            - figure [ref=e397]
+          - listitem [ref=e399]:
+            - figure [ref=e405]
+          - listitem [ref=e407]:
+            - figure [ref=e413]
+          - listitem [ref=e415]:
+            - figure [ref=e421]
+          - listitem [ref=e423]:
+            - figure [ref=e429]
+        - list [ref=e435]:
+          - listitem [ref=e436]:
+            - figure [ref=e442]
+          - listitem [ref=e444]:
+            - figure [ref=e450]
+          - listitem [ref=e452]:
+            - figure [ref=e458]
+      - list [ref=e465]:
+        - listitem [ref=e466]
+        - listitem [ref=e471]
+        - listitem [ref=e476]
+        - listitem [ref=e481]
+        - listitem [ref=e486]
+        - listitem [ref=e491]
+        - listitem [ref=e496]
+        - listitem [ref=e501]
+        - listitem [ref=e506]
+        - listitem [ref=e511]
+    - generic [ref=e516]:
+      - paragraph [ref=e518]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e519] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e521]:
+      - heading "Site Index" [level=2] [ref=e522]
+    - contentinfo [ref=e524]:
+      - navigation [ref=e525]:
+        - heading "Site Information Navigation" [level=2] [ref=e526]
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - link "© 2026 The New York Times Company" [ref=e529] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e530]:
+          - listitem [ref=e531]:
+            - link "NYTCo" [ref=e532] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e533]:
+            - link "Contact Us" [ref=e534] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e535]:
+            - link "Accessibility" [ref=e536] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e537]:
+            - link "Work with us" [ref=e538] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e539]:
+            - link "Advertise" [ref=e540] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e541]:
+            - link "T Brand Studio" [ref=e542] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e543]:
+            - link "Privacy Policy" [ref=e544] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e545]:
+            - link "Cookie Policy" [ref=e546] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e547]:
+            - link "Terms of Service" [ref=e548] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e549]:
+            - link "Terms of Sale" [ref=e550] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e551]:
+            - link "Site Map" [ref=e552] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e553]:
+            - link "Help" [ref=e554] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e555]:
+            - link "Subscriptions" [ref=e556] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e557]:
+          - listitem [ref=e558]:
+            - button "Your Privacy Choices" [ref=e559] [cursor=pointer]:
+              - img [ref=e560]
+              - text: Your Privacy Choices

@@ -1,0 +1,631 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - figure "scoop-picture" [ref=e38]:
+            - img "A view over a harbor with docked boats at dusk. The sky is turning orange at the horizon. In the foreground is a New England-style house with a weather vane on the roof." [ref=e42]
+          - generic [ref=e43]:
+            - link "36 Hours" [ref=e46] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e48]: Martha’s Vineyard
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "Jump to:"
+            - link "Recommendations" [ref=e53] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e55] [cursor=pointer]:
+              - /url: "#itinerary"
+            - link "Google Map" [ref=e57] [cursor=pointer]:
+              - /url: https://goo.gl/maps/HJYQ1UtvBhY77pfq9
+            - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e60]:
+              - list [ref=e62]:
+                - listitem [ref=e63]:
+                  - button "Share full article" [ref=e66] [cursor=pointer]:
+                    - generic [ref=e67]:
+                      - img [ref=e68]
+                      - text: Share full article
+                - listitem [ref=e70]:
+                  - button "More sharing options ..." [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+                - listitem [ref=e76]:
+                  - switch "Save article for reading later..." [ref=e77] [cursor=pointer]:
+                    - img [ref=e78]
+                - listitem [ref=e82]:
+                  - button "Read 254 comments" [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]:
+                      - img [ref=e85]
+                      - text: "254"
+          - generic [ref=e87]:
+            - generic [ref=e88]: By Remy Tumin
+            - generic [ref=e89]: Photographs by Randi Baird
+            - generic [ref=e90]: June 29, 2023
+            - generic [ref=e91]: Remy Tumin is a breaking news reporter for The New York Times. She was previously a reporter for The Vineyard Gazette, based on Martha’s Vineyard, and travels to the island frequently.
+          - paragraph [ref=e92]:
+            - text: Step off the ferry and inhale that salt air deeply — that is a feeling that has called visitors back to this island off the coast of southeastern Massachusetts year after year. The Vineyard, with a
+            - link "history" [ref=e93] [cursor=pointer]:
+              - /url: https://www.bostonmagazine.com/news/2016/07/31/clintons-obamas-marthas-vineyard/
+            - text: of
+            - link "presidential" [ref=e94] [cursor=pointer]:
+              - /url: https://www.nytimes.com/1997/08/24/us/on-martha-s-vineyard-news-is-relative.html
+            - link "visitors" [ref=e95] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2016/08/07/us/politics/obama-arrives-in-marthas-vineyard-for-two-week-vacation.html
+            - text: ", has a reputation as a"
+            - link "respite" [ref=e96] [cursor=pointer]:
+              - /url: https://mvmagazine.com/news/2021/02/24/and-house-jackie-built
+            - text: for the elite, a narrative that prompted Gov. Ron DeSantis of Florida to
+            - link "send two planeloads of migrants" [ref=e97] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2022/09/14/us/desantis-florida-migrants-marthas-vineyard.html
+            - text: there without warning last fall, throwing the island in the national spotlight once again. In spite of the stereotypes, the Vineyard’s many cultures — African American, Brazilian, Jamaican and islanders that go back dozens of generations or far more, including Native Americans — have come to redefine this longtime summer destination as a place of community and joy.
+        - generic [ref=e98]: Advertisement
+        - generic [ref=e99]:
+          - heading "Recommendations" [level=2] [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e104]: –
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - strong [ref=e107]:
+                    - link "Joseph Sylvia State Beach" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.dukescounty.org/natural-resources/pages/joseph-sylvia-state-beach
+                  - strong [ref=e109]: ","
+                  - text: a more-than-two-mile-long barrier beach along Nantucket Sound, offers easy swimming and is very accessible.
+                - listitem [ref=e110]:
+                  - strong [ref=e111]:
+                    - link "Mo’s Lunch" [ref=e112] [cursor=pointer]:
+                      - /url: https://www.moslunch.com/
+                  - text: ", a small takeaway counter within the hall of a Portuguese American Club, has sizable sandwiches for a perfect picnic lunch."
+                - listitem [ref=e113]:
+                  - strong [ref=e114]:
+                    - link "The Gay Head Lighthouse" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.gayheadlight.org/
+                  - text: offers panoramic views of the dizzying colors in the clay cliffs below.
+                - listitem [ref=e116]:
+                  - strong [ref=e117]:
+                    - link "The Old Whaling Church" [ref=e118] [cursor=pointer]:
+                      - /url: https://vineyardtrust.org/property/old-whaling-church/
+                  - text: epitomizes Edgartown's whaling history and is a top sight in a stroll through the town's Greek Revival and Federal-style architecture.
+            - generic [ref=e119]:
+              - generic [ref=e120] [cursor=pointer]:
+                - text: Attractions and outdoor activities
+                - generic [ref=e121]: +
+              - list:
+                - listitem [ref=e122]:
+                  - strong [ref=e123]:
+                    - link "Wesleyan Grove" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.mvcma.org/
+                  - strong [ref=e125]: ","
+                  - text: a historic district in Oak Bluffs, is home to most of the town’s brightly colored gingerbread cottages.
+                - listitem [ref=e126]:
+                  - strong [ref=e127]:
+                    - link "Felix Neck Wildlife Sanctuary" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/felix-neck
+                  - text: has four miles of trails that show off the Vineyard’s diverse but fragile ecosystem.
+                - listitem [ref=e129]:
+                  - strong [ref=e130]:
+                    - link "Island Spirit Kayak" [ref=e131] [cursor=pointer]:
+                      - /url: https://www.islandspiritkayak.com/
+                  - text: rents kayaks and stand-up paddleboards to cruise around Sengekontacket Pond and Joseph Sylvia State Beach.
+                - listitem [ref=e132]:
+                  - strong [ref=e133]:
+                    - link "Lambert’s Cove Beach" [ref=e134] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/place/Lambert's+Cove+Beach,+West+Tisbury,+MA+02568/data=!4m2!3m1!1s0x89e5267df9fa005f:0x7b686d2d9f019f9d?sa=X&ved=2ahUKEwiF5cn6veT_AhUqkIkEHZv_CdQQ8gF6BAhXEAA&ved=2ahUKEwiF5cn6veT_AhUqkIkEHZv_CdQQ8gF6BAhiEAE
+                  - text: is for West Tisbury residents only, but in the early morning and evening, when parking restrictions aren’t enforced, anyone can jump into the turquoise waters.
+                - listitem [ref=e135]:
+                  - strong [ref=e136]:
+                    - link "Morning Glory Farm" [ref=e137] [cursor=pointer]:
+                      - /url: https://morninggloryfarm.com/
+                  - text: ", the largest farm stand on the island, sells its own produce, flowers and prepared foods as well as other island-grown goods."
+            - generic [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]:
+                - text: Shopping and galleries
+                - generic [ref=e140]: +
+              - list:
+                - listitem [ref=e141]:
+                  - strong [ref=e142]:
+                    - link "Edgartown Books" [ref=e143] [cursor=pointer]:
+                      - /url: https://www.edgartownbooks.com/
+                  - text: frequently hosts book signings on its front porch for local authors and Pulitzer Prize winners alike.
+                - listitem [ref=e144]:
+                  - strong [ref=e145]:
+                    - link "Salte" [ref=e146] [cursor=pointer]:
+                      - /url: https://saltemv.com/
+                  - text: offers a collection of housewares, local art and sun essentials that make you feel like you are in a dreamy vacation home.
+                - listitem [ref=e147]:
+                  - strong [ref=e148]:
+                    - link "North Water Gallery" [ref=e149] [cursor=pointer]:
+                      - /url: https://northwatergallery.com/
+                  - text: showcases some of the island’s best creative talent.
+                - listitem [ref=e150]:
+                  - strong [ref=e151]:
+                    - link "Aquila MV" [ref=e152] [cursor=pointer]:
+                      - /url: https://aquilamv.square.site/
+                  - text: and
+                  - strong [ref=e153]:
+                    - link "the Gay Head Store" [ref=e154] [cursor=pointer]:
+                      - /url: https://www.instagram.com/thegayheadstore/
+                  - text: ", both Native-owned and near the Gay Head Lighthouse, offer coffee and local souvenirs, among other goods."
+            - generic [ref=e155]:
+              - generic [ref=e156] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e157]: +
+              - list:
+                - listitem [ref=e158]:
+                  - strong [ref=e159]:
+                    - link "Nancy’s" [ref=e160] [cursor=pointer]:
+                      - /url: https://www.nancysrestaurant.com/
+                  - text: serves seafood shack standbys and Mediterranean fare right on the harbor. It has a lively bar downstairs,
+                  - strong [ref=e161]: Donovan’s Reef
+                  - text: .
+                - listitem [ref=e162]:
+                  - strong [ref=e163]:
+                    - link "The Pawnee House" [ref=e164] [cursor=pointer]:
+                      - /url: https://www.thepawneehousemv.com/
+                  - text: offers a retreat from a busy dining scene with an expansive menu and creative cocktails.
+                - listitem [ref=e165]:
+                  - strong [ref=e166]:
+                    - link "The Ritz" [ref=e167] [cursor=pointer]:
+                      - /url: https://www.theritzmv.com/the-bar
+                  - text: is a dive bar perfect for singing along with live cover bands.
+                - listitem [ref=e168]:
+                  - strong [ref=e169]:
+                    - link "Red Cat Kitchen" [ref=e170] [cursor=pointer]:
+                      - /url: https://www.redcatkitchen.com/
+                  - text: has a porch to take in the summer scene with a house-made punch in hand.
+                - listitem [ref=e171]:
+                  - strong [ref=e172]:
+                    - link "Ben & Bill’s Chocolate Emporium" [ref=e173] [cursor=pointer]:
+                      - /url: https://www.benandbillsmv.com/
+                  - text: has lines out the door for ice cream and candy hauls.
+                - listitem [ref=e174]:
+                  - strong [ref=e175]:
+                    - link "Larsen’s Fish Market" [ref=e176] [cursor=pointer]:
+                      - /url: https://www.larsensfishmarket.com/
+                  - text: and
+                  - strong [ref=e177]:
+                    - link "Menemsha Fish Market" [ref=e178] [cursor=pointer]:
+                      - /url: https://www.menemshafishmarket.com/
+                  - text: provide lobster traps and long benches to sit on while you enjoy your oysters (just watch out for diving seagulls).
+                - listitem [ref=e179]:
+                  - strong [ref=e180]:
+                    - link "The Homeport" [ref=e181] [cursor=pointer]:
+                      - /url: https://www.thehomeportmv.com/
+                  - text: has a dining room that overlooks Vineyard Sound, meaning you will have a perfect view no matter the weather.
+                - listitem [ref=e182]:
+                  - strong [ref=e183]:
+                    - link "Menemsha Galley" [ref=e184] [cursor=pointer]:
+                      - /url: https://menemshagalley.com/
+                  - text: is perfect for a lobster roll, a fish sandwich or a burger, but don’t skimp on the soft-serve ice cream dipped in chocolate.
+                - listitem [ref=e185]:
+                  - strong [ref=e186]:
+                    - link "Dock Street Coffee Shop" [ref=e187] [cursor=pointer]:
+                      - /url: https://www.facebook.com/DockStreetCoffeeShop/
+                  - strong [ref=e188]: ","
+                  - text: a single-counter greasy spoon, hasn’t changed much in its nearly 50-year history.
+            - generic [ref=e189]:
+              - generic [ref=e190] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e191]: +
+              - list:
+                - listitem [ref=e192]:
+                  - strong [ref=e193]:
+                    - link "The Harborside Inn" [ref=e194] [cursor=pointer]:
+                      - /url: https://www.theharborsideinn.com/our-resort/
+                  - text: in Edgartown is spread out in a handful of historic buildings along the waterfront, with the oldest house dating back to the 1700s. Newer buildings and amenities have been added over the years, including a pool overlooking the harbor. Rooms from $325.
+                - listitem [ref=e195]:
+                  - strong [ref=e196]:
+                    - link "Summercamp" [ref=e197] [cursor=pointer]:
+                      - /url: https://www.larkhotels.com/hotels/summercamp
+                  - text: in Oak Bluffs has hosted guests at the base of the Methodist campground, on a site overlooking the harbor, since 1879 (with different names and owners) but went through an extensive remodeling in 2016. Rooms from $300.
+                - listitem [ref=e198]:
+                  - text: Finding an inexpensive place to stay is not easy on the Vineyard, but the
+                  - strong [ref=e199]:
+                    - link "HI Martha’s Vineyard Hostel" [ref=e200] [cursor=pointer]:
+                      - /url: https://www.hiusa.org/find-hostels/massachusetts/west-tisbury-525-edgartown-w-tisbury-road
+                  - text: in West Tisbury has beds in shared dorm rooms from $50 a night.
+            - generic [ref=e201]:
+              - generic [ref=e202] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e203]: +
+              - list:
+                - listitem [ref=e204]:
+                  - text: The easiest way to get around is by
+                  - strong [ref=e205]: car,
+                  - text: and there are plenty of car rentals; the
+                  - link "Steamship Authority" [ref=e206] [cursor=pointer]:
+                    - /url: https://www.steamshipauthority.com/
+                  - text: also has a car ferry, but reservations can be hard to come by.
+                  - link "The Vineyard Transit Authority" [ref=e207] [cursor=pointer]:
+                    - /url: https://www.vineyardtransit.com/
+                  - text: has
+                  - strong [ref=e208]: bus
+                  - text: routes across the island. There are several private
+                  - strong [ref=e209]: taxi
+                  - text: companies, and the ride-sharing apps
+                  - strong [ref=e210]: Uber
+                  - text: and
+                  - strong [ref=e211]: Lyft
+                  - text: also have drivers.
+                - listitem [ref=e212]: "Remember that the island is divided into two directionals: “Down island” refers to Edgartown, Oak Bluffs and Vineyard Haven in the east, while “up island” is West Tisbury, Chilmark and Aquinnah in the west. (The phrases are based on nautical terminology.)"
+        - generic [ref=e213]:
+          - heading "Itinerary" [level=2] [ref=e214]
+          - paragraph [ref=e215]: Friday
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - 'img "A row of cottages: Each are brightly painted in different colors, and have front porches. The one in the foreground has an American flag displayed."'
+          - generic [ref=e216]:
+            - generic [ref=e217]: 6 p.m. Walk among the colorful cottages
+            - generic [ref=e218]:
+              - text: Catch Oak Bluffs, an eclectic town on the island’s northeastern shore, as the sun begins to peek through the ornate cutouts of the gingerbread cottages that have lined the downtown streets for more than 160 years. The brightly colored houses were built by a
+              - link "Methodist movement" [ref=e219] [cursor=pointer]:
+                - /url: https://www.mvcma.org/history-1
+              - text: for their growing community and mimic the tents its members originally gathered in. Many of the 300-plus original cottages can be found in Wesleyan Grove, the historic district encompassing the
+              - link "old campground" [ref=e220] [cursor=pointer]:
+                - /url: https://buildingsofnewengland.com/tag/wesleyan-grove/
+              - text: . Afterward, stroll a few minutes east to admire some of Oak Bluffs’ grandest homes, which line Ocean Park, including the
+              - link "Joe Overton House" [ref=e221] [cursor=pointer]:
+                - /url: https://mvafricanamericanheritagetrail.org/trail-sites/town-of-oak-bluffs/
+              - text: ", a Victorian mansion built in 1875 that was eventually owned by a Black union organizer from Harlem, for whom it is named today. The house was a frequent destination for civil rights leaders, including the Rev. Dr. Martin Luther King Jr., and is part of"
+              - link "a vibrant tradition of African Americans in Oak Bluffs" [ref=e222] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2021/09/24/travel/black-travel-marthas-vineyard.html
+              - text: .
+          - generic [ref=e223]:
+            - generic [ref=e224]: 7 p.m. Have dinner on the harbor
+            - generic [ref=e225]:
+              - text: Summer is on full display along Oak Bluffs harbor, where ferries and charter fishing boats pull right up to a dock full of bars and restaurants.
+              - link "Nancy’s Restaurant" [ref=e226] [cursor=pointer]:
+                - /url: https://www.nancysrestaurant.com/
+              - text: ", a sprawling, multilevel space that has anchored the waterfront for more than 60 years, serves seafood classics like local littleneck clam linguine ($35) and fish tacos ($23) along with Mediterranean staples like fattoush salad ($17). While you wait for your table, head downstairs to"
+              - link "Donovan’s Reef" [ref=e227] [cursor=pointer]:
+                - /url: https://www.mvtimes.com/2018/07/25/guess-whos-back/
+              - text: ", where Donovan Clarke, for whom the bar is named, holds court, pouring Dirty Bananas (a riff on the mudslide cocktail, $13) every summer, when he travels to the island from Jamaica, part of a robust international summer workforce. If Nancy’s is packed, try the"
+              - link "Pawnee House" [ref=e228] [cursor=pointer]:
+                - /url: https://www.thepawneehousemv.com/
+              - text: ", a quiet bistro on a corner of Kennebec Avenue with an expansive menu including vegan options and creative cocktails."
+          - figure "scoop-picture" [ref=e230]:
+            - img "A person wearing glasses and a short-sleeved shirt sings into a microphone next to a guitar player. Nearby, people appear to be dancing. The ceiling is rigged with rows of brightly colored string lights." [ref=e234]
+            - generic [ref=e235]: The Ritz
+          - generic [ref=e236]:
+            - generic [ref=e237]: 9 p.m. Dance in a dive bar
+            - generic [ref=e238]:
+              - text: Music has long been an integral part of the Vineyard (the island was a folk-music destination in the 1960s, drawing the likes of
+              - link "James Taylor and Carly Simon" [ref=e239] [cursor=pointer]:
+                - /url: https://vineyardgazette.com/news/2011/07/28/when-going-viral-meant-passing-posters-folkies-all-flocked-moon-cusser
+              - text: ); these days, there is
+              - link "live music" [ref=e240] [cursor=pointer]:
+                - /url: https://calendar.vineyardgazette.com/
+              - text: every night of the week during the summer.
+              - link "The Ritz" [ref=e241] [cursor=pointer]:
+                - /url: https://www.theritzmv.com/shows
+              - text: ", a year-round dive bar with live music (entry $5), will have you dancing to local bands like"
+              - link "Johnny Hoy and the Bluefish" [ref=e242] [cursor=pointer]:
+                - /url: http://www.johnnyhoyandthebluefish.com/
+              - text: and
+              - link "the Dukes of Circuit Avenue" [ref=e243] [cursor=pointer]:
+                - /url: https://www.instagram.com/thedukesmv/?hl=en
+              - text: . Up the block, you can watch the summer crowds from the porch bar at
+              - link "Red Cat Kitchen" [ref=e244] [cursor=pointer]:
+                - /url: https://www.redcatkitchen.com/
+              - text: ", where"
+              - link "punches" [ref=e245] [cursor=pointer]:
+                - /url: https://www.redcatkitchen.com/cocktails
+              - text: (from $17) and
+              - link "nonalcoholic cocktails" [ref=e246] [cursor=pointer]:
+                - /url: https://www.redcatkitchen.com/zeroproof
+              - text: (about $11) go down easy. For a respite from the noise, you can get ice cream at
+              - link "Ben & Bill’s Chocolate Emporium" [ref=e247] [cursor=pointer]:
+                - /url: https://www.benandbillsmv.com/
+              - text: ": Adventurous eaters may reach for the lobster flavor (if you really think you’ll like the taste of frozen crustacean, go crazy), but classics like peach and black forest are the real winners."
+        - figure "scoop-picture" [ref=e248]:
+          - img "Two people arrange flowers in black plastic pots that rest on white trestle tables set up on long grass." [ref=e252]
+          - generic [ref=e253]: Morning Glory Farm, a five-minute drive from Edgartown, has a market overflowing with island-grown vegetables and flowers, baked goods and prepared foods.
+        - generic [ref=e254]: Advertisement
+        - generic [ref=e255]:
+          - paragraph [ref=e256]: Saturday
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A winding outdoor path covered in woodchips. There are trees and wild shrubbery on either sides of the path."
+          - generic [ref=e257]:
+            - generic [ref=e258]: 9 a.m. Hike peaceful marshes and meadows
+            - generic [ref=e259]:
+              - text: About 40 percent of Vineyard land is
+              - link "protected" [ref=e260] [cursor=pointer]:
+                - /url: https://www.mvcommission.org/open-space-protection
+              - text: ", managed primarily by conservation groups that are seeking to preserve the island’s fragile ecosystem. Much of that land is accessible by public walking trails."
+              - link "Felix Neck Wildlife Sanctuary" [ref=e261] [cursor=pointer]:
+                - /url: https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/felix-neck
+              - text: ", more than 200 acres along the island’s northeastern shoreline managed by the Massachusetts Audubon Society, has four miles of trails along Sengekontacket Pond that capture nearly everything the island has to offer: woodlands, meadows, ponds, salt marshes and shorelines. If you’re lucky, you’ll see an osprey soar, most likely looking for food to bring back to a nearby nest on top of a pole. The trails are open daily from dawn to dusk ($4 for adults, members are free). If you’re looking to explore further, download"
+              - link "TrailsMV" [ref=e262] [cursor=pointer]:
+                - /url: https://sheriffsmeadow.org/trailsmv-app/
+              - text: ", a free app created by another conservation group and the official guide to all of the public trails on the Vineyard."
+          - generic [ref=e263]:
+            - generic [ref=e264]: 11:30 a.m. Pack a beach picnic
+            - generic [ref=e265]:
+              - text: You’ll need to recharge after your hike, and
+              - link "Mo’s Lunch" [ref=e266] [cursor=pointer]:
+                - /url: https://www.moslunch.com/
+              - text: is worth the short drive to Oak Bluffs. The small takeaway counter opened in 2021 inside the hall of the Portuguese American Club, the home of a
+              - link "benevolent group" [ref=e267] [cursor=pointer]:
+                - /url: http://holyghostassociation.com/
+              - text: with roots in the island’s seafaring Portuguese heritage. Sandwiches like a cauliflower melt ($14) and an Italian sub ($15) are big enough to split, but there’s a pretty good chance you won’t want to share. Behind the counter, desserts like Key lime bars ($5) and big cookies with sprinkles ($3.50) are stacked high like something out of a Baroque still life. You can eat at a few tables inside the hall, but these generous sandwiches and sweet treats are best enjoyed on the beach.
+          - generic [ref=e268]:
+            - generic [ref=e269]: 12 p.m. Visit ‘Jaws’ without the bite
+            - generic [ref=e270]:
+              - text: An afternoon at
+              - link "Joseph Sylvia State Beach" [ref=e271] [cursor=pointer]:
+                - /url: https://www.dukescounty.org/natural-resources/pages/joseph-sylvia-state-beach
+              - text: ", a 2.2-mile-long barrier beach that divides Sengekontacket Pond and Nantucket Sound, has options for adventurers and beach bums. Take out a kayak or a stand-up paddleboard to explore the pond;"
+              - link "Island Spirit Kayak" [ref=e272] [cursor=pointer]:
+                - /url: https://www.islandspiritkayak.com/
+              - text: ", a kiosk near Little Bridge, rents either option at $30 an hour and also offers guided group tours. Or just park yourself beachside along the bay’s calm blue waters. Driving farther down the beach on Beach Road, you’ll cross what locals refer to as Big Bridge and what movie fans will recognize from the scene of a monster shark attack in “Jaws,” which was filmed on the island in 1974. But there is nothing scary about these waters, which make it easy to swim out to nearby sandbars."
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Sheep standing in long grass during the daytime. Behind the sheep is a low fence made of large gray stones."
+          - generic [ref=e273]:
+            - generic [ref=e274]: 3 p.m. Head up-island
+            - generic [ref=e275]:
+              - text: Spend an afternoon in Aquinnah, on the Vineyard’s western tip. The town,
+              - link "the ancestral home of Wampanoag Tribe," [ref=e276] [cursor=pointer]:
+                - /url: https://wampanoagtribe-nsn.gov/wampanoag-history
+              - text: was formerly called Gay Head, named by settlers for its brightly colored clay cliffs, before the residents
+              - link "voted to restore its original name" [ref=e277] [cursor=pointer]:
+                - /url: https://vineyardgazette.com/news/2018/05/17/aquinnah-officially-turns-20-gay-head-name-endures
+              - text: in the late 1990s. You can see the kaleidoscopic patterns from the top of the
+              - link "Gay Head Lighthouse" [ref=e278] [cursor=pointer]:
+                - /url: https://www.gayheadlight.org/
+              - text: ", which was built in 1799 (open 10 a.m. to 4 p.m., $6) or from a nearby overlook, where a kiosk shares history about the Aquinnah Wampanoag. Stop by one of the nearby shops, which are all managed by tribal members, like"
+              - link "the Gay Head Store" [ref=e279] [cursor=pointer]:
+                - /url: https://www.instagram.com/thegayheadstore/
+              - text: or
+              - link "Aquila MV" [ref=e280] [cursor=pointer]:
+                - /url: https://aquilamv.square.site/
+              - text: for a refreshment.
+          - generic [ref=e281]:
+            - generic [ref=e282]: 6 p.m. Slurp oysters on the dock
+            - generic [ref=e283]:
+              - text: In the heart of the town of Chilmark, in the island’s southwestern corner, is the fishing village of Menemsha, where boats bring in a fresh catch and the United States Coast Guard operates a rescue station. While many of the great island fishing families have largely put down their rods and nets, the Larsen family has for decades owned and operated
+              - link "Larsen’s Fish Market" [ref=e284] [cursor=pointer]:
+                - /url: https://www.larsensfishmarket.com/
+              - text: and
+              - link "Menemsha Fish Market" [ref=e285] [cursor=pointer]:
+                - /url: https://www.menemshafishmarket.com/
+              - text: ", two neighboring places along Dutcher Dock where you can slurp down a dozen oysters (about $34). Try a mix of oysters from both Katama Bay (larger and brinier) and West Tisbury (smaller and sweeter). Parking can be an issue, so the transit authority offers a free shuttle known as the"
+              - link "Sunset Bus" [ref=e286] [cursor=pointer]:
+                - /url: https://www.vineyardtransit.com/sites/g/files/vyhlif5126/f/uploads/rt_12_is_23_rev.pdf
+              - text: between a parking lot up the road and the village.
+          - figure "scoop-picture" [ref=e288]:
+            - img "A view of a metal tray with cooked lobster, a corn cob, a baked potato and corn bread. A pair of hands are breaking open a piece of the lobster." [ref=e292]
+            - generic [ref=e293]: The Homeport
+          - generic [ref=e294]:
+            - generic [ref=e295]: 7 p.m. Eat a fish dinner by the water
+            - generic [ref=e296]:
+              - link "The Homeport" [ref=e297] [cursor=pointer]:
+                - /url: https://www.thehomeportmv.com/menus/
+              - text: "has been a cornerstone of Menemsha’s (small) dining scene since 1930, serving lobster dinners and local catch from a spot overlooking Menemsha Pond and Vineyard Sound. The restaurant, which came into new ownership last year, offers three courses for $79: Smoked bluefish pâté, fried fluke and chips, and a slice of peach pie capture the essence of a Vineyard meal. Chilmark is the last dry town on the island, so be sure to bring your own bottle of rosé ($15 corkage fee). The restaurant also offers complimentary parking. For something a little more low-key,"
+              - link "Menemsha Galley" [ref=e298] [cursor=pointer]:
+                - /url: https://menemshagalley.com/
+              - text: serves burgers ($9), fish sandwiches ($14.50), lobster rolls ($27) and soft-serve ice cream ($6) and has a small deck in the back with a view of fishing shacks.
+        - figure "scoop-picture" [ref=e299]:
+          - img "Red cliffs seen from across a calm body of water at dusk. The top of a lighthouse peeks from behind the cliffs." [ref=e303]
+          - generic [ref=e304]: The town of Aquinnah is home to the Wampanoag Tribe’s ancestral lands. Visitors can see its brightly colored clay cliffs from the top of the Gay Head Lighthouse.
+        - generic [ref=e305]: Advertisement
+        - generic [ref=e306]:
+          - paragraph [ref=e307]: Sunday
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A wooden path leading downhill to a calm beach in the daytime. Two people make their way from the sand towards to wooden path with a dog."
+          - generic [ref=e308]:
+            - generic [ref=e309]: 8 a.m. Start your day with a swim
+            - generic [ref=e310]:
+              - text: Many of the Vineyard’s beaches are restricted to town residents with parking and walk-on passes during the summer months; others are privately owned and gated, a system that dates back to
+              - link "a 17th-century law" [ref=e311] [cursor=pointer]:
+                - /url: https://vineyardgazette.com/news/2012/08/02/peek-past-gate-key-beaches
+              - text: intended to encourage property owners to invest in the waterfront. But if you go before 9 a.m. or after 6 p.m., anyone can enjoy the calm waters and white sands of
+              - link "Lambert’s Cove Beach" [ref=e312] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Lambert's+Cove+Beach,+West+Tisbury,+MA+02568/data=!4m2!3m1!1s0x89e5267df9fa005f:0x7b686d2d9f019f9d?sa=X&ved=2ahUKEwiF5cn6veT_AhUqkIkEHZv_CdQQ8gF6BAhXEAA&ved=2ahUKEwiF5cn6veT_AhUqkIkEHZv_CdQQ8gF6BAhiEAE
+              - text: in West Tisbury. Walk down the oak-shrouded path, leave your sandals at the base of the dune, and wander through the beach plums to find this protected bay beach along Vineyard Sound. Just make sure to leave by 9 a.m., when parking is enforced.
+          - generic [ref=e313]:
+            - generic [ref=e314]: 10 a.m. Stroll past the homes of old whaling captains
+            - generic [ref=e315]:
+              - text: Edgartown was the Vineyard’s first colonial settlement and went on to become a major 19th-century whaling port. Much of that history — and the wealth it generated — is still visible in the town’s Greek Revival and Federal-style homes that have been preserved over the centuries, with the
+              - link "Old Whaling Church" [ref=e316] [cursor=pointer]:
+                - /url: https://vineyardtrust.org/property/old-whaling-church/
+              - text: ", which was built in 1843 and mimics an ancient temple, as the crown jewel. School, South Water and North Water Streets are lined with homes that once belonged to whaling captains, and if you look closely, you’ll see plaques with names of the captains and years the houses were built. After your stroll, pull up a stool at the"
+              - link "Dock Street Coffee Shop" [ref=e317] [cursor=pointer]:
+                - /url: https://www.facebook.com/DockStreetCoffeeShop/
+              - text: ", a single-counter greasy spoon, and recharge with eggs and home fries ($8)."
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A person walks down a shaded retail street in the daytime. In the foreground is a store with a blue awning, a blue door and blue planter boxes."
+          - generic [ref=e318]:
+            - generic [ref=e319]: 11 a.m. Forget the past, embrace the presents
+            - generic [ref=e320]:
+              - text: "Edgartown is not just nautical history and immaculately groomed roses and hydrangeas pouring over white fences: There is also plenty of shopping to be done."
+              - link "Edgartown Books" [ref=e321] [cursor=pointer]:
+                - /url: https://www.edgartownbooks.com/
+              - text: has titles from local authors and Pulitzer Prize winners alike, and frequently hosts both for book signings on its front porch. When you walk into
+              - link "Salte" [ref=e322] [cursor=pointer]:
+                - /url: https://saltemv.com/
+              - text: on South Water Street, you might think it’s another want-everything-need-nothing store, but its collection of housewares, local art and sun essentials, with a cool, contemporary design inside a historic building, is the perfect respite on a hot summer day. Down the block, the walls of the
+              - link "North Water Gallery" [ref=e323] [cursor=pointer]:
+                - /url: https://northwatergallery.com/
+              - text: display Vineyard life — rolling hills, golden light and working harbors — at its finest. Their collection includes Ray Ellis, whose work appears in the permanent collection at the White House.
+          - generic:
+            - figure "scoop-picture":
+              - generic:
+                - generic:
+                  - generic:
+                    - img "A close up view of colorful flower bouquets."
+          - generic [ref=e324]:
+            - generic [ref=e325]: 1 p.m. Lunch on the farm
+            - generic [ref=e326]:
+              - link "Morning Glory Farm" [ref=e327] [cursor=pointer]:
+                - /url: https://morninggloryfarm.com/
+              - text: ", a five-minute drive from Edgartown, began selling vegetables out of a shed nearly 50 years ago. In the decades since, the Athearn family has transformed it into a market overflowing with island-grown vegetables and flowers, baked goods and prepared foods. The farm stand also sells island-made goods like the award-winning"
+              - link "Prufrock cheese" [ref=e328] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2022/01/10/dining/grey-barn-prufrock-cheese-marthas-vineyard.html?utm_source=nytimes
+              - text: ", a washed-rind variety from"
+              - link "the Grey Barn" [ref=e329] [cursor=pointer]:
+                - /url: https://www.thegreybarnandfarm.com/
+              - text: ; yogurt from
+              - link "Mermaid Farm and Dairy" [ref=e330] [cursor=pointer]:
+                - /url: https://www.facebook.com/people/Mermaid-Farm-and-Dairy/100064671104717/
+              - text: ; and
+              - link "local" [ref=e331] [cursor=pointer]:
+                - /url: https://marthasvineyardseasalt.com/
+              - link "sea salts" [ref=e332] [cursor=pointer]:
+                - /url: https://www.bytheseasalt.com/
+              - text: . As one of the largest farms on the island, with more than 250 acres of total farmland, Morning Glory offers a salad bar that is constantly updated with seasonal vegetables ($12.95 a pound). There is also a food truck out back that has BLTs ($12), farm salads ($12) and burgers ($12). You can enjoy your lunch on picnic tables outside the stand or on a rocking chair on the back porch.
+  - generic [ref=e336]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e338]:
+      - button "Read 254 comments" [ref=e340] [cursor=pointer]
+      - list [ref=e342]:
+        - listitem [ref=e343]:
+          - button "Share full article" [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]:
+              - img [ref=e348]
+              - text: Share full article
+        - listitem [ref=e350]:
+          - button "More sharing options ..." [ref=e353] [cursor=pointer]:
+            - img [ref=e354]
+        - listitem [ref=e356]:
+          - switch "Save article for reading later..." [ref=e357] [cursor=pointer]:
+            - img [ref=e358]
+        - listitem [ref=e362]:
+          - button "Read 254 comments" [ref=e363] [cursor=pointer]:
+            - generic [ref=e364]:
+              - img [ref=e365]
+              - text: "254"
+    - region "Related Content" [ref=e368]:
+      - heading "Related Content" [level=2] [ref=e369]
+      - generic [ref=e370]:
+        - list [ref=e375]:
+          - listitem [ref=e376]:
+            - figure [ref=e382]
+          - listitem [ref=e384]:
+            - figure [ref=e390]
+          - listitem [ref=e392]:
+            - figure [ref=e398]
+          - listitem [ref=e400]:
+            - figure [ref=e406]
+          - listitem [ref=e408]:
+            - figure [ref=e414]
+          - listitem [ref=e416]:
+            - figure [ref=e422]
+        - list [ref=e428]:
+          - listitem [ref=e429]:
+            - figure [ref=e435]
+          - listitem [ref=e437]:
+            - figure [ref=e443]
+          - listitem [ref=e445]:
+            - figure [ref=e451]
+      - list [ref=e458]:
+        - listitem [ref=e459]
+        - listitem [ref=e464]
+        - listitem [ref=e469]
+        - listitem [ref=e474]
+        - listitem [ref=e479]
+        - listitem [ref=e484]
+        - listitem [ref=e489]
+        - listitem [ref=e494]
+        - listitem [ref=e499]
+        - listitem [ref=e504]
+    - generic [ref=e509]:
+      - paragraph [ref=e511]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e512] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e514]:
+      - heading "Site Index" [level=2] [ref=e515]
+    - contentinfo [ref=e517]:
+      - navigation [ref=e518]:
+        - heading "Site Information Navigation" [level=2] [ref=e519]
+        - list [ref=e520]:
+          - listitem [ref=e521]:
+            - link "© 2026 The New York Times Company" [ref=e522] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e523]:
+          - listitem [ref=e524]:
+            - link "NYTCo" [ref=e525] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e526]:
+            - link "Contact Us" [ref=e527] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e528]:
+            - link "Accessibility" [ref=e529] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e530]:
+            - link "Work with us" [ref=e531] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e532]:
+            - link "Advertise" [ref=e533] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e534]:
+            - link "T Brand Studio" [ref=e535] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e536]:
+            - link "Privacy Policy" [ref=e537] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e538]:
+            - link "Cookie Policy" [ref=e539] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e540]:
+            - link "Terms of Service" [ref=e541] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e542]:
+            - link "Terms of Sale" [ref=e543] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e544]:
+            - link "Site Map" [ref=e545] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e546]:
+            - link "Help" [ref=e547] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e548]:
+            - link "Subscriptions" [ref=e549] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e550]:
+          - listitem [ref=e551]:
+            - button "Your Privacy Choices" [ref=e552] [cursor=pointer]:
+              - img [ref=e553]
+              - text: Your Privacy Choices

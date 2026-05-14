@@ -1,0 +1,458 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img "People enjoy the beach, with some lying on towels on the sand, and others frolicking in or near the water. On the other side of the bar are white houses and mountains." [ref=e41]
+          - generic [ref=e43]:
+            - link "36 Hours" [ref=e46] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e48]: Costa Brava, Spain
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "Jump to:"
+            - link "Recommendations" [ref=e53] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e55] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e56]:
+              - link "Google Map" [ref=e57] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/6Mj5g1syxu5DMu5S7
+              - img [ref=e59]
+          - generic [ref=e63]:
+            - paragraph [ref=e64]:
+              - generic [ref=e65]:
+                - text: By Hester Underhill
+                - text: Photographs by Jonathan Stokes
+            - time [ref=e66]: Sept. 4, 2025
+          - paragraph [ref=e67]: The raw beauty of the Costa Brava, the “wild coast” region that runs about 100 miles along Spain’s northeastern corner, has long lured artists and intellectuals. The Surrealist artist Salvador Dalí lived in the small fishing village of Port Lligat, while Truman Capote wrote “In Cold Blood” in the town of Palamós. Today, a new generation of Catalan creatives is trading the bustle of Barcelona, 40 or so miles to the south, for a quieter life by the sea. In its wake, a host of stylish new guesthouses, shops and restaurants have begun springing up across the region, reenergizing its sleepy coastal towns. If you have just a weekend, consider spending a night each in the towns of Cadaqués and Begur and cruise the coast at your leisure.
+        - generic [ref=e68]: Advertisement
+        - heading "Recommendations" [level=2] [ref=e69]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - button "Key stops –" [ref=e72] [cursor=pointer]:
+              - text: Key stops
+              - generic [ref=e73]: –
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - strong [ref=e76]:
+                  - link "Salvador Dalí House Museum" [ref=e77] [cursor=pointer]:
+                    - /url: https://www.salvador-dali.org/en/visit/salvador-dali-house-museum/
+                - text: was for decades the home of the Catalan artist, who bought up a string of fishing huts and joined them to form his eccentrically decorated seaside retreat.
+              - listitem [ref=e78]:
+                - text: The hiking trail
+                - strong [ref=e79]:
+                  - link "Camí de Ronda" [ref=e80] [cursor=pointer]:
+                    - /url: https://www.camideronda.com/en/home.html
+                - text: traces the shoreline of the Costa Brava. The section that runs between Sa Riera and Sa Tuna is especially picturesque.
+              - listitem [ref=e81]:
+                - strong [ref=e82]:
+                  - link "Jardins de Cap Roig" [ref=e83] [cursor=pointer]:
+                    - /url: https://www.spain.info/en/places-of-interest/cap-roig-botanical-gardens/
+                - text: ", on an idyllic perch above El Golfet beach, features a sculpture garden and a medieval-style castle, and is home to more than 800 plant species."
+          - generic [ref=e84]:
+            - button "Outdoor activities +" [ref=e85] [cursor=pointer]:
+              - text: Outdoor activities
+              - generic [ref=e86]: +
+            - list:
+              - listitem [ref=e87]:
+                - text: The
+                - strong [ref=e88]:
+                  - link "Bay of Roses" [ref=e89] [cursor=pointer]:
+                    - /url: https://www.badiaderoses.com/
+                - text: ", a vast stretch of white sand beach, is a popular spot for windsurfing."
+              - listitem [ref=e90]:
+                - text: Perched above the town of Begur, the stone ruins of the 11th-century
+                - strong [ref=e91]:
+                  - link "Castell de Begur" [ref=e92] [cursor=pointer]:
+                    - /url: https://www.visitacostabrava.com/en/begur/what-to-visit/retreats/begur-castle
+                - text: fortress offer sweeping views all the way to the Pyrenees.
+          - generic [ref=e93]:
+            - button "Restaurants and bars +" [ref=e94] [cursor=pointer]:
+              - text: Restaurants and bars
+              - generic [ref=e95]: +
+            - list:
+              - listitem [ref=e96]:
+                - strong [ref=e97]:
+                  - link "Oli Bar" [ref=e98] [cursor=pointer]:
+                    - /url: https://olibarcadaques.com/oli-bar/
+                - text: is a new restaurant and wine bar with a cozy, candle-lit atmosphere, housed in a centuries-old olive oil mill.
+              - listitem [ref=e99]:
+                - text: In Begur’s old town, the specialty coffee shop
+                - strong [ref=e100]:
+                  - link "Fitzroy Café" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.instagram.com/fitzroycafe/?hl=en-gb
+                - text: doubles as a bar in the evenings, when it serves beer from local producers and natural wine.
+              - listitem [ref=e102]:
+                - strong [ref=e103]:
+                  - link "Marítim Bar" [ref=e104] [cursor=pointer]:
+                    - /url: https://www.instagram.com/maritimbarcadaques/?hl=en
+                - text: is a legendary beachfront institution in the town of Cadaqués dating back to 1935, counting Dalí and other art and literary figures among its visitors.
+              - listitem [ref=e105]:
+                - text: The day-to-night
+                - strong [ref=e106]:
+                  - link "Bar Casino" [ref=e107] [cursor=pointer]:
+                    - /url: https://www.instagram.com/barcasinocadaques/?hl=en-gb
+                - text: in Cadaqués is a popular spot for breakfast, with crusty bread rolls stuffed with Ibérico ham served on its beachfront terrace.
+              - listitem [ref=e108]:
+                - text: The late-night hotspot
+                - strong [ref=e109]:
+                  - link "Cafe de la Habana" [ref=e110] [cursor=pointer]:
+                    - /url: https://www.instagram.com/cafedelahabana.cadaques/?hl=en
+                - text: is the go-to bar for live music in Cadaqués, with a long list of rums to keep the party going.
+              - listitem [ref=e111]:
+                - strong [ref=e112]:
+                  - link "Ultramar" [ref=e113] [cursor=pointer]:
+                    - /url: https://ultramarclub.com/
+                - text: is a waterfront restaurant in L’Escala with panoramic views along the coast and a wide variety of Catalan vermouths.
+              - listitem [ref=e114]:
+                - strong [ref=e115]:
+                  - link "Patisseria Can Cabrisas" [ref=e116] [cursor=pointer]:
+                    - /url: https://share.google/CYFgVj59pjoMPD4w6
+                - text: is a century-old Cadaqués bakery renowned for its tap de Cadaqués
+                - emphasis [ref=e117]: ","
+                - text: a cork-shaped sponge cake that’s been baked in the town since the 1700s.
+              - listitem [ref=e118]:
+                - text: Begur’s
+                - strong [ref=e119]:
+                  - link "Casa Juanita" [ref=e120] [cursor=pointer]:
+                    - /url: https://casajuanita.cat/
+                - text: is a cozy spot for authentic Catalan dishes, specializing in grilled fish and meat.
+          - generic [ref=e121]:
+            - button "Shopping +" [ref=e122] [cursor=pointer]:
+              - text: Shopping
+              - generic [ref=e123]: +
+            - list:
+              - listitem [ref=e124]:
+                - text: The seafront store
+                - strong [ref=e125]:
+                  - link "Pepa" [ref=e126] [cursor=pointer]:
+                    - /url: https://www.pepacadaques.com/en
+                - text: has been a must-visit for fashionable travelers to Cadaqués since the 1970s, today stocking smaller Catalan brands alongside international designers like Jacquemus and Acne Studios.
+              - listitem [ref=e127]:
+                - text: The Cadaqués-founded swimwear brand
+                - strong [ref=e128]:
+                  - link "Polonio" [ref=e129] [cursor=pointer]:
+                    - /url: https://www.thepolonio.com/
+                - text: has two stores in its hometown, where shoppers can find colorful trunks, bikinis and ready-to-wear pieces inspired by Mediterranean summer living.
+          - generic [ref=e130]:
+            - button "Where to stay +" [ref=e131] [cursor=pointer]:
+              - text: Where to stay
+              - generic [ref=e132]: +
+            - list:
+              - listitem [ref=e133]:
+                - strong [ref=e134]:
+                  - link "Can Set" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.setcadaques.com/
+                - text: is a pint-sized guesthouse in Cadaqués with six stylishly appointed rooms and its own cafe downstairs — a popular spot for long, lazy lunches by the sea. Rooms start at around 230 euros, or about $268.
+              - listitem [ref=e136]:
+                - strong [ref=e137]:
+                  - link "Parador de Aiguablava" [ref=e138] [cursor=pointer]:
+                    - /url: https://paradores.es/en/parador-de-aiguablava
+                - text: was built in the 1960s on a pine-covered peninsula overlooking Aiguablava beach, about a 10-minute drive from Begur. Renovated in 2020, it is still a hub of mid-century chic and boasts a collection of more than 200 works by Catalan artists. Rooms start at around €80 in low season, rising to roughly €190 in summer.
+              - listitem [ref=e139]:
+                - strong [ref=e140]:
+                  - link "WeCamp" [ref=e141] [cursor=pointer]:
+                    - /url: https://wecamp.net/en/locations/santa-cristina?_gl=1*n2qwc6*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwxo_CBhDbARIsADWpDH6rjUPOG9Gapbc8t9bHaf5rXPH3ecyEnfNQ7iconY4Piw5SiF1NL80aAimTEALw_wcB&gbraid=0AAAAAqtIyl01Gk4X8ipWF-NdeR5Uom9Lm
+                - text: has three sites along the Costa Brava — in Cadaqués, Santa Cristina and Cala Montgó — each with a range of glamping-style tents and wooden cabins available to rent. Bell tents from roughly €52 a night.
+              - listitem [ref=e142]:
+                - strong [ref=e143]:
+                  - link "Viu Empordà" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.viuemporda.com/en
+                - text: sets itself apart from other holiday rental companies by offering the private homes of Catalan tastemakers; think meticulously restored farmhouses and contemporary retreats designed by some of Barcelona’s top architects. From about €9,400 for a week at Casa Carolina (six bedrooms); from about €3,700 for a week at Casa Suro (three bedrooms).
+          - generic [ref=e145]:
+            - button "Getting around +" [ref=e146] [cursor=pointer]:
+              - text: Getting around
+              - generic [ref=e147]: +
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - text: Renting a
+                - strong [ref=e150]: car
+                - text: in Barcelona or Girona is the easiest way to explore the coast, particularly if you’re planning on visiting Cadaqués, which is relatively remote. There are
+                - strong [ref=e151]: bus
+                - text: routes connecting towns along the Costa Brava, but they can be slow and tricky to navigate. The Camí de Ronda trail is an excellent way to explore the coast
+                - strong [ref=e152]: on foot
+                - text: and allows access to scenic spots that are hard to reach by car. The region is also popular with
+                - strong [ref=e153]: cyclists
+                - text: thanks to its quiet country roads, varied terrain and striking coastal views.
+        - heading "Itinerary" [level=2] [ref=e154]
+        - generic [ref=e155]:
+          - heading "Friday" [level=2] [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: 5 p.m. Find your Catalan style
+            - paragraph [ref=e160]:
+              - text: The town of Cadaqués sits at the tip of a rugged peninsula called Cap de Creus, toward the northernmost end of the Costa Brava, and is accessible only by a winding road that curves across steep, wind-swept hillsides. It’s a postcard-perfect blend of whitewashed houses and bougainvillea-strung alleyways dotted with stylish boutiques.
+              - link "Pepa" [ref=e161] [cursor=pointer]:
+                - /url: https://www.pepacadaques.com/en
+              - text: ", a chic seafront store, has been styling the town’s best-dressed since the 1970s. Today, it stocks Catalan brands like"
+              - link "La Veste" [ref=e162] [cursor=pointer]:
+                - /url: https://lavestelaveste.com/
+              - text: (Barcelona-based producers of brightly coloured clothing made from terrycloth) and hand-crocheted headwear from
+              - link "Pardohats" [ref=e163] [cursor=pointer]:
+                - /url: https://pardohats.com/
+              - text: — alongside international big-hitters like
+              - link "Jacquemus" [ref=e164] [cursor=pointer]:
+                - /url: https://www.jacquemus.com/en_gr
+              - text: and
+              - link "Acne Studios" [ref=e165] [cursor=pointer]:
+                - /url: https://lavestelaveste.com/
+              - text: . Local brand
+              - link "Polonio" [ref=e166] [cursor=pointer]:
+                - /url: https://www.thepolonio.com/
+              - text: also has two shops in the town, stocking its own range of colorfully printed swimwear as well as a summery selection of floaty dresses and cotton shirts.
+          - generic [ref=e168]:
+            - img "Mannequins in a shop wearing summery clothes including a printed bandana, a woven hat, a dress and a white linen shirt." [ref=e170]
+            - paragraph [ref=e173]: Pepa
+          - generic [ref=e174]:
+            - generic [ref=e175]: 7 p.m. Drink with Dalí and Duchamp
+            - paragraph [ref=e177]:
+              - text: On the golden sand of Cadaqués’s central Platja Gran beach stands
+              - link "Marítim Bar," [ref=e178] [cursor=pointer]:
+                - /url: https://www.instagram.com/maritimbarcadaques/?hl=en
+              - text: an institution since 1935. For much of its history, the bar was a magnet for artists and intellectuals — according to local lore Dalí (who lived in neighbouring Port Lligat) would dock his boat directly at the terrace, and Marcel Duchamp played chess there. Gabriel García Márquez even name-checked Bar Marítim in his short story “Tramontana.” Today, it’s run by third-generation owners and its wooden structure is furnished with bentwood furniture and faded photographs documenting some of the famous faces who have dropped in over the years. Outside, its wide wooden deck makes for a perfect spot for an ice-cold Turia beer (3.90 euros, or about $4.50) at golden hour.
+          - generic [ref=e180]:
+            - img "People sit with drinks at an outdoor restaurant table overlooking a bay with boats." [ref=e182]
+            - paragraph [ref=e185]: Marítim Bar
+          - generic [ref=e186]:
+            - generic [ref=e187]: 8 p.m. Eat modern Mediterranean, then hear live music
+            - paragraph [ref=e189]:
+              - link "Oli Bar" [ref=e190] [cursor=pointer]:
+                - /url: https://olibarcadaques.com/oli-bar/
+              - text: ", which opened in April, has given a stylish makeover to the cavernous interiors of a centuries-old oil mill on a side street in central Cadaqués. A horseshoe-shaped bar loops around the central open kitchen run by the Catalan chefs Vito Oliva and Monty Aguiló. An inventive array of small plates mixes a wide range of (mostly) Mediterranean influences; think oysters prepared in the French meunière style (pan-fried and soaked in lemon butter), large hunks of rosemary-studded focaccia and Ibérico pork tartare. Expect to pay about €100 for a meal for two, not including drinks. After dinner, it’s a short stroll along the seafront to"
+              - link "Cafe de la Habana" [ref=e191] [cursor=pointer]:
+                - /url: https://www.instagram.com/cafedelahabana.cadaques/?hl=en
+              - text: ; a dimly lit bar popular with young locals that comes alive at the weekends with free live performances of Spanish guitar music.
+          - generic [ref=e193]:
+            - img "A keyboardist and guitarist perform on a small stage to a a audience seated at tables." [ref=e195]
+            - paragraph [ref=e198]: Cafe de la Habana
+        - generic [ref=e199]:
+          - img "People walk on a curved pedestrian road in a European town with a church and bell tower in the background." [ref=e201]
+          - paragraph [ref=e204]: The Church of Santa Maria de Cadaqués.
+        - generic [ref=e205]: Advertisement
+        - generic [ref=e206]:
+          - heading "Saturday" [level=2] [ref=e207]
+          - generic [ref=e208]:
+            - generic [ref=e209]: 9:30 a.m. Breakfast by the sea
+            - paragraph [ref=e211]:
+              - text: Start your day with a leisurely beachfront breakfast at
+              - link "Bar Casino" [ref=e212] [cursor=pointer]:
+                - /url: https://www.instagram.com/barcasinocadaques/
+              - text: ", in a 19th century mansion with a facade adorned with portraits of famous explorers including Magellan and Columbus. The building never actually served as a gambling institution: “Casinos” were social clubs that sprung up across Catalonia in the 1800s, created to host all manner of public meetings and performances. Today, it’s a no-frills bar and cafe where €10 will get you a cup of coffee, a glass of freshly squeezed orange juice and a crusty bread roll (entrepà) stuffed with Ibérico ham. Pull up a chair on the terrace to enjoy your breakfast with a view over the shimmering bay and its gently bobbing wooden fishing boats (known as llauts)."
+          - generic [ref=e214]:
+            - img "A baguette sandwich with ham and cheese. A coffee and an orange juice sits beside it on a marble-patterned table." [ref=e216]
+            - paragraph [ref=e219]: Bar Casino
+          - generic [ref=e220]:
+            - generic [ref=e221]: 10:30 a.m. Tour the surreal
+            - paragraph [ref=e223]:
+              - text: In 1930, Salvador Dalí bought a small fisherman’s hut in the small village of Port Lligat, about a 15-minute walk from Cadaqués. He wrote about the Costa Brava’s distinctive beauty and depicted its craggy shorelines in his Surrealist scenes. Over the decades, he bought up various adjoining huts and linked them to create a labyrinthine network of elaborately decorated rooms — complete with taxidermied swans (once Dalí’s pets), a penis-shaped swimming pool and antique curios like ornate bird cages, Japanese paper parasols and an enormous lighthouse lamp. Today, the only way to see inside the property, called
+              - link "Salvador Dalí House Museum" [ref=e224] [cursor=pointer]:
+                - /url: https://www.salvador-dali.org/en/visit/salvador-dali-house-museum/
+              - text: ", is to book a tour. Guides lead small groups, offering insight into the eccentric furnishings in English, Spanish or Catalan. Tickets start at €15; reserve well in advance."
+          - generic [ref=e226]:
+            - img "A statue of a man in a suit with his legs crossed on display in a beach area." [ref=e228]
+            - paragraph [ref=e231]: A statue of Salvador Dalí in Cadaqués.
+          - generic [ref=e232]:
+            - generic [ref=e233]: 12 p.m. Chill for vermouth hour
+            - paragraph [ref=e235]:
+              - text: Time to hit the road. Drive about an hour south along the Bay of Roses, along the inland perimeter of
+              - link "Aigüamolls de l'Empordà Natural Park" [ref=e236] [cursor=pointer]:
+                - /url: https://www.spain.info/en/nature/aiguamolls-emporda-natural-park/
+              - text: — an area of protected wetland where you might even spot the odd gaggle of flamingoes — to reach L’Escala, a seaside town famed for producing salt-cured anchovies. Sample these at
+              - link "Ultramar" [ref=e237] [cursor=pointer]:
+                - /url: https://ultramarclub.com/restaurant/
+              - text: ", a waterfront restaurant with panoramic views along the coast, where they’re served with pa amb tomàquet (crisp ciabatta-like bread topped with fresh tomato and olive oil) for €12.50. Between 12 p.m. and 2 p.m. is"
+              - link "l’hora del vermut" [ref=e238] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2023/07/20/dining/drinks/vermouth.html
+              - text: (vermouth hour), when locals gather for a pre-lunch glass of this sweet fortified wine — served over ice and garnished with a slice of orange and an olive. Ultramar has more than 20 varieties of vermouth on the menu.
+          - generic [ref=e240]:
+            - img "A restaurant table with a bowl of sliced white meat with sauce and caperberries. Behind it are anchovies, clipped onto a line with clothespegs, over some slices of bread." [ref=e242]
+            - paragraph [ref=e245]: Ultramar
+          - generic [ref=e246]:
+            - generic [ref=e247]: 3 p.m. Hike along the beach
+            - paragraph [ref=e249]:
+              - text: With its wide expanse of golden sand lined with pine-studded promontories, Sa Riera beach, about a 45-minute drive south from L’Escala, is a scenic spot for a refreshing dip. It also makes for a good starting point to pick up the
+              - link "Camí de Ronda" [ref=e250] [cursor=pointer]:
+                - /url: https://www.camideronda.com/en/home.html
+              - text: hiking trail; a system of footpaths once used by local fishermen that have been linked to form a walking route that stretches almost 90 miles along the Costa Brava. The well-maintained path comprises a series of dirt tracks, paved walkways and stone staircases that snake up and down rocky cliffs. The section between Sa Riera and Sa Tuna beach is particularly easy on the eye — it’s an hourlong walk each way, winding past small pebble beaches and secluded coves that make for peaceful swimming spots.
+          - generic [ref=e252]:
+            - img "A view over rocky cliffs onto a picturesque bay filled with people." [ref=e254]
+            - paragraph [ref=e257]: Sa Riera Beach
+          - generic [ref=e258]:
+            - generic [ref=e259]: 6 p.m. Take in the view atop medieval ruins
+            - paragraph [ref=e261]:
+              - text: It’s a short (but steep) drive uphill from Sa Riera to the town of Begur — a maze of narrow lanes, dotted with 19th century mansions known as casas indianas. These were built by residents of Begur who left Spain to make their fortunes in Cuba. Upon their return to Catalonia, they commissioned stately villas in the classic colonial styles popular in Havana — with brightly painted facades, grand balconies and lush interior courtyards. The most notable remnant of the town’s medieval past is the hilltop stone fortress (
+              - link "Castell de Begur" [ref=e262] [cursor=pointer]:
+                - /url: https://www.visitacostabrava.com/en/begur/what-to-visit/retreats/begur-castle
+              - text: ), built in the 11th century to protect from marauding pirates. From the center of the town, a signposted path leads up to the ruins (free to visit). At the top are expansive views across the coast, all the way to the Pyrenees in the north.
+          - generic [ref=e264]:
+            - img "Two people walk up a narrow outdoor staircase, with greenery growing on the walls, between homes." [ref=e266]
+            - paragraph [ref=e269]: Begur
+          - generic [ref=e270]:
+            - generic [ref=e271]: 8 p.m. Share in a home-style, wood-fired meal
+            - paragraph [ref=e273]:
+              - text: For traditional Catalan cuisine, head to Begur’s
+              - link "Casa Juanita" [ref=e274] [cursor=pointer]:
+                - /url: https://casajuanita.cat/
+              - text: . The beloved local institution’s unassuming interiors, housed inside a 17th-century stone building, are largely unchanged since the restaurant opened in 1978. In those early days, a single oak-fired oven served just three tables, surrounded by wine barrels. Over time, the wine cellars were cleared out to make room for more diners, and the menu expanded beyond simple seafood dishes to include grilled meats, fresh salads, and escalivada (vegetables slow-roasted in the ashes of the fireplace). Second-generation owner Jordi Barreda changes the menu seasonally and according to the local daily catch — still prepared in the oven Mr. Barreda’s father built by hand back in the 1970s. Expect to pay about €80 for dinner for two (including wine).
+          - generic [ref=e276]:
+            - img "A person wearing a hat and a chef's apron in a restaurant kitchen." [ref=e278]
+            - paragraph [ref=e281]: Casa Juanita
+        - generic [ref=e282]:
+          - img "A bird's-eye view over a picturesque town and a bright blue bay. In the center of the image is a castle on a hill." [ref=e284]
+          - paragraph [ref=e287]: Castell de Begur is a hilltop stone fortress built in the 11th century to protect the town from marauding pirates.
+        - generic [ref=e288]: Advertisement
+        - generic [ref=e289]:
+          - heading "Sunday" [level=2] [ref=e290]
+          - generic [ref=e291]:
+            - generic [ref=e292]: 10 a.m. Explore a seaside castle and garden
+            - paragraph [ref=e294]:
+              - text: If you’ve spent the night in Begur,
+              - link "Fitzroy Café" [ref=e295] [cursor=pointer]:
+                - /url: https://fitzroycafe.com/
+              - text: makes for an excellent breakfast spot to have a bowl of housemade granola (€6) or a stack of banana pancakes (€9) before hitting the road about eight miles south.
+              - link "Jardins de Cap Roig" [ref=e296] [cursor=pointer]:
+                - /url: https://costabrava.org/en/experiencia/self-guided-visit-to-the-cap-roig-gardens/
+              - text: ", a botanic garden with clifftop views and more than 800 different plant species, dates back to 1927, when the Russian colonel Nicolai Woevodsky and his wife, English aristocrat Dorothy Webster, set about creating their dream home on a plot above El Golfet beach. Woevodsky designed the house in the style of a medieval castle, while Webster took charge of the garden. The result is a technicolor spread of roses and oleander bushes shaded by towering palm trees that is today open to visitors for an entry price of €12."
+          - generic [ref=e298]:
+            - img "A medieval-style castle. It is surrounded by trees and the ocean is visible behind it." [ref=e300]
+            - paragraph [ref=e303]: Jardins de Cap Roig
+  - generic [ref=e308]:
+    - generic [ref=e309]:
+      - text: "See more on:"
+      - link "Salvador Dali" [ref=e310] [cursor=pointer]:
+        - /url: https://www.nytimes.com/topic/person/salvador-dali
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e312]:
+      - button "Read 89 comments" [ref=e314] [cursor=pointer]
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - button "Share full article" [ref=e320] [cursor=pointer]:
+            - generic [ref=e321]:
+              - img [ref=e322]
+              - text: Share full article
+        - listitem [ref=e324]:
+          - button "More sharing options ..." [ref=e327] [cursor=pointer]:
+            - img [ref=e328]
+        - listitem [ref=e330]:
+          - switch "Save article for reading later..." [ref=e331] [cursor=pointer]:
+            - img [ref=e332]
+        - listitem [ref=e336]:
+          - button "Read 89 comments" [ref=e337] [cursor=pointer]:
+            - generic [ref=e338]:
+              - img [ref=e339]
+              - text: "89"
+    - region "Related Content" [ref=e342]:
+      - heading "Related Content" [level=2] [ref=e343]
+      - generic [ref=e344]:
+        - list [ref=e349]:
+          - listitem [ref=e350]:
+            - figure [ref=e356]
+          - listitem [ref=e358]:
+            - figure [ref=e364]
+          - listitem [ref=e366]:
+            - figure [ref=e372]
+          - listitem [ref=e374]:
+            - figure [ref=e380]
+          - listitem [ref=e382]:
+            - figure [ref=e388]
+          - listitem [ref=e390]:
+            - figure [ref=e396]
+        - list [ref=e402]:
+          - listitem [ref=e403]:
+            - figure [ref=e409]
+          - listitem [ref=e411]:
+            - figure [ref=e417]
+          - listitem [ref=e419]:
+            - figure [ref=e425]
+      - list [ref=e432]:
+        - listitem [ref=e433]
+        - listitem [ref=e438]
+        - listitem [ref=e443]
+        - listitem [ref=e448]
+        - listitem [ref=e453]
+        - listitem [ref=e458]
+        - listitem [ref=e463]
+        - listitem [ref=e468]
+        - listitem [ref=e473]
+        - listitem [ref=e478]
+    - generic [ref=e483]:
+      - paragraph [ref=e485]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e486] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e488]:
+      - heading "Site Index" [level=2] [ref=e489]
+    - contentinfo [ref=e491]:
+      - navigation [ref=e492]:
+        - heading "Site Information Navigation" [level=2] [ref=e493]
+        - list [ref=e494]:
+          - listitem [ref=e495]:
+            - link "© 2026 The New York Times Company" [ref=e496] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e497]:
+          - listitem [ref=e498]:
+            - link "NYTCo" [ref=e499] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e500]:
+            - link "Contact Us" [ref=e501] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e502]:
+            - link "Accessibility" [ref=e503] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e504]:
+            - link "Work with us" [ref=e505] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e506]:
+            - link "Advertise" [ref=e507] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e508]:
+            - link "T Brand Studio" [ref=e509] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e510]:
+            - link "Privacy Policy" [ref=e511] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e512]:
+            - link "Cookie Policy" [ref=e513] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e514]:
+            - link "Terms of Service" [ref=e515] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e516]:
+            - link "Terms of Sale" [ref=e517] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e518]:
+            - link "Site Map" [ref=e519] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e520]:
+            - link "Help" [ref=e521] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e522]:
+            - link "Subscriptions" [ref=e523] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e524]:
+          - listitem [ref=e525]:
+            - button "Your Privacy Choices" [ref=e526] [cursor=pointer]:
+              - img [ref=e527]
+              - text: Your Privacy Choices

@@ -1,0 +1,596 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: best "Irvine" restaurants Thai OR Korean OR Indian OR French outdoor 2024 OR 2025 best "Irvine" restaurants Thai OR Korean OR Indian OR French outdoor 2024 OR 2025
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2B%2522Irvine%2522%2Brestaurants%2BThai%2BOR%2BKorean%2BOR%2BIndian%2BOR%2BFrench%2Boutdoor%2B2024%2BOR%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&aep=1&ntc=1&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q2J8OegQIDxAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Qs6gLegQIERAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QtKgLegQIFhAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QtKgLegQIGhAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Qs6gLegQIGxAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydwZ6P4OE1gn7wyxkttgVKTLp8dn5FluDfpqdz3C_v3HekHOrlM3ECIIAZAzKW9cBQPbGCZZ5NjxoV3FeEViOM1ioSEgkz2UBMFfrnZLcaMUdtqlWuvHz22saT4MlzyHlc-CSZ0A&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - navigation [ref=e125]:
+      - navigation [ref=e128]:
+        - list [ref=e135]:
+          - listitem [ref=e136]:
+            - link "Add Open now" [ref=e137] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025+open+now&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-wtnP9KNrZwkpJrg7zPaYLUOEIkddfKA78_12sZnAR61ZKd-u6nnmaFbwgo2LM3FuewBk801gHvguEFLf-P8uuznaOVVyLSSd2SZ2nsj6cgIwuhUjNYW_laAOJR8uG8cQvhDeLvQvnPP4CFY8qI9S0jMRiTxBEv-BYUTQMEYMoxu2iFtL_6KqhS2pBJuC1-lB9G85zO-xLwy84XlZIem2k8j36m2FhDN7aff0pXQHi5s4EeW9bFtyyaOAQkcqQe405oOXUw&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAB6BAgcEAE&ictx=0
+              - generic [ref=e139]: Open now
+          - listitem [ref=e140]:
+            - link "Add Top rated" [ref=e141] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=top+rated+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-dsB19XE4nEmS2Kc-Wo-x-Ll1ah0pyg011E1ahsmQmDnttRo96B7sAnWMdfOjhsKJZM0qFXx0C8k9T_wwyXJIBa1TvCisjkIfT6Xl5hOUEPxmhgw5jD8TD0x2z89H4Qvd6hZND3ZsxeU2nfOBlyYzl50wCh9pE6s_vdZ4Np7bEnaun9agbGNn3iJzBpN6pCQc5LHf0XI1FCOCRIHPDAoczkMuOwauEYNVlYthurIzWzdxH22DKStHMoG5bQ3IUA8uwQuoWA&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAF6BAghEAE&ictx=0
+              - generic [ref=e143]: Top rated
+          - listitem [ref=e144]:
+            - link "Add Cheap" [ref=e145] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=cheap+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-MgYQH70H7HweQN6ga6cpZNN7miUj1FGc8GO4JiK7peDYcczlnoJZ3FRQuji7VsLk18HJ6LfmW44uVy2c-Wey2oMO73oApR8n0EHcr1xPrvQHUEEe7jS710TFe-i8pdt82Q7Qxsb2DHOUqCwvaMQXwBaRcAz_dWMr20HYH7hY0hizTYthfMnhlxe0LKbmKQnbTL2_-a_xaH-OuIuL1gh_1V7kFsm8ADHWAsY7z5OI4nIPuSV95r_Jhn14kNwY7JM1rUOJDw&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAJ6BAggEAE&ictx=0
+              - generic [ref=e147]: Cheap
+          - listitem [ref=e148]:
+            - link "Add Upscale" [ref=e149] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=upscale+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-PijzsdwI9MJnLkvi9i04-L32mWDMnaxBWg5Bl8hjly8ycQTf732eD3v9BXjUhhpsHZCSFYDSCq4DQv9nuFUowGSY0WbzbV8o5DzjvMnaaVWajNk3tbRaEcMthJPfJhoUurT18P_Lz5Dw3XOVBCzHaa-jzszXlA-SKS63hlF9rW3aME-LTT_xmZO1g0-CAN_l3uoKwHOoJ19TVJUwnl8ygUq_iRMgNr28gV8qJaJgAAfo6r13MVOvzmIgm5XgFIEjaW6SIQ&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAN6BAgdEAE&ictx=0
+              - generic [ref=e151]: Upscale
+          - listitem [ref=e152]:
+            - link "Add Beer" [ref=e153] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=beer+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-tThTqwGo4T44anHzKtpIiuH3h4bOpCjSbWcBxgrETo_X_eCniJUEq2KC2NI6n2vPBv73mc5sjRSy_CCTwSVnZEzkQdM06SOlkI8sxfpRPf6MN6PqBUfXwtcIDb1iAV3p2BjJRxp3RaOxSo5mNOIF0pF19ZcJ2kBhdhPqz1NmB9jq4RFdRCTLHt3KlE4J-XsYM9hrfC0RaSkzj0IK_xDUo8DSevC0nLz3Dt46UZR_yeZ4pBsx303AdvksyklISwOfWGpc-3DwKDte_ofXpsOCO5UtqzYyXJqV7MIrpvqQI7Gw8sRi&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAR6BAgfEAE&ictx=0
+              - generic [ref=e155]: Beer
+          - listitem [ref=e156]:
+            - link "Add Accepts reservations" [ref=e157] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=accepts+reservations+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-tVdzdm77-dr2aOF7JPiVR4GTPCC5eQQYMopNStfnz52lofBFO2z2UV8R2UwDLE0-gP6TEjJ3Mldm7YL1Uc9eekgZCNNpXP-RnMByfEjZaVRbYBzIOC4wk6MBxaksJg6Mu_GaD7_r_7GGzzbkr04eZgwtSYWloP6FQu9MMUFDJOJgF0CqmegUn5v-n9HF-e5G0Qyg970bQpQRFxA0aAN7MHW1g7jaJgCoMmVxLmAkSNRaAYi3s6W-s8nuV240sOnztFlsBlTH1IviGxLjL98k4rF74ycwelYzeMA4Cm85oRzqar90NMCgzteM8lx30w4MxV1BqQ&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAV6BAhiEAE&ictx=0
+              - generic [ref=e159]: Accepts reservations
+          - listitem [ref=e160]:
+            - link "Add Wine" [ref=e161] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=wine+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-tThTqwGo4T44anHzKtpIiuH3h4bOpCjSbWcBxgrETo_X_eCniJUEq2KC2NI6n2vPBv73mc5sjRSy_CCTwSVnZEzkQdM06SOlkI8sxfpRPf6MN6PqBUfXwtcIDb1iAV3p12FoAMMlLilTsobFISoSTTYMc2ktR48w_A-Y0UtG50cqiZSjyY_zI5Pntx-CJyPrfoi5XKplsDnzIxscitQ_9712a6O8b4sP9bVbBcbP1lr7PTFH0t4KKyEQSBBJwiN7Wk1U_oeGHBRM5hfV616WknWJFWjhmB8Llt4orJ-mcup0LlYN&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAZ6BAhgEAE&ictx=0
+              - generic [ref=e163]: Wine
+          - listitem [ref=e164]:
+            - link "Add Recently opened" [ref=e165] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=recently+opened+best+%22Irvine%22+restaurants+Thai+Korean+Indian+French+outdoor+2024+2025&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-V1hhR9HdkeXNM6nC6ZNY4r4TLOw6XJsDmW8hQ3_XWYDcn2Cf9WrcGGOBzkmMkjrnOVSLwZD8tqvO463w0YN5JeIXAMRjELxEyPhHphMRGFGL80GcKRpJpnMSnMlyAUTg_D1mZjPhmvdz34tr055hMu-Ja5owHw1d2CXA-mbm-CZw4zZRRgQzuTgRhh8K2g_3SJAL26YKG6NQWdu50ysKbXULf_qejeXbBpuLgotPVB2FIn14F0cmdICekIOLYiKYyxb6_FnJW1RIH24k56qkR5kzuzI&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QxKsJKAd6BAhfEAE&ictx=0
+              - generic [ref=e167]: Recently opened
+          - listitem [ref=e168]:
+            - listitem [ref=e170]:
+              - button "Vibe" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: Vibe
+                  - img [ref=e177]
+    - heading "Search Results" [level=1] [ref=e179]
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - generic [ref=e192]:
+          - heading "Results for Irvine, CA" [level=2] [ref=e193]:
+            - generic [ref=e194]:
+              - text: Results for
+              - text: Irvine, CA
+          - generic [ref=e196]:
+            - text: ∙
+            - button "Choose area" [ref=e197] [cursor=pointer]
+          - button "How location is used" [ref=e200] [cursor=pointer]:
+            - img [ref=e202]
+        - generic [ref=e218]:
+          - heading "Thinking" [level=2] [ref=e222]:
+            - generic [ref=e223]: Thinking
+          - progressbar [ref=e224]
+      - main [ref=e226]:
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - heading "Web results" [level=2] [ref=e234]
+            - generic [ref=e235]:
+              - generic [ref=e238]:
+                - link "THE BEST 10 THAI RESTAURANTS near IRVINE, CA 92602 Yelp https://www.yelp.com › Restaurants › Thai" [ref=e240] [cursor=pointer]:
+                  - /url: https://www.yelp.com/search?cflt=thai&find_loc=Irvine%2C+CA+92602
+                  - heading "THE BEST 10 THAI RESTAURANTS near IRVINE, CA 92602" [level=3] [ref=e241]
+                  - generic [ref=e246]:
+                    - generic [ref=e248]: Yelp
+                    - generic [ref=e250]: https://www.yelp.com › Restaurants › Thai
+                - button "About this result" [ref=e251] [cursor=pointer]:
+                  - img [ref=e254]
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - text: The
+                  - emphasis [ref=e259]: Best
+                  - text: "10"
+                  - emphasis [ref=e260]: Thai Restaurants
+                  - text: near
+                  - emphasis [ref=e261]: Irvine
+                  - text: ", CA 92602 · 1. Manaao"
+                  - emphasis [ref=e262]: Thai
+                  - text: Comfort
+                  - emphasis [ref=e263]: Food
+                  - text: · 2. Chiang Rai · 3. Siam Station · 4.
+                  - emphasis [ref=e264]: Thai
+                  - text: Favorite Cuisine · 5. Hanuman
+                  - emphasis [ref=e265]: Thai
+                  - text: ...
+                - link "Read more" [ref=e266] [cursor=pointer]:
+                  - /url: https://www.yelp.com/search?cflt=thai&find_loc=Irvine,+CA+92602#:~:text=The%20Best%2010%20Thai%20Restaurants,near%20Irvine%2C%20CA%2092602&text=1.%20Manaao%20Thai%20Comfort%20Food&text=2.%20Chiang%20Rai&text=3.%20Siam%20Station&text=4.%20Thai%20Favorite%20Cuisine&text=5.%20Hanuman%20Thai%20Eatery
+              - img "Rated 4.3 out of 5, (46,026) user reviews" [ref=e271]:
+                - text: "4.3"
+                - img [ref=e272]
+                - text: (46,026)
+          - generic [ref=e278]:
+            - generic [ref=e281]:
+              - link "TOP 10 BEST Fancy Thai Restaurant in Irvine, CA - Updated 2025 Yelp https://m.yelp.com › Restaurants › Fancy Thai Restaurant" [ref=e283] [cursor=pointer]:
+                - /url: https://m.yelp.com/search?find_desc=Fancy+Thai+Restaurant&find_loc=Irvine%2C+CA/
+                - heading "TOP 10 BEST Fancy Thai Restaurant in Irvine, CA - Updated 2025" [level=3] [ref=e284]
+                - generic [ref=e289]:
+                  - generic [ref=e291]: Yelp
+                  - generic [ref=e293]: https://m.yelp.com › Restaurants › Fancy Thai Restaurant
+              - button "About this result" [ref=e294] [cursor=pointer]:
+                - img [ref=e297]
+            - generic [ref=e301]:
+              - emphasis [ref=e302]: Top
+              - text: "10"
+              - emphasis [ref=e303]: Best
+              - text: Fancy
+              - emphasis [ref=e304]: Thai Restaurant
+              - text: Near
+              - emphasis [ref=e305]: Irvine
+              - text: ", California ; 1. Nara"
+              - emphasis [ref=e306]: Thai
+              - text: Kitchen · (429 reviews). 4.3 mi ; 2. Hanuman
+              - emphasis [ref=e307]: Thai
+              - text: Eatery - Newport · (378 reviews). 7.7 mi.
+            - generic [ref=e309]:
+              - text: "Missing: outdoor ‎| Show results with:"
+              - link "outdoor" [ref=e310] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+%22outdoor%22+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q5t4CegQIJxAB
+          - generic [ref=e314]:
+            - generic [ref=e316]:
+              - heading "Videos" [level=2] [ref=e317]
+              - button "About this result" [ref=e318] [cursor=pointer]:
+                - img [ref=e321]
+            - generic [ref=e324]:
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - link "Top 10 Restaurants to Try in Irvine, California TikTok tabiplaces Dec 29, 2025" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@tabiplaces/video/7589501476184132919
+                    - heading "Top 10 Restaurants to Try in Irvine, California TikTok tabiplaces Dec 29, 2025" [level=3] [ref=e334]:
+                      - generic [ref=e337]: Top 10 Restaurants to Try in Irvine, California
+                      - generic [ref=e339]:
+                        - generic [ref=e340]:
+                          - text: TikTok
+                          - generic [ref=e341]: · tabiplaces
+                        - generic [ref=e342]: Dec 29, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: TikTok
+                            - generic: · tabiplaces
+                      - button "About this result" [ref=e343] [cursor=pointer]:
+                        - img [ref=e346]
+                - link "Top 10 Restaurants to Try in Irvine, California by tabiplaces on TikTok. Play on TikTok. 1:03" [ref=e348] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@tabiplaces/video/7589501476184132919
+                  - generic [ref=e349]:
+                    - img [ref=e355]
+                    - generic [ref=e359]: 1:03
+              - generic [ref=e364]:
+                - generic [ref=e365]:
+                  - link "Probably the best Korean food we had in Irvine here at ... Instagram The Bronco Adventures 1 month ago" [ref=e367] [cursor=pointer]:
+                    - /url: https://www.instagram.com/reel/DV9On8_kkH5/
+                    - heading "Probably the best Korean food we had in Irvine here at ... Instagram The Bronco Adventures 1 month ago" [level=3] [ref=e368]:
+                      - generic [ref=e371]: Probably the best Korean food we had in Irvine here at ...
+                      - generic [ref=e373]:
+                        - generic [ref=e374]:
+                          - text: Instagram
+                          - generic [ref=e375]: · The Bronco Adventures
+                        - generic [ref=e376]: 1 month ago
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Instagram
+                            - generic: · The Bronco Adventures
+                      - button "About this result" [ref=e377] [cursor=pointer]:
+                        - img [ref=e380]
+                - link "Probably the best Korean food we had in Irvine here at ... by The Bronco Adventures on Instagram. Play on Instagram. 1:11" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.instagram.com/reel/DV9On8_kkH5/
+                  - generic [ref=e383]:
+                    - img [ref=e386]
+                    - generic [ref=e390]: 1:11
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - 'link "Unique Thai brunch with an American twist in Irvine! : Kinaree ... Instagram Nate Nguyen Nov 24, 2025" [ref=e398] [cursor=pointer]':
+                    - /url: https://www.instagram.com/reel/DRdw7ijkcsJ/
+                    - 'heading "Unique Thai brunch with an American twist in Irvine! : Kinaree ... Instagram Nate Nguyen Nov 24, 2025" [level=3] [ref=e399]':
+                      - generic [ref=e402]: "Unique Thai brunch with an American twist in Irvine! : Kinaree ..."
+                      - generic [ref=e404]:
+                        - generic [ref=e405]:
+                          - text: Instagram
+                          - generic [ref=e406]: · Nate Nguyen
+                        - generic [ref=e407]: Nov 24, 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Instagram
+                            - generic: · Nate Nguyen
+                      - button "About this result" [ref=e408] [cursor=pointer]:
+                        - img [ref=e411]
+                - 'link "Unique Thai brunch with an American twist in Irvine! : Kinaree ... by Nate Nguyen on Instagram. Play on Instagram. 0:34" [ref=e413] [cursor=pointer]':
+                  - /url: https://www.instagram.com/reel/DRdw7ijkcsJ/
+                  - generic [ref=e414]:
+                    - img [ref=e417]
+                    - generic [ref=e421]: 0:34
+            - link "View all videos" [ref=e424] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8ccDKAJ6BAgVEAQ
+              - separator [ref=e425]
+              - generic [ref=e426]:
+                - generic [ref=e427]: View all
+                - img [ref=e429]
+          - generic [ref=e433]:
+            - heading "Web results" [level=2] [ref=e434]
+            - generic [ref=e435]:
+              - generic [ref=e438]:
+                - link "Irvine MICHELIN Restaurants MICHELIN Guide https://guide.michelin.com › california › us-irvine › rest..." [ref=e440] [cursor=pointer]:
+                  - /url: https://guide.michelin.com/us/en/california/us-irvine/restaurants
+                  - heading "Irvine MICHELIN Restaurants" [level=3] [ref=e441]
+                  - generic [ref=e446]:
+                    - generic [ref=e448]: MICHELIN Guide
+                    - generic [ref=e450]: https://guide.michelin.com › california › us-irvine › rest...
+                - button "About this result" [ref=e451] [cursor=pointer]:
+                  - img [ref=e454]
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - emphasis [ref=e459]: Irvine
+                  - text: "and surroundings: 1-26 of 26"
+                  - emphasis [ref=e460]: restaurants
+                  - text: · Knife Pleat · Vaca · Bello by Sandro Nardone · Omakase by Gino · Hana re · Lola Gaspar · CHAAK Kitchen · Fable & ...
+                - link "Read more" [ref=e461] [cursor=pointer]:
+                  - /url: https://guide.michelin.com/us/en/california/us-irvine/restaurants#:~:text=Irvine%20and%20surroundings%3A%201%2D26%20of,26%20restaurants&text=Knife%20Pleat&text=Vaca&text=Bello%20by%20Sandro%20Nardone&text=Omakase%20by%20Gino&text=Hana%20re&text=Lola%20Gaspar&text=CHAAK%20Kitchen&text=Fable%20%26%20Spirit
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - link "Korean | Hanshin Pocha Irvine | California Hanshin Pocha Irvine https://www.hanshinpochairvine.com" [ref=e470] [cursor=pointer]:
+                - /url: https://www.hanshinpochairvine.com/
+                - heading "Korean | Hanshin Pocha Irvine | California" [level=3] [ref=e471]
+                - generic [ref=e476]:
+                  - generic [ref=e478]: Hanshin Pocha Irvine
+                  - generic [ref=e480]: https://www.hanshinpochairvine.com
+              - button "About this result" [ref=e481] [cursor=pointer]:
+                - img [ref=e484]
+            - generic [ref=e488]:
+              - text: HANSHIN POCHA is an authentic
+              - emphasis [ref=e489]: Korean
+              - text: gastropub where you can experience the warmth of
+              - emphasis [ref=e490]: Korean
+              - text: indoor snacks. Discover the
+              - emphasis [ref=e491]: best Korean food
+              - text: near you in
+              - emphasis [ref=e492]: Irvine
+              - text: ", CA"
+          - generic [ref=e496]:
+            - generic [ref=e499]:
+              - link "Top Rated on Resy Resy https://resy.com › cities › irvine-ca › list › top-rated › d..." [ref=e501] [cursor=pointer]:
+                - /url: https://resy.com/cities/irvine-ca/list/top-rated?date=2024-05-21&seats=2
+                - heading "Top Rated on Resy" [level=3] [ref=e502]
+                - generic [ref=e507]:
+                  - generic [ref=e509]: Resy
+                  - generic [ref=e511]: https://resy.com › cities › irvine-ca › list › top-rated › d...
+              - button "About this result" [ref=e512] [cursor=pointer]:
+                - img [ref=e515]
+            - generic [ref=e518]:
+              - generic [ref=e519]:
+                - emphasis [ref=e520]: Top
+                - text: Rated · Galpão Gaucho Brazilian Steakhouse -
+                - emphasis [ref=e521]: Irvine
+                - text: · Aria Kitchen · Benihana - Newport Beach, CA · Baekjeong -
+                - emphasis [ref=e522]: Irvine
+                - text: · Moulin - Bouillon
+                - emphasis [ref=e523]: Restaurant
+                - text: · Angelina's ...
+              - link "Read more" [ref=e524] [cursor=pointer]:
+                - /url: https://resy.com/cities/irvine-ca/list/top-rated?date=2024-05-21&seats=2#:~:text=Top%20Rated&text=Galp%C3%A3o%20Gaucho%20Brazilian%20Steakhouse%20%2D,Irvine&text=Aria%20Kitchen&text=Benihana%20%2D%20Newport%20Beach%2C%20CA&text=Baekjeong%20%2D%20Irvine&text=Moulin%20%2D%20Bouillon%20Restaurant&text=Angelina's%20Pizzeria%20Napoletana
+          - generic [ref=e528]:
+            - generic [ref=e531]:
+              - link "15 Essential Korean Restaurants to Try in Orange County Eater Los Angeles https://la.eater.com › maps › best-korean-restaurants-or..." [ref=e533] [cursor=pointer]:
+                - /url: https://la.eater.com/maps/best-korean-restaurants-orange-county-garden-grove-buena-park-irvine
+                - heading "15 Essential Korean Restaurants to Try in Orange County" [level=3] [ref=e534]
+                - generic [ref=e539]:
+                  - generic [ref=e541]: Eater Los Angeles
+                  - generic [ref=e543]: https://la.eater.com › maps › best-korean-restaurants-or...
+              - button "About this result" [ref=e544] [cursor=pointer]:
+                - img [ref=e547]
+            - generic [ref=e550]:
+              - generic [ref=e551]: Apr 18, 2024 —
+              - generic [ref=e552]:
+                - text: 15 Essential
+                - emphasis [ref=e553]: Korean Restaurants
+                - text: to Try in Orange County.
+                - emphasis [ref=e554]: Korean restaurants
+                - text: in Garden Grove,
+                - emphasis [ref=e555]: Irvine
+                - text: ", and Buena Park stand up to the"
+                - emphasis [ref=e556]: best
+                - text: in LA.
+              - link "Read more" [ref=e557] [cursor=pointer]:
+                - /url: https://la.eater.com/maps/best-korean-restaurants-orange-county-garden-grove-buena-park-irvine#:~:text=15%20Essential%20Korean%20Restaurants%20to,Try%20in%20Orange%20County&text=Korean%20restaurants%20in%20Garden%20Grove%2C,to%20the%20best%20in%20LA
+          - generic [ref=e563]:
+            - generic [ref=e566]:
+              - link "Looking for some good Thai food in Irvine, check out ... Instagram · happiestdentist 30+ likes · 9 months ago" [ref=e568] [cursor=pointer]:
+                - /url: https://www.instagram.com/reel/DLVBhIJxfKX/
+                - heading "Looking for some good Thai food in Irvine, check out ..." [level=3] [ref=e569]
+                - generic [ref=e574]:
+                  - generic [ref=e576]: Instagram · happiestdentist
+                  - generic [ref=e578]: 30+ likes · 9 months ago
+              - button "About this result" [ref=e579] [cursor=pointer]:
+                - img [ref=e582]
+            - generic [ref=e584]:
+              - link "Looking for some good Thai food in Irvine, check out ... by Chris Auyong | Travel, Lifestyle & Menswear on Instagram. Play on Instagram. 0:29" [ref=e585] [cursor=pointer]:
+                - /url: https://www.instagram.com/reel/DLVBhIJxfKX/
+                - generic [ref=e587]:
+                  - img [ref=e593]
+                  - generic [ref=e597]: 0:29
+              - generic [ref=e599]: Looking for some good Thai food in Irvine, check out @NaraThaiKitchen
+          - generic [ref=e603]:
+            - generic [ref=e606]:
+              - link "Outdoor Dining in Irvine? - Los Angeles Food Talk Central https://www.foodtalkcentral.com › ... › Los Angeles" [ref=e608] [cursor=pointer]:
+                - /url: https://www.foodtalkcentral.com/t/outdoor-dining-in-irvine/14585
+                - heading "Outdoor Dining in Irvine? - Los Angeles" [level=3] [ref=e609]
+                - generic [ref=e614]:
+                  - generic [ref=e616]: Food Talk Central
+                  - generic [ref=e618]: https://www.foodtalkcentral.com › ... › Los Angeles
+              - button "About this result" [ref=e619] [cursor=pointer]:
+                - img [ref=e622]
+            - generic [ref=e625]:
+              - generic [ref=e626]: Jul 21, 2022 —
+              - generic [ref=e627]:
+                - text: TRADE is a
+                - emphasis [ref=e628]: food
+                - text: hall that has an
+                - emphasis [ref=e629]: outdoor
+                - text: area with Tuk Tuk
+                - emphasis [ref=e630]: Thai
+                - text: ", Bao Chick and Sen"
+                - emphasis [ref=e631]: Thai
+                - text: Noodle Bar. At
+                - emphasis [ref=e632]: Irvine
+                - text: Spectrum, there's Silverlake Ramen ...
+              - link "Read more" [ref=e633] [cursor=pointer]:
+                - /url: https://www.foodtalkcentral.com/t/outdoor-dining-in-irvine/14585#:~:text=TRADE%20is%20a%20food%20hall,Silverlake%20Ramen%20and%20Little%20Sister.
+          - generic [ref=e637]:
+            - heading "Local Results" [level=2] [ref=e638]
+            - generic [ref=e639]:
+              - heading "Places" [level=2] [ref=e643]
+              - generic [ref=e644]:
+                - heading "Map" [level=3] [ref=e645]
+                - link [ref=e648] [cursor=pointer]:
+                  - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&udm=1&lsack=CXHiae6UO5n2kPIP1eWY-Ao&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QtgN6BAhIEAM
+              - generic [ref=e652]:
+                - button "The Goldfinch Restaurant Rated 4.6 out of 5, 208 user reviews · Restaurant 2000 Main St Suite 200 Opens soon · 11 AM \"One of the coolest spots in downtown Irvine!\"" [ref=e657]:
+                  - generic [ref=e661] [cursor=pointer]:
+                    - heading "The Goldfinch Restaurant" [level=3] [ref=e662]:
+                      - generic [ref=e663]: The Goldfinch Restaurant
+                    - generic [ref=e664]:
+                      - img "Rated 4.6 out of 5, 208 user reviews" [ref=e666]:
+                        - text: "4.6"
+                        - img [ref=e667]
+                        - text: (208)
+                      - text: · Restaurant
+                    - generic [ref=e670]: 2000 Main St Suite 200
+                    - generic [ref=e672]: Opens soon · 11 AM
+                    - generic [ref=e674]:
+                      - img [ref=e677]
+                      - generic [ref=e681]: "\"One of the coolest spots in downtown Irvine!\""
+                - button "Siam Station Thai Street Food Rated 3.9 out of 5, 360 user reviews · $20–30 · Thai 92 Corporate Park H Opens soon · 11 AM \"Finally found some authentic good Thai food in Irvine.\"" [ref=e689]:
+                  - generic [ref=e693] [cursor=pointer]:
+                    - heading "Siam Station Thai Street Food" [level=3] [ref=e694]:
+                      - generic [ref=e695]: Siam Station Thai Street Food
+                    - generic [ref=e696]:
+                      - img "Rated 3.9 out of 5, 360 user reviews" [ref=e698]:
+                        - text: "3.9"
+                        - img [ref=e699]
+                        - text: (360)
+                      - text: · $20–30
+                      - text: · Thai
+                    - generic [ref=e702]: 92 Corporate Park H
+                    - generic [ref=e704]: Opens soon · 11 AM
+                    - generic [ref=e706]:
+                      - img [ref=e709]
+                      - generic [ref=e714]: "\"Finally found some authentic good Thai food in Irvine.\""
+                - button "Tuk Tuk Thai Street Food Rated 4.4 out of 5, 107 user reviews · $10–20 · Thai 2222 Michelson Dr Suite 208 Opens soon · 11 AM \"This is one of the best Thai foods in Irvine.\"" [ref=e722]:
+                  - generic [ref=e726] [cursor=pointer]:
+                    - heading "Tuk Tuk Thai Street Food" [level=3] [ref=e727]:
+                      - generic [ref=e728]: Tuk Tuk Thai Street Food
+                    - generic [ref=e729]:
+                      - img "Rated 4.4 out of 5, 107 user reviews" [ref=e731]:
+                        - text: "4.4"
+                        - img [ref=e732]
+                        - text: (107)
+                      - text: · $10–20
+                      - text: · Thai
+                    - generic [ref=e735]: 2222 Michelson Dr Suite 208
+                    - generic [ref=e737]: Opens soon · 11 AM
+                    - generic [ref=e739]:
+                      - img [ref=e742]
+                      - generic [ref=e747]: "\"This is one of the best Thai foods in Irvine.\""
+              - heading "More places" [level=3] [ref=e752]:
+                - link "More places" [ref=e754] [cursor=pointer]:
+                  - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&udm=1&lsack=CXHiae6UO5n2kPIP1eWY-Ao&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8QjGp6BAhLEAE
+                  - separator [ref=e755]
+                  - generic [ref=e756]:
+                    - generic [ref=e757]: More places
+                    - img [ref=e759]
+          - generic [ref=e763]:
+            - heading "Web results" [level=2] [ref=e764]
+            - generic [ref=e765]:
+              - generic [ref=e768]:
+                - link "Irvine Restaurant Din Tai Fung https://dtf.com › en-us › locations › irvine" [ref=e770] [cursor=pointer]:
+                  - /url: https://dtf.com/en-us/locations/irvine
+                  - heading "Irvine Restaurant" [level=3] [ref=e771]
+                  - generic [ref=e776]:
+                    - generic [ref=e778]: Din Tai Fung
+                    - generic [ref=e780]: https://dtf.com › en-us › locations › irvine
+                - button "About this result" [ref=e781] [cursor=pointer]:
+                  - img [ref=e784]
+              - generic [ref=e787]:
+                - generic [ref=e788]:
+                  - text: Din Tai Fung
+                  - emphasis [ref=e789]: Irvine
+                  - text: is open daily from 11:00 AM to 9:00 PM for lunch and dinner. Hours may vary on holidays and special occasions. For the most current hours, ...
+                - link "Read more" [ref=e790] [cursor=pointer]:
+                  - /url: https://dtf.com/en-us/locations/irvine#:~:text=SIGN%20UP%20FOR
+        - generic [ref=e792]:
+          - generic [ref=e797]:
+            - heading "People also search for" [level=2] [ref=e799]
+            - generic [ref=e801]:
+              - generic [ref=e802]:
+                - link "Best Thai food Irvine" [ref=e806] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Best+Thai+food+Irvine&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAgsEAE
+                  - generic [ref=e807]:
+                    - generic [ref=e812]: Best Thai food Irvine
+                    - img [ref=e816]
+                - link "Thai food Irvine Spectrum" [ref=e821] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+food+Irvine+Spectrum&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAhEEAE
+                  - generic [ref=e822]:
+                    - generic [ref=e827]: Thai food Irvine Spectrum
+                    - img [ref=e831]
+                - link "Thai Cafe" [ref=e836] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+Cafe&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAhDEAE
+                  - generic [ref=e837]:
+                    - generic [ref=e842]: Thai Cafe
+                    - img [ref=e846]
+                - link "Thai Kitchen" [ref=e851] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+Kitchen&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAhCEAE
+                  - generic [ref=e852]:
+                    - generic [ref=e857]: Thai Kitchen
+                    - img [ref=e861]
+              - generic [ref=e863]:
+                - link "Manaao Thai Irvine Spectrum" [ref=e867] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Manaao+Thai+Irvine+Spectrum&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAg8EAE
+                  - generic [ref=e868]:
+                    - generic [ref=e873]: Manaao Thai Irvine Spectrum
+                    - img [ref=e877]
+                - link "Thai restaurant Irvine" [ref=e882] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+restaurant+Irvine&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAg2EAE
+                  - generic [ref=e883]:
+                    - generic [ref=e888]: Thai restaurant Irvine
+                    - img [ref=e892]
+                - link "Thai Spice Irvine" [ref=e897] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+Spice+Irvine&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAgzEAE
+                  - generic [ref=e898]:
+                    - generic [ref=e903]: Thai Spice Irvine
+                    - img [ref=e907]
+                - link "Manaao Thai reviews" [ref=e912] [cursor=pointer]:
+                  - /url: /search?sca_esv=c0c8628026d5a19e&q=Manaao+Thai+reviews&sa=X&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q1QJ6BAgyEAE
+                  - generic [ref=e913]:
+                    - generic [ref=e918]: Manaao Thai reviews
+                    - img [ref=e922]
+          - navigation [ref=e924]:
+            - heading "Page Navigation" [level=1] [ref=e925]
+            - text: "1"
+            - link "Page 2" [ref=e928] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=10&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAE
+              - text: "2"
+            - link "Page 3" [ref=e930] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=20&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAG
+              - text: "3"
+            - link "Page 4" [ref=e932] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=30&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAI
+              - text: "4"
+            - link "Page 5" [ref=e934] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=40&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAK
+              - text: "5"
+            - link "Page 6" [ref=e936] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=50&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAM
+              - text: "6"
+            - link "Page 7" [ref=e938] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=60&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAO
+              - text: "7"
+            - link "Page 8" [ref=e940] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=70&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAQ
+              - text: "8"
+            - link "Page 9" [ref=e942] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=80&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAS
+              - text: "9"
+            - link "Page 10" [ref=e944] [cursor=pointer]:
+              - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=90&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8tMDegQINRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e946]:
+              - link "Next" [ref=e947] [cursor=pointer]:
+                - /url: /search?q=best+%22Irvine%22+restaurants+Thai+OR+Korean+OR+Indian+OR+French+outdoor+2024+OR+2025&sca_esv=c0c8628026d5a19e&ei=CXHiae6UO5n2kPIP1eWY-Ao&start=10&sa=N&sstk=Af77f_fK4MG4B1FIj_hZ49s_qUPUEa2YDu55Bo9QjXKviKzVLySAvDdXA4HvVyYBmq1Z3s_r7OJCdd2mn-m8Emy6CNwaP0IuMjgO1w&ved=2ahUKEwiuvdnKt_WTAxUZO0QIHdUyBq8Q8NMDegQINRAW
+                - generic [ref=e949]: Next
+        - navigation
+    - contentinfo [ref=e950]:
+      - heading "Footer Links" [level=1] [ref=e951]
+      - generic [ref=e955]:
+        - generic [ref=e959]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e961] [cursor=pointer]:
+            - generic [ref=e962]: 92620, Irvine, CA
+            - generic [ref=e964]:
+              - text: "-"
+              - generic [ref=e965]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e967] [cursor=pointer]: Update location
+        - generic [ref=e970]:
+          - link "Help" [ref=e971] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e972] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e973] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e974] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

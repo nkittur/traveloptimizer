@@ -91,7 +91,7 @@ for (const r of incoming) {
     // Each discovery run is a complete snapshot; source drift across runs should reset,
     // not accumulate stale entries with slightly different detail strings.
     const prevData = prev.data || {};
-    const ENRICHMENT_FIELDS = ['lat', 'lng', 'googleRating', 'googleReviewCount', 'googleReviews', 'openingHours', 'photos', 'photoUrl', 'price'];
+    const ENRICHMENT_FIELDS = ['address', 'lat', 'lng', 'googleRating', 'googleReviewCount', 'googleReviews', 'openingHours', 'photos', 'photoUrl', 'price', 'outdoorSeating', 'constraintEvidence', 'placeId', 'placeRaw', 'placeRawFetchedAt'];
     const preserved = {};
     for (const k of ENRICHMENT_FIELDS) {
       if (prevData[k] != null) preserved[k] = prevData[k];

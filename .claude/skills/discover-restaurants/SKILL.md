@@ -418,6 +418,31 @@ The script:
 
 ---
 
+## Step 5.5 — Self-check (mandatory after Pass 1 upsert)
+
+Before running enrichment, diagnose scrape + PICKS health (L19):
+
+```bash
+node tools/_diagnose-scrapes.mjs <city-slug>
+```
+
+The diagnostic prints:
+- **Editorial source health** — per-file entry count, body-content fraction, paywall markers. Name-only lists (Michelin, 50 Best) are expected to have zero bodies. Prose sources (Eater, Infatuation, LA Times, etc.) returning zero/partial bodies are red flags.
+- **PICKS coverage** — scraped top-listers that are NOT in your PICKS. Surfaces famous restaurants you may have skipped.
+- **Reddit score distribution** — histogram of matched-comment upvote scores.
+- **High-score (≥10▲) Reddit hits with valence labels** — eyeball this. On Reddit, **upvotes ARE sentiment**: a bare-name comment at 40▲ is the strongest possible rec in that medium. If such a comment is labeled `mentioned` rather than `top-pick`, your heuristic needs loosening.
+- **Verdict block** — flags thin/paywalled sources, missing-top-pick-despite-many-hi-scores, and <30%-coverage sources.
+
+**Address every ⚠ warning before enrichment:**
+- Thin/paywalled source → retry with JS rendering, or **ask the user** to open the page in their logged-in browser and paste the rendered HTML. Don't silently produce a half-scraped list.
+- Uncovered editorial top-listers → add them to PICKS and re-upsert. The place-id cache in `enrich-group-combined.mjs` means re-running enrichment only bills for newly-added rows (~$0.05 each, not a full rerun).
+- No `top-pick` valence despite high-score comments → upvotes are the sentiment; don't require adjective cues. Reference: the score-driven `computeValence()` in `tools/_normalize-los-angeles.mjs`.
+- **Name mismatches (⚠ Place-match audit section)** → Google Places Text Search returned a different restaurant than the one your row is labeled as (L20 — "Restaurant Ki" → Nua; "The Wilkes" → Marina Del Rey Marina). These are silent bugs that corrupt lat/lng, ratings, reviews, photos, and outdoor-seating flags without warning. When flagged: clear `data.placeId`, `data.placeRaw`, `data.lat`, `data.lng` (etc.) on the row, fix the hand-written neighborhood if it was wrong, and re-run `enrich-group-combined.mjs`. Neighborhood in PICKS is display metadata ONLY — the enrichment query uses `name + city`, never the hand-written neighborhood, because a wrong neighborhood hint silently biases the match.
+
+Copy the `computeValence()` heuristic into every new per-city normalizer. Attach top-5 matched comment snippets (with scores) to each `reddit` source so the webapp can render evidence and the reader can judge valence themselves.
+
+---
+
 ## Step 6 — Enrichment pipeline
 
 ```bash

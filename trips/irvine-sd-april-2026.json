@@ -1,0 +1,141 @@
+{
+  "trip_id": "irvine-sd-april-2026",
+  "status": "optimizing-flights",
+  "concept": "Quick family trip: PIT -> Irvine (parents) -> San Diego (cousin Stefi) -> PIT",
+  "fixed_dates": {
+    "outbound": "2026-04-16 (Thursday)",
+    "return": "2026-04-19 (Monday)"
+  },
+  "nights": 3,
+  "destinations": {
+    "irvine": { "purpose": "Visit parents", "drive_to_sd": "~1.5 hours" },
+    "san_diego": { "purpose": "Visit cousin Stefi, fly out of SAN" }
+  },
+  "flight_analysis": {
+    "outbound_april_16": {
+      "option_1_LAX_nonstop": {
+        "label": "LAX Nonstop (Carissa's preference)",
+        "flights": [
+          {
+            "airline": "American",
+            "flight": "AA 2523",
+            "depart": "5:42pm ET",
+            "arrive": "8:10pm PT",
+            "duration": "~5h 28m",
+            "aircraft": "737-800",
+            "price_est": "$180-280 one-way"
+          },
+          {
+            "airline": "United",
+            "flight": "UA 2485",
+            "depart": "6:00pm ET",
+            "arrive": "8:12pm PT",
+            "duration": "~5h 12m",
+            "aircraft": "737 MAX 9",
+            "price_est": "$180-280 one-way"
+          }
+        ],
+        "drive_LAX_to_irvine": "45 min (late evening, minimal traffic)",
+        "arrive_irvine": "~9:00-9:15pm",
+        "pros": ["Nonstop (Carissa happy)", "Competitive pricing", "Evening arrival = no traffic on I-405"],
+        "cons": ["Late arrival — lose the evening", "Only late afternoon departures available nonstop"]
+      },
+      "option_2_SNA_connecting": {
+        "label": "SNA Connecting (closer to Irvine)",
+        "notes": "No nonstop PIT->SNA exists. Must connect.",
+        "typical_hubs": ["DFW (American)", "DEN (United/Southwest)", "PHX (American)", "MDW/ORD (Southwest/United)"],
+        "possible_arrival_range": "1:00pm - 8:00pm PT depending on connection",
+        "drive_SNA_to_irvine": "10-15 min",
+        "pros": ["Could arrive much earlier", "SNA is right next to parents", "More of the day in Irvine"],
+        "cons": ["Connection required", "Carissa dislikes connections", "Connection risk/delays"]
+      },
+      "option_3_LAX_connecting": {
+        "label": "LAX Connecting (arrive earlier)",
+        "notes": "Take a connecting flight to LAX to arrive earlier than the nonstop",
+        "possible_arrival_range": "11:00am - 3:00pm PT",
+        "drive_LAX_to_irvine": "45-90 min (daytime traffic on I-405 can be brutal)",
+        "pros": ["Arrive earlier, more time in Irvine"],
+        "cons": ["Connection + LAX traffic is a double penalty", "Daytime I-405 could add 30-45 min vs evening"]
+      }
+    },
+    "return_april_19": {
+      "critical_note": "NO nonstops SAN->PIT in April. Breeze starts May 2026, Southwest starts June 2026. All options are connecting flights.",
+      "common_connections": [
+        {
+          "hub": "DEN (United/Southwest)",
+          "notes": "Lots of SAN->DEN options, DEN->PIT nonstop on United. Good hub."
+        },
+        {
+          "hub": "DFW (American)",
+          "notes": "SAN->DFW frequent, DFW->PIT nonstop. Solid."
+        },
+        {
+          "hub": "PHX (American)",
+          "notes": "SAN->PHX is short (1hr), PHX->PIT nonstop on American."
+        },
+        {
+          "hub": "ORD (United/American)",
+          "notes": "Multiple SAN->ORD, ORD->PIT tons of nonstops."
+        },
+        {
+          "hub": "MDW (Southwest)",
+          "notes": "SAN->MDW, then MDW->PIT nonstop on Southwest."
+        }
+      ],
+      "departure_time_preference": "Mid-morning ideal — gives a relaxed last morning in SD, arrive PIT by evening",
+      "price_est": "$150-300 one-way per person depending on airline/connection"
+    }
+  },
+  "trip_layout_options": {
+    "layout_A": {
+      "name": "2 nights Irvine, 1 night SD",
+      "schedule": [
+        "Apr 16 (Thu): Fly PIT -> LAX/SNA, arrive Irvine evening. Night 1 in Irvine.",
+        "Apr 17 (Fri): Full day in Irvine with parents. Night 2 in Irvine.",
+        "Apr 18 (Sat): Morning in Irvine, drive to SD (~1.5hr). Afternoon/evening with Stefi. Night 3 in SD.",
+        "Apr 19 (Sun/Mon): Morning in SD, fly SAN -> PIT (connecting)."
+      ],
+      "pros": ["Max parent time", "Saturday evening in SD is fun (Gaslamp etc)"],
+      "cons": ["Only ~18 hours in San Diego"]
+    },
+    "layout_B": {
+      "name": "1 night Irvine, 2 nights SD",
+      "schedule": [
+        "Apr 16 (Thu): Fly PIT -> LAX/SNA, arrive Irvine evening. Night 1 in Irvine.",
+        "Apr 17 (Fri): Morning with parents, drive to SD after lunch (~1.5hr). Afternoon in SD. Night 2 in SD.",
+        "Apr 18 (Sat): Full day in SD with Stefi. Night 3 in SD.",
+        "Apr 19 (Mon): Morning in SD, fly SAN -> PIT."
+      ],
+      "pros": ["More SD time", "Full Saturday in SD", "Friday + Saturday nights in SD"],
+      "cons": ["Only 1 morning with parents before driving"]
+    },
+    "layout_C": {
+      "name": "2 nights Irvine, SD day trip (no hotel)",
+      "schedule": [
+        "Apr 16 (Thu): Fly PIT -> LAX/SNA, arrive Irvine evening. Night 1 in Irvine.",
+        "Apr 17 (Fri): Full day in Irvine with parents. Night 2 in Irvine.",
+        "Apr 18 (Sat): Drive to SD morning, full day with Stefi, drive back to Irvine evening. Night 3 in Irvine.",
+        "Apr 19 (Mon): Drive Irvine -> SAN (1.5hr), fly SAN -> PIT."
+      ],
+      "pros": ["No SD hotel needed", "3 nights at parents"],
+      "cons": ["3+ hours round trip driving on Saturday", "Need to drive Irvine->SAN on departure day", "Rushed"]
+    },
+    "layout_D": {
+      "name": "Fly into SAN first, reverse direction",
+      "schedule": [
+        "Apr 16 (Thu): Fly PIT -> SAN (connecting). Night 1 in SD with Stefi.",
+        "Apr 17 (Fri): Day in SD. Drive to Irvine afternoon/evening. Night 2 in Irvine.",
+        "Apr 18 (Sat): Full day in Irvine with parents. Night 3 in Irvine.",
+        "Apr 19 (Mon): Fly SNA/LAX -> PIT."
+      ],
+      "note": "PROBLEM: return from SNA has no nonstops to PIT either. And LAX nonstop departs ~6pm (lose the whole day). This layout is worse because you lose flexibility on BOTH ends.",
+      "verdict": "Eliminated — worse flight options in both directions"
+    }
+  },
+  "recommendation": {
+    "best_flight_combo": "PIT->LAX nonstop (American 5:42pm) + SAN->PIT connecting through DEN or PHX",
+    "best_layout": "Layout A or B depending on priority (parents vs SD time)",
+    "key_tradeoff": "The only nonstop option is outbound PIT->LAX, but it arrives late. To arrive earlier, must accept a connection. Return from SAN is connecting regardless."
+  },
+  "last_updated": "2026-04-03"
+}

@@ -1,11 +1,11 @@
 // app.js — Main controller with Supabase backend for shared state
-import { loadRestaurants, getAllRestaurants, generateId, setCityContext } from './data.js?v=1775460000';
-import * as local from './storage.js?v=1775460000';
-import * as db from './supabase.js?v=1775460000';
-import * as groupCtx from './group.js?v=1775460000';
-import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT, renderFilterPane, activeFilterCount } from './components.js?v=1775460000';
-import { initSortable, destroySortable } from './drag.js?v=1775460000';
-import { initMap, clearFilterExternal, openDrawer as openMapDrawer, closeDrawer as closeMapDrawer, highlightMarker } from './map.js?v=1775460000';
+import { loadRestaurants, getAllRestaurants, generateId, setCityContext } from './data.js?v=1776965114';
+import * as local from './storage.js?v=1776965114';
+import * as db from './supabase.js?v=1776965114';
+import * as groupCtx from './group.js?v=1776965114';
+import { renderCard, renderShortlistCard, renderTrashCard, renderDetail, renderAddForm, renderEmptyState, renderGlobalSourcesModal, TOTAL_SOURCE_COUNT, renderFilterPane, activeFilterCount } from './components.js?v=1776965114';
+import { initSortable, destroySortable } from './drag.js?v=1776965114';
+import { initMap, clearFilterExternal, openDrawer as openMapDrawer, closeDrawer as closeMapDrawer, highlightMarker } from './map.js?v=1776965114';
 
 const useDB = db.isConfigured();
 
@@ -332,6 +332,20 @@ async function handleAction(action, id, el) {
     case 'toggle-detail': {
       if (state.openDetail === id) closeDetail();
       else openDetail(id);
+      break;
+    }
+    case 'open-comment': {
+      // Open the detail sheet and jump straight to the comment textarea.
+      if (state.openDetail !== id) openDetail(id);
+      // Defer focus until the sheet is in the DOM.
+      requestAnimationFrame(() => {
+        const form = $detailContainer.querySelector('.comment-form[data-action="add-comment"]');
+        const ta = form?.querySelector('textarea');
+        if (ta) {
+          form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          ta.focus({ preventScroll: true });
+        }
+      });
       break;
     }
     case 'close-detail': {

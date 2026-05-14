@@ -1,0 +1,382 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:travelandleisure.com acadia OR "bar harbor" best site:travelandleisure.com acadia OR "bar harbor" best
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - button "Search Labs" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e60]
+        - img [ref=e65]
+  - generic [ref=e67]:
+    - navigation [ref=e73]:
+      - generic [ref=e79]:
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link "AI Mode" [ref=e84] [cursor=pointer]:
+              - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&aep=1&ntc=1&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ2J8OegQIDhAI
+              - generic [ref=e87]: AI Mode
+          - listitem [ref=e88]:
+            - link "All" [disabled] [ref=e89]:
+              - generic [ref=e91]: All
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQtKgLegQIEhAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Short videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQs6gLegQIExAB
+              - generic [ref=e99]: Short videos
+          - listitem [ref=e100]:
+            - link "News" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ0pQJegQIEBAB
+              - generic [ref=e103]: News
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQtKgLegQIFBAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - link "Shopping" [ref=e109] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_QWhZLFYgJey6k1L62Wyd9QgiW3GPkBHuLIs8ZX6I371ilYpfpxKcysxNNBOEtA94yHkC2eiLWJVJ-XBWeW78pp_FUAtMJdA_1xuuooU7IitZitradlIuKu_UwnU5NDTV41VgiA&q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&ved=1t:220175&ictx=111
+              - generic [ref=e111]: Shopping
+          - listitem [ref=e112]:
+            - button "More filters" [ref=e113] [cursor=pointer]:
+              - generic "More filters" [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]: More
+                  - img [ref=e118]
+        - button "Tools" [ref=e121] [cursor=pointer]:
+          - generic [ref=e123]:
+            - generic [ref=e124]: Tools
+            - img [ref=e126]
+    - heading "Search Results" [level=1] [ref=e128]
+    - main [ref=e134]:
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - heading "Web results" [level=2] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e146]:
+              - 'link "Ultimate Acadia National Park Guide: Best Activities & Tip Travel + Leisure https://www.travelandleisure.com › ... › National Parks" [ref=e148] [cursor=pointer]':
+                - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732
+                - 'heading "Ultimate Acadia National Park Guide: Best Activities & Tip" [level=3] [ref=e149]'
+                - generic [ref=e154]:
+                  - generic [ref=e156]: Travel + Leisure
+                  - generic [ref=e158]: https://www.travelandleisure.com › ... › National Parks
+              - button "About this result" [ref=e159] [cursor=pointer]:
+                - img [ref=e162]
+            - generic [ref=e165]:
+              - generic [ref=e166]: Dec 15, 2025 —
+              - generic [ref=e167]:
+                - text: For people looking to take to the sea, the
+                - emphasis [ref=e168]: Bar Harbor
+                - text: Whale Watch Co. offers whale-watching expeditions, lighthouse and puffin tours, and island ...
+              - link "Read more" [ref=e169] [cursor=pointer]:
+                - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732#:~:text=For%20people%20looking%20to%20take,puffin%20tours%2C%20and%20island%20tours.
+            - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e172] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732
+              - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e174]
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link "Know Before You Go" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732#toc-know-before-you-go
+                  - generic [ref=e180]: Know Before You Go
+              - listitem [ref=e181]:
+                - link "Best Time to Visit" [ref=e182] [cursor=pointer]:
+                  - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732#toc-best-time-to-visit
+                  - generic [ref=e184]: Best Time to Visit
+              - listitem [ref=e185]:
+                - link "Best Things to Do" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732#toc-best-things-to-do
+                  - generic [ref=e188]: Best Things to Do
+              - listitem [ref=e189]:
+                - link "Best Hikes" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.travelandleisure.com/acadia-national-park-guide-8604732#toc-best-hikes
+                  - generic [ref=e192]: Best Hikes
+        - generic [ref=e196]:
+          - generic [ref=e199]:
+            - link "Maine's Mount Desert Island is the Ultimate New England ... Travel + Leisure https://www.travelandleisure.com › ... › USA › Maine" [ref=e201] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/mount-desert-island-maine-11745816
+              - heading "Maine's Mount Desert Island is the Ultimate New England ..." [level=3] [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]: Travel + Leisure
+                - generic [ref=e211]: https://www.travelandleisure.com › ... › USA › Maine
+            - button "About this result" [ref=e212] [cursor=pointer]:
+              - img [ref=e215]
+          - generic [ref=e218]:
+            - generic [ref=e219]: Jun 16, 2025 —
+            - generic [ref=e220]:
+              - text: "From left: The pool at Salt Cottages, a resort in"
+              - emphasis [ref=e221]: Bar Harbor
+              - text: ", Maine; grilled salmon with butternut-squash curry and sweet potatoes at Little ..."
+            - link "Read more" [ref=e222] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/mount-desert-island-maine-11745816#:~:text=From%20left%3A%20The%20pool%20at,Claremont%20Hotel%2C%20in%20Southwest%20Harbor.
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e225] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/mount-desert-island-maine-11745816
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e227]
+        - generic [ref=e231]:
+          - generic [ref=e234]:
+            - link "Our Readers' Favorite Islands in the Continental U.S. of 2025 Travel + Leisure https://www.travelandleisure.com › ... › Islands" [ref=e236] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/worlds-best-awards-2025-islands-continental-us-11751705
+              - heading "Our Readers' Favorite Islands in the Continental U.S. of 2025" [level=3] [ref=e237]
+              - generic [ref=e242]:
+                - generic [ref=e244]: Travel + Leisure
+                - generic [ref=e246]: https://www.travelandleisure.com › ... › Islands
+            - button "About this result" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]: Jul 8, 2025 —
+            - generic [ref=e255]:
+              - text: Most of the island is dominated by
+              - emphasis [ref=e256]: Acadia
+              - text: National Park, often called the “crown jewel of the North Atlantic Coast,” but the town of
+              - emphasis [ref=e257]: Bar Harbor
+              - text: ...
+            - link "Read more" [ref=e258] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/worlds-best-awards-2025-islands-continental-us-11751705#:~:text=Most%20of%20the%20island%20is,the%20town%20of%20Bar%20Harbor
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e261] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/worlds-best-awards-2025-islands-continental-us-11751705
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e263]
+        - generic [ref=e267]:
+          - generic [ref=e270]:
+            - link "When to Visit Acadia for Weather and Savings Travel + Leisure https://www.travelandleisure.com › ... › USA › Maine" [ref=e272] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/trip-ideas/national-parks/best-time-to-visit-acadia-national-park-maine
+              - heading "When to Visit Acadia for Weather and Savings" [level=3] [ref=e273]
+              - generic [ref=e278]:
+                - generic [ref=e280]: Travel + Leisure
+                - generic [ref=e282]: https://www.travelandleisure.com › ... › USA › Maine
+            - button "About this result" [ref=e283] [cursor=pointer]:
+              - img [ref=e286]
+          - generic [ref=e289]:
+            - generic [ref=e290]: Oct 9, 2025 —
+            - generic [ref=e291]:
+              - text: Its peak (the highest point on the eastern seaboard) is a hopping place at daybreak, offering unspoiled views of
+              - emphasis [ref=e292]: Bar Harbor
+              - text: and Frenchman Bay ...
+            - link "Read more" [ref=e293] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/trip-ideas/national-parks/best-time-to-visit-acadia-national-park-maine#:~:text=Its%20peak%20(the%20highest%20point,illuminated%20by%20the%20rising%20sun.
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e296] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/trip-ideas/national-parks/best-time-to-visit-acadia-national-park-maine
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e298]
+        - generic [ref=e302]:
+          - generic [ref=e305]:
+            - link "and These Are My Favorite Hidden Gems in the State Travel + Leisure https://www.travelandleisure.com › ... › USA › Maine" [ref=e307] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/hidden-gems-maine-8670431
+              - heading "and These Are My Favorite Hidden Gems in the State" [level=3] [ref=e308]
+              - generic [ref=e313]:
+                - generic [ref=e315]: Travel + Leisure
+                - generic [ref=e317]: https://www.travelandleisure.com › ... › USA › Maine
+            - button "About this result" [ref=e318] [cursor=pointer]:
+              - img [ref=e321]
+          - generic [ref=e324]:
+            - generic [ref=e325]: Jul 2, 2024 —
+            - generic [ref=e326]:
+              - text: If you're heading to
+              - emphasis [ref=e327]: Bar Harbor
+              - text: or
+              - emphasis [ref=e328]: Acadia
+              - text: National Park, you have to drive through Ellsworth, so this is an easy stop for travelers headed to ...
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/hidden-gems-maine-8670431#:~:text=If%20you're%20heading%20to%20Bar,travelers%20headed%20to%20the%20coast.
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e332] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/hidden-gems-maine-8670431
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e334]
+        - generic [ref=e338]:
+          - generic [ref=e341]:
+            - link "This Easy Hike in Acadia National Park Is One of Its Most ... Travel + Leisure https://www.travelandleisure.com › ... › National Parks" [ref=e343] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/jordan-pond-path-acadia-national-park-11848567
+              - heading "This Easy Hike in Acadia National Park Is One of Its Most ..." [level=3] [ref=e344]
+              - generic [ref=e349]:
+                - generic [ref=e351]: Travel + Leisure
+                - generic [ref=e353]: https://www.travelandleisure.com › ... › National Parks
+            - button "About this result" [ref=e354] [cursor=pointer]:
+              - img [ref=e357]
+          - generic [ref=e360]:
+            - generic [ref=e361]: Dec 8, 2025 —
+            - generic [ref=e362]:
+              - text: Jordan Pond Path in
+              - emphasis [ref=e363]: Acadia
+              - text: is an easy 3.3-mile trail with mountain views, calm waters, and nearby
+              - emphasis [ref=e364]: Bar Harbor
+              - text: attractions for a perfect Maine
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e367] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/jordan-pond-path-acadia-national-park-11848567
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e369]
+        - generic [ref=e373]:
+          - generic [ref=e376]:
+            - link "Swap Crowded National Parks for These 6 State ... Travel + Leisure https://www.travelandleisure.com › ... › National Parks" [ref=e378] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-state-parks-national-park-alternatives-11933706
+              - heading "Swap Crowded National Parks for These 6 State ..." [level=3] [ref=e379]
+              - generic [ref=e384]:
+                - generic [ref=e386]: Travel + Leisure
+                - generic [ref=e388]: https://www.travelandleisure.com › ... › National Parks
+            - button "About this result" [ref=e389] [cursor=pointer]:
+              - img [ref=e392]
+          - generic [ref=e395]:
+            - generic [ref=e396]: Mar 27, 2026 —
+            - generic [ref=e397]:
+              - emphasis [ref=e398]: Acadia
+              - text: National Park's craggy coastline and dense forests draw travelers to Maine's stunning waterfront year after year. But 80 miles south of ...
+            - link "Read more" [ref=e399] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/best-state-parks-national-park-alternatives-11933706#:~:text=Acadia%20National%20Park's%20craggy%20coastline,plenty%20of%20New%20England%20beauty.
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e402] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/best-state-parks-national-park-alternatives-11933706
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e404]
+        - generic [ref=e408]:
+          - generic [ref=e411]:
+            - link "This Maine State Park Is the Perfect Acadia Dupe Travel + Leisure https://www.travelandleisure.com › Destinations › USA" [ref=e413] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/camden-hills-state-park-11778225
+              - heading "This Maine State Park Is the Perfect Acadia Dupe" [level=3] [ref=e414]
+              - generic [ref=e419]:
+                - generic [ref=e421]: Travel + Leisure
+                - generic [ref=e423]: https://www.travelandleisure.com › Destinations › USA
+            - button "About this result" [ref=e424] [cursor=pointer]:
+              - img [ref=e427]
+          - generic [ref=e430]:
+            - generic [ref=e431]: Aug 5, 2025 —
+            - generic [ref=e432]:
+              - text: Maine's Camden Hills State Park is a perfect
+              - emphasis [ref=e433]: Acadia
+              - text: dupe with gorgeous views, scenic trails, and small crowds—plus, cozy inns and ...
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e436] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/camden-hills-state-park-11778225
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e438]
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "This East Coast National Park Is the Next Big RV ... Travel + Leisure https://www.travelandleisure.com › ... › National Parks" [ref=e447] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/acadia-national-park-emerging-rv-destination-in-2025-8759838
+              - heading "This East Coast National Park Is the Next Big RV ..." [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: Travel + Leisure
+                - generic [ref=e457]: https://www.travelandleisure.com › ... › National Parks
+            - button "About this result" [ref=e458] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e464]:
+            - generic [ref=e465]: Jan 1, 2025 —
+            - generic [ref=e466]:
+              - text: But, if you're hungry for a bit of civilization, head to nearby
+              - emphasis [ref=e467]: Bar Harbor
+              - text: for plentiful brewery and restaurant options.
+              - emphasis [ref=e468]: Acadia
+              - text: is open year- ...
+            - link "Read more" [ref=e469] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/acadia-national-park-emerging-rv-destination-in-2025-8759838#:~:text=But%2C%20if%20you're%20hungry%20for,Acadia%20is%20open%20year%2D
+          - link "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e472] [cursor=pointer]:
+            - /url: https://www.travelandleisure.com/acadia-national-park-emerging-rv-destination-in-2025-8759838
+            - img "site:travelandleisure.com acadia OR \"bar harbor\" best from www.travelandleisure.com" [ref=e474]
+        - generic [ref=e478]:
+          - generic [ref=e481]:
+            - link "The Essential Road Trip Guide to The Great Northern Travel + Leisure https://www.travelandleisure.com › ... › Road Trips" [ref=e483] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/great-northern-road-trip-guide-11956132
+              - heading "The Essential Road Trip Guide to The Great Northern" [level=3] [ref=e484]
+              - generic [ref=e489]:
+                - generic [ref=e491]: Travel + Leisure
+                - generic [ref=e493]: https://www.travelandleisure.com › ... › Road Trips
+            - button "About this result" [ref=e494] [cursor=pointer]:
+              - img [ref=e497]
+          - generic [ref=e500]:
+            - generic [ref=e501]: 2 days ago —
+            - generic [ref=e502]:
+              - text: Detour to
+              - emphasis [ref=e503]: Acadia
+              - text: National Park in Maine, where rugged coastal cliffs, scenic drives, and ocean views provide a stunning grand finale to the trip ...
+            - link "Read more" [ref=e504] [cursor=pointer]:
+              - /url: https://www.travelandleisure.com/great-northern-road-trip-guide-11956132#:~:text=Detour%20to%20Acadia%20National%20Park,grand%20finale%20to%20the%20trip.
+      - generic [ref=e506]:
+        - generic [ref=e511]:
+          - heading "People also search for" [level=2] [ref=e513]
+          - generic [ref=e515]:
+            - link "Acadia bar harbor best things to do" [ref=e520] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&q=Acadia+bar+harbor+best+things+to+do&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ1QJ6BAgwEAE
+              - generic [ref=e521]:
+                - generic [ref=e526]: Acadia bar harbor best things to do
+                - img [ref=e530]
+            - link "Acadia bar harbor best restaurants" [ref=e536] [cursor=pointer]:
+              - /url: /search?sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&q=Acadia+bar+harbor+best+restaurants&sa=X&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ1QJ6BAgxEAE
+              - generic [ref=e537]:
+                - generic [ref=e542]: Acadia bar harbor best restaurants
+                - img [ref=e546]
+        - navigation [ref=e548]:
+          - heading "Page Navigation" [level=1] [ref=e549]
+          - text: "1"
+          - link "Page 2" [ref=e552] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=10&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAE
+            - text: "2"
+          - link "Page 3" [ref=e554] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=20&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAG
+            - text: "3"
+          - link "Page 4" [ref=e556] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=30&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAI
+            - text: "4"
+          - link "Page 5" [ref=e558] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=40&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAK
+            - text: "5"
+          - link "Page 6" [ref=e560] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=50&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAM
+            - text: "6"
+          - link "Page 7" [ref=e562] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=60&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAO
+            - text: "7"
+          - link "Page 8" [ref=e564] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=70&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAQ
+            - text: "8"
+          - link "Page 9" [ref=e566] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=80&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAS
+            - text: "9"
+          - link "Page 10" [ref=e568] [cursor=pointer]:
+            - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=90&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8tMDegQILhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e570]:
+            - link "Next" [ref=e571] [cursor=pointer]:
+              - /url: /search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&sca_esv=36815ad48fdd2e61&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205&ei=Wv7vaeyXDNmz5NoPrPC9yQ0&start=10&sa=N&sstk=Af77f_dNSvfvmIy5e798oE4T1qXTg7Xrni0GmLY-HqMrxhBO0Co3WFHUhiDddI5foASQ0DUXmAcY3e8cf7w_GxGjMm6pM8zmSrLO2g&ved=2ahUKEwjsrO-WpI-UAxXZGVkFHSx4L9kQ8NMDegQILhAW
+              - generic [ref=e573]: Next
+      - navigation
+    - contentinfo [ref=e574]:
+      - heading "Footer Links" [level=1] [ref=e575]
+      - generic [ref=e579]:
+        - generic [ref=e582]:
+          - generic [ref=e583]: Results are personalized
+          - generic [ref=e584]: "-"
+          - link "Try without personalization" [ref=e586] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:travelandleisure.com+acadia+OR+%22bar+harbor%22+best&peek_pws=0&sxsrf=ANbL-n65OVcYgH5cc1YaAf0Cxq8uHgkkgA:1777335898205
+            - generic [ref=e587]: Try without personalization
+        - generic [ref=e591]:
+          - button "15217, Pittsburgh, PA - Based on your places (Home)" [ref=e593] [cursor=pointer]:
+            - generic [ref=e594]: 15217, Pittsburgh, PA
+            - generic [ref=e596]:
+              - text: "-"
+              - generic [ref=e597]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e599] [cursor=pointer]: Update location
+        - generic [ref=e602]:
+          - link "Help" [ref=e603] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e604] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e605] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e606] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

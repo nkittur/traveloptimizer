@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com \"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522best%2Bthings%2Bto%2Bdo%2522%2B%2522san%2Bdiego%2522%2Bsite%253Atimeout.com%2BOR%2Bsite%253Acntraveler.com%2BOR%2Bsite%253Aatlasobscura.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&aep=1&ntc=1&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ2J8OegQIEBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQs6gLegQIFRAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQtKgLegQIFBAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQtKgLegQIExAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQs6gLegQIERAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "News" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQCntYgVKnodjp8mHRtWfsydy39figCJtJh7sSlkEbmfjEBAWRhw0dDIdt-zP-rDU7DbwdcCS_pt9g60lHET_QHbtVBC8HU2-98tAPZhikGNaPRlSxYsPKzAT3JL1Sn1Xem0NY4w-AlJd--1_3BRf-V4C1pMfw&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ0pQJegQIEhAB
+              - generic [ref=e105]: News
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "San Diego - Travel News, Tips, and Guides Condé Nast Traveler https://www.cntraveler.com › tag › san-diego" [ref=e142] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/tag/san-diego
+                - heading "San Diego - Travel News, Tips, and Guides" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Condé Nast Traveler
+                  - generic [ref=e152]: https://www.cntraveler.com › tag › san-diego
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - text: "21"
+                - emphasis [ref=e161]: Best Things to Do
+                - text: in
+                - emphasis [ref=e162]: San Diego
+                - text: ", From Museum Visits to Scenic Hikes. It's 75 and sunny nearly all the time, so get out there and enjoy it."
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/tag/san-diego#:~:text=21%20Best%20Things%20to%20Do,out%20there%20and%20enjoy%20it.
+            - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e166] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/tag/san-diego
+              - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e168]
+        - generic [ref=e172]:
+          - generic [ref=e175]:
+            - link "Ultimate Guide To Where To Go, Eat & Sleep in San Diego Time Out https://www.timeout.com › san-diego" [ref=e177] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego
+              - heading "Ultimate Guide To Where To Go, Eat & Sleep in San Diego" [level=3] [ref=e178]
+              - generic [ref=e183]:
+                - generic [ref=e185]: Time Out
+                - generic [ref=e187]: https://www.timeout.com › san-diego
+            - button "About this result" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - text: The
+              - emphasis [ref=e196]: best things to do
+              - text: in
+              - emphasis [ref=e197]: San Diego
+              - text: with kids. With more than 70 miles of coastline,
+              - emphasis [ref=e198]: San Diego
+              - text: makes it pretty easy to keep the kids entertained.
+            - link "Read more" [ref=e199] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego#:~:text=The%20best%20things%20to%20do,in%20San%20Diego%20with%20kids&text=With%20more%20than%2070%20miles,to%20keep%20the%20kids%20entertained.
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e202] [cursor=pointer]:
+            - /url: https://www.timeout.com/san-diego
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e204]
+        - generic [ref=e208]:
+          - generic [ref=e211]:
+            - link "21 Best Things to Do in San Diego, From Museum Visits ... Condé Nast Traveler https://www.cntraveler.com › ... › Destination Guides" [ref=e213] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/gallery/best-things-to-do-in-san-diego-from-museum-visits-to-scenic-hikes
+              - heading "21 Best Things to Do in San Diego, From Museum Visits ..." [level=3] [ref=e214]
+              - generic [ref=e219]:
+                - generic [ref=e221]: Condé Nast Traveler
+                - generic [ref=e223]: https://www.cntraveler.com › ... › Destination Guides
+            - button "About this result" [ref=e224] [cursor=pointer]:
+              - img [ref=e227]
+          - generic [ref=e230]:
+            - generic [ref=e231]: Sep 17, 2025 —
+            - generic [ref=e232]:
+              - text: These are the
+              - emphasis [ref=e233]: best things to do
+              - text: in
+              - emphasis [ref=e234]: San Diego
+              - text: with pictures and travel tips, from places to explore and sights to see, to events to attend ...
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e237] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/gallery/best-things-to-do-in-san-diego-from-museum-visits-to-scenic-hikes
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e239]
+        - generic [ref=e243]:
+          - generic [ref=e246]:
+            - link "22 Best Things to Do in San Diego Right Now Time Out https://www.timeout.com › usa › best-things-to-do-in-sa..." [ref=e248] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/things-to-do/best-things-to-do-in-san-diego
+              - heading "22 Best Things to Do in San Diego Right Now" [level=3] [ref=e249]
+              - generic [ref=e254]:
+                - generic [ref=e256]: Time Out
+                - generic [ref=e258]: https://www.timeout.com › usa › best-things-to-do-in-sa...
+            - button "About this result" [ref=e259] [cursor=pointer]:
+              - img [ref=e262]
+          - generic [ref=e265]:
+            - generic [ref=e266]: Mar 9, 2026 —
+            - generic [ref=e267]:
+              - text: This city is much more than beaches. From parks and museums to its famous zoo, check out the
+              - emphasis [ref=e268]: best things to do
+              - text: in
+              - emphasis [ref=e269]: San Diego
+              - text: .
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e272] [cursor=pointer]:
+            - /url: https://www.timeout.com/usa/things-to-do/best-things-to-do-in-san-diego
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e274]
+        - generic [ref=e278]:
+          - generic [ref=e281]:
+            - link "San Diego Travel Guide Condé Nast Traveler https://www.cntraveler.com › destinations › san-diego" [ref=e283] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/san-diego
+              - heading "San Diego Travel Guide" [level=3] [ref=e284]
+              - generic [ref=e289]:
+                - generic [ref=e291]: Condé Nast Traveler
+                - generic [ref=e293]: https://www.cntraveler.com › destinations › san-diego
+            - button "About this result" [ref=e294] [cursor=pointer]:
+              - img [ref=e297]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - text: The
+              - emphasis [ref=e302]: Best Things to Do
+              - text: in
+              - emphasis [ref=e303]: San Diego
+              - text: . 17
+              - emphasis [ref=e304]: Best Things to Do
+              - text: in
+              - emphasis [ref=e305]: San Diego
+              - text: . It's 75 and sunny nearly all the time, so get out ...
+            - link "Read more" [ref=e306] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/san-diego#:~:text=The%20Best%20Things%20to%20Do,out%20there%20and%20enjoy%20it.
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e309] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/destinations/san-diego
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e311]
+        - generic [ref=e315]:
+          - generic [ref=e318]:
+            - link "The essential guide to San Diego Time Out https://www.timeout.com › sydney › travel › the-essenti..." [ref=e320] [cursor=pointer]:
+              - /url: https://www.timeout.com/sydney/travel/the-essential-guide-to-san-diego
+              - heading "The essential guide to San Diego" [level=3] [ref=e321]
+              - generic [ref=e326]:
+                - generic [ref=e328]: Time Out
+                - generic [ref=e330]: https://www.timeout.com › sydney › travel › the-essenti...
+            - button "About this result" [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+          - generic [ref=e337]:
+            - generic [ref=e338]: Feb 28, 2017 —
+            - generic [ref=e339]:
+              - emphasis [ref=e340]: San Diego
+              - text: – located at the southern base of California – opens ... The
+              - emphasis [ref=e341]: best things to do
+              - text: in Sydney this weekend. Things to do. The
+              - emphasis [ref=e342]: best
+              - text: ...
+            - link "Read more" [ref=e343] [cursor=pointer]:
+              - /url: https://www.timeout.com/sydney/travel/the-essential-guide-to-san-diego#:~:text=San%20Diego%20%E2%80%93%20located%20at,quickly%20and%20easily%20to%20travellers.&text=Things%20to%20do,do%20in%20Sydney%20this%20weekend
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e346] [cursor=pointer]:
+            - /url: https://www.timeout.com/sydney/travel/the-essential-guide-to-san-diego
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e348]
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - link "San Diego's Culinary Scene Has Grown Up Condé Nast Traveler https://www.cntraveler.com › Destinations › Restaurants" [ref=e357] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/san-diegos-culinary-scene-has-grown-up
+              - heading "San Diego's Culinary Scene Has Grown Up" [level=3] [ref=e358]
+              - generic [ref=e363]:
+                - generic [ref=e365]: Condé Nast Traveler
+                - generic [ref=e367]: https://www.cntraveler.com › Destinations › Restaurants
+            - button "About this result" [ref=e368] [cursor=pointer]:
+              - img [ref=e371]
+          - generic [ref=e374]:
+            - generic [ref=e375]: Apr 1, 2026 —
+            - generic [ref=e376]:
+              - text: "21"
+              - emphasis [ref=e377]: Best Things to Do
+              - text: in
+              - emphasis [ref=e378]: San Diego
+              - text: ", From Museum Visits to Scenic Hikes."
+            - link "Read more" [ref=e379] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/san-diegos-culinary-scene-has-grown-up#:~:text=21%20Best%20Things%20to%20Do,Museum%20Visits%20to%20Scenic%20Hikes
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e382] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/story/san-diegos-culinary-scene-has-grown-up
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.cntraveler.com" [ref=e384]
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - link "The best things to do in San Diego with kids Time Out https://www.timeout.com › san-diego › best-things-to-d..." [ref=e393] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego/things-to-do/best-things-to-do-with-kids-in-san-diego
+              - heading "The best things to do in San Diego with kids" [level=3] [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e401]: Time Out
+                - generic [ref=e403]: https://www.timeout.com › san-diego › best-things-to-d...
+            - button "About this result" [ref=e404] [cursor=pointer]:
+              - img [ref=e407]
+          - generic [ref=e410]:
+            - generic [ref=e411]: May 29, 2025 —
+            - generic [ref=e412]:
+              - emphasis [ref=e413]: Best things to do
+              - text: with kids in
+              - emphasis [ref=e414]: San Diego
+              - text: · 1.
+              - emphasis [ref=e415]: San Diego
+              - text: Zoo · 2. Balboa Park · 3. Belmont Park · 4. LEGOLAND California Resort · 5. SeaWorld · 6.
+            - link "Read more" [ref=e416] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego/things-to-do/best-things-to-do-with-kids-in-san-diego#:~:text=Best%20things%20to%20do%20with,kids%20in%20San%20Diego&text=1.%20San%20Diego%20Zoo&text=2.%20Balboa%20Park&text=3.%20Belmont%20Park&text=4.%20LEGOLAND%20California%20Resort&text=5.%20SeaWorld&text=6.%20Birch%20Aquarium%20at%20Scripps
+          - link "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e419] [cursor=pointer]:
+            - /url: https://www.timeout.com/san-diego/things-to-do/best-things-to-do-with-kids-in-san-diego
+            - img "\"best things to do\" \"san diego\" site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com from www.timeout.com" [ref=e421]
+        - generic [ref=e425]:
+          - generic [ref=e428]:
+            - link "North America Travel Guide Condé Nast Traveler https://www.cntraveler.com › destinations › north-ameri..." [ref=e430] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/north-america
+              - heading "North America Travel Guide" [level=3] [ref=e431]
+              - generic [ref=e436]:
+                - generic [ref=e438]: Condé Nast Traveler
+                - generic [ref=e440]: https://www.cntraveler.com › destinations › north-ameri...
+            - button "About this result" [ref=e441] [cursor=pointer]:
+              - img [ref=e444]
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - text: ... 17
+              - emphasis [ref=e449]: Best Things to Do
+              - text: in
+              - emphasis [ref=e450]: San Diego
+              - text: . It's 75 and sunny nearly all the time, so get out there and enjoy it. By Marie Tutko and ...
+            - link "Read more" [ref=e451] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/north-america#:~:text=17%20Best%20Things%20to%20Do,Marie%20Tutko%20and%20Archana%20Ram
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - link "The best things to do outside in San Diego Time Out Worldwide https://www.timeout.com › san-diego › the-best-things-t..." [ref=e460] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego/things-to-do/the-best-things-to-do-outside-in-san-diego
+              - heading "The best things to do outside in San Diego" [level=3] [ref=e461]
+              - generic [ref=e466]:
+                - generic [ref=e468]: Time Out Worldwide
+                - generic [ref=e470]: https://www.timeout.com › san-diego › the-best-things-t...
+            - button "About this result" [ref=e471] [cursor=pointer]:
+              - img [ref=e474]
+          - generic [ref=e477]:
+            - generic [ref=e478]: May 18, 2021 —
+            - generic [ref=e479]:
+              - text: The
+              - emphasis [ref=e480]: best things to do
+              - text: outside in
+              - emphasis [ref=e481]: San Diego
+              - text: · 10. Taste your way through a local farmers market · 9. Catch a baseball game at Petco Park · 8. Imbibe ...
+            - link "Read more" [ref=e482] [cursor=pointer]:
+              - /url: https://www.timeout.com/san-diego/things-to-do/the-best-things-to-do-outside-in-san-diego#:~:text=The%20best%20things%20to%20do,outside%20in%20San%20Diego&text=10.%20Taste%20your%20way%20through,a%20local%20farmers%20market&text=9.%20Catch%20a%20baseball%20game,at%20Petco%20Park&text=8.%20Imbibe%20at%20a%20rooftop,bar
+      - generic [ref=e484]:
+        - generic [ref=e489]:
+          - heading "People also search for" [level=2] [ref=e491]
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - link "Best things to do san diego this weekend" [ref=e498] [cursor=pointer]:
+                - /url: /search?sca_esv=a823c5315a1e3660&q=Best+things+to+do+san+diego+this+weekend&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ1QJ6BAgvEAE
+                - generic [ref=e499]:
+                  - generic [ref=e504]: Best things to do san diego this weekend
+                  - img [ref=e508]
+              - link "Best things to do san diego for adults" [ref=e513] [cursor=pointer]:
+                - /url: /search?sca_esv=a823c5315a1e3660&q=Best+things+to+do+san+diego+for+adults&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ1QJ6BAgwEAE
+                - generic [ref=e514]:
+                  - generic [ref=e519]: Best things to do san diego for adults
+                  - img [ref=e523]
+            - link "Best things to do san diego today" [ref=e529] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&q=Best+things+to+do+san+diego+today&sa=X&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ1QJ6BAgxEAE
+              - generic [ref=e530]:
+                - generic [ref=e535]: Best things to do san diego today
+                - img [ref=e539]
+        - navigation [ref=e541]:
+          - heading "Page Navigation" [level=1] [ref=e542]
+          - text: "1"
+          - link "Page 2" [ref=e545] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=10&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAE
+            - text: "2"
+          - link "Page 3" [ref=e547] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=20&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAG
+            - text: "3"
+          - link "Page 4" [ref=e549] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=30&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAI
+            - text: "4"
+          - link "Page 5" [ref=e551] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=40&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAK
+            - text: "5"
+          - link "Page 6" [ref=e553] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=50&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAM
+            - text: "6"
+          - link "Page 7" [ref=e555] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=60&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAO
+            - text: "7"
+          - link "Page 8" [ref=e557] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=70&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAQ
+            - text: "8"
+          - link "Page 9" [ref=e559] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=80&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAS
+            - text: "9"
+          - link "Page 10" [ref=e561] [cursor=pointer]:
+            - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=90&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8tMDegQICRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e563]:
+            - link "Next" [ref=e564] [cursor=pointer]:
+              - /url: /search?q=%22best+things+to+do%22+%22san+diego%22+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com&sca_esv=a823c5315a1e3660&ei=XAnbaaCoK4Cy5NoPl_TSsQ0&start=10&sa=N&sstk=Af77f_c0jAiNRDiMmY6lx409KUhBMTDJRB1K55lCmK0pcSdvWpd6ACINAk3pVNPPthHFx2YAIuuM6CJcN0-gKqK3T-WT-Emzv9k49w&ved=2ahUKEwigxuvcp-eTAxUAGVkFHRe6NNYQ8NMDegQICRAW
+              - generic [ref=e566]: Next
+      - navigation
+    - contentinfo [ref=e567]:
+      - heading "Footer Links" [level=1] [ref=e568]
+      - generic [ref=e572]:
+        - generic [ref=e576]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e578] [cursor=pointer]:
+            - generic [ref=e579]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e581]:
+              - text: "-"
+              - generic [ref=e582]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e584] [cursor=pointer]: Update location
+        - generic [ref=e587]:
+          - link "Help" [ref=e588] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e589] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e590] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e591] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

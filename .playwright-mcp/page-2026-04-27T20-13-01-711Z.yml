@@ -1,0 +1,55 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - banner [ref=e4]:
+      - link "The New York Times" [ref=e6] [cursor=pointer]:
+        - /url: https://www.nytimes.com
+        - img "The New York Times" [ref=e7]
+  - main [ref=e10]:
+    - generic [ref=e13]:
+      - heading "Log in or create an account" [level=2] [ref=e15]
+      - group [ref=e17]:
+        - generic [ref=e18]: Email address
+        - textbox "Email address" [active] [ref=e21]:
+          - /placeholder: ""
+      - textbox [ref=e22]
+      - button "Continue" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]: or
+      - paragraph [ref=e28]:
+        - text: By continuing, you agree to the
+        - link "Terms of Sale" [ref=e29] [cursor=pointer]:
+          - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+        - text: ","
+        - link "Terms of Service" [ref=e30] [cursor=pointer]:
+          - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+        - text: ", and"
+        - link "Privacy Policy" [ref=e31] [cursor=pointer]:
+          - /url: https://www.nytimes.com/privacy/privacy-policy
+        - text: .
+      - generic [ref=e32]:
+        - button "Continue with Google" [ref=e34] [cursor=pointer]:
+          - generic:
+            - img
+          - generic: Continue with Google
+        - button "Continue with Apple" [ref=e36] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img
+          - generic: Continue with Apple
+        - link "Continue with work or school single sign-on >" [ref=e37] [cursor=pointer]:
+          - /url: ""
+  - contentinfo [ref=e38]:
+    - list [ref=e39]:
+      - listitem [ref=e40]:
+        - generic [ref=e41]: © 2026 The New York Times Company
+      - listitem [ref=e42]:
+        - link "Privacy Policy" [ref=e43] [cursor=pointer]:
+          - /url: https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html
+      - listitem [ref=e44]:
+        - link "Help" [ref=e45] [cursor=pointer]:
+          - /url: https://www.nytimes.com/membercenter/sitehelp.html
+      - listitem [ref=e46]:
+        - link "Contact Us" [ref=e47] [cursor=pointer]:
+          - /url: https://www.nytimes.com/help/index.html
+      - listitem [ref=e48]:
+        - link "California Notices" [ref=e49] [cursor=pointer]:
+          - /url: https://www.nytimes.com/privacy/privacy-policy#california-notice

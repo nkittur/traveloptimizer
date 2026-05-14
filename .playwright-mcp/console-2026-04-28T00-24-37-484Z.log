@@ -1,0 +1,62 @@
+[     562ms] [LOG] 00:24:38.045 [Playback Service: Device Detection:] Library Detection and User Agent Detection Do Not Match @ https://hiveplayer-static.bamgrid.com/artifacts/hive/playback-service/26.2.0-bagheera/all_browser_es5/playback-service.js:1
+[     562ms] [LOG] 00:24:38.046 [Playback Service: Device Detection:] Library Detected: undefined, UA Detected: chrome @ https://hiveplayer-static.bamgrid.com/artifacts/hive/playback-service/26.2.0-bagheera/all_browser_es5/playback-service.js:1
+[     702ms] [LOG] DOM isReady:  669 @ https://assets-cdn.nationalgeographic.com/natgeo/8a01f2e3d96e-release-04-22-2026.0/client/natgeo/9117-47d6a187.js:0
+[     848ms] [ERROR] Scope is not present @ https://login.disney.com/en-US/us/DTCI-NATGEO.CONSUMER.WEB/v5/bridge/web:0
+[     849ms] [LOG] No bridge detected @ https://login.disney.com/en-US/us/DTCI-NATGEO.CONSUMER.WEB/v5/bridge/web:0
+[     861ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335878250' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:0
+[     874ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335878250:0
+[     897ms] [WARNING] Datadog Browser SDK: No storage available for session. We will not send any data. @ https://login.disney.com/_next/static/chunks/7738-d90cd4784ea0ab97.js?dpl=114cb3a39009dd355650917526638e571aaefc19:0
+[     913ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335878366' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:0
+[     918ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335878366:0
+[    1228ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    1229ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    1231ms] [ERROR] [ERROR] Error during tokenRefresh:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    1232ms] [ERROR] [ERROR] Failed to return token fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    1235ms] [ERROR] [ERROR] Error fetching guest data:  fe: User not logged in
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99545
+    at https://cdn.disneyaccount.com/v5/sdk.js:2:99612
+    at Generator.next (<anonymous>)
+    at o (https://cdn.disneyaccount.com/v5/sdk.js:2:98824)
+    at nrWrapper (https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:38:30158) @ https://cdn.disneyaccount.com/v5/sdk.js:1
+[    1332ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:0
+[    1394ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js?cb=31098070:18
+[    1396ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js?cb=31098070:18
+[    1396ms] [WARNING] [GPT] Invalid value encountered when calling: googletag.setConfig.targeting: {"isDnt":false}
+https://goo.gle/gpt-message#159 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604220101/pubads_impl.js?cb=31098070:18
+[    2894ms] [LOG] [00:24:40.377Z] [32mINFO[39m {appid: IDENTITY-SDK-V5, lightbox_version: 1.0.830, sdk_version: web v5 1.0.830, platform: web, git_sha: 114cb3a39009dd355650917526638e571aaefc19} @ https://login.disney.com/_next/static/chunks/958-4eb4d446ab212851.js?dpl=114cb3a39009dd355650917526638e571aaefc19:0
+[    4318ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5447ms] [LOG] received a request for uspapi @ https://cdn.espn.com/onetrust/otCCPAiab.js:95
+[    5536ms] [LOG] Ignoring gdpr_consent param, it should be a non empty value @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    5644ms] [LOG] Invoking image pixel user sync for bidder: "trustx" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    5691ms] [LOG] Invoking image pixel user sync for bidder: "cpmstar" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    5853ms] [LOG] Invoking image pixel user sync for bidder: "yahoossp" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    5961ms] [LOG] Invoking image pixel user sync for bidder: "ads_interactive" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    6298ms] [LOG] Invoking image pixel user sync for bidder: "jixie" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    6350ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://id.jixie.io/api/sync?pid=&gdpr=&gdpr_consent=&us_privacy=&redirect=https%3A%2F%2Fib.adnxs.com%2Fprebid%2Fsetuid%3Fbidder%3Djixie%26gdpr%3D%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Di%26uid%3D%25%25JXUID%25%25:0
+[    6350ms] [LOG] Invoking image pixel user sync for bidder: "gamoshi" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    6465ms] [LOG] Invoking image pixel user sync for bidder: "360playvid" @ https://acdn.adnxs.com/prebid/universal-creative/load-cookie.html?max_sync_count=30&gdpr=0&gdpr_consent=&account=&source=amp:9
+[    6577ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspInit=1002196&dspCookie=4858193757785939640&gdpr=0&gdpr_consent=:0
+[   16498ms] [ERROR] Access to XMLHttpRequest at 'https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335893965' from origin 'https://www.nationalgeographic.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.nationalgeographic.com/travel/national-parks/article/acadia-national-park:0
+[   16501ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://disney.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=5BFD123F5245AECB0A490D45%40AdobeOrg&d_nsid=0&d_mid=32038638508403817592917456480869137741&d_coppa=true&ts=1777335893965:0

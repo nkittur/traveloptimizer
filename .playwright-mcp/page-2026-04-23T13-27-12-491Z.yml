@@ -1,0 +1,1634 @@
+- generic [active] [ref=e1]:
+  - paragraph [ref=e5]:
+    - button "Agree and close" [ref=e6] [cursor=pointer]:
+      - img [ref=e7]
+    - generic [ref=e10]:
+      - heading "We Use Cookies On This Website" [level=3] [ref=e11]
+      - paragraph [ref=e12]:
+        - text: We, and
+        - link "our third partners" [ref=e13] [cursor=pointer]:
+          - /url: javascript:Didomi.preferences.show('vendors')
+        - text: ", use cookies, pixels, and other technologies to automatically collect, record, and share information you provide, as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes. By continuing to use this site, you agree to the use of these technologies (as described in our"
+        - link "Privacy Notice" [ref=e14] [cursor=pointer]:
+          - /url: https://guide.michelin.com/en/privacy-policy
+        - text: ) and to our
+        - link "Terms of Use" [ref=e15] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/terms-of-use
+        - text: (which contains important waivers).
+  - banner [ref=e16]:
+    - navigation [ref=e17]:
+      - link "Go to Homepage" [ref=e19] [cursor=pointer]:
+        - /url: /us/en
+        - img "MICHELIN Guide" [ref=e20]
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "Restaurants" [ref=e25] [cursor=pointer]:
+            - /url: /us/en/restaurants
+        - listitem [ref=e26]:
+          - link "Hotels" [ref=e27] [cursor=pointer]:
+            - /url: /us/en/hotels
+        - listitem [ref=e28]:
+          - link "Travel Guides" [ref=e29] [cursor=pointer]:
+            - /url: /us/en/travel-guides
+        - listitem [ref=e30]:
+          - link "Magazine" [ref=e31] [cursor=pointer]:
+            - /url: /us/en/articles
+        - listitem [ref=e32]:
+          - link "My Lists" [ref=e33] [cursor=pointer]:
+            - /url: /us/en/profile/0
+      - button "Menu" [ref=e35] [cursor=pointer]
+  - list [ref=e41]:
+    - listitem [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Login" [ref=e45] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=e46]:
+          - link "Register" [ref=e47] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - listitem [ref=e48]:
+      - link "My Lists" [ref=e49] [cursor=pointer]:
+        - /url: /us/en/profile/0
+    - listitem [ref=e50]
+    - listitem [ref=e51]:
+      - link "Restaurants" [ref=e52] [cursor=pointer]:
+        - /url: /us/en/restaurants
+    - listitem [ref=e53]:
+      - link "Hotels" [ref=e54] [cursor=pointer]:
+        - /url: /us/en/hotels
+    - listitem [ref=e55]:
+      - link "MICHELIN Guide Plus" [ref=e56] [cursor=pointer]:
+        - /url: /us/en/member-program/becomeamember
+    - listitem [ref=e57]:
+      - link "Travel Guides" [ref=e58] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/travel-guides
+    - listitem [ref=e59]:
+      - link "Best-of Guides" [ref=e60] [cursor=pointer]:
+        - /url: /us/en/best-of
+    - listitem [ref=e61]:
+      - link "Magazine" [ref=e62] [cursor=pointer]:
+        - /url: /us/en/articles
+    - listitem [ref=e63]:
+      - link "MICHELIN Guide Ceremony" [ref=e64] [cursor=pointer]:
+        - /url: /us/en/articles/michelin-star-revelation
+    - listitem [ref=e65]:
+      - link "Contact us" [ref=e66] [cursor=pointer]:
+        - /url: https://intercom.help/michelin-guide-contact-us/en/
+    - listitem [ref=e67]:
+      - link "Subscribe to newsletter" [ref=e68] [cursor=pointer]:
+        - /url: /us/en/subscribe
+    - listitem [ref=e69]:
+      - link "Booking partnership with OpenTable" [ref=e70] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/booking-partnership-between-the-michelin-guide-and-open-table
+    - listitem [ref=e71]:
+      - link "Booking partnership with Resy" [ref=e72] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/booking-partnership-between-the-michelin-guide-and-resy
+    - listitem [ref=e73]
+    - listitem [ref=e74]:
+      - link "USA - English - USD" [ref=e76] [cursor=pointer]:
+        - /url: "#"
+        - text: USA - English - USD
+  - main [ref=e78]:
+    - generic [ref=e82]:
+      - combobox "Submit" [ref=e94]:
+        - search [ref=e95]:
+          - generic "Submit" [ref=e97]:
+            - button "Submit" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+          - searchbox "Submit" [ref=e102]: Los Angeles, California, USA
+          - button "Clear" [ref=e104] [cursor=pointer]:
+            - img [ref=e105]
+      - link [ref=e109] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants?showMap=true
+    - listbox [ref=e112]:
+      - button [ref=e114] [cursor=pointer]
+      - option "New" [ref=e115]:
+        - button "New" [ref=e116] [cursor=pointer]
+      - option "Distinction" [ref=e117]:
+        - button "Distinction" [ref=e118] [cursor=pointer]
+      - option "In MICHELIN Hotels" [ref=e119]:
+        - button "In MICHELIN Hotels" [ref=e120] [cursor=pointer]
+      - option "Online booking" [ref=e121]:
+        - button "Online booking" [ref=e122] [cursor=pointer]
+      - option "Days open" [ref=e123]:
+        - button "Days open" [ref=e124] [cursor=pointer]
+      - button "Special diets" [ref=e126] [cursor=pointer]
+      - option "Cuisine" [ref=e127]:
+        - button "Cuisine" [ref=e128] [cursor=pointer]
+      - option "Good for" [ref=e129]:
+        - button "Good for" [ref=e130] [cursor=pointer]
+      - option "Services / Facilities" [ref=e131]:
+        - button "Services / Facilities" [ref=e132] [cursor=pointer]
+      - option "Price" [ref=e133]:
+        - button "Price" [ref=e134] [cursor=pointer]
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - 'heading "Los Angeles and surroundings: 1-48 of 163 restaurants" [level=1] [ref=e141]'
+        - link [ref=e143] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/2
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - link "Reserve a table" [ref=e155] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/san-laurel
+              - generic [ref=e156]: Reserve a table
+            - link "Open San Laurel" [ref=e158] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/san-laurel
+          - generic [ref=e161]:
+            - heading "Open San Laurel" [level=3] [ref=e166]:
+              - link "Open San Laurel" [ref=e167] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/san-laurel
+                - text: San Laurel
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: Los Angeles, CA, USA
+                - generic [ref=e172]: $$$$ · Spanish
+              - link "Conrad Los Angeles" [ref=e174] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/los-angeles-area/conrad-los-angeles-13165
+                - generic [ref=e175]: Conrad Los Angeles
+          - link "Open San Laurel" [ref=e176] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/san-laurel
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - link "Reserve a table" [ref=e187] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/hayato
+              - generic [ref=e188]: Reserve a table
+            - link "Open Hayato" [ref=e190] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/hayato
+          - generic [ref=e193]:
+            - heading "Open Hayato" [level=3] [ref=e199]:
+              - link "Open Hayato" [ref=e200] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/hayato
+                - text: Hayato
+            - generic [ref=e203]:
+              - generic [ref=e204]: Los Angeles, CA, USA
+              - generic [ref=e205]: $$$$ · Japanese
+          - link "Open Hayato" [ref=e207] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/hayato
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - link "Reserve a table" [ref=e218] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/restaurant-ki
+              - generic [ref=e219]: Reserve a table
+            - link "Open Restaurant Ki" [ref=e221] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/restaurant-ki
+          - generic [ref=e224]:
+            - heading "Open Restaurant Ki" [level=3] [ref=e230]:
+              - link "Open Restaurant Ki" [ref=e231] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/restaurant-ki
+                - text: Restaurant Ki
+            - generic [ref=e234]:
+              - generic [ref=e235]: Los Angeles, CA, USA
+              - generic [ref=e236]: $$$$ · Korean Contemporary
+          - link "Open Restaurant Ki" [ref=e238] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/restaurant-ki
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - link "Reserve a table" [ref=e249] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/orsa-winston
+              - generic [ref=e250]: Reserve a table
+            - link "Open Orsa & Winston" [ref=e252] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/orsa-winston
+          - generic [ref=e255]:
+            - heading "Open Orsa & Winston" [level=3] [ref=e261]:
+              - link "Open Orsa & Winston" [ref=e262] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/orsa-winston
+                - text: Orsa & Winston
+            - generic [ref=e265]:
+              - generic [ref=e266]: Los Angeles, CA, USA
+              - generic [ref=e267]: $$$$ · Contemporary
+          - link "Open Orsa & Winston" [ref=e269] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/orsa-winston
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - link "Reserve a table" [ref=e280] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kato
+              - generic [ref=e281]: Reserve a table
+            - link "Open Kato" [ref=e283] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kato
+          - generic [ref=e286]:
+            - heading "Open Kato" [level=3] [ref=e292]:
+              - link "Open Kato" [ref=e293] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/kato
+                - text: Kato
+            - generic [ref=e296]:
+              - generic [ref=e297]: Los Angeles, CA, USA
+              - generic [ref=e298]: $$$$ · Asian
+          - link "Open Kato" [ref=e299] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/kato
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - link "Reserve a table" [ref=e310] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/camphor
+              - generic [ref=e311]: Reserve a table
+            - link "Open Camphor" [ref=e313] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/camphor
+          - generic [ref=e316]:
+            - heading "Open Camphor" [level=3] [ref=e322]:
+              - link "Open Camphor" [ref=e323] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/camphor
+                - text: Camphor
+            - generic [ref=e326]:
+              - generic [ref=e327]: Los Angeles, CA, USA
+              - generic [ref=e328]: $$$$ · French
+          - link "Open Camphor" [ref=e329] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/camphor
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - link "Reserve a table" [ref=e340] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/715
+              - generic [ref=e341]: Reserve a table
+            - link "Open 715" [ref=e343] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/715
+          - generic [ref=e346]:
+            - heading "Open 715" [level=3] [ref=e352]:
+              - link "Open 715" [ref=e353] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/715
+                - text: "715"
+            - generic [ref=e356]:
+              - generic [ref=e357]: Los Angeles, CA, USA
+              - generic [ref=e358]: $$$$ · Japanese
+          - link "Open 715" [ref=e359] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/715
+        - generic [ref=e361]:
+          - generic [ref=e362]:
+            - link "Reserve a table" [ref=e370] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/the-factory-kitchen
+              - generic [ref=e371]: Reserve a table
+            - link "Open The Factory Kitchen" [ref=e373] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/the-factory-kitchen
+          - generic [ref=e376]:
+            - heading "Open The Factory Kitchen" [level=3] [ref=e382]:
+              - link "Open The Factory Kitchen" [ref=e383] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/the-factory-kitchen
+                - text: The Factory Kitchen
+            - generic [ref=e386]:
+              - generic [ref=e387]: Los Angeles, CA, USA
+              - generic [ref=e388]: $$ · Italian
+          - link "Open The Factory Kitchen" [ref=e389] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/the-factory-kitchen
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - link "Reserve a table" [ref=e400] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/rasarumah
+              - generic [ref=e401]: Reserve a table
+            - link "Open Rasarumah" [ref=e403] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/rasarumah
+          - generic [ref=e406]:
+            - heading "Open Rasarumah" [level=3] [ref=e412]:
+              - link "Open Rasarumah" [ref=e413] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/rasarumah
+                - text: Rasarumah
+            - generic [ref=e416]:
+              - generic [ref=e417]: Los Angeles, CA, USA
+              - generic [ref=e418]: $$$ · Malaysian
+          - link "Open Rasarumah" [ref=e419] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/rasarumah
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - link "Reserve a table" [ref=e430] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/moo-s-craft-barbecue
+              - generic [ref=e431]: Reserve a table
+            - link "Open Moo's Craft Barbecue" [ref=e433] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/moo-s-craft-barbecue
+          - generic [ref=e436]:
+            - heading "Open Moo's Craft Barbecue" [level=3] [ref=e442]:
+              - link "Open Moo's Craft Barbecue" [ref=e443] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/moo-s-craft-barbecue
+                - text: Moo's Craft Barbecue
+            - generic [ref=e446]:
+              - generic [ref=e447]: Los Angeles, CA, USA
+              - generic [ref=e448]: $$ · Barbecue
+          - link "Open Moo's Craft Barbecue" [ref=e449] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/moo-s-craft-barbecue
+        - generic [ref=e451]:
+          - generic [ref=e452]:
+            - link "Reserve a table" [ref=e460] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/tsubaki
+              - generic [ref=e461]: Reserve a table
+            - link "Open Tsubaki" [ref=e463] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/tsubaki
+          - generic [ref=e466]:
+            - heading "Open Tsubaki" [level=3] [ref=e472]:
+              - link "Open Tsubaki" [ref=e473] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/tsubaki
+                - text: Tsubaki
+            - generic [ref=e476]:
+              - generic [ref=e477]: Los Angeles, CA, USA
+              - generic [ref=e478]: $$ · Japanese
+          - link "Open Tsubaki" [ref=e479] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/tsubaki
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - link "Reserve a table" [ref=e490] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-bianco
+              - generic [ref=e491]: Reserve a table
+            - link "Open Pizzeria Bianco Los Angeles" [ref=e493] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-bianco
+          - generic [ref=e496]:
+            - heading "Open Pizzeria Bianco Los Angeles" [level=3] [ref=e502]:
+              - link "Open Pizzeria Bianco Los Angeles" [ref=e503] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-bianco
+                - text: Pizzeria Bianco Los Angeles
+            - generic [ref=e506]:
+              - generic [ref=e507]: Los Angeles, CA, USA
+              - generic [ref=e508]: $$ · Pizza
+          - link "Open Pizzeria Bianco Los Angeles" [ref=e509] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-bianco
+        - generic [ref=e511]:
+          - generic [ref=e512]:
+            - link "Reserve a table" [ref=e520] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/firstborn
+              - generic [ref=e521]: Reserve a table
+            - link "Open Firstborn" [ref=e523] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/firstborn
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - generic [ref=e530]: New
+              - heading "Open Firstborn" [level=3] [ref=e532]:
+                - link "Open Firstborn" [ref=e533] [cursor=pointer]:
+                  - /url: /us/en/california/us-los-angeles/restaurant/firstborn
+                  - text: Firstborn
+            - generic [ref=e536]:
+              - generic [ref=e537]: Los Angeles, CA, USA
+              - generic [ref=e538]: $$$ · Chinese Contemporary
+          - link "Open Firstborn" [ref=e539] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/firstborn
+        - generic [ref=e541]:
+          - generic [ref=e542]:
+            - link "Reserve a table" [ref=e550] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/manuela
+              - generic [ref=e551]: Reserve a table
+            - link "Open Manuela" [ref=e553] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/manuela
+          - generic [ref=e556]:
+            - heading "Open Manuela" [level=3] [ref=e561]:
+              - link "Open Manuela" [ref=e562] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/manuela
+                - text: Manuela
+            - generic [ref=e565]:
+              - generic [ref=e566]: Los Angeles, CA, USA
+              - generic [ref=e567]: $$$ · American
+          - link "Open Manuela" [ref=e568] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/manuela
+        - generic [ref=e570]:
+          - generic [ref=e571]:
+            - link "Reserve a table" [ref=e579] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/damian
+              - generic [ref=e580]: Reserve a table
+            - link "Open Damian" [ref=e582] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/damian
+          - generic [ref=e585]:
+            - heading "Open Damian" [level=3] [ref=e590]:
+              - link "Open Damian" [ref=e591] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/damian
+                - text: Damian
+            - generic [ref=e594]:
+              - generic [ref=e595]: Los Angeles, CA, USA
+              - generic [ref=e596]: $$$ · Mexican
+          - link "Open Damian" [ref=e597] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/damian
+        - generic [ref=e599]:
+          - generic [ref=e600]:
+            - link "Reserve a table" [ref=e608] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/redbird
+              - generic [ref=e609]: Reserve a table
+            - link "Open Redbird" [ref=e611] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/redbird
+          - generic [ref=e614]:
+            - heading "Open Redbird" [level=3] [ref=e619]:
+              - link "Open Redbird" [ref=e620] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/redbird
+                - text: Redbird
+            - generic [ref=e623]:
+              - generic [ref=e624]: Los Angeles, CA, USA
+              - generic [ref=e625]: $$$ · Contemporary
+          - link "Open Redbird" [ref=e626] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/redbird
+        - generic [ref=e628]:
+          - generic [ref=e629]:
+            - link "Reserve a table" [ref=e637] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/majordomo
+              - generic [ref=e638]: Reserve a table
+            - link "Open majordōmo" [ref=e640] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/majordomo
+          - generic [ref=e643]:
+            - heading "Open majordōmo" [level=3] [ref=e648]:
+              - link "Open majordōmo" [ref=e649] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/majordomo
+                - text: majordōmo
+            - generic [ref=e652]:
+              - generic [ref=e653]: Los Angeles, CA, USA
+              - generic [ref=e654]: $$$ · Asian
+          - link "Open majordōmo" [ref=e655] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/majordomo
+        - generic [ref=e657]:
+          - generic [ref=e658]:
+            - link "Reserve a table" [ref=e666] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/rossoblu
+              - generic [ref=e667]: Reserve a table
+            - link "Open Rossoblu" [ref=e669] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/rossoblu
+          - generic [ref=e672]:
+            - heading "Open Rossoblu" [level=3] [ref=e677]:
+              - link "Open Rossoblu" [ref=e678] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/rossoblu
+                - text: Rossoblu
+            - generic [ref=e681]:
+              - generic [ref=e682]: Los Angeles, CA, USA
+              - generic [ref=e683]: $$ · Italian
+          - link "Open Rossoblu" [ref=e684] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/rossoblu
+        - generic [ref=e686]:
+          - generic [ref=e687]:
+            - link "Reserve a table" [ref=e695] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/girl-the-goat-los-angeles
+              - generic [ref=e696]: Reserve a table
+            - link "Open Girl & the Goat Los Angeles" [ref=e698] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/girl-the-goat-los-angeles
+          - generic [ref=e701]:
+            - heading "Open Girl & the Goat Los Angeles" [level=3] [ref=e706]:
+              - link "Open Girl & the Goat Los Angeles" [ref=e707] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/girl-the-goat-los-angeles
+                - text: Girl & the Goat Los Angeles
+            - generic [ref=e710]:
+              - generic [ref=e711]: Los Angeles, CA, USA
+              - generic [ref=e712]: $$$ · Contemporary
+          - link "Open Girl & the Goat Los Angeles" [ref=e713] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/girl-the-goat-los-angeles
+        - generic [ref=e715]:
+          - generic [ref=e716]:
+            - link "Reserve a table" [ref=e724] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/sushi-takeda
+              - generic [ref=e725]: Reserve a table
+            - link "Open Sushi Takeda" [ref=e727] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/sushi-takeda
+          - generic [ref=e730]:
+            - heading "Open Sushi Takeda" [level=3] [ref=e735]:
+              - link "Open Sushi Takeda" [ref=e736] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/sushi-takeda
+                - text: Sushi Takeda
+            - generic [ref=e739]:
+              - generic [ref=e740]: Los Angeles, CA, USA
+              - generic [ref=e741]: $$$$ · Japanese
+          - link "Open Sushi Takeda" [ref=e742] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/sushi-takeda
+        - generic [ref=e744]:
+          - generic [ref=e745]:
+            - link "Reserve a table" [ref=e753] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/dama
+              - generic [ref=e754]: Reserve a table
+            - link "Open Dama" [ref=e756] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/dama
+          - generic [ref=e759]:
+            - heading "Open Dama" [level=3] [ref=e764]:
+              - link "Open Dama" [ref=e765] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/dama
+                - text: Dama
+            - generic [ref=e768]:
+              - generic [ref=e769]: Los Angeles, CA, USA
+              - generic [ref=e770]: $$$ · Latin American
+          - link "Open Dama" [ref=e771] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/dama
+        - generic [ref=e773]:
+          - generic [ref=e774]:
+            - link "Reserve a table" [ref=e782] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/badmaash
+              - generic [ref=e783]: Reserve a table
+            - link "Open Badmaash" [ref=e785] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/badmaash
+          - generic [ref=e788]:
+            - heading "Open Badmaash" [level=3] [ref=e793]:
+              - link "Open Badmaash" [ref=e794] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/badmaash
+                - text: Badmaash
+            - generic [ref=e797]:
+              - generic [ref=e798]: Los Angeles, CA, USA
+              - generic [ref=e799]: $$ · Indian
+          - link "Open Badmaash" [ref=e800] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/badmaash
+        - generic [ref=e802]:
+          - generic [ref=e803]:
+            - link "Reserve a table" [ref=e811] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kodo
+              - generic [ref=e812]: Reserve a table
+            - link "Open kodō" [ref=e814] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kodo
+          - generic [ref=e817]:
+            - heading "Open kodō" [level=3] [ref=e822]:
+              - link "Open kodō" [ref=e823] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/kodo
+                - text: kodō
+            - generic [ref=e826]:
+              - generic [ref=e827]: Los Angeles, CA, USA
+              - generic [ref=e828]: $$$$ · Izakaya
+          - link "Open kodō" [ref=e829] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/kodo
+        - generic [ref=e831]:
+          - generic [ref=e832]:
+            - link "Reserve a table" [ref=e840] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/baroo
+              - generic [ref=e841]: Reserve a table
+            - link "Open Baroo" [ref=e843] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/baroo
+          - generic [ref=e846]:
+            - heading "Open Baroo" [level=3] [ref=e851]:
+              - link "Open Baroo" [ref=e852] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/baroo
+                - text: Baroo
+            - generic [ref=e855]:
+              - generic [ref=e856]: Los Angeles, CA, USA
+              - generic [ref=e857]: $$$$ · Korean Contemporary
+          - link "Open Baroo" [ref=e858] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/baroo
+        - generic [ref=e860]:
+          - link "Open Morihiro" [ref=e866] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/morihiro
+          - generic [ref=e869]:
+            - heading "Open Morihiro" [level=3] [ref=e875]:
+              - link "Open Morihiro" [ref=e876] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/morihiro
+                - text: Morihiro
+            - generic [ref=e879]:
+              - generic [ref=e880]: Los Angeles, CA, USA
+              - generic [ref=e881]: $$$$ · Japanese
+          - link "Open Morihiro" [ref=e882] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/morihiro
+        - generic [ref=e884]:
+          - link "Open Sushi Kaneyoshi" [ref=e890] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/sushi-kaneyoshi
+          - generic [ref=e893]:
+            - heading "Open Sushi Kaneyoshi" [level=3] [ref=e899]:
+              - link "Open Sushi Kaneyoshi" [ref=e900] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/sushi-kaneyoshi
+                - text: Sushi Kaneyoshi
+            - generic [ref=e903]:
+              - generic [ref=e904]: Los Angeles, CA, USA
+              - generic [ref=e905]: $$$$ · Japanese
+          - link "Open Sushi Kaneyoshi" [ref=e906] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/sushi-kaneyoshi
+        - generic [ref=e908]:
+          - link "Open Langer's" [ref=e914] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/langer-s
+          - generic [ref=e917]:
+            - heading "Open Langer's" [level=3] [ref=e923]:
+              - link "Open Langer's" [ref=e924] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/langer-s
+                - text: Langer's
+            - generic [ref=e927]:
+              - generic [ref=e928]: Los Angeles, CA, USA
+              - generic [ref=e929]: $$ · Deli
+          - link "Open Langer's" [ref=e930] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/langer-s
+        - generic [ref=e932]:
+          - link "Open Maccheroni Republic" [ref=e938] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/maccheroni-republic
+          - generic [ref=e941]:
+            - heading "Open Maccheroni Republic" [level=3] [ref=e947]:
+              - link "Open Maccheroni Republic" [ref=e948] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/maccheroni-republic
+                - text: Maccheroni Republic
+            - generic [ref=e951]:
+              - generic [ref=e952]: Los Angeles, CA, USA
+              - generic [ref=e953]: $$ · Italian-American
+          - link "Open Maccheroni Republic" [ref=e954] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/maccheroni-republic
+        - generic [ref=e956]:
+          - link "Open Little Fish" [ref=e962] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/little-fish
+          - generic [ref=e965]:
+            - heading "Open Little Fish" [level=3] [ref=e971]:
+              - link "Open Little Fish" [ref=e972] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/little-fish
+                - text: Little Fish
+            - generic [ref=e975]:
+              - generic [ref=e976]: Los Angeles, CA, USA
+              - generic [ref=e977]: $ · American
+          - link "Open Little Fish" [ref=e978] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/little-fish
+        - generic [ref=e980]:
+          - link "Open Grá" [ref=e986] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/gra
+          - generic [ref=e989]:
+            - heading "Open Grá" [level=3] [ref=e995]:
+              - link "Open Grá" [ref=e996] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/gra
+                - text: Grá
+            - generic [ref=e999]:
+              - generic [ref=e1000]: Los Angeles, CA, USA
+              - generic [ref=e1001]: $$ · Pizza
+          - link "Open Grá" [ref=e1002] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/gra
+        - generic [ref=e1004]:
+          - link "Open Carnes Asadas Pancho Lopez" [ref=e1010] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/carnes-asadas-pancho-lopez
+          - generic [ref=e1013]:
+            - heading "Open Carnes Asadas Pancho Lopez" [level=3] [ref=e1019]:
+              - link "Open Carnes Asadas Pancho Lopez" [ref=e1020] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/carnes-asadas-pancho-lopez
+                - text: Carnes Asadas Pancho Lopez
+            - generic [ref=e1023]:
+              - generic [ref=e1024]: Los Angeles, CA, USA
+              - generic [ref=e1025]: $ · Mexican
+          - link "Open Carnes Asadas Pancho Lopez" [ref=e1026] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/carnes-asadas-pancho-lopez
+        - generic [ref=e1028]:
+          - link "Open Quarter Sheets" [ref=e1034] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/quarter-sheets-pizza
+          - generic [ref=e1037]:
+            - heading "Open Quarter Sheets" [level=3] [ref=e1043]:
+              - link "Open Quarter Sheets" [ref=e1044] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/quarter-sheets-pizza
+                - text: Quarter Sheets
+            - generic [ref=e1047]:
+              - generic [ref=e1048]: Los Angeles, CA, USA
+              - generic [ref=e1049]: $$ · Pizza
+          - link "Open Quarter Sheets" [ref=e1050] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/quarter-sheets-pizza
+        - generic [ref=e1052]:
+          - link "Open Yong Su San" [ref=e1058] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/yong-su-san
+          - generic [ref=e1061]:
+            - heading "Open Yong Su San" [level=3] [ref=e1066]:
+              - link "Open Yong Su San" [ref=e1067] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/yong-su-san
+                - text: Yong Su San
+            - generic [ref=e1070]:
+              - generic [ref=e1071]: Los Angeles, CA, USA
+              - generic [ref=e1072]: $$$ · Korean
+          - link "Open Yong Su San" [ref=e1073] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/yong-su-san
+        - generic [ref=e1075]:
+          - link "Open Marugame Monzo" [ref=e1081] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/marugame-monzo
+          - generic [ref=e1084]:
+            - heading "Open Marugame Monzo" [level=3] [ref=e1089]:
+              - link "Open Marugame Monzo" [ref=e1090] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/marugame-monzo
+                - text: Marugame Monzo
+            - generic [ref=e1093]:
+              - generic [ref=e1094]: Los Angeles, CA, USA
+              - generic [ref=e1095]: $$ · Japanese
+          - link "Open Marugame Monzo" [ref=e1096] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/marugame-monzo
+        - generic [ref=e1098]:
+          - link "Open Parks BBQ" [ref=e1104] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/parks-bbq
+          - generic [ref=e1107]:
+            - heading "Open Parks BBQ" [level=3] [ref=e1112]:
+              - link "Open Parks BBQ" [ref=e1113] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/parks-bbq
+                - text: Parks BBQ
+            - generic [ref=e1116]:
+              - generic [ref=e1117]: Los Angeles, CA, USA
+              - generic [ref=e1118]: $$$ · Korean
+          - link "Open Parks BBQ" [ref=e1119] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/parks-bbq
+        - generic [ref=e1121]:
+          - link "Open Q Sushi" [ref=e1127] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/q-sushi
+          - generic [ref=e1130]:
+            - heading "Open Q Sushi" [level=3] [ref=e1135]:
+              - link "Open Q Sushi" [ref=e1136] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/q-sushi
+                - text: Q Sushi
+            - generic [ref=e1139]:
+              - generic [ref=e1140]: Los Angeles, CA, USA
+              - generic [ref=e1141]: $$$$ · Japanese
+          - link "Open Q Sushi" [ref=e1142] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/q-sushi
+        - generic [ref=e1144]:
+          - link "Open Bestia" [ref=e1150] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/bestia
+          - generic [ref=e1153]:
+            - heading "Open Bestia" [level=3] [ref=e1158]:
+              - link "Open Bestia" [ref=e1159] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/bestia
+                - text: Bestia
+            - generic [ref=e1162]:
+              - generic [ref=e1163]: Los Angeles, CA, USA
+              - generic [ref=e1164]: $$$$ · Italian
+          - link "Open Bestia" [ref=e1165] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/bestia
+        - generic [ref=e1167]:
+          - link "Open Yunomi Handroll" [ref=e1173] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/yunomi-handroll
+          - generic [ref=e1176]:
+            - heading "Open Yunomi Handroll" [level=3] [ref=e1181]:
+              - link "Open Yunomi Handroll" [ref=e1182] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/yunomi-handroll
+                - text: Yunomi Handroll
+            - generic [ref=e1185]:
+              - generic [ref=e1186]: Los Angeles, CA, USA
+              - generic [ref=e1187]: $$ · Japanese
+          - link "Open Yunomi Handroll" [ref=e1188] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/yunomi-handroll
+        - generic [ref=e1190]:
+          - link "Open Guisados" [ref=e1196] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/guisados
+          - generic [ref=e1199]:
+            - heading "Open Guisados" [level=3] [ref=e1204]:
+              - link "Open Guisados" [ref=e1205] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/guisados
+                - text: Guisados
+            - generic [ref=e1208]:
+              - generic [ref=e1209]: Los Angeles, CA, USA
+              - generic [ref=e1210]: $ · Mexican
+          - link "Open Guisados" [ref=e1211] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/guisados
+        - generic [ref=e1213]:
+          - link "Open Bar Sawa" [ref=e1219] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/sawa
+          - generic [ref=e1222]:
+            - heading "Open Bar Sawa" [level=3] [ref=e1227]:
+              - link "Open Bar Sawa" [ref=e1228] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/sawa
+                - text: Bar Sawa
+            - generic [ref=e1231]:
+              - generic [ref=e1232]: Los Angeles, CA, USA
+              - generic [ref=e1233]: $$$$ · Japanese
+          - link "Open Bar Sawa" [ref=e1234] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/sawa
+        - generic [ref=e1236]:
+          - generic [ref=e1237]:
+            - link "Reserve a table" [ref=e1245] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/osteria-mozza
+              - generic [ref=e1246]: Reserve a table
+            - link "Open Osteria Mozza" [ref=e1248] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/osteria-mozza
+          - generic [ref=e1251]:
+            - heading "Open Osteria Mozza" [level=3] [ref=e1257]:
+              - link "Open Osteria Mozza" [ref=e1258] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/osteria-mozza
+                - text: Osteria Mozza
+            - generic [ref=e1261]:
+              - generic [ref=e1262]: Los Angeles, CA, USA
+              - generic [ref=e1263]: $$$$ · Italian
+          - link "Open Osteria Mozza" [ref=e1264] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/osteria-mozza
+        - generic [ref=e1266]:
+          - generic [ref=e1267]:
+            - link "Reserve a table" [ref=e1275] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/gwen
+              - generic [ref=e1276]: Reserve a table
+            - link "Open Gwen" [ref=e1278] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/gwen
+          - generic [ref=e1281]:
+            - heading "Open Gwen" [level=3] [ref=e1287]:
+              - link "Open Gwen" [ref=e1288] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/gwen
+                - text: Gwen
+            - generic [ref=e1291]:
+              - generic [ref=e1292]: Los Angeles, CA, USA
+              - generic [ref=e1293]: $$$$ · Steakhouse
+          - link "Open Gwen" [ref=e1294] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/gwen
+        - generic [ref=e1296]:
+          - generic [ref=e1297]:
+            - link "Reserve a table" [ref=e1305] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/meteora
+              - generic [ref=e1306]: Reserve a table
+            - link "Open Meteora" [ref=e1308] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/meteora
+          - generic [ref=e1311]:
+            - heading "Open Meteora" [level=3] [ref=e1317]:
+              - link "Open Meteora" [ref=e1318] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/meteora
+                - text: Meteora
+            - generic [ref=e1321]:
+              - generic [ref=e1322]: Los Angeles, CA, USA
+              - generic [ref=e1323]: $$$$ · Creative
+          - link "Open Meteora" [ref=e1324] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/meteora
+        - generic [ref=e1326]:
+          - generic [ref=e1327]:
+            - link "Reserve a table" [ref=e1335] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/chifa
+              - generic [ref=e1336]: Reserve a table
+            - link "Open Chifa" [ref=e1338] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/chifa
+          - generic [ref=e1341]:
+            - heading "Open Chifa" [level=3] [ref=e1347]:
+              - link "Open Chifa" [ref=e1348] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/chifa
+                - text: Chifa
+            - generic [ref=e1351]:
+              - generic [ref=e1352]: Los Angeles, CA, USA
+              - generic [ref=e1353]: $$ · Fusion
+          - link "Open Chifa" [ref=e1354] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/chifa
+        - generic [ref=e1356]:
+          - generic [ref=e1357]:
+            - link "Reserve a table" [ref=e1365] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-mozza
+              - generic [ref=e1366]: Reserve a table
+            - link "Open Pizzeria Mozza" [ref=e1368] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-mozza
+          - generic [ref=e1371]:
+            - heading "Open Pizzeria Mozza" [level=3] [ref=e1377]:
+              - link "Open Pizzeria Mozza" [ref=e1378] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-mozza
+                - text: Pizzeria Mozza
+            - generic [ref=e1381]:
+              - generic [ref=e1382]: Los Angeles, CA, USA
+              - generic [ref=e1383]: $$ · Pizza
+          - link "Open Pizzeria Mozza" [ref=e1384] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/pizzeria-mozza
+        - generic [ref=e1386]:
+          - generic [ref=e1387]:
+            - link "Reserve a table" [ref=e1395] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kismet
+              - generic [ref=e1396]: Reserve a table
+            - link "Open Kismet" [ref=e1398] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/kismet
+          - generic [ref=e1401]:
+            - heading "Open Kismet" [level=3] [ref=e1407]:
+              - link "Open Kismet" [ref=e1408] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/kismet
+                - text: Kismet
+            - generic [ref=e1411]:
+              - generic [ref=e1412]: Los Angeles, CA, USA
+              - generic [ref=e1413]: $$ · Middle Eastern
+          - link "Open Kismet" [ref=e1414] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/kismet
+        - generic [ref=e1416]:
+          - generic [ref=e1417]:
+            - link "Reserve a table" [ref=e1425] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/flavors-from-afar
+              - generic [ref=e1426]: Reserve a table
+            - link "Open Flavors from Afar" [ref=e1428] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/flavors-from-afar
+          - generic [ref=e1431]:
+            - heading "Open Flavors from Afar" [level=3] [ref=e1437]:
+              - link "Open Flavors from Afar" [ref=e1438] [cursor=pointer]:
+                - /url: /us/en/california/us-los-angeles/restaurant/flavors-from-afar
+                - text: Flavors from Afar
+            - generic [ref=e1441]:
+              - generic [ref=e1442]: Los Angeles, CA, USA
+              - generic [ref=e1443]: $$ · International
+          - link "Open Flavors from Afar" [ref=e1444] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/flavors-from-afar
+        - generic [ref=e1446]:
+          - generic [ref=e1447]:
+            - link "Reserve a table" [ref=e1455] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/corridor-109
+              - generic [ref=e1456]: Reserve a table
+            - link "Open Corridor 109" [ref=e1458] [cursor=pointer]:
+              - /url: /us/en/california/us-los-angeles/restaurant/corridor-109
+          - generic [ref=e1461]:
+            - generic [ref=e1462]:
+              - generic [ref=e1465]: New
+              - heading "Open Corridor 109" [level=3] [ref=e1467]:
+                - link "Open Corridor 109" [ref=e1468] [cursor=pointer]:
+                  - /url: /us/en/california/us-los-angeles/restaurant/corridor-109
+                  - text: Corridor 109
+            - generic [ref=e1471]:
+              - generic [ref=e1472]: Los Angeles, CA, USA
+              - generic [ref=e1473]: Asian Contemporary
+          - link "Open Corridor 109" [ref=e1474] [cursor=pointer]:
+            - /url: /us/en/california/us-los-angeles/restaurant/corridor-109
+      - list [ref=e1477]:
+        - listitem [ref=e1478]:
+          - link "1" [ref=e1479] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/1
+        - listitem [ref=e1480]:
+          - link "2" [ref=e1481] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/2
+        - listitem [ref=e1482]:
+          - link "3" [ref=e1483] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/3
+        - listitem [ref=e1484]:
+          - link "4" [ref=e1485] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/4
+        - listitem [ref=e1486]:
+          - link [ref=e1487] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/california/us-los-angeles/restaurants/page/2
+    - generic [ref=e1489]:
+      - heading "Explore MICHELIN Guide Experiences" [level=2] [ref=e1491]
+      - generic [ref=e1492]:
+        - generic [ref=e1493]:
+          - link "Michelin Specials by The Fork" [ref=e1495] [cursor=pointer]:
+            - /url: /us/en/restaurants/michelin-specials
+          - link "New" [ref=e1497] [cursor=pointer]:
+            - /url: /us/en/restaurants/new-restaurants
+          - link "3 Stars" [ref=e1499] [cursor=pointer]:
+            - /url: /us/en/restaurants/3-stars-michelin
+            - text: 3 Stars
+          - link "2 Stars" [ref=e1502] [cursor=pointer]:
+            - /url: /us/en/restaurants/2-stars-michelin
+            - text: 2 Stars
+        - generic [ref=e1504]:
+          - link "1 Star" [ref=e1506] [cursor=pointer]:
+            - /url: /us/en/restaurants/1-star-michelin
+            - text: 1 Star
+          - link "Bib Gourmand" [ref=e1509] [cursor=pointer]:
+            - /url: /us/en/restaurants/bib-gourmand
+            - text: Bib Gourmand
+          - link "Selected Restaurants" [ref=e1512] [cursor=pointer]:
+            - /url: /us/en/restaurants/the-plate-michelin
+          - link "Afghan" [ref=e1514] [cursor=pointer]:
+            - /url: /us/en/restaurants/afghan
+        - generic [ref=e1515]:
+          - link "African" [ref=e1517] [cursor=pointer]:
+            - /url: /us/en/restaurants/african
+          - link "Alpine" [ref=e1519] [cursor=pointer]:
+            - /url: /us/en/restaurants/alpine
+          - link "Alsatian" [ref=e1521] [cursor=pointer]:
+            - /url: /us/en/restaurants/alsatian
+          - link "American" [ref=e1523] [cursor=pointer]:
+            - /url: /us/en/restaurants/american
+        - generic [ref=e1524]:
+          - link "American Contemporary" [ref=e1526] [cursor=pointer]:
+            - /url: /us/en/restaurants/american-contemporary
+          - link "Andalusian" [ref=e1528] [cursor=pointer]:
+            - /url: /us/en/restaurants/andalusian
+          - link "Apulian" [ref=e1530] [cursor=pointer]:
+            - /url: /us/en/restaurants/apulian
+          - link "Argentinian" [ref=e1532] [cursor=pointer]:
+            - /url: /us/en/restaurants/argentinian
+        - generic [ref=e1533]:
+          - link "Armenian" [ref=e1535] [cursor=pointer]:
+            - /url: /us/en/restaurants/armenian
+          - link "Asian" [ref=e1537] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian
+          - link "Asian Contemporary" [ref=e1539] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-contemporary
+          - link "Asian Influences" [ref=e1541] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-influences
+        - generic [ref=e1542]:
+          - link "Asian and Western" [ref=e1544] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-and-western
+          - link "Asturian" [ref=e1546] [cursor=pointer]:
+            - /url: /us/en/restaurants/asturian
+          - link "Australian Contemporary" [ref=e1548] [cursor=pointer]:
+            - /url: /us/en/restaurants/australian-contemporary
+          - link "Austrian" [ref=e1550] [cursor=pointer]:
+            - /url: /us/en/restaurants/austrian
+        - generic [ref=e1551]:
+          - link "Bakery" [ref=e1553] [cursor=pointer]:
+            - /url: /us/en/restaurants/bakery
+          - link "Balinese" [ref=e1555] [cursor=pointer]:
+            - /url: /us/en/restaurants/balinese
+          - link "Balkan" [ref=e1557] [cursor=pointer]:
+            - /url: /us/en/restaurants/balkan
+          - link "Barbecue" [ref=e1559] [cursor=pointer]:
+            - /url: /us/en/restaurants/barbecue-1143
+        - generic [ref=e1560]:
+          - link "Basque" [ref=e1562] [cursor=pointer]:
+            - /url: /us/en/restaurants/basque
+          - link "Bavarian" [ref=e1564] [cursor=pointer]:
+            - /url: /us/en/restaurants/bavarian
+          - link "Beef" [ref=e1566] [cursor=pointer]:
+            - /url: /us/en/restaurants/beef-specialities
+          - link "Beijing Cuisine" [ref=e1568] [cursor=pointer]:
+            - /url: /us/en/restaurants/pekingese
+        - generic [ref=e1569]:
+          - link "Belgian" [ref=e1571] [cursor=pointer]:
+            - /url: /us/en/restaurants/belgian
+          - link "Bibimbap" [ref=e1573] [cursor=pointer]:
+            - /url: /us/en/restaurants/bibimbap
+          - link "Brazilian" [ref=e1575] [cursor=pointer]:
+            - /url: /us/en/restaurants/brazilian
+          - link "Breton" [ref=e1577] [cursor=pointer]:
+            - /url: /us/en/restaurants/breton
+        - generic [ref=e1578]:
+          - link "British Contemporary" [ref=e1580] [cursor=pointer]:
+            - /url: /us/en/restaurants/british-contemporary
+          - link "Bulgogi" [ref=e1582] [cursor=pointer]:
+            - /url: /us/en/restaurants/bulgogi
+          - link "Burgundian" [ref=e1584] [cursor=pointer]:
+            - /url: /us/en/restaurants/burgundian
+          - link "Burmese" [ref=e1586] [cursor=pointer]:
+            - /url: /us/en/restaurants/burmese
+        - generic [ref=e1587]:
+          - link "Cajun" [ref=e1589] [cursor=pointer]:
+            - /url: /us/en/restaurants/cajun
+          - link "Calabrian" [ref=e1591] [cursor=pointer]:
+            - /url: /us/en/restaurants/calabrian
+          - link "Californian" [ref=e1593] [cursor=pointer]:
+            - /url: /us/en/restaurants/californian
+          - link "Cambodian" [ref=e1595] [cursor=pointer]:
+            - /url: /us/en/restaurants/cambodian
+        - generic [ref=e1596]:
+          - link "Campanian" [ref=e1598] [cursor=pointer]:
+            - /url: /us/en/restaurants/campanian
+          - link "Cantonese" [ref=e1600] [cursor=pointer]:
+            - /url: /us/en/restaurants/cantonese
+          - link "Cantonese Roast Meats" [ref=e1602] [cursor=pointer]:
+            - /url: /us/en/restaurants/cantonese-roast-meats
+          - link "Caribbean" [ref=e1604] [cursor=pointer]:
+            - /url: /us/en/restaurants/caribbean
+        - generic [ref=e1605]:
+          - link "Castilian" [ref=e1607] [cursor=pointer]:
+            - /url: /us/en/restaurants/castilian
+          - link "Catalan" [ref=e1609] [cursor=pointer]:
+            - /url: /us/en/restaurants/catalan
+          - link "Central Asian" [ref=e1611] [cursor=pointer]:
+            - /url: /us/en/restaurants/central-asian-120
+          - link "Chao Zhou" [ref=e1613] [cursor=pointer]:
+            - /url: /us/en/restaurants/chao-zhou
+        - generic [ref=e1614]:
+          - link "Cheese, Fondue and Raclette" [ref=e1616] [cursor=pointer]:
+            - /url: /us/en/restaurants/cheese-fondue-and-raclette
+          - link "Chicken Specialities" [ref=e1618] [cursor=pointer]:
+            - /url: /us/en/restaurants/chicken-specialities
+          - link "Chilean" [ref=e1620] [cursor=pointer]:
+            - /url: /us/en/restaurants/chilean
+          - link "Chinese" [ref=e1622] [cursor=pointer]:
+            - /url: /us/en/restaurants/chinese
+        - generic [ref=e1623]:
+          - link "Chinese Contemporary" [ref=e1625] [cursor=pointer]:
+            - /url: /us/en/restaurants/chinese-contemporary
+          - link "Chiu Chow" [ref=e1627] [cursor=pointer]:
+            - /url: /us/en/restaurants/chiu-chow
+          - link "Chueotang" [ref=e1629] [cursor=pointer]:
+            - /url: /us/en/restaurants/chueotang
+          - link "Classic Cuisine" [ref=e1631] [cursor=pointer]:
+            - /url: /us/en/restaurants/classic-cuisine
+        - generic [ref=e1632]:
+          - link "Classic French" [ref=e1634] [cursor=pointer]:
+            - /url: /us/en/restaurants/classic-french
+          - link "Colombian" [ref=e1636] [cursor=pointer]:
+            - /url: /us/en/restaurants/colombian
+          - link "Congee" [ref=e1638] [cursor=pointer]:
+            - /url: /us/en/restaurants/congee
+          - link "Contemporary" [ref=e1640] [cursor=pointer]:
+            - /url: /us/en/restaurants/contemporary
+        - generic [ref=e1641]:
+          - link "Corsican" [ref=e1643] [cursor=pointer]:
+            - /url: /us/en/restaurants/corsican
+          - link "Country cooking" [ref=e1645] [cursor=pointer]:
+            - /url: /us/en/restaurants/country
+          - link "Crab Specialities" [ref=e1647] [cursor=pointer]:
+            - /url: /us/en/restaurants/crab-specialities
+          - link "Creative" [ref=e1649] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative
+        - generic [ref=e1650]:
+          - link "Creative British" [ref=e1652] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative-british
+          - link "Creative French" [ref=e1654] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative-french
+          - link "Creole" [ref=e1656] [cursor=pointer]:
+            - /url: /us/en/restaurants/creole
+          - link "Croatian" [ref=e1658] [cursor=pointer]:
+            - /url: /us/en/restaurants/croatian
+        - generic [ref=e1659]:
+          - link "Crêpe" [ref=e1661] [cursor=pointer]:
+            - /url: /us/en/restaurants/crpe
+          - link "Cuban" [ref=e1663] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuban
+          - link "Cuisine from Abruzzo" [ref=e1665] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-abruzzo
+          - link "Cuisine from Basilicata" [ref=e1667] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-basilicata
+        - generic [ref=e1668]:
+          - link "Cuisine from Lazio" [ref=e1670] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-lazio
+          - link "Cuisine from Parma" [ref=e1672] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-parma
+          - link "Cuisine from Romagna" [ref=e1674] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-romagna
+          - link "Cuisine from South West France" [ref=e1676] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-south-west-france
+        - generic [ref=e1677]:
+          - link "Cuisine from Valtellina" [ref=e1679] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-valtellina
+          - link "Cuisine from the Aosta Valley" [ref=e1681] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-the-aosta-valley
+          - link "Cuisine from the Marches" [ref=e1683] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-the-marches
+          - link "Czech" [ref=e1685] [cursor=pointer]:
+            - /url: /us/en/restaurants/czech
+        - generic [ref=e1686]:
+          - link "Danish" [ref=e1688] [cursor=pointer]:
+            - /url: /us/en/restaurants/danish
+          - link "Deli" [ref=e1690] [cursor=pointer]:
+            - /url: /us/en/restaurants/deli
+          - link "Dim Sum" [ref=e1692] [cursor=pointer]:
+            - /url: /us/en/restaurants/dim-sum
+          - link "Doganitang" [ref=e1694] [cursor=pointer]:
+            - /url: /us/en/restaurants/doganitang
+        - generic [ref=e1695]:
+          - link "Dongbei" [ref=e1697] [cursor=pointer]:
+            - /url: /us/en/restaurants/dongbei
+          - link "Dubu" [ref=e1699] [cursor=pointer]:
+            - /url: /us/en/restaurants/dubu
+          - link "Duck Specialities" [ref=e1701] [cursor=pointer]:
+            - /url: /us/en/restaurants/duck-specialities
+          - link "Dumplings" [ref=e1703] [cursor=pointer]:
+            - /url: /us/en/restaurants/dumplings
+        - generic [ref=e1704]:
+          - link "Dwaeji-gukbap" [ref=e1706] [cursor=pointer]:
+            - /url: /us/en/restaurants/dwaeji-gukbap
+          - link "Eastern European" [ref=e1708] [cursor=pointer]:
+            - /url: /us/en/restaurants/eastern-european
+          - link "Egyptian" [ref=e1710] [cursor=pointer]:
+            - /url: /us/en/restaurants/egyptian
+          - link "Emilian" [ref=e1712] [cursor=pointer]:
+            - /url: /us/en/restaurants/emilian
+        - generic [ref=e1713]:
+          - link "Emirati Cuisine" [ref=e1715] [cursor=pointer]:
+            - /url: /us/en/restaurants/emirati-cuisine
+          - link "English" [ref=e1717] [cursor=pointer]:
+            - /url: /us/en/restaurants/english
+          - link "Ethiopian" [ref=e1719] [cursor=pointer]:
+            - /url: /us/en/restaurants/ethiopian
+          - link "European" [ref=e1721] [cursor=pointer]:
+            - /url: /us/en/restaurants/european
+        - generic [ref=e1722]:
+          - link "European Contemporary" [ref=e1724] [cursor=pointer]:
+            - /url: /us/en/restaurants/european-contemporary
+          - link "Farm to table" [ref=e1726] [cursor=pointer]:
+            - /url: /us/en/restaurants/market-cuisine
+          - link "Filipino" [ref=e1728] [cursor=pointer]:
+            - /url: /us/en/restaurants/filipino
+          - link "Finnish" [ref=e1730] [cursor=pointer]:
+            - /url: /us/en/restaurants/finnish
+        - generic [ref=e1731]:
+          - link "Fish and Chips" [ref=e1733] [cursor=pointer]:
+            - /url: /us/en/restaurants/fish-and-chips
+          - link "Flemish" [ref=e1735] [cursor=pointer]:
+            - /url: /us/en/restaurants/flemish
+          - link "French" [ref=e1737] [cursor=pointer]:
+            - /url: /us/en/restaurants/french
+          - link "French Contemporary" [ref=e1739] [cursor=pointer]:
+            - /url: /us/en/restaurants/french-contemporary
+        - generic [ref=e1740]:
+          - link "Friulian" [ref=e1742] [cursor=pointer]:
+            - /url: /us/en/restaurants/friulian
+          - link "Fugu / Pufferfish" [ref=e1744] [cursor=pointer]:
+            - /url: /us/en/restaurants/fugu-pufferfish
+          - link "Fujian" [ref=e1746] [cursor=pointer]:
+            - /url: /us/en/restaurants/fujian
+          - link "Fusion" [ref=e1748] [cursor=pointer]:
+            - /url: /us/en/restaurants/fusion
+        - generic [ref=e1749]:
+          - link "Fusion" [ref=e1751] [cursor=pointer]:
+            - /url: /us/en/restaurants/fusion-1161
+          - link "Galician" [ref=e1753] [cursor=pointer]:
+            - /url: /us/en/restaurants/galician
+          - link "Gastropub" [ref=e1755] [cursor=pointer]:
+            - /url: /us/en/restaurants/gastropub
+          - link "Gejang" [ref=e1757] [cursor=pointer]:
+            - /url: /us/en/restaurants/gejang
+        - generic [ref=e1758]:
+          - link "German" [ref=e1760] [cursor=pointer]:
+            - /url: /us/en/restaurants/german
+          - link "Gomtang" [ref=e1762] [cursor=pointer]:
+            - /url: /us/en/restaurants/gomtang
+          - link "Greek" [ref=e1764] [cursor=pointer]:
+            - /url: /us/en/restaurants/greek
+          - link "Grills" [ref=e1766] [cursor=pointer]:
+            - /url: /us/en/restaurants/grills-1162
+        - generic [ref=e1767]:
+          - link "Hainanese" [ref=e1769] [cursor=pointer]:
+            - /url: /us/en/restaurants/hainanese
+          - link "Hakkanese" [ref=e1771] [cursor=pointer]:
+            - /url: /us/en/restaurants/hakkanese
+          - link "Hang Zhou" [ref=e1773] [cursor=pointer]:
+            - /url: /us/en/restaurants/hang-zhou
+          - link "Home Cooking" [ref=e1775] [cursor=pointer]:
+            - /url: /us/en/restaurants/home-cooking
+        - generic [ref=e1776]:
+          - link "Hotpot" [ref=e1778] [cursor=pointer]:
+            - /url: /us/en/restaurants/hotpot
+          - link "Huaiyang" [ref=e1780] [cursor=pointer]:
+            - /url: /us/en/restaurants/huai-yang
+          - link "Hubei" [ref=e1782] [cursor=pointer]:
+            - /url: /us/en/restaurants/hubei
+          - link "Hui Cuisine" [ref=e1784] [cursor=pointer]:
+            - /url: /us/en/restaurants/hui-cuisine
+        - generic [ref=e1785]:
+          - link "Hunanese" [ref=e1787] [cursor=pointer]:
+            - /url: /us/en/restaurants/hunanese
+          - link "Hunanese and Sichuan" [ref=e1789] [cursor=pointer]:
+            - /url: /us/en/restaurants/hunanese-and-sichuan
+          - link "Hungarian" [ref=e1791] [cursor=pointer]:
+            - /url: /us/en/restaurants/hungarian
+          - link "Indian" [ref=e1793] [cursor=pointer]:
+            - /url: /us/en/restaurants/indian
+        - generic [ref=e1794]:
+          - link "Indian Vegetarian" [ref=e1796] [cursor=pointer]:
+            - /url: /us/en/restaurants/indian-vegetarian
+          - link "Indonesian" [ref=e1798] [cursor=pointer]:
+            - /url: /us/en/restaurants/indonesian
+          - link "Innovative" [ref=e1800] [cursor=pointer]:
+            - /url: /us/en/restaurants/innovative
+          - link "International" [ref=e1802] [cursor=pointer]:
+            - /url: /us/en/restaurants/international
+        - generic [ref=e1803]:
+          - link "Irish" [ref=e1805] [cursor=pointer]:
+            - /url: /us/en/restaurants/irish
+          - link "Isan" [ref=e1807] [cursor=pointer]:
+            - /url: /us/en/restaurants/isan
+          - link "Israeli" [ref=e1809] [cursor=pointer]:
+            - /url: /us/en/restaurants/israeli
+          - link "Italian" [ref=e1811] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian
+        - generic [ref=e1812]:
+          - link "Italian Contemporary" [ref=e1814] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-contemporary
+          - link "Italian and Japanese" [ref=e1816] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-and-japanese
+          - link "Italian-American" [ref=e1818] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-american
+          - link "Izakaya" [ref=e1820] [cursor=pointer]:
+            - /url: /us/en/restaurants/izakaya
+        - generic [ref=e1821]:
+          - link "Jamaican" [ref=e1823] [cursor=pointer]:
+            - /url: /us/en/restaurants/jamaican
+          - link "Japanese" [ref=e1825] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese
+          - link "Japanese Contemporary" [ref=e1827] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-contemporary
+          - link "Japanese Steakhouse" [ref=e1829] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-steakhouse
+        - generic [ref=e1830]:
+          - link "Japanese Tempura" [ref=e1832] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-tempura
+          - link "Jiangsu Cuisine" [ref=e1834] [cursor=pointer]:
+            - /url: /us/en/restaurants/jiangsu-cuisine
+          - link "Jiangzhe" [ref=e1836] [cursor=pointer]:
+            - /url: /us/en/restaurants/jiangzhe
+          - link "Kalguksu" [ref=e1838] [cursor=pointer]:
+            - /url: /us/en/restaurants/kalguksu
+        - generic [ref=e1839]:
+          - link "Korean" [ref=e1841] [cursor=pointer]:
+            - /url: /us/en/restaurants/korean
+          - link "Korean Contemporary" [ref=e1843] [cursor=pointer]:
+            - /url: /us/en/restaurants/korean-contemporary
+          - link "Kushiage" [ref=e1845] [cursor=pointer]:
+            - /url: /us/en/restaurants/kushiage
+          - link "Lao" [ref=e1847] [cursor=pointer]:
+            - /url: /us/en/restaurants/lao
+        - generic [ref=e1848]:
+          - link "Latin American" [ref=e1850] [cursor=pointer]:
+            - /url: /us/en/restaurants/latin-american
+          - link "Lebanese" [ref=e1852] [cursor=pointer]:
+            - /url: /us/en/restaurants/lebanese
+          - link "Ligurian" [ref=e1854] [cursor=pointer]:
+            - /url: /us/en/restaurants/ligurian
+          - link "Lombardian" [ref=e1856] [cursor=pointer]:
+            - /url: /us/en/restaurants/lombardian
+        - generic [ref=e1857]:
+          - link "Lyonnaise" [ref=e1859] [cursor=pointer]:
+            - /url: /us/en/restaurants/lyonnaise
+          - link "Macanese" [ref=e1861] [cursor=pointer]:
+            - /url: /us/en/restaurants/macanese
+          - link "Malaysian" [ref=e1863] [cursor=pointer]:
+            - /url: /us/en/restaurants/malaysian
+          - link "Mandu" [ref=e1865] [cursor=pointer]:
+            - /url: /us/en/restaurants/mandu
+        - generic [ref=e1866]:
+          - link "Mantuan" [ref=e1868] [cursor=pointer]:
+            - /url: /us/en/restaurants/mantuan
+          - link "Meats and Grills" [ref=e1870] [cursor=pointer]:
+            - /url: /us/en/restaurants/meats-and-grills
+          - link "Meats and Seafood" [ref=e1872] [cursor=pointer]:
+            - /url: /us/en/restaurants/meats-and-seafood
+          - link "Mediterranean Cuisine" [ref=e1874] [cursor=pointer]:
+            - /url: /us/en/restaurants/mediterranean-cuisine
+        - generic [ref=e1875]:
+          - link "Memil-guksu" [ref=e1877] [cursor=pointer]:
+            - /url: /us/en/restaurants/memil-guksu
+          - link "Mexican" [ref=e1879] [cursor=pointer]:
+            - /url: /us/en/restaurants/mexican
+          - link "Middle Eastern" [ref=e1881] [cursor=pointer]:
+            - /url: /us/en/restaurants/middle-eastern
+          - link "Milanese" [ref=e1883] [cursor=pointer]:
+            - /url: /us/en/restaurants/milanese
+        - generic [ref=e1884]:
+          - link "Modern British" [ref=e1886] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-british
+          - link "Modern Cuisine" [ref=e1888] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-cuisine
+          - link "Modern French" [ref=e1890] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-french
+          - link "Moroccan" [ref=e1892] [cursor=pointer]:
+            - /url: /us/en/restaurants/moroccan
+        - generic [ref=e1893]:
+          - link "Naengmyeon" [ref=e1895] [cursor=pointer]:
+            - /url: /us/en/restaurants/naengmyeon
+          - link "Nepali" [ref=e1897] [cursor=pointer]:
+            - /url: /us/en/restaurants/nepali
+          - link "Ningbo" [ref=e1899] [cursor=pointer]:
+            - /url: /us/en/restaurants/ningbo
+          - link "Noodles" [ref=e1901] [cursor=pointer]:
+            - /url: /us/en/restaurants/noodles
+        - generic [ref=e1902]:
+          - link "Noodles and Congee" [ref=e1904] [cursor=pointer]:
+            - /url: /us/en/restaurants/noodles-and-congee
+          - link "North African" [ref=e1906] [cursor=pointer]:
+            - /url: /us/en/restaurants/north-african
+          - link "North American" [ref=e1908] [cursor=pointer]:
+            - /url: /us/en/restaurants/north-american
+          - link "Northern Thai" [ref=e1910] [cursor=pointer]:
+            - /url: /us/en/restaurants/northern-thai
+        - generic [ref=e1911]:
+          - link "Norwegian" [ref=e1913] [cursor=pointer]:
+            - /url: /us/en/restaurants/norwegian
+          - link "Obanzai" [ref=e1915] [cursor=pointer]:
+            - /url: /us/en/restaurants/obanzai
+          - link "Oden" [ref=e1917] [cursor=pointer]:
+            - /url: /us/en/restaurants/oden
+          - link "Okonomiyaki" [ref=e1919] [cursor=pointer]:
+            - /url: /us/en/restaurants/okonomiyaki
+        - generic [ref=e1920]:
+          - link "Onigiri" [ref=e1922] [cursor=pointer]:
+            - /url: /us/en/restaurants/onigiri
+          - link "Organic" [ref=e1924] [cursor=pointer]:
+            - /url: /us/en/restaurants/organic
+          - link "Oyster Specialities" [ref=e1926] [cursor=pointer]:
+            - /url: /us/en/restaurants/oyster-specialities
+          - link "Pa Thong Ko" [ref=e1928] [cursor=pointer]:
+            - /url: /us/en/restaurants/pa-thong-ko
+        - generic [ref=e1929]:
+          - link "Pakistani" [ref=e1931] [cursor=pointer]:
+            - /url: /us/en/restaurants/pakistani
+          - link "Peranakan" [ref=e1933] [cursor=pointer]:
+            - /url: /us/en/restaurants/peranakan
+          - link "Persian" [ref=e1935] [cursor=pointer]:
+            - /url: /us/en/restaurants/persian
+          - link "Peruvian" [ref=e1937] [cursor=pointer]:
+            - /url: /us/en/restaurants/peruvian
+        - generic [ref=e1938]:
+          - link "Piedmontese" [ref=e1940] [cursor=pointer]:
+            - /url: /us/en/restaurants/piedmontese
+          - link "Pizza" [ref=e1942] [cursor=pointer]:
+            - /url: /us/en/restaurants/pizza
+          - link "Polish" [ref=e1944] [cursor=pointer]:
+            - /url: /us/en/restaurants/polish
+          - link "Pork" [ref=e1946] [cursor=pointer]:
+            - /url: /us/en/restaurants/pork-specialities
+        - generic [ref=e1947]:
+          - link "Portuguese" [ref=e1949] [cursor=pointer]:
+            - /url: /us/en/restaurants/portuguese
+          - link "Provençal" [ref=e1951] [cursor=pointer]:
+            - /url: /us/en/restaurants/proven%C3%A7al
+          - link "Ramen" [ref=e1953] [cursor=pointer]:
+            - /url: /us/en/restaurants/ramen
+          - link "Regional Cuisine" [ref=e1955] [cursor=pointer]:
+            - /url: /us/en/restaurants/regional-cuisine
+        - generic [ref=e1956]:
+          - link "Regional European" [ref=e1958] [cursor=pointer]:
+            - /url: /us/en/restaurants/regional-european
+          - link "Rice Dishes" [ref=e1960] [cursor=pointer]:
+            - /url: /us/en/restaurants/rice-dishes
+          - link "Roman" [ref=e1962] [cursor=pointer]:
+            - /url: /us/en/restaurants/roman
+    - list [ref=e1964]:
+      - listitem [ref=e1965]:
+        - link "MICHELIN Guide Restaurants" [ref=e1966] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en
+      - listitem [ref=e1967]:
+        - link "USA" [ref=e1968] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/selection/united-states/restaurants
+      - listitem [ref=e1969]:
+        - link "California" [ref=e1970] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/california/restaurants
+      - listitem [ref=e1971]: Los Angeles Restaurants
+  - contentinfo [ref=e1972]:
+    - generic [ref=e1973]:
+      - generic [ref=e1974]:
+        - generic [ref=e1975]:
+          - generic [ref=e1977]:
+            - heading "Be the first to get news and updates about the MICHELIN Guide" [level=4] [ref=e1978]
+            - generic [ref=e1980]:
+              - generic [ref=e1984]:
+                - textbox "Your Email" [ref=e1986]
+                - button "Subscribe" [ref=e1988] [cursor=pointer]
+              - subscript [ref=e1990]:
+                - text: Michelin will process your personal data to manage your subscription, measure the performance of our campaigns and analyze your interactions with our communications. Your data can be shared with other Michelin affiliates (TabletHotels and Robert Parker) in order to know you better and with your consent, to sending you marketing offers. You can manage your communication preferences at any time or unsubscribe using the link included in all our emails. To exercise your privacy rights,
+                - link "contact us" [ref=e1991] [cursor=pointer]:
+                  - /url: /us/en/contact-us
+                - text: . Learn more about how Michelin manages your data
+                - link "here." [ref=e1992] [cursor=pointer]:
+                  - /url: /us/en/privacy-policy
+          - generic [ref=e1994]:
+            - heading "Use the app to find the best restaurants and hotels everywhere" [level=4] [ref=e1995]
+            - link [ref=e1998] [cursor=pointer]:
+              - /url: https://michelinguide.app.link/S5F47i2xsnb
+            - generic [ref=e2001]:
+              - heading "Follow us" [level=4] [ref=e2002]
+              - generic [ref=e2004]:
+                - link "Follow us on Instagram" [ref=e2005] [cursor=pointer]:
+                  - /url: https://www.instagram.com/michelinguide
+                - link "Follow us on Youtube" [ref=e2006] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@TheMICHELINGuide
+                - link "Follow us on Facebook" [ref=e2007] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MichelinGuideNorthAmerica
+                - link "Follow us on Twitter" [ref=e2008] [cursor=pointer]:
+                  - /url: https://twitter.com/MichelinGuideNA
+                - link "Follow us on TikTok" [ref=e2009] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@michelinguide
+        - generic [ref=e2010]:
+          - generic [ref=e2011]:
+            - generic [ref=e2012]:
+              - heading "MICHELIN Guide" [level=4] [ref=e2013]
+              - generic [ref=e2014]:
+                - link "Open About the Guide" [ref=e2015] [cursor=pointer]:
+                  - /url: /us/en/about-us
+                  - text: About the Guide
+                - link "Open Restaurants" [ref=e2016] [cursor=pointer]:
+                  - /url: /us/en/restaurants
+                  - text: Restaurants
+                - link "Open Hotels" [ref=e2017] [cursor=pointer]:
+                  - /url: /us/en/hotels
+                  - text: Hotels
+                - link "Open Partners" [ref=e2018] [cursor=pointer]:
+                  - /url: /us/en/partners
+                  - text: Partners
+                - link "Open Contact Us" [ref=e2019] [cursor=pointer]:
+                  - /url: https://intercom.help/michelin-guide-contact-us/en/
+                  - text: Contact Us
+                - link "Open Leave a review" [ref=e2020] [cursor=pointer]:
+                  - /url: https://intercom.help/michelin-guide-contact-us/en/articles/7232822-how-do-i-give-feedback-or-suggest-an-establishment
+                  - text: Leave a review
+                - link "Open MICHELIN Guide Plus" [ref=e2021] [cursor=pointer]:
+                  - /url: /us/en/member-program/becomeamember
+                  - text: MICHELIN Guide Plus
+            - generic [ref=e2022]:
+              - heading "The Michelin Group" [level=4] [ref=e2023]
+              - generic [ref=e2024]:
+                - link "Open The Michelin Company" [ref=e2025] [cursor=pointer]:
+                  - /url: https://www.michelin.com/eng/
+                  - text: The Michelin Company
+                - link "Open MICHELIN Tires" [ref=e2026] [cursor=pointer]:
+                  - /url: https://www.michelinman.com/US/en/tires.html
+                  - text: MICHELIN Tires
+                - link "Open ViaMichelin" [ref=e2027] [cursor=pointer]:
+                  - /url: https://www.viamichelin.com/
+                  - text: ViaMichelin
+          - generic [ref=e2031]:
+            - heading "MICHELIN Guide selections" [level=4] [ref=e2032]
+            - generic [ref=e2033]:
+              - link "Open Abu Dhabi" [ref=e2034] [cursor=pointer]:
+                - /url: /ae-az/en
+                - text: Abu Dhabi
+              - link "Open Argentina" [ref=e2035] [cursor=pointer]:
+                - /url: /ar/es
+                - text: Argentina
+              - link "Open Austria" [ref=e2036] [cursor=pointer]:
+                - /url: /at/de
+                - text: Austria
+              - link "Open Belgium" [ref=e2037] [cursor=pointer]:
+                - /url: /be/fr
+                - text: Belgium
+              - link "Open Brazil" [ref=e2038] [cursor=pointer]:
+                - /url: /br/pt_BR
+                - text: Brazil
+              - link "Open Canada" [ref=e2039] [cursor=pointer]:
+                - /url: /ca/en
+                - text: Canada
+              - link "Open Chinese Mainland" [ref=e2040] [cursor=pointer]:
+                - /url: /en/cn/restaurants
+                - text: Chinese Mainland
+              - link "Open Croatia" [ref=e2041] [cursor=pointer]:
+                - /url: /hr/en
+                - text: Croatia
+              - link "Open Czech Republic" [ref=e2042] [cursor=pointer]:
+                - /url: /cz/en
+                - text: Czech Republic
+              - link "Open Denmark" [ref=e2043] [cursor=pointer]:
+                - /url: /dk/en
+                - text: Denmark
+              - link "Open Dubai" [ref=e2044] [cursor=pointer]:
+                - /url: /ae-du/en
+                - text: Dubai
+              - link "Open Estonia" [ref=e2045] [cursor=pointer]:
+                - /url: /ee/en
+                - text: Estonia
+              - link "Open Finland" [ref=e2046] [cursor=pointer]:
+                - /url: /fi/en
+                - text: Finland
+              - link "Open France" [ref=e2047] [cursor=pointer]:
+                - /url: /fr/fr
+                - text: France
+              - link "Open Germany" [ref=e2048] [cursor=pointer]:
+                - /url: /de/de
+                - text: Germany
+              - link "Open Greece" [ref=e2049] [cursor=pointer]:
+                - /url: /gr/en
+                - text: Greece
+              - link "Open Hong Kong SAR" [ref=e2050] [cursor=pointer]:
+                - /url: /hk/en
+                - text: Hong Kong SAR
+              - link "Open Hungary" [ref=e2051] [cursor=pointer]:
+                - /url: /hu/en
+                - text: Hungary
+              - link "Open Iceland" [ref=e2052] [cursor=pointer]:
+                - /url: /is/en
+                - text: Iceland
+              - link "Open Italy" [ref=e2053] [cursor=pointer]:
+                - /url: /it/it
+                - text: Italy
+              - link "Open Japan" [ref=e2054] [cursor=pointer]:
+                - /url: /jp/en
+                - text: Japan
+              - link "Open Latvia" [ref=e2055] [cursor=pointer]:
+                - /url: /lv/en
+                - text: Latvia
+              - link "Open Lithuania" [ref=e2056] [cursor=pointer]:
+                - /url: /lt/en
+                - text: Lithuania
+              - link "Open Luxembourg" [ref=e2057] [cursor=pointer]:
+                - /url: /lu/fr
+                - text: Luxembourg
+              - link "Open Macau SAR" [ref=e2058] [cursor=pointer]:
+                - /url: /mo/en
+                - text: Macau SAR
+              - link "Open Malaysia" [ref=e2059] [cursor=pointer]:
+                - /url: /my/en
+                - text: Malaysia
+              - link "Open Malta" [ref=e2060] [cursor=pointer]:
+                - /url: /mt/en
+                - text: Malta
+              - link "Open Mexico" [ref=e2061] [cursor=pointer]:
+                - /url: /mx/es
+                - text: Mexico
+              - link "Open Netherlands" [ref=e2062] [cursor=pointer]:
+                - /url: /nl/nl
+                - text: Netherlands
+              - link "Open Norway" [ref=e2063] [cursor=pointer]:
+                - /url: /no/en
+                - text: Norway
+              - link "Open Poland" [ref=e2064] [cursor=pointer]:
+                - /url: /pl/en
+                - text: Poland
+              - link "Open Portugal" [ref=e2065] [cursor=pointer]:
+                - /url: /pt/pt_PT
+                - text: Portugal
+              - link "Open Qatar" [ref=e2066] [cursor=pointer]:
+                - /url: /qa/en
+                - text: Qatar
+              - link "Open Republic of Ireland" [ref=e2067] [cursor=pointer]:
+                - /url: /ie/en
+                - text: Republic of Ireland
+              - link "Open Saudi Arabia" [ref=e2068] [cursor=pointer]:
+                - /url: /en/food-and-travel-saudi-arabia
+                - text: Saudi Arabia
+              - link "Open Serbia" [ref=e2069] [cursor=pointer]:
+                - /url: /rs/en
+                - text: Serbia
+              - link "Open Singapore" [ref=e2070] [cursor=pointer]:
+                - /url: /sg/en
+                - text: Singapore
+              - link "Open Slovenia" [ref=e2071] [cursor=pointer]:
+                - /url: /si/en
+                - text: Slovenia
+              - link "Open South Korea" [ref=e2072] [cursor=pointer]:
+                - /url: /kr/en
+                - text: South Korea
+              - link "Open Spain" [ref=e2073] [cursor=pointer]:
+                - /url: /es/es
+                - text: Spain
+              - link "Open Sweden" [ref=e2074] [cursor=pointer]:
+                - /url: /se/en
+                - text: Sweden
+              - link "Open Switzerland" [ref=e2075] [cursor=pointer]:
+                - /url: /ch/fr
+                - text: Switzerland
+              - link "Open Taiwan Region" [ref=e2076] [cursor=pointer]:
+                - /url: /tw/en
+                - text: Taiwan Region
+              - link "Open Thailand" [ref=e2077] [cursor=pointer]:
+                - /url: /th/en
+                - text: Thailand
+              - link "Open The Philippines" [ref=e2078] [cursor=pointer]:
+                - /url: /ph/en
+                - text: The Philippines
+              - link "Open Turkey" [ref=e2079] [cursor=pointer]:
+                - /url: /tr/en
+                - text: Turkey
+              - link "Open United Kingdom" [ref=e2080] [cursor=pointer]:
+                - /url: /gb/en
+                - text: United Kingdom
+              - link "Open USA" [ref=e2081] [cursor=pointer]:
+                - /url: /us/en
+                - text: USA
+              - link "Open Vietnam" [ref=e2082] [cursor=pointer]:
+                - /url: /vn/en
+                - text: Vietnam
+      - generic [ref=e2084]:
+        - generic [ref=e2087]: Copyright © 2026 MICHELIN Guide. All rights reserved.
+        - list [ref=e2090]:
+          - listitem [ref=e2091]:
+            - link "Open Terms of Use" [ref=e2092] [cursor=pointer]:
+              - /url: /us/en/terms-of-use
+              - text: Terms of Use
+          - listitem [ref=e2093]:
+            - link "Open Your privacy choices" [ref=e2094] [cursor=pointer]:
+              - /url: javascript:Didomi.preferences.show()
+              - text: Your privacy choices
+          - listitem [ref=e2096]:
+            - link "Open Privacy Policy" [ref=e2097] [cursor=pointer]:
+              - /url: /us/en/privacy-policy
+              - text: Privacy Policy
+          - listitem [ref=e2098]:
+            - link "Open Legal Notice" [ref=e2099] [cursor=pointer]:
+              - /url: /us/en/legal-notice
+              - text: Legal Notice
+          - listitem [ref=e2100]:
+            - link "Open Accessibility Statement" [ref=e2101] [cursor=pointer]:
+              - /url: /us/en/accessibility
+              - text: Accessibility Statement

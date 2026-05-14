@@ -103,6 +103,58 @@ export async function countActiveRestaurants(groupIds) {
   return counts;
 }
 
+// ── Trips (destinations-level) ──
+
+const TRIP_PHOTO_BASE = (() => {
+  const url = window.__SUPABASE_URL;
+  return url ? `${url}/storage/v1/object/public/trip-photos/` : '';
+})();
+
+export function tripPhotoUrl(storagePath) {
+  if (!storagePath) return '';
+  if (storagePath.startsWith('http')) return storagePath;
+  return TRIP_PHOTO_BASE + storagePath;
+}
+
+export async function loadTrip(id) {
+  const { data, error } = await sb()
+    .from('trips').select('*').eq('id', id).maybeSingle();
+  if (error) { console.error('loadTrip:', error); return null; }
+  return data;
+}
+
+export async function loadPublicTrips() {
+  const { data, error } = await sb()
+    .from('trips')
+    .select('id,name,dates_start,dates_end,duration_days,origin_airport,traveler_slugs,created_at')
+    .eq('is_public', true)
+    .order('created_at', { ascending: false });
+  if (error) { console.error('loadPublicTrips:', error); return []; }
+  return data;
+}
+
+export async function loadTripDestinations(tripId) {
+  const { data, error } = await sb()
+    .from('trip_destinations')
+    .select('*')
+    .eq('trip_id', tripId)
+    .order('ranking', { ascending: true, nullsLast: true })
+    .order('composite_score', { ascending: false, nullsLast: true });
+  if (error) { console.error('loadTripDestinations:', error); return []; }
+  return data;
+}
+
+export async function loadTripPhotos(destinationIds) {
+  if (!destinationIds?.length) return [];
+  const { data, error } = await sb()
+    .from('trip_destination_photos')
+    .select('*')
+    .in('trip_destination_id', destinationIds)
+    .order('rank', { ascending: true, nullsLast: true });
+  if (error) { console.error('loadTripPhotos:', error); return []; }
+  return data;
+}
+
 // ── Restaurants (per-group) ──
 
 export async function loadGroupRestaurants() {

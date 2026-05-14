@@ -1,0 +1,501 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - generic:
+          - generic:
+            - img
+        - link "World Quantum Day 2026" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQPQgL
+          - img "World Quantum Day 2026" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search" [ref=e20]: "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" \"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\""
+            - generic [ref=e21]:
+              - button "Clear" [ref=e23] [cursor=pointer]:
+                - img [ref=e25]
+              - generic [ref=e28]:
+                - button "Search by voice" [ref=e29] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Search by image" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+          - button "Search" [ref=e35] [cursor=pointer]:
+            - img [ref=e38]
+    - generic [ref=e40]:
+      - button "Settings" [ref=e42] [cursor=pointer]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - button "Google apps" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+        - link "Sign in" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%252236%2Bhours%2Bin%2Basheville%2522%2BOR%2B%25223%2Bdays%2Bin%2Basheville%2522%2BOR%2B%2522weekend%2Bin%2Basheville%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&aep=1&ntc=1&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ2J8OegQIEBAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [disabled] [ref=e77]:
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "Images" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=76d22973dcec555c&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQtKgLegQIFhAB
+              - generic [ref=e83]: Images
+          - listitem [ref=e84]:
+            - link "Short videos" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=76d22973dcec555c&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQs6gLegQIFRAB
+              - generic [ref=e87]: Short videos
+          - listitem [ref=e88]:
+            - link "News" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=76d22973dcec555c&q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ0pQJegQIFBAB
+              - generic [ref=e91]: News
+          - listitem [ref=e92]:
+            - link "Forums" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=76d22973dcec555c&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQs6gLegQIExAB
+              - generic [ref=e95]: Forums
+          - listitem [ref=e96]:
+            - link "Shopping" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=76d22973dcec555c&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRY3wEKpNQ5Wykbz5I1RBh_fKmAbGc7asCCQYkDL9YFS-vYTQSeWNri_mW8dRFj_aShhgsWDHFdNnLlawWoWMCh40LIrcS2Sd1elwiEUjQCA0hU16v3xITo5aoqM_8BnyaF-9Mv_tcFniElb_9Xb8wtW4aGEg&q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Shopping
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - generic [ref=e121]:
+      - generic [ref=e140]:
+        - heading "Thinking" [level=2] [ref=e144]:
+          - generic [ref=e145]: Thinking
+        - progressbar [ref=e146]
+      - main [ref=e148]:
+        - generic [ref=e152]:
+          - generic [ref=e155]:
+            - heading "Web results" [level=2] [ref=e156]
+            - generic [ref=e157]:
+              - generic [ref=e160]:
+                - 'link "36 Hours In Asheville: See The Best Of The Area ... Uncorked Asheville https://www.uncorkedasheville.com › 36-hours-in-ashe..." [ref=e162] [cursor=pointer]':
+                  - /url: https://www.uncorkedasheville.com/36-hours-in-asheville/
+                  - 'heading "36 Hours In Asheville: See The Best Of The Area ..." [level=3] [ref=e163]'
+                  - generic [ref=e168]:
+                    - generic [ref=e170]: Uncorked Asheville
+                    - generic [ref=e172]: https://www.uncorkedasheville.com › 36-hours-in-ashe...
+                - button "About this result" [ref=e173] [cursor=pointer]:
+                  - img [ref=e176]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Jul 10, 2025 —
+                - generic [ref=e181]:
+                  - text: Fun-Filled,
+                  - emphasis [ref=e182]: 36 Hours In Asheville
+                  - text: Itinerary · Drive or hike the Blue Ridge Parkway (parts still re-opening for Helene) · Watch a Grove Park Inn ...
+                - link "Read more" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.uncorkedasheville.com/36-hours-in-asheville/#:~:text=Fun%2DFilled%2C%2036%20Hours%20In%20Asheville,Itinerary&text=Drive%20or%20hike%20the%20Blue,(parts%20still%20re%2Dopening%20for%20Helene)&text=Watch%20a%20Grove%20Park%20Inn,sunset
+              - link "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.uncorkedasheville.com" [ref=e186] [cursor=pointer]:
+                - /url: https://www.uncorkedasheville.com/36-hours-in-asheville/
+                - img "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.uncorkedasheville.com" [ref=e188]
+          - generic [ref=e192]:
+            - generic [ref=e195]:
+              - 'link "36 Hours in Asheville, N.C.: Things to Do and See The New York Times https://www.nytimes.com › 2023/05/04 › travel › thing..." [ref=e197] [cursor=pointer]':
+                - /url: https://www.nytimes.com/interactive/2023/05/04/travel/things-to-do-asheville.html
+                - 'heading "36 Hours in Asheville, N.C.: Things to Do and See" [level=3] [ref=e198]'
+                - generic [ref=e203]:
+                  - generic [ref=e205]: The New York Times
+                  - generic [ref=e207]: https://www.nytimes.com › 2023/05/04 › travel › thing...
+              - button "About this result" [ref=e208] [cursor=pointer]:
+                - img [ref=e211]
+            - generic [ref=e214]:
+              - generic [ref=e215]: May 4, 2023 —
+              - generic [ref=e216]:
+                - emphasis [ref=e217]: 36 Hours in Asheville
+                - text: ", N.C. ... Asheville, N.C. ... Shayla Martin, a former North Carolina resident, visits Asheville frequently. Once a wellness ..."
+              - link "Read more" [ref=e218] [cursor=pointer]:
+                - /url: https://www.nytimes.com/interactive/2023/05/04/travel/things-to-do-asheville.html#:~:text=36%20Hours&text=Asheville%2C%20N.C.&text=Shayla%20Martin%2C%20a%20former%20North,times%20over%20the%20last%20century.
+          - generic [ref=e222]:
+            - generic [ref=e225]:
+              - link "How To Spend 3 Days in Asheville, North Carolina ... Lost with Lydia https://www.lostwithlydia.com › destinations › usa › 3-..." [ref=e227] [cursor=pointer]:
+                - /url: https://www.lostwithlydia.com/destinations/usa/nc/3-Days-in-Asheville/
+                - heading "How To Spend 3 Days in Asheville, North Carolina ..." [level=3] [ref=e228]
+                - generic [ref=e233]:
+                  - generic [ref=e235]: Lost with Lydia
+                  - generic [ref=e237]: https://www.lostwithlydia.com › destinations › usa › 3-...
+              - button "About this result" [ref=e238] [cursor=pointer]:
+                - img [ref=e241]
+            - generic [ref=e244]:
+              - generic [ref=e245]: Oct 9, 2025 —
+              - generic [ref=e246]:
+                - text: How To Spend
+                - emphasis [ref=e247]: 3 Days in Asheville
+                - text: ", North Carolina in the Summer ... I hope this guide helps you plan your perfect"
+                - emphasis [ref=e248]: weekend in Asheville
+                - text: "!"
+              - link "Read more" [ref=e249] [cursor=pointer]:
+                - /url: https://www.lostwithlydia.com/destinations/usa/nc/3-Days-in-Asheville/#:~:text=How%20To%20Spend%203%20Days,(Enjoy%20Hiking%20and%20Craft%20Beer!)&text=I%20hope%20this%20guide%20helps,your%20perfect%20weekend%20in%20Asheville!
+          - generic [ref=e253]:
+            - generic [ref=e256]:
+              - link "The Perfect 3 Day Weekend in Asheville Itinerary Explore Now or Never https://explorenowornever.com › USA" [ref=e258] [cursor=pointer]:
+                - /url: https://explorenowornever.com/weekend-in-asheville/
+                - heading "The Perfect 3 Day Weekend in Asheville Itinerary" [level=3] [ref=e259]
+                - generic [ref=e264]:
+                  - generic [ref=e266]: Explore Now or Never
+                  - generic [ref=e268]: https://explorenowornever.com › USA
+              - button "About this result" [ref=e269] [cursor=pointer]:
+                - img [ref=e272]
+            - generic [ref=e275]:
+              - generic [ref=e276]: Dec 15, 2025 —
+              - generic [ref=e277]:
+                - text: The PERFECT itinerary for a two or three day
+                - emphasis [ref=e278]: weekend in Asheville
+                - text: "? Start with an e-bike tour, see The Biltmore, and then chase waterfalls."
+            - list [ref=e280]:
+              - listitem [ref=e281]:
+                - link "Weekend in Asheville" [ref=e282] [cursor=pointer]:
+                  - /url: https://explorenowornever.com/weekend-in-asheville/#Weekend_in_Asheville
+                  - generic [ref=e285]: Weekend in Asheville
+              - listitem [ref=e286]:
+                - 'link "Day 1: Take an E-bike Tour +..." [ref=e287] [cursor=pointer]':
+                  - /url: https://explorenowornever.com/weekend-in-asheville/#Day_1_Take_an_E-bike_Tour_Eating_Adventures
+                  - generic [ref=e290]: "Day 1: Take an E-bike Tour +..."
+              - listitem [ref=e291]:
+                - 'link "Day 2: Get Out in Nature" [ref=e292] [cursor=pointer]':
+                  - /url: https://explorenowornever.com/weekend-in-asheville/#Day_2_Get_Out_in_Nature
+                  - generic [ref=e295]: "Day 2: Get Out in Nature"
+          - generic [ref=e300]:
+            - heading "Discussions and forums" [level=2] [ref=e302]
+            - generic [ref=e303]:
+              - generic [ref=e306]:
+                - generic [ref=e308] [cursor=pointer]:
+                  - generic [ref=e311]:
+                    - link "36 Hours in Asheville, N.C. - New York Times Reddit · r/asheville · 40+ comments · 2 years ago" [ref=e312]:
+                      - /url: https://www.reddit.com/r/asheville/comments/137i455/36_hours_in_asheville_nc_new_york_times/
+                      - generic [ref=e313]:
+                        - heading "36 Hours in Asheville, N.C. - New York Times" [level=3] [ref=e314]:
+                          - link "36 Hours in Asheville, N.C. - New York Times" [ref=e315]
+                        - generic [ref=e322]:
+                          - generic [ref=e323]: Reddit ·
+                          - generic [ref=e325]:
+                            - generic [ref=e326]:
+                              - generic [ref=e327]: r/asheville
+                              - generic [ref=e328]:
+                                - generic [ref=e329]: ·
+                                - generic [ref=e330]: 40+ comments
+                            - generic [ref=e331]:
+                              - generic [ref=e332]: ·
+                              - generic [ref=e333]: 2 years ago
+                    - generic [ref=e339]:
+                      - generic [ref=e343]: ·
+                      - button "About this result" [ref=e348]:
+                        - img [ref=e351]
+                  - button "36 Hours in Asheville, N.C. - New York Times Reddit · r/asheville · 40+ comments · 2 years ago" [expanded] [ref=e353]:
+                    - img [ref=e356]
+                - list [ref=e365]:
+                  - listitem [ref=e366]:
+                    - generic [ref=e370]:
+                      - 'link "36 Hours in Asheville, N.C. - New York Times. News · r/asheville - 36 ... NY Times: 36 Hours in Asheville, N.C. · r/NorthCarolina - NY Times&n... More discussions on 36 Hours in Asheville, N.C. - New York Times"':
+                        - /url: https://www.reddit.com/r/asheville/comments/137i455/36_hours_in_asheville_nc_new_york_times/
+                      - generic [ref=e372]:
+                        - text: "36 Hours in Asheville, N.C. - New York Times. News · r/asheville - 36 ... NY Times: 36 Hours in Asheville, N.C. · r/NorthCarolina - NY Times&n..."
+                        - link [ref=e373] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/asheville/comments/137i455/36_hours_in_asheville_nc_new_york_times/
+                          - generic [ref=e374]: More
+                          - img [ref=e376]
+              - generic [ref=e382] [cursor=pointer]:
+                - generic [ref=e385]:
+                  - link "gifted NYTimes article - 36 hours in Asheville Reddit · r/NorthCarolina · 5 comments · 2 years ago" [ref=e386]:
+                    - /url: https://www.reddit.com/r/NorthCarolina/comments/137j3xj/gifted_nytimes_article_36_hours_in_asheville/
+                    - generic [ref=e387]:
+                      - heading "gifted NYTimes article - 36 hours in Asheville" [level=3] [ref=e388]:
+                        - link "gifted NYTimes article - 36 hours in Asheville" [ref=e389]
+                      - generic [ref=e396]:
+                        - generic [ref=e397]: Reddit ·
+                        - generic [ref=e399]:
+                          - generic [ref=e400]:
+                            - generic [ref=e401]: r/NorthCarolina
+                            - generic [ref=e402]:
+                              - generic [ref=e403]: ·
+                              - generic [ref=e404]: 5 comments
+                          - generic [ref=e405]:
+                            - generic [ref=e406]: ·
+                            - generic [ref=e407]: 2 years ago
+                  - generic [ref=e413]:
+                    - generic [ref=e417]: ·
+                    - button "About this result" [ref=e422]:
+                      - img [ref=e425]
+                - button "gifted NYTimes article - 36 hours in Asheville Reddit · r/NorthCarolina · 5 comments · 2 years ago" [ref=e427]:
+                  - img [ref=e430]
+              - generic [ref=e436] [cursor=pointer]:
+                - generic [ref=e439]:
+                  - link "3 days in Asheville - Asheville Forum Tripadvisor · 3 years ago" [ref=e440]:
+                    - /url: https://www.tripadvisor.ie/ShowTopic-g60742-i251-k14301283-3_days_in_Asheville-Asheville_North_Carolina.html
+                    - generic [ref=e441]:
+                      - heading "3 days in Asheville - Asheville Forum" [level=3] [ref=e442]:
+                        - link "3 days in Asheville - Asheville Forum" [ref=e443]
+                      - generic [ref=e450]:
+                        - generic [ref=e451]: Tripadvisor ·
+                        - generic [ref=e455]: 3 years ago
+                  - generic [ref=e461]:
+                    - generic [ref=e465]: ·
+                    - button "About this result" [ref=e470]:
+                      - img [ref=e473]
+                - button "3 days in Asheville - Asheville Forum Tripadvisor · 3 years ago" [ref=e475]:
+                  - img [ref=e478]
+              - link "See more discussions" [ref=e481] [cursor=pointer]:
+                - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&udm=18&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8poLegQIQRAE
+                - separator [ref=e482]
+                - generic [ref=e483]:
+                  - generic [ref=e484]: See more
+                  - img [ref=e486]
+          - generic [ref=e490]:
+            - heading "Web results" [level=2] [ref=e491]
+            - generic [ref=e492]:
+              - generic [ref=e495]:
+                - link "36 Hours In Asheville NC - Live A Wilder Life - Travel Blog Live A Wilder Life https://www.liveawilderlife.com › Blog" [ref=e497] [cursor=pointer]:
+                  - /url: https://www.liveawilderlife.com/36-hours-in-asheville-nc/
+                  - heading "36 Hours In Asheville NC - Live A Wilder Life - Travel Blog" [level=3] [ref=e498]
+                  - generic [ref=e503]:
+                    - generic [ref=e505]: Live A Wilder Life
+                    - generic [ref=e507]: https://www.liveawilderlife.com › Blog
+                - button "About this result" [ref=e508] [cursor=pointer]:
+                  - img [ref=e511]
+              - generic [ref=e514]:
+                - generic [ref=e515]:
+                  - text: What should I do if I have
+                  - emphasis [ref=e516]: 3 days in Asheville
+                  - text: "? If you're planning a long"
+                  - emphasis [ref=e517]: weekend in Asheville
+                  - text: and looking for more fun activities, you could add on a day trip ...
+                - link "Read more" [ref=e518] [cursor=pointer]:
+                  - /url: https://www.liveawilderlife.com/36-hours-in-asheville-nc/#:~:text=What%20should%20I%20do%20if,trip%20outside%20of%20the%20city.
+              - link "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.liveawilderlife.com" [ref=e521] [cursor=pointer]:
+                - /url: https://www.liveawilderlife.com/36-hours-in-asheville-nc/
+                - img "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.liveawilderlife.com" [ref=e523]
+          - generic [ref=e527]:
+            - generic [ref=e530]:
+              - 'link "T&C Travel Guide: 3 Days in Asheville Town & Country Magazine https://www.townandcountrymag.com › Leisure › Travel" [ref=e532] [cursor=pointer]':
+                - /url: https://www.townandcountrymag.com/leisure/travel-guide/a46772119/t-and-c-travel-guide-3-days-in-asheville/
+                - 'heading "T&C Travel Guide: 3 Days in Asheville" [level=3] [ref=e533]'
+                - generic [ref=e538]:
+                  - generic [ref=e540]: Town & Country Magazine
+                  - generic [ref=e542]: https://www.townandcountrymag.com › Leisure › Travel
+              - button "About this result" [ref=e543] [cursor=pointer]:
+                - img [ref=e546]
+            - generic [ref=e549]:
+              - generic [ref=e550]: Feb 28, 2024 —
+              - generic [ref=e551]:
+                - text: Host an Idyllic Wedding
+                - emphasis [ref=e552]: Weekend in Asheville
+                - text: "· Appalachian Surprise ... T&C Travel Guide:"
+                - emphasis [ref=e553]: 3 Days in Asheville
+                - text: . Plus an idea for a fourth ...
+              - link "Read more" [ref=e554] [cursor=pointer]:
+                - /url: https://www.townandcountrymag.com/leisure/travel-guide/a46772119/t-and-c-travel-guide-3-days-in-asheville/#:~:text=Host%20an%20Idyllic%20Wedding%20Weekend,Appalachian%20Surprise&text=T%26C%20Travel%20Guide%3A%203%20Days,you%20won't%20want%20to%20leave.
+            - link "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.townandcountrymag.com" [ref=e557] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/leisure/travel-guide/a46772119/t-and-c-travel-guide-3-days-in-asheville/
+              - img "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.townandcountrymag.com" [ref=e559]
+          - generic [ref=e563]:
+            - heading "People also ask" [level=2] [ref=e565]
+            - generic [ref=e566]:
+              - button "What to do in Asheville for 3 days?" [ref=e572] [cursor=pointer]:
+                - generic [ref=e574]: What to do in Asheville for 3 days?
+                - img [ref=e577]
+              - button "What are some hidden gem restaurants in Asheville?" [ref=e586] [cursor=pointer]:
+                - generic [ref=e588]: What are some hidden gem restaurants in Asheville?
+                - img [ref=e591]
+              - button "How many days do you need to visit Asheville?" [ref=e600] [cursor=pointer]:
+                - generic [ref=e602]: How many days do you need to visit Asheville?
+                - img [ref=e605]
+              - button "What is the best part of Asheville to stay in?" [ref=e614] [cursor=pointer]:
+                - generic [ref=e616]: What is the best part of Asheville to stay in?
+                - img [ref=e619]
+          - generic [ref=e624]:
+            - heading "Web results" [level=2] [ref=e625]
+            - generic [ref=e626]:
+              - generic [ref=e629]:
+                - link "36 Hours in Asheville - Eat It & Like It - eatitandlikeit.com eatitandlikeit.com https://eatitandlikeit.com › Blog" [ref=e631] [cursor=pointer]:
+                  - /url: https://eatitandlikeit.com/36-hours-in-asheville/
+                  - heading "36 Hours in Asheville - Eat It & Like It - eatitandlikeit.com" [level=3] [ref=e632]
+                  - generic [ref=e637]:
+                    - generic [ref=e639]: eatitandlikeit.com
+                    - generic [ref=e641]: https://eatitandlikeit.com › Blog
+                - button "About this result" [ref=e642] [cursor=pointer]:
+                  - img [ref=e645]
+              - generic [ref=e648]:
+                - generic [ref=e649]: Oct 27, 2022 —
+                - generic [ref=e650]:
+                  - emphasis [ref=e651]: 36 Hours in Asheville
+                  - text: . Sometimes it is better to be lucky than good. I was invited to a wedding in Asheville recently and decided to use the ...
+                - link "Read more" [ref=e652] [cursor=pointer]:
+                  - /url: https://eatitandlikeit.com/36-hours-in-asheville/#:~:text=36%20Hours%20in%20Asheville,area%20during%20the%202020%20shutdown.
+              - link "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from eatitandlikeit.com" [ref=e655] [cursor=pointer]:
+                - /url: https://eatitandlikeit.com/36-hours-in-asheville/
+                - img "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from eatitandlikeit.com" [ref=e657]
+          - generic [ref=e661]:
+            - generic [ref=e664]:
+              - 'link "Weekend In Asheville: An Epic 3 Day Itinerary Follow Me Away https://www.followmeaway.com › 3-day-weekend-in-ash..." [ref=e666] [cursor=pointer]':
+                - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/
+                - 'heading "Weekend In Asheville: An Epic 3 Day Itinerary" [level=3] [ref=e667]'
+                - generic [ref=e672]:
+                  - generic [ref=e674]: Follow Me Away
+                  - generic [ref=e676]: https://www.followmeaway.com › 3-day-weekend-in-ash...
+              - button "About this result" [ref=e677] [cursor=pointer]:
+                - img [ref=e680]
+            - generic [ref=e683]:
+              - generic [ref=e684]: Sep 17, 2023 —
+              - generic [ref=e685]:
+                - text: If you are spending
+                - emphasis [ref=e686]: 3 days in Asheville
+                - text: ", a great start to day 1 of your"
+                - emphasis [ref=e687]: weekend in Asheville
+                - text: is at the beautiful North Carolina Arboretum.
+              - link "Read more" [ref=e688] [cursor=pointer]:
+                - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/#:~:text=If%20you%20are%20spending%203,the%20beautiful%20North%20Carolina%20Arboretum.
+            - link "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.followmeaway.com" [ref=e691] [cursor=pointer]:
+              - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/
+              - img "\"36 hours in asheville\" OR \"3 days in asheville\" OR \"weekend in asheville\" from www.followmeaway.com" [ref=e693]
+            - list [ref=e695]:
+              - listitem [ref=e696]:
+                - 'link "Stop 2: Biltmore Estate" [ref=e697] [cursor=pointer]':
+                  - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/#:~:text=Stop%202%3A%20Biltmore%20Estate
+                  - generic [ref=e700]: "Stop 2: Biltmore Estate"
+              - listitem [ref=e701]:
+                - 'link "Day 2: Blue Ridge Parkway" [ref=e702] [cursor=pointer]':
+                  - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/#:~:text=Day%202%3A%20Blue%20Ridge%20Parkway
+                  - generic [ref=e705]: "Day 2: Blue Ridge Parkway"
+              - listitem [ref=e706]:
+                - 'link "Stop 6: Linville Falls" [ref=e707] [cursor=pointer]':
+                  - /url: https://www.followmeaway.com/3-day-weekend-in-asheville-itinerary/#:~:text=Stop%206%3A%20Linville%20Falls
+                  - generic [ref=e710]: "Stop 6: Linville Falls"
+          - generic [ref=e714]:
+            - generic [ref=e717]:
+              - link "How to Spend a Long Weekend in Asheville, North Carolina Leisurely Linds https://leisurelylinds.com › weekend-in-asheville-north-..." [ref=e719] [cursor=pointer]:
+                - /url: https://leisurelylinds.com/weekend-in-asheville-north-carolina/
+                - heading "How to Spend a Long Weekend in Asheville, North Carolina" [level=3] [ref=e720]
+                - generic [ref=e725]:
+                  - generic [ref=e727]: Leisurely Linds
+                  - generic [ref=e729]: https://leisurelylinds.com › weekend-in-asheville-north-...
+              - button "About this result" [ref=e730] [cursor=pointer]:
+                - img [ref=e733]
+            - generic [ref=e736]:
+              - generic [ref=e737]: Jul 7, 2025 —
+              - generic [ref=e738]:
+                - text: How to Spend a Long
+                - emphasis [ref=e739]: Weekend in Asheville
+                - text: ", North Carolina: The Perfect"
+                - emphasis [ref=e740]: 3 Days in Asheville
+                - text: Itinerary. Sourwood Inn Asheville Bed and Breakfast.
+              - link "Read more" [ref=e741] [cursor=pointer]:
+                - /url: https://leisurelylinds.com/weekend-in-asheville-north-carolina/#:~:text=How%20to%20Spend%20a%20Long,3%20Days%20in%20Asheville%20Itinerary
+        - generic [ref=e743]:
+          - generic [ref=e748]:
+            - heading "People also search for" [level=2] [ref=e750]
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - link "3 days in Asheville itinerary" [ref=e757] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=3+days+in+Asheville+itinerary&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgjEAE
+                  - generic [ref=e758]:
+                    - generic [ref=e763]: 3 days in Asheville itinerary
+                    - img [ref=e767]
+                - link "Asheville itinerary 2 days" [ref=e772] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=Asheville+itinerary+2+days&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgvEAE
+                  - generic [ref=e773]:
+                    - generic [ref=e778]: Asheville itinerary 2 days
+                    - img [ref=e782]
+                - link "36 hours in asheville 3 days in asheville weekend in asheville free" [ref=e787] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=36+hours+in+asheville+3+days+in+asheville+weekend+in+asheville+free&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAguEAE
+                  - generic [ref=e788]:
+                    - generic [ref=e793]: 36 hours in asheville 3 days in asheville weekend in asheville free
+                    - img [ref=e797]
+                - link "4 day Asheville itinerary" [ref=e802] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=4+day+Asheville+itinerary&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgrEAE
+                  - generic [ref=e803]:
+                    - generic [ref=e808]: 4 day Asheville itinerary
+                    - img [ref=e812]
+              - generic [ref=e814]:
+                - link "72 hours in Asheville" [ref=e818] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=72+hours+in+Asheville&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgpEAE
+                  - generic [ref=e819]:
+                    - generic [ref=e824]: 72 hours in Asheville
+                    - img [ref=e828]
+                - link "Biltmore Estate" [ref=e833] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=Biltmore+Estate&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgnEAE
+                  - generic [ref=e834]:
+                    - generic [ref=e839]: Biltmore Estate
+                    - img [ref=e843]
+                - link "The Block Asheville" [ref=e848] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=The+Block+Asheville&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAglEAE
+                  - generic [ref=e849]:
+                    - generic [ref=e854]: The Block Asheville
+                    - img [ref=e858]
+                - link "Weekend in Asheville, NC" [ref=e863] [cursor=pointer]:
+                  - /url: /search?sca_esv=76d22973dcec555c&q=Weekend+in+Asheville,+NC&sa=X&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ1QJ6BAgkEAE
+                  - generic [ref=e864]:
+                    - generic [ref=e869]: Weekend in Asheville, NC
+                    - img [ref=e873]
+          - navigation [ref=e875]:
+            - heading "Page Navigation" [level=1] [ref=e876]
+            - text: "1"
+            - link "Page 2" [ref=e879] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=10&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAE
+              - text: "2"
+            - link "Page 3" [ref=e881] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=20&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAG
+              - text: "3"
+            - link "Page 4" [ref=e883] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=30&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAI
+              - text: "4"
+            - link "Page 5" [ref=e885] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=40&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAK
+              - text: "5"
+            - link "Page 6" [ref=e887] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=50&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAM
+              - text: "6"
+            - link "Page 7" [ref=e889] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=60&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAO
+              - text: "7"
+            - link "Page 8" [ref=e891] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=70&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAQ
+              - text: "8"
+            - link "Page 9" [ref=e893] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=80&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAS
+              - text: "9"
+            - link "Page 10" [ref=e895] [cursor=pointer]:
+              - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=90&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8tMDegQIQBAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e897]:
+              - link "Next" [ref=e898] [cursor=pointer]:
+                - /url: /search?q=%2236+hours+in+asheville%22+OR+%223+days+in+asheville%22+OR+%22weekend+in+asheville%22&sca_esv=76d22973dcec555c&ei=SkPeae2IOcikiLMPzu2sIQ&start=10&sa=N&sstk=Af77f_dQNc0Ul2amQGeIE-EnYOD-beH3T9X_oBNzQUeO5DQKBqsw5dP1NWSQbKBdm_oc6hsX54ptk1k2wu-zykDgBAFYlaMgUEXYxA&ved=2ahUKEwjt1biyu-2TAxVIEmIAHc42KwQQ8NMDegQIQBAW
+                - generic [ref=e900]: Next
+        - navigation
+    - contentinfo [ref=e901]:
+      - heading "Footer Links" [level=1] [ref=e902]
+      - generic [ref=e906]:
+        - generic [ref=e910]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e912] [cursor=pointer]:
+            - generic [ref=e913]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e915]:
+              - text: "-"
+              - generic [ref=e916]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e918] [cursor=pointer]: Update location
+        - generic [ref=e921]:
+          - link "Help" [ref=e922] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e923] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e924] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e925] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

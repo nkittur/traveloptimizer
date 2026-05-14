@@ -1,0 +1,323 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/asheville "things to do" OR "must do" OR "hidden gems" OR "bucket list" site:reddit.com/r/asheville "things to do" OR "must do" OR "hidden gems" OR "bucket list"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Fasheville%2B%2522things%2Bto%2Bdo%2522%2BOR%2B%2522must%2Bdo%2522%2BOR%2B%2522hidden%2Bgems%2522%2BOR%2B%2522bucket%2Blist%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&aep=1&ntc=1&sa=X&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ2J8OegQIDBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sa=X&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQtKgLegQIERAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Short videos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sa=X&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQs6gLegQIEhAB
+              - generic [ref=e93]: Short videos
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sa=X&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQtKgLegQIFBAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Maps" [ref=e99] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e101]: Maps
+          - listitem [ref=e102]:
+            - link "News" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclT7yepi18TOPQWiDsO2BOxoEZzjCMth8ZZSuhRWYLgoDdA6gMKmumaomyp2h0zc9EYJUwLzv7AJdAvSB7J4nufLeSX69Gye7eZpbtla5wMkaZBuF4sL53CkyQKI2bHsXEg56ppVPxVSJuw2zWNr1FKfvbLCgw&sa=X&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ0pQJegQIEBAB
+              - generic [ref=e105]: News
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Unique places/cities near Asheville (1.5 hours away tops ) ... Reddit · r/asheville 60+ comments · 10 months ago" [ref=e142] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/asheville/comments/1kr4z2r/unique_placescities_near_asheville_15_hours_away/
+                - heading "Unique places/cities near Asheville (1.5 hours away tops ) ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Reddit · r/asheville
+                  - generic [ref=e152]: 60+ comments · 10 months ago
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - text: There's a lot of good music and fun
+                - emphasis [ref=e161]: things to do
+                - text: ", but it doesn't feel like a tourist playground ... New to the IE—Looking for Scenic Drives & ..."
+              - link "Read more" [ref=e162] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/asheville/comments/1kr4z2r/unique_placescities_near_asheville_15_hours_away/#:~:text=There's%20a%20lot%20of%20good,feel%20like%20a%20tourist%20playground&text=New%20to%20the%20IE%E2%80%94Looking%20for,Scenic%20Drives%20%26%20Hidden%20Gems
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - 'link "Moving away bucketlist! : r/asheville Reddit · r/asheville 70+ comments · 2 years ago" [ref=e171] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/
+              - 'heading "Moving away bucketlist! : r/asheville" [level=3] [ref=e172]'
+              - generic [ref=e177]:
+                - generic [ref=e179]: Reddit · r/asheville
+                - generic [ref=e181]: 70+ comments · 2 years ago
+            - button "About this result" [ref=e182] [cursor=pointer]:
+              - img [ref=e185]
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - emphasis [ref=e190]: Hidden gems
+              - text: to explore in Asheville. Best local restaurants for ...
+              - emphasis [ref=e191]: Things To Do
+              - text: for Kids (Macon County). 6. 6. Just looking for people to ...
+            - link "Read more" [ref=e192] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1ad7gl5/moving_away_bucketlist/#:~:text=Open%20App&text=Things%20To%20Do%20for%20Kids,6
+        - generic [ref=e196]:
+          - generic [ref=e199]:
+            - link "Looking for hidden gems as a newby to Asheville Reddit · r/asheville 50+ comments · 1 year ago" [ref=e201] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/
+              - heading "Looking for hidden gems as a newby to Asheville" [level=3] [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]: Reddit · r/asheville
+                - generic [ref=e211]: 50+ comments · 1 year ago
+            - button "About this result" [ref=e212] [cursor=pointer]:
+              - img [ref=e215]
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - text: Ok but first you have to tell me where to get the best key lime pie in Florida.
+              - emphasis [ref=e220]: Hidden gems
+              - text: aren't given away for free.
+            - link "Read more" [ref=e221] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/#:~:text=Ok%20but%20first%20you%20have,aren't%20given%20away%20for%20free.
+        - generic [ref=e225]:
+          - generic [ref=e228]:
+            - link "What's on your Fall in WNC Bucket List? - Asheville Reddit · r/asheville 40+ comments · 1 year ago" [ref=e230] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1fcroey/whats_on_your_fall_in_wnc_bucket_list/
+              - heading "What's on your Fall in WNC Bucket List? - Asheville" [level=3] [ref=e231]
+              - generic [ref=e236]:
+                - generic [ref=e238]: Reddit · r/asheville
+                - generic [ref=e240]: 40+ comments · 1 year ago
+            - button "About this result" [ref=e241] [cursor=pointer]:
+              - img [ref=e244]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - text: What's on your Fall in WNC
+              - emphasis [ref=e249]: Bucket List
+              - text: "? My schedule recently ... 50 Free & Fun"
+              - emphasis [ref=e250]: Things to do
+              - text: in Helen GA USA (a cute Bavarian-inspired ...
+            - link "Read more" [ref=e251] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1fcroey/whats_on_your_fall_in_wnc_bucket_list/#:~:text=What's%20on%20your%20Fall%20in,favorite%20season%20in%20the%20mountains.&text=50%20Free%20%26%20Fun%20Things,a%20river%20in%20the%20US)
+          - generic [ref=e256]:
+            - link "49 answers" [ref=e257] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1fcroey/whats_on_your_fall_in_wnc_bucket_list/lmae5cr/
+            - generic [ref=e258]: ·
+            - generic [ref=e259]: "Top answer:"
+            - generic [ref=e260]: We did the Fryingpan Lookout Tower hike recently and it was pretty awesome. Can only imagine ...
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - link "18 Cool, Hidden, and Unusual Things to Do in Asheville ... Reddit · r/asheville 6 comments · 4 years ago" [ref=e269] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/tpouiw/18_cool_hidden_and_unusual_things_to_do_in/
+              - heading "18 Cool, Hidden, and Unusual Things to Do in Asheville ..." [level=3] [ref=e270]
+              - generic [ref=e275]:
+                - generic [ref=e277]: Reddit · r/asheville
+                - generic [ref=e279]: 6 comments · 4 years ago
+            - button "About this result" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - text: Free/Cheap
+              - emphasis [ref=e288]: things to do
+              - text: near ... Best
+              - emphasis [ref=e289]: hidden gems
+              - text: in Liberty? 4. 29.
+              - emphasis [ref=e290]: Must do's
+              - text: "& recommendations · r/Miami. • 2y ago."
+              - emphasis [ref=e291]: Must do's
+              - text: "& recommendations."
+            - link "Read more" [ref=e292] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/tpouiw/18_cool_hidden_and_unusual_things_to_do_in/#:~:text=Free%2FCheap%20things%20to%20do%20near,Fullerton&text=Best%20hidden%20gems%20in%20Liberty%3F,Must%20do's%20%26%20recommendations
+        - generic [ref=e296]:
+          - generic [ref=e299]:
+            - 'link "Leaving AVL :( looking for bucket list insight : r/asheville Reddit · r/asheville 10+ comments · 8 months ago" [ref=e301] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/asheville/comments/1mgj8wt/leaving_avl_looking_for_bucket_list_insight/
+              - 'heading "Leaving AVL :( looking for bucket list insight : r/asheville" [level=3] [ref=e302]'
+              - generic [ref=e307]:
+                - generic [ref=e309]: Reddit · r/asheville
+                - generic [ref=e311]: 10+ comments · 8 months ago
+            - button "About this result" [ref=e312] [cursor=pointer]:
+              - img [ref=e315]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - text: Skip to main content Leaving AVL :( looking for
+              - emphasis [ref=e320]: bucket list
+              - text: "insight : r/asheville. Close search. Clear search. Ask."
+              - emphasis [ref=e321]: Hidden gems
+              - text: to explore in ...
+            - link "Read more" [ref=e322] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1mgj8wt/leaving_avl_looking_for_bucket_list_insight/#:~:text=Ask
+        - generic [ref=e326]:
+          - generic [ref=e329]:
+            - link "Asheville Hidden Gems Reddit · r/asheville 10+ comments · 3 years ago" [ref=e331] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/z0mwex/asheville_hidden_gems/
+              - heading "Asheville Hidden Gems" [level=3] [ref=e332]
+              - generic [ref=e337]:
+                - generic [ref=e339]: Reddit · r/asheville
+                - generic [ref=e341]: 10+ comments · 3 years ago
+            - button "About this result" [ref=e342] [cursor=pointer]:
+              - img [ref=e345]
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - text: ...
+              - emphasis [ref=e350]: hidden gems
+              - text: in the area ... 18 Cool, Hidden, and Unusual
+              - emphasis [ref=e351]: Things to Do
+              - text: in Asheville, North Carolina.
+            - link "Read more" [ref=e352] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/z0mwex/asheville_hidden_gems/#:~:text=18%20Cool%2C%20Hidden%2C%20and%20Unusual,Do%20in%20Asheville%2C%20North%20Carolina
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "Things to do in AVL while spending the holidays alone Reddit · r/asheville 30+ comments · 1 year ago" [ref=e361] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1hjos7k/things_to_do_in_avl_while_spending_the_holidays/
+              - heading "Things to do in AVL while spending the holidays alone" [level=3] [ref=e362]
+              - generic [ref=e367]:
+                - generic [ref=e369]: Reddit · r/asheville
+                - generic [ref=e371]: 30+ comments · 1 year ago
+            - button "About this result" [ref=e372] [cursor=pointer]:
+              - img [ref=e375]
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - emphasis [ref=e380]: Things to do
+              - text: in AVL while spending the holidays alone. recently had ...
+              - emphasis [ref=e381]: Things to do
+              - text: in toronto for a weekend besides eating · r/askTO.
+            - link "Read more" [ref=e382] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1hjos7k/things_to_do_in_avl_while_spending_the_holidays/#:~:text=Things%20to%20do%20in%20AVL,be%20with%20their%20own%20families.&text=Things%20to%20do%20in%20toronto,r%2FaskTO
+        - generic [ref=e386]:
+          - generic [ref=e389]:
+            - link "Things to do for my birthday? im a local who hasnt gotten ... Reddit · r/asheville 20+ comments · 11 months ago" [ref=e391] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1ko5q46/things_to_do_for_my_birthday_im_a_local_who_hasnt/
+              - heading "Things to do for my birthday? im a local who hasnt gotten ..." [level=3] [ref=e392]
+              - generic [ref=e397]:
+                - generic [ref=e399]: Reddit · r/asheville
+                - generic [ref=e401]: 20+ comments · 11 months ago
+            - button "About this result" [ref=e402] [cursor=pointer]:
+              - img [ref=e405]
+          - generic [ref=e408]:
+            - generic [ref=e409]:
+              - emphasis [ref=e410]: Hidden gems
+              - text: to explore in Asheville. Best local restaurants for ...
+              - emphasis [ref=e411]: Things to do
+              - text: for my birthday? im a local who hasnt gotten out much ...
+            - link "Read more" [ref=e412] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1ko5q46/things_to_do_for_my_birthday_im_a_local_who_hasnt/#:~:text=Open%20App&text=Things%20to%20do%20for%20my,hasnt%20gotten%20out%20much%20lately
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - link "What are the hidden gems of asheville? Reddit · r/asheville 30+ comments · 9 years ago" [ref=e421] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/55igfb/what_are_the_hidden_gems_of_asheville/
+              - heading "What are the hidden gems of asheville?" [level=3] [ref=e422]
+              - generic [ref=e427]:
+                - generic [ref=e429]: Reddit · r/asheville
+                - generic [ref=e431]: 30+ comments · 9 years ago
+            - button "About this result" [ref=e432] [cursor=pointer]:
+              - img [ref=e435]
+          - generic [ref=e439]:
+            - text: What are the cool places that might not be super popular? Uniqueness is encouraged. As far as
+            - emphasis [ref=e440]: things to do
+            - text: ", bars, weird places that are ..."
+      - navigation [ref=e443]:
+        - heading "Page Navigation" [level=1] [ref=e444]
+        - text: "1"
+        - link "Page 2" [ref=e447] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=10&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAE
+          - text: "2"
+        - link "Page 3" [ref=e449] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=20&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAG
+          - text: "3"
+        - link "Page 4" [ref=e451] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=30&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAI
+          - text: "4"
+        - link "Page 5" [ref=e453] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=40&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAK
+          - text: "5"
+        - link "Page 6" [ref=e455] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=50&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAM
+          - text: "6"
+        - link "Page 7" [ref=e457] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=60&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAO
+          - text: "7"
+        - link "Page 8" [ref=e459] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=70&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAQ
+          - text: "8"
+        - link "Page 9" [ref=e461] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=80&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAS
+          - text: "9"
+        - link "Page 10" [ref=e463] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=90&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8tMDegQILBAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e465]:
+          - link "Next" [ref=e466] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/asheville+%22things+to+do%22+OR+%22must+do%22+OR+%22hidden+gems%22+OR+%22bucket+list%22&sca_esv=9fb2dbe6099668d1&ei=2rzdadf_J5zQ5NoPkrjB2QE&start=10&sa=N&sstk=Af77f_d6qtmw26ynLpja12AXJpAtH53hFxOECjldKDPiXCawctx5EEpGEv2FbCG5O0cZ-u9tfbHKrEn_FRAMKDkqfGIHUzuuIz25wQ&ved=2ahUKEwjX1L2Xu-yTAxUcKFkFHRJcMBsQ8NMDegQILBAW
+            - generic [ref=e468]: Next
+      - navigation
+    - contentinfo [ref=e469]:
+      - heading "Footer Links" [level=1] [ref=e470]
+      - generic [ref=e474]:
+        - generic [ref=e478]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e480] [cursor=pointer]:
+            - generic [ref=e481]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e483]:
+              - text: "-"
+              - generic [ref=e484]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e486] [cursor=pointer]: Update location
+        - generic [ref=e489]:
+          - link "Help" [ref=e490] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e491] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e492] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e493] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,1531 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e8]:
+          - link "Infatuation homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+            - img [ref=e13]
+          - 'button "Search: Santa Monica" [ref=e26] [cursor=pointer]':
+            - generic [ref=e27]:
+              - paragraph [ref=e28]: "Search:"
+              - paragraph [ref=e29]: Santa Monica
+            - img [ref=e31]
+          - generic [ref=e33]:
+            - button "Sign Up" [ref=e34] [cursor=pointer]
+            - button "hamburger-menu" [ref=e35] [cursor=pointer]:
+              - img "Hamburger Menu" [ref=e38]
+        - generic [ref=e43]:
+          - link "Los Angeles" [ref=e46] [cursor=pointer]:
+            - /url: /los-angeles
+            - heading "Los Angeles" [level=2] [ref=e47]
+          - generic [ref=e48]:
+            - button "Neighborhoods" [ref=e50] [cursor=pointer]
+            - button "Perfect For" [ref=e52] [cursor=pointer]
+            - button "Cuisines" [ref=e54] [cursor=pointer]
+            - link "Guides" [ref=e56] [cursor=pointer]:
+              - /url: /los-angeles/guides
+            - link "Reviews" [ref=e58] [cursor=pointer]:
+              - /url: /los-angeles/reviews
+            - button "Choose city" [ref=e62] [cursor=pointer]:
+              - text: Change City
+              - img [ref=e64]
+    - main [ref=e66]:
+      - generic [ref=e69]:
+        - navigation "breadcrumb" [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Los Angeles" [ref=e73] [cursor=pointer]:
+                - /url: /los-angeles
+                - generic [ref=e74]: Los Angeles
+              - text: /
+            - listitem [ref=e75]:
+              - link "guides" [ref=e76] [cursor=pointer]:
+                - /url: /los-angeles/guides
+                - generic [ref=e77]: guides
+              - text: /
+            - listitem [ref=e78]:
+              - generic [ref=e79]: "The Westside Hit List: Best New Restaurants On The Westside"
+        - generic [ref=e81]:
+          - button "Filter" [ref=e82] [cursor=pointer]:
+            - text: Filter
+            - img [ref=e83]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - paragraph:
+                - generic [ref=e88]:
+                  - link "LA" [ref=e89] [cursor=pointer]:
+                    - /url: /los-angeles
+                  - text: Guide
+              - 'heading "The Westside Hit List: Best New Restaurants On The Westside" [level=1] [ref=e90]'
+              - generic [ref=e91]:
+                - generic [ref=e92]: The best new spots to check out in Venice, Santa Monica, Malibu, Sawtelle, and more.
+                - button "Save to list" [ref=e93] [cursor=pointer]:
+                  - img "Save spot" [ref=e97]
+                  - generic [ref=e99]: Save
+            - button "Open in fullscreen" [ref=e101] [cursor=pointer]:
+              - img "Spread of food at The Mulberry" [ref=e104]
+            - paragraph [ref=e105]: "photo credit: Bongjwing Lee"
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - link "brant-cox" [ref=e110] [cursor=pointer]:
+                  - /url: /contributor/brant-cox
+                  - generic [ref=e112]:
+                    - img [ref=e114]
+                    - img "Brant Cox" [ref=e115]
+                - link "sylvio-martins" [ref=e116] [cursor=pointer]:
+                  - /url: /contributor/sylvio-martins
+                  - generic [ref=e118]:
+                    - img [ref=e120]
+                    - img "Sylvio Martins" [ref=e121]
+                - link "cathy-park" [ref=e122] [cursor=pointer]:
+                  - /url: /contributor/cathy-park
+                  - generic [ref=e124]:
+                    - img [ref=e126]
+                    - img "Cathy Park" [ref=e127]
+                - link "garrett-snyder" [ref=e128] [cursor=pointer]:
+                  - /url: /contributor/garrett-snyder
+                  - generic [ref=e130]:
+                    - img [ref=e132]
+                    - img "Garrett Snyder" [ref=e133]
+                - link "jess-basser-sanders" [ref=e134] [cursor=pointer]:
+                  - /url: /contributor/jess-basser-sanders
+                  - generic [ref=e136]:
+                    - img [ref=e138]
+                    - img "Jess Basser Sanders" [ref=e139]
+              - generic [ref=e140]:
+                - paragraph [ref=e141]:
+                  - link "brant-cox" [ref=e142] [cursor=pointer]:
+                    - /url: /contributor/brant-cox
+                    - text: Brant Cox
+                  - text: ","
+                  - link "sylvio-martins" [ref=e143] [cursor=pointer]:
+                    - /url: /contributor/sylvio-martins
+                    - text: Sylvio Martins
+                  - text: ","
+                  - link "cathy-park" [ref=e144] [cursor=pointer]:
+                    - /url: /contributor/cathy-park
+                    - text: Cathy Park
+                  - text: ","
+                  - link "garrett-snyder" [ref=e145] [cursor=pointer]:
+                    - /url: /contributor/garrett-snyder
+                    - text: Garrett Snyder
+                  - text: "&"
+                  - link "jess-basser-sanders" [ref=e146] [cursor=pointer]:
+                    - /url: /contributor/jess-basser-sanders
+                    - text: Jess Basser Sanders
+                - paragraph [ref=e147]:
+                  - time [ref=e148]: April 3, 2026
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - paragraph [ref=e152]:
+                  - text: Some say LA's Westside is a vapid wasteland hemmed in by freeways, some say it’s the center of the known universe. And, frankly, some people who live there haven't ventured outside its borders since 1996. But no matter what you think of the Westside—which we’re defining as everything west of Beverly Hills—there’s no denying that it’s home to some of the most exciting new restaurants. Which is why we created the Westside Hit List. Much like our
+                  - link "LA Hit List" [ref=e153] [cursor=pointer]:
+                    - /url: https://www.theinfatuation.com/los-angeles/guides/best-new-los-angeles-restaurants-hit-list
+                  - text: ", you’ll find new places that we've checked out and genuinely love."
+                - paragraph [ref=e154]: "New to the Hit List (4/3): Utamaro Sushi Izakaya"
+              - generic [ref=e155]:
+                - generic [ref=e157]:
+                  - heading "What Our Ratings Mean" [level=6] [ref=e158]
+                  - link "Learn more" [ref=e160] [cursor=pointer]:
+                    - /url: /ratings-explainer
+                    - generic [ref=e161]:
+                      - generic [ref=e162]: Learn more
+                      - img [ref=e163]
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - tab "NONE" [ref=e168]
+                    - tab "1-5" [ref=e169] [cursor=pointer]
+                    - tab "6s" [ref=e170] [cursor=pointer]
+                    - tab "7s" [ref=e171] [cursor=pointer]
+                    - tab "8s" [ref=e172] [cursor=pointer]
+                    - tab "9s" [ref=e173] [cursor=pointer]
+                  - paragraph [ref=e175]:
+                    - generic [ref=e176]: "Unrated:"
+                    - text: Restaurants we want to re-visit before assigning a rating. We only rate spots where you can eat a full meal. We won’t rate a coffee shop, bar that only serves peanuts, or dessert shop.
+            - generic [ref=e177]:
+              - heading "THE SPOTS" [level=2] [ref=e178]
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - link "Utamaro Sushi Izakaya" [ref=e184] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/utamaro-sushi-izakaya
+                      - heading "Utamaro Sushi Izakaya" [level=2] [ref=e185]
+                    - generic [ref=e186]:
+                      - button "Save to list" [ref=e187] [cursor=pointer]:
+                        - img "Save spot" [ref=e190]
+                      - button "Been Here" [ref=e192] [cursor=pointer]:
+                        - img [ref=e193]
+                      - button "menu" [ref=e196] [cursor=pointer]:
+                        - img [ref=e198]
+                  - generic [ref=e200]:
+                    - link "2535 S Barrington Ave, Los Angeles, California 90064" [ref=e201] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Utamaro%20Sushi%20Izakaya+2535 S Barrington Ave, Los Angeles, California 90064
+                      - img [ref=e202]
+                      - paragraph [ref=e204]: 2535 S Barrington Ave, Los Angeles, California 90064
+                    - generic [ref=e205]:
+                      - generic [ref=e206]:
+                        - generic [ref=e207]: $
+                        - generic [ref=e208]: $
+                        - generic [ref=e209]: $
+                        - generic [ref=e210]: $
+                      - generic [ref=e212]:
+                        - paragraph [ref=e213]:
+                          - link "Japanese" [ref=e215] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/japanese
+                        - paragraph [ref=e217]:
+                          - link "West LA" [ref=e219] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/west-la
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: "Perfect For:"
+                    - link "Casual Dinners" [ref=e224] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Date Nights" [ref=e226] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/date-night
+                    - link "First Dates" [ref=e228] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/first-dates
+                - generic [ref=e230]:
+                  - paragraph [ref=e232]:
+                    - text: With its sprawling four-page menu, Utamaro Sushi Izakaya feels like several different Japanese restaurants huddled under one roof. The good news is that all of them are pretty impressive. Dishes like delicately fried karaage and braised pork belly that’s soft enough to cut with chopsticks hover under $20 and are exactly what we want with post-work Sapporos, and daily specials like scallop tempura are fun for glamming up date night. But the best bites here are at the sushi counter, where the
+                    - link "Sushi Takeda" [ref=e233] [cursor=pointer]:
+                      - /url: https://www.theinfatuation.com/los-angeles/reviews/sushi-takeda
+                    - text: chef and his team serve seasonal barracuda nigiri and pack rolls with blue crab or negitoro. If you really want to see them flex, order the 10-piece sushi omakase priced at a very reasonable $78.
+                  - link "READ THE REVIEW" [ref=e235] [cursor=pointer]:
+                    - /url: /los-angeles/reviews/utamaro-sushi-izakaya
+                    - generic [ref=e236]:
+                      - generic [ref=e237]: READ THE REVIEW
+                      - img [ref=e238]
+                - generic [ref=e241]:
+                  - paragraph [ref=e243]: Sylvio Martins
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - button "Open in fullscreen" [ref=e250] [cursor=pointer]:
+                        - img "Utamaro Sushi Izakaya Japanese Style Braised Pork Belly" [ref=e253]
+                      - button "Open in fullscreen" [ref=e256] [cursor=pointer]:
+                        - img [ref=e259]
+                      - button "Open in fullscreen" [ref=e269] [cursor=pointer]:
+                        - img "Utamaro Sushi Izakaya room" [ref=e272]
+                      - button "Open in fullscreen" [ref=e275] [cursor=pointer]:
+                        - img "Utamaro Sushi Izakaya gizzard shad" [ref=e278]
+                      - button "Open in fullscreen" [ref=e281] [cursor=pointer]:
+                        - img "Utamaro Sushi Izakaya Karaage" [ref=e284]
+                    - generic [ref=e286]:
+                      - button "previous" [ref=e287] [cursor=pointer]:
+                        - img "Previous Icon" [ref=e288]
+                      - generic [ref=e290]:
+                        - button "Slide 1 (current slide)" [ref=e291] [cursor=pointer]
+                        - button "Slide 2" [ref=e292] [cursor=pointer]
+                        - button "Slide 3" [ref=e293] [cursor=pointer]
+                        - button "Slide 4" [ref=e294] [cursor=pointer]
+                        - button "Slide 5" [ref=e295] [cursor=pointer]
+                      - button "next" [ref=e296] [cursor=pointer]:
+                        - img "Next Icon" [ref=e297]
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - link "Kyoto Wagyu Tonkatsu Ten No Meshi" [ref=e304] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/kyoto-wagyu-tonkatsu-ten-no-meshi
+                      - heading "Kyoto Wagyu Tonkatsu Ten No Meshi" [level=2] [ref=e305]
+                    - generic [ref=e306]:
+                      - button "Save to list" [ref=e307] [cursor=pointer]:
+                        - img "Save spot" [ref=e310]
+                      - button "Been Here" [ref=e312] [cursor=pointer]:
+                        - img [ref=e313]
+                      - button "menu" [ref=e316] [cursor=pointer]:
+                        - img [ref=e318]
+                  - generic [ref=e320]:
+                    - link "2006 Sawtelle Blvd, Los Angeles, California 90025" [ref=e321] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Kyoto%20Wagyu%20Tonkatsu%20Ten%20No%20Meshi+2006 Sawtelle Blvd, Los Angeles, California 90025
+                      - img [ref=e322]
+                      - paragraph [ref=e324]: 2006 Sawtelle Blvd, Los Angeles, California 90025
+                    - generic [ref=e325]:
+                      - generic [ref=e326]:
+                        - generic [ref=e327]: $
+                        - generic [ref=e328]: $
+                        - generic [ref=e329]: $
+                        - generic [ref=e330]: $
+                      - generic [ref=e332]:
+                        - paragraph [ref=e333]:
+                          - link "Japanese" [ref=e335] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/japanese
+                        - paragraph [ref=e337]:
+                          - link "Sawtelle" [ref=e339] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/sawtelle
+                  - generic [ref=e341]:
+                    - generic [ref=e342]: "Perfect For:"
+                    - link "Casual Dinners" [ref=e344] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Dining Solo" [ref=e346] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/dining-solo
+                - generic [ref=e348]:
+                  - paragraph [ref=e350]: West LA's Sawtelle Boulevard continues to stockpile Japanese imports like a racing garage, but Kyoto transplant Ten No Meshi is the only place with a menu entirely devoted to katsu. The signature deep-fried A5 wagyu—which starts at $44 and is as juicy and fatty as it sounds—is excellent, but a whole production to eat (you're given five dipping sauces plus instructions, and a hot stone to sear the slices of rare steak). We prefer the less flashy but classically perfect pork katsu set, which is nearly half the price of the wagyu, and comes with a delicious roe-topped scallop katsu appetizer. Just know that in a chaotic twist, staff are trained to yell out “Ten No Meshi” at full volume whenever any dish topped with salmon roe is served, which happens very often.
+                  - link "READ THE REVIEW" [ref=e352] [cursor=pointer]:
+                    - /url: /los-angeles/reviews/kyoto-wagyu-tonkatsu-ten-no-meshi
+                    - generic [ref=e353]:
+                      - generic [ref=e354]: READ THE REVIEW
+                      - img [ref=e355]
+                - generic [ref=e358]:
+                  - paragraph [ref=e360]: Ten No Meshi
+                  - generic [ref=e361]:
+                    - generic [ref=e363]:
+                      - generic [ref=e364]:
+                        - button "Open in fullscreen" [ref=e367] [cursor=pointer]:
+                          - img "katsu don in bowl with roe" [ref=e370]
+                        - button "Open in fullscreen" [ref=e373] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e378] [cursor=pointer]:
+                          - img "piece of wagyu beef" [ref=e381]
+                        - button "Open in fullscreen" [ref=e384] [cursor=pointer]
+                      - generic [ref=e388]:
+                        - button "previous" [ref=e389] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e390]
+                        - generic [ref=e392]:
+                          - button "Slide 1 (current slide)" [ref=e393] [cursor=pointer]
+                          - button "Slide 2" [ref=e394] [cursor=pointer]
+                          - button "Slide 3" [ref=e395] [cursor=pointer]
+                          - button "Slide 4" [ref=e396] [cursor=pointer]
+                        - button "next" [ref=e397] [cursor=pointer]:
+                          - img "Next Icon" [ref=e398]
+                    - generic [ref=e400] [cursor=pointer]: "7.6"
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - generic [ref=e405]:
+                    - link "Holy Basil" [ref=e407] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/holy-basil-santa-monica
+                      - heading "Holy Basil" [level=2] [ref=e408]
+                    - generic [ref=e409]:
+                      - button "Save to list" [ref=e410] [cursor=pointer]:
+                        - img "Save spot" [ref=e413]
+                      - button "Been Here" [ref=e415] [cursor=pointer]:
+                        - img [ref=e416]
+                      - button "menu" [ref=e419] [cursor=pointer]:
+                        - img [ref=e421]
+                  - generic [ref=e423]:
+                    - link "2828 Santa Monica Blvd, Santa Monica, California 90404" [ref=e424] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Holy%20Basil+2828 Santa Monica Blvd, Santa Monica, California 90404
+                      - img [ref=e425]
+                      - paragraph [ref=e427]: 2828 Santa Monica Blvd, Santa Monica, California 90404
+                    - generic [ref=e428]:
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: $
+                        - generic [ref=e431]: $
+                        - generic [ref=e432]: $
+                        - generic [ref=e433]: $
+                      - generic [ref=e435]:
+                        - paragraph [ref=e436]:
+                          - link "Thai" [ref=e438] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/thai
+                        - paragraph [ref=e440]:
+                          - link "Santa Monica" [ref=e442] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/santa-monica
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: "Perfect For:"
+                    - link "Casual Dinners" [ref=e447] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Impressing Out Of Towners" [ref=e449] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/impressing-out-of-towners
+                    - link "Walk-Ins" [ref=e451] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/walk-ins
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - paragraph [ref=e455]:
+                      - text: If Holy Basil Santa Monica were just a carbon copy of the one in
+                      - link "Atwater Village" [ref=e456] [cursor=pointer]:
+                        - /url: https://www.theinfatuation.com/los-angeles/reviews/holy-basil-atwater-village
+                      - text: ", we’d be thrilled. But at their new location, you'll find a wild seafood-leaning Thai menu that's totally original, featuring fried calamari dusted in salted egg yolk, beef slices poached in concentrated boat noodle soup, and crispy noodles smothered in egg tofu gravy. The space is cramped and slightly chaotic (like the original), and when sitting at the counter, you’ll be close enough to the wok station to feel blasts of heat. But prices are reasonable, the room is fun, and the staff won’t miss a beat if you pop in for takeout pad kee mao. Consider us loyal subjects of the Holy Basil Empire."
+                    - link "READ THE REVIEW" [ref=e458] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/holy-basil-santa-monica
+                      - generic [ref=e459]:
+                        - generic [ref=e460]: READ THE REVIEW
+                        - img [ref=e461]
+                  - generic [ref=e466]:
+                    - generic [ref=e467]:
+                      - paragraph [ref=e468]: RESERVE A TABLE WITH
+                      - img "OpenTable Logo" [ref=e469]
+                    - generic [ref=e470]:
+                      - button "2 Guests" [ref=e471] [cursor=pointer]:
+                        - generic [ref=e472]:
+                          - img [ref=e473]:
+                            - img [ref=e474]
+                          - paragraph [ref=e476]: 2 Guests
+                      - separator [ref=e478]
+                      - button "today" [ref=e479] [cursor=pointer]:
+                        - generic [ref=e480]:
+                          - img [ref=e481]:
+                            - img [ref=e482]
+                          - paragraph [ref=e484]: today
+                      - separator [ref=e486]
+                      - button "7:00 PM" [ref=e487] [cursor=pointer]:
+                        - generic [ref=e488]:
+                          - img [ref=e489]:
+                            - img [ref=e490]
+                          - paragraph [ref=e493]: 7:00 PM
+                - generic [ref=e501]:
+                  - paragraph [ref=e503]: Patcha Kitchaicharoen
+                  - generic [ref=e506]:
+                    - generic [ref=e507]:
+                      - button "Open in fullscreen" [ref=e510] [cursor=pointer]:
+                        - img "Dining room at Holy Basil" [ref=e513]
+                      - button "Open in fullscreen" [ref=e516] [cursor=pointer]:
+                        - img "Beef tataki at Holy Basil Santa Monica" [ref=e519]
+                      - button "Open in fullscreen" [ref=e522] [cursor=pointer]:
+                        - img "spread of thai dishes and drinks" [ref=e525]
+                      - button "Open in fullscreen" [ref=e528] [cursor=pointer]:
+                        - img "Holy Basil SM exterior" [ref=e531]
+                    - generic [ref=e533]:
+                      - button "previous" [ref=e534] [cursor=pointer]:
+                        - img "Previous Icon" [ref=e535]
+                      - generic [ref=e537]:
+                        - button "Slide 1 (current slide)" [ref=e538] [cursor=pointer]
+                        - button "Slide 2" [ref=e539] [cursor=pointer]
+                        - button "Slide 3" [ref=e540] [cursor=pointer]
+                        - button "Slide 4" [ref=e541] [cursor=pointer]
+                      - button "next" [ref=e542] [cursor=pointer]:
+                        - img "Next Icon" [ref=e543]
+              - link "Chase advertisement link" [ref=e546] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/chase-sapphire-reserve-opentable-los-angeles
+                - img "Reserve Refresh - OT (LA)" [ref=e547]
+              - generic [ref=e549]:
+                - generic [ref=e550]:
+                  - generic [ref=e551]:
+                    - link "The Wilkes" [ref=e553] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/the-wilkes
+                      - heading "The Wilkes" [level=2] [ref=e554]
+                    - generic [ref=e555]:
+                      - button "Save to list" [ref=e556] [cursor=pointer]:
+                        - img "Save spot" [ref=e559]
+                      - button "Been Here" [ref=e561] [cursor=pointer]:
+                        - img [ref=e562]
+                      - button "menu" [ref=e565] [cursor=pointer]:
+                        - img [ref=e567]
+                  - generic [ref=e569]:
+                    - link "148 S Barrington Ave, Los Angeles, California 90049" [ref=e570] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=The%20Wilkes+148 S Barrington Ave, Los Angeles, California 90049
+                      - img [ref=e571]
+                      - paragraph [ref=e573]: 148 S Barrington Ave, Los Angeles, California 90049
+                    - generic [ref=e574]:
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: $
+                        - generic [ref=e577]: $
+                        - generic [ref=e578]: $
+                        - generic [ref=e579]: $
+                      - generic [ref=e581]:
+                        - paragraph [ref=e582]:
+                          - link "Steakhouse" [ref=e584] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/steakhouse
+                        - paragraph [ref=e586]:
+                          - link "Brentwood" [ref=e588] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/brentwood
+                  - generic [ref=e590]:
+                    - generic [ref=e591]: "Perfect For:"
+                    - link "Date Nights" [ref=e593] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/date-night
+                    - link "Dinner With The Parents" [ref=e595] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/dinner-with-the-parents
+                - generic [ref=e596]:
+                  - generic [ref=e597]:
+                    - generic [ref=e598]:
+                      - paragraph [ref=e599]: Somebody finally decided to open a throwback steakhouse in Brentwood Village, and unsurprisingly, it’s already booked out weeks in advance. Classic touches at The Wilkes include vest-clad servers shaking filthy martinis, a wedge salad with enough crumbled blue to qualify it as a cheese course, and tablecloths swept for crumbs between courses. The kitchen serves a few moderate-sized steaks, but we’d point you toward the thick pork chop with roasted apples or the latke-crusted schnitzel with dill créme fraîche first. Add an order of sweet-smelling molasses bread and one of the interesting vegetable sides (hello, crispy maitakes), and you’ve got the makings of a useful dinner spot with vintage charm—and antique Scottie dog statues—to spare.
+                      - paragraph
+                    - link "READ THE REVIEW" [ref=e601] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/the-wilkes
+                      - generic [ref=e602]:
+                        - generic [ref=e603]: READ THE REVIEW
+                        - img [ref=e604]
+                  - link "RESERVE A TABLE" [ref=e608] [cursor=pointer]:
+                    - /url: https://resy.com/cities/los-angeles-ca/venues/the-wilkes-brentwood
+                - generic [ref=e610]:
+                  - paragraph [ref=e612]: Carolina Korman
+                  - generic [ref=e613]:
+                    - generic [ref=e615]:
+                      - generic [ref=e616]:
+                        - button "Open in fullscreen" [ref=e619] [cursor=pointer]:
+                          - img "The Wilkes interior" [ref=e622]
+                        - button "Open in fullscreen" [ref=e625] [cursor=pointer]:
+                          - img "The WIlkes latke schnitzel" [ref=e628]
+                        - button "Open in fullscreen" [ref=e631] [cursor=pointer]:
+                          - img [ref=e634]
+                        - button "Open in fullscreen" [ref=e644] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e649] [cursor=pointer]:
+                          - img [ref=e652]
+                        - button "Open in fullscreen" [ref=e662] [cursor=pointer]
+                      - generic [ref=e666]:
+                        - button "previous" [ref=e667] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e668]
+                        - generic [ref=e670]:
+                          - button "Slide 1 (current slide)" [ref=e671] [cursor=pointer]
+                          - button "Slide 2" [ref=e672] [cursor=pointer]
+                          - button "Slide 3" [ref=e673] [cursor=pointer]
+                          - button "Slide 4" [ref=e674] [cursor=pointer]
+                          - button "Slide 5" [ref=e675] [cursor=pointer]
+                          - button "Slide 6" [ref=e676] [cursor=pointer]
+                        - button "next" [ref=e677] [cursor=pointer]:
+                          - img "Next Icon" [ref=e678]
+                    - generic [ref=e680] [cursor=pointer]: "7.5"
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - generic [ref=e685]:
+                    - link "Clark’s Oyster Bar" [ref=e687] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/clarks-oyster-bar-malibu
+                      - heading "Clark’s Oyster Bar" [level=2] [ref=e688]
+                    - generic [ref=e689]:
+                      - button "Save to list" [ref=e690] [cursor=pointer]:
+                        - img "Save spot" [ref=e693]
+                      - button "Been Here" [ref=e695] [cursor=pointer]:
+                        - img [ref=e696]
+                      - button "menu" [ref=e699] [cursor=pointer]:
+                        - img [ref=e701]
+                  - generic [ref=e703]:
+                    - link "23465 Civic Center Way, Malibu, California 90265" [ref=e704] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Clark%E2%80%99s%20Oyster%20Bar+23465 Civic Center Way, Malibu, California 90265
+                      - img [ref=e705]
+                      - paragraph [ref=e707]: 23465 Civic Center Way, Malibu, California 90265
+                    - generic [ref=e708]:
+                      - generic [ref=e709]:
+                        - generic [ref=e710]: $
+                        - generic [ref=e711]: $
+                        - generic [ref=e712]: $
+                        - generic [ref=e713]: $
+                      - generic [ref=e715]:
+                        - paragraph [ref=e716]:
+                          - link "Seafood" [ref=e718] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/seafood
+                        - paragraph [ref=e720]:
+                          - link "Malibu" [ref=e722] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/malibu
+                  - generic [ref=e724]:
+                    - generic [ref=e725]: "Perfect For:"
+                    - link "Dinner With The Parents" [ref=e727] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/dinner-with-the-parents
+                    - link "Date Nights" [ref=e729] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/date-night
+                    - link "Birthdays" [ref=e731] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/birthdays
+                - generic [ref=e732]:
+                  - generic [ref=e733]:
+                    - generic [ref=e734]:
+                      - paragraph [ref=e735]:
+                        - text: Clark’s Oyster Bar is a
+                        - link "seafood chain from Austin" [ref=e736] [cursor=pointer]:
+                          - /url: https://www.theinfatuation.com/austin/reviews/clarks-oyster-bar
+                        - text: that tends to open in zip codes with private airports, including its latest location in a luxury Malibu shopping mall. With a dining room that looks like a yacht off Martha’s Vineyard and a crowd of local parents ordering chenin blanc and picking out oysters, Clark’s is a nice raw bar option for when you don’t feel like dealing with the scene at
+                        - link "Nobu" [ref=e737] [cursor=pointer]:
+                          - /url: https://www.theinfatuation.com/los-angeles/reviews/nobu-malibu
+                        - text: . Get the bright rockfish ceviche with pops of finger lime, wood-fired shrimp toast with smoky harissa aioli, or schooner-sized shrimp louie. The bar is a breeze for walk-ins, too, in case you just want an ice-cold martini while sitting next to a realtor from Million Dollar Listing.
+                      - paragraph
+                    - link "READ THE REVIEW" [ref=e739] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/clarks-oyster-bar-malibu
+                      - generic [ref=e740]:
+                        - generic [ref=e741]: READ THE REVIEW
+                        - img [ref=e742]
+                  - generic [ref=e747]:
+                    - generic [ref=e748]:
+                      - paragraph [ref=e749]: RESERVE A TABLE WITH
+                      - img "OpenTable Logo" [ref=e750]
+                    - generic [ref=e751]:
+                      - button "2 Guests" [ref=e752] [cursor=pointer]:
+                        - generic [ref=e753]:
+                          - img [ref=e754]:
+                            - img [ref=e755]
+                          - paragraph [ref=e757]: 2 Guests
+                      - separator [ref=e759]
+                      - button "today" [ref=e760] [cursor=pointer]:
+                        - generic [ref=e761]:
+                          - img [ref=e762]:
+                            - img [ref=e763]
+                          - paragraph [ref=e765]: today
+                      - separator [ref=e767]
+                      - button "7:00 PM" [ref=e768] [cursor=pointer]:
+                        - generic [ref=e769]:
+                          - img [ref=e770]:
+                            - img [ref=e771]
+                          - paragraph [ref=e774]: 7:00 PM
+                - generic [ref=e782]:
+                  - paragraph [ref=e784]: Kim Fox
+                  - generic [ref=e785]:
+                    - generic [ref=e787]:
+                      - generic [ref=e788]:
+                        - button "Open in fullscreen" [ref=e791] [cursor=pointer]:
+                          - img "spread of seafood dishes at malibu restaurant patio" [ref=e794]
+                        - button "Open in fullscreen" [ref=e797] [cursor=pointer]:
+                          - img "rockfish ceviche" [ref=e800]
+                        - button "Open in fullscreen" [ref=e803] [cursor=pointer]:
+                          - img "vesper martini" [ref=e806]
+                        - button "Open in fullscreen" [ref=e809] [cursor=pointer]:
+                          - img "patio exterior at malibu restaurant" [ref=e812]
+                        - button "Open in fullscreen" [ref=e815] [cursor=pointer]:
+                          - img "shrimp toast" [ref=e818]
+                      - generic [ref=e820]:
+                        - button "previous" [ref=e821] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e822]
+                        - generic [ref=e824]:
+                          - button "Slide 1 (current slide)" [ref=e825] [cursor=pointer]
+                          - button "Slide 2" [ref=e826] [cursor=pointer]
+                          - button "Slide 3" [ref=e827] [cursor=pointer]
+                          - button "Slide 4" [ref=e828] [cursor=pointer]
+                          - button "Slide 5" [ref=e829] [cursor=pointer]
+                        - button "next" [ref=e830] [cursor=pointer]:
+                          - img "Next Icon" [ref=e831]
+                    - generic [ref=e833] [cursor=pointer]: "7.9"
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - generic [ref=e838]:
+                    - link "The Mulberry" [ref=e840] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/the-mulberry-la
+                      - heading "The Mulberry" [level=2] [ref=e841]
+                    - generic [ref=e842]:
+                      - button "Save to list" [ref=e843] [cursor=pointer]:
+                        - img "Save spot" [ref=e846]
+                      - button "Been Here" [ref=e848] [cursor=pointer]:
+                        - img [ref=e849]
+                      - button "menu" [ref=e852] [cursor=pointer]:
+                        - img [ref=e854]
+                  - generic [ref=e856]:
+                    - link "1800 Sawtelle Blvd, Los Angeles, California 90025" [ref=e857] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=The%20Mulberry+1800 Sawtelle Blvd, Los Angeles, California 90025
+                      - img [ref=e858]
+                      - paragraph [ref=e860]: 1800 Sawtelle Blvd, Los Angeles, California 90025
+                    - generic [ref=e861]:
+                      - generic [ref=e862]:
+                        - generic [ref=e863]: $
+                        - generic [ref=e864]: $
+                        - generic [ref=e865]: $
+                        - generic [ref=e866]: $
+                      - generic [ref=e868]:
+                        - paragraph [ref=e869]:
+                          - link "Korean" [ref=e871] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/korean
+                        - paragraph [ref=e873]:
+                          - link "Sawtelle" [ref=e875] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/sawtelle
+                  - generic [ref=e877]:
+                    - generic [ref=e878]: "Perfect For:"
+                    - link "Date Nights" [ref=e880] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/date-night
+                    - link "Casual Dinners" [ref=e882] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Corporate Cards" [ref=e884] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/corporate-cards
+                - generic [ref=e885]:
+                  - generic [ref=e886]:
+                    - paragraph [ref=e888]:
+                      - text: Directly across from the new
+                      - link "Sun Nong Dan" [ref=e889] [cursor=pointer]:
+                        - /url: https://www.theinfatuation.com/los-angeles/reviews/sun-nong-dan-sawtelle
+                      - text: on Sawtelle, The Mulberry is another Korean spot planting a flag on the Westside, just in a much different way. The burnished wood dining room looks like a cross between a NYC bistro and an Ojai cottage, and though there’s a burger and caesar on the menu, it's the soulful Korean food from a former
+                      - link "Benu" [ref=e890] [cursor=pointer]:
+                        - /url: https://www.theinfatuation.com/san-francisco/reviews/benu
+                      - text: "chef that has us obsessed. Start with the three-course, $49 tasting set, where you can pick from soy-garlic wings with shattering crunch, char-grilled short rib ssam, and the silkiest tofu stew we’ve tasted since Beverly Soon Tofu closed (RIP). Thoughtful little touches abound: post-wing hand wipes, bespoke banchan for each entree, and griddled hotteok served with a sidecar of custardy ice cream. Book a table soon, before every soondobu fan in the neighborhood catches on."
+                    - link "READ THE REVIEW" [ref=e892] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/the-mulberry-la
+                      - generic [ref=e893]:
+                        - generic [ref=e894]: READ THE REVIEW
+                        - img [ref=e895]
+                  - generic [ref=e897]:
+                    - generic [ref=e899]:
+                      - generic [ref=e900]:
+                        - img [ref=e901]
+                        - heading "How to get into The Mulberry" [level=3] [ref=e904]
+                      - generic [ref=e905]:
+                        - paragraph [ref=e906]: Reservations are released online three weeks in advance. Several tables are held for walk-ins each night, so plan to show up when they open at 5:30pm, or after 8pm, for the shortest wait.
+                        - paragraph
+                        - paragraph
+                        - paragraph
+                    - link "RESERVE A TABLE" [ref=e908] [cursor=pointer]:
+                      - /url: https://resy.com/cities/los-angeles-ca/venues/the-mulberry
+                - generic [ref=e910]:
+                  - paragraph [ref=e912]: Brooke Olsen
+                  - generic [ref=e913]:
+                    - generic [ref=e915]:
+                      - generic [ref=e916]:
+                        - button "Open in fullscreen" [ref=e919] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e924] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e929] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e934] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e939] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e944] [cursor=pointer]
+                      - generic [ref=e948]:
+                        - button "previous" [ref=e949] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e950]
+                        - generic [ref=e952]:
+                          - button "Slide 1 (current slide)" [ref=e953] [cursor=pointer]
+                          - button "Slide 2" [ref=e954] [cursor=pointer]
+                          - button "Slide 3" [ref=e955] [cursor=pointer]
+                          - button "Slide 4" [ref=e956] [cursor=pointer]
+                          - button "Slide 5" [ref=e957] [cursor=pointer]
+                          - button "Slide 6" [ref=e958] [cursor=pointer]
+                        - button "next" [ref=e959] [cursor=pointer]:
+                          - img "Next Icon" [ref=e960]
+                    - generic [ref=e962] [cursor=pointer]: "8.1"
+              - generic [ref=e965]:
+                - generic [ref=e966]:
+                  - generic [ref=e967]:
+                    - link "Broken Spanish Comedor" [ref=e969] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/broken-spanish-comedor
+                      - heading "Broken Spanish Comedor" [level=2] [ref=e970]
+                    - generic [ref=e971]:
+                      - button "Save to list" [ref=e972] [cursor=pointer]:
+                        - img "Save spot" [ref=e975]
+                      - button "Been Here" [ref=e977] [cursor=pointer]:
+                        - img [ref=e978]
+                      - button "menu" [ref=e981] [cursor=pointer]:
+                        - img [ref=e983]
+                  - generic [ref=e985]:
+                    - link "12565 W Washington Blvd, Culver City, California 90066" [ref=e986] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Broken%20Spanish%20Comedor+12565 W Washington Blvd, Culver City, California 90066
+                      - img [ref=e987]
+                      - paragraph [ref=e989]: 12565 W Washington Blvd, Culver City, California 90066
+                    - generic [ref=e990]:
+                      - generic [ref=e991]:
+                        - generic [ref=e992]: $
+                        - generic [ref=e993]: $
+                        - generic [ref=e994]: $
+                        - generic [ref=e995]: $
+                      - generic [ref=e997]:
+                        - paragraph [ref=e998]:
+                          - link "Mexican" [ref=e1000] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/mexican
+                        - paragraph [ref=e1002]:
+                          - link "Culver City" [ref=e1004] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/culver-city
+                  - generic [ref=e1006]:
+                    - generic [ref=e1007]: "Perfect For:"
+                    - link "Casual Dinners" [ref=e1009] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Date Nights" [ref=e1011] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/date-night
+                - generic [ref=e1013]:
+                  - paragraph [ref=e1015]: "A more casual resurrection of Broken Spanish—Ray Garcia’s new-wave Mexican restaurant that closed in 2020—Comedor has a lot going for it: a bumping Latin-funk playlist, sultry lighting that makes the A-frame space glow, and small plates that are actually priced like small plates. And you don't need to count the couples sharing enchiladas to realize its potential for an under-the-radar date night. Despite pea guacamole on the tostada and salt foam on the margarita, the food here is decidedly homey. Smoked tuna adds oomph to a cheese-stuffed flauta, and sweet potatoes come smothered in salsa macha butter. Don’t skip the crispy chicharrón in garlicky mojo, a Broken Spanish holdover that was on our mind (and breath) long after dessert."
+                  - link "READ THE REVIEW" [ref=e1017] [cursor=pointer]:
+                    - /url: /los-angeles/reviews/broken-spanish-comedor
+                    - generic [ref=e1018]:
+                      - generic [ref=e1019]: READ THE REVIEW
+                      - img [ref=e1020]
+                - generic [ref=e1023]:
+                  - paragraph [ref=e1025]: Peridot
+                  - generic [ref=e1026]:
+                    - generic [ref=e1028]:
+                      - generic [ref=e1029]:
+                        - button "Open in fullscreen" [ref=e1032] [cursor=pointer]:
+                          - img "Chicharron at Broken Spanish Comedor" [ref=e1035]
+                        - button "Open in fullscreen" [ref=e1038] [cursor=pointer]:
+                          - img "Broken Spanish Comedor Interior" [ref=e1041]
+                        - button "Open in fullscreen" [ref=e1044] [cursor=pointer]:
+                          - img "Broken Spanish Comedor tostada" [ref=e1047]
+                        - button "Open in fullscreen" [ref=e1050] [cursor=pointer]:
+                          - img "Broken Spanish Comedor japanese sweet potatoes with salsa macha butter" [ref=e1053]
+                        - button "Open in fullscreen" [ref=e1056] [cursor=pointer]:
+                          - img "Broken Spanish Comedor Flauta" [ref=e1059]
+                      - generic [ref=e1061]:
+                        - button "previous" [ref=e1062] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e1063]
+                        - generic [ref=e1065]:
+                          - button "Slide 1 (current slide)" [ref=e1066] [cursor=pointer]
+                          - button "Slide 2" [ref=e1067] [cursor=pointer]
+                          - button "Slide 3" [ref=e1068] [cursor=pointer]
+                          - button "Slide 4" [ref=e1069] [cursor=pointer]
+                          - button "Slide 5" [ref=e1070] [cursor=pointer]
+                        - button "next" [ref=e1071] [cursor=pointer]:
+                          - img "Next Icon" [ref=e1072]
+                    - generic [ref=e1074] [cursor=pointer]: "7.8"
+              - generic [ref=e1077]:
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]:
+                    - link "Electric Bleu" [ref=e1081] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/electric-bleu
+                      - heading "Electric Bleu" [level=2] [ref=e1082]
+                    - generic [ref=e1083]:
+                      - button "Save to list" [ref=e1084] [cursor=pointer]:
+                        - img "Save spot" [ref=e1087]
+                      - button "Been Here" [ref=e1089] [cursor=pointer]:
+                        - img [ref=e1090]
+                      - button "menu" [ref=e1093] [cursor=pointer]:
+                        - img [ref=e1095]
+                  - generic [ref=e1097]:
+                    - link "3523 S Centinela Ave, Los Angeles, California 90066" [ref=e1098] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Electric%20Bleu+3523 S Centinela Ave, Los Angeles, California 90066
+                      - img [ref=e1099]
+                      - paragraph [ref=e1101]: 3523 S Centinela Ave, Los Angeles, California 90066
+                    - generic [ref=e1102]:
+                      - generic [ref=e1103]:
+                        - generic [ref=e1104]: $
+                        - generic [ref=e1105]: $
+                        - generic [ref=e1106]: $
+                        - generic [ref=e1107]: $
+                      - generic [ref=e1109]:
+                        - paragraph [ref=e1110]:
+                          - link "French" [ref=e1112] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/french
+                        - paragraph [ref=e1114]:
+                          - link "Mar Vista" [ref=e1116] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/mar-vista
+                  - generic [ref=e1118]:
+                    - generic [ref=e1119]: "Perfect For:"
+                    - link "Casual Dinners" [ref=e1121] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/casual-dinners
+                    - link "Dinner With The Parents" [ref=e1123] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/dinner-with-the-parents
+                    - link "Eating At The Bar" [ref=e1125] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/eating-at-the-bar
+                - generic [ref=e1126]:
+                  - generic [ref=e1127]:
+                    - paragraph [ref=e1129]:
+                      - text: Electric Bleu is already full to the brim with people who, according to the staff, “mostly walked here.” Mar Vists is clearly excited about this kinda French, kinda Australian, mostly Californian bistro. There’s a small patio where you’ll probably find someone eating with their dog, a large dining room with space for family dinners, and a long counter perfect for a casual date. The menu has some interesting-sounding dishes like charred figs with nduja and eggplant puree, or duck breast laid atop champagne grapes, but it’s the simple stuff that works best. The signature roast chicken is a standout, especially when ordered with a perfectly dressed side salad and a lesser-known Australian delicacy, fries with
+                      - link "chicken salt" [ref=e1130] [cursor=pointer]:
+                        - /url: https://www.americastestkitchen.com/articles/3025-what-exactly-is-chicken-salt
+                      - text: .
+                    - link "READ THE REVIEW" [ref=e1132] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/electric-bleu
+                      - generic [ref=e1133]:
+                        - generic [ref=e1134]: READ THE REVIEW
+                        - img [ref=e1135]
+                  - link "RESERVE A TABLE" [ref=e1139] [cursor=pointer]:
+                    - /url: https://resy.com/cities/los-angeles-ca/venues/electric-bleu
+                - generic [ref=e1141]:
+                  - paragraph [ref=e1143]: Josh Telles
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]:
+                      - button "Open in fullscreen" [ref=e1150] [cursor=pointer]:
+                        - img "Interior of Electric Bleu restaurant. Patrons sitting at a kitchen counter and more tables on the other side of the room." [ref=e1153]
+                      - button "Open in fullscreen" [ref=e1156] [cursor=pointer]:
+                        - img "Roast chicken piled on a plate" [ref=e1159]
+                      - button "Open in fullscreen" [ref=e1162] [cursor=pointer]
+                      - button "Open in fullscreen" [ref=e1167] [cursor=pointer]:
+                        - img "Interior of a restaurant with square tables and black chairs" [ref=e1170]
+                    - generic [ref=e1172]:
+                      - button "previous" [ref=e1173] [cursor=pointer]:
+                        - img "Previous Icon" [ref=e1174]
+                      - generic [ref=e1176]:
+                        - button "Slide 1 (current slide)" [ref=e1177] [cursor=pointer]
+                        - button "Slide 2" [ref=e1178] [cursor=pointer]
+                        - button "Slide 3" [ref=e1179] [cursor=pointer]
+                        - button "Slide 4" [ref=e1180] [cursor=pointer]
+                      - button "next" [ref=e1181] [cursor=pointer]:
+                        - img "Next Icon" [ref=e1182]
+              - generic [ref=e1185]:
+                - generic [ref=e1186]:
+                  - generic [ref=e1187]:
+                    - link "Kojima" [ref=e1189] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/kojima
+                      - heading "Kojima" [level=2] [ref=e1190]
+                    - generic [ref=e1191]:
+                      - button "Save to list" [ref=e1192] [cursor=pointer]:
+                        - img "Save spot" [ref=e1195]
+                      - button "Been Here" [ref=e1197] [cursor=pointer]:
+                        - img [ref=e1198]
+                      - button "menu" [ref=e1201] [cursor=pointer]:
+                        - img [ref=e1203]
+                  - generic [ref=e1205]:
+                    - link "2130 Sawtelle Blvd, Los Angeles, California 90025" [ref=e1206] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Kojima+2130 Sawtelle Blvd, Los Angeles, California 90025
+                      - img [ref=e1207]
+                      - paragraph [ref=e1209]: 2130 Sawtelle Blvd, Los Angeles, California 90025
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]:
+                        - generic [ref=e1212]: $
+                        - generic [ref=e1213]: $
+                        - generic [ref=e1214]: $
+                        - generic [ref=e1215]: $
+                      - generic [ref=e1217]:
+                        - paragraph [ref=e1218]:
+                          - link "Japanese" [ref=e1220] [cursor=pointer]:
+                            - /url: /los-angeles/cuisines/japanese
+                        - paragraph [ref=e1222]:
+                          - link "Sawtelle" [ref=e1224] [cursor=pointer]:
+                            - /url: /los-angeles/neighborhoods/sawtelle
+                  - generic [ref=e1226]:
+                    - generic [ref=e1227]: "Perfect For:"
+                    - link "Special Occasions" [ref=e1229] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/special-occasions
+                    - link "Impressing Out Of Towners" [ref=e1231] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/impressing-out-of-towners
+                    - link "Dining Solo" [ref=e1233] [cursor=pointer]:
+                      - /url: /los-angeles/perfect-for/dining-solo
+                - generic [ref=e1234]:
+                  - generic [ref=e1235]:
+                    - paragraph [ref=e1237]: "Kojima is a simple proposition: eight seats, no menu, lots of sake, and one chef whipping up incredible Japanese dishes nightly. That might mean silky poached eggplant in sardine broth, a crackly fried taro puff, sweet snow crab with dashi jelly, or perfectly charred chicken hearts. Dinner at this kappo-style spot in a Sawtelle mini-mall involves putting yourself in the hands of Hayato Kojima, who recently relocated to LA after running an acclaimed izakaya in Tokyo. Book a reservation for his 12-course omakase at $200, or if you’re feeling spontaneous, show up for the $80 four-course mini omakase available to walk-ins. Either way, brush up on a few Japanese phrases—Kojima is still learning English."
+                    - link "READ THE REVIEW" [ref=e1239] [cursor=pointer]:
+                      - /url: /los-angeles/reviews/kojima
+                      - generic [ref=e1240]:
+                        - generic [ref=e1241]: READ THE REVIEW
+                        - img [ref=e1242]
+                  - link "RESERVE A TABLE" [ref=e1248] [cursor=pointer]:
+                    - /url: https://www.exploretock.com/kojima-los-angeles?utm_source=infatuation
+                    - generic [ref=e1249]:
+                      - img [ref=e1250]
+                      - text: RESERVE A TABLE
+                - generic [ref=e1254]:
+                  - paragraph [ref=e1256]: Cathy Park
+                  - generic [ref=e1257]:
+                    - generic [ref=e1259]:
+                      - generic [ref=e1260]:
+                        - button "Open in fullscreen" [ref=e1263] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e1268] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e1273] [cursor=pointer]
+                        - button "Open in fullscreen" [ref=e1278] [cursor=pointer]
+                      - generic [ref=e1282]:
+                        - button "previous" [ref=e1283] [cursor=pointer]:
+                          - img "Previous Icon" [ref=e1284]
+                        - generic [ref=e1286]:
+                          - button "Slide 1 (current slide)" [ref=e1287] [cursor=pointer]
+                          - button "Slide 2" [ref=e1288] [cursor=pointer]
+                          - button "Slide 3" [ref=e1289] [cursor=pointer]
+                          - button "Slide 4" [ref=e1290] [cursor=pointer]
+                        - button "next" [ref=e1291] [cursor=pointer]:
+                          - img "Next Icon" [ref=e1292]
+                    - generic [ref=e1294] [cursor=pointer]: "8.3"
+        - generic [ref=e1304]:
+          - heading "Suggested Reading" [level=2] [ref=e1306]
+          - generic [ref=e1310]:
+            - generic [ref=e1312]:
+              - img "Little Fish Melrose Hill spread" [ref=e1317]
+              - 'heading "The Hit List: New LA Restaurants To Try Right Now" [level=3] [ref=e1319]':
+                - 'link "The Hit List: New LA Restaurants To Try Right Now" [ref=e1320] [cursor=pointer]':
+                  - /url: /los-angeles/guides/best-new-los-angeles-restaurants-hit-list
+              - paragraph [ref=e1321]: We checked out these new restaurants—and loved them.
+            - generic [ref=e1323]:
+              - img "The Best Restaurants In Santa Monica image" [ref=e1328]
+              - heading "The Best Restaurants In Santa Monica" [level=3] [ref=e1330]:
+                - link "The Best Restaurants In Santa Monica" [ref=e1331] [cursor=pointer]:
+                  - /url: /los-angeles/guides/best-restaurants-in-santa-monica
+              - paragraph [ref=e1332]: 21 great restaurants in the unofficial capital of the Westside.
+            - generic [ref=e1334]:
+              - img "The Best Restaurants In Venice image" [ref=e1339]
+              - heading "The Best Restaurants In Venice" [level=3] [ref=e1341]:
+                - link "The Best Restaurants In Venice" [ref=e1342] [cursor=pointer]:
+                  - /url: /los-angeles/guides/best-venice-restaurants
+              - paragraph [ref=e1343]: From Abbot Kinney to the Boardwalk, these are the best spots to eat around Venice Beach.
+            - generic [ref=e1345]:
+              - img "exterior of bagel shop with sidewalk seating" [ref=e1350]
+              - heading "The Best Restaurants In Culver City" [level=3] [ref=e1352]:
+                - link "The Best Restaurants In Culver City" [ref=e1353] [cursor=pointer]:
+                  - /url: /los-angeles/guides/the-best-restaurants-in-culver-city
+              - paragraph [ref=e1354]: Where to eat when you find yourself in the land of office buildings and movie studios.
+        - generic [ref=e1355]:
+          - heading "Written By" [level=2] [ref=e1357]
+          - generic [ref=e1360]:
+            - link "brant-cox" [ref=e1361] [cursor=pointer]:
+              - /url: /contributor/brant-cox
+              - article [ref=e1362]:
+                - generic [ref=e1365]:
+                  - img [ref=e1367]
+                  - img "Brant Cox" [ref=e1368]
+                - generic [ref=e1369]:
+                  - heading "Brant Cox" [level=4] [ref=e1370]
+                  - paragraph [ref=e1371]: Editorial Lead, Los Angeles
+                  - paragraph [ref=e1372]: Brant has been eating his way around town and attending corgi beach days since he moved to LA in 2009. He does not have a corgi.
+            - link "sylvio-martins" [ref=e1373] [cursor=pointer]:
+              - /url: /contributor/sylvio-martins
+              - article [ref=e1374]:
+                - generic [ref=e1377]:
+                  - img [ref=e1379]
+                  - img "Sylvio Martins" [ref=e1380]
+                - generic [ref=e1381]:
+                  - heading "Sylvio Martins" [level=4] [ref=e1382]
+                  - paragraph [ref=e1383]: Senior Staff Writer, Los Angeles
+                  - paragraph [ref=e1384]: Sylvio moved to LA over a decade ago and still misses his exit on the 10. He came to us as a freelancer and wrote so many guides that we gave him a job.
+            - link "cathy-park" [ref=e1385] [cursor=pointer]:
+              - /url: /contributor/cathy-park
+              - article [ref=e1386]:
+                - generic [ref=e1389]:
+                  - img [ref=e1391]
+                  - img "Cathy Park" [ref=e1392]
+                - generic [ref=e1393]:
+                  - heading "Cathy Park" [level=4] [ref=e1394]
+                  - paragraph [ref=e1395]: Senior Staff Writer, Los Angeles
+                  - paragraph [ref=e1396]: Cathy is a California native who left her job in tech to eat for a living. She believes every meal should end with something sweet (it’s science).
+            - link "garrett-snyder" [ref=e1397] [cursor=pointer]:
+              - /url: /contributor/garrett-snyder
+              - article [ref=e1398]:
+                - generic [ref=e1401]:
+                  - img [ref=e1403]
+                  - img "Garrett Snyder" [ref=e1404]
+                - generic [ref=e1405]:
+                  - heading "Garrett Snyder" [level=4] [ref=e1406]
+                  - paragraph [ref=e1407]: Los Angeles Editor
+                  - paragraph [ref=e1408]: Garrett is a lifelong Californian who's covered the LA dining scene as a writer/editor since 2012. He'll drive any distance for great food.
+            - link "jess-basser-sanders" [ref=e1409] [cursor=pointer]:
+              - /url: /contributor/jess-basser-sanders
+              - article [ref=e1410]:
+                - generic [ref=e1413]:
+                  - img [ref=e1415]
+                  - img "Jess Basser Sanders" [ref=e1416]
+                - generic [ref=e1417]:
+                  - heading "Jess Basser Sanders" [level=4] [ref=e1418]
+                  - paragraph [ref=e1419]: VP, Editorial Strategy
+                  - paragraph [ref=e1420]: Melbourne-native Jess has been writing about LA restaurants since 2012, despite not eating a vegetable as a child. She even likes salad now.
+      - alertdialog "Cookie notice" [ref=e1421]:
+        - generic [ref=e1422]:
+          - paragraph [ref=e1423]:
+            - text: We and our partners use cookies and other tools for advertising, to help stop fraud, and for other purposes. By using this site, you agree to how your information is used as outlined in our
+            - link "Go to Privacy Policy page" [ref=e1424] [cursor=pointer]:
+              - /url: /privacy-policy
+              - text: Privacy Policy
+            - text: .
+          - button "Close" [ref=e1425] [cursor=pointer]:
+            - img [ref=e1427]
+    - contentinfo [ref=e1429]:
+      - generic [ref=e1430]:
+        - link "Infatuation Logo" [ref=e1432] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e1433]:
+            - img [ref=e1435]
+            - img "Infatuation Logo" [ref=e1436]
+        - generic [ref=e1437]:
+          - generic [ref=e1438]:
+            - heading "Cities" [level=4] [ref=e1439]
+            - list [ref=e1440]:
+              - listitem [ref=e1441]:
+                - link "Accra" [ref=e1442] [cursor=pointer]:
+                  - /url: /accra
+              - listitem [ref=e1443]:
+                - link "Albuquerque" [ref=e1444] [cursor=pointer]:
+                  - /url: /albuquerque
+              - listitem [ref=e1445]:
+                - link "Amalfi Coast" [ref=e1446] [cursor=pointer]:
+                  - /url: /amalfi-coast
+              - listitem [ref=e1447]:
+                - link "Amsterdam" [ref=e1448] [cursor=pointer]:
+                  - /url: /amsterdam
+              - listitem [ref=e1449]:
+                - link "Ann Arbor" [ref=e1450] [cursor=pointer]:
+                  - /url: /ann-arbor
+              - listitem [ref=e1451]:
+                - link "Aruba" [ref=e1452] [cursor=pointer]:
+                  - /url: /aruba
+              - listitem [ref=e1453]:
+                - link "Asheville" [ref=e1454] [cursor=pointer]:
+                  - /url: /asheville
+              - listitem [ref=e1455]:
+                - link "Aspen" [ref=e1456] [cursor=pointer]:
+                  - /url: /aspen
+              - listitem [ref=e1457]:
+                - link "Athens, GA" [ref=e1458] [cursor=pointer]:
+                  - /url: /athens-ga
+              - listitem [ref=e1459]:
+                - link "Atlanta" [ref=e1460] [cursor=pointer]:
+                  - /url: /atlanta
+              - listitem [ref=e1461]:
+                - link "Atlantic City" [ref=e1462] [cursor=pointer]:
+                  - /url: /atlantic-city
+              - listitem [ref=e1463]:
+                - link "Austin" [ref=e1464] [cursor=pointer]:
+                  - /url: /austin
+              - listitem [ref=e1465]:
+                - link "Baltimore" [ref=e1466] [cursor=pointer]:
+                  - /url: /baltimore
+              - listitem [ref=e1467]:
+                - link "Bangkok" [ref=e1468] [cursor=pointer]:
+                  - /url: /bangkok
+              - listitem [ref=e1469]:
+                - link "Bar Harbor" [ref=e1470] [cursor=pointer]:
+                  - /url: /bar-harbor
+              - listitem [ref=e1471]:
+                - link "Barcelona" [ref=e1472] [cursor=pointer]:
+                  - /url: /barcelona
+              - listitem [ref=e1473]:
+                - link "Bentonville" [ref=e1474] [cursor=pointer]:
+                  - /url: /bentonville
+              - listitem [ref=e1475]:
+                - link "Berlin" [ref=e1476] [cursor=pointer]:
+                  - /url: /berlin
+              - listitem [ref=e1477]:
+                - link "Big Sur" [ref=e1478] [cursor=pointer]:
+                  - /url: /big-sur
+              - listitem [ref=e1479]:
+                - link "Birmingham" [ref=e1480] [cursor=pointer]:
+                  - /url: /birmingham
+              - listitem [ref=e1481]:
+                - link "Boston" [ref=e1482] [cursor=pointer]:
+                  - /url: /boston
+              - listitem [ref=e1483]:
+                - link "Boulder" [ref=e1484] [cursor=pointer]:
+                  - /url: /boulder
+              - listitem [ref=e1485]:
+                - link "Brighton" [ref=e1486] [cursor=pointer]:
+                  - /url: /brighton
+              - listitem [ref=e1487]:
+                - link "Bristol" [ref=e1488] [cursor=pointer]:
+                  - /url: /bristol
+              - listitem [ref=e1489]:
+                - link "Buenos Aires" [ref=e1490] [cursor=pointer]:
+                  - /url: /buenos-aires
+              - listitem [ref=e1491]:
+                - link "Burlington" [ref=e1492] [cursor=pointer]:
+                  - /url: /burlington
+              - listitem [ref=e1493]:
+                - link "Cabo" [ref=e1494] [cursor=pointer]:
+                  - /url: /cabo
+              - listitem [ref=e1495]:
+                - link "Calistoga" [ref=e1496] [cursor=pointer]:
+                  - /url: /calistoga
+              - listitem [ref=e1497]:
+                - link "Cancun" [ref=e1498] [cursor=pointer]:
+                  - /url: /cancun
+              - listitem [ref=e1499]:
+                - link "Cannes" [ref=e1500] [cursor=pointer]:
+                  - /url: /cannes
+              - listitem [ref=e1501]:
+                - link "Cape Cod" [ref=e1502] [cursor=pointer]:
+                  - /url: /cape-cod
+              - listitem [ref=e1503]:
+                - link "Cape Town" [ref=e1504] [cursor=pointer]:
+                  - /url: /cape-town
+              - listitem [ref=e1505]:
+                - link "Capri" [ref=e1506] [cursor=pointer]:
+                  - /url: /capri
+              - listitem [ref=e1507]:
+                - link "Carmel" [ref=e1508] [cursor=pointer]:
+                  - /url: /carmel
+              - listitem [ref=e1509]:
+                - link "Cebu" [ref=e1510] [cursor=pointer]:
+                  - /url: /cebu
+              - listitem [ref=e1511]:
+                - link "Charleston" [ref=e1512] [cursor=pointer]:
+                  - /url: /charleston
+              - listitem [ref=e1513]:
+                - link "Charlotte" [ref=e1514] [cursor=pointer]:
+                  - /url: /charlotte
+              - listitem [ref=e1515]:
+                - link "Chiang Mai" [ref=e1516] [cursor=pointer]:
+                  - /url: /chiang-mai
+              - listitem [ref=e1517]:
+                - link "Chicago" [ref=e1518] [cursor=pointer]:
+                  - /url: /chicago
+              - listitem [ref=e1519]:
+                - link "Cincinnati" [ref=e1520] [cursor=pointer]:
+                  - /url: /cincinnati
+              - listitem [ref=e1521]:
+                - link "Cleveland" [ref=e1522] [cursor=pointer]:
+                  - /url: /cleveland
+              - listitem [ref=e1523]:
+                - link "Columbus" [ref=e1524] [cursor=pointer]:
+                  - /url: /columbus
+              - listitem [ref=e1525]:
+                - link "Copenhagen" [ref=e1526] [cursor=pointer]:
+                  - /url: /copenhagen
+              - listitem [ref=e1527]:
+                - link "Cotswolds" [ref=e1528] [cursor=pointer]:
+                  - /url: /cotswolds
+              - listitem [ref=e1529]:
+                - link "Dallas" [ref=e1530] [cursor=pointer]:
+                  - /url: /dallas
+              - listitem [ref=e1531]:
+                - link "Denver" [ref=e1532] [cursor=pointer]:
+                  - /url: /denver
+              - listitem [ref=e1533]:
+                - link "Dublin" [ref=e1534] [cursor=pointer]:
+                  - /url: /dublin
+              - listitem [ref=e1535]:
+                - link "Edinburgh" [ref=e1536] [cursor=pointer]:
+                  - /url: /edinburgh
+              - listitem [ref=e1537]:
+                - link "Fairfield County" [ref=e1538] [cursor=pointer]:
+                  - /url: /fairfield-county
+              - listitem [ref=e1539]:
+                - link "Florence" [ref=e1540] [cursor=pointer]:
+                  - /url: /florence
+              - listitem [ref=e1541]:
+                - link "Galveston" [ref=e1542] [cursor=pointer]:
+                  - /url: /galveston
+              - listitem [ref=e1543]:
+                - link "Healdsburg" [ref=e1544] [cursor=pointer]:
+                  - /url: /healdsburg
+              - listitem [ref=e1545]:
+                - link "Hoboken" [ref=e1546] [cursor=pointer]:
+                  - /url: /hoboken
+              - listitem [ref=e1547]:
+                - link "Hong Kong" [ref=e1548] [cursor=pointer]:
+                  - /url: /hong-kong
+              - listitem [ref=e1549]:
+                - link "Houston" [ref=e1550] [cursor=pointer]:
+                  - /url: /houston
+              - listitem [ref=e1551]:
+                - link "Hudson Valley" [ref=e1552] [cursor=pointer]:
+                  - /url: /hudson-valley
+              - listitem [ref=e1553]:
+                - link "Ischia" [ref=e1554] [cursor=pointer]:
+                  - /url: /ischia
+              - listitem [ref=e1555]:
+                - link "Istanbul" [ref=e1556] [cursor=pointer]:
+                  - /url: /istanbul
+              - listitem [ref=e1557]:
+                - link "Jackson Hole" [ref=e1558] [cursor=pointer]:
+                  - /url: /jackson-hole
+              - listitem [ref=e1559]:
+                - link "Jacksonville" [ref=e1560] [cursor=pointer]:
+                  - /url: /jacksonville
+              - listitem [ref=e1561]:
+                - link "Jersey City" [ref=e1562] [cursor=pointer]:
+                  - /url: /jersey-city
+              - listitem [ref=e1563]:
+                - link "Jersey Shore" [ref=e1564] [cursor=pointer]:
+                  - /url: /jersey-shore
+              - listitem [ref=e1565]:
+                - link "Kansas City" [ref=e1566] [cursor=pointer]:
+                  - /url: /kansas-city
+              - listitem [ref=e1567]:
+                - link "Key West" [ref=e1568] [cursor=pointer]:
+                  - /url: /key-west
+              - listitem [ref=e1569]:
+                - link "Lake Como" [ref=e1570] [cursor=pointer]:
+                  - /url: /lake-como
+              - listitem [ref=e1571]:
+                - link "Las Vegas" [ref=e1572] [cursor=pointer]:
+                  - /url: /las-vegas
+              - listitem [ref=e1573]:
+                - link "Lima" [ref=e1574] [cursor=pointer]:
+                  - /url: /lima
+              - listitem [ref=e1575]:
+                - link "Lisbon" [ref=e1576] [cursor=pointer]:
+                  - /url: /lisbon
+              - listitem [ref=e1577]:
+                - link "London" [ref=e1578] [cursor=pointer]:
+                  - /url: /london
+              - listitem [ref=e1579]:
+                - link "Los Angeles" [ref=e1580] [cursor=pointer]:
+                  - /url: /los-angeles
+              - listitem [ref=e1581]:
+                - link "Lyon" [ref=e1582] [cursor=pointer]:
+                  - /url: /lyon
+              - listitem [ref=e1583]:
+                - link "Madison" [ref=e1584] [cursor=pointer]:
+                  - /url: /madison
+              - listitem [ref=e1585]:
+                - link "Madrid" [ref=e1586] [cursor=pointer]:
+                  - /url: /madrid
+              - listitem [ref=e1587]:
+                - link "Málaga" [ref=e1588] [cursor=pointer]:
+                  - /url: /malaga
+              - listitem [ref=e1589]:
+                - link "Mallorca" [ref=e1590] [cursor=pointer]:
+                  - /url: /mallorca
+              - listitem [ref=e1591]:
+                - link "Mammoth" [ref=e1592] [cursor=pointer]:
+                  - /url: /mammoth
+              - listitem [ref=e1593]:
+                - link "Manchester" [ref=e1594] [cursor=pointer]:
+                  - /url: /manchester
+              - listitem [ref=e1595]:
+                - link "Manila" [ref=e1596] [cursor=pointer]:
+                  - /url: /manila
+              - listitem [ref=e1597]:
+                - link "Marseille" [ref=e1598] [cursor=pointer]:
+                  - /url: /marseille
+              - listitem [ref=e1599]:
+                - link "Martha's Vineyard" [ref=e1600] [cursor=pointer]:
+                  - /url: /marthas-vineyard
+              - listitem [ref=e1601]:
+                - link "Maui" [ref=e1602] [cursor=pointer]:
+                  - /url: /maui
+              - listitem [ref=e1603]:
+                - link "Melbourne" [ref=e1604] [cursor=pointer]:
+                  - /url: /melbourne
+              - listitem [ref=e1605]:
+                - link "Mendocino" [ref=e1606] [cursor=pointer]:
+                  - /url: /mendocino
+              - listitem [ref=e1607]:
+                - link "Menorca" [ref=e1608] [cursor=pointer]:
+                  - /url: /menorca
+              - listitem [ref=e1609]:
+                - link "Mexico City" [ref=e1610] [cursor=pointer]:
+                  - /url: /mexico-city
+              - listitem [ref=e1611]:
+                - link "Miami" [ref=e1612] [cursor=pointer]:
+                  - /url: /miami
+              - listitem [ref=e1613]:
+                - link "Milan" [ref=e1614] [cursor=pointer]:
+                  - /url: /milan
+              - listitem [ref=e1615]:
+                - link "Milwaukee" [ref=e1616] [cursor=pointer]:
+                  - /url: /milwaukee
+              - listitem [ref=e1617]:
+                - link "Minneapolis" [ref=e1618] [cursor=pointer]:
+                  - /url: /minneapolis
+              - listitem [ref=e1619]:
+                - link "Monterey" [ref=e1620] [cursor=pointer]:
+                  - /url: /monterey
+              - listitem [ref=e1621]:
+                - link "Montreal" [ref=e1622] [cursor=pointer]:
+                  - /url: /montreal
+              - listitem [ref=e1623]:
+                - link "Mumbai" [ref=e1624] [cursor=pointer]:
+                  - /url: /mumbai
+              - listitem [ref=e1625]:
+                - link "Mystic" [ref=e1626] [cursor=pointer]:
+                  - /url: /mystic
+              - listitem [ref=e1627]:
+                - link "Nantucket" [ref=e1628] [cursor=pointer]:
+                  - /url: /nantucket
+              - listitem [ref=e1629]:
+                - link "Napa" [ref=e1630] [cursor=pointer]:
+                  - /url: /napa
+              - listitem [ref=e1631]:
+                - link "Nashville" [ref=e1632] [cursor=pointer]:
+                  - /url: /nashville
+              - listitem [ref=e1633]:
+                - link "Nassau" [ref=e1634] [cursor=pointer]:
+                  - /url: /nassau
+              - listitem [ref=e1635]:
+                - link "New Haven" [ref=e1636] [cursor=pointer]:
+                  - /url: /new-haven
+              - listitem [ref=e1637]:
+                - link "New Orleans" [ref=e1638] [cursor=pointer]:
+                  - /url: /new-orleans
+              - listitem [ref=e1639]:
+                - link "New York" [ref=e1640] [cursor=pointer]:
+                  - /url: /new-york
+              - listitem [ref=e1641]:
+                - link "Newport" [ref=e1642] [cursor=pointer]:
+                  - /url: /newport
+              - listitem [ref=e1643]:
+                - link "Norfolk" [ref=e1644] [cursor=pointer]:
+                  - /url: /norfolk
+              - listitem [ref=e1645]:
+                - link "Oahu" [ref=e1646] [cursor=pointer]:
+                  - /url: /oahu
+              - listitem [ref=e1647]:
+                - link "Oaxaca" [ref=e1648] [cursor=pointer]:
+                  - /url: /oaxaca
+              - listitem [ref=e1649]:
+                - link "Orlando" [ref=e1650] [cursor=pointer]:
+                  - /url: /orlando
+              - listitem [ref=e1651]:
+                - link "Oxford" [ref=e1652] [cursor=pointer]:
+                  - /url: /oxford
+              - listitem [ref=e1653]:
+                - link "Palermo" [ref=e1654] [cursor=pointer]:
+                  - /url: /palermo
+              - listitem [ref=e1655]:
+                - link "Paris" [ref=e1656] [cursor=pointer]:
+                  - /url: /paris
+              - listitem [ref=e1657]:
+                - link "Park City" [ref=e1658] [cursor=pointer]:
+                  - /url: /park-city
+              - listitem [ref=e1659]:
+                - link "Philadelphia" [ref=e1660] [cursor=pointer]:
+                  - /url: /philadelphia
+              - listitem [ref=e1661]:
+                - link "Phoenix" [ref=e1662] [cursor=pointer]:
+                  - /url: /phoenix
+              - listitem [ref=e1663]:
+                - link "Phuket" [ref=e1664] [cursor=pointer]:
+                  - /url: /phuket
+              - listitem [ref=e1665]:
+                - link "Pittsburgh" [ref=e1666] [cursor=pointer]:
+                  - /url: /pittsburgh
+              - listitem [ref=e1667]:
+                - link "Portland, ME" [ref=e1668] [cursor=pointer]:
+                  - /url: /portland-me
+              - listitem [ref=e1669]:
+                - link "Portland, OR" [ref=e1670] [cursor=pointer]:
+                  - /url: /portland
+              - listitem [ref=e1671]:
+                - link "Portsmouth" [ref=e1672] [cursor=pointer]:
+                  - /url: /portsmouth
+              - listitem [ref=e1673]:
+                - link "Prague" [ref=e1674] [cursor=pointer]:
+                  - /url: /prague
+              - listitem [ref=e1675]:
+                - link "Providence" [ref=e1676] [cursor=pointer]:
+                  - /url: /providence
+              - listitem [ref=e1677]:
+                - link "Puerto Vallarta" [ref=e1678] [cursor=pointer]:
+                  - /url: /puerto-vallarta
+              - listitem [ref=e1679]:
+                - link "Raleigh" [ref=e1680] [cursor=pointer]:
+                  - /url: /raleigh
+              - listitem [ref=e1681]:
+                - link "Richmond" [ref=e1682] [cursor=pointer]:
+                  - /url: /richmond
+              - listitem [ref=e1683]:
+                - link "Rome" [ref=e1684] [cursor=pointer]:
+                  - /url: /rome
+              - listitem [ref=e1685]:
+                - link "Sacramento" [ref=e1686] [cursor=pointer]:
+                  - /url: /sacramento
+              - listitem [ref=e1687]:
+                - link "Salt Lake City" [ref=e1688] [cursor=pointer]:
+                  - /url: /salt-lake-city
+              - listitem [ref=e1689]:
+                - link "San Antonio" [ref=e1690] [cursor=pointer]:
+                  - /url: /san-antonio
+              - listitem [ref=e1691]:
+                - link "San Diego" [ref=e1692] [cursor=pointer]:
+                  - /url: /san-diego
+              - listitem [ref=e1693]:
+                - link "San Francisco" [ref=e1694] [cursor=pointer]:
+                  - /url: /san-francisco
+              - listitem [ref=e1695]:
+                - link "San Jose" [ref=e1696] [cursor=pointer]:
+                  - /url: /san-jose
+              - listitem [ref=e1697]:
+                - link "San Juan" [ref=e1698] [cursor=pointer]:
+                  - /url: /san-juan
+              - listitem [ref=e1699]:
+                - link "San Sebastián" [ref=e1700] [cursor=pointer]:
+                  - /url: /san-sebastian
+              - listitem [ref=e1701]:
+                - link "Santa Fe" [ref=e1702] [cursor=pointer]:
+                  - /url: /santa-fe
+              - listitem [ref=e1703]:
+                - link "São Paulo" [ref=e1704] [cursor=pointer]:
+                  - /url: /sao-paulo
+              - listitem [ref=e1705]:
+                - link "Scottsdale" [ref=e1706] [cursor=pointer]:
+                  - /url: /scottsdale
+              - listitem [ref=e1707]:
+                - link "Seattle" [ref=e1708] [cursor=pointer]:
+                  - /url: /seattle
+              - listitem [ref=e1709]:
+                - link "Seville" [ref=e1710] [cursor=pointer]:
+                  - /url: /seville
+              - listitem [ref=e1711]:
+                - link "Singapore" [ref=e1712] [cursor=pointer]:
+                  - /url: /singapore
+              - listitem [ref=e1713]:
+                - link "Sonoma" [ref=e1714] [cursor=pointer]:
+                  - /url: /sonoma
+              - listitem [ref=e1715]:
+                - link "St. Paul" [ref=e1716] [cursor=pointer]:
+                  - /url: /st-paul
+              - listitem [ref=e1717]:
+                - link "Sun Valley" [ref=e1718] [cursor=pointer]:
+                  - /url: /sun-valley
+              - listitem [ref=e1719]:
+                - link "Tampa" [ref=e1720] [cursor=pointer]:
+                  - /url: /tampa
+              - listitem [ref=e1721]:
+                - link "The Catskills" [ref=e1722] [cursor=pointer]:
+                  - /url: /the-catskills
+              - listitem [ref=e1723]:
+                - link "Todos Santos" [ref=e1724] [cursor=pointer]:
+                  - /url: /todos-santos
+              - listitem [ref=e1725]:
+                - link "Tokyo" [ref=e1726] [cursor=pointer]:
+                  - /url: /tokyo
+              - listitem [ref=e1727]:
+                - link "Toronto" [ref=e1728] [cursor=pointer]:
+                  - /url: /toronto
+              - listitem [ref=e1729]:
+                - link "Troy" [ref=e1730] [cursor=pointer]:
+                  - /url: /troy
+              - listitem [ref=e1731]:
+                - link "Tulum" [ref=e1732] [cursor=pointer]:
+                  - /url: /tulum
+              - listitem [ref=e1733]:
+                - link "Vail" [ref=e1734] [cursor=pointer]:
+                  - /url: /vail
+              - listitem [ref=e1735]:
+                - link "Valencia" [ref=e1736] [cursor=pointer]:
+                  - /url: /valencia
+              - listitem [ref=e1737]:
+                - link "Vancouver" [ref=e1738] [cursor=pointer]:
+                  - /url: /vancouver
+              - listitem [ref=e1739]:
+                - link "Venice" [ref=e1740] [cursor=pointer]:
+                  - /url: /venice
+              - listitem [ref=e1741]:
+                - link "Washington DC" [ref=e1742] [cursor=pointer]:
+                  - /url: /washington-dc
+              - listitem [ref=e1743]:
+                - link "Willamette Valley" [ref=e1744] [cursor=pointer]:
+                  - /url: /willamette-valley
+              - listitem [ref=e1745]:
+                - link "Wilmington" [ref=e1746] [cursor=pointer]:
+                  - /url: /wilmington
+              - listitem [ref=e1747]:
+                - link "Yountville" [ref=e1748] [cursor=pointer]:
+                  - /url: /yountville
+          - generic [ref=e1750]:
+            - generic [ref=e1751]:
+              - heading "Company" [level=4] [ref=e1752]
+              - list [ref=e1753]:
+                - listitem [ref=e1754]:
+                  - link "About Us" [ref=e1755] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e1756]:
+                  - link "Careers" [ref=e1757] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=e1758]:
+                  - link "Experiences" [ref=e1759] [cursor=pointer]:
+                    - /url: /experiences
+                - listitem [ref=e1760]:
+                  - link "Travel" [ref=e1761] [cursor=pointer]:
+                    - /url: /travel
+            - generic [ref=e1762]:
+              - heading "Information" [level=4] [ref=e1763]
+              - list [ref=e1764]:
+                - listitem [ref=e1765]:
+                  - link "Newsletter" [ref=e1766] [cursor=pointer]:
+                    - /url: /newsletter
+                - listitem [ref=e1767]:
+                  - link "Contact Us" [ref=e1768] [cursor=pointer]:
+                    - /url: mailto:support@theinfatuation.com
+                - listitem [ref=e1769]:
+                  - link "Sitemap" [ref=e1770] [cursor=pointer]:
+                    - /url: /sitemap
+                - listitem [ref=e1771]:
+                  - link "Terms & Conditions" [ref=e1772] [cursor=pointer]:
+                    - /url: /terms
+                - listitem [ref=e1773]:
+                  - link "Privacy Policy" [ref=e1774] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - listitem [ref=e1775]:
+                  - link "Online Tracking Opt Out Guide" [ref=e1776] [cursor=pointer]:
+                    - /url: /privacy-policy#online-tracking-opt-out-guide
+                - listitem [ref=e1777]:
+                  - button "Cookie Settings" [ref=e1778] [cursor=pointer]
+        - generic [ref=e1779]:
+          - generic [ref=e1780]:
+            - generic [ref=e1781]:
+              - link "Infatuation on Instagram" [ref=e1782] [cursor=pointer]:
+                - /url: https://www.instagram.com/infatuation_la
+                - img [ref=e1784]
+              - link "Infatuation on Facebook" [ref=e1786] [cursor=pointer]:
+                - /url: https://www.facebook.com/infatuation
+                - img [ref=e1788]
+              - link "Infatuation on Twitter" [ref=e1790] [cursor=pointer]:
+                - /url: https://twitter.com/infatuation
+                - img [ref=e1792]
+              - link "Infatuation on TikTok" [ref=e1794] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@infatuation_la
+                - img [ref=e1796]
+              - link "Infatuation on Snapchat" [ref=e1798] [cursor=pointer]:
+                - /url: https://www.snapchat.com/discover/Infatuation/2548866088
+                - img [ref=e1800]
+              - link "Infatuation on Spotify" [ref=e1802] [cursor=pointer]:
+                - /url: https://open.spotify.com/user/infatuationmusic
+                - img [ref=e1804]
+              - link "Infatuation on YouTube" [ref=e1806] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCLyHIJeu7I-IIiM_k8F7PjA
+                - img [ref=e1808]
+              - link "Infatuation on Pinterest" [ref=e1810] [cursor=pointer]:
+                - /url: https://www.pinterest.com/eeeeeats/
+                - img [ref=e1812]
+            - generic [ref=e1814]:
+              - text: 2026 © The Infatuation Inc. All Rights Reserved.
+              - text: The views and opinions expressed on The Infatuation’s site and other platforms are those of the authors and do not reflect the official policy or position of (or endorsement by) JPMorgan Chase. The Infatuation and its affiliates assume no responsibility or liability for the content of this site, or any errors or omissions. The Information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness.
+          - generic [ref=e1815]:
+            - heading "FIND PLACES ON OUR APP" [level=2] [ref=e1816]
+            - generic [ref=e1817]:
+              - link "Get it on Google Play" [ref=e1818] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.infatuation
+                - generic [ref=e1819]:
+                  - img [ref=e1821]
+                  - img "Get it on Google Play" [ref=e1822]
+              - link "Download on the App Store" [ref=e1823] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/the-infatuation/id465685575
+                - generic [ref=e1824]:
+                  - img [ref=e1826]
+                  - img "Download on the App Store" [ref=e1827]
+  - alert [ref=e1828]
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
+  - generic: Cookies Settings

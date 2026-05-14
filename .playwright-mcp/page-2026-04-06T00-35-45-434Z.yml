@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Easter 2026" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQPQgL
+          - img "Easter 2026" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search" [ref=e19]: best restaurants san diego 2025 2026 site:nytimes.com OR site:bonappetit.com OR site:foodandwine.com OR site:cntraveler.com best restaurants san diego 2025 2026 site:nytimes.com OR site:bonappetit.com OR site:foodandwine.com OR site:cntraveler.com
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bsan%2Bdiego%2B2025%2B2026%2Bsite:nytimes.com%2BOR%2Bsite:bonappetit.com%2BOR%2Bsite:foodandwine.com%2BOR%2Bsite:cntraveler.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ2J8OegQIExAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [disabled] [ref=e77]:
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "Short videos" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQs6gLegQIFRAB
+              - generic [ref=e83]: Short videos
+          - listitem [ref=e84]:
+            - link "Images" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQtKgLegQIFhAB
+              - generic [ref=e87]: Images
+          - listitem [ref=e88]:
+            - link "News" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ0pQJegQIFxAB
+              - generic [ref=e91]: News
+          - listitem [ref=e92]:
+            - link "Videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQtKgLegQIGBAB
+              - generic [ref=e95]: Videos
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQs6gLegQIGRAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - main [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - heading "Web results" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - link "San Diego's Culinary Scene Has Grown Up Condé Nast Traveler https://www.cntraveler.com › Destinations › Restaurants" [ref=e136] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/san-diegos-culinary-scene-has-grown-up
+                - heading "San Diego's Culinary Scene Has Grown Up" [level=3] [ref=e137]
+                - generic [ref=e142]:
+                  - generic [ref=e144]: Condé Nast Traveler
+                  - generic [ref=e146]: https://www.cntraveler.com › Destinations › Restaurants
+              - button "About this result" [ref=e147] [cursor=pointer]:
+                - img [ref=e150]
+            - generic [ref=e153]:
+              - generic [ref=e154]: 4 days ago —
+              - generic [ref=e155]:
+                - text: At
+                - emphasis [ref=e156]: Fleurette
+                - text: ", Swikard cooks with items like local sea urchin, California sheepshead, garden greens, and Mikolich honey, uniting the sun-kissed ..."
+              - link "Read more" [ref=e157] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/san-diegos-culinary-scene-has-grown-up#:~:text=%E2%80%9D%20At%20Fleurette%2C%20Swikard%20cooks,he%20calls%20%E2%80%9Ccuisine%20du%20soleil.
+        - generic [ref=e161]:
+          - generic [ref=e164]:
+            - link "The 25 Best Restaurants in San Diego Condé Nast Traveler https://www.cntraveler.com › ... › Destination Guides" [ref=e166] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/gallery/best-restaurants-in-san-diego
+              - heading "The 25 Best Restaurants in San Diego" [level=3] [ref=e167]
+              - generic [ref=e172]:
+                - generic [ref=e174]: Condé Nast Traveler
+                - generic [ref=e176]: https://www.cntraveler.com › ... › Destination Guides
+            - button "About this result" [ref=e177] [cursor=pointer]:
+              - img [ref=e180]
+          - generic [ref=e183]:
+            - generic [ref=e184]: Oct 9, 2024 —
+            - generic [ref=e185]:
+              - text: Our top recommendations for the
+              - emphasis [ref=e186]: best restaurants in San Diego
+              - text: ", California, with pictures, reviews, and details. Find the best in dining ..."
+        - generic [ref=e190]:
+          - generic [ref=e193]:
+            - link "Get the Best of the Best in San Diego Bon Appétit https://www.bonappetit.com › sponsored › story › get-t..." [ref=e195] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/sponsored/story/get-the-best-of-the-best-in-san-diego?srsltid=AfmBOore4OjJ5w64rJGhtFXRO1e5BGPGrx96PJ0Vg9Xnk5lTmUqd1Bli
+              - heading "Get the Best of the Best in San Diego" [level=3] [ref=e196]
+              - generic [ref=e201]:
+                - generic [ref=e203]: Bon Appétit
+                - generic [ref=e205]: https://www.bonappetit.com › sponsored › story › get-t...
+            - button "About this result" [ref=e206] [cursor=pointer]:
+              - img [ref=e209]
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - text: Only in this coastal Southern California city can you find excellent cocktails, Michelin-starred
+              - emphasis [ref=e214]: restaurants
+              - text: ", and a vibrant seaside culture."
+            - link "Read more" [ref=e215] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/sponsored/story/get-the-best-of-the-best-in-san-diego?srsltid=AfmBOore4OjJ5w64rJGhtFXRO1e5BGPGrx96PJ0Vg9Xnk5lTmUqd1Bli#:~:text=Only%20in%20this%20coastal%20Southern,and%20a%20vibrant%20seaside%20culture.
+          - generic [ref=e217]:
+            - text: "Missing: 2025 ‎| Show results with:"
+            - link "2025" [ref=e218] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&q=best+restaurants+san+diego+%222025%22+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ5t4CegQIKhAB
+        - generic [ref=e222]:
+          - generic [ref=e225]:
+            - link "5 Guides to Great Restaurant Cities by New York Times Staff The New York Times https://www.nytimes.com › 2025/09/11 › dining › staff..." [ref=e227] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2025/09/11/dining/staff-guides-restaurant-cities.html
+              - heading "5 Guides to Great Restaurant Cities by New York Times Staff" [level=3] [ref=e228]
+              - generic [ref=e233]:
+                - generic [ref=e235]: The New York Times
+                - generic [ref=e237]: https://www.nytimes.com › 2025/09/11 › dining › staff...
+            - button "About this result" [ref=e238] [cursor=pointer]:
+              - img [ref=e241]
+          - generic [ref=e244]:
+            - generic [ref=e245]: Sep 15, 2025 —
+            - generic [ref=e246]:
+              - text: Check out these standout dining scenes that we encountered in our reporting for the
+              - emphasis [ref=e247]: "2025"
+              - text: Restaurant List.
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - link "The Best Restaurant Trends of 2025 Bon Appétit https://www.bonappetit.com › Restaurants › Trends" [ref=e256] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/story/top-restaurant-trends-2025?srsltid=AfmBOopt_G9sAbSUZGm0sx9BwAoQRrg5YwRJ0Rz3aITxFKlS87M5j9AO
+              - heading "The Best Restaurant Trends of 2025" [level=3] [ref=e257]
+              - generic [ref=e262]:
+                - generic [ref=e264]: Bon Appétit
+                - generic [ref=e266]: https://www.bonappetit.com › Restaurants › Trends
+            - button "About this result" [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]: Dec 15, 2025 —
+            - generic [ref=e275]:
+              - text: From a thrilling Mexican seafood spot in New Orleans to outstanding soul food in San Francisco, these are the
+              - emphasis [ref=e276]: best new restaurants in the US
+              - text: .
+            - link "Read more" [ref=e277] [cursor=pointer]:
+              - /url: https://www.bonappetit.com/story/top-restaurant-trends-2025?srsltid=AfmBOopt_G9sAbSUZGm0sx9BwAoQRrg5YwRJ0Rz3aITxFKlS87M5j9AO#:~:text=From%20a%20thrilling%20Mexican%20seafood,new%20restaurants%20in%20the%20US.
+        - generic [ref=e281]:
+          - generic [ref=e284]:
+            - link "San Diego Travel Guide Condé Nast Traveler https://www.cntraveler.com › destinations › san-diego" [ref=e286] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/san-diego
+              - heading "San Diego Travel Guide" [level=3] [ref=e287]
+              - generic [ref=e292]:
+                - generic [ref=e294]: Condé Nast Traveler
+                - generic [ref=e296]: https://www.cntraveler.com › destinations › san-diego
+            - button "About this result" [ref=e297] [cursor=pointer]:
+              - img [ref=e300]
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - text: January 27, 2026. The Best Places to Eat and Drink in San Diego.
+              - emphasis [ref=e305]: 26 Best Restaurants in San Diego
+              - text: . And so much more than just ...
+            - link "Read more" [ref=e306] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/san-diego#:~:text=January%2027%2C%202026,more%20than%20just%20fish%20tacos.
+        - generic [ref=e310]:
+          - generic [ref=e313]:
+            - 'link "The Best Food Cities in the US: 2025 Readers'' Choice ... Condé Nast Traveler https://www.cntraveler.com › gallery › best-food-cities-..." [ref=e315] [cursor=pointer]':
+              - /url: https://www.cntraveler.com/gallery/best-food-cities-in-the-us-readers-choice-awards
+              - 'heading "The Best Food Cities in the US: 2025 Readers'' Choice ..." [level=3] [ref=e316]'
+              - generic [ref=e321]:
+                - generic [ref=e323]: Condé Nast Traveler
+                - generic [ref=e325]: https://www.cntraveler.com › gallery › best-food-cities-...
+            - button "About this result" [ref=e326] [cursor=pointer]:
+              - img [ref=e329]
+          - generic [ref=e332]:
+            - generic [ref=e333]: Nov 24, 2025 —
+            - generic [ref=e334]:
+              - text: "The Best Food Cities in the US: 2025 Readers' Choice Awards · 15. Charleston · 14. Las Vegas · 13. Honolulu · 12. Boston · 11. Seattle · 10."
+              - emphasis [ref=e335]: San Diego
+              - text: .
+            - link "Read more" [ref=e336] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/gallery/best-food-cities-in-the-us-readers-choice-awards#:~:text=The%20Best%20Food%20Cities%20in,US%3A%202025%20Readers'%20Choice%20Awards&text=15.%20Charleston&text=14.%20Las%20Vegas&text=13.%20Honolulu&text=12.%20Boston&text=11.%20Seattle&text=10.%20San%20Diego
+        - generic [ref=e340]:
+          - generic [ref=e343]:
+            - link "San Diego - Travel News, Tips, and Guides Condé Nast Traveler https://www.cntraveler.com › tag › san-diego" [ref=e345] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/tag/san-diego
+              - heading "San Diego - Travel News, Tips, and Guides" [level=3] [ref=e346]
+              - generic [ref=e351]:
+                - generic [ref=e353]: Condé Nast Traveler
+                - generic [ref=e355]: https://www.cntraveler.com › tag › san-diego
+            - button "About this result" [ref=e356] [cursor=pointer]:
+              - img [ref=e359]
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - text: February 8, 2025.
+              - emphasis [ref=e364]: 25 Best Restaurants in San Diego
+              - text: . And so much more than just fish tacos. By Marie Tutko and Archana Ram.
+            - link "Read more" [ref=e365] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/tag/san-diego#:~:text=February%208%2C%202025,Marie%20Tutko%20and%20Archana%20Ram
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - link "The Top 100 Places to Eat in 2025, According to Yelp Food & Wine https://www.foodandwine.com › News › Restaurant News" [ref=e374] [cursor=pointer]:
+              - /url: https://www.foodandwine.com/yelp-top-100-places-to-eat-2025-8886638
+              - heading "The Top 100 Places to Eat in 2025, According to Yelp" [level=3] [ref=e375]
+              - generic [ref=e380]:
+                - generic [ref=e382]: Food & Wine
+                - generic [ref=e384]: https://www.foodandwine.com › News › Restaurant News
+            - button "About this result" [ref=e385] [cursor=pointer]:
+              - img [ref=e388]
+          - generic [ref=e391]:
+            - generic [ref=e392]: Feb 12, 2025 —
+            - generic [ref=e393]:
+              - emphasis [ref=e394]: 1. Holbox, Los Angeles
+              - text: · 2. Twisted Gyros, Hillsboro, Oregon · 3. De Babel, Scottsdale, Arizona · 4. Phonomenal, National City, California · 5.
+            - link "Read more" [ref=e395] [cursor=pointer]:
+              - /url: https://www.foodandwine.com/yelp-top-100-places-to-eat-2025-8886638#:~:text=1.%20Holbox%2C%20Los%20Angeles&text=2.%20Twisted%20Gyros%2C%20Hillsboro%2C%20Oregon&text=3.%20De%20Babel%2C%20Scottsdale%2C%20Arizona&text=4.%20Phonomenal%2C%20National%20City%2C%20California&text=5.%20Chellas%20Arepa%20Kitchen%2C%20Lancaster%2C
+          - generic [ref=e397]:
+            - text: "Missing: 2026 ‎| Show results with:"
+            - link "2026" [ref=e398] [cursor=pointer]:
+              - /url: /search?sca_esv=bba95f1192fcb2e5&q=best+restaurants+san+diego+2025+%222026%22+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sa=X&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ5t4CegQIOxAB
+        - generic [ref=e402]:
+          - generic [ref=e405]:
+            - link "From Natural Beauty to Art and Design, San Diego Has it All Condé Nast Traveler https://www.cntraveler.com › sponsored › story › from-..." [ref=e407] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/sponsored/story/from-natural-beauty-to-art-and-design-san-diego-has-it-all
+              - heading "From Natural Beauty to Art and Design, San Diego Has it All" [level=3] [ref=e408]
+              - generic [ref=e413]:
+                - generic [ref=e415]: Condé Nast Traveler
+                - generic [ref=e417]: https://www.cntraveler.com › sponsored › story › from-...
+            - button "About this result" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - text: The charming coastal city boasts a bustling performing arts scene, world-class museums,
+              - emphasis [ref=e426]: Michelin-starred restaurants
+              - text: and fascinating architectural landmarks.
+            - link "Read more" [ref=e427] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/sponsored/story/from-natural-beauty-to-art-and-design-san-diego-has-it-all#:~:text=Beyond%20its%20glorious%20beaches%20(you,restaurants%20and%20fascinating%20architectural%20landmarks.
+      - navigation [ref=e430]:
+        - heading "Page Navigation" [level=1] [ref=e431]
+        - text: "1"
+        - link "Page 2" [ref=e434] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=10&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAE
+          - text: "2"
+        - link "Page 3" [ref=e436] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=20&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAG
+          - text: "3"
+        - link "Page 4" [ref=e438] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=30&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAI
+          - text: "4"
+        - link "Page 5" [ref=e440] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=40&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAK
+          - text: "5"
+        - link "Page 6" [ref=e442] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=50&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAM
+          - text: "6"
+        - link "Page 7" [ref=e444] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=60&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAO
+          - text: "7"
+        - link "Page 8" [ref=e446] [cursor=pointer]:
+          - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=70&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8tMDegQIDRAQ
+          - text: "8"
+        - heading "Next" [level=2] [ref=e448]:
+          - link "Next" [ref=e449] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+2025+2026+site:nytimes.com+OR+site:bonappetit.com+OR+site:foodandwine.com+OR+site:cntraveler.com&sca_esv=bba95f1192fcb2e5&ei=4P_SadGxMpmh5NoPiIbPyQ0&start=10&sa=N&sstk=Af77f_eImGfX6Diw_shjpnpV8vDjZiFmKG7UhawuATobABorP_jo6OnWuv_E0UxCj5CCGkut-cISATqucMqZU20DxMP7tP77cKsMSA&ved=2ahUKEwjRoZHH_deTAxWZEFkFHQjDM9kQ8NMDegQIDRAW
+            - generic [ref=e451]: Next
+      - navigation
+    - contentinfo [ref=e452]:
+      - heading "Footer Links" [level=1] [ref=e453]
+      - generic [ref=e457]:
+        - generic [ref=e461]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e463] [cursor=pointer]:
+            - generic [ref=e464]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e466]:
+              - text: "-"
+              - generic [ref=e467]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e469] [cursor=pointer]: Update location
+        - generic [ref=e472]:
+          - link "Help" [ref=e473] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e474] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e475] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e476] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,374 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:cntraveler.com "best places to go" 2026 site:cntraveler.com "best places to go" 2026
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Acntraveler.com%2B%2522best%2Bplaces%2Bto%2Bgo%2522%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&aep=1&ntc=1&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=site:cntraveler.com+%22best+places+to+go%22+2026&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQs6gLegQIFBAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=site:cntraveler.com+%22best+places+to+go%22+2026&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQtKgLegQIExAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:cntraveler.com+%22best+places+to+go%22+2026&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ0pQJegQIEhAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=site:cntraveler.com+%22best+places+to+go%22+2026&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQtKgLegQIEBAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Forums" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQAWR5H_Yp3tMQcScD5kUDFZWwkTC-sPAB6YZ2-fQ6kM-OowK3UoIdyzSkANxeO5XkAqaLj7YwbMgyAuXfuoeBNGJOcG0VK10ogGiel_-eJVNwhTeoKJ0p3CggOPc-zoZngntyjrixN5_gSGhc0_6uOeHai4aQ&q=site:cntraveler.com+%22best+places+to+go%22+2026&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQs6gLegQIERAB
+              - generic [ref=e107]: Forums
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The Best Places to Go in Asia in 2026 Condé Nast Traveler https://www.cntraveler.com › ... › Travel Inspiration" [ref=e144] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-asia-in-2026
+                - heading "The Best Places to Go in Asia in 2026" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Condé Nast Traveler
+                  - generic [ref=e154]: https://www.cntraveler.com › ... › Travel Inspiration
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Dec 17, 2025 —
+              - generic [ref=e163]:
+                - text: The
+                - emphasis [ref=e164]: Best Places to Go
+                - text: In Asia in
+                - emphasis [ref=e165]: "2026"
+                - text: · Erbil, Iraqi Kurdistan · Hong Kong · Labuan Bajo, Indonesia · Naoshima, Japan · Patan, Nepal · Saadiyat Island ...
+              - link "Read more" [ref=e166] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-asia-in-2026#:~:text=The%20Best%20Places%20to%20Go,In%20Asia%20in%202026&text=Erbil%2C%20Iraqi%20Kurdistan&text=Hong%20Kong&text=Labuan%20Bajo%2C%20Indonesia&text=Naoshima%2C%20Japan&text=Patan%2C%20Nepal&text=Saadiyat%20Island%2C%20Abu%20Dhabi
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - link "Announcing the 2026 Hot List Winners Condé Nast Traveler https://www.cntraveler.com › story › hot-list-2026-win..." [ref=e175] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/hot-list-2026-winners
+              - heading "Announcing the 2026 Hot List Winners" [level=3] [ref=e176]
+              - generic [ref=e181]:
+                - generic [ref=e183]: Condé Nast Traveler
+                - generic [ref=e185]: https://www.cntraveler.com › story › hot-list-2026-win...
+            - button "About this result" [ref=e186] [cursor=pointer]:
+              - img [ref=e189]
+          - generic [ref=e192]:
+            - generic [ref=e193]: 5 days ago —
+            - generic [ref=e194]:
+              - emphasis [ref=e195]: Best Places to Go
+              - text: · Curated Escapes · Shopping · Cruise · Women Who Travel ... Announcing the
+              - emphasis [ref=e196]: "2026"
+              - text: Hot List Winners. The best openings in travel ...
+            - link "Read more" [ref=e197] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/hot-list-2026-winners#:~:text=Best%20Places%20to%20Go,Women%20Who%20Travel&text=Announcing%20the%202026%20Hot%20List,ships%20to%20travel%20for%20next.
+        - generic [ref=e201]:
+          - generic [ref=e204]:
+            - link "The Best Places to Go in 2026 Condé Nast Traveler https://www.cntraveler.com › ... › Best Places to Go 2026" [ref=e206] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-2026
+              - heading "The Best Places to Go in 2026" [level=3] [ref=e207]
+              - generic [ref=e212]:
+                - generic [ref=e214]: Condé Nast Traveler
+                - generic [ref=e216]: https://www.cntraveler.com › ... › Best Places to Go 2026
+            - button "About this result" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+          - generic [ref=e223]:
+            - generic [ref=e224]: Dec 17, 2025 —
+            - generic [ref=e225]:
+              - text: The
+              - emphasis [ref=e226]: Best Places to Go
+              - text: in
+              - emphasis [ref=e227]: "2026"
+              - text: · Arusha, Tanzania · Brussels, Belgium · Chiriquí Province, Panama · Deer Valley, Utah · East Coast, Barbados · Fès, ...
+            - link "Read more" [ref=e228] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-2026#:~:text=The%20Best%20Places%20to%20Go,in%202026&text=Arusha%2C%20Tanzania&text=Brussels%2C%20Belgium&text=Chiriqu%C3%AD%20Province%2C%20Panama&text=Deer%20Valley%2C%20Utah&text=East%20Coast%2C%20Barbados&text=F%C3%A8s%2C%20Morocco
+        - generic [ref=e232]:
+          - generic [ref=e235]:
+            - link "The Best Places to Go in Central & South America in 2026 Condé Nast Traveler https://www.cntraveler.com › ... › Best Places to Go 2026" [ref=e237] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/best-places-to-go-in-central-and-south-america-2026
+              - heading "The Best Places to Go in Central & South America in 2026" [level=3] [ref=e238]
+              - generic [ref=e243]:
+                - generic [ref=e245]: Condé Nast Traveler
+                - generic [ref=e247]: https://www.cntraveler.com › ... › Best Places to Go 2026
+            - button "About this result" [ref=e248] [cursor=pointer]:
+              - img [ref=e251]
+          - generic [ref=e254]:
+            - generic [ref=e255]: Dec 17, 2025 —
+            - generic [ref=e256]:
+              - text: The
+              - emphasis [ref=e257]: Best Places to Go
+              - text: in Central & South America in
+              - emphasis [ref=e258]: "2026"
+              - text: · Asunción, Paraguay · Chiriquí Province, Panama · Costa Rica's South Pacific Coast.
+            - link "Read more" [ref=e259] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/best-places-to-go-in-central-and-south-america-2026#:~:text=The%20Best%20Places%20to%20Go,%26%20South%20America%20in%202026&text=Asunci%C3%B3n%2C%20Paraguay&text=Chiriqu%C3%AD%20Province%2C%20Panama&text=Costa%20Rica's%20South%20Pacific%20Coast
+        - generic [ref=e263]:
+          - generic [ref=e266]:
+            - link "The Best Places to Go in the US in 2026 Condé Nast Traveler https://www.cntraveler.com › ... › Best Places to Go 2026" [ref=e268] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/best-places-to-go-in-the-us-in-2026
+              - heading "The Best Places to Go in the US in 2026" [level=3] [ref=e269]
+              - generic [ref=e274]:
+                - generic [ref=e276]: Condé Nast Traveler
+                - generic [ref=e278]: https://www.cntraveler.com › ... › Best Places to Go 2026
+            - button "About this result" [ref=e279] [cursor=pointer]:
+              - img [ref=e282]
+          - generic [ref=e285]:
+            - generic [ref=e286]: Dec 19, 2025 —
+            - generic [ref=e287]:
+              - text: The
+              - emphasis [ref=e288]: Best Places to Go
+              - text: in the US in
+              - emphasis [ref=e289]: "2026"
+              - text: · Arkansas · Boston · Buffalo · Catalina Island, California · Charleston, South Carolina · Chicago.
+            - link "Read more" [ref=e290] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/best-places-to-go-in-the-us-in-2026#:~:text=The%20Best%20Places%20to%20Go,in%20the%20US%20in%202026&text=Arkansas&text=Boston&text=Buffalo&text=Catalina%20Island%2C%20California&text=Charleston%2C%20South%20Carolina&text=Chicago
+        - generic [ref=e294]:
+          - generic [ref=e297]:
+            - link "7 Natural Wonders to Visit in 2026, From Mongolian ... Condé Nast Traveler https://www.cntraveler.com › ... › Nature & Wildlife" [ref=e299] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/7-natural-wonders-around-the-world-to-visit-this-year
+              - heading "7 Natural Wonders to Visit in 2026, From Mongolian ..." [level=3] [ref=e300]
+              - generic [ref=e305]:
+                - generic [ref=e307]: Condé Nast Traveler
+                - generic [ref=e309]: https://www.cntraveler.com › ... › Nature & Wildlife
+            - button "About this result" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e316]:
+            - generic [ref=e317]: 5 days ago —
+            - generic [ref=e318]:
+              - emphasis [ref=e319]: Best Places to Go
+              - text: · Shopping · Gold List · Hot List · Newsletters. Menu ... 7 Natural Wonders to Visit in
+              - emphasis [ref=e320]: "2026"
+              - text: ", From Mongolian Steppes to Utah ..."
+            - link "Read more" [ref=e321] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/7-natural-wonders-around-the-world-to-visit-this-year#:~:text=Menu&text=7%20Natural%20Wonders%20to%20Visit,Mongolian%20Steppes%20to%20Utah%20Canyons
+        - generic [ref=e325]:
+          - generic [ref=e328]:
+            - link "The Best Places to Go in Europe in 2026 Condé Nast Traveler https://www.cntraveler.com › ... › Best Places to Go 2026" [ref=e330] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-europe-in-2026
+              - heading "The Best Places to Go in Europe in 2026" [level=3] [ref=e331]
+              - generic [ref=e336]:
+                - generic [ref=e338]: Condé Nast Traveler
+                - generic [ref=e340]: https://www.cntraveler.com › ... › Best Places to Go 2026
+            - button "About this result" [ref=e341] [cursor=pointer]:
+              - img [ref=e344]
+          - generic [ref=e347]:
+            - generic [ref=e348]: Dec 17, 2025 —
+            - generic [ref=e349]:
+              - text: The
+              - emphasis [ref=e350]: Best Places to Go
+              - text: in Europe in
+              - emphasis [ref=e351]: "2026"
+              - text: · Brussels, Belgium · Crete, Greece · Frankfurt am Main, Germany · Islay, Scotland · Milan, Italy · Saint- ...
+            - link "Read more" [ref=e352] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/the-best-places-to-go-in-europe-in-2026#:~:text=The%20Best%20Places%20to%20Go,in%20Europe%20in%202026&text=Brussels%2C%20Belgium&text=Crete%2C%20Greece&text=Frankfurt%20am%20Main%2C%20Germany&text=Islay%2C%20Scotland&text=Milan%2C%20Italy&text=Saint%2DGervais%2Dles%2DBains%2C%20France
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "Where to Travel in 2026, According to Your Sign Condé Nast Traveler https://www.cntraveler.com › story › where-to-travel-in..." [ref=e361] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/where-to-travel-in-2026-according-to-your-sign
+              - heading "Where to Travel in 2026, According to Your Sign" [level=3] [ref=e362]
+              - generic [ref=e367]:
+                - generic [ref=e369]: Condé Nast Traveler
+                - generic [ref=e371]: https://www.cntraveler.com › story › where-to-travel-in...
+            - button "About this result" [ref=e372] [cursor=pointer]:
+              - img [ref=e375]
+          - generic [ref=e378]:
+            - generic [ref=e379]: Jan 5, 2026 —
+            - generic [ref=e380]:
+              - text: Looking to the astrology of the year ahead, and pulling from our list of the
+              - emphasis [ref=e381]: Best Places to Go
+              - text: in
+              - emphasis [ref=e382]: "2026"
+              - text: ", we share where to travel in"
+              - emphasis [ref=e383]: "2026"
+              - text: —and ...
+            - link "Read more" [ref=e384] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/where-to-travel-in-2026-according-to-your-sign#:~:text=Looking%20to%20the%20astrology%20of,2026%E2%80%94and%20when%E2%80%94based%20on%20your%20sign.
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - 'link "Taurus Rising: Gabon" [ref=e388] [cursor=pointer]':
+                - /url: https://www.cntraveler.com/story/where-to-travel-in-2026-according-to-your-sign#:~:text=Taurus%20Rising%3A%20Gabon
+                - generic [ref=e390]: "Taurus Rising: Gabon"
+            - listitem [ref=e391]:
+              - 'link "Gemini Rising: Uluru..." [ref=e392] [cursor=pointer]':
+                - /url: https://www.cntraveler.com/story/where-to-travel-in-2026-according-to-your-sign#:~:text=Gemini%20Rising%3A%20Uluru%2C%20Australia
+                - generic [ref=e394]: "Gemini Rising: Uluru..."
+            - listitem [ref=e395]:
+              - 'link "Sagittarius Rising: Hong..." [ref=e396] [cursor=pointer]':
+                - /url: https://www.cntraveler.com/story/where-to-travel-in-2026-according-to-your-sign#:~:text=Sagittarius%20Rising%3A%20Hong%20Kong
+                - generic [ref=e398]: "Sagittarius Rising: Hong..."
+        - generic [ref=e402]:
+          - generic [ref=e405]:
+            - link "16 Cheapest Countries to Travel To in 2026 Condé Nast Traveler https://www.cntraveler.com › Inspiration › Affordability" [ref=e407] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/16-cheapest-countries-to-travel-to-in-2026
+              - heading "16 Cheapest Countries to Travel To in 2026" [level=3] [ref=e408]
+              - generic [ref=e413]:
+                - generic [ref=e415]: Condé Nast Traveler
+                - generic [ref=e417]: https://www.cntraveler.com › Inspiration › Affordability
+            - button "About this result" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e424]:
+            - generic [ref=e425]: Feb 27, 2026 —
+            - generic [ref=e426]:
+              - emphasis [ref=e427]: Best Places to Go
+              - text: · Shopping · Gold List · Newsletters. Menu ... What changes is where that dollar takes you, and in
+              - emphasis [ref=e428]: "2026"
+              - text: the answer may be ...
+            - link "Read more" [ref=e429] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/16-cheapest-countries-to-travel-to-in-2026#:~:text=Menu&text=What%20changes%20is%20where%20that,the%20answer%20may%20be%20surprising.
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - link "Senegal" [ref=e433] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/16-cheapest-countries-to-travel-to-in-2026#:~:text=Senegal,-1%20USD%20%3D%20554.97%20XOF
+                - generic [ref=e435]: Senegal
+            - listitem [ref=e436]:
+              - link "Serbia" [ref=e437] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/16-cheapest-countries-to-travel-to-in-2026#:~:text=Serbia,-1%20USD%20%3D%2099.34%20RSD
+                - generic [ref=e439]: Serbia
+            - listitem [ref=e440]:
+              - link "Albania" [ref=e441] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/16-cheapest-countries-to-travel-to-in-2026#:~:text=Albania,-1%20USD%20%3D%2081.61%20ALL
+                - generic [ref=e443]: Albania
+        - generic [ref=e447]:
+          - generic [ref=e450]:
+            - link "The Best Places to Go in 2026 Condé Nast Traveler https://www.cntraveler.com › best-places-to-go" [ref=e452] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/best-places-to-go
+              - heading "The Best Places to Go in 2026" [level=3] [ref=e453]
+              - generic [ref=e458]:
+                - generic [ref=e460]: Condé Nast Traveler
+                - generic [ref=e462]: https://www.cntraveler.com › best-places-to-go
+            - button "About this result" [ref=e463] [cursor=pointer]:
+              - img [ref=e466]
+          - generic [ref=e469]:
+            - generic [ref=e470]: Dec 17, 2025 —
+            - generic [ref=e471]:
+              - text: The
+              - emphasis [ref=e472]: Best Places to Go
+              - text: in North America and the Caribbean in
+              - emphasis [ref=e473]: "2026"
+              - text: . For exhilarating biking trails, wild coastlines, and a neon-lit, all-American ...
+            - link "Read more" [ref=e474] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/best-places-to-go#:~:text=The%20Best%20Places%20to%20Go,a%20neon%2Dlit%2C%20all%2DAmerican%20road%20trip.
+      - generic [ref=e476]:
+        - generic [ref=e481]:
+          - heading "People also search for" [level=2] [ref=e483]
+          - generic [ref=e485]:
+            - link "Best places to go 2026 with family" [ref=e490] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=Best+places+to+go+2026+with+family&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ1QJ6BAgpEAE
+              - generic [ref=e491]:
+                - generic [ref=e496]: Best places to go 2026 with family
+                - img [ref=e500]
+            - link "Best places to go 2026 in europe" [ref=e506] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=Best+places+to+go+2026+in+europe&sa=X&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ1QJ6BAgqEAE
+              - generic [ref=e507]:
+                - generic [ref=e512]: Best places to go 2026 in europe
+                - img [ref=e516]
+        - navigation [ref=e518]:
+          - heading "Page Navigation" [level=1] [ref=e519]
+          - text: "1"
+          - link "Page 2" [ref=e522] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=10&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAE
+            - text: "2"
+          - link "Page 3" [ref=e524] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=20&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAG
+            - text: "3"
+          - link "Page 4" [ref=e526] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=30&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAI
+            - text: "4"
+          - link "Page 5" [ref=e528] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=40&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAK
+            - text: "5"
+          - link "Page 6" [ref=e530] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=50&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAM
+            - text: "6"
+          - link "Page 7" [ref=e532] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=60&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAO
+            - text: "7"
+          - link "Page 8" [ref=e534] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=70&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAQ
+            - text: "8"
+          - link "Page 9" [ref=e536] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=80&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAS
+            - text: "9"
+          - link "Page 10" [ref=e538] [cursor=pointer]:
+            - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=90&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8tMDegQIJxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e540]:
+            - link "Next" [ref=e541] [cursor=pointer]:
+              - /url: /search?q=site:cntraveler.com+%22best+places+to+go%22+2026&sca_esv=461cceef532bce02&ei=YLfvabP_Au2g5NoPrrqOsAY&start=10&sa=N&sstk=Af77f_fTxS_MfLzQlbWOjPVrRhpT0vbWGzbR9alzRZr9bDS89nFZUtSciqQ2a5vJ2czIglts251a7e9eRdx2jrCwk-gjm4o_A4Vd5g&ved=2ahUKEwizr9W-4I6UAxVtEFkFHS6dA2YQ8NMDegQIJxAW
+              - generic [ref=e543]: Next
+      - navigation
+    - contentinfo [ref=e544]:
+      - heading "Footer Links" [level=1] [ref=e545]
+      - generic [ref=e549]:
+        - generic [ref=e553]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e555] [cursor=pointer]:
+            - generic [ref=e556]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e558]:
+              - text: "-"
+              - generic [ref=e559]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e561] [cursor=pointer]: Update location
+        - generic [ref=e564]:
+          - link "Help" [ref=e565] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e566] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e567] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e568] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

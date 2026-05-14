@@ -1,0 +1,457 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Lisbon LIS" [ref=e177]: Lisbon
+                - generic [ref=e179]: Lisbon LIS
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - generic [ref=e330]:
+          - tablist [ref=e331]:
+            - tab "BestLearn more about ranking" [selected] [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e339]:
+                  - img [ref=e341]
+            - tab "Cheapest from Fetching results 1232 US dollars Learn more about ranking" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]:
+                - text: Cheapest
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - text: from
+                    - generic [ref=e348]:
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Fetching results
+                        - progressbar [ref=e351]:
+                          - img [ref=e353]
+                          - generic [ref=e357]:
+                            - img [ref=e359]
+                            - img [ref=e362]
+                            - img [ref=e365]
+                      - text: $1,232
+                  - button "Learn more about ranking" [ref=e370]:
+                    - img [ref=e372]
+          - tabpanel "BestLearn more about ranking" [ref=e374]:
+            - generic [ref=e375]:
+              - heading "Top departing flights" [level=3] [ref=e376]
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e382] [cursor=pointer]:
+                    - img [ref=e384]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e386]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e387] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e388]:
+                      - button "Passenger assistance" [ref=e389] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e394]:
+                  - generic [ref=e397]: Sorted by top flights
+                  - img [ref=e398]
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - generic [ref=e402]:
+                    - link "From 1239 US dollars round trip total. 1 stop flight with American. Operated by PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 9:05 AM on Sunday, August 9. Total duration 10 hr 42 min. Layover (1 of 1) is a 2 hr 44 min layover at Philadelphia International Airport in Philadelphia. Select flight"
+                    - generic [ref=e404] [cursor=pointer]:
+                      - generic [ref=e406]:
+                        - generic [ref=e408]:
+                          - generic "Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 9:05 AM on Sunday, August 9." [ref=e410]:
+                            - 'generic "Departure time: 5:23 PM." [ref=e413]': 5:23 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:05 AM on Sunday, August 9." [ref=e416]':
+                              - 'generic "Arrival time: 9:05 AM on Sunday, August 9." [ref=e417]':
+                                - text: 9:05 AM
+                                - generic [ref=e418]: "+1"
+                          - generic [ref=e419]:
+                            - text: American
+                            - generic [ref=e420]: ·
+                            - text: British Airways
+                            - generic [ref=e421]: ·
+                            - text: Operated by PSA Airlines as American Eagle
+                        - generic [ref=e422]:
+                          - generic "Total duration 10 hr 42 min." [ref=e423]: 10 hr 42 min
+                          - generic [ref=e424]:
+                            - generic [ref=e427]: PIT
+                            - text: –
+                            - generic [ref=e430]: LIS
+                        - generic [ref=e431]:
+                          - generic "1 stop flight." [ref=e433]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 44 min layover at Philadelphia International Airport in Philadelphia." [ref=e434]:
+                            - text: 2 hr 44 min
+                            - generic [ref=e436]: PHL
+                        - generic [ref=e438]:
+                          - generic [ref=e440]: 400 kg CO2e
+                          - generic [ref=e441]:
+                            - generic [ref=e442]: "-24% emissions"
+                            - 'button "Carbon emissions estimate: 400 kilograms. -24% emissions. Learn more about this emissions estimate" [ref=e443]':
+                              - img [ref=e444]
+                        - generic [ref=e446]:
+                          - generic [ref=e448]: $1,239
+                          - generic [ref=e449]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 9:05 AM on Sunday, August 9." [ref=e452]:
+                      - img [ref=e455]
+                - listitem [ref=e457]:
+                  - generic [ref=e458]:
+                    - link "From 1252 US dollars round trip total. 1 stop flight with Delta. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 8:00 AM on Sunday, August 9. Total duration 9 hr 56 min. Layover (1 of 1) is a 55 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e460] [cursor=pointer]:
+                      - generic [ref=e462]:
+                        - generic [ref=e464]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 8:00 AM on Sunday, August 9." [ref=e466]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e469]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:00 AM on Sunday, August 9." [ref=e472]':
+                              - 'generic "Arrival time: 8:00 AM on Sunday, August 9." [ref=e473]':
+                                - text: 8:00 AM
+                                - generic [ref=e474]: "+1"
+                          - generic [ref=e475]:
+                            - text: Delta
+                            - generic [ref=e476]: ·
+                            - text: Air France, KLM, Virgin Atlantic
+                            - generic [ref=e477]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e478]:
+                          - generic "Total duration 9 hr 56 min." [ref=e479]: 9 hr 56 min
+                          - generic [ref=e480]:
+                            - generic [ref=e483]: PIT
+                            - text: –
+                            - generic [ref=e486]: LIS
+                        - generic [ref=e487]:
+                          - generic "1 stop flight." [ref=e489]: 1 stop
+                          - generic "Layover (1 of 1) is a 55 min layover at John F. Kennedy International Airport in New York." [ref=e490]:
+                            - text: 55 min
+                            - generic [ref=e492]: JFK
+                        - generic [ref=e494]:
+                          - generic [ref=e496]: 453 kg CO2e
+                          - generic [ref=e497]:
+                            - generic [ref=e498]: "-14% emissions"
+                            - 'button "Carbon emissions estimate: 453 kilograms. -14% emissions. Learn more about this emissions estimate" [ref=e499]':
+                              - img [ref=e500]
+                        - generic [ref=e502]:
+                          - generic [ref=e504]: $1,252
+                          - generic [ref=e505]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 8:00 AM on Sunday, August 9." [ref=e508]:
+                      - img [ref=e511]
+            - generic [ref=e517]:
+              - heading "Price insights" [level=3] [ref=e518]
+              - generic [ref=e519] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e524]
+                - generic [ref=e526]: View price history
+                - button "View price history" [ref=e528]:
+                  - img [ref=e531]
+            - region "Find the best price" [ref=e533]:
+              - generic [ref=e536]:
+                - img [ref=e537]
+                - heading "Track prices" [level=2] [ref=e539]
+                - button "Learn more about tracked prices" [ref=e543] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e544]:
+                    - img [ref=e545]
+                - generic [ref=e547]: Track prices from Pittsburgh to Lisbon departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e548]:
+                  - generic [ref=e550] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Lisbon departing 2026-08-08 and returning 2026-08-15" [ref=e553] [cursor=pointer]:
+                    - generic [ref=e558]:
+                      - img [ref=e559]
+                      - img [ref=e561]
+                - generic [ref=e564]: Track prices from Pittsburgh to Lisbon - Any dates
+                - generic [ref=e566]:
+                  - generic [ref=e567] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Lisbon - Any dates" [ref=e570] [cursor=pointer]:
+                    - generic [ref=e575]:
+                      - img [ref=e576]
+                      - img [ref=e578]
+              - generic [ref=e583]:
+                - button "Date grid" [ref=e585]:
+                  - img [ref=e587]
+                  - generic [ref=e594]: Date grid
+                - button "Price graph" [ref=e596]:
+                  - img [ref=e598]
+                  - generic [ref=e608]: Price graph
+            - generic [ref=e609]:
+              - heading "Other departing flights" [level=3] [ref=e610]
+              - list [ref=e611]:
+                - listitem [ref=e612]:
+                  - generic [ref=e613]:
+                    - link "From 1232 US dollars round trip total. 1 stop flight with British Airways. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 4:20 PM on Sunday, August 9. Total duration 13 hr 30 min. Layover (1 of 1) is a 3 hr 20 min layover at Heathrow Airport in London. Select flight"
+                    - generic [ref=e615] [cursor=pointer]:
+                      - generic [ref=e617]:
+                        - generic [ref=e619]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 4:20 PM on Sunday, August 9." [ref=e621]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e624]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:20 PM on Sunday, August 9." [ref=e627]':
+                              - 'generic "Arrival time: 4:20 PM on Sunday, August 9." [ref=e628]':
+                                - text: 4:20 PM
+                                - generic [ref=e629]: "+1"
+                          - generic [ref=e630]:
+                            - text: British Airways
+                            - generic [ref=e631]: ·
+                            - text: American, Finnair
+                        - generic [ref=e632]:
+                          - generic "Total duration 13 hr 30 min." [ref=e633]: 13 hr 30 min
+                          - generic [ref=e634]:
+                            - generic [ref=e637]: PIT
+                            - text: –
+                            - generic [ref=e640]: LIS
+                        - generic [ref=e641]:
+                          - generic "1 stop flight." [ref=e643]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 20 min layover at Heathrow Airport in London." [ref=e644]:
+                            - text: 3 hr 20 min
+                            - generic [ref=e646]: LHR
+                        - generic [ref=e648]:
+                          - generic [ref=e650]: 537 kg CO2e
+                          - generic [ref=e651]:
+                            - generic [ref=e652]: Avg emissions
+                            - 'button "Carbon emissions estimate: 537 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e653]':
+                              - img [ref=e654]
+                        - generic [ref=e656]:
+                          - generic [ref=e658]: $1,232
+                          - generic [ref=e659]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 4:20 PM on Sunday, August 9." [ref=e662]:
+                      - img [ref=e665]
+                - listitem [ref=e667]:
+                  - generic [ref=e668]:
+                    - link "From 1246 US dollars round trip total. 1 stop flight with British Airways. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 11:10 PM on Sunday, August 9. Total duration 20 hr 20 min. Layover (1 of 1) is a 10 hr 15 min layover at Heathrow Airport in London. Select flight"
+                    - generic [ref=e670] [cursor=pointer]:
+                      - generic [ref=e672]:
+                        - generic [ref=e674]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 11:10 PM on Sunday, August 9." [ref=e676]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e679]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:10 PM on Sunday, August 9." [ref=e682]':
+                              - 'generic "Arrival time: 11:10 PM on Sunday, August 9." [ref=e683]':
+                                - text: 11:10 PM
+                                - generic [ref=e684]: "+1"
+                          - generic [ref=e685]: British Airways
+                        - generic [ref=e686]:
+                          - generic "Total duration 20 hr 20 min." [ref=e687]: 20 hr 20 min
+                          - generic [ref=e688]:
+                            - generic [ref=e691]: PIT
+                            - text: –
+                            - generic [ref=e694]: LIS
+                        - generic [ref=e695]:
+                          - generic [ref=e696]:
+                            - generic "1 stop flight." [ref=e697]: 1 stop
+                            - img [ref=e702]
+                          - generic "Layover (1 of 1) is a 10 hr 15 min layover at Heathrow Airport in London." [ref=e705]:
+                            - text: 10 hr 15 min
+                            - generic [ref=e707]: LHR
+                        - generic [ref=e709]:
+                          - generic [ref=e711]: 533 kg CO2e
+                          - generic [ref=e712]:
+                            - generic [ref=e713]: Avg emissions
+                            - 'button "Carbon emissions estimate: 533 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e714]':
+                              - img [ref=e715]
+                        - generic [ref=e717]:
+                          - generic [ref=e719]: $1,246
+                          - generic [ref=e720]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 11:10 PM on Sunday, August 9." [ref=e723]:
+                      - img [ref=e726]
+                - listitem [ref=e728]:
+                  - generic [ref=e729]:
+                    - link "From 1339 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 10:35 AM on Sunday, August 9. Total duration 9 hr 36 min. Layover (1 of 1) is a 1 hr 12 min layover at Dulles International Airport in Washington. Select flight"
+                    - generic [ref=e731] [cursor=pointer]:
+                      - generic [ref=e733]:
+                        - generic [ref=e735]:
+                          - generic "Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 10:35 AM on Sunday, August 9." [ref=e737]:
+                            - 'generic "Departure time: 7:59 PM." [ref=e740]': 7:59 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:35 AM on Sunday, August 9." [ref=e743]':
+                              - 'generic "Arrival time: 10:35 AM on Sunday, August 9." [ref=e744]':
+                                - text: 10:35 AM
+                                - generic [ref=e745]: "+1"
+                          - generic [ref=e746]:
+                            - text: United
+                            - generic [ref=e747]: ·
+                            - text: Lufthansa
+                            - generic [ref=e748]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e749]:
+                          - generic "Total duration 9 hr 36 min." [ref=e750]: 9 hr 36 min
+                          - generic [ref=e751]:
+                            - generic [ref=e754]: PIT
+                            - text: –
+                            - generic [ref=e757]: LIS
+                        - generic [ref=e758]:
+                          - generic "1 stop flight." [ref=e760]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 12 min layover at Dulles International Airport in Washington." [ref=e761]:
+                            - text: 1 hr 12 min
+                            - generic [ref=e763]: IAD
+                        - generic [ref=e765]:
+                          - generic [ref=e767]: 581 kg CO2e
+                          - generic [ref=e768]:
+                            - generic [ref=e769]: +10% emissions
+                            - 'button "Carbon emissions estimate: 581 kilograms. +10% emissions. Learn more about this emissions estimate" [ref=e770]':
+                              - img [ref=e771]
+                        - generic [ref=e773]:
+                          - generic [ref=e775]: $1,339
+                          - generic [ref=e776]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Humberto Delgado Airport at 10:35 AM on Sunday, August 9." [ref=e779]:
+                      - img [ref=e782]
+                - listitem [ref=e784]:
+                  - generic [ref=e785] [cursor=pointer]:
+                    - button "View more flights" [ref=e788]:
+                      - img
+                    - generic [ref=e791]: View more flights
+          - text: ·· · ·· ·· ·· · ·· ·· · · ·· · · ·· ·· · ·· ··
+      - contentinfo [ref=e794]:
+        - generic [ref=e796]:
+          - button "Language·English (United States)" [ref=e797]:
+            - img [ref=e800]
+            - generic [ref=e802]: Language·English (United States)
+          - button "Location·United States" [ref=e803]:
+            - img [ref=e806]
+            - generic [ref=e809]: Location·United States
+          - button "Currency USD" [ref=e810]:
+            - img [ref=e813]
+            - generic [ref=e823]: Currency·USD
+        - generic [ref=e824]:
+          - link "About Google Travel" [ref=e825] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e826] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e827] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e828] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e829] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e830] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e832]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e833] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

@@ -1,0 +1,2380 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "irvine" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 01 Jun 2025
+      - generic [ref=e127]: 38 points (83% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/1l0fudc
+    - generic [ref=e130]:
+      - link "Submit a new linkSubmit Link" [ref=e131] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit
+      - text: N/A
+    - generic [ref=e132]:
+      - text: N/A
+      - link "Submit a new text postSubmit Text" [ref=e133] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit?selftext=true
+    - generic [ref=e135]:
+      - text: Subreddit Info
+      - heading "irvine" [level=1] [ref=e136]:
+        - link "irvine" [ref=e137] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/irvine/
+      - link "join" [ref=e139] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e142]:
+        - separator [ref=e143]
+        - paragraph [ref=e144]:
+          - link "Thinking about moving to Irvine? Please check out the wiki before submitting a question!" [ref=e145] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/wiki/moving
+        - separator [ref=e146]
+        - paragraph [ref=e147]:
+          - link "Posting Rules:" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/about/rules/
+            - strong [ref=e149]: "Posting Rules:"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - paragraph [ref=e152]: Try to be courteous, it's a small subreddit.
+          - listitem [ref=e153]:
+            - paragraph [ref=e154]: Don't spam. Advertisements may be removed (includes self promotion).
+          - listitem [ref=e155]:
+            - paragraph [ref=e156]: This is not a subreddit to meet other people.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: This is not a subreddit to sell or buy things/services.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: If you're a politician or most of your posts are about politics, your submission/comments may be removed. Please message the moderators if you have any questions.
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: No simple, generic, or misleading posts (e.g. one or two word titles, questions that can easily be googled, complaints about the city, etc).
+          - listitem [ref=e163]:
+            - paragraph [ref=e164]: Links to Twitter/X are not allowed.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: AI generated posts are not allowed.
+        - paragraph [ref=e167]:
+          - emphasis [ref=e168]: Posts may be removed for reasons not listed above. Please feel free to inquire about any removals.
+        - paragraph [ref=e169]
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Things to Do:"
+        - paragraph [ref=e172]:
+          - link "Orange County Great Park" [ref=e173] [cursor=pointer]:
+            - /url: http://www.ocgp.org/
+        - paragraph [ref=e174]:
+          - link "Irvine Improv" [ref=e175] [cursor=pointer]:
+            - /url: http://irvine.improv.com/
+        - paragraph [ref=e176]:
+          - link "Irvine Ampitheatre" [ref=e177] [cursor=pointer]:
+            - /url: http://www.verizonwirelessamphitheatreirvine.com/
+        - paragraph [ref=e178]:
+          - link "IVC Arts" [ref=e179] [cursor=pointer]:
+            - /url: http://www.ivcarts.org/
+        - paragraph [ref=e180]
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: "Shopping:"
+        - paragraph [ref=e183]:
+          - link "Irvine Spectrum" [ref=e184] [cursor=pointer]:
+            - /url: http://www.shopirvinespectrumcenter.com/
+        - paragraph [ref=e185]:
+          - link "Diamond Jamboree" [ref=e186] [cursor=pointer]:
+            - /url: http://www.diamond-jamboree.com/
+        - paragraph [ref=e187]:
+          - link "Tustin Marketplace" [ref=e188] [cursor=pointer]:
+            - /url: http://www.shopthemarketplace.com/
+        - paragraph [ref=e189]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: "Community Sites:"
+        - paragraph [ref=e192]:
+          - link "Irvine Police Department" [ref=e193] [cursor=pointer]:
+            - /url: http://www.cityofirvine.org/ipd/
+        - paragraph [ref=e194]:
+          - link "The Irvine Company" [ref=e195] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e196]:
+          - link "UC Irvine" [ref=e197] [cursor=pointer]:
+            - /url: http://uci.edu/
+        - paragraph [ref=e198]:
+          - link "Irvine Unified School District" [ref=e199] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e200]:
+          - link "Irvine Chamber of Commerce" [ref=e201] [cursor=pointer]:
+            - /url: http://www.irvinechamber.com/
+        - paragraph [ref=e202]:
+          - link "Irvine Valley College" [ref=e203] [cursor=pointer]:
+            - /url: http://ivc.edu/
+        - paragraph [ref=e204]
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Other Subreddits:"
+        - paragraph [ref=e207]:
+          - link "/r/orangecounty" [ref=e208] [cursor=pointer]:
+            - /url: /r/orangecounty
+    - generic [ref=e210]:
+      - heading "MODERATORS" [level=1] [ref=e212]
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link "message the mods" [ref=e215] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/irvine
+    - complementary [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - text: discussions in
+          - link "r/irvine" [ref=e221] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/?ref=readnext
+        - navigation [ref=e222]:
+          - generic [ref=e223] [cursor=pointer]: <
+          - generic [ref=e224] [cursor=pointer]: ">"
+        - generic [ref=e226] [cursor=pointer]: X
+      - link "19 · 20 comments Irvine City Council allows Oak Creek Golf Course zoning change" [ref=e228] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/comments/1so1evf/irvine_city_council_allows_oak_creek_golf_course/?ref=readnext_0
+        - generic [ref=e229]: 19 · 20 comments
+        - generic [ref=e231]: Irvine City Council allows Oak Creek Golf Course zoning change
+    - text: This subreddit uses the /r/Naut theme.
+  - main [ref=e232]:
+    - generic [ref=e233]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e234] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e235]
+        - paragraph [ref=e236]: the front page of the internet.
+        - generic [ref=e237]:
+          - generic [ref=e238]: Become a Redditor
+          - paragraph [ref=e239]: and join one of thousands of communities.
+      - link "×" [ref=e240] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e242]:
+      - paragraph
+      - generic [ref=e243]:
+        - button "upvote" [ref=e244] [cursor=pointer]
+        - generic "38" [ref=e245]
+        - button "downvote" [ref=e246] [cursor=pointer]
+      - link [ref=e247] [cursor=pointer]:
+        - /url: /r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - paragraph [ref=e250]:
+            - link "Visiting Irvine what restaurant to try?" [ref=e251] [cursor=pointer]:
+              - /url: /r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/
+            - link "self.irvine" [ref=e252] [cursor=pointer]:
+              - /url: /r/irvine/
+          - paragraph [ref=e253]:
+            - text: submitted
+            - time [ref=e254]: 10 months ago
+            - text: by
+            - link "chicken_legs_mcgee" [ref=e255] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/chicken_legs_mcgee
+        - paragraph [ref=e260]: I’m open to any restaurant other than Javier’s. Thanks in advance
+        - list [ref=e261]:
+          - listitem [ref=e262]:
+            - link "63 comments" [ref=e263] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/
+          - listitem [ref=e264]:
+            - link "share" [ref=e265] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e266]:
+            - link "save" [ref=e267] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e268]:
+            - link "hide" [ref=e271] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e272]:
+            - link "report" [ref=e273] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e274]:
+      - generic [ref=e275]: all 63 comments
+      - generic [ref=e277]:
+        - text: "sorted by:"
+        - generic [ref=e278]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e281] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e282]
+        - generic [ref=e283]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e284]
+          - paragraph [ref=e285]: Post a comment!
+          - generic [ref=e287]: Create an account
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - paragraph
+          - generic [ref=e290]:
+            - button "upvote" [ref=e291] [cursor=pointer]
+            - button "downvote" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - paragraph [ref=e294]:
+              - link "[–]" [ref=e295] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Waffulz4026" [ref=e296] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Waffulz4026
+              - text: • • 31 points •
+              - time [ref=e297]: 10 months ago
+            - paragraph [ref=e301]: East Coast Bagel, those fools have been doing it for decades
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - link "permalink" [ref=e304] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfssu6/
+              - listitem [ref=e305]:
+                - link "embed" [ref=e306] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e307]:
+                - link "save" [ref=e308] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e309]:
+                - link "report" [ref=e310] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e311]:
+                - link "reply" [ref=e312] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - paragraph
+              - generic [ref=e316]:
+                - button "upvote" [ref=e317] [cursor=pointer]
+                - button "downvote" [ref=e318] [cursor=pointer]
+              - generic [ref=e319]:
+                - paragraph [ref=e320]:
+                  - link "[–]" [ref=e321] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "TheBeagleFather" [ref=e322] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/TheBeagleFather
+                  - text: • • 1 point •
+                  - time [ref=e323]: 5 months ago
+                - paragraph [ref=e327]: The same workers who work so hard and have an insane system going down strong
+                - list [ref=e328]:
+                  - listitem [ref=e329]:
+                    - link "permalink" [ref=e330] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/nkixhs1/
+                  - listitem [ref=e331]:
+                    - link "embed" [ref=e332] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e333]:
+                    - link "save" [ref=e334] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e335]:
+                    - link "parent" [ref=e336] [cursor=pointer]:
+                      - /url: "#mvfssu6"
+                  - listitem [ref=e337]:
+                    - link "report" [ref=e338] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e339]:
+                    - link "reply" [ref=e340] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e341]:
+              - paragraph
+              - generic [ref=e342]:
+                - button "upvote" [ref=e343] [cursor=pointer]
+                - button "downvote" [ref=e344] [cursor=pointer]
+              - generic [ref=e345]:
+                - paragraph [ref=e346]:
+                  - link "[–]" [ref=e347] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Global_Ad5265" [ref=e348] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Global_Ad5265
+                  - text: • • 1 point •
+                  - time [ref=e349]: 2 months ago
+                - paragraph [ref=e353]: I’ve seen those dudes on a regular basis since I was a kid
+                - list [ref=e354]:
+                  - listitem [ref=e355]:
+                    - link "permalink" [ref=e356] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/o24z2ub/
+                  - listitem [ref=e357]:
+                    - link "embed" [ref=e358] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e359]:
+                    - link "save" [ref=e360] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e361]:
+                    - link "parent" [ref=e362] [cursor=pointer]:
+                      - /url: "#mvfssu6"
+                  - listitem [ref=e363]:
+                    - link "report" [ref=e364] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e365]:
+                    - link "reply" [ref=e366] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e367]:
+          - paragraph
+          - generic [ref=e368]:
+            - button "upvote" [ref=e369] [cursor=pointer]
+            - button "downvote" [ref=e370] [cursor=pointer]
+          - generic [ref=e371]:
+            - paragraph [ref=e372]:
+              - link "[–]" [ref=e373] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "somethingdotdot" [ref=e374] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/somethingdotdot
+              - text: • • 55 points •
+              - time [ref=e375]: 10 months ago
+            - generic [ref=e378]:
+              - paragraph [ref=e379]: "For american/european: vaca (tapas), water grill (plateau royale/ seafood platter), maestros (steak), folks (pizza), hammer burger (double smash burger)"
+              - paragraph [ref=e380]: "For mexican: que vida tacos (Cali burrito), el toro bravo tortilleria (carne asada burrito/chicharrones taco/combo plate), taco stand (cali or mar yi terra burrito/tacos)"
+              - paragraph [ref=e381]: "For Asian: four seas (Chinese breakfast; beef and pickle sandwich), hanuman Thai (pad Thai, fried chicken), meizhou dong po (non-Peking duck/non-seafood dishes; better for dishes with some Szechuan origin as the restaurant originated from there), pickles banh mi (pork belly banh mi), quan mii (banh xeo), nam giao (vietnamese catfish), sushi koto (Hokkaido donburi), otooro bar (handrolls), kiyo (deluxe chirashi/salmon ikura don), otooro (omakase; heard the Irvine location isn’t the best though)"
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - link "permalink" [ref=e384] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd2rgb/
+              - listitem [ref=e385]:
+                - link "embed" [ref=e386] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e387]:
+                - link "save" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e389]:
+                - link "report" [ref=e390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e391]:
+                - link "reply" [ref=e392] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - paragraph
+              - generic [ref=e396]:
+                - button "upvote" [ref=e397] [cursor=pointer]
+                - button "downvote" [ref=e398] [cursor=pointer]
+              - generic [ref=e399]:
+                - paragraph [ref=e400]:
+                  - link "[–]" [ref=e401] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "saltydotco" [ref=e402] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/saltydotco
+                  - text: • • 20 points •
+                  - time [ref=e403]: 10 months ago
+                - paragraph [ref=e407]: This guy Irvines
+                - list [ref=e408]:
+                  - listitem [ref=e409]:
+                    - link "permalink" [ref=e410] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfz7hm/
+                  - listitem [ref=e411]:
+                    - link "embed" [ref=e412] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e413]:
+                    - link "save" [ref=e414] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e415]:
+                    - link "parent" [ref=e416] [cursor=pointer]:
+                      - /url: "#mvd2rgb"
+                  - listitem [ref=e417]:
+                    - link "report" [ref=e418] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e419]:
+                    - link "reply" [ref=e420] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e421]:
+              - paragraph
+              - generic [ref=e422]:
+                - button "upvote" [ref=e423] [cursor=pointer]
+                - button "downvote" [ref=e424] [cursor=pointer]
+              - generic [ref=e425]:
+                - paragraph [ref=e426]:
+                  - link "[–]" [ref=e427] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "ieatbabies420" [ref=e428] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/ieatbabies420
+                  - text: • • 3 points •
+                  - time [ref=e429]: 10 months ago
+                - paragraph [ref=e433]: Any thoughts on where to get a good fish burrito?
+                - list [ref=e434]:
+                  - listitem [ref=e435]:
+                    - link "permalink" [ref=e436] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvhvn6w/
+                  - listitem [ref=e437]:
+                    - link "embed" [ref=e438] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e439]:
+                    - link "save" [ref=e440] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e441]:
+                    - link "parent" [ref=e442] [cursor=pointer]:
+                      - /url: "#mvd2rgb"
+                  - listitem [ref=e443]:
+                    - link "report" [ref=e444] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e445]:
+                    - link "reply" [ref=e446] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - paragraph
+                  - generic [ref=e450]:
+                    - button "upvote" [ref=e451] [cursor=pointer]
+                    - button "downvote" [ref=e452] [cursor=pointer]
+                  - generic [ref=e453]:
+                    - paragraph [ref=e454]:
+                      - link "[–]" [ref=e455] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "somethingdotdot" [ref=e456] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/somethingdotdot
+                      - text: • • 6 points •
+                      - time [ref=e457]: 10 months ago
+                    - generic [ref=e460]:
+                      - paragraph [ref=e461]: Haven’t really specifically looked for one tbh, but I generally like the fish tacos at hole mole, so I’d imagine they could do a fish burrito pretty well. If you’re up north a bit more, taco nazo and Baja cali fish and tacos aren’t bad either. And honestly I like rubio’s fish tacos, not sure what their situation is currently with their bankruptcy, but I really like their picante salsa and Diablo hot sauce with the fish tacos
+                      - paragraph [ref=e462]: I would generally look for more mid-tier places that really specialize in fish tacos rather than taco trucks for these—usually won’t have the best tripas/cabeza/al pastor/etc if their fish is fresh from my experience
+                    - list [ref=e463]:
+                      - listitem [ref=e464]:
+                        - link "permalink" [ref=e465] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvi30es/
+                      - listitem [ref=e466]:
+                        - link "embed" [ref=e467] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e468]:
+                        - link "save" [ref=e469] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e470]:
+                        - link "parent" [ref=e471] [cursor=pointer]:
+                          - /url: "#mvhvn6w"
+                      - listitem [ref=e472]:
+                        - link "report" [ref=e473] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e474]:
+                        - link "reply" [ref=e475] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                - generic [ref=e476]:
+                  - paragraph
+                  - generic [ref=e477]:
+                    - button "upvote" [ref=e478] [cursor=pointer]
+                    - button "downvote" [ref=e479] [cursor=pointer]
+                  - generic [ref=e480]:
+                    - paragraph [ref=e481]:
+                      - link "[–]" [ref=e482] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Recent-Measurement86" [ref=e483] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Recent-Measurement86
+                      - text: • • 2 points •
+                      - time [ref=e484]: 10 months ago
+                    - paragraph [ref=e488]: Baja Fish Tacos just opened a location in Irvine. It’s not a chain but it’s not like family owned either. They’ve got a handful of locales throughout OC either way they got the best fish tacos I’ve had
+                    - list [ref=e489]:
+                      - listitem [ref=e490]:
+                        - link "permalink" [ref=e491] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvmb08v/
+                      - listitem [ref=e492]:
+                        - link "embed" [ref=e493] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e494]:
+                        - link "save" [ref=e495] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e496]:
+                        - link "parent" [ref=e497] [cursor=pointer]:
+                          - /url: "#mvhvn6w"
+                      - listitem [ref=e498]:
+                        - link "report" [ref=e499] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e500]:
+                        - link "reply" [ref=e501] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                - generic [ref=e502]:
+                  - paragraph
+                  - generic [ref=e503]:
+                    - button "upvote" [ref=e504] [cursor=pointer]
+                    - button "downvote" [ref=e505] [cursor=pointer]
+                  - generic [ref=e506]:
+                    - paragraph [ref=e507]:
+                      - link "[–]" [ref=e508] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "blazefreak" [ref=e509] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/blazefreak
+                      - text: • • 1 point •
+                      - time [ref=e510]: 5 months ago
+                    - paragraph [ref=e514]: idk if youre still asking for fish burrito but i like the one from Hole Mole. They are everywhere around north OC.
+                    - list [ref=e515]:
+                      - listitem [ref=e516]:
+                        - link "permalink" [ref=e517] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/nnvnnfu/
+                      - listitem [ref=e518]:
+                        - link "embed" [ref=e519] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e520]:
+                        - link "save" [ref=e521] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e522]:
+                        - link "parent" [ref=e523] [cursor=pointer]:
+                          - /url: "#mvhvn6w"
+                      - listitem [ref=e524]:
+                        - link "report" [ref=e525] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e526]:
+                        - link "reply" [ref=e527] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e528]:
+              - paragraph
+              - paragraph [ref=e530]:
+                - link "[+] ah" [ref=e531] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "CaseOdd6066" [ref=e532] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/CaseOdd6066
+                - text: comment score below threshold • • •
+                - link "(2 children)" [ref=e533] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - text: ah • • • ah • • •
+        - generic [ref=e534]:
+          - paragraph
+          - generic [ref=e535]:
+            - button "upvote" [ref=e536] [cursor=pointer]
+            - button "downvote" [ref=e537] [cursor=pointer]
+          - generic [ref=e538]:
+            - paragraph [ref=e539]:
+              - link "[–]" [ref=e540] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dreemwerks" [ref=e541] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dreemwerks
+              - text: • • 19 points •
+              - time [ref=e542]: 10 months ago
+            - paragraph [ref=e546]: Walnut and Jeffrey taco stand
+            - list [ref=e547]:
+              - listitem [ref=e548]:
+                - link "permalink" [ref=e549] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd62hi/
+              - listitem [ref=e550]:
+                - link "embed" [ref=e551] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e552]:
+                - link "save" [ref=e553] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e554]:
+                - link "report" [ref=e555] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e556]:
+                - link "reply" [ref=e557] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e560]:
+            - paragraph
+            - generic [ref=e561]:
+              - button "upvote" [ref=e562] [cursor=pointer]
+              - button "downvote" [ref=e563] [cursor=pointer]
+            - generic [ref=e564]:
+              - paragraph [ref=e565]:
+                - link "[–]" [ref=e566] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "StoryLover" [ref=e567] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/StoryLover
+                - text: • • 2 points •
+                - time [ref=e568]: 10 months ago
+              - paragraph [ref=e572]: Do you know what days and hours they are open?
+              - list [ref=e573]:
+                - listitem [ref=e574]:
+                  - link "permalink" [ref=e575] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdq0ga/
+                - listitem [ref=e576]:
+                  - link "embed" [ref=e577] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e578]:
+                  - link "save" [ref=e579] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e580]:
+                  - link "parent" [ref=e581] [cursor=pointer]:
+                    - /url: "#mvd62hi"
+                - listitem [ref=e582]:
+                  - link "report" [ref=e583] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e584]:
+                  - link "reply" [ref=e585] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e588]:
+              - paragraph
+              - generic [ref=e589]:
+                - button "upvote" [ref=e590] [cursor=pointer]
+                - button "downvote" [ref=e591] [cursor=pointer]
+              - generic [ref=e592]:
+                - paragraph [ref=e593]:
+                  - link "[–]" [ref=e594] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "dreemwerks" [ref=e595] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/dreemwerks
+                  - text: • • 3 points •
+                  - time [ref=e596]: 10 months ago
+                - paragraph [ref=e600]: Usually anytime after 7pm.
+                - list [ref=e601]:
+                  - listitem [ref=e602]:
+                    - link "permalink" [ref=e603] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvf22qk/
+                  - listitem [ref=e604]:
+                    - link "embed" [ref=e605] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e606]:
+                    - link "save" [ref=e607] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e608]:
+                    - link "parent" [ref=e609] [cursor=pointer]:
+                      - /url: "#mvdq0ga"
+                  - listitem [ref=e610]:
+                    - link "report" [ref=e611] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e612]:
+                    - link "reply" [ref=e613] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e614]:
+          - paragraph
+          - generic [ref=e615]:
+            - button "upvote" [ref=e616] [cursor=pointer]
+            - button "downvote" [ref=e617] [cursor=pointer]
+          - generic [ref=e618]:
+            - paragraph [ref=e619]:
+              - link "[–]" [ref=e620] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "IGiveAChuck" [ref=e621] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/IGiveAChuck
+              - text: • • 4 points •
+              - time [ref=e622]: 10 months ago
+            - paragraph [ref=e626]: Tasty Spot Cafe for Chinese food. Marugame Udon and Marufuku Ramen. Izakaya Osen for fancy sushi. Eat's Sushi in Costa Mesa for cheaper sushi. Paradise Dynasty in Costa Mesa for XLB (better than Ding Tai Fung IMHO). Burnt Crumbs for soufflé pancakes and brunch stuff.
+            - list [ref=e627]:
+              - listitem [ref=e628]:
+                - link "permalink" [ref=e629] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvg4k6n/
+              - listitem [ref=e630]:
+                - link "embed" [ref=e631] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e632]:
+                - link "save" [ref=e633] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e634]:
+                - link "report" [ref=e635] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e636]:
+                - link "reply" [ref=e637] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e638]:
+          - paragraph
+          - generic [ref=e639]:
+            - button "upvote" [ref=e640] [cursor=pointer]
+            - button "downvote" [ref=e641] [cursor=pointer]
+          - generic [ref=e642]:
+            - paragraph [ref=e643]:
+              - link "[–]" [ref=e644] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Terrible_Record5099" [ref=e645] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Terrible_Record5099
+              - text: • • 7 points •
+              - time [ref=e646]: 10 months ago
+            - paragraph [ref=e650]: A&J beef noodle soup + fried dumplings. Then get fruit tea from HeyTea across the street. Perfect day
+            - list [ref=e651]:
+              - listitem [ref=e652]:
+                - link "permalink" [ref=e653] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mveme29/
+              - listitem [ref=e654]:
+                - link "embed" [ref=e655] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e656]:
+                - link "save" [ref=e657] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e658]:
+                - link "report" [ref=e659] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e660]:
+                - link "reply" [ref=e661] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e662]:
+          - paragraph
+          - generic [ref=e663]:
+            - button "upvote" [ref=e664] [cursor=pointer]
+            - button "downvote" [ref=e665] [cursor=pointer]
+          - generic [ref=e666]:
+            - paragraph [ref=e667]:
+              - link "[–]" [ref=e668] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "felicianewbooty" [ref=e669] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/felicianewbooty
+              - text: • • 14 points •
+              - time [ref=e670]: 10 months ago
+            - paragraph [ref=e674]: If it has to be in Irvine either sup noodle bar or fukada. Whenever I’m visiting home I usually eat at those two spots
+            - list [ref=e675]:
+              - listitem [ref=e676]:
+                - link "permalink" [ref=e677] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdcw3l/
+              - listitem [ref=e678]:
+                - link "embed" [ref=e679] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e680]:
+                - link "save" [ref=e681] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e682]:
+                - link "report" [ref=e683] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e684]:
+                - link "reply" [ref=e685] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e687]:
+            - generic [ref=e688]:
+              - paragraph
+              - generic [ref=e689]:
+                - button "upvote" [ref=e690] [cursor=pointer]
+                - button "downvote" [ref=e691] [cursor=pointer]
+              - generic [ref=e692]:
+                - paragraph [ref=e693]:
+                  - link "[–]" [ref=e694] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "ThaiJohnnyDepp" [ref=e695] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/ThaiJohnnyDepp
+                  - text: • • 6 points •
+                  - time [ref=e696]: 10 months ago
+                - paragraph [ref=e700]: Fukada is a must.
+                - list [ref=e701]:
+                  - listitem [ref=e702]:
+                    - link "permalink" [ref=e703] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdfl2d/
+                  - listitem [ref=e704]:
+                    - link "embed" [ref=e705] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e706]:
+                    - link "save" [ref=e707] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e708]:
+                    - link "parent" [ref=e709] [cursor=pointer]:
+                      - /url: "#mvdcw3l"
+                  - listitem [ref=e710]:
+                    - link "report" [ref=e711] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e712]:
+                    - link "reply" [ref=e713] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e716]:
+                - paragraph
+                - generic [ref=e717]:
+                  - button "upvote" [ref=e718] [cursor=pointer]
+                  - button "downvote" [ref=e719] [cursor=pointer]
+                - generic [ref=e720]:
+                  - paragraph [ref=e721]:
+                    - link "[–]" [ref=e722] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "BurgersFriesShake" [ref=e723] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/BurgersFriesShake
+                    - text: • • 0 points •
+                    - time [ref=e724]: 10 months ago
+                  - paragraph [ref=e728]: Healthy too!
+                  - list [ref=e729]:
+                    - listitem [ref=e730]:
+                      - link "permalink" [ref=e731] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvez1ih/
+                    - listitem [ref=e732]:
+                      - link "embed" [ref=e733] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e734]:
+                      - link "save" [ref=e735] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e736]:
+                      - link "parent" [ref=e737] [cursor=pointer]:
+                        - /url: "#mvdfl2d"
+                    - listitem [ref=e738]:
+                      - link "report" [ref=e739] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e740]:
+                      - link "reply" [ref=e741] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e742]:
+              - paragraph
+              - generic [ref=e743]:
+                - button "upvote" [ref=e744] [cursor=pointer]
+                - button "downvote" [ref=e745] [cursor=pointer]
+              - generic [ref=e746]:
+                - paragraph [ref=e747]:
+                  - link "[–]" [ref=e748] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Special-Original-215" [ref=e749] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Special-Original-215
+                  - text: • • 0 points •
+                  - time [ref=e750]: 10 months ago
+                - paragraph [ref=e754]: Fukada! Just a note it's a joint, not really a restaurant. No table service or any service. The food is excellent
+                - list [ref=e755]:
+                  - listitem [ref=e756]:
+                    - link "permalink" [ref=e757] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfvfef/
+                  - listitem [ref=e758]:
+                    - link "embed" [ref=e759] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e760]:
+                    - link "save" [ref=e761] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e762]:
+                    - link "parent" [ref=e763] [cursor=pointer]:
+                      - /url: "#mvdcw3l"
+                  - listitem [ref=e764]:
+                    - link "report" [ref=e765] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e766]:
+                    - link "reply" [ref=e767] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e770]:
+                - paragraph
+                - generic [ref=e771]:
+                  - button "upvote" [ref=e772] [cursor=pointer]
+                  - button "downvote" [ref=e773] [cursor=pointer]
+                - generic [ref=e774]:
+                  - paragraph [ref=e775]:
+                    - link "[–]" [ref=e776] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "aki-kinmokusei" [ref=e777] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/aki-kinmokusei
+                    - text: • • 3 points •
+                    - time [ref=e778]: 10 months ago
+                  - paragraph [ref=e782]:
+                    - text: Fukada
+                    - emphasis [ref=e783]: is
+                    - text: a restaurant. Prior to COVID they used to provide table service but post-COVID they completely shifted their model to takeout only and never went back to their full-service model for some reason. There are a lot of people including myself who'd dined there before COVID who want them to return to their old full table service model again.
+                  - list [ref=e784]:
+                    - listitem [ref=e785]:
+                      - link "permalink" [ref=e786] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvh4mri/
+                    - listitem [ref=e787]:
+                      - link "embed" [ref=e788] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e789]:
+                      - link "save" [ref=e790] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e791]:
+                      - link "parent" [ref=e792] [cursor=pointer]:
+                        - /url: "#mvfvfef"
+                    - listitem [ref=e793]:
+                      - link "report" [ref=e794] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e795]:
+                      - link "reply" [ref=e796] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e799]:
+                  - paragraph
+                  - generic [ref=e800]:
+                    - button "upvote" [ref=e801] [cursor=pointer]
+                    - button "downvote" [ref=e802] [cursor=pointer]
+                  - generic [ref=e803]:
+                    - paragraph [ref=e804]:
+                      - link "[–]" [ref=e805] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Special-Original-215" [ref=e806] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Special-Original-215
+                      - text: • • 1 point •
+                      - time [ref=e807]: 10 months ago
+                    - generic [ref=e810]:
+                      - paragraph [ref=e811]: I agree but OP said restaurant so I just wanted to clear up that the current Fukada is a joint
+                      - paragraph [ref=e812]: I miss their back room where you could see the fresh made noodles
+                    - list [ref=e813]:
+                      - listitem [ref=e814]:
+                        - link "permalink" [ref=e815] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvha73n/
+                      - listitem [ref=e816]:
+                        - link "embed" [ref=e817] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e818]:
+                        - link "save" [ref=e819] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e820]:
+                        - link "parent" [ref=e821] [cursor=pointer]:
+                          - /url: "#mvh4mri"
+                      - listitem [ref=e822]:
+                        - link "report" [ref=e823] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e824]:
+                        - link "reply" [ref=e825] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e826]:
+          - paragraph
+          - generic [ref=e827]:
+            - button "upvote" [ref=e828] [cursor=pointer]
+            - button "downvote" [ref=e829] [cursor=pointer]
+          - generic [ref=e830]:
+            - paragraph [ref=e831]:
+              - link "[–]" [ref=e832] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "m1sora" [ref=e833] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/m1sora
+              - text: • • 3 points •
+              - time [ref=e834]: 10 months ago
+            - paragraph [ref=e838]: sup noodle so bomb. hanuman thai is incredible. i miss both everyday
+            - list [ref=e839]:
+              - listitem [ref=e840]:
+                - link "permalink" [ref=e841] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvh63e5/
+              - listitem [ref=e842]:
+                - link "embed" [ref=e843] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e844]:
+                - link "save" [ref=e845] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e846]:
+                - link "report" [ref=e847] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e848]:
+                - link "reply" [ref=e849] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e850]:
+          - paragraph
+          - generic [ref=e851]:
+            - button "upvote" [ref=e852] [cursor=pointer]
+            - button "downvote" [ref=e853] [cursor=pointer]
+          - generic [ref=e854]:
+            - paragraph [ref=e855]:
+              - link "[–]" [ref=e856] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Icy_Turnover_2390" [ref=e857] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Icy_Turnover_2390
+              - text: • • 10 points •
+              - time [ref=e858]: 10 months ago
+            - generic [ref=e861]:
+              - paragraph [ref=e862]: Der Weinerschnitzel.
+              - paragraph [ref=e863]: An opulent composition of haute comfort cuisine, this chili-laden frankfurter is a study in layered indulgence and textural juxtaposition. At its foundation lies a pillowy, butter-brushed brioche bun—gently toasted to achieve a Maillard-kissed exterior while retaining an ethereal crumb, serving as both vessel and canvas.
+              - paragraph [ref=e864]: "Cradled within, the sausage: a hand-crafted amalgam of coarsely ground heritage pork and beef, soused in a proprietary spice blend, then slow-poached and gently charred to coax forth its latent smokiness. It delivers a snap of casing that yields to a succulence evocative of a well-rested côte de bœuf."
+              - paragraph [ref=e865]: Cloaked in a ragoût of chili—an umami-forward, long-braised affair of heirloom legumes, dry-aged beef, San Marzano tomatoes, and smoked paprika—each spoonful resonates with a depth reminiscent of a Provençal daube. This mélange is finished with a whisper of bitter cacao and espresso to round its complexity.
+              - paragraph [ref=e866]: A final garnish of aged cheddar espuma and a brunoise of pickled shallot provides both creaminess and acidity, elevating the composition with balance and contrast. A restrained scattering of micro chives completes the plating—aromatic, precise, and deliberate.
+              - paragraph [ref=e867]: Far beyond mere street fare, this is a reimagined classic—equal parts nostalgic and nouveau, served with the gravitas of a chef’s tasting menu centerpiece.
+            - list [ref=e868]:
+              - listitem [ref=e869]:
+                - link "permalink" [ref=e870] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvf1x5u/
+              - listitem [ref=e871]:
+                - link "embed" [ref=e872] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e873]:
+                - link "save" [ref=e874] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e875]:
+                - link "report" [ref=e876] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e877]:
+                - link "reply" [ref=e878] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e880]:
+            - generic [ref=e881]:
+              - paragraph
+              - generic [ref=e882]:
+                - button "upvote" [ref=e883] [cursor=pointer]
+                - button "downvote" [ref=e884] [cursor=pointer]
+              - generic [ref=e885]:
+                - paragraph [ref=e886]:
+                  - link "[–]" [ref=e887] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Silverlake90039" [ref=e888] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Silverlake90039
+                  - text: • • 3 points •
+                  - time [ref=e889]: 10 months ago
+                - paragraph [ref=e893]: You win!
+                - list [ref=e894]:
+                  - listitem [ref=e895]:
+                    - link "permalink" [ref=e896] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfdqt5/
+                  - listitem [ref=e897]:
+                    - link "embed" [ref=e898] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e899]:
+                    - link "save" [ref=e900] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e901]:
+                    - link "parent" [ref=e902] [cursor=pointer]:
+                      - /url: "#mvf1x5u"
+                  - listitem [ref=e903]:
+                    - link "report" [ref=e904] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e905]:
+                    - link "reply" [ref=e906] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e907]:
+              - paragraph
+              - generic [ref=e908]:
+                - button "upvote" [ref=e909] [cursor=pointer]
+                - button "downvote" [ref=e910] [cursor=pointer]
+              - generic [ref=e911]:
+                - paragraph [ref=e912]:
+                  - link "[–]" [ref=e913] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "SAGEPATCHWORK" [ref=e914] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/SAGEPATCHWORK
+                  - text: • • 4 points •
+                  - time [ref=e915]: 10 months ago
+                - paragraph [ref=e919]: Totally underrated comment.
+                - list [ref=e920]:
+                  - listitem [ref=e921]:
+                    - link "permalink" [ref=e922] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvgoovf/
+                  - listitem [ref=e923]:
+                    - link "embed" [ref=e924] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e925]:
+                    - link "save" [ref=e926] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e927]:
+                    - link "parent" [ref=e928] [cursor=pointer]:
+                      - /url: "#mvf1x5u"
+                  - listitem [ref=e929]:
+                    - link "report" [ref=e930] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e931]:
+                    - link "reply" [ref=e932] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e933]:
+              - paragraph
+              - generic [ref=e934]:
+                - button "upvote" [ref=e935] [cursor=pointer]
+                - button "downvote" [ref=e936] [cursor=pointer]
+              - generic [ref=e937]:
+                - paragraph [ref=e938]:
+                  - link "[–]" [ref=e939] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "DYRTYDAVE" [ref=e940] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/DYRTYDAVE
+                  - text: • • 5 points •
+                  - time [ref=e941]: 10 months ago
+                - paragraph [ref=e945]: A true delight to the senses!
+                - list [ref=e946]:
+                  - listitem [ref=e947]:
+                    - link "permalink" [ref=e948] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvhf22p/
+                  - listitem [ref=e949]:
+                    - link "embed" [ref=e950] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e951]:
+                    - link "save" [ref=e952] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e953]:
+                    - link "parent" [ref=e954] [cursor=pointer]:
+                      - /url: "#mvf1x5u"
+                  - listitem [ref=e955]:
+                    - link "report" [ref=e956] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e957]:
+                    - link "reply" [ref=e958] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e959]:
+              - paragraph
+              - generic [ref=e960]:
+                - button "upvote" [ref=e961] [cursor=pointer]
+                - button "downvote" [ref=e962] [cursor=pointer]
+              - generic [ref=e963]:
+                - paragraph [ref=e964]:
+                  - link "[–]" [ref=e965] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Zaranius" [ref=e966] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Zaranius
+                  - text: • • 1 point •
+                  - time [ref=e967]: 3 months ago
+                - paragraph [ref=e971]: You totally used AI for this huh? xD
+                - list [ref=e972]:
+                  - listitem [ref=e973]:
+                    - link "permalink" [ref=e974] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/nw4nxil/
+                  - listitem [ref=e975]:
+                    - link "embed" [ref=e976] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e977]:
+                    - link "save" [ref=e978] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e979]:
+                    - link "parent" [ref=e980] [cursor=pointer]:
+                      - /url: "#mvf1x5u"
+                  - listitem [ref=e981]:
+                    - link "report" [ref=e982] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e983]:
+                    - link "reply" [ref=e984] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e985]:
+          - paragraph
+          - generic [ref=e986]:
+            - button "upvote" [ref=e987] [cursor=pointer]
+            - button "downvote" [ref=e988] [cursor=pointer]
+          - generic [ref=e989]:
+            - paragraph [ref=e990]:
+              - link "[–]" [ref=e991] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "GlitteringPause8" [ref=e992] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/GlitteringPause8
+              - text: • • 3 points •
+              - time [ref=e993]: 10 months ago
+              - time [ref=e994]: "*"
+            - paragraph [ref=e998]: Nep cafe for brunch, sup noodle in Irvine itself, but Irvine doesn’t have good food in general imo, lots of chains. If you can, Westminster area for good viet food or Santa Ana/anaheim for good Mexican food. Really depends what type of food you’re looking for and the type of place (casual, fancy, aesthetic, authentic, cocktail centric or no etc)
+            - list [ref=e999]:
+              - listitem [ref=e1000]:
+                - link "permalink" [ref=e1001] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfpuio/
+              - listitem [ref=e1002]:
+                - link "embed" [ref=e1003] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1004]:
+                - link "save" [ref=e1005] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1006]:
+                - link "report" [ref=e1007] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1008]:
+                - link "reply" [ref=e1009] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1010]:
+          - paragraph
+          - generic [ref=e1011]:
+            - button "upvote" [ref=e1012] [cursor=pointer]
+            - button "downvote" [ref=e1013] [cursor=pointer]
+          - generic [ref=e1014]:
+            - paragraph [ref=e1015]:
+              - link "[–]" [ref=e1016] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "MC_archer747" [ref=e1017] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/MC_archer747
+              - generic "UC Irvine" [ref=e1018]: "- UC Irvine"
+              - text: • • 2 points •
+              - time [ref=e1019]: 10 months ago
+            - generic [ref=e1022]:
+              - paragraph [ref=e1023]: I don't eat much in Irvine, but from my experiences the Thai place along Jeffery and Alton is worth trying, if you're into thai food.
+              - paragraph [ref=e1024]: Mag's Donuts & Bakery has a bomb mango smoothie and great selection of pastries
+              - paragraph [ref=e1025]: East Coast Bagel has the best smoothie hands down.
+              - paragraph [ref=e1026]: Its a bit north, but lazy dog cafe is decent imo.
+              - paragraph [ref=e1027]: For indian food, Southern Spice and Annapoorna are great options but imo those are the only places here. You'd have to go to tustin for better indian food, just my opinion though so.
+            - list [ref=e1028]:
+              - listitem [ref=e1029]:
+                - link "permalink" [ref=e1030] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvji2pm/
+              - listitem [ref=e1031]:
+                - link "embed" [ref=e1032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1033]:
+                - link "save" [ref=e1034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1035]:
+                - link "report" [ref=e1036] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1037]:
+                - link "reply" [ref=e1038] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1039]:
+          - paragraph
+          - generic [ref=e1040]:
+            - button "upvote" [ref=e1041] [cursor=pointer]
+            - button "downvote" [ref=e1042] [cursor=pointer]
+          - generic [ref=e1043]:
+            - paragraph [ref=e1044]:
+              - link "[–]" [ref=e1045] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "karaethon1" [ref=e1046] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/karaethon1
+              - text: • • 6 points •
+              - time [ref=e1047]: 10 months ago
+            - generic [ref=e1050]:
+              - paragraph [ref=e1051]: If it has to be in the actual Irvine city limits there are very few unique, non-chain restaurants.
+              - paragraph [ref=e1052]: It was mentioned above but Solstice is probably the best choice within the city limits, and as far as I know not a chain.
+              - paragraph [ref=e1053]: If it’s within Irvine and better chains are acceptable, Houston’s for American, Baekjeong for Korean BBQ, ootoro for Sushi
+              - paragraph [ref=e1054]: If you’re able to go to surrounding cities, Vaca or Broadway by Amar Santana, Chaak Kitchen, omg omakase by Gino, Trust, Darkroom
+              - paragraph [ref=e1055]: I actually highly recommend darkroom as it is under appreciated
+            - list [ref=e1056]:
+              - listitem [ref=e1057]:
+                - link "permalink" [ref=e1058] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd9fkz/
+              - listitem [ref=e1059]:
+                - link "embed" [ref=e1060] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1061]:
+                - link "save" [ref=e1062] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1063]:
+                - link "report" [ref=e1064] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1065]:
+                - link "reply" [ref=e1066] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1069]:
+            - paragraph
+            - generic [ref=e1070]:
+              - button "upvote" [ref=e1071] [cursor=pointer]
+              - button "downvote" [ref=e1072] [cursor=pointer]
+            - generic [ref=e1073]:
+              - paragraph [ref=e1074]:
+                - link "[–]" [ref=e1075] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "charitikko" [ref=e1076] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/charitikko
+                - text: • • 1 point •
+                - time [ref=e1077]: 10 months ago
+              - paragraph [ref=e1081]: waaa expensive
+              - list [ref=e1082]:
+                - listitem [ref=e1083]:
+                  - link "permalink" [ref=e1084] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mxc8cpr/
+                - listitem [ref=e1085]:
+                  - link "embed" [ref=e1086] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1087]:
+                  - link "save" [ref=e1088] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1089]:
+                  - link "parent" [ref=e1090] [cursor=pointer]:
+                    - /url: "#mvd9fkz"
+                - listitem [ref=e1091]:
+                  - link "report" [ref=e1092] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1093]:
+                  - link "reply" [ref=e1094] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1095]:
+          - paragraph
+          - generic [ref=e1096]:
+            - button "upvote" [ref=e1097] [cursor=pointer]
+            - button "downvote" [ref=e1098] [cursor=pointer]
+          - generic [ref=e1099]:
+            - paragraph [ref=e1100]:
+              - link "[–]" [ref=e1101] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "execjet" [ref=e1102] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/execjet
+              - text: • • 3 points •
+              - time [ref=e1103]: 10 months ago
+            - paragraph [ref=e1107]: Oliver’s Trattoria has great Italian food and service and very romantic
+            - list [ref=e1108]:
+              - listitem [ref=e1109]:
+                - link "permalink" [ref=e1110] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdc6sd/
+              - listitem [ref=e1111]:
+                - link "embed" [ref=e1112] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1113]:
+                - link "save" [ref=e1114] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1115]:
+                - link "report" [ref=e1116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1117]:
+                - link "reply" [ref=e1118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1119]:
+          - paragraph
+          - generic [ref=e1120]:
+            - button "upvote" [ref=e1121] [cursor=pointer]
+            - button "downvote" [ref=e1122] [cursor=pointer]
+          - generic [ref=e1123]:
+            - paragraph [ref=e1124]:
+              - link "[–]" [ref=e1125] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Scary_Law8826" [ref=e1126] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Scary_Law8826
+              - text: • • 2 points •
+              - time [ref=e1127]: 10 months ago
+            - paragraph [ref=e1131]: Solstice
+            - list [ref=e1132]:
+              - listitem [ref=e1133]:
+                - link "permalink" [ref=e1134] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd5fxu/
+              - listitem [ref=e1135]:
+                - link "embed" [ref=e1136] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1137]:
+                - link "save" [ref=e1138] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1139]:
+                - link "report" [ref=e1140] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1141]:
+                - link "reply" [ref=e1142] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1143]:
+          - paragraph
+          - generic [ref=e1144]:
+            - button "upvote" [ref=e1145] [cursor=pointer]
+            - button "downvote" [ref=e1146] [cursor=pointer]
+          - generic [ref=e1147]:
+            - paragraph [ref=e1148]:
+              - link "[–]" [ref=e1149] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "thicc_wolverine" [ref=e1150] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/thicc_wolverine
+              - text: • • 1 point •
+              - time [ref=e1151]: 10 months ago
+            - generic [ref=e1154]:
+              - paragraph [ref=e1155]: Depends, what do you like?
+              - paragraph [ref=e1156]: Something fancy / $$$, "regular" level restaurant, or more fast casual?
+              - paragraph [ref=e1157]: Confined to Irvine or open to surrounding cities?
+            - list [ref=e1158]:
+              - listitem [ref=e1159]:
+                - link "permalink" [ref=e1160] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd1r3z/
+              - listitem [ref=e1161]:
+                - link "embed" [ref=e1162] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1163]:
+                - link "save" [ref=e1164] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1165]:
+                - link "report" [ref=e1166] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1167]:
+                - link "reply" [ref=e1168] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1169]:
+          - paragraph
+          - generic [ref=e1170]:
+            - button "upvote" [ref=e1171] [cursor=pointer]
+            - button "downvote" [ref=e1172] [cursor=pointer]
+          - generic [ref=e1173]:
+            - paragraph [ref=e1174]:
+              - link "[–]" [ref=e1175] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "duncakes" [ref=e1176] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/duncakes
+              - text: • • 1 point •
+              - time [ref=e1177]: 10 months ago
+            - paragraph [ref=e1181]: Please go to burnt crumbs, nothing like the breakfast menu
+            - list [ref=e1182]:
+              - listitem [ref=e1183]:
+                - link "permalink" [ref=e1184] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvg5qyi/
+              - listitem [ref=e1185]:
+                - link "embed" [ref=e1186] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1187]:
+                - link "save" [ref=e1188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1189]:
+                - link "report" [ref=e1190] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1191]:
+                - link "reply" [ref=e1192] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1193]:
+          - paragraph
+          - generic [ref=e1194]:
+            - button "upvote" [ref=e1195] [cursor=pointer]
+            - button "downvote" [ref=e1196] [cursor=pointer]
+          - generic [ref=e1197]:
+            - paragraph [ref=e1198]:
+              - link "[–]" [ref=e1199] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "gr8tdane24" [ref=e1200] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/gr8tdane24
+              - text: • • 1 point •
+              - time [ref=e1201]: 10 months ago
+            - paragraph [ref=e1205]: Didn’t see it mentioned yet, but I highly recommend Nice to Meet You Hot Pot
+            - list [ref=e1206]:
+              - listitem [ref=e1207]:
+                - link "permalink" [ref=e1208] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvg8oar/
+              - listitem [ref=e1209]:
+                - link "embed" [ref=e1210] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1211]:
+                - link "save" [ref=e1212] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1213]:
+                - link "report" [ref=e1214] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1215]:
+                - link "reply" [ref=e1216] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1217]:
+          - paragraph
+          - generic [ref=e1218]:
+            - button "upvote" [ref=e1219] [cursor=pointer]
+            - button "downvote" [ref=e1220] [cursor=pointer]
+          - generic [ref=e1221]:
+            - paragraph [ref=e1222]:
+              - link "[–]" [ref=e1223] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Stock-Pattern-8635" [ref=e1224] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Stock-Pattern-8635
+              - text: • • 1 point •
+              - time [ref=e1225]: 10 months ago
+            - paragraph [ref=e1229]: Yukdaejang, (korean, get the bossam and army stew) solstice (american), kingchops (taiwanese), kaju for korean tofu soup. I get Japanese food in Costa Mesa and westminster/fountain valley for vietnamese food so I don’t have irvine reccs for those two cuisines.
+            - list [ref=e1230]:
+              - listitem [ref=e1231]:
+                - link "permalink" [ref=e1232] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvhgt6d/
+              - listitem [ref=e1233]:
+                - link "embed" [ref=e1234] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1235]:
+                - link "save" [ref=e1236] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1237]:
+                - link "report" [ref=e1238] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1239]:
+                - link "reply" [ref=e1240] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1241]:
+          - paragraph
+          - generic [ref=e1242]:
+            - button "upvote" [ref=e1243] [cursor=pointer]
+            - button "downvote" [ref=e1244] [cursor=pointer]
+          - generic [ref=e1245]:
+            - paragraph [ref=e1246]:
+              - link "[–]" [ref=e1247] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Federal_Priority5746" [ref=e1248] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Federal_Priority5746
+              - text: • • 1 point •
+              - time [ref=e1249]: 10 months ago
+            - paragraph [ref=e1253]: Positnos is a super cool place!!
+            - list [ref=e1254]:
+              - listitem [ref=e1255]:
+                - link "permalink" [ref=e1256] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvif7rh/
+              - listitem [ref=e1257]:
+                - link "embed" [ref=e1258] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1259]:
+                - link "save" [ref=e1260] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1261]:
+                - link "report" [ref=e1262] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1263]:
+                - link "reply" [ref=e1264] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1265]:
+          - paragraph
+          - generic [ref=e1266]:
+            - button "upvote" [ref=e1267] [cursor=pointer]
+            - button "downvote" [ref=e1268] [cursor=pointer]
+          - generic [ref=e1269]:
+            - paragraph [ref=e1270]:
+              - link "[–]" [ref=e1271] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Flying_Dolphin72" [ref=e1272] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Flying_Dolphin72
+              - text: • • 1 point •
+              - time [ref=e1273]: 10 months ago
+            - paragraph [ref=e1277]: The Beachcomber at Crystal Cove if you can get a reservation for any meal. Unique experience.
+            - list [ref=e1278]:
+              - listitem [ref=e1279]:
+                - link "permalink" [ref=e1280] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvinxnu/
+              - listitem [ref=e1281]:
+                - link "embed" [ref=e1282] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1283]:
+                - link "save" [ref=e1284] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1285]:
+                - link "report" [ref=e1286] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1287]:
+                - link "reply" [ref=e1288] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1289]:
+          - paragraph
+          - generic [ref=e1290]:
+            - button "upvote" [ref=e1291] [cursor=pointer]
+            - button "downvote" [ref=e1292] [cursor=pointer]
+          - generic [ref=e1293]:
+            - paragraph [ref=e1294]:
+              - link "[–]" [ref=e1295] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "slowturtle31" [ref=e1296] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/slowturtle31
+              - text: • • 1 point •
+              - time [ref=e1297]: 10 months ago
+            - paragraph [ref=e1301]: menya hanabi!
+            - list [ref=e1302]:
+              - listitem [ref=e1303]:
+                - link "permalink" [ref=e1304] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvp75pd/
+              - listitem [ref=e1305]:
+                - link "embed" [ref=e1306] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1307]:
+                - link "save" [ref=e1308] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1309]:
+                - link "report" [ref=e1310] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1311]:
+                - link "reply" [ref=e1312] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1313]:
+          - paragraph
+          - generic [ref=e1314]:
+            - button "upvote" [ref=e1315] [cursor=pointer]
+            - button "downvote" [ref=e1316] [cursor=pointer]
+          - generic [ref=e1317]:
+            - paragraph [ref=e1318]:
+              - link "[–]" [ref=e1319] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Reddit_vialins3" [ref=e1320] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Reddit_vialins3
+              - text: • • 1 point •
+              - time [ref=e1321]: 10 months ago
+            - paragraph [ref=e1325]: HiroNori ramen. Michelin rated.
+            - list [ref=e1326]:
+              - listitem [ref=e1327]:
+                - link "permalink" [ref=e1328] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvqq9ab/
+              - listitem [ref=e1329]:
+                - link "embed" [ref=e1330] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1331]:
+                - link "save" [ref=e1332] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1333]:
+                - link "report" [ref=e1334] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1335]:
+                - link "reply" [ref=e1336] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1337]:
+          - paragraph
+          - generic [ref=e1338]:
+            - button "upvote" [ref=e1339] [cursor=pointer]
+            - button "downvote" [ref=e1340] [cursor=pointer]
+          - generic [ref=e1341]:
+            - paragraph [ref=e1342]:
+              - link "[–]" [ref=e1343] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Reddit_vialins3" [ref=e1344] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Reddit_vialins3
+              - text: • • 1 point •
+              - time [ref=e1345]: 10 months ago
+            - paragraph [ref=e1349]: Oishi’s AYCE hotpot
+            - list [ref=e1350]:
+              - listitem [ref=e1351]:
+                - link "permalink" [ref=e1352] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvqqs98/
+              - listitem [ref=e1353]:
+                - link "embed" [ref=e1354] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1355]:
+                - link "save" [ref=e1356] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1357]:
+                - link "report" [ref=e1358] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1359]:
+                - link "reply" [ref=e1360] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1361]:
+          - paragraph
+          - generic [ref=e1362]:
+            - button "upvote" [ref=e1363] [cursor=pointer]
+            - button "downvote" [ref=e1364] [cursor=pointer]
+          - generic [ref=e1365]:
+            - paragraph [ref=e1366]:
+              - link "[–]" [ref=e1367] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "AaronFrankTorres" [ref=e1368] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/AaronFrankTorres
+              - text: • • 1 point •
+              - time [ref=e1369]: 10 months ago
+            - paragraph [ref=e1373]: Dizzybird is a great fast-casual option.
+            - list [ref=e1374]:
+              - listitem [ref=e1375]:
+                - link "permalink" [ref=e1376] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvta0wr/
+              - listitem [ref=e1377]:
+                - link "embed" [ref=e1378] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1379]:
+                - link "save" [ref=e1380] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1381]:
+                - link "report" [ref=e1382] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1383]:
+                - link "reply" [ref=e1384] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1385]:
+          - paragraph
+          - generic [ref=e1386]:
+            - button "upvote" [ref=e1387] [cursor=pointer]
+            - button "downvote" [ref=e1388] [cursor=pointer]
+          - generic [ref=e1389]:
+            - paragraph [ref=e1390]:
+              - link "[–]" [ref=e1391] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Maximum_Guava9751" [ref=e1392] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Maximum_Guava9751
+              - text: • • 1 point •
+              - time [ref=e1393]: 10 months ago
+            - paragraph [ref=e1397]: Marufuku ramen
+            - list [ref=e1398]:
+              - listitem [ref=e1399]:
+                - link "permalink" [ref=e1400] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mw30rtn/
+              - listitem [ref=e1401]:
+                - link "embed" [ref=e1402] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1403]:
+                - link "save" [ref=e1404] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1405]:
+                - link "report" [ref=e1406] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1407]:
+                - link "reply" [ref=e1408] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1409]:
+          - paragraph
+          - generic [ref=e1410]:
+            - button "upvote" [ref=e1411] [cursor=pointer]
+            - button "downvote" [ref=e1412] [cursor=pointer]
+          - generic [ref=e1413]:
+            - paragraph [ref=e1414]:
+              - link "[–]" [ref=e1415] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "MSpresent2u" [ref=e1416] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/MSpresent2u
+              - text: • • 1 point •
+              - time [ref=e1417]: 5 months ago
+            - paragraph [ref=e1421]: Water grill in Irvine
+            - list [ref=e1422]:
+              - listitem [ref=e1423]:
+                - link "permalink" [ref=e1424] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/nowo297/
+              - listitem [ref=e1425]:
+                - link "embed" [ref=e1426] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1427]:
+                - link "save" [ref=e1428] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1429]:
+                - link "report" [ref=e1430] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1431]:
+                - link "reply" [ref=e1432] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1433]:
+          - paragraph
+          - generic [ref=e1434]:
+            - button "upvote" [ref=e1435] [cursor=pointer]
+            - button "downvote" [ref=e1436] [cursor=pointer]
+          - generic [ref=e1437]:
+            - paragraph [ref=e1438]:
+              - link "[–]" [ref=e1439] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Icy_Turnover_2390" [ref=e1440] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Icy_Turnover_2390
+              - text: • • 1 point •
+              - time [ref=e1441]: 3 months ago
+            - paragraph [ref=e1445]: Yes. As a tool, and for humor, using an original idea, and to minimize the amount of time spent. I hope it made you chuckle.😀
+            - list [ref=e1446]:
+              - listitem [ref=e1447]:
+                - link "permalink" [ref=e1448] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/nw4ovj5/
+              - listitem [ref=e1449]:
+                - link "embed" [ref=e1450] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1451]:
+                - link "save" [ref=e1452] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1453]:
+                - link "report" [ref=e1454] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1455]:
+                - link "reply" [ref=e1456] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1457]:
+          - paragraph
+          - generic [ref=e1458]:
+            - paragraph [ref=e1459]:
+              - link "[–]" [ref=e1460] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e1461]: "[deleted]"
+              - time [ref=e1462]: 10 months ago
+            - paragraph [ref=e1466]: "[deleted]"
+            - list
+          - generic [ref=e1469]:
+            - paragraph
+            - generic [ref=e1470]:
+              - button "upvote" [ref=e1471] [cursor=pointer]
+              - button "downvote" [ref=e1472] [cursor=pointer]
+            - generic [ref=e1473]:
+              - paragraph [ref=e1474]:
+                - link "[–]" [ref=e1475] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "SRahim1990" [ref=e1476] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/SRahim1990
+                - text: • • 1 point •
+                - time [ref=e1477]: 10 months ago
+              - paragraph [ref=e1481]: Love BCD!!
+              - list [ref=e1482]:
+                - listitem [ref=e1483]:
+                  - link "permalink" [ref=e1484] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdo8yo/
+                - listitem [ref=e1485]:
+                  - link "embed" [ref=e1486] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1487]:
+                  - link "save" [ref=e1488] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1489]:
+                  - link "report" [ref=e1490] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1491]:
+                  - link "reply" [ref=e1492] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1493]:
+          - paragraph
+          - generic [ref=e1494]:
+            - button "upvote" [ref=e1495] [cursor=pointer]
+            - button "downvote" [ref=e1496] [cursor=pointer]
+          - generic [ref=e1497]:
+            - paragraph [ref=e1498]:
+              - link "[–]" [ref=e1499] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "EngineeringWeak8448" [ref=e1500] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/EngineeringWeak8448
+              - text: • • 1 point •
+              - time [ref=e1501]: 10 months ago
+            - paragraph [ref=e1505]: There are so many selections in Irivne, it's a food mecca of sorts. Alot fo Asian food just because demographics so we get to enjoy different cultures
+            - list [ref=e1506]:
+              - listitem [ref=e1507]:
+                - link "permalink" [ref=e1508] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdvn82/
+              - listitem [ref=e1509]:
+                - link "embed" [ref=e1510] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1511]:
+                - link "save" [ref=e1512] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1513]:
+                - link "report" [ref=e1514] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1515]:
+                - link "reply" [ref=e1516] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1517]:
+          - paragraph
+          - generic [ref=e1518]:
+            - button "upvote" [ref=e1519] [cursor=pointer]
+            - button "downvote" [ref=e1520] [cursor=pointer]
+          - generic [ref=e1521]:
+            - paragraph [ref=e1522]:
+              - link "[–]" [ref=e1523] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dinotimm" [ref=e1524] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dinotimm
+              - text: • • 1 point •
+              - time [ref=e1525]: 10 months ago
+            - paragraph [ref=e1529]: blue bowl, mendo farms, BCD, Kiyo, Sugarfish, Poached, It’s tofu, Sup noodle, baekjeong kbbq
+            - list [ref=e1530]:
+              - listitem [ref=e1531]:
+                - link "permalink" [ref=e1532] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mven9ju/
+              - listitem [ref=e1533]:
+                - link "embed" [ref=e1534] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1535]:
+                - link "save" [ref=e1536] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1537]:
+                - link "report" [ref=e1538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1539]:
+                - link "reply" [ref=e1540] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1541]:
+          - paragraph
+          - generic [ref=e1542]:
+            - button "upvote" [ref=e1543] [cursor=pointer]
+            - button "downvote" [ref=e1544] [cursor=pointer]
+          - generic [ref=e1545]:
+            - paragraph [ref=e1546]:
+              - link "[–]" [ref=e1547] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dreemwerks" [ref=e1548] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dreemwerks
+              - text: • • 1 point •
+              - time [ref=e1549]: 10 months ago
+              - time [ref=e1550]: "*"
+            - paragraph [ref=e1554]: "*Menya hanabi dry ramen is relatively new to the scene and quite the pleaser. Not Irvine, but our goto for guests is Kagura in Costa Mesa."
+            - list [ref=e1555]:
+              - listitem [ref=e1556]:
+                - link "permalink" [ref=e1557] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvf99er/
+              - listitem [ref=e1558]:
+                - link "embed" [ref=e1559] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1560]:
+                - link "save" [ref=e1561] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1562]:
+                - link "report" [ref=e1563] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1564]:
+                - link "reply" [ref=e1565] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1568]:
+            - paragraph
+            - generic [ref=e1569]:
+              - button "upvote" [ref=e1570] [cursor=pointer]
+              - button "downvote" [ref=e1571] [cursor=pointer]
+            - generic [ref=e1572]:
+              - paragraph [ref=e1573]:
+                - link "[–]" [ref=e1574] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "VintageStrawberries" [ref=e1575] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/VintageStrawberries
+                - text: • • 3 points •
+                - time [ref=e1576]: 10 months ago
+              - paragraph [ref=e1580]:
+                - text: Miyabi is a
+                - link "Japanese hotpot restaurant" [ref=e1581] [cursor=pointer]:
+                  - /url: https://www.yelp.com/biz/miyabi-shabu-irvine-7
+                - text: and they've been around for over a decade since 2013. Do you mean
+                - link "Menya" [ref=e1582] [cursor=pointer]:
+                  - /url: https://www.yelp.com/biz/menya-hanabi-the-original-nagoya-mazesoba-irvine-3
+                  - strong [ref=e1583]: Menya
+                - text: "?"
+              - list [ref=e1584]:
+                - listitem [ref=e1585]:
+                  - link "permalink" [ref=e1586] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfiuhv/
+                - listitem [ref=e1587]:
+                  - link "embed" [ref=e1588] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1589]:
+                  - link "save" [ref=e1590] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1591]:
+                  - link "parent" [ref=e1592] [cursor=pointer]:
+                    - /url: "#mvf99er"
+                - listitem [ref=e1593]:
+                  - link "report" [ref=e1594] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1595]:
+                  - link "reply" [ref=e1596] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1599]:
+              - paragraph
+              - generic [ref=e1600]:
+                - button "upvote" [ref=e1601] [cursor=pointer]
+                - button "downvote" [ref=e1602] [cursor=pointer]
+              - generic [ref=e1603]:
+                - paragraph [ref=e1604]:
+                  - link "[–]" [ref=e1605] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "dreemwerks" [ref=e1606] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/dreemwerks
+                  - text: • • 2 points •
+                  - time [ref=e1607]: 10 months ago
+                - paragraph [ref=e1611]: Der.. my bad. menya hanabi. Edited.
+                - list [ref=e1612]:
+                  - listitem [ref=e1613]:
+                    - link "permalink" [ref=e1614] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvfjayi/
+                  - listitem [ref=e1615]:
+                    - link "embed" [ref=e1616] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1617]:
+                    - link "save" [ref=e1618] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1619]:
+                    - link "parent" [ref=e1620] [cursor=pointer]:
+                      - /url: "#mvfiuhv"
+                  - listitem [ref=e1621]:
+                    - link "report" [ref=e1622] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1623]:
+                    - link "reply" [ref=e1624] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1625]:
+          - paragraph
+          - generic [ref=e1626]:
+            - button "upvote" [ref=e1627] [cursor=pointer]
+            - button "downvote" [ref=e1628] [cursor=pointer]
+          - generic [ref=e1629]:
+            - paragraph [ref=e1630]:
+              - link "[–]" [ref=e1631] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "markjay6" [ref=e1632] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/markjay6
+              - text: • • -4 points •
+              - time [ref=e1633]: 10 months ago
+            - paragraph [ref=e1637]: Meizhou Dongpo
+            - list [ref=e1638]:
+              - listitem [ref=e1639]:
+                - link "permalink" [ref=e1640] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd1jgs/
+              - listitem [ref=e1641]:
+                - link "embed" [ref=e1642] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1643]:
+                - link "save" [ref=e1644] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1645]:
+                - link "report" [ref=e1646] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1647]:
+                - link "reply" [ref=e1648] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1651]:
+            - paragraph
+            - generic [ref=e1652]:
+              - button "upvote" [ref=e1653] [cursor=pointer]
+              - button "downvote" [ref=e1654] [cursor=pointer]
+            - generic [ref=e1655]:
+              - paragraph [ref=e1656]:
+                - link "[–]" [ref=e1657] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Smooth_Ferret8081" [ref=e1658] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Smooth_Ferret8081
+                - text: • • 9 points •
+                - time [ref=e1659]: 10 months ago
+              - paragraph [ref=e1663]: Iol hell no
+              - list [ref=e1664]:
+                - listitem [ref=e1665]:
+                  - link "permalink" [ref=e1666] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd7xma/
+                - listitem [ref=e1667]:
+                  - link "embed" [ref=e1668] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1669]:
+                  - link "save" [ref=e1670] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1671]:
+                  - link "parent" [ref=e1672] [cursor=pointer]:
+                    - /url: "#mvd1jgs"
+                - listitem [ref=e1673]:
+                  - link "report" [ref=e1674] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1675]:
+                  - link "reply" [ref=e1676] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1679]:
+              - paragraph
+              - generic [ref=e1680]:
+                - button "upvote" [ref=e1681] [cursor=pointer]
+                - button "downvote" [ref=e1682] [cursor=pointer]
+              - generic [ref=e1683]:
+                - paragraph [ref=e1684]:
+                  - link "[–]" [ref=e1685] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "BurgersFriesShake" [ref=e1686] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/BurgersFriesShake
+                  - text: • • 1 point •
+                  - time [ref=e1687]: 10 months ago
+                - paragraph [ref=e1691]: Totally agree lol
+                - list [ref=e1692]:
+                  - listitem [ref=e1693]:
+                    - link "permalink" [ref=e1694] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvez5k7/
+                  - listitem [ref=e1695]:
+                    - link "embed" [ref=e1696] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1697]:
+                    - link "save" [ref=e1698] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1699]:
+                    - link "parent" [ref=e1700] [cursor=pointer]:
+                      - /url: "#mvd7xma"
+                  - listitem [ref=e1701]:
+                    - link "report" [ref=e1702] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1703]:
+                    - link "reply" [ref=e1704] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1705]:
+          - paragraph
+          - generic [ref=e1706]:
+            - button "upvote" [ref=e1707] [cursor=pointer]
+            - button "downvote" [ref=e1708] [cursor=pointer]
+          - generic [ref=e1709]:
+            - paragraph [ref=e1710]:
+              - link "[–]" [ref=e1711] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bekindtoyourself14" [ref=e1712] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bekindtoyourself14
+              - text: • • 0 points •
+              - time [ref=e1713]: 10 months ago
+            - paragraph [ref=e1717]: Texas de Brasil - unlimited meats and salad bar
+            - list [ref=e1718]:
+              - listitem [ref=e1719]:
+                - link "permalink" [ref=e1720] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdm5t9/
+              - listitem [ref=e1721]:
+                - link "embed" [ref=e1722] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1723]:
+                - link "save" [ref=e1724] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1725]:
+                - link "report" [ref=e1726] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1727]:
+                - link "reply" [ref=e1728] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1731]:
+            - paragraph
+            - generic [ref=e1732]:
+              - button "upvote" [ref=e1733] [cursor=pointer]
+              - button "downvote" [ref=e1734] [cursor=pointer]
+            - generic [ref=e1735]:
+              - paragraph [ref=e1736]:
+                - link "[–]" [ref=e1737] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "SRahim1990" [ref=e1738] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/SRahim1990
+                - text: • • 2 points •
+                - time [ref=e1739]: 10 months ago
+              - paragraph [ref=e1743]: Obsessed with the salad bar
+              - list [ref=e1744]:
+                - listitem [ref=e1745]:
+                  - link "permalink" [ref=e1746] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvdo8da/
+                - listitem [ref=e1747]:
+                  - link "embed" [ref=e1748] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1749]:
+                  - link "save" [ref=e1750] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1751]:
+                  - link "parent" [ref=e1752] [cursor=pointer]:
+                    - /url: "#mvdm5t9"
+                - listitem [ref=e1753]:
+                  - link "report" [ref=e1754] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1755]:
+                  - link "reply" [ref=e1756] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1759]:
+              - paragraph
+              - generic [ref=e1760]:
+                - button "upvote" [ref=e1761] [cursor=pointer]
+                - button "downvote" [ref=e1762] [cursor=pointer]
+              - generic [ref=e1763]:
+                - paragraph [ref=e1764]:
+                  - link "[–]" [ref=e1765] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bekindtoyourself14" [ref=e1766] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bekindtoyourself14
+                  - text: • • 2 points •
+                  - time [ref=e1767]: 10 months ago
+                - paragraph [ref=e1771]: Same!!!!!! Have you tried any other Brazilian steakhouses around?
+                - list [ref=e1772]:
+                  - listitem [ref=e1773]:
+                    - link "permalink" [ref=e1774] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/myyej1g/
+                  - listitem [ref=e1775]:
+                    - link "embed" [ref=e1776] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1777]:
+                    - link "save" [ref=e1778] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1779]:
+                    - link "parent" [ref=e1780] [cursor=pointer]:
+                      - /url: "#mvdo8da"
+                  - listitem [ref=e1781]:
+                    - link "report" [ref=e1782] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1783]:
+                    - link "reply" [ref=e1784] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1787]:
+                - paragraph
+                - generic [ref=e1788]:
+                  - button "upvote" [ref=e1789] [cursor=pointer]
+                  - button "downvote" [ref=e1790] [cursor=pointer]
+                - generic [ref=e1791]:
+                  - paragraph [ref=e1792]:
+                    - link "[–]" [ref=e1793] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "SRahim1990" [ref=e1794] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/SRahim1990
+                    - text: • • 1 point •
+                    - time [ref=e1795]: 9 months ago
+                  - paragraph [ref=e1799]: I have not!!
+                  - list [ref=e1800]:
+                    - listitem [ref=e1801]:
+                      - link "permalink" [ref=e1802] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mzltor2/
+                    - listitem [ref=e1803]:
+                      - link "embed" [ref=e1804] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1805]:
+                      - link "save" [ref=e1806] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1807]:
+                      - link "parent" [ref=e1808] [cursor=pointer]:
+                        - /url: "#myyej1g"
+                    - listitem [ref=e1809]:
+                      - link "report" [ref=e1810] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1811]:
+                      - link "reply" [ref=e1812] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1813]:
+          - paragraph
+          - paragraph [ref=e1815]:
+            - link "[+] ah" [ref=e1816] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "YoureAMigraine" [ref=e1817] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/YoureAMigraine
+            - text: comment score below threshold • • •
+            - link "(0 children)" [ref=e1818] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1819]:
+          - paragraph
+          - paragraph [ref=e1821]:
+            - link "[+] ah" [ref=e1822] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "No-Cat-5457" [ref=e1823] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/No-Cat-5457
+            - text: comment score below threshold • • •
+            - link "(0 children)" [ref=e1824] [cursor=pointer]:
+              - /url: javascript:void(0)
+  - generic [ref=e1825]:
+    - generic [ref=e1826]:
+      - list [ref=e1828]:
+        - listitem [ref=e1829]: about
+        - listitem [ref=e1830]:
+          - link "blog" [ref=e1831] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1832]:
+          - link "about" [ref=e1833] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1834]:
+          - link "advertising" [ref=e1835] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1836]:
+          - link "careers" [ref=e1837] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1839]:
+        - listitem [ref=e1840]: help
+        - listitem [ref=e1841]:
+          - link "site rules" [ref=e1842] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1843]:
+          - link "Reddit help center" [ref=e1844] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1845]:
+          - link "reddiquette" [ref=e1846] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1847]:
+          - link "mod guidelines" [ref=e1848] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1849]:
+          - link "contact us" [ref=e1850] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1852]:
+        - listitem [ref=e1853]: apps & tools
+        - listitem [ref=e1854]:
+          - link "Reddit for iPhone" [ref=e1855] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1856]:
+          - link "Reddit for Android" [ref=e1857] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1858]:
+          - link "mobile website" [ref=e1859] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1861]:
+        - listitem [ref=e1862]: <3
+        - listitem [ref=e1863]:
+          - link "reddit premium" [ref=e1864] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1865]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1866] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1867] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1868]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

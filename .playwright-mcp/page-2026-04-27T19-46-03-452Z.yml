@@ -1,0 +1,360 @@
+- generic [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2022%252F10%252F13%252Ftravel%252Fthings-to-do-stockholm.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - figure "scoop-picture" [ref=e34]
+            - generic [ref=e38]:
+              - link "36 Hours" [ref=e41] [cursor=pointer]:
+                - /url: https://www.nytimes.com/column/36-hours
+              - generic [ref=e42]: Stockholm
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: "Jump to:"
+              - link "Recommendations" [ref=e47] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e49] [cursor=pointer]:
+                - /url: "#itinerary"
+              - link "Google Map" [ref=e51] [cursor=pointer]:
+                - /url: https://www.google.com/maps/@59.3363401,18.0600083,14z/data=!3m1!4b1!4m3!11m2!2syVyz9tajROWK2sjxrQZFiw!3e3?hl=en&authuser=1
+              - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e54]:
+                - list [ref=e56]:
+                  - listitem [ref=e57]:
+                    - button "Share full article" [ref=e60] [cursor=pointer]:
+                      - generic [ref=e61]:
+                        - img [ref=e62]
+                        - text: Share full article
+                  - listitem [ref=e64]:
+                    - button "More sharing options ..." [ref=e67] [cursor=pointer]:
+                      - img [ref=e68]
+                  - listitem [ref=e70]:
+                    - switch "Save article for reading later..." [ref=e71] [cursor=pointer]:
+                      - img [ref=e72]
+                  - listitem [ref=e76]:
+                    - button "Read 312 comments" [ref=e77] [cursor=pointer]:
+                      - generic [ref=e78]:
+                        - img [ref=e79]
+                        - text: "312"
+            - generic [ref=e81]:
+              - generic [ref=e82]: By Ingrid K. Williams
+              - generic [ref=e83]: Oct. 13, 2022
+            - paragraph [ref=e84]:
+              - text: Swedes may be missing the long days of summer, but autumn is when Stockholm peaks. Crisp breezes and blazing foliage await visitors, as does the engineering marvel known as Guldbron, or the Gold Bridge, a massive slab of steel that was installed in 2020. Connecting the central islands of Gamla Stan and Södermalm, the bridge is part of an overhaul of the busy Slussen area that won’t be completed until 2026. But the rest of the city is humming with openings, from drinking and dining hotspots to cultural must-sees. And the recent rollout of an
+              - link "e-bike sharing program" [ref=e85] [cursor=pointer]:
+                - /url: https://stockholmebikes.se/?lng=en
+              - text: promises to make this accessible city even more so.
+          - generic [ref=e86]: Advertisement
+          - generic [ref=e87]:
+            - heading "Recommendations" [level=2] [ref=e88]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e91] [cursor=pointer]:
+                  - text: Key stops
+                  - generic [ref=e92]: –
+                - list [ref=e93]:
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]:
+                      - link "Liljevalchs Konsthall" [ref=e96] [cursor=pointer]:
+                        - /url: https://liljevalchs.se/en/
+                    - text: ", a renowned contemporary gallery, has a new bunker-like annex called Liljevalchs+."
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]:
+                      - link "Prospero" [ref=e99] [cursor=pointer]:
+                        - /url: https://prospero-restaurant.com/
+                    - text: offers seasonal multicourse meals in minimalistic surroundings.
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]:
+                      - link "Hagaparken" [ref=e102] [cursor=pointer]:
+                        - /url: https://www.kungligaslotten.se/vara-besoksmal/kungl.-djurgarden---nationalstadsparken/hagaparken---brunnsviken.html
+                    - text: is a reserve with 350 acres of wooded trails, grassy slopes and lakefront vistas.
+              - generic [ref=e103]:
+                - generic [ref=e104] [cursor=pointer]:
+                  - text: Museums and attractions
+                  - generic [ref=e105]: +
+                - list:
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]:
+                      - link "Eden" [ref=e108] [cursor=pointer]:
+                        - /url: https://www.edensthlm.se/
+                    - text: is an open-air entertainment complex on Smedsudden, a long-forgotten peninsula.
+                  - listitem [ref=e109]:
+                    - strong [ref=e110]:
+                      - link "Nationalmuseum" [ref=e111] [cursor=pointer]:
+                        - /url: https://www.nationalmuseum.se/
+                    - text: showcases classic art and sculpture on three floors.
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]:
+                      - link "Djurgårdsbrunnsviken" [ref=e114] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/place/Djurg%C3%A5rdsbrunnsviken/@59.3307962,18.1130687,15z/data=!3m1!4b1!4m5!3m4!1s0x465f8299dd976721:0xaa4a7415bb20e733!8m2!3d59.3305467!4d18.1072221
+                    - text: ", a scenic bay ringed by gravel paths and tranquil parkland, is great for fall foliage."
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]:
+                      - link "Fjärilshuset" [ref=e117] [cursor=pointer]:
+                        - /url: https://www.fjarilshuset.se/home-english
+                    - text: (the Butterfly House) offers the spectacle of exotic butterflies.
+                  - listitem [ref=e118]:
+                    - strong [ref=e119]:
+                      - link "Arkivet" [ref=e120] [cursor=pointer]:
+                        - /url: https://arkivetsthlm.se/en/home/
+                    - text: specializes in stylish used clothing from recent seasons.
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]:
+                      - link "Acne Archive" [ref=e123] [cursor=pointer]:
+                        - /url: https://www.acnestudios.com/us/en/stores/torsgatan
+                    - text: sells select pieces from past collections of the Swedish label Acne Studios.
+                  - listitem [ref=e124]:
+                    - strong [ref=e125]:
+                      - link "Björnö" [ref=e126] [cursor=pointer]:
+                        - /url: https://skargardsstiftelsen.se/omrade/bjorno/
+                    - text: is a lesser-known nature reserve with windswept cliffs, pine forests and a long sandy beach.
+              - generic [ref=e127]:
+                - generic [ref=e128] [cursor=pointer]:
+                  - text: Restaurants and bars
+                  - generic [ref=e129]: +
+                - list:
+                  - listitem [ref=e130]:
+                    - strong [ref=e131]:
+                      - link "Ingrid" [ref=e132] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ingrid.regeringsgatan91/?hl=en
+                    - text: is known for its apple cake and bargain lunch deal.
+                  - listitem [ref=e133]:
+                    - strong [ref=e134]:
+                      - link "Triple Oh! Ice Cream" [ref=e135] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ooo.icecream/
+                    - text: offers ice cream with Nordic flavors like cucumber-and-aquavit.
+                  - listitem [ref=e136]:
+                    - strong [ref=e137]:
+                      - link "Café Nizza" [ref=e138] [cursor=pointer]:
+                        - /url: http://cafenizza.se/
+                    - text: is a corner bistro where locals go for drinks and Mediterranean-inflected food.
+                  - listitem [ref=e139]:
+                    - strong [ref=e140]:
+                      - link "Bar Ninja" [ref=e141] [cursor=pointer]:
+                        - /url: https://www.instagram.com/ninja_bar_/
+                    - text: serves fun, funky wines from small, biodynamic producers.
+                  - listitem [ref=e142]:
+                    - strong [ref=e143]:
+                      - link "Café Pascal" [ref=e144] [cursor=pointer]:
+                        - /url: https://cafepascal.se/
+                    - text: is a local favorite for breakfast, lunch and fika, the traditional Swedish coffee break.
+              - generic [ref=e145]:
+                - generic [ref=e146] [cursor=pointer]:
+                  - text: Where to stay
+                  - generic [ref=e147]: +
+                - list:
+                  - listitem [ref=e148]:
+                    - strong [ref=e149]:
+                      - link "Villa Dagmar" [ref=e150] [cursor=pointer]:
+                        - /url: https://hotelvilladagmar.com/
+                    - text: has a soaring glass-roofed courtyard that anchors this new boutique hotel in a series of Art Nouveau buildings. There are 70 luxurious rooms and suites (doubles from 3,090 kronor, or about $280).
+                  - listitem [ref=e151]:
+                    - text: The 48-room, family-run
+                    - strong [ref=e152]:
+                      - link "Hotel Frantz" [ref=e153] [cursor=pointer]:
+                        - /url: https://www.hotelfrantz.com/
+                    - strong [ref=e154]: ","
+                    - text: on a cobblestone street, opened in 2019 in a building dating to 1647. An ample breakfast is included (from 1,610 kronor).
+                  - listitem [ref=e155]:
+                    - text: Centrally located,
+                    - strong [ref=e156]:
+                      - link "City Backpackers Hostel" [ref=e157] [cursor=pointer]:
+                        - /url: https://www.citybackpackers.se/
+                    - text: offers accommodations that range from a bunk in a 12-person dorm (from about 200 kronor) to private doubles (from about 740 kronor). There’s a restaurant, common areas, kitchen, free sauna and ice skates to borrow.
+                  - listitem [ref=e158]:
+                    - text: Look for
+                    - strong [ref=e159]: a short-term rental
+                    - text: on Södermalm in the SoFo neighborhood, which is packed with restaurants and boutiques, and within walking distance of the subway and buses. One-bedroom apartments, many with balconies, go for around $150 a night.
+          - generic [ref=e160]:
+            - heading "Itinerary" [level=2] [ref=e161]
+            - paragraph [ref=e162]: Friday
+            - figure "scoop-picture" [ref=e164]:
+              - generic [ref=e168]: James Silverman for The New York Times
+            - generic [ref=e169]:
+              - generic [ref=e170]: 3 p.m. Get schooled in Swedish contemporary art
+              - generic [ref=e171]:
+                - text: Last autumn, the most discussed transformation on the leafy island of Djurgården was not the umbers and ochres of maples and oaks, but rather a new gray concrete edifice dotted with glass perforations. The bunkerlike building, designed by the Swedish architect
+                - link "Gert Wingårdh" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.wingardhs.se/en
+                - text: ", opened as an annex to"
+                - link "Liljevalchs Konsthall" [ref=e173] [cursor=pointer]:
+                  - /url: https://liljevalchs.se/en/
+                - text: ", a renowned public gallery dedicated to contemporary Swedish art. Inside the new three-story space, called Liljevalchs+, explore exhibitions ranging from video works by Helen Broms Sandberg to paintings by Karin Wikström, Åke Göransson and Inge Schiöler (admission 120 Swedish kronor, or about $10.80)."
+            - figure "scoop-picture" [ref=e175]:
+              - generic [ref=e179]: James Silverman for The New York Times
+            - generic [ref=e180]:
+              - generic [ref=e181]: 7 p.m. Have a fancy meal in relaxed surroundings
+              - generic [ref=e182]:
+                - text: Stockholmers long ago lost interest in the stuffy, white-tablecloth, fine-dining scene, but that doesn’t mean that refined restaurants have vanished, too. One example is
+                - link "Prospero" [ref=e183] [cursor=pointer]:
+                  - /url: https://prospero-restaurant.com/
+                - text: ", opened in 2019 by three young chefs with a seasonal multicourse set menu (895 kronor). The unassuming space, a half-flight below street level in the far-north neighborhood known as Siberia, is refreshingly minimalistic, with leather benches, raw concrete walls and a few wooden tables. On a recent evening, Getz/Gilberto played softly, and highlights included grilled halibut atop tender new potatoes with sorrel and beurre blanc, and Swedish strawberries with elderflower and basil ice cream."
+            - generic [ref=e184]:
+              - generic [ref=e185]: 10 p.m. Party outdoors
+              - generic [ref=e186]:
+                - text: For years, Stockholm’s summer nightlife was synonymous with
+                - link "Trädgården" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.tradgarden.com/
+                - text: ", an outdoor club under a bridge on Södermalm. But this year, in-the-know night owls are flocking to"
+                - link "Eden" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.edensthlm.se/
+                - text: ", an open-air entertainment complex that opened in May on Smedsudden, a long-forgotten peninsula on the western island of Kungsholmen. This fall, the party continues with D.J.’s spinning late into the night at a 19th-century villa with sweeping views across the water."
+          - figure "scoop-picture" [ref=e189]:
+            - generic [ref=e193]: The newly renovated Östermalms Saluhall, a historic market hall. James Silverman for The New York Times
+          - generic [ref=e194]: Advertisement
+          - generic [ref=e195]:
+            - paragraph [ref=e196]: Saturday
+            - figure "scoop-picture" [ref=e198]:
+              - generic [ref=e202]: Erika Gerdemark for The New York Times
+            - generic [ref=e203]:
+              - generic [ref=e204]: 8:30 a.m. Plunge into chilly waters
+              - generic [ref=e205]: Rare is the city with waterways so clean (and plentiful) that locals regularly start the day with a morgondopp (morning swim). Even in winter, hearty swimmers plunge into the frigid waters, but for a less heart-pumping start to the day, take a stroll along Djurgårdsbrunnsviken, a scenic bay ringed by gravel paths and tranquil parkland where fall’s foliage is on brilliant display. In winter, this waterway often freezes solid, allowing the brave to continue walking right across the ice.
+            - figure "scoop-picture" [ref=e207]:
+              - generic [ref=e211]: James Silverman for The New York Times
+            - generic [ref=e212]:
+              - generic [ref=e213]: 10 a.m. Admire classic art in grand galleries
+              - generic [ref=e214]:
+                - text: In a 19th-century building across the quay from the Royal Palace, the
+                - link "Nationalmuseum" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.nationalmuseum.se/
+                - text: showcases classic art and sculpture by Swedish and international artists on three floors. In June, a 42-foot-tall cage — the sculpture “Arch” by Ai Weiwei — was installed outside the entrance (through 2023). Inside, after a recent renovation, the collection is displayed in grand rooms painted in rich shades like mustard, indigo and oxblood. The soaring entry hall decorated with murals by Carl Larsson is alone worth a visit. Entry is free, except for some temporary exhibitions, including a current collection of drawings by Giorgio Vasari (through Jan. 8).
+            - generic [ref=e216]:
+              - generic [ref=e217]: 12 p.m. Indulge in apple cake and aquavit ice cream
+              - generic [ref=e218]:
+                - text: Few would argue that the buttery, cinnamon-spiced apple cake from
+                - link "Ingrid" [ref=e219] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ingrid.regeringsgatan91/?hl=en
+                - text: "is anything short of sensational (45 kronor). This take-away bakery, run by two young women, moved to its current location last year and won a following with its excellent lunch deal: soup and a sandwich for 99 kronor. Daily flavors range from green pea to celeriac, and sandwiches are made on fresh sourdough rolls. For dessert, head to"
+                - link "Triple Oh! Ice Cream" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ooo.icecream/
+                - text: ", which opened in July in Ingrid’s former locale, to try Nordic flavors like cucumber-and-aquavit, or the herbal Glänta, inspired by the Swedish forest with notes of pine, chervil and fennel (one scoop, 50 kronor)."
+            - figure "scoop-picture" [ref=e222]:
+              - generic [ref=e226]: James Silverman for The New York Times
+            - generic [ref=e227]:
+              - generic [ref=e228]: 1:30 p.m. Wander down wooded trails
+              - generic [ref=e229]:
+                - text: There are green spaces scattered throughout Stockholm, but to truly lose yourself in nature, head north to
+                - link "Hagaparken" [ref=e230] [cursor=pointer]:
+                  - /url: https://www.kungligaslotten.se/vara-besoksmal/kungl.-djurgarden---nationalstadsparken/hagaparken---brunnsviken.html
+                - text: . This pristine reserve spans more than 350 acres of peaceful wooded trails, vast grassy slopes and lakefront vistas. Unfurl a blanket on the grand central lawn, or download the
+                - link "Royal Walks app" [ref=e231] [cursor=pointer]:
+                  - /url: https://apps.apple.com/se/app/royal-walks/id1374348659?l=en
+                - text: (free) for a guided tour of the many historic pavilions that dot the park. Families shouldn’t miss
+                - link "Fjärilshuset" [ref=e232] [cursor=pointer]:
+                  - /url: https://www.fjarilshuset.se/home-english
+                - text: (the Butterfly House) with exotic varieties fluttering inside (admission 240 kronor; 140 for children).
+            - figure "scoop-picture" [ref=e234]:
+              - generic [ref=e238]: Erika Gerdemark for The New York Times
+            - generic [ref=e239]:
+              - generic [ref=e240]: 4 p.m. Shop for vintage clothes
+              - generic [ref=e241]:
+                - text: Many fashion-forward Swedes have wrestled with the question of how to dress, and shop, more sustainably. One answer is to buy vintage or secondhand, which explains the popularity of
+                - link "Arkivet" [ref=e242] [cursor=pointer]:
+                  - /url: https://arkivetsthlm.se/en/home/
+                - text: ", a local mini-chain specializing in stylish used clothing from recent seasons. Visit the new city-center location, which opened in April, to browse neat racks of breezy blouses and soft sweaters from Rodebjer, Arket, Whyred and other top Swedish brands. Or head to"
+                - link "Acne Archive" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.acnestudios.com/us/en/stores/torsgatan
+                - text: where Acne Studios — the most coveted of Swedish labels — sells select pieces from past collections alongside secondhand jeans, outerwear, shoes and accessories.
+            - figure "scoop-picture" [ref=e245]:
+              - generic [ref=e249]: Erika Gerdemark for The New York Times
+            - generic [ref=e250]:
+              - generic [ref=e251]: 7 p.m. Eat like a Stockholmer
+              - generic [ref=e252]:
+                - text: Few places so perfectly encapsulate the way Stockholmers want to eat right now as
+                - link "Café Nizza" [ref=e253] [cursor=pointer]:
+                  - /url: http://cafenizza.se/
+                - text: ", a bustling corner bistro in an otherwise quiet part of Södermalm. This Mediterranean-inflected spot is where regulars gather for drinks, snacks or a leisurely dinner at their usual table. The menu changes daily, but start with appetizers, like a porcini-and-parmesan tart. Then try the restaurant’s specialty: fermentata cacio e pepe, small twists of sourdough pasta smothered in cheesy, peppery sauce. Finish with almond cake topped with seasonal berries and freshly whipped cream. Dinner for two, about 750 kronor."
+            - generic [ref=e254]:
+              - generic [ref=e255]: 10 p.m. Linger over wine at a local hangout
+              - generic [ref=e256]:
+                - text: Stockholmers’ thirst for natural wine shows no sign of abating, and there’s no shortage of new bars pouring fun, funky wines from small, biodynamic producers. One of the most exciting newcomers is
+                - link "Bar Ninja" [ref=e257] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ninja_bar_/
+                - text: ", which opened in February in the former office of a Södermalm wine importer. At this lively neighborhood hangout, choose among the bottles crammed on shelves behind the concrete-slab bar counter, or consult the chalkboard scrawled with by-the-glass offerings, like Piak!, a juicy red from Domaine Bobinet."
+          - figure "scoop-picture" [ref=e258]:
+            - generic [ref=e262]: Construction in Stockholm’s Slussen area, which is undergoing a major redevelopment. James Silverman for The New York Times
+          - generic [ref=e263]: Advertisement
+          - generic [ref=e264]:
+            - paragraph [ref=e265]: Sunday
+            - figure "scoop-picture" [ref=e267]:
+              - generic [ref=e271]: Erika Gerdemark for The New York Times
+            - generic [ref=e272]:
+              - generic [ref=e273]: 9 a.m. Enjoy a cardamom bun with your coffee
+              - generic [ref=e274]:
+                - text: Stockholm is full of cafes, but few place equal emphasis on coffee, bread and pastries. One notable exception is
+                - link "Café Pascal" [ref=e275] [cursor=pointer]:
+                  - /url: https://cafepascal.se/
+                - text: ", a local favorite for breakfast, lunch and fika, the traditional Swedish coffee break. At the newer location on Skånegatan, bread and sweets are baked in the back and some of the city’s best baristas tend to the espresso machine. Go early when the streets are still sleepy for a velvety cappuccino and a glistening cardamom bun (35 kronor), or try the sliced avocado on Danish rye (69 kronor) and a pour-over with light-roast beans."
+            - generic [ref=e276]:
+              - generic [ref=e277]: 11 a.m. Roam through pristine pine forests
+              - generic [ref=e278]:
+                - text: Eager to experience Stockholm’s archipelago of some 30,000 islands and islets, but not the chilly ferry ride? Then grab a sweater and hop on a bus. From Södermalm, it’s a 40-minute ride (on bus 429X) to
+                - link "Björnö" [ref=e279] [cursor=pointer]:
+                  - /url: https://skargardsstiftelsen.se/omrade/bjorno/
+                - text: ", a lesser-known nature reserve in the central archipelago with all the classic island elements: windswept cliffs and pristine pine forests, plus a long sandy beach flanked by sun-warmed rocks perfect for lazing away the afternoon beside the Baltic Sea."
+        - paragraph [ref=e282]: "Cover photo: James Silverman for The New York Times"
+    - generic [ref=e286]:
+      - iframe [active] [ref=e291]:
+        - generic [ref=f25e6]:
+          - generic [ref=f25e8]:
+            - heading "Create a free account, or log in." [level=2] [ref=f25e9]
+            - heading "Gain access to limited free articles, news alerts, select newsletters, podcasts and some daily games." [level=2] [ref=f25e10]
+          - group [ref=f25e12]:
+            - generic [ref=f25e13]: Email address
+            - textbox "Email address" [active] [ref=f25e16]:
+              - /placeholder: ""
+          - textbox [ref=f25e17]
+          - button "Continue" [ref=f25e19] [cursor=pointer]
+          - generic [ref=f25e21]: or
+          - paragraph [ref=f25e23]:
+            - text: By continuing, you agree to the
+            - link "Terms of Sale" [ref=f25e24] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: ","
+            - link "Terms of Service" [ref=f25e25] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+            - text: ", and"
+            - link "Privacy Policy" [ref=f25e26] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/privacy-policy
+            - text: .
+          - generic [ref=f25e27]:
+            - button "Continue with Google" [ref=f25e29] [cursor=pointer]:
+              - generic:
+                - img
+              - generic: Continue with Google
+            - button "Continue with Apple" [ref=f25e31] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+              - generic: Continue with Apple
+            - link "Continue with work or school single sign-on >" [ref=f25e32] [cursor=pointer]:
+              - /url: ""
+      - generic [ref=e292]:
+        - paragraph [ref=e293]: Enjoy unlimited access to all of The Times.
+        - paragraph [ref=e294]:
+          - link [ref=e295] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+            - text: See subscription options

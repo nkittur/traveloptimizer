@@ -1,0 +1,327 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - generic:
+          - generic:
+            - img
+        - link "Easter 2026" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQPQgL
+          - img "Easter 2026" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search" [ref=e20]: best restaurants san diego la jolla site:eater.com best restaurants san diego la jolla site:eater.com
+            - generic [ref=e21]:
+              - button "Clear" [ref=e23] [cursor=pointer]:
+                - img [ref=e25]
+              - generic [ref=e28]:
+                - button "Search by voice" [ref=e29] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Search by image" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+          - button "Search" [ref=e35] [cursor=pointer]:
+            - img [ref=e38]
+    - generic [ref=e40]:
+      - button "Settings" [ref=e42] [cursor=pointer]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - button "Google apps" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+        - link "Sign in" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bsan%2Bdiego%2Bla%2Bjolla%2Bsite:eater.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&aep=1&ntc=1&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ2J8OegQIEBAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [disabled] [ref=e77]:
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "Short videos" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&q=best+restaurants+san+diego+la+jolla+site:eater.com&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQs6gLegQIExAB
+              - generic [ref=e83]: Short videos
+          - listitem [ref=e84]:
+            - link "Maps" [ref=e85] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=b2c48e119f077edf&output=search&q=best+restaurants+san+diego+la+jolla+site:eater.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e87]: Maps
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&q=best+restaurants+san+diego+la+jolla+site:eater.com&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQtKgLegQIFRAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Forums" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&q=best+restaurants+san+diego+la+jolla+site:eater.com&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQs6gLegQIFhAB
+              - generic [ref=e95]: Forums
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrP5zL_qX5bfOBd_26be0Rp0Te0rGklMxEKM0Sp-3hxfqq6JCaXOxvU-E_2tDQdAZCQrYWzJKUHd-_sIIoYjj4iNzBeYxy6A0N5YoTPtytatYN8q_hg&q=best+restaurants+san+diego+la+jolla+site:eater.com&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQtKgLegQIGRAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - main [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - heading "Web results" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - link "The Best Restaurants in La Jolla, California Eater San Diego https://sandiego.eater.com › maps › best-restaurants-bar..." [ref=e136] [cursor=pointer]:
+                - /url: https://sandiego.eater.com/maps/best-restaurants-bars-food-la-jolla
+                - heading "The Best Restaurants in La Jolla, California" [level=3] [ref=e137]
+                - generic [ref=e142]:
+                  - generic [ref=e144]: Eater San Diego
+                  - generic [ref=e146]: https://sandiego.eater.com › maps › best-restaurants-bar...
+              - button "About this result" [ref=e147] [cursor=pointer]:
+                - img [ref=e150]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - text: The Best Restaurants in La Jolla, California ·
+                - emphasis [ref=e155]: Wayfarer Bread and Pastry
+                - text: · Paradisaea · Empanada Kitchen · La Corriente · Chin's Szechwan · Bistro du Marché by ...
+              - link "Read more" [ref=e156] [cursor=pointer]:
+                - /url: https://sandiego.eater.com/maps/best-restaurants-bars-food-la-jolla#:~:text=Wayfarer%20Bread%20and%20Pastry&text=Wayfarer%20Bread%20and%20Pastry&text=Paradisaea&text=Empanada%20Kitchen&text=La%20Corriente&text=Chin's%20Szechwan&text=Bistro%20du%20March%C3%A9%20by%20Tapenade
+        - generic [ref=e160]:
+          - generic [ref=e163]:
+            - link "La Jolla | Eater San Diego Eater San Diego https://sandiego.eater.com › neighborhood › la-jolla" [ref=e165] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/neighborhood/1526/la-jolla
+              - heading "La Jolla | Eater San Diego" [level=3] [ref=e166]
+              - generic [ref=e171]:
+                - generic [ref=e173]: Eater San Diego
+                - generic [ref=e175]: https://sandiego.eater.com › neighborhood › la-jolla
+            - button "About this result" [ref=e176] [cursor=pointer]:
+              - img [ref=e179]
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - text: From street tacos to fine
+              - emphasis [ref=e184]: dining
+              - text: ", this seaside neighborhood is experiencing a culinary renaissance. By Helen I. Hwang, Eater Staff and 1 more"
+            - link "Read more" [ref=e185] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/neighborhood/1526/la-jolla#:~:text=From%20street%20tacos%20to%20fine,is%20experiencing%20a%20culinary%20renaissance&text=By%20Helen%20I.%20Hwang%2C%20Eater,Staff%20and%201%20more
+        - generic [ref=e189]:
+          - generic [ref=e192]:
+            - link "The Best New Restaurants in San Diego Eater San Diego https://sandiego.eater.com › maps › best-new-san-diego..." [ref=e194] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-new-san-diego-restaurants-heatmap
+              - heading "The Best New Restaurants in San Diego" [level=3] [ref=e195]
+              - generic [ref=e200]:
+                - generic [ref=e202]: Eater San Diego
+                - generic [ref=e204]: https://sandiego.eater.com › maps › best-new-san-diego...
+            - button "About this result" [ref=e205] [cursor=pointer]:
+              - img [ref=e208]
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - text: The Best New Restaurants in and Around San Diego, April 2026 ·
+              - emphasis [ref=e213]: Verise
+              - text: · Nómada · Chick & Hawk · Dark Horse Japanese Nikkei Cuisine · Phở Gà Go · Playa Kitchen.
+            - link "Read more" [ref=e214] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-new-san-diego-restaurants-heatmap#:~:text=Verise&text=Verise&text=N%C3%B3mada&text=Chick%20%26%20Hawk&text=Dark%20Horse%20Japanese%20Nikkei%20Cuisine&text=Ph%E1%BB%9F%20G%C3%A0%20Go&text=Playa%20Kitchen
+        - generic [ref=e218]:
+          - generic [ref=e221]:
+            - link "Eater San Diego Eater San Diego https://sandiego.eater.com" [ref=e223] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/
+              - heading "Eater San Diego" [level=3] [ref=e224]
+              - generic [ref=e229]:
+                - generic [ref=e231]: Eater San Diego
+                - generic [ref=e233]: https://sandiego.eater.com
+            - button "About this result" [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - emphasis [ref=e242]: The Best Restaurants in the Jewel Box Coastal Town of La Jolla
+              - text: . By Helen I. Hwang, Eater Staff and 1 more. Eater San Diego. All your essential food and ...
+            - link "Read more" [ref=e243] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/#:~:text=The%20Best%20Restaurants%20in%20the,restaurant%20intel%20delivered%20to%20you
+        - generic [ref=e247]:
+          - generic [ref=e250]:
+            - link "La Jolla's Ambitious Lucien Comes From a Team of ... Eater San Diego https://sandiego.eater.com › restaurant-news › lucien-tas..." [ref=e252] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/restaurant-news/61417/lucien-tasting-menu-restaurant-opening-la-jolla
+              - heading "La Jolla's Ambitious Lucien Comes From a Team of ..." [level=3] [ref=e253]
+              - generic [ref=e258]:
+                - generic [ref=e260]: Eater San Diego
+                - generic [ref=e262]: https://sandiego.eater.com › restaurant-news › lucien-tas...
+            - button "About this result" [ref=e263] [cursor=pointer]:
+              - img [ref=e266]
+          - generic [ref=e269]:
+            - generic [ref=e270]: Oct 15, 2025 —
+            - generic [ref=e271]:
+              - emphasis [ref=e272]: Lucien is led by chef Elijah Arizmendi
+              - text: and his team, who have brought their breadth of experience from Per Se, Le Bernandin, L'abeille, and ...
+            - link "Read more" [ref=e273] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/restaurant-news/61417/lucien-tasting-menu-restaurant-opening-la-jolla#:~:text=Lucien%20is%20led%20by%20chef,the%20coastal%20Southern%20California%20city.
+        - generic [ref=e277]:
+          - generic [ref=e280]:
+            - link "Where to Find the Best Restaurants in Pacific Beach Eater San Diego https://sandiego.eater.com › maps › best-restaurants-pac..." [ref=e282] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-restaurants-pacific-beach-san-diego
+              - heading "Where to Find the Best Restaurants in Pacific Beach" [level=3] [ref=e283]
+              - generic [ref=e288]:
+                - generic [ref=e290]: Eater San Diego
+                - generic [ref=e292]: https://sandiego.eater.com › maps › best-restaurants-pac...
+            - button "About this result" [ref=e293] [cursor=pointer]:
+              - img [ref=e296]
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - emphasis [ref=e301]: Ambrogio15
+              - text: · Birrieria & Taqueria La Huasteca · The Fishery · Sushi Ota · La Clochette Du Coin · Costa Brava · Soi PB Thai Street Food · Swagyu Pacific Beach.
+            - link "Read more" [ref=e302] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-restaurants-pacific-beach-san-diego#:~:text=Ambrogio15&text=Birrieria%20%26%20Taqueria%20La%20Huasteca&text=The%20Fishery&text=Sushi%20Ota&text=La%20Clochette%20Du%20Coin&text=Costa%20Brava&text=Soi%20PB%20Thai%20Street%20Food&text=Swagyu%20Pacific%20Beach
+        - generic [ref=e306]:
+          - generic [ref=e309]:
+            - link "The 38 Best Restaurants in San Diego Eater San Diego https://sandiego.eater.com › maps › 38-best-restaurants-..." [ref=e311] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/38-best-restaurants-san-diego-california
+              - heading "The 38 Best Restaurants in San Diego" [level=3] [ref=e312]
+              - generic [ref=e317]:
+                - generic [ref=e319]: Eater San Diego
+                - generic [ref=e321]: https://sandiego.eater.com › maps › 38-best-restaurants-...
+            - button "About this result" [ref=e322] [cursor=pointer]:
+              - img [ref=e325]
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - text: A landmark La Jolla restaurant,
+              - emphasis [ref=e330]: George's at the Cove
+              - text: has been going strong for over 40 years now. The culinary team is led by chef Trey Foshee, executive chef ...
+            - link "Read more" [ref=e331] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/38-best-restaurants-san-diego-california#:~:text=A%20landmark%20La%20Jolla%20restaurant%2C,and%20pastry%20chef%20Anna%20Adams.
+        - generic [ref=e335]:
+          - generic [ref=e338]:
+            - link "Dining Out in San Diego Eater San Diego https://sandiego.eater.com › dining-out-in-san-diego" [ref=e340] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/dining-out-in-san-diego
+              - heading "Dining Out in San Diego" [level=3] [ref=e341]
+              - generic [ref=e346]:
+                - generic [ref=e348]: Eater San Diego
+                - generic [ref=e350]: https://sandiego.eater.com › dining-out-in-san-diego
+            - button "About this result" [ref=e351] [cursor=pointer]:
+              - img [ref=e354]
+          - generic [ref=e357]:
+            - generic [ref=e358]:
+              - text: From hot pot to dim sum and everything in between,
+              - emphasis [ref=e359]: here's where you can find the best Chinese cuisine in San Diego
+              - text: . By Helen I. Hwang, Candice Woo and 1 ...
+            - link "Read more" [ref=e360] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/dining-out-in-san-diego#:~:text=From%20hot%20pot%20to%20dim,Candice%20Woo%20and%201%20more
+        - generic [ref=e364]:
+          - generic [ref=e367]:
+            - link "16 Places to Dine Near UC San Diego Eater San Diego https://sandiego.eater.com › maps › best-restaurants-bar..." [ref=e369] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-restaurants-bars-food-university-of-california-san-diego-ucsd-la-jolla
+              - heading "16 Places to Dine Near UC San Diego" [level=3] [ref=e370]
+              - generic [ref=e375]:
+                - generic [ref=e377]: Eater San Diego
+                - generic [ref=e379]: https://sandiego.eater.com › maps › best-restaurants-bar...
+            - button "About this result" [ref=e380] [cursor=pointer]:
+              - img [ref=e383]
+          - generic [ref=e386]:
+            - generic [ref=e387]: Aug 8, 2023 —
+            - generic [ref=e388]:
+              - emphasis [ref=e389]: Jeff's Beach Burgers
+              - text: ... This retro-themed burger restaurant is steps from the boat launching area at La Jolla Shores, and a sign on the ceiling ...
+            - link "Read more" [ref=e390] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/maps/best-restaurants-bars-food-university-of-california-san-diego-ucsd-la-jolla#:~:text=Jeff's%20Beach%20Burgers&text=This%20retro%2Dthemed%20burger%20restaurant%20is,and%20salty%20hair%20is%20welcomed.
+        - generic [ref=e394]:
+          - generic [ref=e397]:
+            - link "Hot San Diego Restaurant Openings You May Have ... Eater San Diego https://sandiego.eater.com › openings › san-diego-new-..." [ref=e399] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/openings/61973/san-diego-new-restaurant-openings-december-2025
+              - heading "Hot San Diego Restaurant Openings You May Have ..." [level=3] [ref=e400]
+              - generic [ref=e405]:
+                - generic [ref=e407]: Eater San Diego
+                - generic [ref=e409]: https://sandiego.eater.com › openings › san-diego-new-...
+            - button "About this result" [ref=e410] [cursor=pointer]:
+              - img [ref=e413]
+          - generic [ref=e416]:
+            - generic [ref=e417]: Dec 23, 2025 —
+            - generic [ref=e418]:
+              - text: La Jolla— On December 10, the team behind Michelin-recognized restaurant Callie opened
+              - emphasis [ref=e419]: Fleurette, a French Mediterranean restaurant
+              - text: in La Jolla.
+            - link "Read more" [ref=e420] [cursor=pointer]:
+              - /url: https://sandiego.eater.com/openings/61973/san-diego-new-restaurant-openings-december-2025#:~:text=La%20Jolla%E2%80%94%20On%20December%2010%2C,Mediterranean%20restaurant%20in%20La%20Jolla.
+      - generic [ref=e422]:
+        - generic [ref=e427]:
+          - heading "People also search for" [level=2] [ref=e429]
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - link "Best restaurants san diego la jolla with a view" [ref=e436] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&q=Best+restaurants+san+diego+la+jolla+with+a+view&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ1QJ6BAgzEAE
+                - generic [ref=e437]:
+                  - generic [ref=e442]: Best restaurants san diego la jolla with a view
+                  - img [ref=e446]
+              - link "Best restaurants san diego la jolla waterfront" [ref=e451] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&q=Best+restaurants+san+diego+la+jolla+waterfront&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ1QJ6BAgyEAE
+                - generic [ref=e452]:
+                  - generic [ref=e457]: Best restaurants san diego la jolla waterfront
+                  - img [ref=e461]
+            - link "Best restaurants san diego la jolla downtown" [ref=e467] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&q=Best+restaurants+san+diego+la+jolla+downtown&sa=X&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ1QJ6BAg0EAE
+              - generic [ref=e468]:
+                - generic [ref=e473]: Best restaurants san diego la jolla downtown
+                - img [ref=e477]
+        - navigation [ref=e479]:
+          - heading "Page Navigation" [level=1] [ref=e480]
+          - text: "1"
+          - link "Page 2" [ref=e483] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=10&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAE
+            - text: "2"
+          - link "Page 3" [ref=e485] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=20&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAG
+            - text: "3"
+          - link "Page 4" [ref=e487] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=30&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAI
+            - text: "4"
+          - link "Page 5" [ref=e489] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=40&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAK
+            - text: "5"
+          - link "Page 6" [ref=e491] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=50&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAM
+            - text: "6"
+          - link "Page 7" [ref=e493] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=60&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAO
+            - text: "7"
+          - link "Page 8" [ref=e495] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=70&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAQ
+            - text: "8"
+          - link "Page 9" [ref=e497] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=80&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAS
+            - text: "9"
+          - link "Page 10" [ref=e499] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=90&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8tMDegQICxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e501]:
+            - link "Next" [ref=e502] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+la+jolla+site:eater.com&sca_esv=b2c48e119f077edf&ei=0t_Sac3TGY-HptQPzPnmgQo&start=10&sa=N&sstk=Af77f_cMwOdm0s5010tt9HWi-0JrtXv17KXbHxbxOpXfE-AVqdgOmkLMeTNsQb1PbTPb9OIRfy3O_QZzejOWTSV3MFgVbT8tH5PWHQ&ved=2ahUKEwjNhIL-3teTAxWPg4kEHcy8OaAQ8NMDegQICxAW
+              - generic [ref=e504]: Next
+      - navigation
+    - contentinfo [ref=e505]:
+      - heading "Footer Links" [level=1] [ref=e506]
+      - generic [ref=e510]:
+        - generic [ref=e514]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e516] [cursor=pointer]:
+            - generic [ref=e517]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e519]:
+              - text: "-"
+              - generic [ref=e520]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e522] [cursor=pointer]: Update location
+        - generic [ref=e525]:
+          - link "Help" [ref=e526] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e527] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e528] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e529] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

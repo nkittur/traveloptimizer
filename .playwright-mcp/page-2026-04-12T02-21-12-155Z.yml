@@ -1,0 +1,329 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi6prGooOeTAxXqEmIAHXOdFt8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: best restaurants pittsburgh 2025 site:eater.com best restaurants pittsburgh 2025 site:eater.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bpittsburgh%2B2025%2Bsite%253Aeater.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&aep=1&ntc=1&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q2J8OegQIDBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:eater.com&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Qs6gLegQIEhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=best+restaurants+pittsburgh+2025+site:eater.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q0pQJegQIFBAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:eater.com&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8QtKgLegQIExAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:eater.com&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8QtKgLegQIEBAB
+              - generic [ref=e101]: Images
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:eater.com&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Qs6gLegQIERAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "The 38 Essential Pittsburgh Restaurants Eater DC https://dc.eater.com › maps › best-pittsburgh-restaurants" [ref=e142] [cursor=pointer]:
+                - /url: https://dc.eater.com/maps/best-pittsburgh-restaurants
+                - heading "The 38 Essential Pittsburgh Restaurants" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Eater DC
+                  - generic [ref=e152]: https://dc.eater.com › maps › best-pittsburgh-restaurants
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Aug 29, 2024 —
+              - generic [ref=e161]:
+                - text: The 38 Essential Pittsburgh Restaurants.
+                - emphasis [ref=e162]: Longtime go-tos, scrappy taquerias, an Indian diner
+                - text: ", and more."
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://dc.eater.com/maps/best-pittsburgh-restaurants#:~:text=The%2038%20Essential%20Pittsburgh%20Restaurants&text=Longtime%20go%2Dtos%2C%20scrappy%20taquerias%2C%20an,Indian%20diner%2C%20and%20more
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "Pittsburgh Eater https://www.eater.com › pittsburgh" [ref=e172] [cursor=pointer]:
+              - /url: https://www.eater.com/pittsburgh
+              - heading "Pittsburgh" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: Eater
+                - generic [ref=e182]: https://www.eater.com › pittsburgh
+            - button "About this result" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - emphasis [ref=e191]: The 14 Hottest New Restaurants in Pittsburgh
+              - text: . Where to find buttery lobster rolls, slow-rise pizzas, and drinks paired with just-baked cookies.
+            - link "Read more" [ref=e192] [cursor=pointer]:
+              - /url: https://www.eater.com/pittsburgh#:~:text=The%2014%20Hottest%20New%20Restaurants,in%20Pittsburgh&text=Where%20to%20find%20buttery%20lobster,drinks%20paired%20with%20just%2Dbaked%20cookies
+        - generic [ref=e196]:
+          - generic [ref=e199]:
+            - link "Eating Well in Pittsburgh, the 'Paris of Appalachia' Eater https://www.eater.com › where-to-eat-pittsburgh" [ref=e201] [cursor=pointer]:
+              - /url: https://www.eater.com/2018/3/26/18143463/where-to-eat-pittsburgh
+              - heading "Eating Well in Pittsburgh, the 'Paris of Appalachia'" [level=3] [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]: Eater
+                - generic [ref=e211]: https://www.eater.com › where-to-eat-pittsburgh
+            - button "About this result" [ref=e212] [cursor=pointer]:
+              - img [ref=e215]
+          - generic [ref=e218]:
+            - generic [ref=e219]: Mar 26, 2018 —
+            - generic [ref=e220]:
+              - text: If you had only one dinner in Pittsburgh, I'd steer you to
+              - emphasis [ref=e221]: Legume
+              - text: and its next-door bar, Butterjoint, run by chef Trevett Hooper and his wife, ...
+            - link "Read more" [ref=e222] [cursor=pointer]:
+              - /url: https://www.eater.com/2018/3/26/18143463/where-to-eat-pittsburgh#:~:text=If%20you%20had%20only%20one,Hooper%20and%20his%20wife%2C%20Sarah.
+        - generic [ref=e226]:
+          - generic [ref=e229]:
+            - link "The Michelin Guide Is Heading to More of the Midwest Eater https://www.eater.com › dining-out › michelin-guide-e..." [ref=e231] [cursor=pointer]:
+              - /url: https://www.eater.com/dining-out/954223/michelin-guide-expanding-to-great-lakes-detroit-pittsburgh-minneapolis
+              - heading "The Michelin Guide Is Heading to More of the Midwest" [level=3] [ref=e232]
+              - generic [ref=e237]:
+                - generic [ref=e239]: Eater
+                - generic [ref=e241]: https://www.eater.com › dining-out › michelin-guide-e...
+            - button "About this result" [ref=e242] [cursor=pointer]:
+              - img [ref=e245]
+          - generic [ref=e248]:
+            - generic [ref=e249]: 3 days ago —
+            - generic [ref=e250]:
+              - text: The guide announced that it's expanding to cover Cleveland, Detroit, Indianapolis, Milwaukee, Minneapolis, and
+              - emphasis [ref=e251]: Pittsburgh
+              - text: .
+        - generic [ref=e255]:
+          - generic [ref=e258]:
+            - 'link "Highly Recommended: The Pittsburgh Salad Eater https://www.eater.com › the-pittsburgh-salad-french-fries" [ref=e260] [cursor=pointer]':
+              - /url: https://www.eater.com/2016/7/28/12299342/the-pittsburgh-salad-french-fries
+              - 'heading "Highly Recommended: The Pittsburgh Salad" [level=3] [ref=e261]'
+              - generic [ref=e266]:
+                - generic [ref=e268]: Eater
+                - generic [ref=e270]: https://www.eater.com › the-pittsburgh-salad-french-fries
+            - button "About this result" [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+          - generic [ref=e277]:
+            - generic [ref=e278]: Jul 28, 2016 —
+            - generic [ref=e279]:
+              - emphasis [ref=e280]: Pamela's gets my salad vote
+              - text: because it's delicious, sure, but mostly because it's convenient to where I work. The Pittsburgh salad is like New ...
+            - link "Read more" [ref=e281] [cursor=pointer]:
+              - /url: https://www.eater.com/2016/7/28/12299342/the-pittsburgh-salad-french-fries#:~:text=Pamela's%20gets%20my%20salad%20vote,Pittsburgh%20salad%20is%20like%20New
+        - generic [ref=e285]:
+          - generic [ref=e288]:
+            - link "Eater's Best New Restaurants in America in 2024 Eater https://www.eater.com › best-new-restaurants-america-2..." [ref=e290] [cursor=pointer]:
+              - /url: https://www.eater.com/24282771/best-new-restaurants-america-2024
+              - heading "Eater's Best New Restaurants in America in 2024" [level=3] [ref=e291]
+              - generic [ref=e296]:
+                - generic [ref=e298]: Eater
+                - generic [ref=e300]: https://www.eater.com › best-new-restaurants-america-2...
+            - button "About this result" [ref=e301] [cursor=pointer]:
+              - img [ref=e304]
+          - generic [ref=e307]:
+            - generic [ref=e308]: Nov 15, 2024 —
+            - generic [ref=e309]:
+              - text: Acamaya, New Orleans | Atoma, Seattle | Budonoki, Los Angeles |
+              - emphasis [ref=e310]: Fet-Fisk, Pittsburgh
+              - text: "| Fikscue, Alameda | Frankie's, Burlington | Good Hot Fish, ..."
+            - link "Read more" [ref=e311] [cursor=pointer]:
+              - /url: https://www.eater.com/24282771/best-new-restaurants-america-2024#:~:text=Acamaya%2C%20New%20Orleans%20%7C%20Atoma%2C,Burlington%20%7C%20Good%20Hot%20Fish%2C
+        - generic [ref=e315]:
+          - generic [ref=e318]:
+            - 'link "James Beard Awards 2025: Restaurant, Chef, and Media ... Eater https://www.eater.com › 2025-james-beard-awards-resta..." [ref=e320] [cursor=pointer]':
+              - /url: https://www.eater.com/24398769/2025-james-beard-awards-restaurant-chef-finalists
+              - 'heading "James Beard Awards 2025: Restaurant, Chef, and Media ..." [level=3] [ref=e321]'
+              - generic [ref=e326]:
+                - generic [ref=e328]: Eater
+                - generic [ref=e330]: https://www.eater.com › 2025-james-beard-awards-resta...
+            - button "About this result" [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+          - generic [ref=e337]:
+            - generic [ref=e338]: May 7, 2025 —
+            - generic [ref=e339]:
+              - text: Here are the
+              - emphasis [ref=e340]: "2025"
+              - text: nominees for Outstanding Chef,
+              - emphasis [ref=e341]: Best
+              - text: New
+              - emphasis [ref=e342]: Restaurant
+              - text: ", and"
+              - emphasis [ref=e343]: best
+              - text: cookbook awards.
+        - generic [ref=e347]:
+          - generic [ref=e350]:
+            - link "If You Build It, Will They Come? Eater https://www.eater.com › superior-motors-braddock-kev..." [ref=e352] [cursor=pointer]:
+              - /url: https://www.eater.com/2015/1/21/7861523/superior-motors-braddock-kevin-sousa
+              - heading "If You Build It, Will They Come?" [level=3] [ref=e353]
+              - generic [ref=e358]:
+                - generic [ref=e360]: Eater
+                - generic [ref=e362]: https://www.eater.com › superior-motors-braddock-kev...
+            - button "About this result" [ref=e363] [cursor=pointer]:
+              - img [ref=e366]
+          - generic [ref=e369]:
+            - generic [ref=e370]: Jan 21, 2015 —
+            - generic [ref=e371]:
+              - text: Within six months,
+              - emphasis [ref=e372]: Salt of the Earth
+              - text: received a full set of stars from the Pittsburgh Post-Gazette, and a semifinalist nod from the James Beard ...
+            - link "Read more" [ref=e373] [cursor=pointer]:
+              - /url: https://www.eater.com/2015/1/21/7861523/superior-motors-braddock-kevin-sousa#:~:text=Within%20six%20months%2C%20Salt%20of,Awards%20for%20Best%20New%20Restaurant.
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - link "Eater Eater https://www.eater.com" [ref=e382] [cursor=pointer]:
+              - /url: https://www.eater.com/
+              - heading "Eater" [level=3] [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e390]: Eater
+                - generic [ref=e392]: https://www.eater.com
+            - button "About this result" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e400]:
+            - text: A national site covering food and
+            - emphasis [ref=e401]: dining
+            - text: culture, with 23 city sites tracking local
+            - emphasis [ref=e402]: dining
+            - text: scenes across hundreds of maps.
+          - generic [ref=e404]:
+            - text: "Missing: pittsburgh ‎| Show results with:"
+            - link "pittsburgh" [ref=e405] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=best+restaurants+%22pittsburgh%22+2025+site:eater.com&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q5t4CegQIPRAB
+        - generic [ref=e409]:
+          - generic [ref=e412]:
+            - 'link "James Beard Awards 2026: Restaurant and Chef ... Eater https://www.eater.com › jbfa › james-beard-awards-202..." [ref=e414] [cursor=pointer]':
+              - /url: https://www.eater.com/jbfa/936395/james-beard-awards-2026-semifinalists-chefs-restaurants-jbfa
+              - 'heading "James Beard Awards 2026: Restaurant and Chef ..." [level=3] [ref=e415]'
+              - generic [ref=e420]:
+                - generic [ref=e422]: Eater
+                - generic [ref=e424]: https://www.eater.com › jbfa › james-beard-awards-202...
+            - button "About this result" [ref=e425] [cursor=pointer]:
+              - img [ref=e428]
+          - generic [ref=e431]:
+            - generic [ref=e432]: Jan 21, 2026 —
+            - generic [ref=e433]:
+              - emphasis [ref=e434]: Awards Season
+              - text: "Sep 25, 2025. North America's 50 Best Restaurants 2025: The Full List."
+            - link "Read more" [ref=e435] [cursor=pointer]:
+              - /url: https://www.eater.com/jbfa/936395/james-beard-awards-2026-semifinalists-chefs-restaurants-jbfa#:~:text=Awards%20Season,Sep%2025%2C%202025
+      - generic [ref=e437]:
+        - generic [ref=e442]:
+          - heading "People also search for" [level=2] [ref=e444]
+          - generic [ref=e446]:
+            - link "Best restaurants pittsburgh 2025 reddit" [ref=e451] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=Best+restaurants+pittsburgh+2025+reddit&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q1QJ6BAgzEAE
+              - generic [ref=e452]:
+                - generic [ref=e457]: Best restaurants pittsburgh 2025 reddit
+                - img [ref=e461]
+            - link "Best restaurants pittsburgh 2025 downtown" [ref=e467] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=Best+restaurants+pittsburgh+2025+downtown&sa=X&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q1QJ6BAgyEAE
+              - generic [ref=e468]:
+                - generic [ref=e473]: Best restaurants pittsburgh 2025 downtown
+                - img [ref=e477]
+        - navigation [ref=e479]:
+          - heading "Page Navigation" [level=1] [ref=e480]
+          - text: "1"
+          - link "Page 2" [ref=e483] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=10&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAE
+            - text: "2"
+          - link "Page 3" [ref=e485] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=20&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAG
+            - text: "3"
+          - link "Page 4" [ref=e487] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=30&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAI
+            - text: "4"
+          - link "Page 5" [ref=e489] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=40&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAK
+            - text: "5"
+          - link "Page 6" [ref=e491] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=50&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAM
+            - text: "6"
+          - link "Page 7" [ref=e493] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=60&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAO
+            - text: "7"
+          - link "Page 8" [ref=e495] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=70&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAQ
+            - text: "8"
+          - link "Page 9" [ref=e497] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=80&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAS
+            - text: "9"
+          - link "Page 10" [ref=e499] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=90&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8tMDegQICRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e501]:
+            - link "Next" [ref=e502] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+pittsburgh+2025+site:eater.com&sca_esv=3e6d41f6df379cdf&ei=lwHbafr-J-qliLMP87ra-A0&start=10&sa=N&sstk=Af77f_cVapsEj9NOn2mrg4GiYHrXYkUmM4c7UYxsUAc_020NGVTvy1LAvWQxTm_iaQA9tXXZX4lCxe5HDr5O8YFX1Jum_xinZBJLRA&ved=2ahUKEwi6prGooOeTAxXqEmIAHXOdFt8Q8NMDegQICRAW
+              - generic [ref=e504]: Next
+      - navigation
+    - contentinfo [ref=e505]:
+      - heading "Footer Links" [level=1] [ref=e506]
+      - generic [ref=e510]:
+        - generic [ref=e514]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e516] [cursor=pointer]:
+            - generic [ref=e517]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e519]:
+              - text: "-"
+              - generic [ref=e520]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e522] [cursor=pointer]: Update location
+        - generic [ref=e525]:
+          - link "Help" [ref=e526] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e527] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e528] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e529] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

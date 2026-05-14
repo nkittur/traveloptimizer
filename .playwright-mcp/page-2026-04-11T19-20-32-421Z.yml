@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"guide.michelin.com\" barcelona starred restaurants list \"guide.michelin.com\" barcelona starred restaurants list"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522guide.michelin.com%2522%2Bbarcelona%2Bstarred%2Brestaurants%2Blist%26hl%3Den%26gl%3Dus&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&aep=1&ntc=1&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ2J8OegQIEBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Forums" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQs6gLegQIFhAB
+              - generic [ref=e89]: Forums
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQtKgLegQIFRAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQs6gLegQIEhAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Shopping" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&ved=1t:220175&ictx=111
+              - generic [ref=e101]: Shopping
+          - listitem [ref=e102]:
+            - link "News" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpFZYo9qIX3pM4_jubAu4b8EMlqEiHspSYihYiQG6o1SppoYJA65Rk1q7guuM9A7l3VbW3YjgUe68pgxMWDtMy_zx_eh1zojdYYkvSmCNaQyM7ta6fIU5ptmrbJmaLhBg617qGXbsXfWcq_hORwpOk1SNFMcQqeaWqUmSkxEIVhLjJ8V0AcNDt5FKkhzEYgCNbwKN9cg&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ0pQJegQIExAB
+              - generic [ref=e105]: News
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Barcelona MICHELIN Restaurants MICHELIN Guide https://guide.michelin.com › catalunya › restaurants" [ref=e142] [cursor=pointer]:
+                - /url: https://guide.michelin.com/us/en/catalunya/barcelona/restaurants
+                - heading "Barcelona MICHELIN Restaurants" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: MICHELIN Guide
+                  - generic [ref=e152]: https://guide.michelin.com › catalunya › restaurants
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e160]:
+              - emphasis [ref=e161]: Starred restaurants
+              - text: ", Bib Gourmand and all the MICHELIN restaurants in"
+              - emphasis [ref=e162]: Barcelona
+              - text: on the MICHELIN Guide's official website. MICHELIN inspector reviews and ...
+        - generic [ref=e173]:
+          - heading "Thinking" [level=2] [ref=e177]:
+            - generic [ref=e178]: Thinking
+          - progressbar [ref=e179]
+        - generic [ref=e183]:
+          - heading "Web results" [level=2] [ref=e184]
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - link "Barcelona All Starred MICHELIN Restaurants MICHELIN Guide https://guide.michelin.com › catalunya › all-starred" [ref=e190] [cursor=pointer]:
+                - /url: https://guide.michelin.com/gb/en/catalunya/barcelona/restaurants/all-starred
+                - heading "Barcelona All Starred MICHELIN Restaurants" [level=3] [ref=e191]
+                - generic [ref=e196]:
+                  - generic [ref=e198]: MICHELIN Guide
+                  - generic [ref=e200]: https://guide.michelin.com › catalunya › all-starred
+              - button "About this result" [ref=e201] [cursor=pointer]:
+                - img [ref=e204]
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - emphasis [ref=e209]: Barcelona
+                - text: "and surroundings: 1-30 of 30"
+                - emphasis [ref=e210]: restaurants
+                - text: · ABaC · Lasarte · Caelis · Angle · Moments · Quirat · Cocina Hermanos Torres · Cinc Sentits.
+              - link "Read more" [ref=e211] [cursor=pointer]:
+                - /url: https://guide.michelin.com/gb/en/catalunya/barcelona/restaurants/all-starred#:~:text=Barcelona%20and%20surroundings%3A%201%2D30%20of,30%20restaurants&text=ABaC&text=Lasarte&text=Caelis&text=Angle&text=Moments&text=Quirat&text=Cocina%20Hermanos%20Torres&text=Cinc%20Sentits
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "MICHELIN Guide Restaurants & Hotels – the official website MICHELIN Guide https://guide.michelin.com › ..." [ref=e220] [cursor=pointer]:
+              - /url: https://guide.michelin.com/us/en
+              - heading "MICHELIN Guide Restaurants & Hotels – the official website" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: MICHELIN Guide
+                - generic [ref=e230]: https://guide.michelin.com › ...
+            - button "About this result" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e238]:
+            - text: MICHELIN-
+            - emphasis [ref=e239]: starred Restaurants
+            - text: ", Bib Gourmand, MICHELIN Keys Hotels and magazine. Get inspired and book the best addresses according to our inspectors."
+          - generic [ref=e241]:
+            - text: "Missing: barcelona ‎| Show results with:"
+            - link "barcelona" [ref=e242] [cursor=pointer]:
+              - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=%22guide.michelin.com%22+%22barcelona%22+starred+restaurants+list&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ5t4CegQIGxAB
+        - generic [ref=e246]:
+          - heading "People also ask" [level=2] [ref=e248]
+          - generic [ref=e249]:
+            - button "Are there Michelin-starred restaurants in Barcelona?" [ref=e255] [cursor=pointer]:
+              - generic [ref=e257]: Are there Michelin-starred restaurants in Barcelona?
+              - img [ref=e260]
+            - button "What is a must eat in Barcelona?" [ref=e269] [cursor=pointer]:
+              - generic [ref=e271]: What is a must eat in Barcelona?
+              - img [ref=e274]
+            - button "Where do celebs eat in Barcelona?" [ref=e283] [cursor=pointer]:
+              - generic [ref=e285]: Where do celebs eat in Barcelona?
+              - img [ref=e288]
+            - button "Do you tip at a Michelin star restaurant in Spain?" [ref=e297] [cursor=pointer]:
+              - generic [ref=e299]: Do you tip at a Michelin star restaurant in Spain?
+              - img [ref=e302]
+        - generic [ref=e307]:
+          - heading "Web results" [level=2] [ref=e308]
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - link "The MICHELIN Guide Spain & Portugal 2021 presents its latest ... MICHELIN Guide https://guide.michelin.com › article › news-and-views" [ref=e314] [cursor=pointer]:
+                - /url: https://guide.michelin.com/at/en/article/news-and-views/the-michelin-guide-spain-portugal-2021-presents-its-latest-selection-of-starred-restaurants
+                - heading "The MICHELIN Guide Spain & Portugal 2021 presents its latest ..." [level=3] [ref=e315]
+                - generic [ref=e320]:
+                  - generic [ref=e322]: MICHELIN Guide
+                  - generic [ref=e324]: https://guide.michelin.com › article › news-and-views
+              - button "About this result" [ref=e325] [cursor=pointer]:
+                - img [ref=e328]
+            - generic [ref=e332]:
+              - text: Featuring 252 starred establishments, including 3 new two
+              - emphasis [ref=e333]: Star restaurants
+              - text: and 21 that won their first Star, the 2021 edition also welcomed a new distinction, ...
+        - generic [ref=e337]:
+          - generic [ref=e340]:
+            - link "List of Michelin 3-star restaurants Wikipedia https://en.wikipedia.org › wiki › List_of_Michelin_3-st..." [ref=e342] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants
+              - heading "List of Michelin 3-star restaurants" [level=3] [ref=e343]
+              - generic [ref=e348]:
+                - generic [ref=e350]: Wikipedia
+                - generic [ref=e352]: https://en.wikipedia.org › wiki › List_of_Michelin_3-st...
+            - button "About this result" [ref=e353] [cursor=pointer]:
+              - img [ref=e356]
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - emphasis [ref=e361]: Barcelona
+              - text: · Lasarte · Martín Berasategui and Paolo Casagrande, 2017.
+              - emphasis [ref=e362]: Barcelona
+              - text: ...
+              - emphasis [ref=e363]: guide.michelin.com
+              - text: . Retrieved 2025-07-06. ^ [1] ...
+            - link "Read more" [ref=e364] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants#:~:text=Barcelona,Barcelona&text=guide.michelin.com.%20Retrieved%202025%2D07%2D06.,%5E%20%5B1%5D%20%5Bpermanent%20dead%20link%5D
+        - generic [ref=e368]:
+          - generic [ref=e371]:
+            - link "The MICHELIN Guide Spain 2025 Award Winners MICHELIN Guide https://guide.michelin.com › michelin-guide-ceremony" [ref=e373] [cursor=pointer]:
+              - /url: https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-guide-spain-2025-award-winners
+              - heading "The MICHELIN Guide Spain 2025 Award Winners" [level=3] [ref=e374]
+              - generic [ref=e379]:
+                - generic [ref=e381]: MICHELIN Guide
+                - generic [ref=e383]: https://guide.michelin.com › michelin-guide-ceremony
+            - button "About this result" [ref=e384] [cursor=pointer]:
+              - img [ref=e387]
+          - generic [ref=e390]:
+            - generic [ref=e391]: Nov 26, 2024 —
+            - generic [ref=e392]:
+              - text: The 2025 selection includes a new Three
+              - emphasis [ref=e393]: Star restaurant
+              - text: address, three more Two
+              - emphasis [ref=e394]: Star restaurants
+              - text: and 32 new entries in the One MICHELIN Star category.
+            - link "Read more" [ref=e395] [cursor=pointer]:
+              - /url: https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-guide-spain-2025-award-winners#:~:text=The%202025%20selection%20includes%20a,the%20One%20MICHELIN%20Star%20category.
+        - generic [ref=e399]:
+          - generic [ref=e402]:
+            - 'link "All About The MICHELIN Guide Portugal 2026: https://bit.ly ... Facebook · MICHELIN Guide 250+ reactions · 6 days ago" [ref=e404] [cursor=pointer]':
+              - /url: https://www.facebook.com/MICHELINGuideGBI/posts/all-about-the-michelin-guide-portugal-2026-httpsbitly3ptxzgxdiscover-everything-/1245673851097104/
+              - 'heading "All About The MICHELIN Guide Portugal 2026: https://bit.ly ..." [level=3] [ref=e405]'
+              - generic [ref=e410]:
+                - generic [ref=e412]: Facebook · MICHELIN Guide
+                - generic [ref=e414]: 250+ reactions · 6 days ago
+            - button "About this result" [ref=e415] [cursor=pointer]:
+              - img [ref=e418]
+          - generic [ref=e421]:
+            - generic [ref=e422]:
+              - text: https://
+              - emphasis [ref=e423]: guide.michelin.com
+              - text: /en/article/michelin-guide- ceremony ... Alameda (Photo) led by chef Rui Sequeira, joins the
+              - emphasis [ref=e424]: list
+              - text: of Michelin-
+              - emphasis [ref=e425]: starred
+              - text: ...
+            - link "Read more" [ref=e426] [cursor=pointer]:
+              - /url: https://www.facebook.com/MICHELINGuideGBI/posts/all-about-the-michelin-guide-portugal-2026-httpsbitly3ptxzgxdiscover-everything-/1245673851097104/#:~:text=https%3A%2F%2Fguide.michelin.com%2Fen%2Farticle%2Fmichelin%2Dguide%2D%20ceremony%2Fmichelin%2Dguide%2Dvietnam%2D%202025%3Ffbclid%3DIwY2xjawKv07JleHRuA2FlbQIxMQBicmlk%20ETFJMkhldDhRMTRqMkR2cFhDAR7HIDCyGcmAzFflY%20mb1iykQqwjNTGm8LoukzQJOL3hiTVJJZqzerO0%2D&text=Alameda%20(Photo)%20led%20by%20chef,Michelin%2Dstarred%20restaurants%20in%20the%20Algarve.
+        - generic [ref=e430]:
+          - generic [ref=e433]:
+            - link "MAE Barcelona - Restaurants MICHELIN Guide https://guide.michelin.com › barcelona › restaurant › m..." [ref=e435] [cursor=pointer]:
+              - /url: https://guide.michelin.com/cz/en/catalunya/barcelona/restaurant/mae-barcelona
+              - heading "MAE Barcelona - Restaurants" [level=3] [ref=e436]
+              - generic [ref=e441]:
+                - generic [ref=e443]: MICHELIN Guide
+                - generic [ref=e445]: https://guide.michelin.com › barcelona › restaurant › m...
+            - button "About this result" [ref=e446] [cursor=pointer]:
+              - img [ref=e449]
+          - generic [ref=e453]:
+            - text: MAE
+            - emphasis [ref=e454]: Barcelona
+            - text: – a One
+            - emphasis [ref=e455]: Star
+            - text: ": High quality cooking"
+            - emphasis [ref=e456]: restaurant
+            - text: in the 2026 MICHELIN Guide España. Free online booking on the MICHELIN Guide's official website.
+        - generic [ref=e460]:
+          - generic [ref=e463]:
+            - link "Towards “a sky full of Michelin Stars” ScienceDirect.com https://www.sciencedirect.com › science › article › pii" [ref=e465] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/pii/S1878450X2300080X
+              - heading "Towards “a sky full of Michelin Stars”" [level=3] [ref=e466]
+              - generic [ref=e471]:
+                - generic [ref=e473]: ScienceDirect.com
+                - generic [ref=e475]: https://www.sciencedirect.com › science › article › pii
+            - button "About this result" [ref=e476] [cursor=pointer]:
+              - img [ref=e479]
+          - generic [ref=e482]:
+            - generic [ref=e483]: by JI Castillo-Manzano · 2023 · Cited by 16 —
+            - generic [ref=e484]:
+              - text: Hypothesis 3 (H3), 4 (H4), and 5 (H5). Further hypotheses come directly from an analysis of the criteria for awarding the stars (see https://
+              - emphasis [ref=e485]: guide.michelin.com
+              - text: / ...
+            - link "Read more" [ref=e486] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/pii/S1878450X2300080X#:~:text=.%20Hypothesis%203%20(H3)%2C%204,awarding%20the%20stars%20(see%20https%3A%2F%2Fguide.michelin.com%2Fsg%2Fen%2Fthe%2Dinspection%2Dprocess%2Dsg
+        - generic [ref=e490]:
+          - generic [ref=e493]:
+            - 'link "Michelin restaurant in Milan : r/MichelinStars Reddit · r/MichelinStars 20+ comments · 1 year ago" [ref=e495] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/MichelinStars/comments/1hnggiz/michelin_restaurant_in_milan/
+              - 'heading "Michelin restaurant in Milan : r/MichelinStars" [level=3] [ref=e496]'
+              - generic [ref=e501]:
+                - generic [ref=e503]: Reddit · r/MichelinStars
+                - generic [ref=e505]: 20+ comments · 1 year ago
+            - button "About this result" [ref=e506] [cursor=pointer]:
+              - img [ref=e509]
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - text: "[bu:r] was very good when we went a year ago. https://"
+              - emphasis [ref=e514]: guide.michelin.com
+              - text: ... r/sushi - Michelin
+              - emphasis [ref=e515]: rated
+              - text: Sushi
+              - emphasis [ref=e516]: restaurant
+              - text: in
+              - emphasis [ref=e517]: Barcelona
+              - text: . 4. 384.
+            - link "Read more" [ref=e518] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/MichelinStars/comments/1hnggiz/michelin_restaurant_in_milan/#:~:text=%5Bbu%3Ar%5D%20was%20very%20good%20when,https%3A%2F%2Fguide.michelin.com%2Fhk%2Fen%2Flombardia%2Fmilano%2Frestaurant%2Fbu%2Dr&text=4,384
+      - generic [ref=e520]:
+        - generic [ref=e525]:
+          - heading "People also search for" [level=2] [ref=e527]
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - link "\"guide.michelin.com\" barcelona starred restaurants list near monroeville, pa" [ref=e534] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list+near+monroeville,+pa&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAgkEAE
+                - generic [ref=e535]:
+                  - generic [ref=e540]: "\"guide.michelin.com\" barcelona starred restaurants list near monroeville, pa"
+                  - img [ref=e544]
+              - link "\"guide.michelin.com\" barcelona starred restaurants list near pittsburgh, pa" [ref=e549] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=%22guide.michelin.com%22+barcelona+starred+restaurants+list+near+pittsburgh,+pa&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAg8EAE
+                - generic [ref=e550]:
+                  - generic [ref=e555]: "\"guide.michelin.com\" barcelona starred restaurants list near pittsburgh, pa"
+                  - img [ref=e559]
+              - link "Guide michelin com barcelona starred restaurants list near" [ref=e564] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=Guide+michelin+com+barcelona+starred+restaurants+list+near&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAg6EAE
+                - generic [ref=e565]:
+                  - generic [ref=e570]: Guide michelin com barcelona starred restaurants list near
+                  - img [ref=e574]
+              - link "Guide michelin com barcelona starred restaurants list 2021" [ref=e579] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=Guide+michelin+com+barcelona+starred+restaurants+list+2021&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAg4EAE
+                - generic [ref=e580]:
+                  - generic [ref=e585]: Guide michelin com barcelona starred restaurants list 2021
+                  - img [ref=e589]
+            - generic [ref=e591]:
+              - link "Michelin Star restaurants by state" [ref=e595] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=Michelin+Star+restaurants+by+state&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAg0EAE
+                - generic [ref=e596]:
+                  - generic [ref=e601]: Michelin Star restaurants by state
+                  - img [ref=e605]
+              - link "3 Star michelin restaurants" [ref=e610] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=3+Star+michelin+restaurants&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAguEAE
+                - generic [ref=e611]:
+                  - generic [ref=e616]: 3 Star michelin restaurants
+                  - img [ref=e620]
+              - link "Michelin Star restaurants near me" [ref=e625] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=Michelin+Star+restaurants+near+me&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAgqEAE
+                - generic [ref=e626]:
+                  - generic [ref=e631]: Michelin Star restaurants near me
+                  - img [ref=e635]
+              - link "Michelin Star restaurants map" [ref=e640] [cursor=pointer]:
+                - /url: /search?sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&q=Michelin+Star+restaurants+map&sa=X&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ1QJ6BAgnEAE
+                - generic [ref=e641]:
+                  - generic [ref=e646]: Michelin Star restaurants map
+                  - img [ref=e650]
+        - navigation [ref=e652]:
+          - heading "Page Navigation" [level=1] [ref=e653]
+          - text: "1"
+          - link "Page 2" [ref=e656] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=10&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAE
+            - text: "2"
+          - link "Page 3" [ref=e658] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=20&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAG
+            - text: "3"
+          - link "Page 4" [ref=e660] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=30&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAI
+            - text: "4"
+          - link "Page 5" [ref=e662] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=40&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAK
+            - text: "5"
+          - link "Page 6" [ref=e664] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=50&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAM
+            - text: "6"
+          - link "Page 7" [ref=e666] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=60&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAO
+            - text: "7"
+          - link "Page 8" [ref=e668] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=70&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAQ
+            - text: "8"
+          - link "Page 9" [ref=e670] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=80&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAS
+            - text: "9"
+          - link "Page 10" [ref=e672] [cursor=pointer]:
+            - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=90&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8tMDegQIDRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e674]:
+            - link "Next" [ref=e675] [cursor=pointer]:
+              - /url: /search?q=%22guide.michelin.com%22+barcelona+starred+restaurants+list&sca_esv=0baaa2d5d8a71e57&hl=en&gl=us&ei=_57aabbILv3W5NoPsr_bwQI&start=10&sa=N&sstk=Af77f_dTCAs4fdQVmRSEKhwniSzm2-JGjR1rek0XoFXCQMj5X1Vx2_RzWm5QUQuloiOGzQh-3uFpyoyr1O-PFz7ASKErpmEbJZVQsA&ved=2ahUKEwj2w4ilwuaTAxV9K1kFHbLfNigQ8NMDegQIDRAW
+              - generic [ref=e677]: Next
+      - navigation
+    - contentinfo [ref=e678]:
+      - heading "Footer Links" [level=1] [ref=e679]
+      - generic [ref=e683]:
+        - generic [ref=e687]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e689] [cursor=pointer]:
+            - generic [ref=e690]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e692]:
+              - text: "-"
+              - generic [ref=e693]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e695] [cursor=pointer]: Update location
+        - generic [ref=e698]:
+          - link "Help" [ref=e699] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e700] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e701] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e702] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

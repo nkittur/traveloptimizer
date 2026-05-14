@@ -1,0 +1,2831 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "Barcelona" [ref=e111] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "Barcelona" [ref=e112]
+      - link "Barcelona" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 24 Jan 2023
+      - generic [ref=e130]: 75 points (88% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/10jv1lm
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "Barcelona" [level=1] [ref=e145]:
+        - link "Barcelona" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/Barcelona/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Welcome to the Barcelona Sub-Reddit
+        - heading "Use the weekly Barcelona Weekly Q&A sticky post to ask all your questions about visiting, moving to or just living in Barcelona." [level=3] [ref=e153]
+        - heading "Read the wiki - it's full of tips and advice for visitors and residents, like tourist info, bars (& sports bars) and restaurant recommendations from the locals, and much more. Also, please search older topics." [level=3] [ref=e154]:
+          - text: Read
+          - emphasis [ref=e155]:
+            - link "the wiki" [ref=e156] [cursor=pointer]:
+              - /url: /r/Barcelona/wiki/index
+          - text: "- it's full of tips and advice for visitors and residents, like"
+          - link "tourist info" [ref=e157] [cursor=pointer]:
+            - /url: /r/Barcelona/wiki/visitingbarcelona
+          - text: ","
+          - link "bars (& sports bars)" [ref=e158] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/bars
+          - text: and
+          - link "restaurant recommendations" [ref=e159] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/restaurants
+          - text: from the locals, and much more. Also, please search older topics.
+        - paragraph [ref=e160]:
+          - text: "FC Barcelona posts should go on the separate sub:"
+          - link "r/barca" [ref=e161] [cursor=pointer]:
+            - /url: /r/barca
+        - paragraph [ref=e162]: "In Catalonia:"
+        - paragraph [ref=e163]:
+          - link "r/catalonia (in English)" [ref=e164] [cursor=pointer]:
+            - /url: /r/catalonia
+        - paragraph [ref=e165]:
+          - link "r/catalunya (in Catalan)" [ref=e166] [cursor=pointer]:
+            - /url: /r/Catalunya
+        - paragraph [ref=e167]:
+          - link "r/catalan (about the language)" [ref=e168] [cursor=pointer]:
+            - /url: /r/catalan
+        - paragraph [ref=e169]:
+          - link "r/maresme" [ref=e170] [cursor=pointer]:
+            - /url: /r/maresme
+        - paragraph [ref=e171]:
+          - link "r/santcugat" [ref=e172] [cursor=pointer]:
+            - /url: /r/santcugat
+        - paragraph [ref=e173]:
+          - link "r/girona" [ref=e174] [cursor=pointer]:
+            - /url: /r/girona
+        - paragraph [ref=e175]:
+          - link "r/tarragona" [ref=e176] [cursor=pointer]:
+            - /url: /r/tarragona
+        - paragraph [ref=e177]:
+          - text: Our
+          - link "IRC Channel" [ref=e178] [cursor=pointer]:
+            - /url: https://kiwiirc.com/client/irc.snoonet.org/barcelona
+          - text: Join us!
+        - paragraph [ref=e179]:
+          - text: "Other useful subs :"
+          - link "r/buyandsellbcn" [ref=e180] [cursor=pointer]:
+            - /url: /r/buyandsellbcn
+        - paragraph [ref=e181]:
+          - text: "Events: check out"
+          - link "eventradr.com" [ref=e182] [cursor=pointer]:
+            - /url: http://eventradr.com/
+      - generic [ref=e184]:
+        - text: a community for
+        - time [ref=e185]: 17 years
+    - generic [ref=e187]:
+      - heading "MODERATORS" [level=1] [ref=e189]
+      - list [ref=e190]:
+        - listitem [ref=e191]:
+          - link "message the mods" [ref=e192] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/Barcelona
+    - complementary [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - text: discussions in
+          - link "r/Barcelona" [ref=e198] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/?ref=readnext
+        - navigation [ref=e199]:
+          - generic [ref=e200] [cursor=pointer]: <
+          - generic [ref=e201] [cursor=pointer]: ">"
+        - generic [ref=e203] [cursor=pointer]: X
+      - link "792 · 43 comments incredible that barcelona has a wario next door" [ref=e205] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/comments/1shzywy/incredible_that_barcelona_has_a_wario_next_door/?ref=readnext_0
+        - generic [ref=e206]: 792 · 43 comments
+        - generic [ref=e208]: incredible that barcelona has a wario next door
+  - main [ref=e209]:
+    - generic [ref=e210]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e211] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e212]
+        - paragraph [ref=e213]: the front page of the internet.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Become a Redditor
+          - paragraph [ref=e216]: and join one of thousands of communities.
+      - link "×" [ref=e217] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e219]:
+      - paragraph
+      - generic [ref=e220]:
+        - button "upvote" [ref=e221] [cursor=pointer]
+        - generic "75" [ref=e222]
+        - button "downvote" [ref=e223] [cursor=pointer]
+      - link [ref=e224] [cursor=pointer]:
+        - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - paragraph [ref=e227]:
+            - link "Top Favorite restaurants" [ref=e228] [cursor=pointer]:
+              - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+            - generic [ref=e229]:
+              - text: (
+              - link "self.Barcelona" [ref=e230] [cursor=pointer]:
+                - /url: /r/Barcelona/
+              - text: )
+          - paragraph [ref=e231]:
+            - text: submitted
+            - time [ref=e232]: 3 years ago
+            - text: by
+            - link "luismanuelri" [ref=e233] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/luismanuelri
+        - generic [ref=e238]:
+          - paragraph [ref=e239]: What's your top best restaurants for these price points? (it doesn't matter the type of food)
+          - paragraph [ref=e240]: 1) Best restaurant for under 20€/person
+          - paragraph [ref=e241]: 2) Best restaurant for 20-50€/person
+          - paragraph [ref=e242]: 3) Best restaurant for over 50€/person
+        - list [ref=e243]:
+          - listitem [ref=e244]:
+            - link "92 comments" [ref=e245] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+          - listitem [ref=e246]:
+            - link "share" [ref=e247] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e248]:
+            - link "save" [ref=e249] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e250]:
+            - link "hide" [ref=e253] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e254]:
+            - link "report" [ref=e255] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e256]:
+      - generic [ref=e257]: all 92 comments
+      - generic [ref=e259]:
+        - text: "sorted by:"
+        - generic [ref=e260]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e263] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e264]
+        - generic [ref=e265]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e266]
+          - paragraph [ref=e267]: Post a comment!
+          - generic [ref=e269]: Create an account
+      - generic [ref=e270]:
+        - generic [ref=e271]:
+          - paragraph
+          - generic [ref=e272]:
+            - button "upvote" [ref=e273] [cursor=pointer]
+            - button "downvote" [ref=e274] [cursor=pointer]
+          - generic [ref=e275]:
+            - paragraph [ref=e276]:
+              - link "[–]" [ref=e277] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dehumo" [ref=e278] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dehumo
+              - text: 13 points
+              - time [ref=e280]: 3 years ago
+            - paragraph [ref=e284]: Under 10 - Bar H (Home-made Italian Pasta) 7.5 a plate Under 20 - Sports Bar Pizza Under 50 - El Pachuco Over 50 - N/A
+            - list [ref=e285]:
+              - listitem [ref=e286]:
+                - link "permalink" [ref=e287] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nojii/
+              - listitem [ref=e288]:
+                - link "embed" [ref=e289] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e290]:
+                - link "save" [ref=e291] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e292]:
+                - link "report" [ref=e293] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - paragraph
+              - generic [ref=e297]:
+                - button "upvote" [ref=e298] [cursor=pointer]
+                - button "downvote" [ref=e299] [cursor=pointer]
+              - generic [ref=e300]:
+                - paragraph [ref=e301]:
+                  - link "[–]" [ref=e302] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Acrobatic_Machine" [ref=e303] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Acrobatic_Machine
+                  - text: 14 points
+                  - time [ref=e305]: 3 years ago
+                - paragraph [ref=e309]: EL Pachucos Nachos 10/10 is the bomb but their tacos are a bit boring
+                - list [ref=e310]:
+                  - listitem [ref=e311]:
+                    - link "permalink" [ref=e312] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nwvow/
+                  - listitem [ref=e313]:
+                    - link "embed" [ref=e314] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e315]:
+                    - link "save" [ref=e316] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e317]:
+                    - link "parent" [ref=e318] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e319]:
+                    - link "report" [ref=e320] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e323]:
+                - paragraph
+                - generic [ref=e324]:
+                  - button "upvote" [ref=e325] [cursor=pointer]
+                  - button "downvote" [ref=e326] [cursor=pointer]
+                - generic [ref=e327]:
+                  - paragraph [ref=e328]:
+                    - link "[–]" [ref=e329] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "rabbitkingdom" [ref=e330] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/rabbitkingdom
+                    - text: 2 points
+                    - time [ref=e332]: 3 years ago
+                  - paragraph [ref=e336]: Totally agree on the tacos. I was impressed by the quality at first, but after having the same ones multiple times, they’re not very exciting.
+                  - list [ref=e337]:
+                    - listitem [ref=e338]:
+                      - link "permalink" [ref=e339] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o4zct/
+                    - listitem [ref=e340]:
+                      - link "embed" [ref=e341] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e342]:
+                      - link "save" [ref=e343] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e344]:
+                      - link "parent" [ref=e345] [cursor=pointer]:
+                        - /url: "#j5nwvow"
+                    - listitem [ref=e346]:
+                      - link "report" [ref=e347] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e348]:
+              - paragraph
+              - generic [ref=e349]:
+                - button "upvote" [ref=e350] [cursor=pointer]
+                - button "downvote" [ref=e351] [cursor=pointer]
+              - generic [ref=e352]:
+                - paragraph [ref=e353]:
+                  - link "[–]" [ref=e354] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "luismanuelri" [ref=e355] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/luismanuelri
+                  - generic [ref=e357]:
+                    - text: "["
+                    - link "S" [ref=e358] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                    - text: "]"
+                  - text: 6 points
+                  - time [ref=e359]: 3 years ago
+                - paragraph [ref=e363]: Nice! It’s so difficult to find good places nowadays for <10€… but I’ll try Bar H and those nachos at Pachuco
+                - list [ref=e364]:
+                  - listitem [ref=e365]:
+                    - link "permalink" [ref=e366] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nzr4o/
+                  - listitem [ref=e367]:
+                    - link "embed" [ref=e368] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e369]:
+                    - link "save" [ref=e370] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e371]:
+                    - link "parent" [ref=e372] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e373]:
+                    - link "report" [ref=e374] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e377]:
+                - paragraph
+                - generic [ref=e378]:
+                  - button "upvote" [ref=e379] [cursor=pointer]
+                  - button "downvote" [ref=e380] [cursor=pointer]
+                - generic [ref=e381]:
+                  - paragraph [ref=e382]:
+                    - link "[–]" [ref=e383] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "dehumo" [ref=e384] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/dehumo
+                    - text: 2 points
+                    - time [ref=e386]: 3 years ago
+                  - paragraph [ref=e390]: Bar H is incredible.
+                  - list [ref=e391]:
+                    - listitem [ref=e392]:
+                      - link "permalink" [ref=e393] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pwjkw/
+                    - listitem [ref=e394]:
+                      - link "embed" [ref=e395] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e396]:
+                      - link "save" [ref=e397] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e398]:
+                      - link "parent" [ref=e399] [cursor=pointer]:
+                        - /url: "#j5nzr4o"
+                    - listitem [ref=e400]:
+                      - link "report" [ref=e401] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e402]:
+              - paragraph
+              - generic [ref=e403]:
+                - button "upvote" [ref=e404] [cursor=pointer]
+                - button "downvote" [ref=e405] [cursor=pointer]
+              - generic [ref=e406]:
+                - paragraph [ref=e407]:
+                  - link "[–]" [ref=e408] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "closetcruise" [ref=e409] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/closetcruise
+                  - text: 3 points
+                  - time [ref=e411]: 3 years ago
+                - paragraph [ref=e415]: Sports bar was such a disappointment compared to other options. What did you like about it.
+                - list [ref=e416]:
+                  - listitem [ref=e417]:
+                    - link "permalink" [ref=e418] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5oqrjv/
+                  - listitem [ref=e419]:
+                    - link "embed" [ref=e420] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e421]:
+                    - link "save" [ref=e422] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e423]:
+                    - link "parent" [ref=e424] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e425]:
+                    - link "report" [ref=e426] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e427]:
+              - paragraph
+              - generic [ref=e428]:
+                - button "upvote" [ref=e429] [cursor=pointer]
+                - button "downvote" [ref=e430] [cursor=pointer]
+              - generic [ref=e431]:
+                - paragraph [ref=e432]:
+                  - link "[–]" [ref=e433] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "pincho_de_tortilla" [ref=e434] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/pincho_de_tortilla
+                  - text: 2 points
+                  - time [ref=e436]: 3 years ago
+                - paragraph [ref=e440]: Sports bar pizza is absolutely phenomenal. If anyone wants to murder their stomach but die in ecstasy, I’d recommend the burrata pizza. If you don’t want to murder your stomach i’d recommend the pizza diavola
+                - list [ref=e441]:
+                  - listitem [ref=e442]:
+                    - link "permalink" [ref=e443] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pfno7/
+                  - listitem [ref=e444]:
+                    - link "embed" [ref=e445] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e446]:
+                    - link "save" [ref=e447] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e448]:
+                    - link "parent" [ref=e449] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e450]:
+                    - link "report" [ref=e451] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e454]:
+                - paragraph
+                - generic [ref=e455]:
+                  - button "upvote" [ref=e456] [cursor=pointer]
+                  - button "downvote" [ref=e457] [cursor=pointer]
+                - generic [ref=e458]:
+                  - paragraph [ref=e459]:
+                    - link "[–]" [ref=e460] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "dehumo" [ref=e461] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/dehumo
+                    - text: 1 point
+                    - time [ref=e463]: 3 years ago
+                  - paragraph [ref=e467]: Amen
+                  - list [ref=e468]:
+                    - listitem [ref=e469]:
+                      - link "permalink" [ref=e470] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pw5mc/
+                    - listitem [ref=e471]:
+                      - link "embed" [ref=e472] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e473]:
+                      - link "save" [ref=e474] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e475]:
+                      - link "parent" [ref=e476] [cursor=pointer]:
+                        - /url: "#j5pfno7"
+                    - listitem [ref=e477]:
+                      - link "report" [ref=e478] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e479]:
+              - paragraph
+              - generic [ref=e480]:
+                - button "upvote" [ref=e481] [cursor=pointer]
+                - button "downvote" [ref=e482] [cursor=pointer]
+              - generic [ref=e483]:
+                - paragraph [ref=e484]:
+                  - link "[–]" [ref=e485] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "-Sagan-" [ref=e486] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/-Sagan-
+                  - text: 1 point
+                  - time [ref=e488]: 3 years ago
+                - paragraph [ref=e492]: Thanks for Bar H, I'll give it a try
+                - list [ref=e493]:
+                  - listitem [ref=e494]:
+                    - link "permalink" [ref=e495] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5p14h5/
+                  - listitem [ref=e496]:
+                    - link "embed" [ref=e497] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e498]:
+                    - link "save" [ref=e499] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e500]:
+                    - link "parent" [ref=e501] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e502]:
+                    - link "report" [ref=e503] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e506]:
+                - paragraph
+                - generic [ref=e507]:
+                  - button "upvote" [ref=e508] [cursor=pointer]
+                  - button "downvote" [ref=e509] [cursor=pointer]
+                - generic [ref=e510]:
+                  - paragraph [ref=e511]:
+                    - link "[–]" [ref=e512] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "dehumo" [ref=e513] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/dehumo
+                    - text: 2 points
+                    - time [ref=e515]: 3 years ago
+                  - paragraph [ref=e519]: It's unbeatable. The owner Gianfranco is a legend.
+                  - list [ref=e520]:
+                    - listitem [ref=e521]:
+                      - link "permalink" [ref=e522] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pwhzj/
+                    - listitem [ref=e523]:
+                      - link "embed" [ref=e524] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e525]:
+                      - link "save" [ref=e526] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e527]:
+                      - link "parent" [ref=e528] [cursor=pointer]:
+                        - /url: "#j5p14h5"
+                    - listitem [ref=e529]:
+                      - link "report" [ref=e530] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e531]:
+              - paragraph
+              - generic [ref=e532]:
+                - button "upvote" [ref=e533] [cursor=pointer]
+                - button "downvote" [ref=e534] [cursor=pointer]
+              - generic [ref=e535]:
+                - paragraph [ref=e536]:
+                  - link "[–]" [ref=e537] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "dehumo" [ref=e538] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/dehumo
+                  - text: 1 point
+                  - time [ref=e540]: 3 years ago
+                - paragraph [ref=e544]: I forgot my favourite place Muchachos en El Borne. There sandwiches are insane. 'Hot Marvin' meatball sub.
+                - list [ref=e545]:
+                  - listitem [ref=e546]:
+                    - link "permalink" [ref=e547] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pw9ph/
+                  - listitem [ref=e548]:
+                    - link "embed" [ref=e549] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e550]:
+                    - link "save" [ref=e551] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e552]:
+                    - link "parent" [ref=e553] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e554]:
+                    - link "report" [ref=e555] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e556]:
+              - paragraph
+              - generic [ref=e557]:
+                - button "upvote" [ref=e558] [cursor=pointer]
+                - button "downvote" [ref=e559] [cursor=pointer]
+              - generic [ref=e560]:
+                - paragraph [ref=e561]:
+                  - link "[–]" [ref=e562] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "puzzlemedia-ch" [ref=e563] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/puzzlemedia-ch
+                  - text: 1 point
+                  - time [ref=e565]: 3 years ago
+                - paragraph [ref=e569]: I second Pachuco! Their Conchinitas are really good, and their Michaladas. Also the staff there were fantastic and really made our experience great, shout out to Carlos!
+                - list [ref=e570]:
+                  - listitem [ref=e571]:
+                    - link "permalink" [ref=e572] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qri0w/
+                  - listitem [ref=e573]:
+                    - link "embed" [ref=e574] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e575]:
+                    - link "save" [ref=e576] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e577]:
+                    - link "parent" [ref=e578] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e579]:
+                    - link "report" [ref=e580] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e581]:
+              - paragraph
+              - generic [ref=e582]:
+                - button "upvote" [ref=e583] [cursor=pointer]
+                - button "downvote" [ref=e584] [cursor=pointer]
+              - generic [ref=e585]:
+                - paragraph [ref=e586]:
+                  - link "[–]" [ref=e587] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Redditortero" [ref=e588] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Redditortero
+                  - text: 1 point
+                  - time [ref=e590]: 3 years ago
+                - paragraph [ref=e594]:
+                  - text: Which "sports bar pizza"?
+                  - text: Searching in google maps there are 4 "sports bar" with italian or pizza style
+                - list [ref=e595]:
+                  - listitem [ref=e596]:
+                    - link "permalink" [ref=e597] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j8k8o4l/
+                  - listitem [ref=e598]:
+                    - link "embed" [ref=e599] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e600]:
+                    - link "save" [ref=e601] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e602]:
+                    - link "parent" [ref=e603] [cursor=pointer]:
+                      - /url: "#j5nojii"
+                  - listitem [ref=e604]:
+                    - link "report" [ref=e605] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e608]:
+                - paragraph
+                - generic [ref=e609]:
+                  - button "upvote" [ref=e610] [cursor=pointer]
+                  - button "downvote" [ref=e611] [cursor=pointer]
+                - generic [ref=e612]:
+                  - paragraph [ref=e613]:
+                    - link "[–]" [ref=e614] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "dehumo" [ref=e615] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/dehumo
+                    - text: 1 point
+                    - time [ref=e617]: 3 years ago
+                  - paragraph [ref=e621]: I believe they have multiple restaurants, I order from Poblenou
+                  - list [ref=e622]:
+                    - listitem [ref=e623]:
+                      - link "permalink" [ref=e624] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j8qf3p6/
+                    - listitem [ref=e625]:
+                      - link "embed" [ref=e626] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e627]:
+                      - link "save" [ref=e628] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e629]:
+                      - link "parent" [ref=e630] [cursor=pointer]:
+                        - /url: "#j8k8o4l"
+                    - listitem [ref=e631]:
+                      - link "report" [ref=e632] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e633]:
+          - paragraph
+          - generic [ref=e634]:
+            - button "upvote" [ref=e635] [cursor=pointer]
+            - button "downvote" [ref=e636] [cursor=pointer]
+          - generic [ref=e637]:
+            - paragraph [ref=e638]:
+              - link "[–]" [ref=e639] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "backalleybuttbanger" [ref=e640] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/backalleybuttbanger
+              - text: 12 points
+              - time [ref=e642]: 3 years ago
+            - paragraph [ref=e646]: For around 20/person, I thought Ziryab Fusion tapes bar was amazing.
+            - list [ref=e647]:
+              - listitem [ref=e648]:
+                - link "permalink" [ref=e649] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nwye2/
+              - listitem [ref=e650]:
+                - link "embed" [ref=e651] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e652]:
+                - link "save" [ref=e653] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e654]:
+                - link "report" [ref=e655] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e657]:
+            - generic [ref=e658]:
+              - paragraph
+              - generic [ref=e659]:
+                - button "upvote" [ref=e660] [cursor=pointer]
+                - button "downvote" [ref=e661] [cursor=pointer]
+              - generic [ref=e662]:
+                - paragraph [ref=e663]:
+                  - link "[–]" [ref=e664] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "--enki--" [ref=e665] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/--enki--
+                  - text: 3 points
+                  - time [ref=e667]: 2 years ago
+                - paragraph [ref=e671]: Just wanted to give you a big thank you for this recommendation. Saw this and decided to try it. It was AMAZING.
+                - list [ref=e672]:
+                  - listitem [ref=e673]:
+                    - link "permalink" [ref=e674] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/jnt6p68/
+                  - listitem [ref=e675]:
+                    - link "embed" [ref=e676] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e677]:
+                    - link "save" [ref=e678] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e679]:
+                    - link "parent" [ref=e680] [cursor=pointer]:
+                      - /url: "#j5nwye2"
+                  - listitem [ref=e681]:
+                    - link "report" [ref=e682] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e685]:
+                - paragraph
+                - generic [ref=e686]:
+                  - button "upvote" [ref=e687] [cursor=pointer]
+                  - button "downvote" [ref=e688] [cursor=pointer]
+                - generic [ref=e689]:
+                  - paragraph [ref=e690]:
+                    - link "[–]" [ref=e691] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "backalleybuttbanger" [ref=e692] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/backalleybuttbanger
+                    - text: 1 point
+                    - time [ref=e694]: 2 years ago
+                  - paragraph [ref=e698]: So glad!!
+                  - list [ref=e699]:
+                    - listitem [ref=e700]:
+                      - link "permalink" [ref=e701] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/jnupkw3/
+                    - listitem [ref=e702]:
+                      - link "embed" [ref=e703] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e704]:
+                      - link "save" [ref=e705] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e706]:
+                      - link "parent" [ref=e707] [cursor=pointer]:
+                        - /url: "#jnt6p68"
+                    - listitem [ref=e708]:
+                      - link "report" [ref=e709] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e710]:
+              - paragraph
+              - generic [ref=e711]:
+                - button "upvote" [ref=e712] [cursor=pointer]
+                - button "downvote" [ref=e713] [cursor=pointer]
+              - generic [ref=e714]:
+                - paragraph [ref=e715]:
+                  - link "[–]" [ref=e716] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Okehm8" [ref=e717] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Okehm8
+                  - text: 2 points
+                  - time [ref=e719]: 2 years ago
+                - paragraph [ref=e723]: I went today and it was amazing! I loved the history of the building, their beer selection and they make a point to provide equal opportunity for deaf staff.
+                - list [ref=e724]:
+                  - listitem [ref=e725]:
+                    - link "permalink" [ref=e726] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/jrdi2mt/
+                  - listitem [ref=e727]:
+                    - link "embed" [ref=e728] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e729]:
+                    - link "save" [ref=e730] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e731]:
+                    - link "parent" [ref=e732] [cursor=pointer]:
+                      - /url: "#j5nwye2"
+                  - listitem [ref=e733]:
+                    - link "report" [ref=e734] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e735]:
+              - paragraph
+              - generic [ref=e736]:
+                - button "upvote" [ref=e737] [cursor=pointer]
+                - button "downvote" [ref=e738] [cursor=pointer]
+              - generic [ref=e739]:
+                - paragraph [ref=e740]:
+                  - link "[–]" [ref=e741] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Relevant-Share-6673" [ref=e742] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Relevant-Share-6673
+                  - text: 1 point
+                  - time [ref=e744]: 2 years ago
+                - paragraph [ref=e748]: Thanks for the hot tip, my girlfriend firms this as her best eats in Europe so far. Top menu items as the cevicha !
+                - list [ref=e749]:
+                  - listitem [ref=e750]:
+                    - link "permalink" [ref=e751] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/jwlrdpg/
+                  - listitem [ref=e752]:
+                    - link "embed" [ref=e753] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e754]:
+                    - link "save" [ref=e755] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e756]:
+                    - link "parent" [ref=e757] [cursor=pointer]:
+                      - /url: "#j5nwye2"
+                  - listitem [ref=e758]:
+                    - link "report" [ref=e759] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e760]:
+          - paragraph
+          - generic [ref=e761]:
+            - button "upvote" [ref=e762] [cursor=pointer]
+            - button "downvote" [ref=e763] [cursor=pointer]
+          - generic [ref=e764]:
+            - paragraph [ref=e765]:
+              - link "[–]" [ref=e766] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Soggy_Repair_5227" [ref=e767] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Soggy_Repair_5227
+              - text: 15 points
+              - time [ref=e769]: 3 years ago
+            - paragraph [ref=e773]: 1) Ya Hiro, Chen Ji, Shangai Bund or He Cheng 2) Piel de Gallina, Zed Sagrada, Casa MOON, NANA Restaurante y Khao Thai. 3) haven't been to one in a while.
+            - list [ref=e774]:
+              - listitem [ref=e775]:
+                - link "permalink" [ref=e776] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nq0uj/
+              - listitem [ref=e777]:
+                - link "embed" [ref=e778] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e779]:
+                - link "save" [ref=e780] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e781]:
+                - link "report" [ref=e782] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e785]:
+            - paragraph
+            - generic [ref=e786]:
+              - button "upvote" [ref=e787] [cursor=pointer]
+              - button "downvote" [ref=e788] [cursor=pointer]
+            - generic [ref=e789]:
+              - paragraph [ref=e790]:
+                - link "[–]" [ref=e791] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "luismanuelri" [ref=e792] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/luismanuelri
+                - generic [ref=e794]:
+                  - text: "["
+                  - link "S" [ref=e795] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                  - text: "]"
+                - text: 3 points
+                - time [ref=e796]: 3 years ago
+              - paragraph [ref=e800]: I’ll try them :)
+              - list [ref=e801]:
+                - listitem [ref=e802]:
+                  - link "permalink" [ref=e803] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nznx6/
+                - listitem [ref=e804]:
+                  - link "embed" [ref=e805] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e806]:
+                  - link "save" [ref=e807] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e808]:
+                  - link "parent" [ref=e809] [cursor=pointer]:
+                    - /url: "#j5nq0uj"
+                - listitem [ref=e810]:
+                  - link "report" [ref=e811] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e812]:
+          - paragraph
+          - generic [ref=e813]:
+            - button "upvote" [ref=e814] [cursor=pointer]
+            - button "downvote" [ref=e815] [cursor=pointer]
+          - generic [ref=e816]:
+            - paragraph [ref=e817]:
+              - link "[–]" [ref=e818] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "reddit_administrator" [ref=e819] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/reddit_administrator
+              - text: 10 points
+              - time [ref=e821]: 3 years ago
+            - paragraph [ref=e825]: 1) Chen Ji (if you like chinese) 2) Maleducat 3) Mont Bar
+            - list [ref=e826]:
+              - listitem [ref=e827]:
+                - link "permalink" [ref=e828] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nklo5/
+              - listitem [ref=e829]:
+                - link "embed" [ref=e830] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e831]:
+                - link "save" [ref=e832] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e833]:
+                - link "report" [ref=e834] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e836]:
+            - generic [ref=e837]:
+              - paragraph
+              - generic [ref=e838]:
+                - button "upvote" [ref=e839] [cursor=pointer]
+                - button "downvote" [ref=e840] [cursor=pointer]
+              - generic [ref=e841]:
+                - paragraph [ref=e842]:
+                  - link "[–]" [ref=e843] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "dehumo" [ref=e844] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/dehumo
+                  - text: 8 points
+                  - time [ref=e846]: 3 years ago
+                - paragraph [ref=e850]: Chen Ji is horrible. I do not understand.
+                - list [ref=e851]:
+                  - listitem [ref=e852]:
+                    - link "permalink" [ref=e853] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nofl4/
+                  - listitem [ref=e854]:
+                    - link "embed" [ref=e855] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e856]:
+                    - link "save" [ref=e857] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e858]:
+                    - link "parent" [ref=e859] [cursor=pointer]:
+                      - /url: "#j5nklo5"
+                  - listitem [ref=e860]:
+                    - link "report" [ref=e861] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e864]:
+                - paragraph
+                - generic [ref=e865]:
+                  - button "upvote" [ref=e866] [cursor=pointer]
+                  - button "downvote" [ref=e867] [cursor=pointer]
+                - generic [ref=e868]:
+                  - paragraph [ref=e869]:
+                    - link "[–]" [ref=e870] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "worldisbraindead" [ref=e871] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/worldisbraindead
+                    - text: 1 point
+                    - time [ref=e873]: 3 years ago
+                  - paragraph [ref=e877]: What is your favorite Chinese place?
+                  - list [ref=e878]:
+                    - listitem [ref=e879]:
+                      - link "permalink" [ref=e880] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5t0j9e/
+                    - listitem [ref=e881]:
+                      - link "embed" [ref=e882] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e883]:
+                      - link "save" [ref=e884] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e885]:
+                      - link "parent" [ref=e886] [cursor=pointer]:
+                        - /url: "#j5nofl4"
+                    - listitem [ref=e887]:
+                      - link "report" [ref=e888] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e891]:
+                  - paragraph
+                  - generic [ref=e892]:
+                    - button "upvote" [ref=e893] [cursor=pointer]
+                    - button "downvote" [ref=e894] [cursor=pointer]
+                  - generic [ref=e895]:
+                    - paragraph [ref=e896]:
+                      - link "[–]" [ref=e897] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "dehumo" [ref=e898] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/dehumo
+                      - text: 2 points
+                      - time [ref=e900]: 3 years ago
+                    - paragraph [ref=e904]: I haven't found one! The quality of Chinese food is abysmal... if someone has a real Chinese recommendation I'd love to know!
+                    - list [ref=e905]:
+                      - listitem [ref=e906]:
+                        - link "permalink" [ref=e907] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j6hwzaw/
+                      - listitem [ref=e908]:
+                        - link "embed" [ref=e909] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e910]:
+                        - link "save" [ref=e911] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e912]:
+                        - link "parent" [ref=e913] [cursor=pointer]:
+                          - /url: "#j5t0j9e"
+                      - listitem [ref=e914]:
+                        - link "report" [ref=e915] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e918]:
+                    - paragraph
+                    - generic [ref=e919]:
+                      - button "upvote" [ref=e920] [cursor=pointer]
+                      - button "downvote" [ref=e921] [cursor=pointer]
+                    - generic [ref=e922]:
+                      - paragraph [ref=e923]:
+                        - link "[–]" [ref=e924] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "Kalagorinor" [ref=e925] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/Kalagorinor
+                        - text: 1 point
+                        - time [ref=e927]: 3 years ago
+                      - paragraph [ref=e931]: Have you tried Uniko? It's pretty decent.
+                      - list [ref=e932]:
+                        - listitem [ref=e933]:
+                          - link "permalink" [ref=e934] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j6oa473/
+                        - listitem [ref=e935]:
+                          - link "embed" [ref=e936] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e937]:
+                          - link "save" [ref=e938] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e939]:
+                          - link "parent" [ref=e940] [cursor=pointer]:
+                            - /url: "#j6hwzaw"
+                        - listitem [ref=e941]:
+                          - link "report" [ref=e942] [cursor=pointer]:
+                            - /url: javascript:void(0)
+            - generic [ref=e943]:
+              - paragraph
+              - generic [ref=e944]:
+                - button "upvote" [ref=e945] [cursor=pointer]
+                - button "downvote" [ref=e946] [cursor=pointer]
+              - generic [ref=e947]:
+                - paragraph [ref=e948]:
+                  - link "[–]" [ref=e949] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "luismanuelri" [ref=e950] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/luismanuelri
+                  - generic [ref=e952]:
+                    - text: "["
+                    - link "S" [ref=e953] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                    - text: "]"
+                  - text: 1 point
+                  - time [ref=e954]: 3 years ago
+                - paragraph [ref=e958]: I don’t know any of these places, I’ll try them :)
+                - list [ref=e959]:
+                  - listitem [ref=e960]:
+                    - link "permalink" [ref=e961] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nzmvq/
+                  - listitem [ref=e962]:
+                    - link "embed" [ref=e963] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e964]:
+                    - link "save" [ref=e965] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e966]:
+                    - link "parent" [ref=e967] [cursor=pointer]:
+                      - /url: "#j5nklo5"
+                  - listitem [ref=e968]:
+                    - link "report" [ref=e969] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e970]:
+          - paragraph
+          - generic [ref=e971]:
+            - button "upvote" [ref=e972] [cursor=pointer]
+            - button "downvote" [ref=e973] [cursor=pointer]
+          - generic [ref=e974]:
+            - paragraph [ref=e975]:
+              - link "[–]" [ref=e976] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "hypn0cat" [ref=e977] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/hypn0cat
+              - text: 3 points
+              - time [ref=e979]: 3 years ago
+            - generic [ref=e982]:
+              - list [ref=e983]:
+                - listitem [ref=e984]: "Best restaurant for under 20€/person: Antonias Burger, Caravana, my local bar ;)"
+                - listitem [ref=e985]: "Best restaurant for 20-50€/person: Chi Nanit, Costa Pacífico, Xuba Tacos, Raffaeli, Petit Bangkok"
+                - listitem [ref=e986]: "Best restaurant for over 50€/person: Batea, Al Kostat"
+              - paragraph [ref=e987]: "Places I have on my list to try: Tandoor, Fast Eddie's, Ultramarinos Marín, asagumo, Dos Pebrots..."
+              - paragraph [ref=e988]: I avoided michelin star restaurants for this list
+            - list [ref=e989]:
+              - listitem [ref=e990]:
+                - link "permalink" [ref=e991] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o7jyz/
+              - listitem [ref=e992]:
+                - link "embed" [ref=e993] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e994]:
+                - link "save" [ref=e995] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e996]:
+                - link "report" [ref=e997] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1000]:
+            - paragraph
+            - generic [ref=e1001]:
+              - button "upvote" [ref=e1002] [cursor=pointer]
+              - button "downvote" [ref=e1003] [cursor=pointer]
+            - generic [ref=e1004]:
+              - paragraph [ref=e1005]:
+                - link "[–]" [ref=e1006] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Esparrec" [ref=e1007] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Esparrec
+                - text: 5 points
+                - time [ref=e1009]: 3 years ago
+              - paragraph [ref=e1013]: I saw u mentioned batea, then you may be interested in besta🙇🏼‍♂️
+              - list [ref=e1014]:
+                - listitem [ref=e1015]:
+                  - link "permalink" [ref=e1016] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5opnw5/
+                - listitem [ref=e1017]:
+                  - link "embed" [ref=e1018] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1019]:
+                  - link "save" [ref=e1020] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1021]:
+                  - link "parent" [ref=e1022] [cursor=pointer]:
+                    - /url: "#j5o7jyz"
+                - listitem [ref=e1023]:
+                  - link "report" [ref=e1024] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1025]:
+          - paragraph
+          - generic [ref=e1026]:
+            - button "upvote" [ref=e1027] [cursor=pointer]
+            - button "downvote" [ref=e1028] [cursor=pointer]
+          - generic [ref=e1029]:
+            - paragraph [ref=e1030]:
+              - link "[–]" [ref=e1031] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 12 points"
+              - time [ref=e1032]: 3 years ago
+            - paragraph [ref=e1036]: That depends a lot on the type of restaurant you go to. Currently, my favourite is Yakumanka, Peruvian restaurant in Valencia-Enrique Granados.
+            - list [ref=e1037]:
+              - listitem [ref=e1038]:
+                - link "permalink" [ref=e1039] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5niqdb/
+              - listitem [ref=e1040]:
+                - link "embed" [ref=e1041] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1042]:
+                - link "save" [ref=e1043] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1044]:
+                - link "report" [ref=e1045] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1047]:
+            - generic [ref=e1048]:
+              - paragraph
+              - generic [ref=e1049]:
+                - button "upvote" [ref=e1050] [cursor=pointer]
+                - button "downvote" [ref=e1051] [cursor=pointer]
+              - generic [ref=e1052]:
+                - paragraph [ref=e1053]:
+                  - link "[–]" [ref=e1054] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] 4 points"
+                  - time [ref=e1055]: 3 years ago
+                  - time [ref=e1056]: "*"
+                - generic [ref=e1059]:
+                  - paragraph [ref=e1060]: That looks nice, but €24 for Ceviche? Most of the Peruvian places I've been to have it for €12-€15.
+                  - paragraph [ref=e1061]: Thanks for the recommendation though, as it seems good for a special occasion.
+                  - paragraph [ref=e1062]: "EDIT: Apparently the chef that runs it is quite famous, given that the prices seem pretty reasonable."
+                - list [ref=e1063]:
+                  - listitem [ref=e1064]:
+                    - link "permalink" [ref=e1065] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nyn2k/
+                  - listitem [ref=e1066]:
+                    - link "embed" [ref=e1067] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1068]:
+                    - link "save" [ref=e1069] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1070]:
+                    - link "parent" [ref=e1071] [cursor=pointer]:
+                      - /url: "#j5niqdb"
+                  - listitem [ref=e1072]:
+                    - link "report" [ref=e1073] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1076]:
+                - paragraph
+                - generic [ref=e1077]:
+                  - button "upvote" [ref=e1078] [cursor=pointer]
+                  - button "downvote" [ref=e1079] [cursor=pointer]
+                - generic [ref=e1080]:
+                  - paragraph [ref=e1081]:
+                    - link "[–]" [ref=e1082] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 1 point"
+                    - time [ref=e1083]: 3 years ago
+                  - paragraph [ref=e1087]: It is the best peruvian place in Barcelona. If you get a ceviche for less than 18 euros it is not going to be great. 24€ for the ceviche you get in Yakumanka is an absolute bargain.
+                  - list [ref=e1088]:
+                    - listitem [ref=e1089]:
+                      - link "permalink" [ref=e1090] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pod3t/
+                    - listitem [ref=e1091]:
+                      - link "embed" [ref=e1092] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1093]:
+                      - link "save" [ref=e1094] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1095]:
+                      - link "parent" [ref=e1096] [cursor=pointer]:
+                        - /url: "#j5nyn2k"
+                    - listitem [ref=e1097]:
+                      - link "report" [ref=e1098] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e1099]:
+              - paragraph
+              - generic [ref=e1100]:
+                - button "upvote" [ref=e1101] [cursor=pointer]
+                - button "downvote" [ref=e1102] [cursor=pointer]
+              - generic [ref=e1103]:
+                - paragraph [ref=e1104]:
+                  - link "[–]" [ref=e1105] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "luismanuelri" [ref=e1106] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/luismanuelri
+                  - generic [ref=e1108]:
+                    - text: "["
+                    - link "S" [ref=e1109] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                    - text: "]"
+                  - text: 4 points
+                  - time [ref=e1110]: 3 years ago
+                - paragraph [ref=e1114]: Love Yakumanka :) used to live in Lima and Gaston Acurio is amazing. If you like Peruvian I recommend you also Warike.
+                - list [ref=e1115]:
+                  - listitem [ref=e1116]:
+                    - link "permalink" [ref=e1117] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nzlla/
+                  - listitem [ref=e1118]:
+                    - link "embed" [ref=e1119] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1120]:
+                    - link "save" [ref=e1121] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1122]:
+                    - link "parent" [ref=e1123] [cursor=pointer]:
+                      - /url: "#j5niqdb"
+                  - listitem [ref=e1124]:
+                    - link "report" [ref=e1125] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1128]:
+                - paragraph
+                - generic [ref=e1129]:
+                  - button "upvote" [ref=e1130] [cursor=pointer]
+                  - button "downvote" [ref=e1131] [cursor=pointer]
+                - generic [ref=e1132]:
+                  - paragraph [ref=e1133]:
+                    - link "[–]" [ref=e1134] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "xipella" [ref=e1135] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/xipella
+                    - text: 2 points
+                    - time [ref=e1137]: 3 years ago
+                  - generic [ref=e1140]:
+                    - paragraph [ref=e1141]: Have you ever tried Ceviche 103 at 103 Londres street? Near Diagonal. Between aribau and muntaner.
+                    - paragraph [ref=e1142]: Good peruvian daily menu and better a la carte options
+                  - list [ref=e1143]:
+                    - listitem [ref=e1144]:
+                      - link "permalink" [ref=e1145] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5ooc16/
+                    - listitem [ref=e1146]:
+                      - link "embed" [ref=e1147] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1148]:
+                      - link "save" [ref=e1149] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1150]:
+                      - link "parent" [ref=e1151] [cursor=pointer]:
+                        - /url: "#j5nzlla"
+                    - listitem [ref=e1152]:
+                      - link "report" [ref=e1153] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1154]:
+          - paragraph
+          - generic [ref=e1155]:
+            - button "upvote" [ref=e1156] [cursor=pointer]
+            - button "downvote" [ref=e1157] [cursor=pointer]
+          - generic [ref=e1158]:
+            - paragraph [ref=e1159]:
+              - link "[–]" [ref=e1160] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 3 points"
+              - time [ref=e1161]: 3 years ago
+            - paragraph [ref=e1165]: I really like Aladdin - it's Lebanese food. The decor of the restaurant is nice too.
+            - list [ref=e1166]:
+              - listitem [ref=e1167]:
+                - link "permalink" [ref=e1168] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o3hi5/
+              - listitem [ref=e1169]:
+                - link "embed" [ref=e1170] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1171]:
+                - link "save" [ref=e1172] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1173]:
+                - link "report" [ref=e1174] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1177]:
+            - paragraph
+            - generic [ref=e1178]:
+              - button "upvote" [ref=e1179] [cursor=pointer]
+              - button "downvote" [ref=e1180] [cursor=pointer]
+            - generic [ref=e1181]:
+              - paragraph [ref=e1182]:
+                - link "[–]" [ref=e1183] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "LifeOfPsy" [ref=e1184] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/LifeOfPsy
+                - text: 2 points
+                - time [ref=e1186]: 3 years ago
+              - paragraph [ref=e1190]: Im Lebanese and Ive been looking for a good Lebanese restaurant. Will check it out !
+              - list [ref=e1191]:
+                - listitem [ref=e1192]:
+                  - link "permalink" [ref=e1193] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qhml1/
+                - listitem [ref=e1194]:
+                  - link "embed" [ref=e1195] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1196]:
+                  - link "save" [ref=e1197] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1198]:
+                  - link "parent" [ref=e1199] [cursor=pointer]:
+                    - /url: "#j5o3hi5"
+                - listitem [ref=e1200]:
+                  - link "report" [ref=e1201] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1202]:
+          - paragraph
+          - generic [ref=e1203]:
+            - button "upvote" [ref=e1204] [cursor=pointer]
+            - button "downvote" [ref=e1205] [cursor=pointer]
+          - generic [ref=e1206]:
+            - paragraph [ref=e1207]:
+              - link "[–]" [ref=e1208] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mad_rascal_15" [ref=e1209] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mad_rascal_15
+              - text: 3 points
+              - time [ref=e1211]: 3 years ago
+            - generic [ref=e1214]:
+              - paragraph [ref=e1215]: "I was recently in Barcelona for the new year and here are some of my suggestions:"
+              - list [ref=e1216]:
+                - listitem [ref=e1217]: The Sopa Boba - Spanish restaurant - 20-30 €/person
+                - listitem [ref=e1218]: Don Kilo - Italian restaurant - 10-20 €/person
+                - listitem [ref=e1219]: K'Delicia restaurant Brasileno en Barcelona - Brazilian restaurant - 10-20 €/person
+                - listitem [ref=e1220]: La Pepita - Spanish restaurant - 20 - 40 €/person
+                - listitem [ref=e1221]: Bronzo - For amazing beers!
+            - list [ref=e1222]:
+              - listitem [ref=e1223]:
+                - link "permalink" [ref=e1224] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5omhcm/
+              - listitem [ref=e1225]:
+                - link "embed" [ref=e1226] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1227]:
+                - link "save" [ref=e1228] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1229]:
+                - link "report" [ref=e1230] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1231]:
+          - paragraph
+          - generic [ref=e1232]:
+            - button "upvote" [ref=e1233] [cursor=pointer]
+            - button "downvote" [ref=e1234] [cursor=pointer]
+          - generic [ref=e1235]:
+            - paragraph [ref=e1236]:
+              - link "[–]" [ref=e1237] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "jbfoxlee" [ref=e1238] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/jbfoxlee
+              - text: 3 points
+              - time [ref=e1240]: 3 years ago
+            - paragraph [ref=e1244]: 20-50€ Tierra del Fuego Argentinian in Poblenou. Imported Lomo Alto Argentina was 69.99/kilo last time I was there, amazing price, meat and service there.
+            - list [ref=e1245]:
+              - listitem [ref=e1246]:
+                - link "permalink" [ref=e1247] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5py77u/
+              - listitem [ref=e1248]:
+                - link "embed" [ref=e1249] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1250]:
+                - link "save" [ref=e1251] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1252]:
+                - link "report" [ref=e1253] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1254]:
+          - paragraph
+          - generic [ref=e1255]:
+            - button "upvote" [ref=e1256] [cursor=pointer]
+            - button "downvote" [ref=e1257] [cursor=pointer]
+          - generic [ref=e1258]:
+            - paragraph [ref=e1259]:
+              - link "[–]" [ref=e1260] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "puzzlemedia-ch" [ref=e1261] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/puzzlemedia-ch
+              - text: 7 points
+              - time [ref=e1263]: 3 years ago
+            - list [ref=e1267]:
+              - listitem [ref=e1268]: Koy Shunka - fantastic Japanese haute cuisine
+            - list [ref=e1269]:
+              - listitem [ref=e1270]:
+                - link "permalink" [ref=e1271] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nwbrm/
+              - listitem [ref=e1272]:
+                - link "embed" [ref=e1273] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1274]:
+                - link "save" [ref=e1275] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1276]:
+                - link "report" [ref=e1277] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1279]:
+            - generic [ref=e1280]:
+              - paragraph
+              - generic [ref=e1281]:
+                - button "upvote" [ref=e1282] [cursor=pointer]
+                - button "downvote" [ref=e1283] [cursor=pointer]
+              - generic [ref=e1284]:
+                - paragraph [ref=e1285]:
+                  - link "[–]" [ref=e1286] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "luismanuelri" [ref=e1287] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/luismanuelri
+                  - generic [ref=e1289]:
+                    - text: "["
+                    - link "S" [ref=e1290] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                    - text: "]"
+                  - text: 2 points
+                  - time [ref=e1291]: 3 years ago
+                - paragraph [ref=e1295]: Nice. I’m specially trying to look for a new Japanese and Mexican restaurants as I haven’t found any that I really love
+                - list [ref=e1296]:
+                  - listitem [ref=e1297]:
+                    - link "permalink" [ref=e1298] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nzxij/
+                  - listitem [ref=e1299]:
+                    - link "embed" [ref=e1300] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1301]:
+                    - link "save" [ref=e1302] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1303]:
+                    - link "parent" [ref=e1304] [cursor=pointer]:
+                      - /url: "#j5nwbrm"
+                  - listitem [ref=e1305]:
+                    - link "report" [ref=e1306] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1308]:
+                - generic [ref=e1309]:
+                  - paragraph
+                  - generic [ref=e1310]:
+                    - button "upvote" [ref=e1311] [cursor=pointer]
+                    - button "downvote" [ref=e1312] [cursor=pointer]
+                  - generic [ref=e1313]:
+                    - paragraph [ref=e1314]:
+                      - link "[–]" [ref=e1315] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "puzzlemedia-ch" [ref=e1316] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/puzzlemedia-ch
+                      - text: 1 point
+                      - time [ref=e1318]: 3 years ago
+                    - paragraph [ref=e1322]: Yeh I highly recommend it then! The chefs there also told us about Ikoya as well, a more casual experience, also run by the same chef I believe.
+                    - list [ref=e1323]:
+                      - listitem [ref=e1324]:
+                        - link "permalink" [ref=e1325] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5oi99m/
+                      - listitem [ref=e1326]:
+                        - link "embed" [ref=e1327] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1328]:
+                        - link "save" [ref=e1329] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1330]:
+                        - link "parent" [ref=e1331] [cursor=pointer]:
+                          - /url: "#j5nzxij"
+                      - listitem [ref=e1332]:
+                        - link "report" [ref=e1333] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                - generic [ref=e1334]:
+                  - paragraph
+                  - generic [ref=e1335]:
+                    - button "upvote" [ref=e1336] [cursor=pointer]
+                    - button "downvote" [ref=e1337] [cursor=pointer]
+                  - generic [ref=e1338]:
+                    - paragraph [ref=e1339]:
+                      - link "[–]" [ref=e1340] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Zerotonel" [ref=e1341] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Zerotonel
+                      - text: 1 point
+                      - time [ref=e1343]: 3 years ago
+                    - paragraph [ref=e1347]: Parco
+                    - list [ref=e1348]:
+                      - listitem [ref=e1349]:
+                        - link "permalink" [ref=e1350] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pl9bc/
+                      - listitem [ref=e1351]:
+                        - link "embed" [ref=e1352] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1353]:
+                        - link "save" [ref=e1354] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1355]:
+                        - link "parent" [ref=e1356] [cursor=pointer]:
+                          - /url: "#j5nzxij"
+                      - listitem [ref=e1357]:
+                        - link "report" [ref=e1358] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e1361]:
+                    - paragraph
+                    - generic [ref=e1362]:
+                      - button "upvote" [ref=e1363] [cursor=pointer]
+                      - button "downvote" [ref=e1364] [cursor=pointer]
+                    - generic [ref=e1365]:
+                      - paragraph [ref=e1366]:
+                        - link "[–]" [ref=e1367] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "puzzlemedia-ch" [ref=e1368] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/puzzlemedia-ch
+                        - text: 1 point
+                        - time [ref=e1370]: 3 years ago
+                      - paragraph [ref=e1374]: Pardon?
+                      - list [ref=e1375]:
+                        - listitem [ref=e1376]:
+                          - link "permalink" [ref=e1377] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qszba/
+                        - listitem [ref=e1378]:
+                          - link "embed" [ref=e1379] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1380]:
+                          - link "save" [ref=e1381] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1382]:
+                          - link "parent" [ref=e1383] [cursor=pointer]:
+                            - /url: "#j5pl9bc"
+                        - listitem [ref=e1384]:
+                          - link "report" [ref=e1385] [cursor=pointer]:
+                            - /url: javascript:void(0)
+            - generic [ref=e1386]:
+              - paragraph
+              - generic [ref=e1387]:
+                - button "upvote" [ref=e1388] [cursor=pointer]
+                - button "downvote" [ref=e1389] [cursor=pointer]
+              - generic [ref=e1390]:
+                - paragraph [ref=e1391]:
+                  - link "[–]" [ref=e1392] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "snakesoup88" [ref=e1393] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/snakesoup88
+                  - text: 0 points
+                  - time [ref=e1395]: 3 years ago
+                - paragraph [ref=e1399]: Under 20€ per person? Google map says 100€+
+                - list [ref=e1400]:
+                  - listitem [ref=e1401]:
+                    - link "permalink" [ref=e1402] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nx4tu/
+                  - listitem [ref=e1403]:
+                    - link "embed" [ref=e1404] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1405]:
+                    - link "save" [ref=e1406] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1407]:
+                    - link "parent" [ref=e1408] [cursor=pointer]:
+                      - /url: "#j5nwbrm"
+                  - listitem [ref=e1409]:
+                    - link "report" [ref=e1410] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1413]:
+                - paragraph
+                - generic [ref=e1414]:
+                  - button "upvote" [ref=e1415] [cursor=pointer]
+                  - button "downvote" [ref=e1416] [cursor=pointer]
+                - generic [ref=e1417]:
+                  - paragraph [ref=e1418]:
+                    - link "[–]" [ref=e1419] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "puzzlemedia-ch" [ref=e1420] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/puzzlemedia-ch
+                    - text: 5 points
+                    - time [ref=e1422]: 3 years ago
+                  - paragraph [ref=e1426]: No, over 50€, hence the "3."
+                  - list [ref=e1427]:
+                    - listitem [ref=e1428]:
+                      - link "permalink" [ref=e1429] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nzaex/
+                    - listitem [ref=e1430]:
+                      - link "embed" [ref=e1431] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1432]:
+                      - link "save" [ref=e1433] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1434]:
+                      - link "parent" [ref=e1435] [cursor=pointer]:
+                        - /url: "#j5nx4tu"
+                    - listitem [ref=e1436]:
+                      - link "report" [ref=e1437] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e1440]:
+                  - paragraph
+                  - generic [ref=e1441]:
+                    - button "upvote" [ref=e1442] [cursor=pointer]
+                    - button "downvote" [ref=e1443] [cursor=pointer]
+                  - generic [ref=e1444]:
+                    - paragraph [ref=e1445]:
+                      - link "[–]" [ref=e1446] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "snakesoup88" [ref=e1447] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/snakesoup88
+                      - text: 1 point
+                      - time [ref=e1449]: 3 years ago
+                    - paragraph [ref=e1453]: Shows up at 1. on RIF app.
+                    - list [ref=e1454]:
+                      - listitem [ref=e1455]:
+                        - link "permalink" [ref=e1456] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qs9kt/
+                      - listitem [ref=e1457]:
+                        - link "embed" [ref=e1458] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1459]:
+                        - link "save" [ref=e1460] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1461]:
+                        - link "parent" [ref=e1462] [cursor=pointer]:
+                          - /url: "#j5nzaex"
+                      - listitem [ref=e1463]:
+                        - link "report" [ref=e1464] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e1467]:
+                    - paragraph
+                    - generic [ref=e1468]:
+                      - button "upvote" [ref=e1469] [cursor=pointer]
+                      - button "downvote" [ref=e1470] [cursor=pointer]
+                    - generic [ref=e1471]:
+                      - paragraph [ref=e1472]:
+                        - link "[–]" [ref=e1473] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "bobyd" [ref=e1474] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/bobyd
+                        - text: 1 point
+                        - time [ref=e1476]: 3 years ago
+                      - paragraph [ref=e1480]: Yeah lol I was so confused
+                      - list [ref=e1481]:
+                        - listitem [ref=e1482]:
+                          - link "permalink" [ref=e1483] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qubhe/
+                        - listitem [ref=e1484]:
+                          - link "embed" [ref=e1485] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1486]:
+                          - link "save" [ref=e1487] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1488]:
+                          - link "parent" [ref=e1489] [cursor=pointer]:
+                            - /url: "#j5qs9kt"
+                        - listitem [ref=e1490]:
+                          - link "report" [ref=e1491] [cursor=pointer]:
+                            - /url: javascript:void(0)
+        - generic [ref=e1492]:
+          - paragraph
+          - generic [ref=e1493]:
+            - button "upvote" [ref=e1494] [cursor=pointer]
+            - button "downvote" [ref=e1495] [cursor=pointer]
+          - generic [ref=e1496]:
+            - paragraph [ref=e1497]:
+              - link "[–]" [ref=e1498] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Shurmajee" [ref=e1499] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Shurmajee
+              - text: 2 points
+              - time [ref=e1501]: 3 years ago
+            - paragraph [ref=e1505]: If you prefer vegetarian, Vegan mount is a great choice . they have menu del dia for 9.99.
+            - list [ref=e1506]:
+              - listitem [ref=e1507]:
+                - link "permalink" [ref=e1508] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5np65y/
+              - listitem [ref=e1509]:
+                - link "embed" [ref=e1510] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1511]:
+                - link "save" [ref=e1512] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1513]:
+                - link "report" [ref=e1514] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1517]:
+            - paragraph
+            - generic [ref=e1518]:
+              - button "upvote" [ref=e1519] [cursor=pointer]
+              - button "downvote" [ref=e1520] [cursor=pointer]
+            - generic [ref=e1521]:
+              - paragraph [ref=e1522]:
+                - link "[–]" [ref=e1523] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "luismanuelri" [ref=e1524] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/luismanuelri
+                - generic [ref=e1526]:
+                  - text: "["
+                  - link "S" [ref=e1527] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                  - text: "]"
+                - text: 2 points
+                - time [ref=e1528]: 3 years ago
+              - paragraph [ref=e1532]: I like all food so I’ll try it :)
+              - list [ref=e1533]:
+                - listitem [ref=e1534]:
+                  - link "permalink" [ref=e1535] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o04yp/
+                - listitem [ref=e1536]:
+                  - link "embed" [ref=e1537] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1538]:
+                  - link "save" [ref=e1539] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1540]:
+                  - link "parent" [ref=e1541] [cursor=pointer]:
+                    - /url: "#j5np65y"
+                - listitem [ref=e1542]:
+                  - link "report" [ref=e1543] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1544]:
+          - paragraph
+          - generic [ref=e1545]:
+            - button "upvote" [ref=e1546] [cursor=pointer]
+            - button "downvote" [ref=e1547] [cursor=pointer]
+          - generic [ref=e1548]:
+            - paragraph [ref=e1549]:
+              - link "[–]" [ref=e1550] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "6846" [ref=e1551] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/6846
+              - text: 2 points
+              - time [ref=e1553]: 3 years ago
+            - list [ref=e1557]:
+              - listitem [ref=e1558]: Restaurant Malaysia
+              - listitem [ref=e1559]: Entrepans Díaz
+              - listitem [ref=e1560]: Mont Bar
+            - list [ref=e1561]:
+              - listitem [ref=e1562]:
+                - link "permalink" [ref=e1563] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5obhgq/
+              - listitem [ref=e1564]:
+                - link "embed" [ref=e1565] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1566]:
+                - link "save" [ref=e1567] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1568]:
+                - link "report" [ref=e1569] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1572]:
+            - paragraph
+            - generic [ref=e1573]:
+              - button "upvote" [ref=e1574] [cursor=pointer]
+              - button "downvote" [ref=e1575] [cursor=pointer]
+            - generic [ref=e1576]:
+              - paragraph [ref=e1577]:
+                - link "[–]" [ref=e1578] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "-Sagan-" [ref=e1579] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/-Sagan-
+                - text: 1 point
+                - time [ref=e1581]: 3 years ago
+              - paragraph [ref=e1585]: Restaurant Malaysia, the one near Diagonal? If yes, it's a good one indeed!
+              - list [ref=e1586]:
+                - listitem [ref=e1587]:
+                  - link "permalink" [ref=e1588] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5p1dh9/
+                - listitem [ref=e1589]:
+                  - link "embed" [ref=e1590] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1591]:
+                  - link "save" [ref=e1592] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1593]:
+                  - link "parent" [ref=e1594] [cursor=pointer]:
+                    - /url: "#j5obhgq"
+                - listitem [ref=e1595]:
+                  - link "report" [ref=e1596] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1597]:
+          - paragraph
+          - generic [ref=e1598]:
+            - button "upvote" [ref=e1599] [cursor=pointer]
+            - button "downvote" [ref=e1600] [cursor=pointer]
+          - generic [ref=e1601]:
+            - paragraph [ref=e1602]:
+              - link "[–]" [ref=e1603] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "andreasOM" [ref=e1604] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/andreasOM
+              - text: 2 points
+              - time [ref=e1606]: 3 years ago
+            - list [ref=e1610]:
+              - listitem [ref=e1611]: Wenzhou II, cheap, authentic
+              - listitem [ref=e1612]: La Poderosa, best Empanadas on this side of the Atlantic
+              - listitem [ref=e1613]: Blanc, Nice for a good lunch, and great for splurging on a fantastic dinner.
+            - list [ref=e1614]:
+              - listitem [ref=e1615]:
+                - link "permalink" [ref=e1616] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5on4ou/
+              - listitem [ref=e1617]:
+                - link "embed" [ref=e1618] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1619]:
+                - link "save" [ref=e1620] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1621]:
+                - link "report" [ref=e1622] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1623]:
+          - paragraph
+          - generic [ref=e1624]:
+            - button "upvote" [ref=e1625] [cursor=pointer]
+            - button "downvote" [ref=e1626] [cursor=pointer]
+          - generic [ref=e1627]:
+            - paragraph [ref=e1628]:
+              - link "[–]" [ref=e1629] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "FGC_Valhalla" [ref=e1630] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/FGC_Valhalla
+              - text: 2 points
+              - time [ref=e1632]: 3 years ago
+            - paragraph [ref=e1636]: For chinese food, Chila in c/Balmes. One of the best I've had in terms of quality and you can have a great meal for ~20€/person.
+            - list [ref=e1637]:
+              - listitem [ref=e1638]:
+                - link "permalink" [ref=e1639] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5p72qj/
+              - listitem [ref=e1640]:
+                - link "embed" [ref=e1641] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1642]:
+                - link "save" [ref=e1643] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1644]:
+                - link "report" [ref=e1645] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1646]:
+          - paragraph
+          - generic [ref=e1647]:
+            - button "upvote" [ref=e1648] [cursor=pointer]
+            - button "downvote" [ref=e1649] [cursor=pointer]
+          - generic [ref=e1650]:
+            - paragraph [ref=e1651]:
+              - link "[–]" [ref=e1652] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "AlekBan" [ref=e1653] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/AlekBan
+              - text: 4 points
+              - time [ref=e1655]: 3 years ago
+            - list [ref=e1659]:
+              - listitem [ref=e1660]:
+                - paragraph [ref=e1661]: La Malandrina (Barceloneta, parrilla uruguaya argentina)
+              - listitem [ref=e1662]:
+                - paragraph [ref=e1663]: La Frontera (parrilla y pizzería Argentina)
+              - listitem [ref=e1664]:
+                - paragraph [ref=e1665]: Los Caracoles (histórico restaurant en el Gótico) -pide reserva, se llena SIEMPRE-
+            - list [ref=e1666]:
+              - listitem [ref=e1667]:
+                - link "permalink" [ref=e1668] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nrqzs/
+              - listitem [ref=e1669]:
+                - link "embed" [ref=e1670] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1671]:
+                - link "save" [ref=e1672] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1673]:
+                - link "report" [ref=e1674] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1676]:
+            - generic [ref=e1677]:
+              - paragraph
+              - generic [ref=e1678]:
+                - button "upvote" [ref=e1679] [cursor=pointer]
+                - button "downvote" [ref=e1680] [cursor=pointer]
+              - generic [ref=e1681]:
+                - paragraph [ref=e1682]:
+                  - link "[–]" [ref=e1683] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "luismanuelri" [ref=e1684] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/luismanuelri
+                  - generic [ref=e1686]:
+                    - text: "["
+                    - link "S" [ref=e1687] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                    - text: "]"
+                  - text: 3 points
+                  - time [ref=e1688]: 3 years ago
+                - paragraph [ref=e1692]: La Malandrina is great! I also like La Braseria Argentina Iguazu (in front of Malandrina). Great bocata de calamar. I’ll try La Frontera and Caracoles
+                - list [ref=e1693]:
+                  - listitem [ref=e1694]:
+                    - link "permalink" [ref=e1695] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o01x8/
+                  - listitem [ref=e1696]:
+                    - link "embed" [ref=e1697] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1698]:
+                    - link "save" [ref=e1699] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1700]:
+                    - link "parent" [ref=e1701] [cursor=pointer]:
+                      - /url: "#j5nrqzs"
+                  - listitem [ref=e1702]:
+                    - link "report" [ref=e1703] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1705]:
+                - generic [ref=e1706]:
+                  - paragraph
+                  - generic [ref=e1707]:
+                    - button "upvote" [ref=e1708] [cursor=pointer]
+                    - button "downvote" [ref=e1709] [cursor=pointer]
+                  - generic [ref=e1710]:
+                    - paragraph [ref=e1711]:
+                      - link "[–]" [ref=e1712] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "AlekBan" [ref=e1713] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/AlekBan
+                      - text: 1 point
+                      - time [ref=e1715]: 3 years ago
+                    - paragraph [ref=e1719]: Then I’ll go to La Braseria one of this days. Both La Frontera and Los Caracoles are incredibly good
+                    - list [ref=e1720]:
+                      - listitem [ref=e1721]:
+                        - link "permalink" [ref=e1722] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o5x41/
+                      - listitem [ref=e1723]:
+                        - link "embed" [ref=e1724] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1725]:
+                        - link "save" [ref=e1726] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1727]:
+                        - link "parent" [ref=e1728] [cursor=pointer]:
+                          - /url: "#j5o01x8"
+                      - listitem [ref=e1729]:
+                        - link "report" [ref=e1730] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                - generic [ref=e1731]:
+                  - paragraph
+                  - generic [ref=e1732]:
+                    - button "upvote" [ref=e1733] [cursor=pointer]
+                    - button "downvote" [ref=e1734] [cursor=pointer]
+                  - generic [ref=e1735]:
+                    - paragraph [ref=e1736]:
+                      - link "[–]" [ref=e1737] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "jbfoxlee" [ref=e1738] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/jbfoxlee
+                      - text: 2 points
+                      - time [ref=e1740]: 3 years ago
+                    - paragraph [ref=e1744]: Malandrina is a regular, but I find you have to choose the right piece of meat. The Bifa Ancho is big but too much gristle, you lose a lot of it and seems a bit. The entrana often undercooked, I stick with the Entrecote, consistently the best IMO
+                    - list [ref=e1745]:
+                      - listitem [ref=e1746]:
+                        - link "permalink" [ref=e1747] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5pxr0x/
+                      - listitem [ref=e1748]:
+                        - link "embed" [ref=e1749] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1750]:
+                        - link "save" [ref=e1751] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1752]:
+                        - link "parent" [ref=e1753] [cursor=pointer]:
+                          - /url: "#j5o01x8"
+                      - listitem [ref=e1754]:
+                        - link "report" [ref=e1755] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e1756]:
+              - paragraph
+              - generic [ref=e1757]:
+                - button "upvote" [ref=e1758] [cursor=pointer]
+                - button "downvote" [ref=e1759] [cursor=pointer]
+              - generic [ref=e1760]:
+                - paragraph [ref=e1761]:
+                  - link "[–]" [ref=e1762] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "AlekBan" [ref=e1763] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/AlekBan
+                  - text: 0 points
+                  - time [ref=e1765]: 3 years ago
+                - paragraph [ref=e1769]: The very best of the best for meat and the very best of the best for paellas and seafood 👆👆
+                - list [ref=e1770]:
+                  - listitem [ref=e1771]:
+                    - link "permalink" [ref=e1772] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nrut3/
+                  - listitem [ref=e1773]:
+                    - link "embed" [ref=e1774] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1775]:
+                    - link "save" [ref=e1776] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1777]:
+                    - link "parent" [ref=e1778] [cursor=pointer]:
+                      - /url: "#j5nrqzs"
+                  - listitem [ref=e1779]:
+                    - link "report" [ref=e1780] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1781]:
+          - paragraph
+          - generic [ref=e1782]:
+            - button "upvote" [ref=e1783] [cursor=pointer]
+            - button "downvote" [ref=e1784] [cursor=pointer]
+          - generic [ref=e1785]:
+            - paragraph [ref=e1786]:
+              - link "[–]" [ref=e1787] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Disastrous-Fee-3138" [ref=e1788] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Disastrous-Fee-3138
+              - text: 1 point
+              - time [ref=e1790]: 3 years ago
+            - list [ref=e1794]:
+              - listitem [ref=e1795]: Copitas close to Sagrada Familia is a nice place for cheese and wine. The owner is very friendly and passionate about wines. It's one of my favorite places.
+            - list [ref=e1796]:
+              - listitem [ref=e1797]:
+                - link "permalink" [ref=e1798] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5q2wv3/
+              - listitem [ref=e1799]:
+                - link "embed" [ref=e1800] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1801]:
+                - link "save" [ref=e1802] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1803]:
+                - link "report" [ref=e1804] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1805]:
+          - paragraph
+          - generic [ref=e1806]:
+            - button "upvote" [ref=e1807] [cursor=pointer]
+            - button "downvote" [ref=e1808] [cursor=pointer]
+          - generic [ref=e1809]:
+            - paragraph [ref=e1810]:
+              - link "[–]" [ref=e1811] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Gpob" [ref=e1812] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Gpob
+              - text: 1 point
+              - time [ref=e1814]: 3 years ago
+            - list [ref=e1818]:
+              - listitem [ref=e1819]: Asian Ways 2.Brugarol
+              - listitem [ref=e1820]: I don't go to restaurant for more than 50€/person
+            - list [ref=e1821]:
+              - listitem [ref=e1822]:
+                - link "permalink" [ref=e1823] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nmdm8/
+              - listitem [ref=e1824]:
+                - link "embed" [ref=e1825] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1826]:
+                - link "save" [ref=e1827] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1828]:
+                - link "report" [ref=e1829] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1832]:
+            - paragraph
+            - generic [ref=e1833]:
+              - button "upvote" [ref=e1834] [cursor=pointer]
+              - button "downvote" [ref=e1835] [cursor=pointer]
+            - generic [ref=e1836]:
+              - paragraph [ref=e1837]:
+                - link "[–]" [ref=e1838] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "luismanuelri" [ref=e1839] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/luismanuelri
+                - generic [ref=e1841]:
+                  - text: "["
+                  - link "S" [ref=e1842] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1843]: 3 years ago
+              - paragraph [ref=e1847]: Love Asian Ways :) best place for ramen IMO I’ll try Brugarol
+              - list [ref=e1848]:
+                - listitem [ref=e1849]:
+                  - link "permalink" [ref=e1850] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o045c/
+                - listitem [ref=e1851]:
+                  - link "embed" [ref=e1852] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1853]:
+                  - link "save" [ref=e1854] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1855]:
+                  - link "parent" [ref=e1856] [cursor=pointer]:
+                    - /url: "#j5nmdm8"
+                - listitem [ref=e1857]:
+                  - link "report" [ref=e1858] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1861]:
+              - paragraph
+              - generic [ref=e1862]:
+                - button "upvote" [ref=e1863] [cursor=pointer]
+                - button "downvote" [ref=e1864] [cursor=pointer]
+              - generic [ref=e1865]:
+                - paragraph [ref=e1866]:
+                  - link "[–]" [ref=e1867] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Gpob" [ref=e1868] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Gpob
+                  - text: 1 point
+                  - time [ref=e1870]: 3 years ago
+                - paragraph [ref=e1874]: For ramen I love ramen shop in the gotico, highly suggested
+                - list [ref=e1875]:
+                  - listitem [ref=e1876]:
+                    - link "permalink" [ref=e1877] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5zmlgm/
+                  - listitem [ref=e1878]:
+                    - link "embed" [ref=e1879] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1880]:
+                    - link "save" [ref=e1881] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1882]:
+                    - link "parent" [ref=e1883] [cursor=pointer]:
+                      - /url: "#j5o045c"
+                  - listitem [ref=e1884]:
+                    - link "report" [ref=e1885] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1886]:
+          - paragraph
+          - paragraph [ref=e1888]:
+            - link "[+]" [ref=e1889] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "JohnHamFisted" [ref=e1890] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/JohnHamFisted
+            - text: comment score below threshold
+            - time [ref=e1891]: "*"
+            - link "(3 children)" [ref=e1892] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1893]:
+          - paragraph
+          - paragraph [ref=e1895]:
+            - link "[+]" [ref=e1896] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Badalona2016" [ref=e1897] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Badalona2016
+            - text: comment score below threshold
+            - link "(4 children)" [ref=e1898] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1899]:
+          - paragraph
+          - paragraph [ref=e1901]:
+            - link "[+]" [ref=e1902] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e1903]: "[deleted]"
+            - link "(3 children)" [ref=e1904] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1905]:
+          - paragraph
+          - generic [ref=e1906]:
+            - button "upvote" [ref=e1907] [cursor=pointer]
+            - button "downvote" [ref=e1908] [cursor=pointer]
+          - generic [ref=e1909]:
+            - paragraph [ref=e1910]:
+              - link "[–]" [ref=e1911] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Sure-Situation8009" [ref=e1912] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Sure-Situation8009
+              - text: 1 point
+              - time [ref=e1914]: 3 years ago
+            - generic [ref=e1917]:
+              - list [ref=e1918]:
+                - listitem [ref=e1919]: El Maracucho, Fuego grill house 1-2. Caravana
+                - listitem [ref=e1920]: Las Sorrentinas 2-3. Guanabara
+              - paragraph [ref=e1921]: Universally - Honest Greens and Boldu franchises
+            - list [ref=e1922]:
+              - listitem [ref=e1923]:
+                - link "permalink" [ref=e1924] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5nsopl/
+              - listitem [ref=e1925]:
+                - link "embed" [ref=e1926] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1927]:
+                - link "save" [ref=e1928] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1929]:
+                - link "report" [ref=e1930] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1931]:
+          - paragraph
+          - generic [ref=e1932]:
+            - button "upvote" [ref=e1933] [cursor=pointer]
+            - button "downvote" [ref=e1934] [cursor=pointer]
+          - generic [ref=e1935]:
+            - paragraph [ref=e1936]:
+              - link "[–]" [ref=e1937] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "g33k3301" [ref=e1938] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/g33k3301
+              - text: 1 point
+              - time [ref=e1940]: 3 years ago
+            - paragraph [ref=e1944]: Orvay is my favorite restaurant in Barcelona but they change their menu every now and then. It‘s a bit pricey but super delicious. Make sure to make a reservation before going there.
+            - list [ref=e1945]:
+              - listitem [ref=e1946]:
+                - link "permalink" [ref=e1947] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o0n9e/
+              - listitem [ref=e1948]:
+                - link "embed" [ref=e1949] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1950]:
+                - link "save" [ref=e1951] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1952]:
+                - link "report" [ref=e1953] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1954]:
+          - paragraph
+          - generic [ref=e1955]:
+            - button "upvote" [ref=e1956] [cursor=pointer]
+            - button "downvote" [ref=e1957] [cursor=pointer]
+          - generic [ref=e1958]:
+            - paragraph [ref=e1959]:
+              - link "[–]" [ref=e1960] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TinyApplication4" [ref=e1961] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TinyApplication4
+              - text: 1 point
+              - time [ref=e1963]: 3 years ago
+            - paragraph [ref=e1967]: I really like Shingane, it’s Korean and they have a meal deal! So 15€
+            - list [ref=e1968]:
+              - listitem [ref=e1969]:
+                - link "permalink" [ref=e1970] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o4q23/
+              - listitem [ref=e1971]:
+                - link "embed" [ref=e1972] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1973]:
+                - link "save" [ref=e1974] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1975]:
+                - link "report" [ref=e1976] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1977]:
+          - paragraph
+          - generic [ref=e1978]:
+            - button "upvote" [ref=e1979] [cursor=pointer]
+            - button "downvote" [ref=e1980] [cursor=pointer]
+          - generic [ref=e1981]:
+            - paragraph [ref=e1982]:
+              - link "[–]" [ref=e1983] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 1 point"
+              - time [ref=e1984]: 3 years ago
+            - paragraph [ref=e1988]: "Under 10 : Las tejas (peruano) Under 20 : Takumi (asiático) Under 40 : Pueblo Libre (peruano) - Jobs Restaurante (europeo) Under 50 : chez Coco (francés) Under 70 : bistro Helena (europeo) Under 100 : Caelis (francés)"
+            - list [ref=e1989]:
+              - listitem [ref=e1990]:
+                - link "permalink" [ref=e1991] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5o8msn/
+              - listitem [ref=e1992]:
+                - link "embed" [ref=e1993] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1994]:
+                - link "save" [ref=e1995] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1996]:
+                - link "report" [ref=e1997] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1998]:
+          - paragraph
+          - generic [ref=e1999]:
+            - button "upvote" [ref=e2000] [cursor=pointer]
+            - button "downvote" [ref=e2001] [cursor=pointer]
+          - generic [ref=e2002]:
+            - paragraph [ref=e2003]:
+              - link "[–]" [ref=e2004] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "huevoderamen" [ref=e2005] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/huevoderamen
+              - text: 1 point
+              - time [ref=e2007]: 3 years ago
+            - paragraph [ref=e2011]: does someone have any recommendation of Korean barbecue?
+            - list [ref=e2012]:
+              - listitem [ref=e2013]:
+                - link "permalink" [ref=e2014] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5obqc9/
+              - listitem [ref=e2015]:
+                - link "embed" [ref=e2016] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2017]:
+                - link "save" [ref=e2018] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2019]:
+                - link "report" [ref=e2020] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e2023]:
+            - paragraph
+            - generic [ref=e2024]:
+              - button "upvote" [ref=e2025] [cursor=pointer]
+              - button "downvote" [ref=e2026] [cursor=pointer]
+            - generic [ref=e2027]:
+              - paragraph [ref=e2028]:
+                - link "[–]" [ref=e2029] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "luismanuelri" [ref=e2030] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/luismanuelri
+                - generic [ref=e2032]:
+                  - text: "["
+                  - link "S" [ref=e2033] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/10jv1lm/top_favorite_restaurants/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e2034]: 3 years ago
+              - paragraph [ref=e2038]: I love ramen’s eggs 😂 great name
+              - list [ref=e2039]:
+                - listitem [ref=e2040]:
+                  - link "permalink" [ref=e2041] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5obuap/
+                - listitem [ref=e2042]:
+                  - link "embed" [ref=e2043] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2044]:
+                  - link "save" [ref=e2045] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e2046]:
+                  - link "parent" [ref=e2047] [cursor=pointer]:
+                    - /url: "#j5obqc9"
+                - listitem [ref=e2048]:
+                  - link "report" [ref=e2049] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e2052]:
+              - paragraph
+              - generic [ref=e2053]:
+                - button "upvote" [ref=e2054] [cursor=pointer]
+                - button "downvote" [ref=e2055] [cursor=pointer]
+              - generic [ref=e2056]:
+                - paragraph [ref=e2057]:
+                  - link "[–]" [ref=e2058] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "huevoderamen" [ref=e2059] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/huevoderamen
+                  - text: 1 point
+                  - time [ref=e2061]: 3 years ago
+                - paragraph [ref=e2065]: it's the best part of the ramen 🤤🤣
+                - list [ref=e2066]:
+                  - listitem [ref=e2067]:
+                    - link "permalink" [ref=e2068] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5oc5dn/
+                  - listitem [ref=e2069]:
+                    - link "embed" [ref=e2070] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2071]:
+                    - link "save" [ref=e2072] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e2073]:
+                    - link "parent" [ref=e2074] [cursor=pointer]:
+                      - /url: "#j5obuap"
+                  - listitem [ref=e2075]:
+                    - link "report" [ref=e2076] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e2077]:
+          - paragraph
+          - generic [ref=e2078]:
+            - button "upvote" [ref=e2079] [cursor=pointer]
+            - button "downvote" [ref=e2080] [cursor=pointer]
+          - generic [ref=e2081]:
+            - paragraph [ref=e2082]:
+              - link "[–]" [ref=e2083] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "worldisbraindead" [ref=e2084] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/worldisbraindead
+              - text: 1 point
+              - time [ref=e2086]: 3 years ago
+            - generic [ref=e2089]:
+              - paragraph [ref=e2090]:
+                - text: "Best under 20€/person:"
+                - strong [ref=e2091]: Istanbul
+                - text: (Turkish) on Passeig Sant Joan
+              - paragraph [ref=e2092]:
+                - text: "Best for 20-40 €/persona: Tie..."
+                - strong [ref=e2093]: Tapeo
+                - text: ", Villa de Grácia: Outstanding tapas with a Catalan twist."
+              - paragraph [ref=e2094]:
+                - text: "Best for 20-40€/person: Tie..."
+                - strong [ref=e2095]: Cam Framis
+                - text: "(Modern Traditional Barcelona): Ronda de Sant Pere, 70. In my opinion, this is one of the most under-rated restaurants in the city. You can get a total foodie gourmet experience here for about €30 with wine."
+            - list [ref=e2096]:
+              - listitem [ref=e2097]:
+                - link "permalink" [ref=e2098] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5opt24/
+              - listitem [ref=e2099]:
+                - link "embed" [ref=e2100] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2101]:
+                - link "save" [ref=e2102] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2103]:
+                - link "report" [ref=e2104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2105]:
+          - paragraph
+          - generic [ref=e2106]:
+            - button "upvote" [ref=e2107] [cursor=pointer]
+            - button "downvote" [ref=e2108] [cursor=pointer]
+          - generic [ref=e2109]:
+            - paragraph [ref=e2110]:
+              - link "[–]" [ref=e2111] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Spineynorman67" [ref=e2112] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Spineynorman67
+              - text: 1 point
+              - time [ref=e2114]: 3 years ago
+            - list [ref=e2118]:
+              - listitem [ref=e2119]:
+                - paragraph [ref=e2120]: Totoro
+              - listitem [ref=e2121]:
+                - paragraph [ref=e2122]: Baltazar
+              - listitem [ref=e2123]:
+                - paragraph [ref=e2124]: Tragaluz
+            - list [ref=e2125]:
+              - listitem [ref=e2126]:
+                - link "permalink" [ref=e2127] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5paz6m/
+              - listitem [ref=e2128]:
+                - link "embed" [ref=e2129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2130]:
+                - link "save" [ref=e2131] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2132]:
+                - link "report" [ref=e2133] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2134]:
+          - paragraph
+          - generic [ref=e2135]:
+            - button "upvote" [ref=e2136] [cursor=pointer]
+            - button "downvote" [ref=e2137] [cursor=pointer]
+          - generic [ref=e2138]:
+            - paragraph [ref=e2139]:
+              - link "[–]" [ref=e2140] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Gametriprant" [ref=e2141] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Gametriprant
+              - text: 1 point
+              - time [ref=e2143]: 3 years ago
+            - paragraph [ref=e2147]: 1- Marinella (amazing pizza, service could be better but worth it), Ay Jalisco (homemade Mexican, amazing, but very limited hours), Melosa (nice burgers), Nina Burger (nice burgers and cocktails) 2-Kibuka(sushi fusion), TocaTecak(very nice tapas), Envalira (amazing rices) 3- Don't know any
+            - list [ref=e2148]:
+              - listitem [ref=e2149]:
+                - link "permalink" [ref=e2150] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qeof1/
+              - listitem [ref=e2151]:
+                - link "embed" [ref=e2152] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2153]:
+                - link "save" [ref=e2154] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2155]:
+                - link "report" [ref=e2156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2157]:
+          - paragraph
+          - generic [ref=e2158]:
+            - button "upvote" [ref=e2159] [cursor=pointer]
+            - button "downvote" [ref=e2160] [cursor=pointer]
+          - generic [ref=e2161]:
+            - paragraph [ref=e2162]:
+              - link "[–]" [ref=e2163] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SkyZo222" [ref=e2164] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SkyZo222
+              - text: 1 point
+              - time [ref=e2166]: 3 years ago
+            - list [ref=e2170]:
+              - listitem [ref=e2171]: Mirch (the best vada pav chicken you'll ever have)
+              - listitem [ref=e2172]: Ca l'Estevet (typical catalan cuisine, this is where the locals go)
+              - listitem [ref=e2173]: Terraza Martinez ( paella with views) and Hoffman (fancy dishes, please try the godly cheesecake)
+            - list [ref=e2174]:
+              - listitem [ref=e2175]:
+                - link "permalink" [ref=e2176] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5qiutz/
+              - listitem [ref=e2177]:
+                - link "embed" [ref=e2178] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2179]:
+                - link "save" [ref=e2180] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2181]:
+                - link "report" [ref=e2182] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2183]:
+          - paragraph
+          - generic [ref=e2184]:
+            - button "upvote" [ref=e2185] [cursor=pointer]
+            - button "downvote" [ref=e2186] [cursor=pointer]
+          - generic [ref=e2187]:
+            - paragraph [ref=e2188]:
+              - link "[–]" [ref=e2189] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 1 point"
+              - time [ref=e2190]: 3 years ago
+            - generic [ref=e2193]:
+              - paragraph [ref=e2194]: I'll PM you my under 20 euro place because it's already packed all the time.
+              - paragraph [ref=e2195]: 20-50 try Tapeo and O Retorno.
+              - paragraph [ref=e2196]: Over 50 I couldn't say.
+            - list [ref=e2197]:
+              - listitem [ref=e2198]:
+                - link "permalink" [ref=e2199] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j5vwfc1/
+              - listitem [ref=e2200]:
+                - link "embed" [ref=e2201] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2202]:
+                - link "save" [ref=e2203] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2204]:
+                - link "report" [ref=e2205] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2206]:
+          - paragraph
+          - generic [ref=e2207]:
+            - button "upvote" [ref=e2208] [cursor=pointer]
+            - button "downvote" [ref=e2209] [cursor=pointer]
+          - generic [ref=e2210]:
+            - paragraph [ref=e2211]:
+              - link "[–]" [ref=e2212] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Run-and-Escape" [ref=e2213] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Run-and-Escape
+              - text: 1 point
+              - time [ref=e2215]: 3 years ago
+            - paragraph [ref=e2219]: What a great post, moving to BCN on the 4th so will give some of these a try!
+            - list [ref=e2220]:
+              - listitem [ref=e2221]:
+                - link "permalink" [ref=e2222] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/j62vu6n/
+              - listitem [ref=e2223]:
+                - link "embed" [ref=e2224] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2225]:
+                - link "save" [ref=e2226] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2227]:
+                - link "report" [ref=e2228] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2229]:
+          - paragraph
+          - generic [ref=e2230]:
+            - button "upvote" [ref=e2231] [cursor=pointer]
+            - button "downvote" [ref=e2232] [cursor=pointer]
+          - generic [ref=e2233]:
+            - paragraph [ref=e2234]:
+              - link "[–]" [ref=e2235] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Hot_Garbage1014" [ref=e2236] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Hot_Garbage1014
+              - text: 1 point
+              - time [ref=e2238]: 2 years ago
+            - paragraph [ref=e2242]:
+              - text: Uribou, near pl. molina. Degustation of traditional Japanese cuisine.
+              - link "https://www.uriboubcn.com/" [ref=e2243] [cursor=pointer]:
+                - /url: https://www.uriboubcn.com/
+            - list [ref=e2244]:
+              - listitem [ref=e2245]:
+                - link "permalink" [ref=e2246] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/jjkupz2/
+              - listitem [ref=e2247]:
+                - link "embed" [ref=e2248] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2249]:
+                - link "save" [ref=e2250] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2251]:
+                - link "report" [ref=e2252] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e2253]:
+          - paragraph
+          - generic [ref=e2254]:
+            - button "upvote" [ref=e2255] [cursor=pointer]
+            - button "downvote" [ref=e2256] [cursor=pointer]
+          - generic [ref=e2257]:
+            - paragraph [ref=e2258]:
+              - link "[–]" [ref=e2259] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Academic_Aerie_442" [ref=e2260] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Academic_Aerie_442
+              - text: 1 point
+              - time [ref=e2262]: 2 years ago
+            - paragraph [ref=e2266]:
+              - text: "I visit Barcelona 5 times and I can share my notes from my trips here:"
+              - text: Bohl -
+              - link "https://www.facebook.com/bohl.wholesomekitchen/" [ref=e2267] [cursor=pointer]:
+                - /url: https://www.facebook.com/bohl.wholesomekitchen/
+              - text: Hidden Café Barcelona -
+              - link "https://www.facebook.com/hiddencafebarcelona/" [ref=e2268] [cursor=pointer]:
+                - /url: https://www.facebook.com/hiddencafebarcelona/
+              - text: Espai Sucre -
+              - link "https://thecitizenseven.com/article/22-hidden-gems-and-iconic-places-of-barcelona-you-wont-find-sagrada-famlia-and-park-guell-here" [ref=e2269] [cursor=pointer]:
+                - /url: https://thecitizenseven.com/article/22-hidden-gems-and-iconic-places-of-barcelona-you-wont-find-sagrada-famlia-and-park-guell-here
+              - text: Neo Coffee House -
+              - link "https://www.barcelonafoodexperience.com/blog/neo-coffeehouse" [ref=e2270] [cursor=pointer]:
+                - /url: https://www.barcelonafoodexperience.com/blog/neo-coffeehouse
+              - text: mollo coffee -
+              - link "https://mollocoffee.com/" [ref=e2271] [cursor=pointer]:
+                - /url: https://mollocoffee.com/
+            - list [ref=e2272]:
+              - listitem [ref=e2273]:
+                - link "permalink" [ref=e2274] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/10jv1lm/top_favorite_restaurants/k15u1wq/
+              - listitem [ref=e2275]:
+                - link "embed" [ref=e2276] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2277]:
+                - link "save" [ref=e2278] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e2279]:
+                - link "report" [ref=e2280] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e2281]:
+    - generic [ref=e2282]:
+      - list [ref=e2284]:
+        - listitem [ref=e2285]: about
+        - listitem [ref=e2286]:
+          - link "blog" [ref=e2287] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e2288]:
+          - link "about" [ref=e2289] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e2290]:
+          - link "advertising" [ref=e2291] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e2292]:
+          - link "careers" [ref=e2293] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e2295]:
+        - listitem [ref=e2296]: help
+        - listitem [ref=e2297]:
+          - link "site rules" [ref=e2298] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e2299]:
+          - link "Reddit help center" [ref=e2300] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e2301]:
+          - link "reddiquette" [ref=e2302] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e2303]:
+          - link "mod guidelines" [ref=e2304] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e2305]:
+          - link "contact us" [ref=e2306] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e2308]:
+        - listitem [ref=e2309]: apps & tools
+        - listitem [ref=e2310]:
+          - link "Reddit for iPhone" [ref=e2311] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e2312]:
+          - link "Reddit for Android" [ref=e2313] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e2314]:
+          - link "mobile website" [ref=e2315] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e2317]:
+        - listitem [ref=e2318]: <3
+        - listitem [ref=e2319]:
+          - link "reddit premium" [ref=e2320] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e2321]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e2322] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e2323] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e2324]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e2325]
+  - paragraph [ref=e2326]: π

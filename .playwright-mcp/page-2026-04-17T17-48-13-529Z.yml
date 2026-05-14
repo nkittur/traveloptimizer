@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/irvine best restaurants site:reddit.com/r/irvine best restaurants
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Firvine%2Bbest%2Brestaurants&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&aep=1&ntc=1&sa=X&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ2J8OegQIEBAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/irvine+best+restaurants&sa=X&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQs6gLegQIEhAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/irvine+best+restaurants&sa=X&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQtKgLegQIFBAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Maps" [ref=e97] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=c0c8628026d5a19e&output=search&q=site:reddit.com/r/irvine+best+restaurants&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e99]: Maps
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/irvine+best+restaurants&sa=X&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQs6gLegQIFRAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/irvine+best+restaurants&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - 'link "Restaurant Recommendations : r/irvine Reddit · r/irvine 20+ comments · 2 months ago" [ref=e144] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/irvine/comments/1qqpfa0/restaurant_recommendations/
+                - 'heading "Restaurant Recommendations : r/irvine" [level=3] [ref=e145]'
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Reddit · r/irvine
+                  - generic [ref=e154]: 20+ comments · 2 months ago
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: I really like
+                - emphasis [ref=e163]: Angelina's Pizzeria Napoletana
+                - text: ", Oliver's Trattoria , The Farmhouse at Roger's Garden , and Fable & Spirit! The first two are in ..."
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/irvine/comments/1qqpfa0/restaurant_recommendations/#:~:text=I%20really%20like,and%20fourth%20in%20Newport%20Beach.
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - 'link "Visiting Irvine what restaurant to try? : r/irvine Reddit · r/irvine 60+ comments · 10 months ago" [ref=e173] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/
+              - 'heading "Visiting Irvine what restaurant to try? : r/irvine" [level=3] [ref=e174]'
+              - generic [ref=e179]:
+                - generic [ref=e181]: Reddit · r/irvine
+                - generic [ref=e183]: 60+ comments · 10 months ago
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - emphasis [ref=e192]: Tasty Spot Cafe for Chinese food
+              - text: . Marugame Udon and Marufuku Ramen. Izakaya Osen for fancy sushi. Eat's Sushi in Costa Mesa for cheaper sushi.
+            - link "Read more" [ref=e193] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/#:~:text=Tasty%20Spot%20Cafe%20for%20Chinese,Costa%20Mesa%20for%20cheaper%20sushi.
+          - generic [ref=e198]:
+            - link "63 answers" [ref=e199] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1l0fudc/visiting_irvine_what_restaurant_to_try/mvd2rgb/
+            - generic [ref=e200]: ·
+            - generic [ref=e201]: "Top answer:"
+            - generic [ref=e202]: "For american/european: vaca (tapas), water grill (plateau royale/ seafood platter), ..."
+        - generic [ref=e206]:
+          - generic [ref=e209]:
+            - link "What are your favorite restaurants? Just moved to Irvine ... Reddit · r/irvine 60+ comments · 1 year ago" [ref=e211] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcev5/what_are_your_favorite_restaurants_just_moved_to/
+              - heading "What are your favorite restaurants? Just moved to Irvine ..." [level=3] [ref=e212]
+              - generic [ref=e217]:
+                - generic [ref=e219]: Reddit · r/irvine
+                - generic [ref=e221]: 60+ comments · 1 year ago
+            - button "About this result" [ref=e222] [cursor=pointer]:
+              - img [ref=e225]
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - text: "For Vietnamese:"
+              - emphasis [ref=e230]: Sup Noodle Bar
+              - text: is you're too lazy to drive to Westminster, Pho Lu, Pho 79, Banh Mi Che Cali off of Brookhurst and New Hope, ...
+            - link "Read more" [ref=e231] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcev5/what_are_your_favorite_restaurants_just_moved_to/#:~:text=For%20Vietnamese%3A%20Sup%20Noodle%20Bar,pricier%20side%20but%20really%20good).
+          - generic [ref=e236]:
+            - link "68 answers" [ref=e237] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcev5/what_are_your_favorite_restaurants_just_moved_to/l1o969n/
+            - generic [ref=e238]: ·
+            - generic [ref=e239]: "Top answer:"
+            - generic [ref=e240]: Vietnamese food in Little Saigon. Basically anything. Mil Jugos in Santa Ana. Best arepas ever. ...
+        - generic [ref=e244]:
+          - generic [ref=e247]:
+            - 'link "Best restaurants? : r/irvine Reddit · r/irvine 20+ comments · 3 years ago" [ref=e249] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/10nwxid/best_restaurants/
+              - 'heading "Best restaurants? : r/irvine" [level=3] [ref=e250]'
+              - generic [ref=e255]:
+                - generic [ref=e257]: Reddit · r/irvine
+                - generic [ref=e259]: 20+ comments · 3 years ago
+            - button "About this result" [ref=e260] [cursor=pointer]:
+              - img [ref=e263]
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - emphasis [ref=e268]: India Curry Cuisine for Indian food
+              - text: . Panini Kabob Grill for good kabobs. Puestos and Cha Chas are good too. I've struggled to find good street ...
+            - link "Read more" [ref=e269] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/10nwxid/best_restaurants/#:~:text=India%20Curry%20Cuisine%20for%20Indian,good%20street%20tacos%20in%20Irvine.
+          - generic [ref=e274]:
+            - link "23 answers" [ref=e275] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/10nwxid/best_restaurants/j6bf80j/
+            - generic [ref=e276]: ·
+            - generic [ref=e277]: "Top answer:"
+            - generic [ref=e278]: Do you have a particular genre you like? Here are my favorites in a few different categories, ...
+        - generic [ref=e282]:
+          - generic [ref=e285]:
+            - 'link "Places to Eat in Irvine : r/irvine Reddit · r/irvine 30+ comments · 2 years ago" [ref=e287] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/1b36kos/places_to_eat_in_irvine/
+              - 'heading "Places to Eat in Irvine : r/irvine" [level=3] [ref=e288]'
+              - generic [ref=e293]:
+                - generic [ref=e295]: Reddit · r/irvine
+                - generic [ref=e297]: 30+ comments · 2 years ago
+            - button "About this result" [ref=e298] [cursor=pointer]:
+              - img [ref=e301]
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - text: If you're in the mood for a good old fashioned American burger and fries, I'd go with
+              - emphasis [ref=e306]: The Cut on Alton Pkwy
+              - text: . For Mexican, try Super Mex on ...
+            - link "Read more" [ref=e307] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1b36kos/places_to_eat_in_irvine/#:~:text=If%20you're%20in%20the%20mood,Super%20Mex%20on%20Culver%20Dr.
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - link "What are your favorite restaurants in and around Irvine? Reddit · r/irvine 30+ comments · 3 years ago" [ref=e316] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/110wsff/what_are_your_favorite_restaurants_in_and_around/
+              - heading "What are your favorite restaurants in and around Irvine?" [level=3] [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e324]: Reddit · r/irvine
+                - generic [ref=e326]: 30+ comments · 3 years ago
+            - button "About this result" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - emphasis [ref=e335]: All That BBQ for Korean all you can eat BBQ
+              - text: ", Tomikawa for sushi, Mendocino Farms for lunch salads & sandwiches, Irvine Grill for Persian food."
+            - link "Read more" [ref=e336] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/110wsff/what_are_your_favorite_restaurants_in_and_around/#:~:text=All%20That%20BBQ%20for%20Korean,Irvine%20Grill%20for%20Persian%20food
+          - generic [ref=e341]:
+            - link "38 answers" [ref=e342] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/110wsff/what_are_your_favorite_restaurants_in_and_around/j8c63dh/
+            - generic [ref=e343]: ·
+            - generic [ref=e344]: "Top answer:"
+            - generic [ref=e345]: Honda-ya in Tustin is my favorite place to eat in Orange County.
+        - generic [ref=e349]:
+          - generic [ref=e352]:
+            - link "What are your favorite restaurants? Just moved to Irvine ... Reddit · r/irvine 20+ comments · 1 year ago" [ref=e354] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcg9k/what_are_your_favorite_restaurants_just_moved_to/
+              - heading "What are your favorite restaurants? Just moved to Irvine ..." [level=3] [ref=e355]
+              - generic [ref=e360]:
+                - generic [ref=e362]: Reddit · r/irvine
+                - generic [ref=e364]: 20+ comments · 1 year ago
+            - button "About this result" [ref=e365] [cursor=pointer]:
+              - img [ref=e368]
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - emphasis [ref=e373]: Pepperoni
+              - text: ", The winery for cigars, eats and fantastic drinks, Bcd, Ben and Mary's, Mendocino farms, Tasty garden, Baekjeong, House of Kabob. I ..."
+            - link "Read more" [ref=e374] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcg9k/what_are_your_favorite_restaurants_just_moved_to/#:~:text=Pepperoni%2C%20The%20winery%20for%20cigars%2C,and%20pop%20sandwich%20spots%20.
+          - generic [ref=e379]:
+            - link "25 answers" [ref=e380] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1cfcg9k/what_are_your_favorite_restaurants_just_moved_to/l1oerni/
+            - generic [ref=e381]: ·
+            - generic [ref=e382]: "Top answer:"
+            - generic [ref=e383]: Hiro Nori Ramen is usually pretty good.
+        - generic [ref=e387]:
+          - generic [ref=e390]:
+            - 'link "Fancy restaurant : r/irvine Reddit · r/irvine 20+ comments · 2 years ago" [ref=e392] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/
+              - 'heading "Fancy restaurant : r/irvine" [level=3] [ref=e393]'
+              - generic [ref=e398]:
+                - generic [ref=e400]: Reddit · r/irvine
+                - generic [ref=e402]: 20+ comments · 2 years ago
+            - button "About this result" [ref=e403] [cursor=pointer]:
+              - img [ref=e406]
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - text: Good food at both places.
+              - emphasis [ref=e411]: Izakaya is fancier
+              - text: . Mastro's is the best steakhouse in the area. We have taken our toddler to all of these places.
+            - link "Read more" [ref=e412] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/#:~:text=Good%20food%20at%20both%20places.,to%20all%20of%20these%20places.
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - 'link "Restaurant recs : r/irvine Reddit · r/irvine 10+ comments · 2 years ago" [ref=e421] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/167f56o/restaurant_recs/
+              - 'heading "Restaurant recs : r/irvine" [level=3] [ref=e422]'
+              - generic [ref=e427]:
+                - generic [ref=e429]: Reddit · r/irvine
+                - generic [ref=e431]: 10+ comments · 2 years ago
+            - button "About this result" [ref=e432] [cursor=pointer]:
+              - img [ref=e435]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - emphasis [ref=e440]: Javier
+              - text: (reservations recommended), Habana, Fogo de Chao, Paul Martini, Del Frisco are your best upscale casual places in Spectrum.
+            - link "Read more" [ref=e441] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/167f56o/restaurant_recs/#:~:text=Javier%20(reservations%20recommended)%2C%20Habana%2C%20Fogo,upscale%20casual%20places%20in%20Spectrum.
+        - generic [ref=e445]:
+          - generic [ref=e448]:
+            - 'link "Good Eats near Hyatt : r/irvine Reddit · r/irvine 10+ comments · 11 months ago" [ref=e450] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/1k6e6n9/good_eats_near_hyatt/
+              - 'heading "Good Eats near Hyatt : r/irvine" [level=3] [ref=e451]'
+              - generic [ref=e456]:
+                - generic [ref=e458]: Reddit · r/irvine
+                - generic [ref=e460]: 10+ comments · 11 months ago
+            - button "About this result" [ref=e461] [cursor=pointer]:
+              - img [ref=e464]
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - text: There're a few restaurants on the other side of Main St. like
+              - emphasis [ref=e469]: Boudin
+              - text: ", they're not that fancy but within walking distance. Other choices nearby ..."
+            - link "Read more" [ref=e470] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1k6e6n9/good_eats_near_hyatt/#:~:text=There're%20a%20few%20restaurants%20on,a%20little%20bit%20of%20driving.
+      - navigation [ref=e473]:
+        - heading "Page Navigation" [level=1] [ref=e474]
+        - text: "1"
+        - link "Page 2" [ref=e477] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=10&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAE
+          - text: "2"
+        - link "Page 3" [ref=e479] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=20&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAG
+          - text: "3"
+        - link "Page 4" [ref=e481] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=30&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAI
+          - text: "4"
+        - link "Page 5" [ref=e483] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=40&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAK
+          - text: "5"
+        - link "Page 6" [ref=e485] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=50&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAM
+          - text: "6"
+        - link "Page 7" [ref=e487] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=60&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAO
+          - text: "7"
+        - link "Page 8" [ref=e489] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=70&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAQ
+          - text: "8"
+        - link "Page 9" [ref=e491] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=80&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAS
+          - text: "9"
+        - link "Page 10" [ref=e493] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=90&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8tMDegQILxAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e495]:
+          - link "Next" [ref=e496] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+best+restaurants&sca_esv=c0c8628026d5a19e&ei=XHLiaZaWM9vCkPIPv7DBwA4&start=10&sa=N&sstk=Af77f_dAB3ggE7av-qNQr_CESosksSZH6LJS2I_JTUwwkEnIRhxIIsnlmdICEagwtrbERPciNf7jLH0yWMXWZ6kOnKI_YJWuGiq0JQ&ved=2ahUKEwiWtKTsuPWTAxVbIUQIHT9YEOgQ8NMDegQILxAW
+            - generic [ref=e498]: Next
+      - navigation
+    - contentinfo [ref=e499]:
+      - heading "Footer Links" [level=1] [ref=e500]
+      - generic [ref=e504]:
+        - generic [ref=e508]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e510] [cursor=pointer]:
+            - generic [ref=e511]: 92620, Irvine, CA
+            - generic [ref=e513]:
+              - text: "-"
+              - generic [ref=e514]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e516] [cursor=pointer]: Update location
+        - generic [ref=e519]:
+          - link "Help" [ref=e520] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e521] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e522] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e523] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

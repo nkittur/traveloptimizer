@@ -1,0 +1,1361 @@
+- generic [active] [ref=e1]:
+  - paragraph [ref=e5]:
+    - button "Agree and close" [ref=e6] [cursor=pointer]:
+      - img [ref=e7]
+    - generic [ref=e10]:
+      - heading "We Use Cookies On This Website" [level=3] [ref=e11]
+      - paragraph [ref=e12]:
+        - text: We, and
+        - link "our third partners" [ref=e13] [cursor=pointer]:
+          - /url: javascript:Didomi.preferences.show('vendors')
+        - text: ", use cookies, pixels, and other technologies to automatically collect, record, and share information you provide, as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes. By continuing to use this site, you agree to the use of these technologies (as described in our"
+        - link "Privacy Notice" [ref=e14] [cursor=pointer]:
+          - /url: https://guide.michelin.com/en/privacy-policy
+        - text: ) and to our
+        - link "Terms of Use" [ref=e15] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/terms-of-use
+        - text: (which contains important waivers).
+  - banner [ref=e16]:
+    - navigation [ref=e17]:
+      - link "Go to Homepage" [ref=e19] [cursor=pointer]:
+        - /url: /us/en
+        - img "MICHELIN Guide" [ref=e20]
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "Restaurants" [ref=e25] [cursor=pointer]:
+            - /url: /us/en/restaurants
+        - listitem [ref=e26]:
+          - link "Hotels" [ref=e27] [cursor=pointer]:
+            - /url: /us/en/hotels
+        - listitem [ref=e28]:
+          - link "Travel Guides" [ref=e29] [cursor=pointer]:
+            - /url: /us/en/travel-guides
+        - listitem [ref=e30]:
+          - link "Magazine" [ref=e31] [cursor=pointer]:
+            - /url: /us/en/articles
+        - listitem [ref=e32]:
+          - link "My Lists" [ref=e33] [cursor=pointer]:
+            - /url: /us/en/profile/0
+      - button "Menu" [ref=e35] [cursor=pointer]
+  - list [ref=e41]:
+    - listitem [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Login" [ref=e45] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=e46]:
+          - link "Register" [ref=e47] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - listitem [ref=e48]:
+      - link "My Lists" [ref=e49] [cursor=pointer]:
+        - /url: /us/en/profile/0
+    - listitem [ref=e50]
+    - listitem [ref=e51]:
+      - link "Restaurants" [ref=e52] [cursor=pointer]:
+        - /url: /us/en/restaurants
+    - listitem [ref=e53]:
+      - link "Hotels" [ref=e54] [cursor=pointer]:
+        - /url: /us/en/hotels
+    - listitem [ref=e55]:
+      - link "MICHELIN Guide Plus" [ref=e56] [cursor=pointer]:
+        - /url: /us/en/member-program/becomeamember
+    - listitem [ref=e57]:
+      - link "Travel Guides" [ref=e58] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/travel-guides
+    - listitem [ref=e59]:
+      - link "Best-of Guides" [ref=e60] [cursor=pointer]:
+        - /url: /us/en/best-of
+    - listitem [ref=e61]:
+      - link "Magazine" [ref=e62] [cursor=pointer]:
+        - /url: /us/en/articles
+    - listitem [ref=e63]:
+      - link "MICHELIN Guide Ceremony" [ref=e64] [cursor=pointer]:
+        - /url: /us/en/articles/michelin-star-revelation
+    - listitem [ref=e65]:
+      - link "Contact us" [ref=e66] [cursor=pointer]:
+        - /url: https://intercom.help/michelin-guide-contact-us/en/
+    - listitem [ref=e67]:
+      - link "Subscribe to newsletter" [ref=e68] [cursor=pointer]:
+        - /url: /us/en/subscribe
+    - listitem [ref=e69]:
+      - link "Booking partnership with OpenTable" [ref=e70] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/booking-partnership-between-the-michelin-guide-and-open-table
+    - listitem [ref=e71]:
+      - link "Booking partnership with Resy" [ref=e72] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/booking-partnership-between-the-michelin-guide-and-resy
+    - listitem [ref=e73]
+    - listitem [ref=e74]:
+      - link "USA - English - USD" [ref=e76] [cursor=pointer]:
+        - /url: "#"
+        - text: USA - English - USD
+  - main [ref=e78]:
+    - generic [ref=e82]:
+      - combobox "Submit" [ref=e94]:
+        - search [ref=e95]:
+          - generic "Submit" [ref=e97]:
+            - button "Submit" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+          - searchbox "Submit" [ref=e102]: Barcelona, Spain
+          - button "Clear" [ref=e104] [cursor=pointer]:
+            - img [ref=e105]
+      - link [ref=e109] [cursor=pointer]:
+        - /url: https://guide.michelin.com/us/en/catalunya/barcelona/restaurants/all-starred?showMap=true
+    - listbox [ref=e112]:
+      - button [ref=e114] [cursor=pointer]
+      - option "New" [ref=e115]:
+        - button "New" [disabled]
+      - option "Distinction | 3" [selected] [ref=e116]:
+        - button "Distinction | 3" [ref=e117] [cursor=pointer]:
+          - text: Distinction
+          - generic [ref=e118]:
+            - generic [ref=e119]: "|"
+            - text: "3"
+        - text: "|"
+      - option "In MICHELIN Hotels" [ref=e120]:
+        - button "In MICHELIN Hotels" [ref=e121] [cursor=pointer]
+      - option "Online booking" [ref=e122]:
+        - button "Online booking" [ref=e123] [cursor=pointer]
+      - option "Days open" [ref=e124]:
+        - button "Days open" [ref=e125] [cursor=pointer]
+      - button "Special diets" [ref=e127] [cursor=pointer]
+      - option "Cuisine" [ref=e128]:
+        - button "Cuisine" [ref=e129] [cursor=pointer]
+      - option "Good for" [ref=e130]:
+        - button "Good for" [ref=e131] [cursor=pointer]
+      - option "Services / Facilities" [ref=e132]:
+        - button "Services / Facilities" [ref=e133] [cursor=pointer]
+      - option "Price" [ref=e134]:
+        - button "Price" [ref=e135] [cursor=pointer]
+    - generic [ref=e138]:
+      - 'heading "Barcelona and surroundings: 1-30 of 30 restaurants" [level=1] [ref=e142]'
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - link "Reserve a table" [ref=e157] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/abac
+              - generic [ref=e158]: Reserve a table
+            - link "Open ABaC" [ref=e160] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/abac
+          - generic [ref=e163]:
+            - heading "Open ABaC" [level=3] [ref=e169]:
+              - link "Open ABaC" [ref=e170] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/abac
+                - text: ABaC
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: Barcelona, Spain
+                - generic [ref=e175]: €€€€ · Creative
+              - link "ABaC Restaurant & Hotel" [ref=e177] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/abac-restaurant-hotel-1581
+                - generic [ref=e178]: ABaC Restaurant & Hotel
+          - link "Open ABaC" [ref=e179] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/abac
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - link "Reserve a table" [ref=e193] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/lasarte
+              - generic [ref=e194]: Reserve a table
+            - link "Open Lasarte" [ref=e196] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/lasarte
+          - generic [ref=e199]:
+            - heading "Open Lasarte" [level=3] [ref=e205]:
+              - link "Open Lasarte" [ref=e206] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/lasarte
+                - text: Lasarte
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: Barcelona, Spain
+                - generic [ref=e211]: €€€€ · Creative
+              - link "Monument Hotel" [ref=e213] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/monument-hotel-8177
+                - generic [ref=e214]: Monument Hotel
+          - link "Open Lasarte" [ref=e215] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/lasarte
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - link "Reserve a table" [ref=e229] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/caelis
+              - generic [ref=e230]: Reserve a table
+            - link "Open Caelis" [ref=e232] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/caelis
+          - generic [ref=e235]:
+            - heading "Open Caelis" [level=3] [ref=e241]:
+              - link "Open Caelis" [ref=e242] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/caelis
+                - text: Caelis
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic [ref=e246]: Barcelona, Spain
+                - generic [ref=e247]: €€€€ · Creative
+              - link "Ohla Barcelona" [ref=e249] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/ohla-hotel-5435
+                - generic [ref=e250]: Ohla Barcelona
+          - link "Open Caelis" [ref=e251] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/caelis
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - link "Reserve a table" [ref=e265] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/angle
+              - generic [ref=e266]: Reserve a table
+            - link "Open Angle" [ref=e268] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/angle
+          - generic [ref=e271]:
+            - heading "Open Angle" [level=3] [ref=e277]:
+              - link "Open Angle" [ref=e278] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/angle
+                - text: Angle
+            - generic [ref=e280]:
+              - generic [ref=e281]:
+                - generic [ref=e282]: Barcelona, Spain
+                - generic [ref=e283]: €€€€ · Modern Cuisine
+              - link "CRAM" [ref=e285] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/hotel-cram-1571
+                - generic [ref=e286]: CRAM
+          - link "Open Angle" [ref=e287] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/angle
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - link "Reserve a table" [ref=e301] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/moments
+              - generic [ref=e302]: Reserve a table
+            - link "Open Moments" [ref=e304] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/moments
+          - generic [ref=e307]:
+            - heading "Open Moments" [level=3] [ref=e313]:
+              - link "Open Moments" [ref=e314] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/moments
+                - text: Moments
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]: Barcelona, Spain
+                - generic [ref=e319]: €€€€ · Creative
+              - link "Mandarin Oriental Barcelona" [ref=e321] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/mandarin-oriental-barcelona-6386
+                - generic [ref=e322]: Mandarin Oriental Barcelona
+          - link "Open Moments" [ref=e323] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/moments
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - link "Reserve a table" [ref=e337] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/quirat
+              - generic [ref=e338]: Reserve a table
+            - link "Open Quirat" [ref=e340] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/quirat
+          - generic [ref=e343]:
+            - heading "Open Quirat" [level=3] [ref=e349]:
+              - link "Open Quirat" [ref=e350] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/quirat
+                - text: Quirat
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]: Barcelona, Spain
+                - generic [ref=e355]: €€€€ · Contemporary
+              - link "Intercontinental Barcelona" [ref=e357] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/intercontinental-barcelona-13471
+                - generic [ref=e358]: Intercontinental Barcelona
+          - link "Open Quirat" [ref=e359] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/quirat
+        - generic [ref=e361]:
+          - generic [ref=e362]:
+            - link "Reserve a table" [ref=e373] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/cocina-hermanos-torres
+              - generic [ref=e374]: Reserve a table
+            - link "Open Cocina Hermanos Torres" [ref=e376] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/cocina-hermanos-torres
+          - generic [ref=e379]:
+            - heading "Open Cocina Hermanos Torres" [level=3] [ref=e385]:
+              - link "Open Cocina Hermanos Torres" [ref=e386] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/cocina-hermanos-torres
+                - text: Cocina Hermanos Torres
+            - generic [ref=e389]:
+              - generic [ref=e390]: Barcelona, Spain
+              - generic [ref=e391]: €€€€ · Creative
+          - link "Open Cocina Hermanos Torres" [ref=e393] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/cocina-hermanos-torres
+        - generic [ref=e395]:
+          - generic [ref=e396]:
+            - link "Reserve a table" [ref=e407] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/cinc-sentits
+              - generic [ref=e408]: Reserve a table
+            - link "Open Cinc Sentits" [ref=e410] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/cinc-sentits
+          - generic [ref=e413]:
+            - heading "Open Cinc Sentits" [level=3] [ref=e419]:
+              - link "Open Cinc Sentits" [ref=e420] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/cinc-sentits
+                - text: Cinc Sentits
+            - generic [ref=e423]:
+              - generic [ref=e424]: Barcelona, Spain
+              - generic [ref=e425]: €€€€ · Contemporary
+          - link "Open Cinc Sentits" [ref=e427] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/cinc-sentits
+        - generic [ref=e429]:
+          - generic [ref=e430]:
+            - link "Reserve a table" [ref=e441] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/aleia
+              - generic [ref=e442]: Reserve a table
+            - link "Open Aleia" [ref=e444] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/aleia
+          - generic [ref=e447]:
+            - heading "Open Aleia" [level=3] [ref=e453]:
+              - link "Open Aleia" [ref=e454] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/aleia
+                - text: Aleia
+            - generic [ref=e457]:
+              - generic [ref=e458]: Barcelona, Spain
+              - generic [ref=e459]: €€€€ · Creative
+          - link "Open Aleia" [ref=e460] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/aleia
+        - generic [ref=e462]:
+          - generic [ref=e463]:
+            - link "Reserve a table" [ref=e474] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/slow-low
+              - generic [ref=e475]: Reserve a table
+            - link "Open Slow & Low" [ref=e477] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/slow-low
+          - generic [ref=e480]:
+            - heading "Open Slow & Low" [level=3] [ref=e486]:
+              - link "Open Slow & Low" [ref=e487] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/slow-low
+                - text: Slow & Low
+            - generic [ref=e490]:
+              - generic [ref=e491]: Barcelona, Spain
+              - generic [ref=e492]: €€€€ · World Cuisine
+          - link "Open Slow & Low" [ref=e493] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/slow-low
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - link "Reserve a table" [ref=e507] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/atempo-1196425
+              - generic [ref=e508]: Reserve a table
+            - link "Open Atempo" [ref=e510] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/atempo-1196425
+          - generic [ref=e513]:
+            - heading "Open Atempo" [level=3] [ref=e519]:
+              - link "Open Atempo" [ref=e520] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/atempo-1196425
+                - text: Atempo
+            - generic [ref=e523]:
+              - generic [ref=e524]: Barcelona, Spain
+              - generic [ref=e525]: €€€€ · Modern Cuisine
+          - link "Open Atempo" [ref=e526] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/atempo-1196425
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - link "Reserve a table" [ref=e540] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/hofmann
+              - generic [ref=e541]: Reserve a table
+            - link "Open Hofmann" [ref=e543] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/hofmann
+          - generic [ref=e546]:
+            - heading "Open Hofmann" [level=3] [ref=e552]:
+              - link "Open Hofmann" [ref=e553] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/hofmann
+                - text: Hofmann
+            - generic [ref=e556]:
+              - generic [ref=e557]: Barcelona, Spain
+              - generic [ref=e558]: €€€ · Modern Cuisine
+          - link "Open Hofmann" [ref=e559] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/hofmann
+        - generic [ref=e561]:
+          - generic [ref=e562]:
+            - link "Reserve a table" [ref=e573] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/mae-barcelona
+              - generic [ref=e574]: Reserve a table
+            - link "Open MAE Barcelona" [ref=e576] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/mae-barcelona
+          - generic [ref=e579]:
+            - heading "Open MAE Barcelona" [level=3] [ref=e585]:
+              - link "Open MAE Barcelona" [ref=e586] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/mae-barcelona
+                - text: MAE Barcelona
+            - generic [ref=e589]:
+              - generic [ref=e590]: Barcelona, Spain
+              - generic [ref=e591]: €€€ · Creative
+          - link "Open MAE Barcelona" [ref=e592] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/mae-barcelona
+        - generic [ref=e594]:
+          - generic [ref=e595]:
+            - link "Reserve a table" [ref=e606] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/prodigi
+              - generic [ref=e607]: Reserve a table
+            - link "Open Prodigi" [ref=e609] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/prodigi
+          - generic [ref=e612]:
+            - heading "Open Prodigi" [level=3] [ref=e618]:
+              - link "Open Prodigi" [ref=e619] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/prodigi
+                - text: Prodigi
+            - generic [ref=e622]:
+              - generic [ref=e623]: Barcelona, Spain
+              - generic [ref=e624]: €€€ · Modern Cuisine
+          - link "Open Prodigi" [ref=e625] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/prodigi
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - link "Reserve a table" [ref=e639] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/dos-palillos
+              - generic [ref=e640]: Reserve a table
+            - link "Open Dos Palillos" [ref=e642] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/dos-palillos
+          - generic [ref=e645]:
+            - heading "Open Dos Palillos" [level=3] [ref=e651]:
+              - link "Open Dos Palillos" [ref=e652] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/dos-palillos
+                - text: Dos Palillos
+            - generic [ref=e655]:
+              - generic [ref=e656]: Barcelona, Spain
+              - generic [ref=e657]: €€€€ · Fusion
+          - link "Open Dos Palillos" [ref=e658] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/dos-palillos
+        - generic [ref=e660]:
+          - generic [ref=e661]:
+            - link "Reserve a table" [ref=e672] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/taberna-kamikaze
+              - generic [ref=e673]: Reserve a table
+            - link "Open Kamikaze" [ref=e675] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/taberna-kamikaze
+          - generic [ref=e678]:
+            - heading "Open Kamikaze" [level=3] [ref=e684]:
+              - link "Open Kamikaze" [ref=e685] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/taberna-kamikaze
+                - text: Kamikaze
+            - generic [ref=e688]:
+              - generic [ref=e689]: Barcelona, Spain
+              - generic [ref=e690]: €€€ · Fusion
+          - link "Open Kamikaze" [ref=e691] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/taberna-kamikaze
+        - generic [ref=e693]:
+          - generic [ref=e694]:
+            - link "Reserve a table" [ref=e705] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/fishology
+              - generic [ref=e706]: Reserve a table
+            - link "Open Fishølogy" [ref=e708] [cursor=pointer]:
+              - /url: /us/en/catalunya/barcelona/restaurant/fishology
+          - generic [ref=e711]:
+            - heading "Open Fishølogy" [level=3] [ref=e717]:
+              - link "Open Fishølogy" [ref=e718] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/fishology
+                - text: Fishølogy
+            - generic [ref=e721]:
+              - generic [ref=e722]: Barcelona, Spain
+              - generic [ref=e723]: €€€ · Contemporary
+          - link "Open Fishølogy" [ref=e725] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/fishology
+        - generic [ref=e727]:
+          - link "Open Enoteca Paco Pérez" [ref=e736] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/enoteca204150
+          - generic [ref=e739]:
+            - heading "Open Enoteca Paco Pérez" [level=3] [ref=e745]:
+              - link "Open Enoteca Paco Pérez" [ref=e746] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/enoteca204150
+                - text: Enoteca Paco Pérez
+            - generic [ref=e748]:
+              - generic [ref=e749]:
+                - generic [ref=e750]: Barcelona, Spain
+                - generic [ref=e751]: €€€€ · Modern Cuisine
+              - link "Hotel Arts Barcelona" [ref=e753] [cursor=pointer]:
+                - /url: /us/en/hotels-stays/barcelona/hotel-arts-barcelona-7408
+                - generic [ref=e754]: Hotel Arts Barcelona
+          - link "Open Enoteca Paco Pérez" [ref=e755] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/enoteca204150
+        - generic [ref=e757]:
+          - link "Open Disfrutar" [ref=e766] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/disfrutar
+          - generic [ref=e769]:
+            - heading "Open Disfrutar" [level=3] [ref=e775]:
+              - link "Open Disfrutar" [ref=e776] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/disfrutar
+                - text: Disfrutar
+            - generic [ref=e779]:
+              - generic [ref=e780]: Barcelona, Spain
+              - generic [ref=e781]: €€€€ · Creative
+          - link "Open Disfrutar" [ref=e783] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/disfrutar
+        - generic [ref=e785]:
+          - link "Open Enigma" [ref=e794] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/enigma
+          - generic [ref=e797]:
+            - heading "Open Enigma" [level=3] [ref=e803]:
+              - link "Open Enigma" [ref=e804] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/enigma
+                - text: Enigma
+            - generic [ref=e807]:
+              - generic [ref=e808]: Barcelona, Spain
+              - generic [ref=e809]: €€€€ · Creative
+          - link "Open Enigma" [ref=e811] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/enigma
+        - generic [ref=e813]:
+          - link "Open Mont Bar" [ref=e822] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/mont-bar
+          - generic [ref=e825]:
+            - heading "Open Mont Bar" [level=3] [ref=e831]:
+              - link "Open Mont Bar" [ref=e832] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/mont-bar
+                - text: Mont Bar
+            - generic [ref=e835]:
+              - generic [ref=e836]: Barcelona, Spain
+              - generic [ref=e837]: €€€ · Creative
+          - link "Open Mont Bar" [ref=e838] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/mont-bar
+        - generic [ref=e840]:
+          - link "Open SCAPAR" [ref=e849] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/scapar
+          - generic [ref=e852]:
+            - heading "Open SCAPAR" [level=3] [ref=e858]:
+              - link "Open SCAPAR" [ref=e859] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/scapar
+                - text: SCAPAR
+            - generic [ref=e862]:
+              - generic [ref=e863]: Barcelona, Spain
+              - generic [ref=e864]: €€€€ · Fusion
+          - link "Open SCAPAR" [ref=e865] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/scapar
+        - generic [ref=e867]:
+          - link "Open Koy Shunka" [ref=e876] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/koy-shunka
+          - generic [ref=e879]:
+            - heading "Open Koy Shunka" [level=3] [ref=e885]:
+              - link "Open Koy Shunka" [ref=e886] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/koy-shunka
+                - text: Koy Shunka
+            - generic [ref=e889]:
+              - generic [ref=e890]: Barcelona, Spain
+              - generic [ref=e891]: €€€€ · Japanese
+          - link "Open Koy Shunka" [ref=e892] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/koy-shunka
+        - generic [ref=e894]:
+          - link "Open COME by Paco Méndez" [ref=e903] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/come-by-paco-mendez
+          - generic [ref=e906]:
+            - heading "Open COME by Paco Méndez" [level=3] [ref=e912]:
+              - link "Open COME by Paco Méndez" [ref=e913] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/come-by-paco-mendez
+                - text: COME by Paco Méndez
+            - generic [ref=e916]:
+              - generic [ref=e917]: Barcelona, Spain
+              - generic [ref=e918]: €€€€ · Mexican
+          - link "Open COME by Paco Méndez" [ref=e919] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/come-by-paco-mendez
+        - generic [ref=e921]:
+          - link "Open Alkimia" [ref=e930] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/alkimia
+          - generic [ref=e933]:
+            - heading "Open Alkimia" [level=3] [ref=e939]:
+              - link "Open Alkimia" [ref=e940] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/alkimia
+                - text: Alkimia
+            - generic [ref=e943]:
+              - generic [ref=e944]: Barcelona, Spain
+              - generic [ref=e945]: €€€€ · Modern Cuisine
+          - link "Open Alkimia" [ref=e946] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/alkimia
+        - generic [ref=e948]:
+          - link "Open Via Veneto" [ref=e957] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/via-veneto
+          - generic [ref=e960]:
+            - heading "Open Via Veneto" [level=3] [ref=e966]:
+              - link "Open Via Veneto" [ref=e967] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/via-veneto
+                - text: Via Veneto
+            - generic [ref=e970]:
+              - generic [ref=e971]: Barcelona, Spain
+              - generic [ref=e972]: €€€€ · Classic Cuisine
+          - link "Open Via Veneto" [ref=e973] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/via-veneto
+        - generic [ref=e975]:
+          - link "Open Hisop" [ref=e984] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/hisop
+          - generic [ref=e987]:
+            - heading "Open Hisop" [level=3] [ref=e993]:
+              - link "Open Hisop" [ref=e994] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/hisop
+                - text: Hisop
+            - generic [ref=e997]:
+              - generic [ref=e998]: Barcelona, Spain
+              - generic [ref=e999]: €€€ · Creative
+          - link "Open Hisop" [ref=e1000] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/hisop
+        - generic [ref=e1002]:
+          - link "Open Suto" [ref=e1011] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/suto
+          - generic [ref=e1014]:
+            - heading "Open Suto" [level=3] [ref=e1020]:
+              - link "Open Suto" [ref=e1021] [cursor=pointer]:
+                - /url: /us/en/catalunya/barcelona/restaurant/suto
+                - text: Suto
+            - generic [ref=e1024]:
+              - generic [ref=e1025]: Barcelona, Spain
+              - generic [ref=e1026]: €€€€ · Japanese
+          - link "Open Suto" [ref=e1027] [cursor=pointer]:
+            - /url: /us/en/catalunya/barcelona/restaurant/suto
+        - generic [ref=e1029]:
+          - generic [ref=e1030]:
+            - link "Reserve a table" [ref=e1041] [cursor=pointer]:
+              - /url: /us/en/catalunya/santa-coloma-de-gramenet/restaurant/lluerna
+              - generic [ref=e1042]: Reserve a table
+            - link "Open Lluerna" [ref=e1044] [cursor=pointer]:
+              - /url: /us/en/catalunya/santa-coloma-de-gramenet/restaurant/lluerna
+          - generic [ref=e1047]:
+            - heading "Open Lluerna" [level=3] [ref=e1053]:
+              - link "Open Lluerna" [ref=e1054] [cursor=pointer]:
+                - /url: /us/en/catalunya/santa-coloma-de-gramenet/restaurant/lluerna
+                - text: Lluerna
+            - generic [ref=e1057]:
+              - generic [ref=e1058]: Santa Coloma de Gramenet, Spain
+              - generic [ref=e1059]: €€€ · Modern Cuisine
+          - link "Open Lluerna" [ref=e1060] [cursor=pointer]:
+            - /url: /us/en/catalunya/santa-coloma-de-gramenet/restaurant/lluerna
+        - generic [ref=e1062]:
+          - generic [ref=e1063]:
+            - link "Reserve a table" [ref=e1074] [cursor=pointer]:
+              - /url: /us/en/catalunya/el-masnou/restaurant/tresmacarrons
+              - generic [ref=e1075]: Reserve a table
+            - link "Open Tresmacarrons" [ref=e1077] [cursor=pointer]:
+              - /url: /us/en/catalunya/el-masnou/restaurant/tresmacarrons
+          - generic [ref=e1080]:
+            - heading "Open Tresmacarrons" [level=3] [ref=e1086]:
+              - link "Open Tresmacarrons" [ref=e1087] [cursor=pointer]:
+                - /url: /us/en/catalunya/el-masnou/restaurant/tresmacarrons
+                - text: Tresmacarrons
+            - generic [ref=e1090]:
+              - generic [ref=e1091]: El Masnou, Spain
+              - generic [ref=e1092]: €€€€ · Modern Cuisine
+          - link "Open Tresmacarrons" [ref=e1093] [cursor=pointer]:
+            - /url: /us/en/catalunya/el-masnou/restaurant/tresmacarrons
+      - list [ref=e1096]:
+        - listitem [ref=e1097]:
+          - link "1" [ref=e1098] [cursor=pointer]:
+            - /url: https://guide.michelin.com/us/en/catalunya/barcelona/restaurants/all-starred/page/1
+    - generic [ref=e1100]:
+      - heading "Explore MICHELIN Guide Experiences" [level=2] [ref=e1102]
+      - generic [ref=e1103]:
+        - generic [ref=e1104]:
+          - link "Michelin Specials by The Fork" [ref=e1106] [cursor=pointer]:
+            - /url: /us/en/restaurants/michelin-specials
+          - link "New" [ref=e1108] [cursor=pointer]:
+            - /url: /us/en/restaurants/new-restaurants
+          - link "3 Stars" [ref=e1110] [cursor=pointer]:
+            - /url: /us/en/restaurants/3-stars-michelin
+            - text: 3 Stars
+          - link "2 Stars" [ref=e1113] [cursor=pointer]:
+            - /url: /us/en/restaurants/2-stars-michelin
+            - text: 2 Stars
+        - generic [ref=e1115]:
+          - link "1 Star" [ref=e1117] [cursor=pointer]:
+            - /url: /us/en/restaurants/1-star-michelin
+            - text: 1 Star
+          - link "Bib Gourmand" [ref=e1120] [cursor=pointer]:
+            - /url: /us/en/restaurants/bib-gourmand
+            - text: Bib Gourmand
+          - link "Selected Restaurants" [ref=e1123] [cursor=pointer]:
+            - /url: /us/en/restaurants/the-plate-michelin
+          - link "Afghan" [ref=e1125] [cursor=pointer]:
+            - /url: /us/en/restaurants/afghan
+        - generic [ref=e1126]:
+          - link "African" [ref=e1128] [cursor=pointer]:
+            - /url: /us/en/restaurants/african
+          - link "Alpine" [ref=e1130] [cursor=pointer]:
+            - /url: /us/en/restaurants/alpine
+          - link "Alsatian" [ref=e1132] [cursor=pointer]:
+            - /url: /us/en/restaurants/alsatian
+          - link "American" [ref=e1134] [cursor=pointer]:
+            - /url: /us/en/restaurants/american
+        - generic [ref=e1135]:
+          - link "American Contemporary" [ref=e1137] [cursor=pointer]:
+            - /url: /us/en/restaurants/american-contemporary
+          - link "Andalusian" [ref=e1139] [cursor=pointer]:
+            - /url: /us/en/restaurants/andalusian
+          - link "Apulian" [ref=e1141] [cursor=pointer]:
+            - /url: /us/en/restaurants/apulian
+          - link "Argentinian" [ref=e1143] [cursor=pointer]:
+            - /url: /us/en/restaurants/argentinian
+        - generic [ref=e1144]:
+          - link "Armenian" [ref=e1146] [cursor=pointer]:
+            - /url: /us/en/restaurants/armenian
+          - link "Asian" [ref=e1148] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian
+          - link "Asian Contemporary" [ref=e1150] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-contemporary
+          - link "Asian Influences" [ref=e1152] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-influences
+        - generic [ref=e1153]:
+          - link "Asian and Western" [ref=e1155] [cursor=pointer]:
+            - /url: /us/en/restaurants/asian-and-western
+          - link "Asturian" [ref=e1157] [cursor=pointer]:
+            - /url: /us/en/restaurants/asturian
+          - link "Australian Contemporary" [ref=e1159] [cursor=pointer]:
+            - /url: /us/en/restaurants/australian-contemporary
+          - link "Austrian" [ref=e1161] [cursor=pointer]:
+            - /url: /us/en/restaurants/austrian
+        - generic [ref=e1162]:
+          - link "Bakery" [ref=e1164] [cursor=pointer]:
+            - /url: /us/en/restaurants/bakery
+          - link "Balinese" [ref=e1166] [cursor=pointer]:
+            - /url: /us/en/restaurants/balinese
+          - link "Balkan" [ref=e1168] [cursor=pointer]:
+            - /url: /us/en/restaurants/balkan
+          - link "Barbecue" [ref=e1170] [cursor=pointer]:
+            - /url: /us/en/restaurants/barbecue-1143
+        - generic [ref=e1171]:
+          - link "Basque" [ref=e1173] [cursor=pointer]:
+            - /url: /us/en/restaurants/basque
+          - link "Bavarian" [ref=e1175] [cursor=pointer]:
+            - /url: /us/en/restaurants/bavarian
+          - link "Beef" [ref=e1177] [cursor=pointer]:
+            - /url: /us/en/restaurants/beef-specialities
+          - link "Beijing Cuisine" [ref=e1179] [cursor=pointer]:
+            - /url: /us/en/restaurants/pekingese
+        - generic [ref=e1180]:
+          - link "Belgian" [ref=e1182] [cursor=pointer]:
+            - /url: /us/en/restaurants/belgian
+          - link "Bibimbap" [ref=e1184] [cursor=pointer]:
+            - /url: /us/en/restaurants/bibimbap
+          - link "Brazilian" [ref=e1186] [cursor=pointer]:
+            - /url: /us/en/restaurants/brazilian
+          - link "Breton" [ref=e1188] [cursor=pointer]:
+            - /url: /us/en/restaurants/breton
+        - generic [ref=e1189]:
+          - link "British Contemporary" [ref=e1191] [cursor=pointer]:
+            - /url: /us/en/restaurants/british-contemporary
+          - link "Bulgogi" [ref=e1193] [cursor=pointer]:
+            - /url: /us/en/restaurants/bulgogi
+          - link "Burgundian" [ref=e1195] [cursor=pointer]:
+            - /url: /us/en/restaurants/burgundian
+          - link "Burmese" [ref=e1197] [cursor=pointer]:
+            - /url: /us/en/restaurants/burmese
+        - generic [ref=e1198]:
+          - link "Cajun" [ref=e1200] [cursor=pointer]:
+            - /url: /us/en/restaurants/cajun
+          - link "Calabrian" [ref=e1202] [cursor=pointer]:
+            - /url: /us/en/restaurants/calabrian
+          - link "Californian" [ref=e1204] [cursor=pointer]:
+            - /url: /us/en/restaurants/californian
+          - link "Cambodian" [ref=e1206] [cursor=pointer]:
+            - /url: /us/en/restaurants/cambodian
+        - generic [ref=e1207]:
+          - link "Campanian" [ref=e1209] [cursor=pointer]:
+            - /url: /us/en/restaurants/campanian
+          - link "Cantonese" [ref=e1211] [cursor=pointer]:
+            - /url: /us/en/restaurants/cantonese
+          - link "Cantonese Roast Meats" [ref=e1213] [cursor=pointer]:
+            - /url: /us/en/restaurants/cantonese-roast-meats
+          - link "Caribbean" [ref=e1215] [cursor=pointer]:
+            - /url: /us/en/restaurants/caribbean
+        - generic [ref=e1216]:
+          - link "Castilian" [ref=e1218] [cursor=pointer]:
+            - /url: /us/en/restaurants/castilian
+          - link "Catalan" [ref=e1220] [cursor=pointer]:
+            - /url: /us/en/restaurants/catalan
+          - link "Central Asian" [ref=e1222] [cursor=pointer]:
+            - /url: /us/en/restaurants/central-asian-120
+          - link "Chao Zhou" [ref=e1224] [cursor=pointer]:
+            - /url: /us/en/restaurants/chao-zhou
+        - generic [ref=e1225]:
+          - link "Cheese, Fondue and Raclette" [ref=e1227] [cursor=pointer]:
+            - /url: /us/en/restaurants/cheese-fondue-and-raclette
+          - link "Chicken Specialities" [ref=e1229] [cursor=pointer]:
+            - /url: /us/en/restaurants/chicken-specialities
+          - link "Chilean" [ref=e1231] [cursor=pointer]:
+            - /url: /us/en/restaurants/chilean
+          - link "Chinese" [ref=e1233] [cursor=pointer]:
+            - /url: /us/en/restaurants/chinese
+        - generic [ref=e1234]:
+          - link "Chinese Contemporary" [ref=e1236] [cursor=pointer]:
+            - /url: /us/en/restaurants/chinese-contemporary
+          - link "Chiu Chow" [ref=e1238] [cursor=pointer]:
+            - /url: /us/en/restaurants/chiu-chow
+          - link "Chueotang" [ref=e1240] [cursor=pointer]:
+            - /url: /us/en/restaurants/chueotang
+          - link "Classic Cuisine" [ref=e1242] [cursor=pointer]:
+            - /url: /us/en/restaurants/classic-cuisine
+        - generic [ref=e1243]:
+          - link "Classic French" [ref=e1245] [cursor=pointer]:
+            - /url: /us/en/restaurants/classic-french
+          - link "Colombian" [ref=e1247] [cursor=pointer]:
+            - /url: /us/en/restaurants/colombian
+          - link "Congee" [ref=e1249] [cursor=pointer]:
+            - /url: /us/en/restaurants/congee
+          - link "Contemporary" [ref=e1251] [cursor=pointer]:
+            - /url: /us/en/restaurants/contemporary
+        - generic [ref=e1252]:
+          - link "Corsican" [ref=e1254] [cursor=pointer]:
+            - /url: /us/en/restaurants/corsican
+          - link "Country cooking" [ref=e1256] [cursor=pointer]:
+            - /url: /us/en/restaurants/country
+          - link "Crab Specialities" [ref=e1258] [cursor=pointer]:
+            - /url: /us/en/restaurants/crab-specialities
+          - link "Creative" [ref=e1260] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative
+        - generic [ref=e1261]:
+          - link "Creative British" [ref=e1263] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative-british
+          - link "Creative French" [ref=e1265] [cursor=pointer]:
+            - /url: /us/en/restaurants/creative-french
+          - link "Creole" [ref=e1267] [cursor=pointer]:
+            - /url: /us/en/restaurants/creole
+          - link "Croatian" [ref=e1269] [cursor=pointer]:
+            - /url: /us/en/restaurants/croatian
+        - generic [ref=e1270]:
+          - link "Crêpe" [ref=e1272] [cursor=pointer]:
+            - /url: /us/en/restaurants/crpe
+          - link "Cuban" [ref=e1274] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuban
+          - link "Cuisine from Abruzzo" [ref=e1276] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-abruzzo
+          - link "Cuisine from Basilicata" [ref=e1278] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-basilicata
+        - generic [ref=e1279]:
+          - link "Cuisine from Lazio" [ref=e1281] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-lazio
+          - link "Cuisine from Parma" [ref=e1283] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-parma
+          - link "Cuisine from Romagna" [ref=e1285] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-romagna
+          - link "Cuisine from South West France" [ref=e1287] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-south-west-france
+        - generic [ref=e1288]:
+          - link "Cuisine from Valtellina" [ref=e1290] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-valtellina
+          - link "Cuisine from the Aosta Valley" [ref=e1292] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-the-aosta-valley
+          - link "Cuisine from the Marches" [ref=e1294] [cursor=pointer]:
+            - /url: /us/en/restaurants/cuisine-from-the-marches
+          - link "Czech" [ref=e1296] [cursor=pointer]:
+            - /url: /us/en/restaurants/czech
+        - generic [ref=e1297]:
+          - link "Danish" [ref=e1299] [cursor=pointer]:
+            - /url: /us/en/restaurants/danish
+          - link "Deli" [ref=e1301] [cursor=pointer]:
+            - /url: /us/en/restaurants/deli
+          - link "Dim Sum" [ref=e1303] [cursor=pointer]:
+            - /url: /us/en/restaurants/dim-sum
+          - link "Doganitang" [ref=e1305] [cursor=pointer]:
+            - /url: /us/en/restaurants/doganitang
+        - generic [ref=e1306]:
+          - link "Dongbei" [ref=e1308] [cursor=pointer]:
+            - /url: /us/en/restaurants/dongbei
+          - link "Dubu" [ref=e1310] [cursor=pointer]:
+            - /url: /us/en/restaurants/dubu
+          - link "Duck Specialities" [ref=e1312] [cursor=pointer]:
+            - /url: /us/en/restaurants/duck-specialities
+          - link "Dumplings" [ref=e1314] [cursor=pointer]:
+            - /url: /us/en/restaurants/dumplings
+        - generic [ref=e1315]:
+          - link "Dwaeji-gukbap" [ref=e1317] [cursor=pointer]:
+            - /url: /us/en/restaurants/dwaeji-gukbap
+          - link "Eastern European" [ref=e1319] [cursor=pointer]:
+            - /url: /us/en/restaurants/eastern-european
+          - link "Egyptian" [ref=e1321] [cursor=pointer]:
+            - /url: /us/en/restaurants/egyptian
+          - link "Emilian" [ref=e1323] [cursor=pointer]:
+            - /url: /us/en/restaurants/emilian
+        - generic [ref=e1324]:
+          - link "Emirati Cuisine" [ref=e1326] [cursor=pointer]:
+            - /url: /us/en/restaurants/emirati-cuisine
+          - link "English" [ref=e1328] [cursor=pointer]:
+            - /url: /us/en/restaurants/english
+          - link "Ethiopian" [ref=e1330] [cursor=pointer]:
+            - /url: /us/en/restaurants/ethiopian
+          - link "European" [ref=e1332] [cursor=pointer]:
+            - /url: /us/en/restaurants/european
+        - generic [ref=e1333]:
+          - link "European Contemporary" [ref=e1335] [cursor=pointer]:
+            - /url: /us/en/restaurants/european-contemporary
+          - link "Farm to table" [ref=e1337] [cursor=pointer]:
+            - /url: /us/en/restaurants/market-cuisine
+          - link "Filipino" [ref=e1339] [cursor=pointer]:
+            - /url: /us/en/restaurants/filipino
+          - link "Finnish" [ref=e1341] [cursor=pointer]:
+            - /url: /us/en/restaurants/finnish
+        - generic [ref=e1342]:
+          - link "Fish and Chips" [ref=e1344] [cursor=pointer]:
+            - /url: /us/en/restaurants/fish-and-chips
+          - link "Flemish" [ref=e1346] [cursor=pointer]:
+            - /url: /us/en/restaurants/flemish
+          - link "French" [ref=e1348] [cursor=pointer]:
+            - /url: /us/en/restaurants/french
+          - link "French Contemporary" [ref=e1350] [cursor=pointer]:
+            - /url: /us/en/restaurants/french-contemporary
+        - generic [ref=e1351]:
+          - link "Friulian" [ref=e1353] [cursor=pointer]:
+            - /url: /us/en/restaurants/friulian
+          - link "Fugu / Pufferfish" [ref=e1355] [cursor=pointer]:
+            - /url: /us/en/restaurants/fugu-pufferfish
+          - link "Fujian" [ref=e1357] [cursor=pointer]:
+            - /url: /us/en/restaurants/fujian
+          - link "Fusion" [ref=e1359] [cursor=pointer]:
+            - /url: /us/en/restaurants/fusion
+        - generic [ref=e1360]:
+          - link "Fusion" [ref=e1362] [cursor=pointer]:
+            - /url: /us/en/restaurants/fusion-1161
+          - link "Galician" [ref=e1364] [cursor=pointer]:
+            - /url: /us/en/restaurants/galician
+          - link "Gastropub" [ref=e1366] [cursor=pointer]:
+            - /url: /us/en/restaurants/gastropub
+          - link "Gejang" [ref=e1368] [cursor=pointer]:
+            - /url: /us/en/restaurants/gejang
+        - generic [ref=e1369]:
+          - link "German" [ref=e1371] [cursor=pointer]:
+            - /url: /us/en/restaurants/german
+          - link "Gomtang" [ref=e1373] [cursor=pointer]:
+            - /url: /us/en/restaurants/gomtang
+          - link "Greek" [ref=e1375] [cursor=pointer]:
+            - /url: /us/en/restaurants/greek
+          - link "Grills" [ref=e1377] [cursor=pointer]:
+            - /url: /us/en/restaurants/grills-1162
+        - generic [ref=e1378]:
+          - link "Hainanese" [ref=e1380] [cursor=pointer]:
+            - /url: /us/en/restaurants/hainanese
+          - link "Hakkanese" [ref=e1382] [cursor=pointer]:
+            - /url: /us/en/restaurants/hakkanese
+          - link "Hang Zhou" [ref=e1384] [cursor=pointer]:
+            - /url: /us/en/restaurants/hang-zhou
+          - link "Home Cooking" [ref=e1386] [cursor=pointer]:
+            - /url: /us/en/restaurants/home-cooking
+        - generic [ref=e1387]:
+          - link "Hotpot" [ref=e1389] [cursor=pointer]:
+            - /url: /us/en/restaurants/hotpot
+          - link "Huaiyang" [ref=e1391] [cursor=pointer]:
+            - /url: /us/en/restaurants/huai-yang
+          - link "Hubei" [ref=e1393] [cursor=pointer]:
+            - /url: /us/en/restaurants/hubei
+          - link "Hui Cuisine" [ref=e1395] [cursor=pointer]:
+            - /url: /us/en/restaurants/hui-cuisine
+        - generic [ref=e1396]:
+          - link "Hunanese" [ref=e1398] [cursor=pointer]:
+            - /url: /us/en/restaurants/hunanese
+          - link "Hunanese and Sichuan" [ref=e1400] [cursor=pointer]:
+            - /url: /us/en/restaurants/hunanese-and-sichuan
+          - link "Hungarian" [ref=e1402] [cursor=pointer]:
+            - /url: /us/en/restaurants/hungarian
+          - link "Indian" [ref=e1404] [cursor=pointer]:
+            - /url: /us/en/restaurants/indian
+        - generic [ref=e1405]:
+          - link "Indian Vegetarian" [ref=e1407] [cursor=pointer]:
+            - /url: /us/en/restaurants/indian-vegetarian
+          - link "Indonesian" [ref=e1409] [cursor=pointer]:
+            - /url: /us/en/restaurants/indonesian
+          - link "Innovative" [ref=e1411] [cursor=pointer]:
+            - /url: /us/en/restaurants/innovative
+          - link "International" [ref=e1413] [cursor=pointer]:
+            - /url: /us/en/restaurants/international
+        - generic [ref=e1414]:
+          - link "Irish" [ref=e1416] [cursor=pointer]:
+            - /url: /us/en/restaurants/irish
+          - link "Isan" [ref=e1418] [cursor=pointer]:
+            - /url: /us/en/restaurants/isan
+          - link "Israeli" [ref=e1420] [cursor=pointer]:
+            - /url: /us/en/restaurants/israeli
+          - link "Italian" [ref=e1422] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian
+        - generic [ref=e1423]:
+          - link "Italian Contemporary" [ref=e1425] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-contemporary
+          - link "Italian and Japanese" [ref=e1427] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-and-japanese
+          - link "Italian-American" [ref=e1429] [cursor=pointer]:
+            - /url: /us/en/restaurants/italian-american
+          - link "Izakaya" [ref=e1431] [cursor=pointer]:
+            - /url: /us/en/restaurants/izakaya
+        - generic [ref=e1432]:
+          - link "Jamaican" [ref=e1434] [cursor=pointer]:
+            - /url: /us/en/restaurants/jamaican
+          - link "Japanese" [ref=e1436] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese
+          - link "Japanese Contemporary" [ref=e1438] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-contemporary
+          - link "Japanese Steakhouse" [ref=e1440] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-steakhouse
+        - generic [ref=e1441]:
+          - link "Japanese Tempura" [ref=e1443] [cursor=pointer]:
+            - /url: /us/en/restaurants/japanese-tempura
+          - link "Jiangsu Cuisine" [ref=e1445] [cursor=pointer]:
+            - /url: /us/en/restaurants/jiangsu-cuisine
+          - link "Jiangzhe" [ref=e1447] [cursor=pointer]:
+            - /url: /us/en/restaurants/jiangzhe
+          - link "Kalguksu" [ref=e1449] [cursor=pointer]:
+            - /url: /us/en/restaurants/kalguksu
+        - generic [ref=e1450]:
+          - link "Korean" [ref=e1452] [cursor=pointer]:
+            - /url: /us/en/restaurants/korean
+          - link "Korean Contemporary" [ref=e1454] [cursor=pointer]:
+            - /url: /us/en/restaurants/korean-contemporary
+          - link "Kushiage" [ref=e1456] [cursor=pointer]:
+            - /url: /us/en/restaurants/kushiage
+          - link "Lao" [ref=e1458] [cursor=pointer]:
+            - /url: /us/en/restaurants/lao
+        - generic [ref=e1459]:
+          - link "Latin American" [ref=e1461] [cursor=pointer]:
+            - /url: /us/en/restaurants/latin-american
+          - link "Lebanese" [ref=e1463] [cursor=pointer]:
+            - /url: /us/en/restaurants/lebanese
+          - link "Ligurian" [ref=e1465] [cursor=pointer]:
+            - /url: /us/en/restaurants/ligurian
+          - link "Lombardian" [ref=e1467] [cursor=pointer]:
+            - /url: /us/en/restaurants/lombardian
+        - generic [ref=e1468]:
+          - link "Lyonnaise" [ref=e1470] [cursor=pointer]:
+            - /url: /us/en/restaurants/lyonnaise
+          - link "Macanese" [ref=e1472] [cursor=pointer]:
+            - /url: /us/en/restaurants/macanese
+          - link "Malaysian" [ref=e1474] [cursor=pointer]:
+            - /url: /us/en/restaurants/malaysian
+          - link "Mandu" [ref=e1476] [cursor=pointer]:
+            - /url: /us/en/restaurants/mandu
+        - generic [ref=e1477]:
+          - link "Mantuan" [ref=e1479] [cursor=pointer]:
+            - /url: /us/en/restaurants/mantuan
+          - link "Meats and Grills" [ref=e1481] [cursor=pointer]:
+            - /url: /us/en/restaurants/meats-and-grills
+          - link "Meats and Seafood" [ref=e1483] [cursor=pointer]:
+            - /url: /us/en/restaurants/meats-and-seafood
+          - link "Mediterranean Cuisine" [ref=e1485] [cursor=pointer]:
+            - /url: /us/en/restaurants/mediterranean-cuisine
+        - generic [ref=e1486]:
+          - link "Memil-guksu" [ref=e1488] [cursor=pointer]:
+            - /url: /us/en/restaurants/memil-guksu
+          - link "Mexican" [ref=e1490] [cursor=pointer]:
+            - /url: /us/en/restaurants/mexican
+          - link "Middle Eastern" [ref=e1492] [cursor=pointer]:
+            - /url: /us/en/restaurants/middle-eastern
+          - link "Milanese" [ref=e1494] [cursor=pointer]:
+            - /url: /us/en/restaurants/milanese
+        - generic [ref=e1495]:
+          - link "Modern British" [ref=e1497] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-british
+          - link "Modern Cuisine" [ref=e1499] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-cuisine
+          - link "Modern French" [ref=e1501] [cursor=pointer]:
+            - /url: /us/en/restaurants/modern-french
+          - link "Moroccan" [ref=e1503] [cursor=pointer]:
+            - /url: /us/en/restaurants/moroccan
+        - generic [ref=e1504]:
+          - link "Naengmyeon" [ref=e1506] [cursor=pointer]:
+            - /url: /us/en/restaurants/naengmyeon
+          - link "Nepali" [ref=e1508] [cursor=pointer]:
+            - /url: /us/en/restaurants/nepali
+          - link "Ningbo" [ref=e1510] [cursor=pointer]:
+            - /url: /us/en/restaurants/ningbo
+          - link "Noodles" [ref=e1512] [cursor=pointer]:
+            - /url: /us/en/restaurants/noodles
+        - generic [ref=e1513]:
+          - link "Noodles and Congee" [ref=e1515] [cursor=pointer]:
+            - /url: /us/en/restaurants/noodles-and-congee
+          - link "North African" [ref=e1517] [cursor=pointer]:
+            - /url: /us/en/restaurants/north-african
+          - link "North American" [ref=e1519] [cursor=pointer]:
+            - /url: /us/en/restaurants/north-american
+          - link "Northern Thai" [ref=e1521] [cursor=pointer]:
+            - /url: /us/en/restaurants/northern-thai
+        - generic [ref=e1522]:
+          - link "Norwegian" [ref=e1524] [cursor=pointer]:
+            - /url: /us/en/restaurants/norwegian
+          - link "Obanzai" [ref=e1526] [cursor=pointer]:
+            - /url: /us/en/restaurants/obanzai
+          - link "Oden" [ref=e1528] [cursor=pointer]:
+            - /url: /us/en/restaurants/oden
+          - link "Okonomiyaki" [ref=e1530] [cursor=pointer]:
+            - /url: /us/en/restaurants/okonomiyaki
+        - generic [ref=e1531]:
+          - link "Onigiri" [ref=e1533] [cursor=pointer]:
+            - /url: /us/en/restaurants/onigiri
+          - link "Organic" [ref=e1535] [cursor=pointer]:
+            - /url: /us/en/restaurants/organic
+          - link "Oyster Specialities" [ref=e1537] [cursor=pointer]:
+            - /url: /us/en/restaurants/oyster-specialities
+          - link "Pa Thong Ko" [ref=e1539] [cursor=pointer]:
+            - /url: /us/en/restaurants/pa-thong-ko
+        - generic [ref=e1540]:
+          - link "Pakistani" [ref=e1542] [cursor=pointer]:
+            - /url: /us/en/restaurants/pakistani
+          - link "Peranakan" [ref=e1544] [cursor=pointer]:
+            - /url: /us/en/restaurants/peranakan
+          - link "Persian" [ref=e1546] [cursor=pointer]:
+            - /url: /us/en/restaurants/persian
+          - link "Peruvian" [ref=e1548] [cursor=pointer]:
+            - /url: /us/en/restaurants/peruvian
+        - generic [ref=e1549]:
+          - link "Piedmontese" [ref=e1551] [cursor=pointer]:
+            - /url: /us/en/restaurants/piedmontese
+          - link "Pizza" [ref=e1553] [cursor=pointer]:
+            - /url: /us/en/restaurants/pizza
+          - link "Polish" [ref=e1555] [cursor=pointer]:
+            - /url: /us/en/restaurants/polish
+          - link "Pork" [ref=e1557] [cursor=pointer]:
+            - /url: /us/en/restaurants/pork-specialities
+        - generic [ref=e1558]:
+          - link "Portuguese" [ref=e1560] [cursor=pointer]:
+            - /url: /us/en/restaurants/portuguese
+          - link "Provençal" [ref=e1562] [cursor=pointer]:
+            - /url: /us/en/restaurants/proven%C3%A7al
+          - link "Ramen" [ref=e1564] [cursor=pointer]:
+            - /url: /us/en/restaurants/ramen
+          - link "Regional Cuisine" [ref=e1566] [cursor=pointer]:
+            - /url: /us/en/restaurants/regional-cuisine
+        - generic [ref=e1567]:
+          - link "Regional European" [ref=e1569] [cursor=pointer]:
+            - /url: /us/en/restaurants/regional-european
+          - link "Rice Dishes" [ref=e1571] [cursor=pointer]:
+            - /url: /us/en/restaurants/rice-dishes
+          - link "Roman" [ref=e1573] [cursor=pointer]:
+            - /url: /us/en/restaurants/roman
+    - list [ref=e1575]:
+      - listitem [ref=e1576]:
+        - link "MICHELIN Guide Restaurants" [ref=e1577] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en
+      - listitem [ref=e1578]:
+        - link "Spain" [ref=e1579] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/selection/spain/restaurants
+      - listitem [ref=e1580]:
+        - link "Catalonia" [ref=e1581] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/catalunya/restaurants
+      - listitem [ref=e1582]:
+        - link "Barcelona Restaurants" [ref=e1583] [cursor=pointer]:
+          - /url: https://guide.michelin.com/us/en/catalunya/barcelona/restaurants
+      - listitem [ref=e1584]: All Starred
+  - contentinfo [ref=e1585]:
+    - generic [ref=e1586]:
+      - generic [ref=e1587]:
+        - generic [ref=e1588]:
+          - generic [ref=e1590]:
+            - heading "Be the first to get news and updates about the MICHELIN Guide" [level=4] [ref=e1591]
+            - generic [ref=e1593]:
+              - generic [ref=e1597]:
+                - textbox "Your Email" [ref=e1599]
+                - button "Subscribe" [ref=e1601] [cursor=pointer]
+              - subscript [ref=e1603]:
+                - text: Michelin will process your personal data to manage your subscription, measure the performance of our campaigns and analyze your interactions with our communications. Your data can be shared with other Michelin affiliates (TabletHotels and Robert Parker) in order to know you better and with your consent, to sending you marketing offers. You can manage your communication preferences at any time or unsubscribe using the link included in all our emails. To exercise your privacy rights,
+                - link "contact us" [ref=e1604] [cursor=pointer]:
+                  - /url: /us/en/contact-us
+                - text: . Learn more about how Michelin manages your data
+                - link "here." [ref=e1605] [cursor=pointer]:
+                  - /url: /us/en/privacy-policy
+          - generic [ref=e1607]:
+            - heading "Use the app to find the best restaurants and hotels everywhere" [level=4] [ref=e1608]
+            - link [ref=e1611] [cursor=pointer]:
+              - /url: https://michelinguide.app.link/S5F47i2xsnb
+            - generic [ref=e1614]:
+              - heading "Follow us" [level=4] [ref=e1615]
+              - generic [ref=e1617]:
+                - link "Follow us on Instagram" [ref=e1618] [cursor=pointer]:
+                  - /url: https://www.instagram.com/michelinguide
+                - link "Follow us on Youtube" [ref=e1619] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@TheMICHELINGuide
+                - link "Follow us on Facebook" [ref=e1620] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MichelinGuideNorthAmerica
+                - link "Follow us on Twitter" [ref=e1621] [cursor=pointer]:
+                  - /url: https://twitter.com/MichelinGuideNA
+                - link "Follow us on TikTok" [ref=e1622] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@michelinguide
+        - generic [ref=e1623]:
+          - generic [ref=e1624]:
+            - generic [ref=e1625]:
+              - heading "MICHELIN Guide" [level=4] [ref=e1626]
+              - generic [ref=e1627]:
+                - link "Open About the Guide" [ref=e1628] [cursor=pointer]:
+                  - /url: /us/en/about-us
+                  - text: About the Guide
+                - link "Open Restaurants" [ref=e1629] [cursor=pointer]:
+                  - /url: /us/en/restaurants
+                  - text: Restaurants
+                - link "Open Hotels" [ref=e1630] [cursor=pointer]:
+                  - /url: /us/en/hotels
+                  - text: Hotels
+                - link "Open Partners" [ref=e1631] [cursor=pointer]:
+                  - /url: /us/en/partners
+                  - text: Partners
+                - link "Open Contact Us" [ref=e1632] [cursor=pointer]:
+                  - /url: https://intercom.help/michelin-guide-contact-us/en/
+                  - text: Contact Us
+                - link "Open Leave a review" [ref=e1633] [cursor=pointer]:
+                  - /url: https://intercom.help/michelin-guide-contact-us/en/articles/7232822-how-do-i-give-feedback-or-suggest-an-establishment
+                  - text: Leave a review
+                - link "Open MICHELIN Guide Plus" [ref=e1634] [cursor=pointer]:
+                  - /url: /us/en/member-program/becomeamember
+                  - text: MICHELIN Guide Plus
+            - generic [ref=e1635]:
+              - heading "The Michelin Group" [level=4] [ref=e1636]
+              - generic [ref=e1637]:
+                - link "Open The Michelin Company" [ref=e1638] [cursor=pointer]:
+                  - /url: https://www.michelin.com/eng/
+                  - text: The Michelin Company
+                - link "Open MICHELIN Tires" [ref=e1639] [cursor=pointer]:
+                  - /url: https://www.michelinman.com/US/en/tires.html
+                  - text: MICHELIN Tires
+                - link "Open ViaMichelin" [ref=e1640] [cursor=pointer]:
+                  - /url: https://www.viamichelin.com/
+                  - text: ViaMichelin
+          - generic [ref=e1644]:
+            - heading "MICHELIN Guide selections" [level=4] [ref=e1645]
+            - generic [ref=e1646]:
+              - link "Open Abu Dhabi" [ref=e1647] [cursor=pointer]:
+                - /url: /ae-az/en
+                - text: Abu Dhabi
+              - link "Open Argentina" [ref=e1648] [cursor=pointer]:
+                - /url: /ar/es
+                - text: Argentina
+              - link "Open Austria" [ref=e1649] [cursor=pointer]:
+                - /url: /at/de
+                - text: Austria
+              - link "Open Belgium" [ref=e1650] [cursor=pointer]:
+                - /url: /be/fr
+                - text: Belgium
+              - link "Open Brazil" [ref=e1651] [cursor=pointer]:
+                - /url: /br/pt_BR
+                - text: Brazil
+              - link "Open Canada" [ref=e1652] [cursor=pointer]:
+                - /url: /ca/en
+                - text: Canada
+              - link "Open Chinese Mainland" [ref=e1653] [cursor=pointer]:
+                - /url: /en/cn/restaurants
+                - text: Chinese Mainland
+              - link "Open Croatia" [ref=e1654] [cursor=pointer]:
+                - /url: /hr/en
+                - text: Croatia
+              - link "Open Czech Republic" [ref=e1655] [cursor=pointer]:
+                - /url: /cz/en
+                - text: Czech Republic
+              - link "Open Denmark" [ref=e1656] [cursor=pointer]:
+                - /url: /dk/en
+                - text: Denmark
+              - link "Open Dubai" [ref=e1657] [cursor=pointer]:
+                - /url: /ae-du/en
+                - text: Dubai
+              - link "Open Estonia" [ref=e1658] [cursor=pointer]:
+                - /url: /ee/en
+                - text: Estonia
+              - link "Open Finland" [ref=e1659] [cursor=pointer]:
+                - /url: /fi/en
+                - text: Finland
+              - link "Open France" [ref=e1660] [cursor=pointer]:
+                - /url: /fr/fr
+                - text: France
+              - link "Open Germany" [ref=e1661] [cursor=pointer]:
+                - /url: /de/de
+                - text: Germany
+              - link "Open Greece" [ref=e1662] [cursor=pointer]:
+                - /url: /gr/en
+                - text: Greece
+              - link "Open Hong Kong SAR" [ref=e1663] [cursor=pointer]:
+                - /url: /hk/en
+                - text: Hong Kong SAR
+              - link "Open Hungary" [ref=e1664] [cursor=pointer]:
+                - /url: /hu/en
+                - text: Hungary
+              - link "Open Iceland" [ref=e1665] [cursor=pointer]:
+                - /url: /is/en
+                - text: Iceland
+              - link "Open Italy" [ref=e1666] [cursor=pointer]:
+                - /url: /it/it
+                - text: Italy
+              - link "Open Japan" [ref=e1667] [cursor=pointer]:
+                - /url: /jp/en
+                - text: Japan
+              - link "Open Latvia" [ref=e1668] [cursor=pointer]:
+                - /url: /lv/en
+                - text: Latvia
+              - link "Open Lithuania" [ref=e1669] [cursor=pointer]:
+                - /url: /lt/en
+                - text: Lithuania
+              - link "Open Luxembourg" [ref=e1670] [cursor=pointer]:
+                - /url: /lu/fr
+                - text: Luxembourg
+              - link "Open Macau SAR" [ref=e1671] [cursor=pointer]:
+                - /url: /mo/en
+                - text: Macau SAR
+              - link "Open Malaysia" [ref=e1672] [cursor=pointer]:
+                - /url: /my/en
+                - text: Malaysia
+              - link "Open Malta" [ref=e1673] [cursor=pointer]:
+                - /url: /mt/en
+                - text: Malta
+              - link "Open Mexico" [ref=e1674] [cursor=pointer]:
+                - /url: /mx/es
+                - text: Mexico
+              - link "Open Netherlands" [ref=e1675] [cursor=pointer]:
+                - /url: /nl/nl
+                - text: Netherlands
+              - link "Open Norway" [ref=e1676] [cursor=pointer]:
+                - /url: /no/en
+                - text: Norway
+              - link "Open Poland" [ref=e1677] [cursor=pointer]:
+                - /url: /pl/en
+                - text: Poland
+              - link "Open Portugal" [ref=e1678] [cursor=pointer]:
+                - /url: /pt/pt_PT
+                - text: Portugal
+              - link "Open Qatar" [ref=e1679] [cursor=pointer]:
+                - /url: /qa/en
+                - text: Qatar
+              - link "Open Republic of Ireland" [ref=e1680] [cursor=pointer]:
+                - /url: /ie/en
+                - text: Republic of Ireland
+              - link "Open Saudi Arabia" [ref=e1681] [cursor=pointer]:
+                - /url: /en/food-and-travel-saudi-arabia
+                - text: Saudi Arabia
+              - link "Open Serbia" [ref=e1682] [cursor=pointer]:
+                - /url: /rs/en
+                - text: Serbia
+              - link "Open Singapore" [ref=e1683] [cursor=pointer]:
+                - /url: /sg/en
+                - text: Singapore
+              - link "Open Slovenia" [ref=e1684] [cursor=pointer]:
+                - /url: /si/en
+                - text: Slovenia
+              - link "Open South Korea" [ref=e1685] [cursor=pointer]:
+                - /url: /kr/en
+                - text: South Korea
+              - link "Open Spain" [ref=e1686] [cursor=pointer]:
+                - /url: /es/es
+                - text: Spain
+              - link "Open Sweden" [ref=e1687] [cursor=pointer]:
+                - /url: /se/en
+                - text: Sweden
+              - link "Open Switzerland" [ref=e1688] [cursor=pointer]:
+                - /url: /ch/fr
+                - text: Switzerland
+              - link "Open Taiwan Region" [ref=e1689] [cursor=pointer]:
+                - /url: /tw/en
+                - text: Taiwan Region
+              - link "Open Thailand" [ref=e1690] [cursor=pointer]:
+                - /url: /th/en
+                - text: Thailand
+              - link "Open The Philippines" [ref=e1691] [cursor=pointer]:
+                - /url: /ph/en
+                - text: The Philippines
+              - link "Open Turkey" [ref=e1692] [cursor=pointer]:
+                - /url: /tr/en
+                - text: Turkey
+              - link "Open United Kingdom" [ref=e1693] [cursor=pointer]:
+                - /url: /gb/en
+                - text: United Kingdom
+              - link "Open USA" [ref=e1694] [cursor=pointer]:
+                - /url: /us/en
+                - text: USA
+              - link "Open Vietnam" [ref=e1695] [cursor=pointer]:
+                - /url: /vn/en
+                - text: Vietnam
+      - generic [ref=e1697]:
+        - generic [ref=e1700]: Copyright © 2026 MICHELIN Guide. All rights reserved.
+        - list [ref=e1703]:
+          - listitem [ref=e1704]:
+            - link "Open Terms of Use" [ref=e1705] [cursor=pointer]:
+              - /url: /us/en/terms-of-use
+              - text: Terms of Use
+          - listitem [ref=e1706]:
+            - link "Open Your privacy choices" [ref=e1707] [cursor=pointer]:
+              - /url: javascript:Didomi.preferences.show()
+              - text: Your privacy choices
+          - listitem [ref=e1709]:
+            - link "Open Privacy Policy" [ref=e1710] [cursor=pointer]:
+              - /url: /us/en/privacy-policy
+              - text: Privacy Policy
+          - listitem [ref=e1711]:
+            - link "Open Legal Notice" [ref=e1712] [cursor=pointer]:
+              - /url: /us/en/legal-notice
+              - text: Legal Notice
+          - listitem [ref=e1713]:
+            - link "Open Accessibility Statement" [ref=e1714] [cursor=pointer]:
+              - /url: /us/en/accessibility
+              - text: Accessibility Statement

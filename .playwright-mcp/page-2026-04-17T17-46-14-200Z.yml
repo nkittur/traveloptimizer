@@ -1,0 +1,343 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"Irvine\" \"outdoor\" OR \"patio\" restaurants best site:latimes.com OR site:ocregister.com OR site:eater.com OR site:theinfatuation.com OR site:visitanaheim.org \"Irvine\" \"outdoor\" OR \"patio\" restaurants best site:latimes.com OR site:ocregister.com OR site:eater.com OR site:theinfatuation.com OR site:visitanaheim.org"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522Irvine%2522%2B%2522outdoor%2522%2BOR%2B%2522patio%2522%2Brestaurants%2Bbest%2Bsite%253Alatimes.com%2BOR%2Bsite%253Aocregister.com%2BOR%2Bsite%253Aeater.com%2BOR%2Bsite%253Atheinfatuation.com%2BOR%2Bsite%253Avisitanaheim.org&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&aep=1&ntc=1&sa=X&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ2J8OegQIERAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sa=X&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQs6gLegQIExAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sa=X&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQtKgLegQIFBAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sa=X&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQs6gLegQIFRAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Shopping" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&ved=1t:220175&ictx=111
+              - generic [ref=e103]: Shopping
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyMz4HIhMHTLwRmUvE6Rqhxh8RUhHwXKgwF4hmJEtz3gVFgnhpZdj5zqQWDOjpjLtswmOVzBz3lAEbCBo1sQJkPpR418NnRw1s7Qge-4NHuGTEJfxF7w&q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sa=X&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQtKgLegQIFxAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "7 of the best outdoor dining spots in Orange County with ... Orange County Register https://www.ocregister.com › 2024/06/26 › 7-of-the-be..." [ref=e144] [cursor=pointer]:
+                - /url: https://www.ocregister.com/2024/06/26/7-of-the-best-outdoor-dining-spots-in-orange-county-with-killer-views/
+                - heading "7 of the best outdoor dining spots in Orange County with ..." [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Orange County Register
+                  - generic [ref=e154]: https://www.ocregister.com › 2024/06/26 › 7-of-the-be...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Jun 26, 2024 —
+              - generic [ref=e163]:
+                - text: The
+                - emphasis [ref=e164]: outdoor patio
+                - text: at the Orange Hill ...
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.ocregister.com/2024/06/26/7-of-the-best-outdoor-dining-spots-in-orange-county-with-killer-views/#:~:text=The%20outdoor%20patio%20at%20the,Leonard%20Ortiz%2C%20Orange%20County%20Register%2FSCNG)
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - 'link "20 outdoor patios for date night dining: OC''s Best Places to ... Orange County Register https://www.ocregister.com › 2020/10/12 › ocs-best-pla..." [ref=e174] [cursor=pointer]':
+              - /url: https://www.ocregister.com/2020/10/12/ocs-best-places-to-eat-2020-20-places-to-kickstart-date-night/
+              - 'heading "20 outdoor patios for date night dining: OC''s Best Places to ..." [level=3] [ref=e175]'
+              - generic [ref=e180]:
+                - generic [ref=e182]: Orange County Register
+                - generic [ref=e184]: https://www.ocregister.com › 2020/10/12 › ocs-best-pla...
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]: Oct 12, 2020 —
+            - generic [ref=e193]:
+              - text: Orange County
+              - emphasis [ref=e194]: restaurants
+              - text: are using their
+              - emphasis [ref=e195]: outdoor
+              - text: space. Critic Brad A. Johnson picks 20 places for date night on the
+              - emphasis [ref=e196]: patio
+              - text: .
+            - link "Read more" [ref=e197] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2020/10/12/ocs-best-places-to-eat-2020-20-places-to-kickstart-date-night/#:~:text=One%20of%20the%20positive%20developments,date%20night%20on%20the%20patio.
+        - generic [ref=e201]:
+          - generic [ref=e204]:
+            - link "The 7 best rooftop restaurants in Orange County Orange County Register https://www.ocregister.com › 2025/05/28 › the-7-best-r..." [ref=e206] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/05/28/the-7-best-rooftop-restaurants-in-orange-county/
+              - heading "The 7 best rooftop restaurants in Orange County" [level=3] [ref=e207]
+              - generic [ref=e212]:
+                - generic [ref=e214]: Orange County Register
+                - generic [ref=e216]: https://www.ocregister.com › 2025/05/28 › the-7-best-r...
+            - button "About this result" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+          - generic [ref=e223]:
+            - generic [ref=e224]: May 28, 2025 —
+            - generic [ref=e225]:
+              - text: The view from the rooftop
+              - emphasis [ref=e226]: patio
+              - text: at Rosewood Social in San Juan Capistrano. ... The
+              - emphasis [ref=e227]: outdoor
+              - text: area of
+              - emphasis [ref=e228]: Top
+              - text: of The V Restaurant & Bar sits atop The VIV ...
+            - link "Read more" [ref=e229] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/05/28/the-7-best-rooftop-restaurants-in-orange-county/#:~:text=The%20view%20from%20the%20rooftop,Social%20in%20San%20Juan%20Capistrano.&text=The%20outdoor%20area%20of%20Top,on%20Tuesday%2C%20May%2020%2C%202025.
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "Orange County's 9 most distinctive and unique restaurants Orange County Register https://www.ocregister.com › 2025/10/15 › orange-cou..." [ref=e238] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/10/15/orange-countys-9-most-distinctive-and-unique-restaurants/
+              - heading "Orange County's 9 most distinctive and unique restaurants" [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: Orange County Register
+                - generic [ref=e248]: https://www.ocregister.com › 2025/10/15 › orange-cou...
+            - button "About this result" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e255]:
+            - generic [ref=e256]: Oct 15, 2025 —
+            - generic [ref=e257]:
+              - emphasis [ref=e258]: Irvine
+              - text: · Laguna Beach · Laguna Niguel + Aliso Viejo · Laguna Hills ...
+              - emphasis [ref=e259]: outdoor patio
+              - text: or inside one of the charming rooms. (Photo by Jody ...
+            - link "Read more" [ref=e260] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/10/15/orange-countys-9-most-distinctive-and-unique-restaurants/#:~:text=Things%20To%20Do&text=1%20of%206
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - link "The 38 Best Orange County Restaurants Eater Los Angeles https://la.eater.com › maps › best-essential-restaurants-o..." [ref=e269] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california
+              - heading "The 38 Best Orange County Restaurants" [level=3] [ref=e270]
+              - generic [ref=e275]:
+                - generic [ref=e277]: Eater Los Angeles
+                - generic [ref=e279]: https://la.eater.com › maps › best-essential-restaurants-o...
+            - button "About this result" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - text: ...
+              - emphasis [ref=e288]: outdoor patio
+              - text: "seating to enjoy a leisurely spread. Must-try dish: The ... Nep's second location in"
+              - emphasis [ref=e289]: Irvine
+              - text: opened in the same plaza as Kei Concepts' Sup Noodle Bar ...
+            - link "Read more" [ref=e290] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california#:~:text=The%20small%20restaurant%20gets%20packed,Must%2Dtry%20dish%3A%20The%20falafel%20plate.&text=Nep's%20second%20location%20in%20Irvine,Kei%20Concepts'%20Sup%20Noodle%20Bar.
+        - generic [ref=e294]:
+          - generic [ref=e297]:
+            - link "5 restaurants with great patios Orange County Register https://www.ocregister.com › 2008/08/27 › 5-restaurant..." [ref=e299] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2008/08/27/5-restaurants-with-great-patios/
+              - heading "5 restaurants with great patios" [level=3] [ref=e300]
+              - generic [ref=e305]:
+                - generic [ref=e307]: Orange County Register
+                - generic [ref=e309]: https://www.ocregister.com › 2008/08/27 › 5-restaurant...
+            - button "About this result" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e316]:
+            - generic [ref=e317]: Aug 27, 2008 —
+            - generic [ref=e318]:
+              - text: ...
+              - emphasis [ref=e319]: Irvine
+              - text: . The
+              - emphasis [ref=e320]: patio
+              - text: offers the
+              - emphasis [ref=e321]: best
+              - text: "[ ... INDOORS OR OUT?: Chakra in"
+              - emphasis [ref=e322]: Irvine
+              - text: has two
+              - emphasis [ref=e323]: outdoor
+              - text: patios and a fire pit.
+            - link "Read more" [ref=e324] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2008/08/27/5-restaurants-with-great-patios/#:~:text=1%20of%2025
+        - generic [ref=e328]:
+          - generic [ref=e331]:
+            - link "Where to Eat Around the University of California at Irvine ... Eater Los Angeles https://la.eater.com › maps › best-food-restaurants-uci-u..." [ref=e333] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-food-restaurants-uci-university-of-california-irvine
+              - heading "Where to Eat Around the University of California at Irvine ..." [level=3] [ref=e334]
+              - generic [ref=e339]:
+                - generic [ref=e341]: Eater Los Angeles
+                - generic [ref=e343]: https://la.eater.com › maps › best-food-restaurants-uci-u...
+            - button "About this result" [ref=e344] [cursor=pointer]:
+              - img [ref=e347]
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - text: ...
+              - emphasis [ref=e352]: outdoor patio
+              - text: – made complete with classy decor. Among the menu's many ... Hen House Grill is one of the most long-standing
+              - emphasis [ref=e353]: restaurants
+              - text: in the
+              - emphasis [ref=e354]: Irvine
+              - text: area.
+            - link "Read more" [ref=e355] [cursor=pointer]:
+              - /url: https://la.eater.com/maps/best-food-restaurants-uci-university-of-california-irvine#:~:text=outdoor%20patio%20%E2%80%93%20made%20complete,are%20the%20most%20beloved%20entrees.&text=Hen%20House%20Grill%20is%20one,restaurants%20in%20the%20Irvine%20area.
+        - generic [ref=e359]:
+          - generic [ref=e362]:
+            - 'link "Best of Orange County 2023: Best outdoor dining Orange County Register https://www.ocregister.com › 2023/09/21 › best-of-ora..." [ref=e364] [cursor=pointer]':
+              - /url: https://www.ocregister.com/2023/09/21/best-of-orange-county-2023-best-outdoor-dining/
+              - 'heading "Best of Orange County 2023: Best outdoor dining" [level=3] [ref=e365]'
+              - generic [ref=e370]:
+                - generic [ref=e372]: Orange County Register
+                - generic [ref=e374]: https://www.ocregister.com › 2023/09/21 › best-of-ora...
+            - button "About this result" [ref=e375] [cursor=pointer]:
+              - img [ref=e378]
+          - generic [ref=e381]:
+            - generic [ref=e382]: Sep 21, 2023 —
+            - generic [ref=e383]:
+              - emphasis [ref=e384]: Irvine
+              - text: · Laguna Beach · Laguna Niguel + Aliso Viejo · Laguna Hills · Ladera ... “I believe the keys to our success lie in our unique
+              - emphasis [ref=e385]: outdoor patio
+              - text: ...
+            - link "Read more" [ref=e386] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2023/09/21/best-of-orange-county-2023-best-outdoor-dining/#:~:text=Things%20To%20Do&text=%E2%80%9CI%20believe%20the%20keys%20to,in%20our%20unique%20outdoor%20patio
+        - generic [ref=e390]:
+          - generic [ref=e393]:
+            - 'link "Take it outside: Here are our favorite places for al fresco ... Orange County Register https://www.ocregister.com › 2015/06/18 › take-it-outsi..." [ref=e395] [cursor=pointer]':
+              - /url: https://www.ocregister.com/2015/06/18/take-it-outside-here-are-our-favorite-places-for-al-fresco-dining-in-orange-county/
+              - 'heading "Take it outside: Here are our favorite places for al fresco ..." [level=3] [ref=e396]'
+              - generic [ref=e401]:
+                - generic [ref=e403]: Orange County Register
+                - generic [ref=e405]: https://www.ocregister.com › 2015/06/18 › take-it-outsi...
+            - button "About this result" [ref=e406] [cursor=pointer]:
+              - img [ref=e409]
+          - generic [ref=e412]:
+            - generic [ref=e413]: Jun 18, 2015 —
+            - generic [ref=e414]:
+              - text: A new location with
+              - emphasis [ref=e415]: patio
+              - text: is coming this fall to the
+              - emphasis [ref=e416]: Irvine
+              - text: Spectrum. ... This is one of those fancy
+              - emphasis [ref=e417]: restaurants
+              - text: where the
+              - emphasis [ref=e418]: outdoor
+              - text: furniture is ...
+            - link "Read more" [ref=e419] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2015/06/18/take-it-outside-here-are-our-favorite-places-for-al-fresco-dining-in-orange-county/#:~:text=A%20new%20location%20with%20patio,fall%20to%20the%20Irvine%20Spectrum.&text=This%20is%20one%20of%20those,is%20just%20as%20comfortable%2C%20if
+        - generic [ref=e423]:
+          - generic [ref=e426]:
+            - link "Mastro's Ocean Club opens new Irvine location Orange County Register https://www.ocregister.com › 2025/09/26 › mastros-oce..." [ref=e428] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/09/26/mastros-ocean-club-opens-new-irvine-location/
+              - heading "Mastro's Ocean Club opens new Irvine location" [level=3] [ref=e429]
+              - generic [ref=e434]:
+                - generic [ref=e436]: Orange County Register
+                - generic [ref=e438]: https://www.ocregister.com › 2025/09/26 › mastros-oce...
+            - button "About this result" [ref=e439] [cursor=pointer]:
+              - img [ref=e442]
+          - generic [ref=e445]:
+            - generic [ref=e446]: Sep 26, 2025 —
+            - generic [ref=e447]:
+              - text: The layout features two
+              - emphasis [ref=e448]: outdoor
+              - text: patios, private event spaces, a spacious main dining room with a dedicated bar. Natrually, there are steaks ...
+            - link "Read more" [ref=e449] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/09/26/mastros-ocean-club-opens-new-irvine-location/#:~:text=The%20layout%20features%20two%20outdoor,its%20name%20promises%2C%20seafood%20aplenty.
+      - navigation [ref=e452]:
+        - heading "Page Navigation" [level=1] [ref=e453]
+        - text: "1"
+        - link "Page 2" [ref=e456] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=10&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAE
+          - text: "2"
+        - link "Page 3" [ref=e458] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=20&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAG
+          - text: "3"
+        - link "Page 4" [ref=e460] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=30&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAI
+          - text: "4"
+        - link "Page 5" [ref=e462] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=40&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAK
+          - text: "5"
+        - link "Page 6" [ref=e464] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=50&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAM
+          - text: "6"
+        - link "Page 7" [ref=e466] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=60&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAO
+          - text: "7"
+        - link "Page 8" [ref=e468] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=70&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAQ
+          - text: "8"
+        - link "Page 9" [ref=e470] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=80&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAS
+          - text: "9"
+        - link "Page 10" [ref=e472] [cursor=pointer]:
+          - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=90&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8tMDegQIKxAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e474]:
+          - link "Next" [ref=e475] [cursor=pointer]:
+            - /url: /search?q=%22Irvine%22+%22outdoor%22+OR+%22patio%22+restaurants+best+site:latimes.com+OR+site:ocregister.com+OR+site:eater.com+OR+site:theinfatuation.com+OR+site:visitanaheim.org&sca_esv=c0c8628026d5a19e&ei=5XHiabq6Gd_QkPIPjJe1wQs&start=10&sa=N&sstk=Af77f_e2RH3L8mDZcFLueBg9wWih1mkgP6he-con3kWV--_v5Yi23TBJGReUkc4rc8QzTBuvx6dekkCINQxtj1pgDBcBWMZxAk5EnQ&ved=2ahUKEwj6wKuzuPWTAxVfKEQIHYxLLbgQ8NMDegQIKxAW
+            - generic [ref=e477]: Next
+      - navigation
+    - contentinfo [ref=e478]:
+      - heading "Footer Links" [level=1] [ref=e479]
+      - generic [ref=e483]:
+        - generic [ref=e487]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e489] [cursor=pointer]:
+            - generic [ref=e490]: 92620, Irvine, CA
+            - generic [ref=e492]:
+              - text: "-"
+              - generic [ref=e493]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e495] [cursor=pointer]: Update location
+        - generic [ref=e498]:
+          - link "Help" [ref=e499] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e500] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e501] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e502] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,858 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? San Diego SAN" [ref=e177]: San Diego
+                - generic [ref=e179]: San Diego SAN
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 14 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 345 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $345
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 345 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 4:40 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:20 PM on Saturday, August 8. Total duration 6 hr 40 min. Layover (1 of 1) is a 1 hr layover at Chicago Midway International Airport in Chicago. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 4:40 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:20 PM on Saturday, August 8." [ref=e411]:
+                            - 'generic "Departure time: 4:40 PM." [ref=e414]': 4:40 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:20 PM." [ref=e417]': 8:20 PM
+                          - generic [ref=e418]: Southwest
+                        - generic [ref=e419]:
+                          - generic "Total duration 6 hr 40 min." [ref=e420]: 6 hr 40 min
+                          - generic [ref=e421]:
+                            - generic [ref=e424]: PIT
+                            - text: –
+                            - generic [ref=e427]: SAN
+                        - generic [ref=e428]:
+                          - generic "1 stop flight." [ref=e430]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr layover at Chicago Midway International Airport in Chicago." [ref=e431]:
+                            - text: 1 hr
+                            - generic [ref=e433]: MDW
+                        - generic [ref=e435]:
+                          - generic [ref=e437]: 267 kg CO2e
+                          - generic [ref=e438]:
+                            - generic [ref=e439]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 267 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e440]':
+                              - img [ref=e441]
+                        - generic [ref=e443]:
+                          - generic [ref=e444]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e448]:
+                              - generic [ref=e449]:
+                                - generic [ref=e450]:
+                                  - text: "1"
+                                  - img [ref=e451]
+                                - generic [ref=e454]:
+                                  - text: "0"
+                                  - img [ref=e455]
+                            - generic [ref=e458]: $345
+                          - generic [ref=e459]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:40 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:20 PM on Saturday, August 8." [ref=e462]:
+                      - img [ref=e465]
+                - listitem [ref=e467]:
+                  - generic [ref=e468]:
+                    - link "From 345 US dollars round trip total. 1 stop flight with United. Leaves Pittsburgh International Airport at 5:02 PM on Saturday, August 8 and arrives at San Diego International Airport at 9:24 PM on Saturday, August 8. Total duration 7 hr 22 min. Layover (1 of 1) is a 58 min layover at George Bush Intercontinental Airport in Houston. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e470] [cursor=pointer]:
+                      - generic [ref=e472]:
+                        - generic [ref=e474]:
+                          - generic "Leaves Pittsburgh International Airport at 5:02 PM on Saturday, August 8 and arrives at San Diego International Airport at 9:24 PM on Saturday, August 8." [ref=e476]:
+                            - 'generic "Departure time: 5:02 PM." [ref=e479]': 5:02 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:24 PM." [ref=e482]': 9:24 PM
+                          - generic [ref=e483]: United
+                        - generic [ref=e484]:
+                          - generic "Total duration 7 hr 22 min." [ref=e485]: 7 hr 22 min
+                          - generic [ref=e486]:
+                            - generic [ref=e489]: PIT
+                            - text: –
+                            - generic [ref=e492]: SAN
+                        - generic [ref=e493]:
+                          - generic "1 stop flight." [ref=e495]: 1 stop
+                          - generic "Layover (1 of 1) is a 58 min layover at George Bush Intercontinental Airport in Houston." [ref=e496]:
+                            - text: 58 min
+                            - generic [ref=e498]: IAH
+                        - generic [ref=e500]:
+                          - generic [ref=e502]: 336 kg CO2e
+                          - generic [ref=e503]:
+                            - generic [ref=e504]: +14% emissions
+                            - 'button "Carbon emissions estimate: 336 kilograms. +14% emissions. Learn more about this emissions estimate" [ref=e505]':
+                              - img [ref=e506]
+                        - generic [ref=e508]:
+                          - generic [ref=e509]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e513]:
+                              - generic [ref=e514]:
+                                - generic [ref=e515]:
+                                  - text: "0"
+                                  - img [ref=e516]
+                                - generic [ref=e519]:
+                                  - text: "0"
+                                  - img [ref=e520]
+                            - generic [ref=e523]: $345
+                          - generic [ref=e524]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:02 PM on Saturday, August 8 and arrives at San Diego International Airport at 9:24 PM on Saturday, August 8." [ref=e527]:
+                      - img [ref=e530]
+                - listitem [ref=e532]:
+                  - generic [ref=e533]:
+                    - link "From 357 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:19 AM on Saturday, August 8. Total duration 7 hr 19 min. Layover (1 of 1) is a 1 hr 14 min layover at Dallas Fort Worth International Airport in Dallas. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e535] [cursor=pointer]:
+                      - generic [ref=e537]:
+                        - generic [ref=e539]:
+                          - generic "Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:19 AM on Saturday, August 8." [ref=e541]:
+                            - 'generic "Departure time: 6:00 AM." [ref=e544]': 6:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:19 AM." [ref=e547]': 10:19 AM
+                          - generic [ref=e548]: American
+                        - generic [ref=e549]:
+                          - generic "Total duration 7 hr 19 min." [ref=e550]: 7 hr 19 min
+                          - generic [ref=e551]:
+                            - generic [ref=e554]: PIT
+                            - text: –
+                            - generic [ref=e557]: SAN
+                        - generic [ref=e558]:
+                          - generic "1 stop flight." [ref=e560]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 14 min layover at Dallas Fort Worth International Airport in Dallas." [ref=e561]:
+                            - text: 1 hr 14 min
+                            - generic [ref=e563]: DFW
+                        - generic [ref=e565]:
+                          - generic [ref=e567]: 328 kg CO2e
+                          - generic [ref=e568]:
+                            - generic [ref=e569]: +11% emissions
+                            - 'button "Carbon emissions estimate: 328 kilograms. +11% emissions. Learn more about this emissions estimate" [ref=e570]':
+                              - img [ref=e571]
+                        - generic [ref=e573]:
+                          - generic [ref=e574]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e578]:
+                              - generic [ref=e579]:
+                                - generic [ref=e580]:
+                                  - text: "1"
+                                  - img [ref=e581]
+                                - generic [ref=e584]:
+                                  - text: "0"
+                                  - img [ref=e585]
+                            - generic [ref=e588]: $357
+                          - generic [ref=e589]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:19 AM on Saturday, August 8." [ref=e592]:
+                      - img [ref=e595]
+                - listitem [ref=e597]:
+                  - generic [ref=e598]:
+                    - link "From 361 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 6:20 AM on Saturday, August 8 and arrives at San Diego International Airport at 9:50 AM on Saturday, August 8. Total duration 6 hr 30 min. Layover (1 of 1) is a 45 min layover at Nashville International Airport in Nashville. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e600] [cursor=pointer]:
+                      - generic [ref=e602]:
+                        - generic [ref=e604]:
+                          - generic "Leaves Pittsburgh International Airport at 6:20 AM on Saturday, August 8 and arrives at San Diego International Airport at 9:50 AM on Saturday, August 8." [ref=e606]:
+                            - 'generic "Departure time: 6:20 AM." [ref=e609]': 6:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:50 AM." [ref=e612]': 9:50 AM
+                          - generic [ref=e613]: Southwest
+                        - generic [ref=e614]:
+                          - generic "Total duration 6 hr 30 min." [ref=e615]: 6 hr 30 min
+                          - generic [ref=e616]:
+                            - generic [ref=e619]: PIT
+                            - text: –
+                            - generic [ref=e622]: SAN
+                        - generic [ref=e623]:
+                          - generic "1 stop flight." [ref=e625]: 1 stop
+                          - generic "Layover (1 of 1) is a 45 min layover at Nashville International Airport in Nashville." [ref=e626]:
+                            - text: 45 min
+                            - generic [ref=e628]: BNA
+                        - generic [ref=e630]:
+                          - generic [ref=e632]: 283 kg CO2e
+                          - generic [ref=e633]:
+                            - generic [ref=e634]: Avg emissions
+                            - 'button "Carbon emissions estimate: 283 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e635]':
+                              - img [ref=e636]
+                        - generic [ref=e638]:
+                          - generic [ref=e639]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e643]:
+                              - generic [ref=e644]:
+                                - generic [ref=e645]:
+                                  - text: "1"
+                                  - img [ref=e646]
+                                - generic [ref=e649]:
+                                  - text: "0"
+                                  - img [ref=e650]
+                            - generic [ref=e653]: $361
+                          - generic [ref=e654]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:20 AM on Saturday, August 8 and arrives at San Diego International Airport at 9:50 AM on Saturday, August 8." [ref=e657]:
+                      - img [ref=e660]
+            - generic [ref=e666]:
+              - heading "Price insights" [level=3] [ref=e667]
+              - generic [ref=e668] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e673]
+                - generic [ref=e675]: View price history
+                - button "View price history" [ref=e677]:
+                  - img [ref=e680]
+            - region "Find the best price" [ref=e682]:
+              - generic [ref=e685]:
+                - img [ref=e686]
+                - heading "Track prices" [level=2] [ref=e688]
+                - button "Learn more about tracked prices" [ref=e692] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e693]:
+                    - img [ref=e694]
+                - generic [ref=e696]: Track prices from Pittsburgh to San Diego departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e697]:
+                  - generic [ref=e699] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to San Diego departing 2026-08-08 and returning 2026-08-15" [ref=e702] [cursor=pointer]:
+                    - generic [ref=e707]:
+                      - img [ref=e708]
+                      - img [ref=e710]
+                - generic [ref=e713]: Track prices from Pittsburgh to San Diego - Any dates
+                - generic [ref=e715]:
+                  - generic [ref=e716] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to San Diego - Any dates" [ref=e719] [cursor=pointer]:
+                    - generic [ref=e724]:
+                      - img [ref=e725]
+                      - img [ref=e727]
+              - generic [ref=e732]:
+                - button "Date grid" [ref=e734]:
+                  - img [ref=e736]
+                  - generic [ref=e743]: Date grid
+                - button "Price graph" [ref=e745]:
+                  - img [ref=e747]
+                  - generic [ref=e757]: Price graph
+            - generic [ref=e758]:
+              - heading "Other departing flights" [level=3] [ref=e759]
+              - list [ref=e760]:
+                - listitem [ref=e761]:
+                  - generic [ref=e762]:
+                    - link "From 345 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 3:20 PM on Saturday, August 8 and arrives at San Diego International Airport at 7:50 PM on Saturday, August 8. Total duration 7 hr 30 min. Layover (1 of 1) is a 1 hr 35 min layover at Denver International Airport in Denver. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e764] [cursor=pointer]:
+                      - generic [ref=e766]:
+                        - generic [ref=e768]:
+                          - generic "Leaves Pittsburgh International Airport at 3:20 PM on Saturday, August 8 and arrives at San Diego International Airport at 7:50 PM on Saturday, August 8." [ref=e770]:
+                            - 'generic "Departure time: 3:20 PM." [ref=e773]': 3:20 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:50 PM." [ref=e776]': 7:50 PM
+                          - generic [ref=e777]: Southwest
+                        - generic [ref=e778]:
+                          - generic "Total duration 7 hr 30 min." [ref=e779]: 7 hr 30 min
+                          - generic [ref=e780]:
+                            - generic [ref=e783]: PIT
+                            - text: –
+                            - generic [ref=e786]: SAN
+                        - generic [ref=e787]:
+                          - generic "1 stop flight." [ref=e789]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 35 min layover at Denver International Airport in Denver." [ref=e790]:
+                            - text: 1 hr 35 min
+                            - generic [ref=e792]: DEN
+                        - generic [ref=e794]:
+                          - generic [ref=e796]: 265 kg CO2e
+                          - generic [ref=e797]:
+                            - generic [ref=e798]: "-10% emissions"
+                            - 'button "Carbon emissions estimate: 265 kilograms. -10% emissions. Learn more about this emissions estimate" [ref=e799]':
+                              - img [ref=e800]
+                        - generic [ref=e802]:
+                          - generic [ref=e803]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e807]:
+                              - generic [ref=e808]:
+                                - generic [ref=e809]:
+                                  - text: "1"
+                                  - img [ref=e810]
+                                - generic [ref=e813]:
+                                  - text: "0"
+                                  - img [ref=e814]
+                            - generic [ref=e817]: $345
+                          - generic [ref=e818]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:20 PM on Saturday, August 8 and arrives at San Diego International Airport at 7:50 PM on Saturday, August 8." [ref=e821]:
+                      - img [ref=e824]
+                - listitem [ref=e826]:
+                  - generic [ref=e827]:
+                    - link "From 385 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 5:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 8:53 AM on Saturday, August 8. Total duration 6 hr 53 min. Layover (1 of 1) is a 33 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e829] [cursor=pointer]:
+                      - generic [ref=e831]:
+                        - generic [ref=e833]:
+                          - generic "Leaves Pittsburgh International Airport at 5:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 8:53 AM on Saturday, August 8." [ref=e835]:
+                            - 'generic "Departure time: 5:00 AM." [ref=e838]': 5:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:53 AM." [ref=e841]': 8:53 AM
+                          - generic [ref=e842]: American
+                        - generic [ref=e843]:
+                          - generic "Total duration 6 hr 53 min." [ref=e844]: 6 hr 53 min
+                          - generic [ref=e845]:
+                            - generic [ref=e848]: PIT
+                            - text: –
+                            - generic [ref=e851]: SAN
+                        - generic [ref=e852]:
+                          - generic "1 stop flight." [ref=e854]: 1 stop
+                          - generic "Layover (1 of 1) is a 33 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e855]:
+                            - text: 33 min
+                            - generic [ref=e857]: CLT
+                        - generic [ref=e859]:
+                          - generic [ref=e861]: 376 kg CO2e
+                          - generic [ref=e862]:
+                            - generic [ref=e863]: +27% emissions
+                            - 'button "Carbon emissions estimate: 376 kilograms. +27% emissions. Learn more about this emissions estimate" [ref=e864]':
+                              - img [ref=e865]
+                        - generic [ref=e867]:
+                          - generic [ref=e868]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e872]:
+                              - generic [ref=e873]:
+                                - generic [ref=e874]:
+                                  - text: "1"
+                                  - img [ref=e875]
+                                - generic [ref=e878]:
+                                  - text: "0"
+                                  - img [ref=e879]
+                            - generic [ref=e882]: $385
+                          - generic [ref=e883]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 8:53 AM on Saturday, August 8." [ref=e886]:
+                      - img [ref=e889]
+                - listitem [ref=e891]:
+                  - generic [ref=e892]:
+                    - link "From 402 US dollars round trip total. 1 stop flight with Delta. Leaves Pittsburgh International Airport at 6:13 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:57 PM on Saturday, August 8. Total duration 7 hr 44 min. Layover (1 of 1) is a 1 hr 23 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e894] [cursor=pointer]:
+                      - generic [ref=e896]:
+                        - generic [ref=e898]:
+                          - generic "Leaves Pittsburgh International Airport at 6:13 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:57 PM on Saturday, August 8." [ref=e900]:
+                            - 'generic "Departure time: 6:13 PM." [ref=e903]': 6:13 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:57 PM." [ref=e906]': 10:57 PM
+                          - generic [ref=e907]: Delta
+                        - generic [ref=e908]:
+                          - generic "Total duration 7 hr 44 min." [ref=e909]: 7 hr 44 min
+                          - generic [ref=e910]:
+                            - generic [ref=e913]: PIT
+                            - text: –
+                            - generic [ref=e916]: SAN
+                        - generic [ref=e917]:
+                          - generic "1 stop flight." [ref=e919]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 23 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta." [ref=e920]:
+                            - text: 1 hr 23 min
+                            - generic [ref=e922]: ATL
+                        - generic [ref=e924]:
+                          - generic [ref=e926]: 349 kg CO2e
+                          - generic [ref=e927]:
+                            - generic [ref=e928]: +18% emissions
+                            - 'button "Carbon emissions estimate: 349 kilograms. +18% emissions. Learn more about this emissions estimate" [ref=e929]':
+                              - img [ref=e930]
+                        - generic [ref=e932]:
+                          - generic [ref=e933]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e937]:
+                              - generic [ref=e938]:
+                                - generic [ref=e939]:
+                                  - text: "1"
+                                  - img [ref=e940]
+                                - generic [ref=e943]:
+                                  - text: "0"
+                                  - img [ref=e944]
+                            - generic [ref=e947]: $402
+                          - generic [ref=e948]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:13 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:57 PM on Saturday, August 8." [ref=e951]:
+                      - img [ref=e954]
+                - listitem [ref=e956]:
+                  - generic [ref=e957]:
+                    - link "From 420 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 8:40 AM on Saturday, August 8 and arrives at San Diego International Airport at 12:10 PM on Saturday, August 8. Total duration 6 hr 30 min. Layover (1 of 1) is a 1 hr layover at Chicago Midway International Airport in Chicago. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e959] [cursor=pointer]:
+                      - generic [ref=e961]:
+                        - generic [ref=e963]:
+                          - generic "Leaves Pittsburgh International Airport at 8:40 AM on Saturday, August 8 and arrives at San Diego International Airport at 12:10 PM on Saturday, August 8." [ref=e965]:
+                            - 'generic "Departure time: 8:40 AM." [ref=e968]': 8:40 AM
+                            - text: –
+                            - 'generic "Arrival time: 12:10 PM." [ref=e971]': 12:10 PM
+                          - generic [ref=e972]: Southwest
+                        - generic [ref=e973]:
+                          - generic "Total duration 6 hr 30 min." [ref=e974]: 6 hr 30 min
+                          - generic [ref=e975]:
+                            - generic [ref=e978]: PIT
+                            - text: –
+                            - generic [ref=e981]: SAN
+                        - generic [ref=e982]:
+                          - generic "1 stop flight." [ref=e984]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr layover at Chicago Midway International Airport in Chicago." [ref=e985]:
+                            - text: 1 hr
+                            - generic [ref=e987]: MDW
+                        - generic [ref=e989]:
+                          - generic [ref=e991]: 292 kg CO2e
+                          - generic [ref=e992]:
+                            - generic [ref=e993]: Avg emissions
+                            - 'button "Carbon emissions estimate: 292 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e994]':
+                              - img [ref=e995]
+                        - generic [ref=e997]:
+                          - generic [ref=e998]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1002]:
+                              - generic [ref=e1003]:
+                                - generic [ref=e1004]:
+                                  - text: "1"
+                                  - img [ref=e1005]
+                                - generic [ref=e1008]:
+                                  - text: "0"
+                                  - img [ref=e1009]
+                            - generic [ref=e1012]: $420
+                          - generic [ref=e1013]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:40 AM on Saturday, August 8 and arrives at San Diego International Airport at 12:10 PM on Saturday, August 8." [ref=e1016]:
+                      - img [ref=e1019]
+                - listitem [ref=e1021]:
+                  - generic [ref=e1022]:
+                    - link "From 431 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:40 AM on Saturday, August 8. Total duration 6 hr 40 min. Layover (1 of 1) is a 50 min layover at Harry Reid International Airport in Las Vegas. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1024] [cursor=pointer]:
+                      - generic [ref=e1026]:
+                        - generic [ref=e1028]:
+                          - generic "Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:40 AM on Saturday, August 8." [ref=e1030]:
+                            - 'generic "Departure time: 7:00 AM." [ref=e1033]': 7:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:40 AM." [ref=e1036]': 10:40 AM
+                          - generic [ref=e1037]: Southwest
+                        - generic [ref=e1038]:
+                          - generic "Total duration 6 hr 40 min." [ref=e1039]: 6 hr 40 min
+                          - generic [ref=e1040]:
+                            - generic [ref=e1043]: PIT
+                            - text: –
+                            - generic [ref=e1046]: SAN
+                        - generic [ref=e1047]:
+                          - generic "1 stop flight." [ref=e1049]: 1 stop
+                          - generic "Layover (1 of 1) is a 50 min layover at Harry Reid International Airport in Las Vegas." [ref=e1050]:
+                            - text: 50 min
+                            - generic [ref=e1052]: LAS
+                        - generic [ref=e1054]:
+                          - generic [ref=e1056]: 276 kg CO2e
+                          - generic [ref=e1057]:
+                            - generic [ref=e1058]: "-6% emissions"
+                            - 'button "Carbon emissions estimate: 276 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1059]':
+                              - img [ref=e1060]
+                        - generic [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1067]:
+                              - generic [ref=e1068]:
+                                - generic [ref=e1069]:
+                                  - text: "1"
+                                  - img [ref=e1070]
+                                - generic [ref=e1073]:
+                                  - text: "0"
+                                  - img [ref=e1074]
+                            - generic [ref=e1077]: $431
+                          - generic [ref=e1078]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 10:40 AM on Saturday, August 8." [ref=e1081]:
+                      - img [ref=e1084]
+                - listitem [ref=e1086]:
+                  - generic [ref=e1087]:
+                    - link "From 447 US dollars round trip total. 1 stop flight with United. Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 11:21 AM on Saturday, August 8. Total duration 7 hr 21 min. Layover (1 of 1) is a 58 min layover at Chicago O'Hare International Airport in Chicago. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e1089] [cursor=pointer]:
+                      - generic [ref=e1091]:
+                        - generic [ref=e1093]:
+                          - generic "Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 11:21 AM on Saturday, August 8." [ref=e1095]:
+                            - 'generic "Departure time: 7:00 AM." [ref=e1098]': 7:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 11:21 AM." [ref=e1101]': 11:21 AM
+                          - generic [ref=e1102]: United
+                        - generic [ref=e1103]:
+                          - generic "Total duration 7 hr 21 min." [ref=e1104]: 7 hr 21 min
+                          - generic [ref=e1105]:
+                            - generic [ref=e1108]: PIT
+                            - text: –
+                            - generic [ref=e1111]: SAN
+                        - generic [ref=e1112]:
+                          - generic "1 stop flight." [ref=e1114]: 1 stop
+                          - generic "Layover (1 of 1) is a 58 min layover at Chicago O'Hare International Airport in Chicago." [ref=e1115]:
+                            - text: 58 min
+                            - generic [ref=e1117]: ORD
+                        - generic [ref=e1119]:
+                          - generic [ref=e1121]: 280 kg CO2e
+                          - generic [ref=e1122]:
+                            - generic [ref=e1123]: Avg emissions
+                            - 'button "Carbon emissions estimate: 280 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1124]':
+                              - img [ref=e1125]
+                        - generic [ref=e1127]:
+                          - generic [ref=e1128]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e1132]:
+                              - generic [ref=e1133]:
+                                - generic [ref=e1134]:
+                                  - text: "0"
+                                  - img [ref=e1135]
+                                - generic [ref=e1138]:
+                                  - text: "0"
+                                  - img [ref=e1139]
+                            - generic [ref=e1142]: $447
+                          - generic [ref=e1143]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:00 AM on Saturday, August 8 and arrives at San Diego International Airport at 11:21 AM on Saturday, August 8." [ref=e1146]:
+                      - img [ref=e1149]
+                - listitem [ref=e1151]:
+                  - generic [ref=e1152]:
+                    - link "From 447 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 10:45 AM on Saturday, August 8 and arrives at San Diego International Airport at 2:05 PM on Saturday, August 8. Total duration 6 hr 20 min. Layover (1 of 1) is a 50 min layover at Denver International Airport in Denver. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1154] [cursor=pointer]:
+                      - generic [ref=e1156]:
+                        - generic [ref=e1158]:
+                          - generic "Leaves Pittsburgh International Airport at 10:45 AM on Saturday, August 8 and arrives at San Diego International Airport at 2:05 PM on Saturday, August 8." [ref=e1160]:
+                            - 'generic "Departure time: 10:45 AM." [ref=e1163]': 10:45 AM
+                            - text: –
+                            - 'generic "Arrival time: 2:05 PM." [ref=e1166]': 2:05 PM
+                          - generic [ref=e1167]: Southwest
+                        - generic [ref=e1168]:
+                          - generic "Total duration 6 hr 20 min." [ref=e1169]: 6 hr 20 min
+                          - generic [ref=e1170]:
+                            - generic [ref=e1173]: PIT
+                            - text: –
+                            - generic [ref=e1176]: SAN
+                        - generic [ref=e1177]:
+                          - generic "1 stop flight." [ref=e1179]: 1 stop
+                          - generic "Layover (1 of 1) is a 50 min layover at Denver International Airport in Denver." [ref=e1180]:
+                            - text: 50 min
+                            - generic [ref=e1182]: DEN
+                        - generic [ref=e1184]:
+                          - generic [ref=e1186]: 265 kg CO2e
+                          - generic [ref=e1187]:
+                            - generic [ref=e1188]: "-10% emissions"
+                            - 'button "Carbon emissions estimate: 265 kilograms. -10% emissions. Learn more about this emissions estimate" [ref=e1189]':
+                              - img [ref=e1190]
+                        - generic [ref=e1192]:
+                          - generic [ref=e1193]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1197]:
+                              - generic [ref=e1198]:
+                                - generic [ref=e1199]:
+                                  - text: "1"
+                                  - img [ref=e1200]
+                                - generic [ref=e1203]:
+                                  - text: "0"
+                                  - img [ref=e1204]
+                            - generic [ref=e1207]: $447
+                          - generic [ref=e1208]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:45 AM on Saturday, August 8 and arrives at San Diego International Airport at 2:05 PM on Saturday, August 8." [ref=e1211]:
+                      - img [ref=e1214]
+                - listitem [ref=e1216]:
+                  - generic [ref=e1217]:
+                    - link "From 447 US dollars round trip total. 1 stop flight with United. Leaves Pittsburgh International Airport at 4:25 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:46 PM on Saturday, August 8. Total duration 7 hr 21 min. Layover (1 of 1) is a 1 hr 25 min layover at Denver International Airport in Denver. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e1219] [cursor=pointer]:
+                      - generic [ref=e1221]:
+                        - generic [ref=e1223]:
+                          - generic "Leaves Pittsburgh International Airport at 4:25 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:46 PM on Saturday, August 8." [ref=e1225]:
+                            - 'generic "Departure time: 4:25 PM." [ref=e1228]': 4:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:46 PM." [ref=e1231]': 8:46 PM
+                          - generic [ref=e1232]: United
+                        - generic [ref=e1233]:
+                          - generic "Total duration 7 hr 21 min." [ref=e1234]: 7 hr 21 min
+                          - generic [ref=e1235]:
+                            - generic [ref=e1238]: PIT
+                            - text: –
+                            - generic [ref=e1241]: SAN
+                        - generic [ref=e1242]:
+                          - generic "1 stop flight." [ref=e1244]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 25 min layover at Denver International Airport in Denver." [ref=e1245]:
+                            - text: 1 hr 25 min
+                            - generic [ref=e1247]: DEN
+                        - generic [ref=e1249]:
+                          - generic [ref=e1251]: 277 kg CO2e
+                          - generic [ref=e1252]:
+                            - generic [ref=e1253]: "-6% emissions"
+                            - 'button "Carbon emissions estimate: 277 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1254]':
+                              - img [ref=e1255]
+                        - generic [ref=e1257]:
+                          - generic [ref=e1258]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e1262]:
+                              - generic [ref=e1263]:
+                                - generic [ref=e1264]:
+                                  - text: "0"
+                                  - img [ref=e1265]
+                                - generic [ref=e1268]:
+                                  - text: "0"
+                                  - img [ref=e1269]
+                            - generic [ref=e1272]: $447
+                          - generic [ref=e1273]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:25 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:46 PM on Saturday, August 8." [ref=e1276]:
+                      - img [ref=e1279]
+                - listitem [ref=e1281]:
+                  - generic [ref=e1282]:
+                    - link "From 455 US dollars round trip total. 1 stop flight with American and Alaska. Operated by American Airlines. Leaves Pittsburgh International Airport at 4:00 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:29 PM on Saturday, August 8. Total duration 7 hr 29 min. Layover (1 of 1) is a 1 hr 6 min layover at Chicago O'Hare International Airport in Chicago. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1284] [cursor=pointer]:
+                      - generic [ref=e1286]:
+                        - generic [ref=e1288]:
+                          - generic "Leaves Pittsburgh International Airport at 4:00 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:29 PM on Saturday, August 8." [ref=e1290]:
+                            - 'generic "Departure time: 4:00 PM." [ref=e1293]': 4:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:29 PM." [ref=e1296]': 8:29 PM
+                          - generic [ref=e1297]:
+                            - text: American, Alaska
+                            - generic [ref=e1298]: ·
+                            - text: Operated by American Airlines
+                        - generic [ref=e1299]:
+                          - generic "Total duration 7 hr 29 min." [ref=e1300]: 7 hr 29 min
+                          - generic [ref=e1301]:
+                            - generic [ref=e1304]: PIT
+                            - text: –
+                            - generic [ref=e1307]: SAN
+                        - generic [ref=e1308]:
+                          - generic "1 stop flight." [ref=e1310]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 6 min layover at Chicago O'Hare International Airport in Chicago." [ref=e1311]:
+                            - text: 1 hr 6 min
+                            - generic [ref=e1313]: ORD
+                        - generic [ref=e1315]:
+                          - generic [ref=e1317]: 297 kg CO2e
+                          - generic [ref=e1318]:
+                            - generic [ref=e1319]: Avg emissions
+                            - 'button "Carbon emissions estimate: 297 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1320]':
+                              - img [ref=e1321]
+                        - generic [ref=e1323]:
+                          - generic [ref=e1324]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1328]:
+                              - generic [ref=e1329]:
+                                - generic [ref=e1330]:
+                                  - text: "1"
+                                  - img [ref=e1331]
+                                - generic [ref=e1334]:
+                                  - text: "0"
+                                  - img [ref=e1335]
+                            - generic [ref=e1338]: $455
+                          - generic [ref=e1339]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 4:00 PM on Saturday, August 8 and arrives at San Diego International Airport at 8:29 PM on Saturday, August 8." [ref=e1342]:
+                      - img [ref=e1345]
+                - listitem [ref=e1347]:
+                  - generic [ref=e1348]:
+                    - link "From 532 US dollars round trip total. 1 stop flight with Delta. Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:15 PM on Saturday, August 8. Total duration 7 hr 34 min. Layover (1 of 1) is a 1 hr 24 min layover at Salt Lake City International Airport in Salt Lake City. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1350] [cursor=pointer]:
+                      - generic [ref=e1352]:
+                        - generic [ref=e1354]:
+                          - generic "Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:15 PM on Saturday, August 8." [ref=e1356]:
+                            - 'generic "Departure time: 5:41 PM." [ref=e1359]': 5:41 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:15 PM." [ref=e1362]': 10:15 PM
+                          - generic [ref=e1363]: Delta
+                        - generic [ref=e1364]:
+                          - generic "Total duration 7 hr 34 min." [ref=e1365]: 7 hr 34 min
+                          - generic [ref=e1366]:
+                            - generic [ref=e1369]: PIT
+                            - text: –
+                            - generic [ref=e1372]: SAN
+                        - generic [ref=e1373]:
+                          - generic "1 stop flight." [ref=e1375]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 24 min layover at Salt Lake City International Airport in Salt Lake City." [ref=e1376]:
+                            - text: 1 hr 24 min
+                            - generic [ref=e1378]: SLC
+                        - generic [ref=e1380]:
+                          - generic [ref=e1382]: 320 kg CO2e
+                          - generic [ref=e1383]:
+                            - generic [ref=e1384]: +8% emissions
+                            - 'button "Carbon emissions estimate: 320 kilograms. +8% emissions. Learn more about this emissions estimate" [ref=e1385]':
+                              - img [ref=e1386]
+                        - generic [ref=e1388]:
+                          - generic [ref=e1389]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1393]:
+                              - generic [ref=e1394]:
+                                - generic [ref=e1395]:
+                                  - text: "1"
+                                  - img [ref=e1396]
+                                - generic [ref=e1399]:
+                                  - text: "0"
+                                  - img [ref=e1400]
+                            - generic [ref=e1403]: $532
+                          - generic [ref=e1404]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:41 PM on Saturday, August 8 and arrives at San Diego International Airport at 10:15 PM on Saturday, August 8." [ref=e1407]:
+                      - img [ref=e1410]
+                - listitem [ref=e1412]:
+                  - generic [ref=e1413] [cursor=pointer]:
+                    - button "View more flights" [ref=e1416]:
+                      - img
+                    - generic [ref=e1419]: View more flights
+          - text: · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · ··
+      - contentinfo [ref=e1422]:
+        - generic [ref=e1424]:
+          - button "Language·English (United States)" [ref=e1425]:
+            - img [ref=e1428]
+            - generic [ref=e1430]: Language·English (United States)
+          - button "Location·United States" [ref=e1431]:
+            - img [ref=e1434]
+            - generic [ref=e1437]: Location·United States
+          - button "Currency USD" [ref=e1438]:
+            - img [ref=e1441]
+            - generic [ref=e1451]: Currency·USD
+        - generic [ref=e1452]:
+          - link "About Google Travel" [ref=e1453] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1454] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1455] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1456] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1457] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1458] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1460]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1461] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

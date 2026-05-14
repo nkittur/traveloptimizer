@@ -1,0 +1,478 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2023%252F05%252F25%252Ftravel%252Fthings-to-do-vancouver.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - figure "scoop-picture" [ref=e34]
+            - generic [ref=e38]:
+              - link "36 Hours" [ref=e41] [cursor=pointer]:
+                - /url: https://www.nytimes.com/column/36-hours
+              - generic [ref=e43]: Vancouver
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Jump to:"
+              - link "Recommendations" [ref=e48] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e50] [cursor=pointer]:
+                - /url: "#itinerary"
+              - link "Google Map" [ref=e52] [cursor=pointer]:
+                - /url: https://goo.gl/maps/FPSgk2Ev9jARtYtw8
+              - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e55]:
+                - list [ref=e57]:
+                  - listitem [ref=e58]:
+                    - button "Share full article" [ref=e61] [cursor=pointer]:
+                      - generic [ref=e62]:
+                        - img [ref=e63]
+                        - text: Share full article
+                  - listitem [ref=e65]:
+                    - button "More sharing options ..." [ref=e68] [cursor=pointer]:
+                      - img [ref=e69]
+                  - listitem [ref=e71]:
+                    - switch "Save article for reading later..." [ref=e72] [cursor=pointer]:
+                      - img [ref=e73]
+                  - listitem [ref=e77]:
+                    - button "Read 304 comments" [ref=e78] [cursor=pointer]:
+                      - generic [ref=e79]:
+                        - img [ref=e80]
+                        - text: "304"
+            - generic [ref=e82]:
+              - generic [ref=e83]: By Remy Scalza
+              - generic [ref=e84]: Photographs by Jennilee Marigomen
+              - generic [ref=e85]: May 25, 2023
+              - generic [ref=e86]: Remy Scalza is a journalist and photographer based in Vancouver, Canada.
+            - paragraph [ref=e87]:
+              - text: Late last year, the Michelin Man finally came to Vancouver, the coastal British Columbian city. The visit from France’s Michelin Guide was arguably long overdue, and left the city with
+              - link "eight single Michelin-starred restaurants" [ref=e88] [cursor=pointer]:
+                - /url: https://guide.michelin.com/us/en/article/michelin-star-revelation/2022-vancouver-michelin-stars
+              - text: . Of course, there’s more than just food. Vancouver boasts pristine ocean, rugged mountains, glimmering skylines and a truly cosmopolitan culture with influences from China, India and beyond. Visitors are also greeted by a city in transition. As property values have skyrocketed, the gravity of cultural life has shifted eastward — from downtown’s seaside neighborhoods to onetime working-class strongholds like Commercial Drive, areas that are now filling with trendy shops and restaurants. Against this backdrop, with its challenges of gentrification, Vancouver clings to a character all its own.
+          - generic [ref=e89]: Advertisement
+          - generic [ref=e90]:
+            - heading "Recommendations" [level=2] [ref=e91]
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94] [cursor=pointer]:
+                  - text: Key stops
+                  - generic [ref=e95]: –
+                - list [ref=e96]:
+                  - listitem [ref=e97]:
+                    - strong [ref=e98]:
+                      - link "Stanley Park" [ref=e99] [cursor=pointer]:
+                        - /url: https://vancouver.ca/parks-recreation-culture/stanley-park.aspx
+                    - text: is a 1,000-acre oasis of rainforest, beaches and gardens in the heart of downtown Vancouver.
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]:
+                      - link "West 4th Avenue" [ref=e102] [cursor=pointer]:
+                        - /url: https://www.shopwest4th.com/
+                    - text: is an upscale retail hub with Vancouver-born retail brands, high-end bakeries and brunch spots.
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]:
+                      - link "Commercial Drive" [ref=e105] [cursor=pointer]:
+                        - /url: https://thedrive.ca/
+                    - text: offers a refreshing counterpoint to Vancouver’s glitzy downtown, with humble produce shops, first-rate pizza restaurants and great cafes lining a pedestrian-friendly drag.
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]:
+                      - link "Capilano River Regional Park" [ref=e108] [cursor=pointer]:
+                        - /url: http://www.metrovancouver.org/services/parks/parks-greenways-reserves/capilano-river-regional-park
+                    - text: provides a glimpse of the city’s rugged backyard, with trails along a salmon-filled river, old-growth trees and a vertiginous canyon.
+              - generic [ref=e109]:
+                - generic [ref=e110] [cursor=pointer]:
+                  - text: Museums and activities
+                  - generic [ref=e111]: +
+                - list:
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]:
+                      - link "Arts off Main" [ref=e114] [cursor=pointer]:
+                        - /url: https://www.artsoffmain.ca/
+                    - text: is a co-op owned by nine local artists whose paintings, pottery and jewelry fill the gallery.
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]:
+                      - link "Museum of North Vancouver" [ref=e117] [cursor=pointer]:
+                        - /url: https://monova.ca/
+                    - text: features interactive exhibits exploring local history, including the legacy of British Columbia’s First Nations peoples.
+                  - listitem [ref=e118]:
+                    - strong [ref=e119]:
+                      - link "Kitsilano Beach" [ref=e120] [cursor=pointer]:
+                        - /url: https://vancouver.ca/parks-recreation-culture/kitsilano-beach.aspx
+                    - text: is an urban oasis for those seeking sun, sand, beach volleyball and a dip in the cold Pacific Ocean.
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]:
+                      - link "TurF" [ref=e123] [cursor=pointer]:
+                        - /url: https://www.ourturf.com/
+                    - text: ", in the Kitsilano neighborhood, offers heart-pumping fitness classes set to dance music, plus great smoothies in the adjoining cafe."
+              - generic [ref=e124]:
+                - generic [ref=e125] [cursor=pointer]:
+                  - text: Restaurants and bars
+                  - generic [ref=e126]: +
+                - list:
+                  - listitem [ref=e127]:
+                    - strong [ref=e128]:
+                      - link "Stanley Park Brewpub" [ref=e129] [cursor=pointer]:
+                        - /url: https://www.stanleyparkbrewing.com/brewpub/
+                    - strong [ref=e130]:
+                      - link "& Restaurant" [ref=e131] [cursor=pointer]:
+                        - /url: https://www.stanleyparkbrewing.com/brewpub/
+                    - text: pours craft beer in a restored 1930 building inside the city’s iconic central park.
+                  - listitem [ref=e132]:
+                    - strong [ref=e133]:
+                      - link "St. Lawrence" [ref=e134] [cursor=pointer]:
+                        - /url: https://www.stlawrencerestaurant.com/
+                    - text: is a restaurant offering a haute take on traditional Québécois (French Canadian) cuisine, with a Michelin star to show for it.
+                  - listitem [ref=e135]:
+                    - strong [ref=e136]:
+                      - link "Guilt & Co." [ref=e137] [cursor=pointer]:
+                        - /url: https://www.guiltandcompany.com/
+                    - text: is one of Vancouver’s premier clubs for live music, situated below street level in historic Gastown.
+                  - listitem [ref=e138]:
+                    - strong [ref=e139]:
+                      - link "Little Bird" [ref=e140] [cursor=pointer]:
+                        - /url: https://littlebirddimsum.com/
+                    - text: offers a modern twist on dim sum, with great craft beer pairings.
+                  - listitem [ref=e141]:
+                    - strong [ref=e142]:
+                      - link "Livia" [ref=e143] [cursor=pointer]:
+                        - /url: http://www.liviasweets.com/
+                    - text: is an Italian bakery and restaurant on Commercial Drive that serves everything from fresh breads to full meals.
+                  - listitem [ref=e144]:
+                    - strong [ref=e145]:
+                      - link "Mum’s The Word" [ref=e146] [cursor=pointer]:
+                        - /url: https://www.instagram.com/mums_van/?hl=en
+                    - text: is equal parts cafe and cocktail bar, with a funky, retro feel.
+                  - listitem [ref=e147]:
+                    - strong [ref=e148]:
+                      - link "Published on Main" [ref=e149] [cursor=pointer]:
+                        - /url: https://publishedonmain.com/
+                    - text: is a Michelin-starred restaurant highlighting local meat, fish and produce in an intimate setting.
+                  - listitem [ref=e150]:
+                    - strong [ref=e151]:
+                      - link "Fabrique St-George" [ref=e152] [cursor=pointer]:
+                        - /url: https://www.fabriquestgeorge.com/
+                    - text: is an urban winery where local grapes are fermented on site.
+                  - listitem [ref=e153]:
+                    - strong [ref=e154]:
+                      - link "Suyo" [ref=e155] [cursor=pointer]:
+                        - /url: https://suyo.ca/
+                    - text: ", a Peruvian bistro in a sleek space, pushes beyond the familiar ceviches."
+                  - listitem [ref=e156]:
+                    - strong [ref=e157]:
+                      - link "Earnest Ice Cream" [ref=e158] [cursor=pointer]:
+                        - /url: https://earnesticecream.com/
+                    - text: draws long lines for its popular flavors like whisky hazelnut and salted caramel.
+                  - listitem [ref=e159]:
+                    - strong [ref=e160]:
+                      - link "Catch 122" [ref=e161] [cursor=pointer]:
+                        - /url: https://www.catch122.ca/
+                    - text: is a popular brunch spot in North Vancouver’s Shipyards District.
+              - generic [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]:
+                  - text: Shopping
+                  - generic [ref=e164]: +
+                - list:
+                  - listitem [ref=e165]:
+                    - strong [ref=e166]:
+                      - link "Native Shoes" [ref=e167] [cursor=pointer]:
+                        - /url: https://www.nativeshoes.com/
+                    - text: ", a Vancouver-born brand, sells a vibrant rainbow of slip-on shoes made of washable, recyclable and vegan foam at its flagship store in Gastown."
+                  - listitem [ref=e168]:
+                    - strong [ref=e169]:
+                      - link "Vinyl Records" [ref=e170] [cursor=pointer]:
+                        - /url: https://vinylrecords.ca/
+                    - text: is an emporium of new and used LPs inside a heritage 1889 building.
+                  - listitem [ref=e171]:
+                    - strong [ref=e172]:
+                      - link "Arc’teryx" [ref=e173] [cursor=pointer]:
+                        - /url: https://stores.arcteryx.com/kitsilano
+                    - text: ", which got its start locally, sells high-end Gore-Tex jackets and footwear at its flagship store in Kitsilano."
+                  - listitem [ref=e174]:
+                    - strong [ref=e175]:
+                      - link "Fluevog Shoes" [ref=e176] [cursor=pointer]:
+                        - /url: https://www.fluevog.com/stores/vancouver-kitsilano/
+                    - text: sells clunky clogs and wildly colored boots from the Vancouver designer John Fluevog.
+                  - listitem [ref=e177]:
+                    - strong [ref=e178]:
+                      - link "Gatley" [ref=e179] [cursor=pointer]:
+                        - /url: https://gatley.ca/
+                    - text: features crafts from local makers, including higher-end pottery and clothing.
+                  - listitem [ref=e180]:
+                    - strong [ref=e181]:
+                      - link "Dilly Dally" [ref=e182] [cursor=pointer]:
+                        - /url: https://dillydallykids.ca/
+                    - text: is a children’s store in the Commercial Drive neighborhood with many handmade toys.
+              - generic [ref=e183]:
+                - generic [ref=e184] [cursor=pointer]:
+                  - text: Where to stay
+                  - generic [ref=e185]: +
+                - list:
+                  - listitem [ref=e186]:
+                    - strong [ref=e187]:
+                      - link "Fairmont Pacific Rim" [ref=e188] [cursor=pointer]:
+                        - /url: https://www.fairmont.com/pacific-rim-vancouver/
+                    - text: is a downtown hotel that has set the bar for luxury, accessibility and amenities, including an expansive spa and the chichi Lobby Lounge. Rooms from 494 Canadian dollars, or about $365.
+                  - listitem [ref=e189]:
+                    - strong [ref=e190]:
+                      - link "Sylvia Hotel" [ref=e191] [cursor=pointer]:
+                        - /url: https://sylviahotel.com/
+                    - text: is a no-frills hotel option rich with ambiance and history. It occupies a commanding perch right on downtown’s English Bay. Rooms from 325 dollars.
+                  - listitem [ref=e192]:
+                    - strong [ref=e193]:
+                      - link "The Burrard" [ref=e194] [cursor=pointer]:
+                        - /url: https://theburrard.com/
+                    - text: is a revamped 1950s motel in the core of downtown, with plenty of retro-chic touches, from its neon sign to a palm-filled inner courtyard. Rooms from 244 dollars.
+                  - listitem [ref=e195]:
+                    - text: Local regulations
+                    - link "limiting" [ref=e196] [cursor=pointer]:
+                      - /url: https://www.cbc.ca/news/canada/british-columbia/bc-airbnb-regulations-1.6798059
+                    - strong [ref=e197]:
+                      - link "short-term rentals" [ref=e198] [cursor=pointer]:
+                        - /url: https://www.cbc.ca/news/canada/british-columbia/bc-airbnb-regulations-1.6798059
+                    - text: mean Airbnbs and VRBOs can be hard to find in peak season. If you reserve well ahead, the seaside Kitsilano neighborhood is a great option for a residential feel, close to shopping, beaches and amenities. Options are more plentiful in downtown’s trendy Yaletown area, with high-rise condo units in easy walking distance to transit, seawall, shops and restaurants.
+              - generic [ref=e199]:
+                - generic [ref=e200] [cursor=pointer]:
+                  - text: Getting around
+                  - generic [ref=e201]: +
+                - list:
+                  - listitem [ref=e202]:
+                    - text: Plentiful
+                    - strong [ref=e203]: Ubers
+                    - text: and
+                    - strong [ref=e204]: Lyfts
+                    - text: are the easiest way to get around Vancouver. The city also has a modern — if modest —
+                    - strong [ref=e205]: subway
+                    - text: system, the
+                    - link "SkyTrain" [ref=e206] [cursor=pointer]:
+                      - /url: https://www.translink.ca/schedules-and-maps/skytrain
+                    - text: ", with three lines mainly serving neighborhoods to the east and south of downtown. The"
+                    - link "SeaBus" [ref=e207] [cursor=pointer]:
+                      - /url: https://www.translink.ca/schedules-and-maps/seabus
+                    - text: passenger
+                    - strong [ref=e208]: ferry
+                    - text: provides a convenient way to access the North Shore suburbs from downtown.
+          - generic [ref=e209]:
+            - heading "Itinerary" [level=2] [ref=e210]
+            - paragraph [ref=e211]: Friday
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e212]:
+              - generic [ref=e213]: 2 p.m. Cruise the seawall
+              - generic [ref=e214]:
+                - text: A visit to downtown’s waterfront
+                - link "Stanley Park" [ref=e215] [cursor=pointer]:
+                  - /url: https://vancouver.ca/parks-recreation-culture/stanley-park.aspx
+                - text: ", which is larger than New York’s Central Park, offers an unforgettable, if de rigueur, introduction to the city. Biking the 6.6-mile seawall is a great way to enjoy the park’s rainforest, beaches and gardens. Hop on a"
+                - link "Mobi bike share" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.mobibikes.ca/
+                - text: (1 dollar to unlock, then 25 cents per minute) near the aquarium and pedal along the edge of Coal Harbour, with its gleaming glass towers, then under the imposing steel frame of the Lions Gate Bridge, watching for seals in Burrard Inlet. Farther on, cold Pacific water beckons hardy swimmers and paddleboarders at
+                - link "Third Beach" [ref=e217] [cursor=pointer]:
+                  - /url: https://vancouver.ca/parks-recreation-culture/third-beach.aspx
+                - text: ", while bald eagles perch in towering cedars and Douglas firs. Prop your bike against one of the weathered logs and watch the container ships in English Bay stream into the harbor."
+            - generic [ref=e218]:
+              - generic [ref=e219]: 3:30 p.m. Enjoy a brew with a view
+              - generic [ref=e220]:
+                - text: Located inside the park,
+                - link "Stanley Park Brewpub & Restaurant" [ref=e221] [cursor=pointer]:
+                  - /url: https://www.stanleyparkbrewing.com/brewpub/
+                - text: is in a restored 1930 heritage building whose tall windows look out on grassy lawns rolling down to the water. Inside, drinkers at long tables quaff creative beers brewed on premises (7.75 dollars a pint). For a more refined atmosphere, check out the lounge at the nearby ivy-clad
+                - link "Sylvia Hotel" [ref=e222] [cursor=pointer]:
+                  - /url: https://sylviahotel.com/restaurant-lounge/
+                - text: ", built in 1912, with great views of English Bay. The story goes that the Sylvia Martini (19 dollars) — now made with the locally distilled Long Table gin — has been a favorite since Errol Flynn ordered one in 1959."
+            - figure "scoop-picture" [ref=e224]:
+              - generic [ref=e228]: Vinyl Records
+            - generic [ref=e229]:
+              - generic [ref=e230]: 4:30 p.m. Wander Vancouver’s first neighborhood
+              - generic [ref=e231]:
+                - text: Often the first stop for disembarking cruise ship passengers, downtown’s historic
+                - link "Gastown neighborhood" [ref=e232] [cursor=pointer]:
+                  - /url: https://gastown.org/
+                - text: "is in turns charming and schmaltzy: handsome 19th-century brick buildings house gift shops selling maple-leaf-printed P.J.s and moose keychains. For an antidote to the typical tchotchkes, stop in"
+                - link "Vinyl Records" [ref=e233] [cursor=pointer]:
+                  - /url: https://vinylrecords.ca/
+                - text: ", an emporium of new and used LPs, including albums from Canadian icons like Leonard Cohen, the Tragically Hip and even Justin Bieber, that are conveniently clustered near the door. Just down the street, the Vancouver-based"
+                - link "Native Shoes" [ref=e234] [cursor=pointer]:
+                  - /url: https://www.nativeshoes.com/
+                - text: ’ flagship store features a vibrant rainbow of slip-on shoes made of washable, recyclable and vegan foam (think Crocs, but trendier), from about 60 dollars a pair.
+            - generic [ref=e235]:
+              - generic [ref=e236]: 7 p.m. Say “oui” to a French Canadian dinner
+              - generic [ref=e237]:
+                - text: Gastown’s eastern fringe, where trendy shops give way to social housing services, is part of an area in transition where
+                - link "homelessness" [ref=e238] [cursor=pointer]:
+                  - /url: https://vancouver.ca/people-programs/homeless-count.aspx
+                - text: ", drug use and gentrification remain a thorny challenge. Against this fast-evolving backdrop,"
+                - link "St. Lawrence" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.stlawrencerestaurant.com/
+                - text: ", one of Vancouver’s new Michelin-starred restaurants, has been drawing in-the-know diners since 2017 with its haute take on traditional Québécois cuisine. Guests are greeted with a “bonsoir,” and velvet curtains part to reveal a small, low-lit room with a tiny open kitchen in back. The prix-fixe menu (125 dollars per person) consists of seven eclectic dishes, which rotate monthly but have a distinctly Canadian flair, like a split-pea soup with maple-cured sablefish. Reserve ahead."
+            - figure "scoop-picture" [ref=e241]:
+              - generic [ref=e245]: Guilt and Company
+            - generic [ref=e246]:
+              - generic [ref=e247]: 9 p.m. Follow the noise underground
+              - generic [ref=e248]:
+                - text: Gastown comes alive after dark, with drinking options for different tastes, including
+                - link "Cuchillo" [ref=e249] [cursor=pointer]:
+                  - /url: https://www.cuchillo.ca/
+                - text: ", a luchador-themed cocktail bar, and"
+                - link "Juice Bar" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.juicebaryvr.com/
+                - text: ", a pop-up serving natural wines after hours in a cafe setting. But Gastown’s best live music is underground. Stone steps descend to"
+                - link "Guilt & Co." [ref=e251] [cursor=pointer]:
+                  - /url: https://www.guiltandcompany.com/
+                - text: ", where music lovers line up to see local and touring rock, jazz and indie acts (ticket price per set, 6 dollars). Low lights, boozy cocktails and dungeon-like stone walls lend a conspiratorial air to the venue, which draws a diverse and welcoming crowd that boogies down until well after midnight."
+          - figure "scoop-picture" [ref=e252]:
+            - generic [ref=e256]: A booming local tech scene and proximity to downtown have lately transformed the Main Street area, bringing newcomers like the urban winery Fabrique St-George.
+          - generic [ref=e257]: Advertisement
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: Saturday
+            - figure "scoop-picture" [ref=e261]:
+              - generic [ref=e265]: Kitsilano Beach
+            - generic [ref=e266]:
+              - generic [ref=e267]: 9:30 a.m. Wake up and sweat
+              - generic [ref=e268]:
+                - text: Vancouver’s seaside Kitsilano neighborhood, once a counterculture outpost, is now one of the city’s most affluent areas, where stores selling expensive yoga pants and smoothies abound. Early risers can start the day with a drop-in class of heart-pumping cardio set to dance music at
+                - link "TurF" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.ourturf.com/
+                - text: (28 dollars), a small (and extremely popular) studio-slash-cafe wedged onto trendy West 4th Avenue. Palo santo — a fragrant wood — is often burned before classes, and the audio system soars to club-like volumes. If that sounds like too much work, the nearby
+                - link "Kitsilano Beach" [ref=e270] [cursor=pointer]:
+                  - /url: https://vancouver.ca/parks-recreation-culture/kitsilano-beach.aspx
+                - text: affords a calmer start to the morning. Packed with students and young grads working on tans later in the day, Kits Beach at this hour provides a quiet spot for sunning or cooling off in the ocean.
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e271]:
+              - generic [ref=e272]: 11 a.m. Try dim sum with a beer on the side
+              - generic [ref=e273]:
+                - text: Cantonese-style dim sum is a Vancouver institution, part of a legacy of exceptional Chinese cuisine in a city where about
+                - link "15 per cent of the population" [ref=e274] [cursor=pointer]:
+                  - /url: https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=5915022&Geo2=PR&Code2=01&Data=Count&SearchText=5915022&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=3
+                - text: speaks a Chinese language most often at home. At Kitsilano’s unassuming
+                - link "Little Bird" [ref=e275] [cursor=pointer]:
+                  - /url: https://littlebirddimsum.com/
+                - text: ", set along a strip-mall-like stretch, diners pack into a narrow space on weekend mornings for modern dim sum paired with local craft beer. There are plenty of vegan and gluten-free options available, with some favorites, including shu mai with Beyond Meat (9.50 dollars) and green-tea sesame balls with matcha chocolate filling (8 dollars)."
+            - figure "scoop-picture" [ref=e277]:
+              - generic [ref=e281]: Fluevog Shoes
+            - generic [ref=e282]:
+              - generic [ref=e283]: 12:30 p.m. Dress like a Vancouverite
+              - generic [ref=e284]:
+                - text: Kitsilano's West 4th Avenue boasts a who’s who of iconic Canadian West Coast brands. For all things Gore-Tex, check out the newly opened 4,500-square-foot flagship store of Arc’teryx, the high-end outdoor clothing brand founded by local mountain climbers. Across the street, a just opened branch of
+                - link "Fluevog Shoes" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.fluevog.com/stores/vancouver-kitsilano/
+                - text: showcases the outlandish footwear designs of John Fluevog, a local maker of “unique soles for unique souls,” whose trademark clunky shoes have been worn by artists like Madonna and Jack White.
+            - generic [ref=e286]:
+              - generic [ref=e287]: 2 p.m. Get a cold brew on the Drive
+              - generic [ref=e288]:
+                - text: For a completely different side of Vancouver, head east to
+                - link "Commercial Drive" [ref=e289] [cursor=pointer]:
+                  - /url: https://thedrive.ca/
+                - text: . The city’s traditional Little Italy neighborhood, the Drive is gentrifying fast but retains an eclectic, rough-edged vibe. Aside from its many worthy Neapolitan pizza spots (
+                - link "Via Tevere" [ref=e290] [cursor=pointer]:
+                  - /url: https://viateverepizzeria.com/
+                - text: claiming pride of place), the Drive is also an epicenter of Vancouver coffee culture. The Italian bakery and restaurant
+                - link "Livia" [ref=e291] [cursor=pointer]:
+                  - /url: http://www.liviasweets.com/
+                - text: has divinely foamy cappuccinos (4.25 dollars) and fresh breads, as well as full meals including a popular ragù made with Alberta bison (20 dollars). Just down the street at
+                - link "Mum’s The Word" [ref=e292] [cursor=pointer]:
+                  - /url: https://www.instagram.com/mums_van/?hl=en
+                - text: — equal parts cafe and cocktail bar — locals slip into retro easy chairs for drinks like Mum’s Cold Brew Manhattan (14.75 dollars), a potent mix of cold brew, whisky and kahlua.
+            - figure "scoop-picture" [ref=e294]:
+              - generic [ref=e298]: Dilly Dally
+            - generic [ref=e299]:
+              - generic [ref=e300]: 3:30 p.m. Check out coastal crafts
+              - generic [ref=e301]:
+                - text: The maker scene is alive and well in Vancouver. The cozy shop
+                - link "Gatley" [ref=e302] [cursor=pointer]:
+                  - /url: https://gatley.ca/
+                - text: features crafts from local producers including higher-end pottery and clothing, as well as butter-soft leather wallets from Erin Templeton (75 dollars) and Brand & Iron candles (42 dollars). Across the street, the children’s store
+                - link "Dilly Dally" [ref=e303] [cursor=pointer]:
+                  - /url: https://dillydallykids.ca/
+                - text: draws grown-up kids, too, especially for its handmade toys, like tiny canoes from Quebec (27.99 dollars). Up the street, painted canvases leaning on a red brick wall mark the entrance to
+                - link "Arts off Main" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.artsoffmain.ca/
+                - text: ", a cooperative gallery owned by nine local artists who display their works there. Inside, Jan Rankin’s impressionistic paintings evoke Pacific Northwest scenes in vibrant acrylics, while Tom Antil paints dreamlike Vancouver cityscapes of towers, bridges and bays."
+            - generic [ref=e305]:
+              - generic [ref=e306]: 5:30 p.m. Sip Main Street
+              - generic [ref=e307]:
+                - text: As recently as a decade ago, the Main Street area was a blue-collar holdout of traditional Chinese restaurants and autobody shops, but a booming local tech scene and proximity to downtown have lately transformed the area. Craft breweries like
+                - link "Brassneck" [ref=e308] [cursor=pointer]:
+                  - /url: https://brassneck.ca/
+                - text: have proliferated, but a welcome variation is the urban winery
+                - link "Fabrique St-George" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.fabriquestgeorge.com/
+                - text: ", which ferments local Okanagan grapes on-site in giant amphora vessels. Try their flagship wine, Amber (14 dollars a glass), paired with local charcuterie."
+            - generic:
+              - figure "scoop-picture"
+            - generic [ref=e310]:
+              - generic [ref=e311]: 7 p.m. Eat like a local
+              - generic [ref=e312]:
+                - text: Main Street is home to several of Vancouver’s newly Michelin-starred eateries. The “it” restaurant du jour is
+                - link "Published on Main" [ref=e313] [cursor=pointer]:
+                  - /url: https://publishedonmain.com/
+                - text: — a minimalist space with stark white-tile floors and midcentury-modern furnishings — where the real artistry is on the plate. Small dishes like side-stripe prawns (23 dollars), bison tartare (30 dollars) and smoked steelhead (46 dollars) — all prepared and plated with near-obsessive precision — show off the best of local produce. Reservations highly recommended. A few doors down, the modern Peruvian bistro
+                - link "Suyo" [ref=e314] [cursor=pointer]:
+                  - /url: https://suyo.ca/
+                - text: makes a more than adequate back-up.
+            - generic [ref=e315]:
+              - generic [ref=e316]: 9 p.m. Leave room for ice cream
+              - generic [ref=e317]:
+                - link "Earnest Ice Cream" [ref=e318] [cursor=pointer]:
+                  - /url: https://earnesticecream.com/
+                - text: started out only selling its popular flavors like whisky hazelnut and salted caramel (5.25 dollars, single scoop) from a roving tricycle. Now, the Vancouver business has four locations, including one on Quebec Street that is walkable from dinner. Grab a waffle cone in the restored century-old textile mill on the edge of Olympic Village, a neighborhood of waterfront mid-rises built for Vancouver’s 2010 Winter Olympics. Be prepared to line up.
+          - figure "scoop-picture" [ref=e319]:
+            - generic [ref=e323]: Within the Capilano River Regional Park, a short and well-marked loop threads along the jade green Capilano River (where jumping salmon can often be seen in summer and fall), and winds beneath towering firs draped with moss.
+          - generic [ref=e324]: Advertisement
+          - generic [ref=e325]:
+            - paragraph [ref=e326]: Sunday
+            - figure "scoop-picture" [ref=e328]:
+              - generic [ref=e332]: Coho Loop Trail
+            - generic [ref=e333]:
+              - generic [ref=e334]: 9 a.m. Have a North Shore adventure
+              - generic [ref=e335]:
+                - text: Just a 15-minute
+                - link "Seabus" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.translink.ca/schedules-and-maps/seabus
+                - text: ride (3.10 dollars one-way) across the Burrard Inlet, a shallow Pacific Ocean fjord, lies the North Shore — Vancouver’s wild backyard. Rows of homes in the suburbs rise steeply on mountain slopes before giving way to a seemingly endless expanse of forest and rocky peaks. For a quick glimpse of old-growth forest remnants and rugged canyons, take an Uber or taxi just past the tourist magnet
+                - link "Capilano Suspension Bridge" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.capbridge.com/
+                - text: to the much quieter
+                - link "Capilano River Regional Park" [ref=e338] [cursor=pointer]:
+                  - /url: http://www.metrovancouver.org/services/parks/parks-greenways-reserves/capilano-river-regional-park
+                - text: . The well-marked Coho Loop threads less than a mile along the jade green Capilano River (where jumping salmon can often be seen in summer and fall), and winds beneath towering firs draped with moss. The trail climbs to a footbridge for vertigo-inducing views of the swirling river far below, before circling back along the opposite shore.
+            - figure "scoop-picture" [ref=e340]:
+              - generic [ref=e344]: Catch 122
+            - generic [ref=e345]:
+              - generic [ref=e346]: 11 a.m. Absorb local histories, then eat
+              - generic [ref=e347]:
+                - text: Once an industrial hub, North Vancouver’s waterfront Shipyards district has been reborn over the last five years as a vibrant home for restaurants, condos, retail and museums. Inside the
+                - link "Museum of North Vancouver" [ref=e348] [cursor=pointer]:
+                  - /url: https://monova.ca/
+                - text: (entry, 14 dollars), interactive exhibits explore local history, including the legacy of British Columbia’s First Nations peoples. Hear audio tracks of words pronounced in the Squamish language, while getting up close with a traditional berry-picking canoe. Afterward, walk a block to
+                - link "Catch 122" [ref=e349] [cursor=pointer]:
+                  - /url: https://www.catch122.ca/
+                - text: ", a new brunch spot where you can pair a bulgogi steak and eggs (25 dollars) with a beer-mimosa flight (19 dollars), which features beers from the nearby"
+                - link "Wildeye Brewing" [ref=e350] [cursor=pointer]:
+                  - /url: https://www.wildeyebrewing.ca/
+                - text: that are blended with fresh yuzu, mandarin and mango juices.
+    - generic [ref=e358]:
+      - paragraph [ref=e359]: Enjoy unlimited access to all of The Times.
+      - paragraph [ref=e360]:
+        - link [ref=e361] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+          - text: See subscription options

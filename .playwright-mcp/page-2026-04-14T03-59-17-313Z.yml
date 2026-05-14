@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: asheville best restaurants site:eater.com OR site:mountainx.com asheville best restaurants site:eater.com OR site:mountainx.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dasheville%2Bbest%2Brestaurants%2Bsite%253Aeater.com%2BOR%2Bsite%253Amountainx.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&aep=1&ntc=1&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ2J8OegQIChAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQs6gLegQIEhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQtKgLegQIExAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Maps" [ref=e95] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e97]: Maps
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQs6gLegQIDxAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "News" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJ0uNxYYLz4WOmukskuVkx-aHSPLaBHsvZrtPlcW8mAVs86JQ0wtfgghKBdvVMbEr7h06O415PGsmmOVIwStdvieDc6UUlRGqgjssT5Rv_jSRS5B0JYE9-pgGs10UFc0vbsklX8Q&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ0pQJegQIEBAB
+              - generic [ref=e105]: News
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Asheville Restaurants Eater Carolinas https://carolinas.eater.com › asheville-restaurants" [ref=e142] [cursor=pointer]:
+                - /url: https://carolinas.eater.com/asheville-restaurants
+                - heading "Asheville Restaurants" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Eater Carolinas
+                  - generic [ref=e152]: https://carolinas.eater.com › asheville-restaurants
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e160]:
+              - text: Everything to know about
+              - emphasis [ref=e161]: dining and restaurants in Asheville
+              - text: ", North Carolina."
+        - generic [ref=e165]:
+          - generic [ref=e168]:
+            - link "18 Hottest Restaurants in Asheville Right Now Eater Carolinas https://carolinas.eater.com › maps › best-new-restaurant..." [ref=e170] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-new-restaurants-asheville
+              - heading "18 Hottest Restaurants in Asheville Right Now" [level=3] [ref=e171]
+              - generic [ref=e176]:
+                - generic [ref=e178]: Eater Carolinas
+                - generic [ref=e180]: https://carolinas.eater.com › maps › best-new-restaurant...
+            - button "About this result" [ref=e181] [cursor=pointer]:
+              - img [ref=e184]
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - text: 18 Hottest Restaurants in Asheville Right Now ·
+              - emphasis [ref=e189]: Leo's House of Thirst
+              - text: · Finest · Rowan Coffee · Harmony Wine · Piccolina · Crusco · Butter Punk · Posana Biltmore Park.
+            - link "Read more" [ref=e190] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-new-restaurants-asheville#:~:text=Leo's%20House%20of%20Thirst&text=Leo's%20House%20of%20Thirst&text=Finest&text=Rowan%20Coffee&text=Harmony%20Wine&text=Piccolina&text=Crusco&text=Butter%20Punk&text=Posana%20Biltmore%20Park
+        - generic [ref=e194]:
+          - generic [ref=e197]:
+            - link "An Eater's Guide to Asheville, North Carolina Eater Carolinas https://carolinas.eater.com › 2023/11 › best-food-ashevi..." [ref=e199] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/2023/11/3/23945577/best-food-asheville-restaurant-guide
+              - heading "An Eater's Guide to Asheville, North Carolina" [level=3] [ref=e200]
+              - generic [ref=e205]:
+                - generic [ref=e207]: Eater Carolinas
+                - generic [ref=e209]: https://carolinas.eater.com › 2023/11 › best-food-ashevi...
+            - button "About this result" [ref=e210] [cursor=pointer]:
+              - img [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]: Nov 3, 2023 —
+            - generic [ref=e218]:
+              - text: For must-try dishes, visit
+              - emphasis [ref=e219]: 12 Bones Smokehouse
+              - text: for barbecued ribs and cornbread famously craved by Barack and Michelle Obama, Sunny Point Cafe ...
+            - link "Read more" [ref=e220] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/2023/11/3/23945577/best-food-asheville-restaurant-guide#:~:text=For%20must%2Dtry%20dishes%2C%20visit%2012,Michelle%20Obama%2C%20Sunny%20Point%20Cafe
+        - generic [ref=e224]:
+          - generic [ref=e227]:
+            - link "Eater Carolinas Eater Carolinas https://carolinas.eater.com" [ref=e229] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/
+              - heading "Eater Carolinas" [level=3] [ref=e230]
+              - generic [ref=e235]:
+                - generic [ref=e237]: Eater Carolinas
+                - generic [ref=e239]: https://carolinas.eater.com
+            - button "About this result" [ref=e240] [cursor=pointer]:
+              - img [ref=e243]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - emphasis [ref=e248]: 18 Hottest Restaurants in Asheville Right Now
+              - text: . By Kay West. Eater Carolinas.
+            - link "Read more" [ref=e249] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/#:~:text=18%20Hottest%20Restaurants%20in%20Asheville,Eater%20Carolinas
+        - generic [ref=e253]:
+          - generic [ref=e256]:
+            - link "How to Eat Your Way Through Asheville in One Day Eater Carolinas https://carolinas.eater.com › best-restaurants-asheville-2..." [ref=e258] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/2024/1/4/24024320/best-restaurants-asheville-24-hours-one-day-trip
+              - heading "How to Eat Your Way Through Asheville in One Day" [level=3] [ref=e259]
+              - generic [ref=e264]:
+                - generic [ref=e266]: Eater Carolinas
+                - generic [ref=e268]: https://carolinas.eater.com › best-restaurants-asheville-2...
+            - button "About this result" [ref=e269] [cursor=pointer]:
+              - img [ref=e272]
+          - generic [ref=e275]:
+            - generic [ref=e276]: Jan 4, 2024 —
+            - generic [ref=e277]:
+              - text: An action-packed 24-hour schedule of
+              - emphasis [ref=e278]: immaculate eating and drinking spots in Asheville
+              - text: ", North Carolina."
+        - generic [ref=e282]:
+          - generic [ref=e285]:
+            - link "The 18 Best Restaurants in Asheville, North Carolina Eater Carolinas https://carolinas.eater.com › maps › best-asheville-resta..." [ref=e287] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-asheville-restaurants
+              - heading "The 18 Best Restaurants in Asheville, North Carolina" [level=3] [ref=e288]
+              - generic [ref=e293]:
+                - generic [ref=e295]: Eater Carolinas
+                - generic [ref=e297]: https://carolinas.eater.com › maps › best-asheville-resta...
+            - button "About this result" [ref=e298] [cursor=pointer]:
+              - img [ref=e301]
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - text: The 18 Essential Restaurants in Asheville, North Carolina ·
+              - emphasis [ref=e306]: Plant
+              - text: · Tall John's · Rosetta's Kitchen & The Buchi Bar · Luminosa · The Market Place · Cúrate.
+            - link "Read more" [ref=e307] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-asheville-restaurants#:~:text=Plant&text=Plant&text=Tall%20John's&text=Rosetta's%20Kitchen%20%26%20The%20Buchi,Bar&text=Luminosa&text=The%20Market%20Place&text=C%C3%BArate
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - link "Eats & Drinks - Asheville Mountain Xpress https://mountainx.com › eats-drinks" [ref=e316] [cursor=pointer]:
+              - /url: https://mountainx.com/eats-drinks/
+              - heading "Eats & Drinks - Asheville" [level=3] [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e324]: Mountain Xpress
+                - generic [ref=e326]: https://mountainx.com › eats-drinks
+            - button "About this result" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - text: Use this guide to chart your course for exploring
+              - emphasis [ref=e335]: Asheville's
+              - text: unforgettable spread of edible and drinkable offerings. The biggest challenge will be deciding ...
+            - link "Read more" [ref=e336] [cursor=pointer]:
+              - /url: https://mountainx.com/eats-drinks/#:~:text=Use%20this%20guide%20to%20chart,be%20deciding%20where%20to%20eat.
+        - generic [ref=e340]:
+          - generic [ref=e343]:
+            - link "Don't Sleep on North Carolina Eater Carolinas https://carolinas.eater.com › restaurant-news › north-car..." [ref=e345] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/restaurant-news/45632/north-carolina-travel-restaurants
+              - heading "Don't Sleep on North Carolina" [level=3] [ref=e346]
+              - generic [ref=e351]:
+                - generic [ref=e353]: Eater Carolinas
+                - generic [ref=e355]: https://carolinas.eater.com › restaurant-news › north-car...
+            - button "About this result" [ref=e356] [cursor=pointer]:
+              - img [ref=e359]
+          - generic [ref=e362]:
+            - generic [ref=e363]: Dec 11, 2025 —
+            - generic [ref=e364]:
+              - text: Over the years, the state's restaurants have popped up time and again on Eater's annual Best New Restaurants list; we were impressed by
+              - emphasis [ref=e365]: Fonda
+              - text: ...
+            - link "Read more" [ref=e366] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/restaurant-news/45632/north-carolina-travel-restaurants#:~:text=Over%20the%20years%2C%20the%20state's,Fish%20in%20Asheville%20in%202024.
+        - generic [ref=e370]:
+          - generic [ref=e373]:
+            - link "10 Amazing Spots to Eat Brunch in Asheville, North Carolina Eater Carolinas https://carolinas.eater.com › maps › best-brunch-asheville" [ref=e375] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-brunch-asheville
+              - heading "10 Amazing Spots to Eat Brunch in Asheville, North Carolina" [level=3] [ref=e376]
+              - generic [ref=e381]:
+                - generic [ref=e383]: Eater Carolinas
+                - generic [ref=e385]: https://carolinas.eater.com › maps › best-brunch-asheville
+            - button "About this result" [ref=e386] [cursor=pointer]:
+              - img [ref=e389]
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - text: 10 Amazing Spots to Eat Brunch in Asheville, North Carolina ·
+              - emphasis [ref=e394]: Liberty House Coffee and Cafe
+              - text: · All Day Darling · Asheville Beauty Academy · Bold Rock Asheville.
+            - link "Read more" [ref=e395] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/maps/best-brunch-asheville#:~:text=Liberty%20House%20Coffee%20and%20Cafe&text=Liberty%20House%20Coffee%20and%20Cafe&text=All%20Day%20Darling&text=Asheville%20Beauty%20Academy&text=Bold%20Rock%20Asheville
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - link "Liberty House Coffee And..." [ref=e399] [cursor=pointer]:
+                - /url: https://carolinas.eater.com/maps/best-brunch-asheville#:~:text=Liberty%20House%20Coffee%20and%20Cafe
+                - generic [ref=e402]: Liberty House Coffee And...
+            - listitem [ref=e403]:
+              - link "Bold Rock Asheville" [ref=e404] [cursor=pointer]:
+                - /url: https://carolinas.eater.com/maps/best-brunch-asheville#:~:text=Bold%20Rock%20Asheville
+                - generic [ref=e407]: Bold Rock Asheville
+            - listitem [ref=e408]:
+              - link "Sunny Point Cafe" [ref=e409] [cursor=pointer]:
+                - /url: https://carolinas.eater.com/maps/best-brunch-asheville#:~:text=Sunny%20Point%20Cafe
+                - generic [ref=e412]: Sunny Point Cafe
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - link "Chef Ashleigh Shanti's Favorite Asheville Restaurants Eater Carolinas https://carolinas.eater.com › ashleigh-shanti-interview-a..." [ref=e421] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/23501797/ashleigh-shanti-interview-asheville-recommendations-where-to-eat
+              - heading "Chef Ashleigh Shanti's Favorite Asheville Restaurants" [level=3] [ref=e422]
+              - generic [ref=e427]:
+                - generic [ref=e429]: Eater Carolinas
+                - generic [ref=e431]: https://carolinas.eater.com › ashleigh-shanti-interview-a...
+            - button "About this result" [ref=e432] [cursor=pointer]:
+              - img [ref=e435]
+          - generic [ref=e438]:
+            - generic [ref=e439]: Jan 9, 2023 —
+            - generic [ref=e440]:
+              - text: The “Top Chef” star, Eater Young Gun, and James Beard finalist shares an insider's look at one of the country's most exciting
+              - emphasis [ref=e441]: restaurant
+              - text: industries right now.
+            - link "Read more" [ref=e442] [cursor=pointer]:
+              - /url: https://carolinas.eater.com/23501797/ashleigh-shanti-interview-asheville-recommendations-where-to-eat#:~:text=The%20%E2%80%9CTop%20Chef%E2%80%9D%20star%2C%20Eater,exciting%20restaurant%20industries%20right%20now
+      - generic [ref=e444]:
+        - generic [ref=e449]:
+          - heading "People also search for" [level=2] [ref=e451]
+          - generic [ref=e453]:
+            - link "Downtown asheville best restaurants" [ref=e458] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=Downtown+asheville+best+restaurants&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ1QJ6BAgyEAE
+              - generic [ref=e459]:
+                - generic [ref=e464]: Downtown asheville best restaurants
+                - img [ref=e468]
+            - link "Asheville best restaurants with outdoor seating" [ref=e474] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=Asheville+best+restaurants+with+outdoor+seating&sa=X&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ1QJ6BAgzEAE
+              - generic [ref=e475]:
+                - generic [ref=e480]: Asheville best restaurants with outdoor seating
+                - img [ref=e484]
+        - navigation [ref=e486]:
+          - heading "Page Navigation" [level=1] [ref=e487]
+          - text: "1"
+          - link "Page 2" [ref=e490] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=10&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAE
+            - text: "2"
+          - link "Page 3" [ref=e492] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=20&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAG
+            - text: "3"
+          - link "Page 4" [ref=e494] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=30&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAI
+            - text: "4"
+          - link "Page 5" [ref=e496] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=40&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAK
+            - text: "5"
+          - link "Page 6" [ref=e498] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=50&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAM
+            - text: "6"
+          - link "Page 7" [ref=e500] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=60&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAO
+            - text: "7"
+          - link "Page 8" [ref=e502] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=70&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAQ
+            - text: "8"
+          - link "Page 9" [ref=e504] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=80&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAS
+            - text: "9"
+          - link "Page 10" [ref=e506] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=90&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8tMDegQIKxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e508]:
+            - link "Next" [ref=e509] [cursor=pointer]:
+              - /url: /search?q=asheville+best+restaurants+site:eater.com+OR+site:mountainx.com&sca_esv=9fb2dbe6099668d1&ei=lLvdabnQLMii5NoPws24gAk&start=10&sa=N&sstk=Af77f_eBnrAhA4Fd17ppX7LfXV_0bLsagS1KqSlji7ysG1c9cMxTXRoIL8PptlgFsdrHa9eKxHKtw3AEup80v1lxrS42zHNe2yhXZg&ved=2ahUKEwi56oj8ueyTAxVIEVkFHcImDpAQ8NMDegQIKxAW
+              - generic [ref=e511]: Next
+      - navigation
+    - contentinfo [ref=e512]:
+      - heading "Footer Links" [level=1] [ref=e513]
+      - generic [ref=e517]:
+        - generic [ref=e521]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e523] [cursor=pointer]:
+            - generic [ref=e524]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e526]:
+              - text: "-"
+              - generic [ref=e527]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e529] [cursor=pointer]: Update location
+        - generic [ref=e532]:
+          - link "Help" [ref=e533] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e534] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e535] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e536] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

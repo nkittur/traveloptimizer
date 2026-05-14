@@ -1,0 +1,788 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Oslo OSL" [ref=e177]: Oslo
+                - generic [ref=e179]: Oslo OSL
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - alert [ref=e329]: 13 results returned.
+        - generic [ref=e331]:
+          - tablist [ref=e332]:
+            - tab "BestLearn more about ranking" [selected] [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e340]:
+                  - img [ref=e342]
+            - tab "Cheapest from Fetching results 1082 US dollars Learn more about ranking" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - text: Cheapest
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - text: from
+                    - generic [ref=e349]:
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Fetching results
+                        - progressbar [ref=e352]:
+                          - img [ref=e354]
+                          - generic [ref=e358]:
+                            - img [ref=e360]
+                            - img [ref=e363]
+                            - img [ref=e366]
+                      - text: $1,082
+                  - button "Learn more about ranking" [ref=e371]:
+                    - img [ref=e373]
+          - tabpanel "BestLearn more about ranking" [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Top departing flights" [level=3] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e383] [cursor=pointer]:
+                    - img [ref=e385]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e387]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e388] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e389]:
+                      - button "Passenger assistance" [ref=e390] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e395]:
+                  - generic [ref=e398]: Sorted by top flights
+                  - img [ref=e399]
+              - list [ref=e401]:
+                - listitem [ref=e402]:
+                  - generic [ref=e403]:
+                    - link "From 1082 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9. Total duration 17 hr 7 min. Layover (1 of 2) is a 4 hr 40 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]:
+                        - generic [ref=e409]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e411]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e414]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e417]':
+                              - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e418]':
+                                - text: 11:05 AM
+                                - generic [ref=e419]: "+1"
+                          - generic [ref=e420]:
+                            - text: Delta, KLM
+                            - generic [ref=e421]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e422]:
+                          - generic "Total duration 17 hr 7 min." [ref=e423]: 17 hr 7 min
+                          - generic [ref=e424]:
+                            - generic [ref=e427]: PIT
+                            - text: –
+                            - generic [ref=e430]: OSL
+                        - generic [ref=e431]:
+                          - generic "2 stops flight." [ref=e433]: 2 stops
+                          - generic "Layover (1 of 2) is a 4 hr 40 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e434]:
+                            - generic [ref=e436]: JFK
+                            - text: ","
+                            - generic [ref=e438]: AMS
+                        - generic [ref=e440]:
+                          - generic [ref=e442]: 532 kg CO2e
+                          - generic [ref=e443]:
+                            - generic [ref=e444]: "-9% emissions"
+                            - 'button "Carbon emissions estimate: 532 kilograms. -9% emissions. Learn more about this emissions estimate" [ref=e445]':
+                              - img [ref=e446]
+                        - generic [ref=e448]:
+                          - generic [ref=e450]: $1,082
+                          - generic [ref=e451]: round trip
+                      - text: · ·· ·
+                      - generic [ref=e452]:
+                        - generic [ref=e453]:
+                          - text: Avoids as much CO2e as
+                          - generic [ref=e454]: 3,226 trees absorb in a day
+                        - button "Avoids as much CO2e as 3226 trees absorb in a day. Learn more about this calculation." [ref=e455]:
+                          - img [ref=e456]
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e460]:
+                      - img [ref=e463]
+                - listitem [ref=e465]:
+                  - generic [ref=e466]:
+                    - link "From 1414 US dollars round trip total. 2 stops flight with British Airways and Finnair. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:45 PM on Sunday, August 9. Total duration 15 hr 55 min. Layover (1 of 2) is a 3 hr 30 min layover at Heathrow Airport in London. Layover (2 of 2) is a 55 min layover at Helsinki Airport in Helsinki. Select flight"
+                    - generic [ref=e468] [cursor=pointer]:
+                      - generic [ref=e470]:
+                        - generic [ref=e472]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:45 PM on Sunday, August 9." [ref=e474]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e477]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:45 PM on Sunday, August 9." [ref=e480]':
+                              - 'generic "Arrival time: 7:45 PM on Sunday, August 9." [ref=e481]':
+                                - text: 7:45 PM
+                                - generic [ref=e482]: "+1"
+                          - generic [ref=e483]: British Airways, Finnair
+                        - generic [ref=e484]:
+                          - generic "Total duration 15 hr 55 min." [ref=e485]: 15 hr 55 min
+                          - generic [ref=e486]:
+                            - generic [ref=e489]: PIT
+                            - text: –
+                            - generic [ref=e492]: OSL
+                        - generic [ref=e493]:
+                          - generic "2 stops flight." [ref=e495]: 2 stops
+                          - generic "Layover (1 of 2) is a 3 hr 30 min layover at Heathrow Airport in London. Layover (2 of 2) is a 55 min layover at Helsinki Airport in Helsinki." [ref=e496]:
+                            - generic [ref=e498]: LHR
+                            - text: ","
+                            - generic [ref=e500]: HEL
+                        - generic [ref=e502]:
+                          - generic [ref=e504]: 664 kg CO2e
+                          - generic [ref=e505]:
+                            - generic [ref=e506]: +14% emissions
+                            - 'button "Carbon emissions estimate: 664 kilograms. +14% emissions. Learn more about this emissions estimate" [ref=e507]':
+                              - img [ref=e508]
+                        - generic [ref=e510]:
+                          - generic [ref=e512]: $1,414
+                          - generic [ref=e513]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:45 PM on Sunday, August 9." [ref=e516]:
+                      - img [ref=e519]
+                - listitem [ref=e521]:
+                  - generic [ref=e522]:
+                    - link "From 1477 US dollars round trip total. 1 stop flight with Delta and Scandinavian Airlines. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9. Total duration 17 hr 25 min. Layover (1 of 1) is a 8 hr 10 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e524] [cursor=pointer]:
+                      - generic [ref=e526]:
+                        - generic [ref=e528]:
+                          - generic "Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9." [ref=e530]:
+                            - 'generic "Departure time: 7:20 AM." [ref=e533]': 7:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e536]':
+                              - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e537]':
+                                - text: 6:45 AM
+                                - generic [ref=e538]: "+1"
+                          - generic [ref=e539]:
+                            - text: Delta, Scandinavian Airlines
+                            - generic [ref=e540]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e541]:
+                          - generic "Total duration 17 hr 25 min." [ref=e542]: 17 hr 25 min
+                          - generic [ref=e543]:
+                            - generic [ref=e546]: PIT
+                            - text: –
+                            - generic [ref=e549]: OSL
+                        - generic [ref=e550]:
+                          - generic [ref=e551]:
+                            - generic "1 stop flight." [ref=e552]: 1 stop
+                            - img [ref=e557]
+                          - generic "Layover (1 of 1) is a 8 hr 10 min layover at John F. Kennedy International Airport in New York." [ref=e560]:
+                            - text: 8 hr 10 min
+                            - generic [ref=e562]: JFK
+                        - generic [ref=e564]:
+                          - generic [ref=e566]: 587 kg CO2e
+                          - generic [ref=e567]:
+                            - generic [ref=e568]: Avg emissions
+                            - 'button "Carbon emissions estimate: 587 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e569]':
+                              - img [ref=e570]
+                        - generic [ref=e572]:
+                          - generic [ref=e574]: $1,477
+                          - generic [ref=e575]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:20 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9." [ref=e578]:
+                      - img [ref=e581]
+            - generic [ref=e587]:
+              - heading "Price insights" [level=3] [ref=e588]
+              - generic [ref=e589] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e594]
+                - generic [ref=e596]: View price history
+                - button "View price history" [ref=e598]:
+                  - img [ref=e601]
+            - region "Find the best price" [ref=e603]:
+              - generic [ref=e606]:
+                - img [ref=e607]
+                - heading "Track prices" [level=2] [ref=e609]
+                - button "Learn more about tracked prices" [ref=e613] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e614]:
+                    - img [ref=e615]
+                - generic [ref=e617]: Track prices from Pittsburgh to Oslo departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e618]:
+                  - generic [ref=e620] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Oslo departing 2026-08-08 and returning 2026-08-15" [ref=e623] [cursor=pointer]:
+                    - generic [ref=e628]:
+                      - img [ref=e629]
+                      - img [ref=e631]
+                - generic [ref=e634]: Track prices from Pittsburgh to Oslo - Any dates
+                - generic [ref=e636]:
+                  - generic [ref=e637] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Oslo - Any dates" [ref=e640] [cursor=pointer]:
+                    - generic [ref=e645]:
+                      - img [ref=e646]
+                      - img [ref=e648]
+              - generic [ref=e653]:
+                - button "Date grid" [ref=e655]:
+                  - img [ref=e657]
+                  - generic [ref=e664]: Date grid
+                - button "Price graph" [ref=e666]:
+                  - img [ref=e668]
+                  - generic [ref=e678]: Price graph
+            - generic [ref=e679]:
+              - heading "Other departing flights" [level=3] [ref=e680]
+              - list [ref=e681]:
+                - listitem [ref=e682]:
+                  - generic [ref=e683]:
+                    - link "From 1104 US dollars round trip total. 2 stops flight with British Airways and Finnair. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:50 AM on Monday, August 10. Total duration 28 hr. Layover (1 of 2) is a 8 hr 5 min layover at Heathrow Airport in London. Layover (2 of 2) is a 8 hr 25 min layover at Helsinki Airport in Helsinki. Select flight"
+                    - generic [ref=e685] [cursor=pointer]:
+                      - generic [ref=e687]:
+                        - generic [ref=e689]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:50 AM on Monday, August 10." [ref=e691]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e694]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:50 AM on Monday, August 10." [ref=e697]':
+                              - 'generic "Arrival time: 7:50 AM on Monday, August 10." [ref=e698]':
+                                - text: 7:50 AM
+                                - generic [ref=e699]: "+2"
+                          - generic [ref=e700]: British Airways, Finnair
+                        - generic [ref=e701]:
+                          - generic "Total duration 28 hr." [ref=e702]: 28 hr
+                          - generic [ref=e703]:
+                            - generic [ref=e706]: PIT
+                            - text: –
+                            - generic [ref=e709]: OSL
+                        - generic [ref=e710]:
+                          - generic [ref=e711]:
+                            - generic "2 stops flight." [ref=e712]: 2 stops
+                            - img [ref=e717]
+                          - generic "Layover (1 of 2) is a 8 hr 5 min layover at Heathrow Airport in London. Layover (2 of 2) is a 8 hr 25 min layover at Helsinki Airport in Helsinki." [ref=e720]:
+                            - generic [ref=e722]: LHR
+                            - text: ","
+                            - generic [ref=e724]: HEL
+                        - generic [ref=e726]:
+                          - generic [ref=e728]: 638 kg CO2e
+                          - generic [ref=e729]:
+                            - generic [ref=e730]: +9% emissions
+                            - 'button "Carbon emissions estimate: 638 kilograms. +9% emissions. Learn more about this emissions estimate" [ref=e731]':
+                              - img [ref=e732]
+                        - generic [ref=e734]:
+                          - generic [ref=e736]: $1,104
+                          - generic [ref=e737]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Oslo lufthavn at 7:50 AM on Monday, August 10." [ref=e740]:
+                      - img [ref=e743]
+                - listitem [ref=e745]:
+                  - generic [ref=e746]:
+                    - link "From 1132 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9. Total duration 16 hr 47 min. Layover (1 of 2) is a 5 hr layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 1 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e748] [cursor=pointer]:
+                      - generic [ref=e750]:
+                        - generic [ref=e752]:
+                          - generic "Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e754]:
+                            - 'generic "Departure time: 12:18 PM." [ref=e757]': 12:18 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e760]':
+                              - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e761]':
+                                - text: 11:05 AM
+                                - generic [ref=e762]: "+1"
+                          - generic [ref=e763]:
+                            - text: Delta, KLM
+                            - generic [ref=e764]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e765]:
+                          - generic "Total duration 16 hr 47 min." [ref=e766]: 16 hr 47 min
+                          - generic [ref=e767]:
+                            - generic [ref=e770]: PIT
+                            - text: –
+                            - generic [ref=e773]: OSL
+                        - generic [ref=e774]:
+                          - generic "2 stops flight." [ref=e776]: 2 stops
+                          - generic "Layover (1 of 2) is a 5 hr layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 1 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e777]:
+                            - generic [ref=e779]: DTW
+                            - text: ","
+                            - generic [ref=e781]: AMS
+                        - generic [ref=e783]:
+                          - generic [ref=e785]: 525 kg CO2e
+                          - generic [ref=e786]:
+                            - generic [ref=e787]: "-10% emissions"
+                            - 'button "Carbon emissions estimate: 525 kilograms. -10% emissions. Learn more about this emissions estimate" [ref=e788]':
+                              - img [ref=e789]
+                        - generic [ref=e791]:
+                          - generic [ref=e793]: $1,132
+                          - generic [ref=e794]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e797]:
+                      - img [ref=e800]
+                - listitem [ref=e802]:
+                  - generic [ref=e803]:
+                    - link "From 1176 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9. Total duration 17 hr 21 min. Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 4 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e805] [cursor=pointer]:
+                      - generic [ref=e807]:
+                        - generic [ref=e809]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9." [ref=e811]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e814]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:25 PM on Sunday, August 9." [ref=e817]':
+                              - 'generic "Arrival time: 4:25 PM on Sunday, August 9." [ref=e818]':
+                                - text: 4:25 PM
+                                - generic [ref=e819]: "+1"
+                          - generic [ref=e820]:
+                            - text: Delta, KLM
+                            - generic [ref=e821]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e822]:
+                          - generic "Total duration 17 hr 21 min." [ref=e823]: 17 hr 21 min
+                          - generic [ref=e824]:
+                            - generic [ref=e827]: PIT
+                            - text: –
+                            - generic [ref=e830]: OSL
+                        - generic [ref=e831]:
+                          - generic "2 stops flight." [ref=e833]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 4 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e834]:
+                            - generic [ref=e836]: JFK
+                            - text: ","
+                            - generic [ref=e838]: AMS
+                        - generic [ref=e840]:
+                          - generic [ref=e842]: 454 kg CO2e
+                          - generic [ref=e843]:
+                            - generic [ref=e844]: "-22% emissions"
+                            - 'button "Carbon emissions estimate: 454 kilograms. -22% emissions. Learn more about this emissions estimate" [ref=e845]':
+                              - img [ref=e846]
+                        - generic [ref=e848]:
+                          - generic [ref=e850]: $1,176
+                          - generic [ref=e851]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9." [ref=e854]:
+                      - img [ref=e857]
+                - listitem [ref=e859]:
+                  - generic [ref=e860]:
+                    - link "From 1182 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways Delta Connection, KLM Cityhopper. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 8:45 AM on Sunday, August 9. Total duration 14 hr 47 min. Layover (1 of 2) is a 3 hr layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e862] [cursor=pointer]:
+                      - generic [ref=e864]:
+                        - generic [ref=e866]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 8:45 AM on Sunday, August 9." [ref=e868]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e871]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:45 AM on Sunday, August 9." [ref=e874]':
+                              - 'generic "Arrival time: 8:45 AM on Sunday, August 9." [ref=e875]':
+                                - text: 8:45 AM
+                                - generic [ref=e876]: "+1"
+                          - generic [ref=e877]:
+                            - text: Delta, KLM
+                            - generic [ref=e878]: ·
+                            - text: Operated by Republic Airways Delta Connection, KLM Cityhopper
+                        - generic [ref=e879]:
+                          - generic "Total duration 14 hr 47 min." [ref=e880]: 14 hr 47 min
+                          - generic [ref=e881]:
+                            - generic [ref=e884]: PIT
+                            - text: –
+                            - generic [ref=e887]: OSL
+                        - generic [ref=e888]:
+                          - generic "2 stops flight." [ref=e890]: 2 stops
+                          - generic "Layover (1 of 2) is a 3 hr layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e891]:
+                            - generic [ref=e893]: JFK
+                            - text: ","
+                            - generic [ref=e895]: AMS
+                        - generic [ref=e897]:
+                          - generic [ref=e899]: 472 kg CO2e
+                          - generic [ref=e900]:
+                            - generic [ref=e901]: "-19% emissions"
+                            - 'button "Carbon emissions estimate: 472 kilograms. -19% emissions. Learn more about this emissions estimate" [ref=e902]':
+                              - img [ref=e903]
+                        - generic [ref=e905]:
+                          - generic [ref=e907]: $1,182
+                          - generic [ref=e908]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 8:45 AM on Sunday, August 9." [ref=e911]:
+                      - img [ref=e914]
+                - listitem [ref=e916]:
+                  - generic [ref=e917]:
+                    - link "From 1182 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9. Total duration 14 hr 40 min. Layover (1 of 2) is a 2 hr 45 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e919] [cursor=pointer]:
+                      - generic [ref=e921]:
+                        - generic [ref=e923]:
+                          - generic "Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e925]:
+                            - 'generic "Departure time: 2:25 PM." [ref=e928]': 2:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e931]':
+                              - 'generic "Arrival time: 11:05 AM on Sunday, August 9." [ref=e932]':
+                                - text: 11:05 AM
+                                - generic [ref=e933]: "+1"
+                          - generic [ref=e934]:
+                            - text: Delta, KLM
+                            - generic [ref=e935]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e936]:
+                          - generic "Total duration 14 hr 40 min." [ref=e937]: 14 hr 40 min
+                          - generic [ref=e938]:
+                            - generic [ref=e941]: PIT
+                            - text: –
+                            - generic [ref=e944]: OSL
+                        - generic [ref=e945]:
+                          - generic "2 stops flight." [ref=e947]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr 45 min layover at Boston Logan International Airport in Boston. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e948]:
+                            - generic [ref=e950]: BOS
+                            - text: ","
+                            - generic [ref=e952]: AMS
+                        - generic [ref=e954]:
+                          - generic [ref=e956]: 572 kg CO2e
+                          - generic [ref=e957]:
+                            - generic [ref=e958]: Avg emissions
+                            - 'button "Carbon emissions estimate: 572 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e959]':
+                              - img [ref=e960]
+                        - generic [ref=e962]:
+                          - generic [ref=e964]: $1,182
+                          - generic [ref=e965]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 2:25 PM on Saturday, August 8 and arrives at Oslo lufthavn at 11:05 AM on Sunday, August 9." [ref=e968]:
+                      - img [ref=e971]
+                - listitem [ref=e973]:
+                  - generic [ref=e974]:
+                    - link "From 1182 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Endeavor Air DBA Delta Connection, KLM Cityhopper. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 1:40 PM on Sunday, August 9. Total duration 14 hr 36 min. Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e976] [cursor=pointer]:
+                      - generic [ref=e978]:
+                        - generic [ref=e980]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 1:40 PM on Sunday, August 9." [ref=e982]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e985]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 1:40 PM on Sunday, August 9." [ref=e988]':
+                              - 'generic "Arrival time: 1:40 PM on Sunday, August 9." [ref=e989]':
+                                - text: 1:40 PM
+                                - generic [ref=e990]: "+1"
+                          - generic [ref=e991]:
+                            - text: Delta, KLM
+                            - generic [ref=e992]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection, KLM Cityhopper
+                        - generic [ref=e993]:
+                          - generic "Total duration 14 hr 36 min." [ref=e994]: 14 hr 36 min
+                          - generic [ref=e995]:
+                            - generic [ref=e998]: PIT
+                            - text: –
+                            - generic [ref=e1001]: OSL
+                        - generic [ref=e1002]:
+                          - generic "2 stops flight." [ref=e1004]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e1005]:
+                            - generic [ref=e1007]: JFK
+                            - text: ","
+                            - generic [ref=e1009]: AMS
+                        - generic [ref=e1011]:
+                          - generic [ref=e1013]: 514 kg CO2e
+                          - generic [ref=e1014]:
+                            - generic [ref=e1015]: "-12% emissions"
+                            - 'button "Carbon emissions estimate: 514 kilograms. -12% emissions. Learn more about this emissions estimate" [ref=e1016]':
+                              - img [ref=e1017]
+                        - generic [ref=e1019]:
+                          - generic [ref=e1021]: $1,182
+                          - generic [ref=e1022]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 1:40 PM on Sunday, August 9." [ref=e1025]:
+                      - img [ref=e1028]
+                - listitem [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - link "From 1182 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9. Total duration 16 hr 30 min. Layover (1 of 2) is a 3 hr 42 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 2 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e1033] [cursor=pointer]:
+                      - generic [ref=e1035]:
+                        - generic [ref=e1037]:
+                          - generic "Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9." [ref=e1039]:
+                            - 'generic "Departure time: 5:55 PM." [ref=e1042]': 5:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:25 PM on Sunday, August 9." [ref=e1045]':
+                              - 'generic "Arrival time: 4:25 PM on Sunday, August 9." [ref=e1046]':
+                                - text: 4:25 PM
+                                - generic [ref=e1047]: "+1"
+                          - generic [ref=e1048]:
+                            - text: Delta, KLM
+                            - generic [ref=e1049]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e1050]:
+                          - generic "Total duration 16 hr 30 min." [ref=e1051]: 16 hr 30 min
+                          - generic [ref=e1052]:
+                            - generic [ref=e1055]: PIT
+                            - text: –
+                            - generic [ref=e1058]: OSL
+                        - generic [ref=e1059]:
+                          - generic "2 stops flight." [ref=e1061]: 2 stops
+                          - generic "Layover (1 of 2) is a 3 hr 42 min layover at Detroit Metropolitan Wayne County Airport in Detroit. Layover (2 of 2) is a 2 hr 20 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e1062]:
+                            - generic [ref=e1064]: DTW
+                            - text: ","
+                            - generic [ref=e1066]: AMS
+                        - generic [ref=e1068]:
+                          - generic [ref=e1070]: 520 kg CO2e
+                          - generic [ref=e1071]:
+                            - generic [ref=e1072]: "-11% emissions"
+                            - 'button "Carbon emissions estimate: 520 kilograms. -11% emissions. Learn more about this emissions estimate" [ref=e1073]':
+                              - img [ref=e1074]
+                        - generic [ref=e1076]:
+                          - generic [ref=e1078]: $1,182
+                          - generic [ref=e1079]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 8 and arrives at Oslo lufthavn at 4:25 PM on Sunday, August 9." [ref=e1082]:
+                      - img [ref=e1085]
+                - listitem [ref=e1087]:
+                  - generic [ref=e1088]:
+                    - link "From 1702 US dollars round trip total. 1 stop flight with Delta and Scandinavian Airlines. Operated by Republic Airways Delta Connection. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9. Total duration 12 hr 47 min. Layover (1 of 1) is a 3 hr 30 min layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e1090] [cursor=pointer]:
+                      - generic [ref=e1092]:
+                        - generic [ref=e1094]:
+                          - generic "Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9." [ref=e1096]:
+                            - 'generic "Departure time: 11:58 AM." [ref=e1099]': 11:58 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e1102]':
+                              - 'generic "Arrival time: 6:45 AM on Sunday, August 9." [ref=e1103]':
+                                - text: 6:45 AM
+                                - generic [ref=e1104]: "+1"
+                          - generic [ref=e1105]:
+                            - text: Delta, Scandinavian Airlines
+                            - generic [ref=e1106]: ·
+                            - text: Operated by Republic Airways Delta Connection
+                        - generic [ref=e1107]:
+                          - generic "Total duration 12 hr 47 min." [ref=e1108]: 12 hr 47 min
+                          - generic [ref=e1109]:
+                            - generic [ref=e1112]: PIT
+                            - text: –
+                            - generic [ref=e1115]: OSL
+                        - generic [ref=e1116]:
+                          - generic "1 stop flight." [ref=e1118]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 30 min layover at John F. Kennedy International Airport in New York." [ref=e1119]:
+                            - text: 3 hr 30 min
+                            - generic [ref=e1121]: JFK
+                        - generic [ref=e1123]:
+                          - generic [ref=e1125]: 587 kg CO2e
+                          - generic [ref=e1126]:
+                            - generic [ref=e1127]: Avg emissions
+                            - 'button "Carbon emissions estimate: 587 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1128]':
+                              - img [ref=e1129]
+                        - generic [ref=e1131]:
+                          - generic [ref=e1133]: $1,702
+                          - generic [ref=e1134]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 11:58 AM on Saturday, August 8 and arrives at Oslo lufthavn at 6:45 AM on Sunday, August 9." [ref=e1137]:
+                      - img [ref=e1140]
+                - listitem [ref=e1142]:
+                  - generic [ref=e1143]:
+                    - link "From 2074 US dollars round trip total. 2 stops flight with United and Lufthansa. Operated by Republic Airways DBA United Express. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Oslo lufthavn at 3:50 PM on Sunday, August 9. Total duration 13 hr 51 min. Layover (1 of 2) is a 57 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 1 hr 35 min layover at Frankfurt Airport in Frankfurt am Main. Select flight"
+                    - generic [ref=e1145] [cursor=pointer]:
+                      - generic [ref=e1147]:
+                        - generic [ref=e1149]:
+                          - generic "Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Oslo lufthavn at 3:50 PM on Sunday, August 9." [ref=e1151]:
+                            - 'generic "Departure time: 7:59 PM." [ref=e1154]': 7:59 PM
+                            - text: –
+                            - 'generic "Arrival time: 3:50 PM on Sunday, August 9." [ref=e1157]':
+                              - 'generic "Arrival time: 3:50 PM on Sunday, August 9." [ref=e1158]':
+                                - text: 3:50 PM
+                                - generic [ref=e1159]: "+1"
+                          - generic [ref=e1160]:
+                            - text: United, Lufthansa
+                            - generic [ref=e1161]: ·
+                            - text: Operated by Republic Airways DBA United Express
+                        - generic [ref=e1162]:
+                          - generic "Total duration 13 hr 51 min." [ref=e1163]: 13 hr 51 min
+                          - generic [ref=e1164]:
+                            - generic [ref=e1167]: PIT
+                            - text: –
+                            - generic [ref=e1170]: OSL
+                        - generic [ref=e1171]:
+                          - generic "2 stops flight." [ref=e1173]: 2 stops
+                          - generic "Layover (1 of 2) is a 57 min layover at Dulles International Airport in Washington. Layover (2 of 2) is a 1 hr 35 min layover at Frankfurt Airport in Frankfurt am Main." [ref=e1174]:
+                            - generic [ref=e1176]: IAD
+                            - text: ","
+                            - generic [ref=e1178]: FRA
+                        - generic [ref=e1180]:
+                          - generic [ref=e1182]: 874 kg CO2e
+                          - generic [ref=e1183]:
+                            - generic [ref=e1184]: +49% emissions
+                            - 'button "Carbon emissions estimate: 874 kilograms. +49% emissions. Learn more about this emissions estimate" [ref=e1185]':
+                              - img [ref=e1186]
+                        - generic [ref=e1188]:
+                          - generic [ref=e1190]: $2,074
+                          - generic [ref=e1191]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 8 and arrives at Oslo lufthavn at 3:50 PM on Sunday, August 9." [ref=e1194]:
+                      - img [ref=e1197]
+                - listitem [ref=e1199]:
+                  - generic [ref=e1200]:
+                    - link "From 2860 US dollars round trip total. 2 stops flight with Delta, Virgin Atlantic and Scandinavian Airlines. Operated by Endeavor Air DBA Delta Connection, Sas Connect. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 12:30 PM on Sunday, August 9. Total duration 13 hr 26 min. Layover (1 of 2) is a 1 hr 6 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Manchester Airport in Manchester. Select flight"
+                    - generic [ref=e1202] [cursor=pointer]:
+                      - generic [ref=e1204]:
+                        - generic [ref=e1206]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 12:30 PM on Sunday, August 9." [ref=e1208]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e1211]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 12:30 PM on Sunday, August 9." [ref=e1214]':
+                              - 'generic "Arrival time: 12:30 PM on Sunday, August 9." [ref=e1215]':
+                                - text: 12:30 PM
+                                - generic [ref=e1216]: "+1"
+                          - generic [ref=e1217]:
+                            - text: Delta, Virgin Atlantic, Scandinavian Airlines
+                            - generic [ref=e1218]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection, Sas Connect
+                        - generic [ref=e1219]:
+                          - generic "Total duration 13 hr 26 min." [ref=e1220]: 13 hr 26 min
+                          - generic [ref=e1221]:
+                            - generic [ref=e1224]: PIT
+                            - text: –
+                            - generic [ref=e1227]: OSL
+                        - generic [ref=e1228]:
+                          - generic "2 stops flight." [ref=e1230]: 2 stops
+                          - generic "Layover (1 of 2) is a 1 hr 6 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 20 min layover at Manchester Airport in Manchester." [ref=e1231]:
+                            - generic [ref=e1233]: JFK
+                            - text: ","
+                            - generic [ref=e1235]: MAN
+                        - generic [ref=e1237]:
+                          - generic [ref=e1239]: 569 kg CO2e
+                          - generic [ref=e1240]:
+                            - generic [ref=e1241]: Avg emissions
+                            - 'button "Carbon emissions estimate: 569 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1242]':
+                              - img [ref=e1243]
+                        - generic [ref=e1245]:
+                          - generic [ref=e1247]: $2,860
+                          - generic [ref=e1248]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Oslo lufthavn at 12:30 PM on Sunday, August 9." [ref=e1251]:
+                      - img [ref=e1254]
+                - listitem [ref=e1256]:
+                  - generic [ref=e1257] [cursor=pointer]:
+                    - button "View more flights" [ref=e1260]:
+                      - img
+                    - generic [ref=e1263]: View more flights
+          - text: · · ·· · · ·· · · ·· · · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e1266]:
+        - generic [ref=e1268]:
+          - button "Language·English (United States)" [ref=e1269]:
+            - img [ref=e1272]
+            - generic [ref=e1274]: Language·English (United States)
+          - button "Location·United States" [ref=e1275]:
+            - img [ref=e1278]
+            - generic [ref=e1281]: Location·United States
+          - button "Currency USD" [ref=e1282]:
+            - img [ref=e1285]
+            - generic [ref=e1295]: Currency·USD
+        - generic [ref=e1296]:
+          - link "About Google Travel" [ref=e1297] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1298] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1299] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1300] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1301] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1302] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1304]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1305] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

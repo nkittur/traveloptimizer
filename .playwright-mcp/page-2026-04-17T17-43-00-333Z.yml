@@ -1,0 +1,381 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"theinfatuation.com\" Irvine best \"theinfatuation.com\" Irvine best"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522theinfatuation.com%2522%2BIrvine%2Bbest&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&aep=1&ntc=1&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ2J8OegQIDxAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&q=%22theinfatuation.com%22+Irvine+best&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQs6gLegQIFRAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Videos" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&q=%22theinfatuation.com%22+Irvine+best&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQtKgLegQIEhAB
+              - generic [ref=e95]: Videos
+          - listitem [ref=e96]:
+            - link "News" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=%22theinfatuation.com%22+Irvine+best&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ0pQJegQIERAB
+              - generic [ref=e99]: News
+          - listitem [ref=e100]:
+            - link "Images" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&q=%22theinfatuation.com%22+Irvine+best&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQtKgLegQIExAB
+              - generic [ref=e103]: Images
+          - listitem [ref=e104]:
+            - link "Forums" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvCHF0Eqz8cUq4JjDCZnrJHD6NPJ8v_tP39M6WC1aKr-JaOaTPdsII0eXqxZXVnNRi_B0cZsCvjaM3BhzxFUmTROiDS5NuHjxLsNceqRvQthaPtYKan5js-vKDvLfzzx6OHzdttUEu5DEzmBeX5U7rv3BuagzJchnkvoCpSvtwADCY_9Dg&q=%22theinfatuation.com%22+Irvine+best&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQs6gLegQIFBAB
+              - generic [ref=e107]: Forums
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The Infatuation The Infatuation https://www.theinfatuation.com" [ref=e144] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/
+                - heading "The Infatuation" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: The Infatuation
+                  - generic [ref=e154]: https://www.theinfatuation.com
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: A spread of Italian food on a table. The
+                - emphasis [ref=e163]: Best
+                - text: Italian Restaurants In NYC.
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/#:~:text=The%20Best%20Italian%20Restaurants%20In,NYC
+        - generic [ref=e175]:
+          - heading "Thinking" [level=2] [ref=e179]:
+            - generic [ref=e180]: Thinking
+          - progressbar [ref=e181]
+        - generic [ref=e185]:
+          - heading "Web results" [level=2] [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e190]:
+              - link "The 14 Best Restaurants In Newport Beach - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e192] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-newport-beach
+                - heading "The 14 Best Restaurants In Newport Beach - Los Angeles" [level=3] [ref=e193]
+                - generic [ref=e198]:
+                  - generic [ref=e200]: The Infatuation
+                  - generic [ref=e202]: https://www.theinfatuation.com › los-angeles › guides
+              - button "About this result" [ref=e203] [cursor=pointer]:
+                - img [ref=e206]
+            - generic [ref=e209]:
+              - generic [ref=e210]: Apr 29, 2025 —
+              - text: From old-fashioned burger shacks to counter-service poke spots to white-tablecloth French restaurants, these are our favorite restaurants in Newport Beach.
+              - link "Read more" [ref=e211] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-newport-beach#:~:text=From%20old%2Dfashioned%20burger%20shacks%20to,favorite%20restaurants%20in%20Newport%20Beach.
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "The 16 Best Day Trip Restaurants Outside Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e220] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-day-trip-restaurants-near-los-angeles
+              - heading "The 16 Best Day Trip Restaurants Outside Los Angeles" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: The Infatuation
+                - generic [ref=e230]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e237]:
+            - generic [ref=e238]: Aug 5, 2024 —
+            - generic [ref=e239]:
+              - text: This list includes a French bistro in
+              - emphasis [ref=e240]: wine
+              - text: country, an 80-year-old saloon in Joshua Tree, and fancy date spots in La Jolla—all within a few ...
+            - link "Read more" [ref=e241] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-day-trip-restaurants-near-los-angeles#:~:text=This%20list%20includes%20a%20French,underwear%20when%20you%20get%20back.
+        - generic [ref=e245]:
+          - generic [ref=e248]:
+            - link "Anaheim - Los Angeles The Infatuation https://www.theinfatuation.com › neighborhoods › ana..." [ref=e250] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/neighborhoods/anaheim
+              - heading "Anaheim - Los Angeles" [level=3] [ref=e251]
+              - generic [ref=e256]:
+                - generic [ref=e258]: The Infatuation
+                - generic [ref=e260]: https://www.theinfatuation.com › neighborhoods › ana...
+            - button "About this result" [ref=e261] [cursor=pointer]:
+              - img [ref=e264]
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - text: The
+              - emphasis [ref=e269]: Best
+              - text: Restaurants In Anaheim · The
+              - emphasis [ref=e270]: Best
+              - text: Restaurants In Anaheim · Strong Water · Aleppo's Kitchen · Tacos Los Cholos Anaheim · Lola's By MFK · Puesto · Rise Rooftop ...
+            - link "Read more" [ref=e271] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/neighborhoods/anaheim#:~:text=The%20Best%20Restaurants%20In%20Anaheim&text=The%20Best%20Restaurants%20In%20Anaheim&text=Strong%20Water&text=Aleppo's%20Kitchen&text=Tacos%20Los%20Cholos%20Anaheim&text=Lola's%20By%20MFK&text=Puesto&text=Rise%20Rooftop%20Bar
+        - generic [ref=e275]:
+          - generic [ref=e278]:
+            - link "The Best Restaurants In Little Saigon - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e280] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-little-saigon-orange-county
+              - heading "The Best Restaurants In Little Saigon - Los Angeles" [level=3] [ref=e281]
+              - generic [ref=e286]:
+                - generic [ref=e288]: The Infatuation
+                - generic [ref=e290]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e291] [cursor=pointer]:
+              - img [ref=e294]
+          - generic [ref=e297]:
+            - generic [ref=e298]: Nov 2, 2021 —
+            - text: Located in Santa Ana, Tan Cang is a classic seafood restaurant and home to the most epic dish in all of Little Saigon - the Newport Special ...
+            - link "Read more" [ref=e299] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/the-best-restaurants-little-saigon-orange-county#:~:text=Located%20in%20Santa%20Ana%2C%20Tan,Saigon%20%2D%20the%20Newport%20Special
+        - generic [ref=e303]:
+          - generic [ref=e306]:
+            - link "The 19 Best Restaurants In Anaheim - Los Angeles The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e308] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-anaheim
+              - heading "The 19 Best Restaurants In Anaheim - Los Angeles" [level=3] [ref=e309]
+              - generic [ref=e314]:
+                - generic [ref=e316]: The Infatuation
+                - generic [ref=e318]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e319] [cursor=pointer]:
+              - img [ref=e322]
+          - generic [ref=e325]:
+            - generic [ref=e326]: Jun 3, 2024 —
+            - generic [ref=e327]:
+              - text: The
+              - emphasis [ref=e328]: Best
+              - text: Restaurants In Anaheim ; Tacos Los Cholos · 821 S State College Blvd, Anaheim, CA 92806 · Mexican · Perfect For:LunchWatching Sports ; Forn ...
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/best-restaurants-anaheim#:~:text=The%20Best%20Restaurants%20In%20Anaheim&text=Tacos%20Los%20Cholos,College%20Blvd%2C%20Anaheim%2C%20CA%2092806&text=Mexican&text=Perfect%20For%3ALunchWatching%20Sports&text=Forn%20Al%20Hara
+        - generic [ref=e333]:
+          - generic [ref=e336]:
+            - link "The 16 Best Restaurants & Bars In Laguna Beach - Los ... The Infatuation https://www.theinfatuation.com › los-angeles › guides" [ref=e338] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/laguna-restaurants
+              - heading "The 16 Best Restaurants & Bars In Laguna Beach - Los ..." [level=3] [ref=e339]
+              - generic [ref=e344]:
+                - generic [ref=e346]: The Infatuation
+                - generic [ref=e348]: https://www.theinfatuation.com › los-angeles › guides
+            - button "About this result" [ref=e349] [cursor=pointer]:
+              - img [ref=e352]
+          - generic [ref=e355]:
+            - generic [ref=e356]: Jun 3, 2024 —
+            - text: From smashburgers served out of a beachside cottage to sushi bars with a serious view, Laguna Beach has many excellent places to eat.
+            - link "Read more" [ref=e357] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/los-angeles/guides/laguna-restaurants#:~:text=From%20smashburgers%20served%20out%20of,many%20excellent%20places%20to%20eat
+        - generic [ref=e362]:
+          - heading "People also ask" [level=2] [ref=e364]
+          - generic [ref=e365]:
+            - button "What are the top rated restaurants in Irvine?" [ref=e371] [cursor=pointer]:
+              - generic [ref=e373]: What are the top rated restaurants in Irvine?
+              - img [ref=e376]
+            - button "Is The Infatuation trustworthy?" [ref=e385] [cursor=pointer]:
+              - generic [ref=e387]: Is The Infatuation trustworthy?
+              - img [ref=e390]
+            - button "What is the best restaurant review site?" [ref=e399] [cursor=pointer]:
+              - generic [ref=e401]: What is the best restaurant review site?
+              - img [ref=e404]
+            - button "Is The Infatuation better than Yelp?" [ref=e413] [cursor=pointer]:
+              - generic [ref=e415]: Is The Infatuation better than Yelp?
+              - img [ref=e418]
+        - generic [ref=e423]:
+          - heading "Web results" [level=2] [ref=e424]
+          - generic [ref=e425]:
+            - generic [ref=e428]:
+              - link "Los Angeles Restaurant Reviews The Infatuation https://www.theinfatuation.com › los-angeles" [ref=e430] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles
+                - heading "Los Angeles Restaurant Reviews" [level=3] [ref=e431]
+                - generic [ref=e436]:
+                  - generic [ref=e438]: The Infatuation
+                  - generic [ref=e440]: https://www.theinfatuation.com › los-angeles
+              - button "About this result" [ref=e441] [cursor=pointer]:
+                - img [ref=e444]
+            - generic [ref=e447]:
+              - text: Latest Reviews · Milo & Olive · Venice Steakhouse · Regalade · Baroo · Gott's Roadside.
+              - link "Read more" [ref=e448] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/los-angeles#:~:text=Latest%20Reviews&text=Milo%20%26%20Olive&text=Venice%20Steakhouse&text=Regalade&text=Baroo&text=Gott's%20Roadside
+            - generic [ref=e450]:
+              - text: "Missing: Irvine ‎| Show results with:"
+              - link "Irvine" [ref=e451] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=%22theinfatuation.com%22+%22Irvine%22+best&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ5t4CegQITRAB
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - 'link "Must visit restaurants : r/orangecounty Reddit · r/orangecounty 60+ comments · 3 months ago" [ref=e460] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/1qb2xce/must_visit_restaurants/
+              - 'heading "Must visit restaurants : r/orangecounty" [level=3] [ref=e461]'
+              - generic [ref=e466]:
+                - generic [ref=e468]: Reddit · r/orangecounty
+                - generic [ref=e470]: 60+ comments · 3 months ago
+            - button "About this result" [ref=e471] [cursor=pointer]:
+              - img [ref=e474]
+          - generic [ref=e477]:
+            - generic [ref=e478]:
+              - emphasis [ref=e479]: Top
+              - text: "-rated restaurants in Orange County ... tennery. • 3mo ago · https://www."
+              - emphasis [ref=e480]: theinfatuation.com
+              - text: /los-angeles/guides/
+              - emphasis [ref=e481]: best
+              - text: "-restaurants-anaheim."
+            - link "Read more" [ref=e482] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1qb2xce/must_visit_restaurants/#:~:text=Open%20App&text=tennery,https%3A%2F%2Fwww.theinfatuation.com%2Flos%2Dangeles%2Fguides%2Fbest%2Drestaurants%2Danaheim
+        - generic [ref=e486]:
+          - generic [ref=e489]:
+            - link "Haidilao Hot Pot Irvine shared by @infatuation on Postcard Postcard.inc https://www.postcard.inc › @infatuation" [ref=e491] [cursor=pointer]:
+              - /url: https://www.postcard.inc/@infatuation/p/oSCFuWr4Mql/haidilao-hot-pot-irvine
+              - heading "Haidilao Hot Pot Irvine shared by @infatuation on Postcard" [level=3] [ref=e492]
+              - generic [ref=e497]:
+                - generic [ref=e499]: Postcard.inc
+                - generic [ref=e501]: https://www.postcard.inc › @infatuation
+            - button "About this result" [ref=e502] [cursor=pointer]:
+              - img [ref=e505]
+          - generic [ref=e508]:
+            - generic [ref=e509]: Sep 11, 2025 —
+            - generic [ref=e510]:
+              - text: https://www.
+              - emphasis [ref=e511]: theinfatuation.com
+              - text: /los-angeles/guides/great-restaurants ... More lists.
+              - emphasis [ref=e512]: Best
+              - text: Restaurants in
+              - emphasis [ref=e513]: Irvine
+              - text: (2025). User avatar.
+            - link "Read more" [ref=e514] [cursor=pointer]:
+              - /url: https://www.postcard.inc/@infatuation/p/oSCFuWr4Mql/haidilao-hot-pot-irvine#:~:text=https%3A%2F%2Fwww.theinfatuation.com%2Flos%2Dangeles%2Fguides%2Fgreat%2Drestaurants%2Dfor%2Da%2Dlast%2Dminute%2Dgroup%2Ddinner&text=More%20lists,Best%20Restaurants%20in%20Irvine%20(2025)
+      - generic [ref=e516]:
+        - generic [ref=e521]:
+          - heading "People also search for" [level=2] [ref=e523]
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - link "Theinfatuation com irvine best restaurants" [ref=e530] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Theinfatuation+com+irvine+best+restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAg6EAE
+                - generic [ref=e531]:
+                  - generic [ref=e536]: Theinfatuation com irvine best restaurants
+                  - img [ref=e540]
+              - link "Infatuation Orange County restaurants" [ref=e545] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Infatuation+Orange+County+restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhGEAE
+                - generic [ref=e546]:
+                  - generic [ref=e551]: Infatuation Orange County restaurants
+                  - img [ref=e555]
+              - link "Best lunch Newport Beach" [ref=e560] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Best+lunch+Newport+Beach&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhJEAE
+                - generic [ref=e561]:
+                  - generic [ref=e566]: Best lunch Newport Beach
+                  - img [ref=e570]
+              - link "Infatuation NYC best Restaurants" [ref=e575] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Infatuation+NYC+best+Restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhLEAE
+                - generic [ref=e576]:
+                  - generic [ref=e581]: Infatuation NYC best Restaurants
+                  - img [ref=e585]
+            - generic [ref=e587]:
+              - link "Infatuation Los Angeles Best Restaurants" [ref=e591] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Infatuation+Los+Angeles+Best+Restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhKEAE
+                - generic [ref=e592]:
+                  - generic [ref=e597]: Infatuation Los Angeles Best Restaurants
+                  - img [ref=e601]
+              - link "Newport Beach best restaurants" [ref=e606] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Newport+Beach+best+restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhHEAE
+                - generic [ref=e607]:
+                  - generic [ref=e612]: Newport Beach best restaurants
+                  - img [ref=e616]
+              - link "Infatuation DC Best Restaurants" [ref=e621] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Infatuation+DC+Best+Restaurants&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhEEAE
+                - generic [ref=e622]:
+                  - generic [ref=e627]: Infatuation DC Best Restaurants
+                  - img [ref=e631]
+              - link "Infatuation link and dine" [ref=e636] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Infatuation+link+and+dine&sa=X&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ1QJ6BAhDEAE
+                - generic [ref=e637]:
+                  - generic [ref=e642]: Infatuation link and dine
+                  - img [ref=e646]
+        - navigation [ref=e648]:
+          - heading "Page Navigation" [level=1] [ref=e649]
+          - text: "1"
+          - link "Page 2" [ref=e652] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=10&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAE
+            - text: "2"
+          - link "Page 3" [ref=e654] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=20&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAG
+            - text: "3"
+          - link "Page 4" [ref=e656] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=30&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAI
+            - text: "4"
+          - link "Page 5" [ref=e658] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=40&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAK
+            - text: "5"
+          - link "Page 6" [ref=e660] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=50&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAM
+            - text: "6"
+          - link "Page 7" [ref=e662] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=60&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAO
+            - text: "7"
+          - link "Page 8" [ref=e664] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=70&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAQ
+            - text: "8"
+          - link "Page 9" [ref=e666] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=80&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAS
+            - text: "9"
+          - link "Page 10" [ref=e668] [cursor=pointer]:
+            - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=90&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8tMDegQIRRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e670]:
+            - link "Next" [ref=e671] [cursor=pointer]:
+              - /url: /search?q=%22theinfatuation.com%22+Irvine+best&sca_esv=c0c8628026d5a19e&ei=I3HiabXbH8q-kPIP0PiXuAM&start=10&sa=N&sstk=Af77f_e9w408CbXBXpcmPn-0xXcEmGhs-HQnQJlMi0eqdG_VhId3hMjZTaDyNO0vwDOqTgTTbeyAGKDlmSYZbz7wqHDeLWviO71oXA&ved=2ahUKEwj1-PDWt_WTAxVKH0QIHVD8BTcQ8NMDegQIRRAW
+              - generic [ref=e673]: Next
+      - navigation
+    - contentinfo [ref=e674]:
+      - heading "Footer Links" [level=1] [ref=e675]
+      - generic [ref=e679]:
+        - generic [ref=e683]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e685] [cursor=pointer]:
+            - generic [ref=e686]: 92620, Irvine, CA
+            - generic [ref=e688]:
+              - text: "-"
+              - generic [ref=e689]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e691] [cursor=pointer]: Update location
+        - generic [ref=e694]:
+          - link "Help" [ref=e695] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e696] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e697] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e698] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

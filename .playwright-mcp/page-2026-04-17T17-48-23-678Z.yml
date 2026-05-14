@@ -1,0 +1,372 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/irvine Thai OR Korean OR Indian OR French OR patio OR outdoor site:reddit.com/r/irvine Thai OR Korean OR Indian OR French OR patio OR outdoor
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Firvine%2BThai%2BOR%2BKorean%2BOR%2BIndian%2BOR%2BFrench%2BOR%2Bpatio%2BOR%2Boutdoor&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&aep=1&ntc=1&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ2J8OegQIEBAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQtKgLegQIEhAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Shopping" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Shopping
+          - listitem [ref=e96]:
+            - link "Short videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQs6gLegQIFBAB
+              - generic [ref=e99]: Short videos
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQtKgLegQIFRAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Maps" [ref=e105] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=c0c8628026d5a19e&output=search&q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnydfNSqcB7rU2RLrt92_cDBPnf6-m16F3Oe5pQnQe_qnERTS372u8pSFYKw3LP-A0RiUFJA4lVjJwjKue3AMTyF2XPQTlm3RAo7eZLCJxb6ACw_-i4LtH9hMHg5JQ1vUWLyG_fRw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e107]: Maps
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "Sorry to be a Karen, but who do I report a restaurant ... Reddit · r/irvine 20+ comments · 2 weeks ago" [ref=e144] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/irvine/comments/1sasz0q/sorry_to_be_a_karen_but_who_do_i_report_a/
+                - heading "Sorry to be a Karen, but who do I report a restaurant ..." [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Reddit · r/irvine
+                  - generic [ref=e154]: 20+ comments · 2 weeks ago
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: Sorry to be a Karen, but who do I report a restaurant to whose
+                - emphasis [ref=e163]: outdoor
+                - text: seating blocks the sidewalk? There's a Mediterranean/hookah restaurant ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/irvine/comments/1sasz0q/sorry_to_be_a_karen_but_who_do_i_report_a/#:~:text=Sorry%20to%20be%20a%20Karen%2C,with%20a%20large%2Dish%20outdoor%20area.
+            - generic [ref=e169]:
+              - link "28 answers" [ref=e170] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/irvine/comments/1sasz0q/sorry_to_be_a_karen_but_who_do_i_report_a/odyar8l/
+              - generic [ref=e171]: ·
+              - generic [ref=e172]: "43 votes:"
+              - generic [ref=e173]: City code enforcement, you never know, they might have a permit
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - 'link "Best Thai Food? : r/irvine Reddit · r/irvine 40+ comments · 9 months ago" [ref=e182] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/1lv1n97/best_thai_food/
+              - 'heading "Best Thai Food? : r/irvine" [level=3] [ref=e183]'
+              - generic [ref=e188]:
+                - generic [ref=e190]: Reddit · r/irvine
+                - generic [ref=e192]: 40+ comments · 9 months ago
+            - button "About this result" [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - emphasis [ref=e201]: Siam
+              - text: Station and Manaao are both really good. Manaao is also opening up at Irvine Spectrum soon.
+            - link "Read more" [ref=e202] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1lv1n97/best_thai_food/#:~:text=Siam%20Station%20and%20Manaao%20are,up%20at%20Irvine%20Spectrum%20soon.
+          - generic [ref=e207]:
+            - link "49 answers" [ref=e208] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1lv1n97/best_thai_food/n22irhc/
+            - generic [ref=e209]: ·
+            - generic [ref=e210]: "Top answer:"
+            - generic [ref=e211]: Siam Station and Manaao are both really good. Manaao is also opening up at Irvine Spectrum soon.
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - 'link "Big Korean coffee place with wifi? : r/irvine Reddit · r/irvine 20+ comments · 1 year ago" [ref=e220] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/1jen6cw/big_korean_coffee_place_with_wifi/
+              - 'heading "Big Korean coffee place with wifi? : r/irvine" [level=3] [ref=e221]'
+              - generic [ref=e226]:
+                - generic [ref=e228]: Reddit · r/irvine
+                - generic [ref=e230]: 20+ comments · 1 year ago
+            - button "About this result" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - text: I'm looking for one of those roomy
+              - emphasis [ref=e239]: korean
+              - text: coffee houses with a lot of room and a larger menu. I'd like to sit with friends for a couple hours and talk creative ...
+            - link "Read more" [ref=e240] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1jen6cw/big_korean_coffee_place_with_wifi/#:~:text=I'm%20looking%20for%20one%20of,hours%20and%20talk%20creative%20stuff.
+          - generic [ref=e245]:
+            - link "20 answers" [ref=e246] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1jen6cw/big_korean_coffee_place_with_wifi/mik1bfg/
+            - generic [ref=e247]: ·
+            - generic [ref=e248]: "Top answer:"
+            - generic [ref=e249]: My go-to is roosevelt coffee, super friendly staff & great vibe
+        - generic [ref=e253]:
+          - generic [ref=e256]:
+            - link "Was convinced to go to a Korean spa. Was a great decision. Reddit · r/irvine 30+ comments · 11 months ago" [ref=e258] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1k9p5qv/was_convinced_to_go_to_a_korean_spa_was_a_great/
+              - heading "Was convinced to go to a Korean spa. Was a great decision." [level=3] [ref=e259]
+              - generic [ref=e264]:
+                - generic [ref=e266]: Reddit · r/irvine
+                - generic [ref=e268]: 30+ comments · 11 months ago
+            - button "About this result" [ref=e269] [cursor=pointer]:
+              - img [ref=e272]
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - text: After much nagging from my friend, he convinced me to go to a
+              - emphasis [ref=e277]: Korean
+              - text: spa (I-spa on barranca) and honestly I was very wary of going since I wasn't sure about ...
+            - link "Read more" [ref=e278] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/1k9p5qv/was_convinced_to_go_to_a_korean_spa_was_a_great/#:~:text=After%20much%20nagging%20from%20my,the%20whole%20being%20naked%20thing.
+        - generic [ref=e282]:
+          - generic [ref=e285]:
+            - 'link "Biggest patios in Irvine : r/irvine Reddit · r/irvine 20+ comments · 5 years ago" [ref=e287] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/ju943u/biggest_patios_in_irvine/
+              - 'heading "Biggest patios in Irvine : r/irvine" [level=3] [ref=e288]'
+              - generic [ref=e293]:
+                - generic [ref=e295]: Reddit · r/irvine
+                - generic [ref=e297]: 20+ comments · 5 years ago
+            - button "About this result" [ref=e298] [cursor=pointer]:
+              - img [ref=e301]
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - text: Hi, quick question, which apartment complex in Irvine has the biggest patios? I live in Palmeras and my
+              - emphasis [ref=e306]: patio
+              - text: is so small barely fit a grill ...
+            - link "Read more" [ref=e307] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/ju943u/biggest_patios_in_irvine/#:~:text=Hi%2C%20quick%20question%2C%20which%20apartment,small%20barely%20fit%20a%20grill
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - 'link "Best Korean restaurant Irvine? : r/irvine Reddit · r/irvine 10+ comments · 6 years ago" [ref=e316] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/
+              - 'heading "Best Korean restaurant Irvine? : r/irvine" [level=3] [ref=e317]'
+              - generic [ref=e322]:
+                - generic [ref=e324]: Reddit · r/irvine
+                - generic [ref=e326]: 10+ comments · 6 years ago
+            - button "About this result" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - text: I guess I need to go to garden grove or Buena Park to get good
+              - emphasis [ref=e335]: Korean
+              - text: food. All my
+              - emphasis [ref=e336]: Korean
+              - text: friends despise
+              - emphasis [ref=e337]: Korean
+              - text: restaurants in Irvine.
+            - link "Read more" [ref=e338] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/#:~:text=I%20guess%20I%20need%20to,despise%20Korean%20restaurants%20in%20Irvine.
+          - generic [ref=e343]:
+            - link "15 answers" [ref=e344] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evsal5h/
+            - generic [ref=e345]: ·
+            - generic [ref=e346]: "Top answer:"
+            - generic [ref=e347]: BCD Tofu at Diamond Jamboree is pretty good
+        - generic [ref=e351]:
+          - generic [ref=e354]:
+            - 'link "Fancy restaurant : r/irvine Reddit · r/irvine 20+ comments · 2 years ago" [ref=e356] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/
+              - 'heading "Fancy restaurant : r/irvine" [level=3] [ref=e357]'
+              - generic [ref=e362]:
+                - generic [ref=e364]: Reddit · r/irvine
+                - generic [ref=e366]: 20+ comments · 2 years ago
+            - button "About this result" [ref=e367] [cursor=pointer]:
+              - img [ref=e370]
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - text: Crystal Cove - Marche moderne and A Restaurant. Marche has the best
+              - emphasis [ref=e375]: french
+              - text: food. A is a really cool space. Both fancy. Irvine - Izakaya Osen and ...
+            - link "Read more" [ref=e376] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/#:~:text=Crystal%20Cove%20%2D%20Marche%20moderne,right%20next%20to%20each%20other.
+        - generic [ref=e380]:
+          - heading "Images" [level=2] [ref=e384]
+          - generic [ref=e388]:
+            - generic [ref=e392] [cursor=pointer]:
+              - 'link "Finally, Bass Pro Shops Outdoor World opens in Irvine : r/irvine Reddit"':
+                - /url: https://www.reddit.com/r/irvine/comments/1bq938e/finally_bass_pro_shops_outdoor_world_opens_in/
+              - 'button "Finally, Bass Pro Shops Outdoor World opens in Irvine : r/irvine" [ref=e394]':
+                - 'img "Finally, Bass Pro Shops Outdoor World opens in Irvine : r/irvine" [ref=e396]'
+              - generic [ref=e398]:
+                - generic [ref=e400]: "Finally, Bass Pro Shops Outdoor World opens in Irvine : r/irvine"
+                - generic [ref=e401]:
+                  - generic [ref=e408]: Reddit
+                  - button "About this result" [ref=e411]:
+                    - img [ref=e414]
+            - generic [ref=e419] [cursor=pointer]:
+              - link "ZionMart (Korean grocery) in Parkview Center closing in ... Reddit":
+                - /url: https://www.reddit.com/r/irvine/comments/17we0v7/zionmart_korean_grocery_in_parkview_center/
+              - button "ZionMart (Korean grocery) in Parkview Center closing in ..." [ref=e421]:
+                - img "ZionMart (Korean grocery) in Parkview Center closing in ..." [ref=e423]
+              - generic [ref=e425]:
+                - generic [ref=e427]: ZionMart (Korean grocery) in Parkview Center closing in ...
+                - generic [ref=e428]:
+                  - generic [ref=e435]: Reddit
+                  - button "About this result" [ref=e438]:
+                    - img [ref=e441]
+            - generic [ref=e446] [cursor=pointer]:
+              - 'link "TIL Woodbury Outdoor Tables Have Irvine Company Symbol : r ... Reddit"':
+                - /url: https://www.reddit.com/r/irvine/comments/171rmqa/til_woodbury_outdoor_tables_have_irvine_company/
+              - 'button "TIL Woodbury Outdoor Tables Have Irvine Company Symbol : r ..." [ref=e448]':
+                - 'img "TIL Woodbury Outdoor Tables Have Irvine Company Symbol : r ..." [ref=e450]'
+              - generic [ref=e452]:
+                - generic [ref=e454]: "TIL Woodbury Outdoor Tables Have Irvine Company Symbol : r ..."
+                - generic [ref=e455]:
+                  - generic [ref=e462]: Reddit
+                  - button "About this result" [ref=e465]:
+                    - img [ref=e468]
+          - button "Show more images" [ref=e471] [cursor=pointer]:
+            - separator [ref=e472]
+            - generic [ref=e473]:
+              - generic [ref=e474]: Show more images
+              - img [ref=e476]
+        - generic [ref=e480]:
+          - heading "Web results" [level=2] [ref=e481]
+          - generic [ref=e482]:
+            - generic [ref=e485]:
+              - 'link "Pad thai : r/irvine Reddit · r/irvine 40+ comments · 2 months ago" [ref=e487] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/irvine/comments/1qzivq6/pad_thai/
+                - 'heading "Pad thai : r/irvine" [level=3] [ref=e488]'
+                - generic [ref=e493]:
+                  - generic [ref=e495]: Reddit · r/irvine
+                  - generic [ref=e497]: 40+ comments · 2 months ago
+              - button "About this result" [ref=e498] [cursor=pointer]:
+                - img [ref=e501]
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - text: can you recommend me a restaurant here in OC that has Pad
+                - emphasis [ref=e506]: Thai
+                - text: that is as good as it is in Thailand, or even Singapore?
+              - link "Read more" [ref=e507] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/irvine/comments/1qzivq6/pad_thai/#:~:text=can%20you%20recommend%20me%20a,in%20Thailand%2C%20or%20even%20Singapore%3F
+        - generic [ref=e511]:
+          - generic [ref=e514]:
+            - 'link "What''s really good outdoor area with shades : r/irvine Reddit · r/irvine 3 comments · 2 years ago" [ref=e516] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/
+              - 'heading "What''s really good outdoor area with shades : r/irvine" [level=3] [ref=e517]'
+              - generic [ref=e522]:
+                - generic [ref=e524]: Reddit · r/irvine
+                - generic [ref=e526]: 3 comments · 2 years ago
+            - button "About this result" [ref=e527] [cursor=pointer]:
+              - img [ref=e530]
+          - generic [ref=e533]: California and Irvine is really beautiful. Lot of nature (water and mountain), but I'm seeing less shades probably due to large open spaces?
+      - generic [ref=e535]:
+        - generic [ref=e540]:
+          - heading "People also search for" [level=2] [ref=e542]
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - link "Thai korean indian french patio outdoor reviews" [ref=e549] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+korean+indian+french+patio+outdoor+reviews&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ1QJ6BAg3EAE
+                - generic [ref=e550]:
+                  - generic [ref=e555]: Thai korean indian french patio outdoor reviews
+                  - img [ref=e559]
+              - link "Thai korean indian french patio outdoor near me" [ref=e564] [cursor=pointer]:
+                - /url: /search?sca_esv=c0c8628026d5a19e&q=Thai+korean+indian+french+patio+outdoor+near+me&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ1QJ6BAg4EAE
+                - generic [ref=e565]:
+                  - generic [ref=e570]: Thai korean indian french patio outdoor near me
+                  - img [ref=e574]
+            - link "Authentic thai korean indian french patio outdoor" [ref=e580] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=Authentic+thai+korean+indian+french+patio+outdoor&sa=X&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ1QJ6BAg2EAE
+              - generic [ref=e581]:
+                - generic [ref=e586]: Authentic thai korean indian french patio outdoor
+                - img [ref=e590]
+        - navigation [ref=e592]:
+          - heading "Page Navigation" [level=1] [ref=e593]
+          - text: "1"
+          - link "Page 2" [ref=e596] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=10&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAE
+            - text: "2"
+          - link "Page 3" [ref=e598] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=20&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAG
+            - text: "3"
+          - link "Page 4" [ref=e600] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=30&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAI
+            - text: "4"
+          - link "Page 5" [ref=e602] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=40&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAK
+            - text: "5"
+          - link "Page 6" [ref=e604] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=50&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAM
+            - text: "6"
+          - link "Page 7" [ref=e606] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=60&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAO
+            - text: "7"
+          - link "Page 8" [ref=e608] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=70&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAQ
+            - text: "8"
+          - link "Page 9" [ref=e610] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=80&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAS
+            - text: "9"
+          - link "Page 10" [ref=e612] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=90&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8tMDegQIMRAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e614]:
+            - link "Next" [ref=e615] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio+OR+outdoor&sca_esv=c0c8628026d5a19e&ei=ZnLiafunNc3VkPIPw-6c0Ao&start=10&sa=N&sstk=Af77f_eaBfY5Mr2uKpTE44giiUCVdE2lJVsQ9Oz2MQPbNvWSU7a88-ALvMyKF_2BR-7D_QqxC15h6DlqQpPjkefo4j0fVZSHOo0hsg&ved=2ahUKEwj78ojxuPWTAxXNKkQIHUM3B6oQ8NMDegQIMRAW
+              - generic [ref=e617]: Next
+      - navigation
+    - contentinfo [ref=e618]:
+      - heading "Footer Links" [level=1] [ref=e619]
+      - generic [ref=e623]:
+        - generic [ref=e627]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e629] [cursor=pointer]:
+            - generic [ref=e630]: 92620, Irvine, CA
+            - generic [ref=e632]:
+              - text: "-"
+              - generic [ref=e633]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e635] [cursor=pointer]: Update location
+        - generic [ref=e638]:
+          - link "Help" [ref=e639] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e640] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e641] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e642] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,569 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2023%252F07%252F20%252Ftravel%252Fthings-to-do-copenhagen.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - figure "scoop-picture" [ref=e34]:
+              - img "People sit in the shade under brick arches next to a harbor with calm blue water. Two people wheel their bikes nearby." [ref=e38]
+            - generic [ref=e39]:
+              - link "36 Hours" [ref=e42] [cursor=pointer]:
+                - /url: https://www.nytimes.com/column/36-hours
+              - generic [ref=e44]: Copenhagen
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: "Jump to:"
+              - link "Recommendations" [ref=e49] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e51] [cursor=pointer]:
+                - /url: "#itinerary"
+              - link "Google Map" [ref=e53] [cursor=pointer]:
+                - /url: https://goo.gl/maps/gBdqMSvQjSYSeVpMA
+              - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e56]:
+                - list [ref=e58]:
+                  - listitem [ref=e59]:
+                    - button "Share full article" [ref=e62] [cursor=pointer]:
+                      - generic [ref=e63]:
+                        - img [ref=e64]
+                        - text: Share full article
+                  - listitem [ref=e66]:
+                    - button "More sharing options ..." [ref=e69] [cursor=pointer]:
+                      - img [ref=e70]
+                  - listitem [ref=e72]:
+                    - switch "Save article for reading later..." [ref=e73] [cursor=pointer]:
+                      - img [ref=e74]
+                  - listitem [ref=e78]:
+                    - button "Read 278 comments" [ref=e79] [cursor=pointer]:
+                      - generic [ref=e80]:
+                        - img [ref=e81]
+                        - text: "278"
+            - generic [ref=e83]:
+              - generic [ref=e84]: By Ingrid K. Williams
+              - generic [ref=e85]: Photographs by Charlotte de la Fuente
+              - generic [ref=e86]: July 20, 2023
+              - generic [ref=e87]: Ingrid K. Williams is a regular contributor to the Travel section. She lives part-time in Stockholm and has covered Scandinavia since 2010.
+            - paragraph [ref=e88]:
+              - text: For decades, Copenhagen has been lauded for its design, its food, its dedication to sustainability, even the general
+              - link "good cheer" [ref=e89] [cursor=pointer]:
+                - /url: https://edition.cnn.com/travel/article/worlds-happiest-countries-2022-wellness/index.html
+              - text: of its residents. But this year, architecture is the focus after UNESCO named the city the World Capital of Architecture for 2023. What that means for visitors is a yearlong
+              - link "slate" [ref=e90] [cursor=pointer]:
+                - /url: https://arkitekturhovedstad.kk.dk/en/program
+              - text: of events, exhibitions and tours of the city’s most innovative architectural projects. To maximize a trip, travelers this year need two companions. First is the
+              - link "new free app" [ref=e91] [cursor=pointer]:
+                - /url: https://dac.dk/en/city-walks/app/
+              - text: from the Danish Architecture Center with in-depth details about hundreds of notable sites. And second, as always, a bike to crisscross this dynamic, ever-evolving Scandinavian capital. Because one thing that will never change is the Danes’ devotion to cycling, a true joy in a place as bike-friendly (and flat) as Copenhagen on these blissfully long summer days.
+          - generic [ref=e92]: Advertisement
+          - generic [ref=e93]:
+            - heading "Recommendations" [level=2] [ref=e94]
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e97] [cursor=pointer]:
+                  - text: Key stops
+                  - generic [ref=e98]: –
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - text: The
+                    - strong [ref=e101]:
+                      - link "Danish Architecture Center" [ref=e102] [cursor=pointer]:
+                        - /url: https://dac.dk/en/
+                    - text: ", with a new permanent exhibition, offers an engaging introduction to the country’s influential architectural designs."
+                  - listitem [ref=e103]:
+                    - strong [ref=e104]:
+                      - link "Folkehuset Absalon" [ref=e105] [cursor=pointer]:
+                        - /url: https://absaloncph.dk/en/
+                    - text: ", a welcoming community house in a former church, hosts many events, including weekend dance parties."
+                  - listitem [ref=e106]:
+                    - strong [ref=e107]:
+                      - link "Cisternerne" [ref=e108] [cursor=pointer]:
+                        - /url: https://frederiksbergmuseerne.dk/en/cisternerne/
+                    - text: is a subterranean exhibition space with a kaleidoscopic art installation in a former water reservoir.
+                  - listitem [ref=e109]:
+                    - strong [ref=e110]:
+                      - link "Juno the Bakery" [ref=e111] [cursor=pointer]:
+                        - /url: https://www.instagram.com/juno_the_bakery/
+                    - text: ", in residential Østerbro, lures customers from across the city for its buttery cardamom buns."
+              - generic [ref=e112]:
+                - generic [ref=e113] [cursor=pointer]:
+                  - text: Museums and attractions
+                  - generic [ref=e114]: +
+                - list:
+                  - listitem [ref=e115]:
+                    - strong [ref=e116]:
+                      - link "Konditaget Lüders" [ref=e117] [cursor=pointer]:
+                        - /url: https://www.visitcopenhagen.com/copenhagen/planning/konditaget-luders-gdk1091081
+                    - text: is a rooftop playground in the Nordhavn area with panoramic harbor views.
+                  - listitem [ref=e118]:
+                    - strong [ref=e119]:
+                      - link "Sandkaj harbor bath" [ref=e120] [cursor=pointer]:
+                        - /url: https://svoemkbh.kk.dk/sandkaj
+                    - text: is a popular spot for swimming and sunbathing with a wide wooden boardwalk.
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]:
+                      - link "Designmuseum Danmark" [ref=e123] [cursor=pointer]:
+                        - /url: https://designmuseum.dk/en/
+                    - text: ", which re-opened last year after an extensive renovation, presents wide-ranging exhibitions about Danish design."
+                  - listitem [ref=e124]:
+                    - strong [ref=e125]:
+                      - link "GoBoat" [ref=e126] [cursor=pointer]:
+                        - /url: https://goboat.dk/en/copenhagen
+                    - text: and
+                    - strong [ref=e127]:
+                      - link "FriendShips" [ref=e128] [cursor=pointer]:
+                        - /url: https://www.friendships.dk/en/boat-rental-christianshavn/
+                    - text: offer boat rentals for cruising around the harbor.
+                  - listitem [ref=e129]:
+                    - strong [ref=e130]:
+                      - link "Copenhagen Contemporary" [ref=e131] [cursor=pointer]:
+                        - /url: https://copenhagencontemporary.org/en/
+                    - text: is an international art center with large-scale installations and exhibitions on Refshaleøen.
+              - generic [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]:
+                  - text: Restaurants and bars
+                  - generic [ref=e134]: +
+                - list:
+                  - listitem [ref=e135]:
+                    - strong [ref=e136]:
+                      - link "Nr.30" [ref=e137] [cursor=pointer]:
+                        - /url: https://nr30.dk/
+                    - text: is a convivial restaurant in a former butcher shop with an excellent wine list and seasonal dishes to share.
+                  - listitem [ref=e138]:
+                    - strong [ref=e139]:
+                      - link "Bird" [ref=e140] [cursor=pointer]:
+                        - /url: https://birdcph.dk/
+                    - text: ", a laid-back cocktail bar known for its vinyl collection, invites musicians and D.J.s to steer the weekend playlists."
+                  - listitem [ref=e141]:
+                    - strong [ref=e142]:
+                      - link "Andersen & Maillard" [ref=e143] [cursor=pointer]:
+                        - /url: https://www.andersenmaillard.dk/
+                    - text: in the Nordhavn district is a great spot for espresso.
+                  - listitem [ref=e144]:
+                    - strong [ref=e145]:
+                      - link "Italo Caffé" [ref=e146] [cursor=pointer]:
+                        - /url: https://www.instagram.com/italocaffe_/?hl=en
+                    - text: is a new Italian cafe serving panini on Copenhagen’s “Little Paris” street.
+                  - listitem [ref=e147]:
+                    - strong [ref=e148]:
+                      - link "Selma" [ref=e149] [cursor=pointer]:
+                        - /url: https://selmacopenhagen.dk/
+                    - text: is known for its exquisite seasonal smørrebrød, the traditional Danish open-faced sandwich.
+                  - listitem [ref=e150]:
+                    - strong [ref=e151]:
+                      - link "Pompette" [ref=e152] [cursor=pointer]:
+                        - /url: https://www.instagram.com/pompettecph/?hl=en
+                    - text: ", a wine bar in Nørrebro, is a local favorite for its well-priced natural wines and laid-back vibe."
+                  - listitem [ref=e153]:
+                    - strong [ref=e154]:
+                      - link "Autopoul" [ref=e155] [cursor=pointer]:
+                        - /url: https://www.instagram.com/autopoul/?hl=en
+                    - text: is a new bar in a former car-repair shop serving Danish ciders and local craft beer.
+                  - listitem [ref=e156]:
+                    - strong [ref=e157]:
+                      - link "Prolog" [ref=e158] [cursor=pointer]:
+                        - /url: https://www.prologcoffee.com/pages/coffee-bar
+                    - text: ", a local coffee roastery, opened a new coffee bar in Østerbro."
+                  - listitem [ref=e159]:
+                    - strong [ref=e160]:
+                      - link "Reffen" [ref=e161] [cursor=pointer]:
+                        - /url: https://reffen.dk/en/
+                    - text: is a street-food market with stalls in old shipping containers and tons of seating beside the harbor.
+                  - listitem [ref=e162]:
+                    - strong [ref=e163]:
+                      - link "Lille Bakery" [ref=e164] [cursor=pointer]:
+                        - /url: https://www.lillegrocery.com/
+                    - text: on Refshaleøen is the place to stop for something sweet, like a jam-filled Berliner doughnut.
+                  - listitem [ref=e165]:
+                    - text: A new
+                    - strong [ref=e166]:
+                      - link "Hart Bageri" [ref=e167] [cursor=pointer]:
+                        - /url: https://hartbageri.com/
+                    - text: location on Refshaleøen has sticky buns made from leftover scraps of croissant dough.
+                  - listitem [ref=e168]:
+                    - strong [ref=e169]:
+                      - link "Mikkeller Baghaven" [ref=e170] [cursor=pointer]:
+                        - /url: https://mikkeller.com/locations/mikkeller-baghaven
+                    - text: pours spontaneously fermented wild ales.
+                  - listitem [ref=e171]:
+                    - strong [ref=e172]:
+                      - link "La Banchina" [ref=e173] [cursor=pointer]:
+                        - /url: https://www.labanchina.dk/
+                    - text: is an idyllic waterside wine bar with a swimming area and sauna.
+              - generic [ref=e174]:
+                - generic [ref=e175] [cursor=pointer]:
+                  - text: Shopping
+                  - generic [ref=e176]: +
+                - list:
+                  - listitem [ref=e177]:
+                    - strong [ref=e178]:
+                      - link "Thiemers Magasin" [ref=e179] [cursor=pointer]:
+                        - /url: https://www.thiemersmagasin.dk/
+                    - text: is a bookshop with an English-language section well-stocked with Danish authors.
+                  - listitem [ref=e180]:
+                    - strong [ref=e181]:
+                      - link "CAN Family" [ref=e182] [cursor=pointer]:
+                        - /url: https://www.yeswecancan.com/
+                    - text: sells rare vinyl records and original artworks.
+                  - listitem [ref=e183]:
+                    - strong [ref=e184]:
+                      - link "Shrig Shop" [ref=e185] [cursor=pointer]:
+                        - /url: https://shrigshop.com/
+                    - text: stocks prints and posters with whimsical illustrations from the artist David Shrigley.
+                  - listitem [ref=e186]:
+                    - strong [ref=e187]:
+                      - link "Tootsie" [ref=e188] [cursor=pointer]:
+                        - /url: https://www.facebook.com/tootsiecph/
+                    - text: is a shop with mint-condition designer vintage.
+                  - listitem [ref=e189]:
+                    - strong [ref=e190]:
+                      - link "IBlameLULU" [ref=e191] [cursor=pointer]:
+                        - /url: https://iblamelulu.com/en
+                    - text: carries recent-season, second-hand clothing, including dresses from the rising-star designer Cecilie Bahnsen.
+              - generic [ref=e192]:
+                - generic [ref=e193] [cursor=pointer]:
+                  - text: Where to stay
+                  - generic [ref=e194]: +
+                - list:
+                  - listitem [ref=e195]:
+                    - strong [ref=e196]:
+                      - link "Villa Copenhagen" [ref=e197] [cursor=pointer]:
+                        - /url: https://villacopenhagen.com/
+                    - text: is a new property with a lively courtyard bar, on-site bakery, rooftop pool and 390 luxurious guest rooms beside the historic
+                    - strong [ref=e198]:
+                      - link "Tivoli Gardens" [ref=e199] [cursor=pointer]:
+                        - /url: https://www.tivoli.dk/en
+                    - text: amusement park (from 2,119 kroner, or about $318).
+                  - listitem [ref=e200]:
+                    - text: Beside a canal in Christianshavn,
+                    - strong [ref=e201]:
+                      - link "Kanalhuset" [ref=e202] [cursor=pointer]:
+                        - /url: https://kanalhusetcph.com/
+                    - text: opened in 2020 in an 18th-century building offering 12 cozy guest rooms, 14 spacious apartments and a community dining room with beautiful midcentury decor (double rooms from 1,600 kroner).
+                  - listitem [ref=e203]:
+                    - text: On a main boulevard in Vesterbro,
+                    - strong [ref=e204]:
+                      - link "CityHub Copenhagen" [ref=e205] [cursor=pointer]:
+                        - /url: https://cityhub.com/copenhagen
+                    - text: caters to globetrotting digital nomads with 215 “hubs” — capsule-style sleeping pods and four-person bunk-bed rooms — with shared bathrooms and communal workspaces (from around 600 kroner for a two-person sleeping pod).
+                  - listitem [ref=e206]:
+                    - text: Look for a
+                    - strong [ref=e207]: short-term rental
+                    - text: near the lakes — three long, rectangular lakes on the western edge of the city center — in residential Frederiksberg or bustling Nørrebro, close to subway, train and bus connections as well as the leafy lakeside paths perfect for morning jogs and evening strolls.
+              - generic [ref=e208]:
+                - generic [ref=e209] [cursor=pointer]:
+                  - text: Getting around
+                  - generic [ref=e210]: +
+                - list:
+                  - listitem [ref=e211]:
+                    - strong [ref=e212]: Biking
+                    - text: is the easiest way to get around the city. Rent by the day from a local shop (the most cost-efficient option; expect to pay about 150 kroner for a standard model) or use a bike-sharing app, like
+                    - link "Donkey Republic" [ref=e213] [cursor=pointer]:
+                      - /url: https://www.donkey.bike/cities/bike-rental-copenhagen/
+                    - text: ", for short excursions. Make sure you learn how to signal before riding. It’s also easy to get around"
+                    - strong [ref=e214]: on foot
+                    - text: and on the efficient
+                    - strong [ref=e215]: metro
+                    - text: ","
+                    - strong [ref=e216]: buses
+                    - text: ","
+                    - strong [ref=e217]: trains
+                    - text: and
+                    - strong [ref=e218]: ferries
+                    - text: (tickets can be purchased with the
+                    - link "DOT app" [ref=e219] [cursor=pointer]:
+                      - /url: https://dinoffentligetransport.dk/en/tickets/sales-outlets/dot-tickets-app/
+                    - text: ). Taxis are expensive.
+          - generic [ref=e220]:
+            - heading "Itinerary" [level=2] [ref=e221]
+            - paragraph [ref=e222]: Friday
+            - figure "scoop-picture" [ref=e224]:
+              - img "A toddler peers through a hole in a concrete block on display in a modern-looking museum space. On a table is a display of miniature buildings." [ref=e228]
+              - generic [ref=e229]: Danish Architecture Center
+            - generic [ref=e230]:
+              - generic [ref=e231]: 4 p.m. Examine Danish architecture
+              - generic [ref=e232]:
+                - text: Copenhagen’s once-industrial harbor is today a welcoming public space with an eight-mile pedestrian-and-cycling
+                - link "path" [ref=e233] [cursor=pointer]:
+                  - /url: https://www.visitcopenhagen.com/copenhagen/planning/harbour-circle-gdk1117372
+                - text: looping past swimming areas, playgrounds, the postcard-perfect Nyhavn canal and modern architectural landmarks. Find the
+                - link "Danish Architecture Center" [ref=e234] [cursor=pointer]:
+                  - /url: https://dac.dk/en/
+                - text: ", or DAC, inside one of those landmarks: the multi-use"
+                - link "Blox" [ref=e235] [cursor=pointer]:
+                  - /url: https://blox.dk/english/
+                - text: building which resembles a stack of greenish glass boxes. In March, DAC unveiled its first permanent exhibition, “So Danish!,” an engaging introduction to the country’s influential architectural designs from the Viking Age to present day, with plenty of Arne Jacobsen functionalism along the way. The current third-floor exhibition, “Copenhagen in Common” (through Oct. 22), investigates how the city employs architecture to improve the lives of locals. Don’t miss the rooftop with views across the harbor, or the option to exit via a thrilling, four-story spiral slide (DAC admission, 115 Danish kroner, or about $17).
+            - generic [ref=e236]:
+              - generic [ref=e237]: 7 p.m. Feast on seasonal fare
+              - generic [ref=e238]:
+                - text: In a city where so many restaurants tout their chefs’ Michelin-studded resumes, it’s refreshing to discover
+                - link "Nr.30" [ref=e239] [cursor=pointer]:
+                  - /url: https://nr30.dk/
+                - text: . In a former butcher shop in the Indre By district, this unpretentious restaurant is the neighborhood hangout you wish would open on your block, with easygoing servers, a convivial atmosphere and an excellent (and well-priced) wine list. A recent meal during Denmark’s fleeting asparagus season meant that stalks appeared in a third of the dishes, including pan-fried turbot with tender white asparagus and a creamy langoustine sauce. But best was the tartare of farm-raised beef with burnt leeks and crisp bits of rye. Dinner for two, without drinks, about 600 kroner.
+            - figure "scoop-picture" [ref=e241]:
+              - img "Two people dressed in drag performing on stage. They both wear blond wigs in an up-do and tight dresses, one in green and one in hot pink." [ref=e245]
+              - generic [ref=e246]: Folkehuset Absalon
+            - generic [ref=e247]:
+              - generic [ref=e248]: 11 p.m. Dance to the music
+              - generic [ref=e249]:
+                - text: On a tree-lined boulevard in the Vesterbro neighborhood,
+                - link "Folkehuset Absalon" [ref=e250] [cursor=pointer]:
+                  - /url: https://absaloncph.dk/en/
+                - text: is a welcoming community house in a deconsecrated brick church where the neighborhood gathers for morning yoga, ceramics and dance classes, weekly bingo, drag shows and nightly communal dinners. But come after dark when the color-splashed nave hosts themed parties (often free) with crowds dancing to Danish disco and pop hits beneath the steepled ceiling. If there’s no event on the
+                - link "schedule" [ref=e251] [cursor=pointer]:
+                  - /url: https://absaloncph.dk/en/calender/
+                - text: ", your backup is"
+                - link "Bird." [ref=e252] [cursor=pointer]:
+                  - /url: https://birdcph.dk/
+                - text: This laid-back cocktail bar, just farther north in Frederiksberg, is known for its vinyl collection and invites musicians and D.J.s to steer the weekend playlists. Whether it’s jazz classics, hip hop or soul, slide into a blond-wood booth and start with a margarita made with orange bitters and vermouth flavored with sea buckthorn berries (130 kroner).
+          - figure "scoop-picture" [ref=e253]:
+            - img "People swim next to a wooden-plank pier in calm water on a sunny day. Others are sunbaking on the pier." [ref=e257]
+            - generic [ref=e258]: Refshaleøen, a former shipyard, attracts crowds with its fine-dining restaurants and street-food markets, contemporary galleries and La Banchina, an idyllic waterside wine bar with a swimming area and sauna.
+          - generic [ref=e259]: Advertisement
+          - generic [ref=e260]:
+            - paragraph [ref=e261]: Saturday
+            - figure "scoop-picture" [ref=e263]:
+              - img "A birds-eye view of a rooftop playground with red play equipment in a wavy, abstract design. In the distance is a calm harbor and modern, blocky buildings." [ref=e267]
+              - generic [ref=e268]: Konditaget Lüders
+            - generic [ref=e269]:
+              - generic [ref=e270]: 9 a.m. Explore the new Nordhavn
+              - generic [ref=e271]:
+                - text: Copenhagen is often commended for its focus on sustainability, but what does that mean in practice? To find out, head to Nordhavn (North Harbor), an industrial area being transformed into a series of waterfront neighborhoods packed with glass-and-steel architecture, climate-neutral housing and clever green spaces. From the Nordhavn metro, which opened in 2020, walk to
+                - link "Konditaget Lüders" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.visitcopenhagen.com/copenhagen/planning/konditaget-luders-gdk1091081
+                - text: ", a rooftop playground atop a multi-story car park with panoramic views of the harbor and distinctive architectural marvels such as the"
+                - link "Portland Towers" [ref=e273] [cursor=pointer]:
+                  - /url: https://www.visitcopenhagen.com/copenhagen/planning/portland-towers-gdk1095316
+                - text: ","
+                - link "the Silo" [ref=e274] [cursor=pointer]:
+                  - /url: https://dac.dk/en/knowledgebase/architecture/the-silo-2/
+                - text: ","
+                - link "FN Byen" [ref=e275] [cursor=pointer]:
+                  - /url: https://dac.dk/en/knowledgebase/architecture/fn-byen-2/
+                - text: and
+                - link "CopenHill" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.copenhill.dk/en
+                - text: ", a sloping power plant with a rooftop ski hill and vertiginous climbing wall. Order a cortado (38 kroner) at the artisan bakery"
+                - link "Andersen & Maillard" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.andersenmaillard.dk/
+                - text: ", then continue to the"
+                - link "Sandkaj harbor bath" [ref=e278] [cursor=pointer]:
+                  - /url: https://svoemkbh.kk.dk/sandkaj
+                - text: ", a popular spot for swimming and sunbathing with a wide wooden boardwalk along the water."
+            - generic [ref=e279]:
+              - generic [ref=e280]: 11 a.m. Discover Danish design
+              - generic [ref=e281]:
+                - text: Architecture may be the prevalent theme this year, but for a peek at design on a smaller scale, visit
+                - link "Designmuseum Danmark" [ref=e282] [cursor=pointer]:
+                  - /url: https://designmuseum.dk/en/
+                - text: (admission, 130 kroner). In 2022, this storied museum in the historic Frederiksstaden district reopened after an extensive, two-year renovation — a delicate undertaking for an institution designed in the 1920s by the grandfather of Danish modern design, Kaare Klint, and housed in an 18th-century, Rococo-style building (a former hospital where the philosopher Søren Kierkegaard died in 1855). Explore wide-ranging exhibitions covering the spectrum from how design can address challenges such as climate change, to the development of Danish silver craftsmanship, to the history of Modernism’s influential furniture, lighting and interior designs.
+            - figure "scoop-picture" [ref=e284]:
+              - img "People shop in a clothing store that has retro-looking designs. The walls are painted in block colors of bright orange and blue." [ref=e288]
+              - generic [ref=e289]: Tootsie
+            - generic [ref=e290]:
+              - generic [ref=e291]: 1:30 p.m. Shop these blocks
+              - generic [ref=e292]:
+                - text: The charming lane Værnedamsvej has been called “Little Paris,” but
+                - link "Italo Caffé" [ref=e293] [cursor=pointer]:
+                  - /url: https://www.instagram.com/italocaffe_/?hl=en
+                - text: ", which opened there last year, is resolutely Italian. Stop for a panino — best is the thin-sliced octopus with grilled peppers, crisp greens and pesto on fluffy focaccia (110 kroner). Then pop around the corner to"
+                - link "Thiemers Magasin" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.thiemersmagasin.dk/
+                - text: ", an independent bookstore with an English-language section well-stocked with Danish authors. Down the block,"
+                - link "CAN Family" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.yeswecancan.com/
+                - text: is the place to unearth rare vinyl from the collector Martin Aalykke Kristiansen as well as paintings and ceramics made by his wife, Stine Maria Aalykke. Next door,
+                - link "Shrig Shop" [ref=e296] [cursor=pointer]:
+                  - /url: https://shrigshop.com/
+                - text: stocks limited-edition prints, posters and postcards with whimsical illustrations from the British artist David Shrigley. For mint-condition designer vintage, cross the street to
+                - link "Tootsie" [ref=e297] [cursor=pointer]:
+                  - /url: https://www.facebook.com/tootsiecph/
+                - text: ", or visit"
+                - link "IBlameLULU" [ref=e298] [cursor=pointer]:
+                  - /url: https://iblamelulu.com/en
+                - text: ", a nearby shop that often has recent-season voluminous dresses from the Danish rising-star designer Cecilie Bahnsen."
+            - figure "scoop-picture" [ref=e300]:
+              - img "A person walks in an opulent museum space with geometric-patterned floors. Roman-style statues are on display on plinths between rows of columns." [ref=e304]
+              - generic [ref=e305]: Glyptoteket
+            - generic [ref=e306]:
+              - generic [ref=e307]: 4:30 p.m. Choose your art adventure
+              - generic [ref=e308]:
+                - text: One could spend an entire weekend exploring art institutions in and around the city, from
+                - link "Glyptoteket" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.glyptoteket.com/
+                - text: with its ancient marble busts and palm-filled Winter Garden, to the
+                - link "Louisiana Museum of Art" [ref=e310] [cursor=pointer]:
+                  - /url: https://louisiana.dk/en/
+                - text: ", with its brilliant Alberto Giacometti collection and seaside sculpture garden just up the coast. When time is limited, prioritize"
+                - link "Cisternerne" [ref=e311] [cursor=pointer]:
+                  - /url: https://frederiksbergmuseerne.dk/en/cisternerne/
+                - text: ", a subterranean exhibition space in Søndermarken park (admission, 115 kroner). Descend into the dark, damp cave — formerly a water reservoir — to experience the current installation by the South Korean artist Kimsooja (through Nov. 30), a series of iridescent screens projected with rays of light. Tread carefully on the over-water walkways that wind past dreamy, ever-changing rainbows and spot-lit stalactites."
+            - figure "scoop-picture" [ref=e313]:
+              - img "A view of a plate with a neatly presented piece of smørrebrød, cut into a rectangle with sharp edges. It is topped with flowers and small herbs. A glass of wine also rests on the table." [ref=e317]
+              - generic [ref=e318]: Selma
+            - generic [ref=e319]:
+              - generic [ref=e320]: 7:30 p.m. Dine on a Danish classic
+              - generic [ref=e321]:
+                - text: Danes insist that smørrebrød should be eaten only at lunch — it’s tradition! — but bucking the norm has worked well at
+                - link "Selma" [ref=e322] [cursor=pointer]:
+                  - /url: https://selmacopenhagen.dk/
+                - text: ", the first Copenhagen restaurant specializing in the classic open-faced sandwich to earn a Bib Gourmand in the Michelin Guide. Opened by the Swedish chef Magnus Pettersson, this restaurant serves exquisite seasonal creations (and a non-smørrebrød tasting menu for sticklers). Reserve a table in the cozy dining room, with warm pendant lighting, wooden tables and floral Josef Frank wallpaper, where recent highlights included green-anise-flavored herring on Danish rye topped with petal-like pieces of pearl onion, wild-garlic cream and tiny dollops of herring caviar. To drink, try the housemade aquavit — a bracing local spirit that here is infused with flavors like herbaceous lovage and brown butter — and a draft beer (the restaurant partners with the Copenhagen craft beer pioneer Mikkeller and local microbreweries are well represented). Dinner for two, without drinks, about 700 kroner."
+            - generic [ref=e323]:
+              - generic [ref=e324]: 10 p.m. Drink up the city
+              - generic [ref=e325]:
+                - text: After dinner, join Danes for a drink. On a side street in the lively Nørrebro neighborhood,
+                - link "Pompette" [ref=e326] [cursor=pointer]:
+                  - /url: https://www.instagram.com/pompettecph/?hl=en
+                - text: is a local favorite for its well-priced natural wines — 60 kroner a glass — and laid-back vibe. Or head northwest to
+                - link "Autopoul" [ref=e327] [cursor=pointer]:
+                  - /url: https://www.instagram.com/autopoul/?hl=en
+                - text: ", a pop-up bar that opened last year in a former car-repair shop in the Nordvest area, where crowds gather around tables in the old garage and parking lot to sip Danish ciders, vermouth, natural wines and craft beers from the neighborhood’s"
+                - link "Flying Couch Brewing" [ref=e328] [cursor=pointer]:
+                  - /url: https://flyingcouch.dk/
+                - text: .
+          - figure "scoop-picture" [ref=e329]:
+            - img "A birds-eye view of a European city, with a highway in the foreground and a tall tower with a green spire rising from the buildings farther in the distance." [ref=e333]
+            - generic [ref=e334]: Copenhagen was named the UNESCO World Capital of Architecture for 2023. The city has planned a yearlong slate of events, exhibitions and tours of the city’s most innovative architectural projects.
+          - generic [ref=e335]: Advertisement
+          - generic [ref=e336]:
+            - paragraph [ref=e337]: Sunday
+            - figure "scoop-picture" [ref=e339]:
+              - img "One an outdoor table, a white cardboard box is filled with a variety of pastries, some topped with cream or fruit. A person is holding an iced coffee next to the box." [ref=e343]
+              - generic [ref=e344]: Juno the Bakery
+            - generic [ref=e345]:
+              - generic [ref=e346]: 9:30 a.m. Bike to a bakery
+              - generic [ref=e347]:
+                - text: An explosion of noteworthy new bakeries —
+                - link "Bageriet Benji" [ref=e348] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bageriet_benji/?hl=en
+                - text: ","
+                - link "Albatross og Venner" [ref=e349] [cursor=pointer]:
+                  - /url: https://www.albatrossogvenner.dk/
+                - text: in the Torvehallerne food market,
+                - link "Lille Bakery" [ref=e350] [cursor=pointer]:
+                  - /url: https://www.lillegrocery.com/
+                - text: and
+                - link "Hart Bageri" [ref=e351] [cursor=pointer]:
+                  - /url: https://hartbageri.com/
+                - text: among them — means you’re never far from a custardy spandauer pastry or a fresh loaf of Danish rye. One that absolutely shouldn’t be missed, however, is
+                - link "Juno the Bakery" [ref=e352] [cursor=pointer]:
+                  - /url: https://www.instagram.com/juno_the_bakery/
+                - text: ", opened by Emil Glaser, a former chef at Noma. On a residential corner in Østerbro, this popular bakery draws customers from across the city for its seasonal rhubarb-vanilla tarts, sweet buns stuffed with pistachio cream and frangipane-filled almond croissants. My go-to order is a buttery cardamom bun and a seeded sourdough roll with butter and cheese. It’s best paired with a creamy cappuccino from the new"
+                - link "Prolog" [ref=e353] [cursor=pointer]:
+                  - /url: https://www.prologcoffee.com/pages/coffee-bar
+                - text: coffee bar that opened nearby in February.
+            - generic [ref=e354]:
+              - generic [ref=e355]: 11 a.m. Set sail on the harbor
+              - generic [ref=e356]:
+                - text: Biking may be the preferred mode of transport in this city, but weekend traffic on the harbor suggests boating is a close second. No license or previous experience is required to captain an electric boat that seats up to eight (rentals from
+                - link "GoBoat" [ref=e357] [cursor=pointer]:
+                  - /url: https://goboat.dk/en/copenhagen
+                - text: or
+                - link "FriendShips" [ref=e358] [cursor=pointer]:
+                  - /url: https://www.friendships.dk/en/boat-rental-christianshavn/
+                - text: start at 549 kroner for one hour). Get an early start to beat the birthday parties and bachelorette groups (alcohol is allowed aboard) and putter through the narrow canals of Christianshavn and around Christiansborg Palace, the seat of Danish Parliament. When passing under the Højbro bridge, peer into the depths on the port side to spot the bronze underwater sculptures of “Agnete and the Merman,” by the Danish artist Suste Bonnén.
+            - figure "scoop-picture" [ref=e360]:
+              - img "A person sits in an outdoor sauna with a rounded, wooden roof. A large open portal looks out onto hanging greenery and a calm body of water." [ref=e364]
+              - generic [ref=e365]: La Banchina
+            - generic [ref=e366]:
+              - generic [ref=e367]: 1:30 p.m. Hop around Refshaleøen
+              - generic [ref=e368]:
+                - text: Back on land, follow the stream of people headed north toward Refshaleøen, a rough-edged industrial area and former shipyard that today houses creative start-ups, fine-dining restaurants and much more. Many go directly to
+                - link "Reffen" [ref=e369] [cursor=pointer]:
+                  - /url: https://reffen.dk/en/
+                - text: ", a street-food market with stalls in old shipping containers and tons of seating beside the harbor. Instead, stop at"
+                - link "Copenhagen Contemporary" [ref=e370] [cursor=pointer]:
+                  - /url: https://copenhagencontemporary.org/en/
+                - text: for large-scale art exhibitions, including a glowing James Turrell installation (admission, 120 kroner). Grab something sweet at
+                - link "Lille Bakery" [ref=e371] [cursor=pointer]:
+                  - /url: https://www.lillegrocery.com/
+                - text: ", or pop into"
+                - link "Hart Bageri" [ref=e372] [cursor=pointer]:
+                  - /url: https://hartbageri.com/
+                - text: ", which opened this location in May, for a sticky bun made from leftover scraps of croissant dough. Then visit"
+                - link "Mikkeller Baghaven" [ref=e373] [cursor=pointer]:
+                  - /url: https://mikkeller.com/locations/mikkeller-baghaven
+                - text: to sample spontaneously fermented sour beers — maybe a peachy Pántáo wild ale? (60 kroner) — or sunbathe on the pier at
+                - link "La Banchina" [ref=e374] [cursor=pointer]:
+                  - /url: https://www.labanchina.dk/
+                - text: ", an idyllic waterside wine bar with a swimming area and sauna."
+        - generic [ref=e377]:
+          - strong [ref=e378]: "Correction:"
+          - text: July 24, 2023
+          - paragraph [ref=e379]: An earlier version of this article incorrectly stated that Mikkeller Baghaven, a bar in Copenhagen, brews beer onsite. The bar no longer brews beer at that location.
+    - generic [ref=e382]:
+      - generic [ref=e383]:
+        - text: Support independent journalism with a subscription.
+        - generic [ref=e384]:
+          - text: Already a subscriber?
+          - link [ref=e385] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=oma&asset=RegiWallStandalone&application=Free_Experience&reload=3&campaignId=7JFJX&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26redirect_uri%3Dhttps%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2023%2F07%2F20%2Ftravel%2Fthings-to-do-copenhagen.html%26EXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2Finteractive%2F2023%2F07%2F20%2Ftravel%2Fthings-to-do-copenhagen.html
+            - text: Log in.
+      - separator [ref=e386]
+      - generic [ref=e388]:
+        - generic [ref=e389]:
+          - generic [ref=e390]: Enjoy unlimited access for $1 a week.
+          - generic [ref=e391]: Welcome offer
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - generic [ref=e394]: Was
+              - text: $7.50
+            - generic [ref=e395]: Now
+            - text: $1/week
+          - generic [ref=e396]: Billed as $4 every 4 weeks for your first 6 months, then $30 thereafter.
+        - generic [ref=e397]:
+          - generic [ref=e400]:
+            - link [ref=e402] [cursor=pointer]:
+              - /url: https://myaccount.nytimes.com/get-started/payment?campaignId=9XHYQ&o=981b1f30-fe72-4186-92f5-5c6368715550
+              - paragraph [ref=e403]: Continue with card
+            - link [ref=e404] [cursor=pointer]:
+              - /url: https://myaccount.nytimes.com/get-started/payment?campaignId=9XHYQ&o=981b1f30-fe72-4186-92f5-5c6368715550&source=paywall%3Apaypal
+              - img [ref=e405]
+          - generic [ref=e412]: Cancel or pause anytime.
+      - generic [ref=e414]:
+        - generic [ref=e415]: All Access includes news, plus Games, Cooking, Audio, Wirecutter and The Athletic.
+        - separator [ref=e416]
+        - generic [ref=e419]:
+          - text: Offer for a New York Times All Access subscription. Current subscribers and those who have previously accepted a sale/introductory offer from The New York Times may be ineligible for another sale/introductory offer. Subscription excludes print edition. Some games may be available without a subscription. You will be automatically charged in advance $4.00 every 4 weeks for 6 months, and $30.00 every 4 weeks thereafter. Cancel before November 9, 2026 to avoid the transition to the standard price that will be charged on that date. You can
+          - link [ref=e420] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/360003499613-Cancel-Your-Subscription
+            - text: cancel
+          - text: prior to renewal from your account settings online or during limited hours via chat or phone. Cancellation is effective at the end of the current billing period unless an exception applies; see our
+          - link [ref=e421] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: Terms of Sale
+          - text: . For U.S. subscribers, cancellation takes effect at the end of your current billing period. For international subscribers, see our
+          - link [ref=e422] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: Terms of Sale
+          - text: for further information. Taxes may apply. Offer terms are subject to change.
+        - separator [ref=e423]
+        - generic [ref=e424]:
+          - paragraph [ref=e425]: ©2026 The New York Times Company
+          - link [ref=e426] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us
+            - text: Help
+          - link [ref=e427] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us?redir=myacc
+            - text: Feedback

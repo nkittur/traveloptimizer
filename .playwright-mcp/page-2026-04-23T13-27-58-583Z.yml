@@ -1,0 +1,1391 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodLosAngeles" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 20 Aug 2023
+      - generic [ref=e130]: 15 points (94% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/15w03nr
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodLosAngeles/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "FoodLosAngeles" [level=1] [ref=e145]:
+        - link "FoodLosAngeles" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodLosAngeles/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Food Los Angeles is dedicated to showcasing great food from all over Los Angeles! Share pictures, reviews, websites, etc.
+        - paragraph [ref=e153]: Who doesn't like food?! Subscribe! :)
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Rules
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: Be friendly
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: Try to specify where the food is from in the comments or title
+        - paragraph [ref=e161]:
+          - strong [ref=e162]: Post Tags
+        - paragraph [ref=e163]:
+          - strong [ref=e164]: "[THE BEST PLACE IN]"
+        - paragraph [ref=e165]:
+          - strong [ref=e166]: "[WHO MAKES THE BEST]"
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: "Related Subs:"
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - paragraph [ref=e171]:
+              - strong [ref=e172]:
+                - link "/r/FoodWishes" [ref=e173] [cursor=pointer]:
+                  - /url: /r/FoodWishes
+                - text: (NEW!)
+          - listitem [ref=e174]:
+            - paragraph [ref=e175]:
+              - link "/r/Food" [ref=e176] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e177]:
+            - paragraph [ref=e178]:
+              - link "/r/FoodPorn" [ref=e179] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e180]:
+            - paragraph [ref=e181]:
+              - link "/r/LosAngeles" [ref=e182] [cursor=pointer]:
+                - /url: /r/LosAngeles
+        - paragraph [ref=e183]:
+          - strong [ref=e184]: Resources
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - paragraph [ref=e187]:
+              - link "Reddit's take on the best restaurants in Los Angeles" [ref=e188] [cursor=pointer]:
+                - /url: http://www.reddit.com/r/LosAngeles/comments/2dq6tr/whats_your_favorite_restaurant_in_los_angeles/
+          - listitem [ref=e189]:
+            - paragraph [ref=e190]:
+              - link "20 Best Restaurants in Los Angeles | LAWeekly.com" [ref=e191] [cursor=pointer]:
+                - /url: http://www.laweekly.com/squidink/2014/04/15/20-best-restaurants-in-los-angeles
+          - listitem [ref=e192]:
+            - paragraph [ref=e193]:
+              - link "L.A.'s 75 Best Restaurants | LAMag.com" [ref=e194] [cursor=pointer]:
+                - /url: http://www.lamag.com/thejump/2014/04/23/hot-stuff-announcing-las-75-best-restaurants
+          - listitem [ref=e195]:
+            - paragraph [ref=e196]:
+              - link "10 Foods Los Angeles Does Better Than Anywhere Else | HuffingtonPost.com" [ref=e197] [cursor=pointer]:
+                - /url: http://www.huffingtonpost.com/2013/10/15/best-los-angeles-food_n_4101759.html
+          - listitem [ref=e198]:
+            - paragraph [ref=e199]:
+              - link "Roaming Hunger Food Truck Map" [ref=e200] [cursor=pointer]:
+                - /url: http://roaminghunger.com/la
+          - listitem [ref=e201]:
+            - paragraph [ref=e202]:
+              - link "FoodTrucksMap.com" [ref=e203] [cursor=pointer]:
+                - /url: http://www.foodtruckmaps.com/la/
+        - paragraph [ref=e204]:
+          - strong [ref=e205]: The Food Network
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "/r/FoodToronto" [ref=e209] [cursor=pointer]:
+                - /url: /r/FoodToronto
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "/r/FoodPortland" [ref=e212] [cursor=pointer]:
+                - /url: /r/FoodPortland
+          - listitem [ref=e213]:
+            - paragraph [ref=e214]:
+              - link "/r/FoodNYC" [ref=e215] [cursor=pointer]:
+                - /url: /r/FoodNYC
+          - listitem [ref=e216]:
+            - paragraph [ref=e217]:
+              - link "/r/FoodSanDiego" [ref=e218] [cursor=pointer]:
+                - /url: /r/FoodSanDiego
+          - listitem [ref=e219]:
+            - paragraph [ref=e220]:
+              - link "/r/FoodVancouver" [ref=e221] [cursor=pointer]:
+                - /url: /r/FoodVancouver
+          - listitem [ref=e222]:
+            - paragraph [ref=e223]:
+              - link "/r/ChicagoFood" [ref=e224] [cursor=pointer]:
+                - /url: /r/ChicagoFood
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - link "/r/ColumbusFood" [ref=e227] [cursor=pointer]:
+                - /url: /r/ColumbusFood
+          - listitem [ref=e228]:
+            - paragraph [ref=e229]:
+              - link "/r/FoodSoCal" [ref=e230] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e231]:
+            - paragraph [ref=e232]:
+              - link "/r/FoodNewOrleans" [ref=e233] [cursor=pointer]:
+                - /url: /r/FoodNewOrleans
+          - listitem [ref=e234]:
+            - paragraph [ref=e235]:
+              - link "/r/FoodSanFrancisco" [ref=e236] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+        - paragraph [ref=e237]: "Related Subs:"
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - link "/r/Burgers" [ref=e240] [cursor=pointer]:
+              - /url: /r/Burgers
+      - generic [ref=e242]:
+        - text: a community for
+        - time [ref=e243]: 11 years
+    - generic [ref=e245]:
+      - heading "MODERATORS" [level=1] [ref=e247]
+      - list [ref=e248]:
+        - listitem [ref=e249]:
+          - link "message the mods" [ref=e250] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodLosAngeles
+    - complementary [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - text: discussions in
+          - link "r/FoodLosAngeles" [ref=e256] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodLosAngeles/?ref=readnext
+        - navigation [ref=e257]:
+          - generic [ref=e258] [cursor=pointer]: <
+          - generic [ref=e259] [cursor=pointer]: ">"
+        - generic [ref=e261] [cursor=pointer]: X
+      - link "35 · 18 comments r/FoodLosAngeles — 2025's Best Restaurants Poll results!" [ref=e263] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodLosAngeles/comments/1rmlc6a/rfoodlosangeles_2025s_best_restaurants_poll/?ref=readnext_0
+        - generic [ref=e264]: 35 · 18 comments
+        - generic [ref=e265]: r/FoodLosAngeles — 2025's Best Restaurants Poll results!
+  - main [ref=e266]:
+    - generic [ref=e267]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e268] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e269]
+        - paragraph [ref=e270]: the front page of the internet.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Become a Redditor
+          - paragraph [ref=e273]: and join one of thousands of communities.
+      - link "×" [ref=e274] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e276]:
+      - paragraph
+      - generic [ref=e277]:
+        - button "upvote" [ref=e278] [cursor=pointer]
+        - generic "15" [ref=e279]
+        - button "downvote" [ref=e280] [cursor=pointer]
+      - link [ref=e281] [cursor=pointer]:
+        - /url: /r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - paragraph [ref=e284]:
+            - link "General recommendations for westwood / UCLA?" [ref=e285] [cursor=pointer]:
+              - /url: /r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+            - generic "THE BEST PLACE IN" [ref=e286]
+            - generic [ref=e287]:
+              - text: (
+              - link "self.FoodLosAngeles" [ref=e288] [cursor=pointer]:
+                - /url: /r/FoodLosAngeles/
+              - text: )
+          - paragraph [ref=e289]:
+            - text: submitted
+            - time [ref=e290]: 2 years ago
+            - text: by
+            - link "vriskasserkets" [ref=e291] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/vriskasserkets
+        - generic [ref=e295]:
+          - paragraph [ref=e296]: I’m from SD, but moving there for school. Just wondering what places LA natives recommend that’s in a walking distance / bus accessible from UCLA. Nothing that’ll break the bank pls 🙏
+          - paragraph [ref=e297]: I prefer asian food btw but open to anything
+        - list [ref=e298]:
+          - listitem [ref=e299]:
+            - link "28 comments" [ref=e300] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+          - listitem [ref=e301]:
+            - link "share" [ref=e302] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e303]:
+            - link "save" [ref=e304] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e305]:
+            - link "hide" [ref=e308] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e309]:
+            - link "report" [ref=e310] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e311]:
+      - generic [ref=e312]: all 28 comments
+      - generic [ref=e314]:
+        - text: "sorted by:"
+        - generic [ref=e315]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e318] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e319]
+        - generic [ref=e320]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e321]
+          - paragraph [ref=e322]: Post a comment!
+          - generic [ref=e324]: Create an account
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - paragraph
+          - generic [ref=e327]:
+            - button "upvote" [ref=e328] [cursor=pointer]
+            - button "downvote" [ref=e329] [cursor=pointer]
+          - generic [ref=e330]:
+            - paragraph [ref=e331]:
+              - link "[–]" [ref=e332] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "GitDaHellOuttaDoge" [ref=e333] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/GitDaHellOuttaDoge
+              - text: 20 points
+              - time [ref=e334]: 2 years ago
+            - paragraph [ref=e338]: KazuNori handrolls for sushi
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - link "permalink" [ref=e341] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwydebi/
+              - listitem [ref=e342]:
+                - link "embed" [ref=e343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e344]:
+                - link "save" [ref=e345] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e346]:
+                - link "report" [ref=e347] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e348]:
+                - link "reply" [ref=e349] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e350]:
+          - paragraph
+          - generic [ref=e351]:
+            - button "upvote" [ref=e352] [cursor=pointer]
+            - button "downvote" [ref=e353] [cursor=pointer]
+          - generic [ref=e354]:
+            - paragraph [ref=e355]:
+              - link "[–]" [ref=e356] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "e90t" [ref=e357] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/e90t
+              - text: 13 points
+              - time [ref=e358]: 2 years ago
+            - paragraph [ref=e362]: Qin West Noodle is a good choice that won’t break the bank. And pretty much anything on Sawtelle will be a solid choice. But you’re better off going to K-Town for value.
+            - list [ref=e363]:
+              - listitem [ref=e364]:
+                - link "permalink" [ref=e365] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwyc0na/
+              - listitem [ref=e366]:
+                - link "embed" [ref=e367] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e368]:
+                - link "save" [ref=e369] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e370]:
+                - link "report" [ref=e371] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e372]:
+                - link "reply" [ref=e373] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e376]:
+            - paragraph
+            - generic [ref=e377]:
+              - button "upvote" [ref=e378] [cursor=pointer]
+              - button "downvote" [ref=e379] [cursor=pointer]
+            - generic [ref=e380]:
+              - paragraph [ref=e381]:
+                - link "[–]" [ref=e382] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Buffalo_Bread" [ref=e383] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Buffalo_Bread
+                - text: 1 point
+                - time [ref=e384]: 2 years ago
+              - paragraph [ref=e388]: It's not super far from the village, but this is a great option especially since the portions are solid
+              - list [ref=e389]:
+                - listitem [ref=e390]:
+                  - link "permalink" [ref=e391] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx2gm08/
+                - listitem [ref=e392]:
+                  - link "embed" [ref=e393] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e394]:
+                  - link "save" [ref=e395] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e396]:
+                  - link "parent" [ref=e397] [cursor=pointer]:
+                    - /url: "#jwyc0na"
+                - listitem [ref=e398]:
+                  - link "report" [ref=e399] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e400]:
+                  - link "reply" [ref=e401] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e402]:
+          - paragraph
+          - generic [ref=e403]:
+            - button "upvote" [ref=e404] [cursor=pointer]
+            - button "downvote" [ref=e405] [cursor=pointer]
+          - generic [ref=e406]:
+            - paragraph [ref=e407]:
+              - link "[–]" [ref=e408] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Opinionated_Urbanist" [ref=e409] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Opinionated_Urbanist
+              - generic "Claremont" [ref=e410]
+              - text: 8 points
+              - time [ref=e411]: 2 years ago
+            - generic [ref=e414]:
+              - paragraph [ref=e415]: If you want good Asian food, just go to Sawtelle. It's very close.
+              - paragraph [ref=e416]: Westwood Blvd between Mississippi and Wilshire has numerous Middle Eastern restaurants, it's nickname is Persian Square/Little Persia. Oddly enough - the two best restaurants in that neighborhood are Turkish (Nuka Cafe) and Italian (Pomodoro).
+            - list [ref=e417]:
+              - listitem [ref=e418]:
+                - link "permalink" [ref=e419] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx1vm1c/
+              - listitem [ref=e420]:
+                - link "embed" [ref=e421] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e422]:
+                - link "save" [ref=e423] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e424]:
+                - link "report" [ref=e425] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e426]:
+                - link "reply" [ref=e427] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e428]:
+          - paragraph
+          - generic [ref=e429]:
+            - button "upvote" [ref=e430] [cursor=pointer]
+            - button "downvote" [ref=e431] [cursor=pointer]
+          - generic [ref=e432]:
+            - paragraph [ref=e433]:
+              - link "[–]" [ref=e434] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Ryork_la" [ref=e435] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Ryork_la
+              - text: 8 points
+              - time [ref=e436]: 2 years ago
+            - paragraph [ref=e440]: Sunnin Lebanese Cafe at the corner of Westwood and Santa Monics has amazing Lebanese food.
+            - list [ref=e441]:
+              - listitem [ref=e442]:
+                - link "permalink" [ref=e443] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwyb1ek/
+              - listitem [ref=e444]:
+                - link "embed" [ref=e445] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e446]:
+                - link "save" [ref=e447] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e448]:
+                - link "report" [ref=e449] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e450]:
+                - link "reply" [ref=e451] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e452]:
+          - paragraph
+          - generic [ref=e453]:
+            - button "upvote" [ref=e454] [cursor=pointer]
+            - button "downvote" [ref=e455] [cursor=pointer]
+          - generic [ref=e456]:
+            - paragraph [ref=e457]:
+              - link "[–]" [ref=e458] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dommichu" [ref=e459] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dommichu
+              - text: 7 points
+              - time [ref=e460]: 2 years ago
+            - generic [ref=e463]:
+              - paragraph [ref=e464]: Atari for Sandwiches. One sandwich places in LA.
+              - paragraph [ref=e465]: IF 99 Ranch ever opens it should have some awesome food options. I just went to the new Eastvale one and omg!!! It can’t open soon enough.
+              - paragraph [ref=e466]: Also big news just dropped! Danny Boys is opening up their second location in the village!!!! It’s one of my favorite pizzas in LA. I am happy for you.
+            - list [ref=e467]:
+              - listitem [ref=e468]:
+                - link "permalink" [ref=e469] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwyl3au/
+              - listitem [ref=e470]:
+                - link "embed" [ref=e471] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e472]:
+                - link "save" [ref=e473] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e474]:
+                - link "report" [ref=e475] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e476]:
+                - link "reply" [ref=e477] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e478]:
+          - paragraph
+          - generic [ref=e479]:
+            - button "upvote" [ref=e480] [cursor=pointer]
+            - button "downvote" [ref=e481] [cursor=pointer]
+          - generic [ref=e482]:
+            - paragraph [ref=e483]:
+              - link "[–]" [ref=e484] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Excellent-Antelope42" [ref=e485] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Excellent-Antelope42
+              - text: 4 points
+              - time [ref=e486]: 2 years ago
+            - paragraph [ref=e490]: iXLB just opened. Noodle World. Boiling Crab. Kazu Nori. Northern Cafe. Westwood has tons a Asian food spots walking distance from UCLA. Sawtelle area is a short Uber away too.
+            - list [ref=e491]:
+              - listitem [ref=e492]:
+                - link "permalink" [ref=e493] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx0fxg7/
+              - listitem [ref=e494]:
+                - link "embed" [ref=e495] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e496]:
+                - link "save" [ref=e497] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e498]:
+                - link "report" [ref=e499] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e500]:
+                - link "reply" [ref=e501] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e502]:
+          - paragraph
+          - generic [ref=e503]:
+            - button "upvote" [ref=e504] [cursor=pointer]
+            - button "downvote" [ref=e505] [cursor=pointer]
+          - generic [ref=e506]:
+            - paragraph [ref=e507]:
+              - link "[–]" [ref=e508] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "euthlogo" [ref=e509] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/euthlogo
+              - text: 3 points
+              - time [ref=e510]: 2 years ago
+            - paragraph [ref=e514]: Shamshiri is so good. Profeta Coffee. Enzos Pizza. Primos Donuts. Lamonicas Pizza. Corner Deli (at the gas station) breakfast burrito. Pomodoro italian. Kung Fu Boba/TKK Fried Chicken. Qin West Beef Noodle Soup.
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "permalink" [ref=e517] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx1ib26/
+              - listitem [ref=e518]:
+                - link "embed" [ref=e519] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e520]:
+                - link "save" [ref=e521] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e522]:
+                - link "report" [ref=e523] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e524]:
+                - link "reply" [ref=e525] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e526]:
+          - paragraph
+          - generic [ref=e527]:
+            - button "upvote" [ref=e528] [cursor=pointer]
+            - button "downvote" [ref=e529] [cursor=pointer]
+          - generic [ref=e530]:
+            - paragraph [ref=e531]:
+              - link "[–]" [ref=e532] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Buffalo_Bread" [ref=e533] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Buffalo_Bread
+              - text: 3 points
+              - time [ref=e534]: 2 years ago
+              - time [ref=e535]: "*"
+            - generic [ref=e538]:
+              - paragraph [ref=e539]: For something super affordable, healthy, and close to UCLA, check out Falafel. Their whole premise is serving healthy food that fills you for cheap. The prices might have gone up since the last time I went, but their sandwiches and bowls will run you roughly $5, which is kinda insane with today's prices.
+              - paragraph [ref=e540]: Also can't go wrong with CAVA and Gogobop. They're the Mediterranean and Korean equivalents of Chipotle.
+            - list [ref=e541]:
+              - listitem [ref=e542]:
+                - link "permalink" [ref=e543] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx2hjjm/
+              - listitem [ref=e544]:
+                - link "embed" [ref=e545] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e546]:
+                - link "save" [ref=e547] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e548]:
+                - link "report" [ref=e549] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e550]:
+                - link "reply" [ref=e551] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e552]:
+          - paragraph
+          - generic [ref=e553]:
+            - button "upvote" [ref=e554] [cursor=pointer]
+            - button "downvote" [ref=e555] [cursor=pointer]
+          - generic [ref=e556]:
+            - paragraph [ref=e557]:
+              - link "[–]" [ref=e558] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "981flacht6" [ref=e559] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/981flacht6
+              - text: 3 points
+              - time [ref=e560]: 2 years ago
+            - paragraph [ref=e564]: Westwood is a small place. If you're going for school, you'll end up trying everything there. Most of it's not too expensive anyway.
+            - list [ref=e565]:
+              - listitem [ref=e566]:
+                - link "permalink" [ref=e567] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx8gqjp/
+              - listitem [ref=e568]:
+                - link "embed" [ref=e569] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e570]:
+                - link "save" [ref=e571] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e572]:
+                - link "report" [ref=e573] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e574]:
+                - link "reply" [ref=e575] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e578]:
+            - paragraph
+            - generic [ref=e579]:
+              - button "upvote" [ref=e580] [cursor=pointer]
+              - button "downvote" [ref=e581] [cursor=pointer]
+            - generic [ref=e582]:
+              - paragraph [ref=e583]:
+                - link "[–]" [ref=e584] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "vriskasserkets" [ref=e585] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/vriskasserkets
+                - generic [ref=e586]:
+                  - text: "["
+                  - link "S" [ref=e587] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e588]: 2 years ago
+              - paragraph [ref=e592]: thank you !
+              - list [ref=e593]:
+                - listitem [ref=e594]:
+                  - link "permalink" [ref=e595] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx963va/
+                - listitem [ref=e596]:
+                  - link "embed" [ref=e597] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e598]:
+                  - link "save" [ref=e599] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e600]:
+                  - link "parent" [ref=e601] [cursor=pointer]:
+                    - /url: "#jx8gqjp"
+                - listitem [ref=e602]:
+                  - link "report" [ref=e603] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e604]:
+                  - link "reply" [ref=e605] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e606]:
+          - paragraph
+          - generic [ref=e607]:
+            - button "upvote" [ref=e608] [cursor=pointer]
+            - button "downvote" [ref=e609] [cursor=pointer]
+          - generic [ref=e610]:
+            - paragraph [ref=e611]:
+              - link "[–]" [ref=e612] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 4 points"
+              - time [ref=e613]: 2 years ago
+            - paragraph [ref=e617]: diddy riese for dessert
+            - list [ref=e618]:
+              - listitem [ref=e619]:
+                - link "permalink" [ref=e620] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwyrsil/
+              - listitem [ref=e621]:
+                - link "embed" [ref=e622] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e623]:
+                - link "save" [ref=e624] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e625]:
+                - link "report" [ref=e626] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e627]:
+                - link "reply" [ref=e628] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e631]:
+            - paragraph
+            - generic [ref=e632]:
+              - button "upvote" [ref=e633] [cursor=pointer]
+              - button "downvote" [ref=e634] [cursor=pointer]
+            - generic [ref=e635]:
+              - paragraph [ref=e636]:
+                - link "[–]" [ref=e637] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "vriskasserkets" [ref=e638] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/vriskasserkets
+                - generic [ref=e639]:
+                  - text: "["
+                  - link "S" [ref=e640] [cursor=pointer]:
+                    - /url: /r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e641]: 2 years ago
+              - paragraph [ref=e645]: I went there the other day when I was at UCLA! It was super delicious and surprisingly cheap!! I’m for sure gonna go there a lot 🙏
+              - list [ref=e646]:
+                - listitem [ref=e647]:
+                  - link "permalink" [ref=e648] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx1038q/
+                - listitem [ref=e649]:
+                  - link "embed" [ref=e650] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e651]:
+                  - link "save" [ref=e652] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e653]:
+                  - link "parent" [ref=e654] [cursor=pointer]:
+                    - /url: "#jwyrsil"
+                - listitem [ref=e655]:
+                  - link "report" [ref=e656] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e657]:
+                  - link "reply" [ref=e658] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e659]:
+          - paragraph
+          - generic [ref=e660]:
+            - button "upvote" [ref=e661] [cursor=pointer]
+            - button "downvote" [ref=e662] [cursor=pointer]
+          - generic [ref=e663]:
+            - paragraph [ref=e664]:
+              - link "[–]" [ref=e665] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Scared-Photograph195" [ref=e666] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Scared-Photograph195
+              - text: 2 points
+              - time [ref=e667]: 2 years ago
+            - paragraph [ref=e671]: Naab Cafe is wonderful! I also love Zankou Chicken. Check out Sawtelle for Asian food :)
+            - list [ref=e672]:
+              - listitem [ref=e673]:
+                - link "permalink" [ref=e674] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx0fwom/
+              - listitem [ref=e675]:
+                - link "embed" [ref=e676] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e677]:
+                - link "save" [ref=e678] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e679]:
+                - link "report" [ref=e680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e681]:
+                - link "reply" [ref=e682] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e683]:
+          - paragraph
+          - generic [ref=e684]:
+            - button "upvote" [ref=e685] [cursor=pointer]
+            - button "downvote" [ref=e686] [cursor=pointer]
+          - generic [ref=e687]:
+            - paragraph [ref=e688]:
+              - link "[–]" [ref=e689] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 2 points"
+              - time [ref=e690]: 2 years ago
+            - paragraph [ref=e694]: I’m not 100% sure of the line number, but a big blue bus line goes down Sawtelle Blvd which has a ton of amazing Asian (mostly Japanese) restaurants. The street is always packed with UCLA students. My favorite is killer noodle
+            - list [ref=e695]:
+              - listitem [ref=e696]:
+                - link "permalink" [ref=e697] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx0qfct/
+              - listitem [ref=e698]:
+                - link "embed" [ref=e699] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e700]:
+                - link "save" [ref=e701] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e702]:
+                - link "report" [ref=e703] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e704]:
+                - link "reply" [ref=e705] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e706]:
+          - paragraph
+          - generic [ref=e707]:
+            - button "upvote" [ref=e708] [cursor=pointer]
+            - button "downvote" [ref=e709] [cursor=pointer]
+          - generic [ref=e710]:
+            - paragraph [ref=e711]:
+              - link "[–]" [ref=e712] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 2 points"
+              - time [ref=e713]: 2 years ago
+            - paragraph [ref=e717]: Lamonica’s for NY style pizza! If you’re open to traveling a little bit Prime Pizza is somewhat in the area too also as a NY style choice
+            - list [ref=e718]:
+              - listitem [ref=e719]:
+                - link "permalink" [ref=e720] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx5toju/
+              - listitem [ref=e721]:
+                - link "embed" [ref=e722] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e723]:
+                - link "save" [ref=e724] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e725]:
+                - link "report" [ref=e726] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e727]:
+                - link "reply" [ref=e728] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e731]:
+            - paragraph
+            - generic [ref=e732]:
+              - button "upvote" [ref=e733] [cursor=pointer]
+              - button "downvote" [ref=e734] [cursor=pointer]
+            - generic [ref=e735]:
+              - paragraph [ref=e736]:
+                - link "[–]" [ref=e737] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 1 point"
+                - time [ref=e738]: 2 years ago
+              - paragraph [ref=e742]: Lamonica's used to have a Sunday / late night deal that made their pizzas more affordable, but they ended it during Covid. Noawadays I think it's hard to justify a $25 pizza unless you're sharing it among multiple people. Haven't been back since.
+              - list [ref=e743]:
+                - listitem [ref=e744]:
+                  - link "permalink" [ref=e745] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jxdx3r6/
+                - listitem [ref=e746]:
+                  - link "embed" [ref=e747] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e748]:
+                  - link "save" [ref=e749] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e750]:
+                  - link "parent" [ref=e751] [cursor=pointer]:
+                    - /url: "#jx5toju"
+                - listitem [ref=e752]:
+                  - link "report" [ref=e753] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e754]:
+                  - link "reply" [ref=e755] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e756]:
+          - paragraph
+          - generic [ref=e757]:
+            - button "upvote" [ref=e758] [cursor=pointer]
+            - button "downvote" [ref=e759] [cursor=pointer]
+          - generic [ref=e760]:
+            - paragraph [ref=e761]:
+              - link "[–]" [ref=e762] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "MoveDistinct7911" [ref=e763] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/MoveDistinct7911
+              - text: 3 points
+              - time [ref=e764]: 2 years ago
+            - paragraph [ref=e768]: there’s a sichuan impression on santa monica blvd near the 405, which is also by sawtelle (a cool street with many asian options and also my favorite bakery, bsweet)
+            - list [ref=e769]:
+              - listitem [ref=e770]:
+                - link "permalink" [ref=e771] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx04ugz/
+              - listitem [ref=e772]:
+                - link "embed" [ref=e773] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e774]:
+                - link "save" [ref=e775] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e776]:
+                - link "report" [ref=e777] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e778]:
+                - link "reply" [ref=e779] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e780]:
+          - paragraph
+          - generic [ref=e781]:
+            - button "upvote" [ref=e782] [cursor=pointer]
+            - button "downvote" [ref=e783] [cursor=pointer]
+          - generic [ref=e784]:
+            - paragraph [ref=e785]:
+              - link "[–]" [ref=e786] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dkimg1121" [ref=e787] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dkimg1121
+              - text: 1 point
+              - time [ref=e788]: 2 years ago
+            - generic [ref=e791]:
+              - paragraph [ref=e792]: Westwood's got a lot of great stuff in general that peeps have noted! Personal favorite is Galbi (Korean food), coffee at Ministry of coffee, and late nights at hangry moon or fat sal's
+              - paragraph [ref=e793]: Take the 17 bus (to Culver City) for about 20 minutes, and you'll end up in a small Japanese neighborhood with LOTS of great options, especially Japanese food!
+            - list [ref=e794]:
+              - listitem [ref=e795]:
+                - link "permalink" [ref=e796] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx21dgk/
+              - listitem [ref=e797]:
+                - link "embed" [ref=e798] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e799]:
+                - link "save" [ref=e800] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e801]:
+                - link "report" [ref=e802] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e803]:
+                - link "reply" [ref=e804] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e805]:
+          - paragraph
+          - generic [ref=e806]:
+            - button "upvote" [ref=e807] [cursor=pointer]
+            - button "downvote" [ref=e808] [cursor=pointer]
+          - generic [ref=e809]:
+            - paragraph [ref=e810]:
+              - link "[–]" [ref=e811] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dramatic_Claim5298" [ref=e812] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dramatic_Claim5298
+              - text: 1 point
+              - time [ref=e813]: 8 months ago
+            - paragraph [ref=e817]: You can't go wrong with Enzo's Pizzeria!
+            - list [ref=e818]:
+              - listitem [ref=e819]:
+                - link "permalink" [ref=e820] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/n8yy7av/
+              - listitem [ref=e821]:
+                - link "embed" [ref=e822] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e823]:
+                - link "save" [ref=e824] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e825]:
+                - link "report" [ref=e826] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e827]:
+                - link "reply" [ref=e828] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e829]:
+          - paragraph
+          - generic [ref=e830]:
+            - button "upvote" [ref=e831] [cursor=pointer]
+            - button "downvote" [ref=e832] [cursor=pointer]
+          - generic [ref=e833]:
+            - paragraph [ref=e834]:
+              - link "[–]" [ref=e835] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dramatic_Claim5298" [ref=e836] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dramatic_Claim5298
+              - text: 1 point
+              - time [ref=e837]: 8 months ago
+            - paragraph [ref=e841]: Enzo's Pizzeria!
+            - list [ref=e842]:
+              - listitem [ref=e843]:
+                - link "permalink" [ref=e844] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/n8yyjop/
+              - listitem [ref=e845]:
+                - link "embed" [ref=e846] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e847]:
+                - link "save" [ref=e848] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e849]:
+                - link "report" [ref=e850] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e851]:
+                - link "reply" [ref=e852] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e853]:
+          - paragraph
+          - generic [ref=e854]:
+            - button "upvote" [ref=e855] [cursor=pointer]
+            - button "downvote" [ref=e856] [cursor=pointer]
+          - generic [ref=e857]:
+            - paragraph [ref=e858]:
+              - link "[–]" [ref=e859] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "7Thanks" [ref=e860] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/7Thanks
+              - text: "-1 points"
+              - time [ref=e861]: 2 years ago
+            - paragraph [ref=e865]: Violet Bistro!
+            - list [ref=e866]:
+              - listitem [ref=e867]:
+                - link "permalink" [ref=e868] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwyganu/
+              - listitem [ref=e869]:
+                - link "embed" [ref=e870] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e871]:
+                - link "save" [ref=e872] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e873]:
+                - link "report" [ref=e874] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e875]:
+                - link "reply" [ref=e876] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e879]:
+            - paragraph
+            - generic [ref=e880]:
+              - button "upvote" [ref=e881] [cursor=pointer]
+              - button "downvote" [ref=e882] [cursor=pointer]
+            - generic [ref=e883]:
+              - paragraph [ref=e884]:
+                - link "[–]" [ref=e885] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Buffalo_Bread" [ref=e886] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Buffalo_Bread
+                - text: 4 points
+                - time [ref=e887]: 2 years ago
+              - paragraph [ref=e891]: They said that won't break the bank
+              - list [ref=e892]:
+                - listitem [ref=e893]:
+                  - link "permalink" [ref=e894] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx2ggbt/
+                - listitem [ref=e895]:
+                  - link "embed" [ref=e896] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e897]:
+                  - link "save" [ref=e898] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e899]:
+                  - link "parent" [ref=e900] [cursor=pointer]:
+                    - /url: "#jwyganu"
+                - listitem [ref=e901]:
+                  - link "report" [ref=e902] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e903]:
+                  - link "reply" [ref=e904] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e905]:
+          - paragraph
+          - generic [ref=e906]:
+            - button "upvote" [ref=e907] [cursor=pointer]
+            - button "downvote" [ref=e908] [cursor=pointer]
+          - generic [ref=e909]:
+            - paragraph [ref=e910]:
+              - link "[–]" [ref=e911] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bruinslacker" [ref=e912] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bruinslacker
+              - text: 1 point
+              - time [ref=e913]: 2 years ago
+            - generic [ref=e916]:
+              - paragraph [ref=e917]: Bella Pita has the best falafel in the city.
+              - paragraph [ref=e918]: Pizza is good at Enzo’s.
+              - paragraph [ref=e919]: Diddy Reise is the best cheap dessert I’ve ever had anywhere.
+            - list [ref=e920]:
+              - listitem [ref=e921]:
+                - link "permalink" [ref=e922] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx0qhfk/
+              - listitem [ref=e923]:
+                - link "embed" [ref=e924] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e925]:
+                - link "save" [ref=e926] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e927]:
+                - link "report" [ref=e928] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e929]:
+                - link "reply" [ref=e930] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e931]:
+          - paragraph
+          - generic [ref=e932]:
+            - button "upvote" [ref=e933] [cursor=pointer]
+            - button "downvote" [ref=e934] [cursor=pointer]
+          - generic [ref=e935]:
+            - paragraph [ref=e936]:
+              - link "[–]" [ref=e937] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "meowcattpurr" [ref=e938] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/meowcattpurr
+              - generic "santa monica" [ref=e939]
+              - text: 1 point
+              - time [ref=e940]: 2 years ago
+            - paragraph [ref=e944]: Fresh Corn Grill for salads and the sun dried tomato pasta. I prefer getting their food to go and have served the salad and pasta at numerous parties. They're both always a crowd pleaser!
+            - list [ref=e945]:
+              - listitem [ref=e946]:
+                - link "permalink" [ref=e947] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx1o0l1/
+              - listitem [ref=e948]:
+                - link "embed" [ref=e949] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e950]:
+                - link "save" [ref=e951] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e952]:
+                - link "report" [ref=e953] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e954]:
+                - link "reply" [ref=e955] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e956]:
+          - paragraph
+          - generic [ref=e957]:
+            - button "upvote" [ref=e958] [cursor=pointer]
+            - button "downvote" [ref=e959] [cursor=pointer]
+          - generic [ref=e960]:
+            - paragraph [ref=e961]:
+              - link "[–]" [ref=e962] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ElBigKahuna" [ref=e963] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ElBigKahuna
+              - generic "Los Angeles" [ref=e964]
+              - text: 1 point
+              - time [ref=e965]: 2 years ago
+            - paragraph [ref=e969]: House of Meatballs
+            - list [ref=e970]:
+              - listitem [ref=e971]:
+                - link "permalink" [ref=e972] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx2ifkl/
+              - listitem [ref=e973]:
+                - link "embed" [ref=e974] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e975]:
+                - link "save" [ref=e976] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e977]:
+                - link "report" [ref=e978] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e979]:
+                - link "reply" [ref=e980] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e981]:
+          - paragraph
+          - generic [ref=e982]:
+            - button "upvote" [ref=e983] [cursor=pointer]
+            - button "downvote" [ref=e984] [cursor=pointer]
+          - generic [ref=e985]:
+            - paragraph [ref=e986]:
+              - link "[–]" [ref=e987] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "KamkarInsurance" [ref=e988] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/KamkarInsurance
+              - text: 1 point
+              - time [ref=e989]: 2 years ago
+            - generic [ref=e992]:
+              - paragraph [ref=e993]: In-N-Out, Fatburger, Fat Sals for your greasy needs.
+              - paragraph [ref=e994]: There's a Korean place next to the alley for in-n-out that's pretty good for a quick meal, or to-go. Also don't forget Tacos 1986...
+              - paragraph [ref=e995]: If you go down Westwood there's a lot of good Persian food; Atari for sandwiches, Ash (soup), or kabob plates with bread & greens. Farsi Cafe for crunchy rice (tahdeeg). Also good ice cream place and bakery.
+              - paragraph [ref=e996]: Thai Fresh is decent thai for a cheap price too; they're family owned. Try the ribs!
+            - list [ref=e997]:
+              - listitem [ref=e998]:
+                - link "permalink" [ref=e999] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx5cuf3/
+              - listitem [ref=e1000]:
+                - link "embed" [ref=e1001] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1002]:
+                - link "save" [ref=e1003] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1004]:
+                - link "report" [ref=e1005] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1006]:
+                - link "reply" [ref=e1007] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1008]:
+          - paragraph
+          - generic [ref=e1009]:
+            - button "upvote" [ref=e1010] [cursor=pointer]
+            - button "downvote" [ref=e1011] [cursor=pointer]
+          - generic [ref=e1012]:
+            - paragraph [ref=e1013]:
+              - link "[–]" [ref=e1014] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "chubchubs114" [ref=e1015] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/chubchubs114
+              - text: 1 point
+              - time [ref=e1016]: 2 years ago
+              - time [ref=e1017]: "*"
+            - generic [ref=e1020]:
+              - paragraph [ref=e1021]: The pokeme right below wilshire is pretty good. They had unlimited onion and garlic crisps before covid. Not sure now. If you walk a little further down, theres saffron and rose. These are all accessible by bruin bus
+              - paragraph [ref=e1022]: But your best bet is probably gonna be going to sawtelle. They have a lot of ramen places, revolving sushi, creme brulee crepe, marugame udon. Parkings pretty ass there anyways so you could probs find a blue bus or something to take you.
+              - paragraph [ref=e1023]: Cafe 1919 is more than enough for when you crave pizza imo. My friends and I still talk about our late night runs to get the margherita pizza.
+            - list [ref=e1024]:
+              - listitem [ref=e1025]:
+                - link "permalink" [ref=e1026] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jx5g8a5/
+              - listitem [ref=e1027]:
+                - link "embed" [ref=e1028] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1029]:
+                - link "save" [ref=e1030] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1031]:
+                - link "report" [ref=e1032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1033]:
+                - link "reply" [ref=e1034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e1035]:
+    - generic [ref=e1036]:
+      - list [ref=e1038]:
+        - listitem [ref=e1039]: about
+        - listitem [ref=e1040]:
+          - link "blog" [ref=e1041] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1042]:
+          - link "about" [ref=e1043] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1044]:
+          - link "advertising" [ref=e1045] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1046]:
+          - link "careers" [ref=e1047] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1049]:
+        - listitem [ref=e1050]: help
+        - listitem [ref=e1051]:
+          - link "site rules" [ref=e1052] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1053]:
+          - link "Reddit help center" [ref=e1054] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1055]:
+          - link "reddiquette" [ref=e1056] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1057]:
+          - link "mod guidelines" [ref=e1058] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1059]:
+          - link "contact us" [ref=e1060] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1062]:
+        - listitem [ref=e1063]: apps & tools
+        - listitem [ref=e1064]:
+          - link "Reddit for iPhone" [ref=e1065] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1066]:
+          - link "Reddit for Android" [ref=e1067] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1068]:
+          - link "mobile website" [ref=e1069] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1071]:
+        - listitem [ref=e1072]: <3
+        - listitem [ref=e1073]:
+          - link "reddit premium" [ref=e1074] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1075]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1076] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1077] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1078]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1079]
+  - paragraph [ref=e1080]: π

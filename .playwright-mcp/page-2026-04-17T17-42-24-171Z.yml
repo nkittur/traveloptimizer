@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: best restaurants Irvine outdoor patio Thai Korean Indian French site:eater.com OR site:theinfatuation.com OR site:latimes.com OR site:ocregister.com best restaurants Irvine outdoor patio Thai Korean Indian French site:eater.com OR site:theinfatuation.com OR site:latimes.com OR site:ocregister.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2BIrvine%2Boutdoor%2Bpatio%2BThai%2BKorean%2BIndian%2BFrench%2Bsite%253Aeater.com%2BOR%2Bsite%253Atheinfatuation.com%2BOR%2Bsite%253Alatimes.com%2BOR%2Bsite%253Aocregister.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&aep=1&ntc=1&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ2J8OegQIDRAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQs6gLegQIERAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQtKgLegQIExAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQs6gLegQIFBAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Shopping" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&ved=1t:220175&ictx=111
+              - generic [ref=e103]: Shopping
+          - listitem [ref=e104]:
+            - link "Videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQDlIehXE-YL2Qo2JeeNUu_ruFvJaKRd_tIKJ63F0LVyM8gSnlT2nsh_62T-RCZft03VjvWqZnC1Gc1Y5hjdEyktEIIUBL16urBmasYr-GUh4E5rlklIiVjgp9cDcOr1kFYSkCT_yu5jzX63r1O0U_tSxiJV3Q&q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQtKgLegQIEhAB
+              - generic [ref=e107]: Videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "The 38 Best Orange County Restaurants Eater Los Angeles https://la.eater.com › maps › best-essential-restaurants-o..." [ref=e144] [cursor=pointer]:
+                - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california
+                - heading "The 38 Best Orange County Restaurants" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Eater Los Angeles
+                  - generic [ref=e154]: https://la.eater.com › maps › best-essential-restaurants-o...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: The 38 Best Orange County Restaurants.
+                - emphasis [ref=e163]: Orange County's definitive hot spots
+                - text: across an array of cuisines, neighborhoods, and price points.
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://la.eater.com/maps/best-essential-restaurants-orange-county-california#:~:text=The%2038%20Best%20Orange%20County,cuisines%2C%20neighborhoods%2C%20and%20price%20points
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - 'link "Review: 15 patios for a winter date night in Orange County Orange County Register https://www.ocregister.com › 2022/02/03 › review-15-..." [ref=e173] [cursor=pointer]':
+              - /url: https://www.ocregister.com/2022/02/03/review-15-patios-for-a-winter-date-night-in-orange-county/
+              - 'heading "Review: 15 patios for a winter date night in Orange County" [level=3] [ref=e174]'
+              - generic [ref=e179]:
+                - generic [ref=e181]: Orange County Register
+                - generic [ref=e183]: https://www.ocregister.com › 2022/02/03 › review-15-...
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]: Feb 3, 2022 —
+            - generic [ref=e192]:
+              - text: Thai food in Long Beach is not to be missed at this restaurant ·
+              - emphasis [ref=e193]: Great Indian food
+              - text: always draws a crowd at this Artesia restaurant · This Long ...
+            - link "Read more" [ref=e194] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2022/02/03/review-15-patios-for-a-winter-date-night-in-orange-county/#:~:text=Thai%20food%20in%20Long%20Beach,%E2%80%94%20and%20a%20tasty%20present
+        - generic [ref=e198]:
+          - generic [ref=e201]:
+            - link "Dining guide Orange County Register https://www.ocregister.com › 2005/09/09 › dining-guid..." [ref=e203] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2005/09/09/dining-guide-2/
+              - heading "Dining guide" [level=3] [ref=e204]
+              - generic [ref=e209]:
+                - generic [ref=e211]: Orange County Register
+                - generic [ref=e213]: https://www.ocregister.com › 2005/09/09 › dining-guid...
+            - button "About this result" [ref=e214] [cursor=pointer]:
+              - img [ref=e217]
+          - generic [ref=e220]:
+            - generic [ref=e221]: Sep 9, 2005 —
+            - generic [ref=e222]:
+              - text: Also,
+              - emphasis [ref=e223]: outdoor patio
+              - text: on pedestrian street. The ribs, greek salad and
+              - emphasis [ref=e224]: Korean
+              - text: vodka cocktails are
+              - emphasis [ref=e225]: recommended
+              - text: . (M.J.F.). White Horses $$-$$$. 610 ...
+            - link "Read more" [ref=e226] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2005/09/09/dining-guide-2/#:~:text=Also%2C%20outdoor%20patio%20on%20pedestrian,Victoria%2C%20San%20Clemente%3B%20(949)%20429%2D1800.
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - link "These 75 restaurants are the best places to eat in Orange ... Orange County Register https://www.ocregister.com › 2018/04/30 › these-75-res..." [ref=e235] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2018/04/30/these-75-restaurants-are-the-best-places-to-eat-in-orange-county-in-2018-75-61/
+              - heading "These 75 restaurants are the best places to eat in Orange ..." [level=3] [ref=e236]
+              - generic [ref=e241]:
+                - generic [ref=e243]: Orange County Register
+                - generic [ref=e245]: https://www.ocregister.com › 2018/04/30 › these-75-res...
+            - button "About this result" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]:
+            - generic [ref=e253]: Apr 30, 2018 —
+            - generic [ref=e254]:
+              - text: Orange County Food Finder · 61.
+              - emphasis [ref=e255]: Chada Thai
+              - text: · 62. Ironwood · 63. Garlic & Chives · 64. Los Sanchez · 65. Hue Oi · 66. Adya · 67. Peking Restaurant · 68.
+            - link "Read more" [ref=e256] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2018/04/30/these-75-restaurants-are-the-best-places-to-eat-in-orange-county-in-2018-75-61/#:~:text=Orange%20County%20Food%20Finder&text=61.%20Chada%20Thai&text=62.%20Ironwood&text=63.%20Garlic%20%26%20Chives&text=64.%20Los%20Sanchez&text=65.%20Hue%20Oi&text=66.%20Adya&text=67.%20Peking%20Restaurant&text=68.%20El%20Farolito
+        - generic [ref=e260]:
+          - generic [ref=e263]:
+            - link "The 75 best restaurants in Orange County in 2022 Orange County Register https://www.ocregister.com › 2022/06/02 › the-75-best-..." [ref=e265] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2022/06/02/the-75-best-restaurants-in-orange-county-in-2022/
+              - heading "The 75 best restaurants in Orange County in 2022" [level=3] [ref=e266]
+              - generic [ref=e271]:
+                - generic [ref=e273]: Orange County Register
+                - generic [ref=e275]: https://www.ocregister.com › 2022/06/02 › the-75-best-...
+            - button "About this result" [ref=e276] [cursor=pointer]:
+              - img [ref=e279]
+          - generic [ref=e282]:
+            - generic [ref=e283]: Jun 2, 2022 —
+            - generic [ref=e284]:
+              - text: Critic Brad A. Johnson's annual guide to the 75
+              - emphasis [ref=e285]: Best Places to Eat
+              - text: is here. The list is once again ranked, but there's a new twist.
+        - generic [ref=e289]:
+          - generic [ref=e292]:
+            - link "22 great places to eat halal in Southern California Los Angeles Times https://www.latimes.com › food › list › 22-places-to-eat..." [ref=e294] [cursor=pointer]:
+              - /url: https://www.latimes.com/food/list/22-places-to-eat-halal-in-southern-california
+              - heading "22 great places to eat halal in Southern California" [level=3] [ref=e295]
+              - generic [ref=e300]:
+                - generic [ref=e302]: Los Angeles Times
+                - generic [ref=e304]: https://www.latimes.com › food › list › 22-places-to-eat...
+            - button "About this result" [ref=e305] [cursor=pointer]:
+              - img [ref=e308]
+          - generic [ref=e311]:
+            - generic [ref=e312]: Jan 5, 2023 —
+            - generic [ref=e313]:
+              - text: An
+              - emphasis [ref=e314]: Italian restaurant
+              - text: with halal options. Here I've shortlisted 22 must-visit places for halal food, from Sun Valley to
+              - emphasis [ref=e315]: Irvine
+              - text: .
+            - link "Read more" [ref=e316] [cursor=pointer]:
+              - /url: https://www.latimes.com/food/list/22-places-to-eat-halal-in-southern-california#:~:text=(One%20thing%20that's%20still%20missing%3A,from%20Sun%20Valley%20to%20Irvine.
+          - generic [ref=e318]:
+            - text: "Missing: Thai ‎| Show results with:"
+            - link "Thai" [ref=e319] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=best+restaurants+Irvine+outdoor+patio+%22Thai%22+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ5t4CegQIKBAB
+        - generic [ref=e323]:
+          - generic [ref=e326]:
+            - link "Where do Orange County's top chefs eat? We asked them Orange County Register https://www.ocregister.com › 2025/05/09 › where-do-o..." [ref=e328] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/05/09/where-do-orange-countys-top-chefs-eat-we-asked-them/
+              - heading "Where do Orange County's top chefs eat? We asked them" [level=3] [ref=e329]
+              - generic [ref=e334]:
+                - generic [ref=e336]: Orange County Register
+                - generic [ref=e338]: https://www.ocregister.com › 2025/05/09 › where-do-o...
+            - button "About this result" [ref=e339] [cursor=pointer]:
+              - img [ref=e342]
+          - generic [ref=e345]:
+            - generic [ref=e346]: May 9, 2025 —
+            - generic [ref=e347]:
+              - text: Manaao
+              - emphasis [ref=e348]: Thai
+              - text: "Comfort (Tustin):"
+              - emphasis [ref=e349]: Thai
+              - text: food is one of my favorite
+              - emphasis [ref=e350]: Asian
+              - text: ... Super friendly staff, nice
+              - emphasis [ref=e351]: outdoor patio
+              - text: space and, most important, ...
+            - link "Read more" [ref=e352] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2025/05/09/where-do-orange-countys-top-chefs-eat-we-asked-them/#:~:text=Manaao%20Thai%20Comfort%20(Tustin)%3A%20Thai,one%20of%20my%20favorite%20Asian&text=Super%20friendly%20staff%2C%20nice%20outdoor,on%20their%20menu%20is%20delicious.
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - 'link "The Orange County train-station dining guide: Fullerton Orange County Register https://www.ocregister.com › 2024/01/08 › the-orange-..." [ref=e361] [cursor=pointer]':
+              - /url: https://www.ocregister.com/2024/01/08/the-orange-county-train-station-dining-guide-fullerton/
+              - 'heading "The Orange County train-station dining guide: Fullerton" [level=3] [ref=e362]'
+              - generic [ref=e367]:
+                - generic [ref=e369]: Orange County Register
+                - generic [ref=e371]: https://www.ocregister.com › 2024/01/08 › the-orange-...
+            - button "About this result" [ref=e372] [cursor=pointer]:
+              - img [ref=e375]
+          - generic [ref=e378]:
+            - generic [ref=e379]: Jan 8, 2024 —
+            - generic [ref=e380]:
+              - text: Scores of
+              - emphasis [ref=e381]: restaurants
+              - text: ", watering holes and cafes can be found within the blocks of the station, all of them within a reasonable distance for pedestrians."
+            - link "Read more" [ref=e382] [cursor=pointer]:
+              - /url: https://www.ocregister.com/2024/01/08/the-orange-county-train-station-dining-guide-fullerton/#:~:text=and%20all%20of%20the%20off%2Dcampus,a%20reasonable%20distance%20for%20pedestrians.
+        - generic [ref=e386]:
+          - generic [ref=e389]:
+            - link "These are the 101 best restaurants in Los Angeles Los Angeles Times https://www.latimes.com › food › list › 101-best-restaur..." [ref=e391] [cursor=pointer]:
+              - /url: https://www.latimes.com/food/list/101-best-restaurants-los-angeles
+              - heading "These are the 101 best restaurants in Los Angeles" [level=3] [ref=e392]
+              - generic [ref=e397]:
+                - generic [ref=e399]: Los Angeles Times
+                - generic [ref=e401]: https://www.latimes.com › food › list › 101-best-restaur...
+            - button "About this result" [ref=e402] [cursor=pointer]:
+              - img [ref=e405]
+          - generic [ref=e408]:
+            - generic [ref=e409]: Dec 9, 2025 —
+            - generic [ref=e410]:
+              - text: Restaurant critic Bill Addison and columnist Jenn Harris rank the 101
+              - emphasis [ref=e411]: best restaurants
+              - text: in Los Angeles.
+        - generic [ref=e415]:
+          - generic [ref=e418]:
+            - link "Best New Restaurant Openings in Los Angeles | Eater LA Eater Los Angeles https://la.eater.com › biggest-new-restaurant-openings-l..." [ref=e420] [cursor=pointer]:
+              - /url: https://la.eater.com/2024/1/31/24057048/biggest-new-restaurant-openings-los-angeles-2024
+              - heading "Best New Restaurant Openings in Los Angeles | Eater LA" [level=3] [ref=e421]
+              - generic [ref=e426]:
+                - generic [ref=e428]: Eater Los Angeles
+                - generic [ref=e430]: https://la.eater.com › biggest-new-restaurant-openings-l...
+            - button "About this result" [ref=e431] [cursor=pointer]:
+              - img [ref=e434]
+          - generic [ref=e437]:
+            - generic [ref=e438]: Jan 31, 2024 —
+            - generic [ref=e439]:
+              - emphasis [ref=e440]: Locol makes its return
+              - text: ", Belle's Bagels expands into full deli mode, and more new openings in Los Angeles this month."
+      - generic [ref=e442]:
+        - generic [ref=e447]:
+          - heading "People also search for" [level=2] [ref=e449]
+          - generic [ref=e451]:
+            - link "Best restaurants irvine outdoor patio thai korean indian french menu" [ref=e456] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=Best+restaurants+irvine+outdoor+patio+thai+korean+indian+french+menu&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ1QJ6BAgzEAE
+              - generic [ref=e457]:
+                - generic [ref=e462]: Best restaurants irvine outdoor patio thai korean indian french menu
+                - img [ref=e466]
+            - link "Best restaurants irvine outdoor patio thai korean indian french 2022" [ref=e472] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=Best+restaurants+irvine+outdoor+patio+thai+korean+indian+french+2022&sa=X&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ1QJ6BAg0EAE
+              - generic [ref=e473]:
+                - generic [ref=e478]: Best restaurants irvine outdoor patio thai korean indian french 2022
+                - img [ref=e482]
+        - navigation [ref=e484]:
+          - heading "Page Navigation" [level=1] [ref=e485]
+          - text: "1"
+          - link "Page 2" [ref=e488] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sca_esv=c0c8628026d5a19e&ei=_3DiaZzrF4TCkPIP3uCGiA8&start=10&sa=N&sstk=Af77f_cV0blOr8XlC9bdBAO2jVDRpsZfFoyEF5h7sGOSmqm2fbAGbUGDaAg1QIuxbpUIxiFg1UheLZJDU1rRA01O1nBsn9d8lbhT0Q&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ8tMDegQILBAE
+            - text: "2"
+          - link "Page 3" [ref=e490] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sca_esv=c0c8628026d5a19e&ei=_3DiaZzrF4TCkPIP3uCGiA8&start=20&sa=N&sstk=Af77f_cV0blOr8XlC9bdBAO2jVDRpsZfFoyEF5h7sGOSmqm2fbAGbUGDaAg1QIuxbpUIxiFg1UheLZJDU1rRA01O1nBsn9d8lbhT0Q&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ8tMDegQILBAG
+            - text: "3"
+          - heading "Next" [level=2] [ref=e492]:
+            - link "Next" [ref=e493] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+Irvine+outdoor+patio+Thai+Korean+Indian+French+site:eater.com+OR+site:theinfatuation.com+OR+site:latimes.com+OR+site:ocregister.com&sca_esv=c0c8628026d5a19e&ei=_3DiaZzrF4TCkPIP3uCGiA8&start=10&sa=N&sstk=Af77f_cV0blOr8XlC9bdBAO2jVDRpsZfFoyEF5h7sGOSmqm2fbAGbUGDaAg1QIuxbpUIxiFg1UheLZJDU1rRA01O1nBsn9d8lbhT0Q&ved=2ahUKEwjc5tPFt_WTAxUEIUQIHV6wAfEQ8NMDegQILBAI
+              - generic [ref=e495]: Next
+      - navigation
+    - contentinfo [ref=e496]:
+      - heading "Footer Links" [level=1] [ref=e497]
+      - generic [ref=e501]:
+        - generic [ref=e505]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e507] [cursor=pointer]:
+            - generic [ref=e508]: 92620, Irvine, CA
+            - generic [ref=e510]:
+              - text: "-"
+              - generic [ref=e511]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e513] [cursor=pointer]: Update location
+        - generic [ref=e516]:
+          - link "Help" [ref=e517] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e518] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e519] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e520] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

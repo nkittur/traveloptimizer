@@ -1,0 +1,295 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:nytimes.com "36 hours in stockholm" site:nytimes.com "36 hours in stockholm"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Anytimes.com%2B%252236%2Bhours%2Bin%2Bstockholm%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:nytimes.com+%2236+hours+in+stockholm%22&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&aep=1&ntc=1&sa=X&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ2J8OegQIExAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&q=site:nytimes.com+%2236+hours+in+stockholm%22&sa=X&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQtKgLegQIGhAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:nytimes.com+%2236+hours+in+stockholm%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&sa=X&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ0pQJegQIGxAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&q=site:nytimes.com+%2236+hours+in+stockholm%22&sa=X&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQs6gLegQIHBAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&q=site:nytimes.com+%2236+hours+in+stockholm%22&sa=X&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQtKgLegQIHRAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQPsV1FQOBzakzQTE0Rrxy_C0oy-bHOjxm0fVqrP_hVs8aa7JghsOgRBpFUekqa7tdYl3yTbEoVb5YTR-OpBSufimbNOhpgIb2XH1k82udvg3AhzJflG-5EWDV5TiGtZnBwZk7xg&q=site:nytimes.com+%2236+hours+in+stockholm%22&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - 'link "36 Hours in Stockholm: Things to Do and See The New York Times https://www.nytimes.com › 2022/10/13 › travel › thing..." [ref=e144] [cursor=pointer]':
+                - /url: https://www.nytimes.com/interactive/2022/10/13/travel/things-to-do-stockholm.html
+                - 'heading "36 Hours in Stockholm: Things to Do and See" [level=3] [ref=e145]'
+                - generic [ref=e150]:
+                  - generic [ref=e152]: The New York Times
+                  - generic [ref=e154]: https://www.nytimes.com › 2022/10/13 › travel › thing...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: U.S. · International · Canada · Español · 中文. 36 Hours.
+                - emphasis [ref=e163]: 36 Hours in Stockholm
+                - text: . By Ingrid K. Williams Updated Oct. 13, 2022. Share full article.
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.nytimes.com/interactive/2022/10/13/travel/things-to-do-stockholm.html#:~:text=36%20Hours
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "36 Hours in Stockholm - The New York ... The New York Times https://www.nytimes.com › 2017/07/06 › travel › what-..." [ref=e173] [cursor=pointer]:
+              - /url: https://www.nytimes.com/interactive/2017/07/06/travel/what-to-do-36-hours-in-stockholm-sweden.html
+              - heading "36 Hours in Stockholm - The New York ..." [level=3] [ref=e174]
+              - generic [ref=e179]:
+                - generic [ref=e181]: The New York Times
+                - generic [ref=e183]: https://www.nytimes.com › 2017/07/06 › travel › what-...
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]: Jul 6, 2017 —
+            - generic [ref=e192]:
+              - emphasis [ref=e193]: 36 Hours in Stockholm
+              - text: . Explore the map and find things to do in Stockholm.
+            - link "Read more" [ref=e194] [cursor=pointer]:
+              - /url: https://www.nytimes.com/interactive/2017/07/06/travel/what-to-do-36-hours-in-stockholm-sweden.html#:~:text=36%20Hours%20in%20Stockholm,things%20to%20do%20in%20Stockholm.
+        - generic [ref=e198]:
+          - generic [ref=e201]:
+            - link "36 Hours in Stockholm The New York Times https://www.nytimes.com › 2011/06/05 › travel › 36-h..." [ref=e203] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2011/06/05/travel/36-hours-in-stockholm.html
+              - heading "36 Hours in Stockholm" [level=3] [ref=e204]
+              - generic [ref=e209]:
+                - generic [ref=e211]: The New York Times
+                - generic [ref=e213]: https://www.nytimes.com › 2011/06/05 › travel › 36-h...
+            - button "About this result" [ref=e214] [cursor=pointer]:
+              - img [ref=e217]
+          - generic [ref=e220]:
+            - generic [ref=e221]: Jun 2, 2011 —
+            - generic [ref=e222]:
+              - emphasis [ref=e223]: 36 Hours in Stockholm
+              - text: ; Friday. 4 p.m. 1) WALK IN A CIRCLE · 7:30 p.m. 2) LOCAL HEROES ; Saturday. 11 a.m. 4) STORY TIME · 1:30 p.m. 5) ISLAND LUNCH.
+            - link "Read more" [ref=e224] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2011/06/05/travel/36-hours-in-stockholm.html#:~:text=36%20Hours%20in%20Stockholm&text=Friday,1)%20WALK%20IN%20A%20CIRCLE&text=7%3A30%20p.m.,2)%20LOCAL%20HEROES&text=Saturday,4)%20STORY%20TIME&text=1%3A30%20p.m.,5)%20ISLAND%20LUNCH
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - link "Ingrid K. Williams - The New York ... The New York Times https://www.nytimes.com › ingrid-k-williams" [ref=e233] [cursor=pointer]:
+              - /url: https://www.nytimes.com/by/ingrid-k-williams
+              - heading "Ingrid K. Williams - The New York ..." [level=3] [ref=e234]
+              - generic [ref=e239]:
+                - generic [ref=e241]: The New York Times
+                - generic [ref=e243]: https://www.nytimes.com › ingrid-k-williams
+            - button "About this result" [ref=e244] [cursor=pointer]:
+              - img [ref=e247]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - emphasis [ref=e252]: 36 Hours in Stockholm
+              - text: . Fall in Stockholm means crisp breezes, fiery foliage and a city humming with openings, from dining spots to galleries. By Ingrid K ...
+            - link "Read more" [ref=e253] [cursor=pointer]:
+              - /url: https://www.nytimes.com/by/ingrid-k-williams#:~:text=36%20Hours%20in%20Stockholm,from%20dining%20spots%20to%20galleries.
+          - link "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e256] [cursor=pointer]:
+            - /url: https://www.nytimes.com/by/ingrid-k-williams
+            - img "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e258]
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "36 Hours in Stockholm The New York Times https://www.nytimes.com › 2014/06/29 › travel › 36-h..." [ref=e267] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2014/06/29/travel/36-hours-in-stockholm.html
+              - heading "36 Hours in Stockholm" [level=3] [ref=e268]
+              - generic [ref=e273]:
+                - generic [ref=e275]: The New York Times
+                - generic [ref=e277]: https://www.nytimes.com › 2014/06/29 › travel › 36-h...
+            - button "About this result" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+          - generic [ref=e284]:
+            - generic [ref=e285]: Jun 25, 2014 —
+            - generic [ref=e286]:
+              - emphasis [ref=e287]: 36 Hours in Stockholm
+              - text: · 2. Gallery Hop | 4:30 p.m. · 3. Ego Eating | 8 p.m. · 4. North to South | 11 p.m. · 5. Archipelago Art | 10:30 a.m. · 6. Fika ...
+            - link "Read more" [ref=e288] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2014/06/29/travel/36-hours-in-stockholm.html#:~:text=36%20Hours%20in%20Stockholm&text=2.%20Gallery%20Hop%20%7C%204%3A30,p.m.&text=3.%20Ego%20Eating%20%7C%208,p.m.&text=4.%20North%20to%20South%20%7C,11%20p.m.&text=5.%20Archipelago%20Art%20%7C%2010%3A30,a.m.&text=6.%20Fika%20Fun%20%7C%201%3A30,p.m.
+          - link "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e291] [cursor=pointer]:
+            - /url: https://www.nytimes.com/2014/06/29/travel/36-hours-in-stockholm.html
+            - img "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e293]
+        - generic [ref=e297]:
+          - generic [ref=e300]:
+            - link "36 Hours in Stockholm The New York Times https://www.nytimes.com › travel › 20110605-HOURS" [ref=e302] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/06/05/travel/20110605-HOURS.html
+              - heading "36 Hours in Stockholm" [level=3] [ref=e303]
+              - generic [ref=e308]:
+                - generic [ref=e310]: The New York Times
+                - generic [ref=e312]: https://www.nytimes.com › travel › 20110605-HOURS
+            - button "About this result" [ref=e313] [cursor=pointer]:
+              - img [ref=e316]
+          - generic [ref=e319]:
+            - generic [ref=e320]: Jun 5, 2011 —
+            - generic [ref=e321]:
+              - emphasis [ref=e322]: 36 Hours in Stockholm
+              - text: . Visitors to Stockholm will find establishments — new and venerable — celebrating Nordic design, cuisine and culture.
+            - link "Read more" [ref=e323] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/06/05/travel/20110605-HOURS.html#:~:text=1%20%2F%2013
+          - link "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e326] [cursor=pointer]:
+            - /url: https://www.nytimes.com/slideshow/2011/06/05/travel/20110605-HOURS.html
+            - img "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e328]
+        - generic [ref=e332]:
+          - generic [ref=e335]:
+            - link "Five Places to Visit in Stockholm with a Local Craft Brewer The New York Times https://www.nytimes.com › 2019/12/20 › travel › five-..." [ref=e337] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2019/12/20/travel/five-places-to-visit-in-stockholm.html
+              - heading "Five Places to Visit in Stockholm with a Local Craft Brewer" [level=3] [ref=e338]
+              - generic [ref=e343]:
+                - generic [ref=e345]: The New York Times
+                - generic [ref=e347]: https://www.nytimes.com › 2019/12/20 › travel › five-...
+            - button "About this result" [ref=e348] [cursor=pointer]:
+              - img [ref=e351]
+          - generic [ref=e354]:
+            - generic [ref=e355]: Dec 20, 2019 —
+            - generic [ref=e356]:
+              - emphasis [ref=e357]: 36 Hours in Stockholm
+              - text: · A Once-Dead Stockholm Enclave Gets a Shot of Youthful Energy. Dec. 21, 2016 · The Buzz in Stockholm Is Craft Beer With ...
+            - link "Read more" [ref=e358] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2019/12/20/travel/five-places-to-visit-in-stockholm.html#:~:text=36%20Hours%20in%20Stockholm,Craft%20Beer%20With%20Less%20Buzz
+          - link "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e361] [cursor=pointer]:
+            - /url: https://www.nytimes.com/2019/12/20/travel/five-places-to-visit-in-stockholm.html
+            - img "site:nytimes.com \"36 hours in stockholm\" from www.nytimes.com" [ref=e363]
+        - generic [ref=e367]:
+          - generic [ref=e370]:
+            - link "36 Hours in Stockholm The New York Times https://www.nytimes.com › 2007/09/09 › travel" [ref=e372] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2007/09/09/travel/09hours.html
+              - heading "36 Hours in Stockholm" [level=3] [ref=e373]
+              - generic [ref=e378]:
+                - generic [ref=e380]: The New York Times
+                - generic [ref=e382]: https://www.nytimes.com › 2007/09/09 › travel
+            - button "About this result" [ref=e383] [cursor=pointer]:
+              - img [ref=e386]
+          - generic [ref=e389]:
+            - generic [ref=e390]: Sep 9, 2007 —
+            - generic [ref=e391]:
+              - emphasis [ref=e392]: 36 Hours in Stockholm
+              - text: ; Friday. 3 p.m. 1) LIGHT MOVES ; Saturday. 10 a.m. 4) CALL ME RETAIL ; 3 p.m. 6) VINTAGE TOGS.
+            - link "Read more" [ref=e393] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2007/09/09/travel/09hours.html#:~:text=36%20Hours%20in%20Stockholm&text=Friday,1)%20LIGHT%20MOVES&text=Saturday,4)%20CALL%20ME%20RETAIL&text=3%20p.m.,6)%20VINTAGE%20TOGS
+        - generic [ref=e397]:
+          - generic [ref=e400]:
+            - 'link "Correction: 36 Hours in Stockholm The New York Times https://www.nytimes.com › 2007/09/23 › travel" [ref=e402] [cursor=pointer]':
+              - /url: https://www.nytimes.com/2007/09/23/travel/23cxn.html
+              - 'heading "Correction: 36 Hours in Stockholm" [level=3] [ref=e403]'
+              - generic [ref=e408]:
+                - generic [ref=e410]: The New York Times
+                - generic [ref=e412]: https://www.nytimes.com › 2007/09/23 › travel
+            - button "About this result" [ref=e413] [cursor=pointer]:
+              - img [ref=e416]
+          - generic [ref=e419]:
+            - generic [ref=e420]: Sep 23, 2007 —
+            - generic [ref=e421]:
+              - text: "Correction:"
+              - emphasis [ref=e422]: 36 Hours in Stockholm
+              - text: ... The 36 Hours column on Sept. 9 about Stockholm misspelled the name of a restaurant at the Grand Hotel. It is ...
+            - link "Read more" [ref=e423] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2007/09/23/travel/23cxn.html#:~:text=Correction%3A%2036%20Hours%20in%20Stockholm&text=The%2036%20Hours%20column%20on,It%20is%20Matbaren%2C%20not%20Matsbaren.
+        - generic [ref=e427]:
+          - generic [ref=e430]:
+            - link "36 Hours in Stockholm - Slide Show - NYTimes.com The New York Times https://www.nytimes.com › travel › 20110605-HOURS-3" [ref=e432] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/06/05/travel/20110605-HOURS-3.html
+              - heading "36 Hours in Stockholm - Slide Show - NYTimes.com" [level=3] [ref=e433]
+              - generic [ref=e438]:
+                - generic [ref=e440]: The New York Times
+                - generic [ref=e442]: https://www.nytimes.com › travel › 20110605-HOURS-3
+            - button "About this result" [ref=e443] [cursor=pointer]:
+              - img [ref=e446]
+          - generic [ref=e450]:
+            - emphasis [ref=e451]: 36 Hours in Stockholm
+            - text: · Facebook · Twitter · Google+ · Email · Share.
+      - navigation [ref=e454]:
+        - heading "Page Navigation" [level=1] [ref=e455]
+        - text: "1"
+        - link "Page 2" [ref=e458] [cursor=pointer]:
+          - /url: /search?q=site:nytimes.com+%2236+hours+in+stockholm%22&sca_esv=461cceef532bce02&ei=7bzvadaHKqu4w8cPtJ73iAI&start=10&sa=N&sstk=Af77f_feiJPVPtthQBODReZS8gDe_EGPN1D0glCYm4KGeTOR1cbMh_B1LwOCvCiPyiRlWuq2YBKD3JUFtTaM4zTIT1aUtO8tt_DWag&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ8tMDegQIKhAE
+          - text: "2"
+        - link "Page 3" [ref=e460] [cursor=pointer]:
+          - /url: /search?q=site:nytimes.com+%2236+hours+in+stockholm%22&sca_esv=461cceef532bce02&ei=7bzvadaHKqu4w8cPtJ73iAI&start=20&sa=N&sstk=Af77f_feiJPVPtthQBODReZS8gDe_EGPN1D0glCYm4KGeTOR1cbMh_B1LwOCvCiPyiRlWuq2YBKD3JUFtTaM4zTIT1aUtO8tt_DWag&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ8tMDegQIKhAG
+          - text: "3"
+        - link "Page 4" [ref=e462] [cursor=pointer]:
+          - /url: /search?q=site:nytimes.com+%2236+hours+in+stockholm%22&sca_esv=461cceef532bce02&ei=7bzvadaHKqu4w8cPtJ73iAI&start=30&sa=N&sstk=Af77f_feiJPVPtthQBODReZS8gDe_EGPN1D0glCYm4KGeTOR1cbMh_B1LwOCvCiPyiRlWuq2YBKD3JUFtTaM4zTIT1aUtO8tt_DWag&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ8tMDegQIKhAI
+          - text: "4"
+        - heading "Next" [level=2] [ref=e464]:
+          - link "Next" [ref=e465] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours+in+stockholm%22&sca_esv=461cceef532bce02&ei=7bzvadaHKqu4w8cPtJ73iAI&start=10&sa=N&sstk=Af77f_feiJPVPtthQBODReZS8gDe_EGPN1D0glCYm4KGeTOR1cbMh_B1LwOCvCiPyiRlWuq2YBKD3JUFtTaM4zTIT1aUtO8tt_DWag&ved=2ahUKEwiWssfk5Y6UAxUr3PACHTTPHSEQ8NMDegQIKhAK
+            - generic [ref=e467]: Next
+      - navigation
+    - contentinfo [ref=e468]:
+      - heading "Footer Links" [level=1] [ref=e469]
+      - generic [ref=e473]:
+        - generic [ref=e477]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e482]:
+              - text: "-"
+              - generic [ref=e483]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e485] [cursor=pointer]: Update location
+        - generic [ref=e488]:
+          - link "Help" [ref=e489] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e490] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e491] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e492] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

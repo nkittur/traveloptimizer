@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Irvine + San Diego — April 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#f0f4f8;color:#1a2332;line-height:1.6}
+.container{max-width:960px;margin:0 auto;padding:20px}
+
+.hero{background:linear-gradient(135deg,#1a3a5c 0%,#2a6496 50%,#3a85c4 100%);color:#fff;padding:48px 32px 40px;border-radius:20px;margin-bottom:32px;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;top:0;right:0;width:300px;height:100%;background:linear-gradient(135deg,transparent 40%,rgba(255,255,255,0.05) 100%);pointer-events:none}
+.hero h1{font-size:28px;font-weight:700;margin-bottom:6px}
+.hero .sub{font-size:15px;color:#a8cce8;margin-bottom:28px}
+.route-flow{display:flex;align-items:center;gap:0;flex-wrap:wrap;margin-bottom:16px}
+.route-node{background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:10px 18px;font-weight:600;font-size:14px;white-space:nowrap}
+.route-node.active{background:rgba(255,200,80,0.2);border-color:rgba(255,200,80,0.5);color:#ffd166}
+.route-arrow{color:#5a9cbf;font-size:20px;padding:0 6px;flex-shrink:0}
+.route-dates{font-size:13px;color:#a8cce8;margin-top:12px}
+
+/* Section cards */
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,0.06),0 4px 12px rgba(0,0,0,0.04)}
+.card h2{font-size:20px;font-weight:700;margin-bottom:6px}
+.card .card-sub{font-size:13px;color:#5a6b7d;margin-bottom:20px}
+.card.highlighted{border:2px solid #2a6496;position:relative}
+.card-label{position:absolute;top:-12px;left:24px;background:linear-gradient(135deg,#1a3a5c,#2a6496);color:#fff;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;padding:4px 14px;border-radius:20px}
+
+/* Flight table */
+.flight-table{width:100%;border-collapse:collapse;margin-bottom:16px;font-size:13px}
+.flight-table th{text-align:left;padding:10px 12px;background:#f8fafc;font-weight:600;color:#1a3a5c;border-bottom:2px solid #e5e7eb;font-size:12px;text-transform:uppercase;letter-spacing:0.5px}
+.flight-table td{padding:10px 12px;border-bottom:1px solid #f0f0f0;color:#374151}
+.flight-table tr:last-child td{border-bottom:none}
+.flight-table .airline{font-weight:600;color:#1a2332}
+.flight-table .tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;margin-left:6px}
+.tag-nonstop{background:#ecfdf5;color:#059669}
+.tag-connecting{background:#fef9ee;color:#b45309}
+.tag-best{background:#eff6ff;color:#1e40af}
+
+/* Pros/cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.pros-cons ul{list-style:none;padding:0}
+.pros-cons li{padding:5px 0 5px 20px;position:relative;font-size:13px;color:#374151}
+.pros-cons h4{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px}
+.pros h4{color:#059669}
+.cons h4{color:#b91c1c}
+.pros li::before{content:'+';position:absolute;left:2px;color:#059669;font-weight:700}
+.cons li::before{content:'-';position:absolute;left:4px;color:#b91c1c;font-weight:700}
+
+/* Layout cards */
+.layout-grid{display:flex;flex-direction:column;gap:16px}
+.layout-card{background:#f8fafc;border-radius:12px;padding:20px;border:1px solid #e5e7eb;transition:border-color 0.2s}
+.layout-card.recommended{border-color:#2a6496;border-width:2px;background:#f0f7ff}
+.layout-card h3{font-size:16px;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.layout-badge{font-size:11px;font-weight:600;padding:2px 10px;border-radius:10px;background:#2a6496;color:#fff}
+.layout-card .layout-sub{font-size:13px;color:#5a6b7d;margin-bottom:12px}
+.day-row{display:flex;gap:10px;padding:6px 0;font-size:13px;border-bottom:1px solid #e5e7eb}
+.day-row:last-child{border-bottom:none}
+.day-label{font-weight:700;color:#1a3a5c;min-width:90px;flex-shrink:0}
+.day-detail{color:#374151}
+
+/* Connection hub cards */
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:12px}
+.hub-card{background:#f8fafc;border-radius:10px;padding:14px;border:1px solid #e5e7eb;text-align:center}
+.hub-card .hub-code{font-size:20px;font-weight:700;color:#1a3a5c}
+.hub-card .hub-airlines{font-size:12px;color:#5a6b7d;margin-top:2px}
+.hub-card .hub-note{font-size:11px;color:#374151;margin-top:6px}
+
+/* Alert */
+.alert{border-radius:12px;padding:16px 20px;margin-bottom:20px;font-size:13px}
+.alert-warn{background:#fef9ee;border-left:4px solid #f59e0b;color:#92400e}
+.alert-info{background:#eff6ff;border-left:4px solid #3b82f6;color:#1e40af}
+.alert strong{display:block;margin-bottom:4px}
+
+/* Expand */
+.expand-section{border-top:1px solid #f0f0f0;margin-top:8px}
+.expand-btn{width:100%;background:none;border:none;padding:14px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:inherit;font-size:14px;font-weight:600;color:#1a3a5c}
+.expand-btn:hover{color:#2a6496}
+.expand-arrow{transition:transform 0.2s;font-size:12px}
+.expand-btn.open .expand-arrow{transform:rotate(180deg)}
+.expand-content{display:none;padding:0 0 16px}
+.expand-content.show{display:block}
+
+/* Key tradeoff */
+.tradeoff-box{background:linear-gradient(135deg,#fefce8,#fef9c3);border:1px solid #fde047;border-radius:12px;padding:20px;margin-bottom:20px}
+.tradeoff-box h3{color:#854d0e;font-size:16px;margin-bottom:8px}
+.tradeoff-box p{font-size:13px;color:#713f12}
+
+/* Next steps */
+.next-steps{background:linear-gradient(135deg,#eff6ff,#f0f7ff);border:1px solid #93c5fd;border-radius:16px;padding:28px;margin-bottom:20px}
+.next-steps h2{font-size:20px;font-weight:700;margin-bottom:6px;color:#1e40af}
+.next-steps>p{font-size:14px;color:#374151;margin-bottom:20px}
+.question-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.q-card{background:#fff;border-radius:10px;padding:16px;border:1px solid #bfdbfe}
+.q-card h4{font-size:14px;font-weight:700;color:#1e40af;margin-bottom:4px}
+.q-card p{font-size:13px;color:#374151}
+
+.footer{text-align:center;padding:32px;font-size:12px;color:#94a3b8}
+
+@media(max-width:640px){
+  .container{padding:12px}
+  .hero{padding:28px 20px}
+  .hero h1{font-size:22px}
+  .route-node{padding:6px 10px;font-size:12px}
+  .route-arrow{font-size:16px;padding:0 3px}
+  .card{padding:20px}
+  .pros-cons{grid-template-columns:1fr}
+  .flight-table{font-size:12px}
+  .flight-table th,.flight-table td{padding:8px 6px}
+  .day-row{flex-direction:column;gap:2px}
+  .hub-grid{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Hero -->
+<div class="hero">
+  <h1>Irvine + San Diego</h1>
+  <div class="sub">Niki, Carissa & Ashi — Parents + Cousin Stefi, April 16-19</div>
+  <div class="route-flow">
+    <div class="route-node">PIT</div>
+    <div class="route-arrow">&#10132;</div>
+    <div class="route-node active">Irvine (Parents)</div>
+    <div class="route-arrow">&#10132;</div>
+    <div class="route-node active">San Diego (Stefi)</div>
+    <div class="route-arrow">&#10132;</div>
+    <div class="route-node">PIT</div>
+  </div>
+  <div class="route-dates">Thu Apr 16 &rarr; Mon Apr 20 &middot; 4 nights &middot; ~1.5 hr drive between Irvine &amp; SD</div>
+</div>
+
+<!-- Key Constraint -->
+<div class="alert alert-warn">
+  <strong>No nonstops SAN &rarr; PIT in April</strong>
+  Breeze starts May 2026, Southwest starts June 2026. The return flight will be a connection regardless of layout. This is the biggest constraint shaping the options.
+</div>
+
+<!-- ============================================ -->
+<!-- OUTBOUND FLIGHTS: Apr 16                     -->
+<!-- ============================================ -->
+<div class="card">
+  <h2>Outbound &mdash; Apr 16 (Thursday)</h2>
+  <div class="card-sub">PIT to Irvine area &mdash; fly into LAX (nonstop) or SNA (connecting)</div>
+
+  <h3 style="font-size:16px;font-weight:700;margin-bottom:4px;color:#1a3a5c">Option 1: LAX Nonstop</h3>
+  <p style="font-size:13px;color:#5a6b7d;margin-bottom:12px">Depart after 5pm constraint &mdash; both nonstops qualify perfectly</p>
+  <table class="flight-table">
+    <tr>
+      <th>Airline</th><th>Depart (ET)</th><th>Arrive (PT)</th><th>Duration</th><th>Price/pp</th><th>Notes</th>
+    </tr>
+    <tr>
+      <td class="airline">American</td>
+      <td>5:42pm</td>
+      <td>8:10pm</td>
+      <td>5h 28m</td>
+      <td><strong>$457</strong></td>
+      <td><span class="tag tag-nonstop">Nonstop</span></td>
+    </tr>
+    <tr>
+      <td class="airline">United</td>
+      <td>6:00pm</td>
+      <td>8:12pm</td>
+      <td>5h 12m</td>
+      <td><strong>$457</strong></td>
+      <td><span class="tag tag-nonstop">Nonstop</span></td>
+    </tr>
+  </table>
+  <div style="font-size:13px;color:#5a6b7d;margin-bottom:16px">
+    Drive LAX &rarr; Irvine: ~45 min (evening = no I-405 traffic). <strong>At parents' by ~9:00-9:15pm.</strong>
+    <strong style="color:#1a2332">$457/pp &times; 3 = $1,371 total.</strong>
+  </div>
+
+  <h3 style="font-size:16px;font-weight:700;margin-bottom:4px;color:#1a3a5c;margin-top:24px">Option 2: LAX 1-Stop (save $192/pp)</h3>
+  <p style="font-size:13px;color:#5a6b7d;margin-bottom:12px">Connecting flights that depart after 5pm</p>
+  <table class="flight-table">
+    <tr>
+      <th>Airline</th><th>Depart (ET)</th><th>Arrive (PT)</th><th>Duration</th><th>Stop</th><th>Price/pp</th>
+    </tr>
+    <tr style="background:#f0fdf4">
+      <td class="airline">Delta</td>
+      <td>5:32pm</td>
+      <td>9:50pm</td>
+      <td>7h 18m</td>
+      <td>SLC (45 min)</td>
+      <td><strong>$265</strong> <span class="tag tag-best">Best Value</span></td>
+    </tr>
+    <tr>
+      <td class="airline">Southwest</td>
+      <td>5:35pm</td>
+      <td>9:10pm</td>
+      <td>6h 35m</td>
+      <td>LAS (45 min)</td>
+      <td><strong>$479</strong> <span style="font-size:11px;color:#991b1b">(to SNA)</span></td>
+    </tr>
+  </table>
+  <div style="font-size:13px;color:#5a6b7d;margin-bottom:16px">
+    Delta via SLC: <strong style="color:#059669">$265/pp &times; 3 = $795 total (saves $576 vs nonstop!)</strong><br>
+    Arrives 9:50pm &mdash; only 40 min later than the nonstop, with a quick SLC connection.
+  </div>
+
+  <div style="background:#fef9ee;border-radius:10px;padding:14px 16px;font-size:13px;color:#92400e;border-left:3px solid #f59e0b;margin-bottom:16px">
+    <strong>Key finding: SNA is MORE expensive than LAX nonstop.</strong> Cheapest PIT&rarr;SNA connection after 5pm is $479/pp (Southwest via LAS). The SNA "closer to Irvine" advantage doesn't justify the $22/pp premium over a nonstop to LAX. <strong>SNA is eliminated.</strong>
+  </div>
+
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Nonstop ($457/pp)</h4>
+      <ul>
+        <li>Nonstop &mdash; Carissa's strong preference</li>
+        <li>Evening arrival = no I-405 traffic</li>
+        <li>At parents' by 9pm</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Delta 1-Stop ($265/pp)</h4>
+      <ul>
+        <li>Saves $576 for family of 3</li>
+        <li>Only 40 min later arrival</li>
+        <li>Quick 45-min SLC layover</li>
+        <li>But: Carissa dislikes connections</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- RETURN FLIGHTS: Apr 19                       -->
+<!-- ============================================ -->
+<div class="card">
+  <h2>Return &mdash; Apr 20 (Monday)</h2>
+  <div class="card-sub">SAN to PIT &mdash; all connecting (no nonstops in April) &mdash; prices from Google Flights</div>
+
+  <table class="flight-table">
+    <tr>
+      <th>Airline</th><th>Depart (PT)</th><th>Arrive (ET)</th><th>Duration</th><th>Stop</th><th>Price/pp</th>
+    </tr>
+    <tr style="background:#fef2f2">
+      <td class="airline">American</td>
+      <td>6:15am</td>
+      <td>4:54pm</td>
+      <td>7h 39m</td>
+      <td>PHL (48 min)</td>
+      <td>$248</td>
+    </tr>
+    <tr style="background:#fef2f2">
+      <td class="airline">United</td>
+      <td>6:20am</td>
+      <td>4:50pm</td>
+      <td>7h 30m</td>
+      <td>ORD (1h 36m)</td>
+      <td>$248</td>
+    </tr>
+    <tr style="background:#fef2f2">
+      <td class="airline">Southwest</td>
+      <td>6:45am</td>
+      <td>4:00pm</td>
+      <td>6h 15m</td>
+      <td>LAS (40 min)</td>
+      <td>$270</td>
+    </tr>
+    <tr style="background:#f0fdf4">
+      <td class="airline">Southwest</td>
+      <td>9:20am</td>
+      <td>7:20pm</td>
+      <td>7h</td>
+      <td>PHX (1h 45m)</td>
+      <td><strong>$270</strong> <span class="tag tag-best">Best Timing</span></td>
+    </tr>
+    <tr>
+      <td class="airline">American</td>
+      <td>11:01am</td>
+      <td>11:17pm</td>
+      <td>9h 16m</td>
+      <td>DFW (3h 26m)</td>
+      <td>$248</td>
+    </tr>
+    <tr>
+      <td class="airline">Delta</td>
+      <td>11:54am</td>
+      <td>10:56pm</td>
+      <td>8h 2m</td>
+      <td>DTW (2h 35m)</td>
+      <td>$248</td>
+    </tr>
+    <tr style="background:#f0fdf4">
+      <td class="airline">United</td>
+      <td>12:40pm</td>
+      <td>10:50pm</td>
+      <td>7h 10m</td>
+      <td>DEN (1h 24m)</td>
+      <td><strong>$248</strong> <span class="tag tag-best">Best Value</span></td>
+    </tr>
+    <tr>
+      <td class="airline">Southwest</td>
+      <td>1:05pm</td>
+      <td>11:10pm</td>
+      <td>7h 5m</td>
+      <td>BWI (55 min)</td>
+      <td>$248</td>
+    </tr>
+    <tr>
+      <td class="airline">Southwest</td>
+      <td>12:45pm</td>
+      <td>10:15pm</td>
+      <td>6h 30m</td>
+      <td>BNA (1h)</td>
+      <td>$290</td>
+    </tr>
+    <tr>
+      <td class="airline">Delta</td>
+      <td>2:45pm</td>
+      <td>11:58pm</td>
+      <td>6h 13m</td>
+      <td>MSP (36 min)</td>
+      <td>$248</td>
+    </tr>
+  </table>
+
+  <div style="font-size:12px;color:#5a6b7d;margin-bottom:16px">
+    <span style="display:inline-block;width:12px;height:12px;background:#fef2f2;border:1px solid #e5e7eb;border-radius:2px;vertical-align:middle;margin-right:4px"></span> Red = too early (before 8am) &mdash; violates family preferences
+    &nbsp;&nbsp;
+    <span style="display:inline-block;width:12px;height:12px;background:#f0fdf4;border:1px solid #86efac;border-radius:2px;vertical-align:middle;margin-right:4px"></span> Green = recommended
+  </div>
+
+  <div style="background:#f0f7ff;border-radius:10px;padding:16px;border:1px solid #93c5fd;margin-bottom:12px">
+    <strong style="color:#1e40af">Best timing: Southwest 9:20am &rarr; 7:20pm ($270/pp)</strong><br>
+    <span style="font-size:13px;color:#374151">
+      Relaxed morning in SD, arrive PIT at a very reasonable 7:20pm via PHX. Free bags + no change fees.
+      $270 &times; 3 = <strong>$810 total</strong>.
+    </span>
+  </div>
+
+  <div style="background:#f0fdf4;border-radius:10px;padding:16px;border:1px solid #86efac">
+    <strong style="color:#065f46">Best value + max SD time: United 12:40pm &rarr; 10:50pm ($248/pp)</strong><br>
+    <span style="font-size:13px;color:#374151">
+      Full morning + lunch in SD. Cheapest option with reasonable timing, via DEN.
+      $248 &times; 3 = <strong>$744 total</strong>.
+    </span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- TRIP LAYOUTS                                  -->
+<!-- ============================================ -->
+<div class="card">
+  <h2>Trip Layout Options</h2>
+  <div class="card-sub">4 nights (Thu Apr 16 &rarr; Mon Apr 20), 2 destinations. How to split the time?</div>
+
+  <div class="layout-grid">
+
+    <!-- Layout A -->
+    <div class="layout-card recommended">
+      <h3>Layout A: 2 Nights Irvine + 2 Nights SD <span class="layout-badge">Balanced</span></h3>
+      <div class="layout-sub">Equal time with parents and in San Diego &mdash; best of both</div>
+      <div class="day-row">
+        <div class="day-label">Thu Apr 16</div>
+        <div class="day-detail">Fly PIT &rarr; LAX. Arrive Irvine ~9pm. <strong>Night 1 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Fri Apr 17</div>
+        <div class="day-detail">Full day in Irvine with parents. <strong>Night 2 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sat Apr 18</div>
+        <div class="day-detail">Morning with parents. Drive to SD after lunch (~1.5hr). Afternoon/evening with Stefi &mdash; Gaslamp, dinner, sunset. <strong>Night 3 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sun Apr 19</div>
+        <div class="day-detail">Full day in SD &mdash; beach, La Jolla, explore. <strong>Night 4 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Mon Apr 20</div>
+        <div class="day-detail">Morning in SD. Fly SAN &rarr; PIT (connecting, depart ~9:20am).</div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px">
+        <div class="pros"><h4>Pros</h4>
+          <ul>
+            <li>Good quality time with parents (full Friday + Sat morning)</li>
+            <li>Saturday night + all day Sunday in SD</li>
+            <li>Balanced &mdash; neither visit feels rushed</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Cons</h4>
+          <ul>
+            <li>Saturday AM goodbye to parents can feel abrupt</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Layout B -->
+    <div class="layout-card">
+      <h3>Layout B: 3 Nights Irvine + 1 Night SD <span class="layout-badge" style="background:#1a3a5c">Max Parent Time</span></h3>
+      <div class="layout-sub">Priority on parents, quick SD stop at the end</div>
+      <div class="day-row">
+        <div class="day-label">Thu Apr 16</div>
+        <div class="day-detail">Fly PIT &rarr; LAX. Arrive Irvine ~9pm. <strong>Night 1 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Fri Apr 17</div>
+        <div class="day-detail">Full day in Irvine with parents. <strong>Night 2 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sat Apr 18</div>
+        <div class="day-detail">Full day in Irvine. <strong>Night 3 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sun Apr 19</div>
+        <div class="day-detail">Drive to SD morning (~1.5hr). Afternoon/evening with Stefi. <strong>Night 4 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Mon Apr 20</div>
+        <div class="day-detail">Morning in SD. Fly SAN &rarr; PIT.</div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px">
+        <div class="pros"><h4>Pros</h4>
+          <ul>
+            <li>3 full days with parents</li>
+            <li>Relaxed pace in Irvine</li>
+            <li>Still get Sunday evening + Monday morning in SD</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Cons</h4>
+          <ul>
+            <li>Only ~18 hours in San Diego</li>
+            <li>Sunday in SD is shorter day (drive eats into it)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Layout C -->
+    <div class="layout-card">
+      <h3>Layout C: 1 Night Irvine + 3 Nights SD <span class="layout-badge" style="background:#b45309">Max SD Time</span></h3>
+      <div class="layout-sub">Quick parents visit, then extended San Diego weekend</div>
+      <div class="day-row">
+        <div class="day-label">Thu Apr 16</div>
+        <div class="day-detail">Fly PIT &rarr; LAX. Arrive Irvine ~9pm. <strong>Night 1 in Irvine.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Fri Apr 17</div>
+        <div class="day-detail">Morning with parents. Drive to SD after lunch (~1.5hr). <strong>Night 2 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sat Apr 18</div>
+        <div class="day-detail">Full day in SD with Stefi. <strong>Night 3 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Sun Apr 19</div>
+        <div class="day-detail">Full day in SD &mdash; beach, La Jolla, Gaslamp. <strong>Night 4 in SD.</strong></div>
+      </div>
+      <div class="day-row">
+        <div class="day-label">Mon Apr 20</div>
+        <div class="day-detail">Morning in SD. Fly SAN &rarr; PIT.</div>
+      </div>
+      <div class="pros-cons" style="margin-top:12px">
+        <div class="pros"><h4>Pros</h4>
+          <ul>
+            <li>3 full nights in SD &mdash; real vacation feel</li>
+            <li>Fri + Sat + Sun nights out</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Cons</h4>
+          <ul>
+            <li>Only 1 morning with parents before leaving</li>
+            <li>May feel like not enough Irvine time</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Layout D (eliminated) -->
+    <div class="layout-card" style="opacity:0.6;border-color:#fca5a5">
+      <h3 style="color:#991b1b">Layout D: Fly into SAN First (Reversed) &mdash; Eliminated</h3>
+      <div class="layout-sub" style="color:#991b1b">
+        Return from SNA/LAX has no nonstops to PIT either, and LAX nonstop departs ~6pm (lose the whole last day).
+        Worse flight options in <em>both</em> directions. No advantage over A/B/C.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- KEY TRADEOFF                                  -->
+<!-- ============================================ -->
+<div class="tradeoff-box">
+  <h3>The Key Tradeoff: $615 vs. Nonstop Comfort</h3>
+  <p>
+    <strong>Nonstop AA/UA to LAX ($457/pp)</strong> &mdash; Carissa's preference. Arrive 8:10pm, at parents' by 9pm. Peace of mind, no connection risk.<br><br>
+    <strong>Delta 1-stop via SLC ($265/pp)</strong> &mdash; Arrive only 40 min later at 9:50pm. Quick 45-min SLC layover. <strong>Saves $576 for the family.</strong><br><br>
+    <strong>SNA is eliminated</strong> &mdash; connecting flights to SNA start at $479/pp, more expensive than the LAX nonstop while also requiring a connection. Worst of both worlds.<br><br>
+    The return is a connection regardless &mdash; cheapest reasonable options are $248-$290/pp.
+  </p>
+</div>
+
+<!-- ============================================ -->
+<!-- RECOMMENDATION                                -->
+<!-- ============================================ -->
+<div class="card highlighted">
+  <div class="card-label">Recommendation</div>
+  <h2 style="margin-top:8px">Best Combos (with real prices)</h2>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a3a5c;margin-top:20px;margin-bottom:12px">Option A: Nonstop Out (Carissa-approved)</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+    <div style="background:#f0f7ff;border-radius:10px;padding:16px">
+      <div style="font-size:12px;font-weight:600;color:#1e40af;text-transform:uppercase;margin-bottom:6px">Outbound &mdash; Thu Apr 16</div>
+      <div style="font-size:15px;font-weight:700;color:#1a2332">American 5:42pm &rarr; 8:10pm</div>
+      <div style="font-size:13px;color:#374151;margin-top:4px">PIT &rarr; LAX nonstop &middot; 5h 28m</div>
+      <div style="font-size:14px;font-weight:700;color:#1e40af;margin-top:6px">$457/pp</div>
+    </div>
+    <div style="background:#f0f7ff;border-radius:10px;padding:16px">
+      <div style="font-size:12px;font-weight:600;color:#1e40af;text-transform:uppercase;margin-bottom:6px">Return &mdash; Mon Apr 20</div>
+      <div style="font-size:15px;font-weight:700;color:#1a2332">Southwest 9:20am &rarr; 7:20pm</div>
+      <div style="font-size:13px;color:#374151;margin-top:4px">SAN &rarr; PHX &rarr; PIT &middot; 1 stop &middot; free bags</div>
+      <div style="font-size:14px;font-weight:700;color:#1e40af;margin-top:6px">$270/pp</div>
+    </div>
+  </div>
+  <div style="background:#f0fdf4;border-radius:10px;padding:12px 16px;margin-top:12px;display:flex;align-items:center;gap:10px">
+    <span style="font-size:12px;color:#059669;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">Total for family of 3</span>
+    <span style="font-size:18px;font-weight:700;color:#065f46">$2,181</span>
+    <span style="font-size:13px;color:#5a6b7d">($727/pp &times; 3)</span>
+  </div>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a3a5c;margin-top:24px;margin-bottom:12px">Option B: Value Pick (save $636)</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+    <div style="background:#f0fdf4;border-radius:10px;padding:16px">
+      <div style="font-size:12px;font-weight:600;color:#059669;text-transform:uppercase;margin-bottom:6px">Outbound &mdash; Thu Apr 16</div>
+      <div style="font-size:15px;font-weight:700;color:#1a2332">Delta 5:32pm &rarr; 9:50pm</div>
+      <div style="font-size:13px;color:#374151;margin-top:4px">PIT &rarr; SLC &rarr; LAX &middot; 1 stop (45 min SLC)</div>
+      <div style="font-size:14px;font-weight:700;color:#059669;margin-top:6px">$265/pp</div>
+    </div>
+    <div style="background:#f0fdf4;border-radius:10px;padding:16px">
+      <div style="font-size:12px;font-weight:600;color:#059669;text-transform:uppercase;margin-bottom:6px">Return &mdash; Mon Apr 20</div>
+      <div style="font-size:15px;font-weight:700;color:#1a2332">United 12:40pm &rarr; 10:50pm</div>
+      <div style="font-size:13px;color:#374151;margin-top:4px">SAN &rarr; DEN &rarr; PIT &middot; 1 stop</div>
+      <div style="font-size:14px;font-weight:700;color:#059669;margin-top:6px">$248/pp</div>
+    </div>
+  </div>
+  <div style="background:#f0fdf4;border-radius:10px;padding:12px 16px;margin-top:12px;display:flex;align-items:center;gap:10px">
+    <span style="font-size:12px;color:#059669;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">Total for family of 3</span>
+    <span style="font-size:18px;font-weight:700;color:#065f46">$1,539</span>
+    <span style="font-size:13px;color:#5a6b7d">($513/pp &times; 3)</span>
+  </div>
+  <div style="font-size:13px;color:#5a6b7d;margin-top:8px">
+    Delta outbound arrives only 40 min later than nonstop. Both legs 1-stop, but <strong>save $642 vs Option A</strong>. Most $248 return flights depart 11am+ giving full morning in SD.
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- NEXT STEPS                                    -->
+<!-- ============================================ -->
+<div class="next-steps">
+  <h2>Decisions to Make</h2>
+  <p>Two questions drive everything else:</p>
+  <div class="question-cards">
+    <div class="q-card">
+      <h4>1. Nonstop or earlier arrival?</h4>
+      <p>LAX nonstop (arrive 9pm) vs. SNA connecting (arrive ~3-4pm). On a 3-night trip, those extra hours are valuable. Is Carissa's nonstop preference strong enough for this one?</p>
+    </div>
+    <div class="q-card">
+      <h4>2. How to split the 4 nights?</h4>
+      <p><strong>2+2</strong> (Layout A) is balanced. <strong>3+1</strong> (Layout B) maximizes parents. <strong>1+3</strong> (Layout C) maximizes SD. Which relationship needs the time more this trip?</p>
+    </div>
+    <div class="q-card">
+      <h4>3. Check actual prices</h4>
+      <p>Search Google Flights for Apr 16 PIT&rarr;LAX and PIT&rarr;SNA, and Apr 19 SAN&rarr;PIT. Price may make the decision for you.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  TravelOptimizer &middot; Irvine + SD April 2026 &middot; Prices scraped from Google Flights April 3, 2026
+</div>
+
+</div>
+
+<script>
+function toggle(btn){
+  btn.classList.toggle('open');
+  const content=btn.nextElementSibling;
+  content.classList.toggle('show');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "_comment": "Known nonstop routes from Pittsburgh International (PIT). Hand-curated as of 2026-04. Re-verify against https://www.flightsfrom.com/PIT or https://flypittsburgh.com/route-map/ before relying for final booking decisions. Used by enrich-trip-flights.mjs as a fast bulk filter; finalists should be cross-checked via Google Flights / WebSearch.",
+  "as_of": "2026-04",
+  "sources": [
+    "https://www.flightsfrom.com/PIT",
+    "https://flypittsburgh.com/pit-airport/airlines/route-map"
+  ],
+  "domestic_year_round": [
+    "ATL", "AUS", "BNA", "BOS", "BWI", "CLT", "DCA", "DEN", "DFW", "DTW",
+    "EWR", "FLL", "IAD", "IAH", "JFK", "LAS", "LAX", "LGA", "MCO", "MDW",
+    "MIA", "MSP", "ORD", "PHL", "PHX", "RDU", "RSW", "SEA", "SFO", "TPA"
+  ],
+  "domestic_seasonal_summer": [
+    "ACK", "BOI", "BUR", "HYA", "MVY", "PVD", "PWM", "SAN", "SLC"
+  ],
+  "international_year_round": [
+    "YYZ"
+  ],
+  "international_seasonal_summer": [
+    "CUN", "PUJ", "MBJ", "NAS", "GCM", "FPO", "DUB", "KEF"
+  ],
+  "by_airport_metadata": {
+    "_comment": "Optional per-airport notes. Used by the renderer when explaining routing.",
+    "KEF": { "city": "Reykjavík", "country": "Iceland", "carrier": "Icelandair (seasonal)" },
+    "DUB": { "city": "Dublin",    "country": "Ireland", "carrier": "Aer Lingus (seasonal)" },
+    "YYZ": { "city": "Toronto",   "country": "Canada",  "carrier": "Air Canada" },
+    "CUN": { "city": "Cancún",    "country": "Mexico",  "carrier": "Frontier/Spirit (seasonal)" }
+  }
+}

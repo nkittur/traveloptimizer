@@ -1,0 +1,1150 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "irvine" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 08 Nov 2023
+      - generic [ref=e127]: 10 points (71% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/17qu8ty
+    - generic [ref=e130]:
+      - link "Submit a new linkSubmit Link" [ref=e131] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit
+      - text: N/A
+    - generic [ref=e132]:
+      - text: N/A
+      - link "Submit a new text postSubmit Text" [ref=e133] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit?selftext=true
+    - generic [ref=e135]:
+      - text: Subreddit Info
+      - heading "irvine" [level=1] [ref=e136]:
+        - link "irvine" [ref=e137] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/irvine/
+      - link "join" [ref=e139] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e142]:
+        - separator [ref=e143]
+        - paragraph [ref=e144]:
+          - link "Thinking about moving to Irvine? Please check out the wiki before submitting a question!" [ref=e145] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/wiki/moving
+        - separator [ref=e146]
+        - paragraph [ref=e147]:
+          - link "Posting Rules:" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/about/rules/
+            - strong [ref=e149]: "Posting Rules:"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - paragraph [ref=e152]: Try to be courteous, it's a small subreddit.
+          - listitem [ref=e153]:
+            - paragraph [ref=e154]: Don't spam. Advertisements may be removed (includes self promotion).
+          - listitem [ref=e155]:
+            - paragraph [ref=e156]: This is not a subreddit to meet other people.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: This is not a subreddit to sell or buy things/services.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: If you're a politician or most of your posts are about politics, your submission/comments may be removed. Please message the moderators if you have any questions.
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: No simple, generic, or misleading posts (e.g. one or two word titles, questions that can easily be googled, complaints about the city, etc).
+          - listitem [ref=e163]:
+            - paragraph [ref=e164]: Links to Twitter/X are not allowed.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: AI generated posts are not allowed.
+        - paragraph [ref=e167]:
+          - emphasis [ref=e168]: Posts may be removed for reasons not listed above. Please feel free to inquire about any removals.
+        - paragraph [ref=e169]
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Things to Do:"
+        - paragraph [ref=e172]:
+          - link "Orange County Great Park" [ref=e173] [cursor=pointer]:
+            - /url: http://www.ocgp.org/
+        - paragraph [ref=e174]:
+          - link "Irvine Improv" [ref=e175] [cursor=pointer]:
+            - /url: http://irvine.improv.com/
+        - paragraph [ref=e176]:
+          - link "Irvine Ampitheatre" [ref=e177] [cursor=pointer]:
+            - /url: http://www.verizonwirelessamphitheatreirvine.com/
+        - paragraph [ref=e178]:
+          - link "IVC Arts" [ref=e179] [cursor=pointer]:
+            - /url: http://www.ivcarts.org/
+        - paragraph [ref=e180]
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: "Shopping:"
+        - paragraph [ref=e183]:
+          - link "Irvine Spectrum" [ref=e184] [cursor=pointer]:
+            - /url: http://www.shopirvinespectrumcenter.com/
+        - paragraph [ref=e185]:
+          - link "Diamond Jamboree" [ref=e186] [cursor=pointer]:
+            - /url: http://www.diamond-jamboree.com/
+        - paragraph [ref=e187]:
+          - link "Tustin Marketplace" [ref=e188] [cursor=pointer]:
+            - /url: http://www.shopthemarketplace.com/
+        - paragraph [ref=e189]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: "Community Sites:"
+        - paragraph [ref=e192]:
+          - link "Irvine Police Department" [ref=e193] [cursor=pointer]:
+            - /url: http://www.cityofirvine.org/ipd/
+        - paragraph [ref=e194]:
+          - link "The Irvine Company" [ref=e195] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e196]:
+          - link "UC Irvine" [ref=e197] [cursor=pointer]:
+            - /url: http://uci.edu/
+        - paragraph [ref=e198]:
+          - link "Irvine Unified School District" [ref=e199] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e200]:
+          - link "Irvine Chamber of Commerce" [ref=e201] [cursor=pointer]:
+            - /url: http://www.irvinechamber.com/
+        - paragraph [ref=e202]:
+          - link "Irvine Valley College" [ref=e203] [cursor=pointer]:
+            - /url: http://ivc.edu/
+        - paragraph [ref=e204]
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Other Subreddits:"
+        - paragraph [ref=e207]:
+          - link "/r/orangecounty" [ref=e208] [cursor=pointer]:
+            - /url: /r/orangecounty
+    - generic [ref=e210]:
+      - heading "MODERATORS" [level=1] [ref=e212]
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link "message the mods" [ref=e215] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/irvine
+    - complementary [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - text: discussions in
+          - link "r/irvine" [ref=e221] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/?ref=readnext
+        - navigation [ref=e222]:
+          - generic [ref=e223] [cursor=pointer]: <
+          - generic [ref=e224] [cursor=pointer]: ">"
+        - generic [ref=e226] [cursor=pointer]: X
+      - link "20 · 20 comments Irvine City Council allows Oak Creek Golf Course zoning change" [ref=e228] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/comments/1so1evf/irvine_city_council_allows_oak_creek_golf_course/?ref=readnext_0
+        - generic [ref=e229]: 20 · 20 comments
+        - generic [ref=e231]: Irvine City Council allows Oak Creek Golf Course zoning change
+    - text: This subreddit uses the /r/Naut theme.
+  - main [ref=e232]:
+    - generic [ref=e233]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e234] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e235]
+        - paragraph [ref=e236]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e237]:
+          - generic [ref=e238]: Become a Redditor
+          - paragraph [ref=e239]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e240] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e242]:
+      - paragraph
+      - generic [ref=e243]:
+        - button "upvote" [ref=e244] [cursor=pointer]
+        - generic "10" [ref=e245]
+        - button "downvote" [ref=e246] [cursor=pointer]
+      - link [ref=e247] [cursor=pointer]:
+        - /url: /r/irvine/comments/17qu8ty/fancy_restaurant/
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - paragraph [ref=e250]:
+            - link "Fancy restaurant" [ref=e251] [cursor=pointer]:
+              - /url: /r/irvine/comments/17qu8ty/fancy_restaurant/
+            - link "self.irvine" [ref=e252] [cursor=pointer]:
+              - /url: /r/irvine/
+          - paragraph [ref=e253]:
+            - text: submitted
+            - time [ref=e254]: 2 years ago
+            - text: by [deleted]
+        - generic [ref=e258]:
+          - paragraph [ref=e259]: Boss is taking me and my family out for dinner tonight at 6pm and I need a recommendation of where to go. Open to any kind of cuisine. Keyword on fancy. And I’m bringing a toddler.
+          - paragraph [ref=e260]: Anyplace with memorable views and good food here?
+        - list [ref=e261]:
+          - listitem [ref=e262]:
+            - link "24 comments" [ref=e263] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/
+          - listitem [ref=e264]:
+            - link "share" [ref=e265] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e266]:
+            - link "save" [ref=e267] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e268]:
+            - link "hide" [ref=e271] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e272]:
+            - link "report" [ref=e273] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e274]:
+      - generic [ref=e275]: all 24 comments
+      - generic [ref=e277]:
+        - text: "sorted by:"
+        - generic [ref=e278]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e281] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e282]
+        - generic [ref=e283]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e284]
+          - paragraph [ref=e285]: Post a comment!
+          - generic [ref=e287]: Create an account
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - paragraph
+          - generic [ref=e290]:
+            - button "upvote" [ref=e291] [cursor=pointer]
+            - button "downvote" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - paragraph [ref=e294]:
+              - link "[–]" [ref=e295] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Striking_Tone8272" [ref=e296] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Striking_Tone8272
+              - text: • • 9 points •
+              - time [ref=e297]: 2 years ago
+            - generic [ref=e300]:
+              - paragraph [ref=e301]: Knife Pleat at SCP if you're looking for the fanciest.
+              - paragraph [ref=e302]: Crystal Cove - Marche moderne and A Restaurant. Marche has the best french food. A is a really cool space. Both fancy.
+              - paragraph [ref=e303]: Irvine - Izakaya Osen and Goldfinch are right next to each other. Good food at both places. Izakaya is fancier.
+              - paragraph [ref=e304]: Mastro's is the best steakhouse in the area.
+              - paragraph [ref=e305]: We have taken our toddler to all of these places.
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - link "permalink" [ref=e308] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8f7gft/
+              - listitem [ref=e309]:
+                - link "embed" [ref=e310] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e311]:
+                - link "save" [ref=e312] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e313]:
+                - link "report" [ref=e314] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e315]:
+                - link "reply" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e317]:
+          - paragraph
+          - generic [ref=e318]:
+            - button "upvote" [ref=e319] [cursor=pointer]
+            - button "downvote" [ref=e320] [cursor=pointer]
+          - generic [ref=e321]:
+            - paragraph [ref=e322]:
+              - link "[–]" [ref=e323] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] • • 12 points •"
+              - time [ref=e324]: 2 years ago
+            - paragraph [ref=e328]: Solstice Seasonal Kitchen & Bar. Excellent food surrounded by modern architecture.
+            - list [ref=e329]:
+              - listitem [ref=e330]:
+                - link "permalink" [ref=e331] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8f72ge/
+              - listitem [ref=e332]:
+                - link "embed" [ref=e333] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e334]:
+                - link "save" [ref=e335] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e336]:
+                - link "report" [ref=e337] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e338]:
+                - link "reply" [ref=e339] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e342]:
+            - paragraph
+            - generic [ref=e343]:
+              - button "upvote" [ref=e344] [cursor=pointer]
+              - button "downvote" [ref=e345] [cursor=pointer]
+            - generic [ref=e346]:
+              - paragraph [ref=e347]:
+                - link "[–]" [ref=e348] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "_cruiser" [ref=e349] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/_cruiser
+                - text: • • 4 points •
+                - time [ref=e350]: 2 years ago
+              - paragraph [ref=e354]: Add on to Solstice! Seems perfect for this
+              - list [ref=e355]:
+                - listitem [ref=e356]:
+                  - link "permalink" [ref=e357] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8f9vf9/
+                - listitem [ref=e358]:
+                  - link "embed" [ref=e359] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e360]:
+                  - link "save" [ref=e361] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e362]:
+                  - link "parent" [ref=e363] [cursor=pointer]:
+                    - /url: "#k8f72ge"
+                - listitem [ref=e364]:
+                  - link "report" [ref=e365] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e366]:
+                  - link "reply" [ref=e367] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e368]:
+          - paragraph
+          - generic [ref=e369]:
+            - paragraph [ref=e370]:
+              - link "[–]" [ref=e371] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e372]: "[deleted]"
+              - time [ref=e373]: 2 years ago
+            - paragraph [ref=e377]: "[deleted]"
+            - list
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - paragraph
+              - generic [ref=e381]:
+                - button "upvote" [ref=e382] [cursor=pointer]
+                - button "downvote" [ref=e383] [cursor=pointer]
+              - generic [ref=e384]:
+                - paragraph [ref=e385]:
+                  - link "[–]" [ref=e386] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "hung_like__podrick" [ref=e387] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/hung_like__podrick
+                  - text: • • 1 point •
+                  - time [ref=e388]: 2 years ago
+                - paragraph [ref=e392]: So unique there’s another Habana right down the road in CM! Food and drinks are def solid though
+                - list [ref=e393]:
+                  - listitem [ref=e394]:
+                    - link "permalink" [ref=e395] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8f7b15/
+                  - listitem [ref=e396]:
+                    - link "embed" [ref=e397] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e398]:
+                    - link "save" [ref=e399] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e400]:
+                    - link "report" [ref=e401] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e402]:
+                    - link "reply" [ref=e403] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e406]:
+                - paragraph
+                - generic [ref=e407]:
+                  - paragraph [ref=e408]:
+                    - link "[–]" [ref=e409] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e410]: "[deleted]"
+                    - time [ref=e411]: 2 years ago
+                  - paragraph [ref=e415]: "[deleted]"
+                  - list
+                - generic [ref=e418]:
+                  - paragraph
+                  - generic [ref=e419]:
+                    - button "upvote" [ref=e420] [cursor=pointer]
+                    - button "downvote" [ref=e421] [cursor=pointer]
+                  - generic [ref=e422]:
+                    - paragraph [ref=e423]:
+                      - link "[–]" [ref=e424] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "hung_like__podrick" [ref=e425] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/hung_like__podrick
+                      - text: • • 0 points •
+                      - time [ref=e426]: 2 years ago
+                    - paragraph [ref=e430]: You are and Habana is not unique to Irvine
+                    - list [ref=e431]:
+                      - listitem [ref=e432]:
+                        - link "permalink" [ref=e433] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8fszw8/
+                      - listitem [ref=e434]:
+                        - link "embed" [ref=e435] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e436]:
+                        - link "save" [ref=e437] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e438]:
+                        - link "report" [ref=e439] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e440]:
+                        - link "reply" [ref=e441] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e444]:
+                    - paragraph
+                    - generic [ref=e445]:
+                      - paragraph [ref=e446]:
+                        - link "[–]" [ref=e447] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - emphasis [ref=e448]: "[deleted]"
+                        - time [ref=e449]: 2 years ago
+                      - paragraph [ref=e453]: "[deleted]"
+                      - list
+                    - generic [ref=e456]:
+                      - paragraph
+                      - generic [ref=e457]:
+                        - button "upvote" [ref=e458] [cursor=pointer]
+                        - button "downvote" [ref=e459] [cursor=pointer]
+                      - generic [ref=e460]:
+                        - paragraph [ref=e461]:
+                          - link "[–]" [ref=e462] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "hung_like__podrick" [ref=e463] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/hung_like__podrick
+                          - text: • • 1 point •
+                          - time [ref=e464]: 2 years ago
+                        - paragraph [ref=e468]: Yeah like I said, solid food and drinks! Nothing better than a nice dinner at the Irvine Spectrum.
+                        - list [ref=e469]:
+                          - listitem [ref=e470]:
+                            - link "permalink" [ref=e471] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8fudcl/
+                          - listitem [ref=e472]:
+                            - link "embed" [ref=e473] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e474]:
+                            - link "save" [ref=e475] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e476]:
+                            - link "report" [ref=e477] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e478]:
+                            - link "reply" [ref=e479] [cursor=pointer]:
+                              - /url: javascript:void(0)
+            - generic [ref=e480]:
+              - paragraph
+              - generic [ref=e481]:
+                - button "upvote" [ref=e482] [cursor=pointer]
+                - button "downvote" [ref=e483] [cursor=pointer]
+              - generic [ref=e484]:
+                - paragraph [ref=e485]:
+                  - link "[–]" [ref=e486] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "chipperow" [ref=e487] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/chipperow
+                  - text: • • -1 points •
+                  - time [ref=e488]: 2 years ago
+                - paragraph [ref=e492]: Habana is great! Javier's at the Spectrum is also fancy and has great vibes
+                - list [ref=e493]:
+                  - listitem [ref=e494]:
+                    - link "permalink" [ref=e495] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8eyp32/
+                  - listitem [ref=e496]:
+                    - link "embed" [ref=e497] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e498]:
+                    - link "save" [ref=e499] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e500]:
+                    - link "report" [ref=e501] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e502]:
+                    - link "reply" [ref=e503] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e504]:
+          - paragraph
+          - generic [ref=e505]:
+            - button "upvote" [ref=e506] [cursor=pointer]
+            - button "downvote" [ref=e507] [cursor=pointer]
+          - generic [ref=e508]:
+            - paragraph [ref=e509]:
+              - link "[–]" [ref=e510] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "meiguoyungwai" [ref=e511] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/meiguoyungwai
+              - text: • • 3 points •
+              - time [ref=e512]: 2 years ago
+            - paragraph [ref=e516]: "Irvine: Otoro, Izakaya Osen"
+            - list [ref=e517]:
+              - listitem [ref=e518]:
+                - link "permalink" [ref=e519] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8elqxl/
+              - listitem [ref=e520]:
+                - link "embed" [ref=e521] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e522]:
+                - link "save" [ref=e523] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e524]:
+                - link "report" [ref=e525] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e526]:
+                - link "reply" [ref=e527] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e528]:
+          - paragraph
+          - generic [ref=e529]:
+            - button "upvote" [ref=e530] [cursor=pointer]
+            - button "downvote" [ref=e531] [cursor=pointer]
+          - generic [ref=e532]:
+            - paragraph [ref=e533]:
+              - link "[–]" [ref=e534] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "No_Mess_4765" [ref=e535] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/No_Mess_4765
+              - text: • • 2 points •
+              - time [ref=e536]: 2 years ago
+            - generic [ref=e539]:
+              - paragraph [ref=e540]: How fancy?
+              - paragraph [ref=e541]: 6 PM is dark. A view is city view.
+              - paragraph [ref=e542]: Orange hill isn’t in Irvine, and I haven’t been there, but it’s somewhat fancy and has a city view.
+              - paragraph [ref=e543]: Fancy, agora. By the airport.
+              - paragraph [ref=e544]: Best steakhouse I’ve been to in OC. Mastro’s. Costa Mesa or crystal cove.
+            - list [ref=e545]:
+              - listitem [ref=e546]:
+                - link "permalink" [ref=e547] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8ew969/
+              - listitem [ref=e548]:
+                - link "embed" [ref=e549] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e550]:
+                - link "save" [ref=e551] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e552]:
+                - link "report" [ref=e553] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e554]:
+                - link "reply" [ref=e555] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e556]:
+          - paragraph
+          - generic [ref=e557]:
+            - button "upvote" [ref=e558] [cursor=pointer]
+            - button "downvote" [ref=e559] [cursor=pointer]
+          - generic [ref=e560]:
+            - paragraph [ref=e561]:
+              - link "[–]" [ref=e562] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "icTKD" [ref=e563] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/icTKD
+              - text: • • 2 points •
+              - time [ref=e564]: 2 years ago
+            - paragraph [ref=e568]: Texas De Brazil. Bbq is off the charts.
+            - list [ref=e569]:
+              - listitem [ref=e570]:
+                - link "permalink" [ref=e571] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8exgxs/
+              - listitem [ref=e572]:
+                - link "embed" [ref=e573] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e574]:
+                - link "save" [ref=e575] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e576]:
+                - link "report" [ref=e577] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e578]:
+                - link "reply" [ref=e579] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e582]:
+            - paragraph
+            - generic [ref=e583]:
+              - button "upvote" [ref=e584] [cursor=pointer]
+              - button "downvote" [ref=e585] [cursor=pointer]
+            - generic [ref=e586]:
+              - paragraph [ref=e587]:
+                - link "[–]" [ref=e588] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "thicc_wolverine" [ref=e589] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/thicc_wolverine
+                - text: • • 5 points •
+                - time [ref=e590]: 2 years ago
+              - paragraph [ref=e594]: I would argue that Agorra or Fogo de Chao are a little "nicer," although my coworkers all prefer Texas to the other two.
+              - list [ref=e595]:
+                - listitem [ref=e596]:
+                  - link "permalink" [ref=e597] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8fk5ua/
+                - listitem [ref=e598]:
+                  - link "embed" [ref=e599] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e600]:
+                  - link "save" [ref=e601] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e602]:
+                  - link "parent" [ref=e603] [cursor=pointer]:
+                    - /url: "#k8exgxs"
+                - listitem [ref=e604]:
+                  - link "report" [ref=e605] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e606]:
+                  - link "reply" [ref=e607] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e608]:
+          - paragraph
+          - generic [ref=e609]:
+            - button "upvote" [ref=e610] [cursor=pointer]
+            - button "downvote" [ref=e611] [cursor=pointer]
+          - generic [ref=e612]:
+            - paragraph [ref=e613]:
+              - link "[–]" [ref=e614] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "serpientwolf" [ref=e615] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/serpientwolf
+              - text: • • 0 points •
+              - time [ref=e616]: 2 years ago
+            - paragraph [ref=e620]: Izakaya Osen
+            - list [ref=e621]:
+              - listitem [ref=e622]:
+                - link "permalink" [ref=e623] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8esl99/
+              - listitem [ref=e624]:
+                - link "embed" [ref=e625] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e626]:
+                - link "save" [ref=e627] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e628]:
+                - link "report" [ref=e629] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e630]:
+                - link "reply" [ref=e631] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e634]:
+            - paragraph
+            - generic [ref=e635]:
+              - button "upvote" [ref=e636] [cursor=pointer]
+              - button "downvote" [ref=e637] [cursor=pointer]
+            - generic [ref=e638]:
+              - paragraph [ref=e639]:
+                - link "[–]" [ref=e640] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "lukienami" [ref=e641] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/lukienami
+                - text: • • 0 points •
+                - time [ref=e642]: 2 years ago
+              - paragraph [ref=e646]: Doesn’t taste good imo.
+              - list [ref=e647]:
+                - listitem [ref=e648]:
+                  - link "permalink" [ref=e649] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8ewp0m/
+                - listitem [ref=e650]:
+                  - link "embed" [ref=e651] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e652]:
+                  - link "save" [ref=e653] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e654]:
+                  - link "parent" [ref=e655] [cursor=pointer]:
+                    - /url: "#k8esl99"
+                - listitem [ref=e656]:
+                  - link "report" [ref=e657] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e658]:
+                  - link "reply" [ref=e659] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e660]:
+          - paragraph
+          - generic [ref=e661]:
+            - button "upvote" [ref=e662] [cursor=pointer]
+            - button "downvote" [ref=e663] [cursor=pointer]
+          - generic [ref=e664]:
+            - paragraph [ref=e665]:
+              - link "[–]" [ref=e666] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "timexconsumer" [ref=e667] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/timexconsumer
+              - text: • • 2 points •
+              - time [ref=e668]: 2 years ago
+            - generic [ref=e671]:
+              - paragraph [ref=e672]: People like that marble steakhouse in Woodbury
+              - paragraph [ref=e673]: Nothing in Irvine has views that I can think of
+            - list [ref=e674]:
+              - listitem [ref=e675]:
+                - link "permalink" [ref=e676] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8essdm/
+              - listitem [ref=e677]:
+                - link "embed" [ref=e678] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e679]:
+                - link "save" [ref=e680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e681]:
+                - link "report" [ref=e682] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e683]:
+                - link "reply" [ref=e684] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e685]:
+          - paragraph
+          - generic [ref=e686]:
+            - button "upvote" [ref=e687] [cursor=pointer]
+            - button "downvote" [ref=e688] [cursor=pointer]
+          - generic [ref=e689]:
+            - paragraph [ref=e690]:
+              - link "[–]" [ref=e691] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "semihelpful" [ref=e692] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/semihelpful
+              - text: • • 1 point •
+              - time [ref=e693]: 2 years ago
+            - paragraph [ref=e697]: Andrei's Conscious Cuisine on Main St. in Irvine. Fancy food and popular with the business crowd. Somewhat of a view because it's on the second floor.
+            - list [ref=e698]:
+              - listitem [ref=e699]:
+                - link "permalink" [ref=e700] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8f0a8y/
+              - listitem [ref=e701]:
+                - link "embed" [ref=e702] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e703]:
+                - link "save" [ref=e704] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e705]:
+                - link "report" [ref=e706] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e707]:
+                - link "reply" [ref=e708] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e709]:
+          - paragraph
+          - paragraph [ref=e711]:
+            - link "[+] ah" [ref=e712] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "fscud2008" [ref=e713] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/fscud2008
+            - text: • • -3 points •
+            - time [ref=e714]: 2 years ago
+            - time [ref=e715]: "*"
+            - link "(2 children)" [ref=e716] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - text: ah • • • ah • • •
+        - generic [ref=e717]:
+          - paragraph
+          - generic [ref=e718]:
+            - button "upvote" [ref=e719] [cursor=pointer]
+            - button "downvote" [ref=e720] [cursor=pointer]
+          - generic [ref=e721]:
+            - paragraph [ref=e722]:
+              - link "[–]" [ref=e723] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "BionicSix" [ref=e724] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/BionicSix
+              - text: • • -1 points •
+              - time [ref=e725]: 2 years ago
+            - paragraph [ref=e729]: Javier's on PCH, not too far from Irvine - gives you the ocean view, food will taste fantastic with the boss footing the bill.
+            - list [ref=e730]:
+              - listitem [ref=e731]:
+                - link "permalink" [ref=e732] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8eyec7/
+              - listitem [ref=e733]:
+                - link "embed" [ref=e734] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e735]:
+                - link "save" [ref=e736] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e737]:
+                - link "report" [ref=e738] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e739]:
+                - link "reply" [ref=e740] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e741]:
+          - paragraph
+          - generic [ref=e742]:
+            - button "upvote" [ref=e743] [cursor=pointer]
+            - button "downvote" [ref=e744] [cursor=pointer]
+          - generic [ref=e745]:
+            - paragraph [ref=e746]:
+              - link "[–]" [ref=e747] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "InTheWordsOfSocrates" [ref=e748] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/InTheWordsOfSocrates
+              - text: • • 0 points •
+              - time [ref=e749]: 2 years ago
+            - generic [ref=e752]:
+              - paragraph [ref=e753]: Late to the party. As others have mentioned, 6PM will be dark so no view.
+              - paragraph [ref=e754]: For some view you'd need to step down to Shorebird or Lido Bottle Works.
+              - paragraph [ref=e755]: "Otherwise, I see a lot of mixed suggestions between foodie spots, views and romantic/date night spots that are mid-tier. Here's my list of fancy restaurants near Irvine:"
+              - paragraph [ref=e756]:
+                - link "https://maps.app.goo.gl/i9sVHHHvv97QGF5Q8" [ref=e757] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/i9sVHHHvv97QGF5Q8
+              - paragraph [ref=e758]: Fancy by OC standards which isn't high, and I have given some a pass if the food was amazing (like CHAAK)
+            - list [ref=e759]:
+              - listitem [ref=e760]:
+                - link "permalink" [ref=e761] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8g4pkm/
+              - listitem [ref=e762]:
+                - link "embed" [ref=e763] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e764]:
+                - link "save" [ref=e765] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e766]:
+                - link "report" [ref=e767] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e768]:
+                - link "reply" [ref=e769] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e770]:
+          - paragraph
+          - generic [ref=e771]:
+            - button "upvote" [ref=e772] [cursor=pointer]
+            - button "downvote" [ref=e773] [cursor=pointer]
+          - generic [ref=e774]:
+            - paragraph [ref=e775]:
+              - link "[–]" [ref=e776] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "chipperow" [ref=e777] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/chipperow
+              - text: • • -3 points •
+              - time [ref=e778]: 2 years ago
+            - generic [ref=e781]:
+              - paragraph [ref=e782]: The Ritz Carlton, The Montage, and The Ranch (all in Laguna) have some great restaurants onsite with beautiful views, and they're not far from Irvine. Also lots of families staying and dining at the resorts so your toddler will fit right in. Go on the early side to catch the sunset!
+              - paragraph [ref=e783]: Nobu in Newport Beach is also very nice and is right on the marina.
+              - paragraph [ref=e784]: Eddie V's in Newport Beach (right on the Newport / Irvine border) is fancy and has great food but no view. They've also been awesome with young kids/toddlers when I've gone with my friends' families.
+              - paragraph [ref=e785]: Have fun tonight!!
+            - list [ref=e786]:
+              - listitem [ref=e787]:
+                - link "permalink" [ref=e788] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8ew1ux/
+              - listitem [ref=e789]:
+                - link "embed" [ref=e790] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e791]:
+                - link "save" [ref=e792] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e793]:
+                - link "report" [ref=e794] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e795]:
+                - link "reply" [ref=e796] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e797]:
+          - paragraph
+          - generic [ref=e798]:
+            - button "upvote" [ref=e799] [cursor=pointer]
+            - button "downvote" [ref=e800] [cursor=pointer]
+          - generic [ref=e801]:
+            - paragraph [ref=e802]:
+              - link "[–]" [ref=e803] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "augustusvondoom" [ref=e804] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/augustusvondoom
+              - text: • • -2 points •
+              - time [ref=e805]: 2 years ago
+            - paragraph [ref=e809]: Paul Martins.
+            - list [ref=e810]:
+              - listitem [ref=e811]:
+                - link "permalink" [ref=e812] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8g33ai/
+              - listitem [ref=e813]:
+                - link "embed" [ref=e814] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e815]:
+                - link "save" [ref=e816] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e817]:
+                - link "report" [ref=e818] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e819]:
+                - link "reply" [ref=e820] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e821]:
+          - paragraph
+          - generic [ref=e822]:
+            - button "upvote" [ref=e823] [cursor=pointer]
+            - button "downvote" [ref=e824] [cursor=pointer]
+          - generic [ref=e825]:
+            - paragraph [ref=e826]:
+              - link "[–]" [ref=e827] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ResponsePerfect7068" [ref=e828] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ResponsePerfect7068
+              - text: • • 1 point •
+              - time [ref=e829]: 2 years ago
+            - paragraph [ref=e833]: My go-to is Houstons.
+            - list [ref=e834]:
+              - listitem [ref=e835]:
+                - link "permalink" [ref=e836] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/17qu8ty/fancy_restaurant/k8gq70q/
+              - listitem [ref=e837]:
+                - link "embed" [ref=e838] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e839]:
+                - link "save" [ref=e840] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e841]:
+                - link "report" [ref=e842] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e843]:
+                - link "reply" [ref=e844] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e845]:
+    - generic [ref=e846]:
+      - list [ref=e848]:
+        - listitem [ref=e849]: about
+        - listitem [ref=e850]:
+          - link "blog" [ref=e851] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e852]:
+          - link "about" [ref=e853] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e854]:
+          - link "advertising" [ref=e855] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e856]:
+          - link "careers" [ref=e857] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e859]:
+        - listitem [ref=e860]: help
+        - listitem [ref=e861]:
+          - link "site rules" [ref=e862] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e863]:
+          - link "Reddit help center" [ref=e864] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e865]:
+          - link "reddiquette" [ref=e866] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e867]:
+          - link "mod guidelines" [ref=e868] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e869]:
+          - link "contact us" [ref=e870] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e872]:
+        - listitem [ref=e873]: apps & tools
+        - listitem [ref=e874]:
+          - link "Reddit for iPhone" [ref=e875] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e876]:
+          - link "Reddit for Android" [ref=e877] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e878]:
+          - link "mobile website" [ref=e879] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e881]:
+        - listitem [ref=e882]: <3
+        - listitem [ref=e883]:
+          - link "reddit premium" [ref=e884] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e885]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e886] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e887] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e888]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

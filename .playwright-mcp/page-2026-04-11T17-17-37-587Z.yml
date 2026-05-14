@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: time out barcelona best restaurants time out barcelona best restaurants
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dtime%2Bout%2Bbarcelona%2Bbest%2Brestaurants&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&aep=1&ntc=1&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ2J8OegQIEhAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=time+out+barcelona+best+restaurants&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQs6gLegQIGBAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Forums" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=time+out+barcelona+best+restaurants&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQs6gLegQIFhAB
+              - generic [ref=e93]: Forums
+          - listitem [ref=e94]:
+            - link "Images" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=time+out+barcelona+best+restaurants&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQtKgLegQIFRAB
+              - generic [ref=e97]: Images
+          - listitem [ref=e98]:
+            - link "News" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&q=time+out+barcelona+best+restaurants&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ0pQJegQIFxAB
+              - generic [ref=e101]: News
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=time+out+barcelona+best+restaurants&ved=1t:220175&ictx=111
+              - generic [ref=e105]: Shopping
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Web results" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "The best restaurants in Barcelona Time Out https://www.timeout.com › barcelona › best-restaurants-..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.timeout.com/barcelona/restaurants/best-restaurants-in-barcelona
+                - heading "The best restaurants in Barcelona" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Time Out
+                  - generic [ref=e153]: https://www.timeout.com › barcelona › best-restaurants-...
+              - button "About this result" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: Mar 10, 2026 —
+              - generic [ref=e162]:
+                - text: Where to eat in Barcelona · 1.
+                - emphasis [ref=e163]: La Sosenga – the best restaurant in Barcelona
+                - text: · 2. Casa Luz – best outdoor terrace · 3. Bar Canyí – best tapas ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.timeout.com/barcelona/restaurants/best-restaurants-in-barcelona#:~:text=Where%20to%20eat%20in%20Barcelona&text=1.%20La%20Sosenga%20%E2%80%93%20the,best%20restaurant%20in%20Barcelona&text=2.%20Casa%20Luz%20%E2%80%93%20best,outdoor%20terrace&text=3.%20Bar%20Cany%C3%AD%20%E2%80%93%20best,tapas%20bar
+        - generic [ref=e165]:
+          - generic [ref=e169]:
+            - generic [ref=e172]:
+              - link "Time Out Market Barcelona Time Out https://www.timeout.com › time-out-market-barcelona" [ref=e174] [cursor=pointer]:
+                - /url: https://www.timeout.com/time-out-market-barcelona
+                - heading "Time Out Market Barcelona" [level=3] [ref=e175]
+                - generic [ref=e180]:
+                  - generic [ref=e182]: Time Out
+                  - generic [ref=e184]: https://www.timeout.com › time-out-market-barcelona
+              - button "About this result" [ref=e185] [cursor=pointer]:
+                - img [ref=e188]
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - text: With 10 kitchens, the Market showcases the city's amazing
+                - emphasis [ref=e193]: food
+                - text: scene, making local award-winning and rising chefs accessible and affordable. There are also four ...
+              - link "Read more" [ref=e194] [cursor=pointer]:
+                - /url: https://www.timeout.com/time-out-market-barcelona#:~:text=With%2010%20kitchens%2C%20the%20Market,affordable.%20There%20are%20also%20four
+          - generic [ref=e205]:
+            - heading "Thinking" [level=2] [ref=e209]:
+              - generic [ref=e210]: Thinking
+            - progressbar [ref=e211]
+          - generic [ref=e216]:
+            - generic [ref=e219]:
+              - link "TIME OUT MARKET BARCELONA - Restaurant Reviews, ... Tripadvisor https://www.tripadvisor.com › ... › Barcelona Restaurants" [ref=e221] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Restaurant_Review-g187497-d28001247-Reviews-Time_Out_Market_Barcelona-Barcelona_Catalonia.html
+                - heading "TIME OUT MARKET BARCELONA - Restaurant Reviews, ..." [level=3] [ref=e222]
+                - generic [ref=e227]:
+                  - generic [ref=e229]: Tripadvisor
+                  - generic [ref=e231]: https://www.tripadvisor.com › ... › Barcelona Restaurants
+              - button "About this result" [ref=e232] [cursor=pointer]:
+                - img [ref=e235]
+            - generic [ref=e239]:
+              - emphasis [ref=e240]: Time Out Market Barcelona
+              - text: ", Barcelona: See 51 unbiased reviews of Time Out Market Barcelona, rated 3.9 of 5 on Tripadvisor and ranked #2711 of 9252 ..."
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - img "Rated 3.9 out of 5, (51) user reviews" [ref=e245]:
+                  - text: "3.9"
+                  - img [ref=e246]
+                  - text: (51)
+                - text: ·
+              - text: "Price range: $$ - $$$"
+          - generic [ref=e252]:
+            - generic [ref=e255]:
+              - link "Time Out Market Barcelona 2026 Barcelona Expat Life https://barcelonaexpatlife.com › time-out-market" [ref=e257] [cursor=pointer]:
+                - /url: https://barcelonaexpatlife.com/time-out-market/
+                - heading "Time Out Market Barcelona 2026" [level=3] [ref=e258]
+                - generic [ref=e263]:
+                  - generic [ref=e265]: Barcelona Expat Life
+                  - generic [ref=e267]: https://barcelonaexpatlife.com › time-out-market
+              - button "About this result" [ref=e268] [cursor=pointer]:
+                - img [ref=e271]
+            - generic [ref=e274]:
+              - generic [ref=e275]: Mar 18, 2026 —
+              - generic [ref=e276]:
+                - emphasis [ref=e277]: Located in the Port Vell area on the top floor of Maremagnum
+                - text: ", Time Out Market Barcelona showcases the city's amazing food scene with 10 kitchens ..."
+              - link "Read more" [ref=e278] [cursor=pointer]:
+                - /url: https://barcelonaexpatlife.com/time-out-market/#:~:text=Located%20in%20the%20Port%20Vell,rising%20chefs%20accessible%20and%20affordable.
+          - generic [ref=e282]:
+            - generic [ref=e285]:
+              - link "First time in Barcelona, any food recommendations? Reddit · r/AskBarcelona 40+ comments · 1 year ago" [ref=e287] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/AskBarcelona/comments/1ieb480/first_time_in_barcelona_any_food_recommendations/
+                - heading "First time in Barcelona, any food recommendations?" [level=3] [ref=e288]
+                - generic [ref=e293]:
+                  - generic [ref=e295]: Reddit · r/AskBarcelona
+                  - generic [ref=e297]: 40+ comments · 1 year ago
+              - button "About this result" [ref=e298] [cursor=pointer]:
+                - img [ref=e301]
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - text: My favorite places in the city are
+                - emphasis [ref=e306]: El Xampanyet
+                - text: ", Quimet & Quimet, Majide, Ziryab, Spaccanapoli, Sartoria Panatieri, Le Romane and Benzina."
+              - link "Read more" [ref=e307] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/AskBarcelona/comments/1ieb480/first_time_in_barcelona_any_food_recommendations/#:~:text=My%20favorite%20places%20in%20the,city%20are&text=El%20Xampanyet&text=%2C%20Quimet%20%26%20Quimet%2C%20Majide%2C,Ziryab%2C%20Spaccanapoli%2C&text=Sartoria%20Panatieri&text=%2C%20Le%20Romane%20and%20Benzina.
+          - generic [ref=e311]:
+            - generic [ref=e314]:
+              - link "Time Out Barcelona - Recommended restaurants Barcelona BcnRestaurantes https://www.bcnrestaurantes.com › eng › restaurantes-bar..." [ref=e316] [cursor=pointer]:
+                - /url: https://www.bcnrestaurantes.com/eng/restaurantes-barcelona.asp?lista=time-out
+                - heading "Time Out Barcelona - Recommended restaurants Barcelona" [level=3] [ref=e317]
+                - generic [ref=e322]:
+                  - generic [ref=e324]: BcnRestaurantes
+                  - generic [ref=e326]: https://www.bcnrestaurantes.com › eng › restaurantes-bar...
+              - button "About this result" [ref=e327] [cursor=pointer]:
+                - img [ref=e330]
+            - generic [ref=e334]:
+              - text: Time Out Barcelona -
+              - emphasis [ref=e335]: Recommended restaurants Barcelona
+              - text: . The best selection of restaurants in Barcelona with offers and promotions.
+          - generic [ref=e339]:
+            - generic [ref=e342]:
+              - link "Ultimate Guide to Barcelona's Time Out Market apartmentbarcelona.com https://blog.apartmentbarcelona.com › Home" [ref=e344] [cursor=pointer]:
+                - /url: https://blog.apartmentbarcelona.com/guide-time-out-market/
+                - heading "Ultimate Guide to Barcelona's Time Out Market" [level=3] [ref=e345]
+                - generic [ref=e350]:
+                  - generic [ref=e352]: apartmentbarcelona.com
+                  - generic [ref=e354]: https://blog.apartmentbarcelona.com › Home
+              - button "About this result" [ref=e355] [cursor=pointer]:
+                - img [ref=e358]
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - emphasis [ref=e363]: "Darvaza: A Grilled Delight"
+                - text: "· RiasKru: Seafood with a Twist · Casa Guinart: Traditional Catalan Excellence · Barcelona Pizza · Can Ros Barceloneta: Exceptional ..."
+              - link "Read more" [ref=e364] [cursor=pointer]:
+                - /url: https://blog.apartmentbarcelona.com/guide-time-out-market/#:~:text=Darvaza%3A%20A%20Grilled%20Delight&text=RiasKru%3A%20Seafood%20with%20a%20Twist&text=Casa%20Guinart%3A%20Traditional%20Catalan%20Excellence&text=La%20Balmesina%3A%20Gourmet%20Pizzas&text=Can%20Ros%20Barceloneta%3A%20Exceptional%20Seafood
+          - generic [ref=e368]:
+            - generic [ref=e371]:
+              - link "Any thoughts on Time Out Market for family lunch? Facebook · Barcelona Travel Tips by Navigator Nick 8 comments · 1 year ago" [ref=e373] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/barcelonatraveltips/posts/1163516861746155/
+                - heading "Any thoughts on Time Out Market for family lunch?" [level=3] [ref=e374]
+                - generic [ref=e379]:
+                  - generic [ref=e381]: Facebook · Barcelona Travel Tips by Navigator Nick
+                  - generic [ref=e383]: 8 comments · 1 year ago
+              - button "About this result" [ref=e384] [cursor=pointer]:
+                - img [ref=e387]
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - emphasis [ref=e392]: It's nice and buzzy with a good selection of food and drinks
+                - text: . When the weather is warm there is a nice terrace too. 1y.
+              - link "Read more" [ref=e393] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/barcelonatraveltips/posts/1163516861746155/#:~:text=It's%20nice%20and%20buzzy%20with,1y
+            - generic [ref=e398]:
+              - generic [ref=e399]: "Top answer:"
+              - generic [ref=e400]: https://maps.google.com/maps/place//data=!4m2!3m1!1s0x12a4a3b8151c7619:0xe1efb1b ...
+          - generic [ref=e404]:
+            - heading "People also ask" [level=2] [ref=e406]
+            - generic [ref=e407]:
+              - button "Is Time Out Market Barcelona worth it?" [ref=e413] [cursor=pointer]:
+                - generic [ref=e415]: Is Time Out Market Barcelona worth it?
+                - img [ref=e418]
+              - button "What is Beyonce's favorite restaurant in Barcelona?" [ref=e427] [cursor=pointer]:
+                - generic [ref=e429]: What is Beyonce's favorite restaurant in Barcelona?
+                - img [ref=e432]
+              - button "What is a must eat in Barcelona?" [ref=e441] [cursor=pointer]:
+                - generic [ref=e443]: What is a must eat in Barcelona?
+                - img [ref=e446]
+              - button "Where do celebrities dine in Barcelona?" [ref=e455] [cursor=pointer]:
+                - generic [ref=e457]: Where do celebrities dine in Barcelona?
+                - img [ref=e460]
+          - generic [ref=e466]:
+            - generic [ref=e469]:
+              - link "Dine at the Time Out Market Barcelona - U.S. News Travel Travel US News https://travel.usnews.com › ... › Spain › Barcelona" [ref=e471] [cursor=pointer]:
+                - /url: https://travel.usnews.com/Barcelona_Spain/Things_To_Do/Time_Out_Market_Barcelona_67171/
+                - heading "Dine at the Time Out Market Barcelona - U.S. News Travel" [level=3] [ref=e472]
+                - generic [ref=e477]:
+                  - generic [ref=e479]: Travel US News
+                  - generic [ref=e481]: https://travel.usnews.com › ... › Spain › Barcelona
+              - button "About this result" [ref=e482] [cursor=pointer]:
+                - img [ref=e485]
+            - generic [ref=e488]:
+              - generic [ref=e489]:
+                - text: More than 10 vendors offer dishes ranging from
+                - emphasis [ref=e490]: Catalan specialities
+                - text: ", such as cannelloni, rice dishes and tapas, to Mexican food, sushi, pizza and more, so there ..."
+              - link "Read more" [ref=e491] [cursor=pointer]:
+                - /url: https://travel.usnews.com/Barcelona_Spain/Things_To_Do/Time_Out_Market_Barcelona_67171/#:~:text=More%20than%2010%20vendors%20offer,something%20to%20satisfy%20everyone's%20cravings.
+          - generic [ref=e498]:
+            - generic [ref=e501]:
+              - link "Top 10 Restaurants In Barcelona (Barcelona Food Guide 2026) YouTube · Naick & Kim 25K+ views · 2 weeks ago" [ref=e503] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=2Uo_wFnCpP8
+                - heading "Top 10 Restaurants In Barcelona (Barcelona Food Guide 2026)" [level=3] [ref=e504]
+                - generic [ref=e509]:
+                  - generic [ref=e511]: YouTube · Naick & Kim
+                  - generic [ref=e513]: 25K+ views · 2 weeks ago
+              - button "About this result" [ref=e514] [cursor=pointer]:
+                - img [ref=e517]
+            - generic [ref=e519]:
+              - button "Top 10 Restaurants In Barcelona (Barcelona Food Guide 2026) by Naick & Kim on YouTube. Play on Google. 18:20" [ref=e520] [cursor=pointer]:
+                - generic [ref=e522]:
+                  - img [ref=e525]
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: 18:20
+                    - img [ref=e532]
+              - generic [ref=e535]: Tapas, paella, churros... Let's eat! Top 10 Restaurants In Barcelona (Barcelona Food Guide 2026). 25K views · 13 days ago ...more. Naick & Kim.
+      - generic [ref=e537]:
+        - generic [ref=e542]:
+          - heading "People also search for" [level=2] [ref=e544]
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - link "Time out barcelona best restaurants reddit" [ref=e551] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Time+out+barcelona+best+restaurants+reddit&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgiEAE
+                - generic [ref=e552]:
+                  - generic [ref=e557]: Time out barcelona best restaurants reddit
+                  - img [ref=e561]
+              - link "Time Out Market Barcelona" [ref=e566] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Time+Out+Market+Barcelona&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgyEAE
+                - generic [ref=e567]:
+                  - generic [ref=e572]: Time Out Market Barcelona
+                  - img [ref=e576]
+              - link "Best Barcelona restaurants" [ref=e581] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+Barcelona+restaurants&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgwEAE
+                - generic [ref=e582]:
+                  - generic [ref=e587]: Best Barcelona restaurants
+                  - img [ref=e591]
+              - link "Time Out Market Barcelona best food" [ref=e596] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Time+Out+Market+Barcelona+best+food&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgsEAE
+                - generic [ref=e597]:
+                  - generic [ref=e602]: Time Out Market Barcelona best food
+                  - img [ref=e606]
+            - generic [ref=e608]:
+              - link "Best restaurants in Barcelona with a view" [ref=e612] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+restaurants+in+Barcelona+with+a+view&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgqEAE
+                - generic [ref=e613]:
+                  - generic [ref=e618]: Best restaurants in Barcelona with a view
+                  - img [ref=e622]
+              - link "Time Out Market Barcelona reviews" [ref=e627] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Time+Out+Market+Barcelona+reviews&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgnEAE
+                - generic [ref=e628]:
+                  - generic [ref=e633]: Time Out Market Barcelona reviews
+                  - img [ref=e637]
+              - link "Time Out market Barcelona reddit" [ref=e642] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Time+Out+market+Barcelona+reddit&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAglEAE
+                - generic [ref=e643]:
+                  - generic [ref=e648]: Time Out market Barcelona reddit
+                  - img [ref=e652]
+              - link "Best affordable restaurants in Barcelona" [ref=e657] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+affordable+restaurants+in+Barcelona&sa=X&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ1QJ6BAgjEAE
+                - generic [ref=e658]:
+                  - generic [ref=e663]: Best affordable restaurants in Barcelona
+                  - img [ref=e667]
+        - navigation [ref=e669]:
+          - heading "Page Navigation" [level=1] [ref=e670]
+          - text: "1"
+          - link "Page 2" [ref=e673] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=10&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAE
+            - text: "2"
+          - link "Page 3" [ref=e675] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=20&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAG
+            - text: "3"
+          - link "Page 4" [ref=e677] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=30&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAI
+            - text: "4"
+          - link "Page 5" [ref=e679] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=40&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAK
+            - text: "5"
+          - link "Page 6" [ref=e681] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=50&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAM
+            - text: "6"
+          - link "Page 7" [ref=e683] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=60&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAO
+            - text: "7"
+          - link "Page 8" [ref=e685] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=70&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAQ
+            - text: "8"
+          - link "Page 9" [ref=e687] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=80&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAS
+            - text: "9"
+          - link "Page 10" [ref=e689] [cursor=pointer]:
+            - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=90&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8tMDegQIPBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e691]:
+            - link "Next" [ref=e692] [cursor=pointer]:
+              - /url: /search?q=time+out+barcelona+best+restaurants&sca_esv=b1359834a2735cce&ei=MILaaf7OMces5NoPvZvCiQw&start=10&sa=N&sstk=Af77f_ePMdzbOD41gEEXI8Af7b6-J0MITNsrbWUT8py-tFZFDGSQ688eXcLzaKEBn0MELEMpyo-E_biig_le6TmJmjYy1GAgmXJuHg&ved=2ahUKEwj-prXopuaTAxVHFlkFHb2NMMEQ8NMDegQIPBAW
+              - generic [ref=e694]: Next
+      - navigation
+    - contentinfo [ref=e695]:
+      - heading "Footer Links" [level=1] [ref=e696]
+      - generic [ref=e700]:
+        - generic [ref=e704]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e706] [cursor=pointer]:
+            - generic [ref=e707]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e709]:
+              - text: "-"
+              - generic [ref=e710]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e712] [cursor=pointer]: Update location
+        - generic [ref=e715]:
+          - link "Help" [ref=e716] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e717] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e718] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e719] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

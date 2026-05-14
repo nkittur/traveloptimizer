@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/asheville best restaurants OR "favorite restaurants" OR "must eat" site:reddit.com/r/asheville best restaurants OR "favorite restaurants" OR "must eat"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Fasheville%2Bbest%2Brestaurants%2BOR%2B%2522favorite%2Brestaurants%2522%2BOR%2B%2522must%2Beat%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&aep=1&ntc=1&sa=X&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ2J8OegQIDBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sa=X&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQs6gLegQIEhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sa=X&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQtKgLegQIExAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Maps" [ref=e95] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e97]: Maps
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sa=X&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQs6gLegQIDxAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&ved=1t:220175&ictx=111
+              - generic [ref=e105]: Shopping
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - 'link "the restaurants my family visited, thanks to you! : r/asheville Reddit · r/asheville 20+ comments · 9 months ago" [ref=e142] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+                - 'heading "the restaurants my family visited, thanks to you! : r/asheville" [level=3] [ref=e143]'
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Reddit · r/asheville
+                  - generic [ref=e152]: 20+ comments · 9 months ago
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - text: What are your
+                - emphasis [ref=e161]: favorite restaurants
+                - text: "? r/Kent. • 2mo ago. What are your"
+                - emphasis [ref=e162]: favorite restaurants
+                - text: "? ..."
+                - emphasis [ref=e163]: Best Restaurants
+                - text: in the area. 16. 71. Anyone on ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/#:~:text=r%2FKent,What%20are%20your%20favorite%20restaurants%3F&text=Best%20Restaurants%20in%20the%20area,71
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "Recs for West Asheville bars and restaurants Reddit · r/asheville 30+ comments · 11 months ago" [ref=e173] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1kj9dvx/recs_for_west_asheville_bars_and_restaurants/
+              - heading "Recs for West Asheville bars and restaurants" [level=3] [ref=e174]
+              - generic [ref=e179]:
+                - generic [ref=e181]: Reddit · r/asheville
+                - generic [ref=e183]: 30+ comments · 11 months ago
+            - button "About this result" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - text: The Whale for craft beer. Haywood Common for food in the same building. The Low Down has a cool cocktail lounge vibe. Westville Pub for dive/neighborhood bar ...
+            - link "Read more" [ref=e191] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1kj9dvx/recs_for_west_asheville_bars_and_restaurants/#:~:text=The%20Whale%20for%20craft%20beer.,vibe%20plus%20surprisingly%20good%20food
+        - generic [ref=e195]:
+          - generic [ref=e198]:
+            - 'link "Recommendations for dinner spots : r/asheville Reddit · r/asheville 30+ comments · 1 year ago" [ref=e200] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/asheville/comments/1jx7xar/recommendations_for_dinner_spots/
+              - 'heading "Recommendations for dinner spots : r/asheville" [level=3] [ref=e201]'
+              - generic [ref=e206]:
+                - generic [ref=e208]: Reddit · r/asheville
+                - generic [ref=e210]: 30+ comments · 1 year ago
+            - button "About this result" [ref=e211] [cursor=pointer]:
+              - img [ref=e214]
+          - generic [ref=e217]:
+            - text: Limones (Mexican/Cal), Cúrate (Spanish tapas), Zambra (tapas), Chestnut (American), Chai Pani (Indian), Red Ginger (Chinese dim sum), Strada or Modesto ( ...
+            - link "Read more" [ref=e218] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1jx7xar/recommendations_for_dinner_spots/#:~:text=Limones%20(Mexican%2FCal)%2C%20C%C3%BArate%20(Spanish%20tapas)%2C,sum)%2C%20Strada%20or%20Modesto%20(Italian)
+        - generic [ref=e222]:
+          - generic [ref=e225]:
+            - link "Restaurant that has both creative dishes and great ... Reddit · r/asheville 20+ comments · 2 months ago" [ref=e227] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1qexs4c/restaurant_that_has_both_creative_dishes_and/
+              - heading "Restaurant that has both creative dishes and great ..." [level=3] [ref=e228]
+              - generic [ref=e233]:
+                - generic [ref=e235]: Reddit · r/asheville
+                - generic [ref=e237]: 20+ comments · 2 months ago
+            - button "About this result" [ref=e238] [cursor=pointer]:
+              - img [ref=e241]
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - text: Restaurant that has both creative dishes and
+              - emphasis [ref=e246]: great
+              - text: cocktails for dinner ... I looked at Chai Pani and Curate, but don't think they'll meet the ...
+            - link "Read more" [ref=e247] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1qexs4c/restaurant_that_has_both_creative_dishes_and/#:~:text=Restaurant%20that%20has%20both%20creative,and%20great%20cocktails%20for%20dinner&text=I%20looked%20at%20Chai%20Pani,they'll%20meet%20the%20cocktail%20criteria.
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - 'link "Best food near The Orange Peel? : r/asheville Reddit · r/asheville 40+ comments · 3 years ago" [ref=e256] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/asheville/comments/uu2ori/best_food_near_the_orange_peel/
+              - 'heading "Best food near The Orange Peel? : r/asheville" [level=3] [ref=e257]'
+              - generic [ref=e262]:
+                - generic [ref=e264]: Reddit · r/asheville
+                - generic [ref=e266]: 40+ comments · 3 years ago
+            - button "About this result" [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - text: There's a lot of
+              - emphasis [ref=e275]: good
+              - text: grub not too far away from the venue. For casual, White Duck and Brahmari are
+              - emphasis [ref=e276]: good
+              - text: options.
+            - link "Read more" [ref=e277] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/uu2ori/best_food_near_the_orange_peel/#:~:text=There's%20a%20lot%20of%20good,and%20Brahmari%20are%20good%20options.
+        - generic [ref=e281]:
+          - generic [ref=e284]:
+            - 'link "best restaurants to work at? : r/asheville Reddit · r/asheville 20+ comments · 3 years ago" [ref=e286] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/asheville/comments/zdtnky/best_restaurants_to_work_at/
+              - 'heading "best restaurants to work at? : r/asheville" [level=3] [ref=e287]'
+              - generic [ref=e292]:
+                - generic [ref=e294]: Reddit · r/asheville
+                - generic [ref=e296]: 20+ comments · 3 years ago
+            - button "About this result" [ref=e297] [cursor=pointer]:
+              - img [ref=e300]
+          - generic [ref=e303]:
+            - text: Sunrise and Blue Dream are the ideal locations for career servers. Jack of the Wood is hiring. Go around and talk to servers, hang out in the service bars.
+            - link "Read more" [ref=e304] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/zdtnky/best_restaurants_to_work_at/#:~:text=Sunrise%20and%20Blue%20Dream%20are,out%20in%20the%20service%20bars.
+          - generic [ref=e309]:
+            - link "24 answers" [ref=e310] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/zdtnky/best_restaurants_to_work_at/iz3qlmx/
+            - generic [ref=e311]: ·
+            - generic [ref=e312]: "Top answer:"
+            - generic [ref=e313]: Highland and new Belgium are both great places to work. As for more traditional restaurant ...
+        - generic [ref=e317]:
+          - generic [ref=e320]:
+            - link "Dreams of restaurants gone by. Which restaurants do you ... Reddit · r/asheville 50+ comments · 9 months ago" [ref=e322] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1lq5ffg/dreams_of_restaurants_gone_by_which_restaurants/
+              - heading "Dreams of restaurants gone by. Which restaurants do you ..." [level=3] [ref=e323]
+              - generic [ref=e328]:
+                - generic [ref=e330]: Reddit · r/asheville
+                - generic [ref=e332]: 50+ comments · 9 months ago
+            - button "About this result" [ref=e333] [cursor=pointer]:
+              - img [ref=e336]
+          - generic [ref=e339]:
+            - generic [ref=e340]:
+              - text: What's your
+              - emphasis [ref=e341]: favorite restaurants
+              - text: in the area? r/hendersonville. • 7mo ago. What's your
+              - emphasis [ref=e342]: favorite restaurants
+              - text: in the area? ...
+              - emphasis [ref=e343]: Best Restaurants
+              - text: in ...
+            - link "Read more" [ref=e344] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1lq5ffg/dreams_of_restaurants_gone_by_which_restaurants/#:~:text=r%2Fhendersonville,favorite%20restaurants%20in%20the%20area%3F&text=Best%20Restaurants%20in%20the%20area
+        - generic [ref=e348]:
+          - generic [ref=e351]:
+            - link "Favorite WNC restaurants outside of Asheville Reddit · r/asheville 170+ comments · 3 years ago" [ref=e353] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/10m3zgi/favorite_wnc_restaurants_outside_of_asheville/
+              - heading "Favorite WNC restaurants outside of Asheville" [level=3] [ref=e354]
+              - generic [ref=e359]:
+                - generic [ref=e361]: Reddit · r/asheville
+                - generic [ref=e363]: 170+ comments · 3 years ago
+            - button "About this result" [ref=e364] [cursor=pointer]:
+              - img [ref=e367]
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - text: I'm interested in exploring people's
+              - emphasis [ref=e372]: favorite restaurants
+              - text: outside of Asheville. More rural locations preferred, and greasy spoon type places ...
+            - link "Read more" [ref=e373] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/10m3zgi/favorite_wnc_restaurants_outside_of_asheville/#:~:text=I'm%20interested%20in%20exploring%20people's,type%20places%20over%20white%20tablecloth.
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - link "Nicest Restaurant in Asheville Reddit · r/asheville 230+ comments · 1 year ago" [ref=e382] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1djt440/nicest_restaurant_in_asheville/
+              - heading "Nicest Restaurant in Asheville" [level=3] [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e390]: Reddit · r/asheville
+                - generic [ref=e392]: 230+ comments · 1 year ago
+            - button "About this result" [ref=e393] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - text: Cucina24 is one of the
+              - emphasis [ref=e401]: best
+              - text: meals I've had in a while anywhere. ruthgangmore. • 2y ago.
+            - link "Read more" [ref=e402] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1djt440/nicest_restaurant_in_asheville/#:~:text=Cucina24,2y%20ago
+        - generic [ref=e406]:
+          - generic [ref=e409]:
+            - link "Long time locals… what are some restaurants you're still ... Reddit · r/asheville 480+ comments · 2 months ago" [ref=e411] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1qmjxwl/long_time_locals_what_are_some_restaurants_youre/
+              - heading "Long time locals… what are some restaurants you're still ..." [level=3] [ref=e412]
+              - generic [ref=e417]:
+                - generic [ref=e419]: Reddit · r/asheville
+                - generic [ref=e421]: 480+ comments · 2 months ago
+            - button "About this result" [ref=e422] [cursor=pointer]:
+              - img [ref=e425]
+          - generic [ref=e428]:
+            - text: For me - Cheeseburger In Paradise, East Buffet, Don Pablo's, Doc Chey's, Spirits on the River, and Boston Pizza!
+            - link "Read more" [ref=e429] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1qmjxwl/long_time_locals_what_are_some_restaurants_youre/#:~:text=For%20me%20%2D%20Cheeseburger%20In,the%20River%2C%20and%20Boston%20Pizza!
+          - generic [ref=e434]:
+            - link "484 answers" [ref=e435] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/asheville/comments/1qmjxwl/long_time_locals_what_are_some_restaurants_youre/o1mazbo/
+            - generic [ref=e436]: ·
+            - generic [ref=e437]: "Top answer:"
+            - generic [ref=e438]: Doc Chey’s
+      - navigation [ref=e441]:
+        - heading "Page Navigation" [level=1] [ref=e442]
+        - text: "1"
+        - link "Page 2" [ref=e445] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=10&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAE
+          - text: "2"
+        - link "Page 3" [ref=e447] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=20&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAG
+          - text: "3"
+        - link "Page 4" [ref=e449] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=30&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAI
+          - text: "4"
+        - link "Page 5" [ref=e451] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=40&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAK
+          - text: "5"
+        - link "Page 6" [ref=e453] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=50&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAM
+          - text: "6"
+        - link "Page 7" [ref=e455] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=60&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAO
+          - text: "7"
+        - link "Page 8" [ref=e457] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=70&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAQ
+          - text: "8"
+        - link "Page 9" [ref=e459] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=80&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAS
+          - text: "9"
+        - link "Page 10" [ref=e461] [cursor=pointer]:
+          - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=90&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8tMDegQILBAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e463]:
+          - link "Next" [ref=e464] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/asheville+best+restaurants+OR+%22favorite+restaurants%22+OR+%22must+eat%22&sca_esv=9fb2dbe6099668d1&ei=9LvdabCdOMGf5NoPjIHAwQg&start=10&sa=N&sstk=Af77f_f5oY7NR2YsFDIkXfmECkwUa_0ht0Pf1wTAopzD6kt-Smf8PI2sgdaKH6ugr32LEldhBljwi77izNRQVo1A_j-WneMINyBOZw&ved=2ahUKEwiw5_epuuyTAxXBD1kFHYwAMIgQ8NMDegQILBAW
+            - generic [ref=e466]: Next
+      - navigation
+    - contentinfo [ref=e467]:
+      - heading "Footer Links" [level=1] [ref=e468]
+      - generic [ref=e472]:
+        - generic [ref=e476]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e478] [cursor=pointer]:
+            - generic [ref=e479]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e481]:
+              - text: "-"
+              - generic [ref=e482]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e484] [cursor=pointer]: Update location
+        - generic [ref=e487]:
+          - link "Help" [ref=e488] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e489] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e490] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e491] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

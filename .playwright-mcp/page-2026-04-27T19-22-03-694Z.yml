@@ -1,0 +1,225 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - text: ✓
+      - status [ref=e2]
+  - generic [ref=e5]:
+    - link "Skip to main content" [ref=e6] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic:
+      - complementary
+    - banner [ref=e8]:
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+      - navigation "Navigation Row" [ref=e9]:
+        - generic "Navigation Row" [ref=e10]:
+          - generic "Navigation Area" [ref=e11]:
+            - link "Condé Nast Traveler" [ref=e13] [cursor=pointer]:
+              - /url: /
+              - generic "Condé Nast Traveler" [ref=e14]:
+                - img [ref=e15]
+          - generic "Navigation Area" [ref=e37]:
+            - button "Search" [ref=e39] [cursor=pointer]:
+              - img "Search" [ref=e41]
+            - link "Newsletters" [ref=e44] [cursor=pointer]:
+              - /url: /newsletter
+              - generic [ref=e46]: Newsletters
+            - button "Account" [ref=e48] [cursor=pointer]:
+              - img "Account" [ref=e50]
+            - button "Menu Menu" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]: Menu
+              - img "Menu" [ref=e58]
+      - navigation "Navigation Row" [ref=e60]:
+        - generic "Navigation Row"
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+      - generic "Navigation Row":
+        - generic "Navigation Row":
+          - generic "Navigation Area"
+    - generic [ref=e63]:
+      - navigation "Navigation Row" [ref=e64]:
+        - generic "Navigation Row" [ref=e65]:
+          - generic "Navigation Area" [ref=e66]:
+            - link "Inspiration Chevron" [ref=e68] [cursor=pointer]:
+              - /url: /inspiration
+              - generic [ref=e70]: Inspiration
+              - img "Chevron" [ref=e72]
+            - link "Destinations Chevron" [ref=e75] [cursor=pointer]:
+              - /url: "/destinations "
+              - generic [ref=e77]: Destinations
+              - img "Chevron" [ref=e79]
+            - link "Places to Stay" [ref=e82] [cursor=pointer]:
+              - /url: /places-to-stay
+              - generic [ref=e84]: Places to Stay
+            - link "News & Advice Chevron" [ref=e86] [cursor=pointer]:
+              - /url: /news-and-advice
+              - generic [ref=e88]: News & Advice
+              - img "Chevron" [ref=e90]
+            - link "Best Places to Go" [ref=e93] [cursor=pointer]:
+              - /url: /best-places-to-go
+              - generic [ref=e95]: Best Places to Go
+            - link "Curated Escapes" [ref=e97] [cursor=pointer]:
+              - /url: /curated-escapes-with-abercrombie-and-kent
+              - generic [ref=e99]: Curated Escapes
+            - link "Shopping Chevron" [ref=e101] [cursor=pointer]:
+              - /url: /shopping
+              - generic [ref=e103]: Shopping
+              - img "Chevron" [ref=e105]
+            - link "Cruise" [ref=e108] [cursor=pointer]:
+              - /url: /cruise
+              - generic [ref=e110]: Cruise
+            - link "Women Who Travel" [ref=e112] [cursor=pointer]:
+              - /url: /women-who-travel
+              - generic [ref=e114]: Women Who Travel
+            - link "Video" [ref=e116] [cursor=pointer]:
+              - /url: /video
+              - generic [ref=e118]: Video
+            - link "Hot List" [ref=e120] [cursor=pointer]:
+              - /url: /inspiration/hot-list
+              - generic [ref=e122]: Hot List
+          - generic "Navigation Area" [ref=e123]:
+            - link "Search Search" [ref=e125] [cursor=pointer]:
+              - /url: /search
+              - generic [ref=e126]:
+                - img "Search" [ref=e128]
+                - generic [ref=e130]: Search
+            - link "Newsletters" [ref=e132] [cursor=pointer]:
+              - /url: /newsletter
+              - generic [ref=e134]: Newsletters
+            - link "Sign In" [ref=e138] [cursor=pointer]:
+              - /url: /auth/initiate?redirectURL=%2Fstory%2Fbest-places-to-go-2026&source=VERSO_NAVIGATION
+              - generic [ref=e140]: Sign In
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+      - navigation "Navigation Row":
+        - generic "Navigation Row"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic:
+      - generic:
+        - generic:
+          - navigation "Navigation Row":
+            - generic "Navigation Row":
+              - generic "Navigation Area"
+    - generic:
+      - complementary
+    - main [ref=e141]:
+      - generic [ref=e146]:
+        - generic "UtilityPageHeader" [ref=e147]:
+          - generic [ref=e148]:
+            - heading "Talk about \"outside your comfort zone.\"" [level=1] [ref=e149]
+            - heading "We're sorry if we led you astray. Recalibrate and try again." [level=2] [ref=e150]
+        - generic [ref=e151]: "Status Code: 404"
+        - link "Go to homepage" [ref=e152] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e153]: Go to homepage
+    - contentinfo [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - link "Condé Nast Traveler" [ref=e161] [cursor=pointer]:
+            - /url: /
+            - img "Condé Nast Traveler" [ref=e164]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "Follow us on Pinterest" [ref=e168] [cursor=pointer]:
+                - /url: https://www.pinterest.com/cntraveler/
+                - img "Pinterest" [ref=e171]
+            - listitem [ref=e173]:
+              - link "Follow us on Facebook" [ref=e174] [cursor=pointer]:
+                - /url: https://www.facebook.com/CondeNastTraveler
+                - img "Facebook" [ref=e177]
+            - listitem [ref=e179]:
+              - link "Follow us on Snapchat" [ref=e180] [cursor=pointer]:
+                - /url: https://www.snapchat.com/add/cntraveler
+                - img "Snapchat" [ref=e183]
+            - listitem [ref=e185]:
+              - link "Follow us on Instagram" [ref=e186] [cursor=pointer]:
+                - /url: https://www.instagram.com/cntraveler/
+                - img "Instagram" [ref=e189]
+            - listitem [ref=e191]:
+              - link "Follow us on X" [ref=e192] [cursor=pointer]:
+                - /url: https://twitter.com/CNTraveler
+                - img "X" [ref=e195]
+          - paragraph [ref=e197]: As the most discerning, up-to-the-minute voice in all things travel, Condé Nast Traveler is the global citizen’s bible and muse, offering both inspiration and vital intel. We understand that time is the greatest luxury, which is why Condé Nast Traveler mines its network of experts and influencers so that you never waste a meal, a drink, or a hotel stay wherever you are in the world.
+        - navigation "More from Condé Nast Traveler" [ref=e198]:
+          - paragraph [ref=e199]: More from Condé Nast Traveler
+          - list [ref=e200]:
+            - listitem [ref=e201]:
+              - link "About Condé Nast Traveler" [ref=e202] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/info/about-us
+            - listitem [ref=e203]:
+              - link "Subscribe" [ref=e204] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/subscribe
+            - listitem [ref=e205]:
+              - link "Manage Account" [ref=e206] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/account/profile
+            - listitem [ref=e207]:
+              - link "Newsletter Sign Up" [ref=e208] [cursor=pointer]:
+                - /url: /newsletter
+            - listitem [ref=e209]:
+              - link "Readers' Choice Awards" [ref=e210] [cursor=pointer]:
+                - /url: /inspiration/readers-choice-awards
+            - listitem [ref=e211]:
+              - link "Archive" [ref=e212] [cursor=pointer]:
+                - /url: https://archive.cntraveler.com/
+        - navigation "Contact" [ref=e213]:
+          - paragraph [ref=e214]: Contact
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Contact the Editors" [ref=e217] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/info/about-us
+            - listitem [ref=e218]:
+              - link "Careers" [ref=e219] [cursor=pointer]:
+                - /url: https://www.condenast.com/careers/
+        - generic [ref=e221]:
+          - navigation "Notices" [ref=e222]:
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - link "User Agreement" [ref=e225] [cursor=pointer]:
+                  - /url: https://www.condenast.com/user-agreement/
+              - listitem [ref=e226]:
+                - text: "|"
+                - link "Privacy Policy" [ref=e227] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy
+              - listitem [ref=e228]:
+                - text: "|"
+                - link "Your California Privacy Rights" [ref=e229] [cursor=pointer]:
+                  - /url: http://www.condenast.com/privacy-policy#privacypolicy-california
+              - listitem [ref=e230]:
+                - text: "|"
+                - link "RSS Feeds" [ref=e231] [cursor=pointer]:
+                  - /url: /feed/rss
+              - listitem [ref=e232]:
+                - text: "|"
+                - link "Site Map" [ref=e233] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e234]:
+                - text: "|"
+                - link "Condé Nast Store" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.condenaststore.com/
+              - listitem [ref=e236]:
+                - text: "|"
+                - img [ref=e238]
+                - button "Privacy Information" [ref=e250] [cursor=pointer]
+          - paragraph [ref=e252]:
+            - text: © 2026 Condé Nast. All rights reserved.
+            - emphasis [ref=e253]: Condé Nast Traveler
+            - text: may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+            - link "Ad Choices" [ref=e254] [cursor=pointer]:
+              - /url: http://www.aboutads.info
+          - generic [ref=e256]:
+            - heading "Select international site" [level=6] [ref=e257]
+            - button "Select international site" [ref=e258] [cursor=pointer]:
+              - generic [ref=e259]: United States
+              - img [ref=e261]
+  - region "Live chat"

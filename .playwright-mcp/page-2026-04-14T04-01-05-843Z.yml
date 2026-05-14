@@ -1,0 +1,1226 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "jump to content" [ref=e2] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]: my subreddits▼
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "popular" [ref=e10] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e11]:
+            - text: "-"
+            - link "all" [ref=e12] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e13]:
+            - text: "-"
+            - link "users" [ref=e14] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "AskReddit" [ref=e17] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e18]:
+            - text: "-"
+            - link "pics" [ref=e19] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e20]:
+            - text: "-"
+            - link "funny" [ref=e21] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e22]:
+            - text: "-"
+            - link "movies" [ref=e23] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e24]:
+            - text: "-"
+            - link "worldnews" [ref=e25] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e26]:
+            - text: "-"
+            - link "news" [ref=e27] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e28]:
+            - text: "-"
+            - link "todayilearned" [ref=e29] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e30]:
+            - text: "-"
+            - link "nottheonion" [ref=e31] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e32]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e33] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e34]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e35] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e36]:
+            - text: "-"
+            - link "DIY" [ref=e37] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e38]:
+            - text: "-"
+            - link "videos" [ref=e39] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e40]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e41] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e42]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e43] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e44]:
+            - text: "-"
+            - link "tifu" [ref=e45] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e46]:
+            - text: "-"
+            - link "Music" [ref=e47] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e48]:
+            - text: "-"
+            - link "books" [ref=e49] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e50]:
+            - text: "-"
+            - link "LifeProTips" [ref=e51] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e52]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e53] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e54]:
+            - text: "-"
+            - link "aww" [ref=e55] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e56]:
+            - text: "-"
+            - link "science" [ref=e57] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e58]:
+            - text: "-"
+            - link "space" [ref=e59] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e60]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e61] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e62]:
+            - text: "-"
+            - link "askscience" [ref=e63] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e64]:
+            - text: "-"
+            - link "Jokes" [ref=e65] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e66]:
+            - text: "-"
+            - link "Art" [ref=e67] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e68]:
+            - text: "-"
+            - link "IAmA" [ref=e69] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e70]:
+            - text: "-"
+            - link "Futurology" [ref=e71] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e72]:
+            - text: "-"
+            - link "sports" [ref=e73] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e74]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e75] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e76]:
+            - text: "-"
+            - link "food" [ref=e77] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e78]:
+            - text: "-"
+            - link "nosleep" [ref=e79] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e80]:
+            - text: "-"
+            - link "creepy" [ref=e81] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e82]:
+            - text: "-"
+            - link "history" [ref=e83] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e84]:
+            - text: "-"
+            - link "gifs" [ref=e85] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e86]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e87] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e88]:
+            - text: "-"
+            - link "GetMotivated" [ref=e89] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e90]:
+            - text: "-"
+            - link "gadgets" [ref=e91] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e92]:
+            - text: "-"
+            - link "announcements" [ref=e93] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e94]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e95] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e96]:
+            - text: "-"
+            - link "philosophy" [ref=e97] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e98]:
+            - text: "-"
+            - link "Documentaries" [ref=e99] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e100]:
+            - text: "-"
+            - link "EarthPorn" [ref=e101] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e102]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e103] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e104]:
+            - text: "-"
+            - link "listentothis" [ref=e105] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e106]:
+            - text: "-"
+            - link "blog" [ref=e107] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e108] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e109]:
+      - link "asheville" [ref=e110] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "asheville" [ref=e111]
+      - link "/r/asheville" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 20 Jun 2025
+      - generic [ref=e127]: 99 points (94% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/1lg9tue
+    - link "Submit a new post" [ref=e131] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/asheville/submit
+    - generic [ref=e133]:
+      - heading "asheville" [level=1] [ref=e134]:
+        - link "asheville" [ref=e135] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/asheville/
+      - link "join" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e139]:
+        - paragraph:
+          - link "r/AshevilleFAQ" [ref=e140] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Asheville/wiki/index
+        - paragraph [ref=e141]
+        - paragraph [ref=e142]:
+          - strong [ref=e143]:
+            - text: Welcome to
+            - link "/r/Asheville" [ref=e144] [cursor=pointer]:
+              - /url: /r/Asheville
+          - text: ", the best place on the internet to discuss what's going on in and around Asheville, North Carolina."
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: Rules
+        - paragraph [ref=e148]:
+          - text: Please our
+          - link "detailed rules" [ref=e149] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/asheville/wiki/index/rules
+          - text: and Reddit's overall
+          - link "Reddit's Content Policy" [ref=e150] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - text: ". Rules will be enforced. The short version of our rules:"
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - paragraph [ref=e153]: No hate speech, insults, or personal attacks
+          - listitem [ref=e154]:
+            - paragraph [ref=e155]: No consistent trolling
+          - listitem [ref=e156]:
+            - paragraph [ref=e157]: No Impersonating Other Users
+          - listitem [ref=e158]:
+            - paragraph [ref=e159]: No Spamming
+          - listitem [ref=e160]:
+            - paragraph [ref=e161]: Submissions Must Be Related to Asheville
+          - listitem [ref=e162]:
+            - paragraph [ref=e163]: No Doxxing
+          - listitem [ref=e164]:
+            - paragraph [ref=e165]:
+              - text: "No"
+              - emphasis [ref=e166]: posts
+              - text: directly related to crowd-funding
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]:
+              - text: Questions about
+              - strong [ref=e169]: visiting
+              - text: or
+              - strong [ref=e170]: moving
+              - text: should be asked in the pinned thread
+        - paragraph [ref=e171]:
+          - text: Above all,
+          - emphasis [ref=e172]: be excellent to each other
+          - text: "!"
+        - paragraph [ref=e173]
+        - paragraph [ref=e174]:
+          - strong [ref=e175]: College Subreddits
+        - paragraph [ref=e176]:
+          - link "/r/ABTech" [ref=e177] [cursor=pointer]:
+            - /url: /r/ABTech
+          - text: "- AB Tech"
+        - paragraph [ref=e178]:
+          - link "/r/UNCA" [ref=e179] [cursor=pointer]:
+            - /url: /r/UNCA
+          - text: "- University of NC, Asheville"
+        - paragraph [ref=e180]:
+          - link "/r/WCU" [ref=e181] [cursor=pointer]:
+            - /url: /r/WCU
+          - text: "- Western Carolina University"
+        - paragraph [ref=e182]:
+          - link "/r/WWC" [ref=e183] [cursor=pointer]:
+            - /url: /r/WWC
+          - text: "- Warren Wilson College"
+        - paragraph [ref=e184]
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: Regional Subreddits
+        - paragraph [ref=e187]:
+          - link "/r/NorthCarolina" [ref=e188] [cursor=pointer]:
+            - /url: /r/NorthCarolina
+        - paragraph [ref=e189]:
+          - link "/r/WNC" [ref=e190] [cursor=pointer]:
+            - /url: /r/WNC
+          - text: "- Western North Carolina"
+        - paragraph [ref=e191]:
+          - link "/r/GSMNP" [ref=e192] [cursor=pointer]:
+            - /url: /r/GSMNP
+          - text: "- The Smokeys"
+        - paragraph [ref=e193]:
+          - link "/r/McDowellCounty" [ref=e194] [cursor=pointer]:
+            - /url: /r/McDowellCounty
+        - paragraph [ref=e195]:
+          - link "/r/Foothills" [ref=e196] [cursor=pointer]:
+            - /url: /r/Foothills
+        - paragraph [ref=e197]:
+          - link "/r/MarsHillNC" [ref=e198] [cursor=pointer]:
+            - /url: /r/MarsHillNC
+        - paragraph [ref=e199]:
+          - link "/r/Hendersonville" [ref=e200] [cursor=pointer]:
+            - /url: /r/Hendersonville
+        - paragraph [ref=e201]:
+          - link "/r/BrysonCity" [ref=e202] [cursor=pointer]:
+            - /url: /r/BrysonCity
+        - paragraph [ref=e203]:
+          - link "/r/MillsRiver" [ref=e204] [cursor=pointer]:
+            - /url: /r/MillsRiver
+        - paragraph [ref=e205]
+        - paragraph [ref=e206]:
+          - strong [ref=e207]: General Subreddits
+        - paragraph [ref=e208]:
+          - link "/r/AshevilleClassifieds" [ref=e209] [cursor=pointer]:
+            - /url: /r/AshevilleClassifieds
+        - paragraph [ref=e210]:
+          - link "/r/thehotspot" [ref=e211] [cursor=pointer]:
+            - /url: /r/thehotspot
+        - paragraph [ref=e212]:
+          - link "/r/AshevilleMusic" [ref=e213] [cursor=pointer]:
+            - /url: /r/AshevilleMusic
+        - paragraph [ref=e214]:
+          - link "/r/AshevilleBitcoin" [ref=e215] [cursor=pointer]:
+            - /url: /r/AshevilleBitcoin
+        - paragraph [ref=e216]:
+          - link "/r/AshevilleFarmExchange" [ref=e217] [cursor=pointer]:
+            - /url: /r/AshevilleFarmExchange
+        - paragraph [ref=e218]:
+          - link "/r/CarolinaBeer" [ref=e219] [cursor=pointer]:
+            - /url: /r/CarolinaBeer
+        - paragraph [ref=e220]:
+          - link "/r/ashevillebeer" [ref=e221] [cursor=pointer]:
+            - /url: /r/ashevillebeer
+        - paragraph [ref=e222]:
+          - link "/r/NCMusic" [ref=e223] [cursor=pointer]:
+            - /url: /r/NCMusic
+        - paragraph [ref=e224]:
+          - link "/r/NCTrails" [ref=e225] [cursor=pointer]:
+            - /url: /r/NCTrails
+        - paragraph [ref=e226]:
+          - link /r/ncpolitics/ [ref=e227] [cursor=pointer]:
+            - /url: /r/ncpolitics/
+        - paragraph [ref=e228]:
+          - link "/r/Asheville Traffic Stats" [ref=e229] [cursor=pointer]:
+            - /url: http://www.reddit.com/r/asheville/about/traffic/
+        - paragraph [ref=e230]:
+          - link "r/WNCGoneWild" [ref=e231] [cursor=pointer]:
+            - /url: /r/WNCGoneWild
+          - text: ( ͡~ ͜ʖ ͡°)
+        - paragraph [ref=e232]
+        - paragraph [ref=e233]:
+          - strong [ref=e234]: Acknowledgments
+        - paragraph [ref=e235]:
+          - text: Subreddit originally designed by
+          - link "Devin Holmes Design" [ref=e236] [cursor=pointer]:
+            - /url: http://devinholmesdesign.com/
+        - paragraph [ref=e237]:
+          - text: Header image courtesy of
+          - link "u/MicahMack76" [ref=e238] [cursor=pointer]:
+            - /url: /u/MicahMack76
+          - text: at
+          - link "http://micahmack.com/" [ref=e239] [cursor=pointer]:
+            - /url: http://micahmack.com/
+        - paragraph [ref=e240]
+        - paragraph [ref=e241]:
+          - link "." [ref=e242] [cursor=pointer]:
+            - /url: "#/RES_SR_Config/NightModeCompatible"
+      - generic [ref=e244]:
+        - text: a community for
+        - time [ref=e245]: 16 years
+    - generic [ref=e247]:
+      - heading "MODERATORS" [level=1] [ref=e249]
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - link "message the mods" [ref=e252] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/asheville
+    - complementary [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - text: discussions in
+          - link "r/asheville" [ref=e258] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/?ref=readnext
+        - navigation [ref=e259]:
+          - generic [ref=e260] [cursor=pointer]: <
+          - generic [ref=e261] [cursor=pointer]: ">"
+        - generic [ref=e263] [cursor=pointer]: X
+      - link "0 · 2 comments Visiting or Moving to Asheville? Ask your questions here!" [ref=e265] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/comments/1sk6bkl/visiting_or_moving_to_asheville_ask_your/?ref=readnext_0
+        - generic [ref=e266]: 0 · 2 comments
+        - generic [ref=e267]: Visiting or Moving to Asheville? Ask your questions here!
+    - text: CSS Theme via /r/Naut
+  - main [ref=e268]:
+    - generic [ref=e269]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e270] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e271]
+        - paragraph [ref=e272]: the front page of the internet.
+        - generic [ref=e273]:
+          - generic [ref=e274]: Become a Redditor
+          - paragraph [ref=e275]: and join one of thousands of communities.
+      - link "×" [ref=e276] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e278]:
+      - paragraph
+      - generic [ref=e279]:
+        - button "upvote" [ref=e280] [cursor=pointer]
+        - generic "99" [ref=e281]
+        - button "downvote" [ref=e282] [cursor=pointer]
+      - link [ref=e283] [cursor=pointer]:
+        - /url: /r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - paragraph [ref=e286]:
+            - generic "Food/Drinks" [ref=e287]
+            - link "All the restaurants my family visited, thanks to you!" [ref=e288] [cursor=pointer]:
+              - /url: /r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+            - link "self.asheville" [ref=e289] [cursor=pointer]:
+              - /url: /r/asheville/
+          - paragraph [ref=e290]:
+            - text: submitted
+            - time [ref=e291]: 9 months ago
+            - text: by
+            - link "BrainDiscombobulated" [ref=e292] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/BrainDiscombobulated
+        - generic [ref=e296]:
+          - paragraph [ref=e297]: A few weeks ago I scoured this sub's many restaurant rec posts in preparation for my family's short trip to Asheville. Thought I'd share the places we visited, all thanks to everyone's suggestions!
+          - paragraph [ref=e298]:
+            - strong [ref=e299]: Gypsy Queen Market
+            - text: Started our trip with a 7/10 meal. The meat in my shawarma wrap was honestly just dry and not very flavorful, and the wrap's ingredients were segmented-- not mixed together-- so I really only had bites of individual flavors instead of one combined, cohesive bite. Portions were huge though so I'm not that mad lol.
+          - paragraph [ref=e300]:
+            - strong [ref=e301]: Flour Cafe
+            - text: 11/10. This was SO GOOD. We visited both their breakfast and lunch spots. Biscuits were out of the worldddd. The broccolini was great but the bacon egg & cheese with an added slathering of their strawberry jam was miiiind blowing. The focaccia lunch sandwiches were awesome, but the unexpected gem of our lunch was the caesar salad!?!? The dressing was soooo good.
+          - paragraph [ref=e302]:
+            - strong [ref=e303]: The Scotsman in Waynesville
+            - text: Okay, not really in Asheville, but lots of people here suggested it. Everything was great and super flavorful, but our favorites were the shepherd's pie, braised oxtail, and scotch egg. Service was awesome.
+          - paragraph [ref=e304]:
+            - strong [ref=e305]: Iron & Oak Brisket
+            - text: Stilllll dreaming about the brisket. All the sauces were delicious and the size of a plate was pretty reasonable for the price.
+          - paragraph [ref=e306]:
+            - strong [ref=e307]: Bush Farmhouse
+            - text: Solid 8/10. Neat flavors I've never tried before. Lamb chops were just okay, but the bobotie, bunny chow, and curry were very solid. Prob our fault for choosing their more Americanized dishes lol.
+          - paragraph [ref=e308]:
+            - strong [ref=e309]: Chocolate Fetish
+            - text: Very spur of the moment visit, but their truffles were good! Nice flavors.
+          - paragraph [ref=e310]: We really only visited places serving food we don't have much of in our hometown, so that's why you don't see any breweries here and whatnot. Asheville was so awesome and we had a great time! Can't wait to come back.
+          - paragraph [ref=e311]: "Edit to add: Thoughts on where we went?? Any suggestions for the next trip??"
+        - list [ref=e312]:
+          - listitem [ref=e313]:
+            - link "21 comments" [ref=e314] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+          - listitem [ref=e315]:
+            - link "share" [ref=e316] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e317]:
+            - link "save" [ref=e318] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e319]:
+            - link "hide" [ref=e322] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e323]:
+            - link "report" [ref=e324] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e325]:
+      - generic [ref=e326]: all 21 comments
+      - generic [ref=e328]:
+        - text: "sorted by:"
+        - generic [ref=e329]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e332] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e333]
+        - generic [ref=e334]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e335]
+          - paragraph [ref=e336]: Post a comment!
+          - generic [ref=e338]: Create an account
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - paragraph
+          - generic [ref=e341]:
+            - button "upvote" [ref=e342] [cursor=pointer]
+            - button "downvote" [ref=e343] [cursor=pointer]
+          - generic [ref=e344]:
+            - paragraph [ref=e345]:
+              - link "[–]" [ref=e346] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "generalsleephenson" [ref=e347] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/generalsleephenson
+              - text: 29 points
+              - time [ref=e348]: 9 months ago
+            - paragraph [ref=e352]: Thank you for visiting and for your patronage!
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - link "permalink" [ref=e355] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myujb0n/
+              - listitem [ref=e356]:
+                - link "embed" [ref=e357] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e358]:
+                - link "save" [ref=e359] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e360]:
+                - link "report" [ref=e361] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e362]:
+                - link "reply" [ref=e363] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e364]:
+          - paragraph
+          - generic [ref=e365]:
+            - button "upvote" [ref=e366] [cursor=pointer]
+            - button "downvote" [ref=e367] [cursor=pointer]
+          - generic [ref=e368]:
+            - paragraph [ref=e369]:
+              - link "[–]" [ref=e370] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "therealelainebenes" [ref=e371] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/therealelainebenes
+              - generic "North Asheville :bbear1::bbear2::beaver:" [ref=e372]:
+                - text: "- North Asheville"
+                - generic ":bbear1:" [ref=e373]
+                - generic ":bbear2:" [ref=e374]
+                - generic ":beaver:" [ref=e375]
+              - text: 36 points
+              - time [ref=e376]: 9 months ago
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: "Recommendations for next time: Mehfil, Chestnut, Heiwa Shokudo, Tall John's, 828 Pizza, Laila, French Broad Chocolate Factory and Cafe, Copper Crown."
+              - paragraph [ref=e381]: Thank you for visiting us here :)
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - link "permalink" [ref=e384] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myulm0a/
+              - listitem [ref=e385]:
+                - link "embed" [ref=e386] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e387]:
+                - link "save" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e389]:
+                - link "report" [ref=e390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e391]:
+                - link "reply" [ref=e392] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - paragraph
+              - generic [ref=e396]:
+                - button "upvote" [ref=e397] [cursor=pointer]
+                - button "downvote" [ref=e398] [cursor=pointer]
+              - generic [ref=e399]:
+                - paragraph [ref=e400]:
+                  - link "[–]" [ref=e401] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "xxcksxx" [ref=e402] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/xxcksxx
+                  - generic "Haw Creek :hawk1::hawk2:" [ref=e403]:
+                    - text: "- Haw Creek"
+                    - generic ":hawk1:" [ref=e404]
+                    - generic ":hawk2:" [ref=e405]
+                  - text: 11 points
+                  - time [ref=e406]: 9 months ago
+                - paragraph [ref=e410]: The Brussels from Copper Crown are probably my favorite dish in town, they never disappoint!
+                - list [ref=e411]:
+                  - listitem [ref=e412]:
+                    - link "permalink" [ref=e413] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myupf6j/
+                  - listitem [ref=e414]:
+                    - link "embed" [ref=e415] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e416]:
+                    - link "save" [ref=e417] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e418]:
+                    - link "parent" [ref=e419] [cursor=pointer]:
+                      - /url: "#myulm0a"
+                  - listitem [ref=e420]:
+                    - link "report" [ref=e421] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e422]:
+                    - link "reply" [ref=e423] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e424]:
+              - paragraph
+              - generic [ref=e425]:
+                - button "upvote" [ref=e426] [cursor=pointer]
+                - button "downvote" [ref=e427] [cursor=pointer]
+              - generic [ref=e428]:
+                - paragraph [ref=e429]:
+                  - link "[–]" [ref=e430] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "sarahbarista" [ref=e431] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/sarahbarista
+                  - generic "Hendo :hendo1::hendo2::hendo3:" [ref=e432]:
+                    - text: "- Hendo"
+                    - generic ":hendo1:" [ref=e433]
+                    - generic ":hendo2:" [ref=e434]
+                    - generic ":hendo3:" [ref=e435]
+                  - text: 3 points
+                  - time [ref=e436]: 9 months ago
+                - paragraph [ref=e440]: 828 is our favorite pizza around. We were so sad when they closed the South Asheville location because it was so much closer to us. Still worth the 50-minute drive to Merrimon though
+                - list [ref=e441]:
+                  - listitem [ref=e442]:
+                    - link "permalink" [ref=e443] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myvqznx/
+                  - listitem [ref=e444]:
+                    - link "embed" [ref=e445] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e446]:
+                    - link "save" [ref=e447] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e448]:
+                    - link "parent" [ref=e449] [cursor=pointer]:
+                      - /url: "#myulm0a"
+                  - listitem [ref=e450]:
+                    - link "report" [ref=e451] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e452]:
+                    - link "reply" [ref=e453] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e456]:
+                - paragraph
+                - generic [ref=e457]:
+                  - button "upvote" [ref=e458] [cursor=pointer]
+                  - button "downvote" [ref=e459] [cursor=pointer]
+                - generic [ref=e460]:
+                  - paragraph [ref=e461]:
+                    - link "[–]" [ref=e462] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "WatermelonlessonNo40" [ref=e463] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/WatermelonlessonNo40
+                    - text: 2 points
+                    - time [ref=e464]: 9 months ago
+                  - paragraph [ref=e468]: Have you checked out Pizza Mind in West Asheville, or Fahrenheit Pizza in Arden near Long Shoals Road? I also like 828, but I think that both of those are better (and closer to Hendersonville!) I go to 828 when I need my “classic American old school pizzeria” fix 👅💦
+                  - list [ref=e469]:
+                    - listitem [ref=e470]:
+                      - link "permalink" [ref=e471] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mz02m9t/
+                    - listitem [ref=e472]:
+                      - link "embed" [ref=e473] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e474]:
+                      - link "save" [ref=e475] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e476]:
+                      - link "parent" [ref=e477] [cursor=pointer]:
+                        - /url: "#myvqznx"
+                    - listitem [ref=e478]:
+                      - link "report" [ref=e479] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e480]:
+                      - link "reply" [ref=e481] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e484]:
+                  - paragraph
+                  - generic [ref=e485]:
+                    - button "upvote" [ref=e486] [cursor=pointer]
+                    - button "downvote" [ref=e487] [cursor=pointer]
+                  - generic [ref=e488]:
+                    - paragraph [ref=e489]:
+                      - link "[–]" [ref=e490] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "sarahbarista" [ref=e491] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/sarahbarista
+                      - generic "Hendo :hendo1::hendo2::hendo3:" [ref=e492]:
+                        - text: "- Hendo"
+                        - generic ":hendo1:" [ref=e493]
+                        - generic ":hendo2:" [ref=e494]
+                        - generic ":hendo3:" [ref=e495]
+                      - text: 2 points
+                      - time [ref=e496]: 9 months ago
+                    - paragraph [ref=e500]: I've been to Fahrenheit once but I'll have to check out Pizza Mind. Thanks!
+                    - list [ref=e501]:
+                      - listitem [ref=e502]:
+                        - link "permalink" [ref=e503] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mz02v81/
+                      - listitem [ref=e504]:
+                        - link "embed" [ref=e505] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e506]:
+                        - link "save" [ref=e507] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e508]:
+                        - link "parent" [ref=e509] [cursor=pointer]:
+                          - /url: "#mz02m9t"
+                      - listitem [ref=e510]:
+                        - link "report" [ref=e511] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e512]:
+                        - link "reply" [ref=e513] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e514]:
+          - paragraph
+          - generic [ref=e515]:
+            - button "upvote" [ref=e516] [cursor=pointer]
+            - button "downvote" [ref=e517] [cursor=pointer]
+          - generic [ref=e518]:
+            - paragraph [ref=e519]:
+              - link "[–]" [ref=e520] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Sketchy_Dee" [ref=e521] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Sketchy_Dee
+              - text: 14 points
+              - time [ref=e522]: 9 months ago
+            - paragraph [ref=e526]: The crew at Flour also set up a distribution hub for relief supplies at the S&W for weeks… first class operation all around.
+            - list [ref=e527]:
+              - listitem [ref=e528]:
+                - link "permalink" [ref=e529] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myupsam/
+              - listitem [ref=e530]:
+                - link "embed" [ref=e531] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e532]:
+                - link "save" [ref=e533] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e534]:
+                - link "report" [ref=e535] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e536]:
+                - link "reply" [ref=e537] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e538]:
+          - paragraph
+          - generic [ref=e539]:
+            - button "upvote" [ref=e540] [cursor=pointer]
+            - button "downvote" [ref=e541] [cursor=pointer]
+          - generic [ref=e542]:
+            - paragraph [ref=e543]:
+              - link "[–]" [ref=e544] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "janedoemyteethshow" [ref=e545] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/janedoemyteethshow
+              - text: 10 points
+              - time [ref=e546]: 9 months ago
+            - paragraph [ref=e550]: Gypsy Queen is so fkn good but the shawarma wrap is like… the worst thing on the menu in my opinion. The rice bowl with chicken and cauliflower is to die for!!!
+            - list [ref=e551]:
+              - listitem [ref=e552]:
+                - link "permalink" [ref=e553] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myuqsrq/
+              - listitem [ref=e554]:
+                - link "embed" [ref=e555] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e556]:
+                - link "save" [ref=e557] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e558]:
+                - link "report" [ref=e559] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e560]:
+                - link "reply" [ref=e561] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e563]:
+            - generic [ref=e564]:
+              - paragraph
+              - generic [ref=e565]:
+                - button "upvote" [ref=e566] [cursor=pointer]
+                - button "downvote" [ref=e567] [cursor=pointer]
+              - generic [ref=e568]:
+                - paragraph [ref=e569]:
+                  - link "[–]" [ref=e570] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "BrainDiscombobulated" [ref=e571] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/BrainDiscombobulated
+                  - generic [ref=e572]:
+                    - text: "["
+                    - link "S" [ref=e573] [cursor=pointer]:
+                      - /url: /r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+                    - text: "]"
+                  - text: 3 points
+                  - time [ref=e574]: 9 months ago
+                - paragraph [ref=e578]: Honestly I kinda felt like I was ordering the most basic menu item LOL. If I wasn't visiting at the end of a very long travel day I 100% would've studied the menu a bit more and chosen something more interesting. The reviews look so good so I'm sure everything else is great!
+                - list [ref=e579]:
+                  - listitem [ref=e580]:
+                    - link "permalink" [ref=e581] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myuuvi9/
+                  - listitem [ref=e582]:
+                    - link "embed" [ref=e583] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e584]:
+                    - link "save" [ref=e585] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e586]:
+                    - link "parent" [ref=e587] [cursor=pointer]:
+                      - /url: "#myuqsrq"
+                  - listitem [ref=e588]:
+                    - link "report" [ref=e589] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e590]:
+                    - link "reply" [ref=e591] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e594]:
+                - paragraph
+                - generic [ref=e595]:
+                  - button "upvote" [ref=e596] [cursor=pointer]
+                  - button "downvote" [ref=e597] [cursor=pointer]
+                - generic [ref=e598]:
+                  - paragraph [ref=e599]:
+                    - link "[–]" [ref=e600] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Vladivostokorbust" [ref=e601] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Vladivostokorbust
+                    - text: 1 point
+                    - time [ref=e602]: 9 months ago
+                  - paragraph [ref=e606]: they make great baba ghanoush - about the best i’ve had. and the brussels sprouts are awesome. i usually get the falafel wrap and it lasts for days it’s so big.
+                  - list [ref=e607]:
+                    - listitem [ref=e608]:
+                      - link "permalink" [ref=e609] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myx4p1l/
+                    - listitem [ref=e610]:
+                      - link "embed" [ref=e611] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e612]:
+                      - link "save" [ref=e613] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e614]:
+                      - link "parent" [ref=e615] [cursor=pointer]:
+                        - /url: "#myuuvi9"
+                    - listitem [ref=e616]:
+                      - link "report" [ref=e617] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e618]:
+                      - link "reply" [ref=e619] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e620]:
+              - paragraph
+              - generic [ref=e621]:
+                - button "upvote" [ref=e622] [cursor=pointer]
+                - button "downvote" [ref=e623] [cursor=pointer]
+              - generic [ref=e624]:
+                - paragraph [ref=e625]:
+                  - link "[–]" [ref=e626] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Organic_Wave8794" [ref=e627] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Organic_Wave8794
+                  - text: 3 points
+                  - time [ref=e628]: 9 months ago
+                - paragraph [ref=e632]: Baba Nahm blows them out of the water. There’s no comparison. All the food is freshly made, smells amazing, kababs perfectly cooked.
+                - list [ref=e633]:
+                  - listitem [ref=e634]:
+                    - link "permalink" [ref=e635] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myz1ip4/
+                  - listitem [ref=e636]:
+                    - link "embed" [ref=e637] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e638]:
+                    - link "save" [ref=e639] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e640]:
+                    - link "parent" [ref=e641] [cursor=pointer]:
+                      - /url: "#myuqsrq"
+                  - listitem [ref=e642]:
+                    - link "report" [ref=e643] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e644]:
+                    - link "reply" [ref=e645] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e646]:
+              - paragraph
+              - generic [ref=e647]:
+                - button "upvote" [ref=e648] [cursor=pointer]
+                - button "downvote" [ref=e649] [cursor=pointer]
+              - generic [ref=e650]:
+                - paragraph [ref=e651]:
+                  - link "[–]" [ref=e652] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "magmaemagmae" [ref=e653] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/magmaemagmae
+                  - text: 1 point
+                  - time [ref=e654]: 9 months ago
+                - paragraph [ref=e658]: The Yum Yum wrap blows my mind every time!
+                - list [ref=e659]:
+                  - listitem [ref=e660]:
+                    - link "permalink" [ref=e661] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mywr9kq/
+                  - listitem [ref=e662]:
+                    - link "embed" [ref=e663] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e664]:
+                    - link "save" [ref=e665] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e666]:
+                    - link "parent" [ref=e667] [cursor=pointer]:
+                      - /url: "#myuqsrq"
+                  - listitem [ref=e668]:
+                    - link "report" [ref=e669] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e670]:
+                    - link "reply" [ref=e671] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e672]:
+          - paragraph
+          - generic [ref=e673]:
+            - button "upvote" [ref=e674] [cursor=pointer]
+            - button "downvote" [ref=e675] [cursor=pointer]
+          - generic [ref=e676]:
+            - paragraph [ref=e677]:
+              - link "[–]" [ref=e678] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 7 points"
+              - time [ref=e679]: 9 months ago
+            - paragraph [ref=e683]: For next time, Nine Mile.
+            - list [ref=e684]:
+              - listitem [ref=e685]:
+                - link "permalink" [ref=e686] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myvgv41/
+              - listitem [ref=e687]:
+                - link "embed" [ref=e688] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e689]:
+                - link "save" [ref=e690] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e691]:
+                - link "report" [ref=e692] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e693]:
+                - link "reply" [ref=e694] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e697]:
+            - paragraph
+            - generic [ref=e698]:
+              - button "upvote" [ref=e699] [cursor=pointer]
+              - button "downvote" [ref=e700] [cursor=pointer]
+            - generic [ref=e701]:
+              - paragraph [ref=e702]:
+                - link "[–]" [ref=e703] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "ptothesecondpwr" [ref=e704] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/ptothesecondpwr
+                - text: 2 points
+                - time [ref=e705]: 9 months ago
+              - paragraph [ref=e709]: Honestly, Nine Mile has always been the most consistent best bite for my money in Asheville.
+              - list [ref=e710]:
+                - listitem [ref=e711]:
+                  - link "permalink" [ref=e712] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myz2mhm/
+                - listitem [ref=e713]:
+                  - link "embed" [ref=e714] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e715]:
+                  - link "save" [ref=e716] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e717]:
+                  - link "parent" [ref=e718] [cursor=pointer]:
+                    - /url: "#myvgv41"
+                - listitem [ref=e719]:
+                  - link "report" [ref=e720] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e721]:
+                  - link "reply" [ref=e722] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e723]:
+          - paragraph
+          - generic [ref=e724]:
+            - button "upvote" [ref=e725] [cursor=pointer]
+            - button "downvote" [ref=e726] [cursor=pointer]
+          - generic [ref=e727]:
+            - paragraph [ref=e728]:
+              - link "[–]" [ref=e729] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Objective_Ad729" [ref=e730] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Objective_Ad729
+              - text: 2 points
+              - time [ref=e731]: 9 months ago
+            - paragraph [ref=e735]: I was just vacationing in the area. We loved 828 Pizza. So yummy we went twice. Our other favorite was Nine Mile. Great food! Still thinking about my dinner.
+            - list [ref=e736]:
+              - listitem [ref=e737]:
+                - link "permalink" [ref=e738] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myyst4w/
+              - listitem [ref=e739]:
+                - link "embed" [ref=e740] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e741]:
+                - link "save" [ref=e742] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e743]:
+                - link "report" [ref=e744] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e745]:
+                - link "reply" [ref=e746] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e747]:
+          - paragraph
+          - generic [ref=e748]:
+            - button "upvote" [ref=e749] [cursor=pointer]
+            - button "downvote" [ref=e750] [cursor=pointer]
+          - generic [ref=e751]:
+            - paragraph [ref=e752]:
+              - link "[–]" [ref=e753] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dukieintexas" [ref=e754] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dukieintexas
+              - generic "Kenilworth :kenilworth:" [ref=e755]:
+                - text: "- Kenilworth"
+                - generic ":kenilworth:" [ref=e756]
+              - text: 2 points
+              - time [ref=e757]: 9 months ago
+            - generic [ref=e760]:
+              - paragraph [ref=e761]: Great choices!! For next time
+              - list [ref=e762]:
+                - listitem [ref=e763]: Chestnut
+                - listitem [ref=e764]: Ukiah Smokehouse
+                - listitem [ref=e765]: Shanghai dumpling
+                - listitem [ref=e766]: Zamba
+                - listitem [ref=e767]: Cúrate
+                - listitem [ref=e768]: Laila
+                - listitem [ref=e769]: Chai pani
+              - paragraph [ref=e770]: Also you said no breweries but Funkatorium is the most unique and fun brewery, all sour beers. Never been anywhere like it!
+            - list [ref=e771]:
+              - listitem [ref=e772]:
+                - link "permalink" [ref=e773] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/myznnjt/
+              - listitem [ref=e774]:
+                - link "embed" [ref=e775] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e776]:
+                - link "save" [ref=e777] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e778]:
+                - link "report" [ref=e779] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e780]:
+                - link "reply" [ref=e781] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e784]:
+            - paragraph
+            - generic [ref=e785]:
+              - button "upvote" [ref=e786] [cursor=pointer]
+              - button "downvote" [ref=e787] [cursor=pointer]
+            - generic [ref=e788]:
+              - paragraph [ref=e789]:
+                - link "[–]" [ref=e790] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "BrainDiscombobulated" [ref=e791] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/BrainDiscombobulated
+                - generic [ref=e792]:
+                  - text: "["
+                  - link "S" [ref=e793] [cursor=pointer]:
+                    - /url: /r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/
+                  - text: "]"
+                - text: 3 points
+                - time [ref=e794]: 9 months ago
+              - paragraph [ref=e798]: Curate and chai pani seemed so cool. Def want to check them out next time! Funkatorium looks great too. We certainly weren't against breweries, but we were looking for restaurants we can't really find at home. Thanks for the suggestions!
+              - list [ref=e799]:
+                - listitem [ref=e800]:
+                  - link "permalink" [ref=e801] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mz041yw/
+                - listitem [ref=e802]:
+                  - link "embed" [ref=e803] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e804]:
+                  - link "save" [ref=e805] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e806]:
+                  - link "parent" [ref=e807] [cursor=pointer]:
+                    - /url: "#myznnjt"
+                - listitem [ref=e808]:
+                  - link "report" [ref=e809] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e810]:
+                  - link "reply" [ref=e811] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e812]:
+          - paragraph
+          - generic [ref=e813]:
+            - button "upvote" [ref=e814] [cursor=pointer]
+            - button "downvote" [ref=e815] [cursor=pointer]
+          - generic [ref=e816]:
+            - paragraph [ref=e817]:
+              - link "[–]" [ref=e818] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "KeepTrackGirl" [ref=e819] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/KeepTrackGirl
+              - text: 2 points
+              - time [ref=e820]: 9 months ago
+            - paragraph [ref=e824]: The frogs from chocolate fetish are 💯
+            - list [ref=e825]:
+              - listitem [ref=e826]:
+                - link "permalink" [ref=e827] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mz0vbd7/
+              - listitem [ref=e828]:
+                - link "embed" [ref=e829] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e830]:
+                - link "save" [ref=e831] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e832]:
+                - link "report" [ref=e833] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e834]:
+                - link "reply" [ref=e835] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e836]:
+          - paragraph
+          - generic [ref=e837]:
+            - button "upvote" [ref=e838] [cursor=pointer]
+            - button "downvote" [ref=e839] [cursor=pointer]
+          - generic [ref=e840]:
+            - paragraph [ref=e841]:
+              - link "[–]" [ref=e842] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "WatermelonlessonNo40" [ref=e843] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/WatermelonlessonNo40
+              - text: 1 point
+              - time [ref=e844]: 9 months ago
+            - paragraph [ref=e848]: Pizza Mind , Salsa’s, Mamacita’s 👅💦
+            - list [ref=e849]:
+              - listitem [ref=e850]:
+                - link "permalink" [ref=e851] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1lg9tue/all_the_restaurants_my_family_visited_thanks_to/mz01g09/
+              - listitem [ref=e852]:
+                - link "embed" [ref=e853] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e854]:
+                - link "save" [ref=e855] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e856]:
+                - link "report" [ref=e857] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e858]:
+                - link "reply" [ref=e859] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e860]:
+          - paragraph
+          - paragraph [ref=e862]:
+            - link "[+]" [ref=e863] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - text: "[deleted] comment score below threshold"
+            - link "(1 child)" [ref=e864] [cursor=pointer]:
+              - /url: javascript:void(0)
+  - generic [ref=e865]:
+    - generic [ref=e866]:
+      - list [ref=e868]:
+        - listitem [ref=e869]: about
+        - listitem [ref=e870]:
+          - link "blog" [ref=e871] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e872]:
+          - link "about" [ref=e873] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e874]:
+          - link "advertising" [ref=e875] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e876]:
+          - link "careers" [ref=e877] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e879]:
+        - listitem [ref=e880]: help
+        - listitem [ref=e881]:
+          - link "site rules" [ref=e882] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e883]:
+          - link "Reddit help center" [ref=e884] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e885]:
+          - link "reddiquette" [ref=e886] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e887]:
+          - link "mod guidelines" [ref=e888] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e889]:
+          - link "contact us" [ref=e890] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e892]:
+        - listitem [ref=e893]: apps & tools
+        - listitem [ref=e894]:
+          - link "Reddit for iPhone" [ref=e895] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e896]:
+          - link "Reddit for Android" [ref=e897] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e898]:
+          - link "mobile website" [ref=e899] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e901]:
+        - listitem [ref=e902]: <3
+        - listitem [ref=e903]:
+          - link "reddit premium" [ref=e904] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e905]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e906] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e907] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e908]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e909]
+  - paragraph [ref=e910]: π

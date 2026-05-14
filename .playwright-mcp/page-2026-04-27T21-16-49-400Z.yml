@@ -1,0 +1,841 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy (include Basic)" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy (include Basic)
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Providence PVD" [ref=e177]: Providence
+                - generic [ref=e179]: Providence PVD
+                - img [ref=e180]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e188]:
+                        - generic [ref=e189]:
+                          - text: Fly to BOS for $247
+                          - button "Change airport" [ref=e191] [cursor=pointer]
+                        - button "Close" [ref=e192] [cursor=pointer]:
+                          - img [ref=e193]
+                      - alert [ref=e195]: Expanded
+            - generic [ref=e203]:
+              - generic [ref=e205]:
+                - img [ref=e207]
+                - textbox "Departure" [ref=e210]: Sat, Aug 1
+                - button [ref=e213]:
+                  - img [ref=e216]
+                - button [ref=e220]:
+                  - img [ref=e223]
+              - generic [ref=e227]:
+                - textbox "Return" [ref=e228]: Sat, Aug 8
+                - button [ref=e231]:
+                  - img [ref=e234]
+                - button [ref=e238]:
+                  - img [ref=e241]
+          - heading "Filters" [level=2] [ref=e244]
+          - generic [ref=e247]:
+            - button "All filters" [ref=e250]:
+              - img [ref=e253]
+              - generic [ref=e255]: All filters
+            - generic [ref=e258]:
+              - button "Stops, Not selected" [ref=e261]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: Stops
+                  - img [ref=e267]
+              - button "Airlines, Not selected" [ref=e271]:
+                - generic [ref=e275]:
+                  - generic [ref=e276]: Airlines
+                  - img [ref=e277]
+              - button "Bags, Not selected" [ref=e281]:
+                - generic [ref=e285]:
+                  - generic [ref=e286]: Bags
+                  - img [ref=e287]
+              - button "Price, Not selected" [ref=e291]:
+                - generic [ref=e295]:
+                  - generic [ref=e296]: Price
+                  - img [ref=e297]
+              - button "Times, Not selected" [ref=e301]:
+                - generic [ref=e305]:
+                  - generic [ref=e306]: Times
+                  - img [ref=e307]
+              - button "Emissions, Not selected" [ref=e311]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]: Emissions
+                  - img [ref=e317]
+              - button "Connecting airports, Not selected" [ref=e321]:
+                - generic [ref=e325]:
+                  - generic [ref=e326]: Connecting airports
+                  - img [ref=e327]
+              - button "Duration, Not selected" [ref=e331]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]: Duration
+                  - img [ref=e337]
+      - main [ref=e339]:
+        - heading "Search results" [level=2] [ref=e340]
+        - alert [ref=e341]: 13 results returned.
+        - generic [ref=e343]:
+          - tablist [ref=e344]:
+            - tab "BestLearn more about ranking" [selected] [ref=e345] [cursor=pointer]:
+              - generic [ref=e346]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e352]:
+                  - img [ref=e354]
+            - tab "Cheapest from Fetching results 338 US dollars Learn more about ranking" [ref=e356] [cursor=pointer]:
+              - generic [ref=e357]:
+                - text: Cheapest
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - text: from
+                    - generic [ref=e361]:
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: Fetching results
+                        - progressbar [ref=e364]:
+                          - img [ref=e366]
+                          - generic [ref=e370]:
+                            - img [ref=e372]
+                            - img [ref=e375]
+                            - img [ref=e378]
+                      - text: $338
+                  - button "Learn more about ranking" [ref=e383]:
+                    - img [ref=e385]
+          - tabpanel "BestLearn more about ranking" [ref=e387]:
+            - generic [ref=e388]:
+              - heading "Top departing flights" [level=3] [ref=e389]
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e395] [cursor=pointer]:
+                    - img [ref=e397]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e399]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e400] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e401]:
+                      - button "Passenger assistance" [ref=e402] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e407]:
+                  - generic [ref=e410]: Sorted by top flights
+                  - img [ref=e411]
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - generic [ref=e415]:
+                    - link "From 356 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 5:30 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:25 PM on Saturday, August 1. Total duration 3 hr 55 min. Layover (1 of 1) is a 1 hr 20 min layover at Baltimore/Washington International Thurgood Marshall Airport (BWI) in Baltimore. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e417] [cursor=pointer]:
+                      - generic [ref=e419]:
+                        - generic [ref=e421]:
+                          - generic "Leaves Pittsburgh International Airport at 5:30 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:25 PM on Saturday, August 1." [ref=e423]:
+                            - 'generic "Departure time: 5:30 PM." [ref=e426]': 5:30 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:25 PM." [ref=e429]': 9:25 PM
+                          - generic [ref=e430]: Southwest
+                        - generic [ref=e431]:
+                          - generic "Total duration 3 hr 55 min." [ref=e432]: 3 hr 55 min
+                          - generic [ref=e433]:
+                            - generic [ref=e436]: PIT
+                            - text: –
+                            - generic [ref=e439]: PVD
+                        - generic [ref=e440]:
+                          - generic "1 stop flight." [ref=e442]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 20 min layover at Baltimore/Washington International Thurgood Marshall Airport (BWI) in Baltimore." [ref=e443]:
+                            - text: 1 hr 20 min
+                            - generic [ref=e445]: BWI
+                        - generic [ref=e447]:
+                          - generic [ref=e449]: 169 kg CO2e
+                          - generic [ref=e450]:
+                            - generic [ref=e451]: +50% emissions
+                            - 'button "Carbon emissions estimate: 169 kilograms. +50% emissions. Learn more about this emissions estimate" [ref=e452]':
+                              - img [ref=e453]
+                        - generic [ref=e455]:
+                          - generic [ref=e456]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e460]:
+                              - generic [ref=e461]:
+                                - generic [ref=e462]:
+                                  - text: "1"
+                                  - img [ref=e463]
+                                - generic [ref=e466]:
+                                  - text: "0"
+                                  - img [ref=e467]
+                            - generic [ref=e470]: $356
+                          - generic [ref=e471]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:30 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:25 PM on Saturday, August 1." [ref=e474]:
+                      - img [ref=e477]
+                - listitem [ref=e479]:
+                  - generic [ref=e480]:
+                    - link "From 357 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 5:05 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1. Total duration 5 hr 52 min. Layover (1 of 1) is a 2 hr 18 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e482] [cursor=pointer]:
+                      - generic [ref=e484]:
+                        - generic [ref=e486]:
+                          - generic "Leaves Pittsburgh International Airport at 5:05 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1." [ref=e488]:
+                            - 'generic "Departure time: 5:05 AM." [ref=e491]': 5:05 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:57 AM." [ref=e494]': 10:57 AM
+                          - generic [ref=e495]: American
+                        - generic [ref=e496]:
+                          - generic "Total duration 5 hr 52 min." [ref=e497]: 5 hr 52 min
+                          - generic [ref=e498]:
+                            - generic [ref=e501]: PIT
+                            - text: –
+                            - generic [ref=e504]: PVD
+                        - generic [ref=e505]:
+                          - generic "1 stop flight." [ref=e507]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 18 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e508]:
+                            - text: 2 hr 18 min
+                            - generic [ref=e510]: CLT
+                        - generic [ref=e512]:
+                          - generic [ref=e514]: 209 kg CO2e
+                          - generic [ref=e515]:
+                            - generic [ref=e516]: +85% emissions
+                            - 'button "Carbon emissions estimate: 209 kilograms. +85% emissions. Learn more about this emissions estimate" [ref=e517]':
+                              - img [ref=e518]
+                        - generic [ref=e520]:
+                          - generic [ref=e521]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e525]:
+                              - generic [ref=e526]:
+                                - generic [ref=e527]:
+                                  - text: "1"
+                                  - img [ref=e528]
+                                - generic [ref=e531]:
+                                  - text: "0"
+                                  - img [ref=e532]
+                            - generic [ref=e535]: $357
+                          - generic [ref=e536]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:05 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1." [ref=e539]:
+                      - img [ref=e542]
+                - listitem [ref=e544]:
+                  - generic [ref=e545]:
+                    - link "From 379 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 6:37 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1. Total duration 4 hr 20 min. Layover (1 of 1) is a 45 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e547] [cursor=pointer]:
+                      - generic [ref=e549]:
+                        - generic [ref=e551]:
+                          - generic "Leaves Pittsburgh International Airport at 6:37 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1." [ref=e553]:
+                            - 'generic "Departure time: 6:37 AM." [ref=e556]': 6:37 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:57 AM." [ref=e559]': 10:57 AM
+                          - generic [ref=e560]: American
+                        - generic [ref=e561]:
+                          - generic "Total duration 4 hr 20 min." [ref=e562]: 4 hr 20 min
+                          - generic [ref=e563]:
+                            - generic [ref=e566]: PIT
+                            - text: –
+                            - generic [ref=e569]: PVD
+                        - generic [ref=e570]:
+                          - generic "1 stop flight." [ref=e572]: 1 stop
+                          - generic "Layover (1 of 1) is a 45 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e573]:
+                            - text: 45 min
+                            - generic [ref=e575]: CLT
+                        - generic [ref=e577]:
+                          - generic [ref=e579]: 191 kg CO2e
+                          - generic [ref=e580]:
+                            - generic [ref=e581]: +69% emissions
+                            - 'button "Carbon emissions estimate: 191 kilograms. +69% emissions. Learn more about this emissions estimate" [ref=e582]':
+                              - img [ref=e583]
+                        - generic [ref=e585]:
+                          - generic [ref=e586]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e590]:
+                              - generic [ref=e591]:
+                                - generic [ref=e592]:
+                                  - text: "1"
+                                  - img [ref=e593]
+                                - generic [ref=e596]:
+                                  - text: "0"
+                                  - img [ref=e597]
+                            - generic [ref=e600]: $379
+                          - generic [ref=e601]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:37 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:57 AM on Saturday, August 1." [ref=e604]:
+                      - img [ref=e607]
+            - generic [ref=e613]:
+              - heading "Price insights" [level=3] [ref=e614]
+              - generic [ref=e615] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e620]
+                - generic [ref=e622]: View price history
+                - button "View price history" [ref=e624]:
+                  - img [ref=e627]
+            - region "Find the best price" [ref=e629]:
+              - generic [ref=e632]:
+                - img [ref=e633]
+                - heading "Track prices" [level=2] [ref=e635]
+                - button "Learn more about tracked prices" [ref=e639] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e640]:
+                    - img [ref=e641]
+                - generic [ref=e643]: Track prices from Pittsburgh to Providence departing 2026-08-01 and returning 2026-08-08
+                - generic [ref=e644]:
+                  - generic [ref=e646] [cursor=pointer]: Aug 1 – 8
+                  - switch "Track prices from Pittsburgh to Providence departing 2026-08-01 and returning 2026-08-08" [ref=e649] [cursor=pointer]:
+                    - generic [ref=e654]:
+                      - img [ref=e655]
+                      - img [ref=e657]
+                - generic [ref=e660]: Track prices from Pittsburgh to Providence - Any dates
+                - generic [ref=e662]:
+                  - generic [ref=e663] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Providence - Any dates" [ref=e666] [cursor=pointer]:
+                    - generic [ref=e671]:
+                      - img [ref=e672]
+                      - img [ref=e674]
+              - generic [ref=e679]:
+                - button "Date grid" [ref=e681]:
+                  - img [ref=e683]
+                  - generic [ref=e690]: Date grid
+                - button "Price graph" [ref=e692]:
+                  - img [ref=e694]
+                  - generic [ref=e704]: Price graph
+            - generic [ref=e705]:
+              - heading "Other departing flights" [level=3] [ref=e706]
+              - list [ref=e707]:
+                - listitem [ref=e708]:
+                  - generic [ref=e709]:
+                    - link "From 338 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 3:38 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:58 PM on Saturday, August 1. Total duration 7 hr 20 min. Layover (1 of 1) is a 3 hr 38 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e711] [cursor=pointer]:
+                      - generic [ref=e713]:
+                        - generic [ref=e715]:
+                          - generic "Leaves Pittsburgh International Airport at 3:38 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:58 PM on Saturday, August 1." [ref=e717]:
+                            - 'generic "Departure time: 3:38 PM." [ref=e720]': 3:38 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:58 PM." [ref=e723]': 10:58 PM
+                          - generic [ref=e724]: American
+                        - generic [ref=e725]:
+                          - generic "Total duration 7 hr 20 min." [ref=e726]: 7 hr 20 min
+                          - generic [ref=e727]:
+                            - generic [ref=e730]: PIT
+                            - text: –
+                            - generic [ref=e733]: PVD
+                        - generic [ref=e734]:
+                          - generic "1 stop flight." [ref=e736]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 38 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e737]:
+                            - text: 3 hr 38 min
+                            - generic [ref=e739]: CLT
+                        - generic [ref=e741]:
+                          - generic [ref=e743]: 190 kg CO2e
+                          - generic [ref=e744]:
+                            - generic [ref=e745]: +68% emissions
+                            - 'button "Carbon emissions estimate: 190 kilograms. +68% emissions. Learn more about this emissions estimate" [ref=e746]':
+                              - img [ref=e747]
+                        - generic [ref=e749]:
+                          - generic [ref=e750]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e754]:
+                              - generic [ref=e755]:
+                                - generic [ref=e756]:
+                                  - text: "1"
+                                  - img [ref=e757]
+                                - generic [ref=e760]:
+                                  - text: "0"
+                                  - img [ref=e761]
+                            - generic [ref=e764]: $338
+                          - generic [ref=e765]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:38 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:58 PM on Saturday, August 1." [ref=e768]:
+                      - img [ref=e771]
+                - listitem [ref=e773]:
+                  - generic [ref=e774]:
+                    - link "From 356 US dollars round trip total. 1 stop flight with Southwest. Leaves Pittsburgh International Airport at 12:25 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:45 PM on Saturday, August 1. Total duration 6 hr 20 min. Layover (1 of 1) is a 3 hr 45 min layover at Baltimore/Washington International Thurgood Marshall Airport (BWI) in Baltimore. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e776] [cursor=pointer]:
+                      - generic [ref=e778]:
+                        - generic [ref=e780]:
+                          - generic "Leaves Pittsburgh International Airport at 12:25 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:45 PM on Saturday, August 1." [ref=e782]:
+                            - 'generic "Departure time: 12:25 PM." [ref=e785]': 12:25 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:45 PM." [ref=e788]': 6:45 PM
+                          - generic [ref=e789]: Southwest
+                        - generic [ref=e790]:
+                          - generic "Total duration 6 hr 20 min." [ref=e791]: 6 hr 20 min
+                          - generic [ref=e792]:
+                            - generic [ref=e795]: PIT
+                            - text: –
+                            - generic [ref=e798]: PVD
+                        - generic [ref=e799]:
+                          - generic "1 stop flight." [ref=e801]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 45 min layover at Baltimore/Washington International Thurgood Marshall Airport (BWI) in Baltimore." [ref=e802]:
+                            - text: 3 hr 45 min
+                            - generic [ref=e804]: BWI
+                        - generic [ref=e806]:
+                          - generic [ref=e808]: 126 kg CO2e
+                          - generic [ref=e809]:
+                            - generic [ref=e810]: +12% emissions
+                            - 'button "Carbon emissions estimate: 126 kilograms. +12% emissions. Learn more about this emissions estimate" [ref=e811]':
+                              - img [ref=e812]
+                        - generic [ref=e814]:
+                          - generic [ref=e815]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e819]:
+                              - generic [ref=e820]:
+                                - generic [ref=e821]:
+                                  - text: "1"
+                                  - img [ref=e822]
+                                - generic [ref=e825]:
+                                  - text: "0"
+                                  - img [ref=e826]
+                            - generic [ref=e829]: $356
+                          - generic [ref=e830]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 12:25 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:45 PM on Saturday, August 1." [ref=e833]:
+                      - img [ref=e836]
+                - listitem [ref=e838]:
+                  - generic [ref=e839]:
+                    - link "From 404 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 10:20 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 3:49 PM on Saturday, August 1. Total duration 5 hr 29 min. Layover (1 of 1) is a 1 hr 49 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e841] [cursor=pointer]:
+                      - generic [ref=e843]:
+                        - generic [ref=e845]:
+                          - generic "Leaves Pittsburgh International Airport at 10:20 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 3:49 PM on Saturday, August 1." [ref=e847]:
+                            - 'generic "Departure time: 10:20 AM." [ref=e850]': 10:20 AM
+                            - text: –
+                            - 'generic "Arrival time: 3:49 PM." [ref=e853]': 3:49 PM
+                          - generic [ref=e854]: American
+                        - generic [ref=e855]:
+                          - generic "Total duration 5 hr 29 min." [ref=e856]: 5 hr 29 min
+                          - generic [ref=e857]:
+                            - generic [ref=e860]: PIT
+                            - text: –
+                            - generic [ref=e863]: PVD
+                        - generic [ref=e864]:
+                          - generic "1 stop flight." [ref=e866]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 49 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e867]:
+                            - text: 1 hr 49 min
+                            - generic [ref=e869]: CLT
+                        - generic [ref=e871]:
+                          - generic [ref=e873]: 197 kg CO2e
+                          - generic [ref=e874]:
+                            - generic [ref=e875]: +74% emissions
+                            - 'button "Carbon emissions estimate: 197 kilograms. +74% emissions. Learn more about this emissions estimate" [ref=e876]':
+                              - img [ref=e877]
+                        - generic [ref=e879]:
+                          - generic [ref=e880]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e884]:
+                              - generic [ref=e885]:
+                                - generic [ref=e886]:
+                                  - text: "1"
+                                  - img [ref=e887]
+                                - generic [ref=e890]:
+                                  - text: "0"
+                                  - img [ref=e891]
+                            - generic [ref=e894]: $404
+                          - generic [ref=e895]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:20 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 3:49 PM on Saturday, August 1." [ref=e898]:
+                      - img [ref=e901]
+                - listitem [ref=e903]:
+                  - generic [ref=e904]:
+                    - link "From 404 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 2:00 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:31 PM on Saturday, August 1. Total duration 4 hr 31 min. Layover (1 of 1) is a 44 min layover at Charlotte Douglas International Airport in Charlotte. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e906] [cursor=pointer]:
+                      - generic [ref=e908]:
+                        - generic [ref=e910]:
+                          - generic "Leaves Pittsburgh International Airport at 2:00 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:31 PM on Saturday, August 1." [ref=e912]:
+                            - 'generic "Departure time: 2:00 PM." [ref=e915]': 2:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:31 PM." [ref=e918]': 6:31 PM
+                          - generic [ref=e919]: American
+                        - generic [ref=e920]:
+                          - generic "Total duration 4 hr 31 min." [ref=e921]: 4 hr 31 min
+                          - generic [ref=e922]:
+                            - generic [ref=e925]: PIT
+                            - text: –
+                            - generic [ref=e928]: PVD
+                        - generic [ref=e929]:
+                          - generic "1 stop flight." [ref=e931]: 1 stop
+                          - generic "Layover (1 of 1) is a 44 min layover at Charlotte Douglas International Airport in Charlotte." [ref=e932]:
+                            - text: 44 min
+                            - generic [ref=e934]: CLT
+                        - generic [ref=e936]:
+                          - generic [ref=e938]: 205 kg CO2e
+                          - generic [ref=e939]:
+                            - generic [ref=e940]: +81% emissions
+                            - 'button "Carbon emissions estimate: 205 kilograms. +81% emissions. Learn more about this emissions estimate" [ref=e941]':
+                              - img [ref=e942]
+                        - generic [ref=e944]:
+                          - generic [ref=e945]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e949]:
+                              - generic [ref=e950]:
+                                - generic [ref=e951]:
+                                  - text: "1"
+                                  - img [ref=e952]
+                                - generic [ref=e955]:
+                                  - text: "0"
+                                  - img [ref=e956]
+                            - generic [ref=e959]: $404
+                          - generic [ref=e960]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 2:00 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 6:31 PM on Saturday, August 1." [ref=e963]:
+                      - img [ref=e966]
+                - listitem [ref=e968]:
+                  - generic [ref=e969]:
+                    - link "From 439 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Mesa Airlines DBA United Express. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:46 PM on Saturday, August 1. Total duration 3 hr 47 min. Layover (1 of 1) is a 52 min layover at Dulles International Airport in Washington. 0 carry-on bags included. 0 checked bags included. Select flight"
+                    - generic [ref=e971] [cursor=pointer]:
+                      - generic [ref=e973]:
+                        - generic [ref=e975]:
+                          - generic "Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:46 PM on Saturday, August 1." [ref=e977]:
+                            - 'generic "Departure time: 7:59 PM." [ref=e980]': 7:59 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:46 PM." [ref=e983]': 11:46 PM
+                          - generic [ref=e984]:
+                            - text: United
+                            - generic [ref=e985]: ·
+                            - text: Operated by Republic Airways DBA United Express, Mesa Airlines DBA United Express
+                        - generic [ref=e986]:
+                          - generic "Total duration 3 hr 47 min." [ref=e987]: 3 hr 47 min
+                          - generic [ref=e988]:
+                            - generic [ref=e991]: PIT
+                            - text: –
+                            - generic [ref=e994]: PVD
+                        - generic [ref=e995]:
+                          - generic "1 stop flight." [ref=e997]: 1 stop
+                          - generic "Layover (1 of 1) is a 52 min layover at Dulles International Airport in Washington." [ref=e998]:
+                            - text: 52 min
+                            - generic [ref=e1000]: IAD
+                        - generic [ref=e1002]:
+                          - generic [ref=e1004]: 176 kg CO2e
+                          - generic [ref=e1005]:
+                            - generic [ref=e1006]: +56% emissions
+                            - 'button "Carbon emissions estimate: 176 kilograms. +56% emissions. Learn more about this emissions estimate" [ref=e1007]':
+                              - img [ref=e1008]
+                        - generic [ref=e1010]:
+                          - generic [ref=e1011]:
+                            - button "0 carry-on bags included. 0 checked bags included. Learn more about baggage allowance" [ref=e1015]:
+                              - generic [ref=e1016]:
+                                - generic [ref=e1017]:
+                                  - text: "0"
+                                  - img [ref=e1018]
+                                - generic [ref=e1021]:
+                                  - text: "0"
+                                  - img [ref=e1022]
+                            - generic [ref=e1025]: $439
+                          - generic [ref=e1026]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 7:59 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:46 PM on Saturday, August 1." [ref=e1029]:
+                      - img [ref=e1032]
+                - listitem [ref=e1034]:
+                  - generic [ref=e1035]:
+                    - link "From 458 US dollars round trip total. 1 stop flight with American. Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 5:35 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:16 AM on Saturday, August 1. Total duration 4 hr 41 min. Layover (1 of 1) is a 2 hr layover at Philadelphia International Airport in Philadelphia. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1037] [cursor=pointer]:
+                      - generic [ref=e1039]:
+                        - generic [ref=e1041]:
+                          - generic "Leaves Pittsburgh International Airport at 5:35 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:16 AM on Saturday, August 1." [ref=e1043]:
+                            - 'generic "Departure time: 5:35 AM." [ref=e1046]': 5:35 AM
+                            - text: –
+                            - 'generic "Arrival time: 10:16 AM." [ref=e1049]': 10:16 AM
+                          - generic [ref=e1050]:
+                            - text: American
+                            - generic [ref=e1051]: ·
+                            - text: Operated by PSA Airlines as American Eagle, PSA Airlines as American Eagle
+                        - generic [ref=e1052]:
+                          - generic "Total duration 4 hr 41 min." [ref=e1053]: 4 hr 41 min
+                          - generic [ref=e1054]:
+                            - generic [ref=e1057]: PIT
+                            - text: –
+                            - generic [ref=e1060]: PVD
+                        - generic [ref=e1061]:
+                          - generic "1 stop flight." [ref=e1063]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr layover at Philadelphia International Airport in Philadelphia." [ref=e1064]:
+                            - text: 2 hr
+                            - generic [ref=e1066]: PHL
+                        - generic [ref=e1068]:
+                          - generic [ref=e1070]: 195 kg CO2e
+                          - generic [ref=e1071]:
+                            - generic [ref=e1072]: +73% emissions
+                            - 'button "Carbon emissions estimate: 195 kilograms. +73% emissions. Learn more about this emissions estimate" [ref=e1073]':
+                              - img [ref=e1074]
+                        - generic [ref=e1076]:
+                          - generic [ref=e1077]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1081]:
+                              - generic [ref=e1082]:
+                                - generic [ref=e1083]:
+                                  - text: "1"
+                                  - img [ref=e1084]
+                                - generic [ref=e1087]:
+                                  - text: "0"
+                                  - img [ref=e1088]
+                            - generic [ref=e1091]: $458
+                          - generic [ref=e1092]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:35 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 10:16 AM on Saturday, August 1." [ref=e1095]:
+                      - img [ref=e1098]
+                - listitem [ref=e1100]:
+                  - generic [ref=e1101]:
+                    - link "From 664 US dollars round trip total. 1 stop flight with Delta. Operated by Republic Airways Delta Connection, SkyWest DBA Delta Connection. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:36 PM on Saturday, August 1. Total duration 5 hr 41 min. Layover (1 of 1) is a 2 hr 22 min layover at Detroit Metropolitan Wayne County Airport in Detroit. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1103] [cursor=pointer]:
+                      - generic [ref=e1105]:
+                        - generic [ref=e1107]:
+                          - generic "Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:36 PM on Saturday, August 1." [ref=e1109]:
+                            - 'generic "Departure time: 5:55 PM." [ref=e1112]': 5:55 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:36 PM." [ref=e1115]': 11:36 PM
+                          - generic [ref=e1116]:
+                            - text: Delta
+                            - generic [ref=e1117]: ·
+                            - text: Operated by Republic Airways Delta Connection, SkyWest DBA Delta Connection
+                        - generic [ref=e1118]:
+                          - generic "Total duration 5 hr 41 min." [ref=e1119]: 5 hr 41 min
+                          - generic [ref=e1120]:
+                            - generic [ref=e1123]: PIT
+                            - text: –
+                            - generic [ref=e1126]: PVD
+                        - generic [ref=e1127]:
+                          - generic "1 stop flight." [ref=e1129]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 22 min layover at Detroit Metropolitan Wayne County Airport in Detroit." [ref=e1130]:
+                            - text: 2 hr 22 min
+                            - generic [ref=e1132]: DTW
+                        - generic [ref=e1134]:
+                          - generic [ref=e1136]: 232 kg CO2e
+                          - generic [ref=e1137]:
+                            - generic [ref=e1138]: +105% emissions
+                            - 'button "Carbon emissions estimate: 232 kilograms. +105% emissions. Learn more about this emissions estimate" [ref=e1139]':
+                              - img [ref=e1140]
+                        - generic [ref=e1142]:
+                          - generic [ref=e1143]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1147]:
+                              - generic [ref=e1148]:
+                                - generic [ref=e1149]:
+                                  - text: "1"
+                                  - img [ref=e1150]
+                                - generic [ref=e1153]:
+                                  - text: "0"
+                                  - img [ref=e1154]
+                            - generic [ref=e1157]: $664
+                          - generic [ref=e1158]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:55 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 11:36 PM on Saturday, August 1." [ref=e1161]:
+                      - img [ref=e1164]
+                - listitem [ref=e1166]:
+                  - generic [ref=e1167]:
+                    - link "From 754 US dollars round trip total. 1 stop flight with American. Operated by Piedmont Airlines as American Eagle, PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 2:29 PM on Saturday, August 1. Total duration 3 hr 50 min. Layover (1 of 1) is a 1 hr 5 min layover at Philadelphia International Airport in Philadelphia. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1169] [cursor=pointer]:
+                      - generic [ref=e1171]:
+                        - generic [ref=e1173]:
+                          - generic "Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 2:29 PM on Saturday, August 1." [ref=e1175]:
+                            - 'generic "Departure time: 10:39 AM." [ref=e1178]': 10:39 AM
+                            - text: –
+                            - 'generic "Arrival time: 2:29 PM." [ref=e1181]': 2:29 PM
+                          - generic [ref=e1182]:
+                            - text: American
+                            - generic [ref=e1183]: ·
+                            - text: Operated by Piedmont Airlines as American Eagle, PSA Airlines as American Eagle
+                        - generic [ref=e1184]:
+                          - generic "Total duration 3 hr 50 min." [ref=e1185]: 3 hr 50 min
+                          - generic [ref=e1186]:
+                            - generic [ref=e1189]: PIT
+                            - text: –
+                            - generic [ref=e1192]: PVD
+                        - generic [ref=e1193]:
+                          - generic "1 stop flight." [ref=e1195]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 5 min layover at Philadelphia International Airport in Philadelphia." [ref=e1196]:
+                            - text: 1 hr 5 min
+                            - generic [ref=e1198]: PHL
+                        - generic [ref=e1200]:
+                          - generic [ref=e1202]: 206 kg CO2e
+                          - generic [ref=e1203]:
+                            - generic [ref=e1204]: +82% emissions
+                            - 'button "Carbon emissions estimate: 206 kilograms. +82% emissions. Learn more about this emissions estimate" [ref=e1205]':
+                              - img [ref=e1206]
+                        - generic [ref=e1208]:
+                          - generic [ref=e1209]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1213]:
+                              - generic [ref=e1214]:
+                                - generic [ref=e1215]:
+                                  - text: "1"
+                                  - img [ref=e1216]
+                                - generic [ref=e1219]:
+                                  - text: "0"
+                                  - img [ref=e1220]
+                            - generic [ref=e1223]: $754
+                          - generic [ref=e1224]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 10:39 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 2:29 PM on Saturday, August 1." [ref=e1227]:
+                      - img [ref=e1230]
+                - listitem [ref=e1232]:
+                  - generic [ref=e1233]:
+                    - link "From 801 US dollars round trip total. 1 stop flight with United. Operated by Republic Airways DBA United Express, Commuteair DBA United Express. Leaves Pittsburgh International Airport at 6:10 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:45 AM on Saturday, August 1. Total duration 3 hr 35 min. Layover (1 of 1) is a 53 min layover at Dulles International Airport in Washington. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1235] [cursor=pointer]:
+                      - generic [ref=e1237]:
+                        - generic [ref=e1239]:
+                          - generic "Leaves Pittsburgh International Airport at 6:10 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:45 AM on Saturday, August 1." [ref=e1241]:
+                            - 'generic "Departure time: 6:10 AM." [ref=e1244]': 6:10 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:45 AM." [ref=e1247]': 9:45 AM
+                          - generic [ref=e1248]:
+                            - text: United
+                            - generic [ref=e1249]: ·
+                            - text: Operated by Republic Airways DBA United Express, Commuteair DBA United Express
+                        - generic [ref=e1250]:
+                          - generic "Total duration 3 hr 35 min." [ref=e1251]: 3 hr 35 min
+                          - generic [ref=e1252]:
+                            - generic [ref=e1255]: PIT
+                            - text: –
+                            - generic [ref=e1258]: PVD
+                        - generic [ref=e1259]:
+                          - generic "1 stop flight." [ref=e1261]: 1 stop
+                          - generic "Layover (1 of 1) is a 53 min layover at Dulles International Airport in Washington." [ref=e1262]:
+                            - text: 53 min
+                            - generic [ref=e1264]: IAD
+                        - generic [ref=e1266]:
+                          - generic [ref=e1268]: 191 kg CO2e
+                          - generic [ref=e1269]:
+                            - generic [ref=e1270]: +69% emissions
+                            - 'button "Carbon emissions estimate: 191 kilograms. +69% emissions. Learn more about this emissions estimate" [ref=e1271]':
+                              - img [ref=e1272]
+                        - generic [ref=e1274]:
+                          - generic [ref=e1275]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1279]:
+                              - generic [ref=e1280]:
+                                - generic [ref=e1281]:
+                                  - text: "1"
+                                  - img [ref=e1282]
+                                - generic [ref=e1285]:
+                                  - text: "0"
+                                  - img [ref=e1286]
+                            - generic [ref=e1289]: $801
+                          - generic [ref=e1290]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 6:10 AM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 9:45 AM on Saturday, August 1." [ref=e1293]:
+                      - img [ref=e1296]
+                - listitem [ref=e1298]:
+                  - generic [ref=e1299]:
+                    - link "From 834 US dollars round trip total. 1 stop flight with Delta. Operated by Endeavor Air DBA Delta Connection, SkyWest DBA Delta Connection. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 4:13 PM on Saturday, August 1. Total duration 3 hr 55 min. Layover (1 of 1) is a 45 min layover at Detroit Metropolitan Wayne County Airport in Detroit. 1 carry-on bag included. 0 checked bags included. Select flight"
+                    - generic [ref=e1301] [cursor=pointer]:
+                      - generic [ref=e1303]:
+                        - generic [ref=e1305]:
+                          - generic "Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 4:13 PM on Saturday, August 1." [ref=e1307]:
+                            - 'generic "Departure time: 12:18 PM." [ref=e1310]': 12:18 PM
+                            - text: –
+                            - 'generic "Arrival time: 4:13 PM." [ref=e1313]': 4:13 PM
+                          - generic [ref=e1314]:
+                            - text: Delta
+                            - generic [ref=e1315]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection, SkyWest DBA Delta Connection
+                        - generic [ref=e1316]:
+                          - generic "Total duration 3 hr 55 min." [ref=e1317]: 3 hr 55 min
+                          - generic [ref=e1318]:
+                            - generic [ref=e1321]: PIT
+                            - text: –
+                            - generic [ref=e1324]: PVD
+                        - generic [ref=e1325]:
+                          - generic "1 stop flight." [ref=e1327]: 1 stop
+                          - generic "Layover (1 of 1) is a 45 min layover at Detroit Metropolitan Wayne County Airport in Detroit." [ref=e1328]:
+                            - text: 45 min
+                            - generic [ref=e1330]: DTW
+                        - generic [ref=e1332]:
+                          - generic [ref=e1334]: 232 kg CO2e
+                          - generic [ref=e1335]:
+                            - generic [ref=e1336]: +105% emissions
+                            - 'button "Carbon emissions estimate: 232 kilograms. +105% emissions. Learn more about this emissions estimate" [ref=e1337]':
+                              - img [ref=e1338]
+                        - generic [ref=e1340]:
+                          - generic [ref=e1341]:
+                            - button "1 carry-on bag included. 0 checked bags included. Learn more about baggage allowance" [ref=e1345]:
+                              - generic [ref=e1346]:
+                                - generic [ref=e1347]:
+                                  - text: "1"
+                                  - img [ref=e1348]
+                                - generic [ref=e1351]:
+                                  - text: "0"
+                                  - img [ref=e1352]
+                            - generic [ref=e1355]: $834
+                          - generic [ref=e1356]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 12:18 PM on Saturday, August 1 and arrives at Rhode Island T.F. Green International Airport at 4:13 PM on Saturday, August 1." [ref=e1359]:
+                      - img [ref=e1362]
+                - listitem [ref=e1364]:
+                  - generic [ref=e1365] [cursor=pointer]:
+                    - button "View more flights" [ref=e1368]:
+                      - img
+                    - generic [ref=e1371]: View more flights
+          - text: · ·· · ·· · ·· · ·· · ·· · ·· · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e1374]:
+        - generic [ref=e1376]:
+          - button "Language·English (United States)" [ref=e1377]:
+            - img [ref=e1380]
+            - generic [ref=e1382]: Language·English (United States)
+          - button "Location·United States" [ref=e1383]:
+            - img [ref=e1386]
+            - generic [ref=e1389]: Location·United States
+          - button "Currency USD" [ref=e1390]:
+            - img [ref=e1393]
+            - generic [ref=e1403]: Currency·USD
+        - generic [ref=e1404]:
+          - link "About Google Travel" [ref=e1405] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1406] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1407] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1408] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1409] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1410] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1412]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1413] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

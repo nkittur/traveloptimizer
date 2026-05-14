@@ -1,0 +1,535 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - link "Log in" [ref=e24] [cursor=pointer]:
+        - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2024%252F09%252F19%252Ftravel%252Fthings-to-do-malmo-sweden.html&asset=masthead
+        - generic [ref=e25]: Log in
+  - main [ref=e26]:
+    - article [ref=e27]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "A view of a city. In the foreground is a modern tower that appears to twist. In the background is a sunset over a bay." [ref=e35]
+          - generic [ref=e37]:
+            - link "36 Hours" [ref=e40] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e42]: Malmo, Sweden
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: "Jump to:"
+            - link "Recommendations" [ref=e47] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e49] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e50]:
+              - link "Google Map" [ref=e51] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/c2AkSRTmHUqBgqLT8
+              - img [ref=e53]
+          - generic [ref=e57]:
+            - paragraph [ref=e58]:
+              - generic [ref=e59]:
+                - text: By Lisa Abend
+                - text: Photographs by James Silverman
+            - paragraph [ref=e60]: Lisa Abend is a freelance journalist based in Copenhagen.
+            - time [ref=e61]: Sept. 19, 2024
+          - paragraph [ref=e62]: Sweden’s third-largest city, a 40-minute train ride from Copenhagen across the Oresund Bridge, is used to being defined in relation to its neighbor. With its emphasis on sustainability and design, and abundant bicycles, it shares many attributes with the Danish capital. But its personality is distinctively its own. As a once-important port, Malmo retains a working-class feel. Its sizable immigrant population (a third of residents were born outside Sweden, many in the Middle East) has made it the falafel capital of Europe, and contributes to a burgeoning food scene that also draws inspiration from the Skane region’s fishing traditions and wealth of farms. And the nearly 25-year-old Oresund Bridge has helped, along with a favorable currency exchange, to revitalize the city, making it more accessible to the artists and chefs priced out of Copenhagen.
+        - generic [ref=e63]: Advertisement
+        - heading "Recommendations" [level=2] [ref=e64]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - button "Key stops –" [ref=e67] [cursor=pointer]:
+              - text: Key stops
+              - generic [ref=e68]: –
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - strong [ref=e71]:
+                  - link "Malmo Konstmuseum" [ref=e72] [cursor=pointer]:
+                    - /url: https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Konstmuseum.html
+                - text: is a museum inside the Malmohus Slott, a 17th-century citadel, that houses an important collection of Scandinavian art.
+              - listitem [ref=e73]:
+                - text: The
+                - strong [ref=e74]:
+                  - link "Disgusting Food Museum" [ref=e75] [cursor=pointer]:
+                    - /url: https://disgustingfoodmuseum.com/
+                - text: takes visitors on a sensory tour of foods that can provoke strong reactions, while prompting plenty of discussion about the fine line between delight and disgust.
+              - listitem [ref=e76]:
+                - strong [ref=e77]:
+                  - link "Ribersborg Kallbadhus" [ref=e78] [cursor=pointer]:
+                    - /url: https://www.ribersborgskallbadhus.se/
+                - text: is an old-fashioned bathhouse, where local practice is to alternate between baking naked in the sauna and plunging into the chilly sea.
+              - listitem [ref=e79]:
+                - strong [ref=e80]:
+                  - link "Saltimporten" [ref=e81] [cursor=pointer]:
+                    - /url: https://www.saltimporten.com/
+                - text: is a beloved canteen on an industrial pier with long, communal tables and a rotating, daily dish that highlights the region’s produce.
+          - generic [ref=e82]:
+            - button "Museums and attractions +" [ref=e83] [cursor=pointer]:
+              - text: Museums and attractions
+              - generic [ref=e84]: +
+            - list:
+              - listitem [ref=e85]:
+                - strong [ref=e86]:
+                  - link "Form/Design Center" [ref=e87] [cursor=pointer]:
+                    - /url: https://formdesigncenter.com/en
+                - text: ", in a half-timbered farmhouse in Lilla Torg, a lively square, hosts eclectic exhibitions focused on architecture and craft."
+              - listitem [ref=e88]:
+                - strong [ref=e89]:
+                  - link "Folkets Park" [ref=e90] [cursor=pointer]:
+                    - /url: https://malmo.se/Folkets-Park.html?num=6
+                - text: ", founded in 1893 as a refuge for Malmo’s working families, today has whimsical playgrounds, wading pools and a petting zoo, with a Moorish-inspired pavilion for"
+                - link "cultural events" [ref=e91] [cursor=pointer]:
+                  - /url: https://moriskapaviljongen.se/
+                - text: .
+              - listitem [ref=e92]:
+                - strong [ref=e93]:
+                  - link "Hundrastplatsen" [ref=e94] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/place/Ribersborgs+Hundrastplats/@55.6058676,12.9772464,15z/data=!4m2!3m1!1s0x0:0xf6cc93bc26d859b7?sa=X&ved=1t:2428&ictx=111
+                - text: is a dog beach that offers an excellent view of frolicking puppies as well as of the
+                - link "Turning Torso" [ref=e95] [cursor=pointer]:
+                  - /url: https://visitskane.com/classic-attractions/turning-torso
+                - text: ", the twisted highrise that is a Malmo landmark."
+          - generic [ref=e96]:
+            - button "Restaurants and bars +" [ref=e97] [cursor=pointer]:
+              - text: Restaurants and bars
+              - generic [ref=e98]: +
+            - list:
+              - listitem [ref=e99]:
+                - strong [ref=e100]:
+                  - link "Aster" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.astermalmo.se/
+                - text: ", a restaurant with an outdoor patio in the industrial Varvstaden district, pours natural wines and turns out dishes cooked over an open flame."
+              - listitem [ref=e102]:
+                - strong [ref=e103]:
+                  - link "Solde" [ref=e104] [cursor=pointer]:
+                    - /url: https://www.solde.se/
+                - text: is a bare-bones coffee bar that roasts its own beans and bakes shatteringly flaky croissants.
+              - listitem [ref=e105]:
+                - strong [ref=e106]:
+                  - link "Marvin" [ref=e107] [cursor=pointer]:
+                    - /url: https://www.instagram.com/marvinofmalmo/?hl=en
+                - text: serves fried chicken sandwiches in summer, savory pies in winter, and ice-cream sandwiches year-round.
+              - listitem [ref=e108]:
+                - strong [ref=e109]:
+                  - link "Korvhuset" [ref=e110] [cursor=pointer]:
+                    - /url: https://www.korvhuset.com/
+                - text: sells more than 100 kinds of sausages to cook at home, and offers a smaller selection to eat straight off the grill in-store.
+              - listitem [ref=e111]:
+                - strong [ref=e112]:
+                  - link "Varnhems" [ref=e113] [cursor=pointer]:
+                    - /url: https://www.facebook.com/p/V%C3%A4rnhems-falafel-100077054742268/
+                - text: ’s falafel, wrapped in housemade bread, is a strong contender for the best in Malmo.
+              - listitem [ref=e114]:
+                - strong [ref=e115]:
+                  - link "Bageri Leve" [ref=e116] [cursor=pointer]:
+                    - /url: https://bagerileve.se/
+                - text: is a vegan bakery with a cardamom bun that tastes as buttery as the traditional version.
+              - listitem [ref=e117]:
+                - strong [ref=e118]:
+                  - link "Farina" [ref=e119] [cursor=pointer]:
+                    - /url: https://www.farinamalmo.se/
+                - text: is a bakery that specializes in airy versions of the cream-filled Italian buns called maritozzi.
+              - listitem [ref=e120]:
+                - strong [ref=e121]:
+                  - link "Kold" [ref=e122] [cursor=pointer]:
+                    - /url: https://kold.co/
+                - text: sells ice cream in global flavors like Vietnamese coffee and dulce de leche.
+              - listitem [ref=e123]:
+                - strong [ref=e124]:
+                  - link "Lyran" [ref=e125] [cursor=pointer]:
+                    - /url: https://www.lyranmatbar.se/
+                - text: ", one of Malmo’s toughest reservations, is a tiny bistro with ever-changing tasting menus that work magic with vegetable-forward dishes."
+              - listitem [ref=e126]:
+                - strong [ref=e127]:
+                  - link "Bar Kiosko" [ref=e128] [cursor=pointer]:
+                    - /url: https://barkiosko.se/
+                - text: ", with well-made Negronis, a killer playlist and a convivial atmosphere, feels like the long-standing neighborhood bar of your dreams."
+              - listitem [ref=e129]:
+                - strong [ref=e130]:
+                  - link "Far i Hatten" [ref=e131] [cursor=pointer]:
+                    - /url: https://www.farihatten.se/
+                - text: is a restaurant and bar within Folkets Park with occasional live music and a wine cellar.
+              - listitem [ref=e132]:
+                - strong [ref=e133]:
+                  - link "Ruths" [ref=e134] [cursor=pointer]:
+                    - /url: https://ruthsmalmo.se/en/
+                - text: ", centrally wedged between Stortorget and Lilla Torg, is an all-day cafe with granola and scones for breakfast, bright salads for lunch and a Mediterranean-inflected menu in the evening."
+          - generic [ref=e135]:
+            - button "Shopping +" [ref=e136] [cursor=pointer]:
+              - text: Shopping
+              - generic [ref=e137]: +
+            - list:
+              - listitem [ref=e138]:
+                - strong [ref=e139]:
+                  - link "Aplace" [ref=e140] [cursor=pointer]:
+                    - /url: https://www.aplace.com/en
+                - text: specializes in Danish and Swedish designers for both men and women.
+              - listitem [ref=e141]:
+                - strong [ref=e142]:
+                  - link "AB Smaland" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.absmaland.com/en
+                - text: ", a store with clothing and homeware, offers fetchingly thick sweaters, clean-lined ceramics and naturally dyed linens."
+              - listitem [ref=e144]:
+                - strong [ref=e145]:
+                  - link "Trés Bien" [ref=e146] [cursor=pointer]:
+                    - /url: https://tres-bien.com/en-gb/collections/new-items
+                - text: sells menswear with a 1990s streetwear vibe.
+              - listitem [ref=e147]:
+                - strong [ref=e148]:
+                  - link "Birgitta Helmersson" [ref=e149] [cursor=pointer]:
+                    - /url: https://www.birgittahelmersson.com/
+                - text: crafts comfy garments made from sustainably sourced or recycled fabrics.
+          - generic [ref=e150]:
+            - button "Where to stay +" [ref=e151] [cursor=pointer]:
+              - text: Where to stay
+              - generic [ref=e152]: +
+            - list:
+              - listitem [ref=e153]:
+                - strong [ref=e154]:
+                  - link "Story Hotel" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.hyatt.com/en-US/hotel/sweden/story-hotel-studio-malmo/mmxjd?src=corp_lclb_gmb_seo_mmxjd
+                - text: soars up from the harbor area. Located on a spit of land next door to the university, it offers excellent views of skyline and sea from its sleekly modern rooms, as well as from its 14th-story restaurant and cocktail bar. Rooms start at 1,389 sek, or about $136, a night.
+              - listitem [ref=e156]:
+                - text: The centrally located
+                - strong [ref=e157]:
+                  - link "MJ’s" [ref=e158] [cursor=pointer]:
+                    - /url: https://mjs.life/
+                - text: is as much a party as it is a boutique hotel. It has a popular restaurant in its courtyard and regularly hosts D.J.s in the lobby that doubles as a lively bar. Behind their noise-reducing double doors, the comfortable rooms are sexily furnished with velvet sofas and suggestive photography. Rooms start at 1,225 sek a night.
+              - listitem [ref=e159]:
+                - strong [ref=e160]:
+                  - link "The More Hotel Mazetti" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.themorehotel.se/
+                - strong [ref=e162]: ","
+                - text: housed in a former chocolate factory, is just a few minutes walk from Triangeln station. This affordable choice offers studios with sitting and kitchen areas, all designed in a soothingly Scandinavian style, and is available for one night, or as long as six months. Rooms start at 1,095 sek a night.
+              - listitem [ref=e163]:
+                - text: If seeking a
+                - strong [ref=e164]: short-term rental
+                - text: ", try the residential Västervång area for a taste of Swedish seaside life. The neighborhood, dotted with fish smokeries and boat docks, is just 15 minutes by bike to the city center. Accommodations range from traditional wooden cottages to contemporary high-rise apartments."
+          - generic [ref=e165]:
+            - button "Getting around +" [ref=e166] [cursor=pointer]:
+              - text: Getting around
+              - generic [ref=e167]: +
+            - list [ref=e168]:
+              - listitem [ref=e169]:
+                - strong [ref=e170]: Trains
+                - text: from Copenhagen (150 sek) arrive at Malmo Central Station, and include two intermediary stops in the city, so the line functions as a mini-subway. A comprehensive system of
+                - strong [ref=e171]: buses
+                - text: — green for city; yellow for regional — make up the rest of the public transportation. The easiest way to get information and tickets for all options is through the
+                - link "Skanetrafiken app" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.skanetrafiken.se/
+                - text: . Or rent a
+                - strong [ref=e173]: bike
+                - text: through
+                - link "Malmo By Bike" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.malmobybike.se/
+                - text: (80 sek for a 24-hour pass), easy to find just about anywhere.
+        - heading "Itinerary" [level=2] [ref=e175]
+        - generic [ref=e176]:
+          - heading "Friday" [level=2] [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]: 1 p.m. Lunch at a modern institution
+            - paragraph [ref=e181]:
+              - text: After closing their acclaimed fine-dining restaurant, Trio, in 2011, the chefs Ola Rudin and Sebastian Persson decided to quit the Michelin rat race in favor of a healthy work-life balance. The result was
+              - link "Saltimporten," [ref=e182] [cursor=pointer]:
+                - /url: https://www.saltimporten.com/
+              - text: a now-beloved canteen that is open only for weekday lunches. Located on an industrial pier about a 20-minute walk north from Malmo’s central train station, Saltimporten seats guests — many of whom work in the creative businesses nearby — at long, communal tables, and offers a single dish that changes daily (recently, it was braised ox cheek with beets and currants), as well as a vegetarian alternative, made with ingredients from regional farms. Lunch about 135 sek, or $13, per person.
+          - img "Diners sit at benches alongside a long wooden table in a dining hall space." [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e188]: 3 p.m. Tour Malmo’s historic heart
+            - paragraph [ref=e190]:
+              - text: Malmo’s old town radiates around two lively squares, the imaginatively labeled Stortorget (the Big Square) and Lilla Torg (Little Square). The larger is dominated at one end by a 16th-century town hall, which owes its red-brick facade and ornate gables to an 1860s facelift. A few doors down is the late-19th-century Apoteket Lejonet, Sweden’s oldest pharmacy, with handsome woodwork and antique medicine jars. A half-timbered farmhouse on Lilla Torg houses the
+              - link "Form/Design Center" [ref=e191] [cursor=pointer]:
+                - /url: https://formdesigncenter.com/en
+              - text: ", with eclectic temporary exhibitions that focus on architecture and craft (free general entry; main exhibition ticket, 50 sek). The surrounding cobblestone streets, lined with low, pastel-colored houses and dotted with alluring handicraft shops, like"
+              - link "Formargruppen" [ref=e192] [cursor=pointer]:
+                - /url: http://formargruppen.se
+              - text: ", and the occasional natural wine bar, like the charming"
+              - link "Julie" [ref=e193] [cursor=pointer]:
+                - /url: https://juliemalmo.se/
+              - text: ", show how Malmo residents lived before they went in for blocky postwar housing."
+          - generic [ref=e195]:
+            - img "The inside of a store with a grand interior — there are ornate wood carvings, ironwork and an old-fashioned clockface." [ref=e197]
+            - paragraph [ref=e200]: Apoteket Lejonet
+          - generic [ref=e201]:
+            - generic [ref=e202]: 8 p.m. Enjoy a harborside meal cooked over an open fire
+            - paragraph [ref=e204]:
+              - text: Part of what gives Malmo its distinctive feel is the harbor that cuts deep into the city's northern end. Much of the area is still quite industrial, but its western edge is gradually acquiring new residential and commercial life.
+              - link "Aster" [ref=e205] [cursor=pointer]:
+                - /url: https://www.astermalmo.se/
+              - text: ", which opened amid warehouses in the Varvstaden district in 2021, is a big reason to visit. Its inviting outdoor patio is the perfect way to while away a fall evening, sipping natural wines and working through a menu where most dishes, from the juicy grilled peaches atop an oozing plate of burrata, to the meaty tranche of hake with just-foraged chanterelles, to a flavorful hunk of lamb charred with piquillo peppers, has been cooked over open flames. Dinner for two, with wine, about 2,300 sek."
+          - img "A plate that holds a piece of charred fish, sauce and some grilled vegetables. Next to the plate is a glass of red wine." [ref=e209]
+        - generic [ref=e210]:
+          - img "A public square in the daytime that is lined with grand, European facades." [ref=e212]
+          - paragraph [ref=e215]: Apoteket Lejonet, Sweden’s oldest pharmacy, in Stortorget (the Big Square).
+        - generic [ref=e216]: Advertisement
+        - generic [ref=e217]:
+          - heading "Saturday" [level=2] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]: 9 a.m. People-watch with an espresso and a flaky croissant
+            - paragraph [ref=e222]:
+              - text: Caffeinate at
+              - link "Solde" [ref=e223] [cursor=pointer]:
+                - /url: https://www.solde.se/
+              - text: ", just across from the hotels and shops of central Gustav Adolfs Square, a small, bare-bones coffee bar that roasts its own beans, pulls a masterful espresso and has an 80s-inflected playlist that forms the perfect soundtrack for people-watching through the shop’s big windows. It’s nearly as revered — including by some of the area’s best bakers — for its shatteringly flaky croissants, baked in house. Breakfast about 70 sek."
+          - img "A tray of croissants on a counter. A person out of focus behind pours what looks like sugar into a metal bowl." [ref=e227]
+          - generic [ref=e228]:
+            - generic [ref=e229]: 10 a.m. Explore a fortress
+            - paragraph [ref=e231]:
+              - text: Malmohus Slott, a 17th-century citadel hunkered within a moat in the city center, is worth visiting just for its imposing architecture. But a slew of other diversions adds to its appeal. Inside the castle’s walls, the
+              - link "Malmo Konstmuseum" [ref=e232] [cursor=pointer]:
+                - /url: https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Konstmuseum.html
+              - text: (60 sek) houses an important collection of Scandinavian art, including a number of wistfully Nordic landscapes by the renowned Swedish artist Carl Frederik Hill, as well as a strong selection of early 20th-century Russian art. The vast surrounding park holds a chubby windmill, a bloom-filled organic garden, and meandering paths through the woods. And just across the street from the castle grounds, fishermen still sell the day's catch from a row of painted wooden huts, a remnant of Malmo's seafaring traditions.
+          - generic [ref=e234]:
+            - img "A wooden-plank walkway leading to a red brick, fortress-like building with an arched portal." [ref=e236]
+            - paragraph [ref=e239]: Malmohus Slott
+          - generic [ref=e240]:
+            - generic [ref=e241]: 12 p.m. Take your tastebuds outside their comfort zone
+            - paragraph [ref=e243]:
+              - text: “Most people don’t throw up,” the attendant admitted to me as I entered the
+              - link "Disgusting Food Museum" [ref=e244] [cursor=pointer]:
+                - /url: https://disgustingfoodmuseum.com/
+              - text: with a vomit bag that doubles as an entry ticket (220 sek). “But isn’t it better to be prepared?” The museum, in Malmo’s central old town, has
+              - link "generated plenty of reactions" [ref=e245] [cursor=pointer]:
+                - /url: https://www.newyorker.com/magazine/2021/05/17/the-gatekeepers-who-get-to-decide-what-food-is-disgusting
+              - text: "(beyond just the bodily ones) since opening in 2018. But its displays of global delicacies, from Mongolian sheep eyeball juice to Sweden’s own surstromming, a fermented canned herring that has to be opened under water to control the odor, encourages you to think about your own response, too. The exhibition culminates in a tasting bar (optional, included in ticket) where the daring can sample the products. There is a message to this madness: between the Chinese rice wine with fermented baby mice and the crispy mopane worms from Botswana are Twinkies and root beer, a reminder that the line between disgusting and delicious is in the mouth of the beholder."
+          - generic [ref=e246]:
+            - generic [ref=e247]: 1 p.m. Snack on an English muffin, Swedish hot dog or falafel
+            - paragraph [ref=e249]:
+              - text: Continue the culinary odyssey at the nearby
+              - link "Marvin" [ref=e250] [cursor=pointer]:
+                - /url: https://www.instagram.com/marvinofmalmo/?hl=en
+              - text: ", where the British transplant Matt Young serves spicy fried chicken in English muffins in summer, savory pies in winter, and fried mac-and-cheese nuggets and ice-cream sandwiches year-round, all housemade (lunch about 240 sek). For a more classic Malmo meal, head to"
+              - link "Korvhuset" [ref=e251] [cursor=pointer]:
+                - /url: https://www.korvhuset.com/
+              - text: ", a block from the museum. The shop, which looks like a 1950s American diner, sells 101 varieties of sausage to cook at home, and also grills a smaller selection to eat on the spot, preferably accompanied by mashed potatoes. The House Special, a fat pork bratwurst of which Korvhuset’s owner says he sells over 6,000 a year, is a good choice, paired with an elderflower soda (around 100 sek for both). Or stroll 20 minutes east to"
+              - link "V" [ref=e252] [cursor=pointer]:
+                - /url: https://www.facebook.com/p/V%C3%A4rnhems-falafel-100077054742268/
+              - link "a" [ref=e253] [cursor=pointer]:
+                - /url: https://www.facebook.com/p/V%C3%A4rnhems-falafel-100077054742268/
+              - link "rnhems" [ref=e254] [cursor=pointer]:
+                - /url: https://www.facebook.com/p/V%C3%A4rnhems-falafel-100077054742268/
+              - text: ", serving crisp, flavorful falafel, that many consider the city's best, wrapped in housemade flatbread (50 sek)."
+          - generic [ref=e256]:
+            - img "The interior of a restaurant that looks like an American diner, with checkerboard floors, red vinyl seats and chrome-edged tables." [ref=e258]
+            - paragraph [ref=e261]: Korvhuset
+          - generic [ref=e262]:
+            - generic [ref=e263]: 2 p.m. Shop for Scandinavian styles
+            - paragraph [ref=e265]:
+              - text: Thrifty Danish fashionistas often cross the bridge to shop at lower prices than they can find at home, and the area around Davidshallgatan, with its mix of new design and vintage shops, is a prime destination.
+              - link "Aplace" [ref=e266] [cursor=pointer]:
+                - /url: https://www.aplace.com/en
+              - text: specializes in Danish and Swedish designers for both men and women, from the riotous colors and curves of
+              - link "Stine Goya" [ref=e267] [cursor=pointer]:
+                - /url: https://stinegoya.com/
+              - text: to the raw, minimalist styles of
+              - link "Hope" [ref=e268] [cursor=pointer]:
+                - /url: https://hope-sthlm.com/
+              - text: .
+              - link "AB Sm" [ref=e269] [cursor=pointer]:
+                - /url: https://www.absmaland.com/en
+              - link "a" [ref=e270] [cursor=pointer]:
+                - /url: https://www.absmaland.com/en
+              - link "land" [ref=e271] [cursor=pointer]:
+                - /url: https://www.absmaland.com/en
+              - text: offers fetchingly thick sweaters, clean-lined ceramics, and naturally dyed linens. The menswear at
+              - link "Trés Bien" [ref=e272] [cursor=pointer]:
+                - /url: https://tres-bien.com/en-gb/collections/new-items
+              - text: sports a clear 1990s streetwear vibe, while
+              - link "Birgitta Helmersson" [ref=e273] [cursor=pointer]:
+                - /url: https://www.birgittahelmersson.com/
+              - text: sells not only the comfy garments she crafts from sustainably sourced or recycled fabrics, but also the “zero waste” sewing patterns (cut to minimize the amount of fabric needed) that she designs them with.
+          - generic [ref=e275]:
+            - img "A clothing rack in a store with hangers holding pink, green and orange garments." [ref=e277]
+            - paragraph [ref=e280]: Aplace
+          - generic [ref=e281]:
+            - generic [ref=e282]: 4 p.m. Snack like a Swede
+            - paragraph [ref=e284]:
+              - text: For many Swedes, fika — taking a break for coffee, cake and a spot of socializing — is practically a mandatory daily ritual. But the exact cakes involved are open to creative interpretation. At
+              - link "Bageri Leve" [ref=e285] [cursor=pointer]:
+                - /url: https://bagerileve.se/
+              - text: ", a five-minute walk south from Davidshall, th"
+              - link "e" [ref=e286] [cursor=pointer]:
+                - /url: https://bagerileve.se/
+              - text: redolent cardamom buns, though vegan, taste as buttery as the traditional version (on Fridays, locals line up for their special doughnut). A bit farther on,
+              - link "Farina" [ref=e287] [cursor=pointer]:
+                - /url: https://www.farinamalmo.se/
+              - text: ", in the neighboring Mollevangen neighborhood, specializes in airy versions of the cream-filled Italian buns called maritozzi. Or stay in Davidshall and forgo the cake altogether in favor of"
+              - link "Kold’s" [ref=e288] [cursor=pointer]:
+                - /url: https://kold.co/
+              - text: ice cream in inventive flavors like Vietnamese coffee and the caramel Dulce de Awesome.
+          - generic [ref=e290]:
+            - img "A display of baked treats that are topped with frosting and other garnishes." [ref=e292]
+            - paragraph [ref=e295]: Bageri Leve
+          - generic [ref=e296]:
+            - generic [ref=e297]: 7 p.m. Dine where vegetables shine
+            - paragraph [ref=e299]:
+              - text: One of Malmo’s toughest reservations,
+              - link "Lyran" [ref=e300] [cursor=pointer]:
+                - /url: https://www.lyranmatbar.se/
+              - text: ", in the Mollevangen district, rewards the effort. At both its ground-floor counter and in the cozy dining room below, the tiny bistro offers four different — and ever-changing — tasting menus: mixed, pescatarian, vegetarian and vegan (all 650 sek per person). Across all of them, the kitchen works special magic with its vegetable courses, including a surprisingly refreshing bowl of cabbage broth with impossibly sweet fresh corn, and charred leeks that melt into a pool of earthy puree. The relaxed, friendly service is perfectly gauged."
+          - generic [ref=e301]:
+            - generic [ref=e302]: 10 p.m. Pull up a stool at a local’s bar
+            - paragraph [ref=e304]:
+              - text: From Lyran, walk across Jesus Park to
+              - link "Bar Kiosko" [ref=e305] [cursor=pointer]:
+                - /url: https://barkiosko.se/
+              - text: which, despite being only a couple of years old, feels like the long-standing neighborhood bar of your dreams. It boasts well-made Negronis and icy draft beers served from its curving wooden bar, a killer playlist, and a convivial atmosphere that makes you feel like you’re at a party with good friends. After, stroll over to
+              - link "Folkets Park" [ref=e306] [cursor=pointer]:
+                - /url: https://malmo.se/Folkets-Park.html?num=6
+              - text: ", which, founded in 1893, is Sweden’s oldest “people’s park.” A green space intended as a refuge for Malmo’s working families, it today combines whimsical playgrounds, wading pools and a petting zoo, with a Moorish-inspired pavilion for"
+              - link "cultural events" [ref=e307] [cursor=pointer]:
+                - /url: https://moriskapaviljongen.se/
+              - text: and other spaces clearly meant for adults.
+              - link "Far i Hatten" [ref=e308] [cursor=pointer]:
+                - /url: https://www.farihatten.se/
+              - text: "is one of them: a restaurant and bar with occasional live music acts and a wine cellar far better than it needs to be."
+          - generic [ref=e310]:
+            - img "The exterior of a bar at nighttime. Tables are set up outside, and people can be seen drinking inside through the large windows. A glowing sign reads \"Kiosko.\"" [ref=e312]
+            - paragraph [ref=e315]: Bar Kiosko
+        - generic [ref=e316]:
+          - img "An orange sky glows over a river in a park." [ref=e318]
+          - paragraph [ref=e321]: Slottsparken, a historic park near the castle.
+        - generic [ref=e322]: Advertisement
+        - generic [ref=e323]:
+          - heading "Sunday" [level=2] [ref=e324]
+          - generic [ref=e325]:
+            - generic [ref=e326]: 7:30 a.m. Breakfast between two squares
+            - paragraph [ref=e328]: Centrally wedged between Stortorget and Lilla Torg, Ruths is an all-day favorite, serving crisp salads and house-cured charcuterie for lunch and a Mediterranean-inflected menu in the evening. But breakfast is where it really excels. Fuel up for what lies ahead with crunchy housemade granola, a luscious shakshuka, or beautiful scones with plum jam. Breakfast around 200 sek per person.
+          - img "A cafe with a blue-tile counter and pastries on display." [ref=e332]
+          - generic [ref=e333]:
+            - generic [ref=e334]: 9 a.m. Steam, and then plunge into the cold sea
+            - paragraph [ref=e336]:
+              - text: From Ruths, jump on a shared bicycle using the
+              - link "Malmo By Bike app" [ref=e337] [cursor=pointer]:
+                - /url: https://www.malmobybike.se/
+              - text: and head west to the
+              - link "Hundrastplatsen" [ref=e338] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Ribersborgs+Hundrastplats/@55.6058676,12.9772464,15z/data=!4m2!3m1!1s0x0:0xf6cc93bc26d859b7?sa=X&ved=1t:2428&ictx=111
+              - text: (or dog beach) for an excellent view of frolicking puppies to go with that of the
+              - link "Turning Torso" [ref=e339] [cursor=pointer]:
+                - /url: https://visitskane.com/classic-attractions/turning-torso
+              - text: ", the twisted highrise designed by the Spanish starchitect Santiago Calatrava that has become a Malmo landmark. From there, it's a short ride to the long wooden pier that leads to the Wes Anderson-esque Ribersborg Kallbadhus. At this old-fashioned bathhouse, the local practice is to alternate between baking naked in the sauna and plunging — also naked (both sauna and bathing areas are segregated by sex) — into the chilly sea. All this invigoration for only 85 sek ($8), with towel and locker rental extra."
+  - generic [ref=e344]:
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e346]:
+      - button "Read 100 comments" [ref=e348] [cursor=pointer]
+      - list [ref=e350]:
+        - listitem [ref=e351]:
+          - button "Share full article" [ref=e354] [cursor=pointer]:
+            - generic [ref=e355]:
+              - img [ref=e356]
+              - text: Share full article
+        - listitem [ref=e358]:
+          - button "More sharing options ..." [ref=e361] [cursor=pointer]:
+            - img [ref=e362]
+        - listitem [ref=e364]:
+          - switch "Save article for reading later..." [ref=e365] [cursor=pointer]:
+            - img [ref=e366]
+        - listitem [ref=e370]:
+          - button "Read 100 comments" [ref=e371] [cursor=pointer]:
+            - generic [ref=e372]:
+              - img [ref=e373]
+              - text: "100"
+    - region "Related Content" [ref=e376]:
+      - heading "Related Content" [level=2] [ref=e377]
+      - generic [ref=e378]:
+        - list [ref=e383]:
+          - listitem [ref=e384]:
+            - figure [ref=e390]
+          - listitem [ref=e392]:
+            - figure [ref=e398]
+          - listitem [ref=e400]:
+            - figure [ref=e406]
+          - listitem [ref=e408]:
+            - figure [ref=e414]
+          - listitem [ref=e416]:
+            - figure [ref=e422]
+          - listitem [ref=e424]:
+            - figure [ref=e430]
+        - list [ref=e436]:
+          - listitem [ref=e437]:
+            - figure [ref=e443]
+          - listitem [ref=e445]:
+            - figure [ref=e451]
+          - listitem [ref=e453]:
+            - figure [ref=e459]
+      - list [ref=e466]:
+        - listitem [ref=e467]
+        - listitem [ref=e472]
+        - listitem [ref=e477]
+        - listitem [ref=e482]
+        - listitem [ref=e487]
+        - listitem [ref=e492]
+        - listitem [ref=e497]
+        - listitem [ref=e502]
+        - listitem [ref=e507]
+        - listitem [ref=e512]
+    - generic [ref=e517]:
+      - paragraph [ref=e519]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e520] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e522]:
+      - heading "Site Index" [level=2] [ref=e523]
+    - contentinfo [ref=e525]:
+      - navigation [ref=e526]:
+        - heading "Site Information Navigation" [level=2] [ref=e527]
+        - list [ref=e528]:
+          - listitem [ref=e529]:
+            - link "© 2026 The New York Times Company" [ref=e530] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e531]:
+          - listitem [ref=e532]:
+            - link "NYTCo" [ref=e533] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e534]:
+            - link "Contact Us" [ref=e535] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e536]:
+            - link "Accessibility" [ref=e537] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e538]:
+            - link "Work with us" [ref=e539] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e540]:
+            - link "Advertise" [ref=e541] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e542]:
+            - link "T Brand Studio" [ref=e543] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e544]:
+            - link "Privacy Policy" [ref=e545] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e546]:
+            - link "Cookie Policy" [ref=e547] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e548]:
+            - link "Terms of Service" [ref=e549] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e550]:
+            - link "Terms of Sale" [ref=e551] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e552]:
+            - link "Site Map" [ref=e553] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e554]:
+            - link "Help" [ref=e555] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e556]:
+            - link "Subscriptions" [ref=e557] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e558]:
+          - listitem [ref=e559]:
+            - button "Your Privacy Choices" [ref=e560] [cursor=pointer]:
+              - img [ref=e561]
+              - text: Your Privacy Choices

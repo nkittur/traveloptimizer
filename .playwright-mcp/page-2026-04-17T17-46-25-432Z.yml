@@ -1,0 +1,707 @@
+- generic [active] [ref=e1]:
+  - generic "Download the Eater app!":
+    - generic [ref=e4]:
+      - generic [ref=e5]: Download the Eater app!
+      - button "close download banner" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - generic [ref=e11]: close download banner
+      - form "Download the Eater app!" [ref=e13]:
+        - heading "Take Eater with you Restaurant recommendations you can trust" [level=2] [ref=e15]:
+          - generic [ref=e17]: Take Eater with you
+          - generic [ref=e19]: Restaurant recommendations you can trust
+        - generic [ref=e20]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkind&mt=8
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkindqr&mt=8
+  - generic [ref=e26]:
+    - link "Skip to main content" [ref=e27] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e28]: Skip to main content
+    - generic [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - link "Get our App" [ref=e39] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img [ref=e40]
+            - generic [ref=e42]:
+              - generic [ref=e43]: Get our
+              - generic [ref=e44]: App
+          - link "App":
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img
+            - generic: App
+        - link "The homepage Eater" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]: The homepage
+          - img "Eater" [ref=e48]
+        - generic [ref=e51]:
+          - button "Open Search" [ref=e52] [cursor=pointer]:
+            - img [ref=e53]
+          - button "Open Drawer" [ref=e55] [cursor=pointer]:
+            - img [ref=e56]
+      - navigation "City Navigation" [ref=e59]:
+        - 'button "Current eater city: Los Angeles" [ref=e60] [cursor=pointer]':
+          - generic [ref=e61]: "Current eater city:"
+          - text: Los Angeles
+          - img [ref=e63]
+    - main [ref=e66]:
+      - article [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e78]:
+            - generic [ref=e80]:
+              - heading "More maps in Eater LA" [level=3] [ref=e81]
+              - link "See more maps" [ref=e83] [cursor=pointer]:
+                - /url: /maps
+                - generic [ref=e84]:
+                  - generic [ref=e85]: See more maps
+                  - img [ref=e87]
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - img "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e95]
+                - link "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e102] [cursor=pointer]:
+                  - /url: /maps/best-pasadena-restaurants-california-los-angeles-south-pasadena-old-town
+              - generic [ref=e104]:
+                - img "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e106]
+                - link "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e113] [cursor=pointer]:
+                  - /url: /maps/best-restaurants-los-angeles-to-palm-springs-road-trip
+              - generic [ref=e115]:
+                - img "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e117]
+                - link "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e124] [cursor=pointer]:
+                  - /url: /maps/best-new-burgers-los-angeles-restaurants
+              - generic [ref=e126]:
+                - img "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e128]
+                - link "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e135] [cursor=pointer]:
+                  - /url: /maps/best-cocktail-lounge-bars-palm-springs
+              - generic [ref=e137]:
+                - img "The 38 Best Restaurants in Los Angeles" [ref=e139]
+                - link "The 38 Best Restaurants in Los Angeles" [ref=e146] [cursor=pointer]:
+                  - /url: /maps/best-los-angeles-restaurants-eater-38-essential
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e150]:
+                - generic [ref=e153]:
+                  - img "Students walk by the Middle Earth towers at the University of California-Irvine in Irvine." [ref=e156]
+                  - generic [ref=e157]: Students walk by the Middle Earth towers at the University of California-Irvine in Irvine. Allen J. Schaben / Los Angeles Times via Getty Images
+                - generic [ref=e159]:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link "Dining Out in LA" [ref=e164] [cursor=pointer]:
+                        - /url: /where-to-eat
+                  - generic [ref=e165]:
+                    - heading "Where to Eat Around the University of California at Irvine (UCI)" [level=1] [ref=e166]
+                    - paragraph [ref=e167]: The best things to eat in or around campus, from Korean sundubu to açai bowls
+                - img [ref=e168]
+                - generic [ref=e170]:
+                  - generic [ref=e172]:
+                    - generic [ref=e174]:
+                      - text: by
+                      - link "Cathy Park" [ref=e176] [cursor=pointer]:
+                        - /url: https://www.eater.com/authors/cathy-park
+                    - generic [ref=e177]:
+                      - text: Updated
+                      - time [ref=e178]: Aug 8, 2023, 6:03 AM PDT
+                  - list [ref=e181]:
+                    - listitem [ref=e182]:
+                      - button "Share on Facebook" [ref=e183] [cursor=pointer]:
+                        - img "Facebook" [ref=e184]
+                    - listitem [ref=e186]:
+                      - button "Copy link" [ref=e188] [cursor=pointer]:
+                        - img "Link" [ref=e189]
+              - paragraph [ref=e192]: Though Irvine may be known as a quiet, sleepy Orange County suburb, the area around UC Irvine has an unexpectedly burgeoning and dynamic food scene. The expansive plazas and strip malls near campus — like the University Town Center and Diamond Jamboree — offer local residents, students, faculty, and visitors an eclectic array of restaurants, ranging from old-timer sandwich delis and pizza shops to newcomers like açai bowl cafes, brunch spots, and even Korean street food.
+              - paragraph [ref=e194]: These are essential spots near the UCI campus that stand out among the bounty. Zot Zot Zot.
+              - link [ref=e197] [cursor=pointer]:
+                - /url: https://www.eater.com/e/23575732
+                - img [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - text: advertisement
+                  - generic [ref=e202]: AD
+                - generic [ref=e203]:
+                  - generic [ref=e205]:
+                    - heading "Siam Station Thai Street Food" [level=2] [ref=e206]
+                    - button "Copy link" [ref=e208] [cursor=pointer]:
+                      - img "Link" [ref=e209]
+                  - paragraph [ref=e211]: For some Thai street food fare just a short distance away from campus, Siam Station has got you covered. With large, filling portions of classic favorites like papaya salad, pad see ew, and panang curry, it’s a solid stop for a casual meal or a night of takeout. The khao soi — egg noodles served in a hearty coconut curry broth — is a crowd favorite. And don’t forget to finish the meal off with the mango sticky rice.
+                  - list [ref=e212]:
+                    - listitem [ref=e213]:
+                      - link "Location 92 Corporate Park H, Irvine, CA 92606, USAExternal Link" [ref=e214] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Siam%20Station%20Thai%20Street%20Food%2C%2092%20Corporate%20Park%20H%2C%20Irvine%2C%20CA%2092606%2C%20USA
+                        - img "Location" [ref=e215]
+                        - generic [ref=e217]:
+                          - text: 92 Corporate Park H, Irvine, CA 92606, USA
+                          - img "External Link" [ref=e218]
+                    - listitem [ref=e220]:
+                      - link "Phone (949) 923-0499" [ref=e221] [cursor=pointer]:
+                        - /url: tel:9499230499
+                        - img "Phone" [ref=e222]
+                        - text: (949) 923-0499
+                    - listitem [ref=e224]:
+                      - link "Link Visit website" [ref=e225] [cursor=pointer]:
+                        - /url: https://www.siamstationthaistreetfood.com/
+                        - img "Link" [ref=e226]
+                        - text: Visit website
+                  - generic [ref=e230]:
+                    - img "Khao soi from Siam Station." [ref=e233]
+                    - generic [ref=e234]: Siam Station
+              - generic [ref=e236]:
+                - generic [ref=e238]:
+                  - heading "BCD Tofu House" [level=2] [ref=e239]
+                  - button "Copy link" [ref=e241] [cursor=pointer]:
+                    - img "Link" [ref=e242]
+                - paragraph [ref=e244]: For late-night Korean food cravings, BCD is the place to be. Even with 11 locations across Southern California, the restaurant still relies on its original family recipes for its spicy, piping-hot bowls of silken tofu stew made with organic, non-GMO tofu. The combo options make for a hefty meal and are perfect for those who want to complement their soon tofu with grilled marinated meats like bulgogi or galbi.
+                - list [ref=e245]:
+                  - listitem [ref=e246]:
+                    - 'link "Location 2700 Alton Pkwy #135, Irvine, CA 92606, USAExternal Link" [ref=e247] [cursor=pointer]':
+                      - /url: https://www.google.com/maps/search/?api=1&query=BCD%20Tofu%20House%2C%202700%20Alton%20Pkwy%20%23135%2C%20Irvine%2C%20CA%2092606%2C%20USA
+                      - img "Location" [ref=e248]
+                      - generic [ref=e250]:
+                        - text: "2700 Alton Pkwy #135, Irvine, CA 92606, USA"
+                        - img "External Link" [ref=e251]
+                  - listitem [ref=e253]:
+                    - link "Phone (949) 553-6465" [ref=e254] [cursor=pointer]:
+                      - /url: tel:9495536465
+                      - img "Phone" [ref=e255]
+                      - text: (949) 553-6465
+                  - listitem [ref=e257]:
+                    - link "Link Visit website" [ref=e258] [cursor=pointer]:
+                      - /url: https://www.bcdtofuhouse.com/
+                      - img "Link" [ref=e259]
+                      - text: Visit website
+                - generic [ref=e263]:
+                  - img "Sundubu and galbi from BCD Tofu House with rice." [ref=e266]
+                  - generic [ref=e267]: BCD Tofu House
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - text: advertisement
+                  - generic [ref=e270]: AD
+                - generic [ref=e271]:
+                  - generic [ref=e273]:
+                    - heading "The Kickin' Crab" [level=2] [ref=e274]
+                    - button "Copy link" [ref=e276] [cursor=pointer]:
+                      - img "Link" [ref=e277]
+                  - paragraph [ref=e279]: Get those bibs ready at Kickin’ Crab, a lively Cajun seafood house located in the Diamond Jamboree plaza. The set combo deals are ideal for groups, as they offer a comprehensive seafood boil experience — complete with staples like shrimp, clams, crawfish, mussels, crabs, and lobster, along with sides of corn, potatoes, and sausages. The oysters and garlic noodles also make for great accompaniments to the flavorful, hands-on feast.
+                  - list [ref=e280]:
+                    - listitem [ref=e281]:
+                      - link "Location 2740 Alton Pkwy, Irvine, CA 92606, USAExternal Link" [ref=e282] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=The%20Kickin'%20Crab%2C%202740%20Alton%20Pkwy%2C%20Irvine%2C%20CA%2092606%2C%20USA
+                        - img "Location" [ref=e283]
+                        - generic [ref=e285]:
+                          - text: 2740 Alton Pkwy, Irvine, CA 92606, USA
+                          - img "External Link" [ref=e286]
+                    - listitem [ref=e288]:
+                      - link "Phone (949) 851-8889" [ref=e289] [cursor=pointer]:
+                        - /url: tel:9498518889
+                        - img "Phone" [ref=e290]
+                        - text: (949) 851-8889
+                    - listitem [ref=e292]:
+                      - link "Link Visit website" [ref=e293] [cursor=pointer]:
+                        - /url: https://thekickincrab.com/irvine-ca
+                        - img "Link" [ref=e294]
+                        - text: Visit website
+                  - generic [ref=e298]:
+                    - img "Cajun seafood from Kickin’ Crab in Irvine." [ref=e301]
+                    - generic [ref=e302]: Kickin’ Crab
+              - generic [ref=e304]:
+                - generic [ref=e306]:
+                  - heading "HiroNori Craft Ramen" [level=2] [ref=e307]
+                  - button "Copy link" [ref=e309] [cursor=pointer]:
+                    - img "Link" [ref=e310]
+                - paragraph [ref=e312]: HiroNori may have made its way across California, but this original location is where it all started six years ago. The restaurant’s specialty of tonkotsu ramen comes served with hand-crafted noodles and prepared with pork bone broth simmered for over 24 hours. Notably, this bowl of noodles does not skimp out on the toppings, which include bean sprouts, green onion, spinach, egg, seaweed, wood ear mushrooms, and chashu pork. The vegan ramen is also a hit for its umami sesame miso broth.
+                - list [ref=e313]:
+                  - listitem [ref=e314]:
+                    - 'link "Location 2222 Michelson Dr #234, Irvine, CA 92612, USAExternal Link" [ref=e315] [cursor=pointer]':
+                      - /url: https://www.google.com/maps/search/?api=1&query=HiroNori%20Craft%20Ramen%2C%202222%20Michelson%20Dr%20%23234%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e316]
+                      - generic [ref=e318]:
+                        - text: "2222 Michelson Dr #234, Irvine, CA 92612, USA"
+                        - img "External Link" [ref=e319]
+                  - listitem [ref=e321]:
+                    - link "Phone (949) 536-5800" [ref=e322] [cursor=pointer]:
+                      - /url: tel:9495365800
+                      - img "Phone" [ref=e323]
+                      - text: (949) 536-5800
+                  - listitem [ref=e325]:
+                    - link "Link Visit website" [ref=e326] [cursor=pointer]:
+                      - /url: https://hironori.com/
+                      - img "Link" [ref=e327]
+                      - text: Visit website
+                - generic [ref=e331]:
+                  - img "HiroNori Craft&nbsp;Ramen tonkotsu ramen bowl." [ref=e334]
+                  - generic [ref=e335]: HiroNori Craft Ramen
+                - generic [ref=e336]:
+                  - heading "See more" [level=3] [ref=e339]
+                  - generic [ref=e340]:
+                    - generic [ref=e342]:
+                      - img "Where to Eat Ramen in San Diego" [ref=e344]
+                      - link "Where to Eat Ramen in San Diego" [ref=e351] [cursor=pointer]:
+                        - /url: https://sandiego.eater.com/maps/best-japanese-ramen-noodle-restaurant-san-diego
+                    - generic [ref=e353]:
+                      - img "Where to Find Vegan Ramen in San Diego" [ref=e355]
+                      - link "Where to Find Vegan Ramen in San Diego" [ref=e362] [cursor=pointer]:
+                        - /url: https://sandiego.eater.com/maps/vegan-ramen-japanese-restaurant-san-diego
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - text: advertisement
+                  - generic [ref=e365]: AD
+                - generic [ref=e366]:
+                  - generic [ref=e368]:
+                    - heading "Duck Donuts" [level=2] [ref=e369]
+                    - button "Copy link" [ref=e371] [cursor=pointer]:
+                      - img "Link" [ref=e372]
+                  - paragraph [ref=e374]: Exercise your creative muscles at Duck Donuts, where there are practically endless options to donut flavors. You won’t find a display case here, as these cake donuts are made to order, which results in a warm, fluffy interior and a slightly crispy exterior. Though there are set boxes and assortments to choose from, the fun comes from customizing your own, with the desired coating, toppings, and drizzle. There are even vegan donut bases, which are just as decadent as the regular ones.
+                  - list [ref=e375]:
+                    - listitem [ref=e376]:
+                      - link "Location 2222 Michelson Dr, Irvine, CA 92612, USAExternal Link" [ref=e377] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Duck%20Donuts%2C%202222%20Michelson%20Dr%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                        - img "Location" [ref=e378]
+                        - generic [ref=e380]:
+                          - text: 2222 Michelson Dr, Irvine, CA 92612, USA
+                          - img "External Link" [ref=e381]
+                    - listitem [ref=e383]:
+                      - link "Phone (949) 734-6900" [ref=e384] [cursor=pointer]:
+                        - /url: tel:9497346900
+                        - img "Phone" [ref=e385]
+                        - text: (949) 734-6900
+                    - listitem [ref=e387]:
+                      - link "Link Visit website" [ref=e388] [cursor=pointer]:
+                        - /url: https://www.duckdonuts.com/irvine/
+                        - img "Link" [ref=e389]
+                        - text: Visit website
+                  - generic [ref=e393]:
+                    - img "A box of colorful decorated donuts." [ref=e396]
+                    - generic [ref=e397]: Duck Donuts
+              - generic [ref=e399]:
+                - generic [ref=e401]:
+                  - heading "Bistango in Irvine" [level=2] [ref=e402]
+                  - button "Copy link" [ref=e404] [cursor=pointer]:
+                    - img "Link" [ref=e405]
+                - paragraph [ref=e407]: Bistango is the spot to visit for elevated dining near campus. The restaurant, which opened in 1987, serves upscale French and American cuisine in an expansive space that consists of a bar lounge and a lush outdoor patio – made complete with classy decor. Among the menu’s many options, the seabass, steak, and pasta dishes are the most beloved entrees. Bistango also regularly has live music performers, which is the cherry on top to the experience here.
+                - list [ref=e408]:
+                  - listitem [ref=e409]:
+                    - link "Location 19100 Von Karman Ave, Irvine, CA 92612, USAExternal Link" [ref=e410] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Bistango%20in%20Irvine%2C%2019100%20Von%20Karman%20Ave%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e411]
+                      - generic [ref=e413]:
+                        - text: 19100 Von Karman Ave, Irvine, CA 92612, USA
+                        - img "External Link" [ref=e414]
+                  - listitem [ref=e416]:
+                    - link "Phone (949) 752-5222" [ref=e417] [cursor=pointer]:
+                      - /url: tel:9497525222
+                      - img "Phone" [ref=e418]
+                      - text: (949) 752-5222
+                  - listitem [ref=e420]:
+                    - link "Link Visit website" [ref=e421] [cursor=pointer]:
+                      - /url: https://www.bistango.com/
+                      - img "Link" [ref=e422]
+                      - text: Visit website
+                - generic [ref=e426]:
+                  - img "Dishes from Bistango." [ref=e429]
+                  - generic [ref=e430]: Bistango
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - text: advertisement
+                  - generic [ref=e433]: AD
+                - generic [ref=e434]:
+                  - generic [ref=e436]:
+                    - heading "Avocado Cafe" [level=2] [ref=e437]
+                    - button "Copy link" [ref=e439] [cursor=pointer]:
+                      - img "Link" [ref=e440]
+                  - paragraph [ref=e442]: Near John Wayne Airport and just a short drive off campus, Avocado Cafe is a quaint spot that will satisfy sandwich cravings and is a great option if looking for a quick, nutritious meal. Though all the sandwiches are filling and fresh, the standouts are the Tower 9, Kissell, and Chuy. Pair them with a smoothie or juice, or turn it into a combo meal to enjoy with a cup of soup or a side salad.
+                  - list [ref=e443]:
+                    - listitem [ref=e444]:
+                      - link "Location 6060 Scholarship, Irvine, CA 92612, USAExternal Link" [ref=e445] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Avocado%20Cafe%2C%206060%20Scholarship%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                        - img "Location" [ref=e446]
+                        - generic [ref=e448]:
+                          - text: 6060 Scholarship, Irvine, CA 92612, USA
+                          - img "External Link" [ref=e449]
+                    - listitem [ref=e451]:
+                      - link "Phone (949) 752-0523" [ref=e452] [cursor=pointer]:
+                        - /url: tel:9497520523
+                        - img "Phone" [ref=e453]
+                        - text: (949) 752-0523
+                    - listitem [ref=e455]:
+                      - link "Link Visit website" [ref=e456] [cursor=pointer]:
+                        - /url: http://www.avocadocafeirvine.com/
+                        - img "Link" [ref=e457]
+                        - text: Visit website
+                  - generic [ref=e461]:
+                    - img "A sandwich from Avocado Cafe." [ref=e464]
+                    - generic [ref=e465]: Cathy Park
+              - generic [ref=e467]:
+                - generic [ref=e469]:
+                  - heading "Ray's Pizza" [level=2] [ref=e470]
+                  - button "Copy link" [ref=e472] [cursor=pointer]:
+                    - img "Link" [ref=e473]
+                - paragraph [ref=e475]: For some quality pizza near campus, look no further than Ray’s. Since 1989, the pizza shop has been cranking out fresh, thin-crust New York-style pizza slices. The dough is crisp, chewy, and light, and is made from a milled blend of wheat flour that is fermented 48 to 72 hours before it’s baked. Though all of their pizzas are relatively simple, you can’t go wrong with the classic cheese, or the “Freshman,” which comes topped with pepperoni, sausage, and mushroom.
+                - list [ref=e476]:
+                  - listitem [ref=e477]:
+                    - link "Location 4199 Campus Dr Suite D, Irvine, CA 92612, USAExternal Link" [ref=e478] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Ray's%20Pizza%2C%204199%20Campus%20Dr%20Suite%20D%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e479]
+                      - generic [ref=e481]:
+                        - text: 4199 Campus Dr Suite D, Irvine, CA 92612, USA
+                        - img "External Link" [ref=e482]
+                  - listitem [ref=e484]:
+                    - link "Phone (949) 854-5044" [ref=e485] [cursor=pointer]:
+                      - /url: tel:9498545044
+                      - img "Phone" [ref=e486]
+                      - text: (949) 854-5044
+                  - listitem [ref=e488]:
+                    - link "Link Visit website" [ref=e489] [cursor=pointer]:
+                      - /url: https://www.rayspizzainc.com/
+                      - img "Link" [ref=e490]
+                      - text: Visit website
+                - generic [ref=e494]:
+                  - img "Folded slice from Ray’s Pizza." [ref=e497]
+                  - generic [ref=e498]: Ray’s Pizza
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - text: advertisement
+                  - generic [ref=e501]: AD
+                - generic [ref=e502]:
+                  - generic [ref=e504]:
+                    - heading "Cha For Tea" [level=2] [ref=e505]
+                    - button "Copy link" [ref=e507] [cursor=pointer]:
+                      - img "Link" [ref=e508]
+                  - paragraph [ref=e510]: Cha for Tea is one of the most beloved boba spots in Orange County and for good reason. With refreshing teas and drinks that are highly customizable with the toppings, fruit flavors, sweetness, cream and milk additions, and the amount of ice, both the fruity and milk-based beverage offerings run the gamut. The crispy chicken makes for a fantastic accompaniment, while diners also frequently order dumplings, beef stew, and curry chicken from the food menu.
+                  - list [ref=e511]:
+                    - listitem [ref=e512]:
+                      - link "Location 4187 Campus Dr Suite M173, Irvine, CA 92612, USAExternal Link" [ref=e513] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Cha%20For%20Tea%2C%204187%20Campus%20Dr%20Suite%20M173%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                        - img "Location" [ref=e514]
+                        - generic [ref=e516]:
+                          - text: 4187 Campus Dr Suite M173, Irvine, CA 92612, USA
+                          - img "External Link" [ref=e517]
+                    - listitem [ref=e519]:
+                      - link "Phone (949) 725-0300" [ref=e520] [cursor=pointer]:
+                        - /url: tel:9497250300
+                        - img "Phone" [ref=e521]
+                        - text: (949) 725-0300
+                    - listitem [ref=e523]:
+                      - link "Link Visit website" [ref=e524] [cursor=pointer]:
+                        - /url: https://www.chafortea.com/campusonlineorders
+                        - img "Link" [ref=e525]
+                        - text: Visit website
+                  - generic [ref=e529]:
+                    - img "Cha For Tea’s boba and popcorn chicken plate." [ref=e532]
+                    - generic [ref=e533]: Cha For Tea
+              - generic [ref=e535]:
+                - generic [ref=e537]:
+                  - heading "Breakfast Republic" [level=2] [ref=e538]
+                  - button "Copy link" [ref=e540] [cursor=pointer]:
+                    - img "Link" [ref=e541]
+                - paragraph [ref=e543]: Breakfast Republic has locations throughout Southern California, where they’re serving classic brunch dishes — like benedicts, omelets, pancakes, and french toast — with a twist. The Oreo cookie pancakes come with a decadent cream filling and Oreo crumble, while their shrimp and grits breakfast plate consists of gouda cheese-infused grits and shrimp cooked with hot sauce, sweet corn, chives, and eggs. The drinks are also crowd pleasers, as Breakfast Republic offers an array of local craft beer and kombucha on draft.
+                - list [ref=e544]:
+                  - listitem [ref=e545]:
+                    - link "Location 4213 Campus Dr Suite P166B, Irvine, CA 92612, USAExternal Link" [ref=e546] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Breakfast%20Republic%2C%204213%20Campus%20Dr%20Suite%20P166B%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e547]
+                      - generic [ref=e549]:
+                        - text: 4213 Campus Dr Suite P166B, Irvine, CA 92612, USA
+                        - img "External Link" [ref=e550]
+                  - listitem [ref=e552]:
+                    - link "Phone (949) 379-7177" [ref=e553] [cursor=pointer]:
+                      - /url: tel:9493797177
+                      - img "Phone" [ref=e554]
+                      - text: (949) 379-7177
+                  - listitem [ref=e556]:
+                    - link "Link Visit website" [ref=e557] [cursor=pointer]:
+                      - /url: https://breakfastrepublic.com/
+                      - img "Link" [ref=e558]
+                      - text: Visit website
+                - generic [ref=e562]:
+                  - img "Eggs benedict at Breakfast Republic." [ref=e565]
+                  - generic [ref=e566]: Breakfast Republic
+                - generic [ref=e567]:
+                  - heading "See more" [level=3] [ref=e570]
+                  - generic [ref=e571]:
+                    - generic [ref=e573]:
+                      - img "17 Standout Restaurants to Try in Carmel Valley" [ref=e575]
+                      - link "17 Standout Restaurants to Try in Carmel Valley" [ref=e582] [cursor=pointer]:
+                        - /url: https://sandiego.eater.com/maps/best-restaurants-bars-carmel-valley-san-diego
+                    - generic [ref=e584]:
+                      - img "10 Bonkers Bloody Marys in San Diego" [ref=e586]
+                      - link "10 Bonkers Bloody Marys in San Diego" [ref=e593] [cursor=pointer]:
+                        - /url: https://sandiego.eater.com/maps/best-bloody-mary-san-diego-restaurants-bars
+              - generic [ref=e594]:
+                - generic [ref=e595]:
+                  - text: advertisement
+                  - generic [ref=e596]: AD
+                - generic [ref=e597]:
+                  - generic [ref=e599]:
+                    - heading "Le Diplomate Bakery Cafe" [level=2] [ref=e600]
+                    - button "Copy link" [ref=e602] [cursor=pointer]:
+                      - img "Link" [ref=e603]
+                  - paragraph [ref=e605]: Since opening in 1994, Le Dip has made a name for itself among regulars at the University Town Center. Out of their many made-to-order, hot-pressed French and Vietnamese-inspired sandwiches, the garlic chicken and the chicken broccoli mushroom are consistent fan favorites. Go heavy on the infamous savory garlic sauce, which pairs well with their crispy 5- or 9-inch baguettes.
+                  - list [ref=e606]:
+                    - listitem [ref=e607]:
+                      - link "Location 4237 Campus Dr B 161, Irvine, CA 92612, USAExternal Link" [ref=e608] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Le%20Diplomate%20Bakery%20Cafe%2C%204237%20Campus%20Dr%20B%20161%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                        - img "Location" [ref=e609]
+                        - generic [ref=e611]:
+                          - text: 4237 Campus Dr B 161, Irvine, CA 92612, USA
+                          - img "External Link" [ref=e612]
+                    - listitem [ref=e614]:
+                      - link "Phone (949) 854-5161" [ref=e615] [cursor=pointer]:
+                        - /url: tel:9498545161
+                        - img "Phone" [ref=e616]
+                        - text: (949) 854-5161
+                  - generic [ref=e620]:
+                    - img "Pressed sandwich from Le Diplomate Bakery and Cafe." [ref=e623]
+                    - generic [ref=e624]: Le Diplomate
+              - generic [ref=e626]:
+                - generic [ref=e628]:
+                  - heading "Hen House Grill" [level=2] [ref=e629]
+                  - button "Copy link" [ref=e631] [cursor=pointer]:
+                    - img "Link" [ref=e632]
+                - paragraph [ref=e634]: Hen House Grill is one of the most long-standing restaurants in the Irvine area. Established in 1988, the spot serves classic Iranian dishes, in which the flavorful, juicy meat is the star. Diners rave about the ground beef skewers and rotisserie chicken, which are served with rice, vegetables, herbs and nuts. The massive portions and affordable prices are notable perks, while the complimentary tea and late-night hours are additional pluses.
+                - list [ref=e635]:
+                  - listitem [ref=e636]:
+                    - link "Location 4515 Campus Dr B, Irvine, CA 92612, USAExternal Link" [ref=e637] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Hen%20House%20Grill%2C%204515%20Campus%20Dr%20B%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e638]
+                      - generic [ref=e640]:
+                        - text: 4515 Campus Dr B, Irvine, CA 92612, USA
+                        - img "External Link" [ref=e641]
+                  - listitem [ref=e643]:
+                    - link "Phone (949) 786-2000" [ref=e644] [cursor=pointer]:
+                      - /url: tel:9497862000
+                      - img "Phone" [ref=e645]
+                      - text: (949) 786-2000
+                  - listitem [ref=e647]:
+                    - link "Link Visit website" [ref=e648] [cursor=pointer]:
+                      - /url: https://www.thehenhousegrill.com/
+                      - img "Link" [ref=e649]
+                      - text: Visit website
+                - generic [ref=e653]:
+                  - img "Hen House Grill’s kebab plate." [ref=e656]
+                  - generic [ref=e657]: Hen House Grill
+              - generic [ref=e658]:
+                - generic [ref=e659]:
+                  - text: advertisement
+                  - generic [ref=e660]: AD
+                - generic [ref=e661]:
+                  - generic [ref=e663]:
+                    - heading "Yup Dduk Irvine" [level=2] [ref=e664]
+                    - button "Copy link" [ref=e666] [cursor=pointer]:
+                      - img "Link" [ref=e667]
+                  - paragraph [ref=e669]: Hailing from Seoul, Korea as one of the most popular street food spots, Yup Dduk currently has outposts in both LA’s Koreatown and Irvine. The restaurant is known for its ultra-spicy rice cakes that are made with ttangcho chili peppers sourced from Korea. First-timers should opt for the “extra mild” spice level but don’t shy away from loading up on the toppings and sides. The large bowls are enough to feed up to three and come with an amalgam of rice cakes, fish cakes, sausages, cabbage, and green onion, and are topped with mozzarella for that iconic cheese pull.
+                  - list [ref=e670]:
+                    - listitem [ref=e671]:
+                      - link "Location 4515a Campus Dr, Irvine, CA 92612, USAExternal Link" [ref=e672] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Yup%20Dduk%20Irvine%2C%204515a%20Campus%20Dr%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                        - img "Location" [ref=e673]
+                        - generic [ref=e675]:
+                          - text: 4515a Campus Dr, Irvine, CA 92612, USA
+                          - img "External Link" [ref=e676]
+                    - listitem [ref=e678]:
+                      - link "Phone (949) 617-5620" [ref=e679] [cursor=pointer]:
+                        - /url: tel:9496175620
+                        - img "Phone" [ref=e680]
+                        - text: (949) 617-5620
+                    - listitem [ref=e682]:
+                      - link "Link Visit website" [ref=e683] [cursor=pointer]:
+                        - /url: http://www.yupddukirvine.com/
+                        - img "Link" [ref=e684]
+                        - text: Visit website
+                  - generic [ref=e688]:
+                    - img "Cheesy ddukbokki from Yup Dduk." [ref=e691]
+                    - generic [ref=e692]: Yup Dduk
+              - generic [ref=e694]:
+                - generic [ref=e696]:
+                  - heading "Blue Bowl Superfoods" [level=2] [ref=e697]
+                  - button "Copy link" [ref=e699] [cursor=pointer]:
+                    - img "Link" [ref=e700]
+                - paragraph [ref=e702]: Though acai bowls are common fare in Orange County, Blue Bowl is known for its highly customizable approach, with bases that transcend beyond the typical acai berry blend, like blue coconut, matcha, cold brew, or chia pudding. Each bowl is then topped with an assortment of granola, fruit, and toppings, and then drizzled with a nut butter of choice. The result is a visually stunning, rainbow-colored, layered bowl that doesn’t shy away from refreshing, fruity flavors and loads of superfoods.
+                - list [ref=e703]:
+                  - listitem [ref=e704]:
+                    - link "Location 4255 Campus Dr A104, Irvine, CA 92612, USAExternal Link" [ref=e705] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Blue%20Bowl%20Superfoods%2C%204255%20Campus%20Dr%20A104%2C%20Irvine%2C%20CA%2092612%2C%20USA
+                      - img "Location" [ref=e706]
+                      - generic [ref=e708]:
+                        - text: 4255 Campus Dr A104, Irvine, CA 92612, USA
+                        - img "External Link" [ref=e709]
+                  - listitem [ref=e711]:
+                    - link "Phone (657) 281-9089" [ref=e712] [cursor=pointer]:
+                      - /url: tel:6572819089
+                      - img "Phone" [ref=e713]
+                      - text: (657) 281-9089
+                  - listitem [ref=e715]:
+                    - link "Link Visit website" [ref=e716] [cursor=pointer]:
+                      - /url: http://mybluebowl.com/
+                      - img "Link" [ref=e717]
+                      - text: Visit website
+                - generic [ref=e721]:
+                  - img "Blue Bowl Superfoods acai bowl." [ref=e724]
+                  - generic [ref=e725]: Blue Bowl Superfoods
+      - generic [ref=e726]:
+        - generic [ref=e727]:
+          - text: advertisement
+          - generic [ref=e728]: AD
+        - generic [ref=e729]:
+          - generic [ref=e730]:
+            - generic [ref=e732]:
+              - heading "More in Dining Out in LA" [level=2] [ref=e736]:
+                - text: More in
+                - link "Dining Out in LA" [ref=e737] [cursor=pointer]:
+                  - /url: /where-to-eat
+              - generic [ref=e740]:
+                - generic [ref=e742]:
+                  - 'img "The Best Dishes Eater Editors Ate This Week: April 13" [ref=e744]'
+                  - 'link "The Best Dishes Eater Editors Ate This Week: April 13" [ref=e751] [cursor=pointer]':
+                    - /url: /where-to-eat/301599/the-best-dishes-eater-editors-ate-this-week-april-13
+                - generic [ref=e753]:
+                  - img "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e755]
+                  - link "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e762] [cursor=pointer]:
+                    - /url: /maps/best-restaurants-los-angeles-to-palm-springs-road-trip
+                - generic [ref=e764]:
+                  - 'img "4 Restaurants to Try This Weekend in Los Angeles: April 10" [ref=e766]'
+                  - 'link "4 Restaurants to Try This Weekend in Los Angeles: April 10" [ref=e773] [cursor=pointer]':
+                    - /url: /where-to-eat/301550/4-restaurants-to-try-this-weekend-in-los-angeles-april-10
+                - generic [ref=e775]:
+                  - img "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e777]
+                  - link "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e784] [cursor=pointer]:
+                    - /url: /maps/best-new-burgers-los-angeles-restaurants
+                - generic [ref=e786]:
+                  - img "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e788]
+                  - link "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e795] [cursor=pointer]:
+                    - /url: /maps/best-cocktail-lounge-bars-palm-springs
+                - generic [ref=e797]:
+                  - img "The 38 Best Restaurants in Los Angeles" [ref=e799]
+                  - link "The 38 Best Restaurants in Los Angeles" [ref=e806] [cursor=pointer]:
+                    - /url: /maps/best-los-angeles-restaurants-eater-38-essential
+            - link "Advertisement" [ref=e810] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e811]:
+                - generic [ref=e812]:
+                  - generic [ref=e813]: Advertiser Content From
+                  - img "Sponsor Logo" [ref=e815]
+                - paragraph [ref=e816]: This is the title for the native ad
+          - generic [ref=e818]:
+            - heading "The Latest" [level=2] [ref=e822]
+            - generic [ref=e823]:
+              - generic [ref=e827]:
+                - generic [ref=e829]:
+                  - time [ref=e831]: Apr 16
+                  - generic [ref=e833]: Eater
+                - link "On California’s Central Coast, Restaurant Artworks Are the Stars of the Dining Room" [ref=e836] [cursor=pointer]:
+                  - /url: https://www.eater.com/dining-out/955765/restaurants-bars-cool-art-famous-restaurant-artworks
+              - generic [ref=e840]:
+                - time [ref=e844]: Apr 16
+                - link "Sonoratown Proves Los Angeles Is a Burrito Town" [ref=e847] [cursor=pointer]:
+                  - /url: /dining-report/301734/sonoratown-los-angeles-review
+              - generic [ref=e851]:
+                - time [ref=e855]: Apr 16
+                - link "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e858] [cursor=pointer]:
+                  - /url: /maps/best-pasadena-restaurants-california-los-angeles-south-pasadena-old-town
+              - generic [ref=e862]:
+                - time [ref=e866]: Apr 15
+                - link "Erewhon Just Made LACMA Its Next Smoothie Destination" [ref=e869] [cursor=pointer]:
+                  - /url: /los-angeles-restaurant-news/301705/erewhon-lacma-cafe-opening-smoothies
+              - generic [ref=e873]:
+                - time [ref=e877]: Apr 15
+                - link "Badmaash in Venice Serves Los Angeles’s Best Steak Frites" [ref=e880] [cursor=pointer]:
+                  - /url: /dining-report/301692/badmaash-venice-review
+              - generic [ref=e884]:
+                - time [ref=e888]: Apr 14
+                - link "Of Course Coachella Has $375 Nobu ‘Omakase’ Now" [ref=e891] [cursor=pointer]:
+                  - /url: /highly-opinionated/301667/coachella-nobu-omakase-festival-food
+    - contentinfo [ref=e892]:
+      - generic [ref=e893]:
+        - text: advertisement
+        - generic [ref=e894]: AD
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - link "Eater" [ref=e898] [cursor=pointer]:
+            - /url: /
+            - img "Eater" [ref=e899]
+          - list [ref=e902]:
+            - listitem [ref=e903]:
+              - link "Facebook" [ref=e904] [cursor=pointer]:
+                - /url: https://www.facebook.com/eaterla
+                - img "Facebook" [ref=e905]
+            - listitem [ref=e907]:
+              - link "Twitter" [ref=e908] [cursor=pointer]:
+                - /url: https://twitter.com/eaterla
+                - img "Twitter" [ref=e909]
+            - listitem [ref=e911]:
+              - link "Instagram" [ref=e912] [cursor=pointer]:
+                - /url: https://www.instagram.com/eater_la
+                - img "Instagram" [ref=e913]
+            - listitem [ref=e915]:
+              - link "Youtube" [ref=e916] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/eater1
+                - img "Youtube" [ref=e917]
+            - listitem [ref=e919]:
+              - link "RSS" [ref=e920] [cursor=pointer]:
+                - /url: /rss/index.xml
+                - img "RSS" [ref=e921]
+            - listitem [ref=e923]:
+              - link [ref=e924] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+                - img [ref=e925]
+        - generic [ref=e927]:
+          - list [ref=e928]:
+            - listitem [ref=e929]:
+              - link "Terms of Use" [ref=e930] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/terms-of-use
+            - listitem [ref=e931]:
+              - link "Privacy Notice" [ref=e932] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/privacy-notice
+            - listitem [ref=e933]:
+              - link "Cookie Policy" [ref=e934] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/cookie-policy
+            - listitem [ref=e935]:
+              - button "Do Not Sell or Share My Personal Data" [ref=e936] [cursor=pointer]
+            - listitem [ref=e937]:
+              - link "Licensing FAQ" [ref=e938] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/pages/licensing
+            - listitem [ref=e939]:
+              - link "Accessibility" [ref=e940] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/accessibility
+            - listitem [ref=e941]:
+              - link "Platform Status" [ref=e942] [cursor=pointer]:
+                - /url: https://status.voxmedia.com
+          - list [ref=e943]:
+            - listitem [ref=e944]:
+              - link "Archives" [ref=e945] [cursor=pointer]:
+                - /url: /archives/full
+            - listitem [ref=e946]:
+              - link "Contact Us" [ref=e947] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e948]:
+              - link "Send Us a Tip" [ref=e949] [cursor=pointer]:
+                - /url: https://www.eater.com/2017/11/1/16572850/send-secure-tips-to-eater
+            - listitem [ref=e950]:
+              - link "Community Guidelines" [ref=e951] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/eater-community-guidelines
+            - listitem [ref=e952]:
+              - link "Masthead" [ref=e953] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/masthead
+            - listitem [ref=e954]:
+              - link "About Eater" [ref=e955] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/about
+            - listitem [ref=e956]:
+              - link "Ethics Statement" [ref=e957] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-ethics-statement
+            - listitem [ref=e958]:
+              - link "Press Room" [ref=e959] [cursor=pointer]:
+                - /url: https://www.eater.com/press-room
+            - listitem [ref=e960]:
+              - link "Newsletters" [ref=e961] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+            - listitem [ref=e962]:
+              - link "How to Pitch" [ref=e963] [cursor=pointer]:
+                - /url: https://www.eater.com/2016/12/15/13962822/eater-pitching-guidelines-how-to-pitch
+            - listitem [ref=e964]:
+              - link "Maps Methodology" [ref=e965] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-maps-methodology
+        - paragraph [ref=e966]:
+          - text: © 2026
+          - link "Vox Media" [ref=e967] [cursor=pointer]:
+            - /url: https://www.voxmedia.com
+          - text: ", LLC. All Rights Reserved"
+  - alert [ref=e968]

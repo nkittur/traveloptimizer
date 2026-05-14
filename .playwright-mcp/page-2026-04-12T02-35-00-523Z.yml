@@ -1,0 +1,21 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "Pittsburgh Restaurants" [level=1] [ref=e5]
+    - button "⚙ Filters" [ref=e6] [cursor=pointer]
+  - main [ref=e7]
+  - button "🗺 Map" [ref=e8] [cursor=pointer]:
+    - generic [ref=e9]: 🗺
+    - generic [ref=e10]: Map
+  - generic [ref=e12]:
+    - heading "Who are you?" [level=3] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - text: Your name
+        - textbox "Your name" [active] [ref=e17]:
+          - /placeholder: e.g. Niki, Carissa, Ashi
+      - button "Continue" [ref=e18] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - button "🖌 Paint"
+        - button "Reset"

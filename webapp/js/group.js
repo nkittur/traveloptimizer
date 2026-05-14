@@ -1,7 +1,7 @@
 // group.js — Group context: resolve current group from URL, manage my-groups list.
 // The group token is the credential. ?g=<token> in the URL = "I'm in this group".
 
-import * as db from './supabase.js?v=1775460000';
+import * as db from './supabase.js?v=1776965114';
 
 const MY_GROUPS_KEY = 'my-groups'; // localStorage: [{id,name,city,lastVisitedAt,myName}]
 

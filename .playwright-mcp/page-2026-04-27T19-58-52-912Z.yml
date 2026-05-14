@@ -1,0 +1,528 @@
+- generic [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2025%252F07%252F03%252Ftravel%252Fthings-to-do-east-end.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e38]:
+            - link "36 Hours" [ref=e41] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e43]: Long Island’s East End
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Jump to:"
+              - link "Recommendations" [ref=e48] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e50] [cursor=pointer]:
+                - /url: "#itinerary"
+              - generic [ref=e51]:
+                - link "Google Map" [ref=e52] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/NZuGLbVhhb9mN1FBA
+                - img [ref=e54]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]:
+                - generic [ref=e60]:
+                  - text: By Charity Robey
+                  - text: Photographs by Tony Cenicola
+              - paragraph [ref=e61]:
+                - text: Charity Robey is a feature writer for the
+                - emphasis [ref=e62]: Shelter Island Reporter
+                - text: ", and a resident of the East End since 1985."
+              - time [ref=e63]: July 3, 2025
+            - paragraph [ref=e64]: A hundred miles from New York, the East End of Long Island is where New Yorkers go to escape. If the island is shaped like a striped bass, the East End is the forked tail, with an island set between the forks, thousands of acres of farmland and nature preserves, and towns that look more like coastal New England than New York. The East End has long attracted a summer crowd. Archaeological evidence suggests that some Native people may have come to the North Fork seasonally to fish before Europeans arrived in the 17th century. Today about 160,000 people live year-round on the East End, and although the summertime population swells to an estimated 300,000, the East End still offers breathing room. Thanks to the Peconic Land Trust, and county and town preservation programs that blocked development on approximately 40 percent of the land, the East End is where you come to do the things your grandmother recognized as wholesome activities, like walking on the beach, sailing, paddling, ogling extravagant houses and taking in the Atlantic coastline.
+          - generic [ref=e65]: Advertisement
+          - heading "Recommendations" [level=2] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - button "Key stops –" [ref=e69] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e70]: –
+              - list [ref=e71]:
+                - listitem [ref=e72]:
+                  - text: To walk down Village Lane in
+                  - strong [ref=e73]:
+                    - link "Orient" [ref=e74] [cursor=pointer]:
+                      - /url: https://oysterpondshistoricalsociety.org/
+                  - strong [ref=e75]: ","
+                  - text: known as Oysterponds prior to 1836, is to experience the East End’s past.
+                - listitem [ref=e76]:
+                  - strong [ref=e77]:
+                    - link "Shelter Island Heights Historical District" [ref=e78] [cursor=pointer]:
+                      - /url: https://siheights.com/historic
+                  - text: was established as a summer resort in the 19th century, and still looks about the same. The quiet streets are lined with Victorian and Queen Anne-style summer cottages, and
+                  - strong [ref=e79]:
+                    - link "The Chequit" [ref=e80] [cursor=pointer]:
+                      - /url: https://www.thechequithotel.com
+                  - text: still stands above Rainbow Park with sweeping views of Dering Harbor.
+                - listitem [ref=e81]:
+                  - strong [ref=e82]:
+                    - link "Montauk Point Lighthouse" [ref=e83] [cursor=pointer]:
+                      - /url: https://montaukhistoricalsociety.org/montauk-point-lighthouse/plan-your-lighthouse-visit/
+                  - text: is on the rocky point at the end of Long Island’s South Fork, surrounded by parkland and ocean.
+            - generic [ref=e84]:
+              - button "Museums and outdoor attractions +" [ref=e85] [cursor=pointer]:
+                - text: Museums and outdoor attractions
+                - generic [ref=e86]: +
+              - list:
+                - listitem [ref=e87]:
+                  - text: The
+                  - strong [ref=e88]:
+                    - link "Oysterponds Historical Society" [ref=e89] [cursor=pointer]:
+                      - /url: https://oysterpondshistoricalsociety.org/hours-and-directions/
+                  - text: is three historic buildings on 8.5 acres on Village Lane in Orient with exhibits of documents, furniture and implements of daily life in a 19th century summer resort.
+                - listitem [ref=e90]:
+                  - strong [ref=e91]:
+                    - link "The Coecles Harbor Marine Water Trail" [ref=e92] [cursor=pointer]:
+                      - /url: https://static1.squarespace.com/static/5b6495b655b02c39c3fca968/t/5b64a5dbf950b7fbc7b34674/1533322716949/coeclesharbortrailmap.pdf
+                  - text: on Shelter Island follows the south shore of the harbor; a boat from
+                  - strong [ref=e93]:
+                    - link "Kayak Shelter Island" [ref=e94] [cursor=pointer]:
+                      - /url: https://www.kayaksi.com/kayak-tours
+                  - text: is the best way to experience a place known for sailing, birdlife and scalloping.
+                - listitem [ref=e95]:
+                  - strong [ref=e96]:
+                    - link "Sculpture @ Sylvester Manor" [ref=e97] [cursor=pointer]:
+                      - /url: https://www.sylvestermanor.org/sculpture/
+                  - text: is an outdoor sculpture exhibit of East End artists on the grounds of a 300-year-old plantation and historic site.
+                - listitem [ref=e98]:
+                  - strong [ref=e99]:
+                    - link "Bug Light Cruises & Tours" [ref=e100] [cursor=pointer]:
+                      - /url: https://www.eastendseaport.org/cruises
+                  - text: departs from Greenport every Saturday at 5 p.m. for a two-hour cruise to a lighthouse and back just before sundown.
+                - listitem [ref=e101]:
+                  - strong [ref=e102]:
+                    - link "Walking Dunes Trail" [ref=e103] [cursor=pointer]:
+                      - /url: https://montauklibrary.org/the-walking-dunes/
+                  - text: takes you across shifting sands through rare native trees and shrubs, with views of Napeague Harbor from the crest of the dunes.
+            - generic [ref=e104]:
+              - button "Restaurants and bars +" [ref=e105] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e106]: +
+              - list:
+                - listitem [ref=e107]:
+                  - strong [ref=e108]:
+                    - link "Little Creek Oyster Farm & Market" [ref=e109] [cursor=pointer]:
+                      - /url: https://littlecreekoysters.com/
+                  - text: offers a stellar selection of oysters on the half shell, from the East End’s best oyster farms, in a convivial bar and restaurant.
+                - listitem [ref=e110]:
+                  - strong [ref=e111]:
+                    - link "Greenport Harbor Brewing Company" [ref=e112] [cursor=pointer]:
+                      - /url: https://greenportharborbrewing.com/greenport
+                  - text: is one of the first and best of the East End craft breweries, with locations in Peconic and Greenport.
+                - listitem [ref=e113]:
+                  - strong [ref=e114]:
+                    - link "The Old Mill Inn" [ref=e115] [cursor=pointer]:
+                      - /url: http://www.oldmillnorthfork.com/
+                  - text: is the restoration of an historic Mattituck speakeasy with a menu of local foods and a casual vibe.
+                - listitem [ref=e116]:
+                  - strong [ref=e117]:
+                    - link "Nookies" [ref=e118] [cursor=pointer]:
+                      - /url: https://silversandsmotel.com/wp-content/uploads/2025/06/NOOKIES_MENU_6.12.25.pdf
+                  - text: offers a hearty breakfast at the Silver Sands Motel in Greenport with eggs, sausage and fluffy biscuits.
+                - listitem [ref=e119]:
+                  - strong [ref=e120]:
+                    - link "Stars" [ref=e121] [cursor=pointer]:
+                      - /url: https://www.starscafeshelterisland.com/
+                  - text: is a cafe in the heart of Shelter Island, created by Pepe Martinez, a Mexican coffee roaster and his wife Lydia, a Slovakian baker.
+                - listitem [ref=e122]:
+                  - strong [ref=e123]:
+                    - link "Port" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.portnorthfork.com/about
+                  - text: is a lively waterside bar for boat and people-watching on the Greenport boardwalk.
+                - listitem [ref=e125]:
+                  - strong [ref=e126]:
+                    - link "Noah’s" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.chefnoahs.com/
+                  - text: restaurant in Greenport is a lovely, fish-centric temple to the North Fork’s best seafood, produce and wine.
+                - listitem [ref=e128]:
+                  - strong [ref=e129]:
+                    - link "Estia’s Little Kitchen" [ref=e130] [cursor=pointer]:
+                      - /url: https://estias.com/
+                  - text: is a diner serving Mexican food just outside Sag Harbor for breakfast or lunch.
+                - listitem [ref=e131]:
+                  - strong [ref=e132]:
+                    - link "Clam Bar" [ref=e133] [cursor=pointer]:
+                      - /url: https://clambarhamptons.com/
+                  - text: has been Napeague’s roadside seafood joint for over 40 years, and the place for a lobster roll or clams on the halfshell.
+            - generic [ref=e134]:
+              - button "Shopping +" [ref=e135] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e136]: +
+              - list:
+                - listitem [ref=e137]:
+                  - strong [ref=e138]:
+                    - link "Wickhams Fruit Farm" [ref=e139] [cursor=pointer]:
+                      - /url: http://wickhamsfruitfarm.com/
+                  - text: in Cutchogue (peaches, cherries, plums, pears, tomatoes) and
+                  - strong [ref=e140]:
+                    - link "Latham Farms" [ref=e141] [cursor=pointer]:
+                      - /url: https://www.lathamfarms.org/
+                  - text: (berries, melons, greens, garlic, squash) in Orient are standouts. Both farmstands are on land that the families have farmed for more than a century.
+                - listitem [ref=e142]:
+                  - strong [ref=e143]:
+                    - link "Orient Linen Company" [ref=e144] [cursor=pointer]:
+                      - /url: https://www.orientlinenco.com/
+                  - text: offers rustic and practical housewares and baby gifts in the village of Orient.
+                - listitem [ref=e145]:
+                  - strong [ref=e146]:
+                    - link "Wm. J. Mills & Co" [ref=e147] [cursor=pointer]:
+                      - /url: https://millscanvas.com/
+                  - text: ., in Greenport since 1880, made sails for oyster and whale ships, and in recent decades has added tote, travel and boating bags.
+                - listitem [ref=e148]:
+                  - strong [ref=e149]:
+                    - link "Preston’s Chandlery" [ref=e150] [cursor=pointer]:
+                      - /url: https://www.prestons.com/
+                  - text: in Greenport is a historic marine supply store so close to the water it floods during storms.
+                - listitem [ref=e151]:
+                  - strong [ref=e152]:
+                    - link "Burton’s Bookstore" [ref=e153] [cursor=pointer]:
+                      - /url: https://www.burtonsbooks.com/
+                  - text: has a small but mighty selection of contemporary books for children and adults.
+            - generic [ref=e154]:
+              - button "Where to stay +" [ref=e155] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e156]: +
+              - list:
+                - listitem [ref=e157]:
+                  - strong [ref=e158]:
+                    - link "The Shoals" [ref=e159] [cursor=pointer]:
+                      - /url: https://www.theshoalsnorthfork.com/
+                  - text: is a contemporary renovation of a classic motor inn with 20 rooms (and 20 boat slips) on the Peconic Bay between Southold and Greenport. It’s adjacent to a marina, and the
+                  - link "Little Ram Island Oyster Company" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.littleramoysters.com/
+                  - text: is next door. Summer room rates range from $359 to $995 a night.
+                - listitem [ref=e161]:
+                  - strong [ref=e162]:
+                    - link "The Menhaden" [ref=e163] [cursor=pointer]:
+                      - /url: https://themenhaden.com/
+                  - text: is a boutique hotel with a private roofdeck bar in the heart of Greenport, an easy walk to restaurants, stores and the ferry to Shelter Island. It is a pet-friendly property with 16 rooms and summer season rates ranging from $449 to $999 a night.
+                - listitem [ref=e164]:
+                  - strong [ref=e165]:
+                    - link "Silver Sands Motel" [ref=e166] [cursor=pointer]:
+                      - /url: https://silversandsmotel.com/
+                  - text: is a restored 1950s motor hotel with 33 rooms and bungalows on 1,400 feet of sandy beach on Pipe’s Cove at the end of Silvermere Road in Greenport. It has two restaurants, a diner called
+                  - link "Nookies" [ref=e167] [cursor=pointer]:
+                    - /url: https://silversandsmotel.com/gallery-hotel-greenport-north-fork/nookies/
+                  - text: and
+                  - link "Eddie’s" [ref=e168] [cursor=pointer]:
+                    - /url: https://silversandsmotel.com/gallery-hotel-greenport-north-fork/eddies/
+                  - text: for outdoor dining on the beach. Rooms start at $470 and bungalows start at $745 a night.
+            - generic [ref=e169]:
+              - button "Getting around +" [ref=e170] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e171]: +
+              - list [ref=e172]:
+                - listitem [ref=e173]:
+                  - text: You need a car to see the East End in a weekend, but you can take the
+                  - link "Long Island Railroad" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.mta.info/schedules
+                  - text: or the
+                  - link "Hampton Jitney" [ref=e175] [cursor=pointer]:
+                    - /url: https://www.hamptonjitney.com/hjmobile/
+                  - text: to Riverhead and rent from
+                  - link "Enterprise" [ref=e176] [cursor=pointer]:
+                    - /url: https://www.enterprise.com/en/car-rental-locations/us/ny/riverhead-2404.html?mcid=yext:245709
+                  - text: .
+                  - link "Suffolk County Transit" [ref=e177] [cursor=pointer]:
+                    - /url: https://sctbus.org/Route-92
+                  - text: runs buses every hour on a route between the East Hampton Long Island Rail Road station and Orient Point. Uber availability is spotty on the North Fork, unavailable on Shelter Island, and good on the South Fork. Wait times are longer than you are used to, so it’s wise to reserve ahead.
+                - listitem [ref=e178]:
+                  - strong [ref=e179]:
+                    - link "North Ferry" [ref=e180] [cursor=pointer]:
+                      - /url: https://northferry.com/
+                  - text: A no-reservations car ferry between Greenport and the north side of Shelter Island runs daily from 5 a.m. to as late as 12:45 a.m. (check the schedule carefully if you are leaving after 11:30 p.m.) and takes 15 minutes to cross.
+                - listitem [ref=e181]:
+                  - strong [ref=e182]:
+                    - link "South Ferry" [ref=e183] [cursor=pointer]:
+                      - /url: https://www.southferry.com/
+                  - text: A no-reservations car ferry between the south side of Shelter Island and North Haven on the South Fork, runs daily from 5:20 a.m. to 1:45 a.m. and takes less than 15 minutes to cross.
+          - heading "Itinerary" [level=2] [ref=e184]
+          - generic [ref=e185]:
+            - heading "Friday" [level=2] [ref=e186]
+            - generic [ref=e187]:
+              - generic [ref=e188]: 3 p.m. Going “out east”
+              - paragraph [ref=e190]:
+                - text: The fun starts in Riverhead, the last exit on the Long Island Expressway, and a two-hour drive from New York City, if you are lucky with traffic. Riverhead is an up-and-coming town with an agricultural past and a downtown riverwalk along the Peconic River. Head east toward Orient and make a few stops along the scenic, 28-mile drive from Riverhead. Stop at
+                - strong [ref=e191]:
+                  - link "Wickham’s Fruit Farm" [ref=e192] [cursor=pointer]:
+                    - /url: http://wickhamsfruitfarm.com
+                - link [ref=e193] [cursor=pointer]:
+                  - /url: http://wickhamsfruitfarm.com
+                - text: in Cutchogue for Fourth of July cherries and
+                - strong [ref=e194]:
+                  - link "Latham Farm" [ref=e195] [cursor=pointer]:
+                    - /url: https://www.lathamfarms.org/
+                - strong [ref=e196]: s
+                - text: in Orient for just-picked berries. Both farms are run by families who have worked their land for more than a century. Take a walk through the charming village of
+                - strong [ref=e197]:
+                  - link "Orient" [ref=e198] [cursor=pointer]:
+                    - /url: https://oysterpondshistoricalsociety.org/
+                - text: ", with views of Orient Harbor, visit the exhibits and grounds of the"
+                - strong [ref=e199]:
+                  - link "Oysterponds Historical Society" [ref=e200] [cursor=pointer]:
+                    - /url: https://oysterpondshistoricalsociety.org/hours-and-directions/
+                - text: ($10 admission) and stop in at
+                - strong [ref=e201]:
+                  - link "Orient" [ref=e202] [cursor=pointer]:
+                    - /url: https://www.orientlinenco.com
+                - link [ref=e203] [cursor=pointer]:
+                  - /url: https://www.orientlinenco.com
+                - strong [ref=e204]:
+                  - link "Linen Company" [ref=e205] [cursor=pointer]:
+                    - /url: https://www.orientlinenco.com
+                - text: ", where the textile teacher and designer Janet Markarian offers a rustic assortment of tea towels, baby bibs, aprons and shower curtains that beg to be given as gifts."
+            - generic [ref=e207]:
+              - img "A small shop displaying baskets outside, with a large window, a red awning and an American flag. \"Old Orchard Farm Store\" is written above the awning." [ref=e209]
+              - paragraph [ref=e212]: The village of Orient
+            - generic [ref=e213]:
+              - generic [ref=e214]: 5 p.m. Greenport, home of the bivalves
+              - paragraph [ref=e216]:
+                - text: Drive 10 minutes west to Greenport, a harbor town that was once the center of the East End’s 19th century oyster fishery. Fortify yourself with a half dozen oysters ($21) and a glass of wine ($14) at
+                - strong [ref=e217]:
+                  - link "Little Creek Oyster Farm & Market" [ref=e218] [cursor=pointer]:
+                    - /url: https://littlecreekoysters.com/
+                - text: or climb the stairs to
+                - strong [ref=e219]:
+                  - link "Greenport Harbor Brewing Company" [ref=e220] [cursor=pointer]:
+                    - /url: https://greenportharborbrewing.com/greenport
+                - link [ref=e221] [cursor=pointer]:
+                  - /url: https://greenportharborbrewing.com/greenport
+                - text: and hoist a pint ($9) that was brewed nearby.
+            - generic [ref=e223]:
+              - img "A bright, sunlit bar with people ordering beer. A bartender is serving." [ref=e225]
+              - paragraph [ref=e228]: Greenport Harbor Brewing Company
+            - generic [ref=e229]:
+              - generic [ref=e230]: 7:30 p.m. Dine overlooking a “crick”
+              - paragraph [ref=e232]:
+                - text: From Greenport, it’s a 25-minute drive on the farm-lined North Road to
+                - strong [ref=e233]:
+                  - link "The Old Mill Inn" [ref=e234] [cursor=pointer]:
+                    - /url: http://www.oldmillnorthfork.com
+                - link [ref=e235] [cursor=pointer]:
+                  - /url: http://www.oldmillnorthfork.com
+                - text: (you will need a reservation) at the end of West Mill Road in Mattituck. Built alongside the creek and powered by tidal flow, the mill was converted to a speakeasy during Prohibition. By the turn of the 21st century, the water was getting perilously close to the mill before the structure was raised, restored and reopened in May. The food lives up to the incomparable setting. As you tuck into plump, cornmeal-battered fried oyster sliders on a sweet Hawaiian roll, with spicy housemade aioli and smoked cabbage slaw ($21), smoked beet dip with labneh and cured egg yolk served with pita ($16), and smashed artichoke with ricotta and herb salsa ($19), it may occur to you that a) someone in the kitchen knows how to fry an oyster, and b) it is fun to sit at a table that looks out on a creek. Or is it an inlet? On the East End, it’s called a creek, and North Fork old-timers would call it a “crick.”
+            - img "A plate of three sliders and a glass of white wine. A window is in the background and there is a glimpse of the water through it." [ref=e239]
+          - generic [ref=e240]:
+            - img "A scene on the water, with lovely houses and greenery in the background and a boat in the water." [ref=e242]
+            - paragraph [ref=e245]: A view of Shelter Island from the North Ferry.
+          - generic [ref=e246]: Advertisement
+          - generic [ref=e247]:
+            - heading "Saturday" [level=2] [ref=e248]
+            - generic [ref=e249]:
+              - generic [ref=e250]: 8 a.m. Shop in Greenport like it’s 1881
+              - paragraph [ref=e252]:
+                - text: Have a hearty, old-school breakfast at
+                - strong [ref=e253]:
+                  - link "Nookies" [ref=e254] [cursor=pointer]:
+                    - /url: https://silversandsmotel.com/gallery-hotel-greenport-north-fork/nookies/
+                - text: in the restored 1950s-era
+                - strong [ref=e255]:
+                  - link "Silver Sands Motel" [ref=e256] [cursor=pointer]:
+                    - /url: https://silversandsmotel.com
+                - strong [ref=e257]: ","
+                - text: on 45 acres at the end of Silvermere Road in Greenport. After a maple-perfumed, Bunyanesque slab of French toast ($15), enjoy a beach walk or walk back to the Main Road on Silvermere, and a few yards east to
+                - strong [ref=e258]:
+                  - link "Wm. J. Mills & Co." [ref=e259] [cursor=pointer]:
+                    - /url: https://millscanvas.com
+                - text: if you’re looking for canvas travel bags or a set of sails.
+                - strong [ref=e260]:
+                  - link "Preston’s Chandlery" [ref=e261] [cursor=pointer]:
+                    - /url: https://www.prestons.com
+                - text: on Greenport’s Main Street is the place for charts, navigation aids, waterproof boots and jackets. The East End’s marine supply store of choice since 1880, it could be a museum of boating. And for those who prefer books printed on paper,
+                - strong [ref=e262]:
+                  - link "Burton’s Bookstore" [ref=e263] [cursor=pointer]:
+                    - /url: https://www.burtonsbooks.com
+                - text: ", which opens at 11 a.m., will take you back to the days of creaky wooden floors and a staff of eager bookhounds behind the register."
+            - generic [ref=e265]:
+              - img "A plate with French toast with bacon and confectioner's sugar on top, and a small cup of maple syrup by the side. A cup of coffee, a glass of water, and salt and pepper shakers are by the plate." [ref=e267]
+              - paragraph [ref=e270]: Nookies
+            - generic [ref=e271]:
+              - generic [ref=e272]: 11:30 a.m. From a long island to a shorter one
+              - paragraph [ref=e274]:
+                - text: The
+                - strong [ref=e275]:
+                  - link "North Ferry" [ref=e276] [cursor=pointer]:
+                    - /url: https://northferry.com
+                - text: from Greenport to Shelter Island is a sea-sprayed, 15-minute cruise from one island to another. You should take your car, but once you land, park in the ferry lot and walk up the path through Prospect Park into the
+                - strong [ref=e277]:
+                  - link "Shelter Island Heights Historic District" [ref=e278] [cursor=pointer]:
+                    - /url: https://siheights.com/historic
+                - text: ", a Victorian-era idyll planned in 1872 as a Methodist retreat. The greensward downhill from"
+                - strong [ref=e279]:
+                  - link "The Chequit" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.thechequithotel.com
+                - link [ref=e281] [cursor=pointer]:
+                  - /url: https://www.thechequithotel.com
+                - text: (once the dining hall for the retreat, and now a hotel) is Rainbow Park, where an Adirondack chair is the spot for a view of Dering Harbor and the mansions of Harbor Lane. From the perennial border at the entrance to Rainbow Park, it’s a few steps to
+                - strong [ref=e282]:
+                  - link "Stars" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.starscafeshelterisland.com
+                - text: ", where you can assemble a portable lunch that could include a mahi wrap ($16) and macarons ($2.50) or scones ($5) baked by owner Lydia Martinez, who grew up in Slovakia with pastry in her blood. From Stars, walk seven minutes north on Grand Avenue back to your car at the North Ferry."
+            - 'img "A two-story wooden house painted brick red with white trim. On the first floor is a sign: Stars Cafe. Two women are on the street in front of it." [ref=e287]'
+            - generic [ref=e288]:
+              - generic [ref=e289]: 1 p.m. A path you can paddle
+              - paragraph [ref=e291]:
+                - text: From the North Ferry parking lot, it’s a seven-minute drive to the Town Landing at the end of Burns Road for
+                - strong [ref=e292]:
+                  - link "The Coecles Harbor Marine Water Trail" [ref=e293] [cursor=pointer]:
+                    - /url: https://static1.squarespace.com/static/5b6495b655b02c39c3fca968/t/5b64a5dbf950b7fbc7b34674/1533322716949/coeclesharbortrailmap.pdf
+                - text: . Call ahead to reserve a kayak, paddles and safety vest from
+                - strong [ref=e294]:
+                  - link "Kayak Shelter Island" [ref=e295] [cursor=pointer]:
+                    - /url: https://www.kayaksi.com/kayak-tours
+                - text: (rates are $35 for single kayaks for two hours, $55 for tandems). For those who like a guide, Adam Mills, the owner, or Chris Stone, a former ferry captain, will accompany a four-person-or-fewer group ($300 for boats and guide) to make sure you don’t miss that osprey flying overhead with a fish in its talons, or get rocked by the wake of a passing motorboat. The water trail runs along a mostly undeveloped shoreline, in and out of pristine creeks with great blue herons above and schools of fish below. Taylor’s Island is a town park with a landing for your kayak, picnic tables and a rustic cabin with a porch for enjoying 360-degree water views of Coecles Harbor.
+            - generic [ref=e297]:
+              - img "A rock shelf with seashells on top and shrubbery around it. In the background is water and a shore with greenery." [ref=e299]
+              - paragraph [ref=e302]: Taylor’s Island
+            - generic [ref=e303]:
+              - generic [ref=e304]: 3 p.m. “To live again in these wild woods…”
+              - paragraph [ref=e306]:
+                - text: Once you turn in your kayak, you are a 10-minute drive from the ancient, shady woods and gardens of
+                - strong [ref=e307]: Sylvester Manor
+                - text: ", a 17th-century provisioning plantation that produced food and lumber for the sugar trade using enslaved Africans and indentured laborers. It is now a center for historical research and an educational farm on 200 acres of fields, woods and trails. Here you can take a walk through"
+                - strong [ref=e308]:
+                  - link "Sculpture @ Sylvester Manor" [ref=e309] [cursor=pointer]:
+                    - /url: https://www.sylvestermanor.org/sculpture/
+                - strong [ref=e310]: .
+                - text: There is no admission fee for the self-guided exhibit “Paradise Lost,” which continues through the summer. Sculptures, installations and photography by 23 artists appear along a one-mile trail on the banks of Gardiner’s Creek. This is the second year for this surprising and whimsical exhibit, which was created by the curator Tom Cugliani and features a new group of East End artists whose works inhabit and reference the land.
+            - generic [ref=e312]:
+              - img "A large vaselike sculpture, painted a deep Chinese red with vines carved on. There is greenery all around it." [ref=e314]
+              - paragraph [ref=e317]: Broken Vessel, by Walter Channing
+            - generic [ref=e318]:
+              - generic [ref=e319]: 4 p.m. A lighthouse that looks like a bug
+              - paragraph [ref=e321]:
+                - text: It is a five-minute drive from Sylvester Manor to the North Ferry (allow 15 minutes in case of a line) for the ride back to Greenport, where you can park near the Greenport terminal. Reserve ahead and don’t be late for the
+                - strong [ref=e322]:
+                  - link "Bug Light Cruises and Tours" [ref=e323] [cursor=pointer]:
+                    - /url: https://www.eastendseaport.org/cruises
+                - text: ($75 for adults, $30 for children), leaving from the East End Seaport Museum at 5 p.m. sharp every Saturday. Long Beach Bar Lighthouse is called Bug Light because of its strong resemblance to an insect when viewed from afar. It’s a two-hour round trip aboard a fishing boat (porgies are often hauled aboard a few hours prior) with sunset views of the Shelter Island and Greenport shorelines and a close-up inspection of Orient’s still-working lighthouse. Built in 1870, the lighthouse was destroyed by fire in 1963, rebuilt and recommissioned in 1990. Proceeds from the boat tours support maintenance and improvements to Bug Light.
+            - img "A man and a woman seen from behind stand by the rail on a boat, talking. A lighthouse is in the background." [ref=e327]
+            - generic [ref=e328]:
+              - generic [ref=e329]: 7 p.m. Beverages on the boardwalk
+              - paragraph [ref=e331]:
+                - text: Now that you are back on terra firma, walk a few steps from where you disembarked to
+                - strong [ref=e332]:
+                  - link "Port" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.portnorthfork.com/about
+                - text: ", a restaurant with a waterside bar just off the Greenport boardwalk. Here you may enjoy the entertainments of docking ferries, sand-covered beachgoers, and the train and jitney riders coming and going while sipping glasses of sauvignon blanc ($18) or locally brewed summer ale ($9)."
+            - img "An outdoor bar with a gazebolike structure. People mill about by the bar. The sign reads \"Port Waterfront.\"" [ref=e337]
+            - generic [ref=e338]:
+              - generic [ref=e339]: 8 p.m. A dinner of land and sea
+              - paragraph [ref=e341]:
+                - text: Fifteen years ago, Chef Noah Schwartz and his partner and sommelier Sunita Schwartz opened
+                - strong [ref=e342]:
+                  - link "Noah’s" [ref=e343] [cursor=pointer]:
+                    - /url: https://www.chefnoahs.com/
+                - text: in Greenport, a restaurant that says “local” with every bite. With 17 small plates and nine not-so-small on offer (local strawberries on arugula with toasted almond slivers and crunchy, bitter cocoa nibs, drizzled in a syrupy balsamic reduction for $20; sweet roasted beets with mint and orange topped with labneh, $18; seafood stew with sea scallops, littleneck clams, mussels, squid and a silky, spicy sauce to slurp, $48), the menu reflects the chef’s enduring relationships with local farms and fishers and is a showcase for the North Fork’s finest foods. The wine list has an excellent selection of the Long Island wines that grow together and go together with the local farm bounty.
+            - img "Three tuna bites with avocado and rice on an elegant rectangular plate, cutlery and a napkin beside it." [ref=e347]
+          - generic [ref=e348]:
+            - img "A view from the walkway of a lighthouse; we see the ocean, a parking lot, greenery, a few structures by the lighthouse." [ref=e350]
+            - paragraph [ref=e353]: Montauk Point Lighthouse sits at the state’s easternmost point and boasts great ocean vistas.
+          - generic [ref=e354]: Advertisement
+          - generic [ref=e355]:
+            - heading "Sunday" [level=2] [ref=e356]
+            - generic [ref=e357]:
+              - generic [ref=e358]: 9 a.m. South of the border
+              - paragraph [ref=e360]:
+                - text: Today it’s Montauk or bust, using Shelter Island and the
+                - strong [ref=e361]:
+                  - link "North" [ref=e362] [cursor=pointer]:
+                    - /url: https://northferry.com/
+                - text: and
+                - strong [ref=e363]:
+                  - link "South Ferry" [ref=e364] [cursor=pointer]:
+                    - /url: https://www.southferry.com/
+                - text: as a 45-minute bridge to North Haven on the South Fork. Continue south, through the charming village of Sag Harbor, where before turning east, you should stop for huevos rancheros with sweet and lemony tomatillo salsa, refritos and eggs ($19.50) at
+                - strong [ref=e365]:
+                  - link "Estia’s Little Kitchen" [ref=e366] [cursor=pointer]:
+                    - /url: https://estias.com/
+                - text: ", just south of town. This 20-year-old Mexican lunch counter with a few indoor tables and a long row of picnic tables in its vegetable garden serves rich coffee and fluffy blueberry pancakes. An East End mainstay, Estia’s is still firing on all cylinders, and the house-made hot sauces will surely energize you."
+            - generic [ref=e368]:
+              - img "A ferry on the water, with cars and people aboard. The photo is taken from a dock, with a red life ring on a piling." [ref=e370]
+              - paragraph [ref=e373]: The North Ferry
+            - generic [ref=e374]:
+              - generic [ref=e375]: 10 a.m. Climb sand dunes
+              - paragraph [ref=e377]:
+                - text: As you approach East Hampton, prepare mentally for 27 East, a road as famous for its scenery as for its traffic. Fortunately, you have avoided the heart of the Hamptons so after nine miles of farmstands and ocean vistas, and a left on Napeague Harbor Road, the Walking Dunes trailhead is marked with a sign at the end of the road.
+                - strong [ref=e378]:
+                  - link "Walking Dunes Trail" [ref=e379] [cursor=pointer]:
+                    - /url: https://montauklibrary.org/the-walking-dunes/
+                - text: is named for the formation of sand dunes on the Napeague Bay that prevailing winds shift three or four inches a year to the southeast. An easy 2.7-mile loop takes you over the dunes, past a forest buried in sand, through a native cranberry bog and back along the beach. On a clear day, you can see much of the East End from the highest dune, across Napeague Bay and all the way out to the privately owned Gardiner’s Island, where the 17th-century pirate Captain William Kidd buried his valuables.
+            - img "Two people, seen from behind, walking on a narrow beach by an inlet; the water is on their left, short sand dunes with shrubs on their right." [ref=e383]
+            - generic [ref=e384]:
+              - generic [ref=e385]: 12 p.m. This is the end
+              - paragraph [ref=e387]:
+                - text: "Take 27 East for 11 more miles and you have reached The End:"
+                - strong [ref=e388]:
+                  - link "Montauk Point Lighthouse" [ref=e389] [cursor=pointer]:
+                    - /url: https://montaukhistoricalsociety.org/montauk-point-lighthouse/plan-your-lighthouse-visit/
+                - text: ", a site of many superlatives. The first U.S. president commissioned it, and in 1796, it became New York State’s first lighthouse. It sits at the state’s easternmost point, is as effective at warning ships away from the rocky shore as ever and boasts the best ocean vistas anywhere. The lighthouse is open daily from 10:30 a.m. to 4:30 p.m.; parking is $8, and admission is $15 for adults and $5 for children. The true East End experience is not complete without a stop at the"
+                - strong [ref=e390]:
+                  - link "Clam Bar" [ref=e391] [cursor=pointer]:
+                    - /url: https://clambarhamptons.com
+                - text: at Napeague for a roadside lobster roll ($42). Don’t miss taking a deep inhale of salty sea air before you start driving west to Riverhead.
+            - img "A lobster roll that looks delicious, with a side of coleslaw and a lemon wedge by it. A plastic cup of beer and a wooden crate with condiments are also on the table." [ref=e395]
+    - generic [ref=e400]:
+      - iframe [active] [ref=e405]:
+        - generic [ref=f10e6]:
+          - generic [ref=f10e8]:
+            - heading "Create a free account, or log in." [level=2] [ref=f10e9]
+            - heading "Gain access to limited free articles, news alerts, select newsletters, podcasts and some daily games." [level=2] [ref=f10e10]
+          - group [ref=f10e12]:
+            - generic [ref=f10e13]: Email address
+            - textbox "Email address" [active] [ref=f10e16]:
+              - /placeholder: ""
+          - textbox [ref=f10e17]
+          - button "Continue" [ref=f10e19] [cursor=pointer]
+          - generic [ref=f10e21]: or
+          - paragraph [ref=f10e23]:
+            - text: By continuing, you agree to the
+            - link "Terms of Sale" [ref=f10e24] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: ","
+            - link "Terms of Service" [ref=f10e25] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+            - text: ", and"
+            - link "Privacy Policy" [ref=f10e26] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/privacy-policy
+            - text: .
+          - generic [ref=f10e27]:
+            - button "Continue with Google" [ref=f10e29] [cursor=pointer]:
+              - generic:
+                - img
+              - generic: Continue with Google
+            - button "Continue with Apple" [ref=f10e31] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+              - generic: Continue with Apple
+            - link "Continue with work or school single sign-on >" [ref=f10e32] [cursor=pointer]:
+              - /url: ""
+      - generic [ref=e406]:
+        - paragraph [ref=e407]: Enjoy unlimited access to all of The Times.
+        - paragraph [ref=e408]:
+          - link [ref=e409] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+            - text: See subscription options

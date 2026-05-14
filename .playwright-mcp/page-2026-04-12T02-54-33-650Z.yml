@@ -1,0 +1,343 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsan%2Bdiego%2Bthings%2Bto%2Bdo%2Bsite%253Aatlasobscura.com%2BOR%2Bsite%253Athrillist.com%2BOR%2Bsite%253Asandiegomagazine.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&aep=1&ntc=1&sa=X&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ2J8OegQIDxAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sa=X&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQtKgLegQIFRAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Short videos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sa=X&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQs6gLegQIEhAB
+              - generic [ref=e93]: Short videos
+          - listitem [ref=e94]:
+            - link "Maps" [ref=e95] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=a823c5315a1e3660&output=search&q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e97]: Maps
+          - listitem [ref=e98]:
+            - link "News" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&sa=X&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ0pQJegQIFBAB
+              - generic [ref=e101]: News
+          - listitem [ref=e102]:
+            - link "Videos" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=a823c5315a1e3660&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3C6l-0rLIz1zi-YcoLSvFogoSX30ubff7lpv3GAgtJsVBr2Gga3GtWHBXZF6Rr3mVS-BN81AyHMqV77z8f-rPfjybIFVQ&q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sa=X&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQtKgLegQIExAB
+              - generic [ref=e105]: Videos
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - 'link "A Local''s Guide to Visiting San Diego: 20 Best Things to Do San Diego Magazine https://sandiegomagazine.com › things-to-do › a-locals-g..." [ref=e142] [cursor=pointer]':
+                - /url: https://sandiegomagazine.com/things-to-do/a-locals-guide-to-visiting-san-diego/
+                - 'heading "A Local''s Guide to Visiting San Diego: 20 Best Things to Do" [level=3] [ref=e143]'
+                - generic [ref=e148]:
+                  - generic [ref=e150]: San Diego Magazine
+                  - generic [ref=e152]: https://sandiegomagazine.com › things-to-do › a-locals-g...
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Jun 13, 2023 —
+              - generic [ref=e161]:
+                - text: Things to Do in San Diego ·
+                - emphasis [ref=e162]: Go for a Bike Ride
+                - text: · Visit a Museum · Go on a Hike · Explore a Farmer's Market · Relax at the Beach · Go for a Boat ...
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/a-locals-guide-to-visiting-san-diego/#:~:text=Things%20to%20Do%20in%20San,Diego&text=Go%20for%20a%20Bike%20Ride&text=Visit%20a%20Museum&text=Go%20on%20a%20Hike&text=Explore%20a%20Farmer's%20Market&text=Relax%20at%20the%20Beach&text=Go%20for%20a%20Boat%20Ride
+            - link "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e166] [cursor=pointer]:
+              - /url: https://sandiegomagazine.com/things-to-do/a-locals-guide-to-visiting-san-diego/
+              - img "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e168]
+        - generic [ref=e172]:
+          - generic [ref=e175]:
+            - 'link "17 Things to Do in San Diego This Weekend: April 8-12 San Diego Magazine https://sandiegomagazine.com › things-to-do › 17-things..." [ref=e177] [cursor=pointer]':
+              - /url: https://sandiegomagazine.com/things-to-do/17-things-to-do-in-san-diego-this-weekend-april-8-12/
+              - 'heading "17 Things to Do in San Diego This Weekend: April 8-12" [level=3] [ref=e178]'
+              - generic [ref=e183]:
+                - generic [ref=e185]: San Diego Magazine
+                - generic [ref=e187]: https://sandiegomagazine.com › things-to-do › 17-things...
+            - button "About this result" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: 4 days ago —
+            - generic [ref=e196]:
+              - emphasis [ref=e197]: Concerts & Festivals in San Diego This Weekend
+              - text: · Terence Blanchard & Ravi Coltrane at Balboa Theatre · FKA Twigs at The Sound · Boots in the Park.
+            - link "Read more" [ref=e198] [cursor=pointer]:
+              - /url: https://sandiegomagazine.com/things-to-do/17-things-to-do-in-san-diego-this-weekend-april-8-12/#:~:text=Concerts%20%26%20Festivals%20in%20San,Diego%20This%20Weekend&text=Terence%20Blanchard%20%26%20Ravi%20Coltrane,at%20Balboa%20Theatre&text=FKA%20Twigs%20at%20The%20Sound&text=Boots%20in%20the%20Park
+        - generic [ref=e202]:
+          - generic [ref=e205]:
+            - link "47 Cool and Unusual Things to Do in San Diego Atlas Obscura https://www.atlasobscura.com › ... › California" [ref=e207] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/san-diego-california
+              - heading "47 Cool and Unusual Things to Do in San Diego" [level=3] [ref=e208]
+              - generic [ref=e213]:
+                - generic [ref=e215]: Atlas Obscura
+                - generic [ref=e217]: https://www.atlasobscura.com › ... › California
+            - button "About this result" [ref=e218] [cursor=pointer]:
+              - img [ref=e221]
+          - generic [ref=e225]:
+            - text: Discover
+            - emphasis [ref=e226]: 47 hidden attractions, cool sights, and unusual things to do in San Diego
+            - text: from Sunny Jim Cave Store to Zoro Garden.
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - link "San Diego - Best Restaurants, Bars and Things to Do in SD Thrillist https://www.thrillist.com › san-diego" [ref=e235] [cursor=pointer]:
+              - /url: https://www.thrillist.com/san-diego
+              - heading "San Diego - Best Restaurants, Bars and Things to Do in SD" [level=3] [ref=e236]
+              - generic [ref=e241]:
+                - generic [ref=e243]: Thrillist
+                - generic [ref=e245]: https://www.thrillist.com › san-diego
+            - button "About this result" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - text: From live comedy to al-fresco films, beach parties, and more,
+              - emphasis [ref=e254]: here's your guide to the best nightlife activities
+              - text: .
+            - link "Read more" [ref=e255] [cursor=pointer]:
+              - /url: https://www.thrillist.com/san-diego#:~:text=From%20live%20comedy%20to%20al%2Dfresco,to%20the%20best%20nightlife%20activities.
+        - generic [ref=e259]:
+          - generic [ref=e262]:
+            - 'link "The Best Things to Do in San Diego: March 2026 San Diego Magazine https://sandiegomagazine.com › things-to-do › the-best-t..." [ref=e264] [cursor=pointer]':
+              - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-march-2026/
+              - 'heading "The Best Things to Do in San Diego: March 2026" [level=3] [ref=e265]'
+              - generic [ref=e270]:
+                - generic [ref=e272]: San Diego Magazine
+                - generic [ref=e274]: https://sandiegomagazine.com › things-to-do › the-best-t...
+            - button "About this result" [ref=e275] [cursor=pointer]:
+              - img [ref=e278]
+          - generic [ref=e281]:
+            - generic [ref=e282]: Feb 25, 2026 —
+            - generic [ref=e283]:
+              - emphasis [ref=e284]: Enjoy a stroll through the Carlsbad Flower Fields
+              - text: ", rock out at a Nine Inch Nails concert, watch the San Diego Opera's newest production, ..."
+            - link "Read more" [ref=e285] [cursor=pointer]:
+              - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-march-2026/#:~:text=Enjoy%20a%20stroll%20through%20the,newest%20production%2C%20Carmen%2C%20and%20more.
+        - generic [ref=e289]:
+          - generic [ref=e292]:
+            - link "Things to do in San Diego Atlas Obscura https://www.atlasobscura.com › centerpointchicago › lists" [ref=e294] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/users/centerpointchicago/lists/things-to-do-in-san-diego
+              - heading "Things to do in San Diego" [level=3] [ref=e295]
+              - generic [ref=e300]:
+                - generic [ref=e302]: Atlas Obscura
+                - generic [ref=e304]: https://www.atlasobscura.com › centerpointchicago › lists
+            - button "About this result" [ref=e305] [cursor=pointer]:
+              - img [ref=e308]
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - text: Things to do in San Diego ·
+              - emphasis [ref=e313]: Whaley House
+              - text: · Spruce Street Suspension Bridge · San Diego Museum of Us. An extraordinarily ornate museum in San Diego holds ...
+            - link "Read more" [ref=e314] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/users/centerpointchicago/lists/things-to-do-in-san-diego#:~:text=Things%20to%20do%20in%20San,Diego&text=Whaley%20House&text=Spruce%20Street%20Suspension%20Bridge&text=San%20Diego%20Museum%20of%20Us,Diego%20holds%20wondrous%20anthropological%20treasures.
+          - link "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from www.atlasobscura.com" [ref=e317] [cursor=pointer]:
+            - /url: https://www.atlasobscura.com/users/centerpointchicago/lists/things-to-do-in-san-diego
+            - img "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from www.atlasobscura.com" [ref=e319]
+        - generic [ref=e323]:
+          - generic [ref=e326]:
+            - link "The Locals' Guide to Visiting San Diego's Old Town San Diego Magazine https://sandiegomagazine.com › features › old-town-san-..." [ref=e328] [cursor=pointer]:
+              - /url: https://sandiegomagazine.com/features/old-town-san-diego-things-to-do-guide/
+              - heading "The Locals' Guide to Visiting San Diego's Old Town" [level=3] [ref=e329]
+              - generic [ref=e334]:
+                - generic [ref=e336]: San Diego Magazine
+                - generic [ref=e338]: https://sandiegomagazine.com › features › old-town-san-...
+            - button "About this result" [ref=e339] [cursor=pointer]:
+              - img [ref=e342]
+          - generic [ref=e345]:
+            - generic [ref=e346]: Jul 22, 2025 —
+            - generic [ref=e347]:
+              - emphasis [ref=e348]: What to
+              - text: eat, see, and do in Old Town, San Diego—known for historic sites like the Whaley House, Mexican restaurants, and artisan shops.
+          - link "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e351] [cursor=pointer]:
+            - /url: https://sandiegomagazine.com/features/old-town-san-diego-things-to-do-guide/
+            - img "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e353]
+        - generic [ref=e357]:
+          - generic [ref=e360]:
+            - 'link "The Best Things to Do in San Diego: February 2026 San Diego Magazine https://sandiegomagazine.com › things-to-do › the-best-t..." [ref=e362] [cursor=pointer]':
+              - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/
+              - 'heading "The Best Things to Do in San Diego: February 2026" [level=3] [ref=e363]'
+              - generic [ref=e368]:
+                - generic [ref=e370]: San Diego Magazine
+                - generic [ref=e372]: https://sandiegomagazine.com › things-to-do › the-best-t...
+            - button "About this result" [ref=e373] [cursor=pointer]:
+              - img [ref=e376]
+          - generic [ref=e379]:
+            - generic [ref=e380]: Jan 26, 2026 —
+            - generic [ref=e381]:
+              - text: February brings
+              - emphasis [ref=e382]: half-off museum admission
+              - text: ", a theatrical ode to Julia Child, a community festival in Encanto, a Lunar New Year celebration, ..."
+            - link "Read more" [ref=e383] [cursor=pointer]:
+              - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/#:~:text=February%20brings%20half%2Doff%20museum%20admission%2C,New%20Year%20celebration%2C%20and%20more.
+          - link "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e386] [cursor=pointer]:
+            - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/
+            - img "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from sandiegomagazine.com" [ref=e388]
+          - list [ref=e390]:
+            - listitem [ref=e391]:
+              - link "The Best Things To Do In San..." [ref=e392] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/#:~:text=The%20Best%20Things%20to%20Do%20in%20San%20Diego%3A%20February%202026,-February%20brings%20half%2Doff
+                - generic [ref=e395]: The Best Things To Do In San...
+            - listitem [ref=e396]:
+              - link "Theater & Art Exhibits In..." [ref=e397] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/#:~:text=Theater%20%26%20Art%20Exhibits%20in%20San%20Diego%20This%20Month
+                - generic [ref=e400]: Theater & Art Exhibits In...
+            - listitem [ref=e401]:
+              - link "More Fun Things To Do In San..." [ref=e402] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/the-best-things-to-do-in-san-diego-february-2026/#:~:text=More%20Fun%20Things%20to%20Do%20in%20San%20Diego%20This%20Month
+                - generic [ref=e405]: More Fun Things To Do In San...
+        - generic [ref=e409]:
+          - generic [ref=e412]:
+            - 'link "16 Things to Do in San Diego This Weekend: April 1-5 San Diego Magazine https://sandiegomagazine.com › things-to-do › 16-things..." [ref=e414] [cursor=pointer]':
+              - /url: https://sandiegomagazine.com/things-to-do/16-things-to-do-in-san-diego-april-1-5/
+              - 'heading "16 Things to Do in San Diego This Weekend: April 1-5" [level=3] [ref=e415]'
+              - generic [ref=e420]:
+                - generic [ref=e422]: San Diego Magazine
+                - generic [ref=e424]: https://sandiegomagazine.com › things-to-do › 16-things...
+            - button "About this result" [ref=e425] [cursor=pointer]:
+              - img [ref=e428]
+          - generic [ref=e431]:
+            - generic [ref=e432]: Apr 1, 2026 —
+            - generic [ref=e433]:
+              - text: The best things to do in San Diego including the
+              - emphasis [ref=e434]: Makers Arcade Spring Fair
+              - text: ", the new production of Fences, and North Park Festival of Beers."
+          - list [ref=e436]:
+            - listitem [ref=e437]:
+              - link "16 Things To Do In San Diego..." [ref=e438] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/16-things-to-do-in-san-diego-april-1-5/#:~:text=16%20Things%20to%20Do%20in%20San%20Diego%20This%20Weekend%3A%20April%201%2D5,-Shop%20the%20Makers%20Arcade%20Spring
+                - generic [ref=e441]: 16 Things To Do In San Diego...
+            - listitem [ref=e442]:
+              - link "Theater & Art Exhibits In..." [ref=e443] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/16-things-to-do-in-san-diego-april-1-5/#:~:text=Theater%20%26%20Art%20Exhibits%20in%20San%20Diego%20This%20Weekend
+                - generic [ref=e446]: Theater & Art Exhibits In...
+            - listitem [ref=e447]:
+              - link "More Fun Things To Do In San..." [ref=e448] [cursor=pointer]:
+                - /url: https://sandiegomagazine.com/things-to-do/16-things-to-do-in-san-diego-april-1-5/#:~:text=More%20Fun%20Things%20to%20Do%20in%20San%20Diego%20This%20Weekend
+                - generic [ref=e451]: More Fun Things To Do In San...
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - link "Things to Do in San Diego After Quarantine - Thrillist Thrillist https://www.thrillist.com › San Diego › Travel" [ref=e460] [cursor=pointer]:
+              - /url: https://www.thrillist.com/travel/san-diego/things-to-do-after-quarantine-in-san-diego
+              - heading "Things to Do in San Diego After Quarantine - Thrillist" [level=3] [ref=e461]
+              - generic [ref=e466]:
+                - generic [ref=e468]: Thrillist
+                - generic [ref=e470]: https://www.thrillist.com › San Diego › Travel
+            - button "About this result" [ref=e471] [cursor=pointer]:
+              - img [ref=e474]
+          - generic [ref=e477]:
+            - generic [ref=e478]: May 20, 2020 —
+            - generic [ref=e479]:
+              - text: 13 San Diego Things We Can't Wait to Do When Quarantine is Over ·
+              - emphasis [ref=e480]: Beers at Balboa Park, dumplings in Mira Mesa, and sunsets on the beach
+              - text: . · Play ...
+            - link "Read more" [ref=e481] [cursor=pointer]:
+              - /url: https://www.thrillist.com/travel/san-diego/things-to-do-after-quarantine-in-san-diego#:~:text=13%20San%20Diego%20Things%20We,Do%20When%20Quarantine%20is%20Over&text=Beers%20at%20Balboa%20Park%2C%20dumplings,and%20sunsets%20on%20the%20beach.&text=Play%20bocce%20ball%20and%20drink,beer%20in%20Balboa%20Park
+          - link "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from www.thrillist.com" [ref=e484] [cursor=pointer]:
+            - /url: https://www.thrillist.com/travel/san-diego/things-to-do-after-quarantine-in-san-diego
+            - img "san diego things to do site:atlasobscura.com OR site:thrillist.com OR site:sandiegomagazine.com from www.thrillist.com" [ref=e486]
+      - navigation [ref=e489]:
+        - heading "Page Navigation" [level=1] [ref=e490]
+        - text: "1"
+        - link "Page 2" [ref=e493] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=10&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAE
+          - text: "2"
+        - link "Page 3" [ref=e495] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=20&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAG
+          - text: "3"
+        - link "Page 4" [ref=e497] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=30&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAI
+          - text: "4"
+        - link "Page 5" [ref=e499] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=40&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAK
+          - text: "5"
+        - link "Page 6" [ref=e501] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=50&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAM
+          - text: "6"
+        - link "Page 7" [ref=e503] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=60&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAO
+          - text: "7"
+        - link "Page 8" [ref=e505] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=70&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAQ
+          - text: "8"
+        - link "Page 9" [ref=e507] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=80&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAS
+          - text: "9"
+        - link "Page 10" [ref=e509] [cursor=pointer]:
+          - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=90&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8tMDegQIChAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e511]:
+          - link "Next" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=san+diego+things+to+do+site:atlasobscura.com+OR+site:thrillist.com+OR+site:sandiegomagazine.com&sca_esv=a823c5315a1e3660&ei=aQnbafG6Adut5NoPlKKIsA0&start=10&sa=N&sstk=Af77f_f25au8J48iZMV7Fb2e-HqkcH8wckvauWb271cRA2ErAwDS-Bc2_Var40zMbUsP-rudnEk-FYbBSmx9p6t3_W3TSLX6VjFztQ&ved=2ahUKEwixk9vip-eTAxXbFlkFHRQRAtYQ8NMDegQIChAW
+            - generic [ref=e514]: Next
+      - navigation
+    - contentinfo [ref=e515]:
+      - heading "Footer Links" [level=1] [ref=e516]
+      - generic [ref=e520]:
+        - generic [ref=e524]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e526] [cursor=pointer]:
+            - generic [ref=e527]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e529]:
+              - text: "-"
+              - generic [ref=e530]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e532] [cursor=pointer]: Update location
+        - generic [ref=e535]:
+          - link "Help" [ref=e536] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e537] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e538] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e539] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

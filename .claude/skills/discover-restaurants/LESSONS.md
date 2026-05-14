@@ -230,6 +230,50 @@ Reference: `tools/_retrofit-sd-reddit-threads.mjs` shows the matching pattern (c
 
 ---
 
+## L19 · No top-pick valence + missed editorial standouts (no self-check after Pass 1)
+
+**What happened** — LA run produced 63 picks with Reddit evidence, but my first-pass `computeValence()` required explicit positive-adjective cues (`best|favorite|amazing|…`) to label anything as `top-pick`. Real Reddit recs are telegraphic: *"Pizzana"* (46▲), *"KazuNori handrolls for sushi"* (20▲), *"Attari Sandwich and Saffron and Rose Ice Cream"* (28▲). The upvote count IS the sentiment — but my regex-first heuristic fired `hiPos = 0` on bare-name recs, so the `top-pick` bar (≥2 hi-scored positives) never cleared. The user got a flat list of `mentioned` and `strong` labels with zero top-picks despite 14 comments at ≥15 upvotes. Separately, my PICKS list missed notable editorial standouts (Funke, Baroo, Destroyer, Antico Nuovo, Azizam, Moo's Craft BBQ, Damian, Café Glacé) that sat near the top of the LA Times 101 and Infatuation 25 Best because I never compared my curated PICKS against the scraped source lists.
+
+**Root cause** — Two problems, both caused by skipping a post-Pass-1 self-check:
+1. `computeValence()` treated upvotes and linguistic tone as independent dimensions. Upvotes ARE the dominant tone signal on Reddit — bare-name recs that climb to 40+ upvotes are the strongest possible endorsement in that medium, not neutral.
+2. PICKS were written from my memory + raw scraped prose reading, never diff-checked against "what did the scrapes return that I skipped?" A spot-check would have surfaced Funke, Baroo, etc. immediately.
+
+**Consequence** — Thin, misleading valence distribution (18 `top-pick` became 0) and an LA list missing the city's most famous pasta destination (Funke) among other standouts.
+
+**Skill mitigation** —
+1. **New mandatory step after Pass 1 upsert**: run `node tools/_diagnose-scrapes.mjs <city-slug>`. It prints source health (paywall sniff, name-only vs body-dropping detection), PICKS coverage (which scraped top-listers are NOT in PICKS), Reddit score distribution, and a list of high-score (≥10▲) comments with their assigned valence so you can eyeball whether the labels match the sentiment. The verdict block flags: thin/paywalled sources, no-top-pick-despite-many-hi-scores, and <30%-coverage sources.
+2. **Valence heuristic rewritten to be score-driven**: `top-pick` = ≥2 matched comments at score ≥10 with no strong negative, OR 1 hi-score plus corroboration. `strong` = 1 hi-score OR 2+ med-score. `mixed` when explicit negative and positive hi-score comments both appear. `skeptical` when negative hi-score dominates. Linguistic cues remain but only to detect explicit skepticism (overrating, "don't go," underwhelming) — upvotes handle the positive signal.
+3. **Skill flow gains a self-check gate**: the diagnostic output is surfaced to the user; any flagged issues (⚠ marks) get addressed before moving to Pass 2 composition. When coverage gaps suggest missed famous restaurants, add them to PICKS and re-run Pass 1 (the enrichment cache from Phase 3 makes this ~$0.70 for +14 rows instead of $5+). If a source is paywalled or JS-blocked, ask the user to open it in their logged-in browser rather than silently producing a half-scraped list.
+
+Reference: `tools/_diagnose-scrapes.mjs`, and the score-driven `computeValence()` in `tools/_normalize-los-angeles.mjs` (copy this heuristic into future per-city normalizers).
+
+---
+
+## L20 · Places Text Search silently returned the wrong venue (no match validation)
+
+**What happened** — LA's "Restaurant Ki" row in the DB had `displayName: "Nua"`, `formattedAddress: 403 N Crescent Dr, Beverly Hills`, the wrong lat/lng, the wrong reviews, the wrong photos, the wrong rating — all attached to a row labeled "Restaurant Ki." The actual Restaurant Ki (chef Sungchul Shim's Korean-French tasting) is at 111 San Pedro St in DTLA/Chinatown. User caught it because the card showed on the Westside map despite being DTLA, and the neighborhood said "Beverly Hills area." A subsequent audit caught a second case: "The Wilkes" was matched to "Marina Del Rey Marina" (a boat marina, not a restaurant).
+
+**Root cause** — Three failures compounded:
+1. I hand-wrote a wrong neighborhood into PICKS ("Beverly Hills area" for Ki; "Marina del Rey / Culver" for The Wilkes) as a guess.
+2. `enrich-group-combined.mjs` built the Text Search query as `${name} ${neighborhood} ${city}`. A wrong neighborhood is a strong biasing signal — Places returned its best match in the wrong area rather than saying "I couldn't find it." For Ki: `"Restaurant Ki Beverly Hills area Los Angeles"` → Nua (a BH restaurant on Crescent Dr). For Wilkes: `"The Wilkes Marina del Rey"` → the literal marina at Bali Way.
+3. No validator on the response. We committed the wrong place_id, raw response, lat/lng, reviews, photos — everything — with zero check that `place.displayName.text` matched our intended `data.name`.
+
+Clicking the webapp's Google Maps button went to the CORRECT downtown Ki because that link uses `name + null-address`, which Maps resolves as a fresh text query in its own index (which happens to rank the real Ki higher without a misleading hint). The card and the link disagreed — that's the clue that revealed the bug.
+
+This is the same class as L13 Irvine (Nina's Kitchen: Indian vs Salvadorian pupusas). The skill didn't learn from that. L20 is the generalization.
+
+**Consequence** — Any restaurant with an incorrect or ambiguous hand-written neighborhood was at risk of getting a completely wrong Google Places record attached. Audit found 1 confirmed wrong match (Ki) plus 1 name-collision false (Wilkes, resolved after query fix). All downstream — ratings, reviews, photos, map placement, outdoor-seating flag — was for the wrong restaurant.
+
+**Skill mitigation** —
+1. **Enrichment query no longer includes neighborhood**. `tools/enrich-group-combined.mjs` now uses `name + city` (ground truth from the group row) or `name + address` (if a scrape provided an address). The hand-written `neighborhood` field is now display-only metadata — never used as a search hint.
+2. **Match validation in `tools/_places.mjs#verifyNameMatch`**. After every Text Search, compare the returned `place.displayName.text` tokens to the intended name. Require ≥1 content-token overlap (falls back to the compacted initialism so "A.O.C." matches "AOC"). On mismatch: DO NOT commit the placeId or raw response to the row. Log a `NAME MISMATCH` warning with what Places returned and where so the operator can add a better alias or manually set `data.placeId`. This ensures the wrong record never silently makes it to the DB.
+3. **Post-enrichment audit in `tools/_diagnose-scrapes.mjs`**. The self-check now queries the DB for the current run's group and compares every `data.name` to `placeRaw.displayName.text`, flagging any mismatches with the wrong-restaurant's address. Run this before declaring a discovery run done.
+4. **`address` is now preserved across re-upserts**. `upsert-group-restaurants.mjs#ENRICHMENT_FIELDS` includes `address` so Pass 2 re-upserts don't null out the Google-Places-derived address (which is otherwise the only way to tell from DB inspection that the row matched a different venue).
+
+Reference: `tools/_places.mjs#verifyNameMatch` and `fetchPlace({ intendedName })`; `tools/_diagnose-scrapes.mjs`'s Place-match audit section.
+
+---
+
 ## Adding a new lesson
 
 When a new run catches a mistake not covered above:

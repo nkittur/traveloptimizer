@@ -1,0 +1,656 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]:
+              - generic: Skip to main content
+            - button "Accessibility feedback" [ref=e19]:
+              - generic: Accessibility feedback
+          - navigation [ref=e23]:
+            - link "Travel" [ref=e26]:
+              - img [ref=e29]
+              - generic: Travel
+            - link "Explore" [ref=e35]:
+              - img [ref=e38]
+              - generic: Explore
+            - link "Flights" [ref=e43]:
+              - img [ref=e46]
+              - generic: Flights
+            - link "Hotels" [ref=e51]:
+              - img [ref=e54]
+              - generic: Hotels
+            - link "Vacation rentals" [ref=e62]:
+              - img [ref=e65]
+              - generic: Vacation rentals
+        - generic [ref=e79]:
+          - button "Change appearance" [ref=e81]:
+            - img
+          - tooltip [ref=e84]: Change appearance
+      - generic [ref=e86]:
+        - button "Google apps" [ref=e90] [cursor=pointer]:
+          - img [ref=e91]
+        - 'button "Google Account: Niki Kittur (nkittur@gmail.com)" [ref=e96] [cursor=pointer]':
+          - img [ref=e98]
+          - img [ref=e104]
+  - generic [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Loading results
+      - progressbar [ref=e116]
+    - generic [ref=e123]:
+      - search [ref=e124]:
+        - heading "Flight search" [level=1] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - combobox "Change ticket type. Round trip" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img
+              - generic:
+                - generic: Round trip
+              - generic:
+                - img
+            - button "1 passenger, change number of passengers." [ref=e138]:
+              - generic [ref=e141]:
+                - img [ref=e142]
+                - generic [ref=e144]: "1"
+              - img [ref=e145]
+            - combobox "Change seating class. Economy" [ref=e151] [cursor=pointer]:
+              - generic:
+                - generic: Economy
+              - generic:
+                - img
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e160]:
+                - combobox "Where from? Pittsburgh PIT" [ref=e161]: Pittsburgh
+                - generic [ref=e163]: Pittsburgh PIT
+                - img [ref=e164]
+              - button "Swap origin and destination." [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+              - generic [ref=e176]:
+                - combobox "Where to? Venice VCE" [ref=e177]: Venice
+                - generic [ref=e179]: Venice VCE
+                - img [ref=e180]
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - img [ref=e195]
+                - textbox "Departure" [ref=e198]: Sat, Aug 8
+                - button [ref=e201]:
+                  - img [ref=e204]
+                - button [ref=e208]:
+                  - img [ref=e211]
+              - generic [ref=e215]:
+                - textbox "Return" [ref=e216]: Sat, Aug 15
+                - button [ref=e219]:
+                  - img [ref=e222]
+                - button [ref=e226]:
+                  - img [ref=e229]
+          - heading "Filters" [level=2] [ref=e232]
+          - generic [ref=e235]:
+            - button "All filters" [ref=e238]:
+              - img [ref=e241]
+              - generic [ref=e243]: All filters
+            - generic [ref=e246]:
+              - button "Stops, Not selected" [ref=e249]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Stops
+                  - img [ref=e255]
+              - button "Airlines, Not selected" [ref=e259]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Airlines
+                  - img [ref=e265]
+              - button "Bags, Not selected" [ref=e269]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Bags
+                  - img [ref=e275]
+              - button "Price, Not selected" [ref=e279]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Price
+                  - img [ref=e285]
+              - button "Times, Not selected" [ref=e289]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Times
+                  - img [ref=e295]
+              - button "Emissions, Not selected" [ref=e299]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Emissions
+                  - img [ref=e305]
+              - button "Connecting airports, Not selected" [ref=e309]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Connecting airports
+                  - img [ref=e315]
+              - button "Duration, Not selected" [ref=e319]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Duration
+                  - img [ref=e325]
+      - main [ref=e327]:
+        - heading "Search results" [level=2] [ref=e328]
+        - generic [ref=e330]:
+          - tablist [ref=e331]:
+            - tab "BestLearn more about ranking" [selected] [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e339]:
+                  - img [ref=e341]
+            - tab "Cheapest from Fetching results 1079 US dollars Learn more about ranking" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]:
+                - text: Cheapest
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - text: from
+                    - generic [ref=e348]:
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Fetching results
+                        - progressbar [ref=e351]:
+                          - img [ref=e353]
+                          - generic [ref=e357]:
+                            - img [ref=e359]
+                            - img [ref=e362]
+                            - img [ref=e365]
+                      - text: $1,079
+                  - button "Learn more about ranking" [ref=e370]:
+                    - img [ref=e372]
+          - tabpanel "BestLearn more about ranking" [ref=e374]:
+            - generic [ref=e375]:
+              - heading "Top departing flights" [level=3] [ref=e376]
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e382] [cursor=pointer]:
+                    - img [ref=e384]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e386]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e387] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e388]:
+                      - button "Passenger assistance" [ref=e389] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e394]:
+                  - generic [ref=e397]: Sorted by top flights
+                  - img [ref=e398]
+              - list [ref=e400]:
+                - listitem [ref=e401]:
+                  - generic [ref=e402]:
+                    - link "From 1169 US dollars round trip total. 1 stop flight with Air Canada. Operated by Air Canada Express - Jazz. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:10 AM on Sunday, August 9. Total duration 11 hr 35 min. Layover (1 of 1) is a 2 hr 21 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal. Select flight"
+                    - generic [ref=e404] [cursor=pointer]:
+                      - generic [ref=e406]:
+                        - generic [ref=e408]:
+                          - generic "Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:10 AM on Sunday, August 9." [ref=e410]:
+                            - 'generic "Departure time: 3:35 PM." [ref=e413]': 3:35 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:10 AM on Sunday, August 9." [ref=e416]':
+                              - 'generic "Arrival time: 9:10 AM on Sunday, August 9." [ref=e417]':
+                                - text: 9:10 AM
+                                - generic [ref=e418]: "+1"
+                          - generic [ref=e419]:
+                            - text: Air Canada
+                            - generic [ref=e420]: ·
+                            - text: United, Lufthansa
+                            - generic [ref=e421]: ·
+                            - text: Operated by Air Canada Express - Jazz
+                        - generic [ref=e422]:
+                          - generic "Total duration 11 hr 35 min." [ref=e423]: 11 hr 35 min
+                          - generic [ref=e424]:
+                            - generic [ref=e427]: PIT
+                            - text: –
+                            - generic [ref=e430]: VCE
+                        - generic [ref=e431]:
+                          - generic "1 stop flight." [ref=e433]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 21 min layover at Montréal-Pierre Elliott Trudeau International Airport in Montreal." [ref=e434]:
+                            - text: 2 hr 21 min
+                            - generic [ref=e436]: YUL
+                        - generic [ref=e438]:
+                          - generic [ref=e440]: 468 kg CO2e
+                          - generic [ref=e441]:
+                            - generic [ref=e442]: "-15% emissions"
+                            - 'button "Carbon emissions estimate: 468 kilograms. -15% emissions. Learn more about this emissions estimate" [ref=e443]':
+                              - img [ref=e444]
+                        - generic [ref=e446]:
+                          - generic [ref=e448]: $1,169
+                          - generic [ref=e449]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:35 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:10 AM on Sunday, August 9." [ref=e452]:
+                      - img [ref=e455]
+                - listitem [ref=e457]:
+                  - generic [ref=e458]:
+                    - link "From 1174 US dollars round trip total. 1 stop flight with American. Operated by PSA Airlines as American Eagle. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9. Total duration 10 hr 32 min. Layover (1 of 1) is a 1 hr 4 min layover at Philadelphia International Airport in Philadelphia. Select flight"
+                    - generic [ref=e460] [cursor=pointer]:
+                      - generic [ref=e462]:
+                        - generic [ref=e464]:
+                          - generic "Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9." [ref=e466]:
+                            - 'generic "Departure time: 5:23 PM." [ref=e469]': 5:23 PM
+                            - text: –
+                            - 'generic "Arrival time: 9:55 AM on Sunday, August 9." [ref=e472]':
+                              - 'generic "Arrival time: 9:55 AM on Sunday, August 9." [ref=e473]':
+                                - text: 9:55 AM
+                                - generic [ref=e474]: "+1"
+                          - generic [ref=e475]:
+                            - text: American
+                            - generic [ref=e476]: ·
+                            - text: British Airways
+                            - generic [ref=e477]: ·
+                            - text: Operated by PSA Airlines as American Eagle
+                        - generic [ref=e478]:
+                          - generic "Total duration 10 hr 32 min." [ref=e479]: 10 hr 32 min
+                          - generic [ref=e480]:
+                            - generic [ref=e483]: PIT
+                            - text: –
+                            - generic [ref=e486]: VCE
+                        - generic [ref=e487]:
+                          - generic "1 stop flight." [ref=e489]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 4 min layover at Philadelphia International Airport in Philadelphia." [ref=e490]:
+                            - text: 1 hr 4 min
+                            - generic [ref=e492]: PHL
+                        - generic [ref=e494]:
+                          - generic [ref=e496]: 537 kg CO2e
+                          - generic [ref=e497]:
+                            - generic [ref=e498]: Avg emissions
+                            - 'button "Carbon emissions estimate: 537 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e499]':
+                              - img [ref=e500]
+                        - generic [ref=e502]:
+                          - generic [ref=e504]: $1,174
+                          - generic [ref=e505]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:23 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9." [ref=e508]:
+                      - img [ref=e511]
+                - listitem [ref=e513]:
+                  - generic [ref=e514]:
+                    - link "From 1217 US dollars round trip total. 1 stop flight with British Airways. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 3:40 PM on Sunday, August 9. Total duration 11 hr 50 min. Layover (1 of 1) is a 2 hr 20 min layover at Heathrow Airport in London. Select flight"
+                    - generic [ref=e516] [cursor=pointer]:
+                      - generic [ref=e518]:
+                        - generic [ref=e520]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 3:40 PM on Sunday, August 9." [ref=e522]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e525]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 3:40 PM on Sunday, August 9." [ref=e528]':
+                              - 'generic "Arrival time: 3:40 PM on Sunday, August 9." [ref=e529]':
+                                - text: 3:40 PM
+                                - generic [ref=e530]: "+1"
+                          - generic [ref=e531]:
+                            - text: British Airways
+                            - generic [ref=e532]: ·
+                            - text: American, Finnair
+                        - generic [ref=e533]:
+                          - generic "Total duration 11 hr 50 min." [ref=e534]: 11 hr 50 min
+                          - generic [ref=e535]:
+                            - generic [ref=e538]: PIT
+                            - text: –
+                            - generic [ref=e541]: VCE
+                        - generic [ref=e542]:
+                          - generic "1 stop flight." [ref=e544]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 20 min layover at Heathrow Airport in London." [ref=e545]:
+                            - text: 2 hr 20 min
+                            - generic [ref=e547]: LHR
+                        - generic [ref=e549]:
+                          - generic [ref=e551]: 527 kg CO2e
+                          - generic [ref=e552]:
+                            - generic [ref=e553]: Avg emissions
+                            - 'button "Carbon emissions estimate: 527 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e554]':
+                              - img [ref=e555]
+                        - generic [ref=e557]:
+                          - generic [ref=e559]: $1,217
+                          - generic [ref=e560]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 3:40 PM on Sunday, August 9." [ref=e563]:
+                      - img [ref=e566]
+            - generic [ref=e572]:
+              - heading "Price insights" [level=3] [ref=e573]
+              - generic [ref=e574] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e579]
+                - generic [ref=e581]: View price history
+                - button "View price history" [ref=e583]:
+                  - img [ref=e586]
+            - region "Find the best price" [ref=e588]:
+              - generic [ref=e591]:
+                - img [ref=e592]
+                - heading "Track prices" [level=2] [ref=e594]
+                - button "Learn more about tracked prices" [ref=e598] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e599]:
+                    - img [ref=e600]
+                - generic [ref=e602]: Track prices from Pittsburgh to Venice departing 2026-08-08 and returning 2026-08-15
+                - generic [ref=e603]:
+                  - generic [ref=e605] [cursor=pointer]: Aug 8 – 15
+                  - switch "Track prices from Pittsburgh to Venice departing 2026-08-08 and returning 2026-08-15" [ref=e608] [cursor=pointer]:
+                    - generic [ref=e613]:
+                      - img [ref=e614]
+                      - img [ref=e616]
+                - generic [ref=e619]: Track prices from Pittsburgh to Venice - Any dates
+                - generic [ref=e621]:
+                  - generic [ref=e622] [cursor=pointer]: Any dates
+                  - switch "Track prices from Pittsburgh to Venice - Any dates" [ref=e625] [cursor=pointer]:
+                    - generic [ref=e630]:
+                      - img [ref=e631]
+                      - img [ref=e633]
+              - generic [ref=e638]:
+                - button "Date grid" [ref=e640]:
+                  - img [ref=e642]
+                  - generic [ref=e649]: Date grid
+                - button "Price graph" [ref=e651]:
+                  - img [ref=e653]
+                  - generic [ref=e663]: Price graph
+            - generic [ref=e664]:
+              - heading "Other departing flights" [level=3] [ref=e665]
+              - list [ref=e666]:
+                - listitem [ref=e667]:
+                  - generic [ref=e668]:
+                    - link "From 1079 US dollars round trip total. 1 stop flight with British Airways. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:45 PM on Sunday, August 9. Total duration 16 hr 55 min. Layover (1 of 1) is a 7 hr 20 min layover at Heathrow Airport in London. Select flight"
+                    - generic [ref=e670] [cursor=pointer]:
+                      - generic [ref=e672]:
+                        - generic [ref=e674]:
+                          - generic "Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:45 PM on Sunday, August 9." [ref=e676]:
+                            - 'generic "Departure time: 9:50 PM." [ref=e679]': 9:50 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:45 PM on Sunday, August 9." [ref=e682]':
+                              - 'generic "Arrival time: 8:45 PM on Sunday, August 9." [ref=e683]':
+                                - text: 8:45 PM
+                                - generic [ref=e684]: "+1"
+                          - generic [ref=e685]: British Airways
+                        - generic [ref=e686]:
+                          - generic "Total duration 16 hr 55 min." [ref=e687]: 16 hr 55 min
+                          - generic [ref=e688]:
+                            - generic [ref=e691]: PIT
+                            - text: –
+                            - generic [ref=e694]: VCE
+                        - generic [ref=e695]:
+                          - generic [ref=e696]:
+                            - generic "1 stop flight." [ref=e697]: 1 stop
+                            - img [ref=e702]
+                          - generic "Layover (1 of 1) is a 7 hr 20 min layover at Heathrow Airport in London." [ref=e705]:
+                            - text: 7 hr 20 min
+                            - generic [ref=e707]: LHR
+                        - generic [ref=e709]:
+                          - generic [ref=e711]: 496 kg CO2e
+                          - generic [ref=e712]:
+                            - generic [ref=e713]: "-10% emissions"
+                            - 'button "Carbon emissions estimate: 496 kilograms. -10% emissions. Learn more about this emissions estimate" [ref=e714]':
+                              - img [ref=e715]
+                        - generic [ref=e717]:
+                          - generic [ref=e719]: $1,079
+                          - generic [ref=e720]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 9:50 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:45 PM on Sunday, August 9." [ref=e723]:
+                      - img [ref=e726]
+                - listitem [ref=e728]:
+                  - generic [ref=e729]:
+                    - link "From 1096 US dollars round trip total. 2 stops flight with Delta and KLM. Operated by Endeavor Air DBA Delta Connection, KLM Cityhopper. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 1:25 PM on Sunday, August 9. Total duration 14 hr 21 min. Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam. Select flight"
+                    - generic [ref=e731] [cursor=pointer]:
+                      - generic [ref=e733]:
+                        - generic [ref=e735]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 1:25 PM on Sunday, August 9." [ref=e737]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e740]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 1:25 PM on Sunday, August 9." [ref=e743]':
+                              - 'generic "Arrival time: 1:25 PM on Sunday, August 9." [ref=e744]':
+                                - text: 1:25 PM
+                                - generic [ref=e745]: "+1"
+                          - generic [ref=e746]:
+                            - text: Delta, KLM
+                            - generic [ref=e747]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection, KLM Cityhopper
+                        - generic [ref=e748]:
+                          - generic "Total duration 14 hr 21 min." [ref=e749]: 14 hr 21 min
+                          - generic [ref=e750]:
+                            - generic [ref=e753]: PIT
+                            - text: –
+                            - generic [ref=e756]: VCE
+                        - generic [ref=e757]:
+                          - generic "2 stops flight." [ref=e759]: 2 stops
+                          - generic "Layover (1 of 2) is a 2 hr 20 min layover at John F. Kennedy International Airport in New York. Layover (2 of 2) is a 1 hr 5 min layover at Amsterdam Airport Schiphol in Amsterdam." [ref=e760]:
+                            - generic [ref=e762]: JFK
+                            - text: ","
+                            - generic [ref=e764]: AMS
+                        - generic [ref=e766]:
+                          - generic [ref=e768]: 496 kg CO2e
+                          - generic [ref=e769]:
+                            - generic [ref=e770]: "-10% emissions"
+                            - 'button "Carbon emissions estimate: 496 kilograms. -10% emissions. Learn more about this emissions estimate" [ref=e771]':
+                              - img [ref=e772]
+                        - generic [ref=e774]:
+                          - generic [ref=e776]: $1,096
+                          - generic [ref=e777]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 1:25 PM on Sunday, August 9." [ref=e780]:
+                      - img [ref=e783]
+                - listitem [ref=e785]:
+                  - generic [ref=e786]:
+                    - link "From 1136 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9. Total duration 19 hr 55 min. Layover (1 of 1) is a 10 hr 25 min layover at Philadelphia International Airport in Philadelphia. Select flight"
+                    - generic [ref=e788] [cursor=pointer]:
+                      - generic [ref=e790]:
+                        - generic [ref=e792]:
+                          - generic "Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9." [ref=e794]:
+                            - 'generic "Departure time: 8:00 AM." [ref=e797]': 8:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:55 AM on Sunday, August 9." [ref=e800]':
+                              - 'generic "Arrival time: 9:55 AM on Sunday, August 9." [ref=e801]':
+                                - text: 9:55 AM
+                                - generic [ref=e802]: "+1"
+                          - generic [ref=e803]: American
+                        - generic [ref=e804]:
+                          - generic "Total duration 19 hr 55 min." [ref=e805]: 19 hr 55 min
+                          - generic [ref=e806]:
+                            - generic [ref=e809]: PIT
+                            - text: –
+                            - generic [ref=e812]: VCE
+                        - generic [ref=e813]:
+                          - generic [ref=e814]:
+                            - generic "1 stop flight." [ref=e815]: 1 stop
+                            - img [ref=e820]
+                          - generic "Layover (1 of 1) is a 10 hr 25 min layover at Philadelphia International Airport in Philadelphia." [ref=e823]:
+                            - text: 10 hr 25 min
+                            - generic [ref=e825]: PHL
+                        - generic [ref=e827]:
+                          - generic [ref=e829]: 527 kg CO2e
+                          - generic [ref=e830]:
+                            - generic [ref=e831]: Avg emissions
+                            - 'button "Carbon emissions estimate: 527 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e832]':
+                              - img [ref=e833]
+                        - generic [ref=e835]:
+                          - generic [ref=e837]: $1,136
+                          - generic [ref=e838]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 8:00 AM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 9:55 AM on Sunday, August 9." [ref=e841]:
+                      - img [ref=e844]
+                - listitem [ref=e846]:
+                  - generic [ref=e847]:
+                    - link "From 1140 US dollars round trip total. 1 stop flight with American. Leaves Pittsburgh International Airport at 2:54 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 10:55 AM on Sunday, August 9. Total duration 14 hr 1 min. Layover (1 of 1) is a 57 min layover at Dallas Fort Worth International Airport in Dallas. Select flight"
+                    - generic [ref=e849] [cursor=pointer]:
+                      - generic [ref=e851]:
+                        - generic [ref=e853]:
+                          - generic "Leaves Pittsburgh International Airport at 2:54 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 10:55 AM on Sunday, August 9." [ref=e855]:
+                            - 'generic "Departure time: 2:54 PM." [ref=e858]': 2:54 PM
+                            - text: –
+                            - 'generic "Arrival time: 10:55 AM on Sunday, August 9." [ref=e861]':
+                              - 'generic "Arrival time: 10:55 AM on Sunday, August 9." [ref=e862]':
+                                - text: 10:55 AM
+                                - generic [ref=e863]: "+1"
+                          - generic [ref=e864]: American
+                        - generic [ref=e865]:
+                          - generic "Total duration 14 hr 1 min." [ref=e866]: 14 hr 1 min
+                          - generic [ref=e867]:
+                            - generic [ref=e870]: PIT
+                            - text: –
+                            - generic [ref=e873]: VCE
+                        - generic [ref=e874]:
+                          - generic "1 stop flight." [ref=e876]: 1 stop
+                          - generic "Layover (1 of 1) is a 57 min layover at Dallas Fort Worth International Airport in Dallas." [ref=e877]:
+                            - text: 57 min
+                            - generic [ref=e879]: DFW
+                        - generic [ref=e881]:
+                          - generic [ref=e883]: 724 kg CO2e
+                          - generic [ref=e884]:
+                            - generic [ref=e885]: +31% emissions
+                            - 'button "Carbon emissions estimate: 724 kilograms. +31% emissions. Learn more about this emissions estimate" [ref=e886]':
+                              - img [ref=e887]
+                        - generic [ref=e889]:
+                          - generic [ref=e891]: $1,140
+                          - generic [ref=e892]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 2:54 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 10:55 AM on Sunday, August 9." [ref=e895]:
+                      - img [ref=e898]
+                - listitem [ref=e900]:
+                  - generic [ref=e901]:
+                    - link "From 1350 US dollars round trip total. 1 stop flight with United. Operated by Mesa Airlines DBA United Express. Leaves Pittsburgh International Airport at 3:06 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 7:55 AM on Sunday, August 9. Total duration 10 hr 49 min. Layover (1 of 1) is a 48 min layover at Dulles International Airport in Washington. Select flight"
+                    - generic [ref=e903] [cursor=pointer]:
+                      - generic [ref=e905]:
+                        - generic [ref=e907]:
+                          - generic "Leaves Pittsburgh International Airport at 3:06 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 7:55 AM on Sunday, August 9." [ref=e909]:
+                            - 'generic "Departure time: 3:06 PM." [ref=e912]': 3:06 PM
+                            - text: –
+                            - 'generic "Arrival time: 7:55 AM on Sunday, August 9." [ref=e915]':
+                              - 'generic "Arrival time: 7:55 AM on Sunday, August 9." [ref=e916]':
+                                - text: 7:55 AM
+                                - generic [ref=e917]: "+1"
+                          - generic [ref=e918]:
+                            - text: United
+                            - generic [ref=e919]: ·
+                            - text: Lufthansa
+                            - generic [ref=e920]: ·
+                            - text: Operated by Mesa Airlines DBA United Express
+                        - generic [ref=e921]:
+                          - generic "Total duration 10 hr 49 min." [ref=e922]: 10 hr 49 min
+                          - generic [ref=e923]:
+                            - generic [ref=e926]: PIT
+                            - text: –
+                            - generic [ref=e929]: VCE
+                        - generic [ref=e930]:
+                          - generic "1 stop flight." [ref=e932]: 1 stop
+                          - generic "Layover (1 of 1) is a 48 min layover at Dulles International Airport in Washington." [ref=e933]:
+                            - text: 48 min
+                            - generic [ref=e935]: IAD
+                        - generic [ref=e937]:
+                          - generic [ref=e939]: 573 kg CO2e
+                          - generic [ref=e940]:
+                            - generic [ref=e941]: Avg emissions
+                            - 'button "Carbon emissions estimate: 573 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e942]':
+                              - img [ref=e943]
+                        - generic [ref=e945]:
+                          - generic [ref=e947]: $1,350
+                          - generic [ref=e948]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 3:06 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 7:55 AM on Sunday, August 9." [ref=e951]:
+                      - img [ref=e954]
+                - listitem [ref=e956]:
+                  - generic [ref=e957]:
+                    - link "From 1352 US dollars round trip total. 1 stop flight with Delta. Operated by Endeavor Air DBA Delta Connection. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 11:20 AM on Sunday, August 9. Total duration 12 hr 16 min. Layover (1 of 1) is a 2 hr layover at John F. Kennedy International Airport in New York. Select flight"
+                    - generic [ref=e959] [cursor=pointer]:
+                      - generic [ref=e961]:
+                        - generic [ref=e963]:
+                          - generic "Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 11:20 AM on Sunday, August 9." [ref=e965]:
+                            - 'generic "Departure time: 5:04 PM." [ref=e968]': 5:04 PM
+                            - text: –
+                            - 'generic "Arrival time: 11:20 AM on Sunday, August 9." [ref=e971]':
+                              - 'generic "Arrival time: 11:20 AM on Sunday, August 9." [ref=e972]':
+                                - text: 11:20 AM
+                                - generic [ref=e973]: "+1"
+                          - generic [ref=e974]:
+                            - text: Delta
+                            - generic [ref=e975]: ·
+                            - text: Air France, KLM
+                            - generic [ref=e976]: ·
+                            - text: Operated by Endeavor Air DBA Delta Connection
+                        - generic [ref=e977]:
+                          - generic "Total duration 12 hr 16 min." [ref=e978]: 12 hr 16 min
+                          - generic [ref=e979]:
+                            - generic [ref=e982]: PIT
+                            - text: –
+                            - generic [ref=e985]: VCE
+                        - generic [ref=e986]:
+                          - generic "1 stop flight." [ref=e988]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr layover at John F. Kennedy International Airport in New York." [ref=e989]:
+                            - text: 2 hr
+                            - generic [ref=e991]: JFK
+                        - generic [ref=e993]:
+                          - generic [ref=e995]: 429 kg CO2e
+                          - generic [ref=e996]:
+                            - generic [ref=e997]: "-22% emissions"
+                            - 'button "Carbon emissions estimate: 429 kilograms. -22% emissions. Learn more about this emissions estimate" [ref=e998]':
+                              - img [ref=e999]
+                        - generic [ref=e1001]:
+                          - generic [ref=e1003]: $1,352
+                          - generic [ref=e1004]: round trip
+                      - text: · ·· ··
+                    - button "Flight details. Leaves Pittsburgh International Airport at 5:04 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 11:20 AM on Sunday, August 9." [ref=e1007]:
+                      - img [ref=e1010]
+                - listitem [ref=e1012]:
+                  - generic [ref=e1013]:
+                    - link "From 1402 US dollars round trip total. 1 stop flight with Delta. Leaves Pittsburgh International Airport at 1:57 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:55 AM on Sunday, August 9. Total duration 12 hr 58 min. Layover (1 of 1) is a 1 hr 55 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta. Select flight"
+                    - generic [ref=e1015] [cursor=pointer]:
+                      - generic [ref=e1017]:
+                        - generic [ref=e1019]:
+                          - generic "Leaves Pittsburgh International Airport at 1:57 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:55 AM on Sunday, August 9." [ref=e1021]:
+                            - 'generic "Departure time: 1:57 PM." [ref=e1024]': 1:57 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:55 AM on Sunday, August 9." [ref=e1027]':
+                              - 'generic "Arrival time: 8:55 AM on Sunday, August 9." [ref=e1028]':
+                                - text: 8:55 AM
+                                - generic [ref=e1029]: "+1"
+                          - generic [ref=e1030]:
+                            - text: Delta
+                            - generic [ref=e1031]: ·
+                            - text: Air France, KLM
+                        - generic [ref=e1032]:
+                          - generic "Total duration 12 hr 58 min." [ref=e1033]: 12 hr 58 min
+                          - generic [ref=e1034]:
+                            - generic [ref=e1037]: PIT
+                            - text: –
+                            - generic [ref=e1040]: VCE
+                        - generic [ref=e1041]:
+                          - generic "1 stop flight." [ref=e1043]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 55 min layover at Hartsfield-Jackson Atlanta International Airport in Atlanta." [ref=e1044]:
+                            - text: 1 hr 55 min
+                            - generic [ref=e1046]: ATL
+                        - generic [ref=e1048]:
+                          - generic [ref=e1050]: 550 kg CO2e
+                          - generic [ref=e1051]:
+                            - generic [ref=e1052]: Avg emissions
+                            - 'button "Carbon emissions estimate: 550 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1053]':
+                              - img [ref=e1054]
+                        - generic [ref=e1056]:
+                          - generic [ref=e1058]: $1,402
+                          - generic [ref=e1059]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Pittsburgh International Airport at 1:57 PM on Saturday, August 8 and arrives at Venice Marco Polo Airport at 8:55 AM on Sunday, August 9." [ref=e1062]:
+                      - img [ref=e1065]
+                - listitem [ref=e1067]:
+                  - generic [ref=e1068] [cursor=pointer]:
+                    - button "View more flights" [ref=e1071]:
+                      - img
+                    - generic [ref=e1074]: View more flights
+          - text: ·· · ·· ·· ·· · ·· ·· · · ·· · · ·· · · ·· · · ·· · ·· ·· · ·· ·· ·· · ·· ·· · · ·· ·
+      - contentinfo [ref=e1077]:
+        - generic [ref=e1079]:
+          - button "Language·English (United States)" [ref=e1080]:
+            - img [ref=e1083]
+            - generic [ref=e1085]: Language·English (United States)
+          - button "Location·United States" [ref=e1086]:
+            - img [ref=e1089]
+            - generic [ref=e1092]: Location·United States
+          - button "Currency USD" [ref=e1093]:
+            - img [ref=e1096]
+            - generic [ref=e1106]: Currency·USD
+        - generic [ref=e1107]:
+          - link "About Google Travel" [ref=e1108] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1109] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1110] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1111] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1112] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1113] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1115]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1116] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=US
+            - text: Learn more

@@ -1,0 +1,346 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: best restaurants pittsburgh 2025 site:cntraveler.com OR site:theinfatuation.com OR site:timeout.com best restaurants pittsburgh 2025 site:cntraveler.com OR site:theinfatuation.com OR site:timeout.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bpittsburgh%2B2025%2Bsite%253Acntraveler.com%2BOR%2Bsite%253Atheinfatuation.com%2BOR%2Bsite%253Atimeout.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&aep=1&ntc=1&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ2J8OegQIEBAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQs6gLegQIEhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ0pQJegQIFhAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQtKgLegQIFRAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQtKgLegQIFBAB
+              - generic [ref=e101]: Images
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9REZHeSQ-3ijdw6ItDyL3HVr_gvA27sAT-lYfG3xuI66U6pdcQrTaEt61_1Rzoy4vsyWZn168dv4FEsDf6rggY7EPk_WnCvjvOkInL2OttZRSlJKGwYgIFNbTHNZFs7giITDBhghyYIB_Kq2nmpTye762JLg&q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQs6gLegQIExAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Where to Eat, Stay, and Play in Pittsburgh Condé Nast Traveler https://www.cntraveler.com › Destinations › Shopping" [ref=e142] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/what-to-do-in-pittsburgh
+                - heading "Where to Eat, Stay, and Play in Pittsburgh" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Condé Nast Traveler
+                  - generic [ref=e152]: https://www.cntraveler.com › Destinations › Shopping
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Mar 25, 2025 —
+              - generic [ref=e161]:
+                - text: Restaurants worth seeking out in other neighborhoods include
+                - emphasis [ref=e162]: Dish Osteria for Italian on the South Side
+                - text: ", cozy Lilith in Shadyside, Fig & Ash on ..."
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/story/what-to-do-in-pittsburgh#:~:text=Restaurants%20worth%20seeking%20out%20in,Shadyside%2C%20Fig%20%26%20Ash%20on
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "The 19 Best Restaurants In Pittsburgh The Infatuation https://www.theinfatuation.com › pittsburgh › guides" [ref=e172] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/pittsburgh/guides/pittsburgh-restaurants
+              - heading "The 19 Best Restaurants In Pittsburgh" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: The Infatuation
+                - generic [ref=e182]: https://www.theinfatuation.com › pittsburgh › guides
+            - button "About this result" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]: Jan 30, 2024 —
+            - generic [ref=e191]:
+              - text: All the places to eat and drink in this Appalachian city that you need to prioritize. Here are the
+              - emphasis [ref=e192]: best restaurants in Pittsburgh
+              - text: .
+          - generic [ref=e194]:
+            - text: "Missing: 2025 ‎| Show results with:"
+            - link "2025" [ref=e195] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=best+restaurants+pittsburgh+%222025%22+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ5t4CegQIKxAB
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "Ultimate Guide To Where To Go, Eat & Sleep in Pittsburgh Time Out https://www.timeout.com › pittsburgh" [ref=e204] [cursor=pointer]:
+              - /url: https://www.timeout.com/pittsburgh
+              - heading "Ultimate Guide To Where To Go, Eat & Sleep in Pittsburgh" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Time Out
+                - generic [ref=e214]: https://www.timeout.com › pittsburgh
+            - button "About this result" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e222]:
+            - emphasis [ref=e223]: Pittsburgh is packed with great things to do and places to go
+            - text: . But where do you begin? Cut through the noise with Time Out's recommendations of the best ...
+          - generic [ref=e225]:
+            - text: "Missing: 2025 ‎| Show results with:"
+            - link "2025" [ref=e226] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=best+restaurants+pittsburgh+%222025%22+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ5t4CegQILBAB
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - link "The Best New Restaurants Of 2025 The Infatuation https://www.theinfatuation.com › all › collection › best-..." [ref=e235] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/collection/best-new-restaurants-2025
+              - heading "The Best New Restaurants Of 2025" [level=3] [ref=e236]
+              - generic [ref=e241]:
+                - generic [ref=e243]: The Infatuation
+                - generic [ref=e245]: https://www.theinfatuation.com › all › collection › best-...
+            - button "About this result" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]:
+            - generic [ref=e253]: Nov 10, 2025 —
+            - generic [ref=e254]:
+              - text: In
+              - emphasis [ref=e255]: "2025"
+              - text: our writers and editors covered many corners of the globe, checking in on more than 1,500 new
+              - emphasis [ref=e256]: restaurants
+              - text: from San Francisco to London, ...
+            - link "Read more" [ref=e257] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/collection/best-new-restaurants-2025#:~:text=The%20Infatuation's%20editorial%20team%20visits,from%20San%20Francisco%20to%20London%2C
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "12 Reasons to Visit Pittsburgh This Year Condé Nast Traveler https://www.cntraveler.com › things-to-do-in-pittsburgh" [ref=e266] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/galleries/2016-05-11/things-to-do-in-pittsburgh
+              - heading "12 Reasons to Visit Pittsburgh This Year" [level=3] [ref=e267]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Condé Nast Traveler
+                - generic [ref=e276]: https://www.cntraveler.com › things-to-do-in-pittsburgh
+            - button "About this result" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+          - generic [ref=e283]:
+            - generic [ref=e284]: May 11, 2016 —
+            - generic [ref=e285]:
+              - text: "Sleep:"
+              - emphasis [ref=e286]: Ace Hotel
+              - text: "· Eat: Vandal · Eat: Smallman Galley · Eat: Cure, Morcilla, and Butterwood Bake Consortium · Shop: Vestis and the Gilded Girl ..."
+            - link "Read more" [ref=e287] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/galleries/2016-05-11/things-to-do-in-pittsburgh#:~:text=Sleep%3A%20Ace%20Hotel&text=Eat%3A%20Vandal&text=Eat%3A%20Smallman%20Galley&text=Eat%3A%20Cure%2C%20Morcilla%2C%20and%20Butterwood,Bake%20Consortium&text=Shop%3A%20Vestis%20and%20the%20Gilded,Girl%20Beauty%20Emporium
+        - generic [ref=e291]:
+          - generic [ref=e294]:
+            - link "The Best New Restaurants Of 2025 - All The Infatuation https://www.theinfatuation.com › all › guides › best-ne..." [ref=e296] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/guides/best-new-restaurants-national-2025
+              - heading "The Best New Restaurants Of 2025 - All" [level=3] [ref=e297]
+              - generic [ref=e302]:
+                - generic [ref=e304]: The Infatuation
+                - generic [ref=e306]: https://www.theinfatuation.com › all › guides › best-ne...
+            - button "About this result" [ref=e307] [cursor=pointer]:
+              - img [ref=e310]
+          - generic [ref=e313]:
+            - generic [ref=e314]: Nov 10, 2025 —
+            - generic [ref=e315]:
+              - text: THE SPOTS ·
+              - emphasis [ref=e316]: The Catbird Seat
+              - text: · Somni · Dōgon · Madre Selva · Cotoa · Emmett · Smithereens · Parish Barbecue.
+            - link "Read more" [ref=e317] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/all/guides/best-new-restaurants-national-2025#:~:text=THE%20SPOTS&text=The%20Catbird%20Seat&text=Somni&text=D%C5%8Dgon&text=Madre%20Selva&text=Cotoa&text=Emmett&text=Smithereens&text=Parish%20Barbecue
+        - generic [ref=e321]:
+          - generic [ref=e324]:
+            - link "Philadelphia's Best New Restaurants Of 2025 The Infatuation https://www.theinfatuation.com › philadelphia › guides" [ref=e326] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/philadelphia/guides/best-new-restaurants-philadelphia-2025
+              - heading "Philadelphia's Best New Restaurants Of 2025" [level=3] [ref=e327]
+              - generic [ref=e332]:
+                - generic [ref=e334]: The Infatuation
+                - generic [ref=e336]: https://www.theinfatuation.com › philadelphia › guides
+            - button "About this result" [ref=e337] [cursor=pointer]:
+              - img [ref=e340]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Nov 10, 2025 —
+            - generic [ref=e345]:
+              - text: THE SPOTS ·
+              - emphasis [ref=e346]: Emmett
+              - text: · Tesiny · Sao · Baby's Kusina & Market · Scampi · Griddle & Rice · Supérette · La Jefa.
+            - link "Read more" [ref=e347] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/philadelphia/guides/best-new-restaurants-philadelphia-2025#:~:text=THE%20SPOTS&text=Emmett&text=Tesiny&text=Sao&text=Baby's%20Kusina%20%26%20Market&text=Scampi&text=Griddle%20%26%20Rice&text=Sup%C3%A9rette&text=La%20Jefa
+        - generic [ref=e351]:
+          - generic [ref=e354]:
+            - 'link "Top 25: The Best Restaurants In Philadelphia The Infatuation https://www.theinfatuation.com › philadelphia › guides" [ref=e356] [cursor=pointer]':
+              - /url: https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia
+              - 'heading "Top 25: The Best Restaurants In Philadelphia" [level=3] [ref=e357]'
+              - generic [ref=e362]:
+                - generic [ref=e364]: The Infatuation
+                - generic [ref=e366]: https://www.theinfatuation.com › philadelphia › guides
+            - button "About this result" [ref=e367] [cursor=pointer]:
+              - img [ref=e370]
+          - generic [ref=e373]:
+            - generic [ref=e374]: Mar 30, 2026 —
+            - generic [ref=e375]:
+              - text: On this list, you'll find
+              - emphasis [ref=e376]: fancy spots, casual hangouts, walk-up windows, and pizzerias
+              - text: . Every city has its classics and its hot new places.
+            - link "Read more" [ref=e377] [cursor=pointer]:
+              - /url: https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia#:~:text=On%20this%20list%2C%20you'll%20find,restaurants%20where%20greatness%20is%20guaranteed.
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Friday Saturday Sunday" [ref=e381] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia#:~:text=Friday%20Saturday%20Sunday,-21st%20St%2C%20Philadelphia%2C
+                - generic [ref=e384]: Friday Saturday Sunday
+            - listitem [ref=e385]:
+              - link "Càphê Roasters" [ref=e386] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia#:~:text=C%C3%A0ph%C3%AA%20Roasters,-3400%20J%20St%2C%20Philadelphia
+                - generic [ref=e389]: Càphê Roasters
+            - listitem [ref=e390]:
+              - link "Bomb Bomb Bar" [ref=e391] [cursor=pointer]:
+                - /url: https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia#:~:text=Bomb%20Bomb%20Bar,-1026%20Wolf%20St%2C%20Philadelphia
+                - generic [ref=e394]: Bomb Bomb Bar
+        - generic [ref=e398]:
+          - generic [ref=e401]:
+            - link "OpenTable Showcases Top 100 Romantic Restaurants in ... Time Out https://www.timeout.com › usa › news › these-are-the-t..." [ref=e403] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/news/these-are-the-top-100-romantic-restaurants-in-the-u-s-according-to-opentable-021225
+              - heading "OpenTable Showcases Top 100 Romantic Restaurants in ..." [level=3] [ref=e404]
+              - generic [ref=e409]:
+                - generic [ref=e411]: Time Out
+                - generic [ref=e413]: https://www.timeout.com › usa › news › these-are-the-t...
+            - button "About this result" [ref=e414] [cursor=pointer]:
+              - img [ref=e417]
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - text: OpenTable, the
+              - emphasis [ref=e422]: restaurant
+              - text: reservation website and app, has created a list of the
+              - emphasis [ref=e423]: top
+              - text: 100 most romantic
+              - emphasis [ref=e424]: restaurants
+              - text: in the country.
+            - link "Read more" [ref=e425] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/news/these-are-the-top-100-romantic-restaurants-in-the-u-s-according-to-opentable-021225#:~:text=OpenTable%2C%20the%20restaurant%20reservation%20website,compare%20to%20last%20year's%20list%3F).
+        - generic [ref=e429]:
+          - generic [ref=e432]:
+            - link "North America Travel Guide | Page 40 Condé Nast Traveler https://www.cntraveler.com › destinations › north-ameri..." [ref=e434] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/north-america?page=40
+              - heading "North America Travel Guide | Page 40" [level=3] [ref=e435]
+              - generic [ref=e440]:
+                - generic [ref=e442]: Condé Nast Traveler
+                - generic [ref=e444]: https://www.cntraveler.com › destinations › north-ameri...
+            - button "About this result" [ref=e445] [cursor=pointer]:
+              - img [ref=e448]
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - emphasis [ref=e453]: Where to Eat, Stay, and Play in Pittsburgh
+              - text: . Destinations. Where to Eat ... The 22 Best Restaurants in Austin. Brisket is just the beginning. By Mandy ...
+            - link "Read more" [ref=e454] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/north-america?page=40#:~:text=Destinations,Stay%2C%20and%20Play%20in%20Pittsburgh&text=The%2022%20Best%20Restaurants%20in,By%20Mandy%20Ellis
+      - generic [ref=e456]:
+        - generic [ref=e461]:
+          - heading "People also search for" [level=2] [ref=e463]
+          - generic [ref=e465]:
+            - link "Best restaurants pittsburgh 2025 downtown" [ref=e470] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=Best+restaurants+pittsburgh+2025+downtown&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ1QJ6BAg1EAE
+              - generic [ref=e471]:
+                - generic [ref=e476]: Best restaurants pittsburgh 2025 downtown
+                - img [ref=e480]
+            - link "Best restaurants pittsburgh 2025 2022" [ref=e486] [cursor=pointer]:
+              - /url: /search?sca_esv=3e6d41f6df379cdf&q=Best+restaurants+pittsburgh+2025+2022&sa=X&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ1QJ6BAg0EAE
+              - generic [ref=e487]:
+                - generic [ref=e492]: Best restaurants pittsburgh 2025 2022
+                - img [ref=e496]
+        - navigation [ref=e498]:
+          - heading "Page Navigation" [level=1] [ref=e499]
+          - text: "1"
+          - link "Page 2" [ref=e502] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=10&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAE
+            - text: "2"
+          - link "Page 3" [ref=e504] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=20&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAG
+            - text: "3"
+          - link "Page 4" [ref=e506] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=30&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAI
+            - text: "4"
+          - link "Page 5" [ref=e508] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=40&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAK
+            - text: "5"
+          - link "Page 6" [ref=e510] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=50&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAM
+            - text: "6"
+          - link "Page 7" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=60&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAO
+            - text: "7"
+          - link "Page 8" [ref=e514] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=70&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAQ
+            - text: "8"
+          - link "Page 9" [ref=e516] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=80&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAS
+            - text: "9"
+          - link "Page 10" [ref=e518] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=90&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8tMDegQIBhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e520]:
+            - link "Next" [ref=e521] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+pittsburgh+2025+site:cntraveler.com+OR+site:theinfatuation.com+OR+site:timeout.com&sca_esv=3e6d41f6df379cdf&ei=qQHbaffME6un5NoPjI3JiAc&start=10&sa=N&sstk=Af77f_eIe2J6Q7coh55-2dsJhozIazEKDZ4FgJwgD2SRGx14pVPGjk8W071yOJ-1VxNORVrjP-Kr8rY09MvvR4hxqBGMHJlzfyGSJg&ved=2ahUKEwi3xeewoOeTAxWrE1kFHYxGEnEQ8NMDegQIBhAW
+              - generic [ref=e523]: Next
+      - navigation
+    - contentinfo [ref=e524]:
+      - heading "Footer Links" [level=1] [ref=e525]
+      - generic [ref=e529]:
+        - generic [ref=e533]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e535] [cursor=pointer]:
+            - generic [ref=e536]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e538]:
+              - text: "-"
+              - generic [ref=e539]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e541] [cursor=pointer]: Update location
+        - generic [ref=e544]:
+          - link "Help" [ref=e545] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e546] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e547] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e548] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

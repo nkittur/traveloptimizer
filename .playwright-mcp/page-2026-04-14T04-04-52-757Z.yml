@@ -1,0 +1,2284 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "jump to content" [ref=e2] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]: my subreddits▼
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "popular" [ref=e10] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e11]:
+            - text: "-"
+            - link "all" [ref=e12] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e13]:
+            - text: "-"
+            - link "users" [ref=e14] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "AskReddit" [ref=e17] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e18]:
+            - text: "-"
+            - link "pics" [ref=e19] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e20]:
+            - text: "-"
+            - link "funny" [ref=e21] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e22]:
+            - text: "-"
+            - link "movies" [ref=e23] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e24]:
+            - text: "-"
+            - link "worldnews" [ref=e25] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e26]:
+            - text: "-"
+            - link "news" [ref=e27] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e28]:
+            - text: "-"
+            - link "todayilearned" [ref=e29] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e30]:
+            - text: "-"
+            - link "nottheonion" [ref=e31] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e32]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e33] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e34]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e35] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e36]:
+            - text: "-"
+            - link "DIY" [ref=e37] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e38]:
+            - text: "-"
+            - link "videos" [ref=e39] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e40]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e41] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e42]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e43] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e44]:
+            - text: "-"
+            - link "tifu" [ref=e45] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e46]:
+            - text: "-"
+            - link "Music" [ref=e47] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e48]:
+            - text: "-"
+            - link "books" [ref=e49] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e50]:
+            - text: "-"
+            - link "LifeProTips" [ref=e51] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e52]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e53] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e54]:
+            - text: "-"
+            - link "aww" [ref=e55] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e56]:
+            - text: "-"
+            - link "science" [ref=e57] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e58]:
+            - text: "-"
+            - link "space" [ref=e59] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e60]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e61] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e62]:
+            - text: "-"
+            - link "askscience" [ref=e63] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e64]:
+            - text: "-"
+            - link "Jokes" [ref=e65] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e66]:
+            - text: "-"
+            - link "Art" [ref=e67] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e68]:
+            - text: "-"
+            - link "IAmA" [ref=e69] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e70]:
+            - text: "-"
+            - link "Futurology" [ref=e71] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e72]:
+            - text: "-"
+            - link "sports" [ref=e73] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e74]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e75] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e76]:
+            - text: "-"
+            - link "food" [ref=e77] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e78]:
+            - text: "-"
+            - link "nosleep" [ref=e79] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e80]:
+            - text: "-"
+            - link "creepy" [ref=e81] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e82]:
+            - text: "-"
+            - link "history" [ref=e83] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e84]:
+            - text: "-"
+            - link "gifs" [ref=e85] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e86]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e87] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e88]:
+            - text: "-"
+            - link "GetMotivated" [ref=e89] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e90]:
+            - text: "-"
+            - link "gadgets" [ref=e91] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e92]:
+            - text: "-"
+            - link "announcements" [ref=e93] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e94]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e95] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e96]:
+            - text: "-"
+            - link "philosophy" [ref=e97] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e98]:
+            - text: "-"
+            - link "Documentaries" [ref=e99] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e100]:
+            - text: "-"
+            - link "EarthPorn" [ref=e101] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e102]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e103] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e104]:
+            - text: "-"
+            - link "listentothis" [ref=e105] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e106]:
+            - text: "-"
+            - link "blog" [ref=e107] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e108] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e109]:
+      - link "asheville" [ref=e110] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "asheville" [ref=e111]
+      - link "/r/asheville" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 01 Feb 2025
+      - generic [ref=e127]: 0 points (35% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/1if9xya
+    - link "Submit a new post" [ref=e131] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/asheville/submit
+    - generic [ref=e133]:
+      - heading "asheville" [level=1] [ref=e134]:
+        - link "asheville" [ref=e135] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/asheville/
+      - link "join" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e139]:
+        - paragraph:
+          - link "r/AshevilleFAQ" [ref=e140] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Asheville/wiki/index
+        - paragraph [ref=e141]
+        - paragraph [ref=e142]:
+          - strong [ref=e143]:
+            - text: Welcome to
+            - link "/r/Asheville" [ref=e144] [cursor=pointer]:
+              - /url: /r/Asheville
+          - text: ", the best place on the internet to discuss what's going on in and around Asheville, North Carolina."
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: Rules
+        - paragraph [ref=e148]:
+          - text: Please our
+          - link "detailed rules" [ref=e149] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/asheville/wiki/index/rules
+          - text: and Reddit's overall
+          - link "Reddit's Content Policy" [ref=e150] [cursor=pointer]:
+            - /url: https://www.redditinc.com/policies/content-policy
+          - text: ". Rules will be enforced. The short version of our rules:"
+        - list [ref=e151]:
+          - listitem [ref=e152]:
+            - paragraph [ref=e153]: No hate speech, insults, or personal attacks
+          - listitem [ref=e154]:
+            - paragraph [ref=e155]: No consistent trolling
+          - listitem [ref=e156]:
+            - paragraph [ref=e157]: No Impersonating Other Users
+          - listitem [ref=e158]:
+            - paragraph [ref=e159]: No Spamming
+          - listitem [ref=e160]:
+            - paragraph [ref=e161]: Submissions Must Be Related to Asheville
+          - listitem [ref=e162]:
+            - paragraph [ref=e163]: No Doxxing
+          - listitem [ref=e164]:
+            - paragraph [ref=e165]:
+              - text: "No"
+              - emphasis [ref=e166]: posts
+              - text: directly related to crowd-funding
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]:
+              - text: Questions about
+              - strong [ref=e169]: visiting
+              - text: or
+              - strong [ref=e170]: moving
+              - text: should be asked in the pinned thread
+        - paragraph [ref=e171]:
+          - text: Above all,
+          - emphasis [ref=e172]: be excellent to each other
+          - text: "!"
+        - paragraph [ref=e173]
+        - paragraph [ref=e174]:
+          - strong [ref=e175]: College Subreddits
+        - paragraph [ref=e176]:
+          - link "/r/ABTech" [ref=e177] [cursor=pointer]:
+            - /url: /r/ABTech
+          - text: "- AB Tech"
+        - paragraph [ref=e178]:
+          - link "/r/UNCA" [ref=e179] [cursor=pointer]:
+            - /url: /r/UNCA
+          - text: "- University of NC, Asheville"
+        - paragraph [ref=e180]:
+          - link "/r/WCU" [ref=e181] [cursor=pointer]:
+            - /url: /r/WCU
+          - text: "- Western Carolina University"
+        - paragraph [ref=e182]:
+          - link "/r/WWC" [ref=e183] [cursor=pointer]:
+            - /url: /r/WWC
+          - text: "- Warren Wilson College"
+        - paragraph [ref=e184]
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: Regional Subreddits
+        - paragraph [ref=e187]:
+          - link "/r/NorthCarolina" [ref=e188] [cursor=pointer]:
+            - /url: /r/NorthCarolina
+        - paragraph [ref=e189]:
+          - link "/r/WNC" [ref=e190] [cursor=pointer]:
+            - /url: /r/WNC
+          - text: "- Western North Carolina"
+        - paragraph [ref=e191]:
+          - link "/r/GSMNP" [ref=e192] [cursor=pointer]:
+            - /url: /r/GSMNP
+          - text: "- The Smokeys"
+        - paragraph [ref=e193]:
+          - link "/r/McDowellCounty" [ref=e194] [cursor=pointer]:
+            - /url: /r/McDowellCounty
+        - paragraph [ref=e195]:
+          - link "/r/Foothills" [ref=e196] [cursor=pointer]:
+            - /url: /r/Foothills
+        - paragraph [ref=e197]:
+          - link "/r/MarsHillNC" [ref=e198] [cursor=pointer]:
+            - /url: /r/MarsHillNC
+        - paragraph [ref=e199]:
+          - link "/r/Hendersonville" [ref=e200] [cursor=pointer]:
+            - /url: /r/Hendersonville
+        - paragraph [ref=e201]:
+          - link "/r/BrysonCity" [ref=e202] [cursor=pointer]:
+            - /url: /r/BrysonCity
+        - paragraph [ref=e203]:
+          - link "/r/MillsRiver" [ref=e204] [cursor=pointer]:
+            - /url: /r/MillsRiver
+        - paragraph [ref=e205]
+        - paragraph [ref=e206]:
+          - strong [ref=e207]: General Subreddits
+        - paragraph [ref=e208]:
+          - link "/r/AshevilleClassifieds" [ref=e209] [cursor=pointer]:
+            - /url: /r/AshevilleClassifieds
+        - paragraph [ref=e210]:
+          - link "/r/thehotspot" [ref=e211] [cursor=pointer]:
+            - /url: /r/thehotspot
+        - paragraph [ref=e212]:
+          - link "/r/AshevilleMusic" [ref=e213] [cursor=pointer]:
+            - /url: /r/AshevilleMusic
+        - paragraph [ref=e214]:
+          - link "/r/AshevilleBitcoin" [ref=e215] [cursor=pointer]:
+            - /url: /r/AshevilleBitcoin
+        - paragraph [ref=e216]:
+          - link "/r/AshevilleFarmExchange" [ref=e217] [cursor=pointer]:
+            - /url: /r/AshevilleFarmExchange
+        - paragraph [ref=e218]:
+          - link "/r/CarolinaBeer" [ref=e219] [cursor=pointer]:
+            - /url: /r/CarolinaBeer
+        - paragraph [ref=e220]:
+          - link "/r/ashevillebeer" [ref=e221] [cursor=pointer]:
+            - /url: /r/ashevillebeer
+        - paragraph [ref=e222]:
+          - link "/r/NCMusic" [ref=e223] [cursor=pointer]:
+            - /url: /r/NCMusic
+        - paragraph [ref=e224]:
+          - link "/r/NCTrails" [ref=e225] [cursor=pointer]:
+            - /url: /r/NCTrails
+        - paragraph [ref=e226]:
+          - link /r/ncpolitics/ [ref=e227] [cursor=pointer]:
+            - /url: /r/ncpolitics/
+        - paragraph [ref=e228]:
+          - link "/r/Asheville Traffic Stats" [ref=e229] [cursor=pointer]:
+            - /url: http://www.reddit.com/r/asheville/about/traffic/
+        - paragraph [ref=e230]:
+          - link "r/WNCGoneWild" [ref=e231] [cursor=pointer]:
+            - /url: /r/WNCGoneWild
+          - text: ( ͡~ ͜ʖ ͡°)
+        - paragraph [ref=e232]
+        - paragraph [ref=e233]:
+          - strong [ref=e234]: Acknowledgments
+        - paragraph [ref=e235]:
+          - text: Subreddit originally designed by
+          - link "Devin Holmes Design" [ref=e236] [cursor=pointer]:
+            - /url: http://devinholmesdesign.com/
+        - paragraph [ref=e237]:
+          - text: Header image courtesy of
+          - link "u/MicahMack76" [ref=e238] [cursor=pointer]:
+            - /url: /u/MicahMack76
+          - text: at
+          - link "http://micahmack.com/" [ref=e239] [cursor=pointer]:
+            - /url: http://micahmack.com/
+        - paragraph [ref=e240]
+        - paragraph [ref=e241]:
+          - link "." [ref=e242] [cursor=pointer]:
+            - /url: "#/RES_SR_Config/NightModeCompatible"
+      - generic [ref=e244]:
+        - text: a community for
+        - time [ref=e245]: 16 years
+    - generic [ref=e247]:
+      - heading "MODERATORS" [level=1] [ref=e249]
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - link "message the mods" [ref=e252] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/asheville
+    - complementary [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - text: discussions in
+          - link "r/asheville" [ref=e258] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/asheville/?ref=readnext
+        - navigation [ref=e259]:
+          - generic [ref=e260] [cursor=pointer]: <
+          - generic [ref=e261] [cursor=pointer]: ">"
+        - generic [ref=e263] [cursor=pointer]: X
+      - link "0 · 2 comments Visiting or Moving to Asheville? Ask your questions here!" [ref=e265] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/asheville/comments/1sk6bkl/visiting_or_moving_to_asheville_ask_your/?ref=readnext_0
+        - generic [ref=e266]: 0 · 2 comments
+        - generic [ref=e267]: Visiting or Moving to Asheville? Ask your questions here!
+    - text: CSS Theme via /r/Naut
+  - main [ref=e268]:
+    - generic [ref=e269]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e270] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e271]
+        - paragraph [ref=e272]: the front page of the internet.
+        - generic [ref=e273]:
+          - generic [ref=e274]: Become a Redditor
+          - paragraph [ref=e275]: and join one of thousands of communities.
+      - link "×" [ref=e276] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e278]:
+      - paragraph
+      - generic [ref=e279]:
+        - button "upvote" [ref=e280] [cursor=pointer]
+        - generic "0" [ref=e281]
+        - button "downvote" [ref=e282] [cursor=pointer]
+      - link [ref=e283] [cursor=pointer]:
+        - /url: /r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - paragraph [ref=e286]:
+            - link "Looking for hidden gems as a newby to Asheville" [ref=e287] [cursor=pointer]:
+              - /url: /r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/
+            - link "self.asheville" [ref=e288] [cursor=pointer]:
+              - /url: /r/asheville/
+          - paragraph [ref=e289]:
+            - text: submitted
+            - time [ref=e290]: 1 year ago
+            - text: by [deleted]
+        - paragraph [ref=e295]: "[deleted]"
+        - list [ref=e296]:
+          - listitem [ref=e297]:
+            - link "56 comments" [ref=e298] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/
+    - generic [ref=e299]:
+      - generic [ref=e300]: all 56 comments
+      - generic [ref=e302]:
+        - text: "sorted by:"
+        - generic [ref=e303]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e306] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e307]
+        - generic [ref=e308]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e309]
+          - paragraph [ref=e310]: Post a comment!
+          - generic [ref=e312]: Create an account
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - paragraph
+          - generic [ref=e315]:
+            - button "upvote" [ref=e316] [cursor=pointer]
+            - button "downvote" [ref=e317] [cursor=pointer]
+          - generic [ref=e318]:
+            - paragraph [ref=e319]:
+              - link "[–]" [ref=e320] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "JustTheFacts714" [ref=e321] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/JustTheFacts714
+              - text: 11 points
+              - time [ref=e322]: 1 year ago
+            - generic [ref=e325]:
+              - paragraph [ref=e326]: "Newbie: You will learn quickly that any place you like, others will immediately insult them or you because some people just do."
+              - paragraph [ref=e327]: Find what you like.
+              - paragraph [ref=e328]: Congrats on escaping Florida -- I have been there twice, and that was three times too many. /s
+            - list [ref=e329]:
+              - listitem [ref=e330]:
+                - link "permalink" [ref=e331] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maej03k/
+              - listitem [ref=e332]:
+                - link "embed" [ref=e333] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e334]:
+                - link "save" [ref=e335] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e336]:
+                - link "report" [ref=e337] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e338]:
+                - link "reply" [ref=e339] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e342]:
+            - paragraph
+            - generic [ref=e343]:
+              - button "upvote" [ref=e344] [cursor=pointer]
+              - button "downvote" [ref=e345] [cursor=pointer]
+            - generic [ref=e346]:
+              - paragraph [ref=e347]:
+                - link "[–]" [ref=e348] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e349] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: 0 points
+                - time [ref=e350]: 1 year ago
+              - paragraph [ref=e354]: Thank you! It was definitely time lol
+              - list [ref=e355]:
+                - listitem [ref=e356]:
+                  - link "permalink" [ref=e357] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maewcc4/
+                - listitem [ref=e358]:
+                  - link "embed" [ref=e359] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e360]:
+                  - link "save" [ref=e361] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e362]:
+                  - link "parent" [ref=e363] [cursor=pointer]:
+                    - /url: "#maej03k"
+                - listitem [ref=e364]:
+                  - link "report" [ref=e365] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e366]:
+                  - link "reply" [ref=e367] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e368]:
+          - paragraph
+          - generic [ref=e369]:
+            - button "upvote" [ref=e370] [cursor=pointer]
+            - button "downvote" [ref=e371] [cursor=pointer]
+          - generic [ref=e372]:
+            - paragraph [ref=e373]:
+              - link "[–]" [ref=e374] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 11 points"
+              - time [ref=e375]: 1 year ago
+              - time [ref=e376]: "*"
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: Leo’s house of thirst, mother, Ukiah, good hot fish, cucina/contrada, tall John’s, Rowan coffee, pollen coffee
+              - paragraph [ref=e381]: "ETA: Neng Jrs."
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - link "permalink" [ref=e384] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeb4qr/
+              - listitem [ref=e385]:
+                - link "embed" [ref=e386] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e387]:
+                - link "save" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e389]:
+                - link "report" [ref=e390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e391]:
+                - link "reply" [ref=e392] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e395]:
+            - paragraph
+            - generic [ref=e396]:
+              - button "upvote" [ref=e397] [cursor=pointer]
+              - button "downvote" [ref=e398] [cursor=pointer]
+            - generic [ref=e399]:
+              - paragraph [ref=e400]:
+                - link "[–]" [ref=e401] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Silas-Hacksaw" [ref=e402] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Silas-Hacksaw
+                - generic "Pisgah View 🥡" [ref=e403]: "- Pisgah View 🥡"
+                - text: 6 points
+                - time [ref=e404]: 1 year ago
+              - paragraph [ref=e408]: Literally all of this and Liberty House for breakfasts.
+              - list [ref=e409]:
+                - listitem [ref=e410]:
+                  - link "permalink" [ref=e411] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maebktq/
+                - listitem [ref=e412]:
+                  - link "embed" [ref=e413] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e414]:
+                  - link "save" [ref=e415] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e416]:
+                  - link "parent" [ref=e417] [cursor=pointer]:
+                    - /url: "#maeb4qr"
+                - listitem [ref=e418]:
+                  - link "report" [ref=e419] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e420]:
+                  - link "reply" [ref=e421] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e422]:
+          - paragraph
+          - generic [ref=e423]:
+            - button "upvote" [ref=e424] [cursor=pointer]
+            - button "downvote" [ref=e425] [cursor=pointer]
+          - generic [ref=e426]:
+            - paragraph [ref=e427]:
+              - link "[–]" [ref=e428] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 3 points"
+              - time [ref=e429]: 1 year ago
+            - paragraph [ref=e433]: Corner Stone Restaruant on Tunnel Rd is my go-to as a native. Most everything in Asheville is an overrated trap for tourists or people who wear Patagonia. As far as coffee, can’t help ya
+            - list [ref=e434]:
+              - listitem [ref=e435]:
+                - link "permalink" [ref=e436] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mai3him/
+              - listitem [ref=e437]:
+                - link "embed" [ref=e438] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e439]:
+                - link "save" [ref=e440] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e441]:
+                - link "report" [ref=e442] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e443]:
+                - link "reply" [ref=e444] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e445]:
+          - paragraph
+          - generic [ref=e446]:
+            - button "upvote" [ref=e447] [cursor=pointer]
+            - button "downvote" [ref=e448] [cursor=pointer]
+          - generic [ref=e449]:
+            - paragraph [ref=e450]:
+              - link "[–]" [ref=e451] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "goldbman" [ref=e452] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/goldbman
+              - generic "NC :ncflag1::ncflag2:" [ref=e453]:
+                - text: "- NC"
+                - generic ":ncflag1:" [ref=e454]
+                - generic ":ncflag2:" [ref=e455]
+              - text: 9 points
+              - time [ref=e456]: 1 year ago
+            - paragraph [ref=e460]: Ok but first you have to tell me where to get the best key lime pie in Florida. Hidden gems aren't given away for free.
+            - list [ref=e461]:
+              - listitem [ref=e462]:
+                - link "permalink" [ref=e463] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeb7ox/
+              - listitem [ref=e464]:
+                - link "embed" [ref=e465] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e466]:
+                - link "save" [ref=e467] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e468]:
+                - link "report" [ref=e469] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e470]:
+                - link "reply" [ref=e471] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - paragraph
+              - generic [ref=e475]:
+                - button "upvote" [ref=e476] [cursor=pointer]
+                - button "downvote" [ref=e477] [cursor=pointer]
+              - generic [ref=e478]:
+                - paragraph [ref=e479]:
+                  - link "[–]" [ref=e480] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Neat-Constant-7406" [ref=e481] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Neat-Constant-7406
+                  - text: 7 points
+                  - time [ref=e482]: 1 year ago
+                - paragraph [ref=e486]: Hahah I’m from the Florida keys so I know good key lime pie. My personal fave is at this spot called the cracked conch cafe in marathon
+                - list [ref=e487]:
+                  - listitem [ref=e488]:
+                    - link "permalink" [ref=e489] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maew7n8/
+                  - listitem [ref=e490]:
+                    - link "embed" [ref=e491] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e492]:
+                    - link "save" [ref=e493] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e494]:
+                    - link "parent" [ref=e495] [cursor=pointer]:
+                      - /url: "#maeb7ox"
+                  - listitem [ref=e496]:
+                    - link "report" [ref=e497] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e498]:
+                    - link "reply" [ref=e499] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e500]:
+              - paragraph
+              - generic [ref=e501]:
+                - button "upvote" [ref=e502] [cursor=pointer]
+                - button "downvote" [ref=e503] [cursor=pointer]
+              - generic [ref=e504]:
+                - paragraph [ref=e505]:
+                  - link "[–]" [ref=e506] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "barnabyapp" [ref=e507] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/barnabyapp
+                  - text: 2 points
+                  - time [ref=e508]: 1 year ago
+                - paragraph [ref=e512]: Make it yourself with Nellies key lime pie juice. Truck is 2x the recommended amount. It’s a little soft consistency-wise, but the flavor is spot on.
+                - list [ref=e513]:
+                  - listitem [ref=e514]:
+                    - link "permalink" [ref=e515] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maedcdg/
+                  - listitem [ref=e516]:
+                    - link "embed" [ref=e517] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e518]:
+                    - link "save" [ref=e519] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e520]:
+                    - link "parent" [ref=e521] [cursor=pointer]:
+                      - /url: "#maeb7ox"
+                  - listitem [ref=e522]:
+                    - link "report" [ref=e523] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e524]:
+                    - link "reply" [ref=e525] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e526]:
+              - paragraph
+              - generic [ref=e527]:
+                - button "upvote" [ref=e528] [cursor=pointer]
+                - button "downvote" [ref=e529] [cursor=pointer]
+              - generic [ref=e530]:
+                - paragraph [ref=e531]:
+                  - link "[–]" [ref=e532] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "1mjtaylor" [ref=e533] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/1mjtaylor
+                  - text: 2 points
+                  - time [ref=e534]: 1 year ago
+                - paragraph [ref=e538]:
+                  - text: Key West. Kermit's is a good as any.
+                  - text: Most authentic would be at Blue Heaven.
+                - list [ref=e539]:
+                  - listitem [ref=e540]:
+                    - link "permalink" [ref=e541] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeehxf/
+                  - listitem [ref=e542]:
+                    - link "embed" [ref=e543] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e544]:
+                    - link "save" [ref=e545] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e546]:
+                    - link "parent" [ref=e547] [cursor=pointer]:
+                      - /url: "#maeb7ox"
+                  - listitem [ref=e548]:
+                    - link "report" [ref=e549] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e550]:
+                    - link "reply" [ref=e551] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e554]:
+                - paragraph
+                - generic [ref=e555]:
+                  - button "upvote" [ref=e556] [cursor=pointer]
+                  - button "downvote" [ref=e557] [cursor=pointer]
+                - generic [ref=e558]:
+                  - paragraph [ref=e559]:
+                    - link "[–]" [ref=e560] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "AffectionateFig5864" [ref=e561] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/AffectionateFig5864
+                    - generic "West Asheville :psych1::psych2::psych3:" [ref=e562]:
+                      - text: "- West Asheville"
+                      - generic ":psych1:" [ref=e563]
+                      - generic ":psych2:" [ref=e564]
+                      - generic ":psych3:" [ref=e565]
+                    - text: 2 points
+                    - time [ref=e566]: 1 year ago
+                  - paragraph [ref=e570]: Going there for my birthday this year and taking notes!
+                  - list [ref=e571]:
+                    - listitem [ref=e572]:
+                      - link "permalink" [ref=e573] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeuqxq/
+                    - listitem [ref=e574]:
+                      - link "embed" [ref=e575] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e576]:
+                      - link "save" [ref=e577] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e578]:
+                      - link "parent" [ref=e579] [cursor=pointer]:
+                        - /url: "#maeehxf"
+                    - listitem [ref=e580]:
+                      - link "report" [ref=e581] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e582]:
+                      - link "reply" [ref=e583] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e586]:
+                  - paragraph
+                  - generic [ref=e587]:
+                    - button "upvote" [ref=e588] [cursor=pointer]
+                    - button "downvote" [ref=e589] [cursor=pointer]
+                  - generic [ref=e590]:
+                    - paragraph [ref=e591]:
+                      - link "[–]" [ref=e592] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "1mjtaylor" [ref=e593] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/1mjtaylor
+                      - text: 2 points
+                      - time [ref=e594]: 1 year ago
+                    - paragraph [ref=e598]: Blue Heaven? Make sure you have the curry carrot soup.
+                    - list [ref=e599]:
+                      - listitem [ref=e600]:
+                        - link "permalink" [ref=e601] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maggsil/
+                      - listitem [ref=e602]:
+                        - link "embed" [ref=e603] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e604]:
+                        - link "save" [ref=e605] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e606]:
+                        - link "parent" [ref=e607] [cursor=pointer]:
+                          - /url: "#maeuqxq"
+                      - listitem [ref=e608]:
+                        - link "report" [ref=e609] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e610]:
+                        - link "reply" [ref=e611] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e612]:
+              - paragraph
+              - generic [ref=e613]:
+                - button "upvote" [ref=e614] [cursor=pointer]
+                - button "downvote" [ref=e615] [cursor=pointer]
+              - generic [ref=e616]:
+                - paragraph [ref=e617]:
+                  - link "[–]" [ref=e618] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "whatwillitbenext" [ref=e619] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/whatwillitbenext
+                  - text: 1 point
+                  - time [ref=e620]: 8 months ago
+                - paragraph [ref=e624]: Anywhere in Key West. The birth place of Key Lime pie.
+                - list [ref=e625]:
+                  - listitem [ref=e626]:
+                    - link "permalink" [ref=e627] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/n685nap/
+                  - listitem [ref=e628]:
+                    - link "embed" [ref=e629] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e630]:
+                    - link "save" [ref=e631] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e632]:
+                    - link "parent" [ref=e633] [cursor=pointer]:
+                      - /url: "#maeb7ox"
+                  - listitem [ref=e634]:
+                    - link "report" [ref=e635] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e636]:
+                    - link "reply" [ref=e637] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e638]:
+              - paragraph
+              - generic [ref=e639]:
+                - button "upvote" [ref=e640] [cursor=pointer]
+                - button "downvote" [ref=e641] [cursor=pointer]
+              - generic [ref=e642]:
+                - paragraph [ref=e643]:
+                  - link "[–]" [ref=e644] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "thicccabod_crane" [ref=e645] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/thicccabod_crane
+                  - text: 1 point
+                  - time [ref=e646]: 1 year ago
+                - paragraph [ref=e650]: Sister honey in Orlando.
+                - list [ref=e651]:
+                  - listitem [ref=e652]:
+                    - link "permalink" [ref=e653] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mael72t/
+                  - listitem [ref=e654]:
+                    - link "embed" [ref=e655] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e656]:
+                    - link "save" [ref=e657] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e658]:
+                    - link "parent" [ref=e659] [cursor=pointer]:
+                      - /url: "#maeb7ox"
+                  - listitem [ref=e660]:
+                    - link "report" [ref=e661] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e662]:
+                    - link "reply" [ref=e663] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e664]:
+          - paragraph
+          - generic [ref=e665]:
+            - button "upvote" [ref=e666] [cursor=pointer]
+            - button "downvote" [ref=e667] [cursor=pointer]
+          - generic [ref=e668]:
+            - paragraph [ref=e669]:
+              - link "[–]" [ref=e670] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "fancycar123" [ref=e671] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/fancycar123
+              - generic "West Asheville :psych1::psych2::psych3:" [ref=e672]:
+                - text: "- West Asheville"
+                - generic ":psych1:" [ref=e673]
+                - generic ":psych2:" [ref=e674]
+                - generic ":psych3:" [ref=e675]
+              - text: 6 points
+              - time [ref=e676]: 1 year ago
+            - paragraph [ref=e680]: Battlecat, Haywood Lounge, New 1 China, Taqeria Muñoz, molinas, bull and beggar, the odd, baby bull, favillas, standard, most taco trucks you see in a random gas station parking lot, cucina 24, contrada.
+            - list [ref=e681]:
+              - listitem [ref=e682]:
+                - link "permalink" [ref=e683] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maecbmm/
+              - listitem [ref=e684]:
+                - link "embed" [ref=e685] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e686]:
+                - link "save" [ref=e687] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e688]:
+                - link "report" [ref=e689] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e690]:
+                - link "reply" [ref=e691] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e692]:
+          - paragraph
+          - generic [ref=e693]:
+            - button "upvote" [ref=e694] [cursor=pointer]
+            - button "downvote" [ref=e695] [cursor=pointer]
+          - generic [ref=e696]:
+            - paragraph [ref=e697]:
+              - link "[–]" [ref=e698] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "durkdirkderq" [ref=e699] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/durkdirkderq
+              - generic "Candler :truck1::truck2::banjo2::violin:" [ref=e700]:
+                - text: "- Candler"
+                - generic ":truck1:" [ref=e701]
+                - generic ":truck2:" [ref=e702]
+                - generic ":banjo2:" [ref=e703]
+                - generic ":violin:" [ref=e704]
+              - text: 3 points
+              - time [ref=e705]: 1 year ago
+              - time [ref=e706]: "*"
+            - generic [ref=e709]:
+              - paragraph [ref=e710]: Battle Cat in wavl is rad.
+              - paragraph [ref=e711]: "Edit: I originally fucked up and called it black cat."
+            - list [ref=e712]:
+              - listitem [ref=e713]:
+                - link "permalink" [ref=e714] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeb3ln/
+              - listitem [ref=e715]:
+                - link "embed" [ref=e716] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e717]:
+                - link "save" [ref=e718] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e719]:
+                - link "report" [ref=e720] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e721]:
+                - link "reply" [ref=e722] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e725]:
+            - paragraph
+            - generic [ref=e726]:
+              - button "upvote" [ref=e727] [cursor=pointer]
+              - button "downvote" [ref=e728] [cursor=pointer]
+            - generic [ref=e729]:
+              - paragraph [ref=e730]:
+                - link "[–]" [ref=e731] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Silas-Hacksaw" [ref=e732] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Silas-Hacksaw
+                - generic "Pisgah View 🥡" [ref=e733]: "- Pisgah View 🥡"
+                - text: 1 point
+                - time [ref=e734]: 1 year ago
+                - time [ref=e735]: "*"
+              - paragraph [ref=e739]: New battle cat in East Asheville is also dope
+              - list [ref=e740]:
+                - listitem [ref=e741]:
+                  - link "permalink" [ref=e742] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maebflj/
+                - listitem [ref=e743]:
+                  - link "embed" [ref=e744] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e745]:
+                  - link "save" [ref=e746] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e747]:
+                  - link "parent" [ref=e748] [cursor=pointer]:
+                    - /url: "#maeb3ln"
+                - listitem [ref=e749]:
+                  - link "report" [ref=e750] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e751]:
+                  - link "reply" [ref=e752] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e754]:
+              - generic [ref=e755]:
+                - paragraph
+                - generic [ref=e756]:
+                  - button "upvote" [ref=e757] [cursor=pointer]
+                  - button "downvote" [ref=e758] [cursor=pointer]
+                - generic [ref=e759]:
+                  - paragraph [ref=e760]:
+                    - link "[–]" [ref=e761] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 2 points"
+                    - time [ref=e762]: 1 year ago
+                  - paragraph [ref=e766]: I need to find this place. I’ll add that Battle Cat in East AVL is rad too.
+                  - list [ref=e767]:
+                    - listitem [ref=e768]:
+                      - link "permalink" [ref=e769] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maefnrm/
+                    - listitem [ref=e770]:
+                      - link "embed" [ref=e771] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e772]:
+                      - link "save" [ref=e773] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e774]:
+                      - link "parent" [ref=e775] [cursor=pointer]:
+                        - /url: "#maebflj"
+                    - listitem [ref=e776]:
+                      - link "report" [ref=e777] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e778]:
+                      - link "reply" [ref=e779] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e780]:
+                - paragraph
+                - generic [ref=e781]:
+                  - button "upvote" [ref=e782] [cursor=pointer]
+                  - button "downvote" [ref=e783] [cursor=pointer]
+                - generic [ref=e784]:
+                  - paragraph [ref=e785]:
+                    - link "[–]" [ref=e786] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "durkdirkderq" [ref=e787] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/durkdirkderq
+                    - generic "Candler :truck1::truck2::banjo2::violin:" [ref=e788]:
+                      - text: "- Candler"
+                      - generic ":truck1:" [ref=e789]
+                      - generic ":truck2:" [ref=e790]
+                      - generic ":banjo2:" [ref=e791]
+                      - generic ":violin:" [ref=e792]
+                    - text: 1 point
+                    - time [ref=e793]: 1 year ago
+                  - paragraph [ref=e797]: I didn’t know about that one. Will have to check it out.
+                  - list [ref=e798]:
+                    - listitem [ref=e799]:
+                      - link "permalink" [ref=e800] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maebplh/
+                    - listitem [ref=e801]:
+                      - link "embed" [ref=e802] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e803]:
+                      - link "save" [ref=e804] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e805]:
+                      - link "parent" [ref=e806] [cursor=pointer]:
+                        - /url: "#maebflj"
+                    - listitem [ref=e807]:
+                      - link "report" [ref=e808] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e809]:
+                      - link "reply" [ref=e810] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e811]:
+          - paragraph
+          - generic [ref=e812]:
+            - button "upvote" [ref=e813] [cursor=pointer]
+            - button "downvote" [ref=e814] [cursor=pointer]
+          - generic [ref=e815]:
+            - paragraph [ref=e816]:
+              - link "[–]" [ref=e817] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "GingerVRD" [ref=e818] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/GingerVRD
+              - generic "Shiloh ▲✟▲" [ref=e819]: "- Shiloh ▲✟▲"
+              - text: 2 points
+              - time [ref=e820]: 1 year ago
+            - paragraph [ref=e824]: Get Roasted for coffee
+            - list [ref=e825]:
+              - listitem [ref=e826]:
+                - link "permalink" [ref=e827] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maffku0/
+              - listitem [ref=e828]:
+                - link "embed" [ref=e829] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e830]:
+                - link "save" [ref=e831] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e832]:
+                - link "report" [ref=e833] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e834]:
+                - link "reply" [ref=e835] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e838]:
+            - paragraph
+            - generic [ref=e839]:
+              - button "upvote" [ref=e840] [cursor=pointer]
+              - button "downvote" [ref=e841] [cursor=pointer]
+            - generic [ref=e842]:
+              - paragraph [ref=e843]:
+                - link "[–]" [ref=e844] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "MissM23" [ref=e845] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/MissM23
+                - text: 1 point
+                - time [ref=e846]: 1 year ago
+              - paragraph [ref=e850]: FYI- Asheville Coffee Roasters is the name, and “Get Roasted” is the slogan. The sign is a little confusing because it reads the other way. Great coffee.
+              - list [ref=e851]:
+                - listitem [ref=e852]:
+                  - link "permalink" [ref=e853] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mag9anv/
+                - listitem [ref=e854]:
+                  - link "embed" [ref=e855] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e856]:
+                  - link "save" [ref=e857] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e858]:
+                  - link "parent" [ref=e859] [cursor=pointer]:
+                    - /url: "#maffku0"
+                - listitem [ref=e860]:
+                  - link "report" [ref=e861] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e862]:
+                  - link "reply" [ref=e863] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e866]:
+              - paragraph
+              - generic [ref=e867]:
+                - button "upvote" [ref=e868] [cursor=pointer]
+                - button "downvote" [ref=e869] [cursor=pointer]
+              - generic [ref=e870]:
+                - paragraph [ref=e871]:
+                  - link "[–]" [ref=e872] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "GingerVRD" [ref=e873] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/GingerVRD
+                  - generic "Shiloh ▲✟▲" [ref=e874]: "- Shiloh ▲✟▲"
+                  - text: 1 point
+                  - time [ref=e875]: 1 year ago
+                - paragraph [ref=e879]: Yea my friends call it get roasted so im just used to it. Thanks!
+                - list [ref=e880]:
+                  - listitem [ref=e881]:
+                    - link "permalink" [ref=e882] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mag9m8a/
+                  - listitem [ref=e883]:
+                    - link "embed" [ref=e884] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e885]:
+                    - link "save" [ref=e886] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e887]:
+                    - link "parent" [ref=e888] [cursor=pointer]:
+                      - /url: "#mag9anv"
+                  - listitem [ref=e889]:
+                    - link "report" [ref=e890] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e891]:
+                    - link "reply" [ref=e892] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e893]:
+          - paragraph
+          - generic [ref=e894]:
+            - button "upvote" [ref=e895] [cursor=pointer]
+            - button "downvote" [ref=e896] [cursor=pointer]
+          - generic [ref=e897]:
+            - paragraph [ref=e898]:
+              - link "[–]" [ref=e899] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Kenilwort" [ref=e900] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Kenilwort
+              - generic "Kenilworth" [ref=e901]: "- Kenilworth"
+              - text: 2 points
+              - time [ref=e902]: 1 year ago
+            - paragraph [ref=e906]: "Here's a tip: don't tell people you are from Florida as an opener."
+            - list [ref=e907]:
+              - listitem [ref=e908]:
+                - link "permalink" [ref=e909] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maezl0c/
+              - listitem [ref=e910]:
+                - link "embed" [ref=e911] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e912]:
+                - link "save" [ref=e913] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e914]:
+                - link "report" [ref=e915] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e916]:
+                - link "reply" [ref=e917] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e920]:
+            - paragraph
+            - generic [ref=e921]:
+              - button "upvote" [ref=e922] [cursor=pointer]
+              - button "downvote" [ref=e923] [cursor=pointer]
+            - generic [ref=e924]:
+              - paragraph [ref=e925]:
+                - link "[–]" [ref=e926] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e927] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: "-2 points"
+                - time [ref=e928]: 1 year ago
+              - paragraph [ref=e932]: "Here’s a tip: don’t judge people based on where they grew up. It was entirely out of my control. Not everyone had the PRIVILEGE of growing up in a progressive place like Asheville NC. Shocked by how unkind and ignorant people have been towards me. I thought Asheville would be better than that."
+              - list [ref=e933]:
+                - listitem [ref=e934]:
+                  - link "permalink" [ref=e935] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mafjiql/
+                - listitem [ref=e936]:
+                  - link "embed" [ref=e937] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e938]:
+                  - link "save" [ref=e939] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e940]:
+                  - link "parent" [ref=e941] [cursor=pointer]:
+                    - /url: "#maezl0c"
+                - listitem [ref=e942]:
+                  - link "report" [ref=e943] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e944]:
+                  - link "reply" [ref=e945] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e947]:
+              - generic [ref=e948]:
+                - paragraph
+                - generic [ref=e949]:
+                  - button "upvote" [ref=e950] [cursor=pointer]
+                  - button "downvote" [ref=e951] [cursor=pointer]
+                - generic [ref=e952]:
+                  - paragraph [ref=e953]:
+                    - link "[–]" [ref=e954] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 3 points"
+                    - time [ref=e955]: 1 year ago
+                  - paragraph [ref=e959]: Hey babe! I’m the guy that mentioned Corner Stone. Anyway, Asheville is not progressive. It’s one of the whitest cities in the South. I’m sorry people are being unkind to you. Come to S. Asheville we are rich, beautiful, and kind.
+                  - list [ref=e960]:
+                    - listitem [ref=e961]:
+                      - link "permalink" [ref=e962] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mai3zm0/
+                    - listitem [ref=e963]:
+                      - link "embed" [ref=e964] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e965]:
+                      - link "save" [ref=e966] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e967]:
+                      - link "parent" [ref=e968] [cursor=pointer]:
+                        - /url: "#mafjiql"
+                    - listitem [ref=e969]:
+                      - link "report" [ref=e970] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e971]:
+                      - link "reply" [ref=e972] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e973]:
+                - paragraph
+                - generic [ref=e974]:
+                  - paragraph [ref=e975]:
+                    - link "[–]" [ref=e976] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e977]: "[deleted]"
+                    - time [ref=e978]: 1 year ago
+                  - paragraph [ref=e982]: "[removed]"
+                  - list
+                - generic [ref=e984]:
+                  - generic [ref=e985]:
+                    - paragraph
+                    - generic [ref=e986]:
+                      - button "upvote" [ref=e987] [cursor=pointer]
+                      - button "downvote" [ref=e988] [cursor=pointer]
+                    - generic [ref=e989]:
+                      - paragraph [ref=e990]:
+                        - link "[–]" [ref=e991] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "Kenilwort" [ref=e992] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/Kenilwort
+                        - generic "Kenilworth" [ref=e993]: "- Kenilworth"
+                        - text: 2 points
+                        - time [ref=e994]: 1 year ago
+                      - paragraph [ref=e998]: And that's BEFORE you get to Miami
+                      - list [ref=e999]:
+                        - listitem [ref=e1000]:
+                          - link "permalink" [ref=e1001] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mahhck0/
+                        - listitem [ref=e1002]:
+                          - link "embed" [ref=e1003] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1004]:
+                          - link "save" [ref=e1005] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1006]:
+                          - link "report" [ref=e1007] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1008]:
+                          - link "reply" [ref=e1009] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                  - generic [ref=e1010]:
+                    - paragraph
+                    - generic [ref=e1011]:
+                      - button "upvote" [ref=e1012] [cursor=pointer]
+                      - button "downvote" [ref=e1013] [cursor=pointer]
+                    - generic [ref=e1014]:
+                      - paragraph [ref=e1015]:
+                        - link "[–]" [ref=e1016] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "asheville-ModTeam" [ref=e1017] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/asheville-ModTeam
+                        - generic [ref=e1018]:
+                          - text: "["
+                          - link "M" [ref=e1019] [cursor=pointer]:
+                            - /url: /r/asheville/about/moderators
+                          - text: "]"
+                        - text: 1 point
+                        - time [ref=e1020]: 1 year ago
+                        - generic "locked by this subreddit's moderators" [ref=e1021]: locked comment
+                      - generic [ref=e1024]:
+                        - paragraph [ref=e1025]: "We are removing your post/comment due to hate speech or insults. This includes but is not limited to:"
+                        - list [ref=e1026]:
+                          - listitem [ref=e1027]: Calls to physical violence or cyberbullying against another person or organization.
+                          - listitem [ref=e1028]: Suicidal posts.
+                          - listitem [ref=e1029]: Text that expresses prejudice against a particular group, especially on the basis of race, religion, sexual orientation, gender, or abilities.
+                          - listitem [ref=e1030]: Demeaning or inflammatory language directed at other users.
+                        - paragraph [ref=e1031]:
+                          - text: Please see our full rules page for the specifics.
+                          - link "https://www.reddit.com/r/asheville/about/rules/" [ref=e1032] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/asheville/about/rules/
+                      - list [ref=e1033]:
+                        - listitem [ref=e1034]:
+                          - link "permalink" [ref=e1035] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mam3opi/
+                        - listitem [ref=e1036]:
+                          - link "embed" [ref=e1037] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1038]:
+                          - link "save" [ref=e1039] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1040]:
+                          - link "report" [ref=e1041] [cursor=pointer]:
+                            - /url: javascript:void(0)
+        - generic [ref=e1042]:
+          - paragraph
+          - generic [ref=e1043]:
+            - button "upvote" [ref=e1044] [cursor=pointer]
+            - button "downvote" [ref=e1045] [cursor=pointer]
+          - generic [ref=e1046]:
+            - paragraph [ref=e1047]:
+              - link "[–]" [ref=e1048] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "lookatthemoonyall" [ref=e1049] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/lookatthemoonyall
+              - generic "Woodfin :cline1::cline2::cline3::cline4::cline5:" [ref=e1050]:
+                - text: "- Woodfin"
+                - generic ":cline1:" [ref=e1051]
+                - generic ":cline2:" [ref=e1052]
+                - generic ":cline3:" [ref=e1053]
+                - generic ":cline4:" [ref=e1054]
+                - generic ":cline5:" [ref=e1055]
+              - text: 2 points
+              - time [ref=e1056]: 1 year ago
+            - paragraph [ref=e1060]: The Malvern for dinner and a vibe, Montford Deli for lunch, Neng Jr’s or Jargon for a fancy dinner. Eulogy for music, and a rooftop bar in the spring. Third room is another cool venue for music and art. Odd’s cafe is my fave coffee & pastries if you’re in West Asheville.
+            - list [ref=e1061]:
+              - listitem [ref=e1062]:
+                - link "permalink" [ref=e1063] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maee5c3/
+              - listitem [ref=e1064]:
+                - link "embed" [ref=e1065] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1066]:
+                - link "save" [ref=e1067] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1068]:
+                - link "report" [ref=e1069] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1070]:
+                - link "reply" [ref=e1071] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1074]:
+            - paragraph
+            - generic [ref=e1075]:
+              - button "upvote" [ref=e1076] [cursor=pointer]
+              - button "downvote" [ref=e1077] [cursor=pointer]
+            - generic [ref=e1078]:
+              - paragraph [ref=e1079]:
+                - link "[–]" [ref=e1080] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e1081] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: 1 point
+                - time [ref=e1082]: 1 year ago
+              - paragraph [ref=e1086]: Thank you!
+              - list [ref=e1087]:
+                - listitem [ref=e1088]:
+                  - link "permalink" [ref=e1089] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maft0ev/
+                - listitem [ref=e1090]:
+                  - link "embed" [ref=e1091] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1092]:
+                  - link "save" [ref=e1093] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1094]:
+                  - link "parent" [ref=e1095] [cursor=pointer]:
+                    - /url: "#maee5c3"
+                - listitem [ref=e1096]:
+                  - link "report" [ref=e1097] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1098]:
+                  - link "reply" [ref=e1099] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1100]:
+          - paragraph
+          - generic [ref=e1101]:
+            - button "upvote" [ref=e1102] [cursor=pointer]
+            - button "downvote" [ref=e1103] [cursor=pointer]
+          - generic [ref=e1104]:
+            - paragraph [ref=e1105]:
+              - link "[–]" [ref=e1106] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 2 points"
+              - time [ref=e1107]: 1 year ago
+            - paragraph [ref=e1111]: We love Smokin’ Onion, Gypsy Queen, Simple Cafe, Vortex Donuts (they’re reopening soon under new ownership), and baked goods by Back Porch Baking. You have to go on a scavenger hunt for Back Porch after they post on social where their goods ended up. These are all vegan friendly places but even if you aren’t vegan, their flavors are a hit with omnis too. If you’re really open minded to vegan food, Plant matches the hype and reviews and you’ll need a reservation most nights.
+            - list [ref=e1112]:
+              - listitem [ref=e1113]:
+                - link "permalink" [ref=e1114] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeff7y/
+              - listitem [ref=e1115]:
+                - link "embed" [ref=e1116] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1117]:
+                - link "save" [ref=e1118] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1119]:
+                - link "report" [ref=e1120] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1121]:
+                - link "reply" [ref=e1122] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1123]:
+          - paragraph
+          - generic [ref=e1124]:
+            - button "upvote" [ref=e1125] [cursor=pointer]
+            - button "downvote" [ref=e1126] [cursor=pointer]
+          - generic [ref=e1127]:
+            - paragraph [ref=e1128]:
+              - link "[–]" [ref=e1129] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Neat-Constant-7406" [ref=e1130] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Neat-Constant-7406
+              - text: 3 points
+              - time [ref=e1131]: 1 year ago
+            - generic [ref=e1134]:
+              - paragraph [ref=e1135]: Just want to say that anyone taking the time out of their miserable lives to see this post, and say something about the fact that I moved here from Florida needs to check their privilege. Not everyone grew up in Asheville NC. some people are raised in shit places and move seeking a more welcoming environment. It’s not difficult to be kind or quite simply, ignore this post. And if you want to say something, don’t delete your comment. Say it with your chest.
+              - paragraph [ref=e1136]: Thank you to anyone who has chosen to be kind and give helpful tips.
+            - list [ref=e1137]:
+              - listitem [ref=e1138]:
+                - link "permalink" [ref=e1139] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mafk6qq/
+              - listitem [ref=e1140]:
+                - link "embed" [ref=e1141] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1142]:
+                - link "save" [ref=e1143] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1144]:
+                - link "report" [ref=e1145] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1146]:
+                - link "reply" [ref=e1147] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1150]:
+            - paragraph
+            - generic [ref=e1151]:
+              - button "upvote" [ref=e1152] [cursor=pointer]
+              - button "downvote" [ref=e1153] [cursor=pointer]
+            - generic [ref=e1154]:
+              - paragraph [ref=e1155]:
+                - link "[–]" [ref=e1156] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "losnalgenes" [ref=e1157] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/losnalgenes
+                - text: 5 points
+                - time [ref=e1158]: 1 year ago
+              - paragraph [ref=e1162]: Most the people replying negatively probably moved here recently too. No one in the real world cares where you’re from
+              - list [ref=e1163]:
+                - listitem [ref=e1164]:
+                  - link "permalink" [ref=e1165] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mafu0m6/
+                - listitem [ref=e1166]:
+                  - link "embed" [ref=e1167] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1168]:
+                  - link "save" [ref=e1169] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1170]:
+                  - link "parent" [ref=e1171] [cursor=pointer]:
+                    - /url: "#mafk6qq"
+                - listitem [ref=e1172]:
+                  - link "report" [ref=e1173] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1174]:
+                  - link "reply" [ref=e1175] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1178]:
+              - paragraph
+              - generic [ref=e1179]:
+                - button "upvote" [ref=e1180] [cursor=pointer]
+                - button "downvote" [ref=e1181] [cursor=pointer]
+              - generic [ref=e1182]:
+                - paragraph [ref=e1183]:
+                  - link "[–]" [ref=e1184] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Neat-Constant-7406" [ref=e1185] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Neat-Constant-7406
+                  - text: 1 point
+                  - time [ref=e1186]: 1 year ago
+                - paragraph [ref=e1190]: Thank you :)
+                - list [ref=e1191]:
+                  - listitem [ref=e1192]:
+                    - link "permalink" [ref=e1193] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/mafv71r/
+                  - listitem [ref=e1194]:
+                    - link "embed" [ref=e1195] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1196]:
+                    - link "save" [ref=e1197] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1198]:
+                    - link "parent" [ref=e1199] [cursor=pointer]:
+                      - /url: "#mafu0m6"
+                  - listitem [ref=e1200]:
+                    - link "report" [ref=e1201] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1202]:
+                    - link "reply" [ref=e1203] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1204]:
+          - paragraph
+          - generic [ref=e1205]:
+            - button "upvote" [ref=e1206] [cursor=pointer]
+            - button "downvote" [ref=e1207] [cursor=pointer]
+          - generic [ref=e1208]:
+            - paragraph [ref=e1209]:
+              - link "[–]" [ref=e1210] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "wncexplorer" [ref=e1211] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/wncexplorer
+              - generic "Alexander :golf1::golf2watu::golf3:" [ref=e1212]:
+                - text: "- Alexander"
+                - generic ":golf1:" [ref=e1213]
+                - generic ":golf2watu:" [ref=e1214]
+                - generic ":golf3:" [ref=e1215]
+              - text: 1 point
+              - time [ref=e1216]: 1 year ago
+            - paragraph [ref=e1220]: What are you into?
+            - list [ref=e1221]:
+              - listitem [ref=e1222]:
+                - link "permalink" [ref=e1223] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maecz5s/
+              - listitem [ref=e1224]:
+                - link "embed" [ref=e1225] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1226]:
+                - link "save" [ref=e1227] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1228]:
+                - link "report" [ref=e1229] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1230]:
+                - link "reply" [ref=e1231] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1234]:
+            - paragraph
+            - generic [ref=e1235]:
+              - button "upvote" [ref=e1236] [cursor=pointer]
+              - button "downvote" [ref=e1237] [cursor=pointer]
+            - generic [ref=e1238]:
+              - paragraph [ref=e1239]:
+                - link "[–]" [ref=e1240] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e1241] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: 1 point
+                - time [ref=e1242]: 1 year ago
+              - paragraph [ref=e1246]: I’m down to try all foods but if you know any good dive bars or places to play pool that would be awesome!
+              - list [ref=e1247]:
+                - listitem [ref=e1248]:
+                  - link "permalink" [ref=e1249] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maei9p2/
+                - listitem [ref=e1250]:
+                  - link "embed" [ref=e1251] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1252]:
+                  - link "save" [ref=e1253] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1254]:
+                  - link "parent" [ref=e1255] [cursor=pointer]:
+                    - /url: "#maecz5s"
+                - listitem [ref=e1256]:
+                  - link "report" [ref=e1257] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1258]:
+                  - link "reply" [ref=e1259] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1260]:
+          - paragraph
+          - generic [ref=e1261]:
+            - button "upvote" [ref=e1262] [cursor=pointer]
+            - button "downvote" [ref=e1263] [cursor=pointer]
+          - generic [ref=e1264]:
+            - paragraph [ref=e1265]:
+              - link "[–]" [ref=e1266] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Critical-Feedback620" [ref=e1267] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Critical-Feedback620
+              - text: 2 points
+              - time [ref=e1268]: 5 months ago
+            - paragraph [ref=e1272]:
+              - text: My friends and I took
+              - link "this Blue Ridge jeep tour" [ref=e1273] [cursor=pointer]:
+                - /url: https://www.viator.com/tours/Asheville/Family-Waterfall-Private-Tour-Half-Day/d22561-67706P7?pid=P00242541&mcid=42383&target_lander=NONE
+              - text: and it was awesome. The guide was amazing, very informative and knowledgeable. The views were phenomenal, definitely worth it!
+            - list [ref=e1274]:
+              - listitem [ref=e1275]:
+                - link "permalink" [ref=e1276] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/nkqt7jv/
+              - listitem [ref=e1277]:
+                - link "embed" [ref=e1278] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1279]:
+                - link "save" [ref=e1280] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1281]:
+                - link "report" [ref=e1282] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1283]:
+                - link "reply" [ref=e1284] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1285]:
+          - paragraph
+          - generic [ref=e1286]:
+            - button "upvote" [ref=e1287] [cursor=pointer]
+            - button "downvote" [ref=e1288] [cursor=pointer]
+          - generic [ref=e1289]:
+            - paragraph [ref=e1290]:
+              - link "[–]" [ref=e1291] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dick_Cheney_Bitchez" [ref=e1292] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dick_Cheney_Bitchez
+              - text: 1 point
+              - time [ref=e1293]: 1 year ago
+            - paragraph [ref=e1297]: Waffle House.
+            - list [ref=e1298]:
+              - listitem [ref=e1299]:
+                - link "permalink" [ref=e1300] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeokw9/
+              - listitem [ref=e1301]:
+                - link "embed" [ref=e1302] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1303]:
+                - link "save" [ref=e1304] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1305]:
+                - link "report" [ref=e1306] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1307]:
+                - link "reply" [ref=e1308] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1311]:
+            - paragraph
+            - generic [ref=e1312]:
+              - button "upvote" [ref=e1313] [cursor=pointer]
+              - button "downvote" [ref=e1314] [cursor=pointer]
+            - generic [ref=e1315]:
+              - paragraph [ref=e1316]:
+                - link "[–]" [ref=e1317] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e1318] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: 2 points
+                - time [ref=e1319]: 1 year ago
+              - paragraph [ref=e1323]: A little too underground for me
+              - list [ref=e1324]:
+                - listitem [ref=e1325]:
+                  - link "permalink" [ref=e1326] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maevyfx/
+                - listitem [ref=e1327]:
+                  - link "embed" [ref=e1328] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1329]:
+                  - link "save" [ref=e1330] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1331]:
+                  - link "parent" [ref=e1332] [cursor=pointer]:
+                    - /url: "#maeokw9"
+                - listitem [ref=e1333]:
+                  - link "report" [ref=e1334] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1335]:
+                  - link "reply" [ref=e1336] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1337]:
+          - paragraph
+          - generic [ref=e1338]:
+            - button "upvote" [ref=e1339] [cursor=pointer]
+            - button "downvote" [ref=e1340] [cursor=pointer]
+          - generic [ref=e1341]:
+            - paragraph [ref=e1342]:
+              - link "[–]" [ref=e1343] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "nuclearmothman" [ref=e1344] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/nuclearmothman
+              - text: 1 point
+              - time [ref=e1345]: 1 year ago
+            - paragraph [ref=e1349]: Potential New Boyfriend!!
+            - list [ref=e1350]:
+              - listitem [ref=e1351]:
+                - link "permalink" [ref=e1352] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeptss/
+              - listitem [ref=e1353]:
+                - link "embed" [ref=e1354] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1355]:
+                - link "save" [ref=e1356] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1357]:
+                - link "report" [ref=e1358] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1359]:
+                - link "reply" [ref=e1360] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1363]:
+            - paragraph
+            - generic [ref=e1364]:
+              - button "upvote" [ref=e1365] [cursor=pointer]
+              - button "downvote" [ref=e1366] [cursor=pointer]
+            - generic [ref=e1367]:
+              - paragraph [ref=e1368]:
+                - link "[–]" [ref=e1369] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Neat-Constant-7406" [ref=e1370] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Neat-Constant-7406
+                - text: 2 points
+                - time [ref=e1371]: 1 year ago
+              - paragraph [ref=e1375]: Oooo this looks good!
+              - list [ref=e1376]:
+                - listitem [ref=e1377]:
+                  - link "permalink" [ref=e1378] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maewu6z/
+                - listitem [ref=e1379]:
+                  - link "embed" [ref=e1380] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1381]:
+                  - link "save" [ref=e1382] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1383]:
+                  - link "parent" [ref=e1384] [cursor=pointer]:
+                    - /url: "#maeptss"
+                - listitem [ref=e1385]:
+                  - link "report" [ref=e1386] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1387]:
+                  - link "reply" [ref=e1388] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1389]:
+          - paragraph
+          - generic [ref=e1390]:
+            - paragraph [ref=e1391]:
+              - link "[–]" [ref=e1392] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e1393]: "[deleted]"
+              - time [ref=e1394]: 1 year ago
+            - paragraph [ref=e1398]: "[deleted]"
+            - list
+          - generic [ref=e1400]:
+            - generic [ref=e1401]:
+              - paragraph
+              - generic [ref=e1402]:
+                - button "upvote" [ref=e1403] [cursor=pointer]
+                - button "downvote" [ref=e1404] [cursor=pointer]
+              - generic [ref=e1405]:
+                - paragraph [ref=e1406]:
+                  - link "[–]" [ref=e1407] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Padre79" [ref=e1408] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Padre79
+                  - text: 2 points
+                  - time [ref=e1409]: 1 year ago
+                - paragraph [ref=e1413]: Montford deli!
+                - list [ref=e1414]:
+                  - listitem [ref=e1415]:
+                    - link "permalink" [ref=e1416] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeh6x6/
+                  - listitem [ref=e1417]:
+                    - link "embed" [ref=e1418] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1419]:
+                    - link "save" [ref=e1420] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1421]:
+                    - link "report" [ref=e1422] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1423]:
+                    - link "reply" [ref=e1424] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1425]:
+              - paragraph
+              - generic [ref=e1426]:
+                - button "upvote" [ref=e1427] [cursor=pointer]
+                - button "downvote" [ref=e1428] [cursor=pointer]
+              - generic [ref=e1429]:
+                - paragraph [ref=e1430]:
+                  - link "[–]" [ref=e1431] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bodai1986" [ref=e1432] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bodai1986
+                  - generic "Alexander :golf1::golf2watu::golf3:" [ref=e1433]:
+                    - text: "- Alexander"
+                    - generic ":golf1:" [ref=e1434]
+                    - generic ":golf2watu:" [ref=e1435]
+                    - generic ":golf3:" [ref=e1436]
+                  - text: 1 point
+                  - time [ref=e1437]: 1 year ago
+                - paragraph [ref=e1441]: "Breakfast: Arabella's in Hendo is my top pick!"
+                - list [ref=e1442]:
+                  - listitem [ref=e1443]:
+                    - link "permalink" [ref=e1444] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maecvm4/
+                  - listitem [ref=e1445]:
+                    - link "embed" [ref=e1446] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1447]:
+                    - link "save" [ref=e1448] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1449]:
+                    - link "report" [ref=e1450] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1451]:
+                    - link "reply" [ref=e1452] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1453]:
+          - paragraph
+          - generic [ref=e1454]:
+            - button "upvote" [ref=e1455] [cursor=pointer]
+            - button "downvote" [ref=e1456] [cursor=pointer]
+          - generic [ref=e1457]:
+            - paragraph [ref=e1458]:
+              - link "[–]" [ref=e1459] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "FlapJackson420" [ref=e1460] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/FlapJackson420
+              - text: 0 points
+              - time [ref=e1461]: 1 year ago
+            - paragraph [ref=e1465]: Suwana is the best Thai in town! I'll die on this hill.
+            - list [ref=e1466]:
+              - listitem [ref=e1467]:
+                - link "permalink" [ref=e1468] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maees1l/
+              - listitem [ref=e1469]:
+                - link "embed" [ref=e1470] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1471]:
+                - link "save" [ref=e1472] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1473]:
+                - link "report" [ref=e1474] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1475]:
+                - link "reply" [ref=e1476] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1477]:
+          - paragraph
+          - generic [ref=e1478]:
+            - button "upvote" [ref=e1479] [cursor=pointer]
+            - button "downvote" [ref=e1480] [cursor=pointer]
+          - generic [ref=e1481]:
+            - paragraph [ref=e1482]:
+              - link "[–]" [ref=e1483] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "11-24-24" [ref=e1484] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/11-24-24
+              - text: 0 points
+              - time [ref=e1485]: 1 year ago
+            - paragraph [ref=e1489]: DeSoto Lounge for brunch on weekends and a good drink other times. Galactic Pizza for pizza, Haywood lounge for wings. Thai Pearl for excellent and reasonably priced fare .
+            - list [ref=e1490]:
+              - listitem [ref=e1491]:
+                - link "permalink" [ref=e1492] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maee0o1/
+              - listitem [ref=e1493]:
+                - link "embed" [ref=e1494] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1495]:
+                - link "save" [ref=e1496] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1497]:
+                - link "report" [ref=e1498] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1499]:
+                - link "reply" [ref=e1500] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1503]:
+            - paragraph
+            - generic [ref=e1504]:
+              - button "upvote" [ref=e1505] [cursor=pointer]
+              - button "downvote" [ref=e1506] [cursor=pointer]
+            - generic [ref=e1507]:
+              - paragraph [ref=e1508]:
+                - link "[–]" [ref=e1509] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Seriously_Enraged" [ref=e1510] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Seriously_Enraged
+                - text: 1 point
+                - time [ref=e1511]: 1 year ago
+              - paragraph [ref=e1515]: Second Galactic Pizza. We like their wings as well! I can't help you with local coffee because I go to work wayyyy before anything local opens, so it's Dunkin' for me. ☕️
+              - list [ref=e1516]:
+                - listitem [ref=e1517]:
+                  - link "permalink" [ref=e1518] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/magdd11/
+                - listitem [ref=e1519]:
+                  - link "embed" [ref=e1520] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1521]:
+                  - link "save" [ref=e1522] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1523]:
+                  - link "parent" [ref=e1524] [cursor=pointer]:
+                    - /url: "#maee0o1"
+                - listitem [ref=e1525]:
+                  - link "report" [ref=e1526] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1527]:
+                  - link "reply" [ref=e1528] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e1529]:
+          - paragraph
+          - generic [ref=e1530]:
+            - button "upvote" [ref=e1531] [cursor=pointer]
+            - button "downvote" [ref=e1532] [cursor=pointer]
+          - generic [ref=e1533]:
+            - paragraph [ref=e1534]:
+              - link "[–]" [ref=e1535] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Neat-Constant-7406" [ref=e1536] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Neat-Constant-7406
+              - text: 0 points
+              - time [ref=e1537]: 1 year ago
+            - paragraph [ref=e1541]: Thank you everyone!!
+            - list [ref=e1542]:
+              - listitem [ref=e1543]:
+                - link "permalink" [ref=e1544] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeiosz/
+              - listitem [ref=e1545]:
+                - link "embed" [ref=e1546] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1547]:
+                - link "save" [ref=e1548] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1549]:
+                - link "report" [ref=e1550] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1551]:
+                - link "reply" [ref=e1552] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1553]:
+          - paragraph
+          - paragraph [ref=e1555]:
+            - link "[+]" [ref=e1556] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "fransplan" [ref=e1557] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/fransplan
+            - text: comment score below threshold
+            - link "(0 children)" [ref=e1558] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1559]:
+          - paragraph
+          - paragraph [ref=e1561]:
+            - link "[+]" [ref=e1562] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Snoo_16334" [ref=e1563] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Snoo_16334
+            - text: comment score below threshold
+            - link "(0 children)" [ref=e1564] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e1565]:
+          - paragraph
+          - generic [ref=e1566]:
+            - paragraph [ref=e1567]:
+              - link "[–]" [ref=e1568] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e1569]: "[deleted]"
+              - time [ref=e1570]: 1 year ago
+            - paragraph [ref=e1574]: "[removed]"
+            - list
+          - generic [ref=e1576]:
+            - generic [ref=e1577]:
+              - paragraph
+              - generic [ref=e1578]:
+                - button "upvote" [ref=e1579] [cursor=pointer]
+                - button "downvote" [ref=e1580] [cursor=pointer]
+              - generic [ref=e1581]:
+                - paragraph [ref=e1582]:
+                  - link "[–]" [ref=e1583] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Strong-Rise6221" [ref=e1584] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Strong-Rise6221
+                  - text: 2 points
+                  - time [ref=e1585]: 1 year ago
+                - paragraph [ref=e1589]: Just remember that Jesus loves the people you hate. 🌈
+                - list [ref=e1590]:
+                  - listitem [ref=e1591]:
+                    - link "permalink" [ref=e1592] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeh6se/
+                  - listitem [ref=e1593]:
+                    - link "embed" [ref=e1594] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1595]:
+                    - link "save" [ref=e1596] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1597]:
+                    - link "parent" [ref=e1598] [cursor=pointer]:
+                      - /url: "#maeea9q"
+                  - listitem [ref=e1599]:
+                    - link "report" [ref=e1600] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1601]:
+                    - link "reply" [ref=e1602] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1605]:
+                - paragraph
+                - generic [ref=e1606]:
+                  - button "upvote" [ref=e1607] [cursor=pointer]
+                  - button "downvote" [ref=e1608] [cursor=pointer]
+                - generic [ref=e1609]:
+                  - paragraph [ref=e1610]:
+                    - link "[–]" [ref=e1611] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Neat-Constant-7406" [ref=e1612] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Neat-Constant-7406
+                    - text: 5 points
+                    - time [ref=e1613]: 1 year ago
+                  - paragraph [ref=e1617]: I’m Christian and bisexual. Idk why anyone read this and assumed I am homophobic. Absolutely insane. Idk why I have to explain myself on a post about wanting to try good food spots.
+                  - list [ref=e1618]:
+                    - listitem [ref=e1619]:
+                      - link "permalink" [ref=e1620] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maetu34/
+                    - listitem [ref=e1621]:
+                      - link "embed" [ref=e1622] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1623]:
+                      - link "save" [ref=e1624] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1625]:
+                      - link "parent" [ref=e1626] [cursor=pointer]:
+                        - /url: "#maeh6se"
+                    - listitem [ref=e1627]:
+                      - link "report" [ref=e1628] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1629]:
+                      - link "reply" [ref=e1630] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e1631]:
+              - paragraph
+              - generic [ref=e1632]:
+                - button "upvote" [ref=e1633] [cursor=pointer]
+                - button "downvote" [ref=e1634] [cursor=pointer]
+              - generic [ref=e1635]:
+                - paragraph [ref=e1636]:
+                  - link "[–]" [ref=e1637] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Neat-Constant-7406" [ref=e1638] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Neat-Constant-7406
+                  - text: 3 points
+                  - time [ref=e1639]: 1 year ago
+                - paragraph [ref=e1643]: What a dumb thing to say. I’m asking about good local spots and your response and initial comment is an accusation that I’m homophobic because I’m from Florida? That is whack. I love all people. Except assholes, really hate assholes.
+                - list [ref=e1644]:
+                  - listitem [ref=e1645]:
+                    - link "permalink" [ref=e1646] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maehe6y/
+                  - listitem [ref=e1647]:
+                    - link "embed" [ref=e1648] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1649]:
+                    - link "save" [ref=e1650] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1651]:
+                    - link "parent" [ref=e1652] [cursor=pointer]:
+                      - /url: "#maeea9q"
+                  - listitem [ref=e1653]:
+                    - link "report" [ref=e1654] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1655]:
+                    - link "reply" [ref=e1656] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1659]:
+                - paragraph
+                - generic [ref=e1660]:
+                  - paragraph [ref=e1661]:
+                    - link "[–]" [ref=e1662] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e1663]: "[deleted]"
+                    - time [ref=e1664]: 1 year ago
+                  - paragraph [ref=e1668]: "[removed]"
+                  - list
+                - generic [ref=e1671]:
+                  - paragraph
+                  - generic [ref=e1672]:
+                    - button "upvote" [ref=e1673] [cursor=pointer]
+                    - button "downvote" [ref=e1674] [cursor=pointer]
+                  - generic [ref=e1675]:
+                    - paragraph [ref=e1676]:
+                      - link "[–]" [ref=e1677] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "asheville-ModTeam" [ref=e1678] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/asheville-ModTeam
+                      - generic [ref=e1679]:
+                        - text: "["
+                        - link "M" [ref=e1680] [cursor=pointer]:
+                          - /url: /r/asheville/about/moderators
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1681]: 1 year ago
+                      - generic "locked by this subreddit's moderators" [ref=e1682]: locked comment
+                    - generic [ref=e1685]:
+                      - paragraph [ref=e1686]: "We are removing your post/comment due to trolling related behavior. This includes but is not limited to:"
+                      - list [ref=e1687]:
+                        - listitem [ref=e1688]: Inflammatory and digressive behavior
+                        - listitem [ref=e1689]: Extraneous, or off-topic messages
+                        - listitem [ref=e1690]: Intentional deception
+                        - listitem [ref=e1691]: Posts with little substance that invite ridicule at a person or group of people (car owners, parents with children, cyclists, etc)
+                      - paragraph [ref=e1692]:
+                        - text: Please see our full rules page for the specifics.
+                        - link "https://www.reddit.com/r/asheville/about/rules/" [ref=e1693] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/asheville/about/rules/
+                    - list [ref=e1694]:
+                      - listitem [ref=e1695]:
+                        - link "permalink" [ref=e1696] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeu9ps/
+                      - listitem [ref=e1697]:
+                        - link "embed" [ref=e1698] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1699]:
+                        - link "save" [ref=e1700] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1701]:
+                        - link "parent" [ref=e1702] [cursor=pointer]:
+                          - /url: "#maeidh5"
+                      - listitem [ref=e1703]:
+                        - link "report" [ref=e1704] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e1705]:
+              - paragraph
+              - generic [ref=e1706]:
+                - button "upvote" [ref=e1707] [cursor=pointer]
+                - button "downvote" [ref=e1708] [cursor=pointer]
+              - generic [ref=e1709]:
+                - paragraph [ref=e1710]:
+                  - link "[–]" [ref=e1711] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "asheville-ModTeam" [ref=e1712] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/asheville-ModTeam
+                  - generic [ref=e1713]:
+                    - text: "["
+                    - link "M" [ref=e1714] [cursor=pointer]:
+                      - /url: /r/asheville/about/moderators
+                    - text: "]"
+                  - text: 1 point
+                  - time [ref=e1715]: 1 year ago
+                  - generic "locked by this subreddit's moderators" [ref=e1716]: locked comment
+                - generic [ref=e1719]:
+                  - paragraph [ref=e1720]: "We are removing your post/comment due to trolling related behavior. This includes but is not limited to:"
+                  - list [ref=e1721]:
+                    - listitem [ref=e1722]: Inflammatory and digressive behavior
+                    - listitem [ref=e1723]: Extraneous, or off-topic messages
+                    - listitem [ref=e1724]: Intentional deception
+                    - listitem [ref=e1725]: Posts with little substance that invite ridicule at a person or group of people (car owners, parents with children, cyclists, etc)
+                  - paragraph [ref=e1726]:
+                    - text: Please see our full rules page for the specifics.
+                    - link "https://www.reddit.com/r/asheville/about/rules/" [ref=e1727] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/asheville/about/rules/
+                - list [ref=e1728]:
+                  - listitem [ref=e1729]:
+                    - link "permalink" [ref=e1730] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/asheville/comments/1if9xya/looking_for_hidden_gems_as_a_newby_to_asheville/maeuajk/
+                  - listitem [ref=e1731]:
+                    - link "embed" [ref=e1732] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1733]:
+                    - link "save" [ref=e1734] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1735]:
+                    - link "parent" [ref=e1736] [cursor=pointer]:
+                      - /url: "#maeea9q"
+                  - listitem [ref=e1737]:
+                    - link "report" [ref=e1738] [cursor=pointer]:
+                      - /url: javascript:void(0)
+  - generic [ref=e1739]:
+    - generic [ref=e1740]:
+      - list [ref=e1742]:
+        - listitem [ref=e1743]: about
+        - listitem [ref=e1744]:
+          - link "blog" [ref=e1745] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1746]:
+          - link "about" [ref=e1747] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1748]:
+          - link "advertising" [ref=e1749] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1750]:
+          - link "careers" [ref=e1751] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1753]:
+        - listitem [ref=e1754]: help
+        - listitem [ref=e1755]:
+          - link "site rules" [ref=e1756] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1757]:
+          - link "Reddit help center" [ref=e1758] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1759]:
+          - link "reddiquette" [ref=e1760] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1761]:
+          - link "mod guidelines" [ref=e1762] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1763]:
+          - link "contact us" [ref=e1764] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1766]:
+        - listitem [ref=e1767]: apps & tools
+        - listitem [ref=e1768]:
+          - link "Reddit for iPhone" [ref=e1769] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1770]:
+          - link "Reddit for Android" [ref=e1771] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1772]:
+          - link "mobile website" [ref=e1773] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1775]:
+        - listitem [ref=e1776]: <3
+        - listitem [ref=e1777]:
+          - link "reddit premium" [ref=e1778] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1779]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1780] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1781] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1782]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1783]
+  - paragraph [ref=e1784]: π

@@ -1,0 +1,576 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "irvine" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 01 May 2023
+      - generic [ref=e127]: 10 points (86% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/134ao8d
+    - generic [ref=e130]:
+      - link "Submit a new linkSubmit Link" [ref=e131] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit
+      - text: N/A
+    - generic [ref=e132]:
+      - text: N/A
+      - link "Submit a new text postSubmit Text" [ref=e133] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit?selftext=true
+    - generic [ref=e135]:
+      - text: Subreddit Info
+      - heading "irvine" [level=1] [ref=e136]:
+        - link "irvine" [ref=e137] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/irvine/
+      - link "join" [ref=e139] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e142]:
+        - separator [ref=e143]
+        - paragraph [ref=e144]:
+          - link "Thinking about moving to Irvine? Please check out the wiki before submitting a question!" [ref=e145] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/wiki/moving
+        - separator [ref=e146]
+        - paragraph [ref=e147]:
+          - link "Posting Rules:" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/about/rules/
+            - strong [ref=e149]: "Posting Rules:"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - paragraph [ref=e152]: Try to be courteous, it's a small subreddit.
+          - listitem [ref=e153]:
+            - paragraph [ref=e154]: Don't spam. Advertisements may be removed (includes self promotion).
+          - listitem [ref=e155]:
+            - paragraph [ref=e156]: This is not a subreddit to meet other people.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: This is not a subreddit to sell or buy things/services.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: If you're a politician or most of your posts are about politics, your submission/comments may be removed. Please message the moderators if you have any questions.
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: No simple, generic, or misleading posts (e.g. one or two word titles, questions that can easily be googled, complaints about the city, etc).
+          - listitem [ref=e163]:
+            - paragraph [ref=e164]: Links to Twitter/X are not allowed.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: AI generated posts are not allowed.
+        - paragraph [ref=e167]:
+          - emphasis [ref=e168]: Posts may be removed for reasons not listed above. Please feel free to inquire about any removals.
+        - paragraph [ref=e169]
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Things to Do:"
+        - paragraph [ref=e172]:
+          - link "Orange County Great Park" [ref=e173] [cursor=pointer]:
+            - /url: http://www.ocgp.org/
+        - paragraph [ref=e174]:
+          - link "Irvine Improv" [ref=e175] [cursor=pointer]:
+            - /url: http://irvine.improv.com/
+        - paragraph [ref=e176]:
+          - link "Irvine Ampitheatre" [ref=e177] [cursor=pointer]:
+            - /url: http://www.verizonwirelessamphitheatreirvine.com/
+        - paragraph [ref=e178]:
+          - link "IVC Arts" [ref=e179] [cursor=pointer]:
+            - /url: http://www.ivcarts.org/
+        - paragraph [ref=e180]
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: "Shopping:"
+        - paragraph [ref=e183]:
+          - link "Irvine Spectrum" [ref=e184] [cursor=pointer]:
+            - /url: http://www.shopirvinespectrumcenter.com/
+        - paragraph [ref=e185]:
+          - link "Diamond Jamboree" [ref=e186] [cursor=pointer]:
+            - /url: http://www.diamond-jamboree.com/
+        - paragraph [ref=e187]:
+          - link "Tustin Marketplace" [ref=e188] [cursor=pointer]:
+            - /url: http://www.shopthemarketplace.com/
+        - paragraph [ref=e189]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: "Community Sites:"
+        - paragraph [ref=e192]:
+          - link "Irvine Police Department" [ref=e193] [cursor=pointer]:
+            - /url: http://www.cityofirvine.org/ipd/
+        - paragraph [ref=e194]:
+          - link "The Irvine Company" [ref=e195] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e196]:
+          - link "UC Irvine" [ref=e197] [cursor=pointer]:
+            - /url: http://uci.edu/
+        - paragraph [ref=e198]:
+          - link "Irvine Unified School District" [ref=e199] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e200]:
+          - link "Irvine Chamber of Commerce" [ref=e201] [cursor=pointer]:
+            - /url: http://www.irvinechamber.com/
+        - paragraph [ref=e202]:
+          - link "Irvine Valley College" [ref=e203] [cursor=pointer]:
+            - /url: http://ivc.edu/
+        - paragraph [ref=e204]
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Other Subreddits:"
+        - paragraph [ref=e207]:
+          - link "/r/orangecounty" [ref=e208] [cursor=pointer]:
+            - /url: /r/orangecounty
+    - generic [ref=e210]:
+      - heading "MODERATORS" [level=1] [ref=e212]
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link "message the mods" [ref=e215] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/irvine
+    - complementary [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - text: discussions in
+          - link "r/irvine" [ref=e221] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/?ref=readnext
+        - navigation [ref=e222]:
+          - generic [ref=e223] [cursor=pointer]: <
+          - generic [ref=e224] [cursor=pointer]: ">"
+        - generic [ref=e226] [cursor=pointer]: X
+      - link "19 · 20 comments Irvine City Council allows Oak Creek Golf Course zoning change" [ref=e228] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/comments/1so1evf/irvine_city_council_allows_oak_creek_golf_course/?ref=readnext_0
+        - generic [ref=e229]: 19 · 20 comments
+        - generic [ref=e231]: Irvine City Council allows Oak Creek Golf Course zoning change
+    - text: This subreddit uses the /r/Naut theme.
+  - main [ref=e232]:
+    - generic [ref=e233]:
+      - link "Welcome to Reddit. Come for the cats, stay for the empathy. Become a Redditor and start exploring." [ref=e234] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e235]
+        - paragraph [ref=e236]: Come for the cats, stay for the empathy.
+        - generic [ref=e237]:
+          - generic [ref=e238]: Become a Redditor
+          - paragraph [ref=e239]: and start exploring.
+      - link "×" [ref=e240] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e242]:
+      - paragraph
+      - generic [ref=e243]:
+        - button "upvote" [ref=e244] [cursor=pointer]
+        - generic "10" [ref=e245]
+        - button "downvote" [ref=e246] [cursor=pointer]
+      - link [ref=e247] [cursor=pointer]:
+        - /url: /r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - paragraph [ref=e250]:
+            - link "What’s really good outdoor area with shades" [ref=e251] [cursor=pointer]:
+              - /url: /r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/
+            - link "self.irvine" [ref=e252] [cursor=pointer]:
+              - /url: /r/irvine/
+          - paragraph [ref=e253]:
+            - text: submitted
+            - time [ref=e254]: 2 years ago
+            - text: by
+            - link "lucky_anonymous" [ref=e255] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/lucky_anonymous
+        - generic [ref=e259]:
+          - paragraph [ref=e260]: California and Irvine is really beautiful. Lot of nature (water and mountain), but I’m seeing less shades probably due to large open spaces?
+          - paragraph [ref=e261]: Are there family friendly area, hiking, biking, walking, picnic that has good amount of shades?
+          - paragraph [ref=e262]: Thank you
+        - list [ref=e263]:
+          - listitem [ref=e264]:
+            - link "3 comments" [ref=e265] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/
+          - listitem [ref=e266]:
+            - link "share" [ref=e267] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e268]:
+            - link "save" [ref=e269] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e270]:
+            - link "hide" [ref=e273] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e274]:
+            - link "report" [ref=e275] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e276]:
+      - generic [ref=e277]: all 3 comments
+      - generic [ref=e279]:
+        - text: "sorted by:"
+        - generic [ref=e280]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e283] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e284]
+        - generic [ref=e285]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e286]
+          - paragraph [ref=e287]: Post a comment!
+          - generic [ref=e289]: Create an account
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - paragraph
+          - generic [ref=e292]:
+            - button "upvote" [ref=e293] [cursor=pointer]
+            - button "downvote" [ref=e294] [cursor=pointer]
+          - generic [ref=e295]:
+            - paragraph [ref=e296]:
+              - link "[–]" [ref=e297] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "swarf" [ref=e298] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/swarf
+              - text: • • 5 points •
+              - time [ref=e299]: 2 years ago
+            - generic [ref=e302]:
+              - paragraph [ref=e303]: I've only found short stretches of shady hikes and small patches of shade in parks. For a picnic you can try to snag a spot by one of the trees in Mason Regional Park. For trails, the two shadiest I've found in Irvine are 1) the first mile of the Borrego Trail, starting at the trailhead behind the parking lot of the Portola Ralphas, 2) Laurel Canyon Trail + Lizard Trail in the Laguna Coast Wilderness, accessible from the Willow staging area.
+              - paragraph [ref=e304]
+              - paragraph [ref=e305]: If anyone else has found better spots, I'm interested too.
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - link "permalink" [ref=e308] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/jiedjd6/
+              - listitem [ref=e309]:
+                - link "embed" [ref=e310] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e311]:
+                - link "save" [ref=e312] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e313]:
+                - link "report" [ref=e314] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e315]:
+                - link "reply" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e317]:
+          - paragraph
+          - generic [ref=e318]:
+            - button "upvote" [ref=e319] [cursor=pointer]
+            - button "downvote" [ref=e320] [cursor=pointer]
+          - generic [ref=e321]:
+            - paragraph [ref=e322]:
+              - link "[–]" [ref=e323] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "semihelpful" [ref=e324] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/semihelpful
+              - text: • • 4 points •
+              - time [ref=e325]: 2 years ago
+            - paragraph [ref=e329]: Irvine Regional Park
+            - list [ref=e330]:
+              - listitem [ref=e331]:
+                - link "permalink" [ref=e332] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/jiifum1/
+              - listitem [ref=e333]:
+                - link "embed" [ref=e334] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e335]:
+                - link "save" [ref=e336] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e337]:
+                - link "report" [ref=e338] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e339]:
+                - link "reply" [ref=e340] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e341]:
+          - paragraph
+          - generic [ref=e342]:
+            - button "upvote" [ref=e343] [cursor=pointer]
+            - button "downvote" [ref=e344] [cursor=pointer]
+          - generic [ref=e345]:
+            - paragraph [ref=e346]:
+              - link "[–]" [ref=e347] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "trifelin" [ref=e348] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/trifelin
+              - generic "University Park" [ref=e349]: "- University Park"
+              - text: • • 1 point •
+              - time [ref=e350]: 2 years ago
+            - generic [ref=e353]:
+              - paragraph [ref=e354]: There are lots of picnic tables under gazebos in parks all over the city. There are similar picnic areas in Irvine Regional Park if you want something a little more immersed in nature.
+              - paragraph [ref=e355]: The city puts out tons of places with tables, garbage cans and toilets that are nice for a picnic. You don’t have to do it on a hike.
+              - paragraph [ref=e356]: I’m not saying don’t go hiking but the native chaparral vegetation isn’t really a shady picnic gathering type of landscape. It’s the kind of hiking where you find a small spot to sit on a rock or stump and eat some trail snacks for a minute while you rest.
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - link "permalink" [ref=e359] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/134ao8d/whats_really_good_outdoor_area_with_shades/jifu88s/
+              - listitem [ref=e360]:
+                - link "embed" [ref=e361] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e362]:
+                - link "save" [ref=e363] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e364]:
+                - link "report" [ref=e365] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e366]:
+                - link "reply" [ref=e367] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e368]:
+    - generic [ref=e369]:
+      - list [ref=e371]:
+        - listitem [ref=e372]: about
+        - listitem [ref=e373]:
+          - link "blog" [ref=e374] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e375]:
+          - link "about" [ref=e376] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e377]:
+          - link "advertising" [ref=e378] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e379]:
+          - link "careers" [ref=e380] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e382]:
+        - listitem [ref=e383]: help
+        - listitem [ref=e384]:
+          - link "site rules" [ref=e385] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e386]:
+          - link "Reddit help center" [ref=e387] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e388]:
+          - link "reddiquette" [ref=e389] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e390]:
+          - link "mod guidelines" [ref=e391] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e392]:
+          - link "contact us" [ref=e393] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e395]:
+        - listitem [ref=e396]: apps & tools
+        - listitem [ref=e397]:
+          - link "Reddit for iPhone" [ref=e398] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e399]:
+          - link "Reddit for Android" [ref=e400] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e401]:
+          - link "mobile website" [ref=e402] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e404]:
+        - listitem [ref=e405]: <3
+        - listitem [ref=e406]:
+          - link "reddit premium" [ref=e407] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e408]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e409] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e410] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e411]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

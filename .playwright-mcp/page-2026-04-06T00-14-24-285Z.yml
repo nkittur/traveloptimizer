@@ -1,0 +1,23 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - heading "San Diego Restaurants" [level=1] [ref=e3]
+    - button "+ Add" [ref=e4] [cursor=pointer]
+  - main [ref=e5]
+  - generic [ref=e7]:
+    - heading "Who are you?" [level=3] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - text: Your name
+        - textbox "Your name" [active] [ref=e12]:
+          - /placeholder: e.g. Niki, Carissa, Ashi
+      - button "Continue" [ref=e13] [cursor=pointer]
+  - navigation [ref=e14]:
+    - button "🍽 All" [ref=e15] [cursor=pointer]:
+      - generic [ref=e16]: 🍽
+      - text: All
+    - button "⭐ Shortlist" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: ⭐
+      - text: Shortlist
+    - button "🗑 Trash" [ref=e20] [cursor=pointer]:
+      - generic [ref=e21]: 🗑
+      - text: Trash

@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - button "Menu" [ref=e6] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e9]: Menu
+    - link "home page" [ref=e11] [cursor=pointer]:
+      - /url: /
+      - img "AFAR Logo - Main" [ref=e12]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]: Sorry, you must be lost!
+      - generic [ref=e18]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]:
+            - text: Whoops! Apparently that page doesn’t exist (404 error). Why don’t you try our homepage or
+            - link "recent articles" [ref=e23] [cursor=pointer]:
+              - /url: https://www.afar.com/magazine
+            - text: instead?
+          - paragraph [ref=e24]: . . . . . . . . . . . . .
+          - generic [ref=e27]:
+            - generic [ref=e29]: Suggested articles
+            - generic [ref=e32]:
+              - link "This National Park Gateway Town Is Celebrating 25 Years as the World’s First Dark Sky City" [ref=e34] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/travel-and-restaurant-guide-to-flagstaff-arizona
+              - 'link "Curaçao in the Sun: A Local Photographer’s Island Portrait" [ref=e36] [cursor=pointer]':
+                - /url: https://www.afar.com/magazine/how-to-experience-a-different-side-of-curacao
+              - link "How to Get Through Airport Security Quickly, According to a TSA Insider" [ref=e38] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/tips-for-breezing-through-airport-security-from-a-tsa-insider
+              - link "4 Can’t-Miss Places to Stop on Illinois’ Route 66" [ref=e40] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/plan-a-route-66-illinois-road-trip
+              - link "The World’s Longest Coastal Path Is in England. Here Are Its Most Scenic Stretches" [ref=e42] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine/scenic-sections-of-the-king-charles-iii-england-coast-path
+          - paragraph
+        - generic [ref=e45]:
+          - figure [ref=e48]:
+            - img "How are social issues affecting travelers’ choices about where to visit—and spend their hard-earned vacation dollars?" [ref=e51]
+            - paragraph [ref=e54]: Illustration by Melanie Lambrick
+          - paragraph
+  - contentinfo [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - img "AFAR White Logo" [ref=e61]
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "twitter" [ref=e65] [cursor=pointer]:
+                - /url: https://twitter.com/afarmedia
+                - img [ref=e66]
+                - generic [ref=e68]: twitter
+            - listitem [ref=e69]:
+              - link "instagram" [ref=e70] [cursor=pointer]:
+                - /url: https://www.instagram.com/afarmedia/
+                - img [ref=e71]
+                - generic [ref=e73]: instagram
+            - listitem [ref=e74]:
+              - link "facebook" [ref=e75] [cursor=pointer]:
+                - /url: https://www.facebook.com/afarmedia
+                - img [ref=e76]
+                - generic [ref=e78]: facebook
+            - listitem [ref=e79]:
+              - link "pinterest" [ref=e80] [cursor=pointer]:
+                - /url: https://www.pinterest.com/afarmedia
+                - img [ref=e81]
+                - generic [ref=e83]: pinterest
+            - listitem [ref=e84]:
+              - link "youtube" [ref=e85] [cursor=pointer]:
+                - /url: https://www.youtube.com/afarmedia
+                - img [ref=e86]
+                - generic [ref=e88]: youtube
+            - listitem [ref=e89]:
+              - link "linkedin" [ref=e90] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/afar-media
+                - img [ref=e91]
+                - generic [ref=e93]: linkedin
+        - navigation [ref=e96]:
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - link "About Us" [ref=e100] [cursor=pointer]:
+                - /url: https://www.afar.com/about
+            - listitem [ref=e101]:
+              - link "Subscribe to the magazine" [ref=e103] [cursor=pointer]:
+                - /url: https://w1.buysub.com/servlet/OrdersGateway?cds_mag_code=AFA&cds_page_id=223701&cds_response_key=I8300
+            - listitem [ref=e104]:
+              - link "The Travel Advisory Council" [ref=e106] [cursor=pointer]:
+                - /url: https://www.afar.com/about/travel-advisory-council
+            - listitem [ref=e107]:
+              - link "Advertising" [ref=e109] [cursor=pointer]:
+                - /url: https://www.afar.com/advertise
+            - listitem [ref=e110]:
+              - link "Gift a subscription" [ref=e112] [cursor=pointer]:
+                - /url: https://w1.buysub.com/servlet/GiftsGateway?cds_mag_code=AFA&cds_page_id=224551&cds_responsekey=G8301
+            - listitem [ref=e113]:
+              - link "Destination guides" [ref=e115] [cursor=pointer]:
+                - /url: https://www.afar.com/travel-guides
+            - listitem [ref=e116]:
+              - link "Careers" [ref=e118] [cursor=pointer]:
+                - /url: https://www.afar.com/about/jobs
+            - listitem [ref=e119]:
+              - link "Manage your subscription" [ref=e121] [cursor=pointer]:
+                - /url: https://w1.buysub.com/loc/AFA/customerservice
+            - listitem [ref=e122]:
+              - link "Podcasts" [ref=e124] [cursor=pointer]:
+                - /url: https://www.afar.com/podcasts
+            - listitem [ref=e125]:
+              - link "Contributor’s Guidelines" [ref=e127] [cursor=pointer]:
+                - /url: https://www.afar.com/about/pitch-guidelines
+            - listitem [ref=e128]:
+              - link "Customer Service" [ref=e130] [cursor=pointer]:
+                - /url: https://www.afar.com/about/customer-service
+            - listitem [ref=e131]:
+              - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+                - /url: https://www.afar.com/about/privacy-policy
+            - listitem [ref=e134]:
+              - link "Archive" [ref=e136] [cursor=pointer]:
+                - /url: https://www.afar.com/magazine
+            - listitem [ref=e137]:
+              - link "Cookie Policy" [ref=e139] [cursor=pointer]:
+                - /url: https://www.afar.com/about/cookie-policy
+            - listitem [ref=e140]:
+              - link "Terms of service" [ref=e142] [cursor=pointer]:
+                - /url: https://www.afar.com/about/terms-of-service
+            - listitem [ref=e143]:
+              - link "Newsletters" [ref=e145] [cursor=pointer]:
+                - /url: https://email.afar.com/join/3n4/signup
+            - listitem [ref=e146]:
+              - link "Videos" [ref=e148] [cursor=pointer]:
+                - /url: https://www.afar.com/videos
+      - generic [ref=e150]:
+        - paragraph [ref=e151]:
+          - generic [ref=e152]: Travelers Who Care
+        - paragraph [ref=e153]:
+          - text: Afar participates in affiliate marketing programs, which means we may earn a commission if you purchase an item featured on our site.
+          - text: © 2026 AFAR LLC

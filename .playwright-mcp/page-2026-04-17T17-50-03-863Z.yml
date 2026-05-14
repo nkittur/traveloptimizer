@@ -1,0 +1,2018 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits ▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "orangecounty" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 26 Nov 2022
+      - generic [ref=e127]: 32 points (89% upvoted)
+      - textbox [ref=e128]: https://redd.it/z5igtq
+    - generic [ref=e129]:
+      - link "Submit LinkSubmit a new link" [ref=e130] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/submit
+      - text: N/A
+    - generic [ref=e131]:
+      - text: N/A
+      - link "Submit TextSubmit a new text post" [ref=e132] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/submit?selftext=true
+    - generic [ref=e134]:
+      - text: Subreddit Info
+      - heading "orangecounty" [level=1] [ref=e135]:
+        - link "orangecounty" [ref=e136] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/orangecounty/
+      - link "join" [ref=e138] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e141]:
+        - paragraph [ref=e142]: Orange County, CA - Before "the OC" we were that place between LA and SD. One thing is for certain, we aren't the 909!
+        - paragraph [ref=e143]:
+          - link "Discord" [ref=e144] [cursor=pointer]:
+            - /url: https://discord.gg/C3DMGUb
+          - link "Facebook" [ref=e145] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/ocreddit
+          - link "Twitter" [ref=e146] [cursor=pointer]:
+            - /url: https://twitter.com/ocreddit
+        - heading "Helpful Links" [level=3] [ref=e147]:
+          - link "Helpful Links" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/faq?utm_source=reddit&utm_medium=usertext&utm_name=orangecounty&utm_content=t5_2rd9x
+        - paragraph [ref=e149]:
+          - link "FAQ" [ref=e150] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/faq
+          - link "OC Gov" [ref=e151] [cursor=pointer]:
+            - /url: https://www.ocgov.com/
+          - link "OC Register" [ref=e152] [cursor=pointer]:
+            - /url: https://www.ocregister.com/
+          - link "Craigslist" [ref=e153] [cursor=pointer]:
+            - /url: https://orangecounty.craigslist.org/
+          - link "Latest Earthquake Information" [ref=e154] [cursor=pointer]:
+            - /url: https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22:%221day_m25%22,%22search%22:null,%22sort%22:%22newest%22,%22basemap%22:%22grayscale%22,%22autoUpdate%22:true,%22restrictListToMap%22:true,%22timeZone%22:%22local%22,%22mapposition%22:%5B%5B31.484893386890164,-130.49560546875%5D,%5B42.147114459220994,-107.51220703125%5D%5D,%22overlays%22:%7B%22plates%22:true%7D,%22viewModes%22:%7B%22list%22:true,%22map%22:true,%22settings%22:false,%22help%22:false%7D%7D
+        - 'heading "Best of OC: Reddit Edition" [level=3] [ref=e155]':
+          - 'link "Best of OC: Reddit Edition" [ref=e156] [cursor=pointer]':
+            - /url: https://www.reddit.com/r/orangecounty/comments/1syzyw/best_of_orange_county_oc_reddit_edition_results/
+        - paragraph [ref=e157]:
+          - link "Votes" [ref=e158] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?q=flair%3Abest&sort=new&restrict_sr=on
+          - link "Winners" [ref=e159] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/guide
+          - link "Google Doc" [ref=e160] [cursor=pointer]:
+            - /url: https://docs.google.com/document/d/1CLKCf3KtP5atJc1jGL5Fk7r5nFk2Kyc55VCZBhechCo/edit
+        - heading "Flair Filter" [level=3] [ref=e161]:
+          - link "Flair Filter" [ref=e162] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty
+        - paragraph [ref=e163]:
+          - link "Announcement" [ref=e164] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AAnnouncement
+          - link "News" [ref=e165] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ANews
+          - link "Politics" [ref=e166] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3APolitics
+          - link "Weather" [ref=e167] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AQuestion
+          - link "Job Posting" [ref=e168] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AJob%2BPosting
+          - link "Discussion" [ref=e169] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ADiscussion
+          - link "Meetup" [ref=e170] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AMeetup
+          - link "Event" [ref=e171] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AEvent
+          - link "Ad" [ref=e172] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AAd
+          - link "Food" [ref=e173] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AFood
+          - link "Photo/Video" [ref=e174] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3APhoto
+          - link "Community Post" [ref=e175] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ACommunity%2BPost
+        - paragraph [ref=e176]:
+          - text: To filter out political posts, click
+          - link "here" [ref=e177] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?q=-flair%3Apolitics&restrict_sr=on&include_over_18=on&sort=relevance&t=all
+        - heading "Rules" [level=3] [ref=e178]:
+          - link "Rules" [ref=e179] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/about/rules/
+        - list [ref=e180]:
+          - listitem [ref=e181]:
+            - strong [ref=e182]:
+              - text: Follow
+              - link "Reddiquette" [ref=e183] [cursor=pointer]:
+                - /url: https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette
+              - text: and
+              - link "Reddit's Content Policy" [ref=e184] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/content-policy
+            - list [ref=e185]:
+              - listitem [ref=e186]: Be civil with one another. Bullying, harassment, trolling and doxxing are prohibited. Any discriminatory language in regard to race, gender, sex, sexual orientation, disability, national origin or religion will not be tolerated.
+              - listitem [ref=e187]: Do not post personal information.
+          - listitem [ref=e188]:
+            - strong [ref=e189]: Posts must directly relate to Orange County, California
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - text: If it's a state-wide topic,
+                - link "r/California" [ref=e192] [cursor=pointer]:
+                  - /url: /r/California
+                - text: may be more suitable. If it's a political topic at the national level,
+                - link "r/politics" [ref=e193] [cursor=pointer]:
+                  - /url: /r/politics
+                - text: may be a better fit.
+              - listitem [ref=e194]: In some instances, broader topics may have a significant impact on Orange County residents. It will be at the moderator's discretion to approve or remove these posts.
+          - listitem [ref=e195]:
+            - strong [ref=e196]: News articles must retain their original headline; no paywalls
+            - list [ref=e197]:
+              - listitem [ref=e198]: Editorialized titles are not allowed.
+              - listitem [ref=e199]: If the post's content is behind a paywall, such as the OC Register or LA Times, you must provide an archived link or paste the article's text within a comment of the post.
+          - listitem [ref=e200]:
+            - strong [ref=e201]: No Reposts.
+            - list [ref=e202]:
+              - listitem [ref=e203]: Please use the search function to ensure you are not reposting something that was recently posted. One post per subject.
+          - listitem [ref=e204]:
+            - strong [ref=e205]: Posts and comments must follow Reddit's guidelines on self-promotion
+            - list [ref=e206]:
+              - listitem [ref=e207]: All promotional posts must be pre-approved by a moderator.
+              - listitem [ref=e208]: Any form of advertising by users who do not contribute to or regularly participate in the community is strictly prohibited.
+          - listitem [ref=e209]:
+            - strong [ref=e210]: Ensure this subreddit is the most appropriate place to post
+            - list [ref=e211]:
+              - listitem [ref=e212]: For sale posts should be unique and beneficial to the community. Job postings must include compensation within the body of the post. Posts that are better suited for Nextdoor, Craigslist, Indeed, etc. may be removed at the moderator's discretion.
+              - listitem [ref=e213]: Posts involving hookups or prohibited transactions will be removed.
+        - paragraph [ref=e214]: Moderators reserve the right to remove posts and comments based on automatic filtering, and may choose to educate the user on proper posting procedure.
+        - heading "Sports" [level=1] [ref=e215]
+        - paragraph [ref=e216]:
+          - link "AngelsBaseball" [ref=e217] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/angelsbaseball
+          - link "Ducks" [ref=e218] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/AnaheimDucks
+        - heading "Locations" [level=1] [ref=e219]
+        - paragraph [ref=e220]:
+          - link "/r/California" [ref=e221] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/california/
+          - link "/r/losangeles" [ref=e222] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/losangeles
+          - link "/r/Anaheim" [ref=e223] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Anaheim
+          - link "/r/Fullerton" [ref=e224] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Fullerton
+          - link "/r/HuntingtonBeach" [ref=e225] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/HuntingtonBeach
+          - link "/r/InlandEmpire" [ref=e226] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/InlandEmpire
+          - link "/r/irvine" [ref=e227] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine
+          - link "/r/lahabra" [ref=e228] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/lahabra
+          - link "/r/longbeach" [ref=e229] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/longbeach
+          - link "/r/NewportBeach" [ref=e230] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/NewportBeach
+          - link "/r/SanClemente" [ref=e231] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanClemente
+          - link "/r/Tustin" [ref=e232] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Tustin
+        - heading "Schools" [level=1] [ref=e233]
+        - paragraph [ref=e234]:
+          - link "CSUF" [ref=e235] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/CSUF
+          - link "CSULB" [ref=e236] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/CSULB
+          - link "UCI" [ref=e237] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/UCI
+          - link "UCR" [ref=e238] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/ucr
+          - link "Chapman" [ref=e239] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/chapmanuniversity
+          - link "SaddleBack" [ref=e240] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SaddlebackCollege
+          - link "OCC" [ref=e241] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/OCC
+        - heading "Other" [level=1] [ref=e242]
+        - paragraph [ref=e243]:
+          - link "Disneyland" [ref=e244] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/disneyland
+          - link "OCParents" [ref=e245] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/OCParents
+          - link "ThemePark" [ref=e246] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/themepark
+          - link "jobsinOC" [ref=e247] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/jobsinOC
+          - link "OCBeer" [ref=e248] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/ocbeer
+          - link "OCTrees" [ref=e249] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/octrees
+          - link "SoCalR4R" [ref=e250] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SoCalR4R
+          - link "OC Classified" [ref=e251] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/occlassified
+          - link "SocalHiking" [ref=e252] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/socalhiking
+      - generic [ref=e254]:
+        - text: a community for
+        - time [ref=e255]: 16 years
+    - generic [ref=e257]:
+      - heading "MODERATORS" [level=1] [ref=e259]
+      - list [ref=e260]:
+        - listitem [ref=e261]:
+          - link "message the mods" [ref=e262] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/orangecounty
+    - complementary [ref=e265]:
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - text: discussions in
+          - link "r/orangecounty" [ref=e268] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/orangecounty/?ref=readnext
+        - navigation [ref=e269]:
+          - generic [ref=e270] [cursor=pointer]: <
+          - generic [ref=e271] [cursor=pointer]: ">"
+        - generic [ref=e273] [cursor=pointer]: X
+      - link "339 · 131 comments 0:17 On Euclid" [ref=e275] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/comments/1snp8zm/on_euclid/?ref=readnext_0
+        - generic [ref=e276]: 339 · 131 comments
+        - generic [ref=e278]: 0:17
+        - generic [ref=e279]: On Euclid
+    - text: Subreddit CSS Theme by /r/Naut
+  - main [ref=e280]:
+    - generic [ref=e281]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e282] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e283]
+        - paragraph [ref=e284]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e285]:
+          - generic [ref=e286]: Become a Redditor
+          - paragraph [ref=e287]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e288] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e290]:
+      - paragraph
+      - generic [ref=e291]:
+        - button "upvote"
+        - generic "32" [ref=e292]
+        - button "downvote"
+      - link [ref=e293] [cursor=pointer]:
+        - /url: /r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - paragraph [ref=e296]:
+            - generic "Recommendations Needed" [ref=e297]
+            - link "Recommendations for Thai Food - Irvine?" [ref=e298] [cursor=pointer]:
+              - /url: /r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/
+            - link "self.orangecounty" [ref=e299] [cursor=pointer]:
+              - /url: /r/orangecounty/
+          - paragraph [ref=e300]:
+            - text: submitted
+            - time [ref=e301]: 3 years ago
+            - text: by
+            - link "DontFuckWitSquirrels" [ref=e302] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/DontFuckWitSquirrels
+        - generic [ref=e306]:
+          - paragraph [ref=e307]: Does anyone have any recommendations for Thai food in/close to Irivne? Cheaper is better. Not trying to go super high end.
+          - paragraph [ref=e308]: Thanks!
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "55 comments" [ref=e311] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/
+          - listitem [ref=e312]:
+            - link "share" [ref=e313] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e314]:
+            - link "save" [ref=e315] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e316]:
+            - link "hide" [ref=e319] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e320]:
+            - link "report" [ref=e321] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e322]:
+      - generic [ref=e323]: all 55 comments
+      - generic [ref=e325]:
+        - text: "sorted by:"
+        - generic [ref=e327] [cursor=pointer]: best ▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e330] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e331]
+        - generic [ref=e332]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e333]
+          - paragraph [ref=e334]: Post a comment!
+          - generic [ref=e336]: Create an account
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - paragraph
+          - paragraph [ref=e340]:
+            - link "[+] ah" [ref=e341] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e342]: "[deleted]"
+            - time [ref=e343]: 3 years ago
+            - link "(4 children)" [ref=e344] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - text: ah - • • • ah • • • ah • • • ah • • •
+        - generic [ref=e345]:
+          - paragraph
+          - generic [ref=e346]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e347]:
+            - paragraph [ref=e348]:
+              - link "[–]" [ref=e349] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Evilpickle09" [ref=e350] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Evilpickle09
+              - text: • • 14 points •
+              - time [ref=e351]: 3 years ago
+            - paragraph [ref=e355]: Hanuman in CM on Bristol is pretty good. Expect 1+ hour during dinner.
+            - list [ref=e356]:
+              - listitem [ref=e357]:
+                - link "permalink" [ref=e358] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwftxx/
+              - listitem [ref=e359]:
+                - link "embed" [ref=e360] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e361]:
+                - link "save" [ref=e362] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e363]:
+                - link "report" [ref=e364] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e367]:
+            - paragraph
+            - generic [ref=e368]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e369]:
+              - paragraph [ref=e370]:
+                - link "[–]" [ref=e371] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "wyzzzzzard" [ref=e372] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/wyzzzzzard
+                - text: • • 9 points •
+                - time [ref=e373]: 3 years ago
+              - paragraph [ref=e377]: You can visit their new location on Newport Blvd at Harbor for a much shorter wait.
+              - list [ref=e378]:
+                - listitem [ref=e379]:
+                  - link "permalink" [ref=e380] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxh9il/
+                - listitem [ref=e381]:
+                  - link "embed" [ref=e382] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e383]:
+                  - link "save" [ref=e384] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e385]:
+                  - link "parent" [ref=e386] [cursor=pointer]:
+                    - /url: "#ixwftxx"
+                - listitem [ref=e387]:
+                  - link "report" [ref=e388] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e389]:
+          - paragraph
+          - generic [ref=e390]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e391]:
+            - paragraph [ref=e392]:
+              - link "[–]" [ref=e393] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Maxauim" [ref=e394] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Maxauim
+              - text: • • 14 points •
+              - time [ref=e395]: 3 years ago
+            - paragraph [ref=e399]: God I love this Reddit group. I’m finding so many good restaurants haha
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - link "permalink" [ref=e402] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwxvft/
+              - listitem [ref=e403]:
+                - link "embed" [ref=e404] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e405]:
+                - link "save" [ref=e406] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e407]:
+                - link "report" [ref=e408] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e411]:
+            - paragraph
+            - generic [ref=e412]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e413]:
+              - paragraph [ref=e414]:
+                - link "[–]" [ref=e415] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] • • 3 points •"
+                - time [ref=e416]: 3 years ago
+              - paragraph [ref=e420]: Same
+              - list [ref=e421]:
+                - listitem [ref=e422]:
+                  - link "permalink" [ref=e423] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxhhtt/
+                - listitem [ref=e424]:
+                  - link "embed" [ref=e425] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e426]:
+                  - link "save" [ref=e427] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e428]:
+                  - link "parent" [ref=e429] [cursor=pointer]:
+                    - /url: "#ixwxvft"
+                - listitem [ref=e430]:
+                  - link "report" [ref=e431] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e432]:
+          - paragraph
+          - generic [ref=e433]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e434]:
+            - paragraph [ref=e435]:
+              - link "[–]" [ref=e436] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "charrosebry" [ref=e437] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/charrosebry
+              - generic:
+                - text: "["
+                - link "🍰" [ref=e438]:
+                  - /url: /user/charrosebry
+                - text: "]"
+              - text: • • 10 points •
+              - time [ref=e439]: 3 years ago
+            - paragraph [ref=e443]: Siam station street food. My favorite in Irvine
+            - list [ref=e444]:
+              - listitem [ref=e445]:
+                - link "permalink" [ref=e446] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwi3ew/
+              - listitem [ref=e447]:
+                - link "embed" [ref=e448] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e449]:
+                - link "save" [ref=e450] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e451]:
+                - link "report" [ref=e452] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e453]:
+          - paragraph
+          - generic [ref=e454]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e455]:
+            - paragraph [ref=e456]:
+              - link "[–]" [ref=e457] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "xeronshi-evotori" [ref=e458] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/xeronshi-evotori
+              - text: • • 11 points •
+              - time [ref=e459]: 3 years ago
+            - generic [ref=e462]:
+              - paragraph [ref=e463]: Thai Cafe, on Jeffery!
+              - paragraph [ref=e464]: Great food, especially the boat noodles. And they will make it legitimately spicy if you ask them to.
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - link "permalink" [ref=e467] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwnqg6/
+              - listitem [ref=e468]:
+                - link "embed" [ref=e469] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e470]:
+                - link "save" [ref=e471] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e472]:
+                - link "report" [ref=e473] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e476]:
+            - paragraph
+            - generic [ref=e477]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e478]:
+              - paragraph [ref=e479]:
+                - link "[–]" [ref=e480] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Hello-their" [ref=e481] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Hello-their
+                - text: • • 3 points •
+                - time [ref=e482]: 3 years ago
+              - paragraph [ref=e486]: They serve boat noodles? I was introduced to boat noodles in Thai town and have been craving them ever since.
+              - list [ref=e487]:
+                - listitem [ref=e488]:
+                  - link "permalink" [ref=e489] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwp772/
+                - listitem [ref=e490]:
+                  - link "embed" [ref=e491] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e492]:
+                  - link "save" [ref=e493] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e494]:
+                  - link "parent" [ref=e495] [cursor=pointer]:
+                    - /url: "#ixwnqg6"
+                - listitem [ref=e496]:
+                  - link "report" [ref=e497] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e500]:
+              - paragraph
+              - generic [ref=e501]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e502]:
+                - paragraph [ref=e503]:
+                  - link "[–]" [ref=e504] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "xeronshi-evotori" [ref=e505] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/xeronshi-evotori
+                  - text: • • 2 points •
+                  - time [ref=e506]: 3 years ago
+                - paragraph [ref=e510]: Yeah! My first time having boat noodles was in LA's Thai town, and I was pretty happy to find a place that serves it in OC.
+                - list [ref=e511]:
+                  - listitem [ref=e512]:
+                    - link "permalink" [ref=e513] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwq2t3/
+                  - listitem [ref=e514]:
+                    - link "embed" [ref=e515] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e516]:
+                    - link "save" [ref=e517] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e518]:
+                    - link "parent" [ref=e519] [cursor=pointer]:
+                      - /url: "#ixwp772"
+                  - listitem [ref=e520]:
+                    - link "report" [ref=e521] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e522]:
+          - paragraph
+          - generic [ref=e523]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e524]:
+            - paragraph [ref=e525]:
+              - link "[–]" [ref=e526] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "PublicMcPublicFace" [ref=e527] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/PublicMcPublicFace
+              - text: • • 18 points •
+              - time [ref=e528]: 3 years ago
+            - paragraph [ref=e532]:
+              - text: I don't know of any good Thai food
+              - emphasis [ref=e533]: in
+              - text: Irvine, but Bangkok Corner in CM is not far. Full disclosure, haven't been there in a while; dunno if it's still up to standard.
+            - list [ref=e534]:
+              - listitem [ref=e535]:
+                - link "permalink" [ref=e536] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwaeio/
+              - listitem [ref=e537]:
+                - link "embed" [ref=e538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e539]:
+                - link "save" [ref=e540] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e541]:
+                - link "report" [ref=e542] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - paragraph
+              - generic [ref=e546]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e547]:
+                - paragraph [ref=e548]:
+                  - link "[–]" [ref=e549] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "doduhstankyleg" [ref=e550] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/doduhstankyleg
+                  - text: • • 3 points •
+                  - time [ref=e551]: 3 years ago
+                - paragraph [ref=e555]: I used to go here all the time. Was so good, but like you, I haven’t been in a couple years
+                - list [ref=e556]:
+                  - listitem [ref=e557]:
+                    - link "permalink" [ref=e558] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwe0rn/
+                  - listitem [ref=e559]:
+                    - link "embed" [ref=e560] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e561]:
+                    - link "save" [ref=e562] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e563]:
+                    - link "parent" [ref=e564] [cursor=pointer]:
+                      - /url: "#ixwaeio"
+                  - listitem [ref=e565]:
+                    - link "report" [ref=e566] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e567]:
+              - paragraph
+              - generic [ref=e568]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e569]:
+                - paragraph [ref=e570]:
+                  - link "[–]" [ref=e571] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bananaslutz" [ref=e572] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bananaslutz
+                  - text: • • 2 points •
+                  - time [ref=e573]: 3 years ago
+                - paragraph [ref=e577]: Still pretty good! It’s my go to place for sure
+                - list [ref=e578]:
+                  - listitem [ref=e579]:
+                    - link "permalink" [ref=e580] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwm7ny/
+                  - listitem [ref=e581]:
+                    - link "embed" [ref=e582] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e583]:
+                    - link "save" [ref=e584] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e585]:
+                    - link "parent" [ref=e586] [cursor=pointer]:
+                      - /url: "#ixwaeio"
+                  - listitem [ref=e587]:
+                    - link "report" [ref=e588] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e589]:
+              - paragraph
+              - generic [ref=e590]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e591]:
+                - paragraph [ref=e592]:
+                  - link "[–]" [ref=e593] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "EnhancedIrrelevance" [ref=e594] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/EnhancedIrrelevance
+                  - text: • • 2 points •
+                  - time [ref=e595]: 3 years ago
+                - paragraph [ref=e599]: Go there all the time - good and relatively inexpensive.
+                - list [ref=e600]:
+                  - listitem [ref=e601]:
+                    - link "permalink" [ref=e602] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwpn2v/
+                  - listitem [ref=e603]:
+                    - link "embed" [ref=e604] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e605]:
+                    - link "save" [ref=e606] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e607]:
+                    - link "parent" [ref=e608] [cursor=pointer]:
+                      - /url: "#ixwaeio"
+                  - listitem [ref=e609]:
+                    - link "report" [ref=e610] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e611]:
+          - paragraph
+          - generic [ref=e612]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e613]:
+            - paragraph [ref=e614]:
+              - link "[–]" [ref=e615] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dudeReallyoc" [ref=e616] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dudeReallyoc
+              - text: • • 6 points •
+              - time [ref=e617]: 3 years ago
+            - paragraph [ref=e621]: Tuk Tuk Thia in Irvine at The Trade off Michelson/ Mac Arthur is good, I just don't know how authentic. Definitely scratches the itch for Thai food for me.
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - link "permalink" [ref=e624] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwgnub/
+              - listitem [ref=e625]:
+                - link "embed" [ref=e626] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e627]:
+                - link "save" [ref=e628] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e629]:
+                - link "report" [ref=e630] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e633]:
+            - paragraph
+            - generic [ref=e634]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e635]:
+              - paragraph [ref=e636]:
+                - link "[–]" [ref=e637] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "traceeinpar" [ref=e638] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/traceeinpar
+                - text: • • 1 point •
+                - time [ref=e639]: 3 years ago
+              - paragraph [ref=e643]: Their crab fried rice is so good.
+              - list [ref=e644]:
+                - listitem [ref=e645]:
+                  - link "permalink" [ref=e646] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy0akow/
+                - listitem [ref=e647]:
+                  - link "embed" [ref=e648] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e649]:
+                  - link "save" [ref=e650] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e651]:
+                  - link "parent" [ref=e652] [cursor=pointer]:
+                    - /url: "#ixwgnub"
+                - listitem [ref=e653]:
+                  - link "report" [ref=e654] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e655]:
+          - paragraph
+          - generic [ref=e656]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e657]:
+            - paragraph [ref=e658]:
+              - link "[–]" [ref=e659] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "nosynchro" [ref=e660] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/nosynchro
+              - text: • • 9 points •
+              - time [ref=e661]: 3 years ago
+            - generic [ref=e664]:
+              - paragraph [ref=e665]: "These two standout for me before resorting to driving to Hollywood:"
+              - paragraph [ref=e666]: Siam Station, leans on the classic Thai side of the spectrum.
+              - paragraph [ref=e667]: Hanuman, technically it's Costa Mesa, but not far from Irvine. It leans to more modern style, like the cool hip places you find in Thailand.
+            - list [ref=e668]:
+              - listitem [ref=e669]:
+                - link "permalink" [ref=e670] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx9mnx/
+              - listitem [ref=e671]:
+                - link "embed" [ref=e672] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e673]:
+                - link "save" [ref=e674] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e675]:
+                - link "report" [ref=e676] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e677]:
+          - paragraph
+          - generic [ref=e678]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e679]:
+            - paragraph [ref=e680]:
+              - link "[–]" [ref=e681] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "yumi1198" [ref=e682] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/yumi1198
+              - text: • • 5 points •
+              - time [ref=e683]: 3 years ago
+            - paragraph [ref=e687]: Plern Thai Cafe!!
+            - list [ref=e688]:
+              - listitem [ref=e689]:
+                - link "permalink" [ref=e690] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxbe5s/
+              - listitem [ref=e691]:
+                - link "embed" [ref=e692] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e693]:
+                - link "save" [ref=e694] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e695]:
+                - link "report" [ref=e696] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e697]:
+          - paragraph
+          - generic [ref=e698]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e699]:
+            - paragraph [ref=e700]:
+              - link "[–]" [ref=e701] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "silverwing224" [ref=e702] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/silverwing224
+              - text: • • 11 points •
+              - time [ref=e703]: 3 years ago
+            - paragraph [ref=e707]: Can’t believe no one has said this yet, but Thai Kitchen on Barranca. It’s locally owned and although not super cheap, the price is well worth it with the portion sizes and quality of food imo.
+            - list [ref=e708]:
+              - listitem [ref=e709]:
+                - link "permalink" [ref=e710] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwsulw/
+              - listitem [ref=e711]:
+                - link "embed" [ref=e712] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e713]:
+                - link "save" [ref=e714] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e715]:
+                - link "report" [ref=e716] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e718]:
+            - generic [ref=e719]:
+              - paragraph
+              - generic [ref=e720]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e721]:
+                - paragraph [ref=e722]:
+                  - link "[–]" [ref=e723] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] • • 5 points •"
+                  - time [ref=e724]: 3 years ago
+                - paragraph [ref=e728]: Yes! This is my go to place. Lovely ladies that definitely know my voice when I call in an order.
+                - list [ref=e729]:
+                  - listitem [ref=e730]:
+                    - link "permalink" [ref=e731] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxpeq2/
+                  - listitem [ref=e732]:
+                    - link "embed" [ref=e733] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e734]:
+                    - link "save" [ref=e735] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e736]:
+                    - link "parent" [ref=e737] [cursor=pointer]:
+                      - /url: "#ixwsulw"
+                  - listitem [ref=e738]:
+                    - link "report" [ref=e739] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e740]:
+              - paragraph
+              - generic [ref=e741]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e742]:
+                - paragraph [ref=e743]:
+                  - link "[–]" [ref=e744] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "IllustriousTruck" [ref=e745] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/IllustriousTruck
+                  - text: • • 2 points •
+                  - time [ref=e746]: 3 years ago
+                - paragraph [ref=e750]: Love their yellow curry!!
+                - list [ref=e751]:
+                  - listitem [ref=e752]:
+                    - link "permalink" [ref=e753] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixy3bpq/
+                  - listitem [ref=e754]:
+                    - link "embed" [ref=e755] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e756]:
+                    - link "save" [ref=e757] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e758]:
+                    - link "parent" [ref=e759] [cursor=pointer]:
+                      - /url: "#ixwsulw"
+                  - listitem [ref=e760]:
+                    - link "report" [ref=e761] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e762]:
+          - paragraph
+          - generic [ref=e763]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e764]:
+            - paragraph [ref=e765]:
+              - link "[–]" [ref=e766] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Sarcastic_panda_15" [ref=e767] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Sarcastic_panda_15
+              - text: • • 3 points •
+              - time [ref=e768]: 3 years ago
+            - paragraph [ref=e772]: Season Thai in Rsm
+            - list [ref=e773]:
+              - listitem [ref=e774]:
+                - link "permalink" [ref=e775] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwcyee/
+              - listitem [ref=e776]:
+                - link "embed" [ref=e777] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e778]:
+                - link "save" [ref=e779] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e780]:
+                - link "report" [ref=e781] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e784]:
+            - paragraph
+            - generic [ref=e785]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e786]:
+              - paragraph [ref=e787]:
+                - link "[–]" [ref=e788] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "deniseag87" [ref=e789] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/deniseag87
+                - 'generic ":Orange: Laguna Niguel :Orange:" [ref=e790]':
+                  - text: "-"
+                  - generic ":Orange:" [ref=e791]
+                  - text: Laguna Niguel
+                  - generic ":Orange:" [ref=e792]
+                - text: • • 1 point •
+                - time [ref=e793]: 3 years ago
+              - paragraph [ref=e797]: I second this. I love the Basil Chicken.
+              - list [ref=e798]:
+                - listitem [ref=e799]:
+                  - link "permalink" [ref=e800] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy6oxvj/
+                - listitem [ref=e801]:
+                  - link "embed" [ref=e802] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e803]:
+                  - link "save" [ref=e804] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e805]:
+                  - link "parent" [ref=e806] [cursor=pointer]:
+                    - /url: "#ixwcyee"
+                - listitem [ref=e807]:
+                  - link "report" [ref=e808] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e809]:
+          - paragraph
+          - generic [ref=e810]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e811]:
+            - paragraph [ref=e812]:
+              - link "[–]" [ref=e813] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "showingsquid8" [ref=e814] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/showingsquid8
+              - text: • • 4 points •
+              - time [ref=e815]: 3 years ago
+            - paragraph [ref=e819]: Bangkok Kitchen - not exactly Irvine but it’s close to the airport
+            - list [ref=e820]:
+              - listitem [ref=e821]:
+                - link "permalink" [ref=e822] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwz4vh/
+              - listitem [ref=e823]:
+                - link "embed" [ref=e824] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e825]:
+                - link "save" [ref=e826] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e827]:
+                - link "report" [ref=e828] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e831]:
+            - paragraph
+            - generic [ref=e832]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e833]:
+              - paragraph [ref=e834]:
+                - link "[–]" [ref=e835] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Karate-Coco" [ref=e836] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Karate-Coco
+                - text: • • 2 points •
+                - time [ref=e837]: 3 years ago
+              - paragraph [ref=e841]: They have the best curries.
+              - list [ref=e842]:
+                - listitem [ref=e843]:
+                  - link "permalink" [ref=e844] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx8mvc/
+                - listitem [ref=e845]:
+                  - link "embed" [ref=e846] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e847]:
+                  - link "save" [ref=e848] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e849]:
+                  - link "parent" [ref=e850] [cursor=pointer]:
+                    - /url: "#ixwz4vh"
+                - listitem [ref=e851]:
+                  - link "report" [ref=e852] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e853]:
+          - paragraph
+          - generic [ref=e854]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e855]:
+            - paragraph [ref=e856]:
+              - link "[–]" [ref=e857] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SultanGangplank" [ref=e858] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SultanGangplank
+              - text: • • 4 points •
+              - time [ref=e859]: 3 years ago
+            - paragraph [ref=e863]: Thai Cafe
+            - list [ref=e864]:
+              - listitem [ref=e865]:
+                - link "permalink" [ref=e866] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx276i/
+              - listitem [ref=e867]:
+                - link "embed" [ref=e868] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e869]:
+                - link "save" [ref=e870] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e871]:
+                - link "report" [ref=e872] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e873]:
+          - paragraph
+          - generic [ref=e874]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e875]:
+            - paragraph [ref=e876]:
+              - link "[–]" [ref=e877] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "pixiegod" [ref=e878] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/pixiegod
+              - text: • • 4 points •
+              - time [ref=e879]: 3 years ago
+            - generic [ref=e882]:
+              - paragraph [ref=e883]: Hanuman hands down in CM…
+              - paragraph [ref=e884]: We have been to Siam station…and it’s good, but Hanuman hands down!
+            - list [ref=e885]:
+              - listitem [ref=e886]:
+                - link "permalink" [ref=e887] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx5z1j/
+              - listitem [ref=e888]:
+                - link "embed" [ref=e889] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e890]:
+                - link "save" [ref=e891] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e892]:
+                - link "report" [ref=e893] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e894]:
+          - paragraph
+          - generic [ref=e895]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e896]:
+            - paragraph [ref=e897]:
+              - link "[–]" [ref=e898] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dazzling_Lack_369" [ref=e899] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dazzling_Lack_369
+              - text: • • 3 points •
+              - time [ref=e900]: 3 years ago
+            - paragraph [ref=e904]: Siam Station.
+            - list [ref=e905]:
+              - listitem [ref=e906]:
+                - link "permalink" [ref=e907] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwlbyk/
+              - listitem [ref=e908]:
+                - link "embed" [ref=e909] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e910]:
+                - link "save" [ref=e911] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e912]:
+                - link "report" [ref=e913] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e914]:
+          - paragraph
+          - generic [ref=e915]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e916]:
+            - paragraph [ref=e917]:
+              - link "[–]" [ref=e918] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Dingleberry_Blumpkin" [ref=e919] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Dingleberry_Blumpkin
+              - text: • • 3 points •
+              - time [ref=e920]: 3 years ago
+            - paragraph [ref=e924]: Thai Bite
+            - list [ref=e925]:
+              - listitem [ref=e926]:
+                - link "permalink" [ref=e927] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwo59x/
+              - listitem [ref=e928]:
+                - link "embed" [ref=e929] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e930]:
+                - link "save" [ref=e931] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e932]:
+                - link "report" [ref=e933] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e934]:
+          - paragraph
+          - paragraph [ref=e936]:
+            - link "[+] ah" [ref=e937] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e938]: "[deleted]"
+            - time [ref=e939]: 3 years ago
+            - link "(1 child)" [ref=e940] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - text: ah • • •
+        - generic [ref=e941]:
+          - paragraph
+          - generic [ref=e942]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e943]:
+            - paragraph [ref=e944]:
+              - link "[–]" [ref=e945] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "og_nosabo" [ref=e946] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/og_nosabo
+              - text: • • 10 points •
+              - time [ref=e947]: 3 years ago
+            - paragraph [ref=e951]: Thai Spice. It’s generic and decently priced.
+            - list [ref=e952]:
+              - listitem [ref=e953]:
+                - link "permalink" [ref=e954] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixw9cyd/
+              - listitem [ref=e955]:
+                - link "embed" [ref=e956] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e957]:
+                - link "save" [ref=e958] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e959]:
+                - link "report" [ref=e960] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e962]:
+            - generic [ref=e963]:
+              - paragraph
+              - generic [ref=e964]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e965]:
+                - paragraph [ref=e966]:
+                  - link "[–]" [ref=e967] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bunnyagogo" [ref=e968] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bunnyagogo
+                  - text: • • 2 points •
+                  - time [ref=e969]: 3 years ago
+                - paragraph [ref=e973]: Been my go to for at 15 years? Inexpensive and hits the spot
+                - list [ref=e974]:
+                  - listitem [ref=e975]:
+                    - link "permalink" [ref=e976] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwi9we/
+                  - listitem [ref=e977]:
+                    - link "embed" [ref=e978] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e979]:
+                    - link "save" [ref=e980] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e981]:
+                    - link "parent" [ref=e982] [cursor=pointer]:
+                      - /url: "#ixw9cyd"
+                  - listitem [ref=e983]:
+                    - link "report" [ref=e984] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e985]:
+              - paragraph
+              - generic [ref=e986]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e987]:
+                - paragraph [ref=e988]:
+                  - link "[–]" [ref=e989] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "VintageStrawberries" [ref=e990] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/VintageStrawberries
+                  - text: • • 2 points •
+                  - time [ref=e991]: 3 years ago
+                - paragraph [ref=e995]: do they still give out generous portions? I used to eat/get takeout from there from time to time when I was an IVC student and the portion would be enough to last me both lunch and dinner.
+                - list [ref=e996]:
+                  - listitem [ref=e997]:
+                    - link "permalink" [ref=e998] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwm9bw/
+                  - listitem [ref=e999]:
+                    - link "embed" [ref=e1000] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1001]:
+                    - link "save" [ref=e1002] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1003]:
+                    - link "parent" [ref=e1004] [cursor=pointer]:
+                      - /url: "#ixw9cyd"
+                  - listitem [ref=e1005]:
+                    - link "report" [ref=e1006] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1007]:
+              - paragraph
+              - generic [ref=e1008]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e1009]:
+                - paragraph [ref=e1010]:
+                  - link "[–]" [ref=e1011] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "SlowSwords" [ref=e1012] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/SlowSwords
+                  - 'generic ":AngryOrange: Los Angeles :AngryOrange:" [ref=e1013]':
+                    - text: "-"
+                    - generic ":AngryOrange:" [ref=e1014]
+                    - text: Los Angeles
+                    - generic ":AngryOrange:" [ref=e1015]
+                  - text: • • 2 points •
+                  - time [ref=e1016]: 3 years ago
+                - paragraph [ref=e1020]: Man this is the OG Irvine spot for sure.
+                - list [ref=e1021]:
+                  - listitem [ref=e1022]:
+                    - link "permalink" [ref=e1023] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwoord/
+                  - listitem [ref=e1024]:
+                    - link "embed" [ref=e1025] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1026]:
+                    - link "save" [ref=e1027] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1028]:
+                    - link "parent" [ref=e1029] [cursor=pointer]:
+                      - /url: "#ixw9cyd"
+                  - listitem [ref=e1030]:
+                    - link "report" [ref=e1031] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e1032]:
+              - paragraph
+              - generic [ref=e1033]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e1034]:
+                - paragraph [ref=e1035]:
+                  - link "[–]" [ref=e1036] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "ForsakenGround2994" [ref=e1037] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/ForsakenGround2994
+                  - text: • • 1 point •
+                  - time [ref=e1038]: 3 years ago
+                - paragraph [ref=e1042]: Crying Tiger alll day long!!! So good.
+                - list [ref=e1043]:
+                  - listitem [ref=e1044]:
+                    - link "permalink" [ref=e1045] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxt5ik/
+                  - listitem [ref=e1046]:
+                    - link "embed" [ref=e1047] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1048]:
+                    - link "save" [ref=e1049] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1050]:
+                    - link "parent" [ref=e1051] [cursor=pointer]:
+                      - /url: "#ixw9cyd"
+                  - listitem [ref=e1052]:
+                    - link "report" [ref=e1053] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1054]:
+          - paragraph
+          - generic [ref=e1055]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1056]:
+            - paragraph [ref=e1057]:
+              - link "[–]" [ref=e1058] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Zealousideal-Gas7573" [ref=e1059] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Zealousideal-Gas7573
+              - text: • • 5 points •
+              - time [ref=e1060]: 3 years ago
+            - paragraph [ref=e1064]: Elephant cafe… but it is in lake forest. My favorite
+            - list [ref=e1065]:
+              - listitem [ref=e1066]:
+                - link "permalink" [ref=e1067] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx7rvs/
+              - listitem [ref=e1068]:
+                - link "embed" [ref=e1069] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1070]:
+                - link "save" [ref=e1071] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1072]:
+                - link "report" [ref=e1073] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1076]:
+            - paragraph
+            - generic [ref=e1077]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e1078]:
+              - paragraph [ref=e1079]:
+                - link "[–]" [ref=e1080] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] • • 2 points •"
+                - time [ref=e1081]: 3 years ago
+              - paragraph [ref=e1085]: I went there and really wasn’t impressed. What do you order there?
+              - list [ref=e1086]:
+                - listitem [ref=e1087]:
+                  - link "permalink" [ref=e1088] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxkt11/
+                - listitem [ref=e1089]:
+                  - link "embed" [ref=e1090] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1091]:
+                  - link "save" [ref=e1092] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1093]:
+                  - link "parent" [ref=e1094] [cursor=pointer]:
+                    - /url: "#ixx7rvs"
+                - listitem [ref=e1095]:
+                  - link "report" [ref=e1096] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1099]:
+              - paragraph
+              - generic [ref=e1100]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e1101]:
+                - paragraph [ref=e1102]:
+                  - link "[–]" [ref=e1103] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "No-Jicama8409" [ref=e1104] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/No-Jicama8409
+                  - text: • • 5 points •
+                  - time [ref=e1105]: 3 years ago
+                - paragraph [ref=e1109]: Did you not see the elephant statue? Was that not enough? Were you not entertained?
+                - list [ref=e1110]:
+                  - listitem [ref=e1111]:
+                    - link "permalink" [ref=e1112] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy0e53u/
+                  - listitem [ref=e1113]:
+                    - link "embed" [ref=e1114] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1115]:
+                    - link "save" [ref=e1116] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1117]:
+                    - link "parent" [ref=e1118] [cursor=pointer]:
+                      - /url: "#ixxkt11"
+                  - listitem [ref=e1119]:
+                    - link "report" [ref=e1120] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1123]:
+                - paragraph
+                - generic [ref=e1124]:
+                  - button "upvote"
+                  - button "downvote"
+                - generic [ref=e1125]:
+                  - paragraph [ref=e1126]:
+                    - link "[–]" [ref=e1127] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] • • 2 points •"
+                    - time [ref=e1128]: 3 years ago
+                  - paragraph [ref=e1132]: I didn’t. 😂 too bad I’ll probably never see it because their salad was so weak.
+                  - list [ref=e1133]:
+                    - listitem [ref=e1134]:
+                      - link "permalink" [ref=e1135] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy0k21s/
+                    - listitem [ref=e1136]:
+                      - link "embed" [ref=e1137] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1138]:
+                      - link "save" [ref=e1139] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1140]:
+                      - link "parent" [ref=e1141] [cursor=pointer]:
+                        - /url: "#iy0e53u"
+                    - listitem [ref=e1142]:
+                      - link "report" [ref=e1143] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1144]:
+          - paragraph
+          - generic [ref=e1145]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1146]:
+            - paragraph [ref=e1147]:
+              - link "[–]" [ref=e1148] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "livtiger" [ref=e1149] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/livtiger
+              - text: • • 2 points •
+              - time [ref=e1150]: 3 years ago
+            - paragraph [ref=e1154]: Thai Chayo in Tustin is good.
+            - list [ref=e1155]:
+              - listitem [ref=e1156]:
+                - link "permalink" [ref=e1157] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwpami/
+              - listitem [ref=e1158]:
+                - link "embed" [ref=e1159] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1160]:
+                - link "save" [ref=e1161] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1162]:
+                - link "report" [ref=e1163] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1164]:
+          - paragraph
+          - generic [ref=e1165]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1166]:
+            - paragraph [ref=e1167]:
+              - link "[–]" [ref=e1168] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "burritodominator" [ref=e1169] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/burritodominator
+              - text: • • 2 points •
+              - time [ref=e1170]: 3 years ago
+            - paragraph [ref=e1174]: Any place that does not have a photo or portrait up of the king of Thailand is sus.
+            - list [ref=e1175]:
+              - listitem [ref=e1176]:
+                - link "permalink" [ref=e1177] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxfekc/
+              - listitem [ref=e1178]:
+                - link "embed" [ref=e1179] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1180]:
+                - link "save" [ref=e1181] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1182]:
+                - link "report" [ref=e1183] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1184]:
+          - paragraph
+          - generic [ref=e1185]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1186]:
+            - paragraph [ref=e1187]:
+              - link "[–]" [ref=e1188] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Ilikeoolongmilktea" [ref=e1189] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Ilikeoolongmilktea
+              - text: • • 2 points •
+              - time [ref=e1190]: 3 years ago
+            - paragraph [ref=e1194]: Elephant Cafe is our go to. Also on ubereats
+            - list [ref=e1195]:
+              - listitem [ref=e1196]:
+                - link "permalink" [ref=e1197] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixy2qb7/
+              - listitem [ref=e1198]:
+                - link "embed" [ref=e1199] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1200]:
+                - link "save" [ref=e1201] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1202]:
+                - link "report" [ref=e1203] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1204]:
+          - paragraph
+          - generic [ref=e1205]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1206]:
+            - paragraph [ref=e1207]:
+              - link "[–]" [ref=e1208] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mmuulinn" [ref=e1209] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mmuulinn
+              - generic "Irvine" [ref=e1210]: "- Irvine"
+              - text: • • 2 points •
+              - time [ref=e1211]: 3 years ago
+            - paragraph [ref=e1215]: Elephant Cafe and Bhan Baitong in Lake Forest
+            - list [ref=e1216]:
+              - listitem [ref=e1217]:
+                - link "permalink" [ref=e1218] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy57yyz/
+              - listitem [ref=e1219]:
+                - link "embed" [ref=e1220] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1221]:
+                - link "save" [ref=e1222] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1223]:
+                - link "report" [ref=e1224] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1225]:
+          - paragraph
+          - generic [ref=e1226]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1227]:
+            - paragraph [ref=e1228]:
+              - link "[–]" [ref=e1229] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "JohnnyZepp" [ref=e1230] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/JohnnyZepp
+              - text: • • -1 points •
+              - time [ref=e1231]: 3 years ago
+            - paragraph [ref=e1235]: Thai bamboo if your in the southern Irvine area.
+            - list [ref=e1236]:
+              - listitem [ref=e1237]:
+                - link "permalink" [ref=e1238] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwqvnn/
+              - listitem [ref=e1239]:
+                - link "embed" [ref=e1240] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1241]:
+                - link "save" [ref=e1242] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1243]:
+                - link "report" [ref=e1244] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1245]:
+          - paragraph
+          - generic [ref=e1246]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1247]:
+            - paragraph [ref=e1248]:
+              - link "[–]" [ref=e1249] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "johdan" [ref=e1250] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/johdan
+              - generic "Laguna Beach" [ref=e1251]: "- Laguna Beach"
+              - text: • • 1 point •
+              - time [ref=e1252]: 3 years ago
+            - paragraph [ref=e1256]: Thai market on la Palma in Anaheim
+            - list [ref=e1257]:
+              - listitem [ref=e1258]:
+                - link "permalink" [ref=e1259] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixx4r5g/
+              - listitem [ref=e1260]:
+                - link "embed" [ref=e1261] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1262]:
+                - link "save" [ref=e1263] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1264]:
+                - link "report" [ref=e1265] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1266]:
+          - paragraph
+          - generic [ref=e1267]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1268]:
+            - paragraph [ref=e1269]:
+              - link "[–]" [ref=e1270] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "soyslut_" [ref=e1271] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/soyslut_
+              - text: • • 1 point •
+              - time [ref=e1272]: 3 years ago
+            - paragraph [ref=e1276]: Keep driving. Mitasie in Lake Forest.
+            - list [ref=e1277]:
+              - listitem [ref=e1278]:
+                - link "permalink" [ref=e1279] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxcc29/
+              - listitem [ref=e1280]:
+                - link "embed" [ref=e1281] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1282]:
+                - link "save" [ref=e1283] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1284]:
+                - link "report" [ref=e1285] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1288]:
+            - paragraph
+            - generic [ref=e1289]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e1290]:
+              - paragraph [ref=e1291]:
+                - link "[–]" [ref=e1292] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] • • 1 point •"
+                - time [ref=e1293]: 3 years ago
+              - paragraph [ref=e1297]: The vegan spot? What do you recommend there? I remember someone saying the egg rolls were good, I think 😂
+              - list [ref=e1298]:
+                - listitem [ref=e1299]:
+                  - link "permalink" [ref=e1300] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxkzss/
+                - listitem [ref=e1301]:
+                  - link "embed" [ref=e1302] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1303]:
+                  - link "save" [ref=e1304] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1305]:
+                  - link "parent" [ref=e1306] [cursor=pointer]:
+                    - /url: "#ixxcc29"
+                - listitem [ref=e1307]:
+                  - link "report" [ref=e1308] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1311]:
+              - paragraph
+              - generic [ref=e1312]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e1313]:
+                - paragraph [ref=e1314]:
+                  - link "[–]" [ref=e1315] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "soyslut_" [ref=e1316] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/soyslut_
+                  - text: • • 2 points •
+                  - time [ref=e1317]: 3 years ago
+                - generic [ref=e1320]:
+                  - paragraph [ref=e1321]: Of course, always vegan!
+                  - paragraph [ref=e1322]: Their tamarind pad Thai is not to be skipped. The egg rolls and Buffalo chicken tenders are all so fucking good.
+                - list [ref=e1323]:
+                  - listitem [ref=e1324]:
+                    - link "permalink" [ref=e1325] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxmbnx/
+                  - listitem [ref=e1326]:
+                    - link "embed" [ref=e1327] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1328]:
+                    - link "save" [ref=e1329] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1330]:
+                    - link "parent" [ref=e1331] [cursor=pointer]:
+                      - /url: "#ixxkzss"
+                  - listitem [ref=e1332]:
+                    - link "report" [ref=e1333] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e1334]:
+          - paragraph
+          - generic [ref=e1335]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1336]:
+            - paragraph [ref=e1337]:
+              - link "[–]" [ref=e1338] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Meatloaf_Smeatloaf" [ref=e1339] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Meatloaf_Smeatloaf
+              - 'generic ":Orange: Irvine :Orange:" [ref=e1340]':
+                - text: "-"
+                - generic ":Orange:" [ref=e1341]
+                - text: Irvine
+                - generic ":Orange:" [ref=e1342]
+              - text: • • 1 point •
+              - time [ref=e1343]: 3 years ago
+            - paragraph [ref=e1347]: Go a little south to Khao Hom Thai Bistro on Alicia Pkwy. It is the best we've found, family run, and delicious!
+            - list [ref=e1348]:
+              - listitem [ref=e1349]:
+                - link "permalink" [ref=e1350] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxqfmo/
+              - listitem [ref=e1351]:
+                - link "embed" [ref=e1352] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1353]:
+                - link "save" [ref=e1354] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1355]:
+                - link "report" [ref=e1356] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1357]:
+          - paragraph
+          - generic [ref=e1358]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1359]:
+            - paragraph [ref=e1360]:
+              - link "[–]" [ref=e1361] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "BabyStrawberryMilk" [ref=e1362] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/BabyStrawberryMilk
+              - text: • • 1 point •
+              - time [ref=e1363]: 3 years ago
+            - paragraph [ref=e1367]: I agree with Siam Station, but Siam Central in Mission Viejo is also delicious! They even give you 1 free Thai Tea :)
+            - list [ref=e1368]:
+              - listitem [ref=e1369]:
+                - link "permalink" [ref=e1370] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixxulpe/
+              - listitem [ref=e1371]:
+                - link "embed" [ref=e1372] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1373]:
+                - link "save" [ref=e1374] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1375]:
+                - link "report" [ref=e1376] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1377]:
+          - paragraph
+          - generic [ref=e1378]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1379]:
+            - paragraph [ref=e1380]:
+              - link "[–]" [ref=e1381] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "FreestyleMyLife" [ref=e1382] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/FreestyleMyLife
+              - 'generic ":Orange: Santa Ana :Orange:" [ref=e1383]':
+                - text: "-"
+                - generic ":Orange:" [ref=e1384]
+                - text: Santa Ana
+                - generic ":Orange:" [ref=e1385]
+              - text: • • 1 point •
+              - time [ref=e1386]: 3 years ago
+            - generic [ref=e1389]:
+              - paragraph [ref=e1390]: Thai Spice near IVC 👍👍 .
+              - paragraph [ref=e1391]: Closed Sundays I believe tho
+            - list [ref=e1392]:
+              - listitem [ref=e1393]:
+                - link "permalink" [ref=e1394] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy0br48/
+              - listitem [ref=e1395]:
+                - link "embed" [ref=e1396] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1397]:
+                - link "save" [ref=e1398] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1399]:
+                - link "report" [ref=e1400] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1401]:
+          - paragraph
+          - generic [ref=e1402]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e1403]:
+            - paragraph [ref=e1404]:
+              - link "[–]" [ref=e1405] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "bananaramapanama" [ref=e1406] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/bananaramapanama
+              - text: • • 1 point •
+              - time [ref=e1407]: 3 years ago
+            - paragraph [ref=e1411]: Thai Kitchen on Alton and W Yale Loop!
+            - list [ref=e1412]:
+              - listitem [ref=e1413]:
+                - link "permalink" [ref=e1414] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/iy0hbge/
+              - listitem [ref=e1415]:
+                - link "embed" [ref=e1416] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1417]:
+                - link "save" [ref=e1418] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1419]:
+                - link "report" [ref=e1420] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e1421]:
+    - generic [ref=e1422]:
+      - list [ref=e1424]:
+        - listitem [ref=e1425]: about
+        - listitem [ref=e1426]:
+          - link "blog" [ref=e1427] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1428]:
+          - link "about" [ref=e1429] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1430]:
+          - link "advertising" [ref=e1431] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1432]:
+          - link "careers" [ref=e1433] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1435]:
+        - listitem [ref=e1436]: help
+        - listitem [ref=e1437]:
+          - link "site rules" [ref=e1438] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1439]:
+          - link "Reddit help center" [ref=e1440] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1441]:
+          - link "reddiquette" [ref=e1442] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1443]:
+          - link "mod guidelines" [ref=e1444] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1445]:
+          - link "contact us" [ref=e1446] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1448]:
+        - listitem [ref=e1449]: apps & tools
+        - listitem [ref=e1450]:
+          - link "Reddit for iPhone" [ref=e1451] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1452]:
+          - link "Reddit for Android" [ref=e1453] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1454]:
+          - link "mobile website" [ref=e1455] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1457]:
+        - listitem [ref=e1458]: <3
+        - listitem [ref=e1459]:
+          - link "reddit premium" [ref=e1460] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1461]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1462] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1463] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1464]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

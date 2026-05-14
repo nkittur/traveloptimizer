@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - generic:
+          - generic:
+            - img
+        - link "Easter 2026" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQPQgL
+          - img "Easter 2026" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search" [ref=e20]: best restaurants san diego la jolla site:reddit.com best restaurants san diego la jolla site:reddit.com
+            - generic [ref=e21]:
+              - button "Clear" [ref=e23] [cursor=pointer]:
+                - img [ref=e25]
+              - generic [ref=e28]:
+                - button "Search by voice" [ref=e29] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Search by image" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+          - button "Search" [ref=e35] [cursor=pointer]:
+            - img [ref=e38]
+    - generic [ref=e40]:
+      - button "Settings" [ref=e42] [cursor=pointer]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - button "Google apps" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+        - link "Sign in" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brestaurants%2Bsan%2Bdiego%2Bla%2Bjolla%2Bsite:reddit.com%26tbs%3Dqdr:y&ec=futura_srp_og_si_72236_p
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "AI Mode" [ref=e72] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&aep=1&ntc=1&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ2J8OegQIDBAE
+              - generic [ref=e75]: AI Mode
+          - listitem [ref=e76]:
+            - link "All" [disabled] [ref=e77]:
+              - generic [ref=e79]: All
+          - listitem [ref=e80]:
+            - link "Short videos" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&q=best+restaurants+san+diego+la+jolla+site:reddit.com&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQs6gLegQIDxAB
+              - generic [ref=e83]: Short videos
+          - listitem [ref=e84]:
+            - link "Maps" [ref=e85] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=b2c48e119f077edf&output=search&tbs=qdr:y&q=best+restaurants+san+diego+la+jolla+site:reddit.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e87]: Maps
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&q=best+restaurants+san+diego+la+jolla+site:reddit.com&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQtKgLegQIERAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Forums" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&q=best+restaurants+san+diego+la+jolla+site:reddit.com&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQs6gLegQIExAB
+              - generic [ref=e95]: Forums
+          - listitem [ref=e96]:
+            - link "Videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwrxFIvM8XHanlYvyyDlVq4v0ByTSZEH6uETDXPDhVVnqXuJ40PEUhzOaFTPqQlbyrPzsZkPgXjyqQRJuJow9_cMnxXutLkczH1-8NV3cEzuB4g29hFwHzcTX_vmGSMr5MH0qAmC3ZBdC6Tc3HJdK1M2e9MOfBosu24Ce1Z-BbFd83GdavQ&q=best+restaurants+san+diego+la+jolla+site:reddit.com&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQtKgLegQIFRAB
+              - generic [ref=e99]: Videos
+          - listitem [ref=e100]:
+            - button "More filters" [ref=e101] [cursor=pointer]:
+              - generic "More filters" [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: More
+                  - img [ref=e106]
+        - button "Tools" [ref=e109] [cursor=pointer]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Tools
+            - img [ref=e114]
+    - heading "Search Results" [level=1] [ref=e116]
+    - main [ref=e122]:
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - heading "Web results" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - 'link "La Jolla Day- Where to hit? : r/FoodSanDiego Reddit · r/FoodSanDiego 20+ comments" [ref=e136] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+                - 'heading "La Jolla Day- Where to hit? : r/FoodSanDiego" [level=3] [ref=e137]'
+                - generic [ref=e142]:
+                  - generic [ref=e144]: Reddit · r/FoodSanDiego
+                  - generic [ref=e146]: 20+ comments
+              - button "About this result" [ref=e147] [cursor=pointer]:
+                - img [ref=e150]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - emphasis [ref=e155]: La Jolla Shores beach
+                - text: ", Torrey Pines Gliderport, Shore Rider for casual fun beach food and drinks, fine dining recommend high tide dinners at The Marine Room."
+              - link "Read more" [ref=e156] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/#:~:text=La%20Jolla%20Shores%20beach%2C%20Torrey,dinners%20at%20The%20Marine%20Room.
+            - generic [ref=e161]:
+              - link "29 answers" [ref=e162] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzlthpa/
+              - generic [ref=e163]: ·
+              - generic [ref=e164]: "Top answer:"
+              - generic [ref=e165]: For the view alone stop by the Cliffhanger Cafe at the Torrey Pines Gliderport.
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - link "What are some decent restaurants in La Jolla that aren't ... Reddit · r/FoodSanDiego 20+ comments" [ref=e174] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qxquq8/what_are_some_decent_restaurants_in_la_jolla_that/
+              - heading "What are some decent restaurants in La Jolla that aren't ..." [level=3] [ref=e175]
+              - generic [ref=e180]:
+                - generic [ref=e182]: Reddit · r/FoodSanDiego
+                - generic [ref=e184]: 20+ comments
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - text: Not sure what area of La Jolla you're in, but in the village, I recommend
+              - emphasis [ref=e193]: El Pescador, Taco Stand, or Pizza on Pearl
+              - text: for a casual dinner, which you can take to ...
+            - link "Read more" [ref=e194] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qxquq8/what_are_some_decent_restaurants_in_la_jolla_that/#:~:text=Not%20sure%20what%20area%20of,you%20can%20take%20to%20go.
+          - generic [ref=e199]:
+            - link "25 answers" [ref=e200] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1qxquq8/what_are_some_decent_restaurants_in_la_jolla_that/o3zx4ep/
+            - generic [ref=e201]: ·
+            - generic [ref=e202]: "Top answer:"
+            - generic [ref=e203]: If you were willing to leave downtown LJ and go up to UTC mall, there's a myriad of restaurants ...
+        - generic [ref=e207]:
+          - generic [ref=e210]:
+            - link "Any food recs for someone spending the day at la jolla? Reddit · r/FoodSanDiego 10+ comments" [ref=e212] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ngtfby/any_food_recs_for_someone_spending_the_day_at_la/
+              - heading "Any food recs for someone spending the day at la jolla?" [level=3] [ref=e213]
+              - generic [ref=e218]:
+                - generic [ref=e220]: Reddit · r/FoodSanDiego
+                - generic [ref=e222]: 10+ comments
+            - button "About this result" [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - emphasis [ref=e231]: Bird Rock is half a block down from them
+              - text: ", but Wayfarer brews Sightglass beans, so their coffee is great as well. Hermosa Surf is right there and they have ..."
+            - link "Read more" [ref=e232] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ngtfby/any_food_recs_for_someone_spending_the_day_at_la/#:~:text=Bird%20Rock%20is%20half%20a,rather%20expensive%20%2D%20acai%20bowls.
+        - generic [ref=e236]:
+          - generic [ref=e239]:
+            - 'link "Fine dining near La Jolla : r/FoodSanDiego Reddit · r/FoodSanDiego 20+ comments" [ref=e241] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1or4bt6/fine_dining_near_la_jolla/
+              - 'heading "Fine dining near La Jolla : r/FoodSanDiego" [level=3] [ref=e242]'
+              - generic [ref=e247]:
+                - generic [ref=e249]: Reddit · r/FoodSanDiego
+                - generic [ref=e251]: 20+ comments
+            - button "About this result" [ref=e252] [cursor=pointer]:
+              - img [ref=e255]
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - emphasis [ref=e260]: AR Valentien
+              - text: makes everything from scratch, with the only exception being bread. Many menu items are seasonal, so you will get the freshest of the fresh. Their ...
+            - link "Read more" [ref=e261] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1or4bt6/fine_dining_near_la_jolla/#:~:text=AR%20Valentien%20makes%20everything%20from,fresh.%20Their%20food%20is%20fantastic.
+        - generic [ref=e265]:
+          - generic [ref=e268]:
+            - 'link "La Jolla recs for solo traveler : r/FoodSanDiego Reddit · r/FoodSanDiego 10+ comments" [ref=e270] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1m0yo1r/la_jolla_recs_for_solo_traveler/
+              - 'heading "La Jolla recs for solo traveler : r/FoodSanDiego" [level=3] [ref=e271]'
+              - generic [ref=e276]:
+                - generic [ref=e278]: Reddit · r/FoodSanDiego
+                - generic [ref=e280]: 10+ comments
+            - button "About this result" [ref=e281] [cursor=pointer]:
+              - img [ref=e284]
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - text: Drive or Uber to La Jolla Shores, have dinner at
+              - emphasis [ref=e289]: George's at the cove Rooftop
+              - text: ", make reservations for 30 minutes before sunset. https://www.georgesatthecove.com/."
+            - link "Read more" [ref=e290] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1m0yo1r/la_jolla_recs_for_solo_traveler/#:~:text=Drive%20or%20Uber%20to%20La,https%3A%2F%2Fwww.georgesatthecove.com%2F
+        - generic [ref=e294]:
+          - generic [ref=e297]:
+            - link "Best restaurant in Del Mar/La Jolla for business lunch Reddit · r/FoodSanDiego 20+ comments" [ref=e299] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ktkfiu/best_restaurant_in_del_marla_jolla_for_business/
+              - heading "Best restaurant in Del Mar/La Jolla for business lunch" [level=3] [ref=e300]
+              - generic [ref=e305]:
+                - generic [ref=e307]: Reddit · r/FoodSanDiego
+                - generic [ref=e309]: 20+ comments
+            - button "About this result" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - text: I'm looking for an
+              - emphasis [ref=e318]: upscale restaurant (up to $75 pp without alcohol
+              - text: ) in the La Jolla/Del Mar area for a group of 5 for a business lunch.
+            - link "Read more" [ref=e319] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1ktkfiu/best_restaurant_in_del_marla_jolla_for_business/#:~:text=I'm%20looking%20for%20an%20upscale,5%20for%20a%20business%20lunch.
+        - generic [ref=e323]:
+          - generic [ref=e326]:
+            - link "Mid/High-End Restaurants that are actually WORTH IT not ... Reddit · r/FoodSanDiego 120+ comments" [ref=e328] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1lmusdd/midhighend_restaurants_that_are_actually_worth_it/
+              - heading "Mid/High-End Restaurants that are actually WORTH IT not ..." [level=3] [ref=e329]
+              - generic [ref=e334]:
+                - generic [ref=e336]: Reddit · r/FoodSanDiego
+                - generic [ref=e338]: 120+ comments
+            - button "About this result" [ref=e339] [cursor=pointer]:
+              - img [ref=e342]
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - emphasis [ref=e347]: The Fishery in PB
+              - text: ", Nekosan & Marisi in La Jolla, Water Grill downtown, Wolf in the Woods, Cesarina, Jeune et Jolie, Origen, Mabel's, Campfire…."
+            - link "Read more" [ref=e348] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1lmusdd/midhighend_restaurants_that_are_actually_worth_it/#:~:text=The%20Fishery%20in%20PB%2C%20Nekosan,et%20Jolie%2C%20Origen%2C%20Mabel's%2C%20Campfire%E2%80%A6.
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - 'link "North San Diego restaurants : r/FoodSanDiego Reddit · r/FoodSanDiego 30+ comments" [ref=e357] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1lv8v18/north_san_diego_restaurants/
+              - 'heading "North San Diego restaurants : r/FoodSanDiego" [level=3] [ref=e358]'
+              - generic [ref=e363]:
+                - generic [ref=e365]: Reddit · r/FoodSanDiego
+                - generic [ref=e367]: 30+ comments
+            - button "About this result" [ref=e368] [cursor=pointer]:
+              - img [ref=e371]
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - text: The fishery, La corriente, el pescador, taco stand, Puesto, Marisi, Catania, nine-ten and Eddie Vs are all
+              - emphasis [ref=e376]: great
+              - text: in
+              - emphasis [ref=e377]: La Jolla
+              - text: . Check out villa capri when you ...
+            - link "Read more" [ref=e378] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1lv8v18/north_san_diego_restaurants/#:~:text=Shaun32887
+        - generic [ref=e382]:
+          - generic [ref=e385]:
+            - link "TALL ORDER for Lunch in La Jolla (ish) or Nearby Reddit · r/FoodSanDiego 100+ comments" [ref=e387] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1rfs4il/tall_order_for_lunch_in_la_jolla_ish_or_nearby/
+              - heading "TALL ORDER for Lunch in La Jolla (ish) or Nearby" [level=3] [ref=e388]
+              - generic [ref=e393]:
+                - generic [ref=e395]: Reddit · r/FoodSanDiego
+                - generic [ref=e397]: 100+ comments
+            - button "About this result" [ref=e398] [cursor=pointer]:
+              - img [ref=e401]
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - text: You could also check out
+              - emphasis [ref=e406]: glass box sd near Del Mar
+              - text: it's a casual sit-down spot with reasonable prices, good vegetarian options, and usually much easier parking ...
+            - link "Read more" [ref=e407] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1rfs4il/tall_order_for_lunch_in_la_jolla_ish_or_nearby/#:~:text=You%20could%20also%20check%20out,parking%20than%20central%20La%20Jolla.
+        - generic [ref=e411]:
+          - generic [ref=e414]:
+            - 'link "Most Expensive Restaurant in La Jolla? : r/FoodSanDiego Reddit · r/FoodSanDiego 20+ comments" [ref=e416] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1n4npb4/most_expensive_restaurant_in_la_jolla/
+              - 'heading "Most Expensive Restaurant in La Jolla? : r/FoodSanDiego" [level=3] [ref=e417]'
+              - generic [ref=e422]:
+                - generic [ref=e424]: Reddit · r/FoodSanDiego
+                - generic [ref=e426]: 20+ comments
+            - button "About this result" [ref=e427] [cursor=pointer]:
+              - img [ref=e430]
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - text: ... restaurant in La Jolla.
+              - emphasis [ref=e435]: Best brunch spots in La Jolla
+              - text: . Top seafood restaurants in La Jolla. Best Italian restaurants in La Jolla. Best restaurants in San Diego.
+            - link "Read more" [ref=e436] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1n4npb4/most_expensive_restaurant_in_la_jolla/#:~:text=Open%20App
+          - generic [ref=e441]:
+            - link "23 answers" [ref=e442] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodSanDiego/comments/1n4npb4/most_expensive_restaurant_in_la_jolla/nbmkk75/
+            - generic [ref=e443]: ·
+            - generic [ref=e444]: "Top answer:"
+            - generic [ref=e445]: I would like to add the category of Hospital Food and nominee goes to UCSD
+      - generic [ref=e447]:
+        - generic [ref=e452]:
+          - heading "People also search for" [level=2] [ref=e454]
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - link "Best restaurants san diego la jolla with a view" [ref=e461] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&tbs=qdr:y&q=Best+restaurants+san+diego+la+jolla+with+a+view&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ1QJ6BAgsEAE
+                - generic [ref=e462]:
+                  - generic [ref=e467]: Best restaurants san diego la jolla with a view
+                  - img [ref=e471]
+              - link "Best restaurants san diego la jolla reddit" [ref=e476] [cursor=pointer]:
+                - /url: /search?sca_esv=b2c48e119f077edf&tbs=qdr:y&q=Best+restaurants+san+diego+la+jolla+reddit&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ1QJ6BAgtEAE
+                - generic [ref=e477]:
+                  - generic [ref=e482]: Best restaurants san diego la jolla reddit
+                  - img [ref=e486]
+            - link "Best restaurants san diego la jolla downtown" [ref=e492] [cursor=pointer]:
+              - /url: /search?sca_esv=b2c48e119f077edf&tbs=qdr:y&q=Best+restaurants+san+diego+la+jolla+downtown&sa=X&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ1QJ6BAgrEAE
+              - generic [ref=e493]:
+                - generic [ref=e498]: Best restaurants san diego la jolla downtown
+                - img [ref=e502]
+        - navigation [ref=e504]:
+          - heading "Page Navigation" [level=1] [ref=e505]
+          - text: "1"
+          - link "Page 2" [ref=e508] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=10&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAE
+            - text: "2"
+          - link "Page 3" [ref=e510] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=20&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAG
+            - text: "3"
+          - link "Page 4" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=30&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAI
+            - text: "4"
+          - link "Page 5" [ref=e514] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=40&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAK
+            - text: "5"
+          - link "Page 6" [ref=e516] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=50&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAM
+            - text: "6"
+          - link "Page 7" [ref=e518] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=60&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAO
+            - text: "7"
+          - link "Page 8" [ref=e520] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=70&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAQ
+            - text: "8"
+          - link "Page 9" [ref=e522] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=80&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAS
+            - text: "9"
+          - link "Page 10" [ref=e524] [cursor=pointer]:
+            - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=90&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8tMDegQIBxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e526]:
+            - link "Next" [ref=e527] [cursor=pointer]:
+              - /url: /search?q=best+restaurants+san+diego+la+jolla+site:reddit.com&sca_esv=b2c48e119f077edf&tbs=qdr:y&ei=8-DSafr4KNLR5NoP25WUiQQ&start=10&sa=N&sstk=Af77f_ebWl2rgGzoyQTfC35ghQFsE5O8EE8w9XotCu5AApt8H_Tl25GLzjOOTe9Iz7QPyj1hxXZjUJDKlJD1hoUw2w7KijO266d4iw&ved=2ahUKEwi6vviH4NeTAxXSKFkFHdsKJUEQ8NMDegQIBxAW
+              - generic [ref=e529]: Next
+      - navigation
+    - contentinfo [ref=e530]:
+      - heading "Footer Links" [level=1] [ref=e531]
+      - generic [ref=e535]:
+        - generic [ref=e539]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e541] [cursor=pointer]:
+            - generic [ref=e542]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e544]:
+              - text: "-"
+              - generic [ref=e545]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e547] [cursor=pointer]: Update location
+        - generic [ref=e550]:
+          - link "Help" [ref=e551] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e552] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e553] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e554] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

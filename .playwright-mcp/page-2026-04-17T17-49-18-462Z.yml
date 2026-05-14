@@ -1,0 +1,955 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "irvine" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 02 Aug 2019
+      - generic [ref=e127]: 22 points (93% upvoted)
+      - generic [ref=e128]:
+        - text: "shortlink:"
+        - textbox [ref=e129]: https://redd.it/cl1hgm
+    - generic [ref=e130]:
+      - link "Submit a new linkSubmit Link" [ref=e131] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit
+      - text: N/A
+    - generic [ref=e132]:
+      - text: N/A
+      - link "Submit a new text postSubmit Text" [ref=e133] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/submit?selftext=true
+    - generic [ref=e135]:
+      - text: Subreddit Info
+      - heading "irvine" [level=1] [ref=e136]:
+        - link "irvine" [ref=e137] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/irvine/
+      - link "join" [ref=e139] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e142]:
+        - separator [ref=e143]
+        - paragraph [ref=e144]:
+          - link "Thinking about moving to Irvine? Please check out the wiki before submitting a question!" [ref=e145] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/wiki/moving
+        - separator [ref=e146]
+        - paragraph [ref=e147]:
+          - link "Posting Rules:" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine/about/rules/
+            - strong [ref=e149]: "Posting Rules:"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - paragraph [ref=e152]: Try to be courteous, it's a small subreddit.
+          - listitem [ref=e153]:
+            - paragraph [ref=e154]: Don't spam. Advertisements may be removed (includes self promotion).
+          - listitem [ref=e155]:
+            - paragraph [ref=e156]: This is not a subreddit to meet other people.
+          - listitem [ref=e157]:
+            - paragraph [ref=e158]: This is not a subreddit to sell or buy things/services.
+          - listitem [ref=e159]:
+            - paragraph [ref=e160]: If you're a politician or most of your posts are about politics, your submission/comments may be removed. Please message the moderators if you have any questions.
+          - listitem [ref=e161]:
+            - paragraph [ref=e162]: No simple, generic, or misleading posts (e.g. one or two word titles, questions that can easily be googled, complaints about the city, etc).
+          - listitem [ref=e163]:
+            - paragraph [ref=e164]: Links to Twitter/X are not allowed.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: AI generated posts are not allowed.
+        - paragraph [ref=e167]:
+          - emphasis [ref=e168]: Posts may be removed for reasons not listed above. Please feel free to inquire about any removals.
+        - paragraph [ref=e169]
+        - paragraph [ref=e170]:
+          - strong [ref=e171]: "Things to Do:"
+        - paragraph [ref=e172]:
+          - link "Orange County Great Park" [ref=e173] [cursor=pointer]:
+            - /url: http://www.ocgp.org/
+        - paragraph [ref=e174]:
+          - link "Irvine Improv" [ref=e175] [cursor=pointer]:
+            - /url: http://irvine.improv.com/
+        - paragraph [ref=e176]:
+          - link "Irvine Ampitheatre" [ref=e177] [cursor=pointer]:
+            - /url: http://www.verizonwirelessamphitheatreirvine.com/
+        - paragraph [ref=e178]:
+          - link "IVC Arts" [ref=e179] [cursor=pointer]:
+            - /url: http://www.ivcarts.org/
+        - paragraph [ref=e180]
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: "Shopping:"
+        - paragraph [ref=e183]:
+          - link "Irvine Spectrum" [ref=e184] [cursor=pointer]:
+            - /url: http://www.shopirvinespectrumcenter.com/
+        - paragraph [ref=e185]:
+          - link "Diamond Jamboree" [ref=e186] [cursor=pointer]:
+            - /url: http://www.diamond-jamboree.com/
+        - paragraph [ref=e187]:
+          - link "Tustin Marketplace" [ref=e188] [cursor=pointer]:
+            - /url: http://www.shopthemarketplace.com/
+        - paragraph [ref=e189]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: "Community Sites:"
+        - paragraph [ref=e192]:
+          - link "Irvine Police Department" [ref=e193] [cursor=pointer]:
+            - /url: http://www.cityofirvine.org/ipd/
+        - paragraph [ref=e194]:
+          - link "The Irvine Company" [ref=e195] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e196]:
+          - link "UC Irvine" [ref=e197] [cursor=pointer]:
+            - /url: http://uci.edu/
+        - paragraph [ref=e198]:
+          - link "Irvine Unified School District" [ref=e199] [cursor=pointer]:
+            - /url: https://www.irvinecompany.com/
+        - paragraph [ref=e200]:
+          - link "Irvine Chamber of Commerce" [ref=e201] [cursor=pointer]:
+            - /url: http://www.irvinechamber.com/
+        - paragraph [ref=e202]:
+          - link "Irvine Valley College" [ref=e203] [cursor=pointer]:
+            - /url: http://ivc.edu/
+        - paragraph [ref=e204]
+        - paragraph [ref=e205]:
+          - strong [ref=e206]: "Other Subreddits:"
+        - paragraph [ref=e207]:
+          - link "/r/orangecounty" [ref=e208] [cursor=pointer]:
+            - /url: /r/orangecounty
+    - generic [ref=e210]:
+      - heading "MODERATORS" [level=1] [ref=e212]
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link "message the mods" [ref=e215] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/irvine
+    - complementary [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - text: discussions in
+          - link "r/irvine" [ref=e221] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/irvine/?ref=readnext
+        - navigation [ref=e222]:
+          - generic [ref=e223] [cursor=pointer]: <
+          - generic [ref=e224] [cursor=pointer]: ">"
+        - generic [ref=e226] [cursor=pointer]: X
+      - link "19 · 20 comments Irvine City Council allows Oak Creek Golf Course zoning change" [ref=e228] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/irvine/comments/1so1evf/irvine_city_council_allows_oak_creek_golf_course/?ref=readnext_0
+        - generic [ref=e229]: 19 · 20 comments
+        - generic [ref=e231]: Irvine City Council allows Oak Creek Golf Course zoning change
+    - text: This subreddit uses the /r/Naut theme.
+  - main [ref=e232]:
+    - generic [ref=e233]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e234] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e235]
+        - paragraph [ref=e236]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e237]:
+          - generic [ref=e238]: Become a Redditor
+          - paragraph [ref=e239]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e240] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e242]:
+      - paragraph
+      - generic [ref=e243]:
+        - button "upvote" [ref=e244] [cursor=pointer]
+        - generic "22" [ref=e245]
+        - button "downvote" [ref=e246] [cursor=pointer]
+      - link [ref=e247] [cursor=pointer]:
+        - /url: /r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/
+      - generic [ref=e249]:
+        - paragraph [ref=e250]:
+          - link "Best Korean restaurant Irvine?" [ref=e251] [cursor=pointer]:
+            - /url: /r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/
+          - link "self.irvine" [ref=e252] [cursor=pointer]:
+            - /url: /r/irvine/
+        - paragraph [ref=e253]:
+          - text: submitted
+          - time [ref=e254]: 6 years ago
+          - text: by [deleted]
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "15 comments" [ref=e257] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/
+          - listitem [ref=e258]:
+            - link "share" [ref=e259] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e260]:
+            - link "save" [ref=e261] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e262]:
+            - link "hide" [ref=e265] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e266]:
+            - link "report" [ref=e267] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e268]:
+      - generic [ref=e269]: all 15 comments
+      - generic [ref=e271]:
+        - text: "sorted by:"
+        - generic [ref=e272]: best▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e275] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e276]
+        - generic [ref=e277]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e278]
+          - paragraph [ref=e279]: Post a comment!
+          - generic [ref=e281]: Create an account
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - paragraph
+          - generic [ref=e284]:
+            - button "upvote" [ref=e285] [cursor=pointer]
+            - button "downvote" [ref=e286] [cursor=pointer]
+          - generic [ref=e287]:
+            - paragraph [ref=e288]:
+              - link "[–]" [ref=e289] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dublued" [ref=e290] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dublued
+              - generic "Woodbridge" [ref=e291]: "- Woodbridge"
+              - text: • • 7 points •
+              - time [ref=e292]: 6 years ago
+            - paragraph [ref=e296]: Tang190
+            - list [ref=e297]:
+              - listitem [ref=e298]:
+                - link "permalink" [ref=e299] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evt2g5m/
+              - listitem [ref=e300]:
+                - link "embed" [ref=e301] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e302]:
+                - link "save" [ref=e303] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e304]:
+                - link "report" [ref=e305] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e306]:
+                - link "reply" [ref=e307] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e310]:
+            - paragraph
+            - generic [ref=e311]:
+              - button "upvote" [ref=e312] [cursor=pointer]
+              - button "downvote" [ref=e313] [cursor=pointer]
+            - generic [ref=e314]:
+              - paragraph [ref=e315]:
+                - link "[–]" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "aznboii88" [ref=e317] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/aznboii88
+                - text: • • 5 points •
+                - time [ref=e318]: 6 years ago
+              - heading "9 galbitang 10/10 would recommend" [level=1] [ref=e322]
+              - list [ref=e323]:
+                - listitem [ref=e324]:
+                  - link "permalink" [ref=e325] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evyhmgh/
+                - listitem [ref=e326]:
+                  - link "embed" [ref=e327] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e328]:
+                  - link "save" [ref=e329] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e330]:
+                  - link "parent" [ref=e331] [cursor=pointer]:
+                    - /url: "#evt2g5m"
+                - listitem [ref=e332]:
+                  - link "report" [ref=e333] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e334]:
+                  - link "reply" [ref=e335] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e336]:
+          - paragraph
+          - generic [ref=e337]:
+            - button "upvote" [ref=e338] [cursor=pointer]
+            - button "downvote" [ref=e339] [cursor=pointer]
+          - generic [ref=e340]:
+            - paragraph [ref=e341]:
+              - link "[–]" [ref=e342] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] • • 6 points •"
+              - time [ref=e343]: 6 years ago
+            - paragraph [ref=e347]: Kaya's does a pretty decent seafood pancake and yukgaejung.
+            - list [ref=e348]:
+              - listitem [ref=e349]:
+                - link "permalink" [ref=e350] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evsjbdj/
+              - listitem [ref=e351]:
+                - link "embed" [ref=e352] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e353]:
+                - link "save" [ref=e354] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e355]:
+                - link "report" [ref=e356] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e357]:
+                - link "reply" [ref=e358] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e359]:
+          - paragraph
+          - generic [ref=e360]:
+            - button "upvote" [ref=e361] [cursor=pointer]
+            - button "downvote" [ref=e362] [cursor=pointer]
+          - generic [ref=e363]:
+            - paragraph [ref=e364]:
+              - link "[–]" [ref=e365] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "BoostedBeb" [ref=e366] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/BoostedBeb
+              - text: • • 6 points •
+              - time [ref=e367]: 6 years ago
+            - paragraph [ref=e371]: For what specific type of Korean food tho?
+            - list [ref=e372]:
+              - listitem [ref=e373]:
+                - link "permalink" [ref=e374] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evsplv5/
+              - listitem [ref=e375]:
+                - link "embed" [ref=e376] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e377]:
+                - link "save" [ref=e378] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e379]:
+                - link "report" [ref=e380] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e381]:
+                - link "reply" [ref=e382] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e383]:
+          - paragraph
+          - generic [ref=e384]:
+            - paragraph [ref=e385]:
+              - link "[–]" [ref=e386] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e387]: "[deleted]"
+              - time [ref=e388]: 6 years ago
+              - time [ref=e389]: "*"
+            - paragraph [ref=e393]: "[deleted]"
+            - list
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - paragraph
+              - generic [ref=e397]:
+                - button "upvote" [ref=e398] [cursor=pointer]
+                - button "downvote" [ref=e399] [cursor=pointer]
+              - generic [ref=e400]:
+                - paragraph [ref=e401]:
+                  - link "[–]" [ref=e402] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "BletchTheWalrus" [ref=e403] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/BletchTheWalrus
+                  - text: • • 4 points •
+                  - time [ref=e404]: 6 years ago
+                - paragraph [ref=e408]: A sunbae of taste I see. I totally agree with you about Morangak and Yigah (especially for the sulangtang).
+                - list [ref=e409]:
+                  - listitem [ref=e410]:
+                    - link "permalink" [ref=e411] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evtx01n/
+                  - listitem [ref=e412]:
+                    - link "embed" [ref=e413] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e414]:
+                    - link "save" [ref=e415] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e416]:
+                    - link "report" [ref=e417] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e418]:
+                    - link "reply" [ref=e419] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e420]:
+              - paragraph
+              - generic [ref=e421]:
+                - button "upvote" [ref=e422] [cursor=pointer]
+                - button "downvote" [ref=e423] [cursor=pointer]
+              - generic [ref=e424]:
+                - paragraph [ref=e425]:
+                  - link "[–]" [ref=e426] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - text: "[deleted] • • 1 point •"
+                  - time [ref=e427]: 6 years ago
+                - paragraph [ref=e431]: I agree. I’ve actually tried every restaurant mentioned in the comment. I posted because I mightve missed some hidden gems that I haven’t tried. I guess I need to go to garden grove or Buena Park to get good Korean food. All my Korean friends despise Korean restaurants in Irvine.
+                - list [ref=e432]:
+                  - listitem [ref=e433]:
+                    - link "permalink" [ref=e434] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evzavv1/
+                  - listitem [ref=e435]:
+                    - link "embed" [ref=e436] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e437]:
+                    - link "save" [ref=e438] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e439]:
+                    - link "report" [ref=e440] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e441]:
+                    - link "reply" [ref=e442] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e443]:
+          - paragraph
+          - generic [ref=e444]:
+            - button "upvote" [ref=e445] [cursor=pointer]
+            - button "downvote" [ref=e446] [cursor=pointer]
+          - generic [ref=e447]:
+            - paragraph [ref=e448]:
+              - link "[–]" [ref=e449] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "duh_dude" [ref=e450] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/duh_dude
+              - text: • • 7 points •
+              - time [ref=e451]: 6 years ago
+            - paragraph [ref=e455]: BCD Tofu at Diamond Jamboree is pretty good
+            - list [ref=e456]:
+              - listitem [ref=e457]:
+                - link "permalink" [ref=e458] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evsal5h/
+              - listitem [ref=e459]:
+                - link "embed" [ref=e460] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e461]:
+                - link "save" [ref=e462] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e463]:
+                - link "report" [ref=e464] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e465]:
+                - link "reply" [ref=e466] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e469]:
+            - paragraph
+            - generic [ref=e470]:
+              - button "upvote" [ref=e471] [cursor=pointer]
+              - button "downvote" [ref=e472] [cursor=pointer]
+            - generic [ref=e473]:
+              - paragraph [ref=e474]:
+                - link "[–]" [ref=e475] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "rockstar_from_mars" [ref=e476] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/rockstar_from_mars
+                - text: • • 3 points •
+                - time [ref=e477]: 6 years ago
+              - generic [ref=e480]:
+                - paragraph [ref=e481]: I don't know why anyone is down voting you. BCD pretty much put soondoobu on everyone's radar. Before them soondobu restaurants didn't even exist, even in Korea. It was considered more of a side dish/ stew like doejang jigae.
+                - paragraph [ref=e482]: Whenever I have guests from Korea, they always want to try BCD because soodoobu restaurants aren't really popular out there.
+              - list [ref=e483]:
+                - listitem [ref=e484]:
+                  - link "permalink" [ref=e485] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evu5b39/
+                - listitem [ref=e486]:
+                  - link "embed" [ref=e487] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e488]:
+                  - link "save" [ref=e489] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e490]:
+                  - link "parent" [ref=e491] [cursor=pointer]:
+                    - /url: "#evsal5h"
+                - listitem [ref=e492]:
+                  - link "report" [ref=e493] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e494]:
+                  - link "reply" [ref=e495] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e496]:
+          - paragraph
+          - generic [ref=e497]:
+            - button "upvote" [ref=e498] [cursor=pointer]
+            - button "downvote" [ref=e499] [cursor=pointer]
+          - generic [ref=e500]:
+            - paragraph [ref=e501]:
+              - link "[–]" [ref=e502] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ShekkiBoi" [ref=e503] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ShekkiBoi
+              - text: • • 3 points •
+              - time [ref=e504]: 6 years ago
+            - paragraph [ref=e508]: What type though?
+            - list [ref=e509]:
+              - listitem [ref=e510]:
+                - link "permalink" [ref=e511] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evt31g4/
+              - listitem [ref=e512]:
+                - link "embed" [ref=e513] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e514]:
+                - link "save" [ref=e515] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e516]:
+                - link "report" [ref=e517] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e518]:
+                - link "reply" [ref=e519] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e520]:
+          - paragraph
+          - generic [ref=e521]:
+            - button "upvote" [ref=e522] [cursor=pointer]
+            - button "downvote" [ref=e523] [cursor=pointer]
+          - generic [ref=e524]:
+            - paragraph [ref=e525]:
+              - link "[–]" [ref=e526] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "rockstar_from_mars" [ref=e527] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/rockstar_from_mars
+              - text: • • 2 points •
+              - time [ref=e528]: 6 years ago
+            - generic [ref=e531]:
+              - paragraph [ref=e532]: K-Bop for bibimbap, Chai Lan for koreanized Chinese food, and Tang 190 for Korean soups and stews. I really dislike Kaya and Doorae. Horrible service and extremely mediocre did.
+              - paragraph [ref=e533]: Also honorable mention to Hako for Korean style Tonkatsu.
+            - list [ref=e534]:
+              - listitem [ref=e535]:
+                - link "permalink" [ref=e536] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evu4zfh/
+              - listitem [ref=e537]:
+                - link "embed" [ref=e538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e539]:
+                - link "save" [ref=e540] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e541]:
+                - link "report" [ref=e542] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e543]:
+                - link "reply" [ref=e544] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e547]:
+            - paragraph
+            - generic [ref=e548]:
+              - button "upvote" [ref=e549] [cursor=pointer]
+              - button "downvote" [ref=e550] [cursor=pointer]
+            - generic [ref=e551]:
+              - paragraph [ref=e552]:
+                - link "[–]" [ref=e553] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "dancingtwilight" [ref=e554] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/dancingtwilight
+                - text: • • 1 point •
+                - time [ref=e555]: 6 years ago
+              - paragraph [ref=e559]: did the management at Kaya change? I remember going there back in my first few years of college and the service was average and not horrible.
+              - list [ref=e560]:
+                - listitem [ref=e561]:
+                  - link "permalink" [ref=e562] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/ew05hug/
+                - listitem [ref=e563]:
+                  - link "embed" [ref=e564] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e565]:
+                  - link "save" [ref=e566] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e567]:
+                  - link "parent" [ref=e568] [cursor=pointer]:
+                    - /url: "#evu4zfh"
+                - listitem [ref=e569]:
+                  - link "report" [ref=e570] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e571]:
+                  - link "reply" [ref=e572] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e573]:
+          - paragraph
+          - generic [ref=e574]:
+            - button "upvote" [ref=e575] [cursor=pointer]
+            - button "downvote" [ref=e576] [cursor=pointer]
+          - generic [ref=e577]:
+            - paragraph [ref=e578]:
+              - link "[–]" [ref=e579] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "CCamba" [ref=e580] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/CCamba
+              - generic "Turtle Ridge" [ref=e581]: "- Turtle Ridge"
+              - text: • • 0 points •
+              - time [ref=e582]: 6 years ago
+            - paragraph [ref=e586]: kang ho dong baekjeong. Not even close.
+            - list [ref=e587]:
+              - listitem [ref=e588]:
+                - link "permalink" [ref=e589] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/evsm0x2/
+              - listitem [ref=e590]:
+                - link "embed" [ref=e591] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e592]:
+                - link "save" [ref=e593] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e594]:
+                - link "report" [ref=e595] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e596]:
+                - link "reply" [ref=e597] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e600]:
+            - paragraph
+            - generic [ref=e601]:
+              - button "upvote" [ref=e602] [cursor=pointer]
+              - button "downvote" [ref=e603] [cursor=pointer]
+            - generic [ref=e604]:
+              - paragraph [ref=e605]:
+                - link "[–]" [ref=e606] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "ken0746" [ref=e607] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/ken0746
+                - text: • • 1 point •
+                - time [ref=e608]: 6 years ago
+              - paragraph [ref=e612]: They’re pretty average. The one in NYC is way better
+              - list [ref=e613]:
+                - listitem [ref=e614]:
+                  - link "permalink" [ref=e615] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/ewrevv3/
+                - listitem [ref=e616]:
+                  - link "embed" [ref=e617] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e618]:
+                  - link "save" [ref=e619] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e620]:
+                  - link "parent" [ref=e621] [cursor=pointer]:
+                    - /url: "#evsm0x2"
+                - listitem [ref=e622]:
+                  - link "report" [ref=e623] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e624]:
+                  - link "reply" [ref=e625] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e628]:
+              - paragraph
+              - generic [ref=e629]:
+                - button "upvote" [ref=e630] [cursor=pointer]
+                - button "downvote" [ref=e631] [cursor=pointer]
+              - generic [ref=e632]:
+                - paragraph [ref=e633]:
+                  - link "[–]" [ref=e634] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "CCamba" [ref=e635] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/CCamba
+                  - generic "Turtle Ridge" [ref=e636]: "- Turtle Ridge"
+                  - text: • • 1 point •
+                  - time [ref=e637]: 6 years ago
+                - paragraph [ref=e641]: Didn’t try it in NYC when we visited this summer. Figured it’s all the same. Locals were hyping up Jongro so we figured we’d try something new. It was disappointing.
+                - list [ref=e642]:
+                  - listitem [ref=e643]:
+                    - link "permalink" [ref=e644] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/ewrk9ku/
+                  - listitem [ref=e645]:
+                    - link "embed" [ref=e646] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e647]:
+                    - link "save" [ref=e648] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e649]:
+                    - link "parent" [ref=e650] [cursor=pointer]:
+                      - /url: "#ewrevv3"
+                  - listitem [ref=e651]:
+                    - link "report" [ref=e652] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e653]:
+                    - link "reply" [ref=e654] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e657]:
+                - paragraph
+                - generic [ref=e658]:
+                  - button "upvote" [ref=e659] [cursor=pointer]
+                  - button "downvote" [ref=e660] [cursor=pointer]
+                - generic [ref=e661]:
+                  - paragraph [ref=e662]:
+                    - link "[–]" [ref=e663] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "ken0746" [ref=e664] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/ken0746
+                    - text: • • 2 points •
+                    - time [ref=e665]: 6 years ago
+                  - paragraph [ref=e669]: Definitely the one in NYC is much better than the one in Irvine. This coming from a person who eats at both multiple, and i mean multiple times. Every time I came to NY, I ended up eating there 3-4 times a week with my friends there. Try it next time you’re there. The one in Irvine is not bad, just average.
+                  - list [ref=e670]:
+                    - listitem [ref=e671]:
+                      - link "permalink" [ref=e672] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/irvine/comments/cl1hgm/best_korean_restaurant_irvine/ewsln7l/
+                    - listitem [ref=e673]:
+                      - link "embed" [ref=e674] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e675]:
+                      - link "save" [ref=e676] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e677]:
+                      - link "parent" [ref=e678] [cursor=pointer]:
+                        - /url: "#ewrk9ku"
+                    - listitem [ref=e679]:
+                      - link "report" [ref=e680] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e681]:
+                      - link "reply" [ref=e682] [cursor=pointer]:
+                        - /url: javascript:void(0)
+  - generic [ref=e683]:
+    - generic [ref=e684]:
+      - list [ref=e686]:
+        - listitem [ref=e687]: about
+        - listitem [ref=e688]:
+          - link "blog" [ref=e689] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e690]:
+          - link "about" [ref=e691] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e692]:
+          - link "advertising" [ref=e693] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e694]:
+          - link "careers" [ref=e695] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e697]:
+        - listitem [ref=e698]: help
+        - listitem [ref=e699]:
+          - link "site rules" [ref=e700] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e701]:
+          - link "Reddit help center" [ref=e702] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e703]:
+          - link "reddiquette" [ref=e704] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e705]:
+          - link "mod guidelines" [ref=e706] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e707]:
+          - link "contact us" [ref=e708] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e710]:
+        - listitem [ref=e711]: apps & tools
+        - listitem [ref=e712]:
+          - link "Reddit for iPhone" [ref=e713] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e714]:
+          - link "Reddit for Android" [ref=e715] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e716]:
+          - link "mobile website" [ref=e717] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e719]:
+        - listitem [ref=e720]: <3
+        - listitem [ref=e721]:
+          - link "reddit premium" [ref=e722] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e723]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e724] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e725] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e726]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwikveDkiYSUAxXDGFkFHTy1AD8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/LosAngeles OR site:reddit.com/r/FoodLosAngeles best restaurants Westwood OR UCLA OR Westside site:reddit.com/r/LosAngeles OR site:reddit.com/r/FoodLosAngeles best restaurants Westwood OR UCLA OR Westside
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252FLosAngeles%2BOR%2Bsite%253Areddit.com%252Fr%252FFoodLosAngeles%2Bbest%2Brestaurants%2BWestwood%2BOR%2BUCLA%2BOR%2BWestside&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&aep=1&ntc=1&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q2J8OegQIDRAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Short videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Qs6gLegQIERAB
+              - generic [ref=e91]: Short videos
+          - listitem [ref=e92]:
+            - link "Images" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8QtKgLegQIExAB
+              - generic [ref=e95]: Images
+          - listitem [ref=e96]:
+            - link "Maps" [ref=e97] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=33b5970ecd4ab1db&output=search&q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e99]: Maps
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Qs6gLegQIEhAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwvMg54BMciw6zYi-UcSdrQB4l0nMD55rVdDIBOOIqkeJZSDsCOUgYuP68eiVaGJwkCSAbhXHZ7b8tvNWwgCPere0-rl8A4vrO2ssan7NpPrauRtRPSLPFPb3rJMEqzAb4IFoFlJGwt67rHyrulh_D3EUqvqEyDFisf1TgZ83J0j7LyX7bg&q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "General recommendations for westwood / UCLA? Reddit · r/FoodLosAngeles 20+ comments · 2 years ago" [ref=e144] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/
+                - heading "General recommendations for westwood / UCLA?" [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Reddit · r/FoodLosAngeles
+                  - generic [ref=e154]: 20+ comments · 2 years ago
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: iXLB just opened. Noodle World. Boiling Crab. Kazu Nori. Northern Cafe.
+                - emphasis [ref=e163]: Westwood
+                - text: has tons a Asian
+                - emphasis [ref=e164]: food
+                - text: spots walking distance from
+                - emphasis [ref=e165]: UCLA
+                - text: .
+              - link "Read more" [ref=e166] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/#:~:text=iXLB%20just%20opened.%20Noodle%20World.,spots%20walking%20distance%20from%20UCLA.
+            - generic [ref=e171]:
+              - link "28 answers" [ref=e172] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/FoodLosAngeles/comments/15w03nr/general_recommendations_for_westwood_ucla/jwydebi/
+              - generic [ref=e173]: ·
+              - generic [ref=e174]: "Top answer:"
+              - generic [ref=e175]: KazuNori handrolls for sushi
+        - generic [ref=e179]:
+          - generic [ref=e182]:
+            - 'link "Trip To Westwood / UCLA Area : r/FoodLosAngeles Reddit · r/FoodLosAngeles 30+ comments · 1 year ago" [ref=e184] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1gkp5y0/trip_to_westwood_ucla_area/
+              - 'heading "Trip To Westwood / UCLA Area : r/FoodLosAngeles" [level=3] [ref=e185]'
+              - generic [ref=e190]:
+                - generic [ref=e192]: Reddit · r/FoodLosAngeles
+                - generic [ref=e194]: 30+ comments · 1 year ago
+            - button "About this result" [ref=e195] [cursor=pointer]:
+              - img [ref=e198]
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - text: In Westwood proper, I like
+              - emphasis [ref=e203]: Falafel Inc or
+              - text: Bella Pita, Egg Tuck, and Violet Bistro or Wolfsglen.
+            - link "Read more" [ref=e204] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1gkp5y0/trip_to_westwood_ucla_area/#:~:text=In%20Westwood%20proper%2C%20I%20like,and%20Violet%20Bistro%20or%20Wolfsglen.
+        - generic [ref=e208]:
+          - generic [ref=e211]:
+            - link "Westside - beloved local/legendary spots? Reddit · r/FoodLosAngeles 110+ comments · 8 months ago" [ref=e213] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1mf6sj5/westside_beloved_locallegendary_spots/
+              - heading "Westside - beloved local/legendary spots?" [level=3] [ref=e214]
+              - generic [ref=e219]:
+                - generic [ref=e221]: Reddit · r/FoodLosAngeles
+                - generic [ref=e223]: 110+ comments · 8 months ago
+            - button "About this result" [ref=e224] [cursor=pointer]:
+              - img [ref=e227]
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - emphasis [ref=e232]: 1 - Apple Pan
+              - text: · 2 - Hide Sushi - sawtelle has changed a lot but hide has been there for decades · 3 - Belwood Bakery - Brentwood.
+            - link "Read more" [ref=e233] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1mf6sj5/westside_beloved_locallegendary_spots/#:~:text=1%20%2D%20Apple%20Pan&text=2%20%2D%20Hide%20Sushi%20%2D,has%20been%20there%20for%20decades&text=3%20%2D%20Belwood%20Bakery%20%2D,Brentwood
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - link "Best restaurants near Westwood or Brentwood? Reddit · r/FoodLosAngeles 20+ comments · 1 year ago" [ref=e242] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/
+              - heading "Best restaurants near Westwood or Brentwood?" [level=3] [ref=e243]
+              - generic [ref=e248]:
+                - generic [ref=e250]: Reddit · r/FoodLosAngeles
+                - generic [ref=e252]: 20+ comments · 1 year ago
+            - button "About this result" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - emphasis [ref=e261]: Jon & Vinny's
+              - text: or Pizzana in Brentwood or Sunnin (Lebanese) or Taste of Tehran in Westwood (not Italian but as others have said Westwood does Persian well)
+            - link "Read more" [ref=e262] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/#:~:text=Jon%20%26%20Vinny's&text=or%20Pizzana%20in%20Brentwood%20or,said%20Westwood%20does%20Persian%20well)
+          - generic [ref=e267]:
+            - link "23 answers" [ref=e268] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ihbbe8/best_restaurants_near_westwood_or_brentwood/mavqwzs/
+            - generic [ref=e269]: ·
+            - generic [ref=e270]: "Top answer:"
+            - generic [ref=e271]: Pizzana in Brentwood
+        - generic [ref=e275]:
+          - generic [ref=e278]:
+            - link "Favorite $$-$$$ restaurant to go to in West LA/SM Reddit · r/FoodLosAngeles 60+ comments · 6 months ago" [ref=e280] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1odnsm0/favorite_restaurant_to_go_to_in_west_lasm/
+              - heading "Favorite $$-$$$ restaurant to go to in West LA/SM" [level=3] [ref=e281]
+              - generic [ref=e286]:
+                - generic [ref=e288]: Reddit · r/FoodLosAngeles
+                - generic [ref=e290]: 60+ comments · 6 months ago
+            - button "About this result" [ref=e291] [cursor=pointer]:
+              - img [ref=e294]
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - text: I would recommend
+              - emphasis [ref=e299]: Gjelina and Rustic Canyon
+              - text: over Fia any day. Much better menu and quality in my opinion.
+            - link "Read more" [ref=e300] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1odnsm0/favorite_restaurant_to_go_to_in_west_lasm/#:~:text=I%20would%20recommend,and%20quality%20in%20my%20opinion.
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - link "Best place for a casual meal on the west side? Reddit · r/FoodLosAngeles 60+ comments · 5 months ago" [ref=e309] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ovofvv/best_place_for_a_casual_meal_on_the_west_side/
+              - heading "Best place for a casual meal on the west side?" [level=3] [ref=e310]
+              - generic [ref=e315]:
+                - generic [ref=e317]: Reddit · r/FoodLosAngeles
+                - generic [ref=e319]: 60+ comments · 5 months ago
+            - button "About this result" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - emphasis [ref=e328]: Uovo, hiho, Hillstone, Din tai fung, R+D kitchen, Fathers office, kazunori
+              - text: . Some of these you can easily just sit at the bar if you're going ...
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ovofvv/best_place_for_a_casual_meal_on_the_west_side/#:~:text=Uovo%2C%20hiho%2C%20Hillstone%2C%20Din%20tai,bar%20if%20you're%20going%20solo
+          - generic [ref=e334]:
+            - link "63 answers" [ref=e335] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1ovofvv/best_place_for_a_casual_meal_on_the_west_side/nokuxro/
+            - generic [ref=e336]: ·
+            - generic [ref=e337]: "11 votes:"
+            - generic [ref=e338]: During the warmer days, though it’s a limited menu, The Cloverfield at Santa Monica Airport ...
+        - generic [ref=e342]:
+          - generic [ref=e345]:
+            - link "r/FoodLosAngeles Reddit · r/FoodLosAngeles 326.4K+ followers" [ref=e347] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/
+              - heading "r/FoodLosAngeles" [level=3] [ref=e348]
+              - generic [ref=e353]:
+                - generic [ref=e355]: Reddit · r/FoodLosAngeles
+                - generic [ref=e357]: 326.4K+ followers
+            - button "About this result" [ref=e358] [cursor=pointer]:
+              - img [ref=e361]
+          - generic [ref=e364]:
+            - generic [ref=e365]:
+              - text: Best single food item under $15 on the westside of LA? Up there for me would be a slice of
+              - emphasis [ref=e366]: Little Dynamite square pizza
+              - text: and thr Calif chicken cafe Caesar ...
+            - link "Read more" [ref=e367] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/#:~:text=Best%20single%20food%20item%20under,Calif%20chicken%20cafe%20Caesar%20wrap.
+        - generic [ref=e371]:
+          - generic [ref=e374]:
+            - link "r/FoodLosAngeles Reddit https://www.reddit.com › FoodLosAngeles › hot" [ref=e376] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/hot/
+              - heading "r/FoodLosAngeles" [level=3] [ref=e377]
+              - generic [ref=e382]:
+                - generic [ref=e384]: Reddit
+                - generic [ref=e386]: https://www.reddit.com › FoodLosAngeles › hot
+            - button "About this result" [ref=e387] [cursor=pointer]:
+              - img [ref=e390]
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - text: Best single food item under $15 on the westside of LA? Up there for me would be a slice of
+              - emphasis [ref=e395]: Little Dynamite square pizza
+              - text: and thr Calif chicken cafe Caesar ...
+            - link "Read more" [ref=e396] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/hot/#:~:text=Best%20single%20food%20item%20under,Calif%20chicken%20cafe%20Caesar%20wrap.
+        - generic [ref=e400]:
+          - generic [ref=e403]:
+            - link "What's a good date restaurant in Westwood or Brentwood ... Reddit · r/FoodLosAngeles 60+ comments · 2 years ago" [ref=e405] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/
+              - heading "What's a good date restaurant in Westwood or Brentwood ..." [level=3] [ref=e406]
+              - generic [ref=e411]:
+                - generic [ref=e413]: Reddit · r/FoodLosAngeles
+                - generic [ref=e415]: 60+ comments · 2 years ago
+            - button "About this result" [ref=e416] [cursor=pointer]:
+              - img [ref=e419]
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - text: +1 for
+              - emphasis [ref=e424]: Pomodoro
+              - text: "! Food is delicious, it's got a great vibe, the staff is lovely and prices are pretty reasonable for the west side."
+            - link "Read more" [ref=e425] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/#:~:text=%2B1%20for%20Pomodoro!%20Food%20is,reasonable%20for%20the%20west%20side
+          - generic [ref=e430]:
+            - link "60 answers" [ref=e431] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/1azwx8d/whats_a_good_date_restaurant_in_westwood_or/ks43j71/
+            - generic [ref=e432]: ·
+            - generic [ref=e433]: "Top answer:"
+            - generic [ref=e434]: Pizzana
+        - generic [ref=e438]:
+          - generic [ref=e441]:
+            - 'link "Best on the westside? : r/FoodLosAngeles Reddit · r/FoodLosAngeles 8 comments · 2 years ago" [ref=e443] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/FoodLosAngeles/comments/14une8d/best_on_the_westside/
+              - 'heading "Best on the westside? : r/FoodLosAngeles" [level=3] [ref=e444]'
+              - generic [ref=e449]:
+                - generic [ref=e451]: Reddit · r/FoodLosAngeles
+                - generic [ref=e453]: 8 comments · 2 years ago
+            - button "About this result" [ref=e454] [cursor=pointer]:
+              - img [ref=e457]
+          - generic [ref=e461]:
+            - text: This is a rather large area. But fine dining on the westside includes
+            - emphasis [ref=e462]: Kali, Manzke, Providence, n/naka, Melisse and Maude
+            - text: .
+      - generic [ref=e464]:
+        - generic [ref=e469]:
+          - heading "People also search for" [level=2] [ref=e471]
+          - generic [ref=e473]:
+            - link "Best restaurants westwood ucla westside reddit" [ref=e478] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&q=Best+restaurants+westwood+ucla+westside+reddit&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q1QJ6BAg2EAE
+              - generic [ref=e479]:
+                - generic [ref=e484]: Best restaurants westwood ucla westside reddit
+                - img [ref=e488]
+            - link "Best restaurants westwood ucla westside downtown" [ref=e494] [cursor=pointer]:
+              - /url: /search?sca_esv=33b5970ecd4ab1db&q=Best+restaurants+westwood+ucla+westside+downtown&sa=X&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q1QJ6BAg1EAE
+              - generic [ref=e495]:
+                - generic [ref=e500]: Best restaurants westwood ucla westside downtown
+                - img [ref=e504]
+        - navigation [ref=e506]:
+          - heading "Page Navigation" [level=1] [ref=e507]
+          - text: "1"
+          - link "Page 2" [ref=e510] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=10&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAE
+            - text: "2"
+          - link "Page 3" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=20&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAG
+            - text: "3"
+          - link "Page 4" [ref=e514] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=30&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAI
+            - text: "4"
+          - link "Page 5" [ref=e516] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=40&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAK
+            - text: "5"
+          - link "Page 6" [ref=e518] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=50&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAM
+            - text: "6"
+          - link "Page 7" [ref=e520] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=60&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAO
+            - text: "7"
+          - link "Page 8" [ref=e522] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=70&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAQ
+            - text: "8"
+          - link "Page 9" [ref=e524] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=80&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAS
+            - text: "9"
+          - link "Page 10" [ref=e526] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=90&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8tMDegQILhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e528]:
+            - link "Next" [ref=e529] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/LosAngeles+OR+site:reddit.com/r/FoodLosAngeles+best+restaurants+Westwood+OR+UCLA+OR+Westside&sca_esv=33b5970ecd4ab1db&ei=SB7qaaT5J8Ox5NoPvOqC-AM&start=10&sa=N&sstk=Af77f_dZJoSEu74zoUSQ2MZuhMGlFqVF5jeTdFoMlmHHmfoh6MHLim-RQ3cMMnANHfmerMJwKpVSRXTPTJK-9_eQB346-TzW1Hs_bA&ved=2ahUKEwikveDkiYSUAxXDGFkFHTy1AD8Q8NMDegQILhAW
+              - generic [ref=e531]: Next
+      - navigation
+    - contentinfo [ref=e532]:
+      - heading "Footer Links" [level=1] [ref=e533]
+      - generic [ref=e537]:
+        - generic [ref=e541]:
+          - button "15213, Pittsburgh, PA - From your IP address" [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]: 15213, Pittsburgh, PA
+            - generic [ref=e546]:
+              - text: "-"
+              - generic [ref=e547]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e549] [cursor=pointer]: Update location
+        - generic [ref=e552]:
+          - link "Help" [ref=e553] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e554] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e555] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e556] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

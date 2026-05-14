@@ -1,0 +1,329 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Skip to content" [ref=e7] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e8] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: Section Navigation
+          - img [ref=e11]
+        - button "Search" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Search
+          - img [ref=e18]
+      - link "New York Times homepage" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img [ref=e22]
+      - generic [ref=e24]:
+        - link "Subscribe" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription?campaignId=67LWR&redirect_uri=
+          - generic [ref=e26]: Subscribe
+        - link "Log in" [ref=e27] [cursor=pointer]:
+          - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2018%252F05%252F03%252Ftravel%252Fwhat-to-do-in-36-hours-in-stockholm.html&asset=masthead
+          - generic [ref=e28]: Log in
+  - generic [ref=e29]:
+    - heading "Page Not Found" [level=1] [ref=e30]
+    - generic [ref=e31]:
+      - textbox "Search NYTimes.com" [ref=e32]
+      - button "Go" [disabled] [ref=e33]
+  - navigation "Site Index" [ref=e34]:
+    - heading "Site Index" [level=2] [ref=e35]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - link "New York Times" [ref=e38] [cursor=pointer]:
+          - /url: /
+          - img [ref=e39]
+        - link "Go to Home Page »" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e44]:
+        - region "News" [ref=e45]:
+          - heading "News" [level=3] [ref=e46]
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "Home Page" [ref=e49] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e50]:
+              - link "U.S." [ref=e51] [cursor=pointer]:
+                - /url: /section/us
+            - listitem [ref=e52]:
+              - link "World" [ref=e53] [cursor=pointer]:
+                - /url: /section/world
+            - listitem [ref=e54]:
+              - link "Politics" [ref=e55] [cursor=pointer]:
+                - /url: /section/politics
+            - listitem [ref=e56]:
+              - link "New York" [ref=e57] [cursor=pointer]:
+                - /url: /section/nyregion
+            - listitem [ref=e58]:
+              - link "Education" [ref=e59] [cursor=pointer]:
+                - /url: /section/education
+            - listitem [ref=e60]:
+              - link "Sports" [ref=e61] [cursor=pointer]:
+                - /url: /section/sports
+            - listitem [ref=e62]:
+              - link "Business" [ref=e63] [cursor=pointer]:
+                - /url: /section/business
+            - listitem [ref=e64]:
+              - link "Tech" [ref=e65] [cursor=pointer]:
+                - /url: /section/technology
+            - listitem [ref=e66]:
+              - link "Science" [ref=e67] [cursor=pointer]:
+                - /url: /section/science
+            - listitem [ref=e68]:
+              - link "Weather" [ref=e69] [cursor=pointer]:
+                - /url: /section/weather
+            - listitem [ref=e70]:
+              - link "The Great Read" [ref=e71] [cursor=pointer]:
+                - /url: /spotlight/the-great-read
+            - listitem [ref=e72]:
+              - link "Obituaries" [ref=e73] [cursor=pointer]:
+                - /url: /section/obituaries
+            - listitem [ref=e74]:
+              - link "Headway" [ref=e75] [cursor=pointer]:
+                - /url: /section/headway
+            - listitem [ref=e76]:
+              - link "Visual Investigations" [ref=e77] [cursor=pointer]:
+                - /url: /spotlight/visual-investigations
+            - listitem [ref=e78]:
+              - link "The Magazine" [ref=e79] [cursor=pointer]:
+                - /url: /section/magazine
+        - region "Arts" [ref=e80]:
+          - heading "Arts" [level=3] [ref=e81]
+          - list [ref=e82]:
+            - listitem [ref=e83]:
+              - link "Book Review" [ref=e84] [cursor=pointer]:
+                - /url: /section/books/review
+            - listitem [ref=e85]:
+              - link "Best Sellers Book List" [ref=e86] [cursor=pointer]:
+                - /url: /books/best-sellers/
+            - listitem [ref=e87]:
+              - link "Dance" [ref=e88] [cursor=pointer]:
+                - /url: /section/arts/dance
+            - listitem [ref=e89]:
+              - link "Movies" [ref=e90] [cursor=pointer]:
+                - /url: /section/movies
+            - listitem [ref=e91]:
+              - link "Music" [ref=e92] [cursor=pointer]:
+                - /url: /section/arts/music
+            - listitem [ref=e93]:
+              - link "Pop Culture" [ref=e94] [cursor=pointer]:
+                - /url: /spotlight/pop-culture
+            - listitem [ref=e95]:
+              - link "Television" [ref=e96] [cursor=pointer]:
+                - /url: /section/arts/television
+            - listitem [ref=e97]:
+              - link "Theater" [ref=e98] [cursor=pointer]:
+                - /url: /section/theater
+            - listitem [ref=e99]:
+              - link "Visual Arts" [ref=e100] [cursor=pointer]:
+                - /url: /section/arts/design
+        - region "Lifestyle" [ref=e101]:
+          - heading "Lifestyle" [level=3] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - link "Health" [ref=e105] [cursor=pointer]:
+                - /url: /section/health
+            - listitem [ref=e106]:
+              - link "Well" [ref=e107] [cursor=pointer]:
+                - /url: /section/well
+            - listitem [ref=e108]:
+              - link "Food" [ref=e109] [cursor=pointer]:
+                - /url: /section/food
+            - listitem [ref=e110]:
+              - link "Restaurant Reviews" [ref=e111] [cursor=pointer]:
+                - /url: /reviews/dining
+            - listitem [ref=e112]:
+              - link "Love" [ref=e113] [cursor=pointer]:
+                - /url: /section/fashion/weddings
+            - listitem [ref=e114]:
+              - link "Travel" [ref=e115] [cursor=pointer]:
+                - /url: /section/travel
+            - listitem [ref=e116]:
+              - link "Style" [ref=e117] [cursor=pointer]:
+                - /url: /section/style
+            - listitem [ref=e118]:
+              - link "Fashion" [ref=e119] [cursor=pointer]:
+                - /url: /section/fashion
+            - listitem [ref=e120]:
+              - link "Real Estate" [ref=e121] [cursor=pointer]:
+                - /url: /section/realestate
+            - listitem [ref=e122]:
+              - link "T Magazine" [ref=e123] [cursor=pointer]:
+                - /url: /section/t-magazine
+        - region "Opinion" [ref=e124]:
+          - heading "Opinion" [level=3] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - link "Today's Opinion" [ref=e128] [cursor=pointer]:
+                - /url: /section/opinion
+            - listitem [ref=e129]:
+              - link "Columnists" [ref=e130] [cursor=pointer]:
+                - /url: /section/opinion/columnists
+            - listitem [ref=e131]:
+              - link "Editorials" [ref=e132] [cursor=pointer]:
+                - /url: /section/opinion/editorials
+            - listitem [ref=e133]:
+              - link "Guest Essays" [ref=e134] [cursor=pointer]:
+                - /url: /section/opinion/contributors
+            - listitem [ref=e135]:
+              - link "Op-Docs" [ref=e136] [cursor=pointer]:
+                - /url: /column/op-docs
+            - listitem [ref=e137]:
+              - link "Letters" [ref=e138] [cursor=pointer]:
+                - /url: /section/opinion/letters
+            - listitem [ref=e139]:
+              - link "Sunday Opinion" [ref=e140] [cursor=pointer]:
+                - /url: /section/opinion/sunday
+            - listitem [ref=e141]:
+              - link "Opinion Video" [ref=e142] [cursor=pointer]:
+                - /url: /spotlight/opinion-video
+            - listitem [ref=e143]:
+              - link "Opinion Audio" [ref=e144] [cursor=pointer]:
+                - /url: /series/opinion-audio
+        - region "More" [ref=e145]:
+          - heading "More" [level=3] [ref=e146]
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - link "Audio" [ref=e149] [cursor=pointer]:
+                - /url: /spotlight/podcasts
+            - listitem [ref=e150]:
+              - link "Games" [ref=e151] [cursor=pointer]:
+                - /url: https://www.nytimes.com/crosswords
+            - listitem [ref=e152]:
+              - link "Cooking" [ref=e153] [cursor=pointer]:
+                - /url: https://cooking.nytimes.com
+            - listitem [ref=e154]:
+              - link "Wirecutter" [ref=e155] [cursor=pointer]:
+                - /url: https://www.nytimes.com/wirecutter/
+            - listitem [ref=e156]:
+              - link "The Athletic" [ref=e157] [cursor=pointer]:
+                - /url: https://www.nytimes.com/athletic/
+            - listitem [ref=e158]:
+              - link "Jobs" [ref=e159] [cursor=pointer]:
+                - /url: /section/jobs
+            - listitem [ref=e160]:
+              - link "Video" [ref=e161] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=e162]:
+              - link "Graphics" [ref=e163] [cursor=pointer]:
+                - /url: /spotlight/graphics
+            - listitem [ref=e164]:
+              - link "Trending" [ref=e165] [cursor=pointer]:
+                - /url: /trending/
+            - listitem [ref=e166]:
+              - link "Live Events" [ref=e167] [cursor=pointer]:
+                - /url: /spotlight/nyt-events
+            - listitem [ref=e168]:
+              - link "Corrections" [ref=e169] [cursor=pointer]:
+                - /url: /section/corrections
+            - listitem [ref=e170]:
+              - link "Reader Center" [ref=e171] [cursor=pointer]:
+                - /url: /section/reader-center
+            - listitem [ref=e172]:
+              - link "TimesMachine" [ref=e173] [cursor=pointer]:
+                - /url: https://timesmachine.nytimes.com/browser
+            - listitem [ref=e174]:
+              - link "The Learning Network" [ref=e175] [cursor=pointer]:
+                - /url: /section/learning
+            - listitem [ref=e176]:
+              - link "School of The NYT" [ref=e177] [cursor=pointer]:
+                - /url: https://nytedu.com/
+            - listitem [ref=e178]:
+              - link "inEducation" [ref=e179] [cursor=pointer]:
+                - /url: /spotlight/nytimesineducation
+        - generic "Account" [ref=e180]:
+          - heading "Account" [level=3] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Subscribe" [ref=e184] [cursor=pointer]:
+                - /url: /subscription
+                - img [ref=e185]
+                - text: Subscribe
+            - listitem [ref=e187]:
+              - link "Manage My Account" [ref=e188] [cursor=pointer]:
+                - /url: /account
+                - img [ref=e189]
+                - text: Manage My Account
+            - listitem [ref=e192]:
+              - link "Home Delivery" [ref=e193] [cursor=pointer]:
+                - /url: https://www.nytimes.com/subscription/home-delivery
+                - img [ref=e194]
+                - text: Home Delivery
+            - listitem [ref=e199]:
+              - link "Gift Subscriptions" [ref=e200] [cursor=pointer]:
+                - /url: https://www.nytimes.com/gift
+                - img [ref=e201]
+                - text: Gift Subscriptions
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Group Subscriptions" [ref=e205] [cursor=pointer]:
+                - /url: /subscription/groups?Pardot_Campaign_Code_Form_Input=89FQX
+            - listitem [ref=e206]:
+              - link "Gift Articles" [ref=e207] [cursor=pointer]:
+                - /url: /gift-articles
+            - listitem [ref=e208]:
+              - link "Email Newsletters" [ref=e209] [cursor=pointer]:
+                - /url: /newsletters
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - link "NYT Licensing" [ref=e212] [cursor=pointer]:
+                - /url: https://nytlicensing.com/
+            - listitem [ref=e213]:
+              - link "Replica Edition" [ref=e214] [cursor=pointer]:
+                - /url: https://nytimes.pressreader.com/
+            - listitem [ref=e215]:
+              - link "Times Store" [ref=e216] [cursor=pointer]:
+                - /url: https://store.nytimes.com/
+  - contentinfo [ref=e217]:
+    - navigation [ref=e218]:
+      - heading "Site Information Navigation" [level=2] [ref=e219]
+      - list [ref=e220]:
+        - listitem [ref=e221]:
+          - link "© 2026 The New York Times Company" [ref=e222] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+      - list [ref=e223]:
+        - listitem [ref=e224]:
+          - link "NYTCo" [ref=e225] [cursor=pointer]:
+            - /url: https://www.nytco.com/
+        - listitem [ref=e226]:
+          - link "Contact Us" [ref=e227] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+        - listitem [ref=e228]:
+          - link "Accessibility" [ref=e229] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+        - listitem [ref=e230]:
+          - link "Work with us" [ref=e231] [cursor=pointer]:
+            - /url: https://www.nytco.com/careers/
+        - listitem [ref=e232]:
+          - link "Advertise" [ref=e233] [cursor=pointer]:
+            - /url: https://advertising.nytimes.com/
+        - listitem [ref=e234]:
+          - link "T Brand Studio" [ref=e235] [cursor=pointer]:
+            - /url: https://advertising.nytimes.com/custom-content/
+        - listitem [ref=e236]:
+          - link "Privacy Policy" [ref=e237] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+        - listitem [ref=e238]:
+          - link "Cookie Policy" [ref=e239] [cursor=pointer]:
+            - /url: https://www.nytimes.com/privacy/cookie-policy
+        - listitem [ref=e240]:
+          - link "Terms of Service" [ref=e241] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+        - listitem [ref=e242]:
+          - link "Terms of Sale" [ref=e243] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+        - listitem [ref=e244]:
+          - link "Site Map" [ref=e245] [cursor=pointer]:
+            - /url: /sitemap/
+        - listitem [ref=e246]:
+          - link "Help" [ref=e247] [cursor=pointer]:
+            - /url: https://help.nytimes.com/hc/en-us
+        - listitem [ref=e248]:
+          - link "Subscriptions" [ref=e249] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - button "Your Privacy Choices" [ref=e252] [cursor=pointer]:
+            - img [ref=e253]
+            - text: Your Privacy Choices

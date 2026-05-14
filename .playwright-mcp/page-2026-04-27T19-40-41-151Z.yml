@@ -1,0 +1,479 @@
+- generic [ref=e1]:
+  - generic:
+    - banner [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]:
+          - link "Skip to content" [ref=e5] [cursor=pointer]:
+            - /url: "#site-content"
+          - link "Skip to site index" [ref=e6] [cursor=pointer]:
+            - /url: "#site-index"
+          - button "Section Navigation" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8]: Section Navigation
+            - img [ref=e9]
+          - button "Search" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: Search
+            - img [ref=e16]
+        - link "New York Times homepage" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Subscribe for $1/week" [ref=e24] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=79FKF&source=bar1
+            - generic [ref=e25]: Subscribe for $1/week
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Finteractive%252F2025%252F07%252F24%252Ftravel%252Fthings-to-do-reykjavik.html&asset=masthead
+            - generic [ref=e27]: Log in
+    - main [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e38]:
+            - link "36 Hours" [ref=e41] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e43]: Reykjavik
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: "Jump to:"
+              - link "Recommendations" [ref=e48] [cursor=pointer]:
+                - /url: "#recommendations"
+              - link "Itinerary" [ref=e50] [cursor=pointer]:
+                - /url: "#itinerary"
+              - generic [ref=e51]:
+                - link "Google Map" [ref=e52] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/St8wwp7rNvKCdSuw8
+                - img [ref=e54]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]:
+                - generic [ref=e60]: By Grayson del Faro Photographs by Hilary Swift
+              - paragraph [ref=e61]: Grayson del Faro is a freelance writer based in Reykjavik since 2014.
+              - time [ref=e62]: July 24, 2025
+            - paragraph [ref=e63]
+            - paragraph [ref=e64]: Reykjavik is a quirky, colorful and surprisingly cosmopolitan outpost on the edge of the Arctic that offers much more than a launchpad to Iceland’s volcanic landscapes. Lauded by UNESCO as a “City of Literature,” Reykjavik takes great pride in its creative culture and the last decade has seen its restaurant scene finally blossom. Even a short trip can prove why this cold place is still a hot spot in 2025. Peppered throughout Reykjavik’s charming streets and stunning natural surroundings, you’ll find public pools and elegant spas offering a unique bathing culture; a new exhibition of ancient texts that shows off Iceland’s living literary history; and cuisine ranging from traditional fermented shark to modern Michelin excellence. Whether you pass through Reykjavik for a long stopover between North America and Europe or make it the starting point of a journey around the Ring Road circling the island country, the buzzing town’s walkable size means that most of its treasures are well within arm’s reach.
+          - generic [ref=e65]: Advertisement
+          - heading "Recommendations" [level=2] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - button "Key stops –" [ref=e69] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e70]: –
+              - list [ref=e71]:
+                - listitem [ref=e72]:
+                  - strong [ref=e73]:
+                    - link "World of Words" [ref=e74] [cursor=pointer]:
+                      - /url: https://worldinwords.is/
+                  - text: ", the brand-new exhibition at the Arni Magnusson Institute for Icelandic Studies, shows off the origins of Norse mythology to the public for the first time in over a decade."
+                - listitem [ref=e75]:
+                  - text: At the westernmost point of Reykjavik’s peninsula is
+                  - strong [ref=e76]:
+                    - link "Grotta" [ref=e77] [cursor=pointer]:
+                      - /url: https://visitreykjavik.is/service/island-grotta-and-grotta-lighthouse
+                  - text: ", with its wildlife, windswept coastline and a heated footbath."
+                - listitem [ref=e78]:
+                  - text: Only 45 minutes from the capital,
+                  - strong [ref=e79]:
+                    - link "Hvammsvik" [ref=e80] [cursor=pointer]:
+                      - /url: https://hvammsvik.com/is
+                  - text: is a spa built on the site of a natural hot spring with a swim-up bar and mesmerizing views.
+            - generic [ref=e81]:
+              - button "Museums and attractions +" [ref=e82] [cursor=pointer]:
+                - text: Museums and attractions
+                - generic [ref=e83]: +
+              - list:
+                - listitem [ref=e84]:
+                  - text: A sprawling pool complex east of downtown,
+                  - strong [ref=e85]:
+                    - link "Laugardalslaug" [ref=e86] [cursor=pointer]:
+                      - /url: https://reykjavik.is/laugardalslaug
+                  - text: exemplifies Icelandic bathing culture.
+                - listitem [ref=e87]:
+                  - text: Walk through history at the
+                  - strong [ref=e88]:
+                    - link "National Museum of Iceland" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.thjodminjasafn.is/en
+                  - text: ", which has more than a thousand years’ worth of artifacts arranged in chronological order."
+                - listitem [ref=e90]:
+                  - strong [ref=e91]:
+                    - link "Marshallhusid" [ref=e92] [cursor=pointer]:
+                      - /url: https://marshallhusid.is/
+                  - text: is a former herring factory that houses some of the country’s best-established contemporary art spaces, such as the artist-collective-run
+                  - strong [ref=e93]:
+                    - link "Nylistasafnid" [ref=e94] [cursor=pointer]:
+                      - /url: https://www.nylo.is/
+                  - text: and
+                  - strong [ref=e95]:
+                    - link "i8 Gallery" [ref=e96] [cursor=pointer]:
+                      - /url: https://i8.is/
+                  - text: ’s satellite location.
+                - listitem [ref=e97]:
+                  - text: The landmark church
+                  - strong [ref=e98]:
+                    - link "Hallgrimskirkja" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.hallgrimskirkja.is/
+                  - text: pays subtle homage to Icelandic geology and offers views over the surrounding city.
+                - listitem [ref=e100]:
+                  - text: The free sculpture garden outside the
+                  - strong [ref=e101]:
+                    - link "Einar Jonsson Museum" [ref=e102] [cursor=pointer]:
+                      - /url: https://www.lej.is/
+                  - text: displays the monumental and surreal works of Iceland’s most famous sculptor.
+            - generic [ref=e103]:
+              - button "Restaurants and bars +" [ref=e104] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e105]: +
+              - list:
+                - listitem [ref=e106]:
+                  - strong [ref=e107]:
+                    - link "Hotel Holt" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.holt.is/en
+                  - text: hides a cozy little cocktail bar inside a phenomenal collection of Icelandic artwork.
+                - listitem [ref=e109]:
+                  - text: The last bastion of old school Icelandic dining,
+                  - strong [ref=e110]:
+                    - link "Thrir Frakkar" [ref=e111] [cursor=pointer]:
+                      - /url: https://www.3frakkar.is/
+                  - text: offers traditional fare in an unpretentious setting.
+                - listitem [ref=e112]:
+                  - text: The plant-based pierogi bar
+                  - strong [ref=e113]:
+                    - link "Kemuri" [ref=e114] [cursor=pointer]:
+                      - /url: https://www.facebook.com/kemurirvk
+                  - text: draws from Iceland’s Polish community and the country’s efforts toward sustainability.
+                - listitem [ref=e115]:
+                  - strong [ref=e116]:
+                    - link "Kaffi O-le" [ref=e117] [cursor=pointer]:
+                      - /url: https://www.instagram.com/kaffi_o_le/?hl=en
+                  - text: is a chic little cafe that sources their beans from a local microroastery in the Grandi district.
+                - listitem [ref=e118]:
+                  - strong [ref=e119]:
+                    - link "Braud og Co" [ref=e120] [cursor=pointer]:
+                      - /url: https://www.braudogco.is/en-gb/vefverslun
+                  - text: has raised the bar for Icelandic baked goods with their buttery bombs of cinnamon rolls in various flavors.
+                - listitem [ref=e121]: Saegreifinn is a hole-in-the-wall that serves langoustine soup, fish skewers and fermented shark for the brave.
+                - listitem [ref=e122]:
+                  - text: The ice cream sundaes at
+                  - strong [ref=e123]:
+                    - link "Omnom" [ref=e124] [cursor=pointer]:
+                      - /url: https://omnom.is/pages/omnom-ice-cream-and-chocolate-shop
+                  - text: are decorated with inventive toppings shaped to turn each one into an animal — or a monster.
+                - listitem [ref=e125]:
+                  - text: Known for their “cod wings,”
+                  - strong [ref=e126]:
+                    - link "Skal!" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.skalrvk.com/
+                  - text: boasts a nearly flawless menu of small plates and natural wines.
+                - listitem [ref=e128]:
+                  - text: Michelin-starred
+                  - strong [ref=e129]:
+                    - link "OX" [ref=e130] [cursor=pointer]:
+                      - /url: https://ox.restaurant/ox/
+                  - text: may cost more than your plane ticket, but it may also be the best meal of your life.
+                - listitem [ref=e131]:
+                  - text: "Choose your night out: wines at the cozy"
+                  - strong [ref=e132]:
+                    - link "Vinstukan" [ref=e133] [cursor=pointer]:
+                      - /url: https://tiu-sopar.is/
+                  - text: ", beers at the folksy"
+                  - strong [ref=e134]:
+                    - link "Aegir" [ref=e135] [cursor=pointer]:
+                      - /url: https://www.aegirbrugghus.is/
+                  - text: ", cocktails at the ritzy"
+                  - strong [ref=e136]:
+                    - link "Jungle" [ref=e137] [cursor=pointer]:
+                      - /url: https://jungle.is/#/
+                  - text: or dancing at the dusky Paloma.
+                - listitem [ref=e138]:
+                  - strong [ref=e139]:
+                    - link "Prikid" [ref=e140] [cursor=pointer]:
+                      - /url: https://prikid.is/
+                  - text: is a legendary bar known to both cause hangovers and then cure them with its hearty brunch fare.
+            - generic [ref=e141]:
+              - button "Shopping +" [ref=e142] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e143]: +
+              - list:
+                - listitem [ref=e144]:
+                  - strong [ref=e145]:
+                    - link "Skalda" [ref=e146] [cursor=pointer]:
+                      - /url: https://skaldabokabud.is/
+                  - text: is everyone’s new favorite bookstore with well-curated English titles, including translations of Icelandic authors.
+                - listitem [ref=e147]:
+                  - text: Piled high with dusty, musty curiosities,
+                  - strong [ref=e148]:
+                    - link "Bokin" [ref=e149] [cursor=pointer]:
+                      - /url: http://www.bokin.is/index.php
+                  - text: is your classic always-been-there, always-will-be institution.
+                - listitem [ref=e150]:
+                  - strong [ref=e151]:
+                    - link "Salka" [ref=e152] [cursor=pointer]:
+                      - /url: https://www.salka.is/
+                  - text: is a publisher-turned-bookstore stocking some English bestsellers, with beer and wine to sip while you browse.
+                - listitem [ref=e153]:
+                  - text: Graffiti-ed up to its cavernous ceiling,
+                  - strong [ref=e154]:
+                    - link "Lucky Records" [ref=e155] [cursor=pointer]:
+                      - /url: https://luckyrecords.is/en/
+                  - text: has hours’ worth of material to flip through.
+                - listitem [ref=e156]:
+                  - strong [ref=e157]:
+                    - link "12 Tonar" [ref=e158] [cursor=pointer]:
+                      - /url: https://12tonar.company.site/
+                  - text: is a longstanding record shop strewed with threadbare furniture and a bar popular with the local musical intelligentsia.
+                - listitem [ref=e159]:
+                  - text: The minimalist shop
+                  - strong [ref=e160]:
+                    - link "Smekkleysa" [ref=e161] [cursor=pointer]:
+                      - /url: https://smekkleysa.net/
+                  - text: honors its founding by Bjork’s first band, the Sugarcubes, with its focus on local musicians and labels.
+                - listitem [ref=e162]:
+                  - strong [ref=e163]:
+                    - link "Fischersund" [ref=e164] [cursor=pointer]:
+                      - /url: https://www.fischersund.com/
+                  - link [ref=e165] [cursor=pointer]:
+                    - /url: https://www.fischersund.com/
+                  - text: is a gallery-like perfumery first and record label second, making the shop a full-on sensory experience.
+            - generic [ref=e166]:
+              - button "Where to stay +" [ref=e167] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e168]: +
+              - list:
+                - listitem [ref=e169]:
+                  - text: In the very center of the city, the
+                  - strong [ref=e170]:
+                    - link "Iceland Parliament Hotel" [ref=e171] [cursor=pointer]:
+                      - /url: https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/iceland-parliament-hotel
+                  - text: shares the plaza with Althingi, the Icelandic Parliament Building. The labyrinthine complex connects revamped historic buildings (the National Telephone Building and the old Girls’ Grammar School) with hodge-podge contemporary additions to form a labyrinthine complex with more than 160 rooms, a restaurant, a spa and a ballroom. (From 75,000 ISK, or $620, per night in summer and 48,000 ISK, or $395, in the off-season).
+                - listitem [ref=e172]:
+                  - strong [ref=e173]:
+                    - link "Guesthouse Galtafell" [ref=e174] [cursor=pointer]:
+                      - /url: https://galtafell.com/
+                  - text: is housed in the castle-inspired former residence of the Icelandic painter Muggur. On a quiet street of stately homes just steps from the picturesque pond in the heart of the city, it offers minimal but cozy rooms and whole apartments at fair rates even in peak season. (Rooms from 35,000 ISK per night, apartments from 44,000 ISK).
+                - listitem [ref=e175]:
+                  - strong [ref=e176]:
+                    - link "Loft Hostel" [ref=e177] [cursor=pointer]:
+                      - /url: https://www.hostel.is/en/hostels/hi-reykjavik-loft
+                  - text: occupies the upper floors of a simple building on the main street, Laugavegur. The no-frills accommodations are kept spic and span, but it’s the lively bar and cavernous social space that give this place life. Whenever the sun shines, even locals flock to its rooftop terrace. (Hostel beds from 8,500 ISK per night.)
+                - listitem [ref=e178]: Reykjavik has struggled to rein in vacation rentals like Airbnb and as a result, it’s regularly considered one of the worst rental markets in the world. Wherever possible, opt for one of many legally registered apartments that can be easily found on sites like Booking.com and Expedia. Anywhere downtown is ideal, but the Vesturbaer and Austurbaer neighborhoods are within walking distance as well.
+            - generic [ref=e179]:
+              - button "Getting around +" [ref=e180] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e181]: +
+              - list [ref=e182]:
+                - listitem [ref=e183]: Reykjavik is a small city and most of its sites are within a 30-minute walk of the center. Electric scooters rented by app are a scourge on sidewalks, but extremely convenient for the short distances. Bus service is limited and relatively expensive (670 ISK one-way), but is reliable and can be easily paid directly by credit card. Taxis are outrageously expensive and wholly avoidable. Rental cars in the city and at Keflavik International Airport are only necessary for longer trips to the countryside.
+          - heading "Itinerary" [level=2] [ref=e184]
+          - generic [ref=e185]:
+            - heading "Friday" [level=2] [ref=e186]
+            - generic [ref=e187]:
+              - generic [ref=e188]: 3 p.m. Dive into Icelandic pool culture
+              - paragraph [ref=e190]:
+                - text: "Start your weekend off like many Icelanders do: head to the pool for a soak. Pool culture is so important to Iceland that it’s currently awaiting approval on the UNESCO List of Intangible Cultural Heritage. Although nearly every neighborhood in Reykjavik has its own municipal watering hole,"
+                - link "Laugardalslaug" [ref=e191] [cursor=pointer]:
+                  - /url: https://reykjavik.is/laugardalslaug
+                - text: ", east of downtown, offers a genuine experience and plenty of space. Hygiene is taken very seriously in Iceland, so prepare to strip down and suds up completely naked in the shared showers. Outside you’ll find a cold plunge pool, a sauna and an Olympic lap pool heated just enough to make it comfortable year round. The main attractions, however, are the hot tubs of all shapes, sizes and temperatures. Known to the locals as hot pots, this is where they meet to catch up and relax together. (Single entry 1,400 ISK, or $11.) It’s a 15-minute bus ride from downtown on the No. 14 bus or a quick zip down the seaside path on a rental scooter."
+            - img "A large, multipart pool with people swimming in it. There are trees and then large buildings in the background." [ref=e195]
+            - generic [ref=e196]:
+              - generic [ref=e197]: 6 p.m. Sip cocktails in a portrait gallery
+              - paragraph [ref=e199]:
+                - text: The glowing red sign of
+                - link "Hotel Holt" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.holt.is/en
+                - text: hovers above Reykjavik’s jumble of old, multicolored houses and can be seen from across the city. Although it only celebrated its 60th anniversary this year, the hotel holds an honored status in Iceland. Its otherwise unassuming exterior hides a magnificent art collection as well as dim, plush interiors that look ripped from a David Lynch film. The fire crackles all year long at the bar in the portrait gallery, which is hung with a series of sketches by Johannes Kjarval, Iceland’s most prized painter. The works on display once formed the largest private collection in the country, but now belong to the National Gallery of Iceland. Order from a list of well-made, classic cocktails (2,000 ISK at happy hour) and wander through the gallery, lobby and library to feast your eyes.
+            - generic [ref=e201]:
+              - generic [ref=e202]: 7 p.m. Try traditional Icelandic food – or not
+              - paragraph [ref=e204]:
+                - text: Styled with taxidermy and Grandma’s lacy curtains,
+                - link "Thrir Frakkar" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.3frakkar.is/
+                - text: may be the last bastion of the old school in Reykjavik. This country-style restaurant, around the corner from Hotel Holt, serves a variety of local meat and game, including the more controversial ones typical to traditional Icelandic cuisine. Try Iceland’s famous lamb served unpretentiously with buttery potatoes and a creamy pepper sauce, exactly as it has been served in every Icelandic home for the last century (7,500 ISK). Reservations aren’t strictly necessary but still recommended in the summer months. Alternatively, you could opt to taste the future of Reykjavik’s culinary scene. Generations of Polish immigration are bearing their fruit as Polish restaurants are finally popping up in the city.
+                - link "Kemuri" [ref=e206] [cursor=pointer]:
+                  - /url: https://www.facebook.com/kemurirvk/
+                - text: "is a tiny, eclectic corner cafe that does one thing and does it damn well: plant-based pierogis. Plated with vegan sour cream or traditional Icelandic skyr and a pile of pickled veggies, their rotating flavors include options like daal, chile sin carne and smoked tofu (3,200 ISK for 10)."
+            - img "The interior of a restaurant with peach colored walls and wooden trim on the window and door. The head of an animal is on the wall." [ref=e210]
+            - generic [ref=e211]:
+              - generic [ref=e212]: 9 p.m. Walk it off at Grótta
+              - paragraph [ref=e214]:
+                - text: Take advantage of Iceland’s long days at Grotta, the westernmost point of the capital region. It’s an hour’s walk from downtown but it’s also an architectural journey. Rustic, timber-frame houses clad in painted iron give way to the pebble-studded functionalist (lovingly known as funkistil, or funky-style) buildings and large, dystopian apartment blocks. Once there, you can soak your feet at Kvika, a tiny hot pot installed by the artist Olof Nordal, as you admire the
+                - link "Grotta Lighthouse" [ref=e215] [cursor=pointer]:
+                  - /url: https://visitreykjavik.is/service/island-grotta-and-grotta-lighthouse
+                - text: ", the swarms of migratory birds, and maybe even a seal or two. A clear sky reveals spectacular views of the city, the mountains and even the glacier on the Snaefellsnes peninsula. Although the summer sun sets in the middle of the night, it never really grows dark. In fall and winter, the area is perfect for viewing the northern lights. If you’d prefer not to walk, you can also arrive by electric scooter or catch the No. 11 bus from downtown. It leaves every 30 minutes and drops you off about a 10-minute walk from the lighthouse, so make sure to check times online or with the bus app Klappid."
+            - img "A view of a lighthouse in the background; greenery, rocks, and a pool of water are in the foreground." [ref=e219]
+          - generic [ref=e220]:
+            - img "A view of downtown Reykjavik, with colorful houses and a few tall buildings, shot from above." [ref=e222]
+            - paragraph [ref=e225]: Downtown Reykjavik, viewed from the top of Hallgrimskirkja.
+          - generic [ref=e226]: Advertisement
+          - generic [ref=e227]:
+            - heading "Saturday" [level=2] [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: 9 a.m. Promenade around the pond
+              - paragraph [ref=e232]:
+                - text: Wake up with a specialty coffee from Kaffi O-le (900 ISK), a chic little cafe that sources their beans from a nearby microroastery, and pop into
+                - link "Braud og Co" [ref=e233] [cursor=pointer]:
+                  - /url: https://www.braudogco.is/en-gb/vefverslun
+                - text: around the corner for a pastry (820 ISK). Here the typical cinnamon roll is upgraded with a variety of flavors, including a caramel-muesli option that flies off the shelves. For something savory, try the bakery’s ostaslaufa, a twist of bread with creamy cheese and a kick of spice. Weather permitting, take your treats across Parliament Square and along Tjornin, the pond. The park is alive with blossoms in spring and summer, changing leaves in autumn, and ice skaters on the frozen water in winter. The statues of poets on the benches have QR codes, allowing you to hear the local language in all its strange beauty – even if you don’t understand a single word.
+            - img "A statue of a man in a clearing in a park. A bench and flowers and greenery are in the photo too." [ref=e237]
+            - generic [ref=e238]:
+              - generic [ref=e239]: 10 a.m. Travel back in time
+              - paragraph [ref=e241]:
+                - text: Grass-roofed turf houses were the backbone of Icelandic architecture for thousands of years. Because they were never built to last, Iceland doesn’t boast any ancient buildings and that’s why the country’s medieval manuscripts are lovingly known as the Cathedrals of Iceland. In 2024, the Arni Magnusson Institute for Icelandic Studies opened “
+                - link "World of Words" [ref=e242] [cursor=pointer]:
+                  - /url: https://worldinwords.is/
+                - text: ",” an exhibition to display them to the public for the first time since 2013 (admission 2,500 ISK). These include the Eddas, the books that contain essentially all that is known today about Norse mythology, along with Icelandic sagas and other cornerstones of the culture. The exhibit is state-of-the-art and mesmerizingly immersive, walking visitors through medieval life with style and even a sense of humor. History buffs may also appreciate the beautifully curated collection of artifacts at the"
+                - link "National Museum of Iceland" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.thjodminjasafn.is/en
+                - text: across the street (3,000 ISK).
+            - generic [ref=e244]:
+              - generic [ref=e245]: 12 p.m. Head toward the harbor for lunch
+              - paragraph [ref=e247]:
+                - text: Iceland’s most famous – or infamous – food is hakarl, a species of shark so naturally high in ammonia that it must be fermented to be edible. Consumed as a necessity in times of scarcity, it’s now traditionally eaten at the midwinter festival in February. If you’re feeling adventurous enough to try it, head to the harbor.
+                - link "Saegreifinn" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.instagram.com/seabaronrvk/?hl=en
+                - text: serves it with a chaser of brennivin (1,500 ISK), a caraway-seed-scented liquor. What was once a simple fishmonger’s shop within a cluster of fisherman’s huts has evolved into a popular canteen but hasn’t lost its rustic charm. Best known for the creamy langoustine soup (2,500 ISK), an Icelandic classic, it also offers fish skewers (2,500 ISK) for those who want to taste the local catches in their purest form.
+            - img "A bowl of soup, a basket of bread and a glass of beer on a table in a wood-paneled restaurant." [ref=e252]
+            - generic [ref=e253]:
+              - generic [ref=e254]: 1:30 p.m. Return to the present in Grandi
+              - paragraph [ref=e256]:
+                - text: On the other side of the harbor, about a 15-minute walk from
+                - link "Saegreifinn" [ref=e257] [cursor=pointer]:
+                  - /url: https://www.instagram.com/seabaronrvk/?hl=en
+                - text: ", the Grandi district is an industrial zone breaking out with creative spots. Stop by"
+                - link "Marshallhusid" [ref=e258] [cursor=pointer]:
+                  - /url: https://marshallhusid.is/
+                - text: ", a strangely elegant former herring factory that houses some of the country’s longest-running contemporary art spaces, such as the artist-collective-run"
+                - link "Nylistasafnid" [ref=e259] [cursor=pointer]:
+                  - /url: https://www.nylo.is/
+                - text: and
+                - link "i8 Gallery" [ref=e260] [cursor=pointer]:
+                  - /url: https://i8.is/
+                - text: ’s satellite location. Afterward, it’s time for ice cream. Nothing can come between Icelanders and their ice cream, meaning that you'll find folks lining up at the creamery, rain or shine (or even in a blizzard). You can get a classic scoop anywhere in town, but for something a little more innovative, check out the designer chocolate company
+                - link "Omnom" [ref=e261] [cursor=pointer]:
+                  - /url: https://omnom.is/pages/omnom-ice-cream-and-chocolate-shop
+                - text: . Its sundaes (1,100 ISK) feature toppings shaped to turn each one into an animal, or you can mix and match to create a monster. For the authentically Icelandic experience, order something – or everything – with licorice.
+            - generic [ref=e262]:
+              - generic [ref=e263]: 3 p.m. Browse books and shop local
+              - paragraph [ref=e265]:
+                - text: Turbulent weather has given Iceland a deep appreciation for indoorsy interests like books and music. Its bookstores and record shops, however, are losing ground to the explosion of souvenir shops selling puffin-themed tchotchkes made in China, known as the puffinization of Reykjavik. Support local culture in some of the city’s best shops instead.
+                - link "Skalda" [ref=e266] [cursor=pointer]:
+                  - /url: https://skaldabokabud.is/
+                - text: ", about a 20-minute walk downtown from Grandi, is everyone’s new favorite bookstore with well-curated English titles, including translations of Icelandic authors."
+                - link "Bokin" [ref=e267] [cursor=pointer]:
+                  - /url: http://www.bokin.is/index.php
+                - text: is piled high with dusty, musty curiosities, and
+                - link "Salka" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.salka.is/
+                - text: offers English bestsellers with beer and wine to sip while you browse. For records, check out the graffiti-laden
+                - link "Lucky Records" [ref=e269] [cursor=pointer]:
+                  - /url: https://luckyrecords.is/en/
+                - text: ", the shop-by-day-bar-by-night"
+                - link "12 Tonar" [ref=e270] [cursor=pointer]:
+                  - /url: https://12tonar.company.site/
+                - text: ", and"
+                - link "Smekkleysa" [ref=e271] [cursor=pointer]:
+                  - /url: https://smekkleysa.net/
+                - text: ", the label and shop associated with Bjork and the Sugarcubes."
+                - link "Fischersund" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.fischersund.com/
+                - text: ", an artsy shop and perfumery run by Sigur Ros’ Jonsi and his family, is also worth a whiff. Pass by the bookstores first, as they all close at 4 p.m., while the record stores are all open until 5 p.m. or later."
+            - generic [ref=e274]:
+              - img "The interior of a bookstore; in the foreground is a chess set on a table with a fancy embroidered chair by it." [ref=e276]
+              - paragraph [ref=e279]: Bokin
+            - generic [ref=e280]:
+              - generic [ref=e281]: 5:30 p.m. Follow the Rainbow Road
+              - paragraph [ref=e283]:
+                - text: Because of its difficult-to-pronounce name, Skolavordustigur is occasionally better known to visitors as the Rainbow Road. The path is painted in rainbow colors year round and leads up to Reykjavik’s most prominent landmark,
+                - link "Hallgrimskirkja" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.hallgrimskirkja.is/
+                - text: . You will certainly have already noticed this church lording over the city from atop its highest hill but it deserves a moment of attention. You can pay 1,400 ISK to ascend the tower and look out over the capital but the church itself is most interesting on the outside. Begun in 1945 and completed in 1986, its exterior is modeled after studlaberg, the hexagonal basalt columns that form cliffs and waterfalls all over the country. Across the plaza to the west of the church sits the
+                - link "Einar Jonsson Museum" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.lej.is/
+                - text: ", dedicated to Iceland’s most famous sculptor. Behind the museum is a free-entry sculpture garden showcasing his monumental and surreal works from the early 20th century, some of which are credited with inspiring the design of Hallgrimskirkja. You won’t miss the resemblance."
+            - generic [ref=e286]:
+              - generic [ref=e287]: 7 p.m. Splurge on fine dining
+              - paragraph [ref=e289]:
+                - text: With a name that means “cheers” in Icelandic,
+                - link "Skal!" [ref=e290] [cursor=pointer]:
+                  - /url: https://www.skalrvk.com/
+                - text: is fittingly worthy of a toast. The chef Gisli Mattias Audunsson’s menu rises far above the gastropub and lands near perfection with its list of natural wines. The menu is delightfully omnivorous but deserves note for its plant-forward offerings that refuse to be relegated to side dishes, such as the eggplant with fermented tomato and buckwheat. That said, their signature cod wings with smoked buttermilk, a clever twist on bar grub and overlooked cuts of fish, are undeniably the star. (Dinner and drinks for two start at 20,000 ISK and reservations are recommended.) To go all-out, however, reserve a seat at
+                - link "OX" [ref=e291] [cursor=pointer]:
+                  - /url: https://ox.restaurant/ox/
+                - text: . The chef Thrainn Freyr Vigfusson’s 20-course phenomenon with pairings curated by the master sommelier Manuel Schembri may cost more than your plane ticket here, but even Michelin junkies agree that it could easily be the best meal of your entire life (66,000 ISK per person, and be warned, reservations are required for the only seating, at 6:15 pm).
+            - generic [ref=e293]:
+              - img "The top of a restaurant table with a plate filled with ice and two shells atop the ice and holding scallops, red currant, ceviche, horseradish cream and dill. A hand is pouring sauce onto one of the dishes." [ref=e295]
+              - paragraph [ref=e298]: Skal!
+            - generic [ref=e299]:
+              - generic [ref=e300]: 9:30 p.m. Jam late into the night
+              - paragraph [ref=e302]:
+                - text: Known as djammid, or the jam, the nightlife in Reykjavik is surprisingly vibrant. Icelanders tend to splash out after payday, meaning that the first weekend of every month gets especially rowdy. A stroll down Laugavegur offers something for every type of night owl.
+                - link "Vinstukan" [ref=e303] [cursor=pointer]:
+                  - /url: https://tiu-sopar.is/
+                - text: is favored for natural wines and stylish, bougie bites, while the cozy brewpub
+                - link "Aegir" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.aegirbrugghus.is/
+                - text: hosts the local folk jam sessions. In the heart of downtown,
+                - link "Jungle" [ref=e305] [cursor=pointer]:
+                  - /url: https://jungle.is/#/
+                - text: is the go-to spot for ritzy cocktails, and across the street sits grungy
+                - link "Lemmy" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.lemmy.is/
+                - text: with its 50-plus taps, huge covered patio and regular concerts. For dancing, Paloma has a world-class sound system hidden in a wood-beamed attic. When the munchies strike, a hot dog is obligatory (800 ISK). Some swear Baejarins Beztu’s are special, but you can get the exact same dog at every convenience store in town, so feel free to skip the line.
+          - generic [ref=e307]:
+            - img "A pond in the foreground with houses and buildings a church steeple across the pond." [ref=e309]
+            - paragraph [ref=e312]: Tjornin is an ideal place for a morning stroll with coffee.
+          - generic [ref=e313]: Advertisement
+          - generic [ref=e314]:
+            - heading "Sunday" [level=2] [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e317]: 9 a.m. Recover your strength
+              - paragraph [ref=e319]:
+                - text: If you jammed too hard last night, you may need to recover amid the wood paneling and diner booths of
+                - link "Prikid" [ref=e320] [cursor=pointer]:
+                  - /url: https://prikid.is/
+                - text: ". With raucous hip hop and punk shows at night followed by piles of pancakes in the morning, this bar is as likely to have caused your hangover as it is to cure it. They even used to offer breakfast with a genuine painkiller for this very reason. You may have to supply your own ibuprofen now, but their hearty, American-inspired brunch is sure to revive you nonetheless. Try the Truck, their house specialty, piled high with the usual suspects: eggs, bacon, pancakes and potatoes — plus skyr and unlimited coffee, of course (3,700 ISK)."
+            - img "A hearty plate of fried eggs, potatoes, bacon and toast; next to it is a glass with a chocolate-y drink. Someone is holding a knife and fork, cutting into the eggs." [ref=e324]
+            - generic [ref=e325]:
+              - generic [ref=e326]: 11:30 a.m. Soak in a fjord-side spa
+              - paragraph [ref=e328]:
+                - text: Building on the local pool culture, recent years have seen a wave of high-end, spa-like “lagoons” springing up around the country. The newcomer
+                - link "Hvammsvik" [ref=e329] [cursor=pointer]:
+                  - /url: https://hvammsvik.com/is
+                - text: is the current forerunner, combining proximity to the capital city with stunning views. If you haven’t rented a car, you can catch the 10:30 a.m. shuttle from the bus station and watch the topography closing around you as you enter Hvalfjordur. Built on the site of a natural hot spring, Hvammsvik’s network of wooden paths between rocky pools leads down into the fjord. The tide rises and falls around them, only steps away for those brave enough for a natural cold plunge in between the sauna and the hot pots. The on-site bistro offers simple Nordic fare like seafood soup and open-faced sandwiches (3,150 to 3,750 ISK) for before or after your swim. While inside, you can order at the swim-up bar to sip something as you soak in Iceland’s dreamy landscape. (Entrance from 8,000 ISK; 16,000 ISK with transfer.)
+            - img "A rugged landscape -- long grass, a rocky mountain in the background. A dark gray building with a rounded roof is on the right. A small body of water is in the foreground." [ref=e333]
+    - generic [ref=e338]:
+      - iframe [active] [ref=e343]:
+        - generic [ref=f519e6]:
+          - generic [ref=f519e8]:
+            - heading "Create a free account, or log in." [level=2] [ref=f519e9]
+            - heading "Gain access to limited free articles, news alerts, select newsletters, podcasts and some daily games." [level=2] [ref=f519e10]
+          - group [ref=f519e12]:
+            - generic [ref=f519e13]: Email address
+            - textbox "Email address" [active] [ref=f519e16]:
+              - /placeholder: ""
+          - textbox [ref=f519e17]
+          - button "Continue" [ref=f519e19] [cursor=pointer]
+          - generic [ref=f519e21]: or
+          - paragraph [ref=f519e23]:
+            - text: By continuing, you agree to the
+            - link "Terms of Sale" [ref=f519e24] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+            - text: ","
+            - link "Terms of Service" [ref=f519e25] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service
+            - text: ", and"
+            - link "Privacy Policy" [ref=f519e26] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/privacy-policy
+            - text: .
+          - generic [ref=f519e27]:
+            - button "Continue with Google" [ref=f519e29] [cursor=pointer]:
+              - generic:
+                - img
+              - generic: Continue with Google
+            - button "Continue with Apple" [ref=f519e31] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - img
+              - generic: Continue with Apple
+            - link "Continue with work or school single sign-on >" [ref=f519e32] [cursor=pointer]:
+              - /url: ""
+      - generic [ref=e344]:
+        - paragraph [ref=e345]: Enjoy unlimited access to all of The Times.
+        - paragraph [ref=e346]:
+          - link [ref=e347] [cursor=pointer]:
+            - /url: https://www.nytimes.com/subscription?campaignId=7Q87L
+            - text: See subscription options

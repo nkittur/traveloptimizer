@@ -1,0 +1,18 @@
+[     536ms] [WARNING] document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. @ https://www.nytimes.com/interactive/2023/04/20/travel/things-to-do-lisbon.html:48
+[     561ms] [WARNING] A preload for 'https://static01.nytimes.com/newsgraphics/2023-03-21-36hours-lisbon/62ed9f8edf75884078ca40792e4162118fa21e34/_assets/build/js/main.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ :0
+[     561ms] [WARNING] A preload for 'https://static01.nytimes.com/newsgraphics/2023-03-21-36hours-lisbon/62ed9f8edf75884078ca40792e4162118fa21e34/_assets/build/js/freebird.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ :0
+[     564ms] [WARNING] limitedAds is not set, defaulting to false @ https://www.nytimes.com/interactive/2023/04/20/travel/things-to-do-lisbon.html:1574
+[     565ms] [WARNING] userinfo data unavailable @ https://www.nytimes.com/interactive/2023/04/20/travel/things-to-do-lisbon.html:1576
+[     680ms] [WARNING]   WARN  [Statsig] Creating multiple Statsig clients with the same SDK key can lead to unexpected behavior. Multi-instance support requires different SDK keys. @ https://www.nytimes.com/vi-assets/static-assets/vendor-interactive-d19d179cffe51d02d272.js:101
+[     710ms] [WARNING] et2 snippet should only load once per page @ :49
+[     734ms] [WARNING]   WARN  [Statsig] Creating multiple Statsig clients with the same SDK key can lead to unexpected behavior. Multi-instance support requires different SDK keys. @ https://www.nytimes.com/vi-assets/static-assets/vendor-interactive-d19d179cffe51d02d272.js:101
+[     868ms] [WARNING] [GPT] PubAdsService.getTargetingKeys is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604230101/pubads_impl.js?cb=31098092:18
+[     870ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604230101/pubads_impl.js?cb=31098092:18
+[    6003ms] [WARNING] The resource https://static01.nytimes.com/newsgraphics/2023-03-21-36hours-lisbon/62ed9f8edf75884078ca40792e4162118fa21e34/_assets/build/js/freebird.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nytimes.com/interactive/2023/04/20/travel/things-to-do-lisbon.html:0
+[    6004ms] [WARNING] The resource https://static01.nytimes.com/newsgraphics/2023-03-21-36hours-lisbon/62ed9f8edf75884078ca40792e4162118fa21e34/_assets/build/js/main.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nytimes.com/interactive/2023/04/20/travel/things-to-do-lisbon.html:0
+[    8869ms] [WARNING] event data {} must include a subject @ https://nyt-dti-prd-staticjs.storage.googleapis.com/analytics/et2/eventtracker-snippet.js:0
+[    8887ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    8974ms] [LOG] poster vid-1 https://tpc.googlesyndication.com/simgad/17809892494291519709? @ https://static01.nytimes.com/ads/tbrandcreativetech/libs/baymax/Baymax-121.r.js:1066
+[    9105ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31

@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"cntraveler.com\" best restaurants barcelona \"cntraveler.com\" best restaurants barcelona"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522cntraveler.com%2522%2Bbest%2Brestaurants%2Bbarcelona&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&aep=1&ntc=1&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ2J8OegQIDxAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=%22cntraveler.com%22+best+restaurants+barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQs6gLegQIFhAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Forums" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=%22cntraveler.com%22+best+restaurants+barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQs6gLegQIFBAB
+              - generic [ref=e93]: Forums
+          - listitem [ref=e94]:
+            - link "Images" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=%22cntraveler.com%22+best+restaurants+barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQtKgLegQIERAB
+              - generic [ref=e97]: Images
+          - listitem [ref=e98]:
+            - link "News" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&q=%22cntraveler.com%22+best+restaurants+barcelona&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ0pQJegQIEhAB
+              - generic [ref=e101]: News
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=b1359834a2735cce&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0wt6D1VFgm7zHwsTOWl43DOoz18MhvjWZSOXTd86Bm3jO9knHjHdfVAuZsnXgxU20AxyckL_8SbMGoRomnJxdkcVdSXYjhovIa0Z-unH2g-S_mCenOREJEjW8A9qYCeNvDzqR7T3C-QpSKRfiRueZNxgbZxZQ&q=%22cntraveler.com%22+best+restaurants+barcelona&ved=1t:220175&ictx=111
+              - generic [ref=e105]: Shopping
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "34 Best Restaurants in Barcelona, According to Local Expert Condé Nast Traveler https://www.cntraveler.com › ... › Places to Eat & Drink" [ref=e142] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/gallery/best-restaurants-in-barcelona
+                - heading "34 Best Restaurants in Barcelona, According to Local Expert" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Condé Nast Traveler
+                  - generic [ref=e152]: https://www.cntraveler.com › ... › Places to Eat & Drink
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Jul 31, 2025 —
+              - text: Agreste Mar · Cocina Hermanos Torres · Akiro Hand Roll Bar · Nuara · Bardeni el Meatbar · Jiribilla · Fronda Pasaje · Batea.
+              - link "Read more" [ref=e161] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/gallery/best-restaurants-in-barcelona#:~:text=Agreste%20Mar&text=Cocina%20Hermanos%20Torres&text=Akiro%20Hand%20Roll%20Bar&text=Nuara&text=Bardeni%20el%20Meatbar&text=Jiribilla&text=Fronda%20Pasaje&text=Batea
+        - generic [ref=e172]:
+          - heading "Thinking" [level=2] [ref=e176]:
+            - generic [ref=e177]: Thinking
+          - progressbar [ref=e178]
+        - generic [ref=e182]:
+          - heading "Web results" [level=2] [ref=e183]
+          - generic [ref=e184]:
+            - generic [ref=e187]:
+              - link "Barcelona - Travel News, Tips, and Guides Condé Nast Traveler https://www.cntraveler.com › tag › barcelona" [ref=e189] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/tag/barcelona
+                - heading "Barcelona - Travel News, Tips, and Guides" [level=3] [ref=e190]
+                - generic [ref=e195]:
+                  - generic [ref=e197]: Condé Nast Traveler
+                  - generic [ref=e199]: https://www.cntraveler.com › tag › barcelona
+              - button "About this result" [ref=e200] [cursor=pointer]:
+                - img [ref=e203]
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - text: The 34
+                - emphasis [ref=e208]: Best Restaurants
+                - text: in
+                - emphasis [ref=e209]: Barcelona
+                - text: . Few cities in the world can rival this dining scene, where even humble tapas bars have Michelin stars.
+              - link "Read more" [ref=e210] [cursor=pointer]:
+                - /url: https://www.cntraveler.com/tag/barcelona#:~:text=The%2034%20Best%20Restaurants%20in,tapas%20bars%20have%20Michelin%20stars.
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - link "Besta — Restaurant Review Condé Nast Traveler https://www.cntraveler.com › restaurants › barcelona" [ref=e219] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/barcelona/besta
+              - heading "Besta — Restaurant Review" [level=3] [ref=e220]
+              - generic [ref=e225]:
+                - generic [ref=e227]: Condé Nast Traveler
+                - generic [ref=e229]: https://www.cntraveler.com › restaurants › barcelona
+            - button "About this result" [ref=e230] [cursor=pointer]:
+              - img [ref=e233]
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - text: Besta's kitchen blends the
+              - emphasis [ref=e238]: best
+              - text: "of two Spanish regions: Catalonia in the northeast and Galicia in the northwest of the country."
+            - link "Read more" [ref=e239] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/barcelona/besta#:~:text=Besta's%20kitchen%20blends%20the%20best,the%20northwest%20of%20the%20country.
+        - generic [ref=e243]:
+          - generic [ref=e246]:
+            - link "Barcelona Travel Guide & Tips Condé Nast Traveler https://www.cntraveler.com › destinations › barcelona" [ref=e248] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/barcelona
+              - heading "Barcelona Travel Guide & Tips" [level=3] [ref=e249]
+              - generic [ref=e254]:
+                - generic [ref=e256]: Condé Nast Traveler
+                - generic [ref=e258]: https://www.cntraveler.com › destinations › barcelona
+            - button "About this result" [ref=e259] [cursor=pointer]:
+              - img [ref=e262]
+          - generic [ref=e265]:
+            - generic [ref=e266]: Nov 7, 2025 —
+            - generic [ref=e267]:
+              - text: "34"
+              - emphasis [ref=e268]: Best Restaurants
+              - text: in
+              - emphasis [ref=e269]: Barcelona
+              - text: ; 21 Best Bars in
+              - emphasis [ref=e270]: Barcelona
+              - text: ; 16 Best Tapas Bars in
+              - emphasis [ref=e271]: Barcelona
+              - text: ; 14 Best Wine Bars in
+              - emphasis [ref=e272]: Barcelona
+              - text: .
+            - link "Read more" [ref=e273] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/destinations/barcelona#:~:text=34%20Best%20Restaurants%20in%20Barcelona&text=21%20Best%20Bars%20in%20Barcelona&text=16%20Best%20Tapas%20Bars%20in,Barcelona&text=14%20Best%20Wine%20Bars%20in,Barcelona
+        - generic [ref=e277]:
+          - generic [ref=e280]:
+            - link "34 Best Restaurants in Barcelona, According to Local Expert X · CNTraveler 10+ likes · 2 years ago" [ref=e282] [cursor=pointer]:
+              - /url: https://x.com/CNTraveler/status/1746927268729962852
+              - heading "34 Best Restaurants in Barcelona, According to Local Expert" [level=3] [ref=e283]
+              - generic [ref=e288]:
+                - generic [ref=e290]: X · CNTraveler
+                - generic [ref=e292]: 10+ likes · 2 years ago
+            - button "About this result" [ref=e293] [cursor=pointer]:
+              - img [ref=e296]
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - text: Condé Nast Traveler (@CNTraveler). 19 likes. These are the 35
+              - emphasis [ref=e301]: best restaurants
+              - text: in
+              - emphasis [ref=e302]: Barcelona
+              - text: ", according to a local expert ... www."
+              - emphasis [ref=e303]: cntraveler.com
+              - text: .
+            - link "Read more" [ref=e304] [cursor=pointer]:
+              - /url: https://x.com/CNTraveler/status/1746927268729962852#:~:text=www.cntraveler.com,%F0%9F%92%AC1
+        - generic [ref=e308]:
+          - generic [ref=e311]:
+            - 'link "Where Chefs Eat on Vacation: Gregory Gourdet''s Seafood ... Condé Nast Traveler https://www.cntraveler.com › ... › Places to Eat & Drink" [ref=e313] [cursor=pointer]':
+              - /url: https://www.cntraveler.com/story/where-chefs-eat-on-vacation-gregory-gourdets-week-in-barcelona
+              - 'heading "Where Chefs Eat on Vacation: Gregory Gourdet''s Seafood ..." [level=3] [ref=e314]'
+              - generic [ref=e319]:
+                - generic [ref=e321]: Condé Nast Traveler
+                - generic [ref=e323]: https://www.cntraveler.com › ... › Places to Eat & Drink
+            - button "About this result" [ref=e324] [cursor=pointer]:
+              - img [ref=e327]
+          - generic [ref=e330]:
+            - generic [ref=e331]: Nov 16, 2023 —
+            - generic [ref=e332]:
+              - text: https://www.
+              - emphasis [ref=e333]: cntraveler.com
+              - text: /video/watch/where-the-chefs-table-legends ... This
+              - emphasis [ref=e334]: restaurant
+              - text: in
+              - emphasis [ref=e335]: Barcelona
+              - text: was delicious. There was a large ...
+            - link "Read more" [ref=e336] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/where-chefs-eat-on-vacation-gregory-gourdets-week-in-barcelona#:~:text=Our%20bad!%20It%20looks%20like&text=This%20restaurant%20in%20Barcelona%20was,menu%2C%20and%20everything%20was%20handmade.
+        - generic [ref=e340]:
+          - generic [ref=e343]:
+            - link "Condé Nast Traveler's Best Food Cities in the World Reddit · r/finedining 60+ comments · 4 months ago" [ref=e345] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/finedining/comments/1peallx/cond%C3%A9_nast_travelers_best_food_cities_in_the/
+              - heading "Condé Nast Traveler's Best Food Cities in the World" [level=3] [ref=e346]
+              - generic [ref=e351]:
+                - generic [ref=e353]: Reddit · r/finedining
+                - generic [ref=e355]: 60+ comments · 4 months ago
+            - button "About this result" [ref=e356] [cursor=pointer]:
+              - img [ref=e359]
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - text: Condé Nast Traveler's
+              - emphasis [ref=e364]: Best Food
+              - text: Cities in the World- Sound off! https://www.
+              - emphasis [ref=e365]: cntraveler.com
+              - text: /gallery/
+              - emphasis [ref=e366]: best
+              - text: "-"
+              - emphasis [ref=e367]: food
+              - text: "-cities-readers-choice-awards."
+            - link "Read more" [ref=e368] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/finedining/comments/1peallx/cond%C3%A9_nast_travelers_best_food_cities_in_the/#:~:text=Cond%C3%A9%20Nast%20Traveler's%20Best%20Food,https%3A%2F%2Fwww.cntraveler.com%2Fgallery%2Fbest%2Dfood%2Dcities%2Dreaders%2Dchoice%2Dawards
+        - generic [ref=e372]:
+          - generic [ref=e375]:
+            - link "Âme — Restaurant Review Condé Nast Traveler https://www.cntraveler.com › barcelona › ame" [ref=e377] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/barcelona/ame
+              - heading "Âme — Restaurant Review" [level=3] [ref=e378]
+              - generic [ref=e383]:
+                - generic [ref=e385]: Condé Nast Traveler
+                - generic [ref=e387]: https://www.cntraveler.com › barcelona › ame
+            - button "About this result" [ref=e388] [cursor=pointer]:
+              - img [ref=e391]
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - text: A French
+              - emphasis [ref=e396]: restaurant
+              - text: with a distinctly Barcelonian essence. By the team behind the ever-popular Albé that serves Mediterranean dishes with a Lebanese twist.
+            - link "Read more" [ref=e397] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/barcelona/ame#:~:text=%C3%82me%20(soul%20in%20French)%20is,takes%20its%20inspiration%20from%20France.
+        - generic [ref=e401]:
+          - generic [ref=e404]:
+            - link "The 20 Best Tapas Bars in Barcelona Condé Nast Traveler https://www.cntraveler.com › ... › Places to Eat & Drink" [ref=e406] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/gallery/best-tapas-bars-in-barcelona
+              - heading "The 20 Best Tapas Bars in Barcelona" [level=3] [ref=e407]
+              - generic [ref=e412]:
+                - generic [ref=e414]: Condé Nast Traveler
+                - generic [ref=e416]: https://www.cntraveler.com › ... › Places to Eat & Drink
+            - button "About this result" [ref=e417] [cursor=pointer]:
+              - img [ref=e420]
+          - generic [ref=e423]:
+            - generic [ref=e424]: Jul 24, 2025 —
+            - generic [ref=e425]:
+              - text: The 20
+              - emphasis [ref=e426]: Best
+              - text: Tapas Bars in
+              - emphasis [ref=e427]: Barcelona
+              - text: · Colmado Múrria · Maleducat · Denassus · Bar Pimentel · Colmado Wilmot · Varmuteo · Bar del Pla · Contracorrent Bar.
+            - link "Read more" [ref=e428] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/gallery/best-tapas-bars-in-barcelona#:~:text=The%2020%20Best%20Tapas%20Bars,in%20Barcelona&text=Colmado%20M%C3%BArria&text=Maleducat&text=Denassus&text=Bar%20Pimentel&text=Colmado%20Wilmot&text=Varmuteo&text=Bar%20del%20Pla&text=Contracorrent%20Bar
+        - generic [ref=e432]:
+          - generic [ref=e435]:
+            - link "Been to any of Conde Nast's \"Best Restaurants\"? Tripadvisor https://www.tripadvisor.com › ShowTopic-g1-i32200-k..." [ref=e437] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/ShowTopic-g1-i32200-k15378691-Been_to_any_of_Conde_Nast_s_Best_Restaurants-Food_and_Travel.html
+              - heading "Been to any of Conde Nast's \"Best Restaurants\"?" [level=3] [ref=e438]
+              - generic [ref=e443]:
+                - generic [ref=e445]: Tripadvisor
+                - generic [ref=e447]: https://www.tripadvisor.com › ShowTopic-g1-i32200-k...
+            - button "About this result" [ref=e448] [cursor=pointer]:
+              - img [ref=e451]
+          - generic [ref=e454]:
+            - generic [ref=e455]: Jun 26, 2025 —
+            - generic [ref=e456]:
+              - text: Enigma,
+              - emphasis [ref=e457]: Barcelona
+              - text: ", Spain*. 35. Nusara, Bangkok, Thailand*. 36 ... https://www."
+              - emphasis [ref=e458]: cntraveler.com
+              - text: /story/worlds-50-
+              - emphasis [ref=e459]: best
+              - text: "-"
+              - emphasis [ref=e460]: restaurants
+              - text: "-2024 ..."
+            - link "Read more" [ref=e461] [cursor=pointer]:
+              - /url: https://www.tripadvisor.com/ShowTopic-g1-i32200-k15378691-Been_to_any_of_Conde_Nast_s_Best_Restaurants-Food_and_Travel.html#:~:text=Enigma%2C%20Barcelona%2C%20Spain*,36.&text=https%3A%2F%2Fwww.cntraveler.com%2Fstory%2Fworlds%2D50%2Dbest%2Drestaurants%2D2024%23intcid%3D_conde%2Dnast%2Dtraveler%2Dverso%2Dhp%2Dtrending_029efb8c%2Da6b8%2D4169%2D93fa%2D0e8edfbfcb83_popular4%2D2
+      - generic [ref=e463]:
+        - generic [ref=e468]:
+          - heading "People also search for" [level=2] [ref=e470]
+          - generic [ref=e472]:
+            - generic [ref=e473]:
+              - link "50 best restaurants Barcelona" [ref=e477] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=50+best+restaurants+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAghEAE
+                - generic [ref=e478]:
+                  - generic [ref=e483]: 50 best restaurants Barcelona
+                  - img [ref=e487]
+              - link "Best Spanish restaurants in Barcelona" [ref=e492] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+Spanish+restaurants+in+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgtEAE
+                - generic [ref=e493]:
+                  - generic [ref=e498]: Best Spanish restaurants in Barcelona
+                  - img [ref=e502]
+              - link "Best restaurantsEixample Barcelona" [ref=e507] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+restaurantsEixample+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgwEAE
+                - generic [ref=e508]:
+                  - generic [ref=e513]: Best restaurantsEixample Barcelona
+                  - img [ref=e517]
+              - link "Best restaurants in El Born Barcelona" [ref=e522] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Best+restaurants+in+El+Born+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgrEAE
+                - generic [ref=e523]:
+                  - generic [ref=e528]: Best restaurants in El Born Barcelona
+                  - img [ref=e532]
+            - generic [ref=e534]:
+              - link "High-end restaurants Barcelona" [ref=e538] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=High-end+restaurants+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgsEAE
+                - generic [ref=e539]:
+                  - generic [ref=e544]: High-end restaurants Barcelona
+                  - img [ref=e548]
+              - link "10 best restaurants in Barcelona" [ref=e553] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=10+best+restaurants+in+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgoEAE
+                - generic [ref=e554]:
+                  - generic [ref=e559]: 10 best restaurants in Barcelona
+                  - img [ref=e563]
+              - link "Trendy restaurants Barcelona" [ref=e568] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Trendy+restaurants+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgjEAE
+                - generic [ref=e569]:
+                  - generic [ref=e574]: Trendy restaurants Barcelona
+                  - img [ref=e578]
+              - link "Top rated restaurants Barcelona" [ref=e583] [cursor=pointer]:
+                - /url: /search?sca_esv=b1359834a2735cce&q=Top+rated+restaurants+Barcelona&sa=X&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ1QJ6BAgiEAE
+                - generic [ref=e584]:
+                  - generic [ref=e589]: Top rated restaurants Barcelona
+                  - img [ref=e593]
+        - navigation [ref=e595]:
+          - heading "Page Navigation" [level=1] [ref=e596]
+          - text: "1"
+          - link "Page 2" [ref=e599] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=10&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAE
+            - text: "2"
+          - link "Page 3" [ref=e601] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=20&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAG
+            - text: "3"
+          - link "Page 4" [ref=e603] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=30&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAI
+            - text: "4"
+          - link "Page 5" [ref=e605] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=40&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAK
+            - text: "5"
+          - link "Page 6" [ref=e607] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=50&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAM
+            - text: "6"
+          - link "Page 7" [ref=e609] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=60&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAO
+            - text: "7"
+          - link "Page 8" [ref=e611] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=70&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAQ
+            - text: "8"
+          - link "Page 9" [ref=e613] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=80&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAS
+            - text: "9"
+          - link "Page 10" [ref=e615] [cursor=pointer]:
+            - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=90&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8tMDegQICBAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e617]:
+            - link "Next" [ref=e618] [cursor=pointer]:
+              - /url: /search?q=%22cntraveler.com%22+best+restaurants+barcelona&sca_esv=b1359834a2735cce&ei=ZILaabOIO9ie5NoPoIyo4Aw&start=10&sa=N&sstk=Af77f_dBwZJlBbtm5xbzt1UWB3toau6uoRtSY8rE8vmqUbdvEXEmQC3quAzF-hLp2c4DN8yfiWnh-JAi9s_mFbZbZfYmeiu2Gc7n5g&ved=2ahUKEwizyqSBp-aTAxVYD1kFHSAGCswQ8NMDegQICBAW
+              - generic [ref=e620]: Next
+      - navigation
+    - contentinfo [ref=e621]:
+      - heading "Footer Links" [level=1] [ref=e622]
+      - generic [ref=e626]:
+        - generic [ref=e630]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e632] [cursor=pointer]:
+            - generic [ref=e633]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e635]:
+              - text: "-"
+              - generic [ref=e636]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e638] [cursor=pointer]: Update location
+        - generic [ref=e641]:
+          - link "Help" [ref=e642] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e643] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e644] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e645] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

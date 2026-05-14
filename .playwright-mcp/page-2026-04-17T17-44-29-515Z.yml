@@ -1,0 +1,729 @@
+- generic [active] [ref=e1]:
+  - generic "Download the Eater app!":
+    - generic [ref=e4]:
+      - generic [ref=e5]: Download the Eater app!
+      - button "close download banner" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - generic [ref=e11]: close download banner
+      - form "Download the Eater app!" [ref=e13]:
+        - heading "Take Eater with you Restaurant recommendations you can trust" [level=2] [ref=e15]:
+          - generic [ref=e17]: Take Eater with you
+          - generic [ref=e19]: Restaurant recommendations you can trust
+        - generic [ref=e20]:
+          - link [ref=e22] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkind&mt=8
+          - link [ref=e24] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=house_internal_wunderkindqr&mt=8
+  - generic [ref=e26]:
+    - link "Skip to main content" [ref=e27] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e28]: Skip to main content
+    - generic [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - link "Get our App" [ref=e39] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img [ref=e40]
+            - generic [ref=e42]:
+              - generic [ref=e43]: Get our
+              - generic [ref=e44]: App
+          - link "App":
+            - /url: https://apps.apple.com/app/apple-store/id6469005148?pt=541474&ct=Eater_Main_NavBar_&mt=8
+            - img
+            - generic: App
+        - link "The homepage Eater" [ref=e46] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e47]: The homepage
+          - img "Eater" [ref=e48]
+        - generic [ref=e51]:
+          - button "Open Search" [ref=e52] [cursor=pointer]:
+            - img [ref=e53]
+          - button "Open Drawer" [ref=e55] [cursor=pointer]:
+            - img [ref=e56]
+      - navigation "City Navigation" [ref=e59]:
+        - 'button "Current eater city: Los Angeles" [ref=e60] [cursor=pointer]':
+          - generic [ref=e61]: "Current eater city:"
+          - text: Los Angeles
+          - img [ref=e63]
+    - main [ref=e66]:
+      - article [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e78]:
+            - generic [ref=e80]:
+              - heading "More maps in Eater LA" [level=3] [ref=e81]
+              - link "See more maps" [ref=e83] [cursor=pointer]:
+                - /url: /maps
+                - generic [ref=e84]:
+                  - generic [ref=e85]: See more maps
+                  - img [ref=e87]
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - img "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e95]
+                - link "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e102] [cursor=pointer]:
+                  - /url: /maps/best-pasadena-restaurants-california-los-angeles-south-pasadena-old-town
+              - generic [ref=e104]:
+                - img "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e106]
+                - link "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e113] [cursor=pointer]:
+                  - /url: /maps/best-restaurants-los-angeles-to-palm-springs-road-trip
+              - generic [ref=e115]:
+                - img "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e117]
+                - link "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e124] [cursor=pointer]:
+                  - /url: /maps/best-new-burgers-los-angeles-restaurants
+              - generic [ref=e126]:
+                - img "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e128]
+                - link "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e135] [cursor=pointer]:
+                  - /url: /maps/best-cocktail-lounge-bars-palm-springs
+              - generic [ref=e137]:
+                - img "The 38 Best Restaurants in Los Angeles" [ref=e139]
+                - link "The 38 Best Restaurants in Los Angeles" [ref=e146] [cursor=pointer]:
+                  - /url: /maps/best-los-angeles-restaurants-eater-38-essential
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e150]:
+                - generic [ref=e153]:
+                  - img "A close up of Korean seafood over rice, with a fried egg." [ref=e156]
+                  - generic [ref=e157]: Octopus bibimbap from Yigah. Yigah
+                - generic [ref=e159]:
+                  - list [ref=e162]:
+                    - listitem [ref=e163]:
+                      - link "Dining Out in LA" [ref=e164] [cursor=pointer]:
+                        - /url: /where-to-eat
+                  - generic [ref=e165]:
+                    - heading "15 Essential Korean Restaurants to Try in Orange County" [level=1] [ref=e166]
+                    - paragraph [ref=e167]: Korean restaurants in Garden Grove, Irvine, and Buena Park stand up to the best in LA
+                - img [ref=e168]
+                - generic [ref=e170]:
+                  - generic [ref=e172]:
+                    - generic [ref=e174]:
+                      - text: by
+                      - link "Jenn Tanaka" [ref=e176] [cursor=pointer]:
+                        - /url: https://www.eater.com/authors/jenn-tanaka
+                    - generic [ref=e177]:
+                      - text: Updated
+                      - time [ref=e178]: Apr 18, 2024, 1:32 PM PDT
+                  - list [ref=e181]:
+                    - listitem [ref=e182]:
+                      - button "Share on Facebook" [ref=e183] [cursor=pointer]:
+                        - img "Facebook" [ref=e184]
+                    - listitem [ref=e186]:
+                      - button "Copy link" [ref=e188] [cursor=pointer]:
+                        - img "Link" [ref=e189]
+              - paragraph [ref=e192]: In 2023, Orange County designated its own Koreatown in Buena Park. The city known for Knott’s Berry Farm has evolved into the epicenter of OC Korean culture. From the Source, an outdoor shopping center, which boasts mostly Korean-language CGV cinemas, a K-pop dance school, a doughnut shop straight from Seoul, and mom-and-pop restaurants. The Korean diaspora is represented throughout Orange County, including in La Palma, Garden Grove, Irvine, and Artesia. Here’s a map of where to eat stellar Korean food in Orange County.
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - text: advertisement
+                  - generic [ref=e196]: AD
+                - generic [ref=e197]:
+                  - generic [ref=e199]:
+                    - heading "Jang Mo Jip" [level=2] [ref=e200]
+                    - button "Copy link" [ref=e202] [cursor=pointer]:
+                      - img "Link" [ref=e203]
+                  - paragraph [ref=e205]:
+                    - text: The seolleongtang, ox bone soup, remains a longtime favorite at Jangmo Jip. Orange County food writers have
+                    - link "written about it for years" [ref=e206] [cursor=pointer]:
+                      - /url: https://www.ocregister.com/2011/07/11/the-best-soup-youve-never-heard-of/
+                    - text: . But Jangmo Jip’s other soups, such as the soothing samgyetang, or ginseng chicken soup with purple rice, and the beef brisket, are worthwhile. Most people order soup, but other popular items include the tender mandu and pork belly bossam wrapped in lettuce seasoned with ssamjang.
+                  - list [ref=e207]:
+                    - listitem [ref=e208]:
+                      - link "Location 4546 Beach Blvd, Buena Park, CA, 90621, USExternal Link" [ref=e209] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Jang%20Mo%20Jip%2C%204546%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2C%2090621%2C%20US
+                        - img "Location" [ref=e210]
+                        - generic [ref=e212]:
+                          - text: 4546 Beach Blvd, Buena Park, CA, 90621, US
+                          - img "External Link" [ref=e213]
+                    - listitem [ref=e215]:
+                      - link "Phone (714) 228-0767" [ref=e216] [cursor=pointer]:
+                        - /url: tel:7142280767
+                        - img "Phone" [ref=e217]
+                        - text: (714) 228-0767
+                    - listitem [ref=e219]:
+                      - link "Link Visit website" [ref=e220] [cursor=pointer]:
+                        - /url: https://jang-mo-gip.hub.biz
+                        - img "Link" [ref=e221]
+                        - text: Visit website
+              - generic [ref=e227]:
+                - generic [ref=e229]:
+                  - heading "The Source" [level=2] [ref=e230]
+                  - button "Copy link" [ref=e232] [cursor=pointer]:
+                    - img "Link" [ref=e233]
+                - paragraph [ref=e235]: A Gen Z epicenter for Korean culture and K-pop, The Source in Buena Park grew into the place where fans pick up coveted albums, collectibles and Korean street food. Notable spots include Myungrang Hot Dog, Old Ferry Donut from Seoul with its custard-filled creme brulee and pistachio doughnuts, and even more things to eat tucked into two food courts. Boba shops like Ding Tea embrace the K-pop frenzy with special events featuring BTS and other bands printed on paper cup sleeves. The limited quantities make sleeves collectibles, with people lining up for hours just for a single cup.
+                - list [ref=e236]:
+                  - listitem [ref=e237]:
+                    - link "Location 6970 Beach Blvd Unit F111, Buena Park, CA, 90621, USExternal Link" [ref=e238] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=The%20Source%2C%206970%20Beach%20Blvd%20Unit%20F111%2C%20Buena%20Park%2C%20CA%2C%2090621%2C%20US
+                      - img "Location" [ref=e239]
+                      - generic [ref=e241]:
+                        - text: 6970 Beach Blvd Unit F111, Buena Park, CA, 90621, US
+                        - img "External Link" [ref=e242]
+                  - listitem [ref=e244]:
+                    - link "Phone (714) 752-6390" [ref=e245] [cursor=pointer]:
+                      - /url: tel:7147526390
+                      - img "Phone" [ref=e246]
+                      - text: (714) 752-6390
+                  - listitem [ref=e248]:
+                    - link "Link Visit website" [ref=e249] [cursor=pointer]:
+                      - /url: http://myungrangamerica.com
+                      - img "Link" [ref=e250]
+                      - text: Visit website
+                - generic [ref=e254]:
+                  - img "Fried Korean-style corndogs." [ref=e257]
+                  - generic [ref=e258]: Jenn Tanaka
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - text: advertisement
+                  - generic [ref=e261]: AD
+                - generic [ref=e262]:
+                  - generic [ref=e264]:
+                    - heading "Jinsol Gukbap" [level=2] [ref=e265]
+                    - button "Copy link" [ref=e267] [cursor=pointer]:
+                      - img "Link" [ref=e268]
+                  - paragraph [ref=e270]: This is the place to slurp on Busan-style pork bone broth simmered for 24 hours. The boiling hot milky white soup is dotted with chunks of tender pork meat and served with banchan like cabbage kimchi, raw onions, jalapenos, chili sauce, and seasoned chives. Purple-tinged rice and noodles arrive on the side for the soup. Another Jinsol opened in Stanton recently and the chain boasts two locations in LA’s Koreatown as well.
+                  - list [ref=e271]:
+                    - listitem [ref=e272]:
+                      - link "Location 7446 Orangethorpe Ave, Buena Park, CA, 90621, USExternal Link" [ref=e273] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Jinsol%20Gukbap%2C%207446%20Orangethorpe%20Ave%2C%20Buena%20Park%2C%20CA%2C%2090621%2C%20US
+                        - img "Location" [ref=e274]
+                        - generic [ref=e276]:
+                          - text: 7446 Orangethorpe Ave, Buena Park, CA, 90621, US
+                          - img "External Link" [ref=e277]
+                    - listitem [ref=e279]:
+                      - link "Phone (714) 266-0037" [ref=e280] [cursor=pointer]:
+                        - /url: tel:7142660037
+                        - img "Phone" [ref=e281]
+                        - text: (714) 266-0037
+                    - listitem [ref=e283]:
+                      - link "Link Visit website" [ref=e284] [cursor=pointer]:
+                        - /url: http://www.jinsolgukbap.net
+                        - img "Link" [ref=e285]
+                        - text: Visit website
+                  - generic [ref=e289]:
+                    - img "Pork bone soup with banchan at a Korean restaurant." [ref=e292]
+                    - generic [ref=e293]: Matthew Kang
+              - generic [ref=e295]:
+                - generic [ref=e297]:
+                  - heading "Han Yang" [level=2] [ref=e298]
+                  - button "Copy link" [ref=e300] [cursor=pointer]:
+                    - img "Link" [ref=e301]
+                - paragraph [ref=e303]: This restaurant looks like a converted car hop. But instead of serving burgers and other American food, Han Yang dishes out bowls of beef, ox bone, ground pork mandu (dumpling), and galbitang. The bibim naengmyeon — cold buckwheat noodle dish with a sweet and spicy house sauce comes garnished with lettuce, cucumber, roasted sesame and boiled egg, while the kong guksu — iced soybean sauce noodles with cucumber and tomato, is another cold noodle dish worth trying. Vegetarian dishes include the rice hot plate with seasoned thistle, egg yolk, and kkakdugi, or pickled radish. A gondeure sauce gets mixed in to meld all the flavors. Also written as “gondre,” the Korean thistle originated as a wild mountain herb but is now widely grown in greenhouses in Korea.
+                - list [ref=e304]:
+                  - listitem [ref=e305]:
+                    - link "Location 7152 Orangethorpe Ave, Buena Park, CA, 90621, USExternal Link" [ref=e306] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Han%20Yang%2C%207152%20Orangethorpe%20Ave%2C%20Buena%20Park%2C%20CA%2C%2090621%2C%20US
+                      - img "Location" [ref=e307]
+                      - generic [ref=e309]:
+                        - text: 7152 Orangethorpe Ave, Buena Park, CA, 90621, US
+                        - img "External Link" [ref=e310]
+                  - listitem [ref=e312]:
+                    - link "Phone (714) 228-0046" [ref=e313] [cursor=pointer]:
+                      - /url: tel:7142280046
+                      - img "Phone" [ref=e314]
+                      - text: (714) 228-0046
+                  - listitem [ref=e316]:
+                    - link "Link Visit website" [ref=e317] [cursor=pointer]:
+                      - /url: http://hanyang.site.mobi/
+                      - img "Link" [ref=e318]
+                      - text: Visit website
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - text: advertisement
+                  - generic [ref=e325]: AD
+                - generic [ref=e326]:
+                  - generic [ref=e328]:
+                    - heading "Hsiang Yuen Chinese Restaurant" [level=2] [ref=e329]
+                    - button "Copy link" [ref=e331] [cursor=pointer]:
+                      - img "Link" [ref=e332]
+                  - paragraph [ref=e334]: Though technically just outside of Orange County in Artesia, Hsiang Yuen Restaurant is worth the stop. The small mom-and-pop restaurant opened in 1983. It’s known for its jajangmyeon, a pork-based black bean sauce dotted with chopped onions and bits of green zucchini. The noodles are springy, sopping up the dark sauce. The crispy fried sesame balls with sweet black beans are a poppable dessert. Though be warned they’re scorchingly hot when they first emerge from the fryer.
+                  - list [ref=e335]:
+                    - listitem [ref=e336]:
+                      - link "Location 12248 South St, Artesia, CA, 90701, USExternal Link" [ref=e337] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Hsiang%20Yuen%20Chinese%20Restaurant%2C%2012248%20South%20St%2C%20Artesia%2C%20CA%2C%2090701%2C%20US
+                        - img "Location" [ref=e338]
+                        - generic [ref=e340]:
+                          - text: 12248 South St, Artesia, CA, 90701, US
+                          - img "External Link" [ref=e341]
+                    - listitem [ref=e343]:
+                      - link "Phone (562) 402-5931" [ref=e344] [cursor=pointer]:
+                        - /url: tel:5624025931
+                        - img "Phone" [ref=e345]
+                        - text: (562) 402-5931
+                    - listitem [ref=e347]:
+                      - link "Link Visit website" [ref=e348] [cursor=pointer]:
+                        - /url: http://hsiangyuen.com
+                        - img "Link" [ref=e349]
+                        - text: Visit website
+                  - generic [ref=e353]:
+                    - img "Korean Chinese fermented black bean noodles with yellow pickled radish." [ref=e356]
+                    - generic [ref=e357]: Jenn Tanaka
+              - generic [ref=e359]:
+                - generic [ref=e361]:
+                  - heading "Mo Ran Gak Restaurant" [level=2] [ref=e362]
+                  - button "Copy link" [ref=e364] [cursor=pointer]:
+                    - img "Link" [ref=e365]
+                - paragraph [ref=e367]:
+                  - text: For 24 years, Mo Ran Gak has remained a staple in Garden Grove for
+                  - link "Korean barbecue" [ref=e368] [cursor=pointer]:
+                    - /url: /maps/best-korean-barbecue-orange-county-garden-grove-buena-park-irvine
+                  - text: and is still one of the few places to find North Korean-style noodles called mul naengmyeon. The cold buckwheat noodles are a specialty of the restaurant, along with the spicy bibim naengmyeon with crunchy bites of radish, cucumber, and Asian pear. They’re best served with grilled galbi, marinated beef short ribs.
+                - list [ref=e369]:
+                  - listitem [ref=e370]:
+                    - link "Location 9651 Garden Grove Blvd, Garden Grove, CA, 92844, USExternal Link" [ref=e371] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Mo%20Ran%20Gak%20Restaurant%2C%209651%20Garden%20Grove%20Blvd%2C%20Garden%20Grove%2C%20CA%2C%2092844%2C%20US
+                      - img "Location" [ref=e372]
+                      - generic [ref=e374]:
+                        - text: 9651 Garden Grove Blvd, Garden Grove, CA, 92844, US
+                        - img "External Link" [ref=e375]
+                  - listitem [ref=e377]:
+                    - link "Phone (714) 638-1177" [ref=e378] [cursor=pointer]:
+                      - /url: tel:7146381177
+                      - img "Phone" [ref=e379]
+                      - text: (714) 638-1177
+                  - listitem [ref=e381]:
+                    - link "Link Visit website" [ref=e382] [cursor=pointer]:
+                      - /url: https://morangakbbq.com/
+                      - img "Link" [ref=e383]
+                      - text: Visit website
+                - generic [ref=e387]:
+                  - img "Cold Korean noodles in a metal bowl." [ref=e390]
+                  - generic [ref=e391]: Matthew Kang
+                - generic [ref=e392]:
+                  - heading "See more" [level=3] [ref=e395]
+                  - generic [ref=e398]:
+                    - img "15 Essential Korean Barbecue Restaurants in Orange County" [ref=e400]
+                    - link "15 Essential Korean Barbecue Restaurants in Orange County" [ref=e407] [cursor=pointer]:
+                      - /url: /maps/best-korean-barbecue-orange-county-garden-grove-buena-park-irvine
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - text: advertisement
+                  - generic [ref=e410]: AD
+                - generic [ref=e411]:
+                  - generic [ref=e413]:
+                    - heading "Gaenali Bon Ga" [level=2] [ref=e414]
+                    - button "Copy link" [ref=e416] [cursor=pointer]:
+                      - img "Link" [ref=e417]
+                  - paragraph [ref=e419]: The bossam jungsik is what most first time diners order since the tender pork belly wrapped in lettuce is approachable and easily customizable, but more adventurous diners opt for the octopus bibimbap and the spicy raw marinated crab, yangnyeom gejang. Gaenali Bon Ga also serves Korean comfort food such as budae jjigae, or army stew, a spicy pot filled with ramen, kimchi, hot dogs, and tofu. Also try the monkfish soup and claypot galbitang.
+                  - list [ref=e420]:
+                    - listitem [ref=e421]:
+                      - link "Location 8757 Garden Grove Blvd, Garden Grove, CA, 92844, USExternal Link" [ref=e422] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Gaenali%20Bon%20Ga%2C%208757%20Garden%20Grove%20Blvd%2C%20Garden%20Grove%2C%20CA%2C%2092844%2C%20US
+                        - img "Location" [ref=e423]
+                        - generic [ref=e425]:
+                          - text: 8757 Garden Grove Blvd, Garden Grove, CA, 92844, US
+                          - img "External Link" [ref=e426]
+                    - listitem [ref=e428]:
+                      - link "Phone (714) 263-0308" [ref=e429] [cursor=pointer]:
+                        - /url: tel:7142630308
+                        - img "Phone" [ref=e430]
+                        - text: (714) 263-0308
+                    - listitem [ref=e432]:
+                      - link "Link Visit website" [ref=e433] [cursor=pointer]:
+                        - /url: https://emaps.top/gaenali-bon-ga
+                        - img "Link" [ref=e434]
+                        - text: Visit website
+              - generic [ref=e437]:
+                - generic [ref=e439]:
+                  - heading "Peking Gourmet" [level=2] [ref=e440]
+                  - button "Copy link" [ref=e442] [cursor=pointer]:
+                    - img "Link" [ref=e443]
+                - paragraph [ref=e445]: Since it opened in 1985, Peking Gourmet is one of the oldest Korean Chinese food restaurants in Orange County. The interior resembles a typical Chinese American restaurant circa the 90s and the menu offers the typical broccoli beef, egg rolls, wonton soup, and chicken fried rice. But the best representation of the Korean Chinese fusion is found in the jajangmyeon. The fermented black bean sauce noodles served with tender bites of pork originated in Incheon, Korea, by Chinese immigrants.
+                - list [ref=e446]:
+                  - listitem [ref=e447]:
+                    - link "Location 9092 Garden Grove Blvd, Garden Grove, CA, 92844, USExternal Link" [ref=e448] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Peking%20Gourmet%2C%209092%20Garden%20Grove%20Blvd%2C%20Garden%20Grove%2C%20CA%2C%2092844%2C%20US
+                      - img "Location" [ref=e449]
+                      - generic [ref=e451]:
+                        - text: 9092 Garden Grove Blvd, Garden Grove, CA, 92844, US
+                        - img "External Link" [ref=e452]
+                  - listitem [ref=e454]:
+                    - link "Phone (714) 539-5301" [ref=e455] [cursor=pointer]:
+                      - /url: tel:7145395301
+                      - img "Phone" [ref=e456]
+                      - text: (714) 539-5301
+                  - listitem [ref=e458]:
+                    - link "Link Visit website" [ref=e459] [cursor=pointer]:
+                      - /url: http://pekingtogo.com/
+                      - img "Link" [ref=e460]
+                      - text: Visit website
+                - generic [ref=e464]:
+                  - img "Peking Gourmet restaurant exterior in Garden Grove, California" [ref=e467]
+                  - generic [ref=e468]: Wonho Frank Lee
+              - generic [ref=e469]:
+                - generic [ref=e470]:
+                  - text: advertisement
+                  - generic [ref=e471]: AD
+                - generic [ref=e472]:
+                  - generic [ref=e474]:
+                    - heading "Yigah" [level=2] [ref=e475]
+                    - button "Copy link" [ref=e477] [cursor=pointer]:
+                      - img "Link" [ref=e478]
+                  - paragraph [ref=e480]:
+                    - text: Yigah already made its mark on the
+                    - link "38 Essential Orange County Restaurants" [ref=e481] [cursor=pointer]:
+                      - /url: /maps/best-essential-restaurants-orange-county-california
+                    - text: for its expansive Korean comfort food menu. Soups include the seolleongtang made with simmered ox bones, the green onion-laden braised beef ribs, and gamjatang, a spicy pork back-bone stew flavored with perilla leaves and huge potato chunks. Most diners order a couple of dishes like the crispy katsu cutlet or octopus bibimbap for the table to share, along with bubbling bowls of soup.
+                  - list [ref=e482]:
+                    - listitem [ref=e483]:
+                      - link "Location 2750 Alton Parkway, Irvine, California 92606, United StatesExternal Link" [ref=e484] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Yigah%2C%202750%20Alton%20Parkway%2C%20Irvine%2C%20California%2092606%2C%20United%20States
+                        - img "Location" [ref=e485]
+                        - generic [ref=e487]:
+                          - text: 2750 Alton Parkway, Irvine, California 92606, United States
+                          - img "External Link" [ref=e488]
+                    - listitem [ref=e490]:
+                      - link "Phone (657) 233-5502" [ref=e491] [cursor=pointer]:
+                        - /url: tel:6572335502
+                        - img "Phone" [ref=e492]
+                        - text: (657) 233-5502
+                    - listitem [ref=e494]:
+                      - link "Link Visit website" [ref=e495] [cursor=pointer]:
+                        - /url: https://yigah.business.site/
+                        - img "Link" [ref=e496]
+                        - text: Visit website
+                  - generic [ref=e500]:
+                    - img "A close up of Korean seafood over rice, with a fried egg." [ref=e503]
+                    - generic [ref=e504]: Yigah
+                  - generic [ref=e505]:
+                    - heading "See more" [level=3] [ref=e508]
+                    - generic [ref=e511]:
+                      - img "The 38 Best Orange County Restaurants" [ref=e513]
+                      - link "The 38 Best Orange County Restaurants" [ref=e520] [cursor=pointer]:
+                        - /url: /maps/best-essential-restaurants-orange-county-california
+              - generic [ref=e522]:
+                - generic [ref=e524]:
+                  - heading "Sookdal" [level=2] [ref=e525]
+                  - button "Copy link" [ref=e527] [cursor=pointer]:
+                    - img "Link" [ref=e528]
+                - paragraph [ref=e530]: Since opening in 2014, the Korean barbecue export now boasts more than 40 locations in South Korea, Japan, Southeast Asia, and the U.S. In Orange County, the Garden Grove location remains the busiest. Sookdal means “experienced master” and echoes the restaurant’s attention to using aged meat. The beef brisket, bavette, and ribeye are all dry-aged. The pork set with pork neck, pork belly, and marinated pork ribs features wet-aged meat. The sides include Korean shabu-shabu, grilled cheese, sliced pineapple, and mushrooms to grill at the table.
+                - list [ref=e531]:
+                  - listitem [ref=e532]:
+                    - link "Location 9448 Garden Grove Blvd, Garden Grove, CA, 92844, USExternal Link" [ref=e533] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Sookdal%2C%209448%20Garden%20Grove%20Blvd%2C%20Garden%20Grove%2C%20CA%2C%2092844%2C%20US
+                      - img "Location" [ref=e534]
+                      - generic [ref=e536]:
+                        - text: 9448 Garden Grove Blvd, Garden Grove, CA, 92844, US
+                        - img "External Link" [ref=e537]
+                  - listitem [ref=e539]:
+                    - link "Phone (714) 590-1588" [ref=e540] [cursor=pointer]:
+                      - /url: tel:7145901588
+                      - img "Phone" [ref=e541]
+                      - text: (714) 590-1588
+                  - listitem [ref=e543]:
+                    - link "Link Visit website" [ref=e544] [cursor=pointer]:
+                      - /url: https://www.instagram.com/sookdal_koreanbbq/?hl=en
+                      - img "Link" [ref=e545]
+                      - text: Visit website
+                - generic [ref=e550]:
+                  - heading "See more" [level=3] [ref=e553]
+                  - generic [ref=e556]:
+                    - img "15 Essential Korean Barbecue Restaurants in Orange County" [ref=e558]
+                    - link "15 Essential Korean Barbecue Restaurants in Orange County" [ref=e565] [cursor=pointer]:
+                      - /url: /maps/best-korean-barbecue-orange-county-garden-grove-buena-park-irvine
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - text: advertisement
+                  - generic [ref=e568]: AD
+                - generic [ref=e569]:
+                  - generic [ref=e571]:
+                    - heading "Furai Chicken" [level=2] [ref=e572]
+                    - button "Copy link" [ref=e574] [cursor=pointer]:
+                      - img "Link" [ref=e575]
+                  - paragraph [ref=e577]:
+                    - text: Furai Chicken grew so popular that the Korean fried chicken stall upgraded from
+                    - link "its food court space at Zion Market" [ref=e578] [cursor=pointer]:
+                      - /url: /2021/11/11/22776654/orange-county-best-international-markets
+                    - text: to a standalone space on Yale Avenue in Irvine. The crispy original fried chicken and soy garlic-coated wings are served with pickled daikon and jalapenos. As for the sides, stick with the potato wedges. The dining room is sparse, which means tends to do more of takeout orders.
+                  - list [ref=e579]:
+                    - listitem [ref=e580]:
+                      - link "Location 13955 Yale Avenue, Irvine, California 92620External Link" [ref=e581] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Furai%20Chicken%2C%2013955%20Yale%20Avenue%2C%20Irvine%2C%20California%2092620
+                        - img "Location" [ref=e582]
+                        - generic [ref=e584]:
+                          - text: 13955 Yale Avenue, Irvine, California 92620
+                          - img "External Link" [ref=e585]
+                    - listitem [ref=e587]:
+                      - link "Phone (714) 508-3988" [ref=e588] [cursor=pointer]:
+                        - /url: tel:7145083988
+                        - img "Phone" [ref=e589]
+                        - text: (714) 508-3988
+                    - listitem [ref=e591]:
+                      - link "Link Visit website" [ref=e592] [cursor=pointer]:
+                        - /url: http://www.furaichicken.menu11.com/
+                        - img "Link" [ref=e593]
+                        - text: Visit website
+                  - generic [ref=e597]:
+                    - img "A dimly lit outside area of a chicken restaurant." [ref=e600]
+                    - generic [ref=e601]: Jenn Tanaka
+              - generic [ref=e603]:
+                - generic [ref=e605]:
+                  - heading "Jopok Topokki" [level=2] [ref=e606]
+                  - button "Copy link" [ref=e608] [cursor=pointer]:
+                    - img "Link" [ref=e609]
+                - paragraph [ref=e611]: Located inside the food court at the most well-stocked H Mart in Irvine, this Jopok Topokki is much smaller than its sister restaurant on Commonwealth in Buena Park. At both locations, the rapokki, a combination of rice cakes and ramen in kimchi broth and fish cakes, remains the most popular item, even for takeout orders. Since it’s in a grocery store, the crisp waffle-like dessert taiyaki comes stuffed with nutella, custard, or red bean, making for a scrumptious pre- or post-shopping snack.
+                - list [ref=e612]:
+                  - listitem [ref=e613]:
+                    - link "Location 3825 Alton Pkwy, Irvine, CA, 92606, USExternal Link" [ref=e614] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Jopok%20Topokki%2C%203825%20Alton%20Pkwy%2C%20Irvine%2C%20CA%2C%2092606%2C%20US
+                      - img "Location" [ref=e615]
+                      - generic [ref=e617]:
+                        - text: 3825 Alton Pkwy, Irvine, CA, 92606, US
+                        - img "External Link" [ref=e618]
+                  - listitem [ref=e620]:
+                    - link "Phone (949) 991-7721" [ref=e621] [cursor=pointer]:
+                      - /url: tel:9499917721
+                      - img "Phone" [ref=e622]
+                      - text: (949) 991-7721
+                  - listitem [ref=e624]:
+                    - link "Link Visit website" [ref=e625] [cursor=pointer]:
+                      - /url: https://order.online/store/jopok-topokki-irvine-irvine-24295854/?hideModal=true&pickup=true
+                      - img "Link" [ref=e626]
+                      - text: Visit website
+                - paragraph [ref=e631]: This embedded content failed to load.
+              - generic [ref=e632]:
+                - generic [ref=e633]:
+                  - text: advertisement
+                  - generic [ref=e634]: AD
+                - generic [ref=e635]:
+                  - generic [ref=e637]:
+                    - heading "Moo Bong Ri" [level=2] [ref=e638]
+                    - button "Copy link" [ref=e640] [cursor=pointer]:
+                      - img "Link" [ref=e641]
+                  - paragraph [ref=e643]: The popular K-town soondae outpost expanded to OC with a location inside H Mart in Irvine. Its grew locally, which led to another expansion to Irvine Plaza on Barranca Parkway. The beef short rib soup and the beef back rib soup with glass noodles are the more approachable bowls for first timers but diners-in-the-know come for the soondae, Korean pork blood sausage. It’s served sliced or simmered in soup, which can also be ordered spicy. The soondae sampler is another option to share with the table.
+                  - list [ref=e644]:
+                    - listitem [ref=e645]:
+                      - link "Location 4250 Barranca Parkway, Irvine, California 92604External Link" [ref=e646] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Moo%20Bong%20Ri%2C%204250%20Barranca%20Parkway%2C%20Irvine%2C%20California%2092604
+                        - img "Location" [ref=e647]
+                        - generic [ref=e649]:
+                          - text: 4250 Barranca Parkway, Irvine, California 92604
+                          - img "External Link" [ref=e650]
+                    - listitem [ref=e652]:
+                      - link "Phone (949) 932-0086" [ref=e653] [cursor=pointer]:
+                        - /url: tel:9499320086
+                        - img "Phone" [ref=e654]
+                        - text: (949) 932-0086
+                    - listitem [ref=e656]:
+                      - link "Link Visit website" [ref=e657] [cursor=pointer]:
+                        - /url: http://www.moobongriirvine.com
+                        - img "Link" [ref=e658]
+                        - text: Visit website
+                  - paragraph [ref=e663]: This embedded content failed to load.
+              - generic [ref=e665]:
+                - generic [ref=e667]:
+                  - heading "Dosirak Express" [level=2] [ref=e668]
+                  - button "Copy link" [ref=e670] [cursor=pointer]:
+                    - img "Link" [ref=e671]
+                - paragraph [ref=e673]: This is the ideal fast-casual stop for Korean homestyle stews, lunches, and rice bowls. Dosirak is the Korean version of a lunchtime bento box. The shop’s large refrigerator case is stocked with seaweed soup, pickled vegetables, and cold noodle salads to take away. For other dishes, orders can be placed at the counter or online. The dosirak and rice bowls with glazed salmon or bulgogi are the most popular. Another popular item is the gimbap, which can be rolled with tuna, spicy pork, bulgogi, shrimp, or vegetables.
+                - list [ref=e674]:
+                  - listitem [ref=e675]:
+                    - link "Location 6711 Quail Hill Pkwy, Irvine, CA, 92603, USExternal Link" [ref=e676] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=Dosirak%20Express%2C%206711%20Quail%20Hill%20Pkwy%2C%20Irvine%2C%20CA%2C%2092603%2C%20US
+                      - img "Location" [ref=e677]
+                      - generic [ref=e679]:
+                        - text: 6711 Quail Hill Pkwy, Irvine, CA, 92603, US
+                        - img "External Link" [ref=e680]
+                  - listitem [ref=e682]:
+                    - link "Phone (949) 577-9708" [ref=e683] [cursor=pointer]:
+                      - /url: tel:9495779708
+                      - img "Phone" [ref=e684]
+                      - text: (949) 577-9708
+                  - listitem [ref=e686]:
+                    - link "Link Visit website" [ref=e687] [cursor=pointer]:
+                      - /url: http://www.dosirakcompany.com
+                      - img "Link" [ref=e688]
+                      - text: Visit website
+                - generic [ref=e692]:
+                  - img "A Korean bento lunch box with egg roll, rice, and beef." [ref=e695]
+                  - generic [ref=e696]: Doordash
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - text: advertisement
+                  - generic [ref=e699]: AD
+                - generic [ref=e700]:
+                  - generic [ref=e702]:
+                    - heading "Hanshin Pocha" [level=2] [ref=e703]
+                    - button "Copy link" [ref=e705] [cursor=pointer]:
+                      - img "Link" [ref=e706]
+                  - paragraph [ref=e708]: Inspired by Korean food wagons that evolved into outdoor food stalls, Hanshin Pocha serves street food and savory bar bites that pair well with soju and beer. Wedged in a cluster of casual restaurants near an Albertsons at Quail Hill Shopping Center, the location seems like an unusual place to set up a pocha. But people (many of whom are UCI students) wait in groups outside for tables. The tteokbokki (spicy rice cakes) and kimchi jeongol (kimchi hot pot), along with the pub-friendly whole fried chicken and stir-fried spicy squid are easily shareable. Dishes can also be taken to-go.
+                  - list [ref=e709]:
+                    - listitem [ref=e710]:
+                      - link "Location 6725 Quail Hill Parkway, Irvine, California 92603External Link" [ref=e711] [cursor=pointer]:
+                        - /url: https://www.google.com/maps/search/?api=1&query=Hanshin%20Pocha%2C%206725%20Quail%20Hill%20Parkway%2C%20Irvine%2C%20California%2092603
+                        - img "Location" [ref=e712]
+                        - generic [ref=e714]:
+                          - text: 6725 Quail Hill Parkway, Irvine, California 92603
+                          - img "External Link" [ref=e715]
+                    - listitem [ref=e717]:
+                      - link "Link Visit website" [ref=e718] [cursor=pointer]:
+                        - /url: https://hanshinpochairvine.com
+                        - img "Link" [ref=e719]
+                        - text: Visit website
+      - generic [ref=e724]:
+        - generic [ref=e725]:
+          - text: advertisement
+          - generic [ref=e726]: AD
+        - generic [ref=e727]:
+          - generic [ref=e728]:
+            - generic [ref=e730]:
+              - heading "More in Dining Out in LA" [level=2] [ref=e734]:
+                - text: More in
+                - link "Dining Out in LA" [ref=e735] [cursor=pointer]:
+                  - /url: /where-to-eat
+              - generic [ref=e738]:
+                - generic [ref=e740]:
+                  - 'img "The Best Dishes Eater Editors Ate This Week: April 13" [ref=e742]'
+                  - 'link "The Best Dishes Eater Editors Ate This Week: April 13" [ref=e749] [cursor=pointer]':
+                    - /url: /where-to-eat/301599/the-best-dishes-eater-editors-ate-this-week-april-13
+                - generic [ref=e751]:
+                  - img "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e753]
+                  - link "The Best Places to Eat on the Drive Between Los Angeles and Palm Springs, According to an Eater Editor" [ref=e760] [cursor=pointer]:
+                    - /url: /maps/best-restaurants-los-angeles-to-palm-springs-road-trip
+                - generic [ref=e762]:
+                  - 'img "4 Restaurants to Try This Weekend in Los Angeles: April 10" [ref=e764]'
+                  - 'link "4 Restaurants to Try This Weekend in Los Angeles: April 10" [ref=e771] [cursor=pointer]':
+                    - /url: /where-to-eat/301550/4-restaurants-to-try-this-weekend-in-los-angeles-april-10
+                - generic [ref=e773]:
+                  - img "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e775]
+                  - link "The Hottest Burgers in Los Angeles Right Now, According to Eater Editors" [ref=e782] [cursor=pointer]:
+                    - /url: /maps/best-new-burgers-los-angeles-restaurants
+                - generic [ref=e784]:
+                  - img "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e786]
+                  - link "The Best Cocktail Bars in Palm Springs, According to Eater Editors" [ref=e793] [cursor=pointer]:
+                    - /url: /maps/best-cocktail-lounge-bars-palm-springs
+                - generic [ref=e795]:
+                  - img "The 38 Best Restaurants in Los Angeles" [ref=e797]
+                  - link "The 38 Best Restaurants in Los Angeles" [ref=e804] [cursor=pointer]:
+                    - /url: /maps/best-los-angeles-restaurants-eater-38-essential
+            - link "Advertisement" [ref=e808] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - generic [ref=e811]: Advertiser Content From
+                  - img "Sponsor Logo" [ref=e813]
+                - paragraph [ref=e814]: This is the title for the native ad
+          - generic [ref=e816]:
+            - heading "The Latest" [level=2] [ref=e820]
+            - generic [ref=e821]:
+              - generic [ref=e825]:
+                - generic [ref=e827]:
+                  - time [ref=e829]: Two hours ago
+                  - generic [ref=e831]: Eater
+                - link "Gwyneth Paltrow Wants to Bring Delicious, Healthy Food to New York" [ref=e834] [cursor=pointer]:
+                  - /url: https://www.eater.com/pop-culture/955847/gwyneth-paltrow-interview-goop-kitchen-expansion
+              - generic [ref=e838]:
+                - generic [ref=e840]:
+                  - time [ref=e842]: Apr 16
+                  - generic [ref=e844]: Eater
+                - link "On California’s Central Coast, Restaurant Artworks Are the Stars of the Dining Room" [ref=e847] [cursor=pointer]:
+                  - /url: https://www.eater.com/dining-out/955765/restaurants-bars-cool-art-famous-restaurant-artworks
+              - generic [ref=e851]:
+                - time [ref=e855]: Apr 16
+                - link "Sonoratown Proves Los Angeles Is a Burrito Town" [ref=e858] [cursor=pointer]:
+                  - /url: /dining-report/301734/sonoratown-los-angeles-review
+              - generic [ref=e862]:
+                - time [ref=e866]: Apr 16
+                - link "The Best Restaurants in Pasadena, According to Eater Editors" [ref=e869] [cursor=pointer]:
+                  - /url: /maps/best-pasadena-restaurants-california-los-angeles-south-pasadena-old-town
+              - generic [ref=e873]:
+                - time [ref=e877]: Apr 15
+                - link "Erewhon Just Made LACMA Its Next Smoothie Destination" [ref=e880] [cursor=pointer]:
+                  - /url: /los-angeles-restaurant-news/301705/erewhon-lacma-cafe-opening-smoothies
+              - generic [ref=e884]:
+                - time [ref=e888]: Apr 15
+                - link "Badmaash in Venice Serves Los Angeles’s Best Steak Frites" [ref=e891] [cursor=pointer]:
+                  - /url: /dining-report/301692/badmaash-venice-review
+    - contentinfo [ref=e892]:
+      - generic [ref=e893]:
+        - text: advertisement
+        - generic [ref=e894]: AD
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - link "Eater" [ref=e898] [cursor=pointer]:
+            - /url: /
+            - img "Eater" [ref=e899]
+          - list [ref=e902]:
+            - listitem [ref=e903]:
+              - link "Facebook" [ref=e904] [cursor=pointer]:
+                - /url: https://www.facebook.com/eaterla
+                - img "Facebook" [ref=e905]
+            - listitem [ref=e907]:
+              - link "Twitter" [ref=e908] [cursor=pointer]:
+                - /url: https://twitter.com/eaterla
+                - img "Twitter" [ref=e909]
+            - listitem [ref=e911]:
+              - link "Instagram" [ref=e912] [cursor=pointer]:
+                - /url: https://www.instagram.com/eater_la
+                - img "Instagram" [ref=e913]
+            - listitem [ref=e915]:
+              - link "Youtube" [ref=e916] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/eater1
+                - img "Youtube" [ref=e917]
+            - listitem [ref=e919]:
+              - link "RSS" [ref=e920] [cursor=pointer]:
+                - /url: /rss/index.xml
+                - img "RSS" [ref=e921]
+            - listitem [ref=e923]:
+              - link [ref=e924] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+                - img [ref=e925]
+        - generic [ref=e927]:
+          - list [ref=e928]:
+            - listitem [ref=e929]:
+              - link "Terms of Use" [ref=e930] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/terms-of-use
+            - listitem [ref=e931]:
+              - link "Privacy Notice" [ref=e932] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/privacy-notice
+            - listitem [ref=e933]:
+              - link "Cookie Policy" [ref=e934] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/cookie-policy
+            - listitem [ref=e935]:
+              - button "Do Not Sell or Share My Personal Data" [ref=e936] [cursor=pointer]
+            - listitem [ref=e937]:
+              - link "Licensing FAQ" [ref=e938] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/pages/licensing
+            - listitem [ref=e939]:
+              - link "Accessibility" [ref=e940] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/accessibility
+            - listitem [ref=e941]:
+              - link "Platform Status" [ref=e942] [cursor=pointer]:
+                - /url: https://status.voxmedia.com
+          - list [ref=e943]:
+            - listitem [ref=e944]:
+              - link "Archives" [ref=e945] [cursor=pointer]:
+                - /url: /archives/full
+            - listitem [ref=e946]:
+              - link "Contact Us" [ref=e947] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e948]:
+              - link "Send Us a Tip" [ref=e949] [cursor=pointer]:
+                - /url: https://www.eater.com/2017/11/1/16572850/send-secure-tips-to-eater
+            - listitem [ref=e950]:
+              - link "Community Guidelines" [ref=e951] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/eater-community-guidelines
+            - listitem [ref=e952]:
+              - link "Masthead" [ref=e953] [cursor=pointer]:
+                - /url: http://www.eater.com/pages/masthead
+            - listitem [ref=e954]:
+              - link "About Eater" [ref=e955] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/about
+            - listitem [ref=e956]:
+              - link "Ethics Statement" [ref=e957] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-ethics-statement
+            - listitem [ref=e958]:
+              - link "Press Room" [ref=e959] [cursor=pointer]:
+                - /url: https://www.eater.com/press-room
+            - listitem [ref=e960]:
+              - link "Newsletters" [ref=e961] [cursor=pointer]:
+                - /url: https://www.eater.com/newsletters
+            - listitem [ref=e962]:
+              - link "How to Pitch" [ref=e963] [cursor=pointer]:
+                - /url: https://www.eater.com/2016/12/15/13962822/eater-pitching-guidelines-how-to-pitch
+            - listitem [ref=e964]:
+              - link "Maps Methodology" [ref=e965] [cursor=pointer]:
+                - /url: https://www.eater.com/pages/eater-maps-methodology
+        - paragraph [ref=e966]:
+          - text: © 2026
+          - link "Vox Media" [ref=e967] [cursor=pointer]:
+            - /url: https://www.voxmedia.com
+          - text: ", LLC. All Rights Reserved"
+  - alert [ref=e968]

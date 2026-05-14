@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+# view-trip: Generate a web visualization from a trip JSON and open it in the browser
+# Usage: ./tools/view-trip [trip-id]
+# Example: ./tools/view-trip irvine-sd-april-2026
+#
+# Reads trips/<trip-id>.json + profile/family.json, generates trips/<trip-id>.html,
+# and opens it in the default browser.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PROFILE="$REPO_ROOT/profile/family.json"
+TRIPS_DIR="$REPO_ROOT/trips"
+
+# Trip ID from arg or prompt
+TRIP_ID="${1:-}"
+if [ -z "$TRIP_ID" ]; then
+  # List available trips
+  echo "Available trips:"
+  for f in "$TRIPS_DIR"/*.json; do
+    [ -f "$f" ] && echo "  $(basename "$f" .json)"
+  done
+  echo ""
+  read -rp "Trip ID: " TRIP_ID
+fi
+
+TRIP_FILE="$TRIPS_DIR/${TRIP_ID}.json"
+HTML_FILE="$TRIPS_DIR/${TRIP_ID}.html"
+
+if [ ! -f "$TRIP_FILE" ]; then
+  echo "Error: Trip file not found: $TRIP_FILE"
+  exit 1
+fi
+
+PROFILE_DATA=$(cat "$PROFILE")
+TRIP_DATA=$(cat "$TRIP_FILE")
+
+# Check if HTML already exists
+EXISTING_HTML=""
+if [ -f "$HTML_FILE" ]; then
+  EXISTING_HTML=$(cat "$HTML_FILE")
+fi
+
+SYSTEM_PROMPT=$(cat <<'SYSPROMPT'
+You are the TravelOptimizer Web Visualizer. Your job is to generate a single, self-contained HTML file that beautifully displays a trip plan.
+
+## Design System
+- Use Inter font from Google Fonts
+- Color palette: deep blue (#1a3a5c, #2a6496), white cards on #f0f4f8 background
+- Cards with border-radius:16px, subtle box-shadows
+- Mobile responsive (single column under 640px)
+- Clean, magazine-quality layout — not a data dump
+
+## Required Sections (include all that have data)
+1. **Hero**: Trip name, family members, route flow visualization, dates
+2. **Alerts**: Any critical constraints (e.g., no nonstops, seasonal routes)
+3. **Flight Options**: Tables with airline, flight number, times, prices. Pros/cons for each option.
+4. **Trip Layouts**: Day-by-day breakdowns for each layout option, with pros/cons
+5. **Connection Hubs** (if applicable): Visual cards for each hub airport
+6. **Key Tradeoffs**: The central decision points highlighted
+7. **Recommendation**: The suggested best combo with cost estimate
+8. **Next Steps / Decisions**: What the user needs to decide
+
+## Rules
+- Output ONLY the HTML — no markdown, no explanation, no backticks
+- Self-contained: inline all CSS in <style>, inline all JS in <script>
+- Use HTML entities for icons (planes, arrows, stars) — no emoji
+- Include expand/collapse for detailed sections
+- Show scores/badges where the trip data has scores
+- Responsive grid layouts
+- Eliminated options should be visually dimmed/struck
+- Footer with "TravelOptimizer" and last updated date
+SYSPROMPT
+)
+
+PROMPT="Generate a complete, self-contained HTML visualization for this trip.
+
+## Family Profile
+\`\`\`json
+$PROFILE_DATA
+\`\`\`
+
+## Trip Data
+\`\`\`json
+$TRIP_DATA
+\`\`\`"
+
+# If there's existing HTML, include it as a reference for style
+if [ -n "$EXISTING_HTML" ]; then
+  # Just mention it exists — don't dump the whole thing into the prompt
+  PROMPT="$PROMPT
+
+Note: An existing HTML file exists at $HTML_FILE. Generate a fresh version based on the current trip JSON data. Match the existing design system and style conventions used in the project."
+fi
+
+echo "Generating web visualization for: $TRIP_ID"
+echo "Reading: $TRIP_FILE"
+echo "Output:  $HTML_FILE"
+echo ""
+
+# Generate HTML using Claude
+HTML_OUTPUT=$(claude -p \
+  --allowedTools "Read,WebSearch,WebFetch" \
+  --system-prompt "$SYSTEM_PROMPT" \
+  "$PROMPT")
+
+# Write the HTML file
+echo "$HTML_OUTPUT" > "$HTML_FILE"
+
+echo "Generated: $HTML_FILE"
+echo ""
+
+# Open in browser
+if command -v open &> /dev/null; then
+  open "$HTML_FILE"
+  echo "Opened in browser."
+elif command -v xdg-open &> /dev/null; then
+  xdg-open "$HTML_FILE"
+  echo "Opened in browser."
+else
+  echo "Open $HTML_FILE in your browser to view."
+fi

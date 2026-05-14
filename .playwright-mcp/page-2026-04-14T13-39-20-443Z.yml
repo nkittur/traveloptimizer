@@ -1,0 +1,426 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Newsletter" [ref=e9] [cursor=pointer]:
+          - /url: https://www.townandcountrymag.com/email/townandcountrymag-newsletter/
+          - img [ref=e11]
+          - text: Newsletter
+        - generic [ref=e15]:
+          - search [ref=e16]:
+            - generic [ref=e17]: Search
+            - generic [ref=e19]:
+              - textbox "Search" [ref=e20]:
+                - /placeholder: Search...
+              - button "Search" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+          - link "Town & Country" [ref=e26] [cursor=pointer]:
+            - /url: /
+            - img [ref=e29]
+          - generic [ref=e31]:
+            - link "Sign In" [ref=e33] [cursor=pointer]:
+              - /url: /auth/csrf?action=login&return_url=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fa46772119%2Ft-and-c-travel-guide-3-days-in-asheville%2F
+              - text: Sign in
+            - link "Subscribe" [ref=e34] [cursor=pointer]:
+              - /url: https://shop.townandcountrymag.com/town-and-country-premium-membership-1.html?cds_tracking_code=toctopnav
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Luxury Style" [ref=e39] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/style/
+          - listitem [ref=e40]:
+            - link "Society" [ref=e42] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/society/
+          - listitem [ref=e43]:
+            - link "Leisure" [ref=e45] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/leisure/
+          - listitem [ref=e46]:
+            - link "The Scene" [ref=e48] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/the-scene/
+          - listitem [ref=e49]:
+            - link "Education" [ref=e51] [cursor=pointer]:
+              - /url: https://www.townandcountrymag.com/education-college/
+          - listitem [ref=e52]:
+            - link "Member Exclusives" [ref=e54] [cursor=pointer]:
+              - /url: https://shop.townandcountrymag.com/town-and-country-premium-membership-1.html?cds_tracking_code=tocpanelnav
+    - list [ref=e56]:
+      - generic "Related content navigation" [ref=e57]: Related
+      - listitem [ref=e59]:
+        - link "Host an Idyllic Wedding Weekend in Asheville" [ref=e60] [cursor=pointer]:
+          - /url: /the-scene/weddings/a64230990/host-an-idyllic-wedding-weekend-in-asheville/
+          - generic [ref=e61]: Host an Idyllic Wedding Weekend in Asheville
+      - listitem [ref=e62]:
+        - link "Appalachian Surprise" [ref=e63] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a70726443/asheville-north-carolina-travel-guide-2025/
+          - generic [ref=e64]: Appalachian Surprise
+      - listitem [ref=e65]:
+        - link "The Best Room At ... Fairmont Taghazout Bay" [ref=e66] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a64326701/fairmont-taghazout-bay-morocco-hotel-review/
+          - generic [ref=e67]: The Best Room At ... Fairmont Taghazout Bay
+      - listitem [ref=e68]:
+        - link "Inside the Members' Club That Takes You Everywhere" [ref=e69] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a63901779/inside-the-members-club-that-takes-you-around-the-world/
+          - generic [ref=e70]: Inside the Members' Club That Takes You Everywhere
+      - listitem [ref=e71]:
+        - link "In Defense of Spring Break—For Adults" [ref=e72] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a64488743/sandals-saint-vincent-and-the-grenadines-spring-break/
+          - generic [ref=e73]: In Defense of Spring Break—For Adults
+      - listitem [ref=e74]:
+        - link "Tenniscore Takes Over New York Hotels" [ref=e75] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a65617292/us-open-2025-new-york-city-luxury-hotels/
+          - generic [ref=e76]: Tenniscore Takes Over New York Hotels
+      - listitem [ref=e77]:
+        - link "<em>The Best Room at</em>... The Royal Hawaiian" [ref=e78] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a65003462/royal-hawaiian-hotel-oahu-review/
+          - generic [ref=e79]:
+            - emphasis [ref=e80]: The Best Room at
+            - text: ... The Royal Hawaiian
+      - listitem [ref=e81]:
+        - link "A Snob's Guide to Bermuda's Sports & Recreation" [ref=e82] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a64244281/bermuda-golf-sailing-cricket-diving-travel-guide/
+          - generic [ref=e83]: A Snob's Guide to Bermuda's Sports & Recreation
+      - listitem [ref=e84]:
+        - link "The Best Room at... Andaz Peninsula Papagayo" [ref=e85] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a70225204/andaz-peninsula-papagayo-resort-review/
+          - generic [ref=e86]: The Best Room at... Andaz Peninsula Papagayo
+      - listitem [ref=e87]:
+        - link "The Best Suite on… Seven Seas Prestige™" [ref=e88] [cursor=pointer]:
+          - /url: /leisure/travel-guide/a64827889/the-best-suite-on-seven-seas-prestige/
+          - generic [ref=e89]: The Best Suite on… Seven Seas Prestige™
+    - generic [ref=e90]:
+      - generic [ref=e91]: Created by Town & Country for
+      - link "Explore Asheville Logo" [ref=e92] [cursor=pointer]:
+        - /url: https://www.exploreasheville.com/
+        - img "Explore Asheville Logo" [ref=e94]
+    - main [ref=e95]:
+      - generic [ref=e100]:
+        - navigation "breadcrumbs" [ref=e101]:
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Leisure" [ref=e104] [cursor=pointer]:
+                - /url: /leisure/
+            - listitem [ref=e105]:
+              - text: ">"
+              - link "Travel" [ref=e106] [cursor=pointer]:
+                - /url: /leisure/travel-guide/
+            - text: ">"
+        - 'heading "T&C Travel Guide: 3 Days in Asheville" [level=1] [ref=e107]'
+        - paragraph [ref=e109]: Plus an idea for a fourth-day outing—because you won't want to leave.
+        - generic [ref=e111]:
+          - generic [ref=e112]: By Katie Calautti
+          - time [ref=e113]: "Published: Feb 28, 2024"
+        - toolbar "Quick actions" [ref=e116]:
+          - button "Save Article" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Save Article
+          - generic "Share article" [ref=e124]:
+            - button "Open share options" [ref=e125] [cursor=pointer]:
+              - img "Open share options" [ref=e126]
+      - generic [ref=e128]:
+        - generic [ref=e130]:
+          - img "a stone path with a fence and trees and mountains in the background" [ref=e133]
+          - generic [ref=e134]: Hugo Gutierrez
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - img "Estimated read time" [ref=e137]
+            - generic [ref=e138]: 4 min read
+          - paragraph [ref=e139]:
+            - text: With its alchemy of Southern charm, creative spirit, and natural beauty,
+            - link "Asheville, North Carolina" [ref=e140] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/
+            - text: ", is that rare destination that appeals to every type of traveler. With the stunning Blue Ridge Mountains as its backdrop, the city is replete with Art Deco, Beaux Arts, and Neoclassical historical landmarks; boasts a thriving arts scene and dynamic food culture; and is a short distance from exhilarating outdoor adventures and breathtaking environmental wonders. Its magnetic pull has been distinct since its establishment in the late 1700s—on just about every corner you'll find evidence of great explorers who've passed through the area, among them Daniel Boone and Davy Crockett, as well as visionaries who've called the area home, including George W. Vanderbilt and Thomas Wolfe. Now it's time for you to leave your mark—here's how to spend three days (plus a bonus trip extension) in the heart of Appalachia."
+          - heading "Where to Stay" [level=2] [ref=e141]
+          - paragraph [ref=e142]:
+            - text: If you want to be in the thick of it all, the
+            - link "Windsor Boutique Hotel" [ref=e143] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/the-windsor-boutique-hotel/6148/
+            - text: is walking distance to just about every major city attraction—and its thoughtfully renovated suites are an added perk. Just down the block,
+            - link "Elevation Lofts Hotel" [ref=e144] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/elevation-lofts-hotel/17021/
+            - text: offers a boutique experience in a historic setting, with amenities including gas fireplaces, full kitchens, in-room laundry, and dining areas. Those after a prime location with a bit of history should check into the
+            - link "Kimpton Hotel Arras" [ref=e145] [cursor=pointer]:
+              - /url: https://www.ihg.com/kimptonhotels/hotels/us/en/hotel-arras-asheville-nc/avlpa/hoteldetail?fromRedirect=true&qBrs=6c.hi.ex.sb.ul.ic.cp.cw.in.vn.cv.rs.ki.ma.sp.va.re.vx.nd.sx.we.lx.rn.sn&qSrt=sAV&qDest=Asheville,%20NC,%20United%20States&qRms=1&qAdlt=1&qChld=0&qCiD=15&qCiMy=012024&qCoD=17&qCoMy=012024&qAAR=6CBARC&qRtP=6CBARC&setPMCookies=true&qpMn=0&srb_u=1&qChAge=&qRad=30&qRdU=mi
+            - text: ", a bank-turned-boutique accommodations conveniently located on Patton Avenue in the heart of downtown."
+          - paragraph [ref=e146]:
+            - text: Alternatively, you can literally vacation like a Vanderbilt by booking a beautifully appointed room or private cottage at
+            - link "Biltmore" [ref=e147] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/iconic-asheville/biltmore/
+            - text: ", just southwest of the city center. The French Renaissance castle-home and 8,000-acre estate once belonged to George and Edith Vanderbilt. Within the gated getaway are meticulously kept gardens, wooded trails, dining and shopping experiences, and even the country's most-visited winery."
+          - paragraph [ref=e148]:
+            - text: If getting out of the city is one of your top priorities as a traveler, Asheville has some incredible ways to ensconce yourself in the great outdoors without totally roughing it.
+            - link "Asheville River Cabins" [ref=e149] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/asheville-river-cabins/626/
+            - text: are only 12 miles from downtown, but they feel a world away. You can rent a cabin or luxury trailer with modern amenities (and the French Broad River as your front yard!). If you prefer mountain views over forest scenes, check out
+            - link "AutoCamp" [ref=e150] [cursor=pointer]:
+              - /url: https://autocamp.com/location/asheville/?gad_source=1
+            - text: ", opening in late spring 2024. It boasts incredible vistas from private cabins and decked out travel trailers, less than 20 minutes from the city center."
+          - 'heading "Day 1: Delve Into Downtown" [level=2] [ref=e151]'
+          - generic [ref=e154]:
+            - img "Asheville North Carolina Aerial view at sunset" [ref=e155]
+            - generic [ref=e157]: pawel.gaul//Getty Images
+          - paragraph [ref=e158]
+          - heading "What to See and Do" [level=2] [ref=e159]
+          - paragraph [ref=e160]:
+            - text: A must-see, the
+            - link "Asheville Art Museum" [ref=e161] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/asheville-art-museum/262/
+            - text: is a sprawling reflection of the visual traditions of the Southern Appalachian region. Here, you'll find special exhibitions and permanent collections of 20th- and 21st-century art on display, with the option of
+            - link "guided tours" [ref=e162] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/event-calendar/detail/public-tour%3a-discovering-art-in-asheville/48792/
+            - text: . If you'd like to explore the art-education legacy of Asheville, consider a visit to the
+            - link "Center for Craft" [ref=e163] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/center-for-craft/6705/
+            - text: which has been at the vanguard of the craft movement for over 25 years. For a more offbeat experience, swing by the Radical Hotel's
+            - link "Afterglow" [ref=e164] [cursor=pointer]:
+              - /url: https://www.afterglowavl.com/
+            - text: —an espresso bar by day and club by night—or enjoy a walking tour of a different kind at the historic
+            - link "Riverside Cemetery" [ref=e165] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/riverside-cemetery/6381/
+            - text: . Stick with the spooky theme on a post-dinner ghost tour with
+            - link "Haunted Asheville" [ref=e166] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/haunted-asheville/341/
+            - text: or
+            - link "LaZoom Tours" [ref=e167] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/lazoom-tours/293/
+            - text: .
+          - heading "Where to Eat" [level=2] [ref=e168]
+          - paragraph [ref=e169]:
+            - text: Dine where the locals go—like
+            - link "The Med," [ref=e170] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/the-med/517/
+            - text: a beloved old-school diner, and
+            - link "Cucina24" [ref=e171] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/cucina24/445/
+            - text: ", a cozy brick-oven-adorned space featuring fine Italian-inspired fare. For a twist on soul food, check out"
+            - link "Rosetta's Kitchen" [ref=e172] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/rosettas-kitchen/462/
+            - text: ", a beloved vegetarian and vegan spot that also offers multiple flavors of kombucha (a tasty alternative for the non-alcoholic crowd)."
+          - 'heading "Day 2: Have Some High-End Fun" [level=2] [ref=e173]'
+          - generic [ref=e176]:
+            - img "a plate of food" [ref=e177]
+            - generic [ref=e179]: Jordan Hughes
+          - paragraph [ref=e180]
+          - heading "What to See and Do" [level=2] [ref=e181]
+          - paragraph [ref=e182]:
+            - text: Even if you're not staying on property at Biltmore, you won't want to miss its popular seasonal attraction
+            - link "Biltmore Blooms" [ref=e183] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/event-calendar/detail/biltmore-blooms/49354/
+            - text: ". New flowers crop up weekly, so no one trip is the same: On any given day you might stroll past daffodils, azaleas, tulips, or roses among famed landscape architect Frederick Law Olmsted's picturesque landscapes. After taking in spring's bounty, get all dolled up for a night out at the"
+            - link "Asheville Symphony" [ref=e184] [cursor=pointer]:
+              - /url: https://ashevillesymphony.org/concerts/
+            - text: for one of their beloved
+            - link "Masterworks" [ref=e185] [cursor=pointer]:
+              - /url: https://ashevillesymphony.org/concerts/?category=masterworks
+            - text: concerts or
+            - link "ALT ASO" [ref=e186] [cursor=pointer]:
+              - /url: https://ashevillesymphony.org/concerts/?category=alt-aso
+            - text: productions.
+          - heading "Where to Eat" [level=2] [ref=e187]
+          - paragraph [ref=e188]:
+            - text: There are myriad fine-dining experiences to be had—if you're craving traditional live-fire cooking,
+            - link "Asheville Proper" [ref=e189] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/asheville-proper/16565/
+            - text: "'s steaks and classic cocktails can't be beat. For a critically acclaimed locale, try chef Katie Button's lauded"
+            - link "Cúrate" [ref=e190] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/c%C3%BArate/476/
+            - text: ", which features thoughtfully created Spanish tapas-style plates. Or enjoy a romantic dinner on the patio of"
+            - link "Posana" [ref=e191] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/posana/484/
+            - text: ", which features imaginative seasonal and sustainable culinary creations and an award-winning wine list."
+          - 'heading "Day 3: Get Into Nature" [level=2] [ref=e192]'
+          - generic [ref=e195]:
+            - img "a man standing in a river with trees around him" [ref=e196]
+            - generic [ref=e198]: J Smilanic
+          - heading "What to See and Do" [level=2] [ref=e199]
+          - paragraph [ref=e200]:
+            - text: Hikers will love the jaw-dropping 360-degree mountain views at
+            - link "Craggy Pinnacle Trail" [ref=e201] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/stories/post/craggy-pinnacle-trail/
+            - text: ", while thrill-seekers can get their pulses pumping by ziplining through the treetops of a 242-acre wildlife habitat with"
+            - link "Navitat Canopy Adventures" [ref=e202] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/navitat-canopy-adventures/300/
+            - text: ", or going whitewater rafting with"
+            - link "French Broad Adventures" [ref=e203] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/french-broad-adventures/5/
+            - text: (which also offers hot-springs float trips for the less adrenaline-inclined).
+          - heading "Where to Eat" [level=2] [ref=e204]
+          - paragraph [ref=e205]:
+            - text: Support the community with a visit to
+            - link "Plant" [ref=e206] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/plant/3775/
+            - text: ", where nationally-recognized Chef Jason Sellers serves up an innovative menu of dishes sourced from the earth. If you want to patronize an area maker after a full day of outdoor activities, you can't beat"
+            - link "Asheville Brewing Company" [ref=e207] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/listings/asheville-brewing-company/414/
+            - text: "'s award-winning craft beer and pub food. Or grab some burgers to go from"
+            - link "Baby Bull" [ref=e208] [cursor=pointer]:
+              - /url: https://www.babybullavl.com/
+            - text: —an offshoot of Asheville's iconic Bull & Beggar restaurant—to enjoy at your outdoor oasis.
+          - paragraph [ref=e209]: Extend Your Trip
+          - paragraph [ref=e210]:
+            - text: If you're itching to explore a little further past the city limits, stay an extra day or two and check out
+            - link "Black Mountain" [ref=e211] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/things-to-do/nearby-towns-neighborhoods/black-mountain/
+            - text: ", a cozy town just 25 minutes east, known as a creative hub. Or you could branch out into nearby"
+            - link "Weaverville" [ref=e212] [cursor=pointer]:
+              - /url: https://www.exploreasheville.com/things-to-do/nearby-towns-neighborhoods/weaverville/
+            - text: to shop small businesses on the buzzing Main Street.
+      - generic [ref=e223]: Watch Next
+      - generic [ref=e229]: Advertisement - Continue Reading Below
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - heading "Readers Also Read" [level=2] [ref=e234]: Readers Also Read
+          - generic [ref=e237]:
+            - link "Audrey Hepburn with Son Sean Audrey Hepburn’s Son on the Day He Said Goodbye" [ref=e238] [cursor=pointer]:
+              - /url: /a70644873/intimate-audrey-hepburn-biography-excerpt/
+              - generic [ref=e240]:
+                - img "Audrey Hepburn with Son Sean"
+              - paragraph [ref=e242]:
+                - generic [ref=e243]: Audrey Hepburn’s Son on the Day He Said Goodbye
+            - link "Bosque Ranch Live Musical performance with a band on stage and an audience. Taylor Sheridan Is Hosting a Concert at His Ranch" [ref=e244] [cursor=pointer]:
+              - /url: /a70759005/taylor-sheridan-bosque-ranch-live-concert-2026/
+              - generic [ref=e246]:
+                - img "Bosque Ranch Live Musical performance with a band on stage and an audience."
+              - paragraph [ref=e248]:
+                - generic [ref=e249]: Taylor Sheridan Is Hosting a Concert at His Ranch
+            - link "medical personnel attending to a patient in an emergency room setting Who’s Who in 'The Pitt'" [ref=e250] [cursor=pointer]:
+              - /url: /a64355242/the-pitt-cast-characters-guide/
+              - generic [ref=e252]:
+                - img "medical personnel attending to a patient in an emergency room setting"
+              - paragraph [ref=e254]:
+                - generic [ref=e255]: Who’s Who in 'The Pitt'
+            - link "John John kennedy and his wife Carolyn in New York Best Books About JFK Jr. and CBK" [ref=e256] [cursor=pointer]:
+              - /url: /a70955192/jfk-jr-carolyn-bessette-kennedy-best-books-biographies/
+              - generic [ref=e258]:
+                - img "John John kennedy and his wife Carolyn in New York"
+              - paragraph [ref=e260]:
+                - generic [ref=e261]: Best Books About JFK Jr. and CBK
+        - generic [ref=e265]:
+          - link "Wisconsin v UCLA Meet Basketball Star Lauren Betts’s Parents" [ref=e266] [cursor=pointer]:
+            - /url: /a70886704/who-are-lauren-betts-parents-andy-michelle/
+            - generic [ref=e268]:
+              - img "Wisconsin v UCLA"
+            - paragraph [ref=e270]:
+              - generic [ref=e271]: Meet Basketball Star Lauren Betts’s Parents
+          - link "The Masters - Final Round How Much Do Caddies Make at the Masters?" [ref=e272] [cursor=pointer]:
+            - /url: /a70987232/masters-caddies-salary-details/
+            - generic [ref=e274]:
+              - img "The Masters - Final Round"
+            - paragraph [ref=e276]:
+              - generic [ref=e277]: How Much Do Caddies Make at the Masters?
+          - link "The Masters - Preview Day 3 Meet Cameron Young’s Wife Kelsey Dalition" [ref=e278] [cursor=pointer]:
+            - /url: /a68061451/who-is-kelsey-dalition-cameron-young-wife/
+            - generic [ref=e280]:
+              - img "The Masters - Preview Day 3"
+            - paragraph [ref=e282]:
+              - generic [ref=e283]: Meet Cameron Young’s Wife Kelsey Dalition
+          - link "Wimbledon 2025 - Day Two - All England Lawn Tennis and Croquet Club Meet Justin Rose’s Wife Kate Phillips" [ref=e284] [cursor=pointer]:
+            - /url: /a64460311/who-is-justin-rose-wife-kate-phillips/
+            - generic [ref=e286]:
+              - img "Wimbledon 2025 - Day Two - All England Lawn Tennis and Croquet Club"
+            - paragraph [ref=e288]:
+              - generic [ref=e289]: Meet Justin Rose’s Wife Kate Phillips
+        - generic [ref=e291]:
+          - link "The 149th Open - Day Three Meet Rory McIlroy’s Parents Gerry and Rosie" [ref=e292] [cursor=pointer]:
+            - /url: /a70986558/who-are-rory-mcilroy-parents-gerry-rosie/
+            - generic [ref=e294]:
+              - img "The 149th Open - Day Three"
+            - paragraph [ref=e296]:
+              - generic [ref=e297]: Meet Rory McIlroy’s Parents Gerry and Rosie
+          - link "netflix original movies The 50 Best Netflix Original Movies" [ref=e298] [cursor=pointer]:
+            - /url: /g65846374/best-netflix-original-movies-all-time/
+            - generic [ref=e300]:
+              - img "netflix original movies"
+            - paragraph [ref=e302]:
+              - generic [ref=e303]: The 50 Best Netflix Original Movies
+          - link "group of people in outdoor setting with mountains in the background The Dutton Family Tree Explained" [ref=e304] [cursor=pointer]:
+            - /url: /a41901588/yellowstone-dutton-family-tree/
+            - generic [ref=e306]:
+              - img "group of people in outdoor setting with mountains in the background"
+            - paragraph [ref=e308]:
+              - generic [ref=e309]: The Dutton Family Tree Explained
+          - link "The Masters - Par Three Contest Meet Rory McIlroy’s Wife, Erica Stoll" [ref=e310] [cursor=pointer]:
+            - /url: /a64376921/who-is-rory-mcilroy-wife-erica-stoll/
+            - generic [ref=e312]:
+              - img "The Masters - Par Three Contest"
+            - paragraph [ref=e314]:
+              - generic [ref=e315]: Meet Rory McIlroy’s Wife, Erica Stoll
+        - generic [ref=e317]: Advertisement - Continue Reading Below
+    - contentinfo [ref=e319]:
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - link "Town & Country" [ref=e322] [cursor=pointer]:
+            - /url: /
+            - img "Logo"
+          - generic [ref=e323]:
+            - link "x" [ref=e325] [cursor=pointer]:
+              - /url: https://x.com/TandCmag
+              - img "x" [ref=e326]
+            - link "tiktok" [ref=e328] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@townandcountrymagazine?lang=en
+              - img "tiktok" [ref=e329]
+            - link "youtube" [ref=e331] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/townandcountrymag?sub_confirmation=1
+              - img "youtube" [ref=e332]
+            - link "facebook" [ref=e334] [cursor=pointer]:
+              - /url: https://www.facebook.com/TownandCountryMagazine
+              - img "facebook" [ref=e335]
+            - link "instagram" [ref=e337] [cursor=pointer]:
+              - /url: https://www.instagram.com/townandcountrymag/
+              - img "instagram" [ref=e338]
+            - link "pinterest" [ref=e340] [cursor=pointer]:
+              - /url: https://www.pinterest.com/tandcmag/
+              - img "pinterest" [ref=e341]
+        - navigation "Footer" [ref=e342]:
+          - link "Newsletter" [ref=e343] [cursor=pointer]:
+            - /url: /email/townandcountrymag-newsletter
+          - link "Contact Us" [ref=e344] [cursor=pointer]:
+            - /url: /about/contact-us
+          - link "Subscribe" [ref=e345] [cursor=pointer]:
+            - /url: https://shop.townandcountrymag.com/town-and-country-premium-membership-1.html?cds_tracking_code=tocfooter
+          - link "Advertise Online" [ref=e346] [cursor=pointer]:
+            - /url: /about/a4397/advertise-online
+          - link "About Us" [ref=e347] [cursor=pointer]:
+            - /url: /about/a825/about-us/
+          - link "Press Room" [ref=e348] [cursor=pointer]:
+            - /url: https://www.hearst.com/news
+          - link "Gift Subscription" [ref=e349] [cursor=pointer]:
+            - /url: https://www.townandcountrymag.com/gift-subscriptions/?cds_tracking_code=tocfooter
+          - link "Customer Service" [ref=e350] [cursor=pointer]:
+            - /url: https://service.townandcountrymag.com/login?redirect=%2F
+        - img "Hearst Fashion and Luxury Collection - A Part of Hearst Digital Media" [ref=e351]
+        - paragraph [ref=e352]: A Part of Hearst Digital Media
+        - paragraph [ref=e353]: We may earn commission from links on this page, but we only recommend products we back.
+        - paragraph [ref=e354]: ©2026 Hearst Magazine Media, Inc. All Rights Reserved.
+        - generic [ref=e355]:
+          - link "Privacy Notice" [ref=e356] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+          - link "CA Notice at Collection" [ref=e357] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+          - link "Your CA Privacy Rights/Shine the Light" [ref=e358] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+          - link "DAA Industry Opt Out" [ref=e359] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_OPT_OUTS
+          - link "Terms of Use" [ref=e360] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+          - link "Site Map" [ref=e361] [cursor=pointer]:
+            - /url: /sitemap/
+        - link "do-not-sell-link" [ref=e363] [cursor=pointer]:
+          - /url: javascript:Optanon.ToggleInfoDisplay();
+          - img "Opt-Out Icon" [ref=e364]
+          - text: "Your Privacy Choices: Opt Out of Sale/Targeted Ads"
+  - alert [ref=e365]
+  - 'dialog "Privacy Disclosure: Your privacy matters to us" [ref=e366]':
+    - button "Close Privacy Disclosure" [ref=e367] [cursor=pointer]:
+      - img [ref=e368]
+    - generic [ref=e370]:
+      - text: We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other purposes.
+      - link "Learn more in our Privacy Notice" [ref=e371] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+      - text: . You agree that your use of this website and the Hearst Services is governed by the
+      - link "Terms of Use" [ref=e372] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+      - text: (including
+      - link "the dispute resolution procedures" [ref=e373] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use#_DISPUTE_RESOLUTION
+      - text: ).

@@ -1,0 +1,995 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Global Navigation" [ref=e3]:
+      - link "Lonely Planet homepage" [ref=e5] [cursor=pointer]:
+        - /url: https://www.lonelyplanet.com
+        - generic [ref=e6]: Lonely Planet
+        - img [ref=e7]
+      - generic [ref=e22]:
+        - link "Destinations" [ref=e23] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/destinations
+        - link "Books" [ref=e24] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/?utm_source=lonelyplanet&utm_campaign=navigation&utm_content=homepage
+        - link "Trips" [ref=e25] [cursor=pointer]:
+          - /url: /journeys
+        - link "Inspiration" [ref=e26] [cursor=pointer]:
+          - /url: https://www.lonelyplanet.com/articles
+        - button "Search" [ref=e29]:
+          - link "Search" [ref=e30] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e31]
+            - generic [ref=e33]: Search
+      - generic [ref=e34]:
+        - link "Cart" [ref=e35] [cursor=pointer]:
+          - /url: https://shop.lonelyplanet.com/cart?utm_source=lonelyplanet&utm_campaign=lpcart
+          - img [ref=e36]
+          - text: Cart
+        - link "Sign in" [ref=e42] [cursor=pointer]:
+          - /url: /api/auth/login?returnTo=%2Fbest-in-travel
+          - text: Sign In
+  - main [ref=e43]:
+    - banner "Featured promotional content" [ref=e44]:
+      - 'img "Opener image credits: Simeon/Getty Images; Romain Philippon; Lauryn Ishak for Lonely Planet"'
+      - paragraph [ref=e46]: "Opener image credits: Simeon/Getty Images; Romain Philippon; Lauryn Ishak for Lonely Planet"
+      - generic:
+        - generic:
+          - generic: Welcome to Lonely Planet's
+          - generic:
+            - text: Best in Travel
+            - generic: "2026"
+          - generic [ref=e48]:
+            - generic [ref=e49]: Sponsored by
+            - generic [ref=e52]: Holafly
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - img "Lauryn Ishak for Lonely Planet" [ref=e57]
+          - link "Explore" [ref=e58] [cursor=pointer]:
+            - /url: https://www.lonelyplanet.com/best-in-travel#block-the-25-best-destinations-in-2026
+            - generic [ref=e59]:
+              - generic [ref=e60]: Explore
+              - img [ref=e61]
+            - generic [ref=e64]: 25 Amazing Destinations
+        - generic [ref=e66]:
+          - img "Romain Philippon" [ref=e67]
+          - link "Explore" [ref=e68] [cursor=pointer]:
+            - /url: https://www.lonelyplanet.com/best-in-travel#block-the-25-best-experiences-in-2026
+            - generic [ref=e69]:
+              - generic [ref=e70]: Explore
+              - img [ref=e71]
+            - generic [ref=e74]: 25 Unbelievable Experiences
+      - img "Simeon/Getty Images"
+    - generic [ref=e75]:
+      - region [ref=e76]:
+        - generic [ref=e79]:
+          - heading "Places to go in 2026" [level=2] [ref=e80]
+          - paragraph [ref=e82]: Welcome to Lonely Planet’s Best in Travel, your guide to the world’s most inspiring journeys for the year ahead. Our team of travel experts have selected 25 must-visit destinations and 25 unforgettable experiences. And this year, you can book trips inspired by the list. Now go!
+      - navigation "Page navigation" [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: The 25 Best Destinations
+          - generic [ref=e88]:
+            - link "Destinations" [ref=e89] [cursor=pointer]:
+              - /url: "#block-the-25-best-destinations-in-2026"
+            - link "Experiences" [ref=e90] [cursor=pointer]:
+              - /url: "#block-the-25-best-experiences-in-2026"
+            - link "Book a Trip" [ref=e91] [cursor=pointer]:
+              - /url: "#block-meet-lonely-planet-journeys"
+            - button "Scroll back to top of page" [ref=e92] [cursor=pointer]: Back to top
+      - region "The 25 Best Destinations in 2026" [ref=e93]:
+        - feed "Bento grid content" [ref=e94]:
+          - generic [ref=e95]:
+            - heading "The 25 Best Destinations in 2026" [level=2] [ref=e96]
+            - paragraph [ref=e97]: These are the cities, islands and countries you absolutely must see to believe.
+          - button "Maine" [ref=e99] [cursor=pointer]:
+            - generic [ref=e101]:
+              - iframe [ref=e105]:
+                - 'application "Video Player - BEST IN TRAVEL 2026: MAINE" [ref=f205e2]'
+              - generic [ref=e107]:
+                - generic [ref=e108]: BOOKABLE WITH
+                - img [ref=e109]
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: USA
+                - heading "Maine" [level=3] [ref=e137]
+          - button "Réunion" [ref=e139] [cursor=pointer]:
+            - generic [ref=e141]:
+              - img "Romain Philippon" [ref=e142]
+              - generic [ref=e145]:
+                - paragraph [ref=e146]: Africa
+                - heading "Réunion" [level=3] [ref=e147]
+          - button "Peru" [ref=e149] [cursor=pointer]:
+            - generic [ref=e151]:
+              - iframe [ref=e155]:
+                - 'application "Video Player - BEST IN TRAVEL 2026: PERU" [ref=f206e2]'
+              - generic [ref=e157]:
+                - generic [ref=e158]: BOOKABLE WITH
+                - img [ref=e159]
+              - generic [ref=e185]:
+                - paragraph [ref=e186]: South America
+                - heading "Peru" [level=3] [ref=e187]
+          - button "Jaffna" [ref=e189] [cursor=pointer]:
+            - generic [ref=e191]:
+              - img "Jonathan Stokes for Lonely Planet" [ref=e192]
+              - generic [ref=e194]:
+                - generic [ref=e195]: BOOKABLE WITH
+                - img [ref=e196]
+              - generic [ref=e222]:
+                - paragraph [ref=e223]: Sri Lanka
+                - heading "Jaffna" [level=3] [ref=e224]
+          - button "Finland" [ref=e226] [cursor=pointer]:
+            - generic [ref=e228]:
+              - img "BlueOrange Studio/Shutterstock" [ref=e229]
+              - generic [ref=e231]:
+                - generic [ref=e232]: BOOKABLE WITH
+                - img [ref=e233]
+              - generic [ref=e259]:
+                - paragraph [ref=e260]: Europe
+                - heading "Finland" [level=3] [ref=e261]
+          - button "Cádiz" [ref=e263] [cursor=pointer]:
+            - generic [ref=e265]:
+              - iframe [ref=e269]
+              - generic [ref=e271]:
+                - generic [ref=e272]: BOOKABLE WITH
+                - img [ref=e273]
+              - generic [ref=e299]:
+                - paragraph [ref=e300]: Spain
+                - heading "Cádiz" [level=3] [ref=e301]
+          - article "ESIM TRAVEL HACK" [ref=e303]:
+            - link "Spectacular happy caucasian girl with short hair wearing blue shirt with backpack is holding smartphone and looking aside on city background in warm day. Sponsored by Holafly ESIM TRAVEL HACK Holafly eSIM gets you unlimited data with no extra fees in all our Best in Travel destinations. Use code LONELYPLANET for an exclusive discount. Learn more" [ref=e304] [cursor=pointer]:
+              - /url: https://holafly.sjv.io/zxoG4m
+              - generic [ref=e305]:
+                - img "Spectacular happy caucasian girl with short hair wearing blue shirt with backpack is holding smartphone and looking aside on city background in warm day." [ref=e307]
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Sponsored by
+                    - generic [ref=e313]: Holafly
+                  - heading "ESIM TRAVEL HACK" [level=3] [ref=e314]
+                  - paragraph [ref=e315]: Holafly eSIM gets you unlimited data with no extra fees in all our Best in Travel destinations. Use code LONELYPLANET for an exclusive discount.
+                  - paragraph [ref=e316]:
+                    - text: Learn more
+                    - img [ref=e317]
+          - button "Botswana" [ref=e320] [cursor=pointer]:
+            - generic [ref=e322]:
+              - iframe [ref=e326]
+              - generic [ref=e328]:
+                - generic [ref=e329]: BOOKABLE WITH
+                - img [ref=e330]
+              - generic [ref=e356]:
+                - paragraph [ref=e357]: Africa
+                - heading "Botswana" [level=3] [ref=e358]
+          - button "Tipperary" [ref=e360] [cursor=pointer]:
+            - generic [ref=e362]:
+              - img "Tipperary Tourism" [ref=e363]
+              - generic [ref=e365]:
+                - generic [ref=e366]: BOOKABLE WITH
+                - img [ref=e367]
+              - generic [ref=e393]:
+                - paragraph [ref=e394]: Ireland
+                - heading "Tipperary" [level=3] [ref=e395]
+          - button "Cartagena" [ref=e397] [cursor=pointer]:
+            - generic [ref=e399]:
+              - iframe [ref=e403]
+              - generic [ref=e405]:
+                - generic [ref=e406]: BOOKABLE WITH
+                - img [ref=e407]
+              - generic [ref=e433]:
+                - paragraph [ref=e434]: Colombia
+                - heading "Cartagena" [level=3] [ref=e435]
+          - button "Quetzaltenango (Xela)" [ref=e437] [cursor=pointer]:
+            - generic [ref=e439]:
+              - img "Fabrezio Cortesi/Alamy" [ref=e440]
+              - generic [ref=e443]:
+                - paragraph [ref=e444]: Guatemala
+                - heading "Quetzaltenango (Xela)" [level=3] [ref=e445]
+          - button "Liberdade, São Paulo" [ref=e447] [cursor=pointer]:
+            - generic [ref=e449]:
+              - img "Manuela Lourenço for Lonely Planet" [ref=e450]
+              - generic [ref=e453]:
+                - paragraph [ref=e454]: Brazil
+                - heading "Liberdade, São Paulo" [level=3] [ref=e455]
+          - article "Better in print" [ref=e457]:
+            - link "Best in Travel 2026 Book Cover Better in print Add this lovely tome to your bookshelf or coffee table – you'll be reaching for it again and again all year long. Get it before it sells out! Get your copy" [ref=e458] [cursor=pointer]:
+              - /url: https://shop.lonelyplanet.com/products/lonely-planets-best-in-travel-2026?utm_source=lonelyplanet&utm_campaign=bit2026
+              - generic [ref=e459]:
+                - img "Best in Travel 2026 Book Cover" [ref=e461]
+                - generic [ref=e462]:
+                  - heading "Better in print" [level=3] [ref=e463]
+                  - paragraph [ref=e464]: Add this lovely tome to your bookshelf or coffee table – you'll be reaching for it again and again all year long. Get it before it sells out!
+                  - paragraph [ref=e465]:
+                    - text: Get your copy
+                    - img [ref=e466]
+          - button "Mexico City" [ref=e469] [cursor=pointer]:
+            - generic [ref=e471]:
+              - iframe [ref=e475]
+              - generic [ref=e477]:
+                - generic [ref=e478]: BOOKABLE WITH
+                - img [ref=e479]
+              - generic [ref=e505]:
+                - paragraph [ref=e506]: Mexico
+                - heading "Mexico City" [level=3] [ref=e507]
+          - button "British Columbia" [ref=e509] [cursor=pointer]:
+            - generic [ref=e511]:
+              - iframe [ref=e515]
+              - generic [ref=e517]:
+                - generic [ref=e518]: BOOKABLE WITH
+                - img [ref=e519]
+              - generic [ref=e545]:
+                - paragraph [ref=e546]: Canada
+                - heading "British Columbia" [level=3] [ref=e547]
+          - button "Utrecht" [ref=e549] [cursor=pointer]:
+            - generic [ref=e551]:
+              - img "Samira Kafala for Lonely Planet" [ref=e552]
+              - generic [ref=e555]:
+                - paragraph [ref=e556]: Netherlands
+                - heading "Utrecht" [level=3] [ref=e557]
+          - button "Barbados" [ref=e559] [cursor=pointer]:
+            - generic [ref=e561]:
+              - img "Kyle Babb/Lonely Planet" [ref=e562]
+              - generic [ref=e565]:
+                - paragraph [ref=e566]: Caribbean
+                - heading "Barbados" [level=3] [ref=e567]
+          - button "Theodore Roosevelt National Park" [ref=e569] [cursor=pointer]:
+            - generic [ref=e571]:
+              - img "Laurens Hoddenbagh/Shutterstock" [ref=e572]
+              - generic [ref=e575]:
+                - paragraph [ref=e576]: North Dakota, USA
+                - heading "Theodore Roosevelt National Park" [level=3] [ref=e577]
+          - button "Sardinia" [ref=e579] [cursor=pointer]:
+            - generic [ref=e581]:
+              - iframe [ref=e585]
+              - generic [ref=e587]:
+                - generic [ref=e588]: BOOKABLE WITH
+                - img [ref=e589]
+              - generic [ref=e615]:
+                - paragraph [ref=e616]: Italy
+                - heading "Sardinia" [level=3] [ref=e617]
+          - article "TRAVEL WITH US" [ref=e619]:
+            - link "Rútshellir Cave, one of the largest man made caves in Iceland LONELY PLANET JOURNEYS TRAVEL WITH US Book the best in travel. Explore our 70+ destinations worldwide and let our planners craft your dream trip. Start plannning" [ref=e620] [cursor=pointer]:
+              - /url: https://request.elsewhere.io/?destination=vietnam&utm_source=lonelyplanet&utm_medium=landingpage&utm_campaign=promo_destinations&utm_content=vietnam
+              - generic [ref=e621]:
+                - img "Rútshellir Cave, one of the largest man made caves in Iceland" [ref=e623]
+                - generic [ref=e624]:
+                  - paragraph [ref=e625]: LONELY PLANET JOURNEYS
+                  - heading "TRAVEL WITH US" [level=3] [ref=e626]
+                  - paragraph [ref=e627]: Book the best in travel. Explore our 70+ destinations worldwide and let our planners craft your dream trip.
+                  - paragraph [ref=e628]:
+                    - text: Start plannning
+                    - img [ref=e629]
+          - button "Jeju-do" [ref=e632] [cursor=pointer]:
+            - generic [ref=e634]:
+              - iframe [ref=e638]
+              - generic [ref=e640]:
+                - generic [ref=e641]: BOOKABLE WITH
+                - img [ref=e642]
+              - generic [ref=e668]:
+                - paragraph [ref=e669]: South Korea
+                - heading "Jeju-do" [level=3] [ref=e670]
+          - button "Quy Nhon" [ref=e672] [cursor=pointer]:
+            - generic [ref=e674]:
+              - img "Hien Phung Thu/Shutterstock" [ref=e675]
+              - generic [ref=e678]:
+                - paragraph [ref=e679]: Vietnam
+                - heading "Quy Nhon" [level=3] [ref=e680]
+          - button "North Island" [ref=e682] [cursor=pointer]:
+            - generic [ref=e684]:
+              - iframe [ref=e688]
+              - generic [ref=e690]:
+                - generic [ref=e691]: BOOKABLE WITH
+                - img [ref=e692]
+              - generic [ref=e718]:
+                - paragraph [ref=e719]: New Zealand/Aotearoa
+                - heading "North Island" [level=3] [ref=e720]
+          - button "Siem Reap" [ref=e722] [cursor=pointer]:
+            - generic [ref=e724]:
+              - img "Mark Read/Lonely Planet" [ref=e725]
+              - generic [ref=e728]:
+                - paragraph [ref=e729]: Cambodia
+                - heading "Siem Reap" [level=3] [ref=e730]
+          - button "Phuket" [ref=e732] [cursor=pointer]:
+            - generic [ref=e734]:
+              - img "Lauryn Ishak for Lonely Planet" [ref=e735]
+              - generic [ref=e737]:
+                - generic [ref=e738]: BOOKABLE WITH
+                - img [ref=e739]
+              - generic [ref=e765]:
+                - paragraph [ref=e766]: Thailand
+                - heading "Phuket" [level=3] [ref=e767]
+          - button "Ikara–Flinders Ranges National Park and Outback" [ref=e769] [cursor=pointer]:
+            - generic [ref=e771]:
+              - img "Southern Lightscapes-Australia/Getty Images" [ref=e772]
+              - generic [ref=e775]:
+                - paragraph [ref=e776]: South Australia
+                - heading "Ikara–Flinders Ranges National Park and Outback" [level=3] [ref=e777]
+          - button "Tunisia" [ref=e779] [cursor=pointer]:
+            - generic [ref=e781]:
+              - img "Severine Sajous" [ref=e782]
+              - generic [ref=e785]:
+                - paragraph [ref=e786]: Africa
+                - heading "Tunisia" [level=3] [ref=e787]
+          - button "Solomon Islands" [ref=e789] [cursor=pointer]:
+            - generic [ref=e791]:
+              - img "Sam Lawrence Photography/Shutterstock" [ref=e792]
+              - generic [ref=e795]:
+                - paragraph [ref=e796]: Oceania
+                - heading "Solomon Islands" [level=3] [ref=e797]
+      - generic [ref=e799]:
+        - generic [ref=e800]:
+          - generic [ref=e801]:
+            - heading "Meet Lonely Planet Journeys" [level=2] [ref=e802]
+            - paragraph [ref=e803]: Ready to take the trip you’ve always dreamed of? Check out our favorite bookable trips inspired by the winners of Lonely Planet’s Best in Travel 2026.
+          - generic [ref=e804]:
+            - link "View all" [ref=e805] [cursor=pointer]:
+              - /url: /journeys/itineraries
+            - generic [ref=e806]:
+              - button "Previous slide" [disabled] [ref=e807]:
+                - img [ref=e808]
+              - button "Next slide" [ref=e810]:
+                - img [ref=e811]
+        - list [ref=e813]:
+          - listitem [ref=e814]:
+            - 'article "Japan’s Golden Route: Tokyo, Kanazawa, Kyoto, and Fuji in 14 Days" [ref=e815]':
+              - 'img "Japan’s Golden Route: Tokyo, Kanazawa, Kyoto, and Fuji in 14 Days" [ref=e817]'
+              - generic [ref=e818]:
+                - generic [ref=e819]: 14 days / 13 nights
+                - 'link "Japan’s Golden Route: Tokyo, Kanazawa, Kyoto, and Fuji in 14 Days" [ref=e820] [cursor=pointer]':
+                  - /url: /journeys/itineraries/cdbaeb7a-f73c-455a-9096-845858b6eae2
+                  - 'heading "Japan’s Golden Route: Tokyo, Kanazawa, Kyoto, and Fuji in 14 Days" [level=3] [ref=e821]'
+                - generic [ref=e822]:
+                  - generic [ref=e823] [cursor=pointer]: Book Now
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: from $6,820
+                    - generic [ref=e826]: per person
+          - listitem [ref=e827]:
+            - 'article "Mexico City: A Week of Cultural and Culinary Marvels" [ref=e828]':
+              - 'img "Mexico City: A Week of Cultural and Culinary Marvels" [ref=e830]'
+              - generic [ref=e831]:
+                - generic [ref=e832]: 7 days / 6 nights
+                - 'link "Mexico City: A Week of Cultural and Culinary Marvels" [ref=e833] [cursor=pointer]':
+                  - /url: /journeys/itineraries/9f45781c-0974-4ad5-bf35-53f75a0a3dda
+                  - 'heading "Mexico City: A Week of Cultural and Culinary Marvels" [level=3] [ref=e834]'
+                - generic [ref=e835]:
+                  - generic [ref=e836] [cursor=pointer]: Book Now
+                  - generic [ref=e837]:
+                    - generic [ref=e838]: from $2,415
+                    - generic [ref=e839]: per person
+          - listitem [ref=e840]:
+            - 'article "New Zealand''s North Island: 11 Days in Auckland and Rotorua" [ref=e841]':
+              - 'img "New Zealand''s North Island: 11 Days in Auckland and Rotorua" [ref=e843]'
+              - generic [ref=e844]:
+                - generic [ref=e845]: 11 days / 10 nights
+                - 'link "New Zealand''s North Island: 11 Days in Auckland and Rotorua" [ref=e846] [cursor=pointer]':
+                  - /url: /journeys/itineraries/e16e2165-87a4-46c5-88a4-566c452df8e0
+                  - 'heading "New Zealand''s North Island: 11 Days in Auckland and Rotorua" [level=3] [ref=e847]'
+                - generic [ref=e848]:
+                  - generic [ref=e849] [cursor=pointer]: Book Now
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: from $6,500
+                    - generic [ref=e852]: per person
+          - listitem [ref=e853]:
+            - 'article "Portugal’s Azores: 9 Days of Whale Watching, Nature, and Culture" [ref=e854]':
+              - 'img "Portugal’s Azores: 9 Days of Whale Watching, Nature, and Culture" [ref=e856]'
+              - generic [ref=e857]:
+                - generic [ref=e858]: 9 days / 8 nights
+                - 'link "Portugal’s Azores: 9 Days of Whale Watching, Nature, and Culture" [ref=e859] [cursor=pointer]':
+                  - /url: /journeys/itineraries/60becbc9-b59f-4ff3-8c50-bb4c6004e1be
+                  - 'heading "Portugal’s Azores: 9 Days of Whale Watching, Nature, and Culture" [level=3] [ref=e860]'
+                - generic [ref=e861]:
+                  - generic [ref=e862] [cursor=pointer]: Book Now
+                  - generic [ref=e863]:
+                    - generic [ref=e864]: from $2,880
+                    - generic [ref=e865]: per person
+          - listitem [ref=e866]:
+            - 'article "The Mighty Mekong Delta: Vietnam’s Floating Markets and Historic River Villages" [ref=e867]':
+              - 'img "The Mighty Mekong Delta: Vietnam’s Floating Markets and Historic River Villages" [ref=e869]'
+              - generic [ref=e870]:
+                - generic [ref=e871]: 9 days / 8 nights
+                - 'link "The Mighty Mekong Delta: Vietnam’s Floating Markets and Historic River Villages" [ref=e872] [cursor=pointer]':
+                  - /url: /journeys/itineraries/1bda1764-79c0-486e-a208-41f2b63733fb
+                  - 'heading "The Mighty Mekong Delta: Vietnam’s Floating Markets and Historic River Villages" [level=3] [ref=e873]'
+                - generic [ref=e874]:
+                  - generic [ref=e875] [cursor=pointer]: Book Now
+                  - generic [ref=e876]:
+                    - generic [ref=e877]: from $2,853
+                    - generic [ref=e878]: per person
+          - listitem [ref=e879]:
+            - 'article "Icons of Southern Ireland: 12 Days in Dublin, Kinsale, Cork, and Tipperary" [ref=e880]':
+              - 'img "Icons of Southern Ireland: 12 Days in Dublin, Kinsale, Cork, and Tipperary" [ref=e882]'
+              - generic [ref=e883]:
+                - generic [ref=e884]: 12 days / 11 nights
+                - 'link "Icons of Southern Ireland: 12 Days in Dublin, Kinsale, Cork, and Tipperary" [ref=e885] [cursor=pointer]':
+                  - /url: /journeys/itineraries/b0d71da7-a22b-4e85-b0e3-56e9ce8a7bff
+                  - 'heading "Icons of Southern Ireland: 12 Days in Dublin, Kinsale, Cork, and Tipperary" [level=3] [ref=e886]'
+                - generic [ref=e887]:
+                  - generic [ref=e888] [cursor=pointer]: Book Now
+                  - generic [ref=e889]:
+                    - generic [ref=e890]: from $5,700
+                    - generic [ref=e891]: per person
+          - listitem [ref=e892]:
+            - 'article "Peru Uncovered: A Journey from Coast to Andes" [ref=e893]':
+              - 'img "Peru Uncovered: A Journey from Coast to Andes" [ref=e895]'
+              - generic [ref=e896]:
+                - generic [ref=e897]: 14 days / 13 nights
+                - 'link "Peru Uncovered: A Journey from Coast to Andes" [ref=e898] [cursor=pointer]':
+                  - /url: /journeys/itineraries/a46e7520-7791-40c0-a2a5-389a7c3d757c
+                  - 'heading "Peru Uncovered: A Journey from Coast to Andes" [level=3] [ref=e899]'
+                - generic [ref=e900]:
+                  - generic [ref=e901] [cursor=pointer]: Book Now
+                  - generic [ref=e902]:
+                    - generic [ref=e903]: from $4,895
+                    - generic [ref=e904]: per person
+          - listitem [ref=e905]:
+            - 'article "Málaga, Seville, and the Costa de la Luz: 11 Days in Southern Spain''s Andalusia" [ref=e906]':
+              - 'img "Málaga, Seville, and the Costa de la Luz: 11 Days in Southern Spain''s Andalusia" [ref=e908]'
+              - generic [ref=e909]:
+                - generic [ref=e910]: 11 days / 10 nights
+                - 'link "Málaga, Seville, and the Costa de la Luz: 11 Days in Southern Spain''s Andalusia" [ref=e911] [cursor=pointer]':
+                  - /url: /journeys/itineraries/2032898f-4647-4ea7-b126-855bc5a4ebb9
+                  - 'heading "Málaga, Seville, and the Costa de la Luz: 11 Days in Southern Spain''s Andalusia" [level=3] [ref=e912]'
+                - generic [ref=e913]:
+                  - generic [ref=e914] [cursor=pointer]: Book Now
+                  - generic [ref=e915]:
+                    - generic [ref=e916]: from $3,850
+                    - generic [ref=e917]: per person
+          - listitem [ref=e918]:
+            - 'article "Adventures in Paradise: Southern Thailand''s Island Oases" [ref=e919]':
+              - 'img "Adventures in Paradise: Southern Thailand''s Island Oases" [ref=e921]'
+              - generic [ref=e922]:
+                - generic [ref=e923]: 10 days / 9 nights
+                - 'link "Adventures in Paradise: Southern Thailand''s Island Oases" [ref=e924] [cursor=pointer]':
+                  - /url: /journeys/itineraries/f482566b-afb6-42f9-9296-bb9d79fc2068
+                  - 'heading "Adventures in Paradise: Southern Thailand''s Island Oases" [level=3] [ref=e925]'
+                - generic [ref=e926]:
+                  - generic [ref=e927] [cursor=pointer]: Book Now
+                  - generic [ref=e928]:
+                    - generic [ref=e929]: from $2,800
+                    - generic [ref=e930]: per person
+          - listitem [ref=e931]:
+            - 'article "Finding Your True North in Finland: An Arctic Expedition" [ref=e932]':
+              - 'img "Finding Your True North in Finland: An Arctic Expedition" [ref=e934]'
+              - generic [ref=e935]:
+                - generic [ref=e936]: 10 days / 9 nights
+                - 'link "Finding Your True North in Finland: An Arctic Expedition" [ref=e937] [cursor=pointer]':
+                  - /url: /journeys/itineraries/64c7ffd8-dfe6-41b5-8b43-975a919f03b2
+                  - 'heading "Finding Your True North in Finland: An Arctic Expedition" [level=3] [ref=e938]'
+                - generic [ref=e939]:
+                  - generic [ref=e940] [cursor=pointer]: Book Now
+                  - generic [ref=e941]:
+                    - generic [ref=e942]: from $5,900
+                    - generic [ref=e943]: per person
+          - listitem [ref=e944]:
+            - 'article "Sardinia''s Spectacular Serenade: 10 Days on the Italian Island" [ref=e945]':
+              - 'img "Sardinia''s Spectacular Serenade: 10 Days on the Italian Island" [ref=e947]'
+              - generic [ref=e948]:
+                - generic [ref=e949]: 10 days / 9 nights
+                - 'link "Sardinia''s Spectacular Serenade: 10 Days on the Italian Island" [ref=e950] [cursor=pointer]':
+                  - /url: /journeys/itineraries/ef5bd364-0403-4024-a103-f25bbaf58621
+                  - 'heading "Sardinia''s Spectacular Serenade: 10 Days on the Italian Island" [level=3] [ref=e951]'
+                - generic [ref=e952]:
+                  - generic [ref=e953] [cursor=pointer]: Book Now
+                  - generic [ref=e954]:
+                    - generic [ref=e955]: from $4,500
+                    - generic [ref=e956]: per person
+          - listitem [ref=e957]:
+            - 'article "The Secrets of Colombia’s Amazon, Medellín, and Cartagena: Epic Rainforest and City Adventures" [ref=e958]':
+              - 'img "The Secrets of Colombia’s Amazon, Medellín, and Cartagena: Epic Rainforest and City Adventures" [ref=e960]'
+              - generic [ref=e961]:
+                - generic [ref=e962]: 11 days / 10 nights
+                - 'link "The Secrets of Colombia’s Amazon, Medellín, and Cartagena: Epic Rainforest and City Adventures" [ref=e963] [cursor=pointer]':
+                  - /url: /journeys/itineraries/1b5801bd-3835-424e-9fb7-4e4f8b1b87b8
+                  - 'heading "The Secrets of Colombia’s Amazon, Medellín, and Cartagena: Epic Rainforest and City Adventures" [level=3] [ref=e964]'
+                - generic [ref=e965]:
+                  - generic [ref=e966] [cursor=pointer]: Book Now
+                  - generic [ref=e967]:
+                    - generic [ref=e968]: from $4,560
+                    - generic [ref=e969]: per person
+          - listitem [ref=e970]:
+            - 'article "Banksy’s Bristol, Cornwall’s Villages, and Coastal Britain: 12 Days in Southwest England" [ref=e971]':
+              - 'img "Banksy’s Bristol, Cornwall’s Villages, and Coastal Britain: 12 Days in Southwest England" [ref=e973]'
+              - generic [ref=e974]:
+                - generic [ref=e975]: 12 days / 11 nights
+                - 'link "Banksy’s Bristol, Cornwall’s Villages, and Coastal Britain: 12 Days in Southwest England" [ref=e976] [cursor=pointer]':
+                  - /url: /journeys/itineraries/5561d984-1a4a-4531-a584-41ccff44e6f8
+                  - 'heading "Banksy’s Bristol, Cornwall’s Villages, and Coastal Britain: 12 Days in Southwest England" [level=3] [ref=e977]'
+                - generic [ref=e978]:
+                  - generic [ref=e979] [cursor=pointer]: Book Now
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: from $5,600
+                    - generic [ref=e982]: per person
+      - navigation "Page navigation" [ref=e984]:
+        - generic [ref=e985]:
+          - generic [ref=e986]: The 25 Best Experiences
+          - generic [ref=e987]:
+            - link "Destinations" [ref=e988] [cursor=pointer]:
+              - /url: "#block-the-25-best-destinations-in-2026"
+            - link "Experiences" [ref=e989] [cursor=pointer]:
+              - /url: "#block-the-25-best-experiences-in-2026"
+            - link "Book a Trip" [ref=e990] [cursor=pointer]:
+              - /url: "#block-meet-lonely-planet-journeys"
+            - button "Scroll back to top of page" [ref=e991] [cursor=pointer]: Back to top
+      - region "The 25 Best Destinations in 2026" [ref=e992]:
+        - feed "Bento grid content" [ref=e993]:
+          - generic [ref=e994]:
+            - heading "The 25 Best Experiences in 2026" [level=2] [ref=e995]
+            - paragraph [ref=e996]: Overland or underwater or right by a volcano, these are the things you must do before the year is out.
+          - button "Peru" [ref=e998] [cursor=pointer]:
+            - generic [ref=e1000]:
+              - iframe [ref=e1004]
+              - generic [ref=e1007]:
+                - paragraph [ref=e1008]: South Africa
+                - heading "Stay in a train carriage at Kruger National Park" [level=3] [ref=e1009]
+          - button "Maine" [ref=e1011] [cursor=pointer]:
+            - generic [ref=e1013]:
+              - img "Raleigh Gambino" [ref=e1014]
+              - generic [ref=e1017]:
+                - paragraph [ref=e1018]: Grand Canyon, USA
+                - heading "Raft the Colorado River" [level=3] [ref=e1019]
+          - button "Jaffna" [ref=e1021] [cursor=pointer]:
+            - generic [ref=e1023]:
+              - img "Kara Santos" [ref=e1024]
+              - generic [ref=e1027]:
+                - paragraph [ref=e1028]: Batanes Islands, Philippines
+                - heading "See the sights by bike" [level=3] [ref=e1029]
+          - button "Barbados" [ref=e1031] [cursor=pointer]:
+            - generic [ref=e1033]:
+              - iframe [ref=e1037]
+              - generic [ref=e1039]:
+                - generic [ref=e1040]: BOOKABLE WITH
+                - img [ref=e1041]
+              - generic [ref=e1067]:
+                - paragraph [ref=e1068]: Japan
+                - heading "Spend the night in a ryokan" [level=3] [ref=e1069]
+          - article "ESIM TRAVEL HACK" [ref=e1071]:
+            - link "Spectacular happy caucasian girl with short hair wearing blue shirt with backpack is holding smartphone and looking aside on city background in warm day. Sponsored by Holafly ESIM TRAVEL HACK Holafly eSIM gets you unlimited data with no extra fees in all our Best in Travel destinations. Use code LONELYPLANET for an exclusive discount. Learn more" [ref=e1072] [cursor=pointer]:
+              - /url: https://holafly.sjv.io/zxoG4m
+              - generic [ref=e1073]:
+                - img "Spectacular happy caucasian girl with short hair wearing blue shirt with backpack is holding smartphone and looking aside on city background in warm day." [ref=e1075]
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]:
+                    - generic [ref=e1078]: Sponsored by
+                    - generic [ref=e1081]: Holafly
+                  - heading "ESIM TRAVEL HACK" [level=3] [ref=e1082]
+                  - paragraph [ref=e1083]: Holafly eSIM gets you unlimited data with no extra fees in all our Best in Travel destinations. Use code LONELYPLANET for an exclusive discount.
+                  - paragraph [ref=e1084]:
+                    - text: Learn more
+                    - img [ref=e1085]
+          - button "British Columbia" [ref=e1088] [cursor=pointer]:
+            - generic [ref=e1090]:
+              - iframe [ref=e1094]
+              - generic [ref=e1096]:
+                - generic [ref=e1097]: BOOKABLE WITH
+                - img [ref=e1098]
+              - generic [ref=e1124]:
+                - paragraph [ref=e1125]: Vietnam and Cambodia
+                - heading "Cruise the Mekong River" [level=3] [ref=e1126]
+          - button "Réunion" [ref=e1128] [cursor=pointer]:
+            - generic [ref=e1130]:
+              - img "BIT 2026 Become a citizen scientist in the Amazon Inkaterra" [ref=e1131]
+              - generic [ref=e1134]:
+                - paragraph [ref=e1135]: The Amazon, Peru
+                - heading "Become a citizen scientist" [level=3] [ref=e1136]
+          - button "Finland" [ref=e1138] [cursor=pointer]:
+            - generic [ref=e1140]:
+              - img "Matthew Figg / Shutterstock" [ref=e1141]
+              - generic [ref=e1144]:
+                - paragraph [ref=e1145]: England
+                - heading "Attend a Premier League game" [level=3] [ref=e1146]
+          - button "Ikara–Flinders Ranges National Park and Outback" [ref=e1148] [cursor=pointer]:
+            - generic [ref=e1150]:
+              - iframe [ref=e1154]
+              - generic [ref=e1156]:
+                - generic [ref=e1157]: BOOKABLE WITH
+                - img [ref=e1158]
+              - generic [ref=e1184]:
+                - paragraph [ref=e1185]: Kerala, India
+                - heading "Dig in to Kerala's culinary culture" [level=3] [ref=e1186]
+          - article "Better in print" [ref=e1188]:
+            - link "Nevis, Caribbean. July 2025 Golden Rock Inn, Nevis LONELY PLANET JOURNEYS TRAVEL WITH US Book the best in travel. Explore our 70+ destinations worldwide and let our planners craft your dream trip. Start plannning" [ref=e1189] [cursor=pointer]:
+              - /url: https://request.elsewhere.io/?destination=vietnam&utm_source=lonelyplanet&utm_medium=landingpage&utm_campaign=promo_destinations&utm_content=vietnam
+              - generic [ref=e1190]:
+                - img "Nevis, Caribbean. July 2025 Golden Rock Inn, Nevis" [ref=e1192]
+                - generic [ref=e1193]:
+                  - paragraph [ref=e1194]: LONELY PLANET JOURNEYS
+                  - heading "TRAVEL WITH US" [level=3] [ref=e1195]
+                  - paragraph [ref=e1196]: Book the best in travel. Explore our 70+ destinations worldwide and let our planners craft your dream trip.
+                  - paragraph [ref=e1197]:
+                    - text: Start plannning
+                    - img [ref=e1198]
+          - button "Tipperary" [ref=e1201] [cursor=pointer]:
+            - generic [ref=e1203]:
+              - img "Henk Bogaard/Shutterstock" [ref=e1204]
+              - generic [ref=e1207]:
+                - paragraph [ref=e1208]: Namibia
+                - heading "Track desert elephants" [level=3] [ref=e1209]
+          - button "Cádiz" [ref=e1211] [cursor=pointer]:
+            - generic [ref=e1213]:
+              - img "We are Content(s)/National Monuments Center" [ref=e1214]
+              - generic [ref=e1217]:
+                - paragraph [ref=e1218]: South of France
+                - heading "Visit Eileen Gray’s famous villa" [level=3] [ref=e1219]
+          - button "Botswana" [ref=e1221] [cursor=pointer]:
+            - generic [ref=e1223]:
+              - img "Natalie Naccache for Lonely Planet" [ref=e1224]
+              - generic [ref=e1227]:
+                - paragraph [ref=e1228]: Old Dubai, United Arab Emirates
+                - heading "Go on a cultural food tour" [level=3] [ref=e1229]
+          - button "Cartagena" [ref=e1231] [cursor=pointer]:
+            - generic [ref=e1233]:
+              - img "Victor Moriyama/Redux" [ref=e1234]
+              - generic [ref=e1237]:
+                - paragraph [ref=e1238]: Argentina
+                - heading "Look for jaguars in the wetlands" [level=3] [ref=e1239]
+          - button "Quetzaltenango (Xela)" [ref=e1241] [cursor=pointer]:
+            - generic [ref=e1243]:
+              - img "Jonatas Neiva/Shutterstock" [ref=e1244]
+              - generic [ref=e1246]:
+                - generic [ref=e1247]: BOOKABLE WITH
+                - img [ref=e1248]
+              - generic [ref=e1274]:
+                - paragraph [ref=e1275]: Ecuador
+                - heading "Ride horses in the Andes mountains" [level=3] [ref=e1276]
+          - button "Liberdade, São Paulo" [ref=e1278] [cursor=pointer]:
+            - generic [ref=e1280]:
+              - img "James Zandecki / Shutterstock" [ref=e1281]
+              - generic [ref=e1284]:
+                - paragraph [ref=e1285]: Oregon, USA
+                - heading "Visit Willamette wine country" [level=3] [ref=e1286]
+          - button "Mexico City" [ref=e1288] [cursor=pointer]:
+            - generic [ref=e1290]:
+              - img "Chambers Media Solutions" [ref=e1291]
+              - generic [ref=e1294]:
+                - paragraph [ref=e1295]: Grenada
+                - heading "Party in the Caribbean" [level=3] [ref=e1296]
+          - button "Utrecht" [ref=e1298] [cursor=pointer]:
+            - generic [ref=e1300]:
+              - img "Daniel James Clarke" [ref=e1301]
+              - generic [ref=e1304]:
+                - paragraph [ref=e1305]: Asia
+                - heading "Hike and wildcamp in Tajikistan" [level=3] [ref=e1306]
+          - button "Theodore Roosevelt National Park" [ref=e1308] [cursor=pointer]:
+            - generic [ref=e1310]:
+              - img "Ben Savage/Visit Victoria" [ref=e1311]
+              - generic [ref=e1314]:
+                - paragraph [ref=e1315]: Victoria, Australia
+                - heading "Explore the Great Bathing Trail" [level=3] [ref=e1316]
+          - button "Sardinia" [ref=e1318] [cursor=pointer]:
+            - generic [ref=e1320]:
+              - img "Henner Damke/Shutterstock" [ref=e1321]
+              - generic [ref=e1323]:
+                - generic [ref=e1324]: BOOKABLE WITH
+                - img [ref=e1325]
+              - generic [ref=e1351]:
+                - paragraph [ref=e1352]: Azores, Portugal
+                - heading "Spot giants of the sea" [level=3] [ref=e1353]
+          - button "Jeju-do" [ref=e1355] [cursor=pointer]:
+            - generic [ref=e1357]:
+              - img "Michelle Mishina Kunz for Lonely Planet" [ref=e1358]
+              - generic [ref=e1361]:
+                - paragraph [ref=e1362]: Hawai‘i, USA
+                - heading "Stay at historic Volcano House" [level=3] [ref=e1363]
+          - button "Quy Nhon" [ref=e1365] [cursor=pointer]:
+            - generic [ref=e1367]:
+              - img "KC Grad" [ref=e1368]
+              - generic [ref=e1371]:
+                - paragraph [ref=e1372]: Belgrade, Serbia
+                - heading "Dance till dawn in Belgrade" [level=3] [ref=e1373]
+          - button "Siem Reap" [ref=e1375] [cursor=pointer]:
+            - generic [ref=e1377]:
+              - img "Paul BOX/REPORT DIGITAL-REA/Redux" [ref=e1378]
+              - generic [ref=e1380]:
+                - generic [ref=e1381]: BOOKABLE WITH
+                - img [ref=e1382]
+              - generic [ref=e1408]:
+                - paragraph [ref=e1409]: Bristol, England
+                - heading "Dive deep into street art" [level=3] [ref=e1410]
+          - button "Phuket" [ref=e1412] [cursor=pointer]:
+            - generic [ref=e1414]:
+              - img "Hans Wagemaker/Alamy" [ref=e1415]
+              - generic [ref=e1417]:
+                - generic [ref=e1418]: BOOKABLE WITH
+                - img [ref=e1419]
+              - generic [ref=e1445]:
+                - paragraph [ref=e1446]: Wairarapa, New Zealand/Aotearoa
+                - heading "Lose yourself in the night sky" [level=3] [ref=e1447]
+          - button "North Island" [ref=e1449] [cursor=pointer]:
+            - generic [ref=e1451]:
+              - img "Stephanie Foden" [ref=e1452]
+              - generic [ref=e1455]:
+                - paragraph [ref=e1456]: Louisiana, USA
+                - heading "Take a Creole trail ride" [level=3] [ref=e1457]
+          - button "Tunisia" [ref=e1459] [cursor=pointer]:
+            - generic [ref=e1461]:
+              - img "MELBOURNE CBD, VICTORIA, AUSTRALIA. DECEMBER 2024. Lune Croissanterie, Russell Street, Melbourne CBD BIT 2026" [ref=e1462]
+              - generic [ref=e1465]:
+                - paragraph [ref=e1466]: Melbourne, Australia
+                - heading "Eat your way through Melbourne" [level=3] [ref=e1467]
+          - button "Solomon Islands" [ref=e1469] [cursor=pointer]:
+            - generic [ref=e1471]:
+              - img "Luisa Dorr" [ref=e1472]
+              - generic [ref=e1475]:
+                - paragraph [ref=e1476]: Bolivia
+                - heading "See the fighting Cholitas" [level=3] [ref=e1477]
+      - region [ref=e1480]:
+        - generic [ref=e1481]:
+          - heading "Subscribe to The Lonely Planet Newsletter" [level=2] [ref=e1482]
+          - paragraph [ref=e1483]: Get access to everything Lonely Planet, plus 20% off your first order.
+          - form [ref=e1484]:
+            - textbox [ref=e1487]:
+              - /placeholder: enter your email
+            - textbox [ref=e1488]
+            - button "Subscribe to newsletter" [ref=e1489] [cursor=pointer]: subscribe now
+          - paragraph [ref=e1490]:
+            - text: Subscribe to our newsletters and promotions.
+            - generic [ref=e1491]:
+              - text: Read our
+              - link "Read our Privacy Policy" [ref=e1492] [cursor=pointer]:
+                - /url: /legal
+                - text: Privacy Policy
+              - text: .
+        - generic [ref=e1493]:
+          - text: Our Guides.
+          - text: Your Stories.
+  - contentinfo "Site footer" [ref=e1495]:
+    - region "Main footer content" [ref=e1496]:
+      - generic [ref=e1498]:
+        - generic "Brand and social media section" [ref=e1499]:
+          - link "Lonely Planet Home" [ref=e1500] [cursor=pointer]:
+            - /url: /
+            - img "Lonely Planet Home" [ref=e1501]
+          - paragraph [ref=e1515]: Our guides. your stories.
+          - heading "Travel with the app" [level=3] [ref=e1516]
+          - generic [ref=e1517]:
+            - link "Download on the App Store" [ref=e1518] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/lonely-planet-plan-travel/id6743324581
+              - img [ref=e1519]
+            - link "Get it on Google Play" [ref=e1526] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.lonelyplanet.app
+              - img [ref=e1527]
+          - heading "Follow us" [level=3] [ref=e1536]
+          - navigation "Social media links" [ref=e1538]:
+            - list [ref=e1539]:
+              - listitem [ref=e1540]:
+                - link "Follow us on Facebook" [ref=e1541] [cursor=pointer]:
+                  - /url: https://www.facebook.com/lonelyplanet
+                  - img "Lonely Planet on Facebook" [ref=e1542]
+              - listitem [ref=e1544]:
+                - link "Follow us on Instagram" [ref=e1545] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lonelyplanet
+                  - img "Lonely Planet on Instagram" [ref=e1546]
+              - listitem [ref=e1550]:
+                - link "Follow us on YouTube" [ref=e1551] [cursor=pointer]:
+                  - /url: https://www.youtube.com/lonelyplanet
+                  - img "Lonely Planet on YouTube" [ref=e1552]
+              - listitem [ref=e1554]:
+                - link "Follow us on Pinterest" [ref=e1555] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/lonelyplanet
+                  - img "Lonely Planet on Pinterest" [ref=e1556]
+          - heading "Join our Newsletter" [level=3] [ref=e1558]
+          - region "Footer newsletter signup form" [ref=e1560]:
+            - heading "Get exclusive discounts & more!" [level=3] [ref=e1561]
+            - form [ref=e1562]:
+              - textbox [ref=e1565]:
+                - /placeholder: Email address
+              - textbox [ref=e1566]
+              - button "Sign up for the newsletter" [ref=e1567] [cursor=pointer]: Sign Up
+              - paragraph [ref=e1568]:
+                - text: Subscribe to Lonely Planet newsletters and promotions.
+                - generic [ref=e1569]:
+                  - text: Read our
+                  - link "Read our Privacy Policy" [ref=e1570] [cursor=pointer]:
+                    - /url: /legal
+                    - text: Privacy Policy.
+        - generic "Footer navigation" [ref=e1571]:
+          - generic [ref=e1572]:
+            - navigation "Top destinations navigation" [ref=e1573]:
+              - group [ref=e1574]:
+                - generic "Top destinations":
+                  - heading "Top destinations" [level=3]
+                - list "Top destinations navigation links" [ref=e1575]:
+                  - listitem [ref=e1576]:
+                    - link "New York City - Top destinations section" [ref=e1577] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/new-york-city
+                      - text: New York City
+                  - listitem [ref=e1578]:
+                    - link "Paris - Top destinations section" [ref=e1579] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france/paris
+                      - text: Paris
+                  - listitem [ref=e1580]:
+                    - link "Italy - Top destinations section" [ref=e1581] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy
+                      - text: Italy
+                  - listitem [ref=e1582]:
+                    - link "Costa Rica - Top destinations section" [ref=e1583] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/costa-rica
+                      - text: Costa Rica
+                  - listitem [ref=e1584]:
+                    - link "Japan - Top destinations section" [ref=e1585] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan
+                      - text: Japan
+                  - listitem [ref=e1586]:
+                    - link "USA - Top destinations section" [ref=e1587] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa
+                      - text: USA
+                  - listitem [ref=e1588]:
+                    - link "Amsterdam - Top destinations section" [ref=e1589] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/the-netherlands/amsterdam
+                      - text: Amsterdam
+                  - listitem [ref=e1590]:
+                    - link "Portugal - Top destinations section" [ref=e1591] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/portugal
+                      - text: Portugal
+                  - listitem [ref=e1592]:
+                    - link "Cancún - Top destinations section" [ref=e1593] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico/cancun
+                      - text: Cancún
+                  - listitem [ref=e1594]:
+                    - link "Chicago - Top destinations section" [ref=e1595] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/chicago
+                      - text: Chicago
+                  - listitem [ref=e1596]:
+                    - link "England - Top destinations section" [ref=e1597] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england
+                      - text: England
+                  - listitem [ref=e1598]:
+                    - link "Tokyo - Top destinations section" [ref=e1599] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/japan/tokyo
+                      - text: Tokyo
+                  - listitem [ref=e1600]:
+                    - link "France - Top destinations section" [ref=e1601] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/france
+                      - text: France
+                  - listitem [ref=e1602]:
+                    - link "Thailand - Top destinations section" [ref=e1603] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/thailand
+                      - text: Thailand
+                  - listitem [ref=e1604]:
+                    - link "Ireland - Top destinations section" [ref=e1605] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/ireland
+                      - text: Ireland
+                  - listitem [ref=e1606]:
+                    - link "Rome - Top destinations section" [ref=e1607] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/italy/rome
+                      - text: Rome
+                  - listitem [ref=e1608]:
+                    - link "London - Top destinations section" [ref=e1609] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/england/london
+                      - text: London
+                  - listitem [ref=e1610]:
+                    - link "Los Angeles - Top destinations section" [ref=e1611] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/los-angeles
+                      - text: Los Angeles
+                  - listitem [ref=e1612]:
+                    - link "Mexico - Top destinations section" [ref=e1613] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/mexico
+                      - text: Mexico
+                  - listitem [ref=e1614]:
+                    - link "San Francisco - Top destinations section" [ref=e1615] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations/usa/san-francisco
+                      - text: San Francisco
+                  - listitem [ref=e1616]:
+                    - link "Explore More Destinations - Top destinations section" [ref=e1617] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/destinations
+                      - text: Explore More Destinations
+            - navigation "Travel Interests navigation" [ref=e1618]:
+              - group [ref=e1619]:
+                - generic "Travel Interests":
+                  - heading "Travel Interests" [level=3]
+                - list "Travel Interests navigation links" [ref=e1620]:
+                  - listitem [ref=e1621]:
+                    - link "Adventure Travel - Travel Interests section" [ref=e1622] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/adventure
+                      - text: Adventure Travel
+                  - listitem [ref=e1623]:
+                    - link "Art and Culture - Travel Interests section" [ref=e1624] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/art-and-culture
+                      - text: Art and Culture
+                  - listitem [ref=e1625]:
+                    - link "Beaches, Coasts and Islands - Travel Interests section" [ref=e1626] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/beaches
+                      - text: Beaches, Coasts and Islands
+                  - listitem [ref=e1627]:
+                    - link "Family Holidays - Travel Interests section" [ref=e1628] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/family-travel
+                      - text: Family Holidays
+                  - listitem [ref=e1629]:
+                    - link "Festivals - Travel Interests section" [ref=e1630] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/festivals-and-events
+                      - text: Festivals
+                  - listitem [ref=e1631]:
+                    - link "Food and Drink - Travel Interests section" [ref=e1632] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/food-and-drink
+                      - text: Food and Drink
+                  - listitem [ref=e1633]:
+                    - link "Honeymoon and Romance - Travel Interests section" [ref=e1634] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/romance
+                      - text: Honeymoon and Romance
+                  - listitem [ref=e1635]:
+                    - link "Road Trips - Travel Interests section" [ref=e1636] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/road-trips
+                      - text: Road Trips
+                  - listitem [ref=e1637]:
+                    - link "Sustainable Travel - Travel Interests section" [ref=e1638] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/sustainable-travel
+                      - text: Sustainable Travel
+                  - listitem [ref=e1639]:
+                    - link "Travel Advice - Travel Interests section" [ref=e1640] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/travel-advice
+                      - text: Travel Advice
+                  - listitem [ref=e1641]:
+                    - link "Travel on a Budget - Travel Interests section" [ref=e1642] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/budget-travel
+                      - text: Travel on a Budget
+                  - listitem [ref=e1643]:
+                    - link "Wildlife and Nature - Travel Interests section" [ref=e1644] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/articles/category/wildlife-and-nature
+                      - text: Wildlife and Nature
+            - navigation "Shop navigation" [ref=e1645]:
+              - group [ref=e1646]:
+                - generic "Shop":
+                  - heading "Shop" [level=3]
+                - list "Shop navigation links" [ref=e1647]:
+                  - listitem [ref=e1648]:
+                    - link "Destination Guides - Shop section" [ref=e1649] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/collections/guidebooks?utm_source=lonelyplanet&utm_campaign=footer&utm_content=destinationguides
+                      - text: Destination Guides
+                  - listitem [ref=e1650]:
+                    - link "Lonely Planet Kids - Shop section" [ref=e1651] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com/pages/lonely-planet-kids?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpkids
+                      - text: Lonely Planet Kids
+                  - listitem [ref=e1652]:
+                    - link "Lonely Planet Shop - Shop section" [ref=e1653] [cursor=pointer]:
+                      - /url: https://shop.lonelyplanet.com?utm_source=lonelyplanet&utm_campaign=footer&utm_content=lpshop
+                      - text: Lonely Planet Shop
+                  - listitem [ref=e1654]:
+                    - link "Non-English Guides - Shop section" [ref=e1655] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us/articles/218157937-General-guidebook-information-?utm_source=lonelyplanet&utm_campaign=footer&utm_content=nonenglishguides#product3
+                      - text: Non-English Guides
+            - navigation "About Us navigation" [ref=e1656]:
+              - group [ref=e1657]:
+                - generic "About Us":
+                  - heading "About Us" [level=3]
+                - list "About Us navigation links" [ref=e1658]:
+                  - listitem [ref=e1659]:
+                    - link "About Lonely Planet - About Us section" [ref=e1660] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/about
+                      - text: About Lonely Planet
+                  - listitem [ref=e1661]:
+                    - link "Correspondent Network - About Us section" [ref=e1662] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/correspondents
+                      - text: Correspondent Network
+                  - listitem [ref=e1663]:
+                    - link "Contact Us - About Us section" [ref=e1664] [cursor=pointer]:
+                      - /url: https://support.lonelyplanet.com/hc/en-us
+                      - text: Contact Us
+                  - listitem [ref=e1665]:
+                    - link "Trade and Advertising - About Us section" [ref=e1666] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/press-trade-advertising
+                      - text: Trade and Advertising
+                  - listitem [ref=e1667]:
+                    - link "Privacy Policy - About Us section" [ref=e1668] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/privacy-policy
+                      - text: Privacy Policy
+                  - listitem [ref=e1669]:
+                    - link "Terms and Conditions - About Us section" [ref=e1670] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/legal/website-terms
+                      - text: Terms and Conditions
+                  - listitem [ref=e1671]:
+                    - link "Work For Us - About Us section" [ref=e1672] [cursor=pointer]:
+                      - /url: https://www.redventures.com/careers/brands/lonely-planet
+                      - text: Work For Us
+                  - listitem [ref=e1673]:
+                    - link "Sitemap - About Us section" [ref=e1674] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/sitemaps
+                      - text: Sitemap
+                  - listitem [ref=e1675]:
+                    - link "Consumer Health Data Privacy Policy - About Us section" [ref=e1676] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/consumer-health-data-privacy-policy
+                      - text: Consumer Health Data Privacy Policy
+                  - listitem
+                  - listitem [ref=e1677]:
+                    - link "Do Not Sell or Share My Personal Information (opens in new tab)" [ref=e1678] [cursor=pointer]:
+                      - /url: https://www.lonelyplanet.com/do-not-sell-or-share-my-personal-information
+                      - text: Do Not Sell or Share My Personal Information
+    - region "Footer legal and language selection" [ref=e1679]:
+      - generic [ref=e1680]:
+        - paragraph [ref=e1681]: © 2026 Lonely Planet, a Red Ventures company. All rights reserved. No part of this site may be reproduced without our written permission.
+        - 'button "Language: English" [ref=e1686] [cursor=pointer]':
+          - paragraph: "Language: English"
+          - img

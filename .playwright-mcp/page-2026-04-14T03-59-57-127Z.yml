@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dasheville%2Bbest%2Brestaurants%2B2024%2B2025%2Bsite%253Athrillist.com%2BOR%2Bsite%253Asouthernliving.com%2BOR%2Bsite%253Ausatoday.com%2BOR%2Bsite%253Aourstate.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&aep=1&ntc=1&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ2J8OegQIERAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQs6gLegQIExAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ0pQJegQIFBAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Images" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQtKgLegQIFRAB
+              - generic [ref=e97]: Images
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQs6gLegQIFhAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "Maps" [ref=e103] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9YOK6RwFZZlNwLLAJ3PRHsFPhh3GbEfgx8fk7Ilnl0GHFsSO6RXXqU3bwk2VRQk2YxeBIlJXsJQVhKbN237cK-6b2cNl9FUrx43Kz5TrLn5Srqb7wKyMGsRDC5iTmji2ulAp_ieXAbzMs4VqmJ0nwYw2cSqw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e105]: Maps
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - 'link "Daytripper: WNC restaurants, bars worth the drive in 2025 usatoday.com https://www.usatoday.com › story › life › 2025/07/21" [ref=e142] [cursor=pointer]':
+                - /url: https://www.usatoday.com/story/life/2025/07/21/western-north-carolina-restaurants-breweries-bars-worth-the-drive-in-2025/85245830007/
+                - 'heading "Daytripper: WNC restaurants, bars worth the drive in 2025" [level=3] [ref=e143]'
+                - generic [ref=e148]:
+                  - generic [ref=e150]: usatoday.com
+                  - generic [ref=e152]: https://www.usatoday.com › story › life › 2025/07/21
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Jul 21, 2025 —
+              - generic [ref=e161]:
+                - emphasis [ref=e162]: Explore Western North Carolina's restaurants and bars
+                - text: will enjoying scenic views, relaxing drives and entertainment for the whole family.
+            - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.usatoday.com" [ref=e165] [cursor=pointer]:
+              - /url: https://www.usatoday.com/story/life/2025/07/21/western-north-carolina-restaurants-breweries-bars-worth-the-drive-in-2025/85245830007/
+              - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.usatoday.com" [ref=e167]
+            - generic [ref=e169]:
+              - text: "Missing: best ‎| Show results with:"
+              - link "best" [ref=e170] [cursor=pointer]:
+                - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+%22best%22+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ5t4CegQILxAB
+        - generic [ref=e174]:
+          - generic [ref=e177]:
+            - link "The 20 Best New Restaurants In The South, According To ... Southern Living https://www.southernliving.com › ... › Chefs" [ref=e179] [cursor=pointer]:
+              - /url: https://www.southernliving.com/editors-new-restaurants-2025-11720743?srsltid=AfmBOopV6ZCHOC-O6tX0hmK9A4CSTiLfKRes1nz5m8YAnl5bf8TgeXBK
+              - heading "The 20 Best New Restaurants In The South, According To ..." [level=3] [ref=e180]
+              - generic [ref=e185]:
+                - generic [ref=e187]: Southern Living
+                - generic [ref=e189]: https://www.southernliving.com › ... › Chefs
+            - button "About this result" [ref=e190] [cursor=pointer]:
+              - img [ref=e193]
+          - generic [ref=e196]:
+            - generic [ref=e197]: May 26, 2025 —
+            - generic [ref=e198]:
+              - text: We named this open-air kitchen and
+              - emphasis [ref=e199]: dining
+              - text: room
+              - emphasis [ref=e200]: Restaurant
+              - text: of the Year in our
+              - emphasis [ref=e201]: "2025"
+              - text: South's
+              - emphasis [ref=e202]: Best
+              - text: awards. Lost Isle may have a laid-back feel but ...
+            - link "Read more" [ref=e203] [cursor=pointer]:
+              - /url: https://www.southernliving.com/editors-new-restaurants-2025-11720743?srsltid=AfmBOopV6ZCHOC-O6tX0hmK9A4CSTiLfKRes1nz5m8YAnl5bf8TgeXBK#:~:text=We%20named%20this%20open%2Dair%20kitchen,have%20a%20laid%2Dback%20feel%20but
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.southernliving.com" [ref=e206] [cursor=pointer]:
+            - /url: https://www.southernliving.com/editors-new-restaurants-2025-11720743?srsltid=AfmBOopV6ZCHOC-O6tX0hmK9A4CSTiLfKRes1nz5m8YAnl5bf8TgeXBK
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.southernliving.com" [ref=e208]
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - link "Asheville barbecue restaurant named one of the best in U.S. usatoday.com https://mmajunkie.usatoday.com › life › 2026/02/11" [ref=e217] [cursor=pointer]:
+              - /url: https://mmajunkie.usatoday.com/story/life/2026/02/11/bears-smokehouse-bbq-asheville-restaurant-review/86842697007/
+              - heading "Asheville barbecue restaurant named one of the best in U.S." [level=3] [ref=e218]
+              - generic [ref=e223]:
+                - generic [ref=e225]: usatoday.com
+                - generic [ref=e227]: https://mmajunkie.usatoday.com › life › 2026/02/11
+            - button "About this result" [ref=e228] [cursor=pointer]:
+              - img [ref=e231]
+          - generic [ref=e234]:
+            - generic [ref=e235]: Feb 11, 2026 —
+            - generic [ref=e236]:
+              - emphasis [ref=e237]: Bear's Smokehouse BBQ in Asheville
+              - text: was named one of USA TODAY's 2026 Restaurants of the Year. The restaurant is recognized for its community ...
+            - link "Read more" [ref=e238] [cursor=pointer]:
+              - /url: https://mmajunkie.usatoday.com/story/life/2026/02/11/bears-smokehouse-bbq-asheville-restaurant-review/86842697007/#:~:text=Bear's%20Smokehouse%20BBQ%20in%20Asheville,people%20during%20Tropical%20Storm%20Helene.
+        - generic [ref=e242]:
+          - generic [ref=e245]:
+            - link "Asheville restaurants, bars, breweries rack up awards usatoday.com https://buckeyeswire.usatoday.com › life › 2025/06/06" [ref=e247] [cursor=pointer]:
+              - /url: https://buckeyeswire.usatoday.com/story/life/2025/06/06/asheville-nc-restaurants-bars-breweries-rack-up-awards/83767935007/
+              - heading "Asheville restaurants, bars, breweries rack up awards" [level=3] [ref=e248]
+              - generic [ref=e253]:
+                - generic [ref=e255]: usatoday.com
+                - generic [ref=e257]: https://buckeyeswire.usatoday.com › life › 2025/06/06
+            - button "About this result" [ref=e258] [cursor=pointer]:
+              - img [ref=e261]
+          - generic [ref=e264]:
+            - generic [ref=e265]: Jun 6, 2025 —
+            - generic [ref=e266]:
+              - text: "From James Beard Awards to Southern Living:"
+              - emphasis [ref=e267]: Asheville's restaurants, breweries, bars earn national praise
+              - text: .
+        - generic [ref=e271]:
+          - generic [ref=e274]:
+            - link "New Asheville dining spots serve up tasty food in ... usatoday.com https://mmajunkie.usatoday.com › life › 2026/04/08" [ref=e276] [cursor=pointer]:
+              - /url: https://mmajunkie.usatoday.com/story/life/2026/04/08/new-asheville-dining-serve-up-tasty-food-in-unexpected-places/89498304007/
+              - heading "New Asheville dining spots serve up tasty food in ..." [level=3] [ref=e277]
+              - generic [ref=e282]:
+                - generic [ref=e284]: usatoday.com
+                - generic [ref=e286]: https://mmajunkie.usatoday.com › life › 2026/04/08
+            - button "About this result" [ref=e287] [cursor=pointer]:
+              - img [ref=e290]
+          - generic [ref=e293]:
+            - generic [ref=e294]: 6 days ago —
+            - generic [ref=e295]:
+              - emphasis [ref=e296]: Dssolvr Kitchen
+              - text: ", headed by chefs Ryan Kline and Michael Honore, offers weekly lunch and dinner bar bites and all-day Sunday brunch. The recipes ..."
+            - link "Read more" [ref=e297] [cursor=pointer]:
+              - /url: https://mmajunkie.usatoday.com/story/life/2026/04/08/new-asheville-dining-serve-up-tasty-food-in-unexpected-places/89498304007/#:~:text=Dssolvr%20Kitchen%2C%20headed%20by%20chefs,while%20bringing%20innovation%20to%20classics.
+          - generic [ref=e299]:
+            - text: "Missing: 2024 ‎| Show results with:"
+            - link "2024" [ref=e300] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+best+restaurants+%222024%22+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ5t4CegQILRAB
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - link "Posana Restaurant USA TODAY 10BEST https://10best.usatoday.com › awards › posana-restaurant..." [ref=e309] [cursor=pointer]:
+              - /url: https://10best.usatoday.com/awards/posana-restaurant-asheville-north-carolina/
+              - heading "Posana Restaurant" [level=3] [ref=e310]
+              - generic [ref=e315]:
+                - generic [ref=e317]: USA TODAY 10BEST
+                - generic [ref=e319]: https://10best.usatoday.com › awards › posana-restaurant...
+            - button "About this result" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - text: Nestled in Asheville, North Carolina,
+              - emphasis [ref=e328]: Posana's commitment to local, sustainable ingredients
+              - text: is evident in their dynamic menu.
+            - link "Read more" [ref=e329] [cursor=pointer]:
+              - /url: https://10best.usatoday.com/awards/posana-restaurant-asheville-north-carolina/#:~:text=Nestled%20in%20Asheville%2C%20North%20Carolina%2C,evident%20in%20their%20dynamic%20menu.
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from 10best.usatoday.com" [ref=e332] [cursor=pointer]:
+            - /url: https://10best.usatoday.com/awards/posana-restaurant-asheville-north-carolina/
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from 10best.usatoday.com" [ref=e334]
+        - generic [ref=e338]:
+          - generic [ref=e341]:
+            - link "Michelin Guide awards Blind Tiger Asheville with elite Key. ... usatoday.com https://fsuwire.usatoday.com › business › 2025/11/03" [ref=e343] [cursor=pointer]:
+              - /url: https://fsuwire.usatoday.com/story/money/business/2025/11/03/michelin-guide-awards-blind-tiger-asheville-elite-key/86984538007/
+              - heading "Michelin Guide awards Blind Tiger Asheville with elite Key. ..." [level=3] [ref=e344]
+              - generic [ref=e349]:
+                - generic [ref=e351]: usatoday.com
+                - generic [ref=e353]: https://fsuwire.usatoday.com › business › 2025/11/03
+            - button "About this result" [ref=e354] [cursor=pointer]:
+              - img [ref=e357]
+          - generic [ref=e360]:
+            - generic [ref=e361]: Nov 3, 2025 —
+            - generic [ref=e362]:
+              - text: It is the second time
+              - emphasis [ref=e363]: Blind Tiger Asheville
+              - text: has earned a Key. The hotel, which opened in 2023, earned a one-Key rating in 2024. Michelin Guide ...
+            - link "Read more" [ref=e364] [cursor=pointer]:
+              - /url: https://fsuwire.usatoday.com/story/money/business/2025/11/03/michelin-guide-awards-blind-tiger-asheville-elite-key/86984538007/#:~:text=It%20is%20the%20second%20time,Michelin%20Guide
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from fsuwire.usatoday.com" [ref=e367] [cursor=pointer]:
+            - /url: https://fsuwire.usatoday.com/story/money/business/2025/11/03/michelin-guide-awards-blind-tiger-asheville-elite-key/86984538007/
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from fsuwire.usatoday.com" [ref=e369]
+        - generic [ref=e373]:
+          - generic [ref=e376]:
+            - link "Western North Carolina Restaurants On Their Next ... Southern Living https://www.southernliving.com › ... › North Carolina" [ref=e378] [cursor=pointer]:
+              - /url: https://www.southernliving.com/north-carolina-restaurants-post-helene-11695890?srsltid=AfmBOors5zmFI1SWtFDrvkjKQeQ_Ktk9zqVQ0JHT_pm9DMMiYhbHQS4-
+              - heading "Western North Carolina Restaurants On Their Next ..." [level=3] [ref=e379]
+              - generic [ref=e384]:
+                - generic [ref=e386]: Southern Living
+                - generic [ref=e388]: https://www.southernliving.com › ... › North Carolina
+            - button "About this result" [ref=e389] [cursor=pointer]:
+              - img [ref=e392]
+          - generic [ref=e395]:
+            - generic [ref=e396]: Mar 20, 2025 —
+            - generic [ref=e397]:
+              - emphasis [ref=e398]: Noodle Hole, Marshall
+              - text: · 12 Bones Smokehouse, Asheville · The NuWray Hotel and Maples, Burnsville · Helen's Restaurant, Bakersville.
+            - link "Read more" [ref=e399] [cursor=pointer]:
+              - /url: https://www.southernliving.com/north-carolina-restaurants-post-helene-11695890?srsltid=AfmBOors5zmFI1SWtFDrvkjKQeQ_Ktk9zqVQ0JHT_pm9DMMiYhbHQS4-#:~:text=Noodle%20Hole%2C%20Marshall&text=12%20Bones%20Smokehouse%2C%20Asheville&text=The%20NuWray%20Hotel%20and%20Maples%2C,Burnsville&text=Helen's%20Restaurant%2C%20Bakersville
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.southernliving.com" [ref=e402] [cursor=pointer]:
+            - /url: https://www.southernliving.com/north-carolina-restaurants-post-helene-11695890?srsltid=AfmBOors5zmFI1SWtFDrvkjKQeQ_Ktk9zqVQ0JHT_pm9DMMiYhbHQS4-
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from www.southernliving.com" [ref=e404]
+        - generic [ref=e408]:
+          - generic [ref=e411]:
+            - link "James Beard Foundation unites WNC restaurants, farms ... usatoday.com https://ftw.usatoday.com › news › local › 2025/09/05" [ref=e413] [cursor=pointer]:
+              - /url: https://ftw.usatoday.com/story/news/local/2025/09/05/north-carolina-restaurants-james-beard-foundation-helene/85974030007/
+              - heading "James Beard Foundation unites WNC restaurants, farms ..." [level=3] [ref=e414]
+              - generic [ref=e419]:
+                - generic [ref=e421]: usatoday.com
+                - generic [ref=e423]: https://ftw.usatoday.com › news › local › 2025/09/05
+            - button "About this result" [ref=e424] [cursor=pointer]:
+              - img [ref=e427]
+          - generic [ref=e430]:
+            - generic [ref=e431]: Sep 5, 2025 —
+            - generic [ref=e432]:
+              - text: The James Beard Foundation hosted its Climate Solutions for
+              - emphasis [ref=e433]: Restaurant
+              - text: Survival Campaign in
+              - emphasis [ref=e434]: Asheville
+              - text: on Sept. 4, rallying
+              - emphasis [ref=e435]: restaurants
+              - text: and ...
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from ftw.usatoday.com" [ref=e438] [cursor=pointer]:
+            - /url: https://ftw.usatoday.com/story/news/local/2025/09/05/north-carolina-restaurants-james-beard-foundation-helene/85974030007/
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from ftw.usatoday.com" [ref=e440]
+        - generic [ref=e444]:
+          - generic [ref=e447]:
+            - link "Asheville restaurants earn Michelin award. The first for ... usatoday.com https://fsuwire.usatoday.com › story › life › 2025/11/03" [ref=e449] [cursor=pointer]:
+              - /url: https://fsuwire.usatoday.com/story/life/2025/11/03/asheville-restaurants-earns-michelin-award-the-first-for-the-city/86874246007/
+              - heading "Asheville restaurants earn Michelin award. The first for ..." [level=3] [ref=e450]
+              - generic [ref=e455]:
+                - generic [ref=e457]: usatoday.com
+                - generic [ref=e459]: https://fsuwire.usatoday.com › story › life › 2025/11/03
+            - button "About this result" [ref=e460] [cursor=pointer]:
+              - img [ref=e463]
+          - generic [ref=e466]:
+            - generic [ref=e467]: Nov 3, 2025 —
+            - generic [ref=e468]:
+              - text: Asheville awardees are
+              - emphasis [ref=e469]: Little Chango, Luminosa and Mother
+              - text: ", with more local establishments recommended by the esteemed travel guide company. An ..."
+            - link "Read more" [ref=e470] [cursor=pointer]:
+              - /url: https://fsuwire.usatoday.com/story/life/2025/11/03/asheville-restaurants-earns-michelin-award-the-first-for-the-city/86874246007/#:~:text=Asheville%20awardees%20are%20Little%20Chango%2C,the%20esteemed%20travel%20guide%20company.
+          - link "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from fsuwire.usatoday.com" [ref=e473] [cursor=pointer]:
+            - /url: https://fsuwire.usatoday.com/story/life/2025/11/03/asheville-restaurants-earns-michelin-award-the-first-for-the-city/86874246007/
+            - img "asheville best restaurants 2024 2025 site:thrillist.com OR site:southernliving.com OR site:usatoday.com OR site:ourstate.com from fsuwire.usatoday.com" [ref=e475]
+          - generic [ref=e477]:
+            - text: "Missing: 2024 ‎| Show results with:"
+            - link "2024" [ref=e478] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+best+restaurants+%222024%22+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ5t4CegQIRBAB
+      - navigation [ref=e481]:
+        - heading "Page Navigation" [level=1] [ref=e482]
+        - text: "1"
+        - link "Page 2" [ref=e485] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=10&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAE
+          - text: "2"
+        - link "Page 3" [ref=e487] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=20&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAG
+          - text: "3"
+        - link "Page 4" [ref=e489] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=30&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAI
+          - text: "4"
+        - link "Page 5" [ref=e491] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=40&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAK
+          - text: "5"
+        - link "Page 6" [ref=e493] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=50&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAM
+          - text: "6"
+        - link "Page 7" [ref=e495] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=60&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAO
+          - text: "7"
+        - link "Page 8" [ref=e497] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=70&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAQ
+          - text: "8"
+        - link "Page 9" [ref=e499] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=80&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAS
+          - text: "9"
+        - link "Page 10" [ref=e501] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=90&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8tMDegQIMBAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e503]:
+          - link "Next" [ref=e504] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+2024+2025+site:thrillist.com+OR+site:southernliving.com+OR+site:usatoday.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=vLvdabyWIZGtiLMPhfr-kAw&start=10&sa=N&sstk=Af77f_fplEox62eCiRF_ZffkmwvTegkki1aMRyF8UJLrdMwuf8hPTjBsY4mplQDYOe4jnEEExIBbnFWfhjq35vyhtqoaC-P7AC1iRQ&ved=2ahUKEwi85IaPuuyTAxWRFmIAHQW9H8IQ8NMDegQIMBAW
+            - generic [ref=e506]: Next
+      - navigation
+    - contentinfo [ref=e507]:
+      - heading "Footer Links" [level=1] [ref=e508]
+      - generic [ref=e512]:
+        - generic [ref=e516]:
+          - button "Squirrel Hill North, Pittsburgh, PA - Based on your past activity" [ref=e518] [cursor=pointer]:
+            - generic [ref=e519]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e521]:
+              - text: "-"
+              - generic [ref=e522]: Based on your past activity
+          - text: "-"
+          - button "Update location" [ref=e524] [cursor=pointer]: Update location
+        - generic [ref=e527]:
+          - link "Help" [ref=e528] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e529] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e530] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e531] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

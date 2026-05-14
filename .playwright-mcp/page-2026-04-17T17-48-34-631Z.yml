@@ -1,0 +1,333 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:reddit.com/r/orangecounty Irvine Thai OR Korean OR Indian OR French OR patio site:reddit.com/r/orangecounty Irvine Thai OR Korean OR Indian OR French OR patio
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Areddit.com%252Fr%252Forangecounty%2BIrvine%2BThai%2BOR%2BKorean%2BOR%2BIndian%2BOR%2BFrench%2BOR%2Bpatio&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ2J8OegQIDhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQtKgLegQIFBAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "Maps" [ref=e93] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=c0c8628026d5a19e&output=search&q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e95]: Maps
+          - listitem [ref=e96]:
+            - link "Short videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQs6gLegQIEhAB
+              - generic [ref=e99]: Short videos
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQtKgLegQIEBAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Shopping" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjm3O6DZn6DzsDWUGWdFgkXd4vLlPKhy9gYAQYcM7Ar6fNZkHwrOTIST5RfJT-no7ttp9tBD0xqFSwmpAjWIo5MSKbPvIFeRRy28CTbMhsBDDdvw1AolvQCZQT1wsNzW4e_UTawWQ&q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&ved=1t:220175&ictx=111
+              - generic [ref=e107]: Shopping
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - 'link "Recommendations for Thai Food - Irvine? : r/orangecounty Reddit · r/orangecounty 50+ comments · 3 years ago" [ref=e144] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/
+                - 'heading "Recommendations for Thai Food - Irvine? : r/orangecounty" [level=3] [ref=e145]'
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Reddit · r/orangecounty
+                  - generic [ref=e154]: 50+ comments · 3 years ago
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - emphasis [ref=e163]: Tuk Tuk Thia in Irvine at The Trade off Michelson/ Mac Arthur
+                - text: is good, I just don't know how authentic. Definitely scratches the itch for Thai ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/#:~:text=Tuk%20Tuk%20Thia%20in%20Irvine,for%20Thai%20food%20for%20me.
+            - generic [ref=e169]:
+              - link "55 answers" [ref=e170] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/orangecounty/comments/z5igtq/recommendations_for_thai_food_irvine/ixwaeio/
+              - generic [ref=e171]: ·
+              - generic [ref=e172]: "Top answer:"
+              - generic [ref=e173]: I don't know of any good Thai food in Irvine, but Bangkok Corner in CM is not far. Full disclosure, ...
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - 'link "Best Korean food in South and Mid OC? : r/orangecounty Reddit · r/orangecounty 10+ comments · 9 months ago" [ref=e182] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/
+              - 'heading "Best Korean food in South and Mid OC? : r/orangecounty" [level=3] [ref=e183]'
+              - generic [ref=e188]:
+                - generic [ref=e190]: Reddit · r/orangecounty
+                - generic [ref=e192]: 10+ comments · 9 months ago
+            - button "About this result" [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - text: For b
+              - emphasis [ref=e201]: bq baekjeong in Irvine
+              - text: . For tofu you can either go to bcd at diamond jamboree, kaju off Jeffrey and walnut, or it's tofu off Irvine blvd.
+            - link "Read more" [ref=e202] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/#:~:text=For%20bbq%20baekjeong%20in%20Irvine.,it's%20tofu%20off%20Irvine%20blvd
+          - generic [ref=e207]:
+            - link "16 answers" [ref=e208] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35fkhb/
+            - generic [ref=e209]: ·
+            - generic [ref=e210]: "Top answer:"
+            - generic [ref=e211]: It’s all in Irvine For bbq baekjeong in Irvine. For tofu you can either go to bcd at ...
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - 'link "Thai Restaurant : r/orangecounty Reddit · r/orangecounty 100+ comments · 3 months ago" [ref=e220] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/1psfcbt/thai_restaurant/
+              - 'heading "Thai Restaurant : r/orangecounty" [level=3] [ref=e221]'
+              - generic [ref=e226]:
+                - generic [ref=e228]: Reddit · r/orangecounty
+                - generic [ref=e230]: 100+ comments · 3 months ago
+            - button "About this result" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - emphasis [ref=e239]: Thai Nakorn in Stanton
+              - text: is still my go to. Consistent, bold flavors, and the menu feels more old school than a lot of newer spots. If you like ...
+            - link "Read more" [ref=e240] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1psfcbt/thai_restaurant/#:~:text=Thai%20Nakorn%20in%20Stanton%20is,sweet%2C%20it's%20worth%20the%20drive.
+        - generic [ref=e244]:
+          - generic [ref=e247]:
+            - 'link "Curry up now in Spectrum mall : r/orangecounty Reddit · r/orangecounty 10+ comments · 1 year ago" [ref=e249] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/1iagcwt/curry_up_now_in_spectrum_mall/
+              - 'heading "Curry up now in Spectrum mall : r/orangecounty" [level=3] [ref=e250]'
+              - generic [ref=e255]:
+                - generic [ref=e257]: Reddit · r/orangecounty
+                - generic [ref=e259]: 10+ comments · 1 year ago
+            - button "About this result" [ref=e260] [cursor=pointer]:
+              - img [ref=e263]
+          - generic [ref=e267]:
+            - text: Does anyone know why is curry up now closed at the
+            - emphasis [ref=e268]: Irvine
+            - text: spectrum mall?
+        - generic [ref=e272]:
+          - generic [ref=e275]:
+            - link "Your favorite under the radar restaurant for Korean food? Reddit · r/orangecounty 80+ comments · 1 year ago" [ref=e277] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1ebzxrs/your_favorite_under_the_radar_restaurant_for/
+              - heading "Your favorite under the radar restaurant for Korean food?" [level=3] [ref=e278]
+              - generic [ref=e283]:
+                - generic [ref=e285]: Reddit · r/orangecounty
+                - generic [ref=e287]: 80+ comments · 1 year ago
+            - button "About this result" [ref=e288] [cursor=pointer]:
+              - img [ref=e291]
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - emphasis [ref=e296]: Yigah in Garden Grove
+              - text: . Same- clean environment and delicious food. Don't go expecting exceptional service, but if you get it great.
+            - link "Read more" [ref=e297] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1ebzxrs/your_favorite_under_the_radar_restaurant_for/#:~:text=Yigah%20in%20Garden%20Grove.%20Same%2D,if%20you%20get%20it%20great.
+          - generic [ref=e302]:
+            - link "80 answers" [ref=e303] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1ebzxrs/your_favorite_under_the_radar_restaurant_for/lewusjv/
+            - generic [ref=e304]: ·
+            - generic [ref=e305]: "Top answer:"
+            - generic [ref=e306]: Seoul Haus in Irvine. Don't go for the service, go for the food.
+        - generic [ref=e310]:
+          - generic [ref=e313]:
+            - 'link "Looking for good Korean or Japanese food : r/orangecounty Reddit · r/orangecounty 20+ comments · 2 years ago" [ref=e315] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/16ktlb9/looking_for_good_korean_or_japanese_food/
+              - 'heading "Looking for good Korean or Japanese food : r/orangecounty" [level=3] [ref=e316]'
+              - generic [ref=e321]:
+                - generic [ref=e323]: Reddit · r/orangecounty
+                - generic [ref=e325]: 20+ comments · 2 years ago
+            - button "About this result" [ref=e326] [cursor=pointer]:
+              - img [ref=e329]
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - emphasis [ref=e334]: Ye Dang in Irvine
+              - text: has delicious family style servings of Korean food. I dream of their Galbi Jjim sometimes… and I guess enough times that my ...
+            - link "Read more" [ref=e335] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/16ktlb9/looking_for_good_korean_or_japanese_food/#:~:text=Ye%20Dang%20in%20Irvine%20has,up%20there%20for%20my%20birthday.
+        - generic [ref=e339]:
+          - generic [ref=e342]:
+            - 'link "Zabb Thai- just bad : r/orangecounty Reddit · r/orangecounty 30+ comments · 12 months ago" [ref=e344] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/1k4uug0/zabb_thai_just_bad/
+              - 'heading "Zabb Thai- just bad : r/orangecounty" [level=3] [ref=e345]'
+              - generic [ref=e350]:
+                - generic [ref=e352]: Reddit · r/orangecounty
+                - generic [ref=e354]: 30+ comments · 12 months ago
+            - button "About this result" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+          - generic [ref=e361]:
+            - generic [ref=e362]:
+              - emphasis [ref=e363]: It was straight up some of the worst Thai food I've had
+              - text: . My girlfriend and I picked up pad Thai, pad see ew and fried rice. Both noodle dishes were pale in ...
+            - link "Read more" [ref=e364] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1k4uug0/zabb_thai_just_bad/#:~:text=It%20was%20straight%20up%20some,in%20color%2C%20bland%2C%20and%20mushy.
+        - generic [ref=e368]:
+          - generic [ref=e371]:
+            - 'link "Why is it so hard to get good Thai food? : r/orangecounty Reddit · r/orangecounty 50+ comments · 4 years ago" [ref=e373] [cursor=pointer]':
+              - /url: https://www.reddit.com/r/orangecounty/comments/n3koal/why_is_it_so_hard_to_get_good_thai_food/
+              - 'heading "Why is it so hard to get good Thai food? : r/orangecounty" [level=3] [ref=e374]'
+              - generic [ref=e379]:
+                - generic [ref=e381]: Reddit · r/orangecounty
+                - generic [ref=e383]: 50+ comments · 4 years ago
+            - button "About this result" [ref=e384] [cursor=pointer]:
+              - img [ref=e387]
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - text: I'm in Irvine as well and
+              - emphasis [ref=e392]: Bangkok kitchen in Costa Mesa has decent Thai food
+              - text: and they're pretty consistent. Another good Thai spot is Thai Nakorn.
+            - link "Read more" [ref=e393] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/n3koal/why_is_it_so_hard_to_get_good_thai_food/#:~:text=I'm%20in%20Irvine%20as%20well,Thai%20spot%20is%20Thai%20Nakorn.
+        - generic [ref=e397]:
+          - generic [ref=e400]:
+            - link "Whats the best Thai restaurant in all of Orange County? Reddit · r/orangecounty 140+ comments · 4 years ago" [ref=e402] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/s45tcg/whats_the_best_thai_restaurant_in_all_of_orange/
+              - heading "Whats the best Thai restaurant in all of Orange County?" [level=3] [ref=e403]
+              - generic [ref=e408]:
+                - generic [ref=e410]: Reddit · r/orangecounty
+                - generic [ref=e412]: 140+ comments · 4 years ago
+            - button "About this result" [ref=e413] [cursor=pointer]:
+              - img [ref=e416]
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - emphasis [ref=e421]: Siam station in Irvine
+              - text: is pretty good too.
+            - link "Read more" [ref=e422] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/s45tcg/whats_the_best_thai_restaurant_in_all_of_orange/#:~:text=Siam%20station%20in%20Irvine%20is,pretty%20good%20too.
+          - generic [ref=e427]:
+            - link "140 answers" [ref=e428] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/s45tcg/whats_the_best_thai_restaurant_in_all_of_orange/hsp37jx/
+            - generic [ref=e429]: ·
+            - generic [ref=e430]: "Top answer:"
+            - generic [ref=e431]: Thai Nakorn... If there isn't a portrait of the king up, it's not a legitimate Thai spot.
+        - generic [ref=e435]:
+          - generic [ref=e438]:
+            - link "Indian food in South OC - Southern Spice replacement Reddit · r/orangecounty 30+ comments · 5 months ago" [ref=e440] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1opms5t/indian_food_in_south_oc_southern_spice_replacement/
+              - heading "Indian food in South OC - Southern Spice replacement" [level=3] [ref=e441]
+              - generic [ref=e446]:
+                - generic [ref=e448]: Reddit · r/orangecounty
+                - generic [ref=e450]: 30+ comments · 5 months ago
+            - button "About this result" [ref=e451] [cursor=pointer]:
+              - img [ref=e454]
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - emphasis [ref=e459]: Annapoorna in Irvine is quite decent
+              - text: . I am Pakistani and while this place isnt super top tier in terms of best ive had in flavor, they do well ...
+            - link "Read more" [ref=e460] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/orangecounty/comments/1opms5t/indian_food_in_south_oc_southern_spice_replacement/#:~:text=Annapoorna%20in%20Irvine%20is%20quite,palates%20and%20they%20seem%20clean.
+      - generic [ref=e462]:
+        - generic [ref=e467]:
+          - heading "People also search for" [level=2] [ref=e469]
+          - generic [ref=e471]:
+            - link "Irvine thai korean indian french patio reviews" [ref=e476] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=Irvine+thai+korean+indian+french+patio+reviews&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ1QJ6BAg5EAE
+              - generic [ref=e477]:
+                - generic [ref=e482]: Irvine thai korean indian french patio reviews
+                - img [ref=e486]
+            - link "Irvine thai korean indian french patio menu" [ref=e492] [cursor=pointer]:
+              - /url: /search?sca_esv=c0c8628026d5a19e&q=Irvine+thai+korean+indian+french+patio+menu&sa=X&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ1QJ6BAg6EAE
+              - generic [ref=e493]:
+                - generic [ref=e498]: Irvine thai korean indian french patio menu
+                - img [ref=e502]
+        - navigation [ref=e504]:
+          - heading "Page Navigation" [level=1] [ref=e505]
+          - text: "1"
+          - link "Page 2" [ref=e508] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=10&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAE
+            - text: "2"
+          - link "Page 3" [ref=e510] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=20&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAG
+            - text: "3"
+          - link "Page 4" [ref=e512] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=30&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAI
+            - text: "4"
+          - link "Page 5" [ref=e514] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=40&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAK
+            - text: "5"
+          - link "Page 6" [ref=e516] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=50&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAM
+            - text: "6"
+          - link "Page 7" [ref=e518] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=60&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAO
+            - text: "7"
+          - link "Page 8" [ref=e520] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=70&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAQ
+            - text: "8"
+          - link "Page 9" [ref=e522] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=80&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAS
+            - text: "9"
+          - link "Page 10" [ref=e524] [cursor=pointer]:
+            - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=90&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8tMDegQINxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e526]:
+            - link "Next" [ref=e527] [cursor=pointer]:
+              - /url: /search?q=site:reddit.com/r/orangecounty+Irvine+Thai+OR+Korean+OR+Indian+OR+French+OR+patio&sca_esv=c0c8628026d5a19e&ei=cXLiaavCNv3LkPIPuLmugQc&start=10&sa=N&sstk=Af77f_cNwQjyxkattEbzve4UkPCJt3p2zyRhyX1PO5H_tK5JoIETYir9FDg7dFrFRSWYG64XLTBeWfLcZzibJkCKhqwx59ijzBgssg&ved=2ahUKEwjrvqn2uPWTAxX9JUQIHbicK3AQ8NMDegQINxAW
+              - generic [ref=e529]: Next
+      - navigation
+    - contentinfo [ref=e530]:
+      - heading "Footer Links" [level=1] [ref=e531]
+      - generic [ref=e535]:
+        - generic [ref=e539]:
+          - button "92620, Irvine, CA - From your IP address" [ref=e541] [cursor=pointer]:
+            - generic [ref=e542]: 92620, Irvine, CA
+            - generic [ref=e544]:
+              - text: "-"
+              - generic [ref=e545]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e547] [cursor=pointer]: Update location
+        - generic [ref=e550]:
+          - link "Help" [ref=e551] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e552] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e553] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e554] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

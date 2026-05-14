@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <title>Restaurants</title>
-  <link rel="stylesheet" href="css/style.css?v=1775460000">
-  <link rel="stylesheet" href="css/picker.css?v=1775460000">
+  <link rel="stylesheet" href="css/style.css?v=1776965114">
+  <link rel="stylesheet" href="css/picker.css?v=1776965114">
+  <link rel="stylesheet" href="css/trip.css?v=1777380621">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
@@ -17,8 +18,11 @@
   </script>
 </head>
 <body>
-  <!-- Picker root (shown when no ?g= token) -->
+  <!-- Picker root (shown when no ?g= or ?t= token) -->
   <div id="picker-root" hidden></div>
+
+  <!-- Trip root (shown when ?t= token is present) -->
+  <div id="trip-root" hidden></div>
 
   <!-- App shell (shown when ?g= token is present) -->
   <div id="app-shell" hidden>
@@ -77,10 +81,13 @@
   </div>
 
   <script>
-    // Dispatcher: pick picker vs app based on ?g= token
+    // Dispatcher: pick picker vs app vs trip based on ?g= / ?t= token
     (function() {
-      var g = new URLSearchParams(location.search).get('g');
-      var src = g ? 'js/app.js?v=1775460000' : 'js/picker.js?v=1775460000';
+      var p = new URLSearchParams(location.search);
+      var src;
+      if (p.get('g'))      src = 'js/app.js?v=1776965114';
+      else if (p.get('t')) src = 'js/trip.js?v=1777380621';
+      else                 src = 'js/picker.js?v=1776965114';
       var s = document.createElement('script');
       s.type = 'module';
       s.src = src;

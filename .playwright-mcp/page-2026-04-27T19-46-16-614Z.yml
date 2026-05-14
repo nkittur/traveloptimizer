@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:nytimes.com "36 hours" (acadia OR "bar harbor") site:nytimes.com "36 hours" (acadia OR "bar harbor")
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Anytimes.com%2B%252236%2Bhours%2522%2B(acadia%2BOR%2B%2522bar%2Bharbor%2522)&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&aep=1&ntc=1&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ2J8OegQIEBAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Images" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQtKgLegQIEhAB
+              - generic [ref=e91]: Images
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ0pQJegQIExAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Forums" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQs6gLegQIFBAB
+              - generic [ref=e99]: Forums
+          - listitem [ref=e100]:
+            - link "Videos" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQtKgLegQIFRAB
+              - generic [ref=e103]: Videos
+          - listitem [ref=e104]:
+            - link "Short videos" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lu5bo-x-eoA2sZT4vVUz9yLyki37Rkwixf4DIY3bvxQITdP7y6bzRy8h25pHl0k9oPNC47j4b7OsqgBzgnzusXLsJ5r6uB49v6t9lRTy09asnrVn0kcmpzzN6jQhQJ02nA6VO9AKUc3fH04JebJtwMDkfYzsAu56CG4SY0Jxvqz6w8AiQ&q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQs6gLegQIFhAB
+              - generic [ref=e107]: Short videos
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e124]
+    - main [ref=e130]:
+      - generic [ref=e134]:
+        - generic [ref=e137]:
+          - heading "Web results" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - link "36 Hours in Bar Harbor, Me. The New York Times https://www.nytimes.com › 2011/07/17 › travel › 36-h..." [ref=e144] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html
+                - heading "36 Hours in Bar Harbor, Me." [level=3] [ref=e145]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: The New York Times
+                  - generic [ref=e154]: https://www.nytimes.com › 2011/07/17 › travel › 36-h...
+              - button "About this result" [ref=e155] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e161]:
+              - generic [ref=e162]: Jul 14, 2011 —
+              - generic [ref=e163]:
+                - emphasis [ref=e164]: 36 Hours
+                - text: in
+                - emphasis [ref=e165]: Bar Harbor
+                - text: ", Me. ; 6 p.m. 1) TOAST THE SUNSET · 8:30 p.m. 2) SEAFOOD EXTRAVAGANZA ; 8:30 a.m. 4) MAINE BREAKFAST · 10 a.m. 5) EXPLORING ..."
+              - link "Read more" [ref=e166] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2011/07/17/travel/36-hours-in-bar-harbor.html#:~:text=36%20Hours%20in%20Bar%20Harbor%2C,Me.&text=6%20p.m.,1)%20TOAST%20THE%20SUNSET&text=8%3A30%20p.m.,2)%20SEAFOOD%20EXTRAVAGANZA&text=8%3A30%20a.m.,4)%20MAINE%20BREAKFAST&text=10%20a.m.,5)%20EXPLORING%20ACADIA
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - link "36 Hours in Bar Harbor, Me. The New York Times https://www.nytimes.com › travel › 20110717-HOURS" [ref=e175] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/07/17/travel/20110717-HOURS.html
+              - heading "36 Hours in Bar Harbor, Me." [level=3] [ref=e176]
+              - generic [ref=e181]:
+                - generic [ref=e183]: The New York Times
+                - generic [ref=e185]: https://www.nytimes.com › travel › 20110717-HOURS
+            - button "About this result" [ref=e186] [cursor=pointer]:
+              - img [ref=e189]
+          - generic [ref=e192]:
+            - generic [ref=e193]: Jul 17, 2011 —
+            - generic [ref=e194]:
+              - emphasis [ref=e195]: 36 Hours
+              - text: in
+              - emphasis [ref=e196]: Bar Harbor
+              - text: ", Me. This summer resort feels frozen in time. AD."
+            - link "Read more" [ref=e197] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/07/17/travel/20110717-HOURS.html#:~:text=1%20%2F%2016
+        - generic [ref=e201]:
+          - generic [ref=e204]:
+            - link "JOURNEYS; 36 Hours | Bar Harbor, Me. The New York Times https://www.nytimes.com › 2004/08/27 › travel › journ..." [ref=e206] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2004/08/27/travel/journeys-36-hours-bar-harbor-me.html
+              - heading "JOURNEYS; 36 Hours | Bar Harbor, Me." [level=3] [ref=e207]
+              - generic [ref=e212]:
+                - generic [ref=e214]: The New York Times
+                - generic [ref=e216]: https://www.nytimes.com › 2004/08/27 › travel › journ...
+            - button "About this result" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+          - generic [ref=e223]:
+            - generic [ref=e224]: Aug 27, 2004 —
+            - generic [ref=e225]:
+              - text: JOURNEYS;
+              - emphasis [ref=e226]: 36 Hours
+              - text: "|"
+              - emphasis [ref=e227]: Bar Harbor
+              - text: ", Me. Share full article. By Paul Schneider. Aug. 27, 2004. FORMERLY named Eden,"
+              - emphasis [ref=e228]: Bar Harbor
+              - text: may well be the ...
+            - link "Read more" [ref=e229] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2004/08/27/travel/journeys-36-hours-bar-harbor-me.html#:~:text=JOURNEYS%3B%2036%20Hours%20%7C%20Bar,perfect%20New%20England%20tourist%20town.
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "36 HOURS; Beyond the Waterfront The New York Times https://www.nytimes.com › 2004/08/27 › travel › 36-h..." [ref=e238] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2004/08/27/travel/36-hours-beyond-the-waterfront.html
+              - heading "36 HOURS; Beyond the Waterfront" [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: The New York Times
+                - generic [ref=e248]: https://www.nytimes.com › 2004/08/27 › travel › 36-h...
+            - button "About this result" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e255]:
+            - generic [ref=e256]: Aug 27, 2004 —
+            - generic [ref=e257]:
+              - emphasis [ref=e258]: 36 HOURS
+              - text: ; Beyond the Waterfront ...
+              - emphasis [ref=e259]: BAR HARBOR
+              - text: on Mount Desert Island on the Maine coast presents a facade much like any other coastal resort with ...
+            - link "Read more" [ref=e260] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2004/08/27/travel/36-hours-beyond-the-waterfront.html#:~:text=36%20HOURS%3B%20Beyond%20the%20Waterfront&text=BAR%20HARBOR%20on%20Mount%20Desert,its%20cruises%2C%20crafts%20and%20cafes.
+        - generic [ref=e264]:
+          - generic [ref=e267]:
+            - link "36 Hours in Bar Harbor, Me. - Slide Show The New York Times https://www.nytimes.com › 20110717-HOURS-10" [ref=e269] [cursor=pointer]:
+              - /url: https://www.nytimes.com/slideshow/2011/07/17/travel/20110717-HOURS-10.html
+              - heading "36 Hours in Bar Harbor, Me. - Slide Show" [level=3] [ref=e270]
+              - generic [ref=e275]:
+                - generic [ref=e277]: The New York Times
+                - generic [ref=e279]: https://www.nytimes.com › 20110717-HOURS-10
+            - button "About this result" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+          - generic [ref=e287]:
+            - emphasis [ref=e288]: 36 Hours
+            - text: in
+            - emphasis [ref=e289]: Bar Harbor
+            - text: ", Me. · Facebook · Twitter · Google+ · Email · Share."
+        - generic [ref=e293]:
+          - generic [ref=e296]:
+            - link "An Acadia-to-Zion Guide to Visiting National Parks ... The New York Times https://www.nytimes.com › travel › national-park-visits" [ref=e298] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2025/04/22/travel/national-park-visits.html
+              - heading "An Acadia-to-Zion Guide to Visiting National Parks ..." [level=3] [ref=e299]
+              - generic [ref=e304]:
+                - generic [ref=e306]: The New York Times
+                - generic [ref=e308]: https://www.nytimes.com › travel › national-park-visits
+            - button "About this result" [ref=e309] [cursor=pointer]:
+              - img [ref=e312]
+          - generic [ref=e315]:
+            - generic [ref=e316]: Apr 25, 2025 —
+            - generic [ref=e317]:
+              - text: An
+              - emphasis [ref=e318]: Acadia
+              - text: "-to-Zion Guide to Visiting National Parks in an Uncertain Summer ..."
+              - emphasis [ref=e319]: 36 Hours
+              - text: · Ask Well · The Hunt · Modern Love · Where to Eat · Vows ...
+            - link "Read more" [ref=e320] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2025/04/22/travel/national-park-visits.html#:~:text=An%20Acadia%2Dto%2DZion%20Guide%20to%20Visiting,Parks%20in%20an%20Uncertain%20Summer&text=Firings%2C%20buyouts%20and%20a%20lack
+        - generic [ref=e324]:
+          - generic [ref=e327]:
+            - link "36 Hours in Midcoast Maine The New York Times https://www.nytimes.com › 2012/08/05 › travel › 36-h..." [ref=e329] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2012/08/05/travel/36-hours-in-midcoast-maine.html
+              - heading "36 Hours in Midcoast Maine" [level=3] [ref=e330]
+              - generic [ref=e335]:
+                - generic [ref=e337]: The New York Times
+                - generic [ref=e339]: https://www.nytimes.com › 2012/08/05 › travel › 36-h...
+            - button "About this result" [ref=e340] [cursor=pointer]:
+              - img [ref=e343]
+          - generic [ref=e346]:
+            - generic [ref=e347]: Aug 2, 2012 —
+            - generic [ref=e348]:
+              - emphasis [ref=e349]: 36 Hours
+              - text: in Midcoast Maine · 3 p.m. · 1. MODERN-DAY MILLS · 5 p.m. · 2. SCENIC DETOURS · 7 p.m. · 3. BACKYARD-TO-TABLE · 4. PRODUCE AT THE PUB · 10 a.m.
+            - link "Read more" [ref=e350] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2012/08/05/travel/36-hours-in-midcoast-maine.html#:~:text=36%20Hours%20in%20Midcoast%20Maine&text=3%20p.m.&text=1.%20MODERN%2DDAY%20MILLS&text=5%20p.m.&text=2.%20SCENIC%20DETOURS&text=7%20p.m.&text=3.%20BACKYARD%2DTO%2DTABLE&text=4.%20PRODUCE%20AT%20THE%20PUB&text=10%20a.m.
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - link "Getting Off the Beaten Path at 5 National Parks The New York Times https://www.nytimes.com › 2024/07/02 › travel › natio..." [ref=e359] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2024/07/02/travel/national-parks-backcountry-day-hikes.html
+              - heading "Getting Off the Beaten Path at 5 National Parks" [level=3] [ref=e360]
+              - generic [ref=e365]:
+                - generic [ref=e367]: The New York Times
+                - generic [ref=e369]: https://www.nytimes.com › 2024/07/02 › travel › natio...
+            - button "About this result" [ref=e370] [cursor=pointer]:
+              - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]: Jul 2, 2024 —
+            - generic [ref=e378]:
+              - emphasis [ref=e379]: 36 Hours
+              - text: · Ask Well · The Hunt · Modern Love · Where to Eat · Vows · Social ... This figure-eight trail in
+              - emphasis [ref=e380]: Acadia
+              - text: National Park is family-friendly ...
+            - link "Read more" [ref=e381] [cursor=pointer]:
+              - /url: https://www.nytimes.com/2024/07/02/travel/national-parks-backcountry-day-hikes.html#:~:text=Getting%20Off%20the%20Beaten%20Path&text=This%20figure%2Deight%20trail%20in%20Acadia,great%20blue%20herons%20and%20more.
+        - generic [ref=e385]:
+          - generic [ref=e388]:
+            - link "Mount Desert Island The New York Times https://www.nytimes.com › 1996/08/04 › travel › moun..." [ref=e390] [cursor=pointer]:
+              - /url: https://www.nytimes.com/1996/08/04/travel/mount-desert-island.html
+              - heading "Mount Desert Island" [level=3] [ref=e391]
+              - generic [ref=e396]:
+                - generic [ref=e398]: The New York Times
+                - generic [ref=e400]: https://www.nytimes.com › 1996/08/04 › travel › moun...
+            - button "About this result" [ref=e401] [cursor=pointer]:
+              - img [ref=e404]
+          - generic [ref=e407]:
+            - generic [ref=e408]: Aug 4, 1996 —
+            - generic [ref=e409]:
+              - emphasis [ref=e410]: Bar Harbor
+              - text: ", the commercial center, has more than its share of shops ..."
+              - emphasis [ref=e411]: 36 Hours
+              - text: · Ask Well · The Hunt · Modern Love · Where to Eat · Vows ...
+            - link "Read more" [ref=e412] [cursor=pointer]:
+              - /url: https://www.nytimes.com/1996/08/04/travel/mount-desert-island.html#:~:text=Bar%20Harbor%2C%20the%20commercial%20center%2C,key%20chains%20and%20puffin%20T%2Dshirts.
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - link "AT BAR HARBOR The New York Times https://www.nytimes.com › 1935/07/21 › archives › at-..." [ref=e421] [cursor=pointer]:
+              - /url: https://www.nytimes.com/1935/07/21/archives/at-bar-harbor.html
+              - heading "AT BAR HARBOR" [level=3] [ref=e422]
+              - generic [ref=e427]:
+                - generic [ref=e429]: The New York Times
+                - generic [ref=e431]: https://www.nytimes.com › 1935/07/21 › archives › at-...
+            - button "About this result" [ref=e432] [cursor=pointer]:
+              - img [ref=e435]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - text: AT
+              - emphasis [ref=e440]: BAR HARBOR
+              - text: . Share full article. Special to THE NEW YORK TIMES. July 21 ...
+              - emphasis [ref=e441]: 36 Hours
+              - text: · Ask Well · The Hunt · Modern Love · Where to Eat · Vows · Social Q's ...
+            - link "Read more" [ref=e442] [cursor=pointer]:
+              - /url: https://www.nytimes.com/1935/07/21/archives/at-bar-harbor.html#:~:text=AT%20BAR%20HARBOR,July%2021%2C%201935
+      - generic [ref=e444]:
+        - generic [ref=e449]:
+          - heading "People also search for" [level=2] [ref=e451]
+          - generic [ref=e453]:
+            - link "36 hours acadia bar harbor itinerary" [ref=e458] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=36+hours+acadia+bar+harbor+itinerary&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ1QJ6BAgyEAE
+              - generic [ref=e459]:
+                - generic [ref=e464]: 36 hours acadia bar harbor itinerary
+                - img [ref=e468]
+            - link "36 hours acadia bar harbor map" [ref=e474] [cursor=pointer]:
+              - /url: /search?sca_esv=461cceef532bce02&q=36+hours+acadia+bar+harbor+map&sa=X&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ1QJ6BAgzEAE
+              - generic [ref=e475]:
+                - generic [ref=e480]: 36 hours acadia bar harbor map
+                - img [ref=e484]
+        - navigation [ref=e486]:
+          - heading "Page Navigation" [level=1] [ref=e487]
+          - text: "1"
+          - link "Page 2" [ref=e490] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=10&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAE
+            - text: "2"
+          - link "Page 3" [ref=e492] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=20&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAG
+            - text: "3"
+          - link "Page 4" [ref=e494] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=30&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAI
+            - text: "4"
+          - link "Page 5" [ref=e496] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=40&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAK
+            - text: "5"
+          - link "Page 6" [ref=e498] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=50&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAM
+            - text: "6"
+          - link "Page 7" [ref=e500] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=60&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAO
+            - text: "7"
+          - link "Page 8" [ref=e502] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=70&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAQ
+            - text: "8"
+          - link "Page 9" [ref=e504] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=80&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAS
+            - text: "9"
+          - link "Page 10" [ref=e506] [cursor=pointer]:
+            - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=90&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8tMDegQIKxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e508]:
+            - link "Next" [ref=e509] [cursor=pointer]:
+              - /url: /search?q=site:nytimes.com+%2236+hours%22+(acadia+OR+%22bar+harbor%22)&sca_esv=461cceef532bce02&ei=CL3vaYONAqLcptQPi6iDoQc&start=10&sa=N&sstk=Af77f_dY6W3j_8vmBdY2dCGwIQVUdyZo5vy6XhtPmOzIXC1rerOT3igVZBFBJz_WmThxv9rw13zFN4asseVrVc8Wr9FV7cCxc6RlBA&ved=2ahUKEwiDsY_x5Y6UAxUirokEHQvUIHQQ8NMDegQIKxAW
+              - generic [ref=e511]: Next
+      - navigation
+    - contentinfo [ref=e512]:
+      - heading "Footer Links" [level=1] [ref=e513]
+      - generic [ref=e517]:
+        - generic [ref=e521]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e523] [cursor=pointer]:
+            - generic [ref=e524]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e526]:
+              - text: "-"
+              - generic [ref=e527]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e529] [cursor=pointer]: Update location
+        - generic [ref=e532]:
+          - link "Help" [ref=e533] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e534] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e535] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e536] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

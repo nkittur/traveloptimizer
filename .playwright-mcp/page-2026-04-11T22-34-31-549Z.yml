@@ -1,0 +1,1187 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "FoodSanDiego" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodSanDiego/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 24 Jun 2025
+      - generic [ref=e130]: 2 points (55% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/1ljq6yg
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodSanDiego/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/FoodSanDiego/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "FoodSanDiego" [level=1] [ref=e145]:
+        - link "FoodSanDiego" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/FoodSanDiego/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]:
+          - text: Food San Diego is dedicated towards showcasing food from all over San Diego! Share pictures, reviews, websites, etc. Not just limited to pictures of food, but anything food related in San Diego, California. The official Foodies sub for the
+          - link "r/sandiego" [ref=e153] [cursor=pointer]:
+            - /url: /r/sandiego
+          - text: sub.
+        - paragraph [ref=e154]:
+          - text: Let's talk and discuss why there's nothing good at the airport except corporate garbage, why El Indio doesn't get more credit for inventing the rolled taco or just why all the taco shops around here seem to end in
+          - emphasis [ref=e155]: "\"buerto's\""
+          - text: .
+        - separator [ref=e156]
+        - paragraph [ref=e157]:
+          - strong [ref=e158]: Rules
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - paragraph [ref=e161]: Be friendly, No Jerks.
+          - listitem [ref=e162]:
+            - paragraph [ref=e163]:
+              - text: Overt advertisements are frowned upon and will likely result in a ban. We encourage people to
+              - link "advertise officially with us" [ref=e164] [cursor=pointer]:
+                - /url: https://about.reddit.com/advertise/
+              - text: Let us know of you need help.
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]: Posts must be about San Diego/Tijuana area food or eating in some way. This also includes drinking and beer if the place brews craft beer as well as serves "good eats".
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]:
+              - text: Try to specify
+              - strong [ref=e169]: where
+              - text: the food is from in the comments or title. You can give locations and please not anything that stands out.
+          - listitem [ref=e170]:
+            - paragraph [ref=e171]:
+              - text: Try to specify the
+              - strong [ref=e172]: price
+              - text: in the comments or title.
+          - listitem [ref=e173]:
+            - paragraph [ref=e174]: Food must be either a product, dish served by restaurant, or any other food facility.
+        - paragraph [ref=e175]:
+          - strong [ref=e176]: Related Subs
+        - list [ref=e177]:
+          - listitem [ref=e178]:
+            - paragraph [ref=e179]:
+              - link "/r/Food" [ref=e180] [cursor=pointer]:
+                - /url: /r/Food
+          - listitem [ref=e181]:
+            - paragraph [ref=e182]:
+              - link "r/cooking" [ref=e183] [cursor=pointer]:
+                - /url: /r/cooking
+          - listitem [ref=e184]:
+            - paragraph [ref=e185]:
+              - link "/r/FoodPorn" [ref=e186] [cursor=pointer]:
+                - /url: /r/FoodPorn
+          - listitem [ref=e187]:
+            - paragraph [ref=e188]:
+              - link "/r/SanDiego" [ref=e189] [cursor=pointer]:
+                - /url: /r/SanDiego
+            - separator [ref=e190]
+        - paragraph [ref=e191]:
+          - text: IF you need a reference for what people eat elsewhere in the country
+          - link "go here" [ref=e192] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/shittyfoodporn/
+            - strong [ref=e193]: go here
+          - text: for inspiration.
+        - separator [ref=e194]
+        - paragraph [ref=e195]:
+          - strong [ref=e196]: "Useful Links:"
+        - list [ref=e197]:
+          - listitem [ref=e198]:
+            - link "SD area Burrito Review" [ref=e199] [cursor=pointer]:
+              - /url: http://burritosofsandiego.com
+              - strong [ref=e200]: SD area Burrito Review
+        - paragraph [ref=e201]:
+          - strong [ref=e202]: The Sates Food Network
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - paragraph [ref=e205]:
+              - link "/r/FoodSoCal" [ref=e206] [cursor=pointer]:
+                - /url: /r/FoodSoCal
+          - listitem [ref=e207]:
+            - paragraph [ref=e208]:
+              - link "/r/FoodLosAngeles" [ref=e209] [cursor=pointer]:
+                - /url: /r/FoodLosAngeles
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "/r/FoodSanFrancisco" [ref=e212] [cursor=pointer]:
+                - /url: /r/FoodSanFrancisco
+      - generic [ref=e214]:
+        - text: a community for
+        - time [ref=e215]: 11 years
+    - generic [ref=e217]:
+      - heading "MODERATORS" [level=1] [ref=e219]
+      - list [ref=e220]:
+        - listitem [ref=e221]:
+          - link "message the mods" [ref=e222] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/FoodSanDiego
+    - complementary [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - text: discussions in
+          - link "r/FoodSanDiego" [ref=e228] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/FoodSanDiego/?ref=readnext
+        - navigation [ref=e229]:
+          - generic [ref=e230] [cursor=pointer]: <
+          - generic [ref=e231] [cursor=pointer]: ">"
+        - generic [ref=e233] [cursor=pointer]: X
+      - link "33 · 12 comments We can all start posting some super deals when we come across them." [ref=e235] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/FoodSanDiego/comments/1qupgtq/we_can_all_start_posting_some_super_deals_when_we/?ref=readnext_0
+        - generic [ref=e236]: 33 · 12 comments
+        - generic [ref=e237]: We can all start posting some super deals when we come across them.
+  - main [ref=e238]:
+    - generic [ref=e239]:
+      - link "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities." [ref=e240] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit," [level=2] [ref=e241]
+        - paragraph [ref=e242]: the front page of the internet.
+        - generic [ref=e243]:
+          - generic [ref=e244]: Become a Redditor
+          - paragraph [ref=e245]: and join one of thousands of communities.
+      - link "×" [ref=e246] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e248]:
+      - paragraph
+      - generic [ref=e249]:
+        - button "upvote" [ref=e250] [cursor=pointer]
+        - generic "2" [ref=e251]
+        - button "downvote" [ref=e252] [cursor=pointer]
+      - link [ref=e253] [cursor=pointer]:
+        - /url: /r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - paragraph [ref=e256]:
+            - link "La Jolla Day- Where to hit?" [ref=e257] [cursor=pointer]:
+              - /url: /r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+            - generic "Question, Where can I find?" [ref=e258]
+            - generic [ref=e259]:
+              - text: (
+              - link "self.FoodSanDiego" [ref=e260] [cursor=pointer]:
+                - /url: /r/FoodSanDiego/
+              - text: )
+          - paragraph [ref=e261]:
+            - text: submitted
+            - time [ref=e262]: 9 months ago
+            - text: by
+            - link "yungrimpz" [ref=e263] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/yungrimpz
+        - paragraph [ref=e268]: Spending a day in La Jolla doing the touristy things. Food recs? Coffee? Thinking about going back up for a gorgeous backdrop with dinner but not in the mood for italian or just fine dining (worth it or not?)
+        - list [ref=e269]:
+          - listitem [ref=e270]:
+            - link "29 comments" [ref=e271] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+          - listitem [ref=e272]:
+            - link "share" [ref=e273] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e274]:
+            - link "save" [ref=e275] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e276]:
+            - link "hide" [ref=e279] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e280]:
+            - link "report" [ref=e281] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e282]:
+      - generic [ref=e283]: all 29 comments
+      - generic [ref=e285]:
+        - text: "sorted by:"
+        - generic [ref=e286]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e289] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e290]
+        - generic [ref=e291]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e292]
+          - paragraph [ref=e293]: Post a comment!
+          - generic [ref=e295]: Create an account
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - paragraph
+          - generic [ref=e298]:
+            - button "upvote" [ref=e299] [cursor=pointer]
+            - button "downvote" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - paragraph [ref=e302]:
+              - link "[–]" [ref=e303] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Don_Macaroon" [ref=e304] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Don_Macaroon
+              - text: 14 points
+              - time [ref=e305]: 9 months ago
+            - paragraph [ref=e309]: For the view alone stop by the Cliffhanger Cafe at the Torrey Pines Gliderport.
+            - list [ref=e310]:
+              - listitem [ref=e311]:
+                - link "permalink" [ref=e312] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzlthpa/
+              - listitem [ref=e313]:
+                - link "embed" [ref=e314] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e315]:
+                - link "save" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e317]:
+                - link "report" [ref=e318] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - paragraph
+              - generic [ref=e322]:
+                - button "upvote" [ref=e323] [cursor=pointer]
+                - button "downvote" [ref=e324] [cursor=pointer]
+              - generic [ref=e325]:
+                - paragraph [ref=e326]:
+                  - link "[–]" [ref=e327] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "picklesandgouda" [ref=e328] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/picklesandgouda
+                  - text: 3 points
+                  - time [ref=e329]: 9 months ago
+                - paragraph [ref=e333]: I did that today, and it was so therapeutic.
+                - list [ref=e334]:
+                  - listitem [ref=e335]:
+                    - link "permalink" [ref=e336] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mznhbo4/
+                  - listitem [ref=e337]:
+                    - link "embed" [ref=e338] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e339]:
+                    - link "save" [ref=e340] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e341]:
+                    - link "parent" [ref=e342] [cursor=pointer]:
+                      - /url: "#mzlthpa"
+                  - listitem [ref=e343]:
+                    - link "report" [ref=e344] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e345]:
+              - paragraph
+              - generic [ref=e346]:
+                - button "upvote" [ref=e347] [cursor=pointer]
+                - button "downvote" [ref=e348] [cursor=pointer]
+              - generic [ref=e349]:
+                - paragraph [ref=e350]:
+                  - link "[–]" [ref=e351] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "earlisthecat" [ref=e352] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/earlisthecat
+                  - text: 3 points
+                  - time [ref=e353]: 9 months ago
+                - paragraph [ref=e357]: They also serve food/beer. Walk the trails of Torrey Pines State Park.
+                - list [ref=e358]:
+                  - listitem [ref=e359]:
+                    - link "permalink" [ref=e360] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzpe9o1/
+                  - listitem [ref=e361]:
+                    - link "embed" [ref=e362] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e363]:
+                    - link "save" [ref=e364] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e365]:
+                    - link "parent" [ref=e366] [cursor=pointer]:
+                      - /url: "#mzlthpa"
+                  - listitem [ref=e367]:
+                    - link "report" [ref=e368] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e369]:
+          - paragraph
+          - generic [ref=e370]:
+            - button "upvote" [ref=e371] [cursor=pointer]
+            - button "downvote" [ref=e372] [cursor=pointer]
+          - generic [ref=e373]:
+            - paragraph [ref=e374]:
+              - link "[–]" [ref=e375] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "echopskie1123" [ref=e376] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/echopskie1123
+              - generic [ref=e377]:
+                - text: "["
+                - link "🍰" [ref=e378] [cursor=pointer]:
+                  - /url: /user/echopskie1123
+                - text: "]"
+              - text: 11 points
+              - time [ref=e379]: 9 months ago
+            - paragraph [ref=e383]: Start your morning at Wayfarer
+            - list [ref=e384]:
+              - listitem [ref=e385]:
+                - link "permalink" [ref=e386] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzlq4x1/
+              - listitem [ref=e387]:
+                - link "embed" [ref=e388] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e389]:
+                - link "save" [ref=e390] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e391]:
+                - link "report" [ref=e392] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e395]:
+            - paragraph
+            - generic [ref=e396]:
+              - button "upvote" [ref=e397] [cursor=pointer]
+              - button "downvote" [ref=e398] [cursor=pointer]
+            - generic [ref=e399]:
+              - paragraph [ref=e400]:
+                - link "[–]" [ref=e401] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "TheElbow" [ref=e402] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/TheElbow
+                - text: 9 points
+                - time [ref=e403]: 9 months ago
+              - paragraph [ref=e407]: Get that Wayfarer to go and eat it while sitting on a bench overlooking the water.
+              - list [ref=e408]:
+                - listitem [ref=e409]:
+                  - link "permalink" [ref=e410] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzlrwlh/
+                - listitem [ref=e411]:
+                  - link "embed" [ref=e412] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e413]:
+                  - link "save" [ref=e414] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e415]:
+                  - link "parent" [ref=e416] [cursor=pointer]:
+                    - /url: "#mzlq4x1"
+                - listitem [ref=e417]:
+                  - link "report" [ref=e418] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e421]:
+              - paragraph
+              - generic [ref=e422]:
+                - button "upvote" [ref=e423] [cursor=pointer]
+                - button "downvote" [ref=e424] [cursor=pointer]
+              - generic [ref=e425]:
+                - paragraph [ref=e426]:
+                  - link "[–]" [ref=e427] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Significant_Ad7605" [ref=e428] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Significant_Ad7605
+                  - text: 5 points
+                  - time [ref=e429]: 9 months ago
+                - paragraph [ref=e433]: Calumet Park. Bring a picnic blanket.
+                - list [ref=e434]:
+                  - listitem [ref=e435]:
+                    - link "permalink" [ref=e436] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzm7qss/
+                  - listitem [ref=e437]:
+                    - link "embed" [ref=e438] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e439]:
+                    - link "save" [ref=e440] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e441]:
+                    - link "parent" [ref=e442] [cursor=pointer]:
+                      - /url: "#mzlrwlh"
+                  - listitem [ref=e443]:
+                    - link "report" [ref=e444] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e447]:
+                - paragraph
+                - generic [ref=e448]:
+                  - button "upvote" [ref=e449] [cursor=pointer]
+                  - button "downvote" [ref=e450] [cursor=pointer]
+                - generic [ref=e451]:
+                  - paragraph [ref=e452]:
+                    - link "[–]" [ref=e453] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Afraid_Opportunity_3" [ref=e454] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Afraid_Opportunity_3
+                    - text: 1 point
+                    - time [ref=e455]: 9 months ago
+                  - paragraph [ref=e459]: Staying two blocks from Calumet Park. Hidden gem
+                  - list [ref=e460]:
+                    - listitem [ref=e461]:
+                      - link "permalink" [ref=e462] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mznao6h/
+                    - listitem [ref=e463]:
+                      - link "embed" [ref=e464] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e465]:
+                      - link "save" [ref=e466] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e467]:
+                      - link "parent" [ref=e468] [cursor=pointer]:
+                        - /url: "#mzm7qss"
+                    - listitem [ref=e469]:
+                      - link "report" [ref=e470] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e471]:
+          - paragraph
+          - generic [ref=e472]:
+            - button "upvote" [ref=e473] [cursor=pointer]
+            - button "downvote" [ref=e474] [cursor=pointer]
+          - generic [ref=e475]:
+            - paragraph [ref=e476]:
+              - link "[–]" [ref=e477] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Lumberrmacc" [ref=e478] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Lumberrmacc
+              - text: 3 points
+              - time [ref=e479]: 9 months ago
+            - paragraph [ref=e483]: Pescador fish market is so bomb
+            - list [ref=e484]:
+              - listitem [ref=e485]:
+                - link "permalink" [ref=e486] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzm0p7v/
+              - listitem [ref=e487]:
+                - link "embed" [ref=e488] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e489]:
+                - link "save" [ref=e490] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e491]:
+                - link "report" [ref=e492] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e493]:
+          - paragraph
+          - generic [ref=e494]:
+            - button "upvote" [ref=e495] [cursor=pointer]
+            - button "downvote" [ref=e496] [cursor=pointer]
+          - generic [ref=e497]:
+            - paragraph [ref=e498]:
+              - link "[–]" [ref=e499] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "kelphu" [ref=e500] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/kelphu
+              - text: 5 points
+              - time [ref=e501]: 9 months ago
+            - paragraph [ref=e505]: El pescador fish market. Casual but the food is good for just yourself a fish sandwich to take to the beach or can feed a group and enjoy a pint on the patio.
+            - list [ref=e506]:
+              - listitem [ref=e507]:
+                - link "permalink" [ref=e508] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzm0r8h/
+              - listitem [ref=e509]:
+                - link "embed" [ref=e510] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e511]:
+                - link "save" [ref=e512] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e513]:
+                - link "report" [ref=e514] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e515]:
+          - paragraph
+          - generic [ref=e516]:
+            - button "upvote" [ref=e517] [cursor=pointer]
+            - button "downvote" [ref=e518] [cursor=pointer]
+          - generic [ref=e519]:
+            - paragraph [ref=e520]:
+              - link "[–]" [ref=e521] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "No_Cupcake_484" [ref=e522] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/No_Cupcake_484
+              - text: 3 points
+              - time [ref=e523]: 9 months ago
+            - paragraph [ref=e527]: Birdrock coffee roasters
+            - list [ref=e528]:
+              - listitem [ref=e529]:
+                - link "permalink" [ref=e530] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzmvawd/
+              - listitem [ref=e531]:
+                - link "embed" [ref=e532] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e533]:
+                - link "save" [ref=e534] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e535]:
+                - link "report" [ref=e536] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e537]:
+          - paragraph
+          - generic [ref=e538]:
+            - button "upvote" [ref=e539] [cursor=pointer]
+            - button "downvote" [ref=e540] [cursor=pointer]
+          - generic [ref=e541]:
+            - paragraph [ref=e542]:
+              - link "[–]" [ref=e543] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Gunner_Bat" [ref=e544] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Gunner_Bat
+              - text: 3 points
+              - time [ref=e545]: 9 months ago
+            - paragraph [ref=e549]: Don Carlos is one of the best taco shops in SD - amazing California burrito. As for a dinner type of place there are several but my favorite is Taste of the Himalayas if you like Indian food.
+            - list [ref=e550]:
+              - listitem [ref=e551]:
+                - link "permalink" [ref=e552] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mznbgyl/
+              - listitem [ref=e553]:
+                - link "embed" [ref=e554] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e555]:
+                - link "save" [ref=e556] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e557]:
+                - link "report" [ref=e558] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e559]:
+          - paragraph
+          - generic [ref=e560]:
+            - button "upvote" [ref=e561] [cursor=pointer]
+            - button "downvote" [ref=e562] [cursor=pointer]
+          - generic [ref=e563]:
+            - paragraph [ref=e564]:
+              - link "[–]" [ref=e565] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "sloppytoppelous" [ref=e566] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/sloppytoppelous
+              - text: 2 points
+              - time [ref=e567]: 9 months ago
+            - paragraph [ref=e571]: Grab some gelato at Bobboi and go look at the seals right down the hill at the beach!
+            - list [ref=e572]:
+              - listitem [ref=e573]:
+                - link "permalink" [ref=e574] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzmbzll/
+              - listitem [ref=e575]:
+                - link "embed" [ref=e576] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e577]:
+                - link "save" [ref=e578] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e579]:
+                - link "report" [ref=e580] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e581]:
+          - paragraph
+          - paragraph [ref=e583]:
+            - link "[+]" [ref=e584] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - emphasis [ref=e585]: "[deleted]"
+            - time [ref=e586]: 9 months ago
+            - link "(1 child)" [ref=e587] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e588]:
+          - paragraph
+          - generic [ref=e589]:
+            - button "upvote" [ref=e590] [cursor=pointer]
+            - button "downvote" [ref=e591] [cursor=pointer]
+          - generic [ref=e592]:
+            - paragraph [ref=e593]:
+              - link "[–]" [ref=e594] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mleok" [ref=e595] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mleok
+              - text: 2 points
+              - time [ref=e596]: 9 months ago
+            - paragraph [ref=e600]: For breakfast or lunch, try out Caroline's Seaside Cafe, but the lines can get very long.
+            - list [ref=e601]:
+              - listitem [ref=e602]:
+                - link "permalink" [ref=e603] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzq3jgy/
+              - listitem [ref=e604]:
+                - link "embed" [ref=e605] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e606]:
+                - link "save" [ref=e607] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e608]:
+                - link "report" [ref=e609] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e610]:
+          - paragraph
+          - generic [ref=e611]:
+            - button "upvote" [ref=e612] [cursor=pointer]
+            - button "downvote" [ref=e613] [cursor=pointer]
+          - generic [ref=e614]:
+            - paragraph [ref=e615]:
+              - link "[–]" [ref=e616] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "PMYOURTENDIES" [ref=e617] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/PMYOURTENDIES
+              - text: 3 points
+              - time [ref=e618]: 9 months ago
+            - generic [ref=e621]:
+              - paragraph [ref=e622]: Here are the only places worth going to in La Jolla
+              - paragraph [ref=e623]: "Breakfast: Harrys Coffee Shop"
+              - paragraph [ref=e624]: "Lunch: Girard Gourmet Deli"
+              - paragraph [ref=e625]: "Dinner: Nine Ten"
+            - list [ref=e626]:
+              - listitem [ref=e627]:
+                - link "permalink" [ref=e628] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzmdrva/
+              - listitem [ref=e629]:
+                - link "embed" [ref=e630] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e631]:
+                - link "save" [ref=e632] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e633]:
+                - link "report" [ref=e634] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e635]:
+          - paragraph
+          - generic [ref=e636]:
+            - button "upvote" [ref=e637] [cursor=pointer]
+            - button "downvote" [ref=e638] [cursor=pointer]
+          - generic [ref=e639]:
+            - paragraph [ref=e640]:
+              - link "[–]" [ref=e641] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Significant_Ad7605" [ref=e642] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Significant_Ad7605
+              - text: 1 point
+              - time [ref=e643]: 9 months ago
+            - generic [ref=e646]:
+              - paragraph [ref=e647]: Hit up the lounge room at La Valencia hotel and hope you can get a seat by the huge picture window (no reservations but it’s so lovely) for dinner. Or Sunset wine at We Olive is perfect and hidden and they have light bites. La Corriente or Pescador for easy but delicious food. Bird Rock Coffee is simple & solid and has become as institution in San Diego.
+              - paragraph [ref=e648]: Wayfarer as others have mentioned / they are only open til 3 but do pizza and taco nights. Weekends are cray but highly recommended grabbing a picnic from there (decent caffeinated drinks & beer & wine) and making an afternoon of it at Calumet.
+            - list [ref=e649]:
+              - listitem [ref=e650]:
+                - link "permalink" [ref=e651] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzm998t/
+              - listitem [ref=e652]:
+                - link "embed" [ref=e653] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e654]:
+                - link "save" [ref=e655] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e656]:
+                - link "report" [ref=e657] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e658]:
+          - paragraph
+          - paragraph [ref=e660]:
+            - link "[+]" [ref=e661] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Traveling-Techie" [ref=e662] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Traveling-Techie
+            - text: 1 point
+            - time [ref=e663]: 9 months ago
+            - link "(0 children)" [ref=e664] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e665]:
+          - paragraph
+          - generic [ref=e666]:
+            - button "upvote" [ref=e667] [cursor=pointer]
+            - button "downvote" [ref=e668] [cursor=pointer]
+          - generic [ref=e669]:
+            - paragraph [ref=e670]:
+              - link "[–]" [ref=e671] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "dgstan" [ref=e672] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/dgstan
+              - text: 1 point
+              - time [ref=e673]: 9 months ago
+            - paragraph [ref=e677]: Yes, El Pescador is the best seafood in San Diego.
+            - list [ref=e678]:
+              - listitem [ref=e679]:
+                - link "permalink" [ref=e680] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mznanjz/
+              - listitem [ref=e681]:
+                - link "embed" [ref=e682] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e683]:
+                - link "save" [ref=e684] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e685]:
+                - link "report" [ref=e686] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e687]:
+          - paragraph
+          - generic [ref=e688]:
+            - button "upvote" [ref=e689] [cursor=pointer]
+            - button "downvote" [ref=e690] [cursor=pointer]
+          - generic [ref=e691]:
+            - paragraph [ref=e692]:
+              - link "[–]" [ref=e693] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SassyTravelB" [ref=e694] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SassyTravelB
+              - text: 1 point
+              - time [ref=e695]: 9 months ago
+            - paragraph [ref=e699]: La Jolla Shores beach, Torrey Pines Gliderport, Shore Rider for casual fun beach food and drinks, fine dining recommend high tide dinners at The Marine Room.
+            - list [ref=e700]:
+              - listitem [ref=e701]:
+                - link "permalink" [ref=e702] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/n09p1cr/
+              - listitem [ref=e703]:
+                - link "embed" [ref=e704] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e705]:
+                - link "save" [ref=e706] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e707]:
+                - link "report" [ref=e708] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e709]:
+          - paragraph
+          - generic [ref=e710]:
+            - button "upvote" [ref=e711] [cursor=pointer]
+            - button "downvote" [ref=e712] [cursor=pointer]
+          - generic [ref=e713]:
+            - paragraph [ref=e714]:
+              - link "[–]" [ref=e715] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "rustyshackleford1108" [ref=e716] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/rustyshackleford1108
+              - text: 1 point
+              - time [ref=e717]: 9 months ago
+            - paragraph [ref=e721]: Enjoy, just don't annoy the seal lions (keep your distance)
+            - list [ref=e722]:
+              - listitem [ref=e723]:
+                - link "permalink" [ref=e724] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/n0nl6so/
+              - listitem [ref=e725]:
+                - link "embed" [ref=e726] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e727]:
+                - link "save" [ref=e728] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e729]:
+                - link "report" [ref=e730] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e731]:
+          - paragraph
+          - generic [ref=e732]:
+            - button "upvote" [ref=e733] [cursor=pointer]
+            - button "downvote" [ref=e734] [cursor=pointer]
+          - generic [ref=e735]:
+            - paragraph [ref=e736]:
+              - link "[–]" [ref=e737] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "phua1" [ref=e738] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/phua1
+              - text: 1 point
+              - time [ref=e739]: 9 months ago
+            - paragraph [ref=e743]: There’s a new coffee spot called immersion, it’s close to wayfarer so you could get both
+            - list [ref=e744]:
+              - listitem [ref=e745]:
+                - link "permalink" [ref=e746] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzltxk8/
+              - listitem [ref=e747]:
+                - link "embed" [ref=e748] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e749]:
+                - link "save" [ref=e750] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e751]:
+                - link "report" [ref=e752] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e753]:
+          - paragraph
+          - generic [ref=e754]:
+            - button "upvote" [ref=e755] [cursor=pointer]
+            - button "downvote" [ref=e756] [cursor=pointer]
+          - generic [ref=e757]:
+            - paragraph [ref=e758]:
+              - link "[–]" [ref=e759] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Away_Ad_1784" [ref=e760] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Away_Ad_1784
+              - text: 1 point
+              - time [ref=e761]: 9 months ago
+            - paragraph [ref=e765]: I second this for dinner, the ocean terrace is a little better on the budget then the dining room the bar level serves the same food (which has seating) no better spot to take in the sunset. For coffee I would recommend heading a little farther south to birdrock coffee. Deli-icious is good spot for breakfast and lunch sandwiches. Or honestly what I like to do is hit a local mariscos joint like kikos or El Viejon grab some ceviche and pack that in a cooler for lunch. Enjoy the scene beachfront, good luck with parking don't disregard the side streets.
+            - list [ref=e766]:
+              - listitem [ref=e767]:
+                - link "permalink" [ref=e768] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzluucv/
+              - listitem [ref=e769]:
+                - link "embed" [ref=e770] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e771]:
+                - link "save" [ref=e772] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e773]:
+                - link "report" [ref=e774] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e777]:
+            - paragraph
+            - generic [ref=e778]:
+              - button "upvote" [ref=e779] [cursor=pointer]
+              - button "downvote" [ref=e780] [cursor=pointer]
+            - generic [ref=e781]:
+              - paragraph [ref=e782]:
+                - link "[–]" [ref=e783] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "yungrimpz" [ref=e784] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/yungrimpz
+                - generic [ref=e785]:
+                  - text: "["
+                  - link "S" [ref=e786] [cursor=pointer]:
+                    - /url: /r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e787]: 9 months ago
+              - paragraph [ref=e791]: what do you second for dinner?
+              - list [ref=e792]:
+                - listitem [ref=e793]:
+                  - link "permalink" [ref=e794] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzlxnz5/
+                - listitem [ref=e795]:
+                  - link "embed" [ref=e796] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e797]:
+                  - link "save" [ref=e798] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e799]:
+                  - link "parent" [ref=e800] [cursor=pointer]:
+                    - /url: "#mzluucv"
+                - listitem [ref=e801]:
+                  - link "report" [ref=e802] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e805]:
+              - paragraph
+              - generic [ref=e806]:
+                - button "upvote" [ref=e807] [cursor=pointer]
+                - button "downvote" [ref=e808] [cursor=pointer]
+              - generic [ref=e809]:
+                - paragraph [ref=e810]:
+                  - link "[–]" [ref=e811] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "mleok" [ref=e812] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/mleok
+                  - text: 1 point
+                  - time [ref=e813]: 9 months ago
+                - paragraph [ref=e817]: From the context, I think they're referring to my post about George's by the Cove, which has three levels, the ocean terrace, bar level, and dining room.
+                - list [ref=e818]:
+                  - listitem [ref=e819]:
+                    - link "permalink" [ref=e820] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzq40lp/
+                  - listitem [ref=e821]:
+                    - link "embed" [ref=e822] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e823]:
+                    - link "save" [ref=e824] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e825]:
+                    - link "parent" [ref=e826] [cursor=pointer]:
+                      - /url: "#mzlxnz5"
+                  - listitem [ref=e827]:
+                    - link "report" [ref=e828] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e829]:
+          - paragraph
+          - generic [ref=e830]:
+            - button "upvote" [ref=e831] [cursor=pointer]
+            - button "downvote" [ref=e832] [cursor=pointer]
+          - generic [ref=e833]:
+            - paragraph [ref=e834]:
+              - link "[–]" [ref=e835] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mleok" [ref=e836] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mleok
+              - text: 0 points
+              - time [ref=e837]: 9 months ago
+            - paragraph [ref=e841]: I like George’s by the Cove, not sure if you consider that fine dining.
+            - list [ref=e842]:
+              - listitem [ref=e843]:
+                - link "permalink" [ref=e844] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzls0te/
+              - listitem [ref=e845]:
+                - link "embed" [ref=e846] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e847]:
+                - link "save" [ref=e848] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e849]:
+                - link "report" [ref=e850] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e851]:
+          - paragraph
+          - generic [ref=e852]:
+            - button "upvote" [ref=e853] [cursor=pointer]
+            - button "downvote" [ref=e854] [cursor=pointer]
+          - generic [ref=e855]:
+            - paragraph [ref=e856]:
+              - link "[–]" [ref=e857] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Away_Ad_1784" [ref=e858] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Away_Ad_1784
+              - text: 0 points
+              - time [ref=e859]: 9 months ago
+            - paragraph [ref=e863]: Georges at the cove, for dinner and sunset. It's in an elevated spot overlooking the shores. Admittedly is a bit more expensive than when I worked there (20yrs ago) but San Diego in general is expensive and LA jolla in particular. It's kind of the bel air of SD if you will.
+            - list [ref=e864]:
+              - listitem [ref=e865]:
+                - link "permalink" [ref=e866] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/FoodSanDiego/comments/1ljq6yg/la_jolla_day_where_to_hit/mzm6nsd/
+              - listitem [ref=e867]:
+                - link "embed" [ref=e868] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e869]:
+                - link "save" [ref=e870] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e871]:
+                - link "report" [ref=e872] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e873]:
+    - generic [ref=e874]:
+      - list [ref=e876]:
+        - listitem [ref=e877]: about
+        - listitem [ref=e878]:
+          - link "blog" [ref=e879] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e880]:
+          - link "about" [ref=e881] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e882]:
+          - link "advertising" [ref=e883] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e884]:
+          - link "careers" [ref=e885] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e887]:
+        - listitem [ref=e888]: help
+        - listitem [ref=e889]:
+          - link "site rules" [ref=e890] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e891]:
+          - link "Reddit help center" [ref=e892] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e893]:
+          - link "reddiquette" [ref=e894] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e895]:
+          - link "mod guidelines" [ref=e896] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e897]:
+          - link "contact us" [ref=e898] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e900]:
+        - listitem [ref=e901]: apps & tools
+        - listitem [ref=e902]:
+          - link "Reddit for iPhone" [ref=e903] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e904]:
+          - link "Reddit for Android" [ref=e905] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e906]:
+          - link "mobile website" [ref=e907] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e909]:
+        - listitem [ref=e910]: <3
+        - listitem [ref=e911]:
+          - link "reddit premium" [ref=e912] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e913]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e914] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e915] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e916]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e917]
+  - paragraph [ref=e918]: π

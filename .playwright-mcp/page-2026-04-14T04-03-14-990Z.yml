@@ -1,0 +1,331 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com \"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%2522things%2Bto%2Bdo%2522%2Basheville%2Bsite%253Atimeout.com%2BOR%2Bsite%253Acntraveler.com%2BOR%2Bsite%253Aatlasobscura.com%2BOR%2Bsite%253Aourstate.com&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&aep=1&ntc=1&sa=X&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ2J8OegQIDRAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQtKgLegQIFBAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Short videos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQs6gLegQIEBAB
+              - generic [ref=e93]: Short videos
+          - listitem [ref=e94]:
+            - link "Maps" [ref=e95] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=9fb2dbe6099668d1&output=search&q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e97]: Maps
+          - listitem [ref=e98]:
+            - link "News" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&sa=X&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ0pQJegQIEhAB
+              - generic [ref=e101]: News
+          - listitem [ref=e102]:
+            - link "Videos" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vxYI1tojT_24H7Q4iMwclRG_3bK2ho0KpvBAdhA7W7RKkoDGB8KPfwJKTIeIIKLCSqlGk7Pz_x_q-GnbguBh3CUZsFgEk3omcDBew848iLjG5H9Efb_TFa032v-ak0iAmEug8vXFIMfeMpcsLQFFX4OEAHio-0TDwmf8qw2YlcgI_c0Ew&q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sa=X&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQtKgLegQIExAB
+              - generic [ref=e105]: Videos
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - 'link "The Asheville Bucket List Our State https://www.ourstate.com › ... › Category: Book Review" [ref=e142] [cursor=pointer]':
+                - /url: https://www.ourstate.com/the-asheville-bucket-list/
+                - heading "The Asheville Bucket List" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Our State
+                  - generic [ref=e152]: "https://www.ourstate.com › ... › Category: Book Review"
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Sep 27, 2021 —
+              - generic [ref=e161]:
+                - text: ...
+                - emphasis [ref=e162]: Asheville
+                - text: . As it turns out, I've only ticked off 47 of the quintessential experiences cataloged in 100
+                - emphasis [ref=e163]: Things to Do
+                - text: in
+                - emphasis [ref=e164]: Asheville
+                - text: Before You Die.
+              - link "Read more" [ref=e165] [cursor=pointer]:
+                - /url: https://www.ourstate.com/the-asheville-bucket-list/#:~:text=Asheville.%20As%20it%20turns%20out%2C,in%20Asheville%20Before%20You%20Die.
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - link "23 Cool and Unusual Things to Do in Asheville Atlas Obscura https://www.atlasobscura.com › ... › North Carolina" [ref=e174] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina
+              - heading "23 Cool and Unusual Things to Do in Asheville" [level=3] [ref=e175]
+              - generic [ref=e180]:
+                - generic [ref=e182]: Atlas Obscura
+                - generic [ref=e184]: https://www.atlasobscura.com › ... › North Carolina
+            - button "About this result" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e192]:
+            - text: Discover 23 hidden attractions, cool sights, and unusual
+            - emphasis [ref=e193]: things to do
+            - text: in
+            - emphasis [ref=e194]: Asheville
+            - text: from Helen's Bridge to Moogseum.
+          - link "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.atlasobscura.com" [ref=e197] [cursor=pointer]:
+            - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina
+            - img "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.atlasobscura.com" [ref=e199]
+        - generic [ref=e203]:
+          - generic [ref=e206]:
+            - link "Ultimate Guide To Where To Go, Eat & Sleep in Asheville Time Out https://www.timeout.com › asheville" [ref=e208] [cursor=pointer]:
+              - /url: https://www.timeout.com/asheville
+              - heading "Ultimate Guide To Where To Go, Eat & Sleep in Asheville" [level=3] [ref=e209]
+              - generic [ref=e214]:
+                - generic [ref=e216]: Time Out
+                - generic [ref=e218]: https://www.timeout.com › asheville
+            - button "About this result" [ref=e219] [cursor=pointer]:
+              - img [ref=e222]
+          - generic [ref=e226]:
+            - emphasis [ref=e227]: Asheville
+            - text: is packed with great
+            - emphasis [ref=e228]: things to do
+            - text: and places to go. But where do you begin? Cut through the noise with Time Out's recommendations of the best ...
+          - link "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.timeout.com" [ref=e231] [cursor=pointer]:
+            - /url: https://www.timeout.com/asheville
+            - img "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.timeout.com" [ref=e233]
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - link "How to Support Asheville Post-Hurricane Helene Condé Nast Traveler https://www.cntraveler.com › ... › Destination Guides" [ref=e242] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/things-to-do-asheville-north-carolina
+              - heading "How to Support Asheville Post-Hurricane Helene" [level=3] [ref=e243]
+              - generic [ref=e248]:
+                - generic [ref=e250]: Condé Nast Traveler
+                - generic [ref=e252]: https://www.cntraveler.com › ... › Destination Guides
+            - button "About this result" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]: Nov 21, 2024 —
+            - generic [ref=e261]:
+              - text: The best
+              - emphasis [ref=e262]: things to do
+              - text: in
+              - emphasis [ref=e263]: Asheville
+              - text: .
+              - emphasis [ref=e264]: Asheville
+              - text: is a place where locals and tourists collide in a funky mountain town—where Victorian homes and ...
+            - link "Read more" [ref=e265] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/things-to-do-asheville-north-carolina#:~:text=The%20best%20things%20to%20do,mountain%20town%E2%80%94where%20Victorian%20homes%20and
+        - generic [ref=e269]:
+          - generic [ref=e272]:
+            - link "All Places in Asheville Atlas Obscura https://www.atlasobscura.com › asheville-north-carolina" [ref=e274] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina/places
+              - heading "All Places in Asheville" [level=3] [ref=e275]
+              - generic [ref=e280]:
+                - generic [ref=e282]: Atlas Obscura
+                - generic [ref=e284]: https://www.atlasobscura.com › asheville-north-carolina
+            - button "About this result" [ref=e285] [cursor=pointer]:
+              - img [ref=e288]
+          - generic [ref=e292]:
+            - text: Basilica of Saint Lawrence,
+            - emphasis [ref=e293]: Asheville
+            - text: ... This rare basilica nestled right in downtown
+            - emphasis [ref=e294]: Asheville
+            - text: is an architectural marvel, inside and out. ... Groovy bar.
+        - generic [ref=e298]:
+          - generic [ref=e301]:
+            - link "5 Places Tagged “Explore Asheville” in Asheville Atlas Obscura https://www.atlasobscura.com › things-to-do › explore-..." [ref=e303] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina/explore-asheville
+              - heading "5 Places Tagged “Explore Asheville” in Asheville" [level=3] [ref=e304]
+              - generic [ref=e309]:
+                - generic [ref=e311]: Atlas Obscura
+                - generic [ref=e313]: https://www.atlasobscura.com › things-to-do › explore-...
+            - button "About this result" [ref=e314] [cursor=pointer]:
+              - img [ref=e317]
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - text: Biltmore Estate's Secret Passages · Basilica of Saint Lawrence,
+              - emphasis [ref=e322]: Asheville
+              - text: · Pritchard Park Drum Circle · Folk Art Center · Biltmore Industries Homespun Museum.
+            - link "Read more" [ref=e323] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina/explore-asheville#:~:text=Biltmore%20Estate's%20Secret%20Passages&text=Basilica%20of%20Saint%20Lawrence%2C%20Asheville&text=Pritchard%20Park%20Drum%20Circle&text=Folk%20Art%20Center&text=Biltmore%20Industries%20Homespun%20Museum
+        - generic [ref=e327]:
+          - generic [ref=e330]:
+            - link "The best restaurants in Asheville, North Carolina Time Out https://www.timeout.com › usa › best-restaurants-in-ash..." [ref=e332] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/restaurants/best-restaurants-in-asheville
+              - heading "The best restaurants in Asheville, North Carolina" [level=3] [ref=e333]
+              - generic [ref=e338]:
+                - generic [ref=e340]: Time Out
+                - generic [ref=e342]: https://www.timeout.com › usa › best-restaurants-in-ash...
+            - button "About this result" [ref=e343] [cursor=pointer]:
+              - img [ref=e346]
+          - generic [ref=e349]:
+            - generic [ref=e350]: Sep 24, 2025 —
+            - generic [ref=e351]:
+              - text: "RECOMMENDED: The best"
+              - emphasis [ref=e352]: things to do
+              - text: in
+              - emphasis [ref=e353]: Asheville
+              - text: ", North Carolina. Even though you'll find chefs here who are just as likely to serve foraged ..."
+            - link "Read more" [ref=e354] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/restaurants/best-restaurants-in-asheville#:~:text=RECOMMENDED%3A%20The%20best%20things%20to,as%20likely%20to%20serve%20foraged
+        - generic [ref=e358]:
+          - generic [ref=e361]:
+            - link "5 Places to Experience Unusual Art in Asheville Atlas Obscura https://www.atlasobscura.com › asheville-north-carolina" [ref=e363] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina/art
+              - heading "5 Places to Experience Unusual Art in Asheville" [level=3] [ref=e364]
+              - generic [ref=e369]:
+                - generic [ref=e371]: Atlas Obscura
+                - generic [ref=e373]: https://www.atlasobscura.com › asheville-north-carolina
+            - button "About this result" [ref=e374] [cursor=pointer]:
+              - img [ref=e377]
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - text: Black Mountain College Museum + Arts Center · Haywood Street Fresco · Peace Gardens & Market · Basilica of Saint Lawrence,
+              - emphasis [ref=e382]: Asheville
+              - text: · Folk Art Center · Silver River ...
+            - link "Read more" [ref=e383] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/things-to-do/asheville-north-carolina/art#:~:text=Black%20Mountain%20College%20Museum%20%2B,Arts%20Center&text=Haywood%20Street%20Fresco&text=Peace%20Gardens%20%26%20Market&text=Basilica%20of%20Saint%20Lawrence%2C%20Asheville&text=Folk%20Art%20Center&text=Silver%20River%20Center%20for%20Chair,Caning
+        - generic [ref=e387]:
+          - generic [ref=e390]:
+            - 'link "Asheville: Off the Beaten Path: This mountain town has ... Atlas Obscura https://www.atlasobscura.com › itineraries › asheville-of..." [ref=e392] [cursor=pointer]':
+              - /url: https://www.atlasobscura.com/itineraries/asheville-off-the-beaten-path
+              - 'heading "Asheville: Off the Beaten Path: This mountain town has ..." [level=3] [ref=e393]'
+              - generic [ref=e398]:
+                - generic [ref=e400]: Atlas Obscura
+                - generic [ref=e402]: https://www.atlasobscura.com › itineraries › asheville-of...
+            - button "About this result" [ref=e403] [cursor=pointer]:
+              - img [ref=e406]
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - text: With bustling food, music, and brewery scenes,
+              - emphasis [ref=e411]: Asheville
+              - text: has plenty of attractions—but stick to the downtown area alone, and you're missing half ...
+              - emphasis [ref=e412]: things to do
+              - text: .
+            - link "Read more" [ref=e413] [cursor=pointer]:
+              - /url: https://www.atlasobscura.com/itineraries/asheville-off-the-beaten-path#:~:text=things%20to%20do.%20Descend%201%2C600
+          - link "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.atlasobscura.com" [ref=e416] [cursor=pointer]:
+            - /url: https://www.atlasobscura.com/itineraries/asheville-off-the-beaten-path
+            - img "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.atlasobscura.com" [ref=e418]
+        - generic [ref=e422]:
+          - generic [ref=e425]:
+            - link "Tourism in Asheville these days is like time-traveling to ... Time Out https://www.timeout.com › usa › news › tourism-in-ash..." [ref=e427] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/news/tourism-in-asheville-these-days-is-like-time-traveling-to-2010-and-thats-a-good-thing-111824
+              - heading "Tourism in Asheville these days is like time-traveling to ..." [level=3] [ref=e428]
+              - generic [ref=e433]:
+                - generic [ref=e435]: Time Out
+                - generic [ref=e437]: https://www.timeout.com › usa › news › tourism-in-ash...
+            - button "About this result" [ref=e438] [cursor=pointer]:
+              - img [ref=e441]
+          - generic [ref=e444]:
+            - generic [ref=e445]: Nov 18, 2024 —
+            - generic [ref=e446]:
+              - text: Some tourist attractions are still shuttered, as are an estimated 56 percent of local businesses, according to Explore
+              - emphasis [ref=e447]: Asheville
+              - text: . ...
+              - emphasis [ref=e448]: Things to do
+              - text: .
+            - link "Read more" [ref=e449] [cursor=pointer]:
+              - /url: https://www.timeout.com/usa/news/tourism-in-asheville-these-days-is-like-time-traveling-to-2010-and-thats-a-good-thing-111824#:~:text=Some%20tourist%20attractions%20are%20still,businesses%2C%20according%20to%20Explore%20Asheville.&text=Things%20to%20do
+          - link "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.timeout.com" [ref=e452] [cursor=pointer]:
+            - /url: https://www.timeout.com/usa/news/tourism-in-asheville-these-days-is-like-time-traveling-to-2010-and-thats-a-good-thing-111824
+            - img "\"things to do\" asheville site:timeout.com OR site:cntraveler.com OR site:atlasobscura.com OR site:ourstate.com from www.timeout.com" [ref=e454]
+      - navigation [ref=e457]:
+        - heading "Page Navigation" [level=1] [ref=e458]
+        - text: "1"
+        - link "Page 2" [ref=e461] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=10&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAE
+          - text: "2"
+        - link "Page 3" [ref=e463] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=20&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAG
+          - text: "3"
+        - link "Page 4" [ref=e465] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=30&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAI
+          - text: "4"
+        - link "Page 5" [ref=e467] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=40&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAK
+          - text: "5"
+        - link "Page 6" [ref=e469] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=50&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAM
+          - text: "6"
+        - link "Page 7" [ref=e471] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=60&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAO
+          - text: "7"
+        - link "Page 8" [ref=e473] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=70&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAQ
+          - text: "8"
+        - link "Page 9" [ref=e475] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=80&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAS
+          - text: "9"
+        - link "Page 10" [ref=e477] [cursor=pointer]:
+          - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=90&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8tMDegQIKRAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e479]:
+          - link "Next" [ref=e480] [cursor=pointer]:
+            - /url: /search?q=%22things+to+do%22+asheville+site:timeout.com+OR+site:cntraveler.com+OR+site:atlasobscura.com+OR+site:ourstate.com&sca_esv=9fb2dbe6099668d1&ei=grzdaaPJGM6t5NoPgbjguAE&start=10&sa=N&sstk=Af77f_f_SRoVH5avAP3x-gvPdQGu2AAtATQ-MjKfzqPCr4cSWRUz8LIBW-PoqI6E9VIZDhTK4qf_tjx2HYT0NBk3_lMWppxf0VIrNg&ved=2ahUKEwijkrPtuuyTAxXOFlkFHQEcGBcQ8NMDegQIKRAW
+            - generic [ref=e482]: Next
+      - navigation
+    - contentinfo [ref=e483]:
+      - heading "Footer Links" [level=1] [ref=e484]
+      - generic [ref=e488]:
+        - generic [ref=e492]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e494] [cursor=pointer]:
+            - generic [ref=e495]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e497]:
+              - text: "-"
+              - generic [ref=e498]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e500] [cursor=pointer]: Update location
+        - generic [ref=e503]:
+          - link "Help" [ref=e504] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e505] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e506] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e507] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

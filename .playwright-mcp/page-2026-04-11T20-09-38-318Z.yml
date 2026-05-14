@@ -1,0 +1,1944 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "Barcelona" [ref=e111] [cursor=pointer]:
+        - /url: https://old.reddit.com/
+        - img "Barcelona" [ref=e112]
+      - link "Barcelona" [ref=e113] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "comments" [ref=e116] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: Want to join?
+        - link "Log in" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e120] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e121]:
+    - search [ref=e123]:
+      - textbox "search" [ref=e124]
+      - button "Submit" [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - text: this post was submitted on
+        - time [ref=e129]: 18 May 2017
+      - generic [ref=e130]: 35 points (97% upvoted)
+      - generic [ref=e131]:
+        - text: "shortlink:"
+        - textbox [ref=e132]: https://redd.it/6bwvnk
+    - link "Submit a new link" [ref=e136] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit
+    - link "Submit a new text post" [ref=e141] [cursor=pointer]:
+      - /url: https://old.reddit.com/r/Barcelona/submit?selftext=true
+    - generic [ref=e144]:
+      - heading "Barcelona" [level=1] [ref=e145]:
+        - link "Barcelona" [ref=e146] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/Barcelona/
+      - link "join" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Welcome to the Barcelona Sub-Reddit
+        - heading "Use the weekly Barcelona Weekly Q&A sticky post to ask all your questions about visiting, moving to or just living in Barcelona." [level=3] [ref=e153]
+        - heading "Read the wiki - it's full of tips and advice for visitors and residents, like tourist info, bars (& sports bars) and restaurant recommendations from the locals, and much more. Also, please search older topics." [level=3] [ref=e154]:
+          - text: Read
+          - emphasis [ref=e155]:
+            - link "the wiki" [ref=e156] [cursor=pointer]:
+              - /url: /r/Barcelona/wiki/index
+          - text: "- it's full of tips and advice for visitors and residents, like"
+          - link "tourist info" [ref=e157] [cursor=pointer]:
+            - /url: /r/Barcelona/wiki/visitingbarcelona
+          - text: ","
+          - link "bars (& sports bars)" [ref=e158] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/bars
+          - text: and
+          - link "restaurant recommendations" [ref=e159] [cursor=pointer]:
+            - /url: /r/barcelona/wiki/restaurants
+          - text: from the locals, and much more. Also, please search older topics.
+        - paragraph [ref=e160]:
+          - text: "FC Barcelona posts should go on the separate sub:"
+          - link "r/barca" [ref=e161] [cursor=pointer]:
+            - /url: /r/barca
+        - paragraph [ref=e162]: "In Catalonia:"
+        - paragraph [ref=e163]:
+          - link "r/catalonia (in English)" [ref=e164] [cursor=pointer]:
+            - /url: /r/catalonia
+        - paragraph [ref=e165]:
+          - link "r/catalunya (in Catalan)" [ref=e166] [cursor=pointer]:
+            - /url: /r/Catalunya
+        - paragraph [ref=e167]:
+          - link "r/catalan (about the language)" [ref=e168] [cursor=pointer]:
+            - /url: /r/catalan
+        - paragraph [ref=e169]:
+          - link "r/maresme" [ref=e170] [cursor=pointer]:
+            - /url: /r/maresme
+        - paragraph [ref=e171]:
+          - link "r/santcugat" [ref=e172] [cursor=pointer]:
+            - /url: /r/santcugat
+        - paragraph [ref=e173]:
+          - link "r/girona" [ref=e174] [cursor=pointer]:
+            - /url: /r/girona
+        - paragraph [ref=e175]:
+          - link "r/tarragona" [ref=e176] [cursor=pointer]:
+            - /url: /r/tarragona
+        - paragraph [ref=e177]:
+          - text: Our
+          - link "IRC Channel" [ref=e178] [cursor=pointer]:
+            - /url: https://kiwiirc.com/client/irc.snoonet.org/barcelona
+          - text: Join us!
+        - paragraph [ref=e179]:
+          - text: "Other useful subs :"
+          - link "r/buyandsellbcn" [ref=e180] [cursor=pointer]:
+            - /url: /r/buyandsellbcn
+        - paragraph [ref=e181]:
+          - text: "Events: check out"
+          - link "eventradr.com" [ref=e182] [cursor=pointer]:
+            - /url: http://eventradr.com/
+      - generic [ref=e184]:
+        - text: a community for
+        - time [ref=e185]: 17 years
+    - generic [ref=e187]:
+      - heading "MODERATORS" [level=1] [ref=e189]
+      - list [ref=e190]:
+        - listitem [ref=e191]:
+          - link "message the mods" [ref=e192] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/Barcelona
+    - complementary [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - text: discussions in
+          - link "r/Barcelona" [ref=e198] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/Barcelona/?ref=readnext
+        - navigation [ref=e199]:
+          - generic [ref=e200] [cursor=pointer]: <
+          - generic [ref=e201] [cursor=pointer]: ">"
+        - generic [ref=e203] [cursor=pointer]: X
+      - link "794 · 43 comments incredible that barcelona has a wario next door" [ref=e205] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/Barcelona/comments/1shzywy/incredible_that_barcelona_has_a_wario_next_door/?ref=readnext_0
+        - generic [ref=e206]: 794 · 43 comments
+        - generic [ref=e208]: incredible that barcelona has a wario next door
+  - main [ref=e209]:
+    - generic [ref=e210]:
+      - link "Welcome to Reddit. Where a community about your favorite things is waiting for you. Become a Redditor and subscribe to one of thousands of communities." [ref=e211] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e212]
+        - paragraph [ref=e213]: Where a community about your favorite things is waiting for you.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Become a Redditor
+          - paragraph [ref=e216]: and subscribe to one of thousands of communities.
+      - link "×" [ref=e217] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e219]:
+      - paragraph
+      - generic [ref=e220]:
+        - button "upvote" [ref=e221] [cursor=pointer]
+        - generic "35" [ref=e222]
+        - button "downvote" [ref=e223] [cursor=pointer]
+      - link [ref=e224] [cursor=pointer]:
+        - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - paragraph [ref=e227]:
+            - link "High quality, medium price restaurants with no bullshit?" [ref=e228] [cursor=pointer]:
+              - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+            - generic [ref=e229]:
+              - text: (
+              - link "self.Barcelona" [ref=e230] [cursor=pointer]:
+                - /url: /r/Barcelona/
+              - text: )
+          - paragraph [ref=e231]:
+            - text: submitted
+            - time [ref=e232]: 8 years ago
+            - text: by
+            - link "Mr_B_86" [ref=e233] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/Mr_B_86
+        - generic [ref=e238]:
+          - paragraph [ref=e239]: I am looking for a place to take my mother that will be 'normal people expensive' for food that will make her go 'holy shit this is good'.
+          - paragraph [ref=e240]: I am talking under 100 euros, preferably under 50 per head for the food.
+          - paragraph [ref=e241]: I don't need some posh asshole moving my chair for me or tutting when I use the liver fork to eat my rabbit anus soup.
+          - paragraph [ref=e242]: Great food, nice staff, pleasant location.
+          - paragraph [ref=e243]: Mediterranean food, fish, good country style food, etc. Nothing wanky, I don't need to eat 18 plates of tiny sized portions.
+          - paragraph [ref=e244]: Can one of you fine people help me?
+        - list [ref=e245]:
+          - listitem [ref=e246]:
+            - link "49 comments" [ref=e247] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+          - listitem [ref=e248]:
+            - link "share" [ref=e249] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e250]:
+            - link "save" [ref=e251] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e252]:
+            - link "hide" [ref=e255] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e256]:
+            - link "report" [ref=e257] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e258]:
+      - generic [ref=e259]: all 49 comments
+      - generic [ref=e261]:
+        - text: "sorted by:"
+        - generic [ref=e262]: best
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e265] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e266]
+        - generic [ref=e267]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e268]
+          - paragraph [ref=e269]: Post a comment!
+          - generic [ref=e271]: Create an account
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - paragraph
+          - generic [ref=e274]:
+            - button "upvote" [ref=e275] [cursor=pointer]
+            - button "downvote" [ref=e276] [cursor=pointer]
+          - generic [ref=e277]:
+            - paragraph [ref=e278]:
+              - link "[–]" [ref=e279] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "antonia90" [ref=e280] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/antonia90
+              - text: 15 points
+              - time [ref=e282]: 8 years ago
+            - paragraph [ref=e286]: This is how you make a restaurant suggestions post without being annoying.
+            - list [ref=e287]:
+              - listitem [ref=e288]:
+                - link "permalink" [ref=e289] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrdxre/
+              - listitem [ref=e290]:
+                - link "embed" [ref=e291] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e292]:
+                - link "save" [ref=e293] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e294]:
+                - link "report" [ref=e295] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e296]:
+          - paragraph
+          - generic [ref=e297]:
+            - button "upvote" [ref=e298] [cursor=pointer]
+            - button "downvote" [ref=e299] [cursor=pointer]
+          - generic [ref=e300]:
+            - paragraph [ref=e301]:
+              - link "[–]" [ref=e302] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Noobernoob" [ref=e303] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Noobernoob
+              - text: 4 points
+              - time [ref=e305]: 8 years ago
+            - paragraph [ref=e309]: La Cañota in Poble Sec, (very close to Plaza España) has great reasonably priced tapas and larger plates. They're Tickets little sister with Tickets olive oil and other touches. The atmosphere is fun and staff are great!
+            - list [ref=e310]:
+              - listitem [ref=e311]:
+                - link "permalink" [ref=e312] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqgkkz/
+              - listitem [ref=e313]:
+                - link "embed" [ref=e314] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e315]:
+                - link "save" [ref=e316] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e317]:
+                - link "report" [ref=e318] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e319]:
+          - paragraph
+          - generic [ref=e320]:
+            - button "upvote" [ref=e321] [cursor=pointer]
+            - button "downvote" [ref=e322] [cursor=pointer]
+          - generic [ref=e323]:
+            - paragraph [ref=e324]:
+              - link "[–]" [ref=e325] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "AFDIT" [ref=e326] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/AFDIT
+              - text: 3 points
+              - time [ref=e328]: 8 years ago
+            - generic [ref=e331]:
+              - paragraph [ref=e332]:
+                - text: I created this map last year(?) with a filter for restaurants, cafes and bars at each price point
+                - link "https://www.google.es/maps/@41.389439,2.154374,14z/data=!3m1!4b1!4m2!6m1!1s1bP-3nnx1mrI0T1jNuxoprTb5p1Q?hl=en" [ref=e333] [cursor=pointer]:
+                  - /url: https://www.google.es/maps/@41.389439,2.154374,14z/data=!3m1!4b1!4m2!6m1!1s1bP-3nnx1mrI0T1jNuxoprTb5p1Q?hl=en
+              - paragraph [ref=e334]: Just untick what you aren't interested in to find some good options.
+            - list [ref=e335]:
+              - listitem [ref=e336]:
+                - link "permalink" [ref=e337] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrbh5h/
+              - listitem [ref=e338]:
+                - link "embed" [ref=e339] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e340]:
+                - link "save" [ref=e341] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e342]:
+                - link "report" [ref=e343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e344]:
+          - paragraph
+          - generic [ref=e345]:
+            - button "upvote" [ref=e346] [cursor=pointer]
+            - button "downvote" [ref=e347] [cursor=pointer]
+          - generic [ref=e348]:
+            - paragraph [ref=e349]:
+              - link "[–]" [ref=e350] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TheCrazyOsbourne" [ref=e351] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TheCrazyOsbourne
+              - text: 3 points
+              - time [ref=e353]: 8 years ago
+            - paragraph [ref=e357]: For traditional Catalan food I recommend "Julivert Meu". Absolutely delicious and the restaurant is decorated like a rustic country house. If you want your belly to explode, you will spend around 30/40 euros per person.
+            - list [ref=e358]:
+              - listitem [ref=e359]:
+                - link "permalink" [ref=e360] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrcllk/
+              - listitem [ref=e361]:
+                - link "embed" [ref=e362] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e363]:
+                - link "save" [ref=e364] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e365]:
+                - link "report" [ref=e366] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e367]:
+          - paragraph
+          - generic [ref=e368]:
+            - paragraph [ref=e369]:
+              - link "[–]" [ref=e370] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - emphasis [ref=e371]: "[deleted]"
+              - time [ref=e372]: 8 years ago
+              - time [ref=e373]: "*"
+            - paragraph [ref=e377]: "[deleted]"
+            - list
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - paragraph
+              - generic [ref=e381]:
+                - button "upvote" [ref=e382] [cursor=pointer]
+                - button "downvote" [ref=e383] [cursor=pointer]
+              - generic [ref=e384]:
+                - paragraph [ref=e385]:
+                  - link "[–]" [ref=e386] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Mr_B_86" [ref=e387] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Mr_B_86
+                  - generic [ref=e389]:
+                    - text: "["
+                    - link "S" [ref=e390] [cursor=pointer]:
+                      - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                    - text: "]"
+                  - text: 8 points
+                  - time [ref=e391]: 8 years ago
+                - generic [ref=e394]:
+                  - paragraph [ref=e395]: The on-line menu has no prices, this disturbs me...
+                  - paragraph [ref=e396]: You ever been to the place next door?
+                - list [ref=e397]:
+                  - listitem [ref=e398]:
+                    - link "permalink" [ref=e399] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq4iip/
+                  - listitem [ref=e400]:
+                    - link "embed" [ref=e401] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e402]:
+                    - link "save" [ref=e403] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e404]:
+                    - link "report" [ref=e405] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e408]:
+                - paragraph
+                - generic [ref=e409]:
+                  - button "upvote" [ref=e410] [cursor=pointer]
+                  - button "downvote" [ref=e411] [cursor=pointer]
+                - generic [ref=e412]:
+                  - paragraph [ref=e413]:
+                    - link "[–]" [ref=e414] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "ExpatriadaUE" [ref=e415] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/ExpatriadaUE
+                    - text: 2 points
+                    - time [ref=e416]: 8 years ago
+                  - paragraph [ref=e420]: La taberna del cura? I've been there a few times, it's a great place to bring your parents.
+                  - list [ref=e421]:
+                    - listitem [ref=e422]:
+                      - link "permalink" [ref=e423] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq7nt6/
+                    - listitem [ref=e424]:
+                      - link "embed" [ref=e425] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e426]:
+                      - link "save" [ref=e427] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e428]:
+                      - link "parent" [ref=e429] [cursor=pointer]:
+                        - /url: "#dhq4iip"
+                    - listitem [ref=e430]:
+                      - link "report" [ref=e431] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                - generic [ref=e434]:
+                  - paragraph
+                  - generic [ref=e435]:
+                    - button "upvote" [ref=e436] [cursor=pointer]
+                    - button "downvote" [ref=e437] [cursor=pointer]
+                  - generic [ref=e438]:
+                    - paragraph [ref=e439]:
+                      - link "[–]" [ref=e440] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Mr_B_86" [ref=e441] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Mr_B_86
+                      - generic [ref=e443]:
+                        - text: "["
+                        - link "S" [ref=e444] [cursor=pointer]:
+                          - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                        - text: "]"
+                      - text: 2 points
+                      - time [ref=e445]: 8 years ago
+                    - paragraph [ref=e449]: That's the one
+                    - list [ref=e450]:
+                      - listitem [ref=e451]:
+                        - link "permalink" [ref=e452] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq8efq/
+                      - listitem [ref=e453]:
+                        - link "embed" [ref=e454] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e455]:
+                        - link "save" [ref=e456] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e457]:
+                        - link "parent" [ref=e458] [cursor=pointer]:
+                          - /url: "#dhq7nt6"
+                      - listitem [ref=e459]:
+                        - link "report" [ref=e460] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e462]:
+                    - generic [ref=e463]:
+                      - paragraph
+                      - generic [ref=e464]:
+                        - button "upvote" [ref=e465] [cursor=pointer]
+                        - button "downvote" [ref=e466] [cursor=pointer]
+                      - generic [ref=e467]:
+                        - paragraph [ref=e468]:
+                          - link "[–]" [ref=e469] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "ExpatriadaUE" [ref=e470] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/ExpatriadaUE
+                          - text: 1 point
+                          - time [ref=e471]: 8 years ago
+                        - paragraph [ref=e475]: Another favourite of mine in Gracia is La Panxolina, next to plaça Rovira i Trias. They also have La panxa del bisbe in the same neighbourhood. Both have great food tapas style at very reasonable prices
+                        - list [ref=e476]:
+                          - listitem [ref=e477]:
+                            - link "permalink" [ref=e478] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqh4wf/
+                          - listitem [ref=e479]:
+                            - link "embed" [ref=e480] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e481]:
+                            - link "save" [ref=e482] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e483]:
+                            - link "parent" [ref=e484] [cursor=pointer]:
+                              - /url: "#dhq8efq"
+                          - listitem [ref=e485]:
+                            - link "report" [ref=e486] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                    - generic [ref=e487]:
+                      - paragraph
+                      - generic [ref=e488]:
+                        - button "upvote" [ref=e489] [cursor=pointer]
+                        - button "downvote" [ref=e490] [cursor=pointer]
+                      - generic [ref=e491]:
+                        - paragraph [ref=e492]:
+                          - link "[–]" [ref=e493] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "feelsgoooodman" [ref=e494] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/feelsgoooodman
+                          - text: 1 point
+                          - time [ref=e496]: 8 years ago
+                        - paragraph [ref=e500]: it's nothing special though
+                        - list [ref=e501]:
+                          - listitem [ref=e502]:
+                            - link "permalink" [ref=e503] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrege0/
+                          - listitem [ref=e504]:
+                            - link "embed" [ref=e505] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e506]:
+                            - link "save" [ref=e507] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e508]:
+                            - link "parent" [ref=e509] [cursor=pointer]:
+                              - /url: "#dhq8efq"
+                          - listitem [ref=e510]:
+                            - link "report" [ref=e511] [cursor=pointer]:
+                              - /url: javascript:void(0)
+            - generic [ref=e512]:
+              - paragraph
+              - generic [ref=e513]:
+                - button "upvote" [ref=e514] [cursor=pointer]
+                - button "downvote" [ref=e515] [cursor=pointer]
+              - generic [ref=e516]:
+                - paragraph [ref=e517]:
+                  - link "[–]" [ref=e518] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "AFDIT" [ref=e519] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/AFDIT
+                  - text: 7 points
+                  - time [ref=e521]: 8 years ago
+                - paragraph [ref=e525]: It can be very expensive. I went for lunch with my SO and it was €80 for 2 tapas and 2 glasses of wine
+                - list [ref=e526]:
+                  - listitem [ref=e527]:
+                    - link "permalink" [ref=e528] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq6s8x/
+                  - listitem [ref=e529]:
+                    - link "embed" [ref=e530] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e531]:
+                    - link "save" [ref=e532] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e533]:
+                    - link "report" [ref=e534] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e537]:
+                - paragraph
+                - generic [ref=e538]:
+                  - paragraph [ref=e539]:
+                    - link "[–]" [ref=e540] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - emphasis [ref=e541]: "[deleted]"
+                    - time [ref=e542]: 8 years ago
+                    - time [ref=e543]: "*"
+                  - paragraph [ref=e547]: "[deleted]"
+                  - list
+                - generic [ref=e550]:
+                  - paragraph
+                  - generic [ref=e551]:
+                    - button "upvote" [ref=e552] [cursor=pointer]
+                    - button "downvote" [ref=e553] [cursor=pointer]
+                  - generic [ref=e554]:
+                    - paragraph [ref=e555]:
+                      - link "[–]" [ref=e556] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "antonia90" [ref=e557] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/antonia90
+                      - text: 10 points
+                      - time [ref=e559]: 8 years ago
+                    - paragraph [ref=e563]: Human liver.
+                    - list [ref=e564]:
+                      - listitem [ref=e565]:
+                        - link "permalink" [ref=e566] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrdwgk/
+                      - listitem [ref=e567]:
+                        - link "embed" [ref=e568] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e569]:
+                        - link "save" [ref=e570] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e571]:
+                        - link "report" [ref=e572] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e573]:
+              - paragraph
+              - generic [ref=e574]:
+                - button "upvote" [ref=e575] [cursor=pointer]
+                - button "downvote" [ref=e576] [cursor=pointer]
+              - generic [ref=e577]:
+                - paragraph [ref=e578]:
+                  - link "[–]" [ref=e579] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Noobernoob" [ref=e580] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Noobernoob
+                  - text: 4 points
+                  - time [ref=e582]: 8 years ago
+                - paragraph [ref=e586]: That's super expensive!
+                - list [ref=e587]:
+                  - listitem [ref=e588]:
+                    - link "permalink" [ref=e589] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqgukh/
+                  - listitem [ref=e590]:
+                    - link "embed" [ref=e591] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e592]:
+                    - link "save" [ref=e593] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e594]:
+                    - link "report" [ref=e595] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e596]:
+          - paragraph
+          - generic [ref=e597]:
+            - button "upvote" [ref=e598] [cursor=pointer]
+            - button "downvote" [ref=e599] [cursor=pointer]
+          - generic [ref=e600]:
+            - paragraph [ref=e601]:
+              - link "[–]" [ref=e602] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "jordinl" [ref=e603] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/jordinl
+              - text: 2 points
+              - time [ref=e605]: 8 years ago
+            - paragraph [ref=e609]:
+              - text: I have even a cheaper option for you.
+              - link "Flamant" [ref=e610] [cursor=pointer]:
+                - /url: http://www.grupandilana.com/es/restaurantes/flamant
+              - text: in Enric Granados. It's fancy without being posh and the food is good.
+            - list [ref=e611]:
+              - listitem [ref=e612]:
+                - link "permalink" [ref=e613] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq6jou/
+              - listitem [ref=e614]:
+                - link "embed" [ref=e615] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e616]:
+                - link "save" [ref=e617] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e618]:
+                - link "report" [ref=e619] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e622]:
+            - paragraph
+            - generic [ref=e623]:
+              - button "upvote" [ref=e624] [cursor=pointer]
+              - button "downvote" [ref=e625] [cursor=pointer]
+            - generic [ref=e626]:
+              - paragraph [ref=e627]:
+                - link "[–]" [ref=e628] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Mr_B_86" [ref=e629] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Mr_B_86
+                - generic [ref=e631]:
+                  - text: "["
+                  - link "S" [ref=e632] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e633]: 8 years ago
+              - paragraph [ref=e637]: This seems cheap! Nice stuff?
+              - list [ref=e638]:
+                - listitem [ref=e639]:
+                  - link "permalink" [ref=e640] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq6qv7/
+                - listitem [ref=e641]:
+                  - link "embed" [ref=e642] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e643]:
+                  - link "save" [ref=e644] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e645]:
+                  - link "parent" [ref=e646] [cursor=pointer]:
+                    - /url: "#dhq6jou"
+                - listitem [ref=e647]:
+                  - link "report" [ref=e648] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e650]:
+              - generic [ref=e651]:
+                - paragraph
+                - generic [ref=e652]:
+                  - button "upvote" [ref=e653] [cursor=pointer]
+                  - button "downvote" [ref=e654] [cursor=pointer]
+                - generic [ref=e655]:
+                  - paragraph [ref=e656]:
+                    - link "[–]" [ref=e657] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "jordinl" [ref=e658] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/jordinl
+                    - text: 1 point
+                    - time [ref=e660]: 8 years ago
+                  - paragraph [ref=e664]: I like it, I would definitely go back there. It has mixed reviews on TripAdvisor though
+                  - list [ref=e665]:
+                    - listitem [ref=e666]:
+                      - link "permalink" [ref=e667] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqegoc/
+                    - listitem [ref=e668]:
+                      - link "embed" [ref=e669] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e670]:
+                      - link "save" [ref=e671] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e672]:
+                      - link "parent" [ref=e673] [cursor=pointer]:
+                        - /url: "#dhq6qv7"
+                    - listitem [ref=e674]:
+                      - link "report" [ref=e675] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - generic [ref=e676]:
+                - paragraph
+                - generic [ref=e677]:
+                  - button "upvote" [ref=e678] [cursor=pointer]
+                  - button "downvote" [ref=e679] [cursor=pointer]
+                - generic [ref=e680]:
+                  - paragraph [ref=e681]:
+                    - link "[–]" [ref=e682] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] 1 point"
+                    - time [ref=e683]: 8 years ago
+                  - paragraph [ref=e687]: I go there a fair bit, it's a chain, the food is good, but the room is very nice
+                  - list [ref=e688]:
+                    - listitem [ref=e689]:
+                      - link "permalink" [ref=e690] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqihyc/
+                    - listitem [ref=e691]:
+                      - link "embed" [ref=e692] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e693]:
+                      - link "save" [ref=e694] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e695]:
+                      - link "parent" [ref=e696] [cursor=pointer]:
+                        - /url: "#dhq6qv7"
+                    - listitem [ref=e697]:
+                      - link "report" [ref=e698] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e699]:
+          - paragraph
+          - generic [ref=e700]:
+            - button "upvote" [ref=e701] [cursor=pointer]
+            - button "downvote" [ref=e702] [cursor=pointer]
+          - generic [ref=e703]:
+            - paragraph [ref=e704]:
+              - link "[–]" [ref=e705] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "nick_mick" [ref=e706] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/nick_mick
+              - text: 2 points
+              - time [ref=e708]: 8 years ago
+            - paragraph [ref=e712]:
+              - text: Can Pineda! Very good food quality. And their Foie gras is revelation!
+              - link "https://goo.gl/maps/EVgqAEh3FKN2" [ref=e713] [cursor=pointer]:
+                - /url: https://goo.gl/maps/EVgqAEh3FKN2
+            - list [ref=e714]:
+              - listitem [ref=e715]:
+                - link "permalink" [ref=e716] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqkxwv/
+              - listitem [ref=e717]:
+                - link "embed" [ref=e718] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e719]:
+                - link "save" [ref=e720] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e721]:
+                - link "report" [ref=e722] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e725]:
+            - paragraph
+            - generic [ref=e726]:
+              - button "upvote" [ref=e727] [cursor=pointer]
+              - button "downvote" [ref=e728] [cursor=pointer]
+            - generic [ref=e729]:
+              - paragraph [ref=e730]:
+                - link "[–]" [ref=e731] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: "[deleted] 1 point"
+                - time [ref=e732]: 8 years ago
+              - paragraph [ref=e736]: This was recommended to me by the French consul in Barcelona on a beach in Menorca. I still haven't been. It's meant to be v good.
+              - list [ref=e737]:
+                - listitem [ref=e738]:
+                  - link "permalink" [ref=e739] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhr9lr4/
+                - listitem [ref=e740]:
+                  - link "embed" [ref=e741] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e742]:
+                  - link "save" [ref=e743] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e744]:
+                  - link "parent" [ref=e745] [cursor=pointer]:
+                    - /url: "#dhqkxwv"
+                - listitem [ref=e746]:
+                  - link "report" [ref=e747] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e748]:
+          - paragraph
+          - generic [ref=e749]:
+            - button "upvote" [ref=e750] [cursor=pointer]
+            - button "downvote" [ref=e751] [cursor=pointer]
+          - generic [ref=e752]:
+            - paragraph [ref=e753]:
+              - link "[–]" [ref=e754] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "maskfewer" [ref=e755] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/maskfewer
+              - text: 3 points
+              - time [ref=e757]: 8 years ago
+            - generic [ref=e760]:
+              - paragraph [ref=e761]: I can advice Somodo in Gracia. Japanese Mediterranean fusion but not too fancy and just really good. They have 2 set menu's that are well worth the price. The service can be a bit awkward at times and the place is pretty small but I quite like that.
+              - paragraph [ref=e762]:
+                - link "https://www.tripadvisor.com/Restaurant_Review-g187497-d2390262-Reviews-Somodo-Barcelona_Catalonia.html" [ref=e763] [cursor=pointer]:
+                  - /url: https://www.tripadvisor.com/Restaurant_Review-g187497-d2390262-Reviews-Somodo-Barcelona_Catalonia.html
+            - list [ref=e764]:
+              - listitem [ref=e765]:
+                - link "permalink" [ref=e766] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhq5ixz/
+              - listitem [ref=e767]:
+                - link "embed" [ref=e768] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e769]:
+                - link "save" [ref=e770] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e771]:
+                - link "report" [ref=e772] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e773]:
+          - paragraph
+          - generic [ref=e774]:
+            - button "upvote" [ref=e775] [cursor=pointer]
+            - button "downvote" [ref=e776] [cursor=pointer]
+          - generic [ref=e777]:
+            - paragraph [ref=e778]:
+              - link "[–]" [ref=e779] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Geffo" [ref=e780] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Geffo
+              - text: 1 point
+              - time [ref=e782]: 8 years ago
+            - paragraph [ref=e786]: Gilda by Belgious in the Gothic Quarter is very low key, very tasty, and very inexpensive. I've been to Barcelona twice and go there three times each trip. Make a reservation because the dining room is small or just sit at the bar and meet the owner who likes to chat people up.
+            - list [ref=e787]:
+              - listitem [ref=e788]:
+                - link "permalink" [ref=e789] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqe191/
+              - listitem [ref=e790]:
+                - link "embed" [ref=e791] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e792]:
+                - link "save" [ref=e793] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e794]:
+                - link "report" [ref=e795] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e797]:
+            - generic [ref=e798]:
+              - paragraph
+              - generic [ref=e799]:
+                - button "upvote" [ref=e800] [cursor=pointer]
+                - button "downvote" [ref=e801] [cursor=pointer]
+              - generic [ref=e802]:
+                - paragraph [ref=e803]:
+                  - link "[–]" [ref=e804] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "feelsgoooodman" [ref=e805] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/feelsgoooodman
+                  - text: 3 points
+                  - time [ref=e807]: 8 years ago
+                  - time [ref=e808]: "*"
+                - paragraph [ref=e812]: I went there because of their high ranking on tripadvisor and was disappointed. They serve regular frozen fries, I was expecting homemade fries, which is commonplace in Belgium. Duck magret was disappointing as well. I mean the restaurant is fine for Barcelona, but it's just that tripadvisor rankings can be just wrong sometimes.
+                - list [ref=e813]:
+                  - listitem [ref=e814]:
+                    - link "permalink" [ref=e815] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrel6k/
+                  - listitem [ref=e816]:
+                    - link "embed" [ref=e817] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e818]:
+                    - link "save" [ref=e819] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e820]:
+                    - link "parent" [ref=e821] [cursor=pointer]:
+                      - /url: "#dhqe191"
+                  - listitem [ref=e822]:
+                    - link "report" [ref=e823] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e825]:
+                - generic [ref=e826]:
+                  - paragraph
+                  - generic [ref=e827]:
+                    - button "upvote" [ref=e828] [cursor=pointer]
+                    - button "downvote" [ref=e829] [cursor=pointer]
+                  - generic [ref=e830]:
+                    - paragraph [ref=e831]:
+                      - link "[–]" [ref=e832] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - text: "[deleted] 2 points"
+                      - time [ref=e833]: 8 years ago
+                    - paragraph [ref=e837]: Tripadvisor is the worst because it's full of reviews from people who know NOTHING about food. I always filter out Tripadvisor/El Tenedor etc when looking for restaurant reviews.
+                    - list [ref=e838]:
+                      - listitem [ref=e839]:
+                        - link "permalink" [ref=e840] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhri7ed/
+                      - listitem [ref=e841]:
+                        - link "embed" [ref=e842] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e843]:
+                        - link "save" [ref=e844] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e845]:
+                        - link "parent" [ref=e846] [cursor=pointer]:
+                          - /url: "#dhrel6k"
+                      - listitem [ref=e847]:
+                        - link "report" [ref=e848] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e850]:
+                    - generic [ref=e851]:
+                      - paragraph
+                      - generic [ref=e852]:
+                        - button "upvote" [ref=e853] [cursor=pointer]
+                        - button "downvote" [ref=e854] [cursor=pointer]
+                      - generic [ref=e855]:
+                        - paragraph [ref=e856]:
+                          - link "[–]" [ref=e857] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "antonia90" [ref=e858] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/antonia90
+                          - text: 1 point
+                          - time [ref=e860]: 8 years ago
+                        - paragraph [ref=e864]: The most annoying are the people impressed by big portions.
+                        - list [ref=e865]:
+                          - listitem [ref=e866]:
+                            - link "permalink" [ref=e867] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhs4mxs/
+                          - listitem [ref=e868]:
+                            - link "embed" [ref=e869] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e870]:
+                            - link "save" [ref=e871] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e872]:
+                            - link "parent" [ref=e873] [cursor=pointer]:
+                              - /url: "#dhri7ed"
+                          - listitem [ref=e874]:
+                            - link "report" [ref=e875] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                    - generic [ref=e876]:
+                      - paragraph
+                      - generic [ref=e877]:
+                        - button "upvote" [ref=e878] [cursor=pointer]
+                        - button "downvote" [ref=e879] [cursor=pointer]
+                      - generic [ref=e880]:
+                        - paragraph [ref=e881]:
+                          - link "[–]" [ref=e882] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "feelsgoooodman" [ref=e883] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/feelsgoooodman
+                          - text: 1 point
+                          - time [ref=e885]: 8 years ago
+                        - paragraph [ref=e889]: Do you use other websites?
+                        - list [ref=e890]:
+                          - listitem [ref=e891]:
+                            - link "permalink" [ref=e892] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhyvg57/
+                          - listitem [ref=e893]:
+                            - link "embed" [ref=e894] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e895]:
+                            - link "save" [ref=e896] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e897]:
+                            - link "parent" [ref=e898] [cursor=pointer]:
+                              - /url: "#dhri7ed"
+                          - listitem [ref=e899]:
+                            - link "report" [ref=e900] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                      - generic [ref=e903]:
+                        - paragraph
+                        - generic [ref=e904]:
+                          - button "upvote" [ref=e905] [cursor=pointer]
+                          - button "downvote" [ref=e906] [cursor=pointer]
+                        - generic [ref=e907]:
+                          - paragraph [ref=e908]:
+                            - link "[–]" [ref=e909] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - text: "[deleted] 2 points"
+                            - time [ref=e910]: 8 years ago
+                          - generic [ref=e913]:
+                            - paragraph [ref=e914]: Time Out can be OK. In general I'd rather trust a professional magazine/newspaper review or obviously someone recommending a place on here. But pretty much all the aggregators of customer reviews nowadays are either (a) owned by TripAdvisor, Facebook or Google or (b) not used enough to be useful.
+                            - paragraph [ref=e915]: How about you?
+                          - list [ref=e916]:
+                            - listitem [ref=e917]:
+                              - link "permalink" [ref=e918] [cursor=pointer]:
+                                - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhyx0h1/
+                            - listitem [ref=e919]:
+                              - link "embed" [ref=e920] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e921]:
+                              - link "save" [ref=e922] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e923]:
+                              - link "parent" [ref=e924] [cursor=pointer]:
+                                - /url: "#dhyvg57"
+                            - listitem [ref=e925]:
+                              - link "report" [ref=e926] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                        - generic [ref=e929]:
+                          - paragraph
+                          - generic [ref=e930]:
+                            - button "upvote" [ref=e931] [cursor=pointer]
+                            - button "downvote" [ref=e932] [cursor=pointer]
+                          - generic [ref=e933]:
+                            - paragraph [ref=e934]:
+                              - link "[–]" [ref=e935] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                              - link "feelsgoooodman" [ref=e936] [cursor=pointer]:
+                                - /url: https://old.reddit.com/user/feelsgoooodman
+                              - text: 2 points
+                              - time [ref=e938]: 8 years ago
+                            - generic [ref=e941]:
+                              - paragraph [ref=e942]: or (c) gamed with fake reviews
+                              - paragraph [ref=e943]: I actually only use tripadvisor... I should step up my game
+                            - list [ref=e944]:
+                              - listitem [ref=e945]:
+                                - link "permalink" [ref=e946] [cursor=pointer]:
+                                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhyys7v/
+                              - listitem [ref=e947]:
+                                - link "embed" [ref=e948] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e949]:
+                                - link "save" [ref=e950] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e951]:
+                                - link "parent" [ref=e952] [cursor=pointer]:
+                                  - /url: "#dhyx0h1"
+                              - listitem [ref=e953]:
+                                - link "report" [ref=e954] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                - generic [ref=e955]:
+                  - paragraph
+                  - generic [ref=e956]:
+                    - button "upvote" [ref=e957] [cursor=pointer]
+                    - button "downvote" [ref=e958] [cursor=pointer]
+                  - generic [ref=e959]:
+                    - paragraph [ref=e960]:
+                      - link "[–]" [ref=e961] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Geffo" [ref=e962] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Geffo
+                      - text: 1 point
+                      - time [ref=e964]: 8 years ago
+                    - paragraph [ref=e968]: I've had great paella (I learned about the place because a cab driver dropped me off nearby and said they were good) and almost all of the small plates have been good. Each chicken and beef entree I've tried there were good. And the desserts are all pretty exquisite. I was disappointed in the fried prawns that were highly touted on Trip Advisor, mine were dry. They do have the best caprese salad I've had.
+                    - list [ref=e969]:
+                      - listitem [ref=e970]:
+                        - link "permalink" [ref=e971] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhruqu3/
+                      - listitem [ref=e972]:
+                        - link "embed" [ref=e973] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e974]:
+                        - link "save" [ref=e975] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e976]:
+                        - link "parent" [ref=e977] [cursor=pointer]:
+                          - /url: "#dhrel6k"
+                      - listitem [ref=e978]:
+                        - link "report" [ref=e979] [cursor=pointer]:
+                          - /url: javascript:void(0)
+            - generic [ref=e980]:
+              - paragraph
+              - generic [ref=e981]:
+                - paragraph [ref=e982]:
+                  - link "[–]" [ref=e983] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - emphasis [ref=e984]: "[deleted]"
+                  - time [ref=e985]: 8 years ago
+                - paragraph [ref=e989]: "[deleted]"
+                - list
+              - generic [ref=e992]:
+                - paragraph
+                - generic [ref=e993]:
+                  - button "upvote" [ref=e994] [cursor=pointer]
+                  - button "downvote" [ref=e995] [cursor=pointer]
+                - generic [ref=e996]:
+                  - paragraph [ref=e997]:
+                    - link "[–]" [ref=e998] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - link "Geffo" [ref=e999] [cursor=pointer]:
+                      - /url: https://old.reddit.com/user/Geffo
+                    - text: 1 point
+                    - time [ref=e1001]: 8 years ago
+                  - paragraph [ref=e1005]: Not surprised at all. He looks like the villain from one of the Die Hard movies but is the nicest guy. Remembered me from a year previous last time I was there. My kinda place.
+                  - list [ref=e1006]:
+                    - listitem [ref=e1007]:
+                      - link "permalink" [ref=e1008] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhr7qgc/
+                    - listitem [ref=e1009]:
+                      - link "embed" [ref=e1010] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1011]:
+                      - link "save" [ref=e1012] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e1013]:
+                      - link "report" [ref=e1014] [cursor=pointer]:
+                        - /url: javascript:void(0)
+        - generic [ref=e1015]:
+          - paragraph
+          - generic [ref=e1016]:
+            - button "upvote" [ref=e1017] [cursor=pointer]
+            - button "downvote" [ref=e1018] [cursor=pointer]
+          - generic [ref=e1019]:
+            - paragraph [ref=e1020]:
+              - link "[–]" [ref=e1021] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 1 point"
+              - time [ref=e1022]: 8 years ago
+            - paragraph [ref=e1026]:
+              - link "http://www.duespaghi.es/" [ref=e1027] [cursor=pointer]:
+                - /url: http://www.duespaghi.es/
+            - list [ref=e1028]:
+              - listitem [ref=e1029]:
+                - link "permalink" [ref=e1030] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqidfm/
+              - listitem [ref=e1031]:
+                - link "embed" [ref=e1032] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1033]:
+                - link "save" [ref=e1034] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1035]:
+                - link "report" [ref=e1036] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1037]:
+          - paragraph
+          - generic [ref=e1038]:
+            - button "upvote" [ref=e1039] [cursor=pointer]
+            - button "downvote" [ref=e1040] [cursor=pointer]
+          - generic [ref=e1041]:
+            - paragraph [ref=e1042]:
+              - link "[–]" [ref=e1043] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "mackan90" [ref=e1044] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/mackan90
+              - text: 1 point
+              - time [ref=e1046]: 8 years ago
+            - paragraph [ref=e1050]: La luna in born. I know my mom loves it when she visits :)
+            - list [ref=e1051]:
+              - listitem [ref=e1052]:
+                - link "permalink" [ref=e1053] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqloje/
+              - listitem [ref=e1054]:
+                - link "embed" [ref=e1055] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1056]:
+                - link "save" [ref=e1057] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1058]:
+                - link "report" [ref=e1059] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1060]:
+          - paragraph
+          - generic [ref=e1061]:
+            - button "upvote" [ref=e1062] [cursor=pointer]
+            - button "downvote" [ref=e1063] [cursor=pointer]
+          - generic [ref=e1064]:
+            - paragraph [ref=e1065]:
+              - link "[–]" [ref=e1066] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "hamsterer" [ref=e1067] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/hamsterer
+              - text: 1 point
+              - time [ref=e1069]: 8 years ago
+              - time [ref=e1070]: "*"
+            - generic [ref=e1073]:
+              - paragraph [ref=e1074]: "Edit: This recommendation is rescinded. The restaurant was sold, and is now an overpriced tourist trap with frankly disappointing food. Most of the waitstaff is the same people, but both the kitchen and management are new and frankly disappointing. I would stay away."
+              - paragraph [ref=e1075]:
+                - text: I'd recommend Pitarra in the Gòtic Quarter (
+                - link "http://www.restaurantpitarra.cat/index.asp?car=en" [ref=e1076] [cursor=pointer]:
+                  - /url: http://www.restaurantpitarra.cat/index.asp?car=en
+                - text: ), probably my favorite restaurant in the city to take newcomers to without blowing all my money.
+            - list [ref=e1077]:
+              - listitem [ref=e1078]:
+                - link "permalink" [ref=e1079] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqp1h6/
+              - listitem [ref=e1080]:
+                - link "embed" [ref=e1081] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1082]:
+                - link "save" [ref=e1083] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1084]:
+                - link "report" [ref=e1085] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1086]:
+          - paragraph
+          - generic [ref=e1087]:
+            - button "upvote" [ref=e1088] [cursor=pointer]
+            - button "downvote" [ref=e1089] [cursor=pointer]
+          - generic [ref=e1090]:
+            - paragraph [ref=e1091]:
+              - link "[–]" [ref=e1092] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Loud_Fart" [ref=e1093] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Loud_Fart
+              - text: 1 point
+              - time [ref=e1095]: 8 years ago
+            - paragraph [ref=e1099]: Sensi in the Gothic Quarter, there are a couple locations. Great tapas, gourmet dishes, wine selection, etc. Last time I went there, the two of us had a couple glasses of wine and maybe 4 or 5 small dishes. 60-70 euro IIRC.
+            - list [ref=e1100]:
+              - listitem [ref=e1101]:
+                - link "permalink" [ref=e1102] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhqxch8/
+              - listitem [ref=e1103]:
+                - link "embed" [ref=e1104] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1105]:
+                - link "save" [ref=e1106] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1107]:
+                - link "report" [ref=e1108] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1109]:
+          - paragraph
+          - generic [ref=e1110]:
+            - button "upvote" [ref=e1111] [cursor=pointer]
+            - button "downvote" [ref=e1112] [cursor=pointer]
+          - generic [ref=e1113]:
+            - paragraph [ref=e1114]:
+              - link "[–]" [ref=e1115] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "TheRealVanWilder" [ref=e1116] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/TheRealVanWilder
+              - text: 1 point
+              - time [ref=e1118]: 8 years ago
+            - paragraph [ref=e1122]: Ciudad comdal. Tapas and cool busy atmosphere. 2 people can eat like kings for under 100
+            - list [ref=e1123]:
+              - listitem [ref=e1124]:
+                - link "permalink" [ref=e1125] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhr1dpm/
+              - listitem [ref=e1126]:
+                - link "embed" [ref=e1127] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1128]:
+                - link "save" [ref=e1129] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1130]:
+                - link "report" [ref=e1131] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1132]:
+          - paragraph
+          - generic [ref=e1133]:
+            - button "upvote" [ref=e1134] [cursor=pointer]
+            - button "downvote" [ref=e1135] [cursor=pointer]
+          - generic [ref=e1136]:
+            - paragraph [ref=e1137]:
+              - link "[–]" [ref=e1138] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: "[deleted] 1 point"
+              - time [ref=e1139]: 8 years ago
+            - paragraph [ref=e1143]: I always recommend Café Emma because it's one of my favorite restaurants in the city. 4 people for my birthday lunch was about 200€. French cuisine. Not particularly fancy. The steak is excellent, the oysters v good, also the tarte tatin.
+            - list [ref=e1144]:
+              - listitem [ref=e1145]:
+                - link "permalink" [ref=e1146] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhr9jr1/
+              - listitem [ref=e1147]:
+                - link "embed" [ref=e1148] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1149]:
+                - link "save" [ref=e1150] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1151]:
+                - link "report" [ref=e1152] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1153]:
+          - paragraph
+          - generic [ref=e1154]:
+            - button "upvote" [ref=e1155] [cursor=pointer]
+            - button "downvote" [ref=e1156] [cursor=pointer]
+          - generic [ref=e1157]:
+            - paragraph [ref=e1158]:
+              - link "[–]" [ref=e1159] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "apacaba" [ref=e1160] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/apacaba
+              - text: 1 point
+              - time [ref=e1162]: 8 years ago
+            - paragraph [ref=e1166]: I would suggest Antigua in Gracia or Osmosis in Eixampla. Both great food, not too expensive.
+            - list [ref=e1167]:
+              - listitem [ref=e1168]:
+                - link "permalink" [ref=e1169] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrbnh8/
+              - listitem [ref=e1170]:
+                - link "embed" [ref=e1171] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1172]:
+                - link "save" [ref=e1173] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1174]:
+                - link "report" [ref=e1175] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e1176]:
+          - paragraph
+          - generic [ref=e1177]:
+            - button "upvote" [ref=e1178] [cursor=pointer]
+            - button "downvote" [ref=e1179] [cursor=pointer]
+          - generic [ref=e1180]:
+            - paragraph [ref=e1181]:
+              - link "[–]" [ref=e1182] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "SallyParadise_" [ref=e1183] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/SallyParadise_
+              - text: 1 point
+              - time [ref=e1185]: 8 years ago
+            - paragraph [ref=e1189]: would weekday for lunch work?
+            - list [ref=e1190]:
+              - listitem [ref=e1191]:
+                - link "permalink" [ref=e1192] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrbqk2/
+              - listitem [ref=e1193]:
+                - link "embed" [ref=e1194] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1195]:
+                - link "save" [ref=e1196] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1197]:
+                - link "report" [ref=e1198] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e1201]:
+            - paragraph
+            - generic [ref=e1202]:
+              - button "upvote" [ref=e1203] [cursor=pointer]
+              - button "downvote" [ref=e1204] [cursor=pointer]
+            - generic [ref=e1205]:
+              - paragraph [ref=e1206]:
+                - link "[–]" [ref=e1207] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "Mr_B_86" [ref=e1208] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/Mr_B_86
+                - generic [ref=e1210]:
+                  - text: "["
+                  - link "S" [ref=e1211] [cursor=pointer]:
+                    - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                  - text: "]"
+                - text: 1 point
+                - time [ref=e1212]: 8 years ago
+              - paragraph [ref=e1216]: Yep!
+              - list [ref=e1217]:
+                - listitem [ref=e1218]:
+                  - link "permalink" [ref=e1219] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrcit7/
+                - listitem [ref=e1220]:
+                  - link "embed" [ref=e1221] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1222]:
+                  - link "save" [ref=e1223] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e1224]:
+                  - link "parent" [ref=e1225] [cursor=pointer]:
+                    - /url: "#dhrbqk2"
+                - listitem [ref=e1226]:
+                  - link "report" [ref=e1227] [cursor=pointer]:
+                    - /url: javascript:void(0)
+            - generic [ref=e1230]:
+              - paragraph
+              - generic [ref=e1231]:
+                - button "upvote" [ref=e1232] [cursor=pointer]
+                - button "downvote" [ref=e1233] [cursor=pointer]
+              - generic [ref=e1234]:
+                - paragraph [ref=e1235]:
+                  - link "[–]" [ref=e1236] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "SallyParadise_" [ref=e1237] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/SallyParadise_
+                  - text: 4 points
+                  - time [ref=e1239]: 8 years ago
+                - generic [ref=e1242]:
+                  - paragraph [ref=e1243]:
+                    - text: "Check this one:"
+                    - link "http://xertarestaurant.com/wp-content/uploads/2017/02/Carta-Xerta-january17_ENG.pdf" [ref=e1244] [cursor=pointer]:
+                      - /url: http://xertarestaurant.com/wp-content/uploads/2017/02/Carta-Xerta-january17_ENG.pdf
+                  - paragraph [ref=e1245]: "Executive menu: 35€/person and it's awesome! 1 michelin star (recently, that's why it's not super expensive yet) and no bullshit. It's food from Delta de l'Ebre, they get sea food directly from there everyday. Highly recommended!"
+                - list [ref=e1246]:
+                  - listitem [ref=e1247]:
+                    - link "permalink" [ref=e1248] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrcw3k/
+                  - listitem [ref=e1249]:
+                    - link "embed" [ref=e1250] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1251]:
+                    - link "save" [ref=e1252] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e1253]:
+                    - link "parent" [ref=e1254] [cursor=pointer]:
+                      - /url: "#dhrcit7"
+                  - listitem [ref=e1255]:
+                    - link "report" [ref=e1256] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e1258]:
+                - generic [ref=e1259]:
+                  - paragraph
+                  - generic [ref=e1260]:
+                    - button "upvote" [ref=e1261] [cursor=pointer]
+                    - button "downvote" [ref=e1262] [cursor=pointer]
+                  - generic [ref=e1263]:
+                    - paragraph [ref=e1264]:
+                      - link "[–]" [ref=e1265] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Mr_B_86" [ref=e1266] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Mr_B_86
+                      - generic [ref=e1268]:
+                        - text: "["
+                        - link "S" [ref=e1269] [cursor=pointer]:
+                          - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1270]: 8 years ago
+                    - paragraph [ref=e1274]: We have a winner!
+                    - list [ref=e1275]:
+                      - listitem [ref=e1276]:
+                        - link "permalink" [ref=e1277] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrfh9c/
+                      - listitem [ref=e1278]:
+                        - link "embed" [ref=e1279] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1280]:
+                        - link "save" [ref=e1281] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1282]:
+                        - link "parent" [ref=e1283] [cursor=pointer]:
+                          - /url: "#dhrcw3k"
+                      - listitem [ref=e1284]:
+                        - link "report" [ref=e1285] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e1288]:
+                    - paragraph
+                    - generic [ref=e1289]:
+                      - button "upvote" [ref=e1290] [cursor=pointer]
+                      - button "downvote" [ref=e1291] [cursor=pointer]
+                    - generic [ref=e1292]:
+                      - paragraph [ref=e1293]:
+                        - link "[–]" [ref=e1294] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                        - link "SallyParadise_" [ref=e1295] [cursor=pointer]:
+                          - /url: https://old.reddit.com/user/SallyParadise_
+                        - text: 1 point
+                        - time [ref=e1297]: 8 years ago
+                      - paragraph [ref=e1301]: Yuhu! let me know if you liked it.
+                      - list [ref=e1302]:
+                        - listitem [ref=e1303]:
+                          - link "permalink" [ref=e1304] [cursor=pointer]:
+                            - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrg1qs/
+                        - listitem [ref=e1305]:
+                          - link "embed" [ref=e1306] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1307]:
+                          - link "save" [ref=e1308] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                        - listitem [ref=e1309]:
+                          - link "parent" [ref=e1310] [cursor=pointer]:
+                            - /url: "#dhrfh9c"
+                        - listitem [ref=e1311]:
+                          - link "report" [ref=e1312] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                    - generic [ref=e1315]:
+                      - paragraph
+                      - generic [ref=e1316]:
+                        - button "upvote" [ref=e1317] [cursor=pointer]
+                        - button "downvote" [ref=e1318] [cursor=pointer]
+                      - generic [ref=e1319]:
+                        - paragraph [ref=e1320]:
+                          - link "[–]" [ref=e1321] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "Mr_B_86" [ref=e1322] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/Mr_B_86
+                          - generic [ref=e1324]:
+                            - text: "["
+                            - link "S" [ref=e1325] [cursor=pointer]:
+                              - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                            - text: "]"
+                          - text: 2 points
+                          - time [ref=e1326]: 8 years ago
+                        - generic [ref=e1329]:
+                          - blockquote [ref=e1330]:
+                            - paragraph [ref=e1331]: xerta
+                          - paragraph [ref=e1332]: Went here, was great.
+                        - list [ref=e1333]:
+                          - listitem [ref=e1334]:
+                            - link "permalink" [ref=e1335] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dj5ex1x/
+                          - listitem [ref=e1336]:
+                            - link "embed" [ref=e1337] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1338]:
+                            - link "save" [ref=e1339] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1340]:
+                            - link "parent" [ref=e1341] [cursor=pointer]:
+                              - /url: "#dhrg1qs"
+                          - listitem [ref=e1342]:
+                            - link "report" [ref=e1343] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                - generic [ref=e1344]:
+                  - paragraph
+                  - generic [ref=e1345]:
+                    - button "upvote" [ref=e1346] [cursor=pointer]
+                    - button "downvote" [ref=e1347] [cursor=pointer]
+                  - generic [ref=e1348]:
+                    - paragraph [ref=e1349]:
+                      - link "[–]" [ref=e1350] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - text: "[deleted] 1 point"
+                      - time [ref=e1351]: 8 years ago
+                    - paragraph [ref=e1355]: This place looks amazing.
+                    - list [ref=e1356]:
+                      - listitem [ref=e1357]:
+                        - link "permalink" [ref=e1358] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhriaje/
+                      - listitem [ref=e1359]:
+                        - link "embed" [ref=e1360] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1361]:
+                        - link "save" [ref=e1362] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1363]:
+                        - link "parent" [ref=e1364] [cursor=pointer]:
+                          - /url: "#dhrcw3k"
+                      - listitem [ref=e1365]:
+                        - link "report" [ref=e1366] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                  - generic [ref=e1368]:
+                    - generic [ref=e1369]:
+                      - paragraph
+                      - generic [ref=e1370]:
+                        - button "upvote" [ref=e1371] [cursor=pointer]
+                        - button "downvote" [ref=e1372] [cursor=pointer]
+                      - generic [ref=e1373]:
+                        - paragraph [ref=e1374]:
+                          - link "[–]" [ref=e1375] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "SallyParadise_" [ref=e1376] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/SallyParadise_
+                          - text: 1 point
+                          - time [ref=e1378]: 8 years ago
+                        - paragraph [ref=e1382]: It is, find an excuse to go before it gets michelin-star expensive :)
+                        - list [ref=e1383]:
+                          - listitem [ref=e1384]:
+                            - link "permalink" [ref=e1385] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhrkr0c/
+                          - listitem [ref=e1386]:
+                            - link "embed" [ref=e1387] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1388]:
+                            - link "save" [ref=e1389] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1390]:
+                            - link "parent" [ref=e1391] [cursor=pointer]:
+                              - /url: "#dhriaje"
+                          - listitem [ref=e1392]:
+                            - link "report" [ref=e1393] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                      - generic [ref=e1396]:
+                        - paragraph
+                        - generic [ref=e1397]:
+                          - button "upvote" [ref=e1398] [cursor=pointer]
+                          - button "downvote" [ref=e1399] [cursor=pointer]
+                        - generic [ref=e1400]:
+                          - paragraph [ref=e1401]:
+                            - link "[–]" [ref=e1402] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                            - link "eatyourchildren" [ref=e1403] [cursor=pointer]:
+                              - /url: https://old.reddit.com/user/eatyourchildren
+                            - text: 1 point
+                            - time [ref=e1405]: 8 years ago
+                          - paragraph [ref=e1409]: Thank you for this reco! Going in Sept :)
+                          - list [ref=e1410]:
+                            - listitem [ref=e1411]:
+                              - link "permalink" [ref=e1412] [cursor=pointer]:
+                                - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dhsayoa/
+                            - listitem [ref=e1413]:
+                              - link "embed" [ref=e1414] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e1415]:
+                              - link "save" [ref=e1416] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                            - listitem [ref=e1417]:
+                              - link "parent" [ref=e1418] [cursor=pointer]:
+                                - /url: "#dhrkr0c"
+                            - listitem [ref=e1419]:
+                              - link "report" [ref=e1420] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                        - generic [ref=e1423]:
+                          - paragraph
+                          - generic [ref=e1424]:
+                            - button "upvote" [ref=e1425] [cursor=pointer]
+                            - button "downvote" [ref=e1426] [cursor=pointer]
+                          - generic [ref=e1427]:
+                            - paragraph [ref=e1428]:
+                              - link "[–]" [ref=e1429] [cursor=pointer]:
+                                - /url: javascript:void(0)
+                              - link "Mr_B_86" [ref=e1430] [cursor=pointer]:
+                                - /url: https://old.reddit.com/user/Mr_B_86
+                              - generic [ref=e1432]:
+                                - text: "["
+                                - link "S" [ref=e1433] [cursor=pointer]:
+                                  - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                                - text: "]"
+                              - text: 1 point
+                              - time [ref=e1434]: 8 years ago
+                            - paragraph [ref=e1438]: Went here, was great.
+                            - list [ref=e1439]:
+                              - listitem [ref=e1440]:
+                                - link "permalink" [ref=e1441] [cursor=pointer]:
+                                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dj5exb1/
+                              - listitem [ref=e1442]:
+                                - link "embed" [ref=e1443] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e1444]:
+                                - link "save" [ref=e1445] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                              - listitem [ref=e1446]:
+                                - link "parent" [ref=e1447] [cursor=pointer]:
+                                  - /url: "#dhsayoa"
+                              - listitem [ref=e1448]:
+                                - link "report" [ref=e1449] [cursor=pointer]:
+                                  - /url: javascript:void(0)
+                    - generic [ref=e1450]:
+                      - paragraph
+                      - generic [ref=e1451]:
+                        - button "upvote" [ref=e1452] [cursor=pointer]
+                        - button "downvote" [ref=e1453] [cursor=pointer]
+                      - generic [ref=e1454]:
+                        - paragraph [ref=e1455]:
+                          - link "[–]" [ref=e1456] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                          - link "Mr_B_86" [ref=e1457] [cursor=pointer]:
+                            - /url: https://old.reddit.com/user/Mr_B_86
+                          - generic [ref=e1459]:
+                            - text: "["
+                            - link "S" [ref=e1460] [cursor=pointer]:
+                              - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                            - text: "]"
+                          - text: 1 point
+                          - time [ref=e1461]: 8 years ago
+                        - paragraph [ref=e1465]: Went here, was great.
+                        - list [ref=e1466]:
+                          - listitem [ref=e1467]:
+                            - link "permalink" [ref=e1468] [cursor=pointer]:
+                              - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dj5ex76/
+                          - listitem [ref=e1469]:
+                            - link "embed" [ref=e1470] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1471]:
+                            - link "save" [ref=e1472] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                          - listitem [ref=e1473]:
+                            - link "parent" [ref=e1474] [cursor=pointer]:
+                              - /url: "#dhriaje"
+                          - listitem [ref=e1475]:
+                            - link "report" [ref=e1476] [cursor=pointer]:
+                              - /url: javascript:void(0)
+                - generic [ref=e1477]:
+                  - paragraph
+                  - generic [ref=e1478]:
+                    - button "upvote" [ref=e1479] [cursor=pointer]
+                    - button "downvote" [ref=e1480] [cursor=pointer]
+                  - generic [ref=e1481]:
+                    - paragraph [ref=e1482]:
+                      - link "[–]" [ref=e1483] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                      - link "Mr_B_86" [ref=e1484] [cursor=pointer]:
+                        - /url: https://old.reddit.com/user/Mr_B_86
+                      - generic [ref=e1486]:
+                        - text: "["
+                        - link "S" [ref=e1487] [cursor=pointer]:
+                          - /url: /r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/
+                        - text: "]"
+                      - text: 1 point
+                      - time [ref=e1488]: 8 years ago
+                    - paragraph [ref=e1492]: It is €38pp now btw
+                    - list [ref=e1493]:
+                      - listitem [ref=e1494]:
+                        - link "permalink" [ref=e1495] [cursor=pointer]:
+                          - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dj5ey27/
+                      - listitem [ref=e1496]:
+                        - link "embed" [ref=e1497] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1498]:
+                        - link "save" [ref=e1499] [cursor=pointer]:
+                          - /url: javascript:void(0)
+                      - listitem [ref=e1500]:
+                        - link "parent" [ref=e1501] [cursor=pointer]:
+                          - /url: "#dhrcw3k"
+                      - listitem [ref=e1502]:
+                        - link "report" [ref=e1503] [cursor=pointer]:
+                          - /url: javascript:void(0)
+        - generic [ref=e1504]:
+          - paragraph
+          - generic [ref=e1505]:
+            - button "upvote" [ref=e1506] [cursor=pointer]
+            - button "downvote" [ref=e1507] [cursor=pointer]
+          - generic [ref=e1508]:
+            - paragraph [ref=e1509]:
+              - link "[–]" [ref=e1510] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "misterhighmay" [ref=e1511] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/misterhighmay
+              - text: 1 point
+              - time [ref=e1513]: 8 years ago
+            - paragraph [ref=e1517]: What do you guys think of Osmosis ??
+            - list [ref=e1518]:
+              - listitem [ref=e1519]:
+                - link "permalink" [ref=e1520] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/Barcelona/comments/6bwvnk/high_quality_medium_price_restaurants_with_no/dkixyjz/
+              - listitem [ref=e1521]:
+                - link "embed" [ref=e1522] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1523]:
+                - link "save" [ref=e1524] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e1525]:
+                - link "report" [ref=e1526] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e1527]:
+    - generic [ref=e1528]:
+      - list [ref=e1530]:
+        - listitem [ref=e1531]: about
+        - listitem [ref=e1532]:
+          - link "blog" [ref=e1533] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e1534]:
+          - link "about" [ref=e1535] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e1536]:
+          - link "advertising" [ref=e1537] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e1538]:
+          - link "careers" [ref=e1539] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e1541]:
+        - listitem [ref=e1542]: help
+        - listitem [ref=e1543]:
+          - link "site rules" [ref=e1544] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e1545]:
+          - link "Reddit help center" [ref=e1546] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e1547]:
+          - link "reddiquette" [ref=e1548] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e1549]:
+          - link "mod guidelines" [ref=e1550] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e1551]:
+          - link "contact us" [ref=e1552] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e1554]:
+        - listitem [ref=e1555]: apps & tools
+        - listitem [ref=e1556]:
+          - link "Reddit for iPhone" [ref=e1557] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e1558]:
+          - link "Reddit for Android" [ref=e1559] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e1560]:
+          - link "mobile website" [ref=e1561] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e1563]:
+        - listitem [ref=e1564]: <3
+        - listitem [ref=e1565]:
+          - link "reddit premium" [ref=e1566] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e1567]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e1568] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e1569] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e1570]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+  - img [ref=e1571]
+  - paragraph [ref=e1572]: π

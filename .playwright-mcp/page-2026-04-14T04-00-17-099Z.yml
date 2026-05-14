@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: asheville best restaurants site:cntraveler.com OR "conde nast traveler" asheville asheville best restaurants site:cntraveler.com OR "conde nast traveler" asheville
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dasheville%2Bbest%2Brestaurants%2Bsite%253Acntraveler.com%2BOR%2B%2522conde%2Bnast%2Btraveler%2522%2Basheville&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&aep=1&ntc=1&sa=X&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ2J8OegQIEhAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Short videos" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sa=X&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQs6gLegQIFBAB
+              - generic [ref=e89]: Short videos
+          - listitem [ref=e90]:
+            - link "Forums" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sa=X&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQs6gLegQIFRAB
+              - generic [ref=e93]: Forums
+          - listitem [ref=e94]:
+            - link "News" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&sa=X&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ0pQJegQIFhAB
+              - generic [ref=e97]: News
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sa=X&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQtKgLegQIFxAB
+              - generic [ref=e101]: Images
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=9fb2dbe6099668d1&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwspSJmW4ELJ_q6C3Z7ydZ0yBLrACl8POBuC_c8AMHl1CIWRqdjyZDCTUJU0DB6juedO6XNTTrA5xmpvR1ZHHvYnt2Wn8u2-scJs-TsKxR5UXeRX8PxdL3sFkEssDSF7zGkJPjXGmyTM9zZFTqTysDpdWkRSnCVGLR16reN5O5qYkQeQ4KA&q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&ved=1t:220175&ictx=111
+              - generic [ref=e105]: Shopping
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Condé Nast Traveler Explores Asheville's Food Scene Eating Asheville Food Tours https://eatingasheville.com › Blog" [ref=e142] [cursor=pointer]:
+                - /url: https://eatingasheville.com/ashevilles-best-restaurants-highlighted-in-conde-nest-traveler/
+                - heading "Condé Nast Traveler Explores Asheville's Food Scene" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Eating Asheville Food Tours
+                  - generic [ref=e152]: https://eatingasheville.com › Blog
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - text: In this article by
+                - emphasis [ref=e161]: Condé Nast Traveler
+                - text: "- not only are some of"
+                - emphasis [ref=e162]: Asheville's best restaurants
+                - text: explored; but also the best things to do, see, drink, and buy.
+              - link "Read more" [ref=e163] [cursor=pointer]:
+                - /url: https://eatingasheville.com/ashevilles-best-restaurants-highlighted-in-conde-nest-traveler/#:~:text=In%20this%20article%20by%20Cond%C3%A9,in%20our%20vibrant%20mountain%20town.
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "Cúrate – Restaurant Review Condé Nast Traveler https://www.cntraveler.com › curate-asheville" [ref=e172] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/curate-asheville/curate-asheville
+              - heading "Cúrate – Restaurant Review" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: Condé Nast Traveler
+                - generic [ref=e182]: https://www.cntraveler.com › curate-asheville
+            - button "About this result" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - emphasis [ref=e191]: Asheville's best
+              - text: boutique hotel is filled with authentic touches, from ...
+              - emphasis [ref=e192]: Condé Nast Traveler
+              - text: is the global citizen's bible and muse, offering both ...
+            - link "Read more" [ref=e193] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/curate-asheville/curate-asheville#:~:text=Asheville's%20best%20boutique%20hotel%20is,modern%20spins%20on%20comfort%20food.&text=As%20the%20most%20discerning%2C%20up%2Dto%2Dthe%2Dminute,both%20inspiration%20and%20vital%20intel.
+        - generic [ref=e197]:
+          - generic [ref=e200]:
+            - link "Asheville Is Back, With All Its Artistic Flair Condé Nast Traveler https://www.cntraveler.com › ... › Editorial Features" [ref=e202] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/asheville-is-back-with-all-its-artistic-flair
+              - heading "Asheville Is Back, With All Its Artistic Flair" [level=3] [ref=e203]
+              - generic [ref=e208]:
+                - generic [ref=e210]: Condé Nast Traveler
+                - generic [ref=e212]: https://www.cntraveler.com › ... › Editorial Features
+            - button "About this result" [ref=e213] [cursor=pointer]:
+              - img [ref=e216]
+          - generic [ref=e219]:
+            - generic [ref=e220]: Nov 26, 2025 —
+            - generic [ref=e221]:
+              - emphasis [ref=e222]: Best
+              - text: Places to Go · Shopping · Gold ... All products and listings featured on
+              - emphasis [ref=e223]: Condé Nast Traveler
+              - text: are independently selected by our editors.
+            - link "Read more" [ref=e224] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/asheville-is-back-with-all-its-artistic-flair#:~:text=Menu&text=All%20products%20and%20listings%20featured,independently%20selected%20by%20our%20editors.
+        - generic [ref=e228]:
+          - generic [ref=e231]:
+            - link "Buxton Hall Condé Nast Traveler https://www.cntraveler.com › restaurants › asheville › b..." [ref=e233] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/asheville/buxton-hall
+              - heading "Buxton Hall" [level=3] [ref=e234]
+              - generic [ref=e239]:
+                - generic [ref=e241]: Condé Nast Traveler
+                - generic [ref=e243]: https://www.cntraveler.com › restaurants › asheville › b...
+            - button "About this result" [ref=e244] [cursor=pointer]:
+              - img [ref=e247]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - emphasis [ref=e252]: Asheville's best
+              - text: boutique hotel is filled with authentic touches, from ... We understand that time is the greatest luxury, which is why
+              - emphasis [ref=e253]: Condé Nast Traveler
+              - text: ...
+            - link "Read more" [ref=e254] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/asheville/buxton-hall#:~:text=Asheville's%20best%20boutique%20hotel%20is,modern%20spins%20on%20comfort%20food.&text=We%20understand%20that%20time%20is,is%20why%20Cond%C3%A9%20Nast%20Traveler
+        - generic [ref=e260]:
+          - generic [ref=e263]:
+            - link "Watch A Day in Asheville | Condé Nast Traveler Conde Nast Traveler https://www.cntraveler.com · Nov 10, 2016" [ref=e265] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/video/watch/a-day-in-asheville
+              - heading "Watch A Day in Asheville | Condé Nast Traveler" [level=3] [ref=e266]
+              - generic [ref=e271]:
+                - generic [ref=e273]: Conde Nast Traveler
+                - generic [ref=e275]: https://www.cntraveler.com · Nov 10, 2016
+            - button "About this result" [ref=e276] [cursor=pointer]:
+              - img [ref=e279]
+          - generic [ref=e281]:
+            - link "Watch A Day in Asheville | Condé Nast Traveler on Conde Nast Traveler. Play on Conde Nast Traveler. 1:15" [ref=e282] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/video/watch/a-day-in-asheville
+              - generic [ref=e284]:
+                - img [ref=e287]
+                - generic [ref=e291]: 1:15
+            - generic [ref=e293]: As the most discerning, up-to-the-minute voice in all things travel, Condé Nast Traveler is the global citizen's bible and muse, offering both ...
+        - generic [ref=e297]:
+          - generic [ref=e300]:
+            - link "How to Support Asheville Post-Hurricane Helene Condé Nast Traveler https://www.cntraveler.com › ... › Destination Guides" [ref=e302] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/things-to-do-asheville-north-carolina
+              - heading "How to Support Asheville Post-Hurricane Helene" [level=3] [ref=e303]
+              - generic [ref=e308]:
+                - generic [ref=e310]: Condé Nast Traveler
+                - generic [ref=e312]: https://www.cntraveler.com › ... › Destination Guides
+            - button "About this result" [ref=e313] [cursor=pointer]:
+              - img [ref=e316]
+          - generic [ref=e319]:
+            - generic [ref=e320]: Nov 21, 2024 —
+            - generic [ref=e321]:
+              - text: The
+              - emphasis [ref=e322]: best
+              - text: things to do in
+              - emphasis [ref=e323]: Asheville
+              - text: .
+              - emphasis [ref=e324]: Asheville
+              - text: is a place where ...
+              - emphasis [ref=e325]: Condé Nast Traveler
+              - text: is the global citizen's bible and muse, offering ...
+            - link "Read more" [ref=e326] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/story/things-to-do-asheville-north-carolina#:~:text=The%20best%20things%20to%20do,Asheville%20is%20a%20place%20where&text=As%20the%20most%20discerning%2C%20up%2Dto%2Dthe%2Dminute,both%20inspiration%20and%20vital%20intel.
+        - generic [ref=e330]:
+          - generic [ref=e333]:
+            - link "Benne on Eagle – Restaurant Review Condé Nast Traveler https://www.cntraveler.com › restaurants › benne-on-ea..." [ref=e335] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/benne-on-eagle/benne-on-eagle
+              - heading "Benne on Eagle – Restaurant Review" [level=3] [ref=e336]
+              - generic [ref=e341]:
+                - generic [ref=e343]: Condé Nast Traveler
+                - generic [ref=e345]: https://www.cntraveler.com › restaurants › benne-on-ea...
+            - button "About this result" [ref=e346] [cursor=pointer]:
+              - img [ref=e349]
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - emphasis [ref=e354]: Asheville's best
+              - text: boutique hotel is filled with authentic touches, from ... We understand that time is the greatest luxury, which is why
+              - emphasis [ref=e355]: Condé Nast Traveler
+              - text: ...
+            - link "Read more" [ref=e356] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/restaurants/benne-on-eagle/benne-on-eagle#:~:text=Asheville's%20best%20boutique%20hotel%20is,modern%20spins%20on%20comfort%20food.&text=We%20understand%20that%20time%20is,is%20why%20Cond%C3%A9%20Nast%20Traveler
+          - link "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.cntraveler.com" [ref=e359] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/restaurants/benne-on-eagle/benne-on-eagle
+            - img "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.cntraveler.com" [ref=e361]
+        - generic [ref=e365]:
+          - generic [ref=e368]:
+            - link "Best Places to Eat in Asheville, NC - The Jet Set Blonde jetsettingblonde.com https://www.jetsettingblonde.com › blog › best-places-to-..." [ref=e370] [cursor=pointer]:
+              - /url: https://www.jetsettingblonde.com/blog/best-places-to-eat-in-asheville-nc
+              - heading "Best Places to Eat in Asheville, NC - The Jet Set Blonde" [level=3] [ref=e371]
+              - generic [ref=e376]:
+                - generic [ref=e378]: jetsettingblonde.com
+                - generic [ref=e380]: https://www.jetsettingblonde.com › blog › best-places-to-...
+            - button "About this result" [ref=e381] [cursor=pointer]:
+              - img [ref=e384]
+          - generic [ref=e387]:
+            - generic [ref=e388]: Jan 2, 2022 —
+            - generic [ref=e389]:
+              - text: Image courtesy of
+              - emphasis [ref=e390]: Conde Nast Traveler
+              - text: . Cúrate - $$$. Serving authentic Spanish tapas, Curate is a trendy establishment ...
+            - link "Read more" [ref=e391] [cursor=pointer]:
+              - /url: https://www.jetsettingblonde.com/blog/best-places-to-eat-in-asheville-nc#:~:text=Image%20courtesy%20of%20Conde%20Nast,in%20a%201920s%20era%20building.
+          - link "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.jetsettingblonde.com" [ref=e394] [cursor=pointer]:
+            - /url: https://www.jetsettingblonde.com/blog/best-places-to-eat-in-asheville-nc
+            - img "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.jetsettingblonde.com" [ref=e396]
+        - generic [ref=e400]:
+          - generic [ref=e403]:
+            - link "New Restaurant Concept in Asheville's Former Dilbar Space Facebook · Asheville Foodies 30+ comments · 1 year ago" [ref=e405] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/1012768108762312/posts/9276784095693964/
+              - heading "New Restaurant Concept in Asheville's Former Dilbar Space" [level=3] [ref=e406]
+              - generic [ref=e411]:
+                - generic [ref=e413]: Facebook · Asheville Foodies
+                - generic [ref=e415]: 30+ comments · 1 year ago
+            - button "About this result" [ref=e416] [cursor=pointer]:
+              - img [ref=e419]
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - text: ...
+              - emphasis [ref=e424]: Conde Nast Traveler
+              - text: Magazine. Mereday has been featured on numerous local and national television broadcasts, including TV
+              - emphasis [ref=e425]: Food
+              - text: Network ...
+            - link "Read more" [ref=e426] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/1012768108762312/posts/9276784095693964/#:~:text=Mereday%20was%20acclaimed%20a%20'culinary,the%20Travel%20Channel%2C%20and%20others.
+          - link "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.facebook.com" [ref=e429] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/1012768108762312/posts/9276784095693964/
+            - img "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.facebook.com" [ref=e431]
+          - generic [ref=e436]:
+            - generic [ref=e437]: "Top answer:"
+            - generic [ref=e438]: oh perfect, more classic american grub
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "What's for Dinner at James Beard Finalist Katie Button's ... Condé Nast Traveler https://www.cntraveler.com › galleries › dinner-james-b..." [ref=e447] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/galleries/2014-05-08/dinner-james-beard-finalist-katie-button-curate-asheville
+              - heading "What's for Dinner at James Beard Finalist Katie Button's ..." [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: Condé Nast Traveler
+                - generic [ref=e457]: https://www.cntraveler.com › galleries › dinner-james-b...
+            - button "About this result" [ref=e458] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e464]:
+            - generic [ref=e465]: May 8, 2014 —
+            - generic [ref=e466]:
+              - text: As the most discerning, up-to-the-minute voice in all things travel,
+              - emphasis [ref=e467]: Condé Nast Traveler
+              - text: is the global citizen's bible and muse, offering both ...
+            - link "Read more" [ref=e468] [cursor=pointer]:
+              - /url: https://www.cntraveler.com/galleries/2014-05-08/dinner-james-beard-finalist-katie-button-curate-asheville#:~:text=As%20the%20most%20discerning%2C%20up%2Dto%2Dthe%2Dminute,both%20inspiration%20and%20vital%20intel.
+          - link "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.cntraveler.com" [ref=e471] [cursor=pointer]:
+            - /url: https://www.cntraveler.com/galleries/2014-05-08/dinner-james-beard-finalist-katie-button-curate-asheville
+            - img "asheville best restaurants site:cntraveler.com OR \"conde nast traveler\" asheville from www.cntraveler.com" [ref=e473]
+      - navigation [ref=e476]:
+        - heading "Page Navigation" [level=1] [ref=e477]
+        - text: "1"
+        - link "Page 2" [ref=e480] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=10&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAE
+          - text: "2"
+        - link "Page 3" [ref=e482] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=20&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAG
+          - text: "3"
+        - link "Page 4" [ref=e484] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=30&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAI
+          - text: "4"
+        - link "Page 5" [ref=e486] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=40&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAK
+          - text: "5"
+        - link "Page 6" [ref=e488] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=50&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAM
+          - text: "6"
+        - link "Page 7" [ref=e490] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=60&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAO
+          - text: "7"
+        - link "Page 8" [ref=e492] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=70&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAQ
+          - text: "8"
+        - link "Page 9" [ref=e494] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=80&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAS
+          - text: "9"
+        - link "Page 10" [ref=e496] [cursor=pointer]:
+          - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=90&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8tMDegQIKBAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e498]:
+          - link "Next" [ref=e499] [cursor=pointer]:
+            - /url: /search?q=asheville+best+restaurants+site:cntraveler.com+OR+%22conde+nast+traveler%22+asheville&sca_esv=9fb2dbe6099668d1&ei=0LvdaYr_IN2i5NoPwf7D0Qs&start=10&sa=N&sstk=Af77f_eQ5F_RBgzKxxGdaJ5d_GYrK2UsOThd9MAymXdD760wanKTf7G5m15hkMYbUcKZdm5RADN67jT7OEJKCbd6wDEe6WXbIGRXPw&ved=2ahUKEwiKp8uYuuyTAxVdEVkFHUH_MLoQ8NMDegQIKBAW
+            - generic [ref=e501]: Next
+      - navigation
+    - contentinfo [ref=e502]:
+      - heading "Footer Links" [level=1] [ref=e503]
+      - generic [ref=e507]:
+        - generic [ref=e511]:
+          - button "Squirrel Hill North, Pittsburgh, PA - From your IP address" [ref=e513] [cursor=pointer]:
+            - generic [ref=e514]: Squirrel Hill North, Pittsburgh, PA
+            - generic [ref=e516]:
+              - text: "-"
+              - generic [ref=e517]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e519] [cursor=pointer]: Update location
+        - generic [ref=e522]:
+          - link "Help" [ref=e523] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e524] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e525] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e526] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

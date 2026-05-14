@@ -1,0 +1,994 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e5]:
+    
+  - generic [ref=e6]:
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "Return to the Atlas Obscura home page" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e11]: 
+            - generic [ref=e12]: 
+          - generic [ref=e14]:
+            - link "Places" [ref=e15] [cursor=pointer]:
+              - /url: /articles/all-places-in-the-atlas-on-one-map
+              - generic [ref=e16]: Places
+            - link "Foods" [ref=e17] [cursor=pointer]:
+              - /url: /gastro
+              - generic [ref=e18]: Foods
+            - link "Stories" [ref=e19] [cursor=pointer]:
+              - /url: /articles
+              - generic [ref=e20]: Stories
+            - link "Newsletters" [ref=e21] [cursor=pointer]:
+              - /url: /newsletters
+              - generic [ref=e22]: Newsletters
+          - generic [ref=e23]:
+            - button "Open user menu Sign In" [ref=e24] [cursor=pointer]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: Open user menu
+                - link "Sign In" [ref=e28]:
+                  - /url: /sign-in
+                  - img [ref=e29]
+                  - generic [ref=e31]: Sign In
+            - button "Search" [ref=e32] [cursor=pointer]:
+              - img [ref=e33]
+        - generic: 
+    - generic [ref=e35]:
+      - main [ref=e36]:
+        - generic [ref=e38]:
+          - navigation [ref=e40]:
+            - generic:
+              - generic [ref=e42]:
+                - link [ref=e43] [cursor=pointer]:
+                  - /url: /
+                  - img [ref=e44]
+                - img [ref=e47]
+              - generic [ref=e50]:
+                - link "All" [ref=e51] [cursor=pointer]:
+                  - /url: /destinations
+                  - generic: All
+                - img [ref=e53]
+              - generic [ref=e56]:
+                - link "the United States" [ref=e57] [cursor=pointer]:
+                  - /url: /things-to-do/united-states
+                  - generic: the United States
+                - img [ref=e59]
+              - generic [ref=e62]:
+                - link "California" [ref=e63] [cursor=pointer]:
+                  - /url: /things-to-do/california
+                  - generic: California
+                - img [ref=e65]
+              - button "San Diego" [ref=e69] [cursor=pointer]:
+                - generic: San Diego
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - heading "The Atlas Obscura Guide To San Diego" [level=1] [ref=e72]:
+                - text: The Atlas Obscura Guide To
+                - generic [ref=e73]: San Diego
+              - heading "47 Cool, Hidden, and Unusual Things to Do in San Diego, California" [level=2] [ref=e74]
+              - generic [ref=e75]: Updated February 26, 2026
+            - generic [ref=e76]:
+              - button "Share" [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+                - generic [ref=e80]: Share
+              - button "Tweet" [ref=e81] [cursor=pointer]:
+                - img [ref=e82]
+                - generic [ref=e84]: Tweet
+              - link "Email" [ref=e85] [cursor=pointer]:
+                - /url: mailto:?subject=The%20Atlas%20Obscura%20Guide%20to%20San%20Diego&body=47%20Cool%2C%20Hidden%2C%20and%20Unusual%20Things%20to%20Do%20in%20San%20Diego%2C%20California%0A%0Ahttps%3A%2F%2Fwww.atlasobscura.com%2Fthings-to-do%2Fsan-diego-california%3Futm_source%3Dshare_by_email%2526utm_medium%3Demail%2526utm_campaign%3Dmailto_share?utm_source=share_by_email%26utm_medium=email%26utm_campaign=mailto_share
+                - img [ref=e86]
+                - generic [ref=e88]: Email
+        - navigation [ref=e89]:
+          - menubar "Sections" [ref=e91]:
+            - menuitem "Attractions" [ref=e92] [cursor=pointer]
+            - menuitem "Food & Drink" [ref=e93] [cursor=pointer]
+            - menuitem "Map" [ref=e94] [cursor=pointer]
+            - menuitem "Leaderboards" [ref=e95] [cursor=pointer]
+            - menuitem "Stories" [ref=e96] [cursor=pointer]
+            - menuitem "Lists" [ref=e97] [cursor=pointer]
+            - menuitem "Hotel Deals" [ref=e98] [cursor=pointer]:
+              - text: Hotel Deals
+              - img [ref=e99]
+        - generic [ref=e102]:
+          - heading "Unusual Attractions in San Diego" [level=2] [ref=e103]
+          - generic [ref=e105]:
+            - article [ref=e107] [cursor=pointer]:
+              - figure [ref=e108]:
+                - link [ref=e109]:
+                  - /url: /places/sunny-jim-cave-store
+                  - img [ref=e111]
+                - generic [ref=e113]:
+                  - button " Been Here?" [ref=e116]:
+                    - generic [ref=e117]: 
+                    - generic [ref=e118]: Been Here?
+                  - button " Want to Visit?" [ref=e121]:
+                    - generic [ref=e122]: 
+                    - generic [ref=e123]: Want to Visit?
+                  - button " Add to List" [ref=e127]:
+                    - generic [ref=e128]: 
+                    - generic [ref=e129]: Add to List
+              - link "San Diego, California Sunny Jim Cave Store Behind this beachfront shop lies a spectacular, colorful sea cave with an equally colorful past." [ref=e131]:
+                - /url: /places/sunny-jim-cave-store
+                - generic [ref=e132]:
+                  - heading "San Diego, California" [level=3] [ref=e133]
+                  - heading "Sunny Jim Cave Store" [level=4] [ref=e134]
+                - generic [ref=e136]: Behind this beachfront shop lies a spectacular, colorful sea cave with an equally colorful past.
+            - article [ref=e138] [cursor=pointer]:
+              - figure [ref=e139]:
+                - link [ref=e140]:
+                  - /url: /places/spruce-street-suspension-bridge
+                  - img [ref=e142]
+                - generic [ref=e144]:
+                  - button " Been Here?" [ref=e147]:
+                    - generic [ref=e148]: 
+                    - generic [ref=e149]: Been Here?
+                  - button " Want to Visit?" [ref=e152]:
+                    - generic [ref=e153]: 
+                    - generic [ref=e154]: Want to Visit?
+                  - button " Add to List" [ref=e158]:
+                    - generic [ref=e159]: 
+                    - generic [ref=e160]: Add to List
+              - link "San Diego, California Spruce Street Suspension Bridge An inconspicuous footbridge beloved by San Diego locals." [ref=e162]:
+                - /url: /places/spruce-street-suspension-bridge
+                - generic [ref=e163]:
+                  - heading "San Diego, California" [level=3] [ref=e164]
+                  - heading "Spruce Street Suspension Bridge" [level=4] [ref=e165]
+                - generic [ref=e167]: An inconspicuous footbridge beloved by San Diego locals.
+            - article [ref=e169] [cursor=pointer]:
+              - figure [ref=e170]:
+                - link [ref=e171]:
+                  - /url: /places/san-diego-museum-of-us
+                  - img [ref=e173]
+                - generic [ref=e175]:
+                  - button " Been Here?" [ref=e178]:
+                    - generic [ref=e179]: 
+                    - generic [ref=e180]: Been Here?
+                  - button " Want to Visit?" [ref=e183]:
+                    - generic [ref=e184]: 
+                    - generic [ref=e185]: Want to Visit?
+                  - button " Add to List" [ref=e189]:
+                    - generic [ref=e190]: 
+                    - generic [ref=e191]: Add to List
+              - link "San Diego, California San Diego Museum of Us An extraordinarily ornate museum in San Diego holds wondrous anthropological treasures." [ref=e193]:
+                - /url: /places/san-diego-museum-of-us
+                - generic [ref=e194]:
+                  - heading "San Diego, California" [level=3] [ref=e195]
+                  - heading "San Diego Museum of Us" [level=4] [ref=e196]
+                - generic [ref=e198]: An extraordinarily ornate museum in San Diego holds wondrous anthropological treasures.
+            - article [ref=e200]:
+              - link "Return to the Atlas Obscura home page" [ref=e203] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e204]: 
+                - generic [ref=e205]: 
+                - generic [ref=e206]: Places
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - heading "Discover your next amazing Atlas Place." [level=2] [ref=e209]
+                  - paragraph [ref=e210]: Get more unusual and extraordinary places each week with the Atlas Obscura Places newsletter.
+                - generic [ref=e211]:
+                  - textbox "Enter your email" [ref=e212]
+                  - button "Subscribe" [ref=e213] [cursor=pointer]
+                - paragraph [ref=e214]:
+                  - text: Your newsletter subscriptions with us are subject to Atlas Obscura's
+                  - link "Privacy Policy" [ref=e215] [cursor=pointer]:
+                    - /url: /privacy
+                  - text: and
+                  - link "Terms of Use" [ref=e216] [cursor=pointer]:
+                    - /url: /terms
+                  - text: .
+            - article [ref=e218] [cursor=pointer]:
+              - figure [ref=e219]:
+                - link [ref=e220]:
+                  - /url: /places/lucha-libre-tacos
+                - generic [ref=e223]:
+                  - button " Been Here?" [ref=e226]:
+                    - generic [ref=e227]: 
+                    - generic [ref=e228]: Been Here?
+                  - button " Want to Visit?" [ref=e231]:
+                    - generic [ref=e232]: 
+                    - generic [ref=e233]: Want to Visit?
+                  - button " Add to List" [ref=e237]:
+                    - generic [ref=e238]: 
+                    - generic [ref=e239]: Add to List
+              - link "San Diego, California Lucha Libre Taco Shop Lucha Libre (Mexican Wrestling) themed taco shop." [ref=e241]:
+                - /url: /places/lucha-libre-tacos
+                - generic [ref=e242]:
+                  - heading "San Diego, California" [level=3] [ref=e243]
+                  - heading "Lucha Libre Taco Shop" [level=4] [ref=e244]
+                - generic [ref=e246]: Lucha Libre (Mexican Wrestling) themed taco shop.
+            - article [ref=e248] [cursor=pointer]:
+              - figure [ref=e249]:
+                - link [ref=e250]:
+                  - /url: /places/the-whaley-house-san-diego-california
+                  - img [ref=e252]
+                - generic [ref=e254]:
+                  - button " Been Here?" [ref=e257]:
+                    - generic [ref=e258]: 
+                    - generic [ref=e259]: Been Here?
+                  - button " Want to Visit?" [ref=e262]:
+                    - generic [ref=e263]: 
+                    - generic [ref=e264]: Want to Visit?
+                  - button " Add to List" [ref=e268]:
+                    - generic [ref=e269]: 
+                    - generic [ref=e270]: Add to List
+              - link "San Diego, California Whaley House San Diego's most historic and haunted home." [ref=e272]:
+                - /url: /places/the-whaley-house-san-diego-california
+                - generic [ref=e273]:
+                  - heading "San Diego, California" [level=3] [ref=e274]
+                  - heading "Whaley House" [level=4] [ref=e275]
+                - generic [ref=e277]: San Diego's most historic and haunted home.
+            - article [ref=e279] [cursor=pointer]:
+              - figure [ref=e280]:
+                - link [ref=e281]:
+                  - /url: /places/harper-s-topiary-garden
+                  - img [ref=e283]
+                - generic [ref=e285]:
+                  - button " Been Here?" [ref=e288]:
+                    - generic [ref=e289]: 
+                    - generic [ref=e290]: Been Here?
+                  - button " Want to Visit?" [ref=e293]:
+                    - generic [ref=e294]: 
+                    - generic [ref=e295]: Want to Visit?
+                  - button " Add to List" [ref=e299]:
+                    - generic [ref=e300]: 
+                    - generic [ref=e301]: Add to List
+              - link "San Diego, California Harper's Topiary Garden A couple turned their front yard into an artistic masterpiece." [ref=e303]:
+                - /url: /places/harper-s-topiary-garden
+                - generic [ref=e304]:
+                  - heading "San Diego, California" [level=3] [ref=e305]
+                  - heading "Harper's Topiary Garden" [level=4] [ref=e306]
+                - generic [ref=e308]: A couple turned their front yard into an artistic masterpiece.
+            - article [ref=e310] [cursor=pointer]:
+              - figure [ref=e311]:
+                - link [ref=e312]:
+                  - /url: /places/1895-looff-carousel
+                  - img [ref=e314]
+                - generic [ref=e316]:
+                  - button " Been Here?" [ref=e319]:
+                    - generic [ref=e320]: 
+                    - generic [ref=e321]: Been Here?
+                  - button " Want to Visit?" [ref=e324]:
+                    - generic [ref=e325]: 
+                    - generic [ref=e326]: Want to Visit?
+                  - button " Add to List" [ref=e330]:
+                    - generic [ref=e331]: 
+                    - generic [ref=e332]: Add to List
+              - link "San Diego, California 1895 Looff Carousel One of the few remaining carousels built by master amusement park carver Charles I.D. Looff." [ref=e334]:
+                - /url: /places/1895-looff-carousel
+                - generic [ref=e335]:
+                  - heading "San Diego, California" [level=3] [ref=e336]
+                  - heading "1895 Looff Carousel" [level=4] [ref=e337]
+                - generic [ref=e339]: One of the few remaining carousels built by master amusement park carver Charles I.D. Looff.
+          - link "See All 47 Things To Do in San Diego" [ref=e341] [cursor=pointer]:
+            - /url: /things-to-do/san-diego-california/places
+            - text: See All
+            - generic [ref=e342]: "47"
+            - text: Things To Do in San Diego
+        - generic [ref=e343]: Advertisement
+        - generic [ref=e345]:
+          - heading "Cool Places to Eat & Drink in San Diego" [level=2] [ref=e346]
+          - generic [ref=e348]:
+            - article [ref=e350] [cursor=pointer]:
+              - figure [ref=e351]:
+                - link [ref=e352]:
+                  - /url: /places/lucha-libre-tacos
+                - generic [ref=e355]:
+                  - button " Been Here?" [ref=e358]:
+                    - generic [ref=e359]: 
+                    - generic [ref=e360]: Been Here?
+                  - button " Want to Visit?" [ref=e363]:
+                    - generic [ref=e364]: 
+                    - generic [ref=e365]: Want to Visit?
+                  - button " Add to List" [ref=e369]:
+                    - generic [ref=e370]: 
+                    - generic [ref=e371]: Add to List
+              - link "San Diego, California Lucha Libre Taco Shop Lucha Libre (Mexican Wrestling) themed taco shop." [ref=e373]:
+                - /url: /places/lucha-libre-tacos
+                - generic [ref=e374]:
+                  - heading "San Diego, California" [level=3] [ref=e375]
+                  - heading "Lucha Libre Taco Shop" [level=4] [ref=e376]
+                - generic [ref=e378]: Lucha Libre (Mexican Wrestling) themed taco shop.
+            - article [ref=e380] [cursor=pointer]:
+              - figure [ref=e381]:
+                - link [ref=e382]:
+                  - /url: /places/fathom-bistro-bait-and-tackle
+                - generic [ref=e385]:
+                  - button " Been Here?" [ref=e388]:
+                    - generic [ref=e389]: 
+                    - generic [ref=e390]: Been Here?
+                  - button " Want to Visit?" [ref=e393]:
+                    - generic [ref=e394]: 
+                    - generic [ref=e395]: Want to Visit?
+                  - button " Add to List" [ref=e399]:
+                    - generic [ref=e400]: 
+                    - generic [ref=e401]: Add to List
+              - link "San Diego, California Fathom Bistro, Bait, and Tackle Get fishing gear and craft beer at this restaurant on the pier." [ref=e403]:
+                - /url: /places/fathom-bistro-bait-and-tackle
+                - generic [ref=e404]:
+                  - heading "San Diego, California" [level=3] [ref=e405]
+                  - heading "Fathom Bistro, Bait, and Tackle" [level=4] [ref=e406]
+                - generic [ref=e408]: Get fishing gear and craft beer at this restaurant on the pier.
+            - article [ref=e410] [cursor=pointer]:
+              - figure [ref=e411]:
+                - link [ref=e412]:
+                  - /url: /places/miniature-taco-bell-san-diego
+                  - img [ref=e414]
+                - generic [ref=e416]:
+                  - button " Been Here?" [ref=e419]:
+                    - generic [ref=e420]: 
+                    - generic [ref=e421]: Been Here?
+                  - button " Want to Visit?" [ref=e424]:
+                    - generic [ref=e425]: 
+                    - generic [ref=e426]: Want to Visit?
+                  - button " Add to List" [ref=e430]:
+                    - generic [ref=e431]: 
+                    - generic [ref=e432]: Add to List
+              - link "San Diego, California Miniature Taco Bell Admire a Lilliputian replica of the fast food outlet." [ref=e434]:
+                - /url: /places/miniature-taco-bell-san-diego
+                - generic [ref=e435]:
+                  - heading "San Diego, California" [level=3] [ref=e436]
+                  - heading "Miniature Taco Bell" [level=4] [ref=e437]
+                - generic [ref=e439]: Admire a Lilliputian replica of the fast food outlet.
+        - generic [ref=e441]:
+          - generic [ref=e442]: In partnership with KAYAK
+          - heading "Plan Your Trip" [level=3] [ref=e443]
+          - iframe [ref=e445]:
+            - generic [ref=f474e3]:
+              - button "Powered by" [ref=f474e5] [cursor=pointer]:
+                - generic [ref=f474e6]: Powered by
+              - generic [ref=f474e9]:
+                - generic [ref=f474e10]:
+                  - button "Hotels" [ref=f474e11] [cursor=pointer]:
+                    - generic [ref=f474e13]: Hotels
+                  - button "Flights" [ref=f474e14] [cursor=pointer]:
+                    - generic [ref=f474e16]: Flights
+                  - button "Cars" [ref=f474e17] [cursor=pointer]:
+                    - generic [ref=f474e19]: Cars
+                - button "Room information" [ref=f474e22]: Room information
+                - generic [ref=f474e25]:
+                  - combobox "Enter a city, hotel, airport or landmark" [ref=f474e32]: San Diego, California, United States
+                  - generic [ref=f474e37]:
+                    - button "Fri 4/24, Start date" [ref=f474e39] [cursor=pointer]:
+                      - generic [ref=f474e42]: Fri 4/24
+                    - button "Fri 5/1, End date" [ref=f474e45] [cursor=pointer]:
+                      - generic [ref=f474e48]: Fri 5/1
+                  - button [ref=f474e50] [cursor=pointer]
+                - generic [ref=f474e55]:
+                  - generic [ref=f474e57]: Compare vs. KAYAK
+                  - generic [ref=f474e60] [cursor=pointer]:
+                    - checkbox "Booking.com" [checked] [ref=f474e62]
+                    - generic [ref=f474e64]: Booking.com
+          - generic [ref=e446]: In partnership with GetYourGuide
+          - heading "Unforgettable Experiences Nearby" [level=3] [ref=e447]
+          - iframe [ref=e449]:
+            - generic [ref=f473e3]:
+              - list [ref=f473e4]:
+                - listitem [ref=f473e5]:
+                  - link "View further details about this activity at GetYourGuide" [ref=f473e6] [cursor=pointer]:
+                    - /url: https://www.getyourguide.com/s/?et=1049949&psrc=widget&partner_id=1SQ97RY&utm_medium=online_publisher&currency=EUR&q=San+Diego+California&queryMatch=all&widget=activities&wid=47aa25c5-67ee-57a8-a38b-0bffcb9d7c67&page_id=3d58b86a-6ada-53c6-bd9f-2be321fce689&visitor_id=FACE0CE5C9F144078B07D806D7182AEB
+                    - generic [ref=f473e7]: View details
+                  - 'img "San Diego: 3 Hour Whale Watch Cruise with Legacy Whale Watch" [ref=f473e11]'
+                  - generic [ref=f473e12]:
+                    - generic [ref=f473e13]: 3 Hour Whale Watch Cruise with Legacy Whale Watch
+                    - generic [ref=f473e14]:
+                      - img [ref=f473e16]
+                      - generic [ref=f473e18]: "Duration: 3 hours"
+                    - generic [ref=f473e19]:
+                      - img [ref=f473e21]
+                      - generic [ref=f473e23]: "4.5"
+                      - generic [ref=f473e24]: (204)
+                - listitem [ref=f473e25]:
+                  - link "View further details about this activity at GetYourGuide" [ref=f473e26] [cursor=pointer]:
+                    - /url: https://www.getyourguide.com/s/?et=217185&psrc=widget&partner_id=1SQ97RY&utm_medium=online_publisher&currency=EUR&q=San+Diego+California&queryMatch=all&widget=activities&wid=47aa25c5-67ee-57a8-a38b-0bffcb9d7c67&page_id=3d58b86a-6ada-53c6-bd9f-2be321fce689&visitor_id=FACE0CE5C9F144078B07D806D7182AEB
+                    - generic [ref=f473e27]: View details
+                  - 'img "La Jolla: La Jolla Sea Cave Kayak Tour" [ref=f473e31]'
+                  - generic [ref=f473e32]:
+                    - generic [ref=f473e33]: La Jolla Sea Cave Kayak Tour
+                    - generic [ref=f473e34]:
+                      - img [ref=f473e36]
+                      - generic [ref=f473e38]: "Duration: 2 hours"
+                    - generic [ref=f473e39]:
+                      - img [ref=f473e41]
+                      - generic [ref=f473e43]: "4.5"
+                      - generic [ref=f473e44]: (624)
+                - listitem [ref=f473e45]:
+                  - link "View further details about this activity at GetYourGuide" [ref=f473e46] [cursor=pointer]:
+                    - /url: https://www.getyourguide.com/s/?et=12879&psrc=widget&partner_id=1SQ97RY&utm_medium=online_publisher&currency=EUR&q=San+Diego+California&queryMatch=all&widget=activities&wid=47aa25c5-67ee-57a8-a38b-0bffcb9d7c67&page_id=3d58b86a-6ada-53c6-bd9f-2be321fce689&visitor_id=FACE0CE5C9F144078B07D806D7182AEB
+                    - generic [ref=f473e47]: View details
+                  - 'img "San Diego: USS Midway Museum Entry Ticket" [ref=f473e51]'
+                  - generic [ref=f473e52]:
+                    - generic [ref=f473e53]: USS Midway Museum Entry Ticket
+                    - generic [ref=f473e55]:
+                      - img [ref=f473e57]
+                      - generic [ref=f473e59]: "4.9"
+                      - generic [ref=f473e60]: (3948)
+                - listitem [ref=f473e61]:
+                  - link "View further details about this activity at GetYourGuide" [ref=f473e62] [cursor=pointer]:
+                    - /url: https://www.getyourguide.com/s/?et=14283&psrc=widget&partner_id=1SQ97RY&utm_medium=online_publisher&currency=EUR&q=San+Diego+California&queryMatch=all&widget=activities&wid=47aa25c5-67ee-57a8-a38b-0bffcb9d7c67&page_id=3d58b86a-6ada-53c6-bd9f-2be321fce689&visitor_id=FACE0CE5C9F144078B07D806D7182AEB
+                    - generic [ref=f473e63]: View details
+                  - 'img "San Diego: Hop-on Hop-off Narrated Trolley Tour" [ref=f473e67]'
+                  - generic [ref=f473e68]:
+                    - generic [ref=f473e69]: Hop-on Hop-off Narrated Trolley Tour
+                    - generic [ref=f473e71]:
+                      - img [ref=f473e73]
+                      - generic [ref=f473e75]: "4.7"
+                      - generic [ref=f473e76]: (1366)
+              - contentinfo [ref=f473e77]:
+                - generic [ref=f473e78]:
+                  - link "Powered by GetYourGuide." [ref=f473e79] [cursor=pointer]:
+                    - /url: https://getyourguide.com/san-diego-l263/?partner_id=1SQ97RY
+                  - link "Join our travel affiliate program" [ref=f473e80] [cursor=pointer]:
+                    - /url: https://partner.getyourguide.com/
+        - generic [ref=e450]: Advertisement
+        - text: Advertisement
+        - generic [ref=e452]:
+          - generic [ref=e453]:
+            - heading "Atlas Obscura Itineraries" [level=1] [ref=e454]
+            - heading "9 Surprisingly Ancient Marvels in Modern California" [level=2] [ref=e455]
+            - paragraph [ref=e456]: Long before California was home to tech campuses, freeways, and palm trees, Native inhabitants etched huge designs into the landscape. Even before that, at roughly the same time that the Pyramids of Giza were under construction, a tree that still survives today began taking root. And even farther into the past, glaciers and mammoths created enduring monuments to antiquity. Across the state, the distant past is still within easy reach.
+            - link "View Itinerary" [ref=e458] [cursor=pointer]:
+              - /url: /itineraries/exploring-ancient-california
+          - generic:
+            - generic:
+              - img "The Blythe Intaglios are as mysterious as they are massive."
+        - generic [ref=e460]:
+          - heading "Explore San Diego, California" [level=2] [ref=e461]
+          - generic [ref=e464]:
+            - button "Maximize map" [ref=e466] [cursor=pointer]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: Maximize map
+                - img [ref=e469]
+            - generic [ref=e475]:
+              - generic:
+                - generic [ref=e477] [cursor=pointer]: "6"
+                - generic [ref=e479] [cursor=pointer]: "40"
+                - generic "Friendship Park" [ref=e480] [cursor=pointer]:
+                  - img "Map marker" [ref=e481]
+          - generic [ref=e482]:
+            - link "Architecture 6" [ref=e484] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/architecture
+              - generic [ref=e485]: Architecture
+              - generic [ref=e486]: "6"
+            - link "Museums 6" [ref=e488] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/museums
+              - generic [ref=e489]: Museums
+              - generic [ref=e490]: "6"
+            - link "Parks 5" [ref=e492] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/parks
+              - generic [ref=e493]: Parks
+              - generic [ref=e494]: "5"
+            - link "Art 5" [ref=e496] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/art
+              - generic [ref=e497]: Art
+              - generic [ref=e498]: "5"
+            - link "Architectural Oddities 4" [ref=e500] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/architectural-oddities
+              - generic [ref=e501]: Architectural Oddities
+              - generic [ref=e502]: "4"
+            - link "Music 4" [ref=e504] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/music
+              - generic [ref=e505]: Music
+              - generic [ref=e506]: "4"
+            - link "Haunted 4" [ref=e508] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/haunted
+              - generic [ref=e509]: Haunted
+              - generic [ref=e510]: "4"
+            - link "Statues 4" [ref=e512] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/statues
+              - generic [ref=e513]: Statues
+              - generic [ref=e514]: "4"
+            - link "History & Culture 3" [ref=e516] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/history-culture
+              - generic [ref=e517]: History & Culture
+              - generic [ref=e518]: "3"
+            - link "Flora 3" [ref=e520] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/flora
+              - generic [ref=e521]: Flora
+              - generic [ref=e522]: "3"
+            - link "Miniatures 3" [ref=e524] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/miniatures
+              - generic [ref=e525]: Miniatures
+              - generic [ref=e526]: "3"
+            - link "Gardens 3" [ref=e528] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/gardens
+              - generic [ref=e529]: Gardens
+              - generic [ref=e530]: "3"
+            - link "Collections 3" [ref=e532] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/collections
+              - generic [ref=e533]: Collections
+              - generic [ref=e534]: "3"
+            - link "Plants 3" [ref=e536] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/plants
+              - generic [ref=e537]: Plants
+              - generic [ref=e538]: "3"
+            - link "Bridges 2" [ref=e540] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/bridges
+              - generic [ref=e541]: Bridges
+              - generic [ref=e542]: "2"
+            - link "Ships 2" [ref=e544] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/ships
+              - generic [ref=e545]: Ships
+              - generic [ref=e546]: "2"
+            - link "Military History 2" [ref=e548] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/military-history
+              - generic [ref=e549]: Military History
+              - generic [ref=e550]: "2"
+            - link "Crime 2" [ref=e552] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/crime
+              - generic [ref=e553]: Crime
+              - generic [ref=e554]: "2"
+            - link "Memorials 2" [ref=e556] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/memorials
+              - generic [ref=e557]: Memorials
+              - generic [ref=e558]: "2"
+            - link "Naval History 2" [ref=e560] [cursor=pointer]:
+              - /url: /things-to-do/san-diego-california/naval-history
+              - generic [ref=e561]: Naval History
+              - generic [ref=e562]: "2"
+        - generic [ref=e563]: Advertisement
+        - text: Advertisement
+        - generic [ref=e565]:
+          - heading "San Diego Leaderboard" [level=3] [ref=e566]
+          - generic [ref=e567]:
+            - article [ref=e568]:
+              - heading "Places Added" [level=4] [ref=e569]
+              - list [ref=e570]:
+                - listitem [ref=e571]:
+                  - link "Avatar image for SEANETTA SEANETTA 4" [ref=e572] [cursor=pointer]:
+                    - /url: /users/seanetta
+                    - img "Avatar image for SEANETTA" [ref=e576]
+                    - generic [ref=e577]: SEANETTA
+                    - generic [ref=e578]: "4"
+                - listitem [ref=e579]:
+                  - link "Avatar image for jondi letnap jondi letnap 3" [ref=e580] [cursor=pointer]:
+                    - /url: /users/jondi-letnap
+                    - img "Avatar image for jondi letnap" [ref=e584]
+                    - generic [ref=e585]: jondi letnap
+                    - generic [ref=e586]: "3"
+                - listitem [ref=e587]:
+                  - link "Avatar image for Rachel Rachel 2" [ref=e588] [cursor=pointer]:
+                    - /url: /users/rachel
+                    - img "Avatar image for Rachel" [ref=e592]
+                    - generic [ref=e593]: Rachel
+                    - generic [ref=e594]: "2"
+                - listitem [ref=e595]:
+                  - link "Avatar image for Fred Cherrygarden Fred Cherrygarden 2" [ref=e596] [cursor=pointer]:
+                    - /url: /users/fred-cherrygarden
+                    - img "Avatar image for Fred Cherrygarden" [ref=e600]
+                    - generic [ref=e601]: Fred Cherrygarden
+                    - generic [ref=e602]: "2"
+                - listitem [ref=e603]:
+                  - link "Avatar image for Melody Jean Moulton Melody Jean Moulton 2" [ref=e604] [cursor=pointer]:
+                    - /url: /users/melody-jean-moulton
+                    - img "Avatar image for Melody Jean Moulton" [ref=e608]
+                    - generic [ref=e609]: Melody Jean Moulton
+                    - generic [ref=e610]: "2"
+              - generic [ref=e611]:
+                - strong [ref=e613]: Join the Ranks!
+                - generic [ref=e614]:
+                  - link "Add an unusual place" [ref=e615] [cursor=pointer]:
+                    - /url: /places/new
+                  - text: to San Diego.
+            - article [ref=e616]:
+              - heading "Places Edited" [level=4] [ref=e617]
+              - list [ref=e618]:
+                - listitem [ref=e619]:
+                  - link "Avatar image for blimpcaptain blimpcaptain 25" [ref=e620] [cursor=pointer]:
+                    - /url: /users/blimpcaptain
+                    - img "Avatar image for blimpcaptain" [ref=e624]:
+                      - generic [ref=e625]: B
+                    - generic [ref=e626]: blimpcaptain
+                    - generic [ref=e627]: "25"
+                - listitem [ref=e628]:
+                  - link "Avatar image for ccesare ccesare 21" [ref=e629] [cursor=pointer]:
+                    - /url: /users/ccesare
+                    - img "Avatar image for ccesare" [ref=e633]
+                    - generic [ref=e634]: ccesare
+                    - generic [ref=e635]: "21"
+                - listitem [ref=e636]:
+                  - link "Avatar image for Avoiding Regret Avoiding Regret 17" [ref=e637] [cursor=pointer]:
+                    - /url: /users/avoiding-regret
+                    - img "Avatar image for Avoiding Regret" [ref=e641]
+                    - generic [ref=e642]: Avoiding Regret
+                    - generic [ref=e643]: "17"
+                - listitem [ref=e644]:
+                  - link "Avatar image for SEANETTA SEANETTA 12" [ref=e645] [cursor=pointer]:
+                    - /url: /users/seanetta
+                    - img "Avatar image for SEANETTA" [ref=e649]
+                    - generic [ref=e650]: SEANETTA
+                    - generic [ref=e651]: "12"
+                - listitem [ref=e652]:
+                  - link "Avatar image for jondi letnap jondi letnap 12" [ref=e653] [cursor=pointer]:
+                    - /url: /users/jondi-letnap
+                    - img "Avatar image for jondi letnap" [ref=e657]
+                    - generic [ref=e658]: jondi letnap
+                    - generic [ref=e659]: "12"
+            - article [ref=e660]:
+              - heading "Places Visited" [level=4] [ref=e661]
+              - list [ref=e662]:
+                - listitem [ref=e663]:
+                  - link "Avatar image for j3taylor j3taylor 42" [ref=e664] [cursor=pointer]:
+                    - /url: /users/j3taylor
+                    - img "Avatar image for j3taylor" [ref=e668]
+                    - generic [ref=e669]: j3taylor
+                    - generic [ref=e670]: "42"
+                - listitem [ref=e671]:
+                  - link "Avatar image for hernameisreo hernameisreo 37" [ref=e672] [cursor=pointer]:
+                    - /url: /users/hernameisreo
+                    - img "Avatar image for hernameisreo" [ref=e676]:
+                      - generic [ref=e677]: H
+                    - generic [ref=e678]: hernameisreo
+                    - generic [ref=e679]: "37"
+                - listitem [ref=e680]:
+                  - link "Avatar image for bertcrabbe bertcrabbe 37" [ref=e681] [cursor=pointer]:
+                    - /url: /users/bertcrabbe
+                    - img "Avatar image for bertcrabbe" [ref=e685]
+                    - generic [ref=e686]: bertcrabbe
+                    - generic [ref=e687]: "37"
+                - listitem [ref=e688]:
+                  - link "Avatar image for cincjr27 cincjr27 35" [ref=e689] [cursor=pointer]:
+                    - /url: /users/c5f653a2-f905-4ffb-9345-ab8fb3f33965
+                    - img "Avatar image for cincjr27" [ref=e693]:
+                      - generic [ref=e694]: C
+                    - generic [ref=e695]: cincjr27
+                    - generic [ref=e696]: "35"
+                - listitem [ref=e697]:
+                  - link "Avatar image for getaliftsd getaliftsd 35" [ref=e698] [cursor=pointer]:
+                    - /url: /users/3f367267-b9c7-4b19-aeb5-bedf6ba701f3
+                    - img "Avatar image for getaliftsd" [ref=e702]
+                    - generic [ref=e703]: getaliftsd
+                    - generic [ref=e704]: "35"
+              - generic [ref=e705]:
+                - strong [ref=e707]: Join the Ranks!
+                - text: Visit a place in San Diego.
+        - generic [ref=e709]:
+          - heading "Recent San Diego Activity" [level=3] [ref=e710]
+          - list [ref=e713]:
+            - listitem [ref=e714]:
+              - generic [ref=e717]:
+                - img "Avatar image for Huebschfrau" [ref=e721]:
+                  - generic [ref=e722]: H
+                - generic [ref=e723]:
+                  - generic [ref=e724]:
+                    - paragraph [ref=e725]:
+                      - link "Huebschfrau" [ref=e726] [cursor=pointer]:
+                        - /url: /users/huebschfrau
+                    - paragraph [ref=e727]:
+                      - text: wants to go to
+                      - link "Pearl of the Pacific" [ref=e728] [cursor=pointer]:
+                        - /url: /places/pearl-of-the-pacific
+                  - time [ref=e730]: about 6 hours ago
+            - listitem [ref=e731]:
+              - generic [ref=e734]:
+                - img "Avatar image for Huebschfrau" [ref=e738]:
+                  - generic [ref=e739]: H
+                - generic [ref=e740]:
+                  - generic [ref=e741]:
+                    - paragraph [ref=e742]:
+                      - link "Huebschfrau" [ref=e743] [cursor=pointer]:
+                        - /url: /users/huebschfrau
+                    - paragraph [ref=e744]:
+                      - text: wants to go to
+                      - link "Louie Mattar’s Fabulous Car" [ref=e745] [cursor=pointer]:
+                        - /url: /places/louie-mattars-fabulous-car
+                  - time [ref=e747]: about 6 hours ago
+            - listitem [ref=e748]:
+              - generic [ref=e751]:
+                - img "Avatar image for melyturner" [ref=e755]:
+                  - generic [ref=e756]: M
+                - generic [ref=e757]:
+                  - generic [ref=e758]:
+                    - paragraph [ref=e759]:
+                      - link "melyturner" [ref=e760] [cursor=pointer]:
+                        - /url: /users/melyturner
+                    - paragraph [ref=e761]:
+                      - text: has been to
+                      - link "Unconditional Surrender" [ref=e762] [cursor=pointer]:
+                        - /url: /places/unconditional-surrender
+                  - time [ref=e764]: about 4 hours ago
+            - listitem [ref=e765]:
+              - generic [ref=e768]:
+                - img "Avatar image for SteakboyBirdbones" [ref=e772]:
+                  - generic [ref=e773]: S
+                - generic [ref=e774]:
+                  - generic [ref=e775]:
+                    - paragraph [ref=e776]:
+                      - link "SteakboyBirdbones" [ref=e777] [cursor=pointer]:
+                        - /url: /users/steakboybirdbones
+                    - paragraph [ref=e778]:
+                      - text: wants to go to
+                      - link "Bali Hito" [ref=e779] [cursor=pointer]:
+                        - /url: /places/bali-hito
+                  - time [ref=e781]: about 4 hours ago
+            - listitem [ref=e782]:
+              - generic [ref=e784]:
+                - img "Avatar image for SteakboyBirdbones" [ref=e788]:
+                  - generic [ref=e789]: S
+                - generic [ref=e790]:
+                  - generic [ref=e791]:
+                    - paragraph [ref=e792]:
+                      - link "SteakboyBirdbones" [ref=e793] [cursor=pointer]:
+                        - /url: /users/steakboybirdbones
+                    - paragraph [ref=e794]:
+                      - text: wants to go to
+                      - link "1895 Looff Carousel" [ref=e795] [cursor=pointer]:
+                        - /url: /places/1895-looff-carousel
+                  - time [ref=e797]: about 4 hours ago
+        - generic [ref=e799]:
+          - heading "Stories About San Diego" [level=2] [ref=e800]
+          - generic [ref=e801]:
+            - link [ref=e803] [cursor=pointer]:
+              - /url: /articles/podcast-paul-scheers-life-three-places
+              - article [ref=e804]:
+                - img "A child being led on a horse at Rocking Horse Ranch" [ref=e807]
+                - generic [ref=e808]:
+                  - heading "Paul Scheer’s Top 3 Embarrassing Places" [level=3] [ref=e809]
+                  - generic [ref=e810]: Actor and comedian Paul Scheer can’t go back to these places without cringing.
+                  - generic [ref=e811]:
+                    - generic [ref=e812]: by The Podcast Team
+                    - time [ref=e813]: August 21, 2025
+            - link [ref=e815] [cursor=pointer]:
+              - /url: /articles/cerutti-mastodon-controversy
+              - article [ref=e816]:
+                - img "Mastodons once roamed over much of North America. One of them died near the future site of San Diego, causing a scientific controversy 130,000 years later." [ref=e819]
+                - generic [ref=e820]:
+                  - heading "The Wild Tale of the Cerutti Mastodon, a Fossil That Could Rewrite the Human Story" [level=3] [ref=e821]
+                  - generic [ref=e822]: The Cerutti Mastodon, found near San Diego, shows signs of being butchered 130,000 years ago—but by who? Or what?
+                  - generic [ref=e823]:
+                    - generic [ref=e824]: by Gemma Tarlach
+                    - time [ref=e825]: August 1, 2024
+            - link [ref=e827] [cursor=pointer]:
+              - /url: /articles/taxidermy-library-san-diego
+              - article [ref=e828]:
+                - img "The materials to create the coyote (left) are commonly used for building stop motion puppets; a raccoon (right) looks lifelike after Binard mounts the hide on the form." [ref=e831]
+                - generic [ref=e832]:
+                  - heading "You Can Take Home Dead Animals From This California Library" [level=3] [ref=e833]
+                  - generic [ref=e834]: Check out camel skulls, starfish, or a lion’s pelt, just to know what it feels like.
+                  - generic [ref=e835]:
+                    - generic [ref=e836]: by Sarah Milligan
+                    - time [ref=e837]: November 29, 2023
+            - link [ref=e839] [cursor=pointer]:
+              - /url: /articles/how-to-decode-a-cave
+              - article [ref=e840]:
+                - img "Halectites at Black Chasm Cavern in Volcano, CA." [ref=e843]
+                - generic [ref=e844]:
+                  - heading "How to Decode a Cave" [level=3] [ref=e845]
+                  - generic [ref=e846]: Below California’s surface lies a series of caves that can teach us a lot about our natural world—and its history.
+                  - generic [ref=e847]: Sponsored By Visit California
+            - generic [ref=e848]: Advertisement
+            - text: Advertisement
+            - link [ref=e850] [cursor=pointer]:
+              - /url: /articles/podcast-the-rainmaker
+              - article [ref=e851]:
+                - generic [ref=e854]:
+                  - 'heading "Podcast: The Rainmaker" [level=3] [ref=e855]'
+                  - generic [ref=e856]: Was Charles Hatfield a scientist or a con man?
+                  - generic [ref=e857]:
+                    - generic [ref=e858]: by The Podcast Team
+                    - time [ref=e859]: February 7, 2023
+            - link [ref=e861] [cursor=pointer]:
+              - /url: /articles/podcast-friendship-park
+              - article [ref=e862]:
+                - generic [ref=e865]:
+                  - 'heading "Podcast: Friendship Park" [level=3] [ref=e866]'
+                  - generic [ref=e867]: Join us for a daily celebration of the world’s most wondrous, unexpected, even strange places.
+                  - generic [ref=e868]:
+                    - generic [ref=e869]: by The Podcast Team
+                    - time [ref=e870]: August 11, 2022
+            - link [ref=e872] [cursor=pointer]:
+              - /url: /articles/podcast-sunny-jim-cave
+              - article [ref=e873]:
+                - img "Sunny Jim Cave" [ref=e876]
+                - generic [ref=e877]:
+                  - 'heading "Sunny Jim’s Sea Cave: The Cave Hidden Behind a Boutique" [level=3] [ref=e878]'
+                  - generic [ref=e879]: Tucked away behind a coastal boutique and at the end of a long, winding tunnel is a natural sea cave.
+                  - generic [ref=e880]:
+                    - generic [ref=e881]: by The Podcast Team
+                    - time [ref=e882]: July 31, 2025
+            - link [ref=e884] [cursor=pointer]:
+              - /url: /articles/cypress-tree-california-seuss-lorax
+              - article [ref=e885]:
+                - img "The whimsical cypress in better days." [ref=e888]
+                - generic [ref=e889]:
+                  - heading "The Cypress That May Have Inspired Dr. Seuss's 'The Lorax' Has Toppled Down" [level=3] [ref=e890]
+                  - generic [ref=e891]: Now there's nothing left of its whimsical crown.
+                  - generic [ref=e892]:
+                    - generic [ref=e893]: by Evan Nicole Brown
+                    - time [ref=e894]: June 17, 2019
+        - generic [ref=e895]: Advertisement
+        - text: Advertisement
+        - generic [ref=e897]:
+          - heading "Lists Featuring San Diego" [level=2] [ref=e898]
+          - link "San Diego Museum of Man Harper&#8217;s Topiary Garden Spruce Street Suspension Bridge 9 Spots for Unexpected Family Fun Across San Diego Sponsored By San Diego Tourism 9 Including San Diego Museum of Us, Harper's Topiary Garden, and Mushroom Beach House" [ref=e901] [cursor=pointer]:
+            - /url: /lists/9-spots-for-unexpected-family-fun-across-san-diego
+            - generic [ref=e902]:
+              - generic [ref=e904]:
+                - generic:
+                  - generic:
+                    - img "San Diego Museum of Man"
+                - generic:
+                  - generic:
+                    - img "Harper&#8217;s Topiary Garden"
+                - generic:
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - img "Spruce Street Suspension Bridge"
+              - generic [ref=e906]:
+                - heading "9 Spots for Unexpected Family Fun Across San Diego" [level=3] [ref=e907]
+                - generic [ref=e908]: Sponsored By San Diego Tourism
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - img [ref=e911]
+                  - text: "9"
+                - paragraph [ref=e913]: Including San Diego Museum of Us, Harper's Topiary Garden, and Mushroom Beach House
+        - generic [ref=e914]: Advertisement
+        - text: Advertisement
+        - link "Aerial image of Vietnam, displaying the picturesque rice terraces, characterized by their layered, verdant fields. Atlas Obscura Membership Become an Atlas Obscura Member Join our community of curious explorers." [ref=e916] [cursor=pointer]:
+          - /url: /membership
+          - generic [ref=e917]:
+            - img "Aerial image of Vietnam, displaying the picturesque rice terraces, characterized by their layered, verdant fields." [ref=e919]
+            - generic [ref=e920]:
+              - img "Atlas Obscura Membership" [ref=e921]
+              - generic [ref=e922]:
+                - heading "Become an Atlas Obscura Member" [level=2] [ref=e923]
+                - separator [ref=e924]
+                - paragraph [ref=e925]: Join our community of curious explorers.
+                - img [ref=e928]
+      - contentinfo [ref=e930]:
+        - generic [ref=e931]:
+          - generic [ref=e932]:
+            - generic [ref=e933]:
+              - heading "Get Our Email Newsletter" [level=2] [ref=e934]
+              - generic [ref=e937]:
+                - textbox "Enter your email" [ref=e938]
+                - button "Subscribe" [ref=e939] [cursor=pointer]
+            - generic [ref=e940]:
+              - heading "Follow Us" [level=2] [ref=e941]
+              - generic [ref=e942]:
+                - link "Facebook" [ref=e943] [cursor=pointer]:
+                  - /url: https://www.facebook.com/atlasobscura/
+                  - generic [ref=e944]: Facebook
+                  - img [ref=e945]
+                - link "YouTube" [ref=e947] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/atlasobscura
+                  - generic [ref=e948]: YouTube
+                  - img [ref=e949]
+                - link "TikTok" [ref=e951] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@atlas.obscura
+                  - generic [ref=e952]: TikTok
+                  - img [ref=e953]
+                - link "Instagram" [ref=e955] [cursor=pointer]:
+                  - /url: https://www.instagram.com/atlasobscura/
+                  - generic [ref=e956]: Instagram
+                  - img [ref=e957]
+                - link "Pinterest" [ref=e959] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/atlasobscura/_saved/
+                  - generic [ref=e960]: Pinterest
+                  - img [ref=e961]
+                - link "RSS Feed" [ref=e963] [cursor=pointer]:
+                  - /url: /feeds/latest
+                  - generic [ref=e964]: RSS Feed
+                  - img [ref=e965]
+            - generic [ref=e967]:
+              - heading "Get the app" [level=2] [ref=e968]
+              - link "Download the App" [ref=e969] [cursor=pointer]:
+                - /url: https://app.atlasobscura.com
+                - img [ref=e970]
+                - text: Download the App
+          - generic [ref=e972]:
+            - navigation "Places" [ref=e973]:
+              - generic [ref=e974]: Places
+              - list [ref=e975]:
+                - listitem [ref=e976]:
+                  - link "All Places" [ref=e977] [cursor=pointer]:
+                    - /url: /articles/all-places-in-the-atlas-on-one-map
+                - listitem [ref=e978]:
+                  - link "Latest Places" [ref=e979] [cursor=pointer]:
+                    - /url: /places?sort=published_at
+                - listitem [ref=e980]:
+                  - link "Most Popular" [ref=e981] [cursor=pointer]:
+                    - /url: /places?sort=likes_count
+                - listitem [ref=e982]:
+                  - link "Places to Eat" [ref=e983] [cursor=pointer]:
+                    - /url: /cool-places-to-eat
+                - listitem [ref=e984]:
+                  - link "Random" [ref=e985] [cursor=pointer]:
+                    - /url: /random
+                - listitem [ref=e986]:
+                  - link "Nearby" [ref=e987] [cursor=pointer]:
+                    - /url: /search/search_nearby
+                - listitem [ref=e988]:
+                  - link "Add a Place" [ref=e989] [cursor=pointer]:
+                    - /url: /places/new
+            - navigation "Editorial" [ref=e990]:
+              - generic [ref=e991]: Editorial
+              - list [ref=e992]:
+                - listitem [ref=e993]:
+                  - link "Stories" [ref=e994] [cursor=pointer]:
+                    - /url: /articles
+                - listitem [ref=e995]:
+                  - link "Food & Drink" [ref=e996] [cursor=pointer]:
+                    - /url: /unique-food
+                - listitem [ref=e997]:
+                  - link "Itineraries" [ref=e998] [cursor=pointer]:
+                    - /url: /itineraries
+                - listitem [ref=e999]:
+                  - link "Lists" [ref=e1000] [cursor=pointer]:
+                    - /url: /lists
+                - listitem [ref=e1001]:
+                  - link "Video" [ref=e1002] [cursor=pointer]:
+                    - /url: /videos
+                - listitem [ref=e1003]:
+                  - link "Podcast" [ref=e1004] [cursor=pointer]:
+                    - /url: /podcast
+                - listitem [ref=e1005]:
+                  - link "Newsletters" [ref=e1006] [cursor=pointer]:
+                    - /url: /newsletters
+            - navigation "Trips" [ref=e1007]:
+              - generic [ref=e1008]: Trips
+              - list [ref=e1009]:
+                - listitem [ref=e1010]:
+                  - link "All Trips" [ref=e1011] [cursor=pointer]:
+                    - /url: /unusual-trips
+            - navigation "Community" [ref=e1012]:
+              - generic [ref=e1013]: Community
+              - list [ref=e1014]:
+                - listitem [ref=e1015]:
+                  - link "Membership" [ref=e1016] [cursor=pointer]:
+                    - /url: /membership
+                - listitem [ref=e1017]:
+                  - link "Feedback & Ideas" [ref=e1018] [cursor=pointer]:
+                    - /url: https://atlas-obscura-digital-product.nolt.io
+                - listitem [ref=e1019]:
+                  - link "Community Guidelines" [ref=e1020] [cursor=pointer]:
+                    - /url: /community-guidelines
+                - listitem [ref=e1021]:
+                  - link "Product Blog" [ref=e1022] [cursor=pointer]:
+                    - /url: /product-blog
+                - listitem [ref=e1023]:
+                  - link "Unique Gifts" [ref=e1024] [cursor=pointer]:
+                    - /url: /unique-gifts
+                - listitem [ref=e1025]:
+                  - link "Work With Us" [ref=e1026] [cursor=pointer]:
+                    - /url: /jobs
+            - navigation "Company" [ref=e1027]:
+              - generic [ref=e1028]: Company
+              - list [ref=e1029]:
+                - listitem [ref=e1030]:
+                  - link "About" [ref=e1031] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e1032]:
+                  - link "FAQ" [ref=e1033] [cursor=pointer]:
+                    - /url: /faq
+                - listitem [ref=e1034]:
+                  - link "Advertise With Us" [ref=e1035] [cursor=pointer]:
+                    - /url: https://studio-obscura.atlasobscura.com/studio-obscura/index.html
+                - listitem [ref=e1036]:
+                  - link "Advertising Guidelines" [ref=e1037] [cursor=pointer]:
+                    - /url: /advertising-acceptability-guidelines
+                - listitem [ref=e1038]:
+                  - link "Privacy Policy" [ref=e1039] [cursor=pointer]:
+                    - /url: /privacy
+                - listitem [ref=e1040]:
+                  - link "Cookie Policy" [ref=e1041] [cursor=pointer]:
+                    - /url: /cookies
+                - listitem [ref=e1042]:
+                  - link "Terms of Use" [ref=e1043] [cursor=pointer]:
+                    - /url: /terms
+          - paragraph [ref=e1044]: © 2026 Atlas Obscura. All Rights Reserved.
+      - button "Questions or Feedback? Contact Us" [ref=e1045] [cursor=pointer]
+  - img [ref=e1046]
+  - img [ref=e1047]
+  - alertdialog "Privacy" [ref=e1049]:
+    - generic [ref=e1050]:
+      - paragraph [ref=e1053]:
+        - text: Atlas Obscura uses cookies on its websites to personalize content and ads, to provide social media features, and to analyze our traffic.
+        - link "More information about our cookie policy, opens in a new tab" [ref=e1054] [cursor=pointer]:
+          - /url: https://www.atlasobscura.com/cookies
+          - text: View Cookie Policy
+      - generic [ref=e1056]:
+        - button "Allow Cookies" [ref=e1058] [cursor=pointer]
+        - button "Manage Preferences" [ref=e1059] [cursor=pointer]
+      - button "Close" [ref=e1061] [cursor=pointer]

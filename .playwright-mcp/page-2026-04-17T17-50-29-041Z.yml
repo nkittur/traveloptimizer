@@ -1,0 +1,1021 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "jump to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - generic [ref=e7] [cursor=pointer]: my subreddits ▼
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "popular" [ref=e11] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/popular/
+          - listitem [ref=e12]:
+            - text: "-"
+            - link "all" [ref=e13] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/all/
+          - listitem [ref=e14]:
+            - text: "-"
+            - link "users" [ref=e15] [cursor=pointer]:
+              - /url: https://old.reddit.com/users/
+        - text: "|"
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "AskReddit" [ref=e18] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/AskReddit/
+          - listitem [ref=e19]:
+            - text: "-"
+            - link "pics" [ref=e20] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/pics/
+          - listitem [ref=e21]:
+            - text: "-"
+            - link "funny" [ref=e22] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/funny/
+          - listitem [ref=e23]:
+            - text: "-"
+            - link "movies" [ref=e24] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/movies/
+          - listitem [ref=e25]:
+            - text: "-"
+            - link "worldnews" [ref=e26] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/worldnews/
+          - listitem [ref=e27]:
+            - text: "-"
+            - link "news" [ref=e28] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/news/
+          - listitem [ref=e29]:
+            - text: "-"
+            - link "todayilearned" [ref=e30] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/todayilearned/
+          - listitem [ref=e31]:
+            - text: "-"
+            - link "nottheonion" [ref=e32] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nottheonion/
+          - listitem [ref=e33]:
+            - text: "-"
+            - link "explainlikeimfive" [ref=e34] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/explainlikeimfive/
+          - listitem [ref=e35]:
+            - text: "-"
+            - link "mildlyinteresting" [ref=e36] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/mildlyinteresting/
+          - listitem [ref=e37]:
+            - text: "-"
+            - link "DIY" [ref=e38] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/DIY/
+          - listitem [ref=e39]:
+            - text: "-"
+            - link "videos" [ref=e40] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/videos/
+          - listitem [ref=e41]:
+            - text: "-"
+            - link "OldSchoolCool" [ref=e42] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/OldSchoolCool/
+          - listitem [ref=e43]:
+            - text: "-"
+            - link "TwoXChromosomes" [ref=e44] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/TwoXChromosomes/
+          - listitem [ref=e45]:
+            - text: "-"
+            - link "tifu" [ref=e46] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/tifu/
+          - listitem [ref=e47]:
+            - text: "-"
+            - link "Music" [ref=e48] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Music/
+          - listitem [ref=e49]:
+            - text: "-"
+            - link "books" [ref=e50] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/books/
+          - listitem [ref=e51]:
+            - text: "-"
+            - link "LifeProTips" [ref=e52] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/LifeProTips/
+          - listitem [ref=e53]:
+            - text: "-"
+            - link "dataisbeautiful" [ref=e54] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/dataisbeautiful/
+          - listitem [ref=e55]:
+            - text: "-"
+            - link "aww" [ref=e56] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/aww/
+          - listitem [ref=e57]:
+            - text: "-"
+            - link "science" [ref=e58] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/science/
+          - listitem [ref=e59]:
+            - text: "-"
+            - link "space" [ref=e60] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/space/
+          - listitem [ref=e61]:
+            - text: "-"
+            - link "Showerthoughts" [ref=e62] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Showerthoughts/
+          - listitem [ref=e63]:
+            - text: "-"
+            - link "askscience" [ref=e64] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/askscience/
+          - listitem [ref=e65]:
+            - text: "-"
+            - link "Jokes" [ref=e66] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Jokes/
+          - listitem [ref=e67]:
+            - text: "-"
+            - link "Art" [ref=e68] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Art/
+          - listitem [ref=e69]:
+            - text: "-"
+            - link "IAmA" [ref=e70] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/IAmA/
+          - listitem [ref=e71]:
+            - text: "-"
+            - link "Futurology" [ref=e72] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Futurology/
+          - listitem [ref=e73]:
+            - text: "-"
+            - link "sports" [ref=e74] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/sports/
+          - listitem [ref=e75]:
+            - text: "-"
+            - link "UpliftingNews" [ref=e76] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/UpliftingNews/
+          - listitem [ref=e77]:
+            - text: "-"
+            - link "food" [ref=e78] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/food/
+          - listitem [ref=e79]:
+            - text: "-"
+            - link "nosleep" [ref=e80] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/nosleep/
+          - listitem [ref=e81]:
+            - text: "-"
+            - link "creepy" [ref=e82] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/creepy/
+          - listitem [ref=e83]:
+            - text: "-"
+            - link "history" [ref=e84] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/history/
+          - listitem [ref=e85]:
+            - text: "-"
+            - link "gifs" [ref=e86] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gifs/
+          - listitem [ref=e87]:
+            - text: "-"
+            - link "InternetIsBeautiful" [ref=e88] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/InternetIsBeautiful/
+          - listitem [ref=e89]:
+            - text: "-"
+            - link "GetMotivated" [ref=e90] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/GetMotivated/
+          - listitem [ref=e91]:
+            - text: "-"
+            - link "gadgets" [ref=e92] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/gadgets/
+          - listitem [ref=e93]:
+            - text: "-"
+            - link "announcements" [ref=e94] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/announcements/
+          - listitem [ref=e95]:
+            - text: "-"
+            - link "WritingPrompts" [ref=e96] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/WritingPrompts/
+          - listitem [ref=e97]:
+            - text: "-"
+            - link "philosophy" [ref=e98] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/philosophy/
+          - listitem [ref=e99]:
+            - text: "-"
+            - link "Documentaries" [ref=e100] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/Documentaries/
+          - listitem [ref=e101]:
+            - text: "-"
+            - link "EarthPorn" [ref=e102] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/EarthPorn/
+          - listitem [ref=e103]:
+            - text: "-"
+            - link "photoshopbattles" [ref=e104] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/photoshopbattles/
+          - listitem [ref=e105]:
+            - text: "-"
+            - link "listentothis" [ref=e106] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/listentothis/
+          - listitem [ref=e107]:
+            - text: "-"
+            - link "blog" [ref=e108] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/blog/
+      - link "more »" [ref=e109] [cursor=pointer]:
+        - /url: https://old.reddit.com/subreddits/
+    - generic [ref=e110]:
+      - link "reddit.com" [ref=e111] [cursor=pointer]:
+        - /url: /
+      - link "orangecounty" [ref=e112] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/
+      - list [ref=e113]:
+        - listitem [ref=e114]:
+          - link "comments" [ref=e115] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - text: Want to join?
+        - link "Log in" [ref=e118] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: or
+        - link "sign up" [ref=e119] [cursor=pointer]:
+          - /url: https://www.reddit.com/login
+        - text: in seconds.
+      - list
+  - generic [ref=e120]:
+    - search [ref=e121]:
+      - textbox "search" [ref=e122]
+      - button "Submit" [ref=e123] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - text: this post was submitted on
+        - time [ref=e126]: 14 Jul 2025
+      - generic [ref=e127]: 12 points (87% upvoted)
+      - textbox [ref=e128]: https://redd.it/1lzyl1n
+    - generic [ref=e129]:
+      - link "Submit LinkSubmit a new link" [ref=e130] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/submit
+      - text: N/A
+    - generic [ref=e131]:
+      - text: N/A
+      - link "Submit TextSubmit a new text post" [ref=e132] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/submit?selftext=true
+    - generic [ref=e134]:
+      - text: Subreddit Info
+      - heading "orangecounty" [level=1] [ref=e135]:
+        - link "orangecounty" [ref=e136] [cursor=pointer]:
+          - /url: https://old.reddit.com/r/orangecounty/
+      - link "join" [ref=e138] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e141]:
+        - paragraph [ref=e142]: Orange County, CA - Before "the OC" we were that place between LA and SD. One thing is for certain, we aren't the 909!
+        - paragraph [ref=e143]:
+          - link "Discord" [ref=e144] [cursor=pointer]:
+            - /url: https://discord.gg/C3DMGUb
+          - link "Facebook" [ref=e145] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/ocreddit
+          - link "Twitter" [ref=e146] [cursor=pointer]:
+            - /url: https://twitter.com/ocreddit
+        - heading "Helpful Links" [level=3] [ref=e147]:
+          - link "Helpful Links" [ref=e148] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/faq?utm_source=reddit&utm_medium=usertext&utm_name=orangecounty&utm_content=t5_2rd9x
+        - paragraph [ref=e149]:
+          - link "FAQ" [ref=e150] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/faq
+          - link "OC Gov" [ref=e151] [cursor=pointer]:
+            - /url: https://www.ocgov.com/
+          - link "OC Register" [ref=e152] [cursor=pointer]:
+            - /url: https://www.ocregister.com/
+          - link "Craigslist" [ref=e153] [cursor=pointer]:
+            - /url: https://orangecounty.craigslist.org/
+          - link "Latest Earthquake Information" [ref=e154] [cursor=pointer]:
+            - /url: https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22:%221day_m25%22,%22search%22:null,%22sort%22:%22newest%22,%22basemap%22:%22grayscale%22,%22autoUpdate%22:true,%22restrictListToMap%22:true,%22timeZone%22:%22local%22,%22mapposition%22:%5B%5B31.484893386890164,-130.49560546875%5D,%5B42.147114459220994,-107.51220703125%5D%5D,%22overlays%22:%7B%22plates%22:true%7D,%22viewModes%22:%7B%22list%22:true,%22map%22:true,%22settings%22:false,%22help%22:false%7D%7D
+        - 'heading "Best of OC: Reddit Edition" [level=3] [ref=e155]':
+          - 'link "Best of OC: Reddit Edition" [ref=e156] [cursor=pointer]':
+            - /url: https://www.reddit.com/r/orangecounty/comments/1syzyw/best_of_orange_county_oc_reddit_edition_results/
+        - paragraph [ref=e157]:
+          - link "Votes" [ref=e158] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?q=flair%3Abest&sort=new&restrict_sr=on
+          - link "Winners" [ref=e159] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/wiki/guide
+          - link "Google Doc" [ref=e160] [cursor=pointer]:
+            - /url: https://docs.google.com/document/d/1CLKCf3KtP5atJc1jGL5Fk7r5nFk2Kyc55VCZBhechCo/edit
+        - heading "Flair Filter" [level=3] [ref=e161]:
+          - link "Flair Filter" [ref=e162] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty
+        - paragraph [ref=e163]:
+          - link "Announcement" [ref=e164] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AAnnouncement
+          - link "News" [ref=e165] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ANews
+          - link "Politics" [ref=e166] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3APolitics
+          - link "Weather" [ref=e167] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AQuestion
+          - link "Job Posting" [ref=e168] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AJob%2BPosting
+          - link "Discussion" [ref=e169] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ADiscussion
+          - link "Meetup" [ref=e170] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AMeetup
+          - link "Event" [ref=e171] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AEvent
+          - link "Ad" [ref=e172] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AAd
+          - link "Food" [ref=e173] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3AFood
+          - link "Photo/Video" [ref=e174] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3APhoto
+          - link "Community Post" [ref=e175] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?sort=new&restrict_sr=on&q=flair%3ACommunity%2BPost
+        - paragraph [ref=e176]:
+          - text: To filter out political posts, click
+          - link "here" [ref=e177] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/search?q=-flair%3Apolitics&restrict_sr=on&include_over_18=on&sort=relevance&t=all
+        - heading "Rules" [level=3] [ref=e178]:
+          - link "Rules" [ref=e179] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/orangecounty/about/rules/
+        - list [ref=e180]:
+          - listitem [ref=e181]:
+            - strong [ref=e182]:
+              - text: Follow
+              - link "Reddiquette" [ref=e183] [cursor=pointer]:
+                - /url: https://support.reddithelp.com/hc/en-us/articles/205926439-Reddiquette
+              - text: and
+              - link "Reddit's Content Policy" [ref=e184] [cursor=pointer]:
+                - /url: https://www.redditinc.com/policies/content-policy
+            - list [ref=e185]:
+              - listitem [ref=e186]: Be civil with one another. Bullying, harassment, trolling and doxxing are prohibited. Any discriminatory language in regard to race, gender, sex, sexual orientation, disability, national origin or religion will not be tolerated.
+              - listitem [ref=e187]: Do not post personal information.
+          - listitem [ref=e188]:
+            - strong [ref=e189]: Posts must directly relate to Orange County, California
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - text: If it's a state-wide topic,
+                - link "r/California" [ref=e192] [cursor=pointer]:
+                  - /url: /r/California
+                - text: may be more suitable. If it's a political topic at the national level,
+                - link "r/politics" [ref=e193] [cursor=pointer]:
+                  - /url: /r/politics
+                - text: may be a better fit.
+              - listitem [ref=e194]: In some instances, broader topics may have a significant impact on Orange County residents. It will be at the moderator's discretion to approve or remove these posts.
+          - listitem [ref=e195]:
+            - strong [ref=e196]: News articles must retain their original headline; no paywalls
+            - list [ref=e197]:
+              - listitem [ref=e198]: Editorialized titles are not allowed.
+              - listitem [ref=e199]: If the post's content is behind a paywall, such as the OC Register or LA Times, you must provide an archived link or paste the article's text within a comment of the post.
+          - listitem [ref=e200]:
+            - strong [ref=e201]: No Reposts.
+            - list [ref=e202]:
+              - listitem [ref=e203]: Please use the search function to ensure you are not reposting something that was recently posted. One post per subject.
+          - listitem [ref=e204]:
+            - strong [ref=e205]: Posts and comments must follow Reddit's guidelines on self-promotion
+            - list [ref=e206]:
+              - listitem [ref=e207]: All promotional posts must be pre-approved by a moderator.
+              - listitem [ref=e208]: Any form of advertising by users who do not contribute to or regularly participate in the community is strictly prohibited.
+          - listitem [ref=e209]:
+            - strong [ref=e210]: Ensure this subreddit is the most appropriate place to post
+            - list [ref=e211]:
+              - listitem [ref=e212]: For sale posts should be unique and beneficial to the community. Job postings must include compensation within the body of the post. Posts that are better suited for Nextdoor, Craigslist, Indeed, etc. may be removed at the moderator's discretion.
+              - listitem [ref=e213]: Posts involving hookups or prohibited transactions will be removed.
+        - paragraph [ref=e214]: Moderators reserve the right to remove posts and comments based on automatic filtering, and may choose to educate the user on proper posting procedure.
+        - heading "Sports" [level=1] [ref=e215]
+        - paragraph [ref=e216]:
+          - link "AngelsBaseball" [ref=e217] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/angelsbaseball
+          - link "Ducks" [ref=e218] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/AnaheimDucks
+        - heading "Locations" [level=1] [ref=e219]
+        - paragraph [ref=e220]:
+          - link "/r/California" [ref=e221] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/california/
+          - link "/r/losangeles" [ref=e222] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/losangeles
+          - link "/r/Anaheim" [ref=e223] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Anaheim
+          - link "/r/Fullerton" [ref=e224] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Fullerton
+          - link "/r/HuntingtonBeach" [ref=e225] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/HuntingtonBeach
+          - link "/r/InlandEmpire" [ref=e226] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/InlandEmpire
+          - link "/r/irvine" [ref=e227] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/irvine
+          - link "/r/lahabra" [ref=e228] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/lahabra
+          - link "/r/longbeach" [ref=e229] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/longbeach
+          - link "/r/NewportBeach" [ref=e230] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/NewportBeach
+          - link "/r/SanClemente" [ref=e231] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SanClemente
+          - link "/r/Tustin" [ref=e232] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/Tustin
+        - heading "Schools" [level=1] [ref=e233]
+        - paragraph [ref=e234]:
+          - link "CSUF" [ref=e235] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/CSUF
+          - link "CSULB" [ref=e236] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/CSULB
+          - link "UCI" [ref=e237] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/UCI
+          - link "UCR" [ref=e238] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/ucr
+          - link "Chapman" [ref=e239] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/chapmanuniversity
+          - link "SaddleBack" [ref=e240] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SaddlebackCollege
+          - link "OCC" [ref=e241] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/OCC
+        - heading "Other" [level=1] [ref=e242]
+        - paragraph [ref=e243]:
+          - link "Disneyland" [ref=e244] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/disneyland
+          - link "OCParents" [ref=e245] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/OCParents
+          - link "ThemePark" [ref=e246] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/themepark
+          - link "jobsinOC" [ref=e247] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/jobsinOC
+          - link "OCBeer" [ref=e248] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/ocbeer
+          - link "OCTrees" [ref=e249] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/octrees
+          - link "SoCalR4R" [ref=e250] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/SoCalR4R
+          - link "OC Classified" [ref=e251] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/occlassified
+          - link "SocalHiking" [ref=e252] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/socalhiking
+      - generic [ref=e254]:
+        - text: a community for
+        - time [ref=e255]: 16 years
+    - generic [ref=e257]:
+      - heading "MODERATORS" [level=1] [ref=e259]
+      - list [ref=e260]:
+        - listitem [ref=e261]:
+          - link "message the mods" [ref=e262] [cursor=pointer]:
+            - /url: /message/compose/?to=/r/orangecounty
+    - complementary [ref=e265]:
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - text: discussions in
+          - link "r/orangecounty" [ref=e268] [cursor=pointer]:
+            - /url: https://old.reddit.com/r/orangecounty/?ref=readnext
+        - navigation [ref=e269]:
+          - generic [ref=e270] [cursor=pointer]: <
+          - generic [ref=e271] [cursor=pointer]: ">"
+        - generic [ref=e273] [cursor=pointer]: X
+      - link "343 · 131 comments 0:17 On Euclid" [ref=e275] [cursor=pointer]:
+        - /url: https://old.reddit.com/r/orangecounty/comments/1snp8zm/on_euclid/?ref=readnext_0
+        - generic [ref=e276]: 343 · 131 comments
+        - generic [ref=e278]: 0:17
+        - generic [ref=e279]: On Euclid
+    - text: Subreddit CSS Theme by /r/Naut
+  - main [ref=e280]:
+    - generic [ref=e281]:
+      - link "Welcome to Reddit. Come for the cats, stay for the empathy. Become a Redditor and start exploring." [ref=e282] [cursor=pointer]:
+        - /url: /login
+        - heading "Welcome to Reddit." [level=2] [ref=e283]
+        - paragraph [ref=e284]: Come for the cats, stay for the empathy.
+        - generic [ref=e285]:
+          - generic [ref=e286]: Become a Redditor
+          - paragraph [ref=e287]: and start exploring.
+      - link "×" [ref=e288] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e290]:
+      - paragraph
+      - generic [ref=e291]:
+        - button "upvote"
+        - generic "12" [ref=e292]
+        - button "downvote"
+      - link [ref=e293] [cursor=pointer]:
+        - /url: /r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - paragraph [ref=e296]:
+            - generic "Recommendations Needed" [ref=e297]
+            - link "Best Korean food in South and Mid OC?" [ref=e298] [cursor=pointer]:
+              - /url: /r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/
+            - link "self.orangecounty" [ref=e299] [cursor=pointer]:
+              - /url: /r/orangecounty/
+          - paragraph [ref=e300]:
+            - text: submitted
+            - time [ref=e301]: 9 months ago
+            - text: by
+            - link "squishmallow2399" [ref=e302] [cursor=pointer]:
+              - /url: https://old.reddit.com/user/squishmallow2399
+            - 'generic ":Orange: Irvine :Orange:" [ref=e303]':
+              - text: "-"
+              - generic ":Orange:" [ref=e304]
+              - text: Irvine
+              - generic ":Orange:" [ref=e305]
+        - paragraph [ref=e310]: I’d love to go to a place that has bibimbap bowls but I’m open to all recommendations. I know North OC may have better Korean food- I just don’t want to drive 45 mins to go to a restaurant. I don’t want to drive any further than Santa Ana.
+        - list [ref=e311]:
+          - listitem [ref=e312]:
+            - link "16 comments" [ref=e313] [cursor=pointer]:
+              - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/
+          - listitem [ref=e314]:
+            - link "share" [ref=e315] [cursor=pointer]:
+              - /url: "javascript: void 0;"
+          - listitem [ref=e316]:
+            - link "save" [ref=e317] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e318]:
+            - link "hide" [ref=e321] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - listitem [ref=e322]:
+            - link "report" [ref=e323] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - generic [ref=e324]:
+      - generic [ref=e325]: all 16 comments
+      - generic [ref=e327]:
+        - text: "sorted by:"
+        - generic [ref=e329] [cursor=pointer]: best ▼
+      - link "Want to add to the discussion? Post a comment! Create an account" [ref=e332] [cursor=pointer]:
+        - /url: /login
+        - textbox [ref=e333]
+        - generic [ref=e334]:
+          - heading "Want to add to the discussion?" [level=2] [ref=e335]
+          - paragraph [ref=e336]: Post a comment!
+          - generic [ref=e338]: Create an account
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - paragraph
+          - generic [ref=e341]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e342]:
+            - paragraph [ref=e343]:
+              - link "[–]" [ref=e344] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "karaethon1" [ref=e345] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/karaethon1
+              - text: • • 17 points •
+              - time [ref=e346]: 9 months ago
+            - generic [ref=e349]:
+              - paragraph [ref=e350]: It’s all in Irvine
+              - paragraph [ref=e351]: For bbq baekjeong in Irvine.
+              - paragraph [ref=e352]: For tofu you can either go to bcd at diamond jamboree, kaju off Jeffrey and walnut, or it’s tofu off Irvine blvd
+              - paragraph [ref=e353]: For black bean noodles kyodong at hmart food court
+              - paragraph [ref=e354]: For soups, tang 190 off Jeffrey or yuk dae jang off Alton and culver
+            - list [ref=e355]:
+              - listitem [ref=e356]:
+                - link "permalink" [ref=e357] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35fkhb/
+              - listitem [ref=e358]:
+                - link "embed" [ref=e359] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e360]:
+                - link "save" [ref=e361] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e362]:
+                - link "report" [ref=e363] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - paragraph
+              - generic [ref=e367]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e368]:
+                - paragraph [ref=e369]:
+                  - link "[–]" [ref=e370] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "SunshineLBC" [ref=e371] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/SunshineLBC
+                  - text: • • 3 points •
+                  - time [ref=e372]: 9 months ago
+                - paragraph [ref=e376]: I love the banchan at Tang 190! Their bibimbap is pretty good, too.
+                - list [ref=e377]:
+                  - listitem [ref=e378]:
+                    - link "permalink" [ref=e379] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35lrm6/
+                  - listitem [ref=e380]:
+                    - link "embed" [ref=e381] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e382]:
+                    - link "save" [ref=e383] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e384]:
+                    - link "parent" [ref=e385] [cursor=pointer]:
+                      - /url: "#n35fkhb"
+                  - listitem [ref=e386]:
+                    - link "report" [ref=e387] [cursor=pointer]:
+                      - /url: javascript:void(0)
+            - generic [ref=e388]:
+              - paragraph
+              - generic [ref=e389]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e390]:
+                - paragraph [ref=e391]:
+                  - link "[–]" [ref=e392] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "bunniesandmilktea" [ref=e393] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/bunniesandmilktea
+                  - 'generic ":Orange: Irvine :Orange:" [ref=e394]':
+                    - text: "-"
+                    - generic ":Orange:" [ref=e395]
+                    - text: Irvine
+                    - generic ":Orange:" [ref=e396]
+                  - text: • • 1 point •
+                  - time [ref=e397]: 9 months ago
+                - paragraph [ref=e401]: Tang 190 hasn't been the same quality since they changed management imo.
+                - list [ref=e402]:
+                  - listitem [ref=e403]:
+                    - link "permalink" [ref=e404] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n37bn5r/
+                  - listitem [ref=e405]:
+                    - link "embed" [ref=e406] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e407]:
+                    - link "save" [ref=e408] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e409]:
+                    - link "parent" [ref=e410] [cursor=pointer]:
+                      - /url: "#n35fkhb"
+                  - listitem [ref=e411]:
+                    - link "report" [ref=e412] [cursor=pointer]:
+                      - /url: javascript:void(0)
+              - generic [ref=e415]:
+                - paragraph
+                - generic [ref=e416]:
+                  - button "upvote"
+                  - button "downvote"
+                - generic [ref=e417]:
+                  - paragraph [ref=e418]:
+                    - link "[–]" [ref=e419] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                    - text: "[deleted] • • 1 point •"
+                    - time [ref=e420]: 9 months ago
+                  - paragraph [ref=e424]: They’re rude AF, too.
+                  - list [ref=e425]:
+                    - listitem [ref=e426]:
+                      - link "permalink" [ref=e427] [cursor=pointer]:
+                        - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n4816u3/
+                    - listitem [ref=e428]:
+                      - link "embed" [ref=e429] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e430]:
+                      - link "save" [ref=e431] [cursor=pointer]:
+                        - /url: javascript:void(0)
+                    - listitem [ref=e432]:
+                      - link "parent" [ref=e433] [cursor=pointer]:
+                        - /url: "#n37bn5r"
+                    - listitem [ref=e434]:
+                      - link "report" [ref=e435] [cursor=pointer]:
+                        - /url: javascript:void(0)
+            - generic [ref=e436]:
+              - paragraph
+              - generic [ref=e437]:
+                - button "upvote"
+                - button "downvote"
+              - generic [ref=e438]:
+                - paragraph [ref=e439]:
+                  - link "[–]" [ref=e440] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - link "Jogk" [ref=e441] [cursor=pointer]:
+                    - /url: https://old.reddit.com/user/Jogk
+                  - text: • • 0 points •
+                  - time [ref=e442]: 9 months ago
+                - paragraph [ref=e446]: Tang 190 raised their prices and now everything is over $22.
+                - list [ref=e447]:
+                  - listitem [ref=e448]:
+                    - link "permalink" [ref=e449] [cursor=pointer]:
+                      - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35ggku/
+                  - listitem [ref=e450]:
+                    - link "embed" [ref=e451] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e452]:
+                    - link "save" [ref=e453] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                  - listitem [ref=e454]:
+                    - link "parent" [ref=e455] [cursor=pointer]:
+                      - /url: "#n35fkhb"
+                  - listitem [ref=e456]:
+                    - link "report" [ref=e457] [cursor=pointer]:
+                      - /url: javascript:void(0)
+        - generic [ref=e458]:
+          - paragraph
+          - generic [ref=e459]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e460]:
+            - paragraph [ref=e461]:
+              - link "[–]" [ref=e462] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "psychoskittles" [ref=e463] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/psychoskittles
+              - text: • • 8 points •
+              - time [ref=e464]: 9 months ago
+            - paragraph [ref=e468]:
+              - text: There’s tons of options in Irvine. My Korean co-worker’s favorite place is
+              - link "Tang N Tang" [ref=e469] [cursor=pointer]:
+                - /url: https://www.tntirvine.com/menus
+            - list [ref=e470]:
+              - listitem [ref=e471]:
+                - link "permalink" [ref=e472] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35boq9/
+              - listitem [ref=e473]:
+                - link "embed" [ref=e474] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e475]:
+                - link "save" [ref=e476] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e477]:
+                - link "report" [ref=e478] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e479]:
+          - paragraph
+          - generic [ref=e480]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e481]:
+            - paragraph [ref=e482]:
+              - link "[–]" [ref=e483] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "byneothername" [ref=e484] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/byneothername
+              - text: • • 6 points •
+              - time [ref=e485]: 9 months ago
+            - generic [ref=e488]:
+              - paragraph [ref=e489]: Yoo’s Place, the Irvine location
+              - paragraph [ref=e490]:
+                - link "https://www.instagram.com/yoosplace?igsh=NTc4MTIwNjQ2YQ==" [ref=e491] [cursor=pointer]:
+                  - /url: https://www.instagram.com/yoosplace?igsh=NTc4MTIwNjQ2YQ==
+              - paragraph [ref=e492]: I usually go for naengmyun but they have good food all around
+            - list [ref=e493]:
+              - listitem [ref=e494]:
+                - link "permalink" [ref=e495] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35fg4t/
+              - listitem [ref=e496]:
+                - link "embed" [ref=e497] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e498]:
+                - link "save" [ref=e499] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e500]:
+                - link "report" [ref=e501] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e502]:
+          - paragraph
+          - generic [ref=e503]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e504]:
+            - paragraph [ref=e505]:
+              - link "[–]" [ref=e506] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "gambitbjj" [ref=e507] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/gambitbjj
+              - text: • • 5 points •
+              - time [ref=e508]: 9 months ago
+            - paragraph [ref=e512]: I like Hanbop in Lake Forest.
+            - list [ref=e513]:
+              - listitem [ref=e514]:
+                - link "permalink" [ref=e515] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35r1qz/
+              - listitem [ref=e516]:
+                - link "embed" [ref=e517] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e518]:
+                - link "save" [ref=e519] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e520]:
+                - link "report" [ref=e521] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e522]:
+          - paragraph
+          - generic [ref=e523]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e524]:
+            - paragraph [ref=e525]:
+              - link "[–]" [ref=e526] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Suitable-Foot-2539" [ref=e527] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/Suitable-Foot-2539
+              - text: • • 5 points •
+              - time [ref=e528]: 9 months ago
+            - paragraph [ref=e532]: Mo Ran Gak in Garden Grove
+            - list [ref=e533]:
+              - listitem [ref=e534]:
+                - link "permalink" [ref=e535] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n37jc9x/
+              - listitem [ref=e536]:
+                - link "embed" [ref=e537] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e538]:
+                - link "save" [ref=e539] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e540]:
+                - link "report" [ref=e541] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e544]:
+            - paragraph
+            - generic [ref=e545]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e546]:
+              - paragraph [ref=e547]:
+                - link "[–]" [ref=e548] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "blazefreak" [ref=e549] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/blazefreak
+                - text: • • 3 points •
+                - time [ref=e550]: 9 months ago
+              - paragraph [ref=e554]: its the only kbbq i go to now. Got sick of baekjong and how many menu items they changed since dropping Kang Ho. Mo Ran Gak cold noodles are also something you cant really find with kbbq in irvine.
+              - list [ref=e555]:
+                - listitem [ref=e556]:
+                  - link "permalink" [ref=e557] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n37lilz/
+                - listitem [ref=e558]:
+                  - link "embed" [ref=e559] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e560]:
+                  - link "save" [ref=e561] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e562]:
+                  - link "parent" [ref=e563] [cursor=pointer]:
+                    - /url: "#n37jc9x"
+                - listitem [ref=e564]:
+                  - link "report" [ref=e565] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e566]:
+          - paragraph
+          - generic [ref=e567]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e568]:
+            - paragraph [ref=e569]:
+              - link "[–]" [ref=e570] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "hotdogfingers909" [ref=e571] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/hotdogfingers909
+              - text: • • 2 points •
+              - time [ref=e572]: 9 months ago
+            - paragraph [ref=e576]: I’ll second Tang N Tang as a solid choice, although we usually do their ssulungtang. I’d also try to food courts at H Mart, on Irvine or the Alton location. They have good variety and are in my opinion better than most Korean restaurants in Irvine.
+            - list [ref=e577]:
+              - listitem [ref=e578]:
+                - link "permalink" [ref=e579] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n37i9gi/
+              - listitem [ref=e580]:
+                - link "embed" [ref=e581] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e582]:
+                - link "save" [ref=e583] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e584]:
+                - link "report" [ref=e585] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e586]:
+          - paragraph
+          - generic [ref=e587]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e588]:
+            - paragraph [ref=e589]:
+              - link "[–]" [ref=e590] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "blazefreak" [ref=e591] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/blazefreak
+              - text: • • 2 points •
+              - time [ref=e592]: 9 months ago
+            - paragraph [ref=e596]: If in Lake Forest and needing a quick korean bibimbap try Umma kbbq. It is not really kbbq sit down but a rice bowl place.
+            - list [ref=e597]:
+              - listitem [ref=e598]:
+                - link "permalink" [ref=e599] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n37loq2/
+              - listitem [ref=e600]:
+                - link "embed" [ref=e601] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e602]:
+                - link "save" [ref=e603] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e604]:
+                - link "report" [ref=e605] [cursor=pointer]:
+                  - /url: javascript:void(0)
+          - generic [ref=e608]:
+            - paragraph
+            - generic [ref=e609]:
+              - button "upvote"
+              - button "downvote"
+            - generic [ref=e610]:
+              - paragraph [ref=e611]:
+                - link "[–]" [ref=e612] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - link "wojx" [ref=e613] [cursor=pointer]:
+                  - /url: https://old.reddit.com/user/wojx
+                - text: • • 1 point •
+                - time [ref=e614]: 9 months ago
+              - paragraph [ref=e618]: Second this - their island shrimp and chicken is amazing
+              - list [ref=e619]:
+                - listitem [ref=e620]:
+                  - link "permalink" [ref=e621] [cursor=pointer]:
+                    - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n39c9ka/
+                - listitem [ref=e622]:
+                  - link "embed" [ref=e623] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e624]:
+                  - link "save" [ref=e625] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                - listitem [ref=e626]:
+                  - link "parent" [ref=e627] [cursor=pointer]:
+                    - /url: "#n37loq2"
+                - listitem [ref=e628]:
+                  - link "report" [ref=e629] [cursor=pointer]:
+                    - /url: javascript:void(0)
+        - generic [ref=e630]:
+          - paragraph
+          - generic [ref=e631]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e632]:
+            - paragraph [ref=e633]:
+              - link "[–]" [ref=e634] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "3AMPMPST" [ref=e635] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/3AMPMPST
+              - text: • • 1 point •
+              - time [ref=e636]: 9 months ago
+            - paragraph [ref=e640]: King Chang for kbbq Misoolkwan for Korean pub
+            - list [ref=e641]:
+              - listitem [ref=e642]:
+                - link "permalink" [ref=e643] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n3cfxbc/
+              - listitem [ref=e644]:
+                - link "embed" [ref=e645] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e646]:
+                - link "save" [ref=e647] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e648]:
+                - link "report" [ref=e649] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - generic [ref=e650]:
+          - paragraph
+          - generic [ref=e651]:
+            - button "upvote"
+            - button "downvote"
+          - generic [ref=e652]:
+            - paragraph [ref=e653]:
+              - link "[–]" [ref=e654] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "ItsTragik" [ref=e655] [cursor=pointer]:
+                - /url: https://old.reddit.com/user/ItsTragik
+              - text: • • 0 points •
+              - time [ref=e656]: 9 months ago
+            - paragraph [ref=e660]: There’s a place called JinCook in Cypress that is amazing. Been there 10+ times and always went with the hot stone bulgogi.
+            - list [ref=e661]:
+              - listitem [ref=e662]:
+                - link "permalink" [ref=e663] [cursor=pointer]:
+                  - /url: https://old.reddit.com/r/orangecounty/comments/1lzyl1n/best_korean_food_in_south_and_mid_oc/n35exst/
+              - listitem [ref=e664]:
+                - link "embed" [ref=e665] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e666]:
+                - link "save" [ref=e667] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e668]:
+                - link "report" [ref=e669] [cursor=pointer]:
+                  - /url: javascript:void(0)
+  - generic [ref=e670]:
+    - generic [ref=e671]:
+      - list [ref=e673]:
+        - listitem [ref=e674]: about
+        - listitem [ref=e675]:
+          - link "blog" [ref=e676] [cursor=pointer]:
+            - /url: https://redditblog.com
+        - listitem [ref=e677]:
+          - link "about" [ref=e678] [cursor=pointer]:
+            - /url: https://www.redditinc.com
+        - listitem [ref=e679]:
+          - link "advertising" [ref=e680] [cursor=pointer]:
+            - /url: https://www.redditinc.com/advertising
+        - listitem [ref=e681]:
+          - link "careers" [ref=e682] [cursor=pointer]:
+            - /url: https://www.redditinc.com/careers
+      - list [ref=e684]:
+        - listitem [ref=e685]: help
+        - listitem [ref=e686]:
+          - link "site rules" [ref=e687] [cursor=pointer]:
+            - /url: https://old.reddit.com/rules/
+        - listitem [ref=e688]:
+          - link "Reddit help center" [ref=e689] [cursor=pointer]:
+            - /url: https://www.reddithelp.com
+        - listitem [ref=e690]:
+          - link "reddiquette" [ref=e691] [cursor=pointer]:
+            - /url: https://old.reddit.com/wiki/reddiquette/
+        - listitem [ref=e692]:
+          - link "mod guidelines" [ref=e693] [cursor=pointer]:
+            - /url: https://old.reddit.com/help/healthycommunities/
+        - listitem [ref=e694]:
+          - link "contact us" [ref=e695] [cursor=pointer]:
+            - /url: https://old.reddit.com/contact/
+      - list [ref=e697]:
+        - listitem [ref=e698]: apps & tools
+        - listitem [ref=e699]:
+          - link "Reddit for iPhone" [ref=e700] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8
+        - listitem [ref=e701]:
+          - link "Reddit for Android" [ref=e702] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.reddit.frontpage
+        - listitem [ref=e703]:
+          - link "mobile website" [ref=e704] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e706]:
+        - listitem [ref=e707]: <3
+        - listitem [ref=e708]:
+          - link "reddit premium" [ref=e709] [cursor=pointer]:
+            - /url: https://old.reddit.com/premium/
+    - paragraph [ref=e710]:
+      - text: Use of this site constitutes acceptance of our
+      - link "User Agreement" [ref=e711] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/useragreement
+      - text: and
+      - link "Privacy Policy" [ref=e712] [cursor=pointer]:
+        - /url: https://old.reddit.com/help/privacypolicy
+      - text: . © 2026 reddit inc. All rights reserved.
+    - paragraph [ref=e713]: REDDIT and the ALIEN Logo are registered trademarks of reddit inc.

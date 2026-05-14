@@ -1,0 +1,612 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Skip to content" [ref=e6] [cursor=pointer]:
+          - /url: "#site-content"
+        - link "Skip to site index" [ref=e7] [cursor=pointer]:
+          - /url: "#site-index"
+        - button "Section Navigation" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Section Navigation
+          - img [ref=e10]
+        - button "Search" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Search
+          - img [ref=e17]
+      - link "New York Times homepage" [ref=e20] [cursor=pointer]:
+        - /url: /
+        - img [ref=e21]
+      - generic [ref=e23]:
+        - link "GIVE THE TIMES" [ref=e25] [cursor=pointer]:
+          - /url: https://www.nytimes.com/subscription/gift?campaignId=6F88R&source=bar1
+          - generic [ref=e26]: GIVE THE TIMES
+        - button "Account Information" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - text: Account
+            - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img "Two skiers look at a large rock formation rising from the snow in a mountainous ski area." [ref=e41]
+          - generic [ref=e43]:
+            - link "36 Hours" [ref=e46] [cursor=pointer]:
+              - /url: https://www.nytimes.com/column/36-hours
+            - generic [ref=e48]: Cortina d’Ampezzo, Italy
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "Jump to:"
+            - link "Recommendations" [ref=e53] [cursor=pointer]:
+              - /url: "#recommendations"
+            - link "Itinerary" [ref=e55] [cursor=pointer]:
+              - /url: "#itinerary"
+            - generic [ref=e56]:
+              - link "Google Map" [ref=e57] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/Uhj2kb2hZRS2Yaf3A
+              - img [ref=e59]
+          - generic [ref=e63]:
+            - paragraph [ref=e64]:
+              - generic [ref=e65]:
+                - text: By Laura Rysman
+                - text: Photographs by Pontus Berghe
+            - paragraph [ref=e66]: Laura Rysman lives in Italy and has been writing about the country for The New York Times for more than a decade.
+            - time [ref=e67]: Jan. 1, 2026
+          - paragraph [ref=e68]:
+            - text: A tiny dot of an Alpine town turned snow playground for the conspicuously wealthy, Cortina d’Ampezzo will co-host the 2026 Winter Olympics with Milan, after first hosting the Games in 1956. Ampezzani
+            - emphasis [ref=e69]: ","
+            - text: "as Cortina’s locals are known, have long coexisted with tourists, but the new Olympics represent a different scale: Construction sites blanket the town, nearly a million tickets have been sold, and many in Cortina worry about preserving local life, with its distinctive Ladin language, centuries-old Tyrolean traditions, and the"
+            - link "Regole d’Ampezzo" [ref=e70] [cursor=pointer]:
+              - /url: https://www.regole.it/
+            - text: — the town’s collective stewardship of pastures and forests, dating to medieval times. Cortina is attracting ever-larger crowds in both summer and winter — some drawn by the surrounding Dolomite Mountains, which tower like spiky tidal waves of pale stone, and the Alpine sports; many by its glamorous see-and-be-seen cachet.
+          - generic [ref=e71]: Advertisement
+          - heading "Recommendations" [level=2] [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - button "Key stops –" [ref=e75] [cursor=pointer]:
+                - text: Key stops
+                - generic [ref=e76]: –
+              - list [ref=e77]:
+                - listitem [ref=e78]:
+                  - text: The otherworldly
+                  - strong [ref=e79]:
+                    - link "Cinque Torri" [ref=e80] [cursor=pointer]:
+                      - /url: https://5torri.it/index_en.php
+                  - text: are a landmark mountaintop rock formation and a key starting point for skiing, hiking and rock climbing.
+                - listitem [ref=e81]:
+                  - text: The relaxed, tradition-rooted
+                  - strong [ref=e82]:
+                    - link "El Brite de Larieto" [ref=e83] [cursor=pointer]:
+                      - /url: https://www.elbritedelarieto.com/
+                  - text: and its more experimental Michelin-starred sibling restaurant,
+                  - strong [ref=e84]:
+                    - link "SanBrite" [ref=e85] [cursor=pointer]:
+                      - /url: https://www.sanbrite.it/
+                  - text: ", both source ingredients from El Brite’s own farm, and offer two very different but essential dining destinations."
+                - listitem [ref=e86]:
+                  - text: Inside the 1804
+                  - strong [ref=e87]:
+                    - link "Hotel de la Poste" [ref=e88] [cursor=pointer]:
+                      - /url: https://www.delaposte.it/en/index
+                  - text: ", the eminently antique"
+                  - strong [ref=e89]: Bar del Posta
+                  - text: has served luminaries of every era, among them Ernest Hemingway, whose favorite corner bears the author’s inscription.
+            - generic [ref=e90]:
+              - button "Attractions and outdoor activities +" [ref=e91] [cursor=pointer]:
+                - text: Attractions and outdoor activities
+                - generic [ref=e92]: +
+              - list:
+                - listitem [ref=e93]:
+                  - text: The
+                  - strong [ref=e94]:
+                    - link "Tofane" [ref=e95] [cursor=pointer]:
+                      - /url: https://cortina.dolomiti.org/en/summer/discover/culture/history-and-world-war-1/tofane/
+                  - text: peaks are the town’s backyard mountains and the symbol of Alpine life and snow sports in Cortina.
+                - listitem [ref=e96]:
+                  - strong [ref=e97]:
+                    - link "Corso Italia" [ref=e98] [cursor=pointer]:
+                      - /url: https://www.ciaocortina.com/en/things-to-see-on-corso-italia-cortina-ampezzo.html
+                  - text: ", running the length of Cortina’s pedestrianized center, is the town’s central artery and the place for both shopping and the evening passeggiata."
+                - listitem [ref=e99]:
+                  - text: Three municipal museums – the
+                  - strong [ref=e100]:
+                    - link "Mario Rimoldi Museum of Modern Art" [ref=e101] [cursor=pointer]:
+                      - /url: https://musei.regole.it/Rimoldi/index_en.php
+                  - text: ", the"
+                  - strong [ref=e102]:
+                    - link "Paleontology Museum" [ref=e103] [cursor=pointer]:
+                      - /url: https://musei.regole.it/Zardini/index_en.php#
+                  - text: and the
+                  - strong [ref=e104]:
+                    - link "Ethnographic Museum" [ref=e105] [cursor=pointer]:
+                      - /url: https://musei.regole.it/Etno/index_en.php#
+                  - text: – offer visitors a cultural and deep-time introduction to Cortina.
+                - listitem [ref=e106]:
+                  - text: One-hour classes at the glass workshop of
+                  - strong [ref=e107]:
+                    - link "Claudia Alverà" [ref=e108] [cursor=pointer]:
+                      - /url: https://glass-art.it/glassworks/
+                  - text: are a hands-on introduction to local craft.
+                - listitem [ref=e109]:
+                  - text: Ice-skate at the rink of Olympians, the Modernist
+                  - strong [ref=e110]:
+                    - link "Stadio Olimpico del Ghiaccio" [ref=e111] [cursor=pointer]:
+                      - /url: https://www.serviziampezzo.it/strutture/stadio-olimpico-del-ghiaccio/
+                  - text: .
+                - listitem [ref=e112]:
+                  - text: Stargaze from a pristine mountain plateau at Cortina’s
+                  - strong [ref=e113]:
+                    - link "Helmut Ullrich Astronomical Observatory" [ref=e114] [cursor=pointer]:
+                      - /url: https://www.freccianelcielo.com/en/points-of-interest/astronomical-observatory-helmut-ullrich/
+                  - link "." [ref=e115] [cursor=pointer]:
+                    - /url: https://www.freccianelcielo.com/en/points-of-interest/astronomical-observatory-helmut-ullrich/
+            - generic [ref=e116]:
+              - button "Restaurants and bars +" [ref=e117] [cursor=pointer]:
+                - text: Restaurants and bars
+                - generic [ref=e118]: +
+              - list:
+                - listitem [ref=e119]:
+                  - strong [ref=e120]:
+                    - link "Alajmo Cortina" [ref=e121] [cursor=pointer]:
+                      - /url: https://alajmo.it/en/pages/homepage-cortina
+                  - text: is part of the expanding restaurant empire of the Alajmo brothers, Italian fine-dining legends.
+                - listitem [ref=e122]:
+                  - text: Experience technique-forward takes on Alpine eating at
+                  - strong [ref=e123]:
+                    - link "1224" [ref=e124] [cursor=pointer]:
+                      - /url: https://www.1224restaurantcortina.it/en/
+                  - link "," [ref=e125] [cursor=pointer]:
+                    - /url: https://www.1224restaurantcortina.it/en/
+                  - link [ref=e126] [cursor=pointer]:
+                    - /url: https://www.1224restaurantcortina.it/en/
+                  - text: inside the Grand Hotel Savoia.
+                - listitem [ref=e127]:
+                  - strong [ref=e128]:
+                    - link "Ristorante Ra Stua" [ref=e129] [cursor=pointer]:
+                      - /url: https://www.ristoranterastuacortina.it/
+                  - text: ", founded in 1937, serves classic Tyrolean cuisine."
+                - listitem [ref=e130]:
+                  - text: Enjoy an aperitivo and make friends with the regulars at the compact and convivial
+                  - strong [ref=e131]:
+                    - link "Enoteca Cortina" [ref=e132] [cursor=pointer]:
+                      - /url: https://www.enotecacortina.com/
+                  - text: .
+                - listitem [ref=e133]:
+                  - text: Drink like the locals do at
+                  - strong [ref=e134]:
+                    - link "El Becalen" [ref=e135] [cursor=pointer]:
+                      - /url: https://maps.app.goo.gl/25ms5fJTFFYcLzVh8
+                  - text: ", a decades-old, wood-paneled institution."
+                - listitem [ref=e136]:
+                  - text: Take in a supreme view of the Cinque Torri rock stacks over lunch or an après-ski drink at the mountaintop
+                  - strong [ref=e137]:
+                    - link "Rifugio Scoiattoli" [ref=e138] [cursor=pointer]:
+                      - /url: https://www.rifugioscoiattoli.it/eng/
+                  - text: .
+                - listitem [ref=e139]:
+                  - text: Indulge in Cortina’s sweets tradition with Hapsburg-inspired pastries at
+                  - strong [ref=e140]:
+                    - link "Pasticceria Alverà" [ref=e141] [cursor=pointer]:
+                      - /url: https://www.pasticceriaalvera.com/
+                  - text: .
+                - listitem [ref=e142]:
+                  - strong [ref=e143]:
+                    - link "La Fregola" [ref=e144] [cursor=pointer]:
+                      - /url: https://www.instagram.com/lafregolacortina/?hl=en
+                  - text: prepares homestyle desserts with recipes passed down by grandmothers.
+            - generic [ref=e145]:
+              - button "Shopping +" [ref=e146] [cursor=pointer]:
+                - text: Shopping
+                - generic [ref=e147]: +
+              - list:
+                - listitem [ref=e148]:
+                  - text: Dress like a chic mountain denizen with artisan-crafted clothing from
+                  - strong [ref=e149]:
+                    - link "Paoletti di Follina 1795" [ref=e150] [cursor=pointer]:
+                      - /url: https://paolettidifollina1795.it/
+                  - text: .
+                - listitem [ref=e151]:
+                  - strong [ref=e152]:
+                    - link "Ghedina Zuccaro" [ref=e153] [cursor=pointer]:
+                      - /url: https://maps.app.goo.gl/QfiL37tHgHzRj5iQA
+                  - text: offers classical Alpine styles for men, women and children.
+                - listitem [ref=e154]:
+                  - text: Cozy up your home with handmade housegoods from
+                  - strong [ref=e155]:
+                    - link "Magamaison" [ref=e156] [cursor=pointer]:
+                      - /url: http://www.magamaison.it/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnIAouw1d_8aEzpHPH34FakivVqa3o0mOM4Rh-_WWJ_rp9DxAoFPG1mG2-6Jg_aem_Kop1P8BkaZGaNa5oYuoBrA
+                  - text: .
+                - listitem [ref=e157]:
+                  - text: Find felted Alpine slippers amid the jumble at
+                  - strong [ref=e158]:
+                    - link "Sottosopra" [ref=e159] [cursor=pointer]:
+                      - /url: https://sottosopracortina.com/shop/it/
+                  - text: .
+                - listitem [ref=e160]:
+                  - text: Outdo the designer-clad ski set with niche-brand sunglasses from
+                  - strong [ref=e161]:
+                    - link "Indice" [ref=e162] [cursor=pointer]:
+                      - /url: https://www.indice.vision/?srsltid=AfmBOopeH1vJIrGAza44-h8VsvNY3rp6vb9UlU9pE4ShEBDgSCIBh5Tp
+                  - text: .
+                - listitem [ref=e163]:
+                  - text: The densely packed
+                  - strong [ref=e164]:
+                    - link "Verocai Antiques" [ref=e165] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/place//data=!4m2!3m1!1s0x477834309c6a7ed5:0xcbcd6e5d6062b966?sa=X&ved=1t:8290&ictx=111
+                  - text: has vintage works of art and local craftsmanship.
+            - generic [ref=e166]:
+              - button "Where to stay +" [ref=e167] [cursor=pointer]:
+                - text: Where to stay
+                - generic [ref=e168]: +
+              - list:
+                - listitem [ref=e169]:
+                  - text: With the Olympics boosting Cortina’s already considerable clout, investors are converting historic guesthouses into luxury hotels. The symbol of Cortina’s new era is the
+                  - strong [ref=e170]:
+                    - link "Hotel Ancora Cortina" [ref=e171] [cursor=pointer]:
+                      - /url: https://www.ancoracortina.com/
+                  - text: ", a previously faded 200-year-old hotel at the very heart of Cortina, revived by the fashion mogul Renzo Rosso with a lavish 1970s-inspired redesign and a lively evening scene, including a restaurant terrace overlooking the main piazza on Corso Italia, the town’s central drag (rooms from 580 euros, or about $683)."
+                - listitem [ref=e172]:
+                  - text: Also on Corso Italia,
+                  - strong [ref=e173]:
+                    - link "Hotel Cortina" [ref=e174] [cursor=pointer]:
+                      - /url: https://hotelcortina.com/
+                  - text: has been run by the same local family since opening in 1870, and maintains traditional Tyrolean flower-painted furnishings, plus suites for parents with children and a popular bar (rooms from €330).
+                - listitem [ref=e175]:
+                  - text: Elsewhere in the center, the family-owned
+                  - strong [ref=e176]:
+                    - link "Ciasa Lorenzi" [ref=e177] [cursor=pointer]:
+                      - /url: https://ciasalorenzi.it/en/
+                  - text: has recently remodeled, lightheartedly kitschy Alpine rooms (from €220).
+                - listitem [ref=e178]: In Cortina, prices rise sharply according to demand, so book far ahead and avoid peak periods if possible. For short-term rentals, look for local hosts, rather than agencies with numerous listings, to tread more lightly on this fragile community.
+            - generic [ref=e179]:
+              - button "Getting around +" [ref=e180] [cursor=pointer]:
+                - text: Getting around
+                - generic [ref=e181]: +
+              - list [ref=e182]:
+                - listitem [ref=e183]:
+                  - text: The tiny city center is entirely walkable. Taxis are available at the central Piazza Roma or by phone (+39 043-686-0888; €15 within 2.5 miles), and local
+                  - strong [ref=e184]:
+                    - link "buses" [ref=e185] [cursor=pointer]:
+                      - /url: https://www.serviziampezzo.it/trasporto-urbano/
+                  - text: serve many destinations (from €1.70). A vast ski area covering the entire territory of the Dolomites,
+                  - strong [ref=e186]:
+                    - link "Dolomiti Superski" [ref=e187] [cursor=pointer]:
+                      - /url: https://www.dolomitisuperski.com/en/areas/cortina-d-ampezzo
+                  - text: provides ski lift and cable car passes (from €72 per day), alongside information on its website for open slopes and lifts.
+                - listitem [ref=e188]:
+                  - text: To reach Cortina, the closest airport is in Venice, with a
+                  - strong [ref=e189]:
+                    - link "Cortina Express" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.cortinaexpress.it/en/
+                  - text: bus from Venezia Mestre, or a
+                  - strong [ref=e191]:
+                    - link "Trenitalia" [ref=e192] [cursor=pointer]:
+                      - /url: https://www.trenitalia.com/en.html
+                  - text: bus from Padua for arrivals from Milan.
+          - heading "Itinerary" [level=2] [ref=e193]
+          - generic [ref=e194]:
+            - heading "Friday" [level=2] [ref=e195]
+            - generic [ref=e196]:
+              - generic [ref=e197]: 5 p.m. Stroll in style
+              - paragraph [ref=e199]:
+                - text: "The early evening passeggiata, or stroll, is a constitutional part of Italian leisure. Along Cortina’s main drag, Corso Italia, it also doubles as a fashion show and anthropological study: Witness the Cortina habitués, whose wearing of fur reaches performative heights. Get acquainted with the Tyrolese town’s historical architecture as well, beginning at the 1769"
+                - link "Duomo" [ref=e200] [cursor=pointer]:
+                  - /url: https://parrocchiacortina.it/chiesa-parrocchiale/
+                - text: with its Dolomite stone bell tower. Steps away stand the
+                - link "Ciasa de ra Regoles" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.regole.it/IT/pagina111-ciasa-de-ra-regoles
+                - text: ", historic seat of Cortina’s communal land ownership; the Comun Vecio (old town hall), covered in heraldic family crests; the ethereally frescoed building Ciàsa de i Pùpe; the 15th-century"
+                - link "Casa Corazza" [ref=e202] [cursor=pointer]:
+                  - /url: https://cortina.dolomiti.org/it/pagina-altri-servizi/casa-corazza/
+                - text: ; and the diminutive
+                - link "San Francesco church" [ref=e203] [cursor=pointer]:
+                  - /url: https://parrocchiacortina.it/le-chiese-succursali/chiesa-di-san-francesco-in-p-tta-s-francesco/
+                - text: with 14th-century frescoes. Nearby is the architect Edoardo Gellner’s modernist 1955
+                - link "Palazzo delle Poste" [ref=e204] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/hrwnx6r1T3ba7BM49
+                - text: ", whose facade commemorates Cortina’s previous Olympics."
+            - generic [ref=e206]:
+              - img "People walk down a street at dusk illuminated with lights. A snowy mountain rises in the background." [ref=e208]
+              - paragraph [ref=e211]: Corso Italia, Cortina’s main street
+            - generic [ref=e212]:
+              - generic [ref=e213]: 7 p.m. Raise a glass with Hemingway’s ghost
+              - paragraph [ref=e215]:
+                - text: The most storied bar in Cortina is a snug establishment within the
+                - link "Hotel de la Poste" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.delaposte.it/en/index
+                - text: ", an 1804 post office transformed into a hotel, whose wood-paneled"
+                - link "Bar del Posta" [ref=e217] [cursor=pointer]:
+                  - /url: https://www.delaposte.it/hotel-con-ristorante-bar-cortina/bar-del-posta
+                - text: has served luminaries of every era. Ernest Hemingway’s usual corner remains untouched with its floral-painted grandfather clock and the author’s framed inscription. With damask-covered chairs, embroidered curtains and antique tin tableware lining the walls, it’s the ideal setting for enjoying a signature Puccini cocktail of Champagne and fresh tangerine juice (18 euros, or about $21), and for reminiscing. “This is a place where we don’t believe in changing things,” said a bowtie-wearing bartender. For fans of trashy Italian movies, this was also a frequent location featured in the “
+                - link "Cinepanettoni" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.nytimes.com/2023/12/30/world/europe/italy-cinema-panettone.html
+                - text: ” films, a genre of Christmas comedies launched in 1983.
+            - paragraph [ref=e224]: Bar del Posta
+            - generic [ref=e225]:
+              - generic [ref=e226]: 9 p.m. Dine with a star
+              - paragraph [ref=e228]:
+                - link "SanBrite" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.sanbrite.it/
+                - text: — awarded one Michelin star and Michelin’s Green Star for sustainability — is reason enough to visit Cortina, with the chef Riccardo Gaspari and his wife and general manager, Ludovica Rubbini, maintaining their own regenerative farm that supplies their two restaurants with meat, dairy and vegetables. Set within a traditional farmhouse known as a malga, SanBrite’s dinners include heaps of housemade butter, a trip to the cheese-curing cave and creative cooking that transforms Alpine ingredients into new and unforgettable dishes, like spaghetti in mountain pine oil, and dry-aged char bathed in beurre blanc. Dishes from €40; six-course tasting menu from €160. An alternative, and an outstanding Sunday lunch option, is the couple’s more casual
+                - link "El Brite de Larieto" [ref=e230] [cursor=pointer]:
+                  - /url: https://www.elbritedelarieto.com/
+                - text: ", serving rustic Alpine food meted out with Michelin finesse in a 1935-built mountain lodge next to their farm. Dishes from €24."
+            - generic [ref=e232]:
+              - img "A person holds a bowl of what appears to be a towering pile of butter. A loaf of bread and two wine glasses appear on a table behind." [ref=e234]
+              - paragraph [ref=e237]: SanBrite
+          - generic [ref=e238]:
+            - img "A person skis down a snowy slope." [ref=e240]
+            - paragraph [ref=e243]: The Tofane peaks are Cortina’s backyard mountains and the symbol of Alpine life in the town.
+          - generic [ref=e244]: Advertisement
+          - generic [ref=e245]:
+            - heading "Saturday" [level=2] [ref=e246]
+            - generic [ref=e247]:
+              - generic [ref=e248]: 8:30 a.m. Ski on Mars
+              - paragraph [ref=e250]:
+                - text: Cortina’s surrounding mountains are all dramatic, but to take a ski lift from Bai de Dones to
+                - link "Cinque Torri" [ref=e251] [cursor=pointer]:
+                  - /url: https://5torri.it/index_en.php
+                - text: (“five towers”) is to arrive on an astonishing alternate planet of rugged limestone stacks well above the tree line. The area marks the beginning of one of Ampezzo’s most spectacular skiing landscapes, though the mostly intermediate-level slopes are wide, rolling and mellow. From Bai de Dones, a cable car also brings skiers to the Lagazuoi peak, the starting point of the
+                - link "Hidden Valley trail," [ref=e252] [cursor=pointer]:
+                  - /url: https://inspireditaly.com/travellers-tales/dolomites-best-ski-runs-hidden-valley/
+                - text: which winds past frozen waterfalls and sheer cliffs, and ends with a horse-drawn ski tow (€8). (During the Olympics, check
+                - link "Dolomiti Superski" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.dolomitisuperski.com/en/areas/cortina-d-ampezzo
+                - text: "to see open trails and lifts.) Other adventure options:"
+                - link "cross-country skiing" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.ciaocortina.com/en/hike-cortina-walk-dolomites-former-railway.html
+                - text: ","
+                - link "snowshoeing" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.ciaocortina.com/en/what-to-do-winter-cortina.html
+                - text: and hiking in all seasons, with a comprehensive trail guide available on
+                - link "CiaoCortina" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.ciaocortina.com/en/best-hikes-in-cortina.html
+                - text: ", a locally run website."
+            - generic [ref=e258]:
+              - img "A large rock formation rises from a snowy mountain." [ref=e260]
+              - paragraph [ref=e263]: Cinque Torri
+            - generic [ref=e264]:
+              - generic [ref=e265]: 1 p.m. Lunch like a squirrel
+              - paragraph [ref=e267]:
+                - text: Named after Cortina’s first rock-climbers’ club,
+                - link "Rifugio Scoiattoli" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.rifugioscoiattoli.it/eng/
+                - text: (“squirrels”) was founded in 1969 and remains one of Ampezzo’s most loved mountain lodges. Lunch is steadfastly local, with fresh-made casunziei pasta stuffed with beets and poppy seeds, goulash stew with polenta and canederli speck dumplings (dishes from €13). Fashion brand logos are printed on tablecloths and everywhere else — part of an unfortunate sponsorship trend in Cortina — but the old timber floors and booths remain, as do the unbeatable views. After a couple of post-lunch runs, enjoy an après-ski bombardino cocktail of eggnog and brandy, or a glass of bubbly on the sunny terrace facing the Cinque Torri — the storied rock-climbing destination of the Scoiattoli and generations of alpinists.
+            - generic [ref=e270]:
+              - img "The interior of an empty restaurant with set tables and wooden walls." [ref=e272]
+              - paragraph [ref=e275]: Rifugio Scoiattoli
+            - generic [ref=e276]:
+              - generic [ref=e277]: 3:30 p.m. Shop for special finds
+              - paragraph [ref=e279]:
+                - text: Cortina’s main drag is lined with luxury boutiques, including brand-new Prada and Loro Piana stores — but niche, local and artisan goods also abound. Drawing on two centuries of wool-making,
+                - link "Paoletti di Follina 1795" [ref=e280] [cursor=pointer]:
+                  - /url: https://paolettidifollina1795.it/
+                - text: sells sophisticated women’s jackets and other Tyrolean and equestrian-inspired, artisan-made clothing.
+                - link "Ghedina Zuccaro" [ref=e281] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/yw9884SkJyv5CAsw6
+                - text: has Alpine styles for men, women and children, including wool socks hand-stitched with flowers that make great gifts (€18).
+                - link "Magamaison" [ref=e282] [cursor=pointer]:
+                  - /url: http://www.magamaison.it/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnIAouw1d_8aEzpHPH34FakivVqa3o0mOM4Rh-_WWJ_rp9DxAoFPG1mG2-6Jg_aem_Kop1P8BkaZGaNa5oYuoBrA
+                - text: is a wunderkammer of embroidered pillowcases, natural-dyed table linens and other homegoods, while amid the jumbled kitchenwares at
+                - link "Sottosopra" [ref=e283] [cursor=pointer]:
+                  - /url: https://sottosopracortina.com/shop/it/
+                - text: are souvenir-worthy Alpine felted slippers (from €62). Designer sunglasses? Choose a small-production pair at
+                - link "Indice" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.indice.vision/?srsltid=AfmBOopeH1vJIrGAza44-h8VsvNY3rp6vb9UlU9pE4ShEBDgSCIBh5Tp
+                - text: . For gorgeous traditional local crafts like filigree flowers of delicate silver-wire, explore the treasure trove of
+                - link "Verocai Antiques" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/place//data=!4m2!3m1!1s0x477834309c6a7ed5:0xcbcd6e5d6062b966?sa=X&ved=1t:8290&ictx=111
+                - text: . (Note that stores close for lunch.)
+            - generic [ref=e287]:
+              - img "The interior of a shop displaying coats in dark red and blue that appear to be made out of velvet." [ref=e289]
+              - paragraph [ref=e292]: Paoletti di Follina 1795
+            - generic [ref=e293]:
+              - generic [ref=e294]: 5 p.m. Eat a sweet
+              - paragraph [ref=e296]:
+                - text: Merenda, a mid-afternoon snack, is a Tyrolean ritual everyone can appreciate.
+                - link "Pasticceria Alverà" [ref=e297] [cursor=pointer]:
+                  - /url: https://www.pasticceriaalvera.com/
+                - text: ", founded in 1914 when Cortina still belonged to the Austro-Hungarian empire, draws on the Viennese pastry heritage, with specialties such as jewel-like mignon pastries (€1.50 each) of raspberry with pistachio, and other bright, Italian-inspired flavors, as well as the Dolomites’ Schüttelbrot, a rye flatbread with caraway seeds (€1.50 each). At"
+                - link "La Fregola" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lafregolacortina/?hl=en
+                - text: ", the baker Cecilia Gabrieli prepares her grandmother’s cakes and other home-style Ampezzo recipes, including classic linzer tarts, shortbread cookies and apple strudels (from €3.50 each). Her tiny outpost lacks a seating area, but just across the street are park benches facing the mountains."
+            - generic [ref=e300]:
+              - img "A person wearing a Christmas-themed apron lifts a glass lid from a display plate of cake in a cafe." [ref=e302]
+              - paragraph [ref=e305]: La Fregola
+            - generic [ref=e306]:
+              - generic [ref=e307]: 5:30 p.m. Explore Cortina’s art, culture and craft
+              - paragraph [ref=e309]:
+                - text: Cortina’s three municipal museums introduce visitors to different aspects of the area within a short distance of each other, starting with the
+                - link "Mario Rimoldi Museum of Modern Art" [ref=e310] [cursor=pointer]:
+                  - /url: https://musei.regole.it/Rimoldi/index_en.php
+                - text: ", where a local collector’s donation of more than 300 works showcases prominent early 20th-century Italian artists like Giorgio de Chirico and Giorgio Morandi (€8). The"
+                - link "Rinaldo Zardini Paleontology Museum" [ref=e311] [cursor=pointer]:
+                  - /url: https://musei.regole.it/Zardini/index_en.php#
+                - text: houses a remarkable wealth of fossils unearthed in the Dolomites; behind it, the
+                - link "Ethnographic Museum" [ref=e312] [cursor=pointer]:
+                  - /url: https://musei.regole.it/Etno/index_en.php#
+                - text: displays regional folk traditions, including Ampezzo’s filigree
+                - link "tremui" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.artigianatoartisticoampezzano.it/product/tremui-fiore-con-spillone-in-filigrana-dargento/
+                - text: "— floral silver hair ornaments — and customary special occasion outfits (combined ticket €8). Note: Museums are closed for the Olympics; the Ethnographic Museum may be open by reservation. For a hands-on alternative, the glass artist"
+                - link "Claudia Alverà" [ref=e314] [cursor=pointer]:
+                  - /url: https://glass-art.it/glassworks/
+                - text: offers family-friendly group workshops at her studio (one hour, €40 per person).
+            - generic [ref=e316]:
+              - img "A display of silver ornaments that are shaped like flowers with jewels at the center." [ref=e318]
+              - paragraph [ref=e321]: Ethnographic Museum
+            - generic [ref=e322]:
+              - generic [ref=e323]: 7 p.m. Drink at local haunts
+              - paragraph [ref=e325]:
+                - text: At aperitivo hour, Cortina’s main drag and side streets fill with evening merrymakers. The coziest spot in town is
+                - link "Enoteca Cortina" [ref=e326] [cursor=pointer]:
+                  - /url: https://www.enotecacortina.com/
+                - text: ", a pocket-size wine bar from 1962, hidden behind a curtained door. Inside, wooden booth seats face out so the whole room can fraternize. There’s a special magic conjured by its cellar of more than 500 wine labels, an easygoing atmosphere, and a mix of Ampezzani and Cortina’s repeat visitors (glasses from €6). Down the street,"
+                - link "El Becalen" [ref=e327] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/25ms5fJTFFYcLzVh8
+                - text: is a decades-old, wood-paneled institution where regulars’ drinks appear on the bar before they even order them. Everyone knows almost everyone, and their aperitivo of choice (drinks from €4).
+            - generic [ref=e329]:
+              - img "People sip glasses of wine in a narrow bar." [ref=e331]
+              - paragraph [ref=e334]: Enoteca Cortina
+            - generic [ref=e335]:
+              - generic [ref=e336]: 8:30 p.m. Taste Ampezzo
+              - paragraph [ref=e338]:
+                - text: In Cortina, rustic mountain cabins called baitas serve high-flying cuisine to a well-heeled clientele.
+                - link "Alajmo Cortina" [ref=e339] [cursor=pointer]:
+                  - /url: https://alajmo.it/en/pages/homepage-cortina
+                - text: ", one baita-turned-haute-dining destination, is owned by the Alajmo brothers who have earned Michelin stars elsewhere in Veneto, serving paprika tagliatelle with fiolaro broccoli, a local heritage variety, and tiramisù made tableside (two courses, €85; eight-course tasting menu, €165). The owners of another baita, the celebrated Baita"
+                - link "Piè Tofana" [ref=e340] [cursor=pointer]:
+                  - /url: https://baitapietofana.it/
+                - text: (closed for the Olympics) have opened the brand-new
+                - link "1224" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.1224restaurantcortina.it/en/
+                - text: restaurant with elegant versions of casunziei and polenta served with roast eel (two courses, €84; four-course tasting menu €110). For traditional (and cheaper) baita vibes in the middle of town,
+                - link "Ristorante Ra Stua" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.ristoranterastuacortina.it/
+                - text: ", founded in 1937, serves meats raised at the owner’s Padua farm, alongside humble but delicious housemade pastas (pasta from €20; meat dishes from €34)."
+            - generic [ref=e344]:
+              - img "A terra-cotta dish with tagliatelle and vegetables." [ref=e346]
+              - paragraph [ref=e349]: Alajmo
+            - generic [ref=e350]:
+              - generic [ref=e351]: 10 p.m. Survey the night
+              - paragraph [ref=e353]:
+                - text: Cortina’s
+                - link "Helmut Ullrich Astronomical Observatory" [ref=e354] [cursor=pointer]:
+                  - /url: https://www.cortinastelle.it/joomla30/index.php/en/how-to-visit/visits-for-the-public
+                - text: sits on the Col Drusciè plateau of the Tofane mountains. Open nights at the station (and some sun observation days) are sporadic, but the chance to observe the clear skies from this high plateau, largely free of light pollution, is not to be missed. See
+                - link "Cortina Stelle" [ref=e355] [cursor=pointer]:
+                  - /url: https://www.cortinastelle.it/joomla30/index.php/en/how-to-visit/visits-for-the-public
+                - text: for dates (tickets €5 to €10).
+          - generic [ref=e356]:
+            - img "The interior of a low-lit restaurant with hanging dried flowers and lit candlesticks." [ref=e358]
+            - paragraph [ref=e361]: Dinner at SanBrite includes heaps of housemade butter from its own dairy and a trip to the cheese-curing cave.
+          - generic [ref=e362]: Advertisement
+          - generic [ref=e363]:
+            - heading "Sunday" [level=2] [ref=e364]
+            - generic [ref=e365]:
+              - generic [ref=e366]: 8:30 a.m. Ski an icon
+              - paragraph [ref=e368]:
+                - text: The slopes of the Tofane are synonymous with Cortina, and just steps from the city center, the
+                - link "Freccia nel Cielo" [ref=e369] [cursor=pointer]:
+                  - /url: https://www.freccianelcielo.com/en/
+                - text: cable car whisks riders above its Olympic bobsled track and women’s downhill skiing trails. At Tofane’s two-mile-high peak, the steep black diamond trails are enough to induce vertigo in some, but from the Col Drusciè station farther down, there are trails of all levels, and views of the entire Ampezzo valley. Near the cable car base, the
+                - link "Stadio Olimpico del Ghiaccio" [ref=e370] [cursor=pointer]:
+                  - /url: https://www.serviziampezzo.it/strutture/stadio-olimpico-del-ghiaccio/
+                - text: ", an ice-skating rink built for the 1956 Olympics, is a Modernist landmark of Cortina (ice-skating with skates rental, €10). Both sites will be reserved for the 2026 games, and temporarily unavailable for public use."
+            - generic [ref=e372]:
+              - img "Two people stand on a wooden viewing platform at look at a snowy mountain." [ref=e374]
+              - paragraph [ref=e377]: Tofane mountains
+  - generic [ref=e382]:
+    - generic [ref=e383]:
+      - text: "See more on:"
+      - link "Ernest Hemingway" [ref=e384] [cursor=pointer]:
+        - /url: https://www.nytimes.com/topic/person/ernest-hemingway
+    - toolbar "Social Media Share buttons, Save button, and Comments Panel with current comment count" [ref=e386]:
+      - button "Read 70 comments" [ref=e388] [cursor=pointer]
+      - list [ref=e390]:
+        - listitem [ref=e391]:
+          - button "Share full article" [ref=e394] [cursor=pointer]:
+            - generic [ref=e395]:
+              - img [ref=e396]
+              - text: Share full article
+        - listitem [ref=e398]:
+          - button "More sharing options ..." [ref=e401] [cursor=pointer]:
+            - img [ref=e402]
+        - listitem [ref=e404]:
+          - switch "Save article for reading later..." [ref=e405] [cursor=pointer]:
+            - img [ref=e406]
+        - listitem [ref=e410]:
+          - button "Read 70 comments" [ref=e411] [cursor=pointer]:
+            - generic [ref=e412]:
+              - img [ref=e413]
+              - text: "70"
+    - region "Related Content" [ref=e416]:
+      - heading "Related Content" [level=2] [ref=e417]
+      - generic [ref=e418]:
+        - list [ref=e423]:
+          - listitem [ref=e424]:
+            - figure [ref=e430]
+          - listitem [ref=e432]:
+            - figure [ref=e438]
+          - listitem [ref=e440]:
+            - figure [ref=e446]
+          - listitem [ref=e448]:
+            - figure [ref=e454]
+          - listitem [ref=e456]:
+            - figure [ref=e462]
+          - listitem [ref=e464]:
+            - figure [ref=e470]
+        - list [ref=e476]:
+          - listitem [ref=e477]:
+            - figure [ref=e483]
+          - listitem [ref=e485]:
+            - figure [ref=e491]
+          - listitem [ref=e493]:
+            - figure [ref=e499]
+      - list [ref=e506]:
+        - listitem [ref=e507]
+        - listitem [ref=e512]
+        - listitem [ref=e517]
+        - listitem [ref=e522]
+        - listitem [ref=e527]
+        - listitem [ref=e532]
+        - listitem [ref=e537]
+        - listitem [ref=e542]
+        - listitem [ref=e547]
+        - listitem [ref=e552]
+    - generic [ref=e557]:
+      - paragraph [ref=e559]: Advertisement
+      - link "SKIP ADVERTISEMENT" [ref=e560] [cursor=pointer]:
+        - /url: "#after-bottom"
+    - navigation "Site Index" [ref=e562]:
+      - heading "Site Index" [level=2] [ref=e563]
+    - contentinfo [ref=e565]:
+      - navigation [ref=e566]:
+        - heading "Site Information Navigation" [level=2] [ref=e567]
+        - list [ref=e568]:
+          - listitem [ref=e569]:
+            - link "© 2026 The New York Times Company" [ref=e570] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice
+        - list [ref=e571]:
+          - listitem [ref=e572]:
+            - link "NYTCo" [ref=e573] [cursor=pointer]:
+              - /url: https://www.nytco.com/
+          - listitem [ref=e574]:
+            - link "Contact Us" [ref=e575] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times
+          - listitem [ref=e576]:
+            - link "Accessibility" [ref=e577] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility
+          - listitem [ref=e578]:
+            - link "Work with us" [ref=e579] [cursor=pointer]:
+              - /url: https://www.nytco.com/careers/
+          - listitem [ref=e580]:
+            - link "Advertise" [ref=e581] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/
+          - listitem [ref=e582]:
+            - link "T Brand Studio" [ref=e583] [cursor=pointer]:
+              - /url: https://advertising.nytimes.com/custom-content/
+          - listitem [ref=e584]:
+            - link "Privacy Policy" [ref=e585] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy
+          - listitem [ref=e586]:
+            - link "Cookie Policy" [ref=e587] [cursor=pointer]:
+              - /url: https://www.nytimes.com/privacy/cookie-policy
+          - listitem [ref=e588]:
+            - link "Terms of Service" [ref=e589] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service
+          - listitem [ref=e590]:
+            - link "Terms of Sale" [ref=e591] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale
+          - listitem [ref=e592]:
+            - link "Site Map" [ref=e593] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e594]:
+            - link "Help" [ref=e595] [cursor=pointer]:
+              - /url: https://help.nytimes.com/hc/en-us
+          - listitem [ref=e596]:
+            - link "Subscriptions" [ref=e597] [cursor=pointer]:
+              - /url: https://www.nytimes.com/subscription?campaignId=37WXW
+        - list [ref=e598]:
+          - listitem [ref=e599]:
+            - button "Your Privacy Choices" [ref=e600] [cursor=pointer]:
+              - img [ref=e601]
+              - text: Your Privacy Choices
