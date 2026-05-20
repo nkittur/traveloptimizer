@@ -144,6 +144,15 @@ export async function loadTripDestinations(tripId) {
   return data;
 }
 
+// ── Itineraries (locked single-trip briefs) ──
+
+export async function loadItinerary(id) {
+  const { data, error } = await sb()
+    .from('itineraries').select('*').eq('id', id).maybeSingle();
+  if (error) { console.error('loadItinerary:', error); return null; }
+  return data;
+}
+
 export async function loadTripPhotos(destinationIds) {
   if (!destinationIds?.length) return [];
   const { data, error } = await sb()

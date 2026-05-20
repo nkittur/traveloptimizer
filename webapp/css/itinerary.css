@@ -1,0 +1,234 @@
+/* itinerary.css — Mobile-first long-form trip page at /?i=<token>.
+   Reuses the design tokens from style.css (--bg, --text, --accent, etc.). */
+
+.i-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 0 64px;
+  background: var(--bg, #f5f5f7);
+  color: var(--text, #1d1d1f);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+/* ── Header (non-sticky) ── */
+.i-header {
+  padding: 24px 20px 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+  border-bottom: 1px solid var(--border, #e5e5ea);
+}
+.i-header-inner { max-width: 640px; margin: 0 auto; }
+.i-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.i-sub {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--text-secondary, #6e6e73);
+  font-weight: 500;
+}
+
+/* ── Sticky pill nav ── */
+.i-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255,255,255,0.92);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--border, #e5e5ea);
+}
+.i-nav-track {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 10px 16px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.i-nav-track::-webkit-scrollbar { display: none; }
+.i-pill {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a4a44;
+  background: #eeeeee;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.i-pill-day {
+  background: #e7eef6;
+  color: #1e3a5f;
+}
+.i-pill:hover { background: #e2e2e2; }
+.i-pill-day:hover { background: #d7e3f0; }
+.i-pill-active {
+  background: var(--text, #1d1d1f);
+  color: #fff;
+}
+.i-pill-active.i-pill-day {
+  background: #2d4f7a;
+  color: #fff;
+}
+
+/* ── Content body ── */
+.i-content {
+  padding: 20px 20px 40px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.i-content h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 8px 0 12px;
+  line-height: 1.2;
+}
+.i-content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 36px 0 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border, #e5e5ea);
+  scroll-margin-top: 80px;
+}
+.i-content h2:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+.i-content h3 {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #1d1d1f;
+  margin: 24px 0 8px;
+  scroll-margin-top: 80px;
+}
+.i-content h3:has(+ ul),
+.i-content h3 {
+  /* Day-3 headers ("Day 1 — Sat Aug 1") feel like cards */
+}
+.i-content p { margin: 10px 0; }
+.i-content ul, .i-content ol {
+  margin: 8px 0 12px;
+  padding-left: 22px;
+}
+.i-content li { margin: 4px 0; }
+.i-content li > p { margin: 2px 0; }
+.i-content strong { font-weight: 700; color: #1d1d1f; }
+.i-content em { font-style: italic; color: var(--text-secondary, #6e6e73); }
+.i-content code {
+  background: #f0f0f0;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.92em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.i-content a {
+  color: var(--accent, #0071e3);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.i-content a:hover { border-bottom-color: var(--accent, #0071e3); }
+.i-content blockquote {
+  margin: 12px 0;
+  padding: 8px 14px;
+  background: #fffaee;
+  border-left: 3px solid #f0c674;
+  color: #5a4824;
+  border-radius: 0 6px 6px 0;
+}
+.i-content blockquote p { margin: 4px 0; }
+.i-content hr {
+  border: none;
+  border-top: 1px solid var(--border, #e5e5ea);
+  margin: 32px 0;
+}
+
+/* Tables — for stays / omakase / punch-list */
+.i-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow, 0 1px 3px rgba(0,0,0,0.08));
+}
+.i-content thead { background: #f7f7f5; }
+.i-content th, .i-content td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border, #e5e5ea);
+  vertical-align: top;
+}
+.i-content th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #4a4a44;
+}
+.i-content tr:last-child td { border-bottom: none; }
+
+/* Phone numbers auto-wrapped by linkifyPhones() */
+.i-phone {
+  color: var(--accent, #0071e3) !important;
+  font-weight: 600;
+  border-bottom: 1px dashed currentColor;
+}
+
+/* ── States ── */
+.i-loading, .i-empty {
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--text-secondary, #6e6e73);
+}
+.i-empty code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+/* ── Footer ── */
+.i-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+  max-width: 640px;
+  margin: 32px auto 0;
+  border-top: 1px solid var(--border, #e5e5ea);
+  font-size: 13px;
+}
+.i-footer-link {
+  color: var(--accent, #0071e3);
+  text-decoration: none;
+  font-weight: 500;
+}
+.i-footer-by { color: var(--text-secondary, #6e6e73); }
+
+/* ── Wider screens: subtle margin tweaks ── */
+@media (min-width: 768px) {
+  .i-header { padding: 32px 24px 20px; }
+  .i-title { font-size: 28px; }
+  .i-content { padding: 28px 24px 48px; }
+  .i-content h2 { font-size: 22px; }
+}
+
+/* ── Body scroll behavior: smooth, no rubber-band on nav clicks ── */
+html { scroll-behavior: smooth; }
