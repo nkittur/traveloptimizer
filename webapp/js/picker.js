@@ -8,6 +8,7 @@ $root.hidden = false;
 let _publicGroups = [];
 let _publicCounts = {};
 let _publicTrips = [];
+let _publicItineraries = [];
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -76,6 +77,35 @@ function render() {
                   </div>
                   <div class="picker-card-actions">
                     <span class="picker-pill-public">Trip</span>
+                  </div>
+                </li>
+                `;
+              }).join('')}
+            </ul>
+          </section>
+        ` : ''}
+
+        ${_publicItineraries.length ? `
+          <section class="picker-section">
+            <h2 class="picker-section-title">Itineraries</h2>
+            <p class="picker-section-sub">Locked plans — day-by-day briefs, bookings, atmospheric picks.</p>
+            <ul class="picker-list">
+              ${_publicItineraries.map(it => {
+                const dates = (it.dates_start && it.dates_end)
+                  ? new Date(it.dates_start + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                    + ' – '
+                    + new Date(it.dates_end + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                  : (it.duration_days ? it.duration_days + ' days' : '');
+                return `
+                <li class="picker-card picker-card-public" data-action="open-itinerary" data-id="${esc(it.id)}">
+                  <div class="picker-card-main">
+                    <div class="picker-card-title">${esc(it.name || 'Itinerary')}</div>
+                    <div class="picker-card-sub">
+                      ${esc(dates)}${it.origin_airport ? ' · from ' + esc(it.origin_airport) : ''}
+                    </div>
+                  </div>
+                  <div class="picker-card-actions">
+                    <span class="picker-pill-public">Plan</span>
                   </div>
                 </li>
                 `;
@@ -191,6 +221,7 @@ $root.addEventListener('click', (e) => {
   const id = btn.dataset.id;
   if (action === 'open') { openGroup(id); return; }
   if (action === 'open-trip') { location.href = `/?t=${encodeURIComponent(id)}`; return; }
+  if (action === 'open-itinerary') { location.href = `/?i=${encodeURIComponent(id)}`; return; }
   if (action === 'share') { e.stopPropagation(); copyShareLink(id); return; }
   if (action === 'forget') {
     e.stopPropagation();
@@ -205,12 +236,14 @@ $root.addEventListener('click', (e) => {
 render();
 
 (async () => {
-  const [groups, trips] = await Promise.all([
+  const [groups, trips, itineraries] = await Promise.all([
     db.loadPublicGroups(),
     db.loadPublicTrips(),
+    db.loadPublicItineraries(),
   ]);
   _publicGroups = groups;
   _publicTrips = trips;
+  _publicItineraries = itineraries;
   if (_publicGroups.length) {
     _publicCounts = await db.countActiveRestaurants(_publicGroups.map(g => g.id));
   }

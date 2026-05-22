@@ -153,6 +153,16 @@ export async function loadItinerary(id) {
   return data;
 }
 
+export async function loadPublicItineraries() {
+  const { data, error } = await sb()
+    .from('itineraries')
+    .select('id,name,dates_start,dates_end,duration_days,origin_airport,traveler_slugs,created_at')
+    .eq('is_public', true)
+    .order('dates_start', { ascending: true });
+  if (error) { console.error('loadPublicItineraries:', error); return []; }
+  return data;
+}
+
 export async function loadTripPhotos(destinationIds) {
   if (!destinationIds?.length) return [];
   const { data, error } = await sb()
