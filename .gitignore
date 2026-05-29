@@ -1,2 +1,8 @@
 .env
 .vercel
+
+# Playwright MCP scratch dumps (snapshots, console logs)
+.playwright-mcp/
+
+# Stray QA/screenshot PNGs at repo root (subdir images like searches/**/pareto.png stay tracked)
+/*.png
