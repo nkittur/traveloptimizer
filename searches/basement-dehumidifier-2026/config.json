@@ -1,0 +1,51 @@
+{
+  "id": "basement-dehumidifier-2026",
+  "category": "dehumidifier",
+  "created_at": "2026-05-28T22:39:56.948Z",
+  "created_by_name": "Niki",
+  "use_case": "Small mildly-damp basement (≤1500 sq ft); continuous gravity-hose drain to floor drain; quiet; optimize value; weight reliability + energy",
+  "notes": "Floor drain sits at/below the unit, so a gravity hose works — no built-in pump required (skipping the pump removes the most common failure point, which supports the reliability priority). Cold-basement performance and smart features are NOT priorities. Do NOT artificially penalize high-capacity (50-pint) units — let noise/energy/value buckets self-penalize them. Cheaper is better. Deliverable includes a price-vs-performance Pareto curve.",
+  "context": {
+    "environment": "basement",
+    "basement_sqft": "≤1500",
+    "dampness": "mild",
+    "drain": "floor drain at or below unit level; continuous gravity hose downhill to the drain",
+    "ambient_temp": "cool (basement) — low-temp operation relevant but not prioritized"
+  },
+  "budget_usd": {
+    "target": null,
+    "max": 350,
+    "note": "hard cap $350; cheaper is better (value weight raised to reflect this)"
+  },
+  "must_haves": [
+    { "key": "gravity-hose-drain", "label": "Continuous gravity-drain hose port (drains downhill to a floor drain, no pump needed)", "test": "specs.drainage includes 'gravity-hose'" }
+  ],
+  "dealbreakers": [
+    { "key": "early-death", "label": "Compressor/unit failure pattern within ~2 years", "test": "critical reviews + Reddit show a recurring early-death pattern" },
+    { "key": "loud-for-class", "label": "Louder than its class / whine or rattle", "test": "measured dB high OR 'much louder than expected' is a recurring 3-star theme" },
+    { "key": "drain-leak", "label": "Hose/drain connection leaks or bucket sensor falsely trips and stops the unit", "test": "recurring critical-review theme" }
+  ],
+  "nice_to_haves": [
+    { "key": "auto-restart", "label": "Auto-restart after power loss (so it doesn't stay off after a blip)" },
+    { "key": "accurate-humidistat", "label": "Accurate humidistat / set-and-forget" },
+    { "key": "casters", "label": "Caster wheels — easy to reposition" },
+    { "key": "washable-filter", "label": "Washable, easy-access filter" }
+  ],
+  "scoring_weights": {
+    "noise": 2.0,
+    "reliability": 2.0,
+    "value": 1.5,
+    "energy": 1.3,
+    "capacity_fit": 1.0,
+    "drainage_fit": 0.5,
+    "cold_basement": 0.5,
+    "smart_features": 0.2
+  },
+  "scoring_notes": {
+    "capacity_fit": "Reward units that comfortably cover ≤1500 sq ft mildly damp; penalize ONLY undersizing. Do not penalize high capacity — noise/energy/value handle that.",
+    "value": "Cheaper is strictly better at equal performance; hard cap $350."
+  },
+  "deliverables": ["ranked report", "products.json ground truth", "price-vs-performance Pareto curve (perf = weighted non-price score: noise+reliability+energy+capacity+drainage)"],
+  "status": "converged",
+  "conviction": { "reached": true, "notes": "Pick: Midea Cube 20-pint (~$199). Runner-up: hOmeLabs 35 (~$220). Tradeoff = quiet+efficiency vs proven longevity. 50-pint+pump rejected on confirmed early-death dealbreaker." }
+}

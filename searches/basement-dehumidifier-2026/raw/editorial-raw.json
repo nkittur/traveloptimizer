@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-05-28",
+  "note": "Pass-1 editorial layer. Measured numbers from credible tested sources. Prices here are as-listed/estimated; LIVE prices pulled in Pass 2 via Playwright. spec_confidence='unverified' until manufacturer-confirmed.",
+  "sources": [
+    {
+      "publication": "DehumidifierBuyersGuide",
+      "type": "expert-specialist",
+      "url": "https://www.dehumidifierbuyersguide.com/",
+      "credibility": "high — tested 50+ units, publishes measured dB at 10ft + IEF efficiency",
+      "picks": [
+        { "rank": 1, "name": "Midea Cube 50", "model_number": "MAD50S1QWT", "capacity_pint": 50, "noise_db_10ft": 53.6, "noise_db_panel_high": 66.4, "drainage": ["gravity-hose", "tank"], "ief_l_per_kwh": 2.01, "price_est": "400-500", "note": "best-built, largest 34pt tank, lowest power draw tested, #1 overall" },
+        { "rank": 2, "name": "Frigidaire", "model_number": "FHDD5034W1", "capacity_pint": 50, "noise_db_10ft": 54.2, "noise_db_panel_high": 69.8, "drainage": ["gravity-hose", "tank"], "ief_l_per_kwh": 1.8, "price_est": "~Midea", "note": "solid, 2nd-fastest removal, 16.9pt tank" },
+        { "rank": 3, "name": "hOmeLabs HME1003", "model_number": "HME1003", "capacity_pint": 50, "noise_db_panel_high": 60.7, "drainage": ["gravity-hose", "tank"], "ief_l_per_kwh": 1.9, "price_est": "discounted", "note": "quietest side-exhaust; good value on sale" }
+      ]
+    },
+    {
+      "publication": "Consumer Reports — Quiet Dehumidifiers 2026",
+      "type": "expert-labtest",
+      "url": "https://www.consumerreports.org/appliances/dehumidifiers/quiet-dehumidifiers-for-your-home-a8225739559/",
+      "credibility": "high — lab tests + predicted-reliability survey + owner-satisfaction",
+      "picks": [
+        { "name": "Honeywell TPFIT50AWK", "capacity_pint": 50, "rating": "top quiet score; top energy efficiency + brand reliability", "caveat": "hard to find; middling owner satisfaction" },
+        { "name": "Midea MAD50PS1AWBL", "capacity_pint": 50, "rating": "fairly quiet for large; favorable reliability; midlevel owner sat" },
+        { "name": "Midea Cube 35", "model_number": "MAD35S1QWT", "capacity_pint": 35, "rating": "whisper-quiet; HIGHEST rating score of any model; top energy + convenience", "note": "PRIME candidate — right size for a small mildly-damp basement" },
+        { "name": "Midea MAD35C1AWS", "capacity_pint": 35, "rating": "budget-friendly; good water removal + efficiency" },
+        { "name": "Midea Cube 20", "model_number": "MAD20S1QWT", "capacity_pint": 20, "rating": "quietest model in all CR tests", "note": "may be undersized for up to 1500 sq ft" },
+        { "name": "TCL W25D92", "model_number": "W25D92", "capacity_pint": 25, "rating": "one of quietest small-capacity; Energy Star; VERY GOOD owner satisfaction" }
+      ]
+    }
+  ],
+  "candidate_models_to_drill": [
+    "Midea Cube 35 MAD35S1QWT",
+    "Midea Cube 20 MAD20S1QWT",
+    "Midea MAD35C1AWS (traditional form)",
+    "TCL W25D92",
+    "Honeywell TP-series (TP30/TP50)",
+    "Frigidaire FFAD/FGAC 35-pint",
+    "hOmeLabs 35/50",
+    "GE / LG PuriCare 35-pint (cross-check)"
+  ],
+  "rejected_sources": [
+    "storyonfridge.com — affiliate-spam listicle (L5)",
+    "wisedry.* — vendor blog",
+    "quietest.org / homegadgetix.com — affiliate listicles",
+    "Waykar/Airplus '35 dB' claims — spec-sheet dB, unverified, treat skeptically (L4)"
+  ]
+}

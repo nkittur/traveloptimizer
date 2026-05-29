@@ -9,6 +9,7 @@ let _publicGroups = [];
 let _publicCounts = {};
 let _publicTrips = [];
 let _publicItineraries = [];
+let _products = [];
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -110,6 +111,28 @@ function render() {
                 </li>
                 `;
               }).join('')}
+            </ul>
+          </section>
+        ` : ''}
+
+        ${_products.length ? `
+          <section class="picker-section">
+            <h2 class="picker-section-title">Buying guides</h2>
+            <p class="picker-section-sub">Researched product picks — sources, tradeoffs, and a clear recommendation you can act on.</p>
+            <ul class="picker-list">
+              ${_products.map(p => `
+                <li class="picker-card picker-card-public" data-action="open-product" data-id="${esc(p.id)}">
+                  <div class="picker-card-main">
+                    <div class="picker-card-title">${esc(p.title || 'Buying guide')}</div>
+                    <div class="picker-card-sub">
+                      Pick: ${esc(p.pick || '—')}${p.pick_price_usd ? ' · ~$' + esc(p.pick_price_usd) : ''}
+                    </div>
+                  </div>
+                  <div class="picker-card-actions">
+                    <span class="picker-pill-public">Guide</span>
+                  </div>
+                </li>
+              `).join('')}
             </ul>
           </section>
         ` : ''}
@@ -222,6 +245,7 @@ $root.addEventListener('click', (e) => {
   if (action === 'open') { openGroup(id); return; }
   if (action === 'open-trip') { location.href = `/?t=${encodeURIComponent(id)}`; return; }
   if (action === 'open-itinerary') { location.href = `/?i=${encodeURIComponent(id)}`; return; }
+  if (action === 'open-product') { location.href = `/products/${encodeURIComponent(id)}.html`; return; }
   if (action === 'share') { e.stopPropagation(); copyShareLink(id); return; }
   if (action === 'forget') {
     e.stopPropagation();
@@ -236,14 +260,17 @@ $root.addEventListener('click', (e) => {
 render();
 
 (async () => {
-  const [groups, trips, itineraries] = await Promise.all([
+  const [groups, trips, itineraries, products] = await Promise.all([
     db.loadPublicGroups(),
     db.loadPublicTrips(),
     db.loadPublicItineraries(),
+    // Buying guides are static files (no Supabase) — tolerate absence.
+    fetch('/products/index.json').then(r => r.ok ? r.json() : []).catch(() => []),
   ]);
   _publicGroups = groups;
   _publicTrips = trips;
   _publicItineraries = itineraries;
+  _products = Array.isArray(products) ? products : [];
   if (_publicGroups.length) {
     _publicCounts = await db.countActiveRestaurants(_publicGroups.map(g => g.id));
   }
